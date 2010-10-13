@@ -1,3 +1,5 @@
+.. _license:
+
 Numpy license
 =============
 

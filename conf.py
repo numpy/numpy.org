@@ -34,7 +34,7 @@ source_suffix = '.rst'
 #source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = 'content'
+master_doc = 'index'
 
 # General information about the project.
 project = u'Numpy'
@@ -137,13 +137,12 @@ html_favicon = 'favicon.ico'
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
 #html_additional_pages = {}
-html_additional_pages = {'index': 'index.html'}
 
 # If false, no module index is generated.
-#html_use_modindex = True
+html_use_modindex = False
 
 # If false, no index is generated.
-#html_use_index = True
+html_use_index = False
 
 # If true, the index is split into individual pages for each letter.
 #html_split_index = False
@@ -164,42 +163,6 @@ html_show_sourcelink = False
 
 # If nonempty, this is the file name suffix for HTML files (e.g. ".xhtml").
 #html_file_suffix = ''
-
-# Output file base name for HTML help builder.
-htmlhelp_basename = 'Scipy.org'
-
-
-# -- Options for LaTeX output --------------------------------------------------
-
-# The paper size ('letter' or 'a4').
-#latex_paper_size = 'letter'
-
-# The font size ('10pt', '11pt' or '12pt').
-#latex_font_size = '10pt'
-
-# Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title, author, documentclass [howto/manual]).
-latex_documents = [
-  ('index', 'numpy-scipy-org.tex', u'numpy.scipy.org',
-   u'NumPy collaborators', 'manual'),
-]
-
-# The name of an image file (relative to this directory) to place at the top of
-# the title page.
-#latex_logo = None
-
-# For "manual" documents, if this is true, then toplevel headings are parts,
-# not chapters.
-#latex_use_parts = False
-
-# Additional stuff for the LaTeX preamble.
-#latex_preamble = ''
-
-# Documents to append as an appendix to all manuals.
-#latex_appendices = []
-
-# If false, no module index is generated.
-#latex_use_modindex = True
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
