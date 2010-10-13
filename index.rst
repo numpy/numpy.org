@@ -13,8 +13,8 @@ Scientific Computing Tools For Python
 .. toctree::
    :hidden:
 
-   old_array_packages
    license
+   old_array_packages
 
 
 .. raw:: html
