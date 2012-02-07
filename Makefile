@@ -11,17 +11,21 @@ ALLSPHINXOPTS   = -d _build/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
-	@echo "  upload USER=...  to upload to numpy.scipy.org"
+	@echo "  upload    to upload to numpy.github.com"
 	@echo "  html      to make standalone HTML files"
 
 clean:
 	-rm -rf _build/*
 
 upload: html
-	chmod ug=rwX,o=rX -R _build/html
-	rsync -r -z --delete-after -p \
-	    _build/html/ \
-	    $(USER)@new.scipy.org:/srv/www/numpy/
+	cd _build/html && \
+	    touch .nojekyll && \
+	    rm -rf .git && \
+	    git init && \
+	    git remote add target git@github.com:numpy/numpy.github.com.git && \
+	    git add -A && \
+	    git commit -m "Rebuild site" -a && \
+	    git push -f target master:master
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) _build/html
