@@ -28,7 +28,7 @@ used to replace Numarray.
 
 Numeric users should find the transition relatively easy (although not without
 some effort).  There is a module (numpy.oldnumeric.alter_code1) that can
-makemost of the necessary changes to your Python code that used Numeric to work
+make most of the necessary changes to your Python code that used Numeric to work
 with NumPy's Numeric compatibility module.
 
 Users of numarray can also transition their code using a similar module
@@ -55,7 +55,8 @@ NumPy that can make the transition to NumPy easier (it will automatically
 perform the search-and-replace style changes that need to be made to python
 code that uses Numeric to make it work with NumPy).
 
-`Sourceforge Download Page for Numeric <http://sourceforge.net/project/showfiles.php?group_id=1369&package_id=1351>`__
+`Sourceforge Download Page for Numeric
+<http://sourceforge.net/projects/numpy/files/Old%20Numeric/>`__
 
 Numarray
 ========
@@ -63,8 +64,7 @@ Numarray
 Numarray is another implementation of an array object for Python written after
 Numeric and before NumPy. Sponsors of numarray have indicated they will be
 moving to NumPy as soon as is feasible for them so that eventually numarray
-will be phased out (probably sometime in 2007). This project shares some of the
-resources with the Numeric sourceforge site but maintains its own web page at
-http://www.stsci.edu/resources/software_hardware/numarray
+will be phased out (probably sometime in 2007).
 
-`Sourceforge Download Page for Numarray <http://sourceforge.net/project/showfiles.php?group_id=1369&package_id=32367>`__
+`Sourceforge Download Page for Numarray
+<http://sourceforge.net/projects/numpy/files/Old%20Numarray/>`__
