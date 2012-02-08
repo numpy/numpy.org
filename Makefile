@@ -20,6 +20,7 @@ clean:
 upload: html
 	cd _build/html && \
 	    touch .nojekyll && \
+	    echo numpy.scipy.org > CNAME && \
 	    rm -rf .git && \
 	    git init && \
 	    git remote add target git@github.com:numpy/numpy.github.com.git && \
