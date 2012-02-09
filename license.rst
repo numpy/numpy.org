@@ -3,7 +3,7 @@
 Numpy license
 =============
 
-| Copyright © 2005-2010, NumPy Developers.
+| Copyright © 2005-|today|, NumPy Developers.
 | All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
