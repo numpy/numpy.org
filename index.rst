@@ -49,13 +49,13 @@ Scientific Computing Tools For Python
    </table>
 
 
-NumPy is the fundamental package needed for scientific computing with Python.
+NumPy is the fundamental package for scientific computing with Python.
 It contains among other things:
 
 - a powerful N-dimensional array object
 - sophisticated (broadcasting) functions
 - tools for integrating C/C++ and Fortran code
-- useful linear algebra, Fourier transform, and random number capabilities.
+- useful linear algebra, Fourier transform, and random number capabilities
 
 Besides its obvious scientific uses, NumPy can also be used as an efficient
 multi-dimensional container of generic data. Arbitrary data-types can be
