@@ -14,6 +14,7 @@ help:
 	@echo "  upload     to upload to numpy.github.com"
 	@echo "  html       to make standalone HTML files"
 	@echo "  linkcheck  to check if external links work"
+	@echo "  clean      to remove build directory"
 
 clean:
 	-rm -rf _build/*
@@ -21,6 +22,7 @@ clean:
 upload: html
 	cd _build/html && \
 	    touch .nojekyll && \
+	    echo numpy.scipy.org > CNAME && \
 	    rm -rf .git && \
 	    git init && \
 	    git remote add target git@github.com:numpy/numpy.github.com.git && \
