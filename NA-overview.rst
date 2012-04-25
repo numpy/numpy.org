@@ -47,29 +47,53 @@ Points of disagreement:
 NA overview
 ###########
 
-The debate about how numpy should handle "NA", or "missing", or
-"masked", or "ignored" data has been long and contentious, with
-multiple competing proposals going through multiple revisions, plus
-innumerable mailing list posts. This has made it difficult for
-interested parties to understand the issues, which is a prerequisite
-for consensus.
+The debate about how numpy should handle missing data, a subject with
+many preexisting approaches, requirements, and conventions, has been long and
+contentious, with multiple competing proposals going through
+multiple revisions, plus innumerable mailing list posts. This
+has made it difficult for interested parties to understand the
+issues, which is a prerequisite for consensus.
 
-So, here's our (Mark and Nathaniel's) attempt to summarize the problem
+So, here is our (Mark and Nathaniel's) attempt to summarize the problem
 scope, proposals, and points of disagreement in a single place, so we
 can all start debating from the same page.
+
+What does "missing data" mean?
+==============================
+
+For this discussion, "missing data" means array elements
+which can be indexed (e.g. A[3] in an array A with shape (5,)),
+but for which there is not a value present.
+
+Differences between various missing data approaches include:
+
+* What values are computed when doing element-wise ufuncs.
+* What values are computed when doing reductions.
+* Whether the storage for an element gets overwritten when assigning NA.
+* Whether computations resulting in NaN automatically turn into a
+  missing value.
+* Whether one interacts with missing values using a placeholder object
+  (e.g. called "NA"), or through a separate boolean array.
+
+This is distinct from sparse storage, a closely related technique
+where A[3] would not have any bytes in memory allocated for the element.
 
 What's the problem we're trying to solve?
 =========================================
 
-We know of two situations where our users have encountered the need
-for some sort of missing/masked/ignored data.
+Here are some descriptions of existing practice that guides our
+views of missing data. In an attempt to avoid any preconceptions
+about what the missing data means in different cases, we will use
+the placeholder MISSING for the missing data in all our examples.
 
-Situation 1: "missing" data
+Statistical Packages Like R
 ---------------------------
 
 When doing various sorts of statistical analyses, it often occurs that
 there is some specific, meaningful value that *should* exist, but for
-some reason does not. E.g., if we have a table listing the height,
+some reason does not.
+
+For example, if we have a table listing the height,
 age, and income of a number of individuals, but one person did not
 provide their income, then we need some way to represent this. A
 natural way to do this is to define a special "missing" value::
@@ -80,8 +104,25 @@ natural way to do this is to define a special "missing" value::
      2   |   58   | 32  | MISSING
      3   |   71   | 45  | 30000
 
+One way to think about what computations this should result in
+is to ask the question "Is the result consistent with later
+discovering the values that were missing?"
+
+Let's say we want to compute the mean income, how might we do
+this? One way would be to just ignore the MISSING entry, and
+compute the mean of the remaining entries. This gives
+us (15000 + 30000)/2, or 22500.
+
+Is this result consistent with discovering the income of person 2?
+Let's say we find out that person 2's income is 50000. This means
+the correct answer is (15000 + 50000 + 30000)/3, or 31666.67,
+indicating clearly that it is not consistent. Therefore, the mean
+income is MISSING, i.e. a specific number whose value we are unable
+to compute.
+
 This use case suggests the following semantics:
-* Assignment: MISSING values are understood to represent specific
+Assignment
+  MISSING values are understood to represent specific
   unknown values, and thus should have value-like semantics with
   respect to assignment and other basic data manipulation
   operations. Code which does not actually look at the values involved
@@ -95,18 +136,26 @@ This use case suggests the following semantics:
   that the shortest person's income is not known, so the array should
   end up being ``[MISSING, 15000, 30000]``, but there's nothing
   special about MISSINGness here.
-* Propagation: Since MISSING represents a specific unknown value, this
-  suggests a natural semantics for ufunc operations. If you ask me,
-  "what is 3 plus x?", then my only possible answer is "I don't know,
-  it depends on x". MISSING means "I don't know", so 3 + MISSING is
-  MISSING. This is also important for safety: missing data often
+
+Propagation
+  In the example above, we concluded that an operation like *mean*
+  should produce MISSING when one of its data values was MISSING.
+  This can be generalized into a notion called propagation.
+
+  If you ask me, "what is 3 plus x?", then my only possible answer
+  is "I don't know, it depends on x". MISSING means "I don't know",
+  so 3 + MISSING is MISSING.
+  
+  This is also important for safety: missing data often
   requires special handling for correctness -- the fact that you are
   missing information might mean that something you wanted to compute
   cannot actually be computed, and there are whole books written on
   how to compensate in various situations. Plus, it's easy to not
   realize that you have missing data, and write code that assumes you
   have all the data. Such code should not silently produce the wrong
-  answer. Even simple code like the naive implementation of mean::
+  answer.
+  
+  Even simple code like the naive implementation of mean::
 
     def my_mean(x):
         x = np.asarray(x)
@@ -116,6 +165,23 @@ This use case suggests the following semantics:
   values and ``np.sum`` skips over them. Therefore, MISSING must
   "propagate" though calculations, unless explicitly requested
   otherwise.
+
+  There is an important exception to characterizing this as propagation,
+  in the case of boolean values. Consider the calculation::
+
+    v = np.any([False, False, MISSING, True])
+
+  If we strictly propagate, *v* will become MISSING. However, no
+  matter whether we place True or False into the third array position,
+  *v* will then get the value True. The answer to the question
+  "Is the result True consistent with later discovering the value
+  that was missing?" is yes, so it is reasonable to not propagate here,
+  and instead return the value True. This is what R does::
+
+    > any(c(F, F, NA, T))
+    [1] TRUE
+    > any(c(F, F, NA, F))
+    [1] NA
 
 Currently numpy does not provide any very useful solution to users who
 find themselves in this situation. Users who need this functionality
@@ -167,7 +233,7 @@ say:
   underlying array
 * Most users seem to expect that reduction operations like np.sum
   should automatically skip over ignored values: ``np.sum([1,
-  IGNORED]) == 1``. However, see below for debate on this.
+  MISSING]) == 1``. However, see below for debate on this.
 * Most users seem to expect that accessing and modifying which values
   are ignored should be convenient and straightforward.
 
