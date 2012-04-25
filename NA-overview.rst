@@ -2,21 +2,45 @@ Mark's initial summary
 ========================
 Points of agreement:
 
-1. The NA (Not Available) abstraction is a good thing, following in the footsteps of S, R, etc. In particular, using "propagate" by default for reduction operations is desirable.
-2. The numpy community has not achieved consensus about missing data functionality.
-3. We do not want to get stuck supporting an implementation that is "yet another bad missing data choice among many," but rather would like a solution which gets high user adoption.
+1. The NA (Not Available) abstraction is a good thing, following in
+the footsteps of S, R, etc. In particular, using "propagate" by
+default for reduction operations is desirable.
+2. The numpy community has not achieved consensus about missing
+data functionality.
+3. We do not want to get stuck supporting an implementation that
+is "yet another bad missing data choice among many," but rather
+would like a solution which gets high user adoption.
 4. Including the NA masks as is, enabled by default, exposes some risk of #3.
 
 Points of disagreement:
 
 1. Whether NA/IGNORE and mask/bitpattern are fully independent concepts
-Mark: They are fully independent, NA/IGNORE is about computation, and mask/bitpattern is about whether data gets destroyed in certain contexts.
-Nathaniel: People naturally think about NA as bitpatterns and IGNORE as masks.
+    Mark: They are fully independent, NA/IGNORE is about computation,
+        and mask/bitpattern is about whether data gets destroyed in
+        certain contexts.
+    Nathaniel: People naturally think about NA as bitpatterns and
+        IGNORE as masks.
 2. What is the best strategy for gaining knowledge, experience and input for gaining consensus about missing data in numpy.
-Mark: The lack of consensus is in large part a consequence of the fact that so many different missing data applications are in the wild, and there is no existing example of an implementation simultaneously supporting NA + masks + view semantics in the wild for comparison.
-Therefore, an easily accessible implementation for people to experiment with and gain practical experience is essential to better understand the problem and how it relates to numpy in particular, and the current implementation should ship with numpy, marked as experimental in the documentation and possible disabled by default with a global flag.
-Nathaniel: Consensus should be reached before releasing an NA implementation in mainline numpy, particularly an implementation which might be ignored by many people. The long term support burden of such a release may be huge, and there is a big risk that existing mask users won't like the NA-behavior, while the stats users won't like the overhead of a mask.
-Therefore, the NA mask should be excised from the code, and put in a separate module for interested users to install and experiment with separately.
+    Mark: The lack of consensus is in large part a consequence of the
+        fact that so many different missing data applications are in
+        the wild, and there is no existing example of an implementation
+        simultaneously supporting NA + masks + view semantics in the
+        wild for comparison.
+          Therefore, an easily accessible implementation for people to
+        experiment with and gain practical experience is essential to
+        better understand the problem and how it relates to numpy in
+        particular, and the current implementation should ship with
+        numpy, marked as experimental in the documentation and
+        possible disabled by default with a global flag.
+    Nathaniel: Consensus should be reached before releasing an NA
+        implementation in mainline numpy, particularly an implementation
+        which might be ignored by many people. The long term support
+        burden of such a release may be huge, and there is a big risk
+        that existing mask users won't like the NA-behavior, while
+        the stats users won't like the overhead of a mask.
+          Therefore, the NA mask should be excised from the code, and
+          put in a separate module for interested users to install
+          and experiment with separately.
 
 
 
