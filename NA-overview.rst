@@ -195,6 +195,77 @@ are instead using:
 * numpy.ma
 * R
 
+Missing Data in R Plotting, Matplotlib
+--------------------------------------
+
+Matplotlib provides plotting capabilities, and supports numpy's
+numpy.ma masked array. For example, a simple point plot with
+a missing entry simply drops that entry::
+
+    R code:
+    y <- c(1, 3, 6, NA, 9)
+    plot(y)
+
+    Pylab code:
+    y = ma.array([1,3,6,np.nan, 9], mask=[0,0,0,1,0])
+    plot(y, 'o')
+    
+.. image:: NA-overview_images/scatter-plot.jpg
+
+A line plot with markers drops the missing entries, and only draws
+lines between adjacent values that are available::
+
+    R code:
+    y <- c(1, 2, NA, 3, NA, 3, 1)
+    plot(y, type="o")
+
+    Pylab code:
+    y = ma.array([1, 2, 0, 3, 0, 3, 1], mask=[0,0,1,0,1,0,0])
+    plot(y, marker='o')
+
+.. image:: NA-overview_images/line-marker-plot.jpg
+
+In all the tests we've tried, R treated NAs the same way that matplotlib
+treated numpy.ma masked values.
+[NATHANIEL: Since you have more experience
+with R, would you be able to play around with this a bit more?]
+
+The matplotlib pcolor function does some additional
+manipulations of masks to avoid plotting data points which are
+adjacent to a masked value.
+
+In general, it appears that matplotlib would like to treat all
+forms of missing data it receives the same, treating them just
+like R treats NA values.
+
+Image Processing-Style Masking/Selecting Data
+---------------------------------------------
+
+In image processing, both at a programming level and a user
+level as seen in photoshop, masks are used extensively to
+select portions of image data. These masks can be hard, containing
+just 0 or 1 values, or soft, with transparency blending between 0
+and 1.
+
+In this case, the mask is basically telling all computations to
+"just affect the selected parts". For example, assigning a value
+to an element that has a mask value of 0.5 might assign a 50-50
+blend between the element's existing value and the assignment value.
+
+When combining several such masked arrays together in an operation,
+the selection value might be used as a weight for the value it
+corresponds to. There is even a strong case for the value in fact to
+be stored as pre-multiplied by this weight instead of as the raw
+value, as this makes many things more natural.
+
+This style of missing data usage was raised by Joe Harrington
+during the NA discussions, in the context of processing astronomical
+images. While it would be nice to find one abstraction that supports
+all the different cases, this generalization towards a real-valued
+weight seems inherently different than the R-style NA, where a
+natural generalization is towards having multiple discrete categories
+of NA.
+
 Situation 2: "ignoring" data
 ----------------------------
 
@@ -207,25 +278,28 @@ already, by use of various indexing operations, e.g.::
   np.add(arr1, arr2, out=arr1, where=mask)
 
 But there are three reasons why some users find these insufficient:
+
 1. One often needs to perform complex operations like indexing or
-iteration on *both* an array and its mask simultaneously, to keep them
-'lined up' for future operations. Writing this code can be a
-hassle. Similarly, it can be annoying to have to pass two arguments
-(data + mask) to every function, instead of just one. (Example of this
-usage: matplotlib)
+   iteration on *both* an array and its mask simultaneously, to keep them
+   'lined up' for future operations. Writing this code can be a
+   hassle. Similarly, it can be annoying to have to pass two arguments
+   (data + mask) to every function, instead of just one. (Example of this
+   usage: matplotlib)
+
 2. There are functions which one would like to run on a subset of
-one's data, but which accept only an array, not a mask. Some subset of
-these functions could be convinced to run on a subset of data by going
-through and adding a where= argument to all their ufunc calls. (Of
-course, others would silently start returning the wrong results,
-cf. ``my_mean``!) So it could be convenient to have a special sort of
-array which automatically added a where= argument to all the ufuncs
-that were called on it.
+   one's data, but which accept only an array, not a mask. Some subset of
+   these functions could be convinced to run on a subset of data by going
+   through and adding a where= argument to all their ufunc calls. (Of
+   course, others would silently start returning the wrong results,
+   cf. ``my_mean``!) So it could be convenient to have a special sort of
+   array which automatically added a where= argument to all the ufuncs
+   that were called on it.
+
 3. Many users (esp. those without as much programming experience) may
-simply find it easier to think about one more complex object that
-someone else put together and documented in one place (a "masked
-array"), instead of two simple objects that are combined in flexible
-ways on the fly using atomic operations like indexing.
+   simply find it easier to think about one more complex object that
+   someone else put together and documented in one place (a "masked
+   array"), instead of two simple objects that are combined in flexible
+   ways on the fly using atomic operations like indexing.
 
 The semantics for this use case are more controversial, but we can
 say:
