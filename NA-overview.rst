@@ -1,49 +1,3 @@
-Mark's initial summary
-========================
-Points of agreement:
-
-1. The NA (Not Available) abstraction is a good thing, following in
-the footsteps of S, R, etc. In particular, using "propagate" by
-default for reduction operations is desirable.
-2. The numpy community has not achieved consensus about missing
-data functionality.
-3. We do not want to get stuck supporting an implementation that
-is "yet another bad missing data choice among many," but rather
-would like a solution which gets high user adoption.
-4. Including the NA masks as is, enabled by default, exposes some risk of #3.
-
-Points of disagreement:
-
-1. Whether NA/IGNORE and mask/bitpattern are fully independent concepts
-    Mark: They are fully independent, NA/IGNORE is about computation,
-        and mask/bitpattern is about whether data gets destroyed in
-        certain contexts.
-    Nathaniel: People naturally think about NA as bitpatterns and
-        IGNORE as masks.
-2. What is the best strategy for gaining knowledge, experience and input for gaining consensus about missing data in numpy.
-    Mark: The lack of consensus is in large part a consequence of the
-        fact that so many different missing data applications are in
-        the wild, and there is no existing example of an implementation
-        simultaneously supporting NA + masks + view semantics in the
-        wild for comparison.
-          Therefore, an easily accessible implementation for people to
-        experiment with and gain practical experience is essential to
-        better understand the problem and how it relates to numpy in
-        particular, and the current implementation should ship with
-        numpy, marked as experimental in the documentation and
-        possible disabled by default with a global flag.
-    Nathaniel: Consensus should be reached before releasing an NA
-        implementation in mainline numpy, particularly an implementation
-        which might be ignored by many people. The long term support
-        burden of such a release may be huge, and there is a big risk
-        that existing mask users won't like the NA-behavior, while
-        the stats users won't like the overhead of a mask.
-          Therefore, the NA mask should be excised from the code, and
-          put in a separate module for interested users to install
-          and experiment with separately.
-
-
-
 NA overview
 ###########
 
@@ -227,7 +181,7 @@ lines between adjacent values that are available::
 
 In all the tests we've tried, R treated NAs the same way that matplotlib
 treated numpy.ma masked values.
-[NATHANIEL: Since you have more experience
+[NATHANIEL, Since you have more experience
 with R, would you be able to play around with this a bit more?]
 
 The matplotlib pcolor function does some additional
@@ -265,6 +219,29 @@ all the different cases, this generalization towards a real-valued
 weight seems inherently different than the R-style NA, where a
 natural generalization is towards having multiple discrete categories
 of NA.
+
+Data Analysis Getting "Best Attempt" Results
+--------------------------------------------
+
+When analyzing large amounts of messy data, full of missing data,
+many data analysts express a desire to just give the "best answer"
+using the data available. These people what the mean, standard deviation,
+and other similar functions to simply ignore the missing values
+by default when doing their calculations, so they don't have to
+always use the "skipna=True" or "rm.na=T" options to give the values
+they already know they want.
+
+An example where this comes up is the "data alignment" procedure,
+where multiple tables with different subsets of data, possibly with
+overlaps, get merged. A MISSING placeholder gets inserted whereever
+the combination of data from the tables being merged doesn't fill it.
+
+[[[
+NATHANIEL, I'd like to delete *Situation 2* because it feels too
+vague. If you could replace "often the case that users want to
+perform calculations..." with "here's a specific example of a user
+performing calculations...", I think the statements would be much
+more compelling.
 
 Situation 2: "ignoring" data
 ----------------------------
@@ -310,6 +287,7 @@ say:
   MISSING]) == 1``. However, see below for debate on this.
 * Most users seem to expect that accessing and modifying which values
   are ignored should be convenient and straightforward.
+]]]
 
 Situation 3?
 ------------
@@ -328,6 +306,11 @@ real-life cases easier to handle.
 
 [**Mark**, do you agree with this?]
 
+    Not quite, Paul Hobson's use case in the "Masked Arrays in NumPy 1.x"
+    thread is different than everything I recall from the NA discussion.
+    These examples also don't get into the notion of NaN values turning
+    into NA, like numpy.ma.
+
 Implementation options
 ======================
 
@@ -338,27 +321,36 @@ that INT_MAX or a NaN with a special payload really *mean* that the
 corresponding value is missing, and arrange for ufuncs and such to
 treat them appropriately. The other is the "mask" strategy, in which
 we store a separate boolean array along-side our data, and the entries
-in the boolean array indicate which entries in the data are "real".
+in the boolean array indicate which entries in the data are valid.
 
-The bit-pattern approach is only possible for "missing data"
-situation, not for "ignoring data". The mask approach could
-potentially handle either or both situations.
+
+Nathaniel says:
+    The bit-pattern approach is only possible for "missing data"
+    situation, not for "ignoring data". The mask approach could
+    potentially handle either or both situations.
+
+Mark says:
+    Bitpatterns can implement both the NA and the IGNORE computation
+    abstractions. Masks can also implement both the NA and IGNORE
+    computation abstractions. Bitpattern vs mask and NA vs IGNORE
+    are fully independent, and it is a good thing for a library
+    like Numpy to make them orthogonal features.
 
 Our opinion(s)
 ==============
 
-"missing data"
---------------
+NA
+--
 
-**Nathaniel THINKS, and THINKS THAT MARK MIGHT AGREE MAYBE?, that:**
+**Nathaniel THINKS that:**
 The missing data case is best served by bit-patterns. For this
 specific use case, masks have a number of substantial
 disadvantages. The most important is that bit-patterns avoid the extra
 memory and speed overhead of storing and checking a mask (especially
 for the common case of floating point data, where some tricks with
-NaNs allow us to get the desired MISSING semantics more or less for
-free) -- this alone appears to make a mask-based implementation
-unacceptable to many "missing data" users, particularly in areas like
+NaNs allow us to get something pretty close to the desired NA semantics
+more or less for free) -- this alone appears to make a mask-based
+implementation unacceptable to many NA users, particularly in areas like
 neuroscience (where memory is tight) or financial modeling (where
 milliseconds are critical). In addition, the bit-pattern approach is
 less confusing conceptually (e.g., assignment really is just
@@ -373,8 +365,25 @@ both use cases, which would definitely be simpler if it worked. But at
 this point, everyone seems to agree that we will need *some* kind of
 bit-pattern support, which negates that advantage.
 
-"ignoring data"
----------------
+**Mark THINKS that:**
+NA is a computational abstraction that affects the semantic meaning
+of operations done on arrays. It is unambiguous, as a well-defined
+result can be derived for any possible computation. In some cases,
+such as array-based indexing, it may be desireable to slightly bend
+the rules of the abstraction, but it would be nice to do this based
+on practical experience of users.
+
+With bitpatterns, less memory is used for storing a single NA-capable
+array, and something pretty close to the desired NA semantics can be
+achieved for IEEE floating point just using native CPU operations.
+
+With masks, it is possible to try out different sets of missing values
+without making a copy of the original data. This allows such
+computations to be done with less memory usage than is possible in
+the bitpattern case.
+
+IGNORE
+------
 
 Here we disagree. Let's break this down into a sequence of simple,
 concrete questions.
@@ -382,14 +391,22 @@ concrete questions.
 Should ignored values propagate?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Mark** likes the way the "missing value" semantics are clear and
+**Mark** likes the way the NA semantics are clear and
 internally consistent - 'this data is Not Available' tells you
 everything you need to know to work out how they should behave in any
 particular situation, whether that be binary ufuncs, reductions,
 whatever. When he says "NA semantics", this is what he's talking
-about. (And this is why we've avoided using the term "NA" above -
+about.
+
+(And this is why we've avoided using the term "NA" above -
 we're trying to avoid confusion between terms like "missing" that
 refer to use cases, and terms like "NA" referring to API semantics.)
+NATHANIEL: I've (Mark has) changed all this above to NA, because the
+way of using "missing" and "ignored" was confusing to me and seemed to bake in
+a view of missing data that doesn't coincide with the way I think.
+Probably we need to skype call to work out how we can simultaneously
+communicate both our ways of thinking about this!
+
 Therefore, he thinks that this should be the default semantics
 globally, whether the underlying implementation is bit-pattern-based
 or mask-based, and "ignoring" values should always require an explicit
@@ -418,10 +435,9 @@ Is there a distinction between bit-pattern MISSING and masked-out values?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In **Mark's** scheme, both bit-patterns and masks always have the same
-(NA, "missing-style") semantics. Therefore, he argues that it is
-simplest to merge these two concepts into one in the API, so that
-assigning a bit-pattern NA to an array looks identical to flipping a
-mask bit::
+NA semantics. Therefore, he argues that it is a good thing to merge these two
+concepts into one in the API, so that assigning a bit-pattern NA to an
+array looks identical to flipping a mask bit::
 
   a1 = np.zeros(10, dtype=withNA(float))
   a1[0] = np.NA # writes a magic bit-pattern into a1[0]
@@ -462,6 +478,13 @@ this use of masking in general, he would like it to remain separate
 from bit-patterns, so that he would at least have the option to use
 the one and ignore the other.
 
+One consequence of separating masks and bitpatterns as Nathaniel
+is proposing is that programmers cannot write generic code which
+handles both implementations of missing data simultaneously in
+a natural fashion. Programmers will have to explicitly test "is
+it masked?" and "does it support NA?" separately to properly support
+the system, increasing the amount of work they will have to do.
+
 How do you unmask or "peek behind" the mask?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -475,18 +498,18 @@ swap masks), etc., in the standard ways. Similarly, he thinks the
 underlying data array should be easily accessible in case one wants to
 "peek behind the mask", perhaps as a .data attribute as in numpy.ma.
 
-**Mark** is concerned that a misbehaving function might take advantage
-of this leniency to access values that it isn't supposed to; he
-believes that if a value is masked out, numpy should enforce that by
-making it impossible to unmask or "peek behind" directly. Therefore,
-his design does not allow one to access either the data or mask arrays
-directly; one can overwrite data with new values, but not read out
-masked values. Of course, it still needs to be possible to get at the
-masked values somehow, or masking wouldn't really count as
-non-destructive. His solution is to allow multiple views of a single
-data array to (optionally) use different mask arrays, so one can mask
-out access to a particular data point in one view of an array, while
-still being able to access it via the original ndarray object.
+**Mark** is concerned that if it is too easy to access the values
+behind the mask, it will be easy to accidentally violate the masking
+abstraction. Numpy's general approach is to allow people to get
+under the hood when they want to, so he supports adding a way
+to access the raw data array and raw mask array, but would like it
+to have a cumbersome spelling so it is very clear and explicit that
+the hood of the array is being opened. [Note: See email thread
+"Missing data again" Travis started regarding ideas for tweaks to NA.]
+
+His preferred way of accessing data behind a mask is to hold
+a view to the array as it existed before the mask was added. This
+nicely combines the numpy view mechanism with the mask mechanism.
 
 **Nathaniel** agrees that this could be made to work, but is not sure
 why it is so important to enforce the hiddenness of masked values
@@ -528,16 +551,62 @@ be an error::
   >>> a[0] # scalar access is not allowed
   Traceback [...]: ValueError
 
-**Mark** again thinks that returning np.NA in this case is fine.
+**Mark** thinks that np.NA should be returned in this case, because
+the masked array is following the NA abstraction.
+
+Are NA/IGNORE and mask/bitpattern are fully independent concepts?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mark: They are fully independent, NA/IGNORE is about computation,
+    and mask/bitpattern is about whether data gets destroyed in
+    certain contexts.
+
+Nathaniel: People naturally think about NA as bitpatterns and
+    IGNORE as masks.
+
+What is the best strategy for gaining knowledge, experience and input for gaining consensus about missing data in numpy?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mark: The lack of consensus is in large part a consequence of the
+    fact that so many different missing data applications are in
+    the wild, and there is no existing example of an implementation
+    simultaneously supporting NA + masks + view semantics in the
+    wild for comparison.
+      Therefore, an easily accessible implementation for people to
+    experiment with and gain practical experience is essential to
+    better understand the problem and how it relates to numpy in
+    particular, and the current implementation should ship with
+    numpy, marked as experimental in the documentation and
+    possible disabled by default with a global flag.
+Nathaniel: Consensus should be reached before releasing an NA
+    implementation in mainline numpy, particularly an implementation
+    which might be ignored by many people. The long term support
+    burden of such a release may be huge, and there is a big risk
+    that existing mask users won't like the NA-behavior, while
+    the stats users won't like the overhead of a mask.
+      Therefore, the NA mask should be excised from the code, and
+    put in a separate module for interested users to install
+    and experiment with separately.
 
 What should we do next?
 -----------------------
 
 Here, **Mark and Nathaniel AGREE** that:
-* The community shouldn't commit to supporting any particular design
-  until it reaches consensus, and we have a reasonable expectation
-  that users will actually adopt it in preference to
-  numpy.ma/NaNs/etc.
+1. The NA (Not Available) abstraction is a good thing, following in
+   the footsteps of S, R, etc. In particular, using "propagate" by
+   default for reduction operations is desirable.
+2. The numpy community has not achieved consensus about missing
+   data functionality.
+3. We do not want to get stuck supporting an implementation that
+   is "yet another bad missing data choice among many," but rather
+   would like a solution which gets high user adoption.
+4. Including the NA masks as is, enabled by default, exposes some risk of #3.
+5. The community shouldn't commit to supporting any particular design
+   until we have a reasonable expectation that users will adopt it in
+   preference to numpy.ma/NaNs/etc, and ideally this involves consensus
+   between all the interested parties within the Numpy community.
+
+[[[ I'd suggest to delete these points, they're not so clear to me.
+    -Mark
+
 * Bit-patterns have a relatively clear path forward
 * There are many more uncertainties about what a good masking API
   would look like, and very little prior art to draw on
@@ -545,63 +614,118 @@ Here, **Mark and Nathaniel AGREE** that:
   discussion, we won't be able to commit to a masking API without
   getting some more real-world experience.
 
+]]]
+
+
+
+
+
 How can we get this experience?
 
-**Mark** thinks the best way is to ship the code currently in master,
-with warnings that it is experimental.
+Mark
+    Thinks the best way is to ship the code currently in master,
+    with warnings that it is experimental and a global flag, disabled
+    by default, which controls whether the NA feature is on or off. He
+    believes it is very important that it be *easy* for users to try
+    out the NA functionality, and moving it to another package adds
+    too much hassle for both the users and the developers to reasonably
+    gain practical experience from it. Putting it in a separate package
+    would effectively kill it without giving it the chance it deserves.
 
-**Nathaniel** is much more dubious. First, our release manager seems
-to think that even if we mark something experimental, that only covers
-tweaks, not fundamental changes in its operation, and there are some
-pretty fundamental disagreements listed above. (Mark and Nathaniel's
-visions of masking APIs are definitely not ABI compatible.)
-Furthermore, he's not sure that the code in master is the best way to
-gain experience. Certainly experience with it would be *useful*, but
-there is clearly a very large space of possible designs
-here. (Consider that not only do Mark and Nathaniel disagree on so
-many decisions up above, but numpy.ma actually disagrees with each of
-them on about half of those!) So lighter-weight prototypes that can be
-easily tweaked and experimented with seem like they'd give us much
-more valuable data than would a monolithic C implementation that's
-embedded in a library that few people understand and that has a slow
-release cycle.
+    Separating the mask and bitpattern into different computational
+    abstractions would make code which handles both much more complicated.
+    It would not be possible to write a single code which supports the
+    NA APIs that Numpy provides and expect it to work with both forms
+    of missing data that users have.
 
-And finally, **Nathaniel** is actually still worried about whether
-adding masking support to the core ndarray object is a good idea *at
-all*. Unlike the "missing data" use case, the "ignoring data" use case
-is really just about adding some convenience short-hands -- but it
-comes at the cost of complexifying all ndarray code, at least to the
-extent of making everyone have to think more often, every time they
-write a function, about what would happen if someone were to pass in a
-masked array. (Again, consider the my_mean function above.) (It is at
-least a little weird, right, that we've reached the point where we're
-seriously considering making it so numpy *would not support* a simple
-array-of-doubles data structure, and would *only* support an
-array-of-double-plus-mask structure? Even if we're going to have some
-optimizations to avoid allocating the mask when unnecessary?
-Especially since most people paying attention to this are the ones who
-like masked arrays, not the ones who are happy with plain old arrays?)
-A lot of numpy's power and clarity come from having a small number of
-orthogonal concepts (strided arrays, indexing, broadcasting,
-ufuncs). There's always a temptation to extend a foundational library
-like this to provide pre-packaged solutions to specific problems,
-because wouldn't it be convenient if instead of having to look in the
-cookbook, I could just look in the library docs? So he's worried that
-we might be succumbing to this temptation in a bad way, and losing
-that orthogonality. Of course, we might also be succumbing in a good
-way -- not ruling that out.
+Nathaniel
+    Is dubious about shipping the code in master. First, our release manager
+    seems to think that even if we mark something experimental, that only
+    covers tweaks, not fundamental changes in its operation, and there are some
+    pretty fundamental disagreements listed above. Mark and Nathaniel's
+    visions of masking APIs are definitely not ABI compatible.
 
-But there's no a priori reason why we can't arrange it so that np.ma
-or a third-party library (``pip install masked_array``) can have
-first-class functionality, even without being built into the numpy
-core. So along with debating the best masking *API*, **Nathaniel**
-thinks we should still consider seriously whether the best masking
-*implementation* might consist of some minimal, generally-useful hooks
-into ndarray and the ufunc machinery, plus a separate library. And in
-case we find we can't easily distinguish which API is best from
-discussion and playing with prototypes alone, this approach would also
-allow competing masking APIs to fight it out for developer mind-share
-without having to fork numpy itself.
+    Furthermore, he's not sure that the code in master is the best way to
+    gain experience. Certainly experience with it would be *useful*, but
+    there is clearly a very large space of possible designs here.
+    (Consider that not only do Mark and Nathaniel disagree on so
+    many decisions up above, but numpy.ma actually disagrees with each of
+    them on about half of those!)
+    
+    Lighter-weight prototypes that can be easily tweaked and experimented
+    with seem like they'd give us much more valuable data than would a
+    monolithic C implementation that's embedded in a library that few
+    people understand and that has a slow release cycle.
+
+Mark
+    In the current state of the numpy code-base, this idea of
+    lighter-weight prototypes is impractical. There are a number of
+    refactoring tasks that have been started and are ongoing, to
+    isolate the underlying numpy implementation from the ABI exposed
+    to plugins depending on it. These are also designed to eventually
+    make numpy more modular, after which this idea would be much more
+    feasible, and in fact an approach to be preferred.
+
+Nathaniel
+    And finally, **Nathaniel** is actually still worried about whether
+    adding masking support to the core ndarray object is a good idea *at
+    all*.
+
+    Unlike the "missing data" use case, the "ignoring data" use case
+    is really just about adding some convenience short-hands -- but it
+    comes at the cost of complexifying all ndarray code, at least to the
+    extent of making everyone have to think more often, every time they
+    write a function, about what would happen if someone were to pass in a
+    masked array. (Again, consider the my_mean function above.)
+
+Mark
+    Both the NA and the IGNORE abstractions express ideas that can be
+    done by always creating for-loops by hand. In that sense, neither
+    of them is "creating something new". However, by providing convenient
+    access to missing data abstractions, they both make it much more natural
+    to deal with values that are not there, but with slightly different
+    computational choices.
+
+Nathaniel
+    (It is at
+    least a little weird, right, that we've reached the point where we're
+    seriously considering making it so numpy *would not support* a simple
+    array-of-doubles data structure, and would *only* support an
+    array-of-double-plus-mask structure? Even if we're going to have some
+    optimizations to avoid allocating the mask when unnecessary?
+    Especially since most people paying attention to this are the ones who
+    like masked arrays, not the ones who are happy with plain old arrays?)
+    A lot of numpy's power and clarity come from having a small number of
+    orthogonal concepts (strided arrays, indexing, broadcasting,
+    ufuncs). There's always a temptation to extend a foundational library
+    like this to provide pre-packaged solutions to specific problems,
+    because wouldn't it be convenient if instead of having to look in the
+    cookbook, I could just look in the library docs? So he's worried that
+    we might be succumbing to this temptation in a bad way, and losing
+    that orthogonality. Of course, we might also be succumbing in a good
+    way -- not ruling that out.
+
+    But there's no a priori reason why we can't arrange it so that np.ma
+    or a third-party library (``pip install masked_array``) can have
+    first-class functionality, even without being built into the numpy
+    core. So along with debating the best masking *API*, **Nathaniel**
+    thinks we should still consider seriously whether the best masking
+    *implementation* might consist of some minimal, generally-useful hooks
+    into ndarray and the ufunc machinery, plus a separate library. And in
+    case we find we can't easily distinguish which API is best from
+    discussion and playing with prototypes alone, this approach would also
+    allow competing masking APIs to fight it out for developer mind-share
+    without having to fork numpy itself.
+
+Mark
+    In the long term, I think this idea of a more modular system is a
+    great idea, and development should be done to make it possiblet.
+    The current implementation of numpy, in particular with the way the
+    ABI is, doesn't feel like the right place to do this. I think it is
+    better to integrate the existing code, with a flag to enable the
+    experimental feature, and then put in the effort to move towards
+    a more modular system which would be capable of this kind of
+    experimentation which affects things at the core level.
 
 References/history
 ==================
@@ -631,5 +755,8 @@ machinery can play tricks like skipping values which should be
 ignored. Generalized ufuncs allow for operations like dot product,
 where a loop happens inside the function-specific code. Do we need to
 add a where_mask argument to the generalized ufunc signature, so that
-this internal loop can do the right thing?
+this internal loop can do the right thing? -Nathaniel
 
+    The NA abstraction defines predictable default behaviors for this,
+    and API support to allow the generalized ufuncs to compute
+    correct answers is necessary, you are correct. -Mark
