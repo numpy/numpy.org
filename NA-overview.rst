@@ -243,16 +243,17 @@ MaskedArrays rather than making extensive use of MaskedArray's "magic"
 ufunc handling; possibly all they really need is a convenient way to
 keep some data and a mask packaged together and in alignment.
 
-Paul Hobson `posted some
-code<http://mail.scipy.org/pipermail/numpy-discussion/2012-April/061743.html>`
-on the list that uses numpy.ma for storing arrays of contaminant
-concentration measurements. Here the mask indicates whether the
-corresponding number represents an actual measurement, or just the
-estimated detection limit for a concentration which was too small to
-detect. Nathaniel's impression from reading through this code is that
-it also mostly uses the .data and .mask attributes in preference to
-performing operations on the MaskedArray directly.
+Paul Hobson `posted some code`__ on the list that uses numpy.ma for
+storing arrays of contaminant concentration measurements. Here the
+mask indicates whether the corresponding number represents an actual
+measurement, or just the estimated detection limit for a concentration
+which was too small to detect. Nathaniel's impression from reading
+through this code is that it also mostly uses the .data and .mask
+attributes in preference to performing operations on the MaskedArray
+directly.
   
+__ http://mail.scipy.org/pipermail/numpy-discussion/2012-April/061743.html
+
 Semantics, storage, API, oh my!
 ===============================
 
@@ -397,16 +398,19 @@ result can be derived for any possible computation
   casting machinery, but doesn't require any architectural changes or
   violations of numpy's current orthogonality.
 * His impression from the mailing list discussion, esp. the `"what can
-  we agree on?"
-  thread<http://thread.gmane.org/gmane.comp.python.numeric.general/46704>`,
-  is that many numpy.ma users like the combination of masked storage,
-  the mask being easily accessible through the API, and ignored
-  semantics. He could be wrong, though.
-* R's NA support is a `headline
-  feature<http://www.sr.bham.ac.uk/~ajrs/R/why_R.html>` and its target
-  audience consider it a compelling advantage over other platforms
-  like Matlab or Python. Working with statistical missing data is very
-  painful without platform support.
+  we agree on?" thread`__, is that many numpy.ma users like the
+  combination of masked storage, the mask being easily accessible
+  through the API, and ignored semantics. He could be wrong, though.
+
+  __ http://thread.gmane.org/gmane.comp.python.numeric.general/46704
+
+* R's NA support is a `headline feature`__ and its target audience
+  consider it a compelling advantage over other platforms like Matlab
+  or Python. Working with statistical missing data is very painful
+  without platform support.
+
+  __ http://www.sr.bham.ac.uk/~ajrs/R/why_R.html
+
 * In comparison, we clearly have much more uncertainty about the use
   cases that require a mask-based implementation, and it doesn't seem
   like people will suffer too badly if they are forced for now to
@@ -414,7 +418,7 @@ result can be derived for any possible computation
   support, and even numpy.ma.
 * Therefore, his current position is that we should
 
-  * Go ahead implement bitpattern NAs
+  * Go ahead and implement bitpattern NAs
   * *Not* implement masked arrays in the core -- or at least, not
     yet. Instead, we should focus on figuring out how to implement
     them out-of-core, so that people can try out different approaches
@@ -454,12 +458,13 @@ points that
   change how masks are exposed and accessed?
 
   Second, given how intrusive the NEP code changes are and the
-  concerns about their causing (minor) `ABI
-  issues<http://thread.gmane.org/gmane.comp.python.numeric.general/49485>`,
-  maybe it would be better if they weren't present in the C API at
-  all, and hoops required were something instead like, 'we have
-  included a hacky pure-Python prototype accessible by typing "import
+  concerns about their causing (minor) `ABI issues`__, maybe it would
+  be better if they weren't present in the C API at all, and hoops
+  required were something instead like, 'we have included a hacky
+  pure-Python prototype accessible by typing "import
   numpy.experiment.donttrythisathome.NEP" and would welcome feedback'?
+
+  __ http://thread.gmane.org/gmane.comp.python.numeric.general/49485>
 
   If so, then he should mention that he did implement a horribly
   klugy, pure Python implementation of the NEP API that works with
