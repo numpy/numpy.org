@@ -289,17 +289,21 @@ semantics*. These are somewhat underdefined::
   1 + IGNORED = <leaves output array untouched>
   #  or
   1 + IGNORED = IGNORED
-  # (and if using a mask-based implementation, this last option has
-  # several variants depending on what ends up behind the mask in the
-  # output).
 
-numpy.ma semantics are::
+For either NA or IGNORED semantics implemented with masks, there
+is a choice of what should be done to the value in the storage
+for an array element which gets assigned a missing value. Two
+possibilities are to leave that memory untouched
+(the choice made in the NEP), or to do the calculation with the
+values independently of the mask (ideal for Paul Hobson's
+numpy.ma use-case).
+
+The numpy.ma semantics are::
 
   sum([1, 2, masked]) = 3
-  1 + masked = masked # and whatever value is behind the mask is also
-                      # copied into the output array. If two masked
-                      # values are added together, the first is copied
-                      # into the output.
+  1 + masked = masked # The value from the left operand is copied to
+                      # the output. Generally the values behind the
+                      # mask of a+b and b+a will be different.
 
 When we talk about *storage*, we mean the debate about whether missing
 values should be represented by designating a particular value of the
@@ -319,21 +323,22 @@ dtypes can arrange for certain bitpatterns to be given NA semantics.
 One option is to copy numpy.ma closely, but with a more optimized
 implementation. (Or to simply optimize the existing implementation.)
 
-One option is that described in the NEP_, which is roughly:
+One option is that described in the NEP_, for which an implementation
+of mask-based missing data exists. This system is roughly:
 
 .. _NEP: https://github.com/numpy/numpy/blob/master/doc/neps/missing-data.rst
 
-* There are both bitpattern and mask-based missing values, and both
-  have identical NA semantics.
-* Currently, masks can only be modified indirectly, by assigning
-  np.NA, and the only way to peek behind the mask or to unmask values
-  is to keep a view of the array that shares the data pointer but not
-  the mask pointer.
+* There is both bitpattern and mask-based missing data, and both
+  have identical default interoperable NA semantics.
+* Masks are modified by assigning np.NA or values to array elements.
+  The way to peek behind the mask or to unmask values is to keep a
+  view of the array that shares the data pointer but not the mask pointer.
 * Mark would like to add a way to access and manipulate the mask more
   directly, to be used in addition to this view-based API.
 * If an array has both a bitpattern dtype and a mask, then assigning
-  np.NA writes to the mask, rather than to the array itself. It is not
-  possible to write the NA value directly to such an array.
+  np.NA writes to the mask, rather than to the array itself. Writing
+  a bitpattern NA to an array which supports both requires accessing
+  the data by "peeking under the mask".
 
 One option is that described in the alterNEP_, which is to implement
 bitpattern dtypes with NA semantics for the "statistical missing data"
@@ -351,7 +356,9 @@ unaligned), but all arithmetic etc. would be done by accessing the
 underlying arrays directly via attributes. The "prior art" discussion
 above suggests that something like this holding a .data and a .mask
 array might actually be solve a number of people's problems without
-requiring any major architectural changes to numpy.
+requiring any major architectural changes to numpy. This is similar
+to a structured array, but with each field in a separately stored
+array instead of packed together.
 
 Several people have suggested that there should be a single system
 that has multiple missing values that each have different semantics,
@@ -363,13 +370,13 @@ None of these options are necessarily exclusive.
 The debate
 ==========
 
-We both are dubious of ignored semantics. **Nathaniel** likes NA semantics
-because he is most interested in the "statistical missing data" use
-case, and NA semantics are exactly right for that. **Mark** isn't as
-interested in that use case in particular, but he likes the NA
-computational abstraction because it is unambiguous -- a well-defined
-result can be derived for any possible computation
-
+We both are dubious of using ignored semantics as a default missing
+data behavior. **Nathaniel** likes NA semantics because he is most
+interested in the "statistical missing data" use case, and NA semantics
+are exactly right for that. **Mark** isn't as interested in that use
+case in particular, but he likes the NA computational abstraction
+because it is unambiguous and well-defined in all cases, and has a
+lot of existing experience to draw from.
 
 **Nathaniel's** overall conclusion based on everything above is that:
 
@@ -430,7 +437,13 @@ result can be derived for any possible computation
     out-of-core if numpy is to continue to evolve without forking --
     might as well do it now.)
 
-**Mark** can write his own position statement ;-)
+**Mark**
+
+* The idea of using NA semantics by default for missing data, inspired
+  by the "statistical missing data" problem, is better than all the
+  other default behaviors which were considered. This applies equally
+  to the bitpattern and the masked approach.
+* To be continued...
 
 **Nathaniel** will probably make a counter-argument that includes the
 points that
