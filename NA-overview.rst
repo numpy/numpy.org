@@ -3,69 +3,76 @@ Missing data: an orientation
 
 The debate about how numpy should handle missing data, a subject with
 many preexisting approaches, requirements, and conventions, has been long and
-contentious, with multiple competing proposals going through
-multiple revisions, plus innumerable mailing list posts. This
-has made it difficult for interested parties to understand the
-issues, which is a prerequisite for consensus.
+contentious. There has been more than one proposal for how to implement
+support into numpy, and there is a testable implementation which is
+merged into numpy's current master. The vast number of emails and differing
+points of view has made it difficult for interested parties to understand
+the issues and be comfortable with the direction numpy is going.
 
-So, here is our (Mark and Nathaniel's) attempt to summarize the
+Here is our (Mark and Nathaniel's) attempt to summarize the
 problem, proposals, and points of agreement/disagreement in a single
-place, so we can all get on the same page.
+place, to help the community move towards consensus.
 
-The developers' problem
-=======================
+The Numpy developers' problem
+=============================
 
 For this discussion, "missing data" means array elements
 which can be indexed (e.g. A[3] in an array A with shape (5,)),
-but have, in some sense, no value.
+but have, in some sense, no value. We will use the token MISSING
+to represent such an array element during this discussion.
 
 It does not refer to compressed or sparse storage techniques where
 the value for A[3] is not actually stored in memory, but still has a
 well-defined value like 0.
 
-Unfortunately, this is still rather vague. We still need to answer
-such questions as:
+This is still vague, and to create an actual implementation,
+it is necessary to answer such questions as:
 
 * What values are computed when doing element-wise ufuncs.
 * What values are computed when doing reductions.
-* Whether the storage for an element gets overwritten when assigning NA.
+* Whether the storage for an element gets overwritten when assigning MISSING.
 * Whether computations resulting in NaN automatically turn into a
   missing value.
 * Whether one interacts with missing values using a placeholder object
   (e.g. called "NA" or "masked"), or through a separate boolean array.
 * Whether there is such a thing as an array object that cannot hold
-  masked values.
-* Whether the (C and Python) API is expressed in terms of dtypes,
-  masks, or what.
+  missing array elements.
+* How the (C and Python) API is expressed, in terms of dtypes,
+  masks, and other constructs.
 * If we decide to answer some of these questions in multiple ways,
   then that creates the question of whether that requires multiple
   systems, and if so how they should interact.
-* etc.
 
-So as numpy developers, there's clearly a very large space of
-missing-data-ish APIs that we *could* implement. And probably there is
-at least one user, somewhere, who would find any possible
-implementation to be just the thing they need to solve some
-problem. But, on the other hand, a lot of numpy's power and clarity
-come from having a small number of orthogonal concepts (strided
-arrays, indexing, broadcasting, ufuncs). There's always a temptation
-to extend a foundational library like this to provide pre-packaged
-solutions to specific problems, because wouldn't it be convenient if
-instead of having to look in the cookbook, I could just look in the
-library docs? We need to resist that temptation. And besides, this
-problem is clearly too big and complicated to try and solve all at
-once.
+There's clearly a very large space of missing-data APIs that *could*
+be implemented. There is likely at least one user, somewhere, who
+would find any possible implementation to be just the thing they
+need to solve some problem. On the other hand, much of numpy's power
+and clarity comes from having a small number of orthogonal concepts,
+such as strided arrays, flexible indexing, broadcasting, and ufuncs.
 
-So our problem is, how can we choose some incremental addition(s) to
-numpy to start with, that will make a large class of users happy, be
+There has been dissatisfaction among several major groups of numpy users
+about the existing status quo of missing data support. In particular,
+neither the numpy.ma component nor use of floating-point NaNs as a
+missing data signal fully satisfy the performance requirements and
+ease of use for these users. The example of R, where missing data
+is treated via an NA placeholder and is deeply integrated into all
+computation, is where many of these users point to indicate what
+functionality they would like. Doing a deep integration of missing
+data like in R must be considered carefully, it must be clear it
+is not being done in a way which sacrifices existing performance
+or functionality.
+
+Our problem is, how can we choose some incremental additions to
+numpy that will make a large class of users happy, be
 reasonably elegant, complement the existing design, and that we're
-comfortable we won't regret being stuck with in the long term?
+comfortable we won't regret being stuck with in the long term.
 
 Prior art
 =========
 
 So a major (maybe *the* major) problem is figuring out how ambitious
-we are, and which kinds of problems are in scope. Let's start with the
+the project to add missing data support to numpy should be, and which
+kinds of problems are in scope. Let's start with the
 best understood situation where "missing data" comes into play:
 
 "Statistical missing data"
@@ -109,11 +116,15 @@ The main prior art for how this could be done comes from the S/S+/R
 family of languages. Their strategy is, for each type they support,
 to define a special value called "NA". (For ints this is INT_MAX,
 for floats it's a special NaN value that's distinguishable from
-ordinary NaNs, ...) Then, they arrange that in computations, this
+other NaNs, ...) Then, they arrange that in computations, this
 value has a special semantics that we will call "NA semantics".
 
-The idea is, any computations involving NA values should be consistent
-with what would have happened if we had known the correct value.
+NA Semantics
+------------
+
+The idea of NA semantics is that any computations involving NA
+values should be consistent with what would have happened if we
+had known the correct value.
 
 For example, let's say we want to compute the mean income, how might
 we do this? One way would be to just ignore the MISSING entry, and
@@ -127,7 +138,7 @@ indicating clearly that it is not consistent. Therefore, the mean
 income is NA, i.e. a specific number whose value we are unable
 to compute.
 
-This motivates the following semantics, which are how R implements NA:
+This motivates the following rules, which are how R implements NA:
 
 Assignment:
   NA values are understood to represent specific
@@ -152,7 +163,7 @@ Propagation:
   "I don't know what x is, so I don't know what 3 + x is either". NA
   means "I don't know", so 3 + NA is NA.
   
-  This is also important for safety: missing data often
+  This is important for safety when analyzing data: missing data often
   requires special handling for correctness -- the fact that you are
   missing information might mean that something you wanted to compute
   cannot actually be computed, and there are whole books written on
@@ -161,17 +172,6 @@ Propagation:
   have all the data. Such code should not silently produce the wrong
   answer.
   
-  Even simple code like the naive implementation of mean::
-
-    def my_mean(x):
-        x = np.asarray(x)
-        return np.sum(x) / x.size
-
-  will silently return the wrong answer if ``x`` contains NA
-  values and ``np.sum`` skips over them. Therefore, NA must
-  "propagate" though calculations, unless explicitly requested
-  otherwise.
-
   There is an important exception to characterizing this as propagation,
   in the case of boolean values. Consider the calculation::
 
@@ -190,58 +190,58 @@ Propagation:
     [1] NA
 
 Other:
-  NaN and NA are conceptually distinct. 1.0/0.0 is not a mysterious,
-  unknown value -- it's perfectly well known to be undefined, Not a
+  NaN and NA are conceptually distinct. 0.0/0.0 is not a mysterious,
+  unknown value -- it's defined to be NaN by IEEE floating point, Not a
   Number. NAs are numbers (or strings, or whatever), just unknown
-  ones. NaN is truthy; NA has indeterminate truth value.
+  ones.
 
-  All reduction operations implement an alternative semantics,
-  activated by passing a special argument (in R, this is
-  ``na.rm=TRUE``). ``sum(a)`` means "give me the sum of all the
-  values" (which is unknownable if some of the values are unknown);
-  ``sum(a, na.rm=True)`` means "give me the sum of all the known
+  In R, all reduction operations implement an alternative semantics,
+  activated by passing a special argument (``na.rm=TRUE`` in R).
+  ``sum(a)`` means "give me the sum of all the
+  values" (which is NA if some of the values are NA);
+  ``sum(a, na.rm=True)`` means "give me the sum of all the non-NA
   values".
 
 Other prior art
 ---------------
 
-Once we move beyond the "statistical missing data" case, things
-rapidly become more murky. Practically any situation where people
-currently use boolean indexing is a potential missing data use case. 
+Once we move beyond the "statistical missing data" case, the correct
+behavior for missing data becomes less clearly defined. There are many
+cases where specific elements are singled out to be treated specially
+or excluded from computations, and these often fit as missing data.
 
 In image processing, it's common to use a single image together with
 one or more boolean masks to e.g. composite subsets of an image. As
 Joe Harrington pointed out on the list, in the context of processing
-astronomical images, it's also common to go further, and use e.g. a
-floating-point valued "mask" (alpha channel) to indicate degrees of
+astronomical images, it's also common to generalize to a
+floating-point valued mask, or alpha channel, to indicate degrees of
 "missingness". We think this is out of scope for the present design,
-but it suggests that some more general way of manipulating aligned
-arrays and defining how they composite together may be useful in the
-future.
+but it is an important use case, and ideally numpy should support
+natural ways of manipulating such data.
 
 After R, numpy.ma is probably the second-most mature source of
-experience on missing-data-related APIs. As compared to R, it uses
-both different semantics (reductions skip masked values by default,
-NaNs convert to masked) and a different storage strategy (a separate
-mask). While it seems to be generally considered sub-optimal for
+experience on missing-data-related APIs. It uses both different semantics
+from R, like reductions skip masked values by default and
+NaNs convert to masked, and a different storage strategy via a separate
+mask. While it seems to be generally considered sub-optimal for
 general use, it's hard to pin down whether this is because the API is
 immature but basically good, or the API is fundamentally broken, or
 the API is great but the code should be faster, or what. We looked at
 some of those users to try and get a better idea.
 
-Matplotlib seems to use numpy.ma in two ways. On the input side, it
-needs to recognize points that count as not present for some reason,
-and this code knows to recognize numpy.ma.masked values along with
-NaNs etc. It needs to treat all different forms of 'invalid' data in a
-uniform manner, and it does this by converting them all into masks.
+Matplotlib seems to use numpy.ma primarily to allow users to tell
+what data is missing when passing it to be graphed. In doing a number
+of different test plots, the results of numpy.ma missing data in
+matplotlib match the results of NA missing data in R's plotting.
+Both matplotlib and R treat NaNs in the same fashion as NA for plotting
+purposes.
 
-Internally, matplotlib uses MaskedArrays to store and pass 'validity'
-information for each input array in a cheap and non-destructive
-fashion. Mark's impression from some shallow code review is that
-mostly it works directly with the .data and .mask attributes of these
-MaskedArrays rather than making extensive use of MaskedArray's "magic"
-ufunc handling; possibly all they really need is a convenient way to
-keep some data and a mask packaged together and in alignment.
+Additionally, matplotlib uses numpy.ma arrays and separately computed
+boolean masks to store and pass 'validity' information for each input
+array in a cheap and non-destructive fashion. Mark's impression from
+some shallow code review is that mostly it works directly with the
+data and mask attributes of the masked arrays, not extensively using
+the particular computational semantics of numpy.ma.
 
 Paul Hobson `posted some code`__ on the list that uses numpy.ma for
 storing arrays of contaminant concentration measurements. Here the
@@ -250,7 +250,10 @@ measurement, or just the estimated detection limit for a concentration
 which was too small to detect. Nathaniel's impression from reading
 through this code is that it also mostly uses the .data and .mask
 attributes in preference to performing operations on the MaskedArray
-directly.
+directly. Conceptually, this seems to fit the NA semantic model to
+track which values aren't truly known, but simultaneously computing
+best-guess results based on the available estimates corresponding to
+the NAs.
   
 __ http://mail.scipy.org/pipermail/numpy-discussion/2012-April/061743.html
 
