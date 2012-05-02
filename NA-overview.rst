@@ -18,8 +18,7 @@ The Numpy developers' problem
 
 For this discussion, "missing data" means array elements
 which can be indexed (e.g. A[3] in an array A with shape (5,)),
-but have, in some sense, no value. We will use the token MISSING
-to represent such an array element during this discussion.
+but have, in some sense, no value.
 
 It does not refer to compressed or sparse storage techniques where
 the value for A[3] is not actually stored in memory, but still has a
@@ -30,9 +29,10 @@ it is necessary to answer such questions as:
 
 * What values are computed when doing element-wise ufuncs.
 * What values are computed when doing reductions.
-* Whether the storage for an element gets overwritten when assigning MISSING.
-* Whether computations resulting in NaN automatically turn into a
-  missing value.
+* Whether the storage for an element gets overwritten when marking
+  that value missing.
+* Whether computations resulting in NaN automatically treat in the
+  same way as a missing value.
 * Whether one interacts with missing values using a placeholder object
   (e.g. called "NA" or "masked"), or through a separate boolean array.
 * Whether there is such a thing as an array object that cannot hold
@@ -48,7 +48,8 @@ be implemented. There is likely at least one user, somewhere, who
 would find any possible implementation to be just the thing they
 need to solve some problem. On the other hand, much of numpy's power
 and clarity comes from having a small number of orthogonal concepts,
-such as strided arrays, flexible indexing, broadcasting, and ufuncs.
+such as strided arrays, flexible indexing, broadcasting, and ufuncs,
+and we'd like to preserve that simplicity.
 
 There has been dissatisfaction among several major groups of numpy users
 about the existing status quo of missing data support. In particular,
@@ -89,7 +90,7 @@ some way to represent this::
   Person | Height | Age | Income
   ------------------------------
      1   |   63   | 25  | 15000
-     2   |   58   | 32  | MISSING
+     2   |   58   | 32  | <missing>
      3   |   71   | 45  | 30000
 
 The traditional way is to record that income as, say, "-99", and
@@ -127,7 +128,7 @@ values should be consistent with what would have happened if we
 had known the correct value.
 
 For example, let's say we want to compute the mean income, how might
-we do this? One way would be to just ignore the MISSING entry, and
+we do this? One way would be to just ignore the missing entry, and
 compute the mean of the remaining entries. This gives us (15000 +
 30000)/2, or 22500.
 
@@ -191,9 +192,11 @@ Propagation:
 
 Other:
   NaN and NA are conceptually distinct. 0.0/0.0 is not a mysterious,
-  unknown value -- it's defined to be NaN by IEEE floating point, Not a
-  Number. NAs are numbers (or strings, or whatever), just unknown
-  ones.
+  unknown value -- it's defined to be NaN by IEEE floating point, Not
+  a Number. NAs are numbers (or strings, or whatever), just unknown
+  ones. Another small but important difference is that in Python, ``if
+  NaN: ...`` treats NaN as True (NaN is "truthy"); but ``if NA: ...``
+  would be an error.
 
   In R, all reduction operations implement an alternative semantics,
   activated by passing a special argument (``na.rm=TRUE`` in R).
@@ -208,7 +211,8 @@ Other prior art
 Once we move beyond the "statistical missing data" case, the correct
 behavior for missing data becomes less clearly defined. There are many
 cases where specific elements are singled out to be treated specially
-or excluded from computations, and these often fit as missing data.
+or excluded from computations, and these could often be conceptualized
+as involving 'missing data' in some sense.
 
 In image processing, it's common to use a single image together with
 one or more boolean masks to e.g. composite subsets of an image. As
@@ -220,28 +224,34 @@ but it is an important use case, and ideally numpy should support
 natural ways of manipulating such data.
 
 After R, numpy.ma is probably the second-most mature source of
-experience on missing-data-related APIs. It uses both different semantics
-from R, like reductions skip masked values by default and
-NaNs convert to masked, and a different storage strategy via a separate
+experience on missing-data-related APIs. Its design is quite different
+from R; it uses different semantics -- reductions skip masked values
+by default and NaNs convert to masked -- and it uses a different
+storage strategy via a separate
 mask. While it seems to be generally considered sub-optimal for
 general use, it's hard to pin down whether this is because the API is
 immature but basically good, or the API is fundamentally broken, or
 the API is great but the code should be faster, or what. We looked at
 some of those users to try and get a better idea.
 
-Matplotlib seems to use numpy.ma primarily to allow users to tell
-what data is missing when passing it to be graphed. In doing a number
-of different test plots, the results of numpy.ma missing data in
-matplotlib match the results of NA missing data in R's plotting.
-Both matplotlib and R treat NaNs in the same fashion as NA for plotting
-purposes.
+Matplotlib is perhaps the best known package to rely on numpy.ma. It
+seems to use it in two ways. One is as a way for users to indicate
+what data is missing when passing it to be graphed. (Other ways are
+also supported, e.g., passing in NaN values gives the same result.) In
+this regard, matplotlib treats np.ma.masked values in the same way
+that R's plotting routines handle NA values. For these purposes,
+matplotlib doesn't really care what semantics or storage strategy is
+used for missing data.
 
-Additionally, matplotlib uses numpy.ma arrays and separately computed
-boolean masks to store and pass 'validity' information for each input
+Internally, matplotlib uses numpy.ma arrays to store and pass around
+separately computed boolean masks containing 'validity' information
+for each input
 array in a cheap and non-destructive fashion. Mark's impression from
 some shallow code review is that mostly it works directly with the
 data and mask attributes of the masked arrays, not extensively using
-the particular computational semantics of numpy.ma.
+the particular computational semantics of numpy.ma. So, for this usage
+they do rely on the non-destructive mask-based storage, but this
+doesn't say much about what semantics are needed.
 
 Paul Hobson `posted some code`__ on the list that uses numpy.ma for
 storing arrays of contaminant concentration measurements. Here the
@@ -250,12 +260,15 @@ measurement, or just the estimated detection limit for a concentration
 which was too small to detect. Nathaniel's impression from reading
 through this code is that it also mostly uses the .data and .mask
 attributes in preference to performing operations on the MaskedArray
-directly. Conceptually, this seems to fit the NA semantic model to
-track which values aren't truly known, but simultaneously computing
-best-guess results based on the available estimates corresponding to
-the NAs.
+directly.
   
 __ http://mail.scipy.org/pipermail/numpy-discussion/2012-April/061743.html
+
+So, these examples make it clear that there is demand for a convenient
+way to keep a data array and a mask array (or even a floating point
+array) bundled up together and "aligned". But they don't tell us much
+about what semantics the resulting object should have with respect to
+ufuncs and friends.
 
 Semantics, storage, API, oh my!
 ===============================
@@ -290,20 +303,23 @@ semantics*. These are somewhat underdefined::
   #  or
   1 + IGNORED = IGNORED
 
-For either NA or IGNORED semantics implemented with masks, there
-is a choice of what should be done to the value in the storage
-for an array element which gets assigned a missing value. Two
-possibilities are to leave that memory untouched
-(the choice made in the NEP), or to do the calculation with the
-values independently of the mask (ideal for Paul Hobson's
-numpy.ma use-case).
-
 The numpy.ma semantics are::
 
   sum([1, 2, masked]) = 3
-  1 + masked = masked # The value from the left operand is copied to
-                      # the output. Generally the values behind the
-                      # mask of a+b and b+a will be different.
+  1 + masked = masked
+
+If either NA or ignore semantics are implemented with masks, then there
+is a choice of what should be done to the value in the storage
+for an array element which gets assigned a missing value. Three
+possibilities are:
+
+* Leave that memory untouched (the choice made in the NEP).
+* Do the calculation with the values independently of the mask
+  (perhaps the most useful option for Paul Hobson's use-case above).
+* Copy whatever value is stored behind the input missing value into
+  the output (this is what numpy.ma does. Even that is ambiguous in
+  the case of ``masked + masked`` -- in this case numpy.ma copies the
+  value stored behind the leftmost masked value).
 
 When we talk about *storage*, we mean the debate about whether missing
 values should be represented by designating a particular value of the
@@ -329,7 +345,7 @@ of mask-based missing data exists. This system is roughly:
 .. _NEP: https://github.com/numpy/numpy/blob/master/doc/neps/missing-data.rst
 
 * There is both bitpattern and mask-based missing data, and both
-  have identical default interoperable NA semantics.
+  have identical interoperable NA semantics.
 * Masks are modified by assigning np.NA or values to array elements.
   The way to peek behind the mask or to unmask values is to keep a
   view of the array that shares the data pointer but not the mask pointer.
@@ -340,7 +356,7 @@ of mask-based missing data exists. This system is roughly:
   a bitpattern NA to an array which supports both requires accessing
   the data by "peeking under the mask".
 
-One option is that described in the alterNEP_, which is to implement
+Another option is that described in the alterNEP_, which is to implement
 bitpattern dtypes with NA semantics for the "statistical missing data"
 use case, and to also implement a totally independent API for masked
 arrays with ignore semantics and all mask manipulation done explicitly
@@ -348,17 +364,17 @@ through a .mask attribute.
 
 .. _alterNEP: https://gist.github.com/1056379
 
-Another option would be to define an aligned array container that
-holds multiple arrays and that can be used to pass them around
+Another option would be to define a minimalist aligned array container
+that holds multiple arrays and that can be used to pass them around
 together. It would support indexing (to help with the common problem
 of wanting to subset several arrays together without their becoming
 unaligned), but all arithmetic etc. would be done by accessing the
 underlying arrays directly via attributes. The "prior art" discussion
 above suggests that something like this holding a .data and a .mask
 array might actually be solve a number of people's problems without
-requiring any major architectural changes to numpy. This is similar
-to a structured array, but with each field in a separately stored
-array instead of packed together.
+requiring any major architectural changes to numpy. This is similar to
+a structured array, but with each field in a separately stored array
+instead of packed together.
 
 Several people have suggested that there should be a single system
 that has multiple missing values that each have different semantics,
@@ -378,11 +394,12 @@ case in particular, but he likes the NA computational abstraction
 because it is unambiguous and well-defined in all cases, and has a
 lot of existing experience to draw from.
 
-**Nathaniel**
+What **Nathaniel** thinks, overall:
 
 * The "statistical missing data" use case is clear and compelling; the
-  other use cases are probably important, but it's hard to say what
-  they *are* exactly yet.
+  other use cases certainly deserve our attention, but it's hard to say what
+  they *are* exactly yet, or even if the best way to support them is
+  by extending the ndarray object.
 * The "statistical missing data" use case is best served by an R-style
   system that uses bitpattern storage to implement NA semantics. The
   main advantage of bitpattern storage for this use case is that it
@@ -408,69 +425,47 @@ lot of existing experience to draw from.
   casting machinery, but doesn't require any architectural changes or
   violations of numpy's current orthogonality.
 * His impression from the mailing list discussion, esp. the `"what can
-  we agree on?" thread`__, is that many numpy.ma users like the
-  combination of masked storage, the mask being easily accessible
-  through the API, and ignored semantics. He could be wrong, though.
+  we agree on?" thread`__, is that many numpy.ma users specifically
+  like the combination of masked storage, the mask being easily
+  accessible through the API, and ignored semantics. He could be
+  wrong, of course. But he cannot remember seeing anybody besides Mark
+  advocate for the specific combination of masked storage and NA
+  semantics, which makes him nervous.
 
   __ http://thread.gmane.org/gmane.comp.python.numeric.general/46704
-
+* Also, he personally is not very happy with the idea of having two
+  storage implementations that are almost-but-not-quite identical at
+  the Python level. While there likely are people who would like to
+  temporarily pretend that certain data is "statistically missing
+  data" without making a copy of their array, it's not at all clear
+  that they outnumber the people who would like to use bitpatterns and
+  masks simultaneously for distinct purposes. And honestly he'd like
+  to be able to just ignore masks if he wants and stick to
+  bitpatterns, which isn't possible if they're coupled together
+  tightly in the API.  So he would say the jury is still very much out
+  on whether this aspect of the NEP design is an advantage or a
+  disadvantage. (Certainly he's never heard of any R users complaining
+  that they really wish they had an option of making a different
+  trade-off here.)
 * R's NA support is a `headline feature`__ and its target audience
   consider it a compelling advantage over other platforms like Matlab
   or Python. Working with statistical missing data is very painful
   without platform support.
 
   __ http://www.sr.bham.ac.uk/~ajrs/R/why_R.html
-
-* In comparison, we clearly have much more uncertainty about the use
+* By comparison, we clearly have much more uncertainty about the use
   cases that require a mask-based implementation, and it doesn't seem
   like people will suffer too badly if they are forced for now to
-  stick to numpy's excellent mask-based indexing, the new where=
-  support, and even numpy.ma.
-* Making mask and bitpattern NAs act the same is helpful if one often
-  wants to treat them the same (for example, temporarily pretend that
-  certain data is "statistically missing data"), and unhelpful if one
-  often wants to treat them differently. He's leaning on the
-  "unhelpful" side, personally, and doesn't feel at all certain that
-  the people asking about masked array support, but not "statistical
-  missing data", really want that. And certainly R manages just fine
-  without this feature and no-one seems to have noticed its lack. So
-  he would say the jury is still very much out on whether this aspect
-  of the NEP design is an advantage or a disadvantage.
-* If asking people to type 'pip install numpy_experimental_api' and
-  try it out is really too hard, then he doesn't really have any
-  objection to making experimental API's available in the the main
-  numpy distribution with some hoops required to try them out. (This
-  might also be a good strategy for adding some warranty-violating
-  interfaces that would be generally useful for future experiments --
-  e.g. some way to tell the PyArray constructors to start returning a
-  different ndarray subclass by default. Terrifying for general use,
-  quite useful for prototype hacks.) But, two points.
+  settle for using numpy's excellent mask-based indexing, the new
+  where= support, and even numpy.ma.
+* Therefore, bitpatterns with NA semantics seem to meet the criteria
+  of making a large class of users happy, in an elegant way, that fits
+  into the original design, and where we can have reasonable certainty
+  that we understand the problem and use cases well enough that we'll
+  be happy with them in the long run. But no mask-based storage
+  proposal does, yet.
 
-  First, it seems kind of premature to ask people to try out the code
-  before we can even agree on fundamental issues like NA semantics
-  versus ignore semantics, and when there are still plans to majorly
-  change how masks are exposed and accessed?
-
-  Second, given how intrusive the NEP code changes are and the
-  concerns about their causing (minor) `ABI issues`__, maybe it would
-  be better if they weren't present in the C API at all, and hoops
-  required were something instead like, 'we have included a hacky
-  pure-Python prototype accessible by typing "import
-  numpy.experiment.donttrythisathome.NEP" and would welcome feedback'?
-
-  __ http://thread.gmane.org/gmane.comp.python.numeric.general/49485>
-
-  If so, then he should mention that he did implement a horribly
-  klugy, pure Python implementation of the NEP API that works with
-  numpy 1.6.1. This was mostly an experiment to see how possible such
-  prototyping was and how much a proper ufunc override mechanism would
-  help, but if there's interest, the module is available here:
-  https://github.com/njsmith/numpyNEP
-
-  (It passes the maskna test-suite, with some minor issues described
-  in a big comment at the top.)
-
-**Mark**
+What **Mark** thinks, overall:
 
 * The idea of using NA semantics by default for missing data, inspired
   by the "statistical missing data" problem, is better than all the
@@ -499,10 +494,12 @@ lot of existing experience to draw from.
   choose the one which performs better or uses the least memory for
   their programs.
 * Memory Usage
- - With bitpatterns, less memory is used for storing a single NA-capable
-   array.
- - With masks, less memory is used when a single array of data is used
-   with multiple different choices of NAs.
+ - With bitpatterns, less memory is used for storing a single array
+   containing some NAs.
+ - With masks, less memory is used for storing multiple arrays that
+   are identical except for the location of their NAs. (In this case a
+   single data array can be re-used with multiple mask arrays;
+   bitpattern NAs would need to copy the whole data array.)
 * Performance
  - With bitpatterns, the floating point type can use native hardware
    operations, and achieve results which are correct in all but a few
@@ -529,18 +526,21 @@ lot of existing experience to draw from.
 Recommendations for Moving Forward
 ==================================
 
-**Nathaniel**
+**Nathaniel** thinks we should:
 
-* Go ahead and implement bitpattern NAs
-* *Not* implement masked arrays in the core -- or at least, not
-  yet. Instead, we should focus on figuring out how to implement
-  them out-of-core, so that people can try out different approaches
-  without us committing to any one approach. (And anyway, we're
-  going to have to figure out how to experiment with such changes
-  out-of-core if numpy is to continue to evolve without forking --
-  might as well do it now.)
+* Go ahead and implement bitpattern NAs.
+* *Don't* implement masked arrays in the core -- or at least, not
+  yet. Instead, we should focus on figuring out how to implement them
+  out-of-core, so that people can try out different approaches without
+  us committing to any one approach. And so new prototypes can be
+  released more quickly than the numpy release cycle. And anyway,
+  we're going to have to figure out how to experiment with such
+  changes out-of-core if numpy is to continue to evolve without
+  forking -- might as well do it now. The existing code can live in
+  master, disabled, or it can live in a branch -- it'll still be there
+  once we know what we're doing.
 
-**Mark**
+**Mark** thinks we should:
 
 * The existing code should remain as is, with a global run-time experimental
   flag added which disables NA support by default.
@@ -578,16 +578,55 @@ usage would raise an "ExperimentalError" exception, a measure which
 would prevent it from being accidentally used and communicate its
 experimental status very clearly.
 
-The ABI issues seem very tricky to deal with effectively in the 1.x
+The `ABI issues`__ seem very tricky to deal with effectively in the 1.x
 series of releases, but I believe that with proper implementation-hiding
 in a 2.0 release, evolving the software to support various other
 ABI ideas that have been discussed is feasible. This is the approach
 I like best.
 
+__ http://thread.gmane.org/gmane.comp.python.numeric.general/49485>
+
+**Nathaniel** notes in response that he doesn't really have any
+objection to shipping experimental APIs in the main numpy distribution
+*if* we're careful to make sure that they don't "leak out" in a way
+that leaves us stuck with them. And in principle some sort of "this
+violates your warranty" global flag could be a way to do that. (In
+fact, this might also be a useful strategy for the kinds of changes
+that he favors, of adding minimal hooks to enable us to build
+prototypes more easily -- we could have some "rapid prototyping only"
+hooks that let prototype hacks get deeper access to numpy's internals
+than we were otherwise ready to support.)
+
+But, he wants to point out two things. First, it seems like we still
+have fundamental questions to answer about the NEP design, like
+whether masks should have NA semantics or ignore semantics, and there
+are already plans to majorly change how NEP masks are exposed and
+accessed. So he isn't sure what we'll learn by asking for feedback on
+the NEP code in its current state.
+
+And second, given the concerns about their causing (minor) ABI issues,
+it's not clear that we could really prevent them from leaking out. (He
+looks forward to 2.0 too, but we're not there yet.) So maybe it would
+be better if they weren't present in the C API at all, and the hoops
+required for testers were instead something like, 'we have included a
+hacky pure-Python prototype accessible by typing "import
+numpy.experimental.donttrythisathome.NEP" and would welcome feedback'?
+
+If so, then he should mention that he did implement a horribly klugy,
+pure Python implementation of the NEP API that works with numpy
+1.6.1. This was mostly as an experiment to see how possible such
+prototyping was and to test out a possible ufunc override mechanism,
+but if there's interest, the module is available here:
+https://github.com/njsmith/numpyNEP
+
+It passes the maskna test-suite, with some minor issues described
+in a big comment at the top.
+
+
 References/history
 ==================
 
-The original NEP describes Mark's NA-semantics/mask
+The NEP describes Mark's NA-semantics/mask
 implementation/view based mask handling API:
 https://github.com/numpy/numpy/blob/master/doc/neps/missing-data.rst
 
