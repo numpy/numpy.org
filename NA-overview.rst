@@ -502,25 +502,30 @@ What **Mark** thinks, overall:
    bitpattern NAs would need to copy the whole data array.)
 * Performance
  - With bitpatterns, the floating point type can use native hardware
-   operations, and achieve results which are correct in all but a few
-   cases. With other types, code must be written which specially checks
-   for the missing-data bitpattern.
- - With masks, inner loops must be implemented to support the
-   masking semantics, which adds some overhead. The implementation
-   that currently exists has no performance tuning for this, so
-   it is not a good basis to judge the performance difference.
+   operations, with nearly correct behavior. For fully correct floating
+   point behavior and with other types, code must be written which
+   specially tests for equality with the missing-data bitpattern.
+ - With masks, there is always the overhead of accessing mask memory
+   and testing its truth value. The implementation that currently exists
+   has no performance tuning, so it is only good to judge a minimum
+   performance level. Optimal mask-based code is in general going to
+   be slower than optimal bitpattern-based code.
 * Correctness
- - With bitpatterns, the choice of native floating-point operations
-   results in semantics which are not strictly correct in all cases.
-   An inconsistent case is NaN+NA vs NA+NaN. This performance/
-   correctness tradeoff seems reasonable.
- - With masks, there is not a similar performance/correctness tradeoff.
+ - Bitpattern integer types must sacrifice a valid value to represent NA.
+   For larger integer types, there are arguments that this is ok, but for
+   8-bit types there is no reasonable choice. In the floating point case,
+   if the performance of native floating point operations is chosen,
+   there is a small inconsistency that NaN+NA and NA+NaN are different.
+ - With masks, it works correctly in all cases.
 * Generality
  - The bitpattern approach can work in a fully general way only when
    there is a specific value which can be given up from the
    data type. For IEEE floating point, a NaN is an obvious choice,
    and for booleans represented as a byte, there are plenty of choices.
    For integers, a valid value must be sacrificed to use this approach.
+   Third-party dtypes which plug into numpy will also have to
+   make a bitpattern choice to support this system, something which
+   may not always be possible.
  - The mask approach works universally with all data types.
 
 Recommendations for Moving Forward
