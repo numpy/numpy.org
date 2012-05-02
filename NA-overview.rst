@@ -499,32 +499,32 @@ lot of existing experience to draw from.
   choose the one which performs better or uses the least memory for
   their programs.
 * Memory Usage
-  - With bitpatterns, less memory is used for storing a single NA-capable
-    array.
-  - With masks, less memory is used when a single array of data is used
-    with multiple different choices of NAs.
+ - With bitpatterns, less memory is used for storing a single NA-capable
+   array.
+ - With masks, less memory is used when a single array of data is used
+   with multiple different choices of NAs.
 * Performance
-  - With bitpatterns, the floating point type can use native hardware
-    operations, and achieve results which are correct in all but a few
-    cases. With other types, code must be written which specially checks
-    for the missing-data bitpattern.
-  - With masks, inner loops must be implemented to support the
-    masking semantics, which adds some overhead. The implementation
-    that currently exists has no performance tuning for this, so
-    it is not a good basis to judge the performance difference.
+ - With bitpatterns, the floating point type can use native hardware
+   operations, and achieve results which are correct in all but a few
+   cases. With other types, code must be written which specially checks
+   for the missing-data bitpattern.
+ - With masks, inner loops must be implemented to support the
+   masking semantics, which adds some overhead. The implementation
+   that currently exists has no performance tuning for this, so
+   it is not a good basis to judge the performance difference.
 * Correctness
-  - With bitpatterns, the choice of native floating-point operations
-    results in semantics which are not strictly correct in all cases.
-    An inconsistent case is NaN+NA vs NA+NaN. This performance/
-    correctness tradeoff seems reasonable.
-  - With masks, there is not a similar performance/correctness tradeoff.
+ - With bitpatterns, the choice of native floating-point operations
+   results in semantics which are not strictly correct in all cases.
+   An inconsistent case is NaN+NA vs NA+NaN. This performance/
+   correctness tradeoff seems reasonable.
+ - With masks, there is not a similar performance/correctness tradeoff.
 * Generality
-  - The bitpattern approach can work in a fully general way only when
-    there is a specific value which can be given up from the
-    data type. For IEEE floating point, a NaN is an obvious choice,
-    and for booleans represented as a byte, there are plenty of choices.
-    For integers, a valid value must be sacrificed to use this approach.
-  - The mask approach works universally with all data types.
+ - The bitpattern approach can work in a fully general way only when
+   there is a specific value which can be given up from the
+   data type. For IEEE floating point, a NaN is an obvious choice,
+   and for booleans represented as a byte, there are plenty of choices.
+   For integers, a valid value must be sacrificed to use this approach.
+ - The mask approach works universally with all data types.
 
 Recommendations for Moving Forward
 ==================================
@@ -560,6 +560,10 @@ A more detailed rationale for this recommendation is:
   dtype support of NAs, which will operate through the same interface
   but allow for the same performance/correctness tradeoffs that R has made.
   There are developer resources committed to furthering this plan.
+* Making it very easy for users to try out this implementation, which
+  has reasonable feature coverage and performance characteristics, is
+  the best way to get more concrete feedback about how numpy's missing
+  data support should look.
 
 Because of its preliminary state, the existing implementation is marked
 as experimental in the numpy documentation. It would be good for this
