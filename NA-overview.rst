@@ -553,9 +553,7 @@ Recommendations for Moving Forward
 A more detailed rationale for this recommendation is:
 
 * A solid preliminary NA-mask implementation is currently in numpy
-  master. This went through the pull request and numpy-discussion
-  process which had become the conventional numpy development process
-  when it was merged. This implementation has been extensively tested
+  master. This implementation has been extensively tested
   against scipy and other third-party packages, and has been in master
   in a stable state for a significant amount of time.
 * This implementation integrates deeply with the core, providing an
@@ -564,7 +562,6 @@ A more detailed rationale for this recommendation is:
 * The missing data NEP provides a plan for adding bitpattern-based
   dtype support of NAs, which will operate through the same interface
   but allow for the same performance/correctness tradeoffs that R has made.
-  There are developer resources committed to furthering this plan.
 * Making it very easy for users to try out this implementation, which
   has reasonable feature coverage and performance characteristics, is
   the best way to get more concrete feedback about how numpy's missing
