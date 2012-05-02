@@ -378,7 +378,7 @@ case in particular, but he likes the NA computational abstraction
 because it is unambiguous and well-defined in all cases, and has a
 lot of existing experience to draw from.
 
-**Nathaniel's** overall conclusion based on everything above is that:
+**Nathaniel**
 
 * The "statistical missing data" use case is clear and compelling; the
   other use cases are probably important, but it's hard to say what
@@ -426,28 +426,6 @@ lot of existing experience to draw from.
   like people will suffer too badly if they are forced for now to
   stick to numpy's excellent mask-based indexing, the new where=
   support, and even numpy.ma.
-* Therefore, his current position is that we should
-
-  * Go ahead and implement bitpattern NAs
-  * *Not* implement masked arrays in the core -- or at least, not
-    yet. Instead, we should focus on figuring out how to implement
-    them out-of-core, so that people can try out different approaches
-    without us committing to any one approach. (And anyway, we're
-    going to have to figure out how to experiment with such changes
-    out-of-core if numpy is to continue to evolve without forking --
-    might as well do it now.)
-
-**Mark**
-
-* The idea of using NA semantics by default for missing data, inspired
-  by the "statistical missing data" problem, is better than all the
-  other default behaviors which were considered. This applies equally
-  to the bitpattern and the masked approach.
-* To be continued...
-
-**Nathaniel** will probably make a counter-argument that includes the
-points that
-
 * Making mask and bitpattern NAs act the same is helpful if one often
   wants to treat them the same (for example, temporarily pretend that
   certain data is "statistically missing data"), and unhelpful if one
@@ -492,8 +470,115 @@ points that
   (It passes the maskna test-suite, with some minor issues described
   in a big comment at the top.)
 
-And then **Mark** can counter-counter argument and maybe that will be
-that? :-)
+**Mark**
+
+* The idea of using NA semantics by default for missing data, inspired
+  by the "statistical missing data" problem, is better than all the
+  other default behaviors which were considered. This applies equally
+  to the bitpattern and the masked approach.
+* For NA-style functionality to get proper support by all numpy
+  features and eventually all third-party libraries, it needs to be
+  in the core. How to correctly and efficiently handle missing data
+  differs by algorithm, and if thinking about it is required to fully
+  support numpy, NA support will be broader and higher quality.
+* At the same time, providing two different missing data interfaces,
+  one for masks and one for bitpatterns, requires numpy developers
+  and third-party numpy plugin developers to separately consider the
+  question of what to do in either case, and do two additional
+  implementations of their code. This complicates their job,
+  and could lead to inconsistent support for missing data.
+* Providing the ability to work with both masks and bitpatterns through
+  the same C and Python programming interface makes missing data support
+  cleanly orthogonal with all other numpy features.
+* There are many trade-offs of memory usage, performance, correctness, and
+  flexibility between masks and bitpatterns. Providing support for both
+  approaches allows users of numpy to choose the approach which is
+  most compatible with their way of thinking, or has characteristics
+  which best match their use-case. Providing them through the same
+  interface further allows them to try both with minimal effort, and
+  choose the one which performs better or uses the least memory for
+  their programs.
+* Memory Usage
+  - With bitpatterns, less memory is used for storing a single NA-capable
+    array.
+  - With masks, less memory is used when a single array of data is used
+    with multiple different choices of NAs.
+* Performance
+  - With bitpatterns, the floating point type can use native hardware
+    operations, and achieve results which are correct in all but a few
+    cases. With other types, code must be written which specially checks
+    for the missing-data bitpattern.
+  - With masks, inner loops must be implemented to support the
+    masking semantics, which adds some overhead. The implementation
+    that currently exists has no performance tuning for this, so
+    it is not a good basis to judge the performance difference.
+* Correctness
+  - With bitpatterns, the choice of native floating-point operations
+    results in semantics which are not strictly correct in all cases.
+    An inconsistent case is NaN+NA vs NA+NaN. This performance/
+    correctness tradeoff seems reasonable.
+  - With masks, there is not a similar performance/correctness tradeoff.
+* Generality
+  - The bitpattern approach can work in a fully general way only when
+    there is a specific value which can be given up from the
+    data type. For IEEE floating point, a NaN is an obvious choice,
+    and for booleans represented as a byte, there are plenty of choices.
+    For integers, a valid value must be sacrificed to use this approach.
+  - The mask approach works universally with all data types.
+
+Recommendations for Moving Forward
+==================================
+
+**Nathaniel**
+
+* Go ahead and implement bitpattern NAs
+* *Not* implement masked arrays in the core -- or at least, not
+  yet. Instead, we should focus on figuring out how to implement
+  them out-of-core, so that people can try out different approaches
+  without us committing to any one approach. (And anyway, we're
+  going to have to figure out how to experiment with such changes
+  out-of-core if numpy is to continue to evolve without forking --
+  might as well do it now.)
+
+**Mark**
+
+* The existing code should remain as is, with a global run-time experimental
+  flag added which disables NA support by default.
+
+A more detailed rationale for this recommendation is:
+
+* A solid preliminary NA-mask implementation is currently in numpy
+  master. This went through the pull request and numpy-discussion
+  process which had become the conventional numpy development process
+  when it was merged. This implementation has been extensively tested
+  against scipy and other third-party packages, and has been in master
+  in a stable state for a significant amount of time.
+* This implementation integrates deeply with the core, providing an
+  interface which is usable in the same way R's NA support is. It
+  provides a compelling, user-friendly answer to R's NA support.
+* The missing data NEP provides a plan for adding bitpattern-based
+  dtype support of NAs, which will operate through the same interface
+  but allow for the same performance/correctness tradeoffs that R has made.
+  There are developer resources committed to furthering this plan.
+
+Because of its preliminary state, the existing implementation is marked
+as experimental in the numpy documentation. It would be good for this
+to remain marked as experimental until it is more fleshed out, for
+example supporting struct and array dtypes and with a fuller set of
+numpy operations.
+
+I think the code should stay as it is, except to add a run-time global
+numpy flag, perhaps numpy.experimental.maskna, which defaults to
+False and can be toggled to True. In its default state, any NA feature
+usage would raise an "ExperimentalError" exception, a measure which
+would prevent it from being accidentally used and communicate its
+experimental status very clearly.
+
+The ABI issues seem very tricky to deal with effectively in the 1.x
+series of releases, but I believe that with proper implementation-hiding
+in a 2.0 release, evolving the software to support various other
+ABI ideas that have been discussed is feasible. This is the approach
+I like best.
 
 References/history
 ==================
@@ -514,15 +599,3 @@ https://gist.github.com/1068264
 A discussion overview page is here:
 https://github.com/njsmith/numpy/wiki/NA-discussion-status
 
-.. Thought of this, wanted to raise a flag -- it isn't clear how
-   generalized ufuncs interact with any of this. Traditional ufuncs put
-   the generic machinery in charge of the looping, so the generic
-   machinery can play tricks like skipping values which should be
-   ignored. Generalized ufuncs allow for operations like dot product,
-   where a loop happens inside the function-specific code. Do we need to
-   add a where_mask argument to the generalized ufunc signature, so that
-   this internal loop can do the right thing? -Nathaniel
-
-   The NA abstraction defines predictable default behaviors for this,
-   and API support to allow the generalized ufuncs to compute
-   correct answers is necessary, you are correct. -Mark
