@@ -223,35 +223,35 @@ floating-point valued mask, or alpha channel, to indicate degrees of
 but it is an important use case, and ideally numpy should support
 natural ways of manipulating such data.
 
-After R, numpy.ma is probably the second-most mature source of
+After R, numpy.ma is probably the most mature source of
 experience on missing-data-related APIs. Its design is quite different
 from R; it uses different semantics -- reductions skip masked values
 by default and NaNs convert to masked -- and it uses a different
-storage strategy via a separate
-mask. While it seems to be generally considered sub-optimal for
-general use, it's hard to pin down whether this is because the API is
-immature but basically good, or the API is fundamentally broken, or
-the API is great but the code should be faster, or what. We looked at
-some of those users to try and get a better idea.
+storage strategy via a separate mask. While it seems to be generally
+considered sub-optimal for general use, it's hard to pin down whether
+this is because the API is immature but basically good, or the API
+is fundamentally broken, or the API is great but the code should be
+faster, or what. We looked at some of those users to try and get a
+better idea.
 
 Matplotlib is perhaps the best known package to rely on numpy.ma. It
 seems to use it in two ways. One is as a way for users to indicate
 what data is missing when passing it to be graphed. (Other ways are
 also supported, e.g., passing in NaN values gives the same result.) In
-this regard, matplotlib treats np.ma.masked values in the same way
-that R's plotting routines handle NA values. For these purposes,
+this regard, matplotlib treats np.ma.masked and NaN values in the same way
+that R's plotting routines handle NA and NaN values. For these purposes,
 matplotlib doesn't really care what semantics or storage strategy is
 used for missing data.
 
 Internally, matplotlib uses numpy.ma arrays to store and pass around
 separately computed boolean masks containing 'validity' information
-for each input
-array in a cheap and non-destructive fashion. Mark's impression from
-some shallow code review is that mostly it works directly with the
-data and mask attributes of the masked arrays, not extensively using
-the particular computational semantics of numpy.ma. So, for this usage
-they do rely on the non-destructive mask-based storage, but this
-doesn't say much about what semantics are needed.
+for each input array in a cheap and non-destructive fashion. Mark's
+impression from some shallow code review is that mostly it works
+directly with the data and mask attributes of the masked arrays,
+not extensively using the particular computational semantics of
+numpy.ma. So, for this usage they do rely on the non-destructive
+mask-based storage, but this doesn't say much about what semantics
+are needed.
 
 Paul Hobson `posted some code`__ on the list that uses numpy.ma for
 storing arrays of contaminant concentration measurements. Here the
@@ -471,20 +471,24 @@ What **Mark** thinks, overall:
   by the "statistical missing data" problem, is better than all the
   other default behaviors which were considered. This applies equally
   to the bitpattern and the masked approach.
+
 * For NA-style functionality to get proper support by all numpy
   features and eventually all third-party libraries, it needs to be
   in the core. How to correctly and efficiently handle missing data
   differs by algorithm, and if thinking about it is required to fully
   support numpy, NA support will be broader and higher quality.
+
 * At the same time, providing two different missing data interfaces,
   one for masks and one for bitpatterns, requires numpy developers
   and third-party numpy plugin developers to separately consider the
   question of what to do in either case, and do two additional
   implementations of their code. This complicates their job,
   and could lead to inconsistent support for missing data.
+
 * Providing the ability to work with both masks and bitpatterns through
   the same C and Python programming interface makes missing data support
   cleanly orthogonal with all other numpy features.
+
 * There are many trade-offs of memory usage, performance, correctness, and
   flexibility between masks and bitpatterns. Providing support for both
   approaches allows users of numpy to choose the approach which is
@@ -493,40 +497,51 @@ What **Mark** thinks, overall:
   interface further allows them to try both with minimal effort, and
   choose the one which performs better or uses the least memory for
   their programs.
+
 * Memory Usage
- - With bitpatterns, less memory is used for storing a single array
-   containing some NAs.
- - With masks, less memory is used for storing multiple arrays that
-   are identical except for the location of their NAs. (In this case a
-   single data array can be re-used with multiple mask arrays;
-   bitpattern NAs would need to copy the whole data array.)
+
+  * With bitpatterns, less memory is used for storing a single array
+    containing some NAs.
+
+  * With masks, less memory is used for storing multiple arrays that
+    are identical except for the location of their NAs. (In this case a
+    single data array can be re-used with multiple mask arrays;
+    bitpattern NAs would need to copy the whole data array.)
+
 * Performance
- - With bitpatterns, the floating point type can use native hardware
-   operations, with nearly correct behavior. For fully correct floating
-   point behavior and with other types, code must be written which
-   specially tests for equality with the missing-data bitpattern.
- - With masks, there is always the overhead of accessing mask memory
-   and testing its truth value. The implementation that currently exists
-   has no performance tuning, so it is only good to judge a minimum
-   performance level. Optimal mask-based code is in general going to
-   be slower than optimal bitpattern-based code.
+
+  * With bitpatterns, the floating point type can use native hardware
+    operations, with nearly correct behavior. For fully correct floating
+    point behavior and with other types, code must be written which
+    specially tests for equality with the missing-data bitpattern.
+
+  * With masks, there is always the overhead of accessing mask memory
+    and testing its truth value. The implementation that currently exists
+    has no performance tuning, so it is only good to judge a minimum
+    performance level. Optimal mask-based code is in general going to
+    be slower than optimal bitpattern-based code.
+
 * Correctness
- - Bitpattern integer types must sacrifice a valid value to represent NA.
-   For larger integer types, there are arguments that this is ok, but for
-   8-bit types there is no reasonable choice. In the floating point case,
-   if the performance of native floating point operations is chosen,
-   there is a small inconsistency that NaN+NA and NA+NaN are different.
- - With masks, it works correctly in all cases.
+
+  * Bitpattern integer types must sacrifice a valid value to represent NA.
+    For larger integer types, there are arguments that this is ok, but for
+    8-bit types there is no reasonable choice. In the floating point case,
+    if the performance of native floating point operations is chosen,
+    there is a small inconsistency that NaN+NA and NA+NaN are different.
+  * With masks, it works correctly in all cases.
+
 * Generality
- - The bitpattern approach can work in a fully general way only when
-   there is a specific value which can be given up from the
-   data type. For IEEE floating point, a NaN is an obvious choice,
-   and for booleans represented as a byte, there are plenty of choices.
-   For integers, a valid value must be sacrificed to use this approach.
-   Third-party dtypes which plug into numpy will also have to
-   make a bitpattern choice to support this system, something which
-   may not always be possible.
- - The mask approach works universally with all data types.
+
+  * The bitpattern approach can work in a fully general way only when
+    there is a specific value which can be given up from the
+    data type. For IEEE floating point, a NaN is an obvious choice,
+    and for booleans represented as a byte, there are plenty of choices.
+    For integers, a valid value must be sacrificed to use this approach.
+    Third-party dtypes which plug into numpy will also have to
+    make a bitpattern choice to support this system, something which
+    may not always be possible.
+
+  * The mask approach works universally with all data types.
 
 Recommendations for Moving Forward
 ==================================
@@ -624,6 +639,60 @@ https://github.com/njsmith/numpyNEP
 It passes the maskna test-suite, with some minor issues described
 in a big comment at the top.
 
+**Mark** responds:
+
+I agree that it's important to be careful when adding new
+features to numpy, but I also believe it is essential that the project
+have forward development momentum. A project like numpy requires
+developers to write code for advancement to occur, and obstacles
+that impede the writing of code discourage existing developers
+from contributing more, and potentially scare away developers
+who are thinking about joining in.
+
+All software projects, both open source and closed source, must
+balance between short-term practicality and long-term planning.
+In the case of the missing data development, there was a short-term
+resource commitment to tackle this problem, which is quite immense
+in scope. If there isn't a high likelihood of getting a contribution
+into numpy that concretely advances towards a solution, I expect
+that individuals and companies interested in doing such work will
+have a much harder time justifying a commitment of their resources.
+For a project which is core to so many other libraries, only
+relying on the good will of selfless volunteers would mean that
+numpy could more easily be overtaken by another project.
+
+In the case of the existing NA contribution at issue, how we resolve
+this disagreement represents a decision about how numpy's
+developers, contributers, and users should interact. If we create
+a document describing a dispute resolution process, how do we
+design it so that it doesn't introduce a large burden and excessive
+uncertainty on developers that could prevent them from productively
+contributing code?
+
+If we go this route of writing up a decision process which includes
+such a dispute resolution mechanism, I think the meat of it should
+be a roadmap that potential contributers and developers can follow
+to gain influence over numpy. Numpy development needs broad support
+beyond code contributions, and tying influence in the project to
+contributions seems to me like it would be a good way to encourage
+people to take on tasks like bug triaging/management, continuous
+integration/build server administration, and the myriad other
+tasks that help satisfy the project's needs. No specific meritocratic,
+democratic, consensus-striving system will satisfy everyone, but the
+vigour of the discussions around governance and process indicate that
+something at least a little bit more formal than the current status
+quo is necessary.
+
+In conclusion, I would like the numpy project to prioritize movement
+towards a more flexible and modular ABI/API, balanced with strong
+backwards-compatibility constraints and feature additions that
+individuals, universities, and companies want to contribute.
+I do not believe keeping the NA code in 1.7 as it is, with the small
+additional measure of requiring it to be enabled by an experimental
+flag, poses a risk of long-term ABI troubles. The greater risk I see
+is a continuing lack of developers contributing to the project,
+and I believe backing out this code because these worries would create a
+risk of reducing developer contribution.
 
 References/history
 ==================
