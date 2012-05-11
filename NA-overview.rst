@@ -1,3 +1,8 @@
+.. note::
+ This page contains the missing data document discussed on the mailing
+ list -
+ http://mail.scipy.org/pipermail/numpy-discussion/2012-May/062206.html
+
 Missing data: an orientation
 ############################
 
