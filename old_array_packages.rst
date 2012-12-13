@@ -14,8 +14,8 @@ should start out with NumPy.
 ..
 .. Free Documentation for
 .. Numeric (most of which is still valid) is `here
-.. <http://numpy.scipy.org/numpydoc/numdoc.htm>`_ or as a `pdf
-.. <http://numpy.scipy.org/numpy.pdf>`_ file.   Obviously you should replace
+.. <http://www.numpy.org/numpydoc/numdoc.htm>`_ or as a `pdf
+.. <http://www.numpy.org/numpy.pdf>`_ file.   Obviously you should replace
 .. references to Numeric in that document with numpy (i.e. instead of "import
 .. Numeric", use "import numpy").
 

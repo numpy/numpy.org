@@ -1,5 +1,5 @@
 This repository contains the Sphinx source for the NumPy website
-(http://numpy.scipy.org/).
+(http://www.numpy.org/).
 
 To make a local build of the website
 
