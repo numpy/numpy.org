@@ -31,7 +31,7 @@ Scientific Computing Tools For Python
          <a href="http://docs.scipy.org">
            <img alt="Documentation" src="_static/images/documentation.png" title="Documentation"  height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
        <td style="border: medium none ;">
-         <a href="http://scipy.org/BugReport">
+         <a href="https://github.com/numpy/numpy/issues">
            <img alt="Bug Report" src="_static/images/bugs.png" title="Bug Report"  height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
        <td style="border: medium none ;">
          <a href="http://planet.scipy.org">
@@ -42,7 +42,7 @@ Scientific Computing Tools For Python
        <td style="border: medium none; text-align: center;"><strong><small><a href="http://scipy.org/Download">Download</a></small></strong></td>
        <td style="border: medium none; text-align: center;"><strong><small><a href="http://scipy.org/Getting_Started">Getting Started</a></small></strong></td>
        <td style="border: medium none; text-align: center;"><strong><small><a href="http://docs.scipy.org">Documentation</a></small></strong></td>
-       <td style="border: medium none; text-align: center;"><strong><small><a href="http://scipy.org/BugReport">Report Bugs</a></small></strong></td>
+       <td style="border: medium none; text-align: center;"><strong><small><a href="https://github.com/numpy/numpy/issues">Report Bugs</a></small></strong></td>
        <td style="border: medium none; text-align: center;"><strong><small><a href="http://planet.scipy.org">Read the Blog</a></small></strong></td>
      </tr>
 
