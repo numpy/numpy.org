@@ -1,52 +1,12 @@
 
-.. raw:: html
-
-   <div style="display: none;">
-
-Scientific Computing Tools For Python
-=====================================
-
-.. raw:: html
-
-   </div></div>
+NumPy
+=====
 
 .. toctree::
    :hidden:
 
    license
    old_array_packages
-
-
-.. raw:: html
-
-   <table>
-     <tr>
-       <td style="border-style: none;">
-         <a href="http://scipy.org/Download">
-            <img alt="Download" src="_static/images/download.png" title="Download" height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
-       <td style="border: medium none ;">
-         <a href="http://scipy.org/Getting_Started">
-           <img alt="Getting Started" src="_static/images/tutorial.png" title="Getting Started"  height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
-       <td style="border: medium none ;">
-         <a href="http://docs.scipy.org">
-           <img alt="Documentation" src="_static/images/documentation.png" title="Documentation"  height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
-       <td style="border: medium none ;">
-         <a href="https://github.com/numpy/numpy/issues">
-           <img alt="Bug Report" src="_static/images/bugs.png" title="Bug Report"  height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
-       <td style="border: medium none ;">
-         <a href="http://planet.scipy.org">
-            <img alt="Blog" src="_static/images/feed-icon.png" title="Blog"  height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
-     </tr>
-
-     <tr>
-       <td style="border: medium none; text-align: center;"><strong><small><a href="http://scipy.org/Download">Download</a></small></strong></td>
-       <td style="border: medium none; text-align: center;"><strong><small><a href="http://scipy.org/Getting_Started">Getting Started</a></small></strong></td>
-       <td style="border: medium none; text-align: center;"><strong><small><a href="http://docs.scipy.org">Documentation</a></small></strong></td>
-       <td style="border: medium none; text-align: center;"><strong><small><a href="https://github.com/numpy/numpy/issues">Report Bugs</a></small></strong></td>
-       <td style="border: medium none; text-align: center;"><strong><small><a href="http://planet.scipy.org">Read the Blog</a></small></strong></td>
-     </tr>
-
-   </table>
 
 
 NumPy is the fundamental package for scientific computing with Python.
@@ -87,7 +47,7 @@ More Information
 
 .. raw:: html
 
-   <div style="padding-top: 40px;" align=center>
+   <div style="padding-top: 40px;text-align:center;">
      <script type="text/javascript" src="http://www.ohloh.net/p/4894/widgets/project_partner_badge.js"></script>
    </div>
 
