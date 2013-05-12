@@ -1,64 +1,12 @@
-.. raw:: html
 
-   <style>
-   .section h1 { display: none; }
-   </style>
-
-Scientific Computing Tools For Python
-=====================================
+NumPy
+=====
 
 .. toctree::
    :hidden:
 
    license
    old_array_packages
-
-
-.. raw:: html
-
-   <style>
-   table.linktable {
-       margin: 10px;
-       margin-bottom: 20px;
-   }
-   table.icontable {
-       margin: 10px;
-   }
-   table.linktable td {
-       padding-left: 15px;
-       padding-right: 15px;
-       padding-bottom: 5px;
-       text-align: center;
-   }
-   </style>
-   <table class="linktable">
-     <tr>
-       <td style="border-style: none;">
-         <a href="http://scipy.org/Download">
-            <img alt="Download" src="_static/images/download.png" title="Download" height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
-       <td style="border: medium none ;">
-         <a href="http://scipy.org/Getting_Started">
-           <img alt="Getting Started" src="_static/images/tutorial.png" title="Getting Started"  height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
-       <td style="border: medium none ;">
-         <a href="http://docs.scipy.org">
-           <img alt="Documentation" src="_static/images/documentation.png" title="Documentation"  height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
-       <td style="border: medium none ;">
-         <a href="https://github.com/numpy/numpy/issues">
-           <img alt="Bug Report" src="_static/images/bugs.png" title="Bug Report"  height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
-       <td style="border: medium none ;">
-         <a href="http://planet.scipy.org">
-            <img alt="Blog" src="_static/images/feed-icon.png" title="Blog"  height="80" style="display: block; margin-left: auto; margin-right: auto;"/></a> </td>
-     </tr>
-
-     <tr>
-       <td style="border: medium none; text-align: center;"><strong><small><a href="http://scipy.org/Download">Download</a></small></strong></td>
-       <td style="border: medium none; text-align: center;"><strong><small><a href="http://scipy.org/Getting_Started">Getting Started</a></small></strong></td>
-       <td style="border: medium none; text-align: center;"><strong><small><a href="http://docs.scipy.org">Documentation</a></small></strong></td>
-       <td style="border: medium none; text-align: center;"><strong><small><a href="https://github.com/numpy/numpy/issues">Report Bugs</a></small></strong></td>
-       <td style="border: medium none; text-align: center;"><strong><small><a href="http://planet.scipy.org">Read the Blog</a></small></strong></td>
-     </tr>
-
-   </table>
 
 
 NumPy is the fundamental package for scientific computing with Python.
