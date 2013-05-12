@@ -1,0 +1,21 @@
+{% block sitenav %}
+
+<style>
+a.extlink:after {
+    margin-left: 5px;
+    content: url("{{ pathto('_static/external-link.png', 1) }}");
+}
+</style>
+
+<div class="well sidebar-nav">
+  <ul class="nav nav-list">
+    <li {% if pagename == 'index' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('index') }}">About Numpy</a></li>
+    <li {% if pagename == 'license' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('license') }}">License</a></li>
+    <li {% if pagename == 'old_array_packages' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('old_array_packages') }}">Old array packages</a></li>
+  </ul>
+</div>
+
+{% endblock %}

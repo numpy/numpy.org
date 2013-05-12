@@ -65,7 +65,7 @@ today_fmt = '%Y'
 
 # List of directories, relative to source directory, that shouldn't be searched
 # for source files.
-exclude_trees = []
+exclude_trees = ['scipy-sphinx-theme']
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None
@@ -97,10 +97,14 @@ html_theme = 'scipy'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+    'sidebar': 'right',
+    'rootlinks': [], #[("http://scipy.org/", "Scipy.org")],
+    'navigation_links': False,
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = ["_theme"]
+html_theme_path = ["scipy-sphinx-theme/_theme"]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -117,12 +121,12 @@ html_title = "Numpy"
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
 #html_favicon = None
-html_favicon = 'favicon.ico'
+html_favicon = '_static/favicon.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-#html_static_path = ['static']
+html_static_path = ['_static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
@@ -133,7 +137,10 @@ html_favicon = 'favicon.ico'
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
+html_sidebars = {
+    '**': ['sitenav.html', 'localtoc.html'],
+    'index': ['sitenav.html'],
+}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.

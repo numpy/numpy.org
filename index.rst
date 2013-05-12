@@ -1,14 +1,11 @@
-
 .. raw:: html
 
-   <div style="display: none;">
+   <style>
+   .section h1 { display: none; }
+   </style>
 
 Scientific Computing Tools For Python
 =====================================
-
-.. raw:: html
-
-   </div></div>
 
 .. toctree::
    :hidden:
@@ -19,7 +16,22 @@ Scientific Computing Tools For Python
 
 .. raw:: html
 
-   <table>
+   <style>
+   table.linktable {
+       margin: 10px;
+       margin-bottom: 20px;
+   }
+   table.icontable {
+       margin: 10px;
+   }
+   table.linktable td {
+       padding-left: 15px;
+       padding-right: 15px;
+       padding-bottom: 5px;
+       text-align: center;
+   }
+   </style>
+   <table class="linktable">
      <tr>
        <td style="border-style: none;">
          <a href="http://scipy.org/Download">
@@ -87,7 +99,7 @@ More Information
 
 .. raw:: html
 
-   <div style="padding-top: 40px;" align=center>
+   <div style="padding-top: 40px;text-align:center;">
      <script type="text/javascript" src="http://www.ohloh.net/p/4894/widgets/project_partner_badge.js"></script>
    </div>
 
