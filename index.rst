@@ -1,4 +1,3 @@
-
 NumPy
 =====
 
@@ -28,8 +27,8 @@ few restrictions.
 Getting Started
 ---------------
 
-- `Getting Numpy <http://www.scipy.org/Download>`__
-- `Installing NumPy and SciPy <http://www.scipy.org/Installing_SciPy>`__
+- `Getting Numpy <http://www.scipy.org/scipylib/download.html>`__
+- `Installing the SciPy Stack <http://www.scipy.org/Installing_SciPy>`__
 - `NumPy and SciPy documentation page <http://docs.scipy.org/doc/>`__
 - `NumPy Tutorial <http://www.scipy.org/Tentative_NumPy_Tutorial>`__
 - `NumPy for MATLAB© Users <http://www.scipy.org/NumPy_for_Matlab_Users>`__
