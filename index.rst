@@ -28,20 +28,20 @@ Getting Started
 ---------------
 
 - `Getting Numpy <http://www.scipy.org/scipylib/download.html>`__
-- `Installing the SciPy Stack <http://www.scipy.org/Installing_SciPy>`__
+- `Installing the SciPy Stack <http://www.scipy.org/install.html>`__
 - `NumPy and SciPy documentation page <http://docs.scipy.org/doc/>`__
-- `NumPy Tutorial <http://www.scipy.org/Tentative_NumPy_Tutorial>`__
-- `NumPy for MATLAB© Users <http://www.scipy.org/NumPy_for_Matlab_Users>`__
-- `NumPy functions by category <http://www.scipy.org/Numpy_Functions_by_Category>`__
-- `NumPy Mailing List <http://www.scipy.org/Mailing_Lists>`__
+- `NumPy Tutorial <https://docs.scipy.org/doc/numpy-dev/user/quickstart.html>`__
+- `NumPy for MATLAB© Users <https://docs.scipy.org/doc/numpy-dev/user/numpy-for-matlab-users.html>`__
+- `NumPy functions by category <https://docs.scipy.org/doc/numpy/reference/routines.html>`__
+- `NumPy Mailing List <http://www.scipy.org/scipylib/mailing-lists.html>`__
 
 
 More Information
 ----------------
 
-- `NumPy Sourceforge Home Page <http://sourceforge.net/projects/numpy/>`__
+- `NumPy Sourceforge Home Page <https://sourceforge.net/projects/numpy/>`__
 - `SciPy Home Page <http://www.scipy.org/>`__
-- `Interfacing with compiled code <http://www.scipy.org/Topical_Software#head-7153b42ac4ea517c7d99ec4f4453555b2302a1f8>`__
+- `Interfacing with compiled code <http://www.scipy.org/topical-software.html>`__
 - `Older python array packages <old_array_packages.html>`__
 
 .. raw:: html
@@ -49,4 +49,3 @@ More Information
    <div style="padding-top: 40px;text-align:center;">
      <script type="text/javascript" src="http://www.ohloh.net/p/4894/widgets/project_partner_badge.js"></script>
    </div>
-

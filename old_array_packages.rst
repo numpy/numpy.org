@@ -2,69 +2,32 @@
 Older Array Packages
 ====================
 
-Links to the older array packages for Python are provided here. New users
-should start out with NumPy.
+Below is a very brief history of NumPy and the array packages that were important
+to its development. These older array packages are no longer maintained, and users
+are strongly advised to use NumPy for any array-related purposes or refactor any
+pre-existing code to utilize the NumPy library.
 
-.. Much of the documentation for Numeric and Numarray is applicable to the NumPy
-.. package.  However, there are :ref:`significant feature improvements
-.. <new_features>`.  A complete guide to the new system has been written by the
-.. primary developer, Travis Oliphant. It is now in the public domain.  Other
-.. Documentation is available at `the scipy website <http://www.scipy.org/>`_ and
-.. in the docstrings (which can be extracted using pydoc).
-..
-.. Free Documentation for
-.. Numeric (most of which is still valid) is `here
-.. <http://www.numpy.org/numpydoc/numdoc.htm>`_ or as a `pdf
-.. <http://www.numpy.org/numpy.pdf>`_ file.   Obviously you should replace
-.. references to Numeric in that document with numpy (i.e. instead of "import
-.. Numeric", use "import numpy").
+History of NumPy
+================
 
-Upgrading from historical implementations
-=========================================
+NumPy derives from an old library called Numeric, which was the first array object
+built for Python. It was quite successful and was used in a variety of applications
+before being phased out. NumPy also incorporates features introduced by a library
+called Numarray, which was written after Numeric but before NumPy.
 
-NumPy derives from the old Numeric code base and can be used as a replacement
-for Numeric.   It also adds the features introduced by Numarray and can also be
-used to replace Numarray.
+When NumPy was first written, it wasn't actually called "NumPy". For about 6 months at
+the end of 2005, Numpy was called SciPy Core (not to be confused with the full SciPy
+package which remains a `separate <http://www.scipy.org/>`_ package). However, it was
+decided in January 2006 to go with the historical name of NumPy for the new package.
 
-Numeric users should find the transition relatively easy (although not without
-some effort).  There is a module (numpy.oldnumeric.alter_code1) that can
-make most of the necessary changes to your Python code that used Numeric to work
-with NumPy's Numeric compatibility module.
+SourceForge Links
+=================
 
-Users of numarray can also transition their code using a similar module
-(``numpy.numarray.alter_code1``) and the numpy.numarray compatibility layer.
+If for any reason you want to obtain a copy of the original Numeric and Numarray libraries,
+you can download them from SourceForge using the links below:
 
-C-code written to either package can be easily ported to NumPy using
-"numpy/oldnumeric.h" and "numpy/libnumarray.h" for the Numeric C-API and the
-Numarray C-API respectively.
-
-For about 6 months at the end of 2005, Numpy was called SciPy Core (not to be
-confused with the full SciPy package which remains a `separate
-<http://www.scipy.org/>`_ package), and so you may occasionally see references
-to SciPy Core floating around.  It was, however, decided in January 2006 to go
-with the historical name of NumPy for the new package.
-
-Numeric (version 24.2)
-======================
-
-Numeric was the first array object built for Python.  It has been quite
-successful and is used in a wide variety of settings and applications.
-Maintenance has ceased for Numeric, and users should transisition to NumPy as
-quickly as possible.   There is a module called numpy.oldnumeric.alter_code1 in
-NumPy that can make the transition to NumPy easier (it will automatically
-perform the search-and-replace style changes that need to be made to python
-code that uses Numeric to make it work with NumPy).
-
-`Sourceforge Download Page for Numeric
+`Download Page for Numeric
 <http://sourceforge.net/projects/numpy/files/Old%20Numeric/>`__
 
-Numarray
-========
-
-Numarray is another implementation of an array object for Python written after
-Numeric and before NumPy. Sponsors of numarray have indicated they will be
-moving to NumPy as soon as is feasible for them so that eventually numarray
-will be phased out (probably sometime in 2007).
-
-`Sourceforge Download Page for Numarray
+`Download Page for Numarray
 <http://sourceforge.net/projects/numpy/files/Old%20Numarray/>`__
