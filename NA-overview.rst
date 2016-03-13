@@ -1,7 +1,7 @@
 .. note::
  This page contains the missing data document discussed on the mailing
  list -
- http://mail.scipy.org/pipermail/numpy-discussion/2012-May/062206.html
+ https://mail.scipy.org/pipermail/numpy-discussion/2012-May/062206.html
 
 Missing data: an orientation
 ############################
@@ -267,7 +267,7 @@ through this code is that it also mostly uses the .data and .mask
 attributes in preference to performing operations on the MaskedArray
 directly.
   
-__ http://mail.scipy.org/pipermail/numpy-discussion/2012-April/061743.html
+__ https://mail.scipy.org/pipermail/numpy-discussion/2012-April/061743.html
 
 So, these examples make it clear that there is demand for a convenient
 way to keep a data array and a mask array (or even a floating point
@@ -367,7 +367,7 @@ use case, and to also implement a totally independent API for masked
 arrays with ignore semantics and all mask manipulation done explicitly
 through a .mask attribute.
 
-.. _alterNEP: https://gist.github.com/1056379
+.. _alterNEP: https://gist.github.com/njsmith/1056379
 
 Another option would be to define a minimalist aligned array container
 that holds multiple arrays and that can be used to pass them around
@@ -709,11 +709,11 @@ https://github.com/numpy/numpy/blob/master/doc/neps/missing-data.rst
 The alterNEP was Nathaniel's initial attempt at separating MISSING and
 IGNORED handling into bit-patterns versus masks, though there's a
 bunch he would change about the proposal at this point:
-https://gist.github.com/1056379
+https://gist.github.com/njsmith/1056379
 
 miniNEP 2 was a later attempt by Nathaniel to sketch out an
 implementation strategy for NA dtypes:
-https://gist.github.com/1068264
+https://gist.github.com/njsmith/1068264
 
 A discussion overview page is here:
 https://github.com/njsmith/numpy/wiki/NA-discussion-status
