@@ -16,7 +16,7 @@ before being phased out. NumPy also incorporates features introduced by a librar
 called Numarray, which was written after Numeric but before NumPy.
 
 When NumPy was first written, it wasn't actually called "NumPy". For about 6 months at
-the end of 2005, Numpy was called SciPy Core (not to be confused with the full SciPy
+the end of 2005, NumPy was called SciPy Core (not to be confused with the full SciPy
 package which remains a `separate <http://www.scipy.org/>`_ package). However, it was
 decided in January 2006 to go with the historical name of NumPy for the new package.
 

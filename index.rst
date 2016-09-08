@@ -21,13 +21,13 @@ multi-dimensional container of generic data. Arbitrary data-types can be
 defined. This allows NumPy to seamlessly and speedily integrate with a wide
 variety of databases.
 
-Numpy is licensed under the :ref:`BSD license <license>`, enabling reuse with
+NumPy is licensed under the :ref:`BSD license <license>`, enabling reuse with
 few restrictions.
 
 Getting Started
 ---------------
 
-- `Getting Numpy <http://www.scipy.org/scipylib/download.html>`__
+- `Getting NumPy <http://www.scipy.org/scipylib/download.html>`__
 - `Installing the SciPy Stack <http://www.scipy.org/install.html>`__
 - `NumPy and SciPy documentation page <http://docs.scipy.org/doc/>`__
 - `NumPy Tutorial <https://docs.scipy.org/doc/numpy-dev/user/quickstart.html>`__

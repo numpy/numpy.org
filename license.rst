@@ -1,6 +1,6 @@
 .. _license:
 
-Numpy license
+NumPy license
 =============
 
 | Copyright © 2005-|today|, NumPy Developers.

@@ -6,19 +6,19 @@
 Missing data: an orientation
 ############################
 
-The debate about how numpy should handle missing data, a subject with
+The debate about how NumPy should handle missing data, a subject with
 many preexisting approaches, requirements, and conventions, has been long and
 contentious. There has been more than one proposal for how to implement
-support into numpy, and there is a testable implementation which is
-merged into numpy's current master. The vast number of emails and differing
+support into NumPy, and there is a testable implementation which is
+merged into NumPy's current master. The vast number of emails and differing
 points of view has made it difficult for interested parties to understand
-the issues and be comfortable with the direction numpy is going.
+the issues and be comfortable with the direction NumPy is going.
 
 Here is our (Mark and Nathaniel's) attempt to summarize the
 problem, proposals, and points of agreement/disagreement in a single
 place, to help the community move towards consensus.
 
-The Numpy developers' problem
+The NumPy developers' problem
 =============================
 
 For this discussion, "missing data" means array elements
@@ -51,12 +51,12 @@ it is necessary to answer such questions as:
 There's clearly a very large space of missing-data APIs that *could*
 be implemented. There is likely at least one user, somewhere, who
 would find any possible implementation to be just the thing they
-need to solve some problem. On the other hand, much of numpy's power
+need to solve some problem. On the other hand, much of NumPy's power
 and clarity comes from having a small number of orthogonal concepts,
 such as strided arrays, flexible indexing, broadcasting, and ufuncs,
 and we'd like to preserve that simplicity.
 
-There has been dissatisfaction among several major groups of numpy users
+There has been dissatisfaction among several major groups of NumPy users
 about the existing status quo of missing data support. In particular,
 neither the numpy.ma component nor use of floating-point NaNs as a
 missing data signal fully satisfy the performance requirements and
@@ -69,7 +69,7 @@ is not being done in a way which sacrifices existing performance
 or functionality.
 
 Our problem is, how can we choose some incremental additions to
-numpy that will make a large class of users happy, be
+NumPy that will make a large class of users happy, be
 reasonably elegant, complement the existing design, and that we're
 comfortable we won't regret being stuck with in the long term.
 
@@ -77,7 +77,7 @@ Prior art
 =========
 
 So a major (maybe *the* major) problem is figuring out how ambitious
-the project to add missing data support to numpy should be, and which
+the project to add missing data support to NumPy should be, and which
 kinds of problems are in scope. Let's start with the
 best understood situation where "missing data" comes into play:
 
@@ -113,7 +113,7 @@ Let's call this situation the "statistical missing data" situation,
 just to have a convenient handle for it. (As mentioned, practitioners
 just call this "missing data", and what to do about it is literally an
 entire sub-field of statistics; if you google "missing data" then
-every reference is on how to handle it.) Numpy isn't going to do
+every reference is on how to handle it.) NumPy isn't going to do
 automatic imputation or anything like that, but it could help a great
 deal by providing some standard way to at least represent data which
 is missing in this sense.
@@ -225,7 +225,7 @@ Joe Harrington pointed out on the list, in the context of processing
 astronomical images, it's also common to generalize to a
 floating-point valued mask, or alpha channel, to indicate degrees of
 "missingness". We think this is out of scope for the present design,
-but it is an important use case, and ideally numpy should support
+but it is an important use case, and ideally NumPy should support
 natural ways of manipulating such data.
 
 After R, numpy.ma is probably the most mature source of
@@ -280,7 +280,7 @@ Semantics, storage, API, oh my!
 
 We think it's useful to draw a clear line between use cases,
 semantics, and storage. Use cases are situations that users encounter,
-regardless of what numpy does; they're the focus of the previous
+regardless of what NumPy does; they're the focus of the previous
 section. When we say *semantics*, we mean the result of different
 operations as viewed from the Python level without regard to the
 underlying implementation.
@@ -377,7 +377,7 @@ unaligned), but all arithmetic etc. would be done by accessing the
 underlying arrays directly via attributes. The "prior art" discussion
 above suggests that something like this holding a .data and a .mask
 array might actually be solve a number of people's problems without
-requiring any major architectural changes to numpy. This is similar to
+requiring any major architectural changes to NumPy. This is similar to
 a structured array, but with each field in a separately stored array
 instead of packed together.
 
@@ -428,7 +428,7 @@ What **Nathaniel** thinks, overall:
   be switching to floats anyway to avoid overflow.)
 * Adding new dtypes requires some cooperation with the ufunc and
   casting machinery, but doesn't require any architectural changes or
-  violations of numpy's current orthogonality.
+  violations of NumPy's current orthogonality.
 * His impression from the mailing list discussion, esp. the `"what can
   we agree on?" thread`__, is that many numpy.ma users specifically
   like the combination of masked storage, the mask being easily
@@ -461,7 +461,7 @@ What **Nathaniel** thinks, overall:
 * By comparison, we clearly have much more uncertainty about the use
   cases that require a mask-based implementation, and it doesn't seem
   like people will suffer too badly if they are forced for now to
-  settle for using numpy's excellent mask-based indexing, the new
+  settle for using NumPy's excellent mask-based indexing, the new
   where= support, and even numpy.ma.
 * Therefore, bitpatterns with NA semantics seem to meet the criteria
   of making a large class of users happy, in an elegant way, that fits
@@ -477,26 +477,26 @@ What **Mark** thinks, overall:
   other default behaviors which were considered. This applies equally
   to the bitpattern and the masked approach.
 
-* For NA-style functionality to get proper support by all numpy
+* For NA-style functionality to get proper support by all NumPy
   features and eventually all third-party libraries, it needs to be
   in the core. How to correctly and efficiently handle missing data
   differs by algorithm, and if thinking about it is required to fully
-  support numpy, NA support will be broader and higher quality.
+  support NumPy, NA support will be broader and higher quality.
 
 * At the same time, providing two different missing data interfaces,
-  one for masks and one for bitpatterns, requires numpy developers
-  and third-party numpy plugin developers to separately consider the
+  one for masks and one for bitpatterns, requires NumPy developers
+  and third-party NumPy plugin developers to separately consider the
   question of what to do in either case, and do two additional
   implementations of their code. This complicates their job,
   and could lead to inconsistent support for missing data.
 
 * Providing the ability to work with both masks and bitpatterns through
   the same C and Python programming interface makes missing data support
-  cleanly orthogonal with all other numpy features.
+  cleanly orthogonal with all other NumPy features.
 
 * There are many trade-offs of memory usage, performance, correctness, and
   flexibility between masks and bitpatterns. Providing support for both
-  approaches allows users of numpy to choose the approach which is
+  approaches allows users of NumPy to choose the approach which is
   most compatible with their way of thinking, or has characteristics
   which best match their use-case. Providing them through the same
   interface further allows them to try both with minimal effort, and
@@ -542,7 +542,7 @@ What **Mark** thinks, overall:
     data type. For IEEE floating point, a NaN is an obvious choice,
     and for booleans represented as a byte, there are plenty of choices.
     For integers, a valid value must be sacrificed to use this approach.
-    Third-party dtypes which plug into numpy will also have to
+    Third-party dtypes which plug into NumPy will also have to
     make a bitpattern choice to support this system, something which
     may not always be possible.
 
@@ -558,9 +558,9 @@ Recommendations for Moving Forward
   yet. Instead, we should focus on figuring out how to implement them
   out-of-core, so that people can try out different approaches without
   us committing to any one approach. And so new prototypes can be
-  released more quickly than the numpy release cycle. And anyway,
+  released more quickly than the NumPy release cycle. And anyway,
   we're going to have to figure out how to experiment with such
-  changes out-of-core if numpy is to continue to evolve without
+  changes out-of-core if NumPy is to continue to evolve without
   forking -- might as well do it now. The existing code can live in
   master, disabled, or it can live in a branch -- it'll still be there
   once we know what we're doing.
@@ -572,7 +572,7 @@ Recommendations for Moving Forward
 
 A more detailed rationale for this recommendation is:
 
-* A solid preliminary NA-mask implementation is currently in numpy
+* A solid preliminary NA-mask implementation is currently in NumPy
   master. This implementation has been extensively tested
   against scipy and other third-party packages, and has been in master
   in a stable state for a significant amount of time.
@@ -584,17 +584,17 @@ A more detailed rationale for this recommendation is:
   but allow for the same performance/correctness tradeoffs that R has made.
 * Making it very easy for users to try out this implementation, which
   has reasonable feature coverage and performance characteristics, is
-  the best way to get more concrete feedback about how numpy's missing
+  the best way to get more concrete feedback about how NumPy's missing
   data support should look.
 
 Because of its preliminary state, the existing implementation is marked
-as experimental in the numpy documentation. It would be good for this
+as experimental in the NumPy documentation. It would be good for this
 to remain marked as experimental until it is more fleshed out, for
 example supporting struct and array dtypes and with a fuller set of
-numpy operations.
+NumPy operations.
 
 I think the code should stay as it is, except to add a run-time global
-numpy flag, perhaps numpy.experimental.maskna, which defaults to
+NumPy flag, perhaps numpy.experimental.maskna, which defaults to
 False and can be toggled to True. In its default state, any NA feature
 usage would raise an "ExperimentalError" exception, a measure which
 would prevent it from being accidentally used and communicate its
@@ -616,7 +616,7 @@ violates your warranty" global flag could be a way to do that. (In
 fact, this might also be a useful strategy for the kinds of changes
 that he favors, of adding minimal hooks to enable us to build
 prototypes more easily -- we could have some "rapid prototyping only"
-hooks that let prototype hacks get deeper access to numpy's internals
+hooks that let prototype hacks get deeper access to NumPy's internals
 than we were otherwise ready to support.)
 
 But, he wants to point out two things. First, it seems like we still
@@ -635,7 +635,7 @@ hacky pure-Python prototype accessible by typing "import
 numpy.experimental.donttrythisathome.NEP" and would welcome feedback'?
 
 If so, then he should mention that he did implement a horribly klugy,
-pure Python implementation of the NEP API that works with numpy
+pure Python implementation of the NEP API that works with NumPy
 1.6.1. This was mostly as an experiment to see how possible such
 prototyping was and to test out a possible ufunc override mechanism,
 but if there's interest, the module is available here:
@@ -647,8 +647,8 @@ in a big comment at the top.
 **Mark** responds:
 
 I agree that it's important to be careful when adding new
-features to numpy, but I also believe it is essential that the project
-have forward development momentum. A project like numpy requires
+features to NumPy, but I also believe it is essential that the project
+have forward development momentum. A project like NumPy requires
 developers to write code for advancement to occur, and obstacles
 that impede the writing of code discourage existing developers
 from contributing more, and potentially scare away developers
@@ -659,15 +659,15 @@ balance between short-term practicality and long-term planning.
 In the case of the missing data development, there was a short-term
 resource commitment to tackle this problem, which is quite immense
 in scope. If there isn't a high likelihood of getting a contribution
-into numpy that concretely advances towards a solution, I expect
+into NumPy that concretely advances towards a solution, I expect
 that individuals and companies interested in doing such work will
 have a much harder time justifying a commitment of their resources.
 For a project which is core to so many other libraries, only
 relying on the good will of selfless volunteers would mean that
-numpy could more easily be overtaken by another project.
+NumPy could more easily be overtaken by another project.
 
 In the case of the existing NA contribution at issue, how we resolve
-this disagreement represents a decision about how numpy's
+this disagreement represents a decision about how NumPy's
 developers, contributers, and users should interact. If we create
 a document describing a dispute resolution process, how do we
 design it so that it doesn't introduce a large burden and excessive
@@ -677,7 +677,7 @@ contributing code?
 If we go this route of writing up a decision process which includes
 such a dispute resolution mechanism, I think the meat of it should
 be a roadmap that potential contributers and developers can follow
-to gain influence over numpy. Numpy development needs broad support
+to gain influence over NumPy. NumPy development needs broad support
 beyond code contributions, and tying influence in the project to
 contributions seems to me like it would be a good way to encourage
 people to take on tasks like bug triaging/management, continuous
@@ -688,7 +688,7 @@ vigour of the discussions around governance and process indicate that
 something at least a little bit more formal than the current status
 quo is necessary.
 
-In conclusion, I would like the numpy project to prioritize movement
+In conclusion, I would like the NumPy project to prioritize movement
 towards a more flexible and modular ABI/API, balanced with strong
 backwards-compatibility constraints and feature additions that
 individuals, universities, and companies want to contribute.
