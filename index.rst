@@ -35,14 +35,8 @@ Getting Started
 - `NumPy functions by category <https://docs.scipy.org/doc/numpy/reference/routines.html>`__
 - `NumPy Mailing List <http://www.scipy.org/scipylib/mailing-lists.html>`__
 
-
-More Information
-----------------
-
-- `NumPy Sourceforge Home Page <https://sourceforge.net/projects/numpy/>`__
-- `SciPy Home Page <http://www.scipy.org/>`__
-- `Interfacing with compiled code <http://www.scipy.org/topical-software.html>`__
-- `Older python array packages <old_array_packages.html>`__
+For more information on the SciPy Stack (for which NumPy provides the
+fundamental array data structure), see `scipy.org <http://www.scipy.org/>`__.
 
 .. raw:: html
 
