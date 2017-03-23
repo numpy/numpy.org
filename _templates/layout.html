@@ -1,5 +1,8 @@
 {% extends "!layout.html" %}
 
+{% set css_files = css_files + ["_static/donation.css"] %}
+{% set script_files = script_files + ["_static/donation.js"] %}
+
 {%- block header %}
 <div class="container">
   <div class="top-scipy-org-logo-header" style="background-color: #a2bae8;">
@@ -8,4 +11,26 @@
     </div>
   </div>
 </div>
+
+<!--Flipcause Integration v3.0-->
+<div id="fc-fade" class="fc-black_overlay" onclick="close_window()"></div>
+<div id="fc-light" class="fc-white_content">
+   <div id="fc-main" class="fc-main-box">
+      <div id="fc-close" class="fc-widget_close" onclick="close_window()"> </div>
+      <iframe id="fc-myFrame" iframe height="580" width="925" style="border: 0; 
+         border-radius:5px 5px 5px 5px; box-shadow:0 0 8px rgba(0, 0, 0, 0.5);" scrolling="no" src="">
+      </iframe>
+   </div>
+</div>
+<!--END Flipcause Main Integration Code-->
 {% endblock %}
+
+{% block footer %}
+<div id="footer-logo" style="float:left;padding:5px 5px 0 150px">
+   <a href="http://www.numfocus.org/">
+      <img src="{{ pathto('_static/numfocus-logo-small.png', 1) }}"> 
+   </a>
+</div>
+{{ super() }}
+{% endblock %}
+
