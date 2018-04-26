@@ -30,8 +30,8 @@ Getting Started
 - `Getting NumPy <http://www.scipy.org/scipylib/download.html>`__
 - `Installing the SciPy Stack <http://www.scipy.org/install.html>`__
 - `NumPy and SciPy documentation page <http://docs.scipy.org/doc/>`__
-- `NumPy Tutorial <https://docs.scipy.org/doc/numpy-dev/user/quickstart.html>`__
-- `NumPy for MATLAB© Users <https://docs.scipy.org/doc/numpy-dev/user/numpy-for-matlab-users.html>`__
+- `NumPy Tutorial <https://docs.scipy.org/doc/numpy/user/quickstart.html>`__
+- `NumPy for MATLAB© Users <https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html>`__
 - `NumPy functions by category <https://docs.scipy.org/doc/numpy/reference/routines.html>`__
 - `NumPy Mailing List <http://www.scipy.org/scipylib/mailing-lists.html>`__
 
