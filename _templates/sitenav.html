@@ -13,6 +13,8 @@ a.extlink:after {
       <a href="{{ pathto('index') }}">About NumPy</a></li>
     <li {% if pagename == 'license' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('license') }}">License</a></li>
+    <li {% if pagename == 'conduct' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('conduct') }}">Code of Conduct</a></li>
     <li {% if pagename == 'old_array_packages' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('old_array_packages') }}">Old array packages</a></li>
   </ul>
