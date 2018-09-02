@@ -22,7 +22,7 @@ from datetime import date
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.intersphinx', 'sphinx.ext.pngmath',
+extensions = ['sphinx.ext.intersphinx', 'sphinx.ext.imgmath',
               'sphinx.ext.ifconfig']
 
 # Add any paths that contain templates here, relative to this directory.
@@ -104,7 +104,7 @@ html_theme_options = {
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = ["scipy-sphinx-theme/_theme"]
+html_theme_path = [os.path.join(os.pardir, 'scipy-sphinx-theme', '_theme')]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
