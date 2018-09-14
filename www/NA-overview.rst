@@ -155,7 +155,7 @@ Assignment:
   missing. For example, one might write::
 
     income[:] = income[np.argsort(height)]
-  
+
   to perform an in-place sort of the ``income`` array, and know that
   the shortest person's income would end up being first. It turns out
   that the shortest person's income is not known, so the array should
@@ -168,7 +168,7 @@ Propagation:
   If you ask me, "what is 3 plus x?", then my only possible answer is
   "I don't know what x is, so I don't know what 3 + x is either". NA
   means "I don't know", so 3 + NA is NA.
-  
+
   This is important for safety when analyzing data: missing data often
   requires special handling for correctness -- the fact that you are
   missing information might mean that something you wanted to compute
@@ -177,7 +177,7 @@ Propagation:
   realize that you have missing data, and write code that assumes you
   have all the data. Such code should not silently produce the wrong
   answer.
-  
+
   There is an important exception to characterizing this as propagation,
   in the case of boolean values. Consider the calculation::
 
@@ -266,7 +266,7 @@ which was too small to detect. Nathaniel's impression from reading
 through this code is that it also mostly uses the .data and .mask
 attributes in preference to performing operations on the MaskedArray
 directly.
-  
+
 __ https://mail.scipy.org/pipermail/numpy-discussion/2012-April/061743.html
 
 So, these examples make it clear that there is demand for a convenient
@@ -347,7 +347,7 @@ implementation. (Or to simply optimize the existing implementation.)
 One option is that described in the NEP_, for which an implementation
 of mask-based missing data exists. This system is roughly:
 
-.. _NEP: https://github.com/numpy/numpy/blob/master/doc/neps/missing-data.rst
+.. _NEP: https://github.com/numpy/numpy/blob/master/doc/neps/nep-0012-missing-data.rst
 
 * There is both bitpattern and mask-based missing data, and both
   have identical interoperable NA semantics.
@@ -704,7 +704,7 @@ References/history
 
 The NEP describes Mark's NA-semantics/mask
 implementation/view based mask handling API:
-https://github.com/numpy/numpy/blob/master/doc/neps/missing-data.rst
+https://github.com/numpy/numpy/blob/master/doc/neps/nep-0012-missing-data.rst
 
 The alterNEP was Nathaniel's initial attempt at separating MISSING and
 IGNORED handling into bit-patterns versus masks, though there's a

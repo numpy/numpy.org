@@ -5,6 +5,7 @@ NumPy
    :hidden:
 
    license
+   conduct
    old_array_packages
 
 
