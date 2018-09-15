@@ -31,3 +31,8 @@ you can download them from SourceForge using the links below:
 
 `Download Page for Numarray
 <http://sourceforge.net/projects/numpy/files/Old%20Numarray/>`__
+
+Historic Documentation
+======================
+
+:download:`Numeric Manual <_static/numeric-manual.pdf>`
