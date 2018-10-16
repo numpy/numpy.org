@@ -10,6 +10,7 @@ To get the Sphinx theme used.
 
 To make a local build of the website
 
+    $ cd www
     $ make html
 
 To build and upload the site (requires push permissions on
