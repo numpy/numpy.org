@@ -2,11 +2,12 @@ NumPy
 =====
 
 .. toctree::
-   :hidden:
+    :hidden:
 
-   license
-   conduct
-   old_array_packages
+    license
+    conduct
+    old_array_packages
+    obtaining
 
 
 NumPy is the fundamental package for scientific computing with Python.
@@ -28,16 +29,42 @@ few restrictions.
 Getting Started
 ---------------
 
-- `Getting NumPy <http://www.scipy.org/scipylib/download.html>`__
-- `Installing the SciPy Stack <http://www.scipy.org/install.html>`__
-- `NumPy and SciPy documentation page <http://docs.scipy.org/doc/>`__
-- `NumPy Tutorial <https://docs.scipy.org/doc/numpy/user/quickstart.html>`__
-- `NumPy for MATLAB© Users <https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html>`__
-- `NumPy functions by category <https://docs.scipy.org/doc/numpy/reference/routines.html>`__
-- `NumPy Mailing List <http://www.scipy.org/scipylib/mailing-lists.html>`__
+- :ref:`obtaining`
+- `NumPy Tutorial <devdocs/user/quickstart.html>`__
+- `NumPy for MATLAB© Users <devdocs/user/numpy-for-matlab-users.html>`__
+- `NumPy functions by category <devdocs/reference/routines.html>`__
+- `NumPy Mailing List <https://mail.python.org/mailman/listinfo/numpy-discussion>`__
 
 For more information on the SciPy Stack (for which NumPy provides the
-fundamental array data structure), see `scipy.org <http://www.scipy.org/>`__.
+fundamental array data structure), see `scipy.org <https://www.scipy.org/>`__.
+
+
+Documentation
+-------------
+
+`Latest (development) version <devdocs>`__
+
+* `Version 1.15.4 <https://docs.scipy.org/doc/numpy-1.15.4>`__,
+  `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.15.4/numpy-html-1.15.4.zip>`__
+  `[PDF] <https://docs.scipy.org/doc/numpy-1.15.4/numpy-ref-1.15.4.pdf>`__
+* `Version 1.15.1 <https://docs.scipy.org/doc/numpy-1.15.1>`__,
+  `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.15.1/numpy-html-1.15.1.zip>`__,
+  `[PDF] <https://docs.scipy.org/doc/numpy-1.15.1/numpy-ref-1.15.1.pdf>`__
+* `Version 1.15.0 <https://docs.scipy.org/doc/numpy-1.15.0>`__,
+  `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.15.0/numpy-html-1.15.0.zip>`__,
+  `[PDF] <https://docs.scipy.org/doc/numpy-1.15.0/numpy-ref-1.15.0.pdf>`__
+* `Version 1.14.5 <https://docs.scipy.org/doc/numpy-1.14.5>`__,
+  `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.14.5/numpy-html-1.14.5.zip>`__,
+  `[PDF] <https://docs.scipy.org/doc/numpy-1.14.5/numpy-ref-1.14.5.pdf>`__
+* `Version 1.14.1 <https://docs.scipy.org/doc/numpy-1.14.1>`__,
+  `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.14.1/numpy-html-1.14.1.zip>`__,
+  `[PDF] <https://docs.scipy.org/doc/numpy-1.14.1/numpy-ref-1.14.1.pdf>`__
+* `Version 1.14.0 <https://docs.scipy.org/doc/numpy-1.14.0>`__,
+  `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.14.0/numpy-html-1.14.0.zip>`__,
+  `[PDF] <https://docs.scipy.org/doc/numpy-1.14.0/numpy-ref-1.14.0.pdf>`__
+* `Version 1.13.0 <https://docs.scipy.org/doc/numpy-1.13.0>`__,
+  `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.13.0/numpy-html-1.13.0.zip>`__,
+  `[PDF] <https://docs.scipy.org/doc/numpy-1.13.0/numpy-ref-1.13.0.pdf>`__
 
 .. raw:: html
 
@@ -45,7 +72,5 @@ fundamental array data structure), see `scipy.org <http://www.scipy.org/>`__.
      <div style="display: inline-block; float:left; margin-left:1em;">
        <a href ="https://www.flipcause.com/secure/cause_pdetails/MzUwMQ==" target="_blank" style="background:#f5cb33; border-radius:0px 0px 0px 0px;font-weight:normal; font-family:Arial, Helvetica, sans-serif;border:none;box-shadow:none; clear: both;display: block; width:150px;height:34px; line-height:2.8; font-size:13px;text-align:center; cursor:pointer;color:#000000;text-decoration: none; z-index:1">Donate to Numpy</a>
      </div>
-     <div style="display: inline-block;">
-       <script type="text/javascript" src="https://www.ohloh.net/p/4894/widgets/project_partner_badge.js"></script>
-     </div>
+     <script type='text/javascript' src='https://www.openhub.net/p/numpy/widgets/project_partner_badge?format=js'></script>
    </div>

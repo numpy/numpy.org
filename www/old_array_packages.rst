@@ -17,7 +17,7 @@ called Numarray, which was written after Numeric but before NumPy.
 
 When NumPy was first written, it wasn't actually called "NumPy". For about 6 months at
 the end of 2005, NumPy was called SciPy Core (not to be confused with the full SciPy
-package which remains a `separate <http://www.scipy.org/>`_ package). However, it was
+package which remains a `separate <https://www.scipy.org/>`_ package). However, it was
 decided in January 2006 to go with the historical name of NumPy for the new package.
 
 SourceForge Links
@@ -27,10 +27,10 @@ If for any reason you want to obtain a copy of the original Numeric and Numarray
 you can download them from SourceForge using the links below:
 
 `Download Page for Numeric
-<http://sourceforge.net/projects/numpy/files/Old%20Numeric/>`__
+<https://sourceforge.net/projects/numpy/files/Old%20Numeric/>`__
 
 `Download Page for Numarray
-<http://sourceforge.net/projects/numpy/files/Old%20Numarray/>`__
+<https://sourceforge.net/projects/numpy/files/Old%20Numarray/>`__
 
 Historic Documentation
 ======================
