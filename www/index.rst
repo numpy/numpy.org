@@ -30,9 +30,9 @@ Getting Started
 ---------------
 
 - :ref:`obtaining`
-- `NumPy Tutorial <devdocs/user/quickstart.html>`__
-- `NumPy for MATLAB© Users <devdocs/user/numpy-for-matlab-users.html>`__
-- `NumPy functions by category <devdocs/reference/routines.html>`__
+- `NumPy Tutorial <https:/numpy.org/devdocs/user/quickstart.html>`__
+- `NumPy for MATLAB© Users <https:/numpy.org/devdocs/user/numpy-for-matlab-users.html>`__
+- `NumPy functions by category <https:/numpy.org/devdocs/reference/routines.html>`__
 - `NumPy Mailing List <https://mail.python.org/mailman/listinfo/numpy-discussion>`__
 
 For more information on the SciPy Stack (for which NumPy provides the
@@ -42,26 +42,14 @@ fundamental array data structure), see `scipy.org <https://www.scipy.org/>`__.
 Documentation
 -------------
 
-`Latest (development) version <devdocs>`__
+`Latest (development) version <https:/numpy.org/devdocs>`__
 
 * `Version 1.15.4 <https://docs.scipy.org/doc/numpy-1.15.4>`__,
   `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.15.4/numpy-html-1.15.4.zip>`__
   `[PDF] <https://docs.scipy.org/doc/numpy-1.15.4/numpy-ref-1.15.4.pdf>`__
-* `Version 1.15.1 <https://docs.scipy.org/doc/numpy-1.15.1>`__,
-  `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.15.1/numpy-html-1.15.1.zip>`__,
-  `[PDF] <https://docs.scipy.org/doc/numpy-1.15.1/numpy-ref-1.15.1.pdf>`__
-* `Version 1.15.0 <https://docs.scipy.org/doc/numpy-1.15.0>`__,
-  `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.15.0/numpy-html-1.15.0.zip>`__,
-  `[PDF] <https://docs.scipy.org/doc/numpy-1.15.0/numpy-ref-1.15.0.pdf>`__
 * `Version 1.14.5 <https://docs.scipy.org/doc/numpy-1.14.5>`__,
   `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.14.5/numpy-html-1.14.5.zip>`__,
   `[PDF] <https://docs.scipy.org/doc/numpy-1.14.5/numpy-ref-1.14.5.pdf>`__
-* `Version 1.14.1 <https://docs.scipy.org/doc/numpy-1.14.1>`__,
-  `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.14.1/numpy-html-1.14.1.zip>`__,
-  `[PDF] <https://docs.scipy.org/doc/numpy-1.14.1/numpy-ref-1.14.1.pdf>`__
-* `Version 1.14.0 <https://docs.scipy.org/doc/numpy-1.14.0>`__,
-  `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.14.0/numpy-html-1.14.0.zip>`__,
-  `[PDF] <https://docs.scipy.org/doc/numpy-1.14.0/numpy-ref-1.14.0.pdf>`__
 * `Version 1.13.0 <https://docs.scipy.org/doc/numpy-1.13.0>`__,
   `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.13.0/numpy-html-1.13.0.zip>`__,
   `[PDF] <https://docs.scipy.org/doc/numpy-1.13.0/numpy-ref-1.13.0.pdf>`__
