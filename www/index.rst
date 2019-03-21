@@ -7,7 +7,6 @@ NumPy
     license
     conduct
     old_array_packages
-    obtaining
 
 
 NumPy is the fundamental package for scientific computing with Python.
@@ -29,10 +28,11 @@ few restrictions.
 Getting Started
 ---------------
 
-- :ref:`obtaining`
-- `NumPy Tutorial <https:/numpy.org/devdocs/user/quickstart.html>`__
-- `NumPy for MATLAB© Users <https:/numpy.org/devdocs/user/numpy-for-matlab-users.html>`__
-- `NumPy functions by category <https:/numpy.org/devdocs/reference/routines.html>`__
+- `Getting NumPy <https://www.scipy.org/scipylib/download.html>`__
+- `Installing the SciPy Stack <https://www.scipy.org/install.html>`__
+- `NumPy Tutorial <https://www.numpy.org/devdocs/user/quickstart.html>`__
+- `NumPy for MATLAB© Users <https://www.numpy.org/devdocs/user/numpy-for-matlab-users.html>`__
+- `NumPy functions by category <https://www.numpy.org/devdocs/reference/routines.html>`__
 - `NumPy Mailing List <https://mail.python.org/mailman/listinfo/numpy-discussion>`__
 
 For more information on the SciPy Stack (for which NumPy provides the
@@ -42,8 +42,11 @@ fundamental array data structure), see `scipy.org <https://www.scipy.org/>`__.
 Documentation
 -------------
 
-`Latest (development) version <https:/numpy.org/devdocs>`__
+`Latest (development) version <https://www.numpy.org/devdocs>`__
 
+* `Version 1.16.2 <https://docs.scipy.org/doc/numpy-1.16.1>`__,
+  `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.16.1/numpy-html-1.16.1.zip>`__
+  `[PDF] <https://docs.scipy.org/doc/numpy-1.16.1/numpy-ref-1.16.1.pdf>`__
 * `Version 1.15.4 <https://docs.scipy.org/doc/numpy-1.15.4>`__,
   `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.15.4/numpy-html-1.15.4.zip>`__
   `[PDF] <https://docs.scipy.org/doc/numpy-1.15.4/numpy-ref-1.15.4.pdf>`__
@@ -56,9 +59,9 @@ Documentation
 
 .. raw:: html
 
-   <div style="padding-top:40px; text-align:center; margin:0px auto;">
-     <div style="display: inline-block; float:left; margin-left:1em;">
+   
+  <div style="padding-top:40px; text-align:center; margin:0px auto;">
+    <div style="display: inline-block; float:left; margin-left:1em;">
        <a href ="https://www.flipcause.com/secure/cause_pdetails/MzUwMQ==" target="_blank" style="background:#f5cb33; border-radius:0px 0px 0px 0px;font-weight:normal; font-family:Arial, Helvetica, sans-serif;border:none;box-shadow:none; clear: both;display: block; width:150px;height:34px; line-height:2.8; font-size:13px;text-align:center; cursor:pointer;color:#000000;text-decoration: none; z-index:1">Donate to Numpy</a>
-     </div>
-     <script type='text/javascript' src='https://www.openhub.net/p/numpy/widgets/project_partner_badge?format=js'></script>
-   </div>
+    </div>
+  </div>
