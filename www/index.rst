@@ -44,7 +44,7 @@ Documentation
 
 `Latest (development) version <https://www.numpy.org/devdocs>`__
 
-* `Version 1.16.2 <https://docs.scipy.org/doc/numpy-1.16.1>`__,
+* `Version 1.16.1 <https://docs.scipy.org/doc/numpy-1.16.1>`__,
   `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.16.1/numpy-html-1.16.1.zip>`__
   `[PDF] <https://docs.scipy.org/doc/numpy-1.16.1/numpy-ref-1.16.1.pdf>`__
 * `Version 1.15.4 <https://docs.scipy.org/doc/numpy-1.15.4>`__,
