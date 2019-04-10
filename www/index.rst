@@ -62,6 +62,10 @@ Documentation
    
   <div style="padding-top:40px; text-align:center; margin:0px auto;">
     <div style="display: inline-block; float:left; margin-left:1em;">
-       <a href ="https://www.flipcause.com/secure/cause_pdetails/MzUwMQ==" target="_blank" style="background:#f5cb33; border-radius:0px 0px 0px 0px;font-weight:normal; font-family:Arial, Helvetica, sans-serif;border:none;box-shadow:none; clear: both;display: block; width:150px;height:34px; line-height:2.8; font-size:13px;text-align:center; cursor:pointer;color:#000000;text-decoration: none; z-index:1">Donate to Numpy</a>
+       <a href="https://numfocus.salsalabs.org/donate-to-numpy" target="_blank"
+          style="background:#FFA500;padding:10px;margin:10px 0px;
+                 text-decoration:none;font-size:12pt;color:#222222;
+                 font-family:Arial,Helvetica,sans-serif;display:inline-block;">
+          Donate Now!</a>
     </div>
   </div>
