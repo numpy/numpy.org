@@ -4,6 +4,7 @@ NumPy
 .. toctree::
     :hidden:
 
+    community
     license
     conduct
     old_array_packages

@@ -11,6 +11,8 @@ a.extlink:after {
   <ul class="nav nav-list">
     <li {% if pagename == 'index' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('index') }}">About NumPy</a></li>
+    <li {% if pagename == 'community' -%}class="active"{%- endif -%}>
+      <a href="{{ pathto('community') }}">Community</a></li>
     <li {% if pagename == 'license' -%}class="active"{%- endif -%}>
       <a href="{{ pathto('license') }}">License</a></li>
     <li {% if pagename == 'conduct' -%}class="active"{%- endif -%}>
