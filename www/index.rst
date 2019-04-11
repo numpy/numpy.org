@@ -42,7 +42,16 @@ fundamental array data structure), see `scipy.org <https://www.scipy.org/>`__.
 Documentation
 -------------
 
-`Latest (development) version <https://www.numpy.org/devdocs>`__
+The most up-to-date NumPy documentation can be found at
+`Latest (development) version <https://www.numpy.org/devdocs>`__.  I
+It includes a user guide, full reference documentation, a developer guide, meta
+information, and "NumPy Enhancement Proposals" (which include the NumPy Roadmap
+and detailed plans for major new features).
+
+A complete archive of documentation for all NumPy releases (minor versions; bug
+fix releases don't contain significant documentation changes) since 2009 can be
+found at https://docs.scipy.org. For convenience, here are direct links to the most
+recent releases:
 
 * `Version 1.16.1 <https://docs.scipy.org/doc/numpy-1.16.1>`__,
   `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.16.1/numpy-html-1.16.1.zip>`__
@@ -53,9 +62,7 @@ Documentation
 * `Version 1.14.5 <https://docs.scipy.org/doc/numpy-1.14.5>`__,
   `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.14.5/numpy-html-1.14.5.zip>`__,
   `[PDF] <https://docs.scipy.org/doc/numpy-1.14.5/numpy-ref-1.14.5.pdf>`__
-* `Version 1.13.0 <https://docs.scipy.org/doc/numpy-1.13.0>`__,
-  `[HTML+zip] <https://docs.scipy.org/doc/numpy-1.13.0/numpy-html-1.13.0.zip>`__,
-  `[PDF] <https://docs.scipy.org/doc/numpy-1.13.0/numpy-ref-1.13.0.pdf>`__
+
 
 .. raw:: html
 
