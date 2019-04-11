@@ -28,16 +28,19 @@ few restrictions.
 Getting Started
 ---------------
 
-- `Getting NumPy <https://www.scipy.org/scipylib/download.html>`__
-- `Installing the SciPy Stack <https://www.scipy.org/install.html>`__
-- `NumPy Tutorial <https://www.numpy.org/devdocs/user/quickstart.html>`__
-- `NumPy for MATLAB© Users <https://www.numpy.org/devdocs/user/numpy-for-matlab-users.html>`__
-- `NumPy functions by category <https://www.numpy.org/devdocs/reference/routines.html>`__
-- `NumPy Mailing List <https://mail.python.org/mailman/listinfo/numpy-discussion>`__
+To install NumPy, we strongly recommend using a
+*scientific Python distribution*.  See
+`Installing the SciPy Stack <https://www.scipy.org/install.html>`__ for
+details.
+
+Many high quality online tutorials, courses, and books are available to get
+started with NumPy. For a quick introduction to NumPy we provide the
+`NumPy Tutorial <https://www.numpy.org/devdocs/user/quickstart.html>`__. We
+also recommend the `SciPy Lecture Notes <https://scipy-lectures.org>`__ for a
+broader introduction to the scientific Python ecosystem.
 
 For more information on the SciPy Stack (for which NumPy provides the
 fundamental array data structure), see `scipy.org <https://www.scipy.org/>`__.
-
 
 Documentation
 -------------
