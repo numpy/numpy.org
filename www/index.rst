@@ -148,6 +148,22 @@ NumPy receives direct funding from the following sources:
 
   <li class="span4">
   <div class="pull-left img">
+    <a href="https://www.moore.org/">
+    <img alt="Gordon and Betty Moore Foundation" src="_static/moore.svg" width="180">
+    </a>
+  </div>
+  </li>
+
+  <li class="span4">
+  <div class="pull-left img">
+    <a href="https://www.sloan.org/">
+    <img alt="Alfred P. Sloan Foundation" src="_static/sloan.svg" width="180">
+    </a>
+  </div>
+  </li>
+
+  <li class="span4">
+  <div class="pull-left img">
     <a href="https://tidelift.com/subscription/pkg/pypi-numpy?utm_source=pypi-numpy&utm_medium=referral&utm_campaign=website">
     <img alt="Tidelift" src="_static/Tidelift_Logos_RGB_Tidelift_Mark_On-White.png" width="180">
     </a>
