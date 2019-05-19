@@ -73,15 +73,103 @@ infrastructure priorities are documented on the
 `NumPy Roadmap <https://www.numpy.org/neps/roadmap.html>`__.
 
 .. raw:: html
-   
-  <div style="padding-top:20px; padding-bottom:20px; text-align:center; margin:0px auto;">
+
+  <div>
+  <ul class="thumbnails">
+
+  <li class="span4">
+  <div class="pull-left img">
+    <a href="https://numfocus.org/sponsored-projects">
+    <img alt="NumFOCUS" src="_static/NumFOCUS_sponsored_project.png" width="180">
+    </a>
+  </div>
+  </li>
+
+
+  <li class="span4">
+  <div style="padding-top:2px; padding-bottom:2px; text-align:center; margin:0px auto;">
     <div style="display: inline-block; float:left; margin-left:1em;">
        <a href="https://numfocus.salsalabs.org/donate-to-numpy" target="_blank"
-          style="background:#FFA500;padding:10px;margin:10px 0px;
+          style="background:#FFA500;padding:10px;margin:1px 0px;
                  text-decoration:none;font-size:12pt;color:#222222;
                  font-family:Arial,Helvetica,sans-serif;display:inline-block;">
           Donate Now!
        </a>
     </div>
+  </div>
+  </li>
+
+  </ul>
+  </div>
+
+
+Institutional Partners
+~~~~~~~~~~~~~~~~~~~~~~
+
+Institutional Partners are organizations that support the project by employing
+NumPy contributors, with contributing to the project as part of their official
+duties. Current Institutional Partners include:
+
+.. raw:: html
+
+  <div>
+  <ul class="thumbnails">
+
+  <li class="span4">
+  <div class="pull-left img">
+    <a href="https://www.berkeley.edu/">
+    <img alt="Berkeley" src="_static/berkeley-color.svg" width="180">
+    </a>
+  </div>
+  </li>
+
+  <li class="span4">
+  <div class="pull-left img">
+    <a href="https://quansight.com">
+    <img alt="Quansight" src="_static/quansight.svg" width="180">
+    </a>
+  </div>
+  </li>
+
+  </ul>
+  </div>
+
+
+Sponsors
+~~~~~~~~
+
+NumPy receives direct funding from the following sources:
+
+
+.. raw:: html
+
+  <div>
+  <ul class="thumbnails">
+
+  <li class="span4">
+  <div class="pull-left img">
+    <a href="https://www.moore.org/">
+    <img alt="Gordon and Betty Moore Foundation" src="_static/moore.svg" width="180">
+    </a>
+  </div>
+  </li>
+
+  <li class="span4">
+  <div class="pull-left img">
+    <a href="https://www.sloan.org/">
+    <img alt="Alfred P. Sloan Foundation" src="_static/sloan.svg" width="180">
+    </a>
+  </div>
+  </li>
+
+  <li class="span4">
+  <div class="pull-left img">
+    <a href="https://tidelift.com/subscription/pkg/pypi-numpy?utm_source=pypi-numpy&utm_medium=referral&utm_campaign=website">
+    <img alt="Tidelift" src="_static/Tidelift_Logos_RGB_Tidelift_Mark_On-White.png" width="180">
+    </a>
+  </div>
+  </li>
+
+  </ul>
   </div>
 
