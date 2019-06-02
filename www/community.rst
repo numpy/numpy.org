@@ -1,7 +1,7 @@
 The NumPy community
 -------------------
 
-The community of NumPy users and developers is large and decentraliazed. We
+The community of NumPy users and developers is large and decentralized. We
 try to direct certain conversations to certain channels.
 
 

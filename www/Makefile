@@ -41,3 +41,9 @@ linkcheck:
 	@echo "Link check complete; look for any errors in the above output " \
               "or in _build/linkcheck/output.txt."
 
+spelling:
+	$(SPHINXBUILD) -b spelling $(ALLSPHINXOPTS) _build/spelling > build.log 2>&1 || { cat build.log; exit 1; }
+	@echo
+	@cat _build/spelling/output.txt
+	@echo
+	@test ! -s _build/spelling/output.txt

@@ -25,6 +25,12 @@ from datetime import date
 extensions = ['sphinx.ext.intersphinx', 'sphinx.ext.imgmath',
               'sphinx.ext.ifconfig']
 
+try:
+    import sphinxcontrib.spelling
+    extensions += ['sphinxcontrib.spelling']
+except ImportError:
+    pass
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -177,3 +183,16 @@ intersphinx_mapping = {
         'http://docs.python.org/': None,
         'http://docs.scipy.org/doc/numpy/': None,
 }
+
+
+# -- Spell check ---------------------------------------------------------------
+
+spelling_word_list = """
+Fortran multi numarray numpy redistributions refactor roadmap pre workflow
+"""
+with open('spelling_word_list.txt', 'w') as f:
+    for word in spelling_word_list.split():
+        f.write("{}\n".format(word.strip()))
+
+spelling_lang = 'en_US'
+spelling_word_list_filename = 'spelling_word_list.txt'
