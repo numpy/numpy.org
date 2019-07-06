@@ -18,17 +18,15 @@ help:
 
 clean:
 	-rm -rf _build/*
+	-rm -rf built_doc
 
 upload: html
-	cd _build/html && \
-	    touch .nojekyll && \
-	    echo www.numpy.org > CNAME && \
-	    rm -rf .git && \
-	    git init && \
-	    git remote add target git@github.com:numpy/numpy.github.com.git && \
-	    git add -A && \
-	    git commit -m "Rebuild site" -a && \
-	    git push -f target master:master
+	git clone git@github.com:numpy/numpy.github.com built_doc
+	cp -r _build/html/* built_doc
+	git -C built_doc add -A
+	git -C built_doc commit -m "Rebuild site" -a
+	git -C built_doc push origin
+	rm -rf built_doc
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) _build/html

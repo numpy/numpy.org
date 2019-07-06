@@ -47,14 +47,23 @@ Documentation
 -------------
 
 The most up-to-date NumPy documentation can be found at
-`Latest (development) version <https://www.numpy.org/devdocs>`__.
-It includes a user guide, full reference documentation, a developer guide, meta
-information, and "NumPy Enhancement Proposals" (which include the NumPy Roadmap
-and detailed plans for major new features).
+`Latest (development) version </devdocs>`__.
+It includes a user guide, full reference documentation, a developer guide, and
+meta information. 
 
-A complete archive of documentation for all NumPy releases (minor versions; bug
-fix releases don't contain significant documentation changes) since 2009 can be
-found at https://docs.scipy.org.
+Other links:
+
+- `NumPy Enhancement Proposals <neps>`__ (which include the NumPy Roadmap and detailed
+  plans for major new features).
+- `NumPy verion 1.17 <1.17>`__
+- `NumPy verion 1.16 <1.16>`__
+- `NumPy verion 1.15 <1.15>`__
+- `NumPy verion 1.14 <1.14>`__
+
+.. 
+    A complete archive of documentation for all NumPy releases (minor versions; bug
+    fix releases don't contain significant documentation changes) since 2009 can be
+    found at https://docs.scipy.org.
 
 Support NumPy
 -------------
