@@ -54,7 +54,9 @@ and detailed plans for major new features).
 
 A complete archive of documentation for all NumPy releases (minor versions; bug
 fix releases don't contain significant documentation changes) since 2009 can be
-found at https://docs.scipy.org.
+found at https://numpy.org/doc/
+
+NumPy Enhancement Proposals (NEPs) can be found at https://numpy.org/neps
 
 Support NumPy
 -------------
