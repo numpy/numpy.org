@@ -105,7 +105,7 @@ html_theme = 'scipy'
 # documentation.
 html_theme_options = {
     'sidebar': 'right',
-    'rootlinks': [("http://scipy.org/", "Scipy.org")],
+    'rootlinks': [("http://numpy.org/", "NumPy.org")],
     'navigation_links': False,
 }
 
