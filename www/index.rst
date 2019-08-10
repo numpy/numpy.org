@@ -66,9 +66,16 @@ consider making a donation to the project commensurate with your resources. Any
 amount helps! All donations will be used strictly to fund the development of
 NumPy’s open source software, documentation and community.
 
-Donations are managed by the NumFOCUS Foundation, which is the legal and fiscal
-umbrella for the project. NumFOCUS is a 501(c)3 non-profit foundation, so if
-you are subject to US Tax law, your contribution is tax-deductible.
+NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the
+United States. NumFOCUS provides NumPy with fiscal, legal, and administrative
+support to help ensure the health and sustainability of the project. Visit
+`numfocus.org <https://numfocus.org>`__ for more information.
+
+Donations to NumPy are managed by NumFOCUS. For donors in the United States,
+your gift is tax-deductible to the extent provided by law. As with any
+donation, you should consult with your tax adviser about your particular tax
+situation.
+
 NumPy's `Steering Council <https://www.numpy.org/devdocs/dev/governance/index.html>`__
 will make the decisions on how to best use any funds received.  Technical and
 infrastructure priorities are documented on the
