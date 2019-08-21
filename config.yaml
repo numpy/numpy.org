@@ -6,14 +6,14 @@ theme: hugo-fresh
 params:
   navbarlogo:
   # Logo (from static/images/logos/___)
-   image: logos/fresh.svg
-   link: /
+    image: logos/numpy_logo.png
+    link: /
   font:
     name: "Open Sans"
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Manage. Deploy.
+    title: Numpy.org.
     # Hero subtitle (optional)
     subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
     # Button text
