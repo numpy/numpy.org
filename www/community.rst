@@ -5,7 +5,7 @@ The community of NumPy users and developers is large and decentralized. We
 try to direct certain conversations to certain channels.
 
 
-1. Use the `#numpy tag on StackOverflow <http://stackoverflow.com/questions/tagged/numpy>`__
+1. Use the `#numpy tag on StackOverflow <https://stackoverflow.com/questions/tagged/numpy>`__
    for *usage* questions (like "How do I do *X* in NumPy?").
 2. Use the `GitHub issue tracker <https://github.com/numpy/numpy/issues>`__ for
 

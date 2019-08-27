@@ -36,7 +36,7 @@ details.
 
 Many high quality online tutorials, courses, and books are available to get
 started with NumPy. For a quick introduction to NumPy we provide the
-`NumPy Tutorial <https://www.numpy.org/devdocs/user/quickstart.html>`__. We
+`NumPy Tutorial <https://numpy.org/devdocs/user/quickstart.html>`__. We
 also recommend the `SciPy Lecture Notes <https://scipy-lectures.org>`__ for a
 broader introduction to the scientific Python ecosystem.
 
@@ -47,7 +47,7 @@ Documentation
 -------------
 
 The most up-to-date NumPy documentation can be found at
-`Latest (development) version <https://www.numpy.org/devdocs>`__.
+`Latest (development) version <https://numpy.org/devdocs>`__.
 It includes a user guide, full reference documentation, a developer guide, meta
 information, and "NumPy Enhancement Proposals" (which include the NumPy Roadmap
 and detailed plans for major new features).
@@ -76,10 +76,10 @@ your gift is tax-deductible to the extent provided by law. As with any
 donation, you should consult with your tax adviser about your particular tax
 situation.
 
-NumPy's `Steering Council <https://www.numpy.org/devdocs/dev/governance/index.html>`__
+NumPy's `Steering Council <https://numpy.org/devdocs/dev/governance/index.html>`__
 will make the decisions on how to best use any funds received.  Technical and
 infrastructure priorities are documented on the
-`NumPy Roadmap <https://www.numpy.org/neps/roadmap.html>`__.
+`NumPy Roadmap <https://numpy.org/neps/roadmap.html>`__.
 
 .. raw:: html
 
