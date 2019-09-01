@@ -5,8 +5,7 @@ theme: hugo-fresh
 
 params:
   navbarlogo:
-  # Logo (from static/images/logos/___)
-    image: logos/numpy_logo.png
+    image: numpy_logo.svg
     link: /
   font:
     name: "Ubuntu"

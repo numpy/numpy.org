@@ -5,7 +5,6 @@
 {{- $fontFace     := replace .Site.Params.font.name " " "+" }}
 {{- $fontSizes    := delimit .Site.Params.font.sizes "," }}
 {{- $fontUrl      := printf "https://fonts.googleapis.com/css?family=%s:%s" $fontFace $fontSizes }}
-<link rel="icon" type="image/png" href="{{ "images/favicon.png" | absURL }}" />
 <link href="{{ $fontUrl }}" rel="stylesheet">
 {{- if $inServerMode }}
 {{- $css := resources.Get $sass | toCSS $cssOpts }}
@@ -17,5 +16,7 @@
 <link rel="stylesheet" type="text/css" href="{{ "css/icons.css" | absURL }}">
 <!-- Custom CSS -->
 <link rel="stylesheet" type="text/css" href="{{ "css/styles.css" | relURL}}" />
+<!-- Numpy Favicon -->
+<link rel="icon" type="image/png" href="{{ "images/favicon.png" | relURL }}" />
 <!-- Google Fonts - Ubuntu -->
 <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
