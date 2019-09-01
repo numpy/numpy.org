@@ -1,6 +1,6 @@
-baseURL: http://something-fresh.org/
+baseURL: http://numpy.org/
 languageCode: en-us
-title: Hugo Fresh Theme
+title: Numpy.org
 theme: hugo-fresh
 
 params:
