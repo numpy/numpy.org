@@ -9,7 +9,7 @@ params:
     image: logos/numpy_logo.png
     link: /
   font:
-    name: "Open Sans"
+    name: "Ubuntu"
     sizes: [400,600]
   hero:
     # Main hero title
