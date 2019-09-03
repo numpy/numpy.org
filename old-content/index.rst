@@ -89,7 +89,7 @@ infrastructure priorities are documented on the
   <li class="span4">
   <div class="pull-left img">
     <a href="https://numfocus.org/sponsored-projects">
-    <img alt="NumFOCUS" src="_static/NumFOCUS_sponsored_project.png" width="180">
+    <img alt="NumFOCUS" src="_static/NumFOCUS_sponsored_project_logo.svg" width="180">
     </a>
   </div>
   </li>
