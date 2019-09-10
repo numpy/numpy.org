@@ -5,7 +5,7 @@ theme: hugo-fresh
 
 params:
   navbarlogo:
-    image: numpy_logo.svg
+    image: numpy.svg
     link: /
   font:
     name: "Ubuntu"
@@ -20,7 +20,7 @@ params:
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from static/images/___)
-    image: illustrations/worker.svg
+    image: numpy.svg
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: About
@@ -32,18 +32,24 @@ params:
   - title: Learning
     url: /learning
   section1:
-    title: section1
-    subtitle: subtitle
-    titles:
-    - title: 1
+    title: Great power comes
+    subtitle: with great responsibility
+    tiles:
+    - title: App builder
       icon: mouse-globe
+      text: This is some explanatory text that is on two rows
       url: /
-    - title: 2
-      icon: mouse-globe
+      buttonText: Free trial
+    - title: Cloud integration
+      icon: laptop-cloud
+      text: This is some explanatory text that is on two rows
       url: /
-    - title: 3
-      icon: mouse-globe
+      buttonText: Get started
+    - title: Add-ons & plugins
+      icon: plug-cloud
+      text: This is some explanatory text that is on two rows
       url: /
+      buttonText: Get started
   section2:
     title: Numpy
     subtitle: in a nutshell
