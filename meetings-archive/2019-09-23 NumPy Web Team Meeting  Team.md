@@ -60,9 +60,9 @@ Notes:
 
 ### Website generator
 **Hugo** is selected.
-Themes to consider:
-themes.gohugo.io/theme/hugo-fresh/
-themes.gohugo.io//theme/agency (no longer maintained)
+<br/>Themes to consider:
+<br/>themes.gohugo.io/theme/hugo-fresh
+<br/>themes.gohugo.io//theme/agency (no longer maintained)
 
 
 
