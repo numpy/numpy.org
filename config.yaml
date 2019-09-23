@@ -9,7 +9,7 @@ params:
     image: logos/numpy.svg
     link: /
   font:
-    name: "Ubuntu"
+    name: "Rubik"
     sizes: [400,600]
   hero:
     # Main hero title

@@ -3,8 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://numpy.org/about/</loc>
+  </url>
+  
+  <url>
     <loc>http://numpy.org/categories/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://numpy.org/community/</loc>
+  </url>
+  
+  <url>
+    <loc>http://numpy.org/install/</loc>
+  </url>
+  
+  <url>
+    <loc>http://numpy.org/learning/</loc>
   </url>
   
   <url>
