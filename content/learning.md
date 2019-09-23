@@ -3,4 +3,12 @@ title: Learning
 sidebar: false
 ---
 
-Learning
+## Resources to learn about NumPy
+
+### Tutorials
+
+### Books
+
+### Online courses
+
+### Teaching Resources
