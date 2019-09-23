@@ -6,7 +6,7 @@ theme: hugo-fresh
 params:
   navColor: blue
   navbarlogo:
-    image: numpy.svg
+    image: logos/numpy.svg
     link: /
   font:
     name: "Ubuntu"
@@ -21,7 +21,7 @@ params:
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from static/images/___)
-    image: numpy.svg
+    image: logos/numpy.svg
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: About
