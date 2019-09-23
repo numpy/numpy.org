@@ -10,47 +10,5 @@
 	<atom:link href="http://numpy.org/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>About</title>
-      <link>http://numpy.org/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://numpy.org/about/</guid>
-      <description>About Us Some information about the NumPy project and community
-NumPy is an open source project aiming to enable numerical computing with Python. It was created in 2005, building on early work of the Numerical and Numarray libraries. NumPy will always be 100% open-source software, free for all to use and released under the liberal terms of the modified BSD license.
-NumPy is developed in the open on GitHub, through the consensus of the NumPy and wider scientific Python community.</description>
-    </item>
-    
-    <item>
-      <title>Community</title>
-      <link>http://numpy.org/community/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://numpy.org/community/</guid>
-      <description>Community NumPy offers a number of communication channels available to individuals interested in using and contributing to the project.
-We welcome contributions and contributors of all kinds - whether they come as contributions to code, participation in the community, opening issues and pointing out bugs, or simply sharing your work with others.
-Join the NumPy community If you’re interested in joining the NumPy community (yay!) we recommend checking out the NumPy Contributing guide.</description>
-    </item>
-    
-    <item>
-      <title>Install</title>
-      <link>http://numpy.org/install/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://numpy.org/install/</guid>
-      <description>Installing NumPy The only prerequisite for NumPy is Python itself. If you don&amp;rsquo;t have Python yet, we recommend you use the Anaconda Distribution - it includes Python, NumPy, and other commonly used packages for scientific computing and data science.
-NumPy can be installed with conda, with pip, or with a package manager on macOS and Linux. For more detailed instructions, consult the installation guide.
-conda If you use conda, you can install it with:</description>
-    </item>
-    
-    <item>
-      <title>Learning</title>
-      <link>http://numpy.org/learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://numpy.org/learning/</guid>
-      <description> Resources to learn about NumPy Tutorials Books Online courses Teaching Resources </description>
-    </item>
-    
   </channel>
 </rss>
