@@ -23,7 +23,7 @@ TabbedNavigation.prototype.init = function() {
     }
   });
 
-  //listen for the scroll in the tabs navigation 
+  //listen for the scroll in the tabs navigation
   this.navigationElements.addEventListener('scroll', function(event){
     self.toggleNavShadow();
   });
