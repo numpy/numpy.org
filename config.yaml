@@ -4,6 +4,7 @@ title: Numpy.org
 theme: hugo-fresh
 
 params:
+  navColor: blue
   navbarlogo:
     image: numpy.svg
     link: /
@@ -31,9 +32,25 @@ params:
     url: /install
   - title: Learning
     url: /learning
-  section1:
-    title: Great power comes
-    subtitle: with great responsibility
+  section2:
+    title: In a Nutshell
+    subtitle:
+    features:
+    - title: Powerful N-dimensional arrays
+      icon: cartesian
+      text: NumPy arrays are easy to use, versatile and fast. The NumPy vectorization, indexing and broadcasting concepts have become a standard way of thinking about array computing.
+    - title: Numerical computing tools
+      icon: chip
+      text: Mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
+    - title: Interoperable
+      icon: computer
+      text: NumPy supports a wide range of computing platforms. If your data fits in memory and your code runs on a CPU, NumPy is for you! And if you need GPU, distributed or sparse arrays, NumPy works well with all the major libraries that provide that.
+    - title: Open source
+      icon: web-programming
+      text: NumPy is free for everyone to use, publicly developed on GitHub by a diverse community, and distributed under a liberal BSD license.
+  tabs:
+    title: Ecosystem
+    subtitle:
     tiles:
     - title: App builder
       icon: mouse-globe
@@ -50,91 +67,30 @@ params:
       text: This is some explanatory text that is on two rows
       url: /
       buttonText: Get started
-  section2:
-    title: Numpy
-    subtitle: in a nutshell
-    features:
-    - title: Powerful N-dimensional arrays
-      icon: mouse-globe
-      text: NumPy arrays are easy to use, versatile and fast. The NumPy vectorization, indexing and broadcasting concepts have become a standard way of thinking about array computing.
-    - title: Numerical computing tools
-      icon: laptop-cloud
-      text: Mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
-    - title: Interoperable
-      icon: plug-cloud
-      text: NumPy supports a wide range of computing platforms. If your data fits in memory and your code runs on a CPU, NumPy is for you! And if you need GPU, distributed or sparse arrays, NumPy works well with all the major libraries that provide that.
-    - title: Open source
-      icon: plug-cloud
-      text: NumPy is free for everyone to use, publicly developed on GitHub by a diverse community, and distributed under a liberal BSD license.
-
-  # section2:
-  #   title: Numpy
-  #   subtitle: in a nutshell
-  #   features:
-  #   - title: Powerful and unified interface
-  #     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-  #     # Icon (from /images/illustrations/icons/___.svg)
-  #     icon: laptop-globe
-  #   - title: Cross-device synchronisation
-  #     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-  #     icon: doc-sync
-  #   - title: Nomad system
-  #     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-  #     icon: mobile-feed
-  # section3:
-  #   title: One platform
-  #   subtitle: To rule them all
-  #   image: illustrations/mockups/app-mockup.png
-  #   buttonText: Get started
-  #   buttonLink: "#"
-  section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
-  section5: true
+  section5: false
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: numpy.svg
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
+    - link: https://github.com/numpy
       # Icons are from Font Awesome
       icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
     - link: https://twitter.com/lucperkins
       icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
-    bulmalogo: true
+    bulmalogo: false
     quicklinks:
       column1:
-        title: "Product"
+        title: "Pages"
         links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
+        - text: About
+          link: /about
+        - text: Community
+          link: /community
+        - text: Install
+          link: /install
+        - text: Learning
+          link: /learning
       column2:
         title: "Docs"
         links:
@@ -146,10 +102,3 @@ params:
           link: /
         - text: Developers
           link: /
-      column3:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
