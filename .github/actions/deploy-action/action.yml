@@ -9,6 +9,6 @@ outputs:
     description: 'Surge deploy domain URL.'
 runs:
   using: 'docker'
-  image: './Dockerfile'
+  image: 'Dockerfile'
   args:
     - ${{ inputs.REF }}
