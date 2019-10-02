@@ -44,8 +44,8 @@ jobs:
           - 3.7
     steps:
       - uses: actions/checkout@master
-      - uses: .github/actions/deply-action
-      - name: deploy in surge using grunt
+      - name: deploy in surge
+        uses: ./.github/actions/deploy-action
         id: deploy
         with:
           REF: ${{ github.ref }}
@@ -53,10 +53,5 @@ jobs:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN}}
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN}}
           REF: ${{ github.ref}}
-        run: |
-          docker build -t numpy.org-newsite -f Dockerfile .
-          docker ps -a
-          IFS='/' read -r -a array <<< "$REF";
-          docker run --env PR=${array[2]} numpy.org-newsite
       - name: Get the output time
         run: echo "The time was ${{ steps.deploy.outputs.deployed-domain }}"
