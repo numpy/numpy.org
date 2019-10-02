@@ -35,7 +35,7 @@ jobs:
           echo "${array[2]}";
   deploy:
     name: Deploy on surge
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version:
