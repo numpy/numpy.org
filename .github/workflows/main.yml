@@ -1,0 +1,56 @@
+name: ci
+
+on:
+  pull_request:
+    branches:
+      - newsite
+
+  push:
+    branches:
+      - newsite
+
+jobs:
+  test:
+    name: Test run
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os:
+          - macOS-latest
+          - ubuntu-latest
+          - windows-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: run test
+        env:
+          REF: ${{ github.ref}}
+        run: |
+          echo Checking github env variables:
+          echo ${{ github.actor }}
+          echo ${{ github.event_name }}
+          echo ${{ github.sha }}
+          echo ${REF}
+          IFS='/' read -r -a array <<< "$REF";
+          echo PR number is :
+          echo "${array[2]}";
+  deploy:
+    name: Deploy on surge
+    runs-on: macOS-latest
+    strategy:
+      matrix:
+        node-version:
+          - 10
+        python-version:
+          - 3.7
+    steps:
+      - uses: actions/checkout@master
+      - name: deploy in surge using grunt
+        env:
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN}}
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN}}
+          REF: ${{ github.ref}}
+        run: |
+          docker build -t numpy.org-newsite -f Dockerfile .
+          docker ps -a
+          IFS='/' read -r -a array <<< "$REF";
+          docker run --env PR=${array[2]} numpy.org-newsite
