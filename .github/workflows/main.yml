@@ -47,11 +47,9 @@ jobs:
       - name: deploy in surge
         uses: ./.github/actions/deploy-action
         id: deploy
-        with:
-          REF: ${{ github.ref }}
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN}}
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN}}
           REF: ${{ github.ref}}
       - name: Get the output time
-        run: echo "The time was ${{ steps.deploy.outputs.deployed-domain }}"
+        run: echo "The output was ${{ steps.deploy.outputs.deployed-domain }}"
