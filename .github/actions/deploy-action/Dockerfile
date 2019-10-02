@@ -1,5 +1,5 @@
 FROM node:10-alpine
-ADD . ./app
+ADD ../.. ./app
 WORKDIR /app
 
 RUN apk add --no-cache curl
@@ -10,7 +10,7 @@ RUN chmod +x .scripts/install.sh
 RUN chmod +x .scripts/build.sh
 RUN chmod +x .scripts/deploy.sh
 
-RUN .scripts/install.sh
-RUN .scripts/build.sh
+RUN .github/actions/.scripts/install.sh
+RUN .github/actions/.scripts/build.sh
 
-ENTRYPOINT .scripts/deploy.sh; /bin/bash
+ENTRYPOINT .github/actions/.scripts/deploy.sh; /bin/bash
