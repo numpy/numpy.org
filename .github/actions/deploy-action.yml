@@ -1,0 +1,14 @@
+name: 'deploy-action'
+description: 'Install, Build and deploy hugo app in surge'
+inputs:
+  REF:  # id of input
+    description: 'Github REF'
+    required: true
+outputs:
+  deployed-domain: # id of output
+    description: 'Surge deploy domain URL.'
+runs:
+  using: 'docker'
+  image: './Dockerfile'
+  args:
+    - ${{ inputs.REF }}
