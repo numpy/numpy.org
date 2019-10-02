@@ -44,6 +44,7 @@ jobs:
           - 3.7
     steps:
       - uses: actions/checkout@master
+      - uses: docker://alpine:3.8
       - name: deploy in surge using grunt
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN}}
