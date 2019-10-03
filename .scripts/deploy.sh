@@ -1,15 +1,12 @@
-#!/bin/bash
+#!/bin/sh
 
 npm install -g surge
 
-echo "${REF} REF value is "
-echo ${REF}
-echo "$REF"
+echo "REF value is ${REF}"
 
-echo "$PR_NUMBER"
-echo "${PR_NUMBER}"
-echo "$array[2]"
-echo "${array[2]}"
+PR_NUMBER="$(echo $REF | cut -d'/' -f3)"
+echo "PR_NUMBER: $PR_NUMBER"
+
 
 surge --project "./public" --domain "pr-${PR_NUMBER}-numpy.org-newsite.surge.sh";
 
