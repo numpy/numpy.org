@@ -10,29 +10,6 @@ on:
       - newsite
 
 jobs:
-  test:
-    name: Test run
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        os:
-          - macOS-latest
-          - ubuntu-latest
-          - windows-latest
-    steps:
-      - uses: actions/checkout@master
-      - name: run test
-        env:
-          REF: ${{ github.ref}}
-        run: |
-          echo Checking github env variables:
-          echo ${{ github.actor }}
-          echo ${{ github.event_name }}
-          echo ${{ github.sha }}
-          echo ${REF}
-          IFS='/' read -r -a array <<< "$REF";
-          echo PR number is :
-          echo "${array[2]}";
   deploy:
     name: Deploy on surge
     runs-on: ubuntu-latest
@@ -43,7 +20,7 @@ jobs:
         python-version:
           - 3.7
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@newsite
       - name: deploy in surge
         uses: ./.github/actions/deploy-action
         id: deploy
@@ -51,5 +28,5 @@ jobs:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN}}
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN}}
           REF: ${{ github.ref}}
-      - name: Get the output time
-        run: echo "The output was ${{ steps.deploy.outputs.deployed-domain }}"
+      - name: Get the deployed-domain
+        run: echo "The deployed-domain is ${{ steps.deploy.outputs.deployed-domain }}"
