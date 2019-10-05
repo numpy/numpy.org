@@ -20,7 +20,7 @@ jobs:
         python-version:
           - 3.7
     steps:
-      - uses: actions/checkout@newsite
+      - uses: actions/checkout@master
       - name: deploy in surge
         uses: ./.github/actions/deploy-action
         id: deploy
