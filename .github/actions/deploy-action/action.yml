@@ -1,0 +1,8 @@
+name: 'deploy-action'
+description: 'Install, Build and deploy hugo app in surge'
+outputs:
+  deployed-domain: # id of output
+    description: 'Surge deploy domain URL.'
+runs:
+  using: 'docker'
+  image: '../../../Dockerfile'

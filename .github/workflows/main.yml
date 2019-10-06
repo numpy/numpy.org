@@ -1,0 +1,32 @@
+name: ci
+
+on:
+  pull_request:
+    branches:
+      - newsite
+
+  push:
+    branches:
+      - newsite
+
+jobs:
+  deploy:
+    name: Deploy on surge
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version:
+          - 10
+        python-version:
+          - 3.7
+    steps:
+      - uses: actions/checkout@master
+      - name: deploy in surge
+        uses: ./.github/actions/deploy-action
+        id: deploy
+        env:
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN}}
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN}}
+          REF: ${{ github.ref}}
+      - name: Get the deployed-domain
+        run: echo "The deployed-domain is ${{ steps.deploy.outputs.deployed-domain }}"
