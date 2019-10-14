@@ -2,32 +2,37 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
-.hero-body {
-    position: relative;
-    padding: 0;
-    background-color: #013243;
-    z-index: -1;
+.hero-content {
+    height: 100vh;
+    margin: 100px 0 0 0;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hero-logo {
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-title {
     font-family: 'Rubik', sans-serif;
-    font-size: 36px;
-    color: white;
+    font-size: 28px;
+}
+
+.hero-subtitle {
+    width: 35vw;
+}
+
+.code-sample {
+    margin: 0 0 0 30px;
 }
 
 #navbar-item {
     color: #2e3131;
-}
-
-#hero-subtitle {
-    color: white;
-}
-
-#particles-js {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
 }
 
 #feature-card {
