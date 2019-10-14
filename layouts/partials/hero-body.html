@@ -4,9 +4,33 @@
 {{- $buttonText := index $hero "buttontext" }}
 {{- $buttonLink := index $hero "buttonlink" }}
 {{- $image      := index $hero "image" }}
-<div class="hero-body">
-    <div id="particles-js"></div>
+<div class="hero-content">
     <div class="container">
+        <div class="hero-container">
+            <div class="hero-logo">
+                <div>
+                    <img src="{{ printf "/images/%s" $image | relURL }}" alt="Description">
+                </div>
+                <div class="hero-title">
+                    {{ $title }}
+                </div>
+                {{ with $subtitle }}
+                    <div class="hero-subtitle">
+                        {{ . }}
+                    </div>
+                {{ end }}
+            </div>
+            <div class="code-sample">
+                <div>Numpy Sample, check it out:</div>
+                <code>
+                    def sample(some_list):
+                        print(some_list)
+                </code>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <div class="container">
         <div class="columns is-vcentered">
         <div class="column is-5 is-offset-1 landing-caption">
             <h1 class="hero-title">
@@ -28,6 +52,6 @@
             <img src="{{ printf "/images/%s" $image | relURL }}" alt="Description">
             </figure>
         </div>
-        </div>
+        </div> -->
     </div>
 </div>
