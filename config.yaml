@@ -2,6 +2,7 @@ baseURL: http://numpy.org/
 languageCode: en-us
 title: Numpy.org
 theme: hugo-fresh
+disableKinds: ["taxonomyTerm"]
 
 params:
   navColor: blue
