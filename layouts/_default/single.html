@@ -12,13 +12,20 @@
     </div>
 
     {{ block "main" . }}
+
+    {{ partial "single/single.html" . }}
+
+    {{ if .Params.include_footer }}
+    {{ partial "footer.html" . }}
     {{ end }}
 
     <!-- Back To Top Button -->
     <div id="backtotop"><a href="#"></a></div>
 
-    {{ if .Site.Params.sidebar }}
-    {{ partial "sidebar.html" . }}
+    {{ if .Params.sidebar }}
+    {{ partial "single/sidebar.html" . }}
+    {{ end }}
+
     {{ end }}
 
     {{ partial "javascript.html" . }}
