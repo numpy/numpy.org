@@ -14,7 +14,7 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Numpy
+    title: NumPy
     # Hero subtitle (optional)
     subtitle: The fundamental package for scientific computing and data science with Python
     # Button text
