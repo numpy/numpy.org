@@ -14,6 +14,12 @@ Next, clone this repository, and install the theme:
 git submodule update --init
 ```
 
+or using
+
+```
+git submodule update --init --recursive
+```
+
 The development web server is started with:
 
 ```
