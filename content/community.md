@@ -3,8 +3,6 @@ title: Community
 sidebar: false
 ---
 
-## Community
-
 NumPy offers a number of communication channels available to individuals interested in using and contributing to the project.
 
 We welcome contributions and contributors of all kinds - whether they come as contributions to code, participation in the community, opening issues and pointing out bugs, or simply sharing your work with others.

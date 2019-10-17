@@ -25,14 +25,18 @@ params:
     image: logos/numpy.svg
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: About
+  - title: About us
     url: /about
-  - title: Community
-    url: /community
   - title: Install
     url: /install
+  - title: Community
+    url: /community
   - title: Learning
     url: /learning
+  - title: Documentation
+    url: /doc
+  - title: Array computing
+    url: /arraycomputing
   section2:
     title: In a Nutshell
     subtitle:
@@ -79,12 +83,14 @@ params:
       icon: github
     - link: https://twitter.com/lucperkins
       icon: twitter
+    # TODO: not yet organized well (footer links need to differ from header
+    # links)
     bulmalogo: false
     quicklinks:
       column1:
         title: "Pages"
         links:
-        - text: About
+        - text: About us
           link: /about
         - text: Community
           link: /community
@@ -92,14 +98,16 @@ params:
           link: /install
         - text: Learning
           link: /learning
+        - text: Documentation
+          link: /doc
+        - text: Array computing
+          link: /arraycomputing
       column2:
         title: "Docs"
         links:
-        - text: Get started
+        - text: Getting started
           link: /
-        - text: User guides
+        - text: User guide
           link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
+        - text: Reference guide
           link: /

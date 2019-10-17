@@ -1,9 +1,7 @@
 ---
-title: Install
+title: Installing NumPy
 sidebar: false
 ---
-
-## Installing NumPy
 
 The only prerequisite for NumPy is Python itself. If you don't have Python yet, we recommend you use the [Anaconda Distribution](https://www.anaconda.com/distribution) - it includes Python, NumPy, and other commonly used packages for scientific computing and data science.
 
