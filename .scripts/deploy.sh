@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# Should be moved to build.sh
+# NOTE: Running build.sh and then deploy.sh is not finding the public
+# folder which is generated after the build command (hugo).
+hugo
+
 npm install -g surge
 
 echo "REF value is ${REF}"
@@ -11,5 +16,7 @@ echo "PR_NUMBER: $PR_NUMBER"
 echo "SURGE_LOGIN: $SURGE_LOGIN"
 echo "SURGE_TOKEN: $SURGE_TOKEN"
 ls
+ls "./public"
 
 surge --project $PROJECT_BUILD --domain $DOMAIN;
+

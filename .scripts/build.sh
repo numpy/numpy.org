@@ -1,4 +1,5 @@
 #!/bin/sh
 
-hugo
+sudo hugo
 ls
+
