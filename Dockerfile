@@ -15,4 +15,4 @@ RUN .scripts/build.sh
 
 RUN export PR_NUMBER=$(echo ${REF} | cut -d'/' -f3)
 
-RUN .scripts/deploy.sh
+ENTRYPOINT .scripts/deploy.sh; /bin/bash
