@@ -8,8 +8,8 @@ PR_NUMBER="$(echo $REF | cut -d'/' -f3)"
 PROJECT_BUILD="./public"
 DOMAIN="pr-${PR_NUMBER}-numpy.org-newsite.surge.sh"
 echo "PR_NUMBER: $PR_NUMBER"
+echo "SURGE_LOGIN: $SURGE_LOGIN"
+echo "SURGE_TOKEN: $SURGE_TOKEN"
 ls
 
 surge --project $PROJECT_BUILD --domain $DOMAIN;
-
-echo ::set-output name=deployed-domain::$DOMAIN
