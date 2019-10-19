@@ -14,7 +14,7 @@ RUN .scripts/install.sh
 RUN .scripts/build.sh
 
 RUN echo ${REF}
-RUN echo "$REF"
+
 RUN export PR_NUMBER=$(echo ${REF} | cut -d'/' -f3)
 
 ENTRYPOINT .scripts/deploy.sh; /bin/bash

@@ -1,3 +1,4 @@
 #!/bin/sh
 
 hugo
+ls
