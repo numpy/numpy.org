@@ -10,6 +10,6 @@ DOMAIN="pr-${PR_NUMBER}-numpy.org-newsite.surge.sh"
 echo "PR_NUMBER: $PR_NUMBER"
 
 
-surge --project PROJECT_BUILD --domain DOMAIN;
+surge --project $PROJECT_BUILD --domain $DOMAIN;
 
 echo ::set-output name=deployed-domain::DOMAIN
