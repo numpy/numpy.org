@@ -11,8 +11,8 @@ RUN chmod +x .scripts/build.sh
 RUN chmod +x .scripts/deploy.sh
 
 RUN .scripts/install.sh
-RUN .scripts/build.sh
 
 RUN export PR_NUMBER=$(echo ${REF} | cut -d'/' -f3)
 
-ENTRYPOINT .scripts/deploy.sh; /bin/bash
+CMD sh .scripts/build.sh
+CMD sh .scripts/deploy.sh
