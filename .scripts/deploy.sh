@@ -3,6 +3,7 @@
 # Should be moved to build.sh
 # NOTE: Running build.sh and then deploy.sh is not finding the public
 # folder which is generated after the build command (hugo).
+git submodule update --init
 hugo
 
 npm install -g surge
@@ -16,6 +17,7 @@ echo "PR_NUMBER: $PR_NUMBER"
 echo "SURGE_LOGIN: $SURGE_LOGIN"
 echo "SURGE_TOKEN: $SURGE_TOKEN"
 ls
+echo "---"
 ls "./public"
 
 surge --project $PROJECT_BUILD --domain $DOMAIN;
