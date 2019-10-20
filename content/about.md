@@ -1,5 +1,5 @@
 ---
-title: About
+title: About Us
 sidebar: false
 ---
 
@@ -9,31 +9,28 @@ NumPy is an open source project aiming to enable numerical computing with Python
 
 NumPy is developed in the open on GitHub, through the consensus of the NumPy and wider scientific Python community. For more information on our governance approach, please see our [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
 
-### Steering Council
+# Steering Council
 
 The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community. The NumPy Steering Council currently consists of the following members (in alphabetical order):
 
 TODO / to decide: add similar widget gallery as Jupyter and the new Pandas website (under development)? Or a simple list of names?
 
-### Teams
+## Teams
 
 The NumPy is growing, we have separate teams for:
+_TODO_
 
-TODO
-
-### Sponsors
+## Sponsors
 
 NumPy receives direct funding from the following sources:
+_TODO: add logos for Sloan and Moore foundations, and Tidelift_
 
-TODO: add logos for Sloan and Moore foundations, and Tidelift
-
-### Institutional Partners
+## Institutional Partners
 
 Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include:
+_TODO: add logos for Berkeley and Quansight_
 
-TODO: add logos for Berkeley and Quansight
-
-### Donate
+## Donate
 
 If you have found NumPy to be useful in your work, research or company, please consider making a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation and community.
 
