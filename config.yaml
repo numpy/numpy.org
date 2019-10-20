@@ -1,6 +1,6 @@
 baseURL: http://numpy.org/
 languageCode: en-us
-title: Numpy
+title: NumPy
 theme: hugo-fresh
 disableKinds: ["taxonomyTerm"]
 
