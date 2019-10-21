@@ -7,7 +7,7 @@ The only prerequisite for NumPy is Python itself. If you don't have Python yet, 
 
 NumPy can be installed with `conda`, with `pip`, or with a package manager on macOS and Linux. For more detailed instructions, consult the [installation guide](to_be_added_to_the_docs).
 
-### conda
+## conda
 
 If you use `conda`, you can install it with:
 
@@ -21,7 +21,7 @@ or with:
 conda install -c conda-forge numpy
 ```
 
-### pip
+## pip
 
 If you use `pip`, you can install it with:
 
