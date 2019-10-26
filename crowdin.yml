@@ -1,5 +1,5 @@
-project_identifier: numpyorg
-api_key: 5de80f3890ce77323d5ed7241d705e66
+project_identifier: PROJECT_IDENTIFIER_CROWDIN
+api_key: API_KEY_CROWDIN
 base_path: ./
 preserve_hierarchy: true
 files:
