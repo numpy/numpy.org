@@ -1,0 +1,8 @@
+project_identifier: numpyorg
+api_key: 5de80f3890ce77323d5ed7241d705e66
+base_path: ./
+preserve_hierarchy: true
+files:
+  - source: /content/**/*.md
+    translation: >-
+      /content/%two_letters_code%/**/%original_file_name%
