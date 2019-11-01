@@ -3,6 +3,7 @@ languageCode: en-us
 title: NumPy
 theme: hugo-fresh
 disableKinds: ["taxonomyTerm"]
+DefaultContentLanguage: en
 
 params:
   navColor: blue
@@ -113,3 +114,20 @@ params:
           link: /
         - text: Reference guide
           link: /
+
+languages:
+  en:
+    title: NumPy
+    languageName: English
+    weight: 1
+    contentDir: content/en
+  nl:
+    title: NumPy
+    languageName: Dutch
+    weight: 2
+    contentDir: content/nl
+  hi:
+    title: NumPy
+    languageName: Hindi
+    weight: 3
+    contentDir: content/hi
