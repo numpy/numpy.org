@@ -121,13 +121,58 @@ languages:
     languageName: English
     weight: 1
     contentDir: content/en
+    navbar:
+      - title: Install
+        url: /install
+      - title: Documentation
+        url: /doc
+      - title: Array computing
+        url: /arraycomputing
+      - title: Learn
+        url: /learn
+      - title: Community
+        url: /community
+      - title: About Us
+        url: /aboutus
+      - title: Contribute
+        url: /contribute
   nl:
     title: NumPy
     languageName: Dutch
     weight: 2
     contentDir: content/nl
+    navbar:
+      - title: Install
+        url: /nl/install
+      - title: Documentation
+        url: /nl/doc
+      - title: Array computing
+        url: /nl/arraycomputing
+      - title: Learn
+        url: /nl/learn
+      - title: Community
+        url: /nl/community
+      - title: About Us
+        url: /nl/aboutus
+      - title: Contribute
+        url: /nl/contribute
   hi:
     title: NumPy
     languageName: Hindi
     weight: 3
     contentDir: content/hi
+    navbar:
+      - title: Install
+        url: /hi/install
+      - title: Documentation
+        url: /hi/doc
+      - title: Array computing
+        url: /hi/arraycomputing
+      - title: Learn
+        url: /hi/learn
+      - title: Community
+        url: /hi/community
+      - title: About Us
+        url: /hi/aboutus
+      - title: Contribute
+        url: /hi/contribute
