@@ -75,31 +75,6 @@ params:
     # TODO: not yet organized well (footer links need to differ from header
     # links)
     bulmalogo: false
-    quicklinks:
-      column1:
-        title: "Pages"
-        links:
-        - text: About us
-          link: /about
-        - text: Community
-          link: /community
-        - text: Install
-          link: /install
-        - text: Learning
-          link: /learning
-        - text: Documentation
-          link: /doc
-        - text: Array computing
-          link: /arraycomputing
-      column2:
-        title: "Docs"
-        links:
-        - text: Getting started
-          link: /
-        - text: User guide
-          link: /
-        - text: Reference guide
-          link: /
 
 languages:
   en:
@@ -122,6 +97,32 @@ languages:
         url: /aboutus
       - title: Contribute
         url: /contribute
+    footerLinks:
+      quicklinks:
+        column1:
+          title: "Pages"
+          links:
+          - text: About us
+            link: /about
+          - text: Community
+            link: /community
+          - text: Install
+            link: /install
+          - text: Learning
+            link: /learning
+          - text: Documentation
+            link: /doc
+          - text: Array computing
+            link: /arraycomputing
+        column2:
+          title: "Docs"
+          links:
+          - text: Getting started
+            link: /
+          - text: User guide
+            link: /
+          - text: Reference guide
+            link: /
   nl:
     title: NumPy
     languageName: Dutch
@@ -142,6 +143,32 @@ languages:
         url: /nl/aboutus
       - title: Contribute
         url: /nl/contribute
+    footerLinks:
+      quicklinks:
+        column1:
+          title: "Pages"
+          links:
+          - text: About us
+            link: /nl/about
+          - text: Community
+            link: /nl/community
+          - text: Install
+            link: /nl/install
+          - text: Learning
+            link: /nl/learning
+          - text: Documentation
+            link: /nl/doc
+          - text: Array computing
+            link: /nl/arraycomputing
+        column2:
+          title: "Docs"
+          links:
+          - text: Getting started
+            link: /nl/
+          - text: User guide
+            link: /nl/
+          - text: Reference guide
+            link: /nl/
   hi:
     title: NumPy
     languageName: Hindi
@@ -162,3 +189,29 @@ languages:
         url: /hi/aboutus
       - title: Contribute
         url: /hi/contribute
+    footerLinks:
+      quicklinks:
+        column1:
+          title: "Pages"
+          links:
+          - text: About us
+            link: /hi/about
+          - text: Community
+            link: /hi/community
+          - text: Install
+            link: /hi/install
+          - text: Learning
+            link: /hi/learning
+          - text: Documentation
+            link: /hi/doc
+          - text: Array computing
+            link: /hi/arraycomputing
+        column2:
+          title: "Docs"
+          links:
+          - text: Getting started
+            link: /hi/
+          - text: User guide
+            link: /hi/
+          - text: Reference guide
+            link: /hi/
