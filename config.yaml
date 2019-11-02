@@ -25,21 +25,7 @@ params:
     # Hero image (from static/images/___)
     image: logos/numpy.svg
   # Customizable navbar. For a dropdown, add a "sublinks" list.
-  navbar:
-  - title: Install
-    url: /install
-  - title: Documentation
-    url: /doc
-  - title: Array computing
-    url: /arraycomputing
-  - title: Learn
-    url: /learn
-  - title: Community
-    url: /community
-  - title: About Us
-    url: /aboutus
-  - title: Contribute
-    url: /contribute
+
   section2:
     title: In a Nutshell
     subtitle:
