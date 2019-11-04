@@ -606,3 +606,28 @@
         opacity: 1
     }
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 20px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: middle;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+
+
+.image-grid > div {
+  background-color: light gray;
+  border: 2px solid #f4f4e9;
+  border-radius: 10px;
+  padding: 10px;
+}
