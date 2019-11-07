@@ -18,18 +18,15 @@ TODO / to decide: add similar widget gallery as Jupyter and the new Pandas websi
 
 ## Teams
 
-The NumPy is growing, we have separate teams for:
-_TODO_
+The NumPy is growing, we have separate teams for: _TODO_
 
 ## Sponsors
 
-NumPy receives direct funding from the following sources:
-_TODO: add logos for Sloan and Moore foundations, and Tidelift_
+NumPy receives direct funding from the following sources: _TODO: add logos for Sloan and Moore foundations, and Tidelift_
 
 ## Institutional Partners
 
-Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include:
-_TODO: add logos for Berkeley and Quansight_
+Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include: _TODO: add logos for Berkeley and Quansight_
 
 ## Donate
 

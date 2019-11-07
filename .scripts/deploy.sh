@@ -21,3 +21,4 @@ ls "./public"
 
 surge --project $PROJECT_BUILD --domain $DOMAIN;
 
+echo ::set-output name=deployed-domain::"pr-${PR_NUMBER}-numpy.org-newsite.surge.sh"
