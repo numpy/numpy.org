@@ -17,7 +17,7 @@ params:
     # Main hero title
     title: NumPy
     # Hero subtitle (optional)
-    subtitle: The fundamental package for scientific computing and data science with Python
+    subtitle: The fundamental package for scientific computing with Python
     # Button text
     buttontext: Get started
     # Where the main hero button links to

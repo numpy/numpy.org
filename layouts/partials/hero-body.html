@@ -4,28 +4,49 @@
 {{- $buttonText := index $hero "buttontext" }}
 {{- $buttonLink := index $hero "buttonlink" }}
 {{- $image      := index $hero "image" }}
-<div class="hero-content">
-    <div class="container">
-        <div class="hero-container">
-            <div class="hero-logo">
-                <div>
-                    <img src="{{ printf "/images/%s" $image | relURL }}" alt="Description">
-                </div>
-                <div class="hero-title">
-                    {{ $title }}
-                </div>
-                {{ with $subtitle }}
-                    <div class="hero-subtitle">
-                        {{ . }}
+<div class="hero-container">
+    <div class="container--">
+        <div class="flex-column">
+            <div class="flex-row">
+                <div class="flex-column">
+                    <div class="flex-row">
+                        <div class="hero-title">
+                            {{ $title }}
+                            <img class="hero-logo" src="{{ printf "/images/%s" $image | relURL }}" alt="Description">
+                        </div>
                     </div>
-                {{ end }}
+                    {{ with $subtitle }}
+                        <div class="hero-subtitle">
+                            {{ . }}
+                        </div>
+                    {{ end }}
+                    <div class="hero-cta">
+                        <button class="cta-button">Download</button>
+                    </div>
+                </div>
+                <div class="hero-demo">
+                    DEMO!
+                </div>
+                <!-- <div class="code-sample">
+                    <div>Numpy Sample, check it out:</div>
+                    <code>
+                        def sample(some_list):
+                            print(some_list)
+                    </code>
+                </div> -->
             </div>
-            <div class="code-sample">
-                <div>Numpy Sample, check it out:</div>
-                <code>
-                    def sample(some_list):
-                        print(some_list)
-                </code>
+            <div class="flex-row">
+                <div class="background">
+                <!-- <img src="images/backgrounds/cool-background.png" alt="Background"> -->
+                <!-- <pre data-executable="true" data-language="python">
+                    %matplotlib inline
+                    import numpy as np
+                    import matplotlib.pyplot as plt
+                    x = np.linspace(0,10)
+                    plt.plot(x, np.sin(x))
+                    plt.plot(x, np.cos(x))
+                </pre> -->
+                </div>
             </div>
         </div>
     </div>
