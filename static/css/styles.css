@@ -4,9 +4,17 @@ body {
 
 .hero-container {
     height: 100vh;
-    margin-left: 10vw;
+    width: 100vw;
     display: flex;
     align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    padding-left: 7vw;
 }
 
 .flex-row {
@@ -48,11 +56,76 @@ body {
 }
 
 .hero-demo {
-    margin-left: 100px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     border-radius: 25px 0 0 25px;
-    width: 100vw;
+    width: 50vw;
     height: 60vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.demo-tutorial {
+    margin: 0 40px;
+}
+
+.demo-title {
+    font-weight: bold;
+}
+
+.demo-copy {
+
+}
+
+.demo-caret {
+    position: absolute;
+    top: 125px;
+    left: 53px;
+    font-weight: bold;
+}
+
+#demo-code {
+    border: none;
+    height: 70%;
+    width: 80%;
+    margin: 45px;
+    padding: 4px 17px 50px 17px;
+    background-color: #e4f1fe;
+    border-radius: 5px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#demo-input {
+    height: 35px;
+}
+
+#demo-button-run {
+    width: 100px;
+    height: 35px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #013243;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: absolute;
+    top: 240px;
+    left: 455px;
+}
+
+#demo-output-parent {
+    position: relative;
+}
+
+#demo-output {
+    position: absolute;
+    top: 135px;
 }
 
 .cta-button {

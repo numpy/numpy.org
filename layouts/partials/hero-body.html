@@ -5,50 +5,37 @@
 {{- $buttonLink := index $hero "buttonlink" }}
 {{- $image      := index $hero "image" }}
 <div class="hero-container">
-    <div class="container--">
+    <div class="hero-content">
         <div class="flex-column">
             <div class="flex-row">
-                <div class="flex-column">
-                    <div class="flex-row">
-                        <div class="hero-title">
-                            {{ $title }}
-                            <img class="hero-logo" src="{{ printf "/images/%s" $image | relURL }}" alt="Description">
-                        </div>
-                    </div>
-                    {{ with $subtitle }}
-                        <div class="hero-subtitle">
-                            {{ . }}
-                        </div>
-                    {{ end }}
-                    <div class="hero-cta">
-                        <button class="cta-button">Download</button>
-                    </div>
+                <div class="hero-title">
+                    {{ $title }}
+                    <img class="hero-logo" src="{{ printf "/images/%s" $image | relURL }}" alt="Description">
                 </div>
-                <div class="hero-demo">
-                    DEMO!
-                </div>
-                <!-- <div class="code-sample">
-                    <div>Numpy Sample, check it out:</div>
-                    <code>
-                        def sample(some_list):
-                            print(some_list)
-                    </code>
-                </div> -->
             </div>
-            <div class="flex-row">
-                <div class="background">
-                <!-- <img src="images/backgrounds/cool-background.png" alt="Background"> -->
-                <!-- <pre data-executable="true" data-language="python">
-                    %matplotlib inline
-                    import numpy as np
-                    import matplotlib.pyplot as plt
-                    x = np.linspace(0,10)
-                    plt.plot(x, np.sin(x))
-                    plt.plot(x, np.cos(x))
-                </pre> -->
+            {{ with $subtitle }}
+                <div class="hero-subtitle">
+                    {{ . }}
                 </div>
+            {{ end }}
+            <div class="hero-cta">
+                <button class="cta-button">Download</button>
             </div>
         </div>
-    </div>
+        <div class="hero-demo">
+            <div class="demo-tutorial">
+                <div class="demo-title">Try NumPy!</div>
+                <div class="demo-copy">Give NumPy a shot. We should write some better copy here.</div>
+            </div>
+            <div class="demo-caret">></div>
+                <pre data-executable="true" data-language="python">
+%matplotlib inline
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.linspace(0,10)
+plt.plot(x, np.sin(x))
+plt.plot(x, np.cos(x))
+                </pre>
+        </div>
     </div>
 </div>
