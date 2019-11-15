@@ -13,7 +13,7 @@ It is the foundation of statistical, mathematical, scientific computing and mode
 
 Since the launch of NumPy in 2006, Pandas appeared on the landscape in 2008, and it was not until a couple of years ago that several array computing libraries showed up in succession, crowding the array computing landscape. Many of these newer libraries mimic NumPy-like features and capabilites, and pack newer algorithms and features geared towards machine learning and artificial intelligence applications.
 
-<img src="/static/images/content_images/array_c_landscape.png" alt="arraycl" title="Array Computing Landscape">
+<img src="/images/content_images/array_c_landscape.png" alt="arraycl" title="Array Computing Landscape">
 
 **Array computing** is based on **arrays** data structures. *Arrays* are used to organize vast amounts of data such that related set of values can be easily sorted, searched, mathematically manipulated and transformed easily and quickly.
 
