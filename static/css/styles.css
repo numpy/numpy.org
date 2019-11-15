@@ -4,6 +4,7 @@ body {
 
 .hero-container {
     height: 100vh;
+    min-height: 1000px;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -22,7 +23,6 @@ body {
     flex-direction: row;
 }
 
-/* Hero Body Container TODO: Rename this */
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -60,6 +60,7 @@ body {
     border-radius: 25px 0 0 25px;
     width: 50vw;
     height: 60vh;
+    min-height: 630px;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -74,21 +75,20 @@ body {
     font-weight: bold;
 }
 
-.demo-copy {
-
-}
-
 .demo-caret {
     position: absolute;
-    top: 125px;
-    left: 53px;
-    font-weight: bold;
+    top: 5px;
+    left: 8px;
+    font-weight: bolder;
 }
 
 #demo-code {
     border: none;
     height: 70%;
+    min-height: 450px;
     width: 80%;
+    min-width: 400px;
+    max-width: 25vw;
     margin: 45px;
     padding: 4px 17px 50px 17px;
     background-color: #e4f1fe;
@@ -101,7 +101,7 @@ body {
 }
 
 #demo-button-run {
-    width: 100px;
+    width: 170px;
     height: 35px;
     font-size: 11px;
     text-transform: uppercase;
@@ -115,8 +115,11 @@ body {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     position: absolute;
-    top: 240px;
-    left: 455px;
+    top: 120px;
+}
+
+.shift-enter {
+    font-size: 0.8em;
 }
 
 #demo-output-parent {
@@ -185,7 +188,73 @@ p {
     padding: 5px;
 }
 
-.thebelab-button.thebelab-run-button {
-    border: none;
-    height: 50px;
+@media only screen and (max-width: 1087px) {
+    .hero-content {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+
+    .hero-demo {
+        margin-top: 30px;
+        min-width: 100vw;
+        align-items: center;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .flex-column {
+        margin: 0 30px;
+    }
+
+    .hero-title {
+        font-size: 80px;
+    }
+
+    .hero-logo {
+        max-height: 60px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+    }
+
+    .hero-demo {
+        padding: 15px;
+        box-shadow: 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .hero-demo {
+        width: 100vw;
+    }
+
+    #demo-code {
+        margin: 30px;
+        min-width: 95%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .hero-title {
+        font-size: 70px;
+    }
+
+    .hero-logo {
+        max-height: 50px;
+    }
+
+    .hero-subtitle {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .hero-title {
+        font-size: 60px;
+    }
+
+    .hero-logo {
+        max-height: 40px;
+    }
 }
