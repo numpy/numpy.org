@@ -3,11 +3,11 @@ name: ci
 on:
   pull_request:
     branches:
-      - newsite
+      - master
 
   push:
     branches:
-      - newsite
+      - master
 
 jobs:
   deploy:
