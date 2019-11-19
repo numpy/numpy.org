@@ -1,34 +1,161 @@
 body {
-    font-family: 'Rubik', sans-serif;
-}
-
-.hero-content {
-    height: 100vh;
-    margin: 100px 0 0 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .hero-container {
+    height: 100vh;
+    min-height: 1000px;
+    width: 100vw;
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
 
-.hero-logo {
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    padding-left: 7vw;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-headline {
     display: flex;
     flex-direction: column;
 }
 
 .hero-title {
-    font-family: 'Rubik', sans-serif;
-    font-size: 28px;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+}
+
+.hero-logo {
+    max-height: 75px;
+    padding: 0px 0 0 15px;
 }
 
 .hero-subtitle {
-    width: 35vw;
+    font-size: 18px;
+    max-width: 550px;
+}
+
+.hero-cta {
+    padding: 30px 0;
+}
+
+.hero-demo {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 25px 0 0 25px;
+    width: 50vw;
+    height: 60vh;
+    min-height: 630px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.demo-tutorial {
+    margin: 0 40px;
+}
+
+.demo-title {
+    font-weight: bold;
+}
+
+.demo-caret {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-weight: bolder;
+}
+
+#demo-code {
+    border: none;
+    height: 70%;
+    min-height: 450px;
+    width: 80%;
+    min-width: 400px;
+    max-width: 25vw;
+    margin: 45px;
+    padding: 4px 17px 50px 17px;
+    background-color: #e4f1fe;
+    border-radius: 5px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#demo-input {
+    height: 35px;
+}
+
+#demo-button-run {
+    width: 170px;
+    height: 35px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #013243;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: absolute;
+    top: 120px;
+}
+
+.shift-enter {
+    font-size: 0.8em;
+}
+
+#demo-output-parent {
+    position: relative;
+}
+
+#demo-output {
+    position: absolute;
+    top: 135px;
+}
+
+.cta-button {
+    width: 175px;
+    height: 45px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color:#fff;
+    background-color: #013243;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .code-sample {
     margin: 0 0 0 30px;
+}
+
+.background {
+    background: url('images/backgrounds/cool-background.png');
+    width: 100vw;
+    height: 100px;
+    object-fit: cover;
 }
 
 #navbar-item {
@@ -59,4 +186,75 @@ h2 {
 
 p {
     padding: 5px;
+}
+
+@media only screen and (max-width: 1087px) {
+    .hero-content {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+
+    .hero-demo {
+        margin-top: 30px;
+        min-width: 100vw;
+        align-items: center;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .flex-column {
+        margin: 0 30px;
+    }
+
+    .hero-title {
+        font-size: 80px;
+    }
+
+    .hero-logo {
+        max-height: 60px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+    }
+
+    .hero-demo {
+        padding: 15px;
+        box-shadow: 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .hero-demo {
+        width: 100vw;
+    }
+
+    #demo-code {
+        margin: 30px;
+        min-width: 95%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .hero-title {
+        font-size: 70px;
+    }
+
+    .hero-logo {
+        max-height: 50px;
+    }
+
+    .hero-subtitle {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .hero-title {
+        font-size: 60px;
+    }
+
+    .hero-logo {
+        max-height: 40px;
+    }
 }

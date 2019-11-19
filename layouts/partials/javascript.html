@@ -8,5 +8,16 @@
 <!-- Tabs.js -->
 <script src="{{ "js/tabs-main.js" | absURL }}"></script>
 <script src="{{ "js/tabs-utils.js" | absURL }}"></script>
+<!-- Configure and load Thebe -->
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        bootstrap: true,
+        binderOptions: {
+            repo: "binder-examples/requirements"
+        },
+    }
+</script>
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
 <!-- app.js -->
 <script src="{{ "js/app.js" | absURL }}"></script>
