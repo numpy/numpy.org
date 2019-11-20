@@ -631,3 +631,11 @@
   border-radius: 10px;
   padding: 10px;
 }
+
+ul.content-tab {
+ list-style-type: circle;
+ margin: 20px;
+ padding: 5px;
+ font-size: calc(var(--text-xs)*1.25);
+ color: light gray;
+}
