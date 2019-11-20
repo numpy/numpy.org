@@ -15,7 +15,7 @@
         <nav class="cd-tabs__navigation">
         <ul class="cd-tabs__list">
             <li>
-            <a href="#tab-inbox" class="cd-tabs__item cd-tabs__item--selected">
+            <a href="#tab-visualisation" class="cd-tabs__item cd-tabs__item--selected">
                 <svg aria-hidden="true" class="icon icon--xs"><path d="M15,0H1C0.4,0,0,0.4,0,1v14c0,0.6,0.4,1,1,1h14c0.6,0,1-0.4,1-1V1C16,0.4,15.6,0,15,0z M14,2v7h-3 c-0.6,0-1,0.4-1,1v2H6v-2c0-0.6-0.4-1-1-1H2V2H14z"></path></svg>
                 <span>Visualization</span>
             </a>
@@ -59,7 +59,7 @@
         </nav>
 
         <ul class="cd-tabs__panels">
-        <li id="tab-inbox" class="cd-tabs__panel cd-tabs__panel--selected text-component">
+        <li id="tab-visualization" class="cd-tabs__panel cd-tabs__panel--selected text-component">
                <div class="grid-container">
                   <div>
                     <p>
@@ -106,21 +106,77 @@
         <li id="tab-new" class="cd-tabs__panel text-component">
         <div class="grid-container">
             <div>
-               <img src="images/content_images/data-science.png" alt="datascience" align="left">
-            </div>
-            <div>
-            <p>Data Science makes it possible to analyze massive amounts of data and gain actionable insights. It is a multi-disciplinary field. Besides deep knowledge of the domain that the dataset belongs to, it involves numerical mathematics, statistics, scientific methodology, high performance computing, software programming and algorithms, machine learning, data engineering and visualisation.</p>
+               <img src="images/content_images/ds-landscape.png" alt="ds-landscape" align="left">
             </div>
             <div>
             <p>
-              There is a rich ecosystem of Python libraries that enable Data
-              Science processes such as data extraction (Pandas, Beautiful Soup),
-              data manipulation (), data exploration (), modeling () and data
-              presentation ().  
+	      Data Science makes it possible to analyze massive amounts of data
+	      and gain meaningful insights. 
+            </p>
+	    <p>
+              Python has a rich ecosytem of libraries that enable Data Science
+	      workflows. These workflows typically involve the following key
+	      processes:
+                <ul class="content-tab">
+                <li><b>Data Extraction:</b> Pandas, Beautiful Soup</li>
+                <li><b>Data Transformation:</b> Pandas</li>
+                <li><b>Data Manipulation:</b> Seaborn, Matplotlib</li>
+                <li><b>Data Exploration:</b> Scikit-learn, SciPy</li>
+                <li><b>Data Presentation:</b> Matplotlib and <a href="./index.html/#tab-visualisation" target="_blank" rel="noreferrer">several others</a></li>
+              </ul>
+            </p>
+            </div>
+	</div>
+	<p>
+	  All data manipulation begins with gathering or extracting data. <a 
+	  href="https://pandas.pydata.org"> Pandas </a> helps in data discovery
+          and handling, while <a href=
+	  "https://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a>
+	  helps in gathering and web-scrapping data sets.
+	</p>
+	<p>
+          Before machine learning algorithms can be applied to data, it requires
+	  cleaning and preparation by tools such as Pandas. <a href=
+          "https://seaborn.pydata.org">Seaborn</a> is well known for its <a href=
+	  "https://towardsdatascience.com/how-to-perform-exploratory-data-analysis-with-seaborn-97e3413e841d">
+	  exploratory data analysis (EDA)</a> capabilities, while some of the
+          backbone processes required for machine learning, namely, regression
+	  methods, classification, clustering, model validation and selection are
+	  well served by <a href="https://scikit-learn.org">Scikit-learn</a> and
+	  <a href="https://scikit-learn.org">Scipy</a> (statistical computing).
+	</p>  
+        <p>
+	And of course, <b>NumPy</b> is the foundation of almost all of these tools
+	  used for Data Science.
+        </p>
+	<p>
+	Besides these, <a href="http://keras.io">Keras</a> offers deep learning
+	with neural networks. <a href="https://www.tensorflow.org">Tensorflow</a>
+	framework helps to define and run computations involving tensors that have
+	broad applications in Speech and image recognition, Text-based
+	applications, Time-series analysis and Video detection.
+	</p>
+	<div class="grid-container">
+            <div>
+	    <p>
+              Effective data analytics require deep knowledge of the data domain
+              (e.g., Retail, Healthcare, Marketing, Finance, Social Media,
+	      Automation, Sales, Travel, Pure Science, Aeronautics etc.) as well
+	      as other core disciplines of Data Science such as:
+              <ul class="content-tab">
+                      <li> Numerical mathematics</li>
+                      <li> Statistics </li>
+                      <li> Scientific Methodology</li>
+                      <li> Advanced Computing</li>
+                      <li> Software Programming and Algorithms</li>
+                      <li> Machine Learning</li>
+                      <li> Data Engineering</li>
+                      <li> Data Visualisation</li>
+              </ul>
             </p>
             </div>
             <div>
-               <img src="images/content_images/ds-landscape.png" alt="ds-landscape" align="left">
+               <img src="images/content_images/data-science.png" alt="datascience" align="left" height="300px" width="300px">
             </div>
         </div>
         </li>
