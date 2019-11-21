@@ -20,4 +20,12 @@ The development web server is started with:
 hugo server
 ```
 
+or
+
+```
+hugo server -D
+```
+
+to run the hugo server with draft enabled.
+
 after which the site should be served at http://localhost:1313.
