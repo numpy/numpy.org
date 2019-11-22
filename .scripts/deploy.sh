@@ -19,6 +19,6 @@ echo "SURGE_LOGIN: $SURGE_LOGIN"
 echo "SURGE_TOKEN: $SURGE_TOKEN"
 ls "./public"
 
-surge --project $PROJECT_BUILD --domain $DOMAIN --token $SURGE_TOKEN;
+surge --project $PROJECT_BUILD --domain $DOMAIN --token $SURGE_TOKEN
 
-echo ::set-output name=deployed-domain::"pr-${PR_NUMBER}-numpy.org-newsite.surge.sh"
+echo ::set-output name=deployed-domain::"pr-${PR_NUMBER}-numpy.org.surge.sh"
