@@ -21,4 +21,4 @@ ls "./public"
 
 surge --project $PROJECT_BUILD --domain $DOMAIN --token "${SURGE_TOKEN}"
 
-echo ::set-output name=deployed-domain::"${DOMAIN}"
+echo ::set-output name=deployed-domain::$DOMAIN
