@@ -1,4 +1,4 @@
-baseURL: http://numpy.org/
+baseURL: https://numpy.org/
 languageCode: en-us
 title: NumPy
 theme: hugo-fresh
