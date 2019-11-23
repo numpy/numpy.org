@@ -13,9 +13,9 @@
 {{- $css := resources.Get $sass | toCSS $cssOpts | minify | fingerprint }}
 <link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{- end }}
-<link rel="stylesheet" type="text/css" href="{{ "css/icons.css" | absURL }}">
+<link rel="stylesheet" type="text/css" href="{{ "css/icons.css" | relURL }}">
 <!-- Custom CSS -->
-<link rel="stylesheet" type="text/css" href="{{ "css/styles.css" | relURL}}" />
+<link rel="stylesheet" type="text/css" href="{{ "css/styles.css" | relURL }}" />
 <!-- Numpy Favicon -->
 <link rel="icon" type="image/png" href="{{ "images/favicon.png" | relURL }}" />
 <!-- Google Fonts - Ubuntu -->
@@ -24,4 +24,4 @@
 <link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
 <!-- Tabs CSS -->
-<link rel="stylesheet" type="text/css" href="{{ "css/tabs.css" | relURL}}" />
+<link rel="stylesheet" type="text/css" href="{{ "css/tabs.css" | relURL }}" />
