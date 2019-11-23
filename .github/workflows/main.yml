@@ -34,4 +34,4 @@ jobs:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN}}
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN}}
           REF: ${{ github.ref}}
-        run: echo "The deployed-domain is ${{ steps.deploy.outputs.deployed-domain }} - ${{ SURGE_TOKEN }}"
+        run: echo "The deployed-domain is ${{ steps.deploy.outputs.deployed-domain }} - ${{ secrets.SURGE_TOKEN }}"
