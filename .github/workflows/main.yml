@@ -22,11 +22,16 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: deploy in surge
-        uses: ./.github/actions/deploy-action
-        id: deploy
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN}}
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN}}
           REF: ${{ github.ref}}
+        uses: ./.github/actions/deploy-action
+        id: deploy
+
       - name: Get the deployed-domain
-        run: echo "The deployed-domain is ${{ steps.deploy.outputs.deployed-domain }}"
+        env:
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN}}
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN}}
+          REF: ${{ github.ref}}
+        run: echo "The deployed-domain is ${{ steps.deploy.outputs.deployed-domain }} - ${SURGE_TOKEN}"
