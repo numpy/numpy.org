@@ -52,3 +52,13 @@ function sendThankYou() {
     const email = $('#email').val();
     // Mailchimp integration goes here
   }
+  // Shortcuts
+  const shortcutsTarget = $('#shortcuts');
+  if (shortcutsTarget.length > 0) {
+    $('.content-container h2, .content-container h3').map(function(idx, el) {
+      const title = el.textContent;
+      const elType = $(el).get(0).tagName;
+      shortcutsTarget.append(`<div class="shortcuts-${elType}">${title}</div>`)
+    });
+  }
+});
