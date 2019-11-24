@@ -23,6 +23,8 @@ conda install -c conda-forge numpy
 
 ## pip
 
+### pip install
+
 If you use `pip`, you can install it with:
 
 ```bash
