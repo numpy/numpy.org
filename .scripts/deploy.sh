@@ -28,6 +28,6 @@ echo "SURGE_LOGIN: $SURGE_LOGIN"
 echo "SURGE_TOKEN: $SURGE_TOKEN"
 ls "./public"
 
-surge --project $PROJECT_BUILD --domain $DOMAIN;
+surge --project $PROJECT_BUILD --domain $DOMAIN_NOHTTP;
 
 echo ::set-output name=deployed-domain::$DOMAIN
