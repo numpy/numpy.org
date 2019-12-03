@@ -639,3 +639,19 @@ ul.content-tab {
  font-size: calc(var(--text-xs)*1.25);
  color: light gray;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  font-size: calc(var(--text-xs)*0.95);
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
