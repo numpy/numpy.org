@@ -15,7 +15,7 @@ To thrive the NumPy project needs your expertise and enthusiasm. Not a coder? No
 Our community aspires to treat everyone equally, and to value all contributions. For information on best practices in the NumPy community, please review our Code of Conduct. Try to follow this code in spirit as much as in letter, to foster an open and welcoming environment that enriches the entire open source ecosystem.
 
 
-**DONATE**
+## DONATE
 
 If you have found NumPy useful in your work, please consider making a donation. Any amount helps! All donations will be used strictly to fund the development of the NumPy open source software, documentation, and community.
 
@@ -24,7 +24,7 @@ NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the U
 The NumPy Steering Council will make decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the NumPy Roadmap.
 
 
-**INSTITUTIONAL PARTNERS**
+## INSTITUTIONAL PARTNERS
 
 Institutional Partners are organizations that support the project by employing NumPy contributors, with contributing to the project as part of their official duties.
 
@@ -35,7 +35,7 @@ BIDS
 Quansight
 
 
-**SPONSORS**
+### SPONSORS
 
 NumPy receives direct funding from the following sources:
 
