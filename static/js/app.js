@@ -28,7 +28,13 @@ $(function () {
     $('.content-container h2, .content-container h3').map(function(idx, el) {
       const title = el.textContent;
       const elType = $(el).get(0).tagName;
-      shortcutsTarget.append(`<div class="shortcuts-${elType}">${title}</div>`)
+      shortcutsTarget.append(`<div id="${title}-shortcut" class="shortcuts-${elType}">${title}</div>`);
+
+      $(`#${title}-shortcut`).click(function() {
+        $([document.documentElement, document.body]).animate({
+          scrollTop: $(`#${title}`).offset().top
+      }, 1000);
+      })
     });
   }
 });
