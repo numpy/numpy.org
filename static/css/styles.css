@@ -258,3 +258,127 @@ p {
         max-height: 40px;
     }
 }
+
+
+/* Footer */
+.footer-logo-column {
+    display: flex;
+    justify-content: center;
+    padding: 5vw;
+    font-size: 1rem;
+}
+
+#footer-logo {
+    height: 75px;
+}
+
+.link-column {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.footer-link {
+    font-size: 1rem;
+}
+
+.footer-actions {
+    max-width: 25vw;
+    margin: 25px;
+}
+
+.sign-up-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    margin: 15px 0 25px 0;
+}
+
+.sign-up-image {
+    z-index: 2;
+    color: #2e3131;
+    padding: 9px 10px 10px 10px;
+    border-right: 1px solid #ececec;
+    background-color: #ececec;
+    border-radius: 5px 0 0 5px;
+}
+
+.sign-up-input {
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    width: 75%;
+    height: 35px;
+    padding-left: 5px;
+    font-size: 14px;
+    color: #2e3131;
+}
+
+.submission-instructions {
+    display: none;
+    position: absolute;
+    right: 18%;
+    font-size: 10px;
+    color: #6c7a89;
+}
+
+.signup-button {
+    display: none;
+}
+
+.thank-you {
+    display: none;
+    height: 75px;
+    color: #ececec;
+    align-items: center;
+}
+
+.social-media-icons {
+    display: flex;
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 1150px) {
+    .sign-up-input {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #footer-columns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-actions {
+        max-width: 50vw;
+    }
+
+    .sign-up-input {
+        width: 100%;
+    }
+
+    .thank-you {
+        justify-content: center;
+    }
+
+    .social-media-icons {
+        width: 100%;
+    }
+
+    .signup-button {
+        display: block;
+        height: 35px;
+        border-radius: 5px;
+        margin-left: 5px;
+        width: 60px;
+        color: black;
+    }
+}
