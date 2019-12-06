@@ -62,19 +62,6 @@ params:
       url: /
       buttonText: Get started
   section5: false
-  footer:
-    # Logo (from /images/logos/___)
-    logo: numpy.svg
-    # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
-    - link: https://github.com/numpy
-      # Icons are from Font Awesome
-      icon: github
-    - link: https://twitter.com/lucperkins
-      icon: twitter
-    # TODO: not yet organized well (footer links need to differ from header
-    # links)
-    bulmalogo: false
 
 languages:
   en:
@@ -97,32 +84,48 @@ languages:
         url: /aboutus
       - title: Contribute
         url: /contribute
-    footerLinks:
+    footer:
+      logo: numpy.svg
+      socialmediatitle: ""
+      socialmedia:
+      - link: https://github.com/numpy/numpy
+        icon: github
+      - link: https://twitter.com/lucperkins
+        icon: twitter
       quicklinks:
         column1:
-          title: "Pages"
+          title: ""
           links:
-          - text: About us
-            link: /about
-          - text: Community
-            link: /community
-          - text: Install
-            link: /install
-          - text: Learning
-            link: /learning
-          - text: Documentation
-            link: /doc
-          - text: Array computing
-            link: /arraycomputing
+            - text: Install
+              link: /install
+            - text: Documentation
+              link: /docs
+            - text: Release notes
+              link: /release-notes
+            - text: Roadmap
+              link: /roadmap
         column2:
-          title: "Docs"
+          title: ""
           links:
-          - text: Getting started
-            link: /
-          - text: User guide
-            link: /
-          - text: Reference guide
-            link: /
+            - text: About us
+              link: /about
+            - text: Code of conduct
+              link: /code-of-conduct
+            - text: Get help
+              link: /help
+            - text: Contribute
+              link: /contribute
+        column3:
+          title: ""
+          links:
+            - text: Terms of use
+              link: /terms
+            - text: Privacy
+              link: /privacy
+            - text: Trademarks
+              link: /trademarks
+            - text: Press kit
+              link: /press-kit
   nl:
     title: NumPy
     languageName: Dutch
@@ -143,32 +146,48 @@ languages:
         url: /nl/aboutus
       - title: Contribute
         url: /nl/contribute
-    footerLinks:
+    footer:
+      logo: numpy.svg
+      socialmediatitle: ""
+      socialmedia:
+      - link: https://github.com/numpy/numpy
+        icon: github
+      - link: https://twitter.com/lucperkins
+        icon: twitter
       quicklinks:
         column1:
-          title: "Pages"
+          title: ""
           links:
-          - text: About us
-            link: /nl/about
-          - text: Community
-            link: /nl/community
-          - text: Install
-            link: /nl/install
-          - text: Learning
-            link: /nl/learning
-          - text: Documentation
-            link: /nl/doc
-          - text: Array computing
-            link: /nl/arraycomputing
+            - text: Install
+              link: /nl/install
+            - text: Documentation
+              link: /nl/docs
+            - text: Release notes
+              link: /nl/release-notes
+            - text: Roadmap
+              link: /nl/roadmap
         column2:
-          title: "Docs"
+          title: ""
           links:
-          - text: Getting started
-            link: /nl/
-          - text: User guide
-            link: /nl/
-          - text: Reference guide
-            link: /nl/
+            - text: About us
+              link: /nl/about
+            - text: Code of conduct
+              link: /nl/code-of-conduct
+            - text: Get help
+              link: /nl/help
+            - text: Contribute
+              link: /nl/contribute
+        column3:
+          title: ""
+          links:
+            - text: Terms of use
+              link: /nl/terms
+            - text: Privacy
+              link: /nl/privacy
+            - text: Trademarks
+              link: /nl/trademarks
+            - text: Press kit
+              link: /nl/press-kit
   hi:
     title: NumPy
     languageName: Hindi
@@ -189,29 +208,45 @@ languages:
         url: /hi/aboutus
       - title: Contribute
         url: /hi/contribute
-    footerLinks:
+    footer:
+      logo: numpy.svg
+      socialmediatitle: ""
+      socialmedia:
+      - link: https://github.com/numpy/numpy
+        icon: github
+      - link: https://twitter.com/numpy
+        icon: twitter
       quicklinks:
         column1:
-          title: "Pages"
+          title: ""
           links:
-          - text: About us
-            link: /hi/about
-          - text: Community
-            link: /hi/community
-          - text: Install
-            link: /hi/install
-          - text: Learning
-            link: /hi/learning
-          - text: Documentation
-            link: /hi/doc
-          - text: Array computing
-            link: /hi/arraycomputing
+            - text: Install
+              link: /hi/install
+            - text: Documentation
+              link: /hi/docs
+            - text: Release notes
+              link: /hi/release-notes
+            - text: Roadmap
+              link: /hi/roadmap
         column2:
-          title: "Docs"
+          title: ""
           links:
-          - text: Getting started
-            link: /hi/
-          - text: User guide
-            link: /hi/
-          - text: Reference guide
-            link: /hi/
+            - text: About us
+              link: /hi/about
+            - text: Code of conduct
+              link: /hi/code-of-conduct
+            - text: Get help
+              link: /hi/help
+            - text: Contribute
+              link: /hi/contribute
+        column3:
+          title: ""
+          links:
+            - text: Terms of use
+              link: /hi/terms
+            - text: Privacy
+              link: /hi/privacy
+            - text: Trademarks
+              link: /hi/trademarks
+            - text: Press kit
+              link: /hi/press-kit
