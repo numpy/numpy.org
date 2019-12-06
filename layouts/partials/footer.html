@@ -1,0 +1,53 @@
+{{- $footer      := .Site.Params.footer }}
+{{- $logo        := index $footer "logo" }}
+{{- $quickLinks  := index $footer "quicklinks" }}
+{{- $socialMedia := index $footer "socialmedia" }}
+<footer class="footer footer-dark">
+  <div class="container">
+    <div id="footer-columns" class="columns">
+      <div class="footer-logo-column">
+        <img id="footer-logo" src="{{ printf "/images/logos/%s" $logo | relURL }}">
+      </div>
+      {{- range $quickLinks }}
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>{{ .title }}</h3>
+            </div>
+            <ul class="link-list">
+              {{- range .links }}
+              <li>
+                <a class="footer-link" href="{{ .link }}">
+                  {{ .text }}
+                </a>
+              </li>
+              {{- end }}
+            </ul>
+          </div>
+        </div>
+      {{- end }}
+        <div class="footer-actions">
+            <p>Sign up for the latest NumPy news, resources, and more!</p>
+            <div class="sign-up-container">
+                <i class="fal fa-envelope sign-up-image"></i>
+                <input id="email" class="sign-up-input" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') enterEmail()" />
+                <div class="submission-instructions">Press Enter</div>
+                <button class="signup-button" onclick="enterEmail()">
+                    <i class="fal fa-paper-plane"></i>
+                </button>
+            </div>
+            <div class="thank-you">Thank you! &#127881;</div>
+            <nav class="level is-mobile">
+                <div class="social-media-icons">
+                    {{- range $socialMedia }}
+                    <a class="level-item" href="{{ .link }}">
+                    <span class="icon"><i class="fa fa-{{ .icon }}"></i></span>
+                    </a>
+                    {{- end }}
+                </div>
+            </nav>
+            <div class="copyright">&copy; 2019 NumPy. All rights reserved.</div>
+        </div>
+    </div>
+  </div>
+</footer>
