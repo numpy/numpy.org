@@ -639,3 +639,56 @@ ul.content-tab {
  font-size: calc(var(--text-xs)*1.25);
  color: light gray;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  font-size: calc(var(--text-xs)*0.95);
+  padding: 8px;
+}
+
+tr.highlight-th {
+  border-top: solid 2px #dddddd;
+  font-size: calc(var(--text-xs)*1.5);
+}
+
+/*
+tr:nth-child(even) {
+  background-color: light grey;
+}
+*/
+
+td.border-left-bottom {
+    border-left: solid 1px #dddddd;
+    border-bottom: solid 1px #dddddd;
+}
+
+td.center-text {
+    text-align: center;
+    line-height: 35%;
+}
+
+td.lastrow-center-text {
+    text-align: center;
+    line-height: 35%;
+    border-bottom: solid 2px #dddddd;
+}
+
+td.bold-text {
+    font-weight: bold;
+    text-align: center;
+}
+
+img.cell-layout {
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
