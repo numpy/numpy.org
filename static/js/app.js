@@ -21,4 +21,34 @@ $(function () {
       }
     }, 250);
   }
+
+  // Email Form
+  $('.sign-up-input').focus(function(e) {
+    if ($(window).width() > 850) {
+      $('.submission-instructions').css('display', 'block');
+    }
+  }).blur(function(e) {
+    if ($(window).width() > 850) {
+      $('.submission-instructions').css('display', 'none');
+    }
+  });
 });
+
+
+function sendThankYou() {
+  $('.sign-up-container').css('display', 'none');
+  $('.thank-you').css('display', 'flex');
+
+  setTimeout(() => {
+    $('#email').val('');
+    $('.thank-you').css('display', 'none');
+    $( ".sign-up-container" ).fadeIn( "slow");
+  }, 3000);
+}
+
+  // Mailchimp
+  function enterEmail() {
+    sendThankYou();
+    const email = $('#email').val();
+    // Mailchimp integration goes here
+  }
