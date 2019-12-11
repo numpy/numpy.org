@@ -90,7 +90,7 @@ languages:
       socialmedia:
       - link: https://github.com/numpy/numpy
         icon: github
-      - link: https://twitter.com/lucperkins
+      - link: https://twitter.com/numpy_team
         icon: twitter
       quicklinks:
         column1:
