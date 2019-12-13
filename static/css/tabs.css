@@ -624,7 +624,6 @@
   grid-gap: 10px;
 }
 
-
 .image-grid > div {
   background-color: light gray;
   border: 2px solid #f4f4e9;
@@ -691,4 +690,13 @@ img.cell-layout {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.holder {
+      display: inline;
+    }
+.holder img {
+      max-height: 80px;
+      max-width: 80px;
+      padding: 5px;
+      object-fit: cover;
 }
