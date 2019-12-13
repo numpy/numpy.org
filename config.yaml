@@ -28,20 +28,20 @@ params:
 
   section2:
     title: In a Nutshell
-    subtitle:
     features:
     - title: Powerful N-dimensional arrays
       icon: cartesian
-      text: NumPy arrays are easy to use, versatile and fast. The NumPy vectorization, indexing and broadcasting concepts have become a standard way of thinking about array computing.
+      subtitle: Fast, versatile and easy to use
+      text:  Fast, versatile and easy to use, the NumPy vectorization, indexing and broadcasting concepts are the de-facto standards of array computing today.
     - title: Numerical computing tools
       icon: chip
-      text: Mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
+      text: Fundamental package for scientific computing, NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms and more.
     - title: Interoperable
       icon: computer
-      text: NumPy supports a wide range of computing platforms. If your data fits in memory and your code runs on a CPU, NumPy is for you! And if you need GPU, distributed or sparse arrays, NumPy works well with all the major libraries that provide that.
+      text: Works on your choice of computing platform, whether your code fits in memory and runs on a CPU or requires a GPU. NumPy supports a wide range of computing platforms and works well with all major distributed arrays and sparse arrays libraries. 
     - title: Open source
       icon: web-programming
-      text: NumPy is free for everyone to use, publicly developed on GitHub by a diverse community, and distributed under a liberal BSD license.
+      text: Distributed under a liberal BSD license, NumPy is developed and maintained publicly on GitHub by a vibrant, responsive and diverse community.
   tabs:
     title: Ecosystem
     subtitle:
