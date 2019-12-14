@@ -9,7 +9,8 @@
 
 <table>
   <tr>
-   <td colspan="3" ><strong>View the latest release of NumPy</strong>
+   <td colspan="3" align="center"> 
+ <a href="https://github.com/numpy/numpy.org/blob/master/content/en/install.md">View the latest release of NumPy</a>
    </td>
   </tr>
 </table>
