@@ -49,7 +49,8 @@ The[ goodreads list](https://www.goodreads.com/shelf/show/python-scipy) of books
 
 </br>
 <h3>Videos</h3>
-[Introduction to Numerical Computing with NumPy](http://youtube.com/watch?v=ZB7BZMhfPgk&), Alex Chabot-Leclerc. SciPy 2019 Tutorial. 
+
+[Introduction to Numerical Computing with NumPy](http://youtu.be/ZB7BZMhfPgk), Alex Chabot-Leclerc. SciPy 2019 Tutorial. 
 </br>
 <h3>Courses</h3>
 </br>
@@ -89,5 +90,5 @@ GitHub:[ https://github.com/rougier/from-python-to-numpy](https://github.com/rou
 
 </br>
 </br>
-If you would like to contribute to this collection submit your recommendation [here](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md) via a pull request. Please include in your submission a brief description why it deserves mention on numpy.org and what audience would benefit from it the most.
+If you would like to contribute to this collection submit your recommendation [here](github.com/numpy/numpy.org/blob/master/content/en/learn.md) via a pull request. Please include in your submission a brief description why it deserves mention on numpy.org and what audience would benefit from it the most.
 
