@@ -1,10 +1,8 @@
 **Side Navigation Bar:**
 
-**Beginner**
+[Citing NumPy](github.com/numpy/numpy.org/blob/master/content/en/citing-numpy.md)
 
-**Advanced**
-
-**Educator**
+[Get Help](github.com/numpy/numpy.org/blob/master/content/en/numpy-help.md)
 
 **__________________**
 
@@ -21,7 +19,13 @@ This is a curated collection of NumPy related educational resources. Some are ve
 
 </br>
 
-<h2>BEGINNER</h2>
+[Beginner](github.com/numpy/numpy.org/blob/master/content/en/learn.md#BEGINNER)
+
+[Advanced](github.com/numpy/numpy.org/blob/master/content/en/learn.md#ADVANCED)
+
+[Educator](github.com/numpy/numpy.org/blob/master/content/en/learn.md#EDUCATOR)
+
+<a name="#BEGINNER"><h2>BEGINNER</h2></a>
 
 <h3>Books</h3>
 
@@ -61,7 +65,7 @@ The[ goodreads list](https://www.goodreads.com/shelf/show/python-scipy) of books
 
 </br>
 
-<h2>ADVANCED</h2>
+<a name="ADVANCED"><h2>ADVANCED</h2></a>
 
 <h3>Books</h3>
 
@@ -91,7 +95,7 @@ GitHub:[ https://github.com/rougier/from-python-to-numpy](https://github.com/rou
 
 </br>
 
-<h2>EDUCATOR</h2>
+<a name="EDUCATOR"><h2>EDUCATOR</h2></a>
 
 [SciPy Lecture Notes](http://www.scipy-lectures.org/), Gaël Varoquaux, Emmanuelle Gouillart, Olav Vahtras et al., 2016.
 </br>
