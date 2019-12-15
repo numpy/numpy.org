@@ -100,8 +100,8 @@ languages:
               link: /install
             - text: Documentation
               link: /docs
-            - text: Release notes
-              link: /release-notes
+            - text: Learn
+              link: /learn
             - text: Roadmap
               link: /roadmap
         column2:
@@ -109,6 +109,8 @@ languages:
           links:
             - text: About us
               link: /about
+            - text: Community
+              link: /community
             - text: Code of conduct
               link: /code-of-conduct
             - text: Get help
