@@ -74,10 +74,10 @@ languages:
         url: /install
       - title: Documentation
         url: /doc
-      - title: Array computing
-        url: /arraycomputing
       - title: Learn
         url: /learn
+      - title: Array computing
+        url: /arraycomputing
       - title: Community
         url: /community
       - title: About Us
