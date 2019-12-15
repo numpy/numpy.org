@@ -40,6 +40,8 @@ The[ goodreads list](https://www.goodreads.com/shelf/show/python-scipy) of books
 
 [SciPy Lecture Notes](https://scipy-lectures.org/) (intro for a broader introduction to the scientific Python ecosystem)
 
+[Towards Data Science](https://towardsdatascience.com/the-ultimate-beginners-guide-to-numpy-f5a2f99aef54), Anne Bonner.
+
 [Guru99](https://www.guru99.com/numpy-tutorial.html)
 
 [Machine learning plus](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
