@@ -691,12 +691,12 @@ img.cell-layout {
   margin-left: auto;
   margin-right: auto;
 }
-.holder {
-      display: inline;
-    }
-.holder img {
-      max-height: 80px;
-      max-width: 80px;
-      padding: 5px;
-      object-fit: cover;
+
+.animation-holder {
+	vertical-align: middle;
+	margin-top: 20px;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
