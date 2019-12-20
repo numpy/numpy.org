@@ -1,4 +1,7 @@
-## NumPy Code of Conduct
+---
+title: NumPy Code of Conduct
+sidebar: false
+---
 
 ### Introduction
 
