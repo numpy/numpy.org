@@ -1,6 +1,6 @@
-<h2>NumPy Code of Conduct</h2>
+## NumPy Code of Conduct
 
-<h3>Introduction</h3>
+### Introduction
 
 This Code of Conduct applies to all spaces managed by the NumPy project, including all public and private mailing lists, issue trackers, wikis, blogs, Twitter, and any other communication channel used by our community. The NumPy project does not organise in-person events, however events related to our community should have a code of conduct similar in spirit to this one.
 
@@ -8,9 +8,7 @@ This Code of Conduct should be honored by everyone who participates in the NumPy
 
 This code is not exhaustive or complete. It serves to distill our common understanding of a collaborative, shared environment and goals. Please try to follow this code in spirit as much as in letter, to create a friendly and productive environment that enriches the surrounding community.
 
-
-</br>
-<h3>Specific Guidelines</h3>
+### Specific Guidelines
 
 We strive to:
 
@@ -30,8 +28,7 @@ We strive to:
     *   Repeated harassment of others. In general, if someone asks you to stop, then stop.
     *   Advocating for, or encouraging, any of the above behaviour.
 
-</br>
-<h3>Diversity Statement</h3>
+### Diversity Statement
 
 The NumPy project welcomes and encourages participation by everyone. We are committed to being a community that everyone enjoys being part of. Although we may not always be able to accommodate each individual’s preferences, we try our best to treat everyone kindly.
 
@@ -41,8 +38,7 @@ Though we welcome people fluent in all languages, NumPy development is conducted
 
 Standards for behaviour in the NumPy community are detailed in the Code of Conduct above. Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
 
-</br>
-<h3>Reporting Guidelines</h3>
+### Reporting Guidelines
 
 We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We also recognize that sometimes people may have a bad day, or be unaware of some of the guidelines in this Code of Conduct. Please keep this in mind when deciding on how to respond to a breach of this Code.
 
@@ -58,8 +54,7 @@ You can report issues to the NumPy Code of Conduct Committee at numpy-conduct@go
 
 If your report involves any members of the Committee, or if they feel they have a conflict of interest in handling it, then they will recuse themselves from considering your report. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact **senior NumFOCUS staff** at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
-</br>
-<h3>Incident reporting resolution & Code of Conduct enforcement</h3>
+### Incident reporting resolution & Code of Conduct enforcement
 
 _This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](https://numpy.org/devdocs/dev/conduct/report_handling_manual.html#coc-reporting-manual).
 
@@ -69,7 +64,6 @@ In case of severe and obvious breaches, e.g. personal threat or violent, sexist 
 
 In cases not involving clear severe and obvious breaches of this Code of Conduct the process for acting on any received Code of Conduct violation report will be:
 
-
 1. acknowledge report is received,
 2. reasonable discussion/feedback,
 3. mediation (if feedback didn’t help, and only if both reporter and reportee agree to this),
@@ -77,7 +71,6 @@ In cases not involving clear severe and obvious breaches of this Code of Conduct
 
 The Committee will respond to any report as soon as possible, and at most within 72 hours.
 
-</br>
-<h4>Endnotes</h4>
+#### Endnotes
 
 We are thankful to [SciPy](https://scipy.org) behind [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/reference/dev/conduct/code_of_conduct.html) from which we drew content and inspiration.
