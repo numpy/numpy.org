@@ -1,4 +1,7 @@
-**Citing NumPy**
+---
+title: Citing NumPy
+sidebar: false
+---
 
 If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, we suggest citing the following papers:
 
@@ -9,20 +12,15 @@ If NumPy has been significant in your research, and you would like to acknowledg
 
 _In BibTeX format:_
 
- title={The NumPy array: a structure for efficient numerical computation},
-
-  author={Van Der Walt, Stefan and Colbert, S Chris and Varoquaux, Gael},
-
-  journal={Computing in Science \& Engineering},
-
-  volume={13},
-
-  number={2},
-
-  pages={22},
-
-  year={2011},
-
-  publisher={IEEE Computer Society}
-
+ ``` 
+ @article{van2011numpy,
+   title={The NumPy array: a structure for efficient numerical computation},
+   author={Van Der Walt, Stefan and Colbert, S Chris and Varoquaux, Gael},
+   journal={Computing in Science \& Engineering},
+   volume={13},
+   number={2},
+   pages={22},
+   year={2011},
+   publisher={IEEE Computer Society}
 }
+```
