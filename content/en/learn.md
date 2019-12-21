@@ -1,3 +1,9 @@
+---
+title: Learn
+sidebar: false
+---
+
+
 **Side Navigation Bar:**
 
 [Citing NumPy](github.com/numpy/numpy.org/blob/master/content/en/citing-numpy.md)
