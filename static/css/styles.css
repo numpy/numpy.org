@@ -390,8 +390,8 @@ p {
 
 .shortcuts-container {
     width: 100%;
-    min-width: 10vw;
-    max-width: 15vw;
+    min-width: 5vw;
+    max-width: 10vw;
     margin: 0 30px 0 30px;
 }
 
