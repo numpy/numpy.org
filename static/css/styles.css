@@ -381,9 +381,16 @@ p {
         width: 60px;
         color: black;
     }
+}
+
 /* Shortcuts */
+.content-padding {
+    padding: 3rem 1rem;
+}
+
 .shortcuts-container {
     width: 100%;
+    min-width: 10vw;
     max-width: 15vw;
     margin: 0 30px 0 30px;
 }
@@ -417,4 +424,10 @@ p {
     display: flex;
     flex-direction: column;
     margin: 30px 0 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .shortcuts-container {
+        display: none;
+    }
 }
