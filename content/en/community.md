@@ -3,28 +3,77 @@ title: Community
 sidebar: false
 ---
 
-NumPy offers a number of communication channels available to individuals interested in using and contributing to the project.
 
-We welcome contributions and contributors of all kinds - whether they come as contributions to code, participation in the community, opening issues and pointing out bugs, or simply sharing your work with others.
+# Community
 
-### Join the NumPy community
+NumPy is an open source project developed by a very diverse group of [contributors](https://numpy.org/team.md).
 
-If you’re interested in joining the NumPy community (yay!) we recommend checking out the [NumPy Contributing guide](https://www.numpy.org/devdocs/dev/index.html). This contains information about ways to get involved, the skills that are useful for each project area or activity, how to get started working on code, documentation or the website, and other ways that you can become a part of the NumPy community.
+We offer several communication channels to learn, share your knowledge and connect with others within the NumPy community.
 
-### Participate online
+The NumPy leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the [NumPy Code of Conduct](https://www.numpy.org/code-of-conduct.md) for guidance on how to interact with others in a way that makes the community thrive.
 
-NumPy also has a number of online communication channels to help keep in touch.
+## Online Communities and Social Resources
 
-As you interact with others in the NumPy community, remember that we have a strong commitment to being an open, inclusive, and positive community. Please read the [NumPy Code of Conduct](https://www.numpy.org/devdocs/dev/conduct/code_of_conduct.html) for guidance on how to interact with others in a way that makes the community thrive.
+### [NumPy mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion)
+for longer-form discussions, e.g.:
 
-Below is a short list of communication channels and GitHub repositories where you can get involved. We always welcome participation in the NumPy community.
+   - how should we have discussions about NumPy as software and as a community project?
 
-TODO:
+   - developing or adding items to the NumPy Roadmap;
 
-- GitHub org and main repositories
-- The numpy-discussion mailing list
-- Stack Overflow for usage questions
-- Gitter `numpy/numpy`: a real-time chatroom where users and community members help each other out.
-- Contributing guide
-- Slack for a real-time chatroom to ask questions about contributing to NumPy.
-- If you believe you’ve found a security vulnerability in NumPy, please report it using the procedure documented at https://tidelift.com/docs/security
+   - announcing sprints or conference talks;
+
+   - changes to the development workflow;
+
+   - announcements for NumPy releases and developer meetings.
+   
+
+### [StackOverflow](http://stackoverflow.com/questions/tagged/numpy) 
+
+for *usage* questions, e.g.  "How do I do *X* in NumPy?” Please use the ‘#numpy tag’.
+
+
+### [Reddit](https://www.reddit.com/r/Numpy/) 
+
+for *usage* questions.
+
+
+### [GitHub issue tracker](https://github.com/numpy/numpy/issues)
+
+   - **bug reports** (e.g. "``np.arange(3).shape`` returns ``(5,)``, when it should return ``(3,)``.");
+
+   - **documentation issues** (e.g. "I found this section unclear");
+
+   - **feature requests** (e.g. "I would like to have a new interpolation method in ``np.percentile``.").
+
+
+### [Gitter](https://gitter.im/numpy/numpy)
+
+ a real-time chat room where users and community members help each other.
+
+
+### [Slack](https://app.slack.com/client/TM52KRJ2K/CLRQESU4T)
+
+a real-time chat room to ask questions about contributing to NumPy.
+
+If you’ve found a security vulnerability in NumPy, please report it using the procedure documented at[ https://tidelift.com/docs/security](https://tidelift.com/docs/security)
+
+
+## Study Groups and Meetups
+
+[PyData](https://www.meetup.com/pro/pydata/)
+
+
+## Conferences and Events
+
+[SciPy conference](http://conference.scipy.org)
+
+[PyData events](https://pydata.org/event-schedule/)
+
+
+# Join the NumPy community
+
+To thrive the NumPy project needs your expertise and enthusiasm. Not a coder? Not a problem! There are many ways to contribute to NumPy. 
+
+If you are interested in becoming a NumPy contributor (yay!) we recommend checking out our [Contribute page] (https://numpy.org/contribute.md). 
+
