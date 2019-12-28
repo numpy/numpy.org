@@ -672,6 +672,12 @@ td.center-text {
     line-height: 35%;
 }
 
+td.full-center-text {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45%;
+}
+
 td.lastrow-center-text {
     text-align: center;
     line-height: 35%;
@@ -680,7 +686,7 @@ td.lastrow-center-text {
 
 td.bold-text {
     font-weight: bold;
-    text-align: center;
+    text-align: left;
 }
 
 img.cell-layout {
@@ -700,3 +706,22 @@ img.cell-layout {
 	margin-right: auto;
 	text-align: center;
 }
+td.left-text {
+    text-align: left;
+    vertical-align: middle;
+    line-height: 50%;
+    text-color: #dddddd;
+}
+
+img.first-column-layout {
+  border-radius: 5px;
+  height: 25px;
+  display: block;
+}
+
+td.lastrow-center-text {
+    text-align: center;
+    line-height: 40%;
+    border-bottom: solid 2px #dddddd;
+}
+
