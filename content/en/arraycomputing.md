@@ -20,7 +20,7 @@ operate on these arrays.
 Since the launch of NumPy in 2006, Pandas appeared on the landscape in 2008,
 and it was not until a couple of years ago that several array computing
 libraries showed up in succession, crowding the array computing landscape.
-Many of these newer libraries mimic NumPy-like features and capabilites, and
+Many of these newer libraries mimic NumPy-like features and capabilities, and
 pack newer algorithms and features geared towards machine learning and artificial intelligence applications.
 
 <img
