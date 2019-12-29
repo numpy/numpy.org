@@ -3,108 +3,85 @@ title: Learn
 sidebar: false
 ---
 
+***Welcome to learning about NumPy!***
 
-**Side Navigation Bar:**
+To learn how to use NumPy, you could begin with the resources listed under the 'beginners' section. Once you have a broad view into how to get started with using NumPy, you could try the more involved tutorials and resources listed under 'advanced' section.
 
-[Citing NumPy](github.com/numpy/numpy.org/blob/master/content/en/citing-numpy.md)
+This is a curated collection of NumPy related educational resources. Some are very specific to NumPy, while others offer a broader view on numerical computing. It is a continuously evolving list. In case you would like to contribute, please refer to the section 'Contributing to NumPy Learning Resources' below. 
+***
 
-[Get Help](github.com/numpy/numpy.org/blob/master/content/en/numpy-help.md)
+## Beginners
 
-**__________________**
+There is tons of information about NumPy out there. If you are new to NumPy, we'd strongly recommend the following tutorials, books and videos to get started.
 
+<i class="fad fa-chalkboard"></i> **Tutorials**
 
-<table>
-  <tr>
-   <td colspan="3" align="center"> 
- <a href="https://github.com/numpy/numpy.org/blob/master/content/en/install.md">View the latest release of NumPy</a>
-   </td>
-  </tr>
-</table>
+* [NumPy Quickstart Tutorial](https://numpy.org/devdocs/user/quickstart.html)
+* [SciPy Lectures](http://www.scipy-lectures.org/), Gaël Varoquaux, Emmanuelle Gouillart, Olav Vahtras et al., 2016. *Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.*
+* [Towards Data Science, an introduction to NumPy by *Anne Bonner*](https://towardsdatascience.com/the-ultimate-beginners-guide-to-numpy-f5a2f99aef54)
+* [NumPy Tutorial by *Guru99*](https://www.guru99.com/numpy-tutorial.html)
+* [Machine Learning Plus - Introduction to ndarray](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
+* [Edureka - Learn NumPy Arrays with Examples ](https://www.edureka.co/blog/python-numpy-tutorial/)
+* [Dataquest - NumPy Tutorial: Data Analysis with Python](https://www.dataquest.io/blog/numpy-tutorial-python/)
+* [Learn Python - Getting started with NumPy Arrays](https://www.learnpython.org/en/Numpy_Arrays)
+* [NumPy tutorial by *Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
+* [Stanford CS231 by *Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
 
+<i class="fas fa-books"></i> **Books**
 
-This is a curated collection of NumPy related educational resources. Some are very specific to NumPy, while others offer a broader view on numerical computing.
+* [Guide to NumPy by *Travis E. Oliphant*](http://web.mit.edu/dvp/Public/numpybook.pdf)
+* [NumPy Beginner's Guide by *Ivan Idris*](https://www.amazon.com/NumPy-Beginners-Guide-Ivan-Idris/dp/1782166084)
+* [From Python to NumPy by *Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/) 
 
-</br>
+Besides the ones listed above, you may want to check out the [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) of books on the subject of "Python+SciPy". Most of the books on this list are about the "SciPy ecosystem", which has NumPy at its core.
 
-[Beginner](github.com/numpy/numpy.org/blob/master/content/en/learn.md#BEGINNER)
+<i class="far fa-file-video"></i> **Videos**
 
-[Advanced](github.com/numpy/numpy.org/blob/master/content/en/learn.md#ADVANCED)
+* [Introduction to Numerical Computing with NumPy](http://youtu.be/ZB7BZMhfPgk), Alex Chabot-Leclerc, presented at SciPy 2019.` 
 
-[Educator](github.com/numpy/numpy.org/blob/master/content/en/learn.md#EDUCATOR)
+***
 
-<a name="#BEGINNER"><h2>BEGINNER</h2></a>
+## Advanced 
 
-<h3>Books</h3>
+If you have the basic know-how of NumPy and how to use it, you can try these advanced tutorials, books and videos for a better understanding of specific NumPy concepts such as advanced indexing, splitting, stacking, linear algebra and more.
 
-The[Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) of books on the subject of "Python+SciPy". Most of the books on this list are about the "SciPy ecosystem", which has NumPy at its core.
+<i class="fad fa-chalkboard"></i> **Tutorials**
 
-</br>
+* [100 NumPy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html), Nicolas P. Rougier, 2016.
+* [An Introduction to NumPy and Scipy](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf), M. Scott Shell, 2014. 
+* [Numpy Medkits](http://mentat.za.net/numpy/numpy_advanced_slides/), Stéfan van der Walt, 2008.
+* [NumPy in Python (Advanced)](https://www.geeksforgeeks.org/numpy-python-set-2-advanced/)
+* [Advanced Indexing](https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm)
+* [Machine Learning and Data Analytics with NumPy](https://www.machinelearningplus.com/python/numpy-tutorial-python-part2/)
 
-<h3>Tutorials</h3>
+<i class="fas fa-books"></i> **Books**
 
-[NumPy tutorial](https://numpy.org/devdocs/user/quickstart.html)
+* [NumPy User Guide](https://numpy.org/devdocs/user/index.html)
+* [NumPy Developer Guide](https://numpy.org/devdocs/dev/index.html)
+* [NumPy Reference](https://numpy.org/devdocs/reference/index.html) 
 
-[SciPy Lectures](https://scipy-lectures.org/) (intro for a broader introduction to the scientific Python ecosystem)
+<i class="far fa-file-video"></i> **Videos**
 
-[Towards Data Science](https://towardsdatascience.com/the-ultimate-beginners-guide-to-numpy-f5a2f99aef54), Anne Bonner.
+* [Scientific Computing with Python - SciPy Japan, 2019](https://www.youtube.com/watch?v=cYugp9IN1-Q)
+* [Advanced Indexing operations in NumPy arrays](https://www.youtube.com/watch?v=2WTDrSkQBng) 
+* [Machine learning in Trading - Georgia Tech Udacity course](https://www.udacity.com/course/machine-learning-for-trading--ud501)
 
-[Guru99](https://www.guru99.com/numpy-tutorial.html)
+***
 
-[Machine Learning Plus](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
+## Citing NumPy
 
-[Edureka](https://www.edureka.co/blog/python-numpy-tutorial/)
+Here is a Bib Tex citation that can be used to cite NumPy:
 
-[Dataquest](https://www.dataquest.io/blog/numpy-tutorial-python/)
+    @book{oliphant2006guide, 
+      title={A guide to NumPy}, 
+      author={Oliphant, Travis E}, 
+      volume={1}, 
+      year={2006}, 
+      publisher={Trelgol Publishing USA} 
+    }
 
-[Learn Python](https://www.learnpython.org/en/Numpy_Arrays)
+***
 
-[NumPy tutorial](https://github.com/rougier/numpy-tutorial), Nicolas Rougier.
+## Contribute
 
-[Stanford CS231](http://cs231n.github.io/python-numpy-tutorial/), Justin Johnson.
-
-</br>
-
-<h3>Videos</h3>
-
-[Introduction to Numerical Computing with NumPy](http://youtu.be/ZB7BZMhfPgk), Alex Chabot-Leclerc, presented at SciPy 2019. 
-
-</br>
-
-<h3>Courses</h3>
-
-</br>
-
-<a name="ADVANCED"><h2>ADVANCED</h2></a>
-
-<h3>Books</h3>
-
-[“From Python to Numpy”](https://www.labri.fr/perso/nrougier/from-python-to-numpy/), Nicolas P. Rougier, 2017. An open access well-illustrated book on NumPy, explaining NumPy philosophy and vectorization techniques.
-
-GitHub version:[ https://github.com/rougier/from-python-to-numpy](https://github.com/rougier/from-python-to-numpy)
-
-</br>
-
-<h3>Tutorials</h3>
-
-[100 NumPy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html), Nicolas P. Rougier, 2016.
-
-[Numpy tutorial](http://www.labri.fr/perso/nrougier/teaching/numpy/numpy.html), Nicolas P. Rougier, 2015.
-
-[Python course](http://www.python-course.eu/numpy.php), Bernd Klein, 2015.
-
-[An Introduction to NumPy and Scipy](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf), M. Scott Shell, 2014.
-
-[Python NumPy tutorial](http://cs231n.github.io/python-numpy-tutorial/), Justin Johnson, 2014.
-
-[Quickstart tutorial](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html), NumPy developers, 2009.
-
-[Numpy Medkits](http://mentat.za.net/numpy/numpy_advanced_slides/), Stéfan van der Walt, 2008.
-
-</br>
-
-<a name="EDUCATOR"><h2>EDUCATOR</h2></a>
-
-[SciPy Lectures](http://www.scipy-lectures.org/), Gaël Varoquaux, Emmanuelle Gouillart, Olav Vahtras et al., 2016.
-</br>
-</br>
-If you would like to contribute to this collection submit your recommendation [here](github.com/numpy/numpy.org/blob/master/content/en/learn.md) via a pull request. Please include in your submission a brief description why it deserves mention on numpy.org and what audience would benefit from it the most.
+If you would like to contribute to this collection of NumPy Learning resources, please submit your recommendation [here via a pull request](github.com/numpy/numpy.org/blob/master/content/en/learn.md). Make sure that your submission includes a brief description regarding why it deserves mention on numpy.org and what audience would benefit from it the most.
