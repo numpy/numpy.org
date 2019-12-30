@@ -103,7 +103,7 @@ languages:
             - text: Learn
               link: /learn
             - text: Roadmap
-              link: /roadmap
+              link: https://numpy.org/neps/roadmap.html
         column2:
           title: ""
           links:
@@ -154,7 +154,7 @@ languages:
       socialmedia:
       - link: https://github.com/numpy/numpy
         icon: github
-      - link: https://twitter.com/lucperkins
+      - link: https://twitter.com/numpy_team
         icon: twitter
       quicklinks:
         column1:
@@ -216,7 +216,7 @@ languages:
       socialmedia:
       - link: https://github.com/numpy/numpy
         icon: github
-      - link: https://twitter.com/numpy
+      - link: https://twitter.com/numpy_team
         icon: twitter
       quicklinks:
         column1:
