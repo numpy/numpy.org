@@ -17,21 +17,20 @@ There is tons of information about NumPy out there. If you are new to NumPy, we'
 <i class="fad fa-chalkboard"></i> **Tutorials**
 
 * [NumPy Quickstart Tutorial](https://numpy.org/devdocs/user/quickstart.html)
-* [SciPy Lectures](http://www.scipy-lectures.org/), Gaël Varoquaux, Emmanuelle Gouillart, Olav Vahtras et al., 2016. *Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.*
+* [SciPy Lectures](https://www.scipy-lectures.org/) *Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.*
 * [Towards Data Science, an introduction to NumPy by *Anne Bonner*](https://towardsdatascience.com/the-ultimate-beginners-guide-to-numpy-f5a2f99aef54)
-* [NumPy Tutorial by *Guru99*](https://www.guru99.com/numpy-tutorial.html)
 * [Machine Learning Plus - Introduction to ndarray](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
 * [Edureka - Learn NumPy Arrays with Examples ](https://www.edureka.co/blog/python-numpy-tutorial/)
 * [Dataquest - NumPy Tutorial: Data Analysis with Python](https://www.dataquest.io/blog/numpy-tutorial-python/)
-* [Learn Python - Getting started with NumPy Arrays](https://www.learnpython.org/en/Numpy_Arrays)
 * [NumPy tutorial by *Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
 * [Stanford CS231 by *Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
+* [NumPy User Guide](https://numpy.org/devdocs/user/index.html)
 
 <i class="fas fa-books"></i> **Books**
 
-* [Guide to NumPy by *Travis E. Oliphant*](http://web.mit.edu/dvp/Public/numpybook.pdf)
-* [NumPy Beginner's Guide by *Ivan Idris*](https://www.amazon.com/NumPy-Beginners-Guide-Ivan-Idris/dp/1782166084)
+* [Guide to NumPy by *Travis E. Oliphant*](http://web.mit.edu/dvp/Public/numpybook.pdf) *This is a free version 1 from 2006. For a latest copy (2015) see [here](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007).*
 * [From Python to NumPy by *Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/) 
+* [Elegant SciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) by Juan Nunez-Iglesias, Stefan van der Walt and Harriet Dashnow 
 
 Besides the ones listed above, you may want to check out the [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) of books on the subject of "Python+SciPy". Most of the books on this list are about the "SciPy ecosystem", which has NumPy at its core.
 
@@ -56,21 +55,36 @@ If you have the basic know-how of NumPy and how to use it, you can try these adv
 
 <i class="fas fa-books"></i> **Books**
 
-* [NumPy User Guide](https://numpy.org/devdocs/user/index.html)
-* [NumPy Developer Guide](https://numpy.org/devdocs/dev/index.html)
-* [NumPy Reference](https://numpy.org/devdocs/reference/index.html) 
+* [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057) by Jake Vanderplas
+* [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662) by Wes McKinney
+* [Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy and Matplotlib](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459) by Robert Johansson
 
 <i class="far fa-file-video"></i> **Videos**
 
 * [Scientific Computing with Python - SciPy Japan, 2019](https://www.youtube.com/watch?v=cYugp9IN1-Q)
 * [Advanced Indexing operations in NumPy arrays](https://www.youtube.com/watch?v=2WTDrSkQBng) 
-* [Machine learning in Trading - Georgia Tech Udacity course](https://www.udacity.com/course/machine-learning-for-trading--ud501)
+
+***
+
+## NumPy Talks
+
+* [The Future of NumPy Indexing](https://www.youtube.com/watch?v=o0EacbIbf58) by Jaime Fernández (2016)
+* [Evolution of Array Computing in Python](https://www.youtube.com/watch?v=HVLPJnvInzM&t=10s) by Ralf Gommers (2019)
+* [NumPy latest updates](https://www.youtube.com/watch?v=YFLVQFjRmPY) by Matti Picus, PyCon Israel (2019)
+* [Inside NumPy](https://www.youtube.com/watch?v=dBTJD_FDVjU) by Ralf Gommers, Sebastian Berg, Matti Picus, Tyler Reddy, Stefan van der Walt, Charles Harris (2019)
+* [Brief Review of Array Computing in Python](https://www.youtube.com/watch?v=f176j2g2eNc) by Travis Oliphant (2019)
 
 ***
 
 ## Citing NumPy
 
-Here is a Bib Tex citation that can be used to cite NumPy:
+Citations for NumPy in text:
+
+* Travis E. Oliphant. A guide to NumPy, USA: Trelgol Publishing, (2006).
+* Stéfan van der Walt, S. Chris Colbert and Gaël Varoquaux. The NumPy Array: A Structure for Efficient Numerical Computation, Computing in Science & Engineering, 13, 22-30 (2011), [DOI:10.1109/MCSE.2011.37](http://dx.doi.org/10.1109/MCSE.2011.37) ([publisher link](http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.37))
+
+
+Citations for NumPy in Bib tex:
 
     @book{oliphant2006guide, 
       title={A guide to NumPy}, 
@@ -78,6 +92,15 @@ Here is a Bib Tex citation that can be used to cite NumPy:
       volume={1}, 
       year={2006}, 
       publisher={Trelgol Publishing USA} 
+    }
+
+    @ARTICLE{vol13issue2march-april2011,
+      title={The NumPy Array: A Structure for Efficient Numerical Computation},
+      author={ {Stefan}, van der Walt and {S. Chris}, Colbert and {Gael} Varoquaux },
+      volume={13},
+      issue={2}
+      year={2011},
+      publisher={IEEE}
     }
 
 ***
