@@ -35,7 +35,14 @@ Emeritus members are:
 
 ## Teams
 
-The NumPy project is growing, we have separate teams for: _TODO_
+The NumPy project is growing, we have separate teams for:
+
+- Code
+- Documentation
+- Website
+- Triage
+- Funding & grants
+- Admin
 
 See the [Team](/team) page for individual team members.
 
