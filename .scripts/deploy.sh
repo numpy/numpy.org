@@ -9,9 +9,16 @@ hugo
 # deploy in surge
 npm install -g surge
 
-echo "REF value is ${REF}"
+if [ -z "$REF" ]
+then
+      echo "\$REF is not present.Use the PR_NUMBER: $PR_NUMBER ."
 
-PR_NUMBER="$(echo $REF | cut -d'/' -f3)"
+else
+      echo "\$REF is NOT empty. Getting the PR number from the REF variable."
+      echo "REF value is ${REF}"
+      PR_NUMBER="$(echo $REF | cut -d'/' -f3)"
+fi
+
 PROJECT_BUILD="./public"
 DOMAIN="pr-${PR_NUMBER}-numpy.org-newsite.surge.sh"
 echo "PR_NUMBER: $PR_NUMBER"
