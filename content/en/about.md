@@ -72,7 +72,6 @@ Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). For donors i
 
 NumPy's Steering Council will make the decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
 
-_TODO: embed NumFOCUS logo and donation button here._
-
 {{< figure src="/images/logos/NumFOCUS_sponsored_project_logo.svg" link=https://www.numfocus.org width="200" alt="Logo of NumFOCUS" >}}
 
+https://numfocus.org/donate-to-numpy
