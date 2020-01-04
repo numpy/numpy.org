@@ -17,4 +17,4 @@ Describe your changes here
 
 <!-- replace <pr_number> with your pr number -->
 
-https://pr-<pr_number>-numpy.surge.sh
+http://numpy-<pr_number>.surge.sh/
