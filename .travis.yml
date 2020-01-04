@@ -7,8 +7,8 @@ services:
   - docker
 
 before_install:
-  - docker build -t deploySurge .
+  - docker build -t deploy_surge .
   - docker images
 
 script:
-  - docker run deploySurge
+  - docker run deploy_surge
