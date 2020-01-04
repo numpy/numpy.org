@@ -11,12 +11,21 @@ npm install -g surge
 
 if [ -z "$REF" ]
 then
-      echo "\$REF is not present.Use the PR_NUMBER: $PR_NUMBER ."
-
+      echo "\$REF is not present. Use the PR_NUMBER: $PR_NUMBER ."
+      if [ "$PR_NUMBER" == "false" ]
+      then
+        echo "PR_NUMBER value is ${PR_NUMBER}. Expecting integer number."
+        exit 3
+      fi
 else
+  if [ "$PR_NUMBER" != "false" ]
+  then
       echo "\$REF is NOT empty. Getting the PR number from the REF variable."
       echo "REF value is ${REF}"
       PR_NUMBER="$(echo $REF | cut -d'/' -f3)"
+  else
+    echo "PR_NUMBER value is ${PR_NUMBER}."
+  fi
 fi
 
 PROJECT_BUILD="./public"
