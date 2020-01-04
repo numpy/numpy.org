@@ -1,12 +1,23 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="https://unpkg.com/feather-icons"></script>
-<script src="{{ "js/fresh.js" | absURL }}"></script>
-<script src="{{ "js/jquery.panelslider.min.js" | absURL }}"></script>
+<script src="{{ "js/fresh.js" | relURL }}"></script>
+<script src="{{ "js/jquery.panelslider.min.js" | relURL }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/9e9265cc6d.js"></script>
 <!-- Tabs.js -->
-<script src="{{ "js/tabs-main.js" | absURL }}"></script>
-<script src="{{ "js/tabs-utils.js" | absURL }}"></script>
+<script src="{{ "js/tabs-main.js" | relURL }}"></script>
+<script src="{{ "js/tabs-utils.js" | relURL }}"></script>
+<!-- Configure and load Thebe -->
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        bootstrap: true,
+        binderOptions: {
+            repo: "binder-examples/requirements"
+        },
+    }
+</script>
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
 <!-- app.js -->
-<script src="{{ "js/app.js" | absURL }}"></script>
+<script src="{{ "js/app.js" | relURL }}"></script>

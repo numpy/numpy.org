@@ -606,3 +606,122 @@
         opacity: 1
     }
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 20px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: middle;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+
+.image-grid > div {
+  background-color: light gray;
+  border: 2px solid #f4f4e9;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+ul.content-tab {
+ list-style-type: circle;
+ margin: 20px;
+ padding: 5px;
+ font-size: calc(var(--text-xs)*1.25);
+ color: light gray;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  font-size: calc(var(--text-xs)*0.95);
+  padding: 8px;
+}
+
+tr.highlight-th {
+  border-top: solid 2px #dddddd;
+  font-size: calc(var(--text-xs)*1.5);
+}
+
+/*
+tr:nth-child(even) {
+  background-color: light grey;
+}
+*/
+
+td.border-left-bottom {
+    border-left: solid 1px #dddddd;
+    border-bottom: solid 1px #dddddd;
+}
+
+td.center-text {
+    text-align: center;
+    line-height: 35%;
+}
+
+td.full-center-text {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45%;
+}
+
+td.lastrow-center-text {
+    text-align: center;
+    line-height: 35%;
+    border-bottom: solid 2px #dddddd;
+}
+
+td.bold-text {
+    font-weight: bold;
+    text-align: left;
+}
+
+img.cell-layout {
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.animation-holder {
+	vertical-align: middle;
+	margin-top: 20px;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+td.left-text {
+    text-align: left;
+    vertical-align: middle;
+    line-height: 50%;
+    text-color: #dddddd;
+}
+
+img.first-column-layout {
+  border-radius: 5px;
+  height: 25px;
+  display: block;
+}
+
+td.lastrow-center-text {
+    text-align: center;
+    line-height: 40%;
+    border-bottom: solid 2px #dddddd;
+}
+
