@@ -20,6 +20,8 @@ TODO / to decide: add similar widget gallery as Jupyter and the new Pandas websi
 
 The NumPy is growing, we have separate teams for: _TODO_
 
+See the [Team](/team) page for individual team members.
+
 ## Sponsors
 
 NumPy receives direct funding from the following sources: _TODO: add logos for Sloan and Moore foundations, and Tidelift_
