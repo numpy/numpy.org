@@ -184,6 +184,12 @@ h2 {
     padding-top: 15px;
 }
 
+h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
 p {
     padding: 5px;
 }

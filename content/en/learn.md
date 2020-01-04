@@ -78,33 +78,8 @@ If you have the basic know-how of NumPy and how to use it, you can try these adv
 
 ## Citing NumPy
 
-Citations for NumPy in text:
-
-* Travis E. Oliphant. A guide to NumPy, USA: Trelgol Publishing, (2006).
-* Stéfan van der Walt, S. Chris Colbert and Gaël Varoquaux. The NumPy Array: A Structure for Efficient Numerical Computation, Computing in Science & Engineering, 13, 22-30 (2011), [DOI:10.1109/MCSE.2011.37](http://dx.doi.org/10.1109/MCSE.2011.37) ([publisher link](http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.37))
-
-
-Citations for NumPy in Bib tex:
-
-    @book{oliphant2006guide, 
-      title={A guide to NumPy}, 
-      author={Oliphant, Travis E}, 
-      volume={1}, 
-      year={2006}, 
-      publisher={Trelgol Publishing USA} 
-    }
-
-    @ARTICLE{vol13issue2march-april2011,
-      title={The NumPy Array: A Structure for Efficient Numerical Computation},
-      author={ {Stefan}, van der Walt and {S. Chris}, Colbert and {Gael} Varoquaux },
-      volume={13},
-      issue={2}
-      year={2011},
-      publisher={IEEE}
-    }
+If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, please see [this citation information](/citing-numpy).
 
 ***
 
-## Contribute
-
-If you would like to contribute to this collection of NumPy Learning resources, please submit your recommendation [here via a pull request](github.com/numpy/numpy.org/blob/master/content/en/learn.md). Make sure that your submission includes a brief description regarding why it deserves mention on numpy.org and what audience would benefit from it the most.
+_If you would like to contribute to this collection of NumPy Learning resources, please submit your recommendation [here via a pull request](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md). Make sure that your submission includes a brief description regarding why it deserves mention on numpy.org and what audience would benefit from it the most._
