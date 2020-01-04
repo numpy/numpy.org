@@ -10,11 +10,27 @@ NumPy is an open source project aiming to enable numerical computing with Python
 NumPy is developed in the open on GitHub, through the consensus of the NumPy and wider scientific Python community. For more information on our governance approach, please see our [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
 
 
-# Steering Council
+## Steering Council
 
 The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community. The NumPy Steering Council currently consists of the following members (in alphabetical order):
 
-TODO / to decide: add similar widget gallery as Jupyter and the new Pandas website (under development)? Or a simple list of names?
+- Sebastian Berg
+- Jaime Fernández del Río
+- Ralf Gommers
+- Allan Haldane
+- Charles Harris
+- Stephan Hoyer
+- Nathaniel Smith
+- Julian Taylor
+- Pauli Virtanen
+- Stefan van der Walt
+- Eric Wieser
+
+Emeritus members are:
+
+- Travis Oliphant (project founder, served: 2005-2012)
+- Alex Griffing (served: 2015-2017)
+- Marten van Kerkwijk (served: 2017-2019)
 
 ## Teams
 
