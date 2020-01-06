@@ -1,8 +1,8 @@
 ---
-title: Press kit
-sidebar: false
+title: Druk uitrusting
+sidebar: Onjuist
 ---
 
-We would like to make it easy for you to include the NumPy brand identity in your next academic paper, course materials or presentation.
+We willen het makkelijk maken voor u om de nummermerken in uw volgende academische papier, cursusmaterialen of presentaties op te nemen.
 
-You will find a high resolution logo of NumPy [here](https://github.com/numpy/numpy/tree/master/branding/icons). Note that by using the numpy.org resources, you accept the [NumPy Code of Conduct](https://numpy.org/code-of-conduct).
+Je vindt een logo van NumPy [hier](https://github.com/numpy/numpy/tree/master/branding/icons). Merk op dat door gebruik te maken van de numpy.org bronnen, u de [NumPy Code of Gedragscode](https://numpy.org/code-of-conduct) accepteert.
