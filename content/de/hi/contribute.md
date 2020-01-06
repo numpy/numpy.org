@@ -1,34 +1,34 @@
-# TO DO - Füge Links und Logos hinzu
+# TO DO - include links and logos
 
-**VERTRIBUT**
+**CONTRIBUTE**
 
-Vielen Dank, dass Sie auf den Button „Mitwirken“ klicken! Du bist unsere Art von Pythonista!
+Thanks so much for clicking on “Contribute” button! You are our kind of a Pythonista!
 
-Um das NumPy Projekt zu gedeihen, braucht Ihr Fachwissen und Ihre Begeisterung. Kein Programmierer? Kein Problem! Es gibt viele Möglichkeiten, um zu NumPy beizutragen:
+To thrive the NumPy project needs your expertise and enthusiasm. Not a coder? Not a problem! There are many ways to contribute to NumPy:
 
-| Code schreiben                                                 | Überprüfen und kommentieren Sie Pull-Anfragen von anderen Entwicklern | Mitwirken von Unterrichtsmaterialien (Tutorien, Präsentationen, etc.) |
-|:-------------------------------------------------------------- |:--------------------------------------------------------------------- |:--------------------------------------------------------------------- |
-| **Untersuche Fehler und Probleme auf GitHub**                  | **Dokumentation verbessern**                                          | **Inhalte in andere Sprachen übersetzen**                             |
-| **Antworten Sie Fragen auf Gitter, Stack-Überlauf und Reddit** | **An der Diskussion auf der Mailingliste teilnehmen**                 | **Als Community-Coordinator dienen**                                  |
-| **Referenz NumPy in Ihren Beiträgen, Artikeln und Blogs**      | **Wartung und Verbesserung unserer Website**                          | **Forschung und Hilfe zur Bewerbung um Stipendien**                   |
+| Write code                                                 | Review and comment on pull requests from other developers | Contribute educational materials (tutorials, presentations, etc.) |
+|:---------------------------------------------------------- |:--------------------------------------------------------- |:----------------------------------------------------------------- |
+| **Investigate bugs and issues on GitHub**                  | **Improve documentation**                                 | **Translate content into other languages**                        |
+| **Answer questions on Gitter, Stack Overflow, and Reddit** | **Participate in the discussion on the mailing list**     | **Serve as a community coordinator**                              |
+| **Reference NumPy in your papers, articles and blogs**     | **Maintain and enhance our website**                      | **Research and help to apply for grants**                         |
 
-Unsere Gemeinschaft strebt danach, alle gleich zu behandeln und alle Beiträge zu bewerten. Für Informationen über bewährte Praktiken in der NumPy-Community lesen Sie bitte unseren Verhaltenskodex. Versuche diesen Code im Geist wie im Buchstaben zu verfolgen eine offene und einladende Umgebung zu fördern, die das gesamte Ökosystem der Open Source bereichert.
-
-
-**DONATEN**
-
-Wenn Sie NumPy in Ihrer Arbeit nützlich gefunden haben, erwägen Sie bitte, eine Spende zu machen. Beliebiger Betrag hilft! Alle Spenden werden streng dazu verwendet, die Entwicklung der NumPy Open Source Software, Dokumentation und Community zu finanzieren.
-
-NumPy ist ein gesponsertes Projekt von NumFOCUS, einer 501(c)(3) gemeinnützigen Organisation in den USA. NumFOCUS bietet NumPy steuerliche, rechtliche und administrative Unterstützung, um die Gesundheit und Nachhaltigkeit des Projekts zu gewährleisten. Besuchen Sie numfocus.org für weitere Informationen. Spenden an NumPy werden von NumFOCUS verwaltet. Für Spender in den Vereinigten Staaten ist Ihr Geschenk steuerlich abzugsfähig. Wie bei jeder Spende sollten Sie sich mit Ihrem Steuerberater über Ihre spezifische Steuersituation beraten.
-
-Der NumPy Lenkungsrat wird Entscheidungen treffen, wie die erhaltenen Mittel am besten genutzt werden können. Technische und infrastrukturelle Prioritäten sind auf der NumPy Roadmap dokumentiert.
+Our community aspires to treat everyone equally, and to value all contributions. For information on best practices in the NumPy community, please review our Code of Conduct. Try to follow this code in spirit as much as in letter, to foster an open and welcoming environment that enriches the entire open source ecosystem.
 
 
-**INSTITUTIONALPARTNER**
+**DONATE**
 
-Institutionelle Partner sind Organisationen, die das Projekt durch den Einsatz von NumPy-Mitwirkenden unterstützen, die als Teil ihrer offiziellen Aufgaben zum Projekt beitragen.
+If you have found NumPy useful in your work, please consider making a donation. Any amount helps! All donations will be used strictly to fund the development of the NumPy open source software, documentation, and community.
 
-Zu den aktuellen institutionellen Partnern gehören:
+NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit numfocus.org for more information. Donations to NumPy are managed by NumFOCUS. For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax adviser about your particular tax situation.
+
+The NumPy Steering Council will make decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the NumPy Roadmap.
+
+
+**INSTITUTIONAL PARTNERS**
+
+Institutional Partners are organizations that support the project by employing NumPy contributors, with contributing to the project as part of their official duties.
+
+Current Institutional Partners include:
 
 BIDS
 
@@ -37,10 +37,10 @@ Quansight
 
 **SPONSORS**
 
-NumPy erhält direkte Mittel aus den folgenden Quellen:
+NumPy receives direct funding from the following sources:
 
-Gordon und Betty Moore Stiftung
+Gordon and Betty Moore Foundation
 
-Alfred P. Sloan Stiftung
+Alfred P. Sloan Foundation
 
 Tidelift
