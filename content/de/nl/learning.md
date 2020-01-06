@@ -9,6 +9,6 @@ sidebar: fout
 
 ### Boeken
 
-### Online-Cursussen
+### Online cursussen
 
 ### Bestanden aanleren
