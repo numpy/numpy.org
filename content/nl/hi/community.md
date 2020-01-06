@@ -1,30 +1,30 @@
 ---
-title: Community
-sidebar: false
+title: Gemeenschap
+sidebar: Onjuist
 ---
 
-NumPy offers a number of communication channels available to individuals interested in using and contributing to the project.
+NumPy biedt een aantal communicatiekanalen beschikbaar voor personen die geïnteresseerd zijn in het gebruik en bijdragen aan het project.
 
-We welcome contributions and contributors of all kinds - whether they come as contributions to code, participation in the community, opening issues and pointing out bugs, or simply sharing your work with others.
+We verwelkomen bijdragen en allerhande bijdragers - of ze nu komen als bijdragen aan de code, deelname in de gemeenschap, het openen van problemen en het melden van bugs, of gewoon je werk delen met anderen.
 
-### Join the NumPy community
+### Word lid van de NumPy gemeenschap
 
-If you’re interested in joining the NumPy community (yay!) we recommend checking out the [NumPy Contributing guide](https://www.numpy.org/devdocs/dev/index.html). This contains information about ways to get involved, the skills that are useful for each project area or activity, how to get started working on code, documentation or the website, and other ways that you can become a part of the NumPy community.
+Als je geïnteresseerd bent in het toetreden tot de NumPy community (ja!) dan raden we je aan om de [NumPy Bijdrage gids](https://www.numpy.org/devdocs/dev/index.html) te bekijken. Dit bevat informatie over manieren om betrokken te worden, de vaardigheden die nuttig zijn voor elk projectgebied of activiteit. hoe aan de slag te gaan met code, documentatie of de website, en andere manieren waarop je deel kunt gaan uitmaken van de NumPy community.
 
-### Participate online
+### Online deelnemen
 
-NumPy also has a number of online communication channels to help keep in touch.
+NumPy heeft ook een aantal online communicatiekanalen om in contact te blijven.
 
-As you interact with others in the NumPy community, remember that we have a strong commitment to being an open, inclusive, and positive community. Please read the [NumPy Code of Conduct](https://www.numpy.org/devdocs/dev/conduct/code_of_conduct.html) for guidance on how to interact with others in a way that makes the community thrive.
+Als je interactie hebt met anderen in de NumPy gemeenschap, herinner je eraan dat we ons sterk inzetten voor een open, inclusieve en positieve gemeenschap. Lees de [NumPy Code of Conduct](https://www.numpy.org/devdocs/dev/conduct/code_of_conduct.html) voor begeleiding over hoe interactie met anderen moet worden gevoerd op een manier die de gemeenschap laat gedijen.
 
-Below is a short list of communication channels and GitHub repositories where you can get involved. We always welcome participation in the NumPy community.
+Hieronder staat een korte lijst van communicatiekanalen en GitHub repositories waar je bij betrokken kunt raken. We verwelkomen altijd deelname aan de NumPy gemeenschap.
 
 TODO:
 
-- GitHub org and main repositories
-- The numpy-discussion mailing list
-- Stack Overflow for usage questions
-- Gitter `numpy/numpy`: a real-time chatroom where users and community members help each other out.
-- Contributing guide
-- Slack for a real-time chatroom to ask questions about contributing to NumPy.
-- If you believe you’ve found a security vulnerability in NumPy, please report it using the procedure documented at https://tidelift.com/docs/security
+- GitHub org en hoofdrepositories
+- De mailinglijst voor numpy-discussie
+- Stack Overflow voor gebruiksvragen
+- Gitter `numpy/numpy`: een real-time chatroom waar gebruikers en gemeenschapsleden elkaar helpen.
+- Gids bij bijdragen
+- Slack voor een real-time chatroom om vragen te stellen over bijdragen aan nummer.
+- Als u denkt dat u een beveiligingslek in NumPy hebt gevonden, rapporteer dit dan via de procedure gedocumenteerd op https://tidelift.com/docs/security
