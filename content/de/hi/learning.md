@@ -1,14 +1,14 @@
 ---
-title: Lernen
-sidebar: falsch
+title: Learning
+sidebar: false
 ---
 
-## Ressourcen zum Erlernen von NumPy
+## Resources to learn about NumPy
 
-### Anleitungen
+### Tutorials
 
-### Bücher
+### Books
 
-### Online-Kurse
+### Online courses
 
-### Unterrichtsressourcen
+### Teaching Resources
