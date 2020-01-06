@@ -1,30 +1,30 @@
 ---
 title: Community
-sidebar: falsch
+sidebar: false
 ---
 
-NumPy bietet eine Reihe von Kommunikationskanälen für Einzelpersonen, die an der Nutzung und dem Beitrag zum Projekt interessiert sind.
+NumPy offers a number of communication channels available to individuals interested in using and contributing to the project.
 
-Wir begrüßen Beiträge und Beitragszahler aller Art - ob sie nun als Code-Beiträge kommen an der Community teilnehmen, Probleme eröffnen und Fehler aufzeigen, oder einfach deine Arbeit mit anderen teilen.
+We welcome contributions and contributors of all kinds - whether they come as contributions to code, participation in the community, opening issues and pointing out bugs, or simply sharing your work with others.
 
-### Trete der NumPy-Community bei
+### Join the NumPy community
 
-Wenn Sie Interesse daran haben, der NumPy Community beizutreten (yay!) empfehlen wir Ihnen den [NumPy Contributing guide](https://www.numpy.org/devdocs/dev/index.html). Dies enthält Informationen über Möglichkeiten, sich einzubringen, die Fähigkeiten, die für jeden Projektbereich oder jede Aktivität nützlich sind wie man mit der Arbeit an Code, Dokumentation oder Website beginnen kann und wie man ein Teil der NumPy Community werden kann.
+If you’re interested in joining the NumPy community (yay!) we recommend checking out the [NumPy Contributing guide](https://www.numpy.org/devdocs/dev/index.html). This contains information about ways to get involved, the skills that are useful for each project area or activity, how to get started working on code, documentation or the website, and other ways that you can become a part of the NumPy community.
 
-### Online teilnehmen
+### Participate online
 
-NumPy verfügt auch über eine Reihe von Online-Kommunikationskanälen, die helfen, in Kontakt zu bleiben.
+NumPy also has a number of online communication channels to help keep in touch.
 
-Wenn Sie mit anderen in der NumPy Community interagieren, denken Sie daran, dass wir ein starkes Engagement haben, eine offene, integrative und positive Gemeinschaft zu sein. Bitte lesen Sie den [NumPy Code of Conduct](https://www.numpy.org/devdocs/dev/conduct/code_of_conduct.html) für Anleitung, wie Sie mit anderen auf eine Art und Weise interagieren können, die die Gemeinschaft gedeihen lässt.
+As you interact with others in the NumPy community, remember that we have a strong commitment to being an open, inclusive, and positive community. Please read the [NumPy Code of Conduct](https://www.numpy.org/devdocs/dev/conduct/code_of_conduct.html) for guidance on how to interact with others in a way that makes the community thrive.
 
-Unten finden Sie eine kurze Liste von Kommunikationskanälen und GitHub Repositorys, an denen Sie teilnehmen können. Wir freuen uns immer über die Teilnahme an der NumPy Community.
+Below is a short list of communication channels and GitHub repositories where you can get involved. We always welcome participation in the NumPy community.
 
 TODO:
 
-- GitHub org und Haupt-Repositories
-- Die Numpy-Diskussions-Mailingliste
-- Stapelüberlauf für Benutzungsfragen
-- Gitter `numpy/numpy`: Ein Echtzeit-Chatraum, in dem Benutzer und Community Mitglieder einander helfen.
-- Beitragende Anleitung
-- Slack für einen Echtzeit-Chatraum, um Fragen zu stellen, wie man zu NumPy beiträgt.
-- Wenn du glaubst, eine Sicherheitslücke in NumPy gefunden zu haben, melde sie bitte mithilfe der Prozedur, die auf https://tidelift.com/docs/security dokumentiert ist
+- GitHub org and main repositories
+- The numpy-discussion mailing list
+- Stack Overflow for usage questions
+- Gitter `numpy/numpy`: a real-time chatroom where users and community members help each other out.
+- Contributing guide
+- Slack for a real-time chatroom to ask questions about contributing to NumPy.
+- If you believe you’ve found a security vulnerability in NumPy, please report it using the procedure documented at https://tidelift.com/docs/security
