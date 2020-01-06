@@ -1,176 +1,176 @@
 ---
-title: Terms of Use
-sidebar: false
+title: Gebruiksvoorwaarden
+sidebar: Onjuist
 ---
 
-*Last updated January 4, 2020*
+*Laatst bijgewerkt op 4 januari 2020*
 
 
-## AGREEMENT TO TERMS
+## LEEFTIJD OM TE VOORWAARDEN
 
-These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and NumPy ("**Project**", “**we**”, “**us**”, or “**our**”), concerning your access to and use of the numpy.org website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.
-
-
-
-Supplemental terms and conditions or documents that may be posted on the Site from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Terms of Use at any time and for any reason. We will alert you about any changes by updating the “Last updated” date of these Terms of Use, and you waive any right to receive specific notice of each such change. It is your responsibility to periodically review these Terms of Use to stay informed of updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Terms of Use by your continued use of the Site after the date such revised Terms of Use are posted.
+Deze gebruiksvoorwaarden vormen een juridisch bindende overeenkomst tussen u, persoonlijk of namens een entiteit ("jij") en NumPy ("**Project**", "**wij**", "******" of "**onze**"), betreffende uw toegang tot en gebruik van het numpy. rg website en elk ander media-formulier, mediakanaal, mobiele website of mobiele applicatie verwant met (collectief, de "Site"). U gaat ermee akkoord dat u door toegang te krijgen tot de Site, heeft gelezen, begrepen en ermee akkoord gaat gebonden te zijn aan al deze gebruiksvoorwaarden. ALS U NIET WORDEN GEMAAKT ALLES DAN DEZE TERMEN VAN USE, DAT JE VERVALLEN VAN DE SITE GEBRUIK EN HET SITE WORDEN VERWIJDEREN DOOR GEBRUIKT GEBRUIKT.</p>
 
 
 
-The information provided on the Site is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. Accordingly, those persons who choose to access the Site from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable.
+De aanvullende voorwaarden en voorwaarden of documenten die van tijd tot tijd in de site geplaatst kunnen worden, worden hier uitdrukkelijk vermeld. Wij behouden ons het recht voor om naar eigen goeddunken wijzigingen of wijzigingen aan deze gebruiksvoorwaarden aan te brengen op elk gewenst moment en om welke reden dan ook. We zullen u waarschuwen voor eventuele wijzigingen door de "Laatst bijgewerkt" datum van deze voorwaarden bij te werken en u ziet af van het recht om specifieke informatie over dergelijke wijzigingen te ontvangen. Het is uw verantwoordelijkheid om deze gebruiksvoorwaarden regelmatig te herzien om op de hoogte te blijven van updates. U zult onderworpen zijn aan en geacht worden op de hoogte te zijn gebracht en te hebben geaccepteerd. de wijzigingen in alle herziene gebruiksvoorwaarden door uw verdere gebruik van de Site na de datum van de herziene gebruiksvoorwaarden worden geplaatst.
 
 
-## USER REPRESENTATIONS
 
-By using the Site, you represent and warrant that: (1) you have the legal capacity and you agree to comply with these Terms of Use;  (2) you will not use the Site for any illegal or unauthorized purpose; and (3) your use of the Site will not violate any applicable law or regulation.
+De informatie op de site is niet bedoeld voor distributie naar of gebruik door een persoon of entiteit in een jurisdictie of land waar dergelijke distributie of gebruik in strijd zou zijn met de wet of regelgeving of die ons zou onderwerpen aan registratieplicht binnen een dergelijke jurisdictie of land. Dienovereenkomstig de mensen die ervoor kiezen om de Site van andere locaties te bezoeken, doen dit op eigen initiatief en zijn uitsluitend verantwoordelijk voor de naleving van de lokale wetgeving. als en in de mate waarin lokale wetten van toepassing zijn.
 
 
-If you provide any information that is untrue, inaccurate, not current, or incomplete, we have the right to refuse any and all current or future use of the Site (or any portion thereof).
+## GEBRUIKER RESENTATIES
+
+Door de Site te gebruiken, vertegenwoordigt en garandeert u dat: (1) u de juridische capaciteit heeft en stemt u ermee in om te voldoen aan deze voorwaarden; (2) u zult de Site niet gebruiken voor illegale of ongeautoriseerde doeleinden; en (3) zal uw gebruik van de Site geen enkele toepasselijke wet of regelgeving overtreden.
+
+
+Als je informatie verstrekt die onjuist, onnauwkeurig is, niet stroom- of onvolledig is, we hebben het recht om alle huidige en toekomstige toepassingen van de Site (of elk deel daarvan) te weigeren.
 
 
 ## PROHIBITED ACTIVITIES
 
-You may not access or use the Site for any purpose other than that for which we make the Site available.
+U mag de Site niet openen of gebruiken voor een ander doel dan waarvoor wij de Site beschikbaar maken.
 
-As a user of the Site, you agree not to:
+Als gebruiker van de Site, gaat u akkoord met niet:
 
-1.  Systematically retrieve data or other content from the Site to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.
+1.  Systematisch gegevens of andere inhoud direct of indirect ophalen van de site een verzameling, compilatie, database of map zonder schriftelijke toestemming van ons.
 
-2.  Make any unauthorized use of the Site, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.
+2.  Maak elk ongeautoriseerd gebruik van de Site, inclusief het verzamelen van gebruikersnamen en/of e-mailadressen van gebruikers via elektronische of andere middelen met het oog op het verzenden van ongevraagde e-mail, of maak gebruikersaccounts met geautomatiseerde middelen of onder valse voorwendsels.
 
-3.  Use the Site to advertise or offer to sell goods and services.
+3.  Gebruik de Site om te adverteren of aan te bieden om goederen en diensten te verkopen.
 
-4.  Circumvent, disable, or otherwise interfere with security-related features of the Site.
+4.  Circumvent, uitschakelen of anderszins interfereren met beveiligingsgerelateerde functies van de site.
 
-5.  Engage in unauthorized framing of or linking to the Site.
+5.  Neem contact op met ongeoorloofde framing of koppeling aan de site.
 
-6.  Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.
+6.  Trick, fraude of misleiding van ons en andere gebruikers, vooral in elke poging om gevoelige accountinformatie te leren, zoals wachtwoorden voor gebruikers.
 
-7.  Make improper use of our support services or submit false reports of abuse or misconduct.
+7.  Maak oneigenlijk gebruik van onze ondersteuningsdiensten of maak valse meldingen van misbruik of wangedrag.
 
-8.  Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.
+8.  Neem deel aan elk geautomatiseerd gebruik van het systeem, zoals het gebruik van scripts om reacties of berichten te verzenden, of gebruik een willekeurige data-mijn, robots, of vergelijkbare hulpmiddelen voor het verzamelen en extraheren van gegevens.
 
-9.  Interfere with, disrupt, or create an undue burden on the Site or the networks or services connected to the Site.
+9.  Interfere met, verstoren of creëren een buitensporige last voor de Site of de netwerken of diensten die zijn aangesloten op de site.
 
-10.  Attempt to impersonate another user or person or use the username of another user.
+10.  Probeer een andere gebruiker of persoon na te bootsen of gebruik de gebruikersnaam van een andere gebruiker.
 
-11.  Use any information obtained from the Site in order to harass, abuse, or harm another person.
+11.  Gebruik alle informatie van de Site om een ander persoon te buigen, te misbruiken of te beschadigen.
 
-12.  Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Site.
+12.  Ongelijkheid, tarnisme of anderszins schadelijk voor ons en/of voor de site.
 
-13.  Except as may be the result of standard search engine or Internet browser usage, use, launch, develop, or distribute any automated system, including without limitation, any spider, robot, cheat utility, scraper, or offline reader that accesses the Site, or using or launching any unauthorized script or other software.
+13.  Behalve dat het resultaat kan zijn van het standaard zoekmachine of internetbrowsergebruik, gebruik, launch, ontwikkeling of distributie van elk geautomatiseerd systeem, ook zonder beperkingen, elke spin, robot, cheat nuttige, schroot of offline lezer die toegang heeft tot de Site, of het gebruiken of lanceren van onbevoegde script of andere software.
 
-14.  Upload or transmit (or attempt to upload or to transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation, clear graphics interchange formats (“gifs”), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as “spyware” or “passive collection mechanisms” or “pcms”).
+14.  Upload of verstuur materiaal dat fungeert als een passieve of actieve verzameling of transmissie van informatie of als een transmissiemechanisme. inclusief zonder beperking verwijder grafische interchange formaten ("gifs"), 1×1 pixels, webbugs, cookies of andere vergelijkbare apparaten (soms aangeduid als "spyware" of "passieve collectiemechanismen" of "pcms").
 
-15.  Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party’s uninterrupted use and enjoyment of the Site or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Site.
+15.  Upload of verstuur virussen (of probeer te uploaden of te zenden), Trojaanse paarden of ander materiaal. inclusief overmatig gebruik van hoofdletters en spamming (voortdurende post van herhalende tekst), dat interfereert met het ononderbroken gebruik en het genot van de Site of modifiërs, aandoeningen, verstoort, wijzigt of verstoort het gebruik, de functies, de werking of het onderhoud van de site.
 
-16.  Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Site to you.
+16.  Harass, vervelend, geïntimideerd, of bedreigen een van onze medewerkers of agenten die betrokken zijn bij het aanbieden van een deel van de Site aan u.
 
-17.  Attempt to bypass any measures of the Site designed to prevent or restrict access to the Site, or any portion of the Site.
-
-
-## SUBMISSIONS
-
-You acknowledge and agree that any questions, comments, suggestions, ideas, feedback, or other information regarding the Site ("Submissions") provided by you to us are non-confidential and shall become our sole property. We shall own exclusive rights, including all intellectual property rights, and shall be entitled to the unrestricted use and dissemination of these Submissions for any lawful purpose, commercial or otherwise, without acknowledgment or compensation to you. You hereby waive all moral rights to any such Submissions, and you hereby warrant that any such Submissions are original with you or that you have the right to submit such Submissions. You agree there shall be no recourse against us for any alleged or actual infringement or misappropriation of any proprietary right in your Submissions.
-
-## THIRD-PARTY WEBSITES AND CONTENT
-
-The Site may contain (or you may be sent via the Site) links to other websites ("Third-Party Websites") as well as articles, photographs, text, graphics, pictures, designs, music, sound, video, information, applications, software, and other content or items belonging to or originating from third parties ("Third-Party Content"). Such Third-Party Websites and Third-Party Content are not investigated, monitored, or checked for accuracy, appropriateness, or completeness by us, and we are not responsible for any Third-Party Websites accessed through the Site or any Third-Party Content posted on, available through, or installed from the Site, including the content, accuracy, offensiveness, opinions, reliability, privacy practices, or other policies of or contained in the Third-Party Websites or the Third-Party Content. Inclusion of, linking to, or permitting the use or installation of any Third-Party Websites or any Third-Party Content does not imply approval or endorsement thereof by us. If you decide to leave the Site and access the Third-Party Websites or to use or install any Third-Party Content, you do so at your own risk, and you should be aware these Terms of Use no longer govern. You should review the applicable terms and policies, including privacy and data gathering practices, of any website to which you navigate from the Site or relating to any applications you use or install from the Site. Any purchases you make through Third-Party Websites will be through other websites and from other companies, and we take no responsibility whatsoever in relation to such purchases which are exclusively between you and the applicable third party. You agree and acknowledge that we do not endorse the products or services offered on Third-Party Websites and you shall hold us harmless from any harm caused by your purchase of such products or services. Additionally, you shall hold us harmless from any losses sustained by you or harm caused to you relating to or resulting in any way from any Third-Party Content or any contact with Third-Party Websites.
+17.  Poging om alle maatregelen van de Site te omzeilen die zijn ontworpen om de toegang tot de Site te voorkomen of te beperken of te beperken.
 
 
-## SITE MANAGEMENT
+## SUBMISSIES
 
-We reserve the right, but not the obligation, to: (1) monitor the Site for violations of these Terms of Use; (2) take appropriate legal action against anyone who, in our sole discretion, violates the law or these Terms of Use, including without limitation, reporting such user to law enforcement authorities; (3) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof; (4) in our sole discretion and without limitation, notice, or liability, to remove from the Site or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems; and (5) otherwise manage the Site in a manner designed to protect our rights and property and to facilitate the proper functioning of the Site.
+U erkent en stemt ermee in dat alle vragen, opmerkingen, suggesties, ideeën, feedback of andere informatie met betrekking tot de Site ("Inzenden") die door u aan ons wordt verstrekt, zijn niet vertrouwelijk en wordt ons enige eigendom. Wij zullen exclusieve rechten bezitten, inclusief alle intellectuele-eigendomsrechten. en zal recht hebben op het onbeperkte gebruik en de verspreiding van deze inzendingen voor een wettelijk doel. commercieel of niet, zonder erkenning of schadevergoeding. Hier zie je afstand van alle morele rechten op dergelijke indieningen, hierbij garandeert u dat dergelijke inzendingen origineel zijn bij u of dat u het recht heeft dergelijke inzendingen in te dienen. U gaat ermee akkoord dat wij geen toevlucht kunnen nemen tot vermeende of daadwerkelijke inbreuk of verduistering van eigendomsrecht bij uw verzoeken.
+
+## DERD-PARTY WEBSITES EN CONTENT
+
+De site kan links bevatten (of kunt u via de Site) naar andere websites ("Third-Party Websites") en artikelen bevatten fotografen, tekst, graphics, foto's, ontwerpen, muziek, geluid, video, informatie, toepassingen, software en andere inhoud of items die behoren tot of afkomstig van derden ("Content van derden"). Zulke websites van derden en inhoud van derden worden niet onderzocht, gecontroleerd, of gecontroleerd op de nauwkeurigheid, geschiktheid of volledigheid door ons, en wij zijn niet verantwoordelijk voor websites van derden die via de Site of enige inhoud van derden zijn geplaatst op beschikbaar of geïnstalleerd vanuit de Site, inclusief de inhoud, nauwkeurigheid, aanvalsvermogen, meningen, betrouwbaarheid, privacy-praktijken, of ander beleid van of zijn opgenomen in de websites van de derden of de content van de derden. Inclusie van, koppeling met of het gebruik of de installatie toestaan van een website van derden of van een content van derden betekent geen goedkeuring of goedkeuring door ons. Als u besluit om de Site te verlaten en toegang te krijgen tot de websites van derden of om inhoud van derden te gebruiken of te installeren je doet dit op eigen risico, en je moet weten dat deze Gebruiksvoorwaarden niet langer regeren. Je moet de toepasselijke voorwaarden en beleidsmaatregelen bekijken, inclusief privacy en gegevensverzamelingspraktijken. van elke website waarnaar u navigeert vanaf de Site of die u gebruikt of installeert vanaf de site. Alle aankopen die je doet via websites van derden zullen via andere websites en andere bedrijven worden uitgevoerd en we nemen geen enkele verantwoordelijkheid met betrekking tot dergelijke aankopen, die exclusief tussen u en de toepasselijke derde partij vallen. U gaat ermee akkoord en erkent dat wij de producten of diensten die op websites van derden worden aangeboden niet goedkeuren, en u houdt ons onschuldig aan alle schade die uw aankoop van dergelijke producten of diensten veroorzaakt. Bovendien, je houdt ons onschadelijk voor eventuele verliezen die door jou zijn aangericht of veroorzaakt door jou op enigerlei wijze zijn veroorzaakt in verband met of resulteert in enige vorm van inhoud van derden of enig contact met websites van derden.
+
+
+## SITE BELANGRIJK
+
+We behouden ons het recht, maar niet de verplichting voor: (1) toezicht houden op de Site voor schendingen van deze gebruiksvoorwaarden; (2) neem passende juridische stappen tegen iedereen die naar eigen goeddunken de wet of deze gebruiksvoorwaarden schendt, inclusief zonder beperking het melden van dergelijke gebruiker aan rechtshandhavingsautoriteiten; (3) naar eigen goeddunken en zonder beperkingen, weigeren, de toegang beperken, de beschikbaarheid beperken, beperken of deactiveer (voor zover dit technologisch haalbaar is) een van uw bijdragen of een deel daarvan van; (4) naar eigen goeddunken en zonder beperkingen, kennisgeving of aansprakelijkheid, van de Site verwijderen of op een andere manier alle bestanden en inhoud uitschakelen die te groot zijn of op enigerlei wijze belasten met onze systemen; en (5) anders beheer de site op een manier die bedoeld is om onze rechten en eigendommen te beschermen en het goed functioneren van de site te vergemakkelijken.
 
 
 ## PRIVACY POLICY
 
-We care about data privacy and security. Please review our [Privacy Policy](/privacy). By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised the Site is hosted in the United States. If you access the Site from the European Union, Asia, or any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States, then through your continued use of the Site, you are transferring your data to the United States, and you expressly consent to have your data transferred to and processed in the United States.  Further, we do not knowingly accept, request, or solicit information from children or knowingly market to children. Therefore, in accordance with the U.S. Children’s Online Privacy Protection Act, if we receive actual knowledge that anyone under the age of 13 has provided personal information to us without the requisite and verifiable parental consent, we will delete that information from the Site as quickly as is reasonably practical.
+We geven om privacy en beveiliging van gegevens. Lees ons [Privacybeleid](/privacy). Door gebruik te maken van de Site, gaat u akkoord met ons privacybeleid, dat is opgenomen in deze gebruiksvoorwaarden. Let op dat de Site wordt gehost in de Verenigde Staten. Als u de Site opent vanuit de Europese Unie, Azië, of elke andere regio van de wereld met wetten of andere vereisten voor het verzamelen van persoonsgegevens, gebruik of openbaarmaking die afwijkt van de toepasselijke wetten in de Verenigde Staten, vervolgens door uw voortdurende gebruik van de Site, u brengt uw gegevens over naar de Verenigde Staten, en u stemt er uitdrukkelijk mee in dat uw gegevens in de Verenigde Staten worden overgedragen en verwerkt.  Bovendien aanvaarden wij bewust geen informatie, vragen of vragen van kinderen of vragen wij kinderen bewust op de markt. Daarom, in overeenstemming met de Verenigde Staten. De online Privacy Protection Act voor kinderen, als we echt weten dat iedereen jonger dan 13 jaar ons persoonlijke informatie heeft verstrekt zonder de vereiste en controleerbare toestemming van de ouders, we zullen die informatie zo snel als redelijk praktisch is, van de site verwijderen.
 
-## TERM AND TERMINATION
+## TERM EN TERMINATIE
 
-These Terms of Use shall remain in full force and effect while you use the Site. WITHOUT LIMITING ANY OTHER PROVISION OF THESE TERMS OF USE, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE SITE (INCLUDING BLOCKING CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY REASON OR FOR NO REASON, INCLUDING WITHOUT LIMITATION FOR BREACH OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE TERMS OF USE OR OF ANY APPLICABLE LAW OR REGULATION. WE MAY TERMINATE YOUR USE OR PARTICIPATION IN THE SITE OR DELETE ANY CONTENT OR INFORMATION THAT YOU POSTED AT ANY TIME, WITHOUT WARNING, IN OUR SOLE DISCRETION.
-
-
-## MODIFICATIONS AND INTERRUPTIONS
-
-We reserve the right to change, modify, or remove the contents of the Site at any time or for any reason at our sole discretion without notice. However, we have no obligation to update any information on our Site. We also reserve the right to modify or discontinue all or part of the Site without notice at any time. We will not be liable to you or any third party for any modification, suspension, or discontinuance of the Site.
-
-We cannot guarantee the Site will be available at all times. We may experience hardware, software, or other problems or need to perform maintenance related to the Site, resulting in interruptions, delays, or errors. We reserve the right to change, revise, update, suspend, discontinue, or otherwise modify the Site at any time or for any reason without notice to you. You agree that we have no liability whatsoever for any loss, damage, or inconvenience caused by your inability to access or use the Site during any downtime or discontinuance of the Site. Nothing in these Terms of Use will be construed to obligate us to maintain and support the Site or to supply any corrections, updates, or releases in connection therewith.
+Deze gebruiksvoorwaarden blijven van kracht terwijl je de site gebruikt. WITHOUW LIMITEREN EN ANDERE PROVISIE VAN DEZE VOORWAARDEN VAN GEBRUIKT, WIJ DE RECHTS TO, IN ONZE BESCHIKKELIJKE MET NU OF LIABILITIET, WEERGEGEVEN OM DE SITE TE GEBRUIKEN VAN DE SITE (INCLUDENKKING CERTAIN IP ADRESSES), OM EEN PERSON VOOR EN REASON OF NIET REASON, INCLUDING WITHOUT LIMITATIE VOOR EEN REPRESENTATIE VAN EEN RESENTATIE WARRANTIE, OF COVENANT BEVAT in DEZE TERMEN VAN GEBRUIK OF ALS APPLICABLE LAW OF REGULATIE. WIJ MET TERMINATIE UW GEBRUIK OF PARTICATIE IN HET SITE OF VERWIJDEREN OF INFORMATIE DAT U DAT U AAN EEN TIJD VERWIJDEREN WITHOUT WAARSCHUWING, IN ONZE KORTING.
 
 
-## GOVERNING LAW
+## MODIFICATIES EN INTERRUPTIES
 
-These Terms of Use and your use of the Site are governed by and construed in accordance with the laws of the State of Texas applicable to agreements made and to be entirely performed within the State of Texas, without regard to its conflict of law principles.
+Wij behouden ons het recht voor op verandering, wijziging, of verwijder de inhoud van de site op elk gewenst moment of om welke reden dan ook zonder voorafgaande kennisgeving. Wij zijn echter niet verplicht om de informatie van onze site te actualiseren. Wij behouden ons ook het recht voor om de site op enig moment geheel of gedeeltelijk te wijzigen of te beëindigen. Wij zullen niet aansprakelijk zijn voor wijzigingen en opschortingen van de Site of een derde partij.
 
-
-## DISPUTE RESOLUTION
-
-### Informal Negotiations
-
-To expedite resolution and control the cost of any dispute, controversy, or claim related to these Terms of Use (each a "Dispute" and collectively, the “Disputes”) brought by either you or us (individually, a “Party” and collectively, the “Parties”), the Parties agree to first attempt to negotiate any Dispute (except those Disputes expressly provided below) informally for at least thirty (30) days before initiating arbitration. Such informal negotiations commence upon written notice from one Party to the other Party.
+We kunnen niet garanderen dat de site te allen tijde beschikbaar zal zijn. We ondervinden mogelijk problemen met hardware, software of andere of moeten onderhoud uitvoeren in verband met de Site, wat resulteert in onderbrekingen, vertragingen of fouten. We behouden ons het recht voor om te wijzigen, herzien, updaten, opschorten, stoppen of anders wijzig je de site op elk gewenst moment of om welke reden dan ook zonder kennisgeving. U bent het ermee eens dat we helemaal niet aansprakelijk zijn voor schade, voor schade, voor schade of ongemak veroorzaakt door uw onvermogen om de Site te bezoeken of te gebruiken gedurende enige tijd of onderbreking van de site. Niets in deze gebruiksvoorwaarden wordt uitgelegd om ons te verplichten de Site te onderhouden en te ondersteunen of om eventuele correcties aan te brengen, updates, of releases in verband daarmee.
 
 
-### Binding Arbitration
+## LAW GOUWEN
 
-If the Parties are unable to resolve a Dispute through informal negotiations, the Dispute (except those Disputes expressly excluded below) will be finally and exclusively resolved by binding arbitration. YOU UNDERSTAND THAT WITHOUT THIS PROVISION, YOU WOULD HAVE THE RIGHT TO SUE IN COURT AND HAVE A JURY TRIAL. The arbitration shall be commenced and conducted under the Commercial Arbitration Rules of the American Arbitration Association ("AAA") and, where appropriate, the AAA’s Supplementary Procedures for Consumer Related Disputes ("AAA Consumer Rules"), both of which are available at the AAA website www.adr.org. Your arbitration fees and your share of arbitrator compensation shall be governed by the AAA Consumer Rules and, where appropriate, limited by the AAA Consumer Rules. If such costs are determined to by the arbitrator to be excessive, we will pay all arbitration fees and expenses. The arbitration may be conducted in person, through the submission of documents, by phone, or online. The arbitrator will make a decision in writing, but need not provide a statement of reasons unless requested by either Party. The arbitrator must follow applicable law, and any award may be challenged if the arbitrator fails to do so. Except where otherwise required by the applicable AAA rules or applicable law, the arbitration will take place in Travis County, Texas. Except as otherwise provided herein, the Parties may litigate in court to compel arbitration, stay proceedings pending arbitration, or to confirm, modify, vacate, or enter judgment on the award entered by the arbitrator.
-
-If for any reason, a Dispute proceeds in court rather than arbitration, the Dispute shall be commenced or prosecuted in the state and federal courts located in Travis County, Texas, and the Parties hereby consent to, and waive all defenses of lack of personal jurisdiction, and forum non conveniens with respect to venue and jurisdiction in such state and federal courts. Application of the United Nations Convention on Contracts for the International Sale of Goods and the the Uniform Computer Information Transaction Act (UCITA) are excluded from these Terms of Use.
-
-In no event shall any Dispute brought by either Party related in any way to the Site be commenced more than one (1) years after the cause of action arose. If this provision is found to be illegal or unenforceable, then neither Party will elect to arbitrate any Dispute falling within that portion of this provision found to be illegal or unenforceable and such Dispute shall be decided by a court of competent jurisdiction within the courts listed for jurisdiction above, and the Parties agree to submit to the personal jurisdiction of that court.
+Deze gebruiksvoorwaarden en uw gebruik van de Site worden geregeld door en uitgerust in overeenstemming met de wetten van de staat Texas die van toepassing zijn op gemaakte afspraken en volledig uit te voeren binnen de staat Texas, zonder rekening te houden met de rechtsconflicterende beginselen.
 
 
-### Restrictions
+## RESOLUTIE UITVOEREN
 
-The Parties agree that any arbitration shall be limited to the Dispute between the Parties individually. To the full extent permitted by law, (a) no arbitration shall be joined with any other proceeding; (b) there is no right or authority for any Dispute to be arbitrated on a class-action basis or to utilize class action procedures; and (c) there is no right or authority for any Dispute to be brought in a purported representative capacity on behalf of the general public or any other persons.
+### Informele onderhandelingen
 
-
-### Exceptions to Informal Negotiations and Arbitration
-
-The Parties agree that the following Disputes are not subject to the above provisions concerning informal negotiations and binding arbitration: (a) any Disputes seeking to enforce or protect, or concerning the validity of, any of the intellectual property rights of a Party; (b) any Dispute related to, or arising from, allegations of theft, piracy, invasion of privacy, or unauthorized use; and (c) any claim for injunctive relief. If this provision is found to be illegal or unenforceable, then neither Party will elect to arbitrate any Dispute falling within that portion of this provision found to be illegal or unenforceable and such Dispute shall be decided by a court of competent jurisdiction within the courts listed for jurisdiction above, and the Parties agree to submit to the personal jurisdiction of that court.
+Het versnellen van de oplossing en het beheersen van de kosten van elk geschil, controversieel, of claim gerelateerd aan deze gebruiksvoorwaarden (elke "geschil" en collectief, de "geschillen") aangeboden door jou of ons (individueel, een “partij” en collectief, de “partijen”), de partijen stemmen in met een eerste poging om voor ten minste dertig (30) dagen op informele wijze te onderhandelen over geschillen (behalve de geschillen die hieronder zijn voorzien). Zulke informele onderhandelingen beginnen op schrift van de ene partij aan de andere partij.
 
 
-## CORRECTIONS
+### Binden Arbitratie
 
-There may be information on the Site that contains typographical errors, inaccuracies, or omissions. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information on the Site at any time, without prior notice.
+Als de partijen niet in staat zijn een geschil op te lossen via informele onderhandelingen, het geschil (met uitzondering van de geschillen die hieronder uitdrukkelijk zijn uitgesloten) zal uiteindelijk en uitsluitend worden opgelost door bindende arbitrage. JE VERWIJDERD DAT DEZE PROVISIE WORDEN, JE HET RECHTS NAAR DE AFGELOPEN VAN DE AFGELOPEN VAN DE WORDT TE VAN EEN WORDEN HANDELEN HANDEL. De arbitrage wordt gestart en uitgevoerd op grond van de handelsregels van de Amerikaanse Arbitration Association ("AAAA") en, waar nodig, de aanvullende procedures van AA voor consumentengerelateerde geschillen ("AAA Consumer Rules"), beide beschikbaar zijn op de AAA website www. droog.org. Uw arbitragevergoedingen en uw deel van de arbitragevergoeding worden geregeld door de consumentenregels van de AAA, en waar nodig, beperkt door de consumentenregels voor AAA. Als deze kosten door de arbiter als buitensporig worden aangemerkt, betalen wij alle arbitragekosten en vergoedingen. De arbitrage kan persoonlijk plaatsvinden door het indienen van documenten, per telefoon of online. De scheidsrechter zal een besluit schriftelijk nemen, maar hoeft geen verklaring van redenen te geven, tenzij deze door een van de partijen wordt gevraagd. De arbiter moet de toepasselijke wet volgen, en elke toekenning kan worden aangevochten als de arbiter dat niet doet. Behalve waar anders vereist is door de van toepassing zijnde AAA-regels of toepasselijk recht, zal de arbitrage plaatsvinden in het graafschap Travis Texas. Behalve dat de partijen hier anders voorzien kunnen zij voor de rechter geschillen beslechten, om arbitrage af te dwingen, blijft een procedure in afwachting van arbitrage, of om te bevestigen, te wijzigen, te vaceren of een oordeel uit te spreken over de onderscheiding die door de arbiter is ingevoerd.
 
+Als er om welke reden dan ook sprake is van een geschil in de rechtbank in plaats van arbitrage, de aanklacht moet worden gestart of vervolgd in de deelstaat en federale rechtbanken in het graafschap Travis Texas, en de partijen hierbij instemmen met en zien af van alle verdediging van een gebrek aan persoonlijke jurisdictie, en forum is niet handig als het gaat om locatie en jurisdictie in dergelijke staats- en federale rechtbanken. Toepassing van het Verdrag van de Verenigde Naties inzake de contracten voor de internationale verkoop van goederen en de Uniform Computer Information Transaction Act (icbe’s) zijn uitgesloten van deze gebruiksvoorwaarden.
 
-## DISCLAIMER
-
-THE SITE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SITE AND OUR SERVICES WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SITE AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE SITE’S CONTENT OR THE CONTENT OF ANY WEBSITES LINKED TO THE SITE AND WE WILL ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS, (2) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE SITE, (3) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (4) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SITE, (5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH THE SITE BY ANY THIRD PARTY, AND/OR (6) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE SITE. WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE SITE, ANY HYPERLINKED WEBSITE, OR ANY WEBSITE OR MOBILE APPLICATION FEATURED IN ANY BANNER OR OTHER ADVERTISING, AND WE WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND ANY THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE.
-
-
-## LIMITATIONS OF LIABILITY
-
-IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFIT, LOST REVENUE, LOSS OF DATA, OR OTHER DAMAGES ARISING FROM YOUR USE OF THE SITE, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, OUR LIABILITY TO YOU FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF THE FORM OF THE ACTION, WILL AT ALL TIMES BE LIMITED TO THE AMOUNT PAID, IF ANY, BY YOU TO US DURING THE SIX (6) MONTH PERIOD PRIOR TO ANY CAUSE OF ACTION ARISING. CERTAIN STATE LAWS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MAY HAVE ADDITIONAL RIGHTS.
+In geen enkel geval mag er meer dan één jaar nadat de actiegroepen de oorzaak van de actie aan het licht hebben gebracht, door beide partijen aangevoerd worden. Als deze bepaling illegaal of onafdwingbaar blijkt te zijn dan zal geen van de partijen kiezen om geschillen te bevechten die binnen dat deel van deze bepaling vallen dat illegaal of niet afdwingbaar is bevonden. Een dergelijke aanklacht wordt bepaald door een bevoegde rechtbank binnen de voor hierboven genoemde jurisdictie, die bevoegd jurisdictie heeft. en de partijen stemmen ermee in om zich te onderwerpen aan de persoonlijke jurisdictie van die rechtbank.
 
 
-## INDEMNIFICATION
+### Beperkingen
 
-You agree to defend, indemnify, and hold us harmless, including our subsidiaries, affiliates, and all of our respective officers, agents, partners, and employees, from and against any loss, damage, liability, claim, or demand, including reasonable attorneys’ fees and expenses, made by any third party due to or arising out of: (1) use of the Site; (2) breach of these Terms of Use; (3) any breach of your representations and warranties set forth in these Terms of Use; (4) your violation of the rights of a third party, including but not limited to intellectual property rights; or (5) any overt harmful act toward any other user of the Site with whom you connected via the Site. Notwithstanding the foregoing, we reserve the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us, and you agree to cooperate, at your expense, with our defense of such claims. We will use reasonable efforts to notify you of any such claim, action, or proceeding which is subject to this indemnification upon becoming aware of it.
-
-
-## USER DATA
-
-We will maintain certain data that you transmit to the Site for the purpose of managing the performance of the Site, as well as data relating to your use of the Site. Although we perform regular routine backups of data, you are solely responsible for all data that you transmit or that relates to any activity you have undertaken using the Site. You agree that we shall have no liability to you for any loss or corruption of any such data, and you hereby waive any right of action against us arising from any such loss or corruption of such data.
+De partijen zijn het erover eens dat arbitrage beperkt moet blijven tot geschillen tussen de partijen afzonderlijk. In de volledige door de wet toegestane mate (a) zal er geen arbitrage plaatsvinden met een andere procedure; (b) er is geen recht of bevoegdheid voor een arbitrage op basis van een groepsactie of op basis van een groepsactie; en (c) er is geen enkel recht of gezag om geschillen in te dienen als vertegenwoordiger van het grote publiek of welke andere persoon dan ook.
 
 
-## ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
+### Uitzonderingen op informele onderhandelingen en arbitrage
 
-Visiting the Site, sending us emails, and completing online forms constitute electronic communications. You consent to receive electronic communications, and you agree that all agreements, notices, disclosures, and other communications we provide to you electronically, via email and on the Site, satisfy any legal requirement that such communication be in writing. YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE SITE. You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances, or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or to payments or the granting of credits by any means other than electronic means.
+De partijen zijn het erover eens dat de volgende geschillen niet vallen onder de bovengenoemde bepalingen betreffende informele onderhandelingen en bindende arbitrage: (a) alle geschillen die de handhaving of bescherming nastreven, of over de geldigheid van elk van de intellectuele-eigendomsrechten van een partij; (b) elk geschilpunt in verband met of naar aanleiding van beschuldigingen van diefstal, piraterij, inbreuk op de privacy of onbevoegd gebruik; en (c) elke vordering om noodhulp. Als deze bepaling illegaal of onafdwingbaar blijkt te zijn dan zal geen van de partijen kiezen om geschillen te bevechten die binnen dat deel van deze bepaling vallen dat illegaal of niet afdwingbaar is bevonden. Een dergelijke aanklacht wordt bepaald door een bevoegde rechtbank binnen de voor hierboven genoemde jurisdictie, die bevoegd jurisdictie heeft. en de partijen stemmen ermee in om zich te onderwerpen aan de persoonlijke jurisdictie van die rechtbank.
 
 
-## CALIFORNIA USERS AND RESIDENTS
+## CORRRECTIES
 
-If any complaint with us is not satisfactorily resolved, you can contact the Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs in writing at 1625 North Market Blvd., Suite N 112, Sacramento, California 95834 or by telephone at (800) 952-5210 or (916) 445-1254.
+Er kan informatie op de site zijn die typografische fouten, onnauwkeurigheden of lacunes bevat. Wij behouden ons het recht voor fouten te corrigeren, onjuistheid, of omissies en om de informatie op elk moment te wijzigen of bij te werken, zonder voorafgaande kennisgeving.
+
+
+## UITSCHAKELEN
+
+DE SITE IS PROVIDEERD OP EEN AS-IS AS-BESCHIKBAAR BASIS JE ZIEN DAT DAT JE GEBRUIK VAN DE SITE EN ONZE SERVICES ZAL WORDEN OP JE SOLE RIJK. AAN DE VOLGENDE EXTENT PERMITTEERD DOOR LAW, WE DISCLAIM ALLE WARRANTIES, EXPRESS OF IMPLIED, IN CONNECTION MET DE SITE EN UW GEBRUIK DEREOF, INCLUDING, WITHOUT LIMITATIE, DE BEVEILIGDE GARANTIES VAN MERKANTABILITIE, FITNESS VOOR EEN PARTICULAR PURSE, EN NON-INFRINGEMENT. WIJ ZIJN GARANTIES OF RESENTATIES VAN DE ACCURACHTIGE OF VOOR COMPLETENTENTEN DE SITENT OF HET CONTENT VAN ALS WEBSITES IN DE SITE EN WORDEN WIJ DE ASSUME GEWELDIG OF VERANTWOORDELIJKE OF VERWIJDEREN VOOR VERWIJDERS (1) FOUTS, MISTAKES, OF INACCURACIES VAN CONTENT EN MATERIALS, (2) PERSONAALE INJURIËREN OF PROPERTIEF DAMAGE, VAN EEN NATURE WHATSOEVER, RESULTEREN VAN UW TOEGANG OM TE GEBRUIK VAN DE SITE, (3) ALLE TOEGANG OF UNAUTHORIZE TOEGANG OF UW SECURE SERVERS EN D/OF ALLE PERSONAL INFORMATIE EN OF FINANCIALE INFORMATIE VERLOREN (4) EN INTERRUPTION OF CESSATIE VAN DE SITE, (5) EN BUISSIE, VIRUSES, OF OF EEN BUGS, VIRUSES, TROJAN HORSEN, OF DE LIKE WACHT WACHTIGHEID MET ZIJN OF HET SITE VOOR DE SITE DOOR EEN DEZE PARTY, AND/OR (6) EN OF OF UITZICHTEN IN EN BESTAND MATERIALEN OF VOOR VOOR ALS VERLIEZEN VAN DE RESULT VAN HET GEBRUIK VAN DE GEBRUIKT VAN ANDERE VAN DE GEBRUIKER VAN DE AFSTAND TRANSMITTED, OF ANDERWISSEN BESCHIKBAAR VIA DE SITE. WIJ NIET WARRANT, ENDORSE, GUARANTEE, OF VERANTWOORDELIJKE VERANTWOORDELIJKE VOOR SERVICE ADVERTENTIES OF UITGESCHERD DOOR EEN DEZE PARTY DE SITE, EN Y HYPERLINKEERDE WEBSITE, OF EEN WEBSITE OF MOBILE APPLICATIE VOOR EEN BANNEER OF ANDERE ADVERTIS, EEN WIJ ZULLEN NIET ZIJN EEN VERANDERS OF VOOR ALS VERANTWOORDELIJKE EEN TRANSACTIE BETWEEN JE DEZE PROVIDERS VAN PRODUCTEN OF SERVICES. ALS MET DE VOORKOMEN VAN EEN PRODUCT OF SERVICE DIT MEDIUM OF IN EEN ENVIRONMENT, JE HEBT JOUW BEST JUDGMENT EN BERICHT VERKLARING WORDT UITVOEGEN.
+
+
+## BEPITATIES VAN LIABILITEIT
+
+IN GEEN EVENEMENT ZULLEN WIJ OF ONZE EEN OF ONTDEKEN, EMPLOYES, OF LEGENTS BESCHIKELIJKE OF ZIJN VAN DE PARTY VOOR ALS EEN DIRECT, INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OF PUNITIEVE DAMAGES, INCLUDING VERLIEST PROFIT, VERWIJDEREN, VERLIES VAN DATA, OF ANDERE GEBRUIKEN VAN UW GEBRUIK VAN DE SITE, VAN DE SITE, EVEN ALS ZIJN WE HET AFGELOPEN VAN DE POSSIBILITEIT VAN SUCH SCHAGES. NOTWITHITHANDELEN NAAR DE VERBINDING BEVAT HELD, ONZE LIABILITEIT OM TE VOOR U ALS WANNEER WHATSOEVER EN REGELS VAN DE FORM VAN DE ACTIEA, WILL OP ALLE TIMES WERKT OP DE AMOUNT PAID, ALS ANY, KIES JE HET SIX (6) MAAND PERIODE PRIJS NAAR EEN ACTION VAN VAN DE SIX WORDEN GEBRUIKT. CERTAIN STATIE LAWS NIET LIMITATIES TOESTAAN OP BEVEILIGDE GARANTIES OF DE EXCLUSIE OF LIMITATIE VAN CERTAIN DAMAGES. ALS DEZE LAWS TOEPASSEN OM TE UW SOME OF ALLE BOVEN VAN DE BOVENSCHAP OF LIMITATIES KAN NIET OM TE HIJ OM TE HOUDEREN EN JE MAY HET ADDITIONELE RECHTS AANVRAGEN.
+
+
+## INDEMNIFICATIE
+
+U gaat akkoord met het verdedigen en vrijpleiten van straffeloosheid en houdt ons ongevaarlijk, met inbegrip van onze dochters, onze affiliates en al onze respectievelijke functionarissen, agenten, partners en werknemers. van en tegen elk verlies, schade, aansprakelijkheid, claim of vraag, inclusief redelijke vergoedingen en uitgaven, gemaakt door een derde partij vanwege of uit: (1) gebruik van de Site; (2) schending van deze gebruiksvoorwaarden; (3) elke schending van uw vertegenwoordigingen en garanties in deze Gebruiksvoorwaarden; (4) uw schending van de rechten van een derde partij, met inbegrip van maar niet beperkt tot intellectuele-eigendomsrechten; of (5) alle openlijke schadelijke handelingen tegen elke andere gebruiker van de Site waarmee je verbinding hebt gemaakt via de Site. Ondanks het voorgaande behouden wij ons het recht voor ten koste van u. om de exclusieve verdediging en controle over welke zaak dan ook waarvoor u ons moet vrijpleiten, op te nemen en u stemt ermee in om op uw kosten samen te werken met onze verdediging van dergelijke claims. We zullen ons redelijke inspanningen getroosten om u op de hoogte te stellen van dergelijke claims, handelingen of de procedure die het voorwerp is van deze onachtzaamheid wanneer men zich daarvan bewust wordt.
+
+
+## GEBRUIKER DATA
+
+We zullen bepaalde gegevens die u naar de Site stuurt voor het beheer van de prestaties van de Site, bewaren evenals gegevens met betrekking tot uw gebruik van de site. Hoewel we routinematige back-ups van gegevens uitvoeren, U bent zelf verantwoordelijk voor alle gegevens die u verstuurt of die betrekking hebben op activiteiten die u met behulp van de Site hebt ondernomen. U gaat ermee akkoord dat wij u niet aansprakelijk zullen stellen voor het verlies of de corruptie van dergelijke gegevens. en hierbij ziet u af van elk recht om tegen ons in beroep te gaan als het gaat om het verlies of de corruptie van dergelijke gegevens.
+
+
+## ELECTRONISCHE COMMUNICATIEs, TRANSACTIES, EN SIGNATURES
+
+Het bezoeken van de Site, het versturen van e-mails en het invullen van online formulieren zijn elektronische communicatie. U stemt in met het ontvangen van elektronische communicatie, en u gaat ermee akkoord dat alle overeenkomsten, berichten, openbaringen, en andere communicatie die we u elektronisch aanbieden, via e-mail en over de Site, voldoen aan de wettelijke vereisten dat dergelijke communicatie schriftelijk moet zijn. JE HEREBY AGREEN NAAR HET GEBRUIK VAN ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, EN ANDERS ANDERS HERSTELLEN, EN OM ELECTRONISCHE AFLEVERING VAN NOTICES, POLICIES, EN HERSTELLEN VAN TRANSACTIES INITIATED OF VOOR VOLLEDIG OF VIA DE SITE. U ziet af van rechten of vereisten onder statuten en verordeningen, regels, verordeningen en verordeningen, of andere wetten in elke jurisdictie die een originele ondertekening of aflevering of bewaring van niet-elektronische dossiers vereisen, of betalingen of het toekennen van kredieten op een andere manier dan elektronische middelen.
+
+
+## CALIFORNIA GEBRUIKERS EN RESIDENTEN
+
+Als een klacht bij ons niet naar tevredenheid is opgelost, u kunt schriftelijk contact opnemen met de afdeling consumentendiensten van het ministerie van Consumentenzaken van 1625 North Market Blvd. Suite N 112, Sacramento, California 95834 of telefonisch op (800) 952-5210 of (916) 445-1254.
 
 
 ## MISCELLANEOUS
 
-These Terms of Use and any policies or operating rules posted by us on the Site or in respect to the Site constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce any right or provision of these Terms of Use shall not operate as a waiver of such right or provision. These Terms of Use operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time. We shall not be responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond our reasonable control. If any provision or part of a provision of these Terms of Use is determined to be unlawful, void, or unenforceable, that provision or part of the provision is deemed severable from these Terms of Use and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Terms of Use or use of the Site. You agree that these Terms of Use will not be construed against us by virtue of having drafted them. You hereby waive any and all defenses you may have based on the electronic form of these Terms of Use and the lack of signing by the parties hereto to execute these Terms of Use.
+Deze gebruiksvoorwaarden en alle beleidsmaatregelen of exploitatieregels die door ons op de site of met betrekking tot de site zijn geplaatst, vormen de volledige overeenkomst en het begrip tussen u en ons. Het niet uitoefenen of afdwingen van enig recht of bepaling van deze gebruiksvoorwaarden werkt niet als een afstand van dergelijke rechten of bepaling. Deze gebruiksvoorwaarden werken maximaal in de door de wet toegestane mate. We kunnen op elk moment onze rechten en plichten aan anderen toekennen. Wij zullen niet aansprakelijk zijn voor enig verlies, schade, vertraging of gebrek aan actie als gevolg van welke zaak dan ook die buiten onze controle valt. Als enige bepaling of onderdeel van een bepaling van deze gebruiksvoorwaarden is vastgesteld dat ze onwettig zijn, ongeldig of niet afdwingbaar zijn dat de bepaling of een deel van de bepaling wordt geacht te kunnen voldoen aan deze gebruiksvoorwaarden en geen invloed heeft op de geldigheid en uitvoerbaarheid van de resterende bepalingen. Er is geen gezamenlijke onderneming en partnerschap. werkgelegenheid of uitzendrelatie die tussen jou en ons is gecreëerd als gevolg van deze gebruiksvoorwaarden of gebruik van de site. Je gaat ermee akkoord dat deze Gebruiksvoorwaarden niet tegen ons worden uitgelegd door ze te hebben opgesteld. Je ziet af van alle verdedigingen die je kunt hebben op basis van de elektronische vorm van deze gebruiksvoorwaarden en het gebrek aan ondertekening door de partijen hierheen om deze gebruiksvoorwaarden uit te voeren.
 
-## CONTACT US
+## CONTACT ONS
 
-In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at:
+Om een klacht over de Site op te lossen of meer informatie over het gebruik van de Site te ontvangen, kunt u contact met ons opnemen via:
 
 NumFOCUS, Inc. </br>P.O. Box 90596 </br>Austin, TX, USA 78709 </br>info@numfocus.org </br>+1 (512) 222-5449
 
