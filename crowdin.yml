@@ -4,5 +4,7 @@ base_path: ./
 preserve_hierarchy: true
 files:
   - source: /content/**/*.md
-    translation: >-
-      /content/%two_letters_code%/**/%original_file_name%
+    ignore:
+      - /hi/*.*
+      - /nl/*.*
+    translation: /content/%two_letters_code%/**/%original_file_name%
