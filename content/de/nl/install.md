@@ -1,5 +1,5 @@
 ---
-title: NumPy installeren
+title: NumPy-Installation
 sidebar: fout
 ---
 
@@ -15,7 +15,7 @@ Als u `conda`gebruikt, kunt u deze installeren met:
 conda installatie numpy
 ```
 
-of met:
+von Me:
 
 ```bash
 conda installatie -c conda-forge numpy
