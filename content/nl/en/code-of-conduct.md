@@ -1,81 +1,81 @@
 ---
-title: NumPy Code of Conduct
-sidebar: false
+title: NumPy Code van Gedrag
+sidebar: Onjuist
 ---
 
-### Introduction
+### Introductie
 
-This Code of Conduct applies to all spaces managed by the NumPy project, including all public and private mailing lists, issue trackers, wikis, blogs, Twitter, and any other communication channel used by our community. The NumPy project does not organise in-person events, however events related to our community should have a code of conduct similar in spirit to this one.
+Deze Gedragscode is van toepassing op alle ruimtes die worden beheerd door het NumPy-project, met inbegrip van alle openbare en privé mailinglijsten, trackers, wikis, blogs, Twitter en elk ander communicatiekanaal dat door onze gemeenschap wordt gebruikt. Het NumPy project organiseert geen in-person evenementen Hoe het ook zij, er moet een gedragscode komen die vergelijkbaar is met de geest van deze gemeenschap.
 
-This Code of Conduct should be honored by everyone who participates in the NumPy community formally or informally, or claims any affiliation with the project, in any project-related activities and especially when representing the project, in any role.
+Deze Gedragscode moet worden gerespecteerd door iedereen die formeel of informeel deelneemt aan de NumPy gemeenschap of claimt elke affiliatie met het project, in alle projectgerelateerde activiteiten en vooral bij het vertegenwoordigen van het project, in elke rol.
 
-This code is not exhaustive or complete. It serves to distill our common understanding of a collaborative, shared environment and goals. Please try to follow this code in spirit as much as in letter, to create a friendly and productive environment that enriches the surrounding community.
+Deze code is niet volledig of volledig. Het dient om ons gemeenschappelijke inzicht in een gezamenlijke, gedeelde omgeving en doelen te ontkrachten. Probeer deze code net zo goed te volgen als in de letter, om een vriendelijke en productieve omgeving te creëren die de omliggende gemeenschap verrijkt.
 
-### Specific Guidelines
+### Specifieke richtlijnen
 
-We strive to:
+Wij streven na:
 
-1. Be open. We invite anyone to participate in our community. We prefer to use public methods of communication for project-related messages, unless discussing something sensitive. This applies to messages for help or project-related support, too; not only is a public support request much more likely to result in an answer to a question, it also ensures that any inadvertent mistakes in answering are more easily detected and corrected.
-2. Be empathetic, welcoming, friendly, and patient. We work together to resolve conflict, and assume good intentions. We may all experience some frustration from time to time, but we do not allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.
-3. Be collaborative. Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of the project, we are willing to explain to others how it works, so that they can build on the work to make it even better. Any decision we make will affect users and colleagues, and we take those consequences seriously when making decisions.
-4. Be inquisitive. Nobody knows everything! Asking questions early avoids many problems later, so we encourage questions, although we may direct them to the appropriate forum. We will try hard to be responsive and helpful.
-5. Be careful in the words that we choose. We are careful and respectful in our communication and we take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. We will not accept harassment or other exclusionary behaviour, such as:
-    * Violent threats or language directed against another person.
-    * Sexist, racist, or otherwise discriminatory jokes and language.
-    * Posting sexually explicit or violent material.
-    * Posting (or threatening to post) other people’s personally identifying information (“doxing”).
-    * Sharing private content, such as emails sent privately or non-publicly, or unlogged forums such as IRC channel history, without the sender’s consent.
-    * Personal insults, especially those using racist or sexist terms.
-    * Unwelcome sexual attention.
-    * Excessive profanity. Please avoid swearwords; people differ greatly in their sensitivity to swearing.
-    * Repeated harassment of others. In general, if someone asks you to stop, then stop.
-    * Advocating for, or encouraging, any of the above behaviour.
+1. Wees open. We nodigen iedereen uit om deel te nemen aan onze gemeenschap. We gebruiken liever publieke communicatiemiddelen voor projectgerelateerde berichten, tenzij we iets gevoeligs bespreken. Dit geldt ook voor berichten voor hulp of projectgerelateerde ondersteuning; Niet alleen is een verzoek om steun van het publiek veel waarschijnlijker dat leidt tot een antwoord op een vraag. het zorgt er ook voor dat eventuele onbedoelde fouten bij het beantwoorden gemakkelijker worden gedetecteerd en gecorrigeerd.
+2. Wees persoonlijk, welkom, vriendelijk en geduldig. We werken samen aan het oplossen van conflicten en nemen goede bedoelingen. We kunnen allemaal soms wat frustratie ervaren, maar we laten niet toe dat frustratie verandert in een persoonlijke aanval. Een gemeenschap waarin mensen zich ongemakkelijk of bedreigd voelen, is niet productief.
+3. Wees samenwerkend. Ons werk zal door anderen worden gebruikt en op zijn beurt zullen we afhankelijk zijn van het werk van anderen. Als we iets voor het project doen, zijn we bereid om aan anderen uit te leggen hoe het werkt. zodat ze kunnen voortbouwen op het werk om het nog beter te maken. Elk besluit dat we nemen zal gevolgen hebben voor gebruikers en collega's, en we nemen deze consequenties serieus wanneer we beslissingen nemen.
+4. Wees inquisitief. Niemand weet alles! Vragen stellen in vroege tijd voorkomt veel problemen later, dus we moedigen vragen aan, hoewel we ze naar het juiste forum kunnen leiden. We zullen ons best doen om responsief en behulpzaam te zijn.
+5. Wees voorzichtig met de woorden die we kiezen. We zijn voorzichtig en respectvol in onze communicatie en nemen verantwoordelijkheid op ons voor onze eigen toespraak. Wees aardig voor anderen. Schiet u niet op of zet geen andere deelnemers neer. We zullen geen pesterijen of ander afwijkend gedrag accepteren, zoals:
+    * Gewelddadige bedreigingen of taal gericht tegen een andere persoon.
+    * Siste, racistische, of anderszins discriminerende grappen en taal.
+    * Plaatsen seksueel expliciet of gewelddadig materiaal.
+    * Plaatsen (of dreigen met plaatsen) van andere mensen die persoonlijk informatie identificeren ("doxing”).
+    * Privéinhoud delen, zoals e-mails die privé- of niet-openbare forums zoals geschiedenis van het IRC-kanaal, verstuurd zijn, zonder toestemming van de afzender.
+    * Persoonlijke beledigingen, vooral die met racistische of seksistische termen.
+    * Onwelkome seksuele aandacht.
+    * Overmatige hypocrisie. Voorkom alsjeblieft snoepwoorden, mensen verschillen sterk in hun gevoeligheid voor trucs.
+    * Herhaalde pesterijen tegen anderen. In het algemeen als iemand je vraagt om te stoppen, stop dan.
+    * Het bepleiten of aanmoedigen van bovenstaande gedrag.
 
-### Diversity Statement
+### Diversiteit verklaring
 
-The NumPy project welcomes and encourages participation by everyone. We are committed to being a community that everyone enjoys being part of. Although we may not always be able to accommodate each individual’s preferences, we try our best to treat everyone kindly.
+Het NumPy-project verwelkomt en stimuleert deelname door iedereen. Wij zijn toegewijd aan het vormen van een gemeenschap waaraan iedereen graag deelneemt. Hoewel we misschien niet altijd de voorkeur van ieder individu kunnen geven, doen we ons best om iedereen vriendelijk te behandelen.
 
-No matter how you identify yourself or how others perceive you: we welcome you. Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct.
+Hoe je jezelf ook identificeert of hoe anderen je zien: we verwelkomen je. Hoewel er geen uitgebreide lijst kan zijn, eren we expliciet diversiteit in: leeftijd, cultuur, etniciteit, genotype, genderidentiteit of expressie, taal, nationale oorsprong, neurotype, fenotype, fenotype, politieke overtuigingen, beroep, ras, religie, seksuele geaardheid, sociaaleconomische status subcultuur en technische capaciteit, voor zover deze niet in strijd zijn met deze gedragscode.
 
-Though we welcome people fluent in all languages, NumPy development is conducted in English.
+Hoewel we mensen welkom heten in alle talen, wordt NumPy-ontwikkeling in het Engels uitgevoerd.
 
-Standards for behaviour in the NumPy community are detailed in the Code of Conduct above. Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
+Gedragsnormen in de NumPy community zijn gedetailleerd in de bovenstaande Gedragscode. Deelnemers aan onze gemeenschap moeten deze normen in al hun interacties handhaven en ook anderen helpen om dit te doen (zie volgende afdeling).
 
-### Reporting Guidelines
+### Rapportage Richtlijnen
 
-We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We also recognize that sometimes people may have a bad day, or be unaware of some of the guidelines in this Code of Conduct. Please keep this in mind when deciding on how to respond to a breach of this Code.
+We weten dat het pijnlijk gebruikelijk is dat internetcommunicatie begint bij of uitgroeit tot een duidelijk en flagrant misbruik. We erkennen ook dat mensen soms een slechte dag hebben of niet op de hoogte zijn van sommige richtsnoeren in deze gedragscode. Houdt u dit in het achterhoofd wanneer u beslist hoe u moet reageren op een schending van deze code.
 
-For clearly intentional breaches, report those to the Code of Conduct Committee (see below). For possibly unintentional breaches, you may reply to the person and point out this code of conduct (either in public or in private, whatever is most appropriate). If you would prefer not to do that, please feel free to report to the Code of Conduct Committee directly, or ask the Committee for advice, in confidence.
+Meld die aan het Comité Code van Gedragscode (zie hieronder). Voor mogelijk onbedoelde schendingen, u mag de persoon antwoorden en deze gedragscode erop wijzen (openbaar of privé, wat ook het meest geschikt is). Als u dat liever niet zou doen, dan kunt u rechtstreeks verslag uitbrengen aan het Comité Gedragscode of de commissie om advies vragen, in vertrouwen.
 
-You can report issues to the NumPy Code of Conduct Committee at numpy-conduct@googlegroups.com.
+Je kunt problemen melden bij de NumPy Code of Gedragscommissie op numpy-conduct@googlegroups.com.
 
-Currently, the Committee consists of:
+Op dit moment bestaat het comité uit:
 
 * Stefan van der Walt
 * Nathaniel J. Smith
 * Ralf Gommers
 
-If your report involves any members of the Committee, or if they feel they have a conflict of interest in handling it, then they will recuse themselves from considering your report. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
+Als er leden van de commissie bij uw verslag betrokken zijn of als zij het gevoel hebben dat zij belangenverstrengeling hebben bij het behandelen ervan. Dan zullen zij zich onthouden van de behandeling van uw verslag. Een andere mogelijkheid, als u zich om een of andere reden ongemakkelijk voelt om een verslag voor te leggen aan de commissie. dan kun je ook contact opnemen met de senior NumFOCUS medewerkers via [conduct@numfocus. rg](https://numfocus.org/code-of-conduct#persons-responsible).
 
-### Incident reporting resolution & Code of Conduct enforcement
+### Resolutie Incident Rapportage & Gedragscode handhaving
 
-_This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](https://numpy.org/devdocs/dev/conduct/report_handling_manual.html).
+_Deze sectie vat de belangrijkste punten samen meer details zijn te vinden in_ [NumPy Code of Conduct - Hoe een rapport op te volgen](https://numpy.org/devdocs/dev/conduct/report_handling_manual.html).
 
-We will investigate and respond to all complaints. The NumPy Code of Conduct Committee and the NumPy Steering Committee (if involved) will protect the identity of the reporter, and treat the content of complaints as confidential (unless the reporter agrees otherwise).
+We zullen alle klachten onderzoeken en erop reageren. De NumPy Code of Conduct Committee en de NumPy Steering Committee (indien betrokken) zullen de identiteit van de verslaggever beschermen. en de inhoud van klachten als vertrouwelijk behandelen (tenzij de verslaggever het ermee eens is).
 
-In case of severe and obvious breaches, e.g. personal threat or violent, sexist or racist language, we will immediately disconnect the originator from NumPy communication channels; please see the manual for details.
+In geval van ernstige en voor de hand liggende overtredingen, bv. persoonlijke bedreiging of gewelddadigheid, seksistische of racistische taal, we zullen de initiator onmiddellijk loskoppelen van de NumPy communicatie kanalen; zie de handleiding voor details.
 
-In cases not involving clear severe and obvious breaches of this Code of Conduct the process for acting on any received Code of Conduct violation report will be:
+In gevallen waarin er geen sprake is van duidelijke ernstige en voor de hand liggende inbreuken op deze gedragscode, zal het proces om op te treden volgens een rapport van schending van de gedragscode zijn:
 
-1. acknowledge report is received,
-2. reasonable discussion/feedback,
-3. mediation (if feedback didn’t help, and only if both reporter and reportee agree to this),
-4. enforcement via transparent decision (see [Resolutions](https://numpy.org/devdocs/dev/conduct/report_handling_manual.html#coc-resolutions)) by the Code of Conduct Committee.
+1. bevestigingsrapport is ontvangen,
+2. redelijke discussie/feedback,
+3. bemiddeling (als de feedback niet heeft geholpen, en alleen als zowel de verslaggever als de verslaggever het hiermee eens zijn),
+4. handhaving via transparant besluit (zie [Resoluties](https://numpy.org/devdocs/dev/conduct/report_handling_manual.html#coc-resolutions)) door het Comité Gedragscode.
 
-The Committee will respond to any report as soon as possible, and at most within 72 hours.
+De commissie zal zo snel mogelijk, en hooguit binnen 72 uur, op elk verslag reageren.
 
 ### Endnotes
 
-We are thankful to the groups behind the following documents, from which we drew content and inspiration:
+We zijn de fracties die achter de volgende documenten staan waaruit we inhoud en inspiratie hebben getroffen:
 
-- [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/reference/dev/conduct/code_of_conduct.html)
+- [De SciPy Code van Gedrag](https://docs.scipy.org/doc/scipy/reference/dev/conduct/code_of_conduct.html)
