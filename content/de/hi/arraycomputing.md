@@ -1,6 +1,6 @@
 ---
-title: Array-Berechnung
-sidebar: falsch
+title: Array Computing
+sidebar: false
 ---
 
 TODO
