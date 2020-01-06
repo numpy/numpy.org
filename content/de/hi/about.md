@@ -1,41 +1,41 @@
 ---
-title: Über uns
-sidebar: falsch
+title: About Us
+sidebar: false
 ---
 
-_Einige Informationen über das NumPy-Projekt und die Community_
+_Some information about the NumPy project and community_
 
-NumPy ist ein Open Source Projekt mit dem Ziel, numerisches Rechnen mit Python zu ermöglichen. Es wurde 2005 auf der Grundlage früherer Arbeiten der Numerical und Numarray Bibliotheken geschaffen. NumPy wird immer 100% Open-Source-Software sein frei für alle zu nutzen und freizugeben unter den liberalen Bedingungen der von [modifizierten BSD-Lizenz](https://github.com/numpy/numpy/blob/master/LICENSE.txt).
+NumPy is an open source project aiming to enable numerical computing with Python. It was created in 2005, building on early work of the Numerical and Numarray libraries. NumPy will always be 100% open-source software, free for all to use and released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt).
 
-NumPy wird im offenen GitHub durch den Konsens der NumPy und der breiteren wissenschaftlichen Python-Gemeinschaft entwickelt. Weitere Informationen zu unserem Governance-Ansatz finden Sie in unserem [Governance-Dokument](https://www.numpy.org/devdocs/dev/governance/index.html).
+NumPy is developed in the open on GitHub, through the consensus of the NumPy and wider scientific Python community. For more information on our governance approach, please see our [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
 
 
-# Lenkungsrat
+# Steering Council
 
-Die Aufgabe des NumPy Lenkungsrates besteht darin, durch die Zusammenarbeit mit und im Dienste der breiteren NumPy-Gemeinschaft zu gewährleisten. das langfristige Wohl des Projekts, sowohl technisch als auch als Gemeinschaft. Der NumPy Lenkungsrat besteht derzeit aus den folgenden Mitgliedern (in alphabetischer Reihen):
+The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community. The NumPy Steering Council currently consists of the following members (in alphabetical order):
 
-TODO / zu entscheiden: fügen Sie ähnliche Widget-Galerie als Jupyter und die neue Pandas-Website (unter Entwicklung)? Oder eine einfache Liste von Namen?
+TODO / to decide: add similar widget gallery as Jupyter and the new Pandas website (under development)? Or a simple list of names?
 
 ## Teams
 
-Die NumPy wächst, wir haben separate Teams für: _TODO_
+The NumPy is growing, we have separate teams for: _TODO_
 
-## Sponsoren
+## Sponsors
 
-NumPy erhält direkte Mittel aus den folgenden Quellen: _TODO: Fügen Sie Logos für Sloan- und Moor-Stiftungen hinzu und Tidelift_
+NumPy receives direct funding from the following sources: _TODO: add logos for Sloan and Moore foundations, and Tidelift_
 
-## Institutionelle Partner
+## Institutional Partners
 
-Institutionelle Partner sind Organisationen, die das Projekt unterstützen, indem sie Personen beschäftigen, die als Teil ihrer Arbeit zu NumPy beitragen. Aktuelle Institutionelle Partner beinhalten: _TODO: füge Logos für Berkeley und Quansight hinzu_
+Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include: _TODO: add logos for Berkeley and Quansight_
 
-## Spenden
+## Donate
 
-Wenn Sie NumPy für Ihre Arbeit, Forschung oder Ihr Unternehmen als nützlich erachten Bitte erwägen Sie eine Spende an das Projekt entsprechend Ihren Ressourcen. Beliebiger Betrag hilft! Alle Spenden werden ausschließlich zur Finanzierung der Entwicklung von NumPy’s Open Source Software, Dokumentation und Community verwendet.
+If you have found NumPy to be useful in your work, research or company, please consider making a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation and community.
 
-NumPy ist ein gesponsertes Projekt von NumFOCUS, einer 501(c)(3) gemeinnützigen Organisation in den USA. NumFOCUS bietet NumPy steuerliche, rechtliche und administrative Unterstützung, um die Gesundheit und Nachhaltigkeit des Projekts zu gewährleisten. Besuchen Sie numfocus.org für weitere Informationen.
+NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit numfocus.org for more information.
 
-Spenden an NumPy werden von [NumFOCUS](https://numfocus.org) verwaltet. Für Spender in den Vereinigten Staaten ist Ihr Geschenk steuerlich abzugsfähig. Wie bei jeder Spende sollten Sie sich mit Ihrem Steuerberater über Ihre spezifische Steuersituation beraten.
+Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax adviser about your particular tax situation.
 
-Der Steuerungsrat von NumPy wird Entscheidungen treffen, wie die erhaltenen Mittel am besten genutzt werden können. Technische und Infrastrukturprioritäten sind auf der [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap) dokumentiert.
+NumPy's Steering Council will make the decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
 
-TODO: Fügen Sie hier das NumFOCUS Logo und den Spenden-Button ein.
+TODO: embed NumFOCUS logo and donation button here.
