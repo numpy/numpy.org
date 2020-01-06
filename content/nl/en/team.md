@@ -1,13 +1,13 @@
 ---
 title: Team
-sidebar: false
+sidebar: Onjuist
 ---
 
-*TO DO: Add a Google Maps snapshot illustrating where members of the NumPy team are from.*
+*OM DO: Voeg een Google Maps snapshot toe waar leden van het NumPy team vandaan komen.*
 
 
-We are an international team on a mission to support scientific and research communities worldwide by building quality, open-source software. [**Join us**](/contribute)!
+Wij zijn een internationaal team op het gebied van wetenschappelijke en onderzoeksgemeenschappen in de hele wereld met de bouw van hoogwaardige en open source-software. [**Sluit je aan bij ons**](/contribute)!
 
-## NumPy Contributors Gallery
+## NumPy Bijdragers Galerij
 
-*TO DO: Generate a gallery of all NumPy contributors - github.com/numpy/numpy.org/issues/45*.
+*OM DO: Generate a gallery of all NumPy contributors - github.com/numpy/numpy.org/issues/45*.
