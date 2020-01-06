@@ -9,9 +9,14 @@ hugo
 # deploy in surge
 npm install -g surge
 
-echo "REF value is ${REF}"
+if [ "$PR_NUMBER" != "false" ]
+then
+    echo "PR_NUMBER value is ${PR_NUMBER}"
+else
+  echo "PR_NUMBER value is ${PR_NUMBER}."
+  exit 3
+fi
 
-PR_NUMBER="$(echo $REF | cut -d'/' -f3)"
 PROJECT_BUILD="./public"
 DOMAIN="http://numpy-${PR_NUMBER}.surge.sh"
 echo "PR_NUMBER: $PR_NUMBER"
@@ -21,4 +26,4 @@ ls "./public"
 
 surge --project $PROJECT_BUILD --domain $DOMAIN;
 
-echo ::set-output name=deployed-domain::"http://numpy-${PR_NUMBER}.surge.sh"
+echo ::set-output name=deployed-domain::"numpy-${PR_NUMBER}.surge.sh"
