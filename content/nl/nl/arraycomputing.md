@@ -1,5 +1,5 @@
 ---
-title: Array Computing
+title: Array Computers
 sidebar: fout
 ---
 
