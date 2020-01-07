@@ -1,6 +1,6 @@
 ---
-title: Array Computers
-sidebar: Onjuist
+title: Array Computing
+sidebar: false
 ---
 
 TODO
