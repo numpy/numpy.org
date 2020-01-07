@@ -1,14 +1,14 @@
 ---
-title: Leren
-sidebar: Onjuist
+title: Learning
+sidebar: false
 ---
 
-## Hulpmiddelen om over NumPy te leren
+## Resources to learn about NumPy
 
-### Handleidingen
+### Tutorials
 
-### Boeken
+### Books
 
-### Online cursussen
+### Online courses
 
-### Middelen onderwijzen
+### Teaching Resources
