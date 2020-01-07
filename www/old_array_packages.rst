@@ -35,4 +35,4 @@ you can download them from SourceForge using the links below:
 Historic Documentation
 ======================
 
-:download:`Numeric Manual <_static/numeric-manual.pdf>`
+`Numeric Manual <https://doi.org/10.5281/zenodo.3599566>`__
