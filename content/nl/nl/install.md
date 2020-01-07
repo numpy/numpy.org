@@ -15,7 +15,7 @@ Als u `conda`gebruikt, kunt u deze installeren met:
 conda installatie numpy
 ```
 
-van met:
+of met:
 
 ```bash
 conda installatie -c conda-forge numpy
