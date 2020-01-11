@@ -1,37 +1,63 @@
-$(function () {
-  if ($) {
-    let interval = setInterval(() => {
-      const exists = $('.thebelab-cell').length;
-      if (exists) {
+function waitForKernel() {
+  let kernelInterval = setInterval(() => {
+    try {
+      if (thebeKernel) {
+        // Hide the enable button & copy, show the shell
+        $('.numpy-shell-canvas').css('display', 'none');
+        $('#numpy-shell').addClass('numpy-shell-border');
+
+        // We need a more specific attribute to add the caret.
         $('.thebelab-cell').attr('id', 'demo-code');
-        $('#demo-code').css('position', 'relative');
+        // Adds the caret
         $('#demo-code').prepend('<div class="demo-caret">&gt;</div>');
-        $('.thebelab-input').attr('id', 'demo-input');
+
+        // Style the 'Run' button
         $('.thebelab-button').each(function(idx) {
           if (idx == 0) {
             $(this).attr('id', 'demo-button-run');
+            $(this).attr('class', 'shell-button');
             $(this).html('Run <span class="shift-enter">(Shift + Enter)</span>');
           } else {
             $(this).remove();
           }
         });
+        // Style the output elements
         $('.jp-OutputArea').parent().closest('div').attr('id', 'demo-output-parent');
         $('.jp-OutputArea').attr('id', 'demo-output');
-        clearInterval(interval);
-      }
-    }, 250);
-  }
 
-  // Email Form
-  $('.sign-up-input').focus(function(e) {
-    if ($(window).width() > 850) {
-      $('.submission-instructions').css('display', 'block');
+        // Show the lesson
+        $('.shell-lesson').css('display', 'flex');
+        clearInterval(kernelInterval);
+      }
+    } catch (err) {
+      if (err != 'ReferenceError: thebeKernel is not defined') {
+        console.log('Error loading the shell: ', err)
+      }
     }
-  }).blur(function(e) {
-    if ($(window).width() > 850) {
-      $('.submission-instructions').css('display', 'none');
-    }
-  });
+  }, 500);
+}
+
+function loadShell() {
+  $('#shell-loader').css('display', 'inline-block');
+  // Animation
+  $('.numpy-shell-container').animate({height: '70%'});
+
+  // Add 'wait' text
+  $('.shell-title').text('While we wait...');
+  $('.shell-intro-message').text('Don\'t forget to check out the docs here: www...');
+  thebelab.bootstrap();
+  waitForKernel();
+}
+
+// Email Form
+$('.sign-up-input').focus(function(e) {
+  if ($(window).width() > 850) {
+    $('.submission-instructions').css('display', 'block');
+  }
+}).blur(function(e) {
+  if ($(window).width() > 850) {
+    $('.submission-instructions').css('display', 'none');
+  }
 });
 
 
