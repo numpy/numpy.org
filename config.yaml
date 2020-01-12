@@ -41,7 +41,7 @@ params:
       text: Works on your choice of computing platform, whether your code fits in memory and runs on a CPU or requires a GPU. NumPy supports a wide range of computing platforms and works well with all major distributed arrays and sparse arrays libraries. 
     - title: Open source
       icon: web-programming
-      text: Distributed under a liberal BSD license, NumPy is developed and maintained publicly on GitHub by a vibrant, responsive and diverse community.
+      text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained publicly on GitHub by a vibrant, responsive and diverse community.
   tabs:
     title: Ecosystem
     subtitle:
