@@ -103,8 +103,20 @@ h3 {
 }
 
 p {
-    padding: 5px;
+    padding-top: 5px;
 }
+
+.content-container ul {
+    list-style-type: circle;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.content-container  ol {
+    padding: 10px;
+    margin-left: 15px;
+}
+
 
 @media only screen and (max-width: 1087px) {
     .hero-content {
