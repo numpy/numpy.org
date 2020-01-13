@@ -194,13 +194,13 @@ p {
     padding-top: 5px;
 }
 
-ul {
+.content-container ul {
     list-style-type: circle;
     padding: 10px;
     margin-left: 15px;
 }
 
-ol {
+.content-container  ol {
     padding: 10px;
     margin-left: 15px;
 }
