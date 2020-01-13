@@ -22,19 +22,30 @@
                 <button class="cta-button">Download</button>
             </div>
         </div>
-        <div class="hero-demo">
-            <div class="demo-tutorial">
-                <div class="demo-title">Try NumPy!</div>
-                <div class="demo-copy">Give NumPy a shot. We should write some better copy here.</div>
+        <div class="hero-right">
+            <div class="numpy-shell-canvas">
+                <div class="numpy-shell-container">
+                    <!-- Shell Intro -->
+                    <div class="shell-intro shell-absolute-position">
+                        <div class="shell-title">Try NumPy</div>
+                        <div class="shell-intro-message">Enable the NumPy Shell.</div>
+                        <button class="shell-enable-button shell-button" onclick="loadShell();">
+                            Enable
+                            <div class="loader-container">
+                                <div id="shell-loader" class="loader"></div>
+                            </div>
+                        </button>
+                        <div class="shell-copy">Give NumPy a shot. We should write some better copy here.</div>
+                    </div>
+                </div>
             </div>
-                <pre data-executable="true" data-language="python">
-%matplotlib inline
-import numpy as np
-import matplotlib.pyplot as plt
-x = np.linspace(0,10)
-plt.plot(x, np.sin(x))
-plt.plot(x, np.cos(x))
-                </pre>
+            <!-- Interactive Shelll -->
+            <div class="shell-absolute-position" id="numpy-shell">
+                <div class="shell-lesson">
+                    Here we should include a lesson about numpy!
+                </div>
+                <pre id="demo-code" data-executable="true" data-language="python" style="white-space: pre-line;">import numpy as np</pre>
+            </div>
         </div>
     </div>
 </div>
