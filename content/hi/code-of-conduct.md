@@ -59,7 +59,7 @@ If your report involves any members of the Committee, or if they feel they have 
 
 ### Incident reporting resolution & Code of Conduct enforcement
 
-_This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](https://numpy.org/devdocs/dev/conduct/report_handling_manual.html).
+_This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](/report-handling-manual).
 
 We will investigate and respond to all complaints. The NumPy Code of Conduct Committee and the NumPy Steering Committee (if involved) will protect the identity of the reporter, and treat the content of complaints as confidential (unless the reporter agrees otherwise).
 
@@ -70,7 +70,7 @@ In cases not involving clear severe and obvious breaches of this Code of Conduct
 1. acknowledge report is received,
 2. reasonable discussion/feedback,
 3. mediation (if feedback didn’t help, and only if both reporter and reportee agree to this),
-4. enforcement via transparent decision (see [Resolutions](https://numpy.org/devdocs/dev/conduct/report_handling_manual.html#coc-resolutions)) by the Code of Conduct Committee.
+4. enforcement via transparent decision (see [Resolutions](/report-handling-manual#resolutions)) by the Code of Conduct Committee.
 
 The Committee will respond to any report as soon as possible, and at most within 72 hours.
 
