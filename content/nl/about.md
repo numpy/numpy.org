@@ -10,7 +10,7 @@ NumPy is een open source project dat erop gericht is numerieke computers met Pyt
 NumPy is ontwikkeld in de open op GitHub, door de consensus van de NumPy en bredere wetenschappelijke Python-gemeenschap. Voor meer informatie over onze governance-aanpak, zie ons [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
 
 
-## Steering Council
+## Steering Raad
 
 Het is de taak van de NumPy Steering Council om ervoor te zorgen dat ze samenwerken met en ten dienste staan van de bredere gemeenschap van nummers het welzijn van het project op de lange termijn, zowel in technisch als in maatschappelijk opzicht. De NumPy Steering Council bestaat momenteel uit de volgende leden (in alfabetische volgorde):
 
@@ -26,59 +26,59 @@ Het is de taak van de NumPy Steering Council om ervoor te zorgen dat ze samenwer
 - Stefan van der Walt
 - Eric Wieser
 
-Emeritus members are:
+Onze leden zijn:
 
-- Travis Oliphant (project founder, served: 2005-2012)
-- Alex Griffing (served: 2015-2017)
+- Travis Oliphant (project oprichter, diend: 2005-2012)
+- Alex Griffing (serveerd: 2015-2017)
 - Marten van Kerkwijk (served: 2017-2019)
 
 
-## Teams
+## teams
 
-The NumPy project is growing, we have separate teams for:
+Het NumPy project groeit, we hebben aparte teams voor:
 
 - Code
-- Documentation
-- Website
-- Triage
-- Funding & grants
-- Admin
+- Documentatie
+- website
+- Driemaal
+- Financiering & subsidies
+- Beheerder
 
 Zie de [Team](/team) pagina voor individuele teamleden.
 
 
 ## Sponsors
 
-NumPy receives direct funding from the following sources:
+NumPy ontvangt directe financiering van de volgende bronnen:
 
-{{< figure src="/images/logos/moore.svg" link=https://www.moore.org alt="Logo of the Gordon and Betty Moore Foundation" >}}
+{{< figuur src="/images/logos/moore.svg" link=https://www.moore.org alt="Logo van de Gordon en Betty Moore Foundation" >}}
 
-{{< figure src="/images/logos/sloan.svg" link=https://www.sloan.org alt="Logo of the Alfred P. Sloan Foundation" >}}
+{{< figuur src="/images/logos/sloan.svg" link=https://www.sloan.org alt="Logo van de Alfred P. Sloan Foundation" >}}
 
-{{< figure src="/images/logos/CZI.svg" link=https://www.chanzuckerberg.org alt="Logo of the Chan Zuckerberg Initiative" >}}
+{{< figuur src="/images/logos/CZI.svg" link=https://www.chanzuckerberg.org alt="Logo van het Chan Zuckerberg Initiative" >}}
 
-{{< figure src="/images/logos/tidelift.png" link=https://www.tidelift.com width="200" alt="Logo of Tidelift" >}}
-
-
-## Institutional Partners
-
-Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include:
-
-{{< figure src="/images/logos/berkeley-color.svg" link=https://www.berkeley.edu width="200" alt="Logo of UC Berkeley" >}}
-
-{{< figure src="/images/logos/quansight.svg" link=https://www.quansight.com width="200" alt="Logo of Quansight" >}}
+{{< figuur src="/images/logos/tidelift.png" link=https://www.tidelift.com width="200" alt="Logo van Tidelift" >}}
 
 
-## Donate
+## Institutionele partners
 
-If you have found NumPy to be useful in your work, research or company, please consider making a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation and community.
+Institutionele Partners zijn organisaties die het project ondersteunen door mensen in dienst te nemen die bijdragen aan NumPy als onderdeel van hun werk. De huidige institutionele partners omvatten:
 
-NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit numfocus.org for more information.
+{{< figuur src="/images/logos/berkeley-color.svg" link=https://www.berkeley.edu width="200" alt="Logo of UC Berkeley" >}}
 
-Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax adviser about your particular tax situation.
+{{< figuur src="/images/logos/quansight.svg" link=https://www.quansight.com width="200" alt="Logo van Quansight" >}}
 
-NumPy's Steering Council will make the decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
 
-{{< figure src="/images/logos/NumFOCUS_sponsored_project_logo.svg" link=https://www.numfocus.org width="200" alt="Logo of NumFOCUS" >}}
+## Doneren
+
+Als je NumPy hebt gevonden die nuttig is in je werk, onderzoek of bedrijf, Overweeg om een donatie aan het project te doen overeenkomstig je middelen. Elk bedrag helpt! Alle donaties zullen strikt worden gebruikt om de ontwikkeling van NumPy’s open source software, documentatie en gemeenschap te financieren.
+
+NumPy is een gesponsord Project van NumFOCUS, een 501(c)(3) non-profit charity in de Verenigde Staten. NumFOCUS biedt fiscale en juridische en administratieve ondersteuning om de gezondheid en de duurzaamheid van het project te waarborgen. Bezoek numfocus.org voor meer informatie.
+
+Donaties aan NumPy worden beheerd door [NumFOCUS](https://numfocus.org). Voor donoren in de Verenigde Staten is uw geschenk fiscaal aftrekbaar in de mate waarin het recht voorziet. Net als bij elke donatie dient u met uw belastingadviseur te overleggen over uw specifieke belastingsituatie.
+
+NumPy's Stuurraad zal beslissen hoe de ontvangen middelen het beste kunnen worden gebruikt. De technische en infrastructuurprioriteiten zijn gedocumenteerd op de [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
+
+{{< figuur src="/images/logos/NumFOCUS_sponsored_project_logo.svg" link=https://www.numfocus.org width="200" alt="Logo of NumFOCUS" >}}
 
 https://numfocus.org/donate-to-numpy
