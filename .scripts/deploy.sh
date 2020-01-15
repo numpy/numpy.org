@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -euo pipefail
+
 # Should be moved to build.sh
 # NOTE: Running build.sh and then deploy.sh is not finding the public
 # folder which is generated after the build command (hugo).
