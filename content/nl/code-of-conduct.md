@@ -59,7 +59,7 @@ Als er leden van de commissie bij uw verslag betrokken zijn of als zij het gevoe
 
 ### Resolutie Incident Rapportage & Gedragscode handhaving
 
-_This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](/report-handling-manual).
+_Deze sectie vat de belangrijkste punten samen meer details zijn te vinden in_ [NumPy Code of Conduct - Hoe een rapport op te volgen](/report-handling-manual).
 
 We zullen alle klachten onderzoeken en erop reageren. De NumPy Code of Conduct Committee en de NumPy Steering Committee (indien betrokken) zullen de identiteit van de verslaggever beschermen. en de inhoud van klachten als vertrouwelijk behandelen (tenzij de verslaggever het ermee eens is).
 
@@ -70,7 +70,7 @@ In gevallen waarin er geen sprake is van duidelijke ernstige en voor de hand lig
 1. bevestigingsrapport is ontvangen,
 2. redelijke discussie/feedback,
 3. bemiddeling (als de feedback niet heeft geholpen, en alleen als zowel de verslaggever als de verslaggever het hiermee eens zijn),
-4. enforcement via transparent decision (see [Resolutions](/report-handling-manual#resolutions)) by the Code of Conduct Committee.
+4. handhaving via transparant besluit (zie [Resoluties](/report-handling-manual#resolutions)) door het Comité Gedragscode.
 
 De commissie zal zo snel mogelijk, en hooguit binnen 72 uur, op elk verslag reageren.
 
