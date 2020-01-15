@@ -1,95 +1,95 @@
 ---
-title: NumPy Code of Conduct - How to follow up on a report
-sidebar: false
+title: NumPy Code of Gedragscode - Hoe een rapport op te volgen
+sidebar: Onjuist
 ---
 
-This is the manual followed by NumPy’s Code of Conduct Committee. It’s used when we respond to an issue to make sure we’re consistent and fair.
+Dat is de handleiding die gevolgd wordt door de gedragscode van NumPy. Het wordt gebruikt wanneer we op een probleem reageren om ervoor te zorgen dat we consistent en eerlijk zijn.
 
-Enforcing the [Code of Conduct](/code-of-conduct) impacts our community today and for the future. It’s an action that we do not take lightly. When reviewing enforcement measures, the Code of Conduct Committee will keep the following values and guidelines in mind:
+Handhaving van de [Gedragscode](/code-of-conduct) heeft invloed op onze gemeenschap vandaag en voor de toekomst. Het is een actie die we niet lichtvaardig ondernemen. Bij het evalueren van de handhavingsmaatregelen, zal het Comité Gedragscode de volgende waarden en richtsnoeren in het achterhoofd houden:
 
-* Act in a personal manner rather than impersonal. The Committee can engage the parties to understand the situation, while respecting the privacy and any necessary confidentiality of reporters. However, sometimes it is necessary to communicate with one or more individuals directly: the Committee’s goal is to improve the health of our community rather than only produce a formal decision.
-* Emphasize empathy for individuals rather than judging behavior, avoiding binary labels of “good” and “bad/evil”. Overt, clear-cut aggression and harassment exists and we will be address that firmly. But many scenarios that can prove challenging to resolve are those where normal disagreements devolve into unhelpful or harmful behavior from multiple parties. Understanding the full context and finding a path that re-engages all is hard, but ultimately the most productive for our community.
-* We understand that email is a difficult medium and can be isolating. Receiving criticism over email, without personal contact, can be particularly painful. This makes it especially important to keep an atmosphere of open-minded respect of the views of others. It also means that we must be transparent in our actions, and that we will do everything in our power to make sure that all our members are treated fairly and with sympathy.
-* Discrimination can be subtle and it can be unconscious. It can show itself as unfairness and hostility in otherwise ordinary interactions. We know that this does occur, and we will take care to look out for it. We would very much like to hear from you if you feel you have been treated unfairly, and we will use these procedures to make sure that your complaint is heard and addressed.
-* Help increase engagement in good discussion practice: try to identify where discussion may have broken down and provide actionable information, pointers and resources that can lead to positive change on these points.
-* Be mindful of the needs of new members: provide them with explicit support and consideration, with the aim of increasing participation from underrepresented groups in particular.
-* Individuals come from different cultural backgrounds and native languages. Try to identify any honest misunderstandings caused by a non-native speaker and help them understand the issue and what they can change to avoid causing offence. Complex discussion in a foreign language can be very intimidating, and we want to grow our diversity also across nationalities and cultures.
-
-
-## Mediation
-
-Voluntary, informal mediation is a tool at our disposal. In contexts such as when two or more parties have all escalated to the point of inappropriate behavior (something sadly common in human conflict), it may be useful to facilitate a mediation process. This is only an example: the Committee can consider mediation in any case, mindful that the process is meant to be strictly voluntary and no party can be pressured to participate. If the Committee suggests mediation, it should:
-
-* Find a candidate who can serve as a mediator.
-* Obtain the agreement of the reporter(s). The reporter(s) have complete freedom to decline the mediation idea, or to propose an alternate mediator.
-* Obtain the agreement of the reported person(s).
-* Settle on the mediator: while parties can propose a different mediator than the suggested candidate, only if common agreement is reached on all terms can the process move forward.
-* Establish a timeline for mediation to complete, ideally within two weeks.
-
-The mediator will engage with all the parties and seek a resolution that is satisfactory to all. Upon completion, the mediator will provide a report (vetted by all parties to the process) to the Committee, with recommendations on further steps. The Committee will then evaluate these results (whether satisfactory resolution was achieved or not) and decide on any additional action deemed necessary.
+* Handel op persoonlijke titel in plaats van onpersoonlijk. De commissie kan de partijen ertoe aanzetten de situatie te begrijpen, met inachtneming van de privacy en de nodige vertrouwelijkheid van verslaggevers. Maar Soms is het noodzakelijk om rechtstreeks met één of meer individuen te communiceren: het doel van het comité is het verbeteren van de gezondheid van onze gemeenschap in plaats van alleen maar een formeel besluit te nemen.
+* Empathie benadrukken voor individuen in plaats van gedrag te beoordelen, waarbij binaire etiketten van “goed” en “slecht/kwaad” worden vermeden. Er bestaan overdreven, duidelijk duidelijke agressie en intimidatie en die zullen we krachtig aanpakken. Maar veel scenario's die lastig kunnen blijken om op te lossen zijn die waar normale meningsverschillen overhevelen naar onnuttig of schadelijk gedrag van meerdere partijen. Het is moeilijk om de volledige context te begrijpen en een pad te vinden dat alles opnieuw betrekt, maar uiteindelijk het meest productieve voor onze gemeenschap.
+* We begrijpen dat e-mail een moeilijk medium is en geïsoleerd kan raken. Het ontvangen van kritiek op e-mail, zonder persoonlijk contact, kan bijzonder pijnlijk zijn. Daarom is het bijzonder belangrijk om een sfeer van open respect voor de standpunten van anderen te handhaven. Het betekent ook dat we transparant moeten zijn in onze acties. en dat we alles zullen doen wat in ons vermogen ligt om ervoor te zorgen dat al onze leden eerlijk en met sympathie worden behandeld.
+* Discriminatie kan subtiel zijn en bewusteloos zijn. Zij kan zich als onrechtvaardigheid en vijandigheid in anderszins als een gewone wisselwerking laten zien. We weten dat dit gebeurt en we zullen erop toezien dat dit gebeurt. We zouden heel graag van u willen horen als u het gevoel hebt dat u onrechtvaardig behandeld bent. we zullen deze procedures gebruiken om ervoor te zorgen dat uw klacht wordt gehoord en behandeld.
+* Help betrokkenheid bij goede discussiepraktijken te verbeteren: probeer te achterhalen waar discussie mislukt kan zijn en actiabele informatie te verstrekken. Verwijzingen en middelen die kunnen leiden tot positieve veranderingen op deze punten.
+* Wees bewust van de behoeften van nieuwe leden: geef hun expliciete steun en overweging, met name de deelname van ondervertegenwoordigde groepen moet worden vergroot.
+* Individuen komen uit verschillende culturele achtergronden en moedertalen. Probeer eerlijke misverstanden te identificeren die veroorzaakt worden door een niet-moedertaalspreker en hen te helpen het probleem te begrijpen en te begrijpen wat ze kunnen veranderen om overtredingen te voorkomen. Complexe discussies in een vreemde taal kunnen zeer intimiderend zijn en we willen onze diversiteit ook over nationaliteiten en culturen heen vergroten.
 
 
-## How the Committee will respond to reports
+## Bemiddeling
 
-When the Committee (or a Committee member) receives a report, they will first determine whether the report is about a clear and severe breach (as defined below). If so, immediate action needs to be taken in addition to the regular report handling process.
+Vrijwillige, informele bemiddeling is een instrument dat ons ter beschikking staat. In contexten zoals wanneer twee of meer partijen allemaal zijn geëscaleerd tot het punt van ongepast gedrag (iets wat helaas gebruikelijk is in menselijk conflict), het kan nuttig zijn om een bemiddelingsproces te vergemakkelijken. Dit is slechts een voorbeeld: het Comité kan bemiddeling in elk geval overwegen. We moeten ons realiseren dat het proces strikt vrijwillig moet zijn en dat geen enkele partij onder druk mag worden gezet. Als de commissie bemiddeling voorstelt, dan moet dat:
 
+* Vind een kandidaat die als bemiddelaar kan dienen.
+* Accepteer de instemming van de verslaggevers. De verslaggevers hebben de vrijheid om het idee van bemiddeling te verwerpen of een alternatieve bemiddelaar voor te stellen.
+* Krijg de overeenkomst van de gerapporteerde persoon(en).
+* Wat de bemiddelaar betreft, terwijl partijen een andere bemiddelaar kunnen voorstellen dan de voorgedragen kandidaat. Alleen als er een gemeenschappelijk akkoord over alle voorwaarden wordt bereikt, kan het proces vorderen.
+* Stel een tijdlijn op voor bemiddeling die het liefst binnen twee weken wordt voltooid.
 
-## Clear and severe breach actions
-
-We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We will deal quickly with clear and severe breaches like personal threats, violent, sexist or racist language.
-
-When a member of the Code of Conduct Committee becomes aware of a clear and severe breach, they will do the following:
-
-* Immediately disconnect the originator from all NumPy communication channels.
-* Reply to the reporter that their report has been received and that the originator has been disconnected.
-* In every case, the moderator should make a reasonable effort to contact the originator, and tell them specifically how their language or actions qualify as a “clear and severe breach”. The moderator should also say that, if the originator believes this is unfair or they want to be reconnected to NumPy, they have the right to ask for a review, as below, by the Code of Conduct Committee. The moderator should copy this explanation to the Code of Conduct Committee.
-* The Code of Conduct Committee will formally review and sign off on all cases where this mechanism has been applied to make sure it is not being used to control ordinary heated disagreement.
+De bemiddelaar zal zich met alle partijen bezighouden en een oplossing zoeken die voor iedereen bevredigend is. Na afloop zal de bemiddelaar het comité verslag doen toekomen (door alle partijen in het proces) met aanbevelingen over verdere stappen. De commissie zal dan de resultaten beoordelen (of er al dan niet een bevredigende resolutie is bereikt) en besluiten nemen over eventuele aanvullende maatregelen die noodzakelijk worden geacht.
 
 
-## Report handling
+## Hoe de commissie op verslagen zal reageren
 
-When a report is sent to the Committee they will immediately reply to the reporter to confirm receipt. This reply must be sent within 72 hours, and the group should strive to respond much quicker than that.
-
-If a report doesn’t contain enough information, the Committee will obtain all relevant data before acting. The Committee is empowered to act on the Steering Council’s behalf in contacting any individuals involved to get a more complete account of events.
-
-The Committee will then review the incident and determine, to the best of their ability:
-
-* What happened.
-* Whether this event constitutes a Code of Conduct violation.
-* Who are the responsible party(ies).
-* Whether this is an ongoing situation, and there is a threat to anyone’s physical safety.
-
-This information will be collected in writing, and whenever possible the group’s deliberations will be recorded and retained (i.e. chat transcripts, email discussions, recorded conference calls, summaries of voice conversations, etc).
-
-It is important to retain an archive of all activities of this Committee to ensure consistency in behavior and provide institutional memory for the project. To assist in this, the default channel of discussion for this Committee will be a private mailing list accessible to current and future members of the Committee as well as members of the Steering Council upon justified request. If the Committee finds the need to use off-list communications (e.g. phone calls for early/rapid response), it should in all cases summarize these back to the list so there’s a good record of the process.
-
-The Code of Conduct Committee should aim to have a resolution agreed upon within two weeks. In the event that a resolution can’t be determined in that time, the Committee will respond to the reporter(s) with an update and projected timeline for resolution.
+Wanneer de commissie (of een lid van de commissie) een verslag ontvangt, ze zullen eerst bepalen of het rapport gaat over een duidelijke en ernstige overtreding (zoals hieronder gedefinieerd). Als dat zo is, moet er onmiddellijk actie worden ondernomen, naast het reguliere proces van de afhandeling van rapporten.
 
 
-## Resolutions
+## Duidelijke en ernstige breukacties
 
-The Committee must agree on a resolution by consensus. If the group cannot reach consensus and deadlocks for over a week, the group will turn the matter over to the Steering Council for resolution.
+We weten dat het pijnlijk gebruikelijk is dat internetcommunicatie begint bij of uitgroeit tot een duidelijk en flagrant misbruik. We zullen snel omgaan met duidelijke en ernstige schendingen zoals persoonlijke bedreigingen, gewelddadigheden, seksistische of racistische taal.
 
-Possible responses may include:
+Wanneer een lid van het Comité Code of Gedragscode op de hoogte wordt gebracht van een duidelijke en ernstige schending, zullen zij het volgende doen:
 
-* Taking no further action:
-  -   if we determine no violations have occurred;
-  -   if the matter has been resolved publicly while the Committee was considering responses.
-* Coordinating voluntary mediation: if all involved parties agree, the Committee may facilitate a mediation process as detailed above.
-* Remind publicly, and point out that some behavior/actions/language have been judged inappropriate and why in the current context, or can but hurtful to some people, requesting the community to self-adjust.
-* A private reprimand from the Committee to the individual(s) involved. In this case, the group chair will deliver that reprimand to the individual(s) over email, cc’ing the group.
-* A public reprimand. In this case, the Committee chair will deliver that reprimand in the same venue that the violation occurred, within the limits of practicality. E.g., the original mailing list for an email violation, but for a chat room discussion where the person/context may be gone, they can be reached by other means. The group may choose to publish this message elsewhere for documentation purposes.
-* A request for a public or private apology, assuming the reporter agrees to this idea: they may at their discretion refuse further contact with the violator. The chair will deliver this request. The Committee may, if it chooses, attach “strings” to this request: for example, the group may ask a violator to apologize in order to retain one’s membership on a mailing list.
-* A “mutually agreed upon hiatus” where the Committee asks the individual to temporarily refrain from community participation. If the individual chooses not to take a temporary break voluntarily, the Committee may issue a “mandatory cooling off period”.
-* A permanent or temporary ban from some or all NumPy spaces (mailing lists, gitter.im, etc.). The group will maintain records of all such bans so that they may be reviewed in the future or otherwise maintained.
-
-Once a resolution is agreed upon, but before it is enacted, the Committee will contact the original reporter and any other affected parties and explain the proposed resolution. The Committee will ask if this resolution is acceptable, and must note feedback for the record.
-
-Finally, the Committee will make a report to the NumPy Steering Council (as well as the NumPy core team in the event of an ongoing resolution, such as a ban).
-
-The Committee will never publicly discuss the issue; all public statements will be made by the chair of the Code of Conduct Committee or the NumPy Steering Council.
+* Ontkoppel onmiddellijk de initiatiefnemer van alle NumPy communicatiekanalen.
+* Antwoord aan de verslaggever dat hun rapport is ontvangen en dat de verbinding met de initiator is verbroken.
+* In elk geval moet de moderator een redelijke poging doen om contact op te nemen met de initiatiefnemer. en ze specifiek vertellen hoe hun taal of acties worden beschouwd als een “ernstige en duidelijke schending”. De moderator moet ook zeggen dat als de initiatiefnemer dit oneerlijk vindt of als hij opnieuw verbonden wil worden met NumPy, Zij hebben het recht om een herziening te vragen, zoals daaronder, van de gedragscode. De moderator moet deze uitleg in de Gedragscommissie kopiëren.
+* De gedragscode van het Comité zal alle gevallen waarin dit mechanisme is toegepast formeel herzien en aftekenen om ervoor te zorgen dat het niet wordt gebruikt om gewone meningsverschillen te beheersen.
 
 
-## Conflicts of Interest
+## Rapport behandeling
 
-In the event of any conflict of interest, a Committee member must immediately notify the other members, and recuse themselves if necessary.
+Wanneer een rapport naar de commissie wordt gestuurd, zullen zij onmiddellijk reageren op de ontvangstbevestigingsplicht. Dit antwoord moet binnen 72 uur worden verzonden en de groep moet ernaar streven om veel sneller te reageren.
+
+Als een rapport niet genoeg informatie bevat, zal de commissie alle relevante gegevens verkrijgen alvorens te reageren. Het comité is gemachtigd namens de stuurraad contact op te nemen met alle betrokken personen om een vollediger overzicht van de gebeurtenissen te krijgen.
+
+De commissie zal het incident dan opnieuw bekijken en zo goed mogelijk vaststellen:
+
+* Wat is er gebeurd?
+* Of deze gebeurtenis een gedragscode is.
+* Wie zijn de verantwoordelijke partij(en).
+* Of dit nog steeds zo is en of er sprake is van een bedreiging voor de fysieke veiligheid.
+
+Deze informatie zal schriftelijk worden verzameld en waar mogelijk zal de beraadslagingen van de groep worden geregistreerd en bewaard (i. . chat transcripties, e-mail discussies, opgenomen conferentiegesprekken, samenvattingen van gesproken gesprekken, enz.).
+
+Het is belangrijk om het archief van alle activiteiten van deze commissie te bewaren om te zorgen voor consistentie in gedrag en om het project institutioneel te herinneren. Om hierbij te helpen Het zal voor dit comité een standaarddiscussielijst zijn die op terecht verzoek toegankelijk is voor de huidige en toekomstige leden van het comité en voor de leden van de stuurraad. Als het Comité de noodzaak inziet om off-list communicatie te gebruiken (bijv. telefoongesprek roept op voor vroege en snelle reactie), en zou deze in alle gevallen moeten samenvatten naar de lijst, zodat er een goede opname van het proces is.
+
+De Gedragscommissie zou moeten streven naar een resolutie binnen twee weken. In het geval dat een resolutie in die tijd niet kan worden bepaald, de commissie zal op de verslaggevers reageren met een bijgewerkte en geprojecteerde tijdslijn voor resolutie.
+
+
+## Resoluties
+
+De commissie moet het eens worden over een resolutie bij consensus. Als de fractie gedurende meer dan een week geen consensus en blokkades tot stand kan brengen, zal de fractie de zaak aan de Stuurraad voorleggen.
+
+Mogelijke antwoorden zijn:
+
+* Geen verdere actie meer nemen:
+  -   als we vaststellen dat er geen overtredingen hebben plaatsgevonden;
+  -   als de zaak in het openbaar is geregeld terwijl de commissie een antwoord aan het bestuderen was.
+* Coördinatie van vrijwillige bemiddeling: als alle betrokken partijen het ermee eens zijn, kan het Comité een bemiddelingsproces mogelijk maken, zoals hierboven is beschreven.
+* Herinner u er publiekelijk aan en wees erop dat sommige gedrag/acties/taal ongepast zijn beoordeeld en waarom in de huidige context of kan sommige mensen alleen maar pijn doen, en de gemeenschap vragen zich zelf aan te passen.
+* Een privéberisping van de commissie aan de betrokken personen. In dit geval zal de groepsstoel zorgen voor een berisping van de individuele persoon via e-mail, die de groep ontvangt.
+* Een publieke reprimande. In dit geval zal de voorzitter van de commissie binnen de praktische grenzen die de overtreding heeft plaatsgevonden, de berisping overbrengen. Bijv. de originele mailinglijst voor een e-mailovertreding, maar voor een discussie in een chat room waar de context misschien weg is, kunnen ze op andere manieren worden bereikt. De groep kan ervoor kiezen om dit bericht elders te publiceren voor documentatiedoeleinden.
+* Een verzoek om een openbare of particuliere verontschuldiging, Als de rapporteur het daarmee eens is, kan hij naar eigen goeddunken het contact met de overtreder weigeren. De Voorzitter stuurt dit verzoek af. De commissie kan, als zij kiest, ‘tekenreeksen’ aan dit verzoek verbinden: de groep kan een overtreder vragen zich te verontschuldigen om zijn lidmaatschap op een mailinglijst te behouden.
+* Een “wederzijds overeengekomen holoon” waarbij de commissie het individu vraagt om tijdelijk af te zien van communautaire deelname. Als het individu ervoor kiest om niet vrijwillig een tijdelijke pauze te nemen, kan de commissie een “verplichte afkoelperiode” uitvaardigen.
+* Een permanente of tijdelijke verbanning van sommige of alle nummerspaties (mailing lijsten, gitter.im, enz.). De groep zal gegevens over al deze verboden bijhouden, zodat ze in de toekomst kunnen worden herzien of op een andere manier kunnen worden gehandhaafd.
+
+Zodra er overeenstemming is bereikt over een resolutie, maar voordat deze wordt aangenomen, het Comité zal contact opnemen met de oorspronkelijke verslaggever en alle andere betrokken partijen en de voorgestelde resolutie toelichten. De commissie zal vragen of deze resolutie aanvaardbaar is en zal nota nemen van feedback voor de notulen.
+
+Tot slot de commissie zal verslag uitbrengen aan de NumPy Stuurraad (alsmede aan het NumPy core team in geval van een doorlopende resolutie zoals een verbod.
+
+De commissie zal deze kwestie nooit openlijk bespreken. alle openbare verklaringen zullen worden afgelegd door de voorzitter van het Gedragscomité of de nummer-stuurraad.
+
+
+## Conflicten van interesse
+
+In geval van belangenconflicten moet een commissielid de andere leden onmiddellijk op de hoogte stellen en zich zo nodig herstellen.
