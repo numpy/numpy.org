@@ -1,35 +1,35 @@
 ---
-title: NumPy installeren
-sidebar: fout
+title: Installing NumPy
+sidebar: Onjuist
 ---
 
-De enige voorwaarde voor NumPy is Python zelf. Als je nog geen Python hebt, raden we je aan om de [Anaconda Distributie](https://www.anaconda.com/distribution) te gebruiken - het bevat Python, NumPy en andere algemeen gebruikte pakketten voor wetenschappelijke informatica en gegevenswetenschap.
+De enige vereiste voor NumPy is Python zelf. Als je nog geen Python hebt, raden we je aan om de [Anaconda Distribution](https://www.anaconda.com/distribution) te gebruiken - inclusief Python, Tal en andere veelgebruikte packages voor wetenschappelijke informatica en data-wetenschap.
 
-NumPy kan worden geïnstalleerd met `conda`, met `pip`, of met een pakketbeheerder op macOS en Linux. Voor meer gedetailleerde instructies, raadt u de [installatiegids](to_be_added_to_the_docs).
+NumPy kan worden geïnstalleerd met `conda`, met `pip`, of met een package manager op macOS en Linux. Raadpleeg de [installatiehandleiding](to_be_added_to_the_docs) voor meer gedetailleerde instructies.
 
 ## conda
 
 Als u `conda`gebruikt, kunt u deze installeren met:
 
 ```bash
-conda installatie numpy
+conda install numpy
 ```
 
 of met:
 
 ```bash
-conda installatie -c conda-forge numpy
+conda installeren -c conda-forge numpy
 ```
 
 ## pip
 
-Als u `pip`gebruikt, kunt u het installeren met:
+Als u `pip`gebruikt, kunt u deze installeren met:
 
 ```bash
-pip installatie numpy
+pip install numpy
 ```
 
-Als uw Python met uw besturingssysteem kwam, raden we u aan een aparte Python te installeren of te gebruiken:
+Als je Python met je besturingssysteem komt, raden we je aan een aparte Python te installeren of te gebruiken:
 
 ```bash
 pip installatie numpy --gebruiker
