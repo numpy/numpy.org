@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -euox pipefail
+set -euo pipefail
 
 # Should be moved to build.sh
 # NOTE: Running build.sh and then deploy.sh is not finding the public
