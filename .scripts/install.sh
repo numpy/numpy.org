@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -euox pipefail
+set -euo pipefail
 
 curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest \
 | grep "browser_download_url.*hugo_[^extended].*_Linux-64bit\.tar\.gz" \
