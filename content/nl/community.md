@@ -59,7 +59,7 @@ Een real-time chat room om vragen te stellen over _bijdragen_ aan NumPy.
 
 Als je een lokale meetup of studiegroep wilt vinden om meer te weten te komen over NumPy en het bredere ecosysteem van Python packages voor data wetenschap en wetenschappelijke computing, we raden aan om de [PyData meetups](https://www.meetup.com/pro/pydata/) (150+ meetups, 100.000+ leden) te verkennen.
 
-NumPy organiseert ook persoonlijk sprints voor zijn team en soms geïnteresseerde bijdragers. Deze zijn meestal meerdere maanden van tevoren gepland en zullen worden aangekondigd op de [mailinglijst](https://mail.python.org/mailman/listinfo/numpy-discussion) en op [Twitter](twitter.com/numpy_team).
+NumPy organiseert ook persoonlijk sprints voor zijn team en soms geïnteresseerde bijdragers. These are typically planned several months in advance, and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and on [Twitter](https://twitter.com/numpy_team).
 
 
 ## Conferenties
