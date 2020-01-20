@@ -9,3 +9,12 @@ git submodule update --init
 hugo
 
 echo $?
+
+if [ $? -eq 0 ]
+then
+  echo "Success: build."
+  exit 0
+else
+  echo "Failure: Error while building" >&2
+  exit 1
+fi
