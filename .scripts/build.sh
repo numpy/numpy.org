@@ -8,13 +8,6 @@ set -euo pipefail
 git submodule update --init
 hugo
 
-echo $?
-
-if [ $? -eq 0 ]
-then
-  echo "Success: build."
-  exit 0
-else
-  echo "Failure: Error while building" >&2
-  exit 1
-fi
+# If it is not present that means build failed.
+# docker failure returns non error exit code so travis doesn't come out.
+ls ./public
