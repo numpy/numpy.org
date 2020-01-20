@@ -8,3 +8,4 @@ set -euo pipefail
 git submodule update --init
 hugo
 
+echo $?
