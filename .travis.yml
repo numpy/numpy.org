@@ -3,6 +3,9 @@ language: python
 os:
   - linux
 
+matrix:
+  fast_finish: true
+
 services:
   - docker
 
