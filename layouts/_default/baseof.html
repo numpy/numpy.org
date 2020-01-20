@@ -6,28 +6,26 @@
     {{ partial "css.html" . }}
 
     <!-- Refer: https://regisphilibert.com/blog/2018/08/hugo-multilingual-part-1-managing-content-translation/ -->
-    {{ if .IsTranslated }}
-      {{ range .Translations }}
-      <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
-      {{ end }}
-    {{ end }}
+    {{ if .IsTranslated }} {{ range .Translations }}
+    <link
+      rel="alternate"
+      hreflang="{{ .Language.Lang }}"
+      href="{{ .Permalink }}"
+      title="{{ .Language.LanguageName }}"
+    />
+    {{ end }} {{ end }}
   </head>
-  <body>
-    <!-- Preloader -->
-    <div id="preloader">
-      <div id="status"></div>
-    </div>
 
-    {{ block "main" . }}
-    {{ end }}
+  <body>
+    <!-- Preloader. Set to true for front-page fade-in animation -->
+    {{ if false }}
+    <div id="preloader"></div>
+    {{ end }} {{ block "main" . }} {{ end }}
 
     <!-- Back To Top Button -->
     <div id="backtotop"><a href="#" id="backtotop-color"></a></div>
 
-    {{ if .Site.Params.sidebar }}
-    {{ partial "sidebar.html" . }}
-    {{ end }}
-
-    {{ partial "javascript.html" . }}
+    {{ if .Site.Params.sidebar }} {{ partial "sidebar.html" . }} {{ end }} {{
+    partial "javascript.html" . }}
   </body>
 </html>
