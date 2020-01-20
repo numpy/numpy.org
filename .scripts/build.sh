@@ -7,7 +7,3 @@ set -euo pipefail
 
 git submodule update --init
 hugo
-
-# If it is not present that means build failed.
-# docker failure returns non error exit code so travis doesn't come out.
-ls ./public
