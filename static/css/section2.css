@@ -41,8 +41,6 @@
     }
 }
 
-
-/* Underline From Left */
 .section2-underline {
     display: inline-block;
     vertical-align: middle;
@@ -60,7 +58,7 @@
     left: 0;
     right: 100%;
     bottom: 0;
-    background: #2098D1;
+    background: #013243;
     height: 4px;
     -webkit-transition-property: right;
     transition-property: right;
