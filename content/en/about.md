@@ -32,7 +32,6 @@ Emeritus members are:
 - Alex Griffing (served: 2015-2017)
 - Marten van Kerkwijk (served: 2017-2019)
 
-
 ## Teams
 
 The NumPy project is growing, we have separate teams for:
@@ -50,23 +49,13 @@ See the [Team](/team) page for individual team members.
 ## Sponsors
 
 NumPy receives direct funding from the following sources:
-
-{{< figure src="/images/logos/moore.svg" link=https://www.moore.org alt="Logo of the Gordon and Betty Moore Foundation" >}}
-
-{{< figure src="/images/logos/sloan.svg" link=https://www.sloan.org alt="Logo of the Alfred P. Sloan Foundation" >}}
-
-{{< figure src="/images/logos/CZI.svg" link=https://www.chanzuckerberg.org alt="Logo of the Chan Zuckerberg Initiative" >}}
-
-{{< figure src="/images/logos/tidelift.png" link=https://www.tidelift.com width="200" alt="Logo of Tidelift" >}}
+{{< sponsors >}}
 
 
 ## Institutional Partners
 
 Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include:
-
-{{< figure src="/images/logos/berkeley-color.svg" link=https://www.berkeley.edu width="200" alt="Logo of UC Berkeley" >}}
-
-{{< figure src="/images/logos/quansight.svg" link=https://www.quansight.com width="200" alt="Logo of Quansight" >}}
+{{< partners >}}
 
 
 ## Donate
@@ -78,7 +67,4 @@ NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the U
 Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax adviser about your particular tax situation.
 
 NumPy's Steering Council will make the decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
-
-{{< figure src="/images/logos/NumFOCUS_sponsored_project_logo.svg" link=https://www.numfocus.org width="200" alt="Logo of NumFOCUS" >}}
-
-https://numfocus.org/donate-to-numpy
+{{< numfocus >}}

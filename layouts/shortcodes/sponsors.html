@@ -1,0 +1,34 @@
+<div class="sponsor-images">
+    <img src="/images/logos/moore.svg" link=https://www.moore.org alt="Logo of the Gordon and Betty Moore Foundation" />
+    <img src="/images/logos/sloan.svg" link=https://www.sloan.org alt="Logo of the Alfred P. Sloan Foundation" />
+    <img src="/images/logos/CZI.svg" link=https://www.chanzuckerberg.org alt="Logo of the Chan Zuckerberg Initiative" />
+    <img src="/images/logos/tidelift.png" link=https://www.tidelift.com width="200" alt="Logo of Tidelift" />
+</div>
+
+<style>
+    .sponsor-images {
+        display: flex;
+        flex-direction: row;
+        max-width: 900px;
+        justify-content: center;
+        margin: 30px;
+    }
+
+    .sponsor-images > img {
+        height: 75px;
+        width: auto;
+        padding: 0 30px;
+    }
+
+    @media only screen and (max-width: 850px) {
+        .sponsor-images {
+            flex-direction: column;
+        }
+
+        .sponsor-images > img {
+            height: auto;
+            margin: 30px 0;
+            padding: 0;
+        }
+    }
+</style>
