@@ -27,7 +27,7 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
 
   section2:
-    title: In a Nutshell
+    title: KEY FEATURES
     features:
     - title: Powerful N-dimensional arrays
       icon: cartesian

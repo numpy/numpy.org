@@ -1,0 +1,75 @@
+.section2 {
+    padding: 30px;
+    margin: 35px 0 0 0;
+}
+
+.section2-title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.section2-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section2-box-content {
+    height: 250px;
+    width: 30vw;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.section2-box-title {
+    margin: 15px;
+    font-size: 19px;
+}
+
+.section2-box-text {
+    margin: 30px 15px;
+}
+
+@media only screen and (max-width: 900px) {
+    .section2-box-container {
+        flex-direction: column;
+    }
+
+    .section2-box-content {
+        width: 80vw;
+    }
+}
+
+
+/* Underline From Left */
+.section2-underline {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.section2-underline:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #2098D1;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.section2-underline:hover:before, .section2-underline:focus:before, .section2-underline:active:before {
+    right: 0;
+}
