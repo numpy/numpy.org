@@ -13,6 +13,12 @@ body {
     justify-content: center;
 }
 
+/* Languages Dropdown */
+.language-text {
+    width: 100%;
+    text-align: right;
+}
+
 .hero-container {
     height: 85vh;
     width: 100vw;
