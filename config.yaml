@@ -25,7 +25,6 @@ params:
     # Hero image (from static/images/___)
     image: logos/numpy.svg
   # Customizable navbar. For a dropdown, add a "sublinks" list.
-
   section3:
     title: Case Studies
     features:
@@ -45,6 +44,18 @@ params:
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
       img: images/content_images/case_studies/car.png
       url: /
+  section2:
+    title: KEY FEATURES
+    features:
+    - title: Powerful N-dimensional arrays
+      subtitle: Fast, versatile and easy to use
+      text:  Fast, versatile and easy to use, the NumPy vectorization, indexing and broadcasting concepts are the de-facto standards of array computing today.
+    - title: Numerical computing tools
+      text: Fundamental package for scientific computing, NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms and more.
+    - title: Interoperable
+      text: Works on your choice of computing platform, whether your code fits in memory and runs on a CPU or requires a GPU. NumPy supports a wide range of computing platforms and works well with all major distributed arrays and sparse arrays libraries. 
+    - title: Open source
+      text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained publicly on GitHub by a vibrant, responsive and diverse community.
   tabs:
     title: Ecosystem
     subtitle:
