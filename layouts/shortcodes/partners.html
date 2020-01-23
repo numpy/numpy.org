@@ -1,0 +1,37 @@
+<div class="partner-images">
+    <a href="https://www.berkeley.edu">
+        <img src="/images/logos/berkeley-color.svg" width="200" alt="Logo of UC Berkeley" />
+    </a>
+    <a href="https://www.quansight.com">
+        <img src="/images/logos/quansight.svg" width="200" alt="Logo of Quansight" />
+    </a>
+</div>
+
+<style>
+    .partner-images {
+        display: flex;
+        flex-direction: row;
+        max-width: 900px;
+        justify-content: center;
+        margin: 30px;
+    }
+
+    .partner-images > a {
+        height: 75px;
+        width: auto;
+        padding: 0 30px;
+        margin: 30px 0;
+    }
+
+    @media only screen and (max-width: 850px) {
+        .partner-images {
+            flex-direction: column;
+        }
+
+        .partner-images > img {
+            height: auto;
+            margin: 30px 0;
+            padding: 0;
+        }
+    }
+</style>
