@@ -1,34 +1,18 @@
 {{- $section2 := .Site.Params.section2 }}
 {{- $title    := index $section2 "title" }}
-{{- $subtitle := index $section2 "subtitle" }}
 {{- $features := index $section2 "features" }}
-<section class="section is-medium">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <h1 class="title section-title">{{ $title }}</h1>
-        <h3 class="subtitle is-muted">{{ $subtitle }}</h3>
-        <div class="divider"></div>
-        <div class="mt-30"></div>
-        {{- range $features }}
-        <article class="media icon-box">
-          <figure class="media-left">
-            <p id="section2-image" class="image">
-              <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
-            </p>
-          </figure>
-          <div class="media-content mt-50">
-            <div class="content">
-              <p>
-                <span class="icon-box-title">{{ .title }}</span>
-
-                <span class="icon-box-text">{{ .text | markdownify }}</span>
-              </p>
+<section class="section2">
+    <div class="container">
+        <h1 class="section2-title">{{ $title }}</h1>
+        <div class="section2-box-container">
+            {{- range $features }}
+            <div class="section2-box-content section2-underline">
+                <p>
+                    <div class="section2-box-title">{{ .title }}</div>
+                    <div class="section2-box-text">{{ .text | markdownify }}</div>
+                </p>
             </div>
-          </div>
-        </article>
-        {{- end }}
-      </div>
+            {{- end }}
+        </div>
     </div>
-  </div>
 </section>
