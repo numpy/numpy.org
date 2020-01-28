@@ -17,11 +17,9 @@
 }
 
 .section3-box-content {
-    height: 70vh;
+    height: 550px;
     width: 20vw;
-    /* width: 30vw; */
     margin: 30px 15px 30px 15px;
-    /*  margin: 30px  */
     border-radius: 5px;
 }
 
