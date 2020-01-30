@@ -99,3 +99,9 @@ if (shortcutsTarget.length > 0) {
     })
   });
 }
+
+// Removes the shortcuts container if no shortcuts exist.
+// Also removes the 'Get Help' link.
+if ($('#shortcuts div').length < 1) {
+  $('.shortcuts-container').css('display', 'none');
+}
