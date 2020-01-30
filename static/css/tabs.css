@@ -19,6 +19,10 @@
     margin: 15px auto;
 }
 
+.uk-tab > li {
+    padding: 0 10px;
+}
+
 .uk-nav > li > a {
     height: 35px;
     font-size: 11px;
