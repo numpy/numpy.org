@@ -1,16 +1,17 @@
 .content-padding {
-    padding: 3rem 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 75px 15px 125px 15px;
 }
 
 .shortcuts-container {
     width: 100%;
-    min-width: 6vw;
-    max-width: 11vw;
+    max-width: 150px;
     margin: 75px 15px;
 }
 
 .content-container {
-    max-width: 900px;
+    max-width: 850px;
     margin: 0 30px;
 }
 
@@ -23,6 +24,33 @@
 .content-container  ol {
     padding: 10px;
     margin-left: 15px;
+}
+
+.content-container h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+.content-container .divider {
+    background: #013243;
+}
+
+.content-container h2 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: bold;
+    margin-top:30px;
+}
+
+.content-container h3 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: bold;
+    margin-top: 25px;
 }
 
 .shortcuts-title {
@@ -53,7 +81,7 @@
     margin: 30px 0 0 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1088px) {
     .shortcuts-container {
         display: none;
     }
