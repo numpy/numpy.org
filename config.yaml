@@ -27,40 +27,19 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
 
   section2:
-    title: In a Nutshell
+    title: KEY FEATURES
     features:
     - title: Powerful N-dimensional arrays
-      icon: cartesian
       subtitle: Fast, versatile and easy to use
       text:  Fast, versatile and easy to use, the NumPy vectorization, indexing and broadcasting concepts are the de-facto standards of array computing today.
     - title: Numerical computing tools
-      icon: chip
       text: Fundamental package for scientific computing, NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms and more.
     - title: Interoperable
-      icon: computer
       text: Works on your choice of computing platform, whether your code fits in memory and runs on a CPU or requires a GPU. NumPy supports a wide range of computing platforms and works well with all major distributed arrays and sparse arrays libraries. 
     - title: Open source
-      icon: web-programming
       text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained publicly on GitHub by a vibrant, responsive and diverse community.
   tabs:
-    title: Ecosystem
-    subtitle:
-    tiles:
-    - title: App builder
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
+    title: ECOSYSTEM
   section5: false
 
 languages:
