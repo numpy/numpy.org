@@ -109,7 +109,7 @@ languages:
               link: /press-kit
   nl:
     title: NumPy
-    languageName: Dutch
+    languageName: Nederlands
     weight: 2
     contentDir: content/nl
     navbar:
@@ -171,7 +171,7 @@ languages:
               link: /nl/press-kit
   hi:
     title: NumPy
-    languageName: Hindi
+    languageName: हिंदी
     weight: 3
     contentDir: content/hi
     navbar:
