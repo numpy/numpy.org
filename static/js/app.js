@@ -94,20 +94,3 @@ if (shortcutsTarget.length > 0) {
     })
   });
 }
-
-// Scrolling Languages Dropdown
-Array.prototype.recurse = function(callback, delay) {
-  var self = this
-  var index = 0;
-
-  setInterval(function () {
-    callback(self[index], index);
-    var next = index+1;
-    index = next < self.length ? next : 0;
-  }, delay);
-}
-
-const langs = ['Languages', 'Talen', 'बोली']
-langs.recurse(function(item) {
-  $('.navbar-link').html(`<span class="language-text">${item}</span>`);
-}, 2000);

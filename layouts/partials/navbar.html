@@ -82,8 +82,8 @@
 
           {{- if .IsTranslated }}
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link" style="min-width: 130px">
-                <span class="language-text">Languages</span>
+              <a class="navbar-link">
+                <span class="language-text">{{ .Language.LanguageName }}</span>
               </a>
               <div class="navbar-dropdown">
               {{- range .Translations }}
