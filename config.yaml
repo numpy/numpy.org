@@ -57,8 +57,6 @@ languages:
         url: /learn
       - title: Array computing
         url: /arraycomputing
-      - title: Case Studies
-        url: /case-studies/blackhole-image
       - title: Community
         url: /community
       - title: About Us
