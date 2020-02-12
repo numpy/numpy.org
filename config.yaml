@@ -41,10 +41,6 @@ params:
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
       img: images/content_images/case_studies/sports.jpg
       url: /
-    - title: Self-Driving Cars
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
-      img: images/content_images/case_studies/car.png
-      url: /
   section2:
     title: KEY FEATURES
     features:

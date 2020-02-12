@@ -15,10 +15,10 @@
 }
 
 .section3-box-content {
-    height: 450px;
-    width: 20vw;
+    height: 950px;
+    width: 30vw;
     margin: 30px 15px 30px 15px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .section3-box-title {
@@ -28,7 +28,7 @@
 
 .section3-box-text {
     margin: 30px 15px;
-    color: black;
+    color: red;
 }
 
 @media only screen and (max-width: 900px) {
