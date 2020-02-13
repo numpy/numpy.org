@@ -36,7 +36,7 @@ The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org), is an ar
 
     The sequence of correlation and engineering releases represents a year-long effort of identifying and mitigating data issues, and developing new software and procedures that could reliably choose the most likely image based on actual measurements.
 
-{{< figure src="/images/content_images/cs/dataprocessbh.png" class="fig-center" caption="**EHT Data Processing Pipeline**" alt="data pipeline" align="middle" attr="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)" attrlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
+{{< figure src="/images/content_images/cs/dataprocessbh.png" class="csfigcaption" caption="**EHT Data Processing Pipeline**" alt="data pipeline" align="middle" attr="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)" attrlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}} 
 
 ## NumPy’s Role in Black Hole Imaging
 	

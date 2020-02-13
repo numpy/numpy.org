@@ -254,6 +254,10 @@ figcaption {
   text-align: center;
 }
 
+.csfigcaption {
+  text-align: center;
+}
+
 .fig-center {
   display: block;
   margin-left: auto;
