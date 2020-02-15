@@ -250,6 +250,40 @@ p {
     font-size: 12px;
 }
 
+figcaption {
+  text-align: center;
+}
+
+.csfigcaption {
+  text-align: center;
+}
+
+.fig-center {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+blockquote {
+    margin: 10px;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
 @media only screen and (max-width: 1150px) {
     .sign-up-input {
         font-size: 12px;

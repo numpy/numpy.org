@@ -119,6 +119,8 @@ languages:
         url: /nl/doc
       - title: Array computing
         url: /nl/arraycomputing
+      - title: Case Studies
+        url: /nl/case-studies/blackhole-image
       - title: Learn
         url: /nl/learn
       - title: Community
@@ -181,6 +183,8 @@ languages:
         url: /hi/doc
       - title: Array computing
         url: /hi/arraycomputing
+      - title: Case Studies
+        url: /hi/case-studies/blackhole-image
       - title: Learn
         url: /hi/learn
       - title: Community
