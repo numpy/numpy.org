@@ -1,3 +1,6 @@
+# Not using it.
+# Refer: https://github.com/numpy/numpy.org/pull/146
+
 FROM node:10-alpine
 ADD . ./app
 WORKDIR /app
