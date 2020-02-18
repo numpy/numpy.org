@@ -26,4 +26,4 @@ ls "./public"
 
 surge --project $PROJECT_BUILD --domain $DOMAIN;
 
-echo ::set-output name=deployed-domain::"numpy-${TRAVIS_PULL_REQUEST}.surge.sh"
+echo "numpy-${TRAVIS_PULL_REQUEST}.surge.sh"
