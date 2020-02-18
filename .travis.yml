@@ -6,6 +6,7 @@ os:
   - linux
 
 before_script:
+  - ls
   - bash ./scripts/install.sh
 
 script:
