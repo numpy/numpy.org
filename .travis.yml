@@ -5,12 +5,17 @@ language: node_js
 os:
   - linux
 
+before_install:
+  - chmod +x .scripts/install.sh
+  - chmod +x .scripts/build.sh
+  - chmod +x .scripts/deploy.sh
+
 before_script:
   - ls
-  - bash ./scripts/install.sh
+  - .scripts/install.sh
 
 script:
-  - bash ./scripts/build.sh
+  - bash .scripts/build.sh
 
 after_script:
-  - bash ./scripts/deploy.sh
+  - bash .scripts/deploy.sh

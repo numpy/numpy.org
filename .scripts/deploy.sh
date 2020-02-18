@@ -19,7 +19,6 @@ fi
 
 PROJECT_BUILD="./public"
 DOMAIN="http://numpy-${TRAVIS_PULL_REQUEST}.surge.sh"
-echo "PR_NUMBER: $TRAVIS_PULL_REQUEST"
 echo "SURGE_LOGIN: $SURGE_LOGIN"
 echo "SURGE_TOKEN: $SURGE_TOKEN"
 ls "./public"
