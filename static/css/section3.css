@@ -18,7 +18,7 @@
 .section3-box-content {
     height: 450px;
     width: 20vw;
-    margin: 30px 15px 30px 15px;
+    margin: 30px 15px;
     border-radius: 5px;
 }
 
@@ -32,13 +32,25 @@
     color: black;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 0px) and (max-width: 767px) {
     .section3-box-container {
         flex-direction: column;
     }
-
     .section3-box-content {
         width: 80vw;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+    .section3-box-content {
+        height: 600px;
+        width: 80vw;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .section3-box-content {
+        height: 500px;
     }
 }
 
