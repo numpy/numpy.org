@@ -1,3 +1,7 @@
+a:hover {
+    text-decoration: none !important;
+}
+
 .section3 {
     padding: 30px; 
     margin: 35px 0 0 0;
