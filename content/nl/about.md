@@ -54,7 +54,7 @@ NumPy ontvangt directe financiering van de volgende bronnen:
 
 ## Institutionele partners
 
-Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include:
+Institutionele Partners zijn organisaties die het project ondersteunen door mensen in dienst te nemen die bijdragen aan NumPy als onderdeel van hun werk. De huidige institutionele partners omvatten:
 {{< partners >}}
 
 
