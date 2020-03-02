@@ -39,24 +39,7 @@ params:
     - title: Open source
       text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained publicly on GitHub by a vibrant, responsive and diverse community.
   tabs:
-    title: Ecosystem
-    subtitle:
-    tiles:
-    - title: App builder
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
+    title: ECOSYSTEM
   section5: false
 
 languages:
@@ -126,7 +109,7 @@ languages:
               link: /press-kit
   nl:
     title: NumPy
-    languageName: Dutch
+    languageName: Nederlands
     weight: 2
     contentDir: content/nl
     navbar:
@@ -136,6 +119,8 @@ languages:
         url: /nl/doc
       - title: Array computing
         url: /nl/arraycomputing
+      - title: Case Studies
+        url: /nl/case-studies/blackhole-image
       - title: Learn
         url: /nl/learn
       - title: Community
@@ -188,7 +173,7 @@ languages:
               link: /nl/press-kit
   hi:
     title: NumPy
-    languageName: Hindi
+    languageName: हिंदी
     weight: 3
     contentDir: content/hi
     navbar:
@@ -198,6 +183,8 @@ languages:
         url: /hi/doc
       - title: Array computing
         url: /hi/arraycomputing
+      - title: Case Studies
+        url: /hi/case-studies/blackhole-image
       - title: Learn
         url: /hi/learn
       - title: Community
