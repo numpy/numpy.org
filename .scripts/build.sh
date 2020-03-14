@@ -5,5 +5,5 @@
 # Refer: https://github.com/numpy/numpy.org/pull/58/files#r336767432
 
 git submodule update --init
-hugo
+sudo hugo
 

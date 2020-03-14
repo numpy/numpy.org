@@ -12,7 +12,7 @@ tar -xzf $tarball
 
 chmod +x hugo
 
-mv hugo /usr/local/bin/
+sudo mv hugo /usr/local/bin/
 
 location="$(which hugo)"
 echo "Hugo binary location: $location"
