@@ -5,7 +5,7 @@ sidebar: false
 
 The only prerequisite for NumPy is Python itself. If you don't have Python yet and want the simplest way to get started, we recommend you use the [Anaconda Distribution](https://www.anaconda.com/distribution) - it includes Python, NumPy, and other commonly used packages for scientific computing and data science.
 
-NumPy can be installed with `conda`, with `pip`, or with a package manager on macOS and Linux. For more detailed instructions, consult the [installation guide](to_be_added_to_the_docs).
+NumPy can be installed with `conda`, with `pip`, or with a package manager on macOS and Linux. For more detailed instructions, consult our [Python and NumPy installation guide](/installing-python-and-numpy-guide).
 
 ## conda
 
