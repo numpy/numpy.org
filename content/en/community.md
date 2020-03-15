@@ -7,15 +7,23 @@ NumPy is a community-driven open source project developed by a very diverse grou
 
 We offer several communication channels to learn, share your knowledge and connect with others within the NumPy community.
 
+
 ## Participate online
+
+The following are ways to engage directly with the NumPy project and community.
+_Please note that we encourage users and community members to support each other
+for usage questions - see [Get Help](/gethelp)._
+
 
 ### [NumPy mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion)
 
-The main forum for longer-form discussions, like adding new features to NumPy, making changes to the NumPy Roadmap, and all kinds of project-wide decision making.
-
+This list is the main forum for longer-form discussions, like adding new features to NumPy, making changes to the NumPy Roadmap, and all kinds of project-wide decision making.
 Announcements about NumPy, such as for releases, developer meetings, sprints or
 conference talks are also made on this list.
 
+On this list please use bottom posting, reply to the list (rather than to
+another sender), and don't reply to digests. A searchable archive of this lists
+is available [here](http://numpy-discussion.10968.n7.nabble.com/).
 
 ***
 
@@ -29,31 +37,14 @@ _Please note that GitHub is not the right place to report a security vulnerabili
 
 ***
 
-### [StackOverflow](http://stackoverflow.com/questions/tagged/numpy)
-
-A place for asking *usage* questions, e.g. "How do I do X in NumPy?” Please use the `#numpy` tag.
-
-
-***
-
-### [Reddit](https://www.reddit.com/r/Numpy/)
-
-Another place for asking usage questions.
-
-
-***
-
-### [Gitter](https://gitter.im/numpy/numpy)
-
-A real-time chat room where users and community members help each other.
-
-
-***
-
-### [Slack](numpy-team.slack.com)
+### [Slack](https://numpy-team.slack.com)
 
 A real-time chat room to ask questions about _contributing_ to NumPy.
-
+This is a private space, specifically meant for people who are hesitant to
+bring up their questions or ideas on a large public mailing list or on GitHub.
+Please see
+[here](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) for more
+details and how to get an invite.
 
 
 ## Study Groups and Meetups

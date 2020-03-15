@@ -108,7 +108,7 @@ languages:
             - text: Code of conduct
               link: /code-of-conduct
             - text: Get help
-              link: /help
+              link: /gethelp
             - text: Contribute
               link: /contribute
         column3:
@@ -172,7 +172,7 @@ languages:
             - text: Code of conduct
               link: /nl/code-of-conduct
             - text: Get help
-              link: /nl/help
+              link: /nl/gethelp
             - text: Contribute
               link: /nl/contribute
         column3:
