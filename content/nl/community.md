@@ -1,30 +1,65 @@
 ---
 title: Gemeenschap
-sidebar: fout
+sidebar: Onjuist
 ---
 
-NumPy biedt een aantal communicatiekanalen beschikbaar voor personen die geïnteresseerd zijn in het gebruik en bijdragen aan het project.
+NumPy is een door de gemeenschap gedreven open source project ontwikkeld door een zeer diverse groep van [bijdragers](/team). De NumPy leadership heeft zich sterk ingezet voor het creëren van een open, inclusieve en positieve gemeenschap. Lees de [NumPy Code of Conduct](/code-of-conduct) voor begeleiding over hoe interactie met anderen moet worden gevoerd op een manier die de gemeenschap laat gedijen.
 
-Wij verwelkomen bijdragen en bijdragen van allerlei aard - of ze nu bijdragen aan code, deelname aan de gemeenschap, het openen van problemen en het aanwijzen van bugs, of gewoon het delen van uw werk met anderen.
+We bieden verschillende communicatiekanalen aan om je kennis te leren, je kennis te delen en te verbinden met anderen binnen de NumPy Gemeenschap.
 
-### Word lid van de NumPy community
 
-Als u geïnteresseerd bent in het toetreden tot de NumPy community (yay!) raden we aan om de [NumPy Contributing gids](https://www.numpy.org/devdocs/dev/index.html) te controleren. Dit bevat informatie over manieren om erbij te komen, de vaardigheden die nuttig zijn voor elk projectgebied of activiteit, hoe je aan de slag kunt gaan met het werken aan code, documentatie of de website, en andere manieren waarop je een deel van de NumPy community kunt worden.
+## Online deelnemen
 
-### Neem deel aan het online
+The following are ways to engage directly with the NumPy project and community. _Please note that we encourage users and community members to support each other for usage questions - see [Get Help](/gethelp)._
 
-Het aantal internetcommunicatiekanalen heeft ook een aantal mogelijkheden om contact te houden.
 
-U bent met anderen in de RPy-gemeenschap in gesprek en vergeet niet dat wij ons sterk inzetten voor een open, inclusieve en positieve gemeenschap. Lees de [NumPy Code van de Gedragscode](https://www.numpy.org/devdocs/dev/conduct/code_of_conduct.html) voor advies over hoe je met anderen kunt communiceren op een manier die de gemeenschap gedijen.
+### [NumPy mailinglijst](https://mail.python.org/mailman/listinfo/numpy-discussion)
 
-Hieronder is een korte lijst van communicatiekanalen en GitHub repositories waar u zich kunt mengen. Wij zijn altijd blij met de deelname aan de NumPy-gemeenschap.
+This list is the main forum for longer-form discussions, like adding new features to NumPy, making changes to the NumPy Roadmap, and all kinds of project-wide decision making. Announcements about NumPy, such as for releases, developer meetings, sprints or conference talks are also made on this list.
 
-TODO:
+On this list please use bottom posting, reply to the list (rather than to another sender), and don't reply to digests. A searchable archive of this lists is available [here](http://numpy-discussion.10968.n7.nabble.com/).
 
-- GitHub org en hoofdrepositories
-- De numpy-discussie mailinglijst
-- Stap-overschrijving voor gebruiksvragen
-- Gitter `numpy/numpy`: een real-time chatroom waar gebruikers en community leden elkaar helpen.
-- Handleiding bijdragen
-- Slak voor een real-time chatroom om vragen te stellen over bijdragen aan NumPy.
-- Als u denkt dat u een beveiligingskwetsbaarheid hebt gevonden in NumPy, meld het dan via de gedocumenteerde procedure op https://getijdenis.com/docs/security
+***
+
+### [GitHub issue tracker](https://github.com/numpy/numpy/issues)
+
+- Voor bugrapporten (bijv. "`np.arange(3).shape` retourneert `(5,)`, wanneer het zou moeten terugkeren `(3,)`");
+- documentatieproblemen (bijv. "Ik vond deze sectie onduidelijk");
+- en functies verzoeken (bijv. "Ik zou een nieuwe interpolatiemethode willen hebben in `np.percentile`").
+
+_Please note that GitHub is not the right place to report a security vulnerability. If you think you have found a security vulnerability in NumPy, please report it [here](https://tidelift.com/docs/security)._
+
+***
+
+### [Slack](https://numpy-team.slack.com)
+
+A real-time chat room to ask questions about _contributing_ to NumPy. This is a private space, specifically meant for people who are hesitant to bring up their questions or ideas on a large public mailing list or on GitHub. Please see [here](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) for more details and how to get an invite.
+
+
+## Studeer groepen en vergaderingen
+
+If you would like to find a local meetup or study group to learn more about NumPy and the wider ecosystem of Python packages for data science and scientific computing, we recommend exploring the [PyData meetups](https://www.meetup.com/pro/pydata/) (150+ meetups, 100,000+ members).
+
+NumPy also organizes in-person sprints for its team and interested contributors occasionally. These are typically planned several months in advance, and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and on [Twitter](https://twitter.com/numpy_team).
+
+
+## Conferenties
+
+The NumPy project doesn't organize its own conferences. The conferences that have traditionally been most popular with NumPy maintainers, contributors and users are the SciPy and PyData conference series:
+
+- [SciPy US](https://conference.scipy.org)
+- [EuroSciPy](https://www.euroscipy.org)
+- [SciPy Latin America](https://www.scipyla.org)
+- [SciPy India](https://scipy.in)
+- [SciPy Japan](https://conference.scipy.org)
+- [PyData conferences](https://pydata.org/event-schedule/) (15 tot 20 evenementen per jaar verspreid over veel landen)
+
+Many of these conferences include tutorial days that cover NumPy and/or sprints where you can learn to contribute to NumPy or related open source projects.
+
+
+## Word lid van de NumPy gemeenschap
+
+To thrive, the NumPy project needs your expertise and enthusiasm. Not a coder? Not a problem! There are many ways to contribute to NumPy.
+
+If you are interested in becoming a NumPy contributor (yay!) we recommend checking out our [Contribute](/contribute) page.
+
