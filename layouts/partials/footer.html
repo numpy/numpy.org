@@ -6,7 +6,7 @@
   <div class="container">
     <div id="footer-columns" class="columns">
       <div class="footer-logo-column">
-        <img id="footer-logo" src="{{ printf "/images/logos/%s" $logo | relURL }}">
+        <img id="footer-logo" src="{{ printf "/images/logos/%s" $logo | relURL }}" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
       </div>
       {{- range $quickLinks }}
         <div class="link-column">
@@ -30,9 +30,9 @@
             <p>Sign up for the latest NumPy news, resources, and more!</p>
             <div class="sign-up-container">
                 <i class="fal fa-envelope sign-up-image"></i>
-                <input id="email" class="sign-up-input" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') enterEmail()" />
+                <input aria-label="Input for email" id="email" class="sign-up-input" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') enterEmail()" />
                 <div class="submission-instructions">Press Enter</div>
-                <button class="signup-button" onclick="enterEmail()">
+                <button class="signup-button" onclick="enterEmail()" aria-label="Submit">
                     <i class="fal fa-paper-plane"></i>
                 </button>
             </div>
