@@ -22,4 +22,3 @@ If you use `pip`, you can install it with:
 ```bash
 pip install numpy
 ```
-If your Python is installed in a place where you don't have user-level write permissions (e.g. because it came with your operating system), we advise you either install a separate Python or use `pip install numpy --user`.
