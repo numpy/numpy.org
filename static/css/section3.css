@@ -3,6 +3,11 @@
     margin: 35px 0 0 0;
 }
 
+.section3 a:hover {
+    text-decoration: none;
+    color:black
+}
+
 .section3-title {
     display: flex;
     justify-content: center;
@@ -18,13 +23,14 @@
 .section3-box-content {
     height: 450px;
     width: 20vw;
-    margin: 30px 15px 30px 15px;
+    margin: 30px 15px;
     border-radius: 5px;
 }
 
 .section3-box-title {
     margin: 15px;
     font-size: 16px;
+    color:black;
 }
 
 .section3-box-text {
@@ -32,13 +38,48 @@
     color: black;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 600px) and (max-width: 700px) {
     .section3-box-container {
         flex-direction: column;
     }
-
     .section3-box-content {
+        height: 550px;
         width: 80vw;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 868px) {
+    .section3-box-container {
+        flex-direction: column;
+    }
+    .section3-box-content {
+        height: 600px;
+        width: 80vw;
+    }
+}
+
+@media only screen and (min-width: 869px) and (max-width: 968px) {
+    .section3-box-content {
+        height: 650px;
+        width: 80vw;
+    }
+}
+
+@media only screen and (min-width: 969px) and (max-width: 1100x) {
+    .section3-box-content {
+        height: 700px;
+    }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1279x) {
+    .section3-box-content {
+        height: 800px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .section3-box-content {
+        height: 500px;
     }
 }
 
