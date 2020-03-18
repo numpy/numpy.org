@@ -81,6 +81,9 @@
     .section3-box-content {
         height: 500px;
     }
+    .section3-box-container {
+        flex-wrap: nowrap;
+    }
 }
 
 .section3-underline {
