@@ -1,7 +1,6 @@
 function waitForKernel() {
   let kernelInterval = setInterval(() => {
     try {
-      // if (true) {
       if (thebeKernel) {
         // Hide the enable button & copy, show the shell
         $('#demo-code.fake-shell').css('display', 'none');
