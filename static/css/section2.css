@@ -41,6 +41,14 @@
     }
 }
 
+
+@media only screen and (min-width: 1280px) {
+    .section2-box-content {
+        height: 280px;
+        width: 330px;
+    }
+}
+
 .section2-underline {
     display: inline-block;
     vertical-align: middle;
