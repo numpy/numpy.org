@@ -1,7 +1,6 @@
 .hero-right {
     display: flex;
     width: 100vw;
-    height:40vh;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -103,13 +102,22 @@
     position: relative;
     border: none;
     border-radius: 10px;
-    min-height: 400px;
+    min-height: 430px;
+    max-height: 430px;
     min-width: 500px;
     margin: 15px;
     padding: 0 17px;
     color: #fff;
     background-color: #2e3131;
     font-family: 'Source Code Pro', monospace;
+}
+
+.CodeMirror {
+    max-height: 124px;
+}
+
+.CodeMirror-lines {
+    min-height: 30px!important;
 }
 
 .CodeMirror pre {
@@ -160,10 +168,6 @@
 }
 
 @media only screen and (max-width: 1100px) {
-    .hero-right {
-        height: 60vh;
-    }
-
     .numpy-shell-container {
         flex-direction: column;
         justify-content: space-around;
