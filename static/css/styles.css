@@ -28,7 +28,7 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 8vh auto;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .hero-headline {
