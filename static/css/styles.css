@@ -14,6 +14,7 @@ body {
 }
 
 .hero-container {
+    min-height: 630px;
 }
 
 .hero-content {
@@ -24,9 +25,9 @@ body {
 .hero-title-content {
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
     max-width: 1200px;
-    margin: 10vh auto;
+    margin: 8vh auto;
     justify-content: space-evenly;
 }
 
@@ -85,11 +86,6 @@ body {
 
 .mt-30 {
     margin-top: 30px;
-}
-
-#section2-image {
-    padding: 15px;
-    width: 125px;
 }
 
 h2 {
