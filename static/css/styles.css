@@ -2,6 +2,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+em {
+    color: black !important;
+}
+
 .flex-row {
     display: flex;
     flex-direction: row;
