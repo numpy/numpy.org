@@ -11,8 +11,8 @@ params:
     image: logos/numpy.svg
     link: /
   font:
-    name: "Ubuntu"
-    sizes: [400,600]
+    name: "Lato"
+    sizes: [400,900]
   hero:
     # Main hero title
     title: NumPy

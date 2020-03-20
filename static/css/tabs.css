@@ -66,8 +66,8 @@
 }
 
 .image-grid > div {
-    background-color: light gray;
-    border: 2px solid #f4f4e9;
+    background-color: #eee;
+    border: 2px solid #fff;
     border-radius: 10px;
     padding: 10px;
 }
@@ -83,7 +83,7 @@ td > a {
 }
 
 tr.highlight-th {
-    border-top: 1px solid #dddddd;
+    border-top: 1px solid #ececec;
     font-size: 0.8rem;
 }
 
@@ -115,7 +115,7 @@ td.full-center-text {
 td.lastrow-center-text {
     text-align: center;
     line-height: 35%;
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #ececec;
 }
 
 /* Array Libraries */

@@ -1,5 +1,5 @@
 .section3 {
-    padding: 30px; 
+    padding: 30px;
     margin: 35px 0 0 0;
 }
 
@@ -103,7 +103,7 @@
     left: 0;
     right: 100%;
     bottom: 0;
-    background: #013343;
+    background: #013243;
     height: 4px;
     -webkit-transition-property: right;
     transition-property: right;
