@@ -28,8 +28,8 @@
                     {{ partial "shell-content.html" . }}
                     <!-- Interactive Shell -->
                     <div class="fake-shell" id="demo-code">
-                        <div class="demo-caret">&gt;</div>
-                        <button class="shell-enable-button shell-button" onclick="loadShell();">
+                        <div class="demo-caret" aria-label="interactive shell prompt">&gt;</div>
+                        <button class="shell-enable-button shell-button" onclick="loadShell();" aria-label="Enables the interactive tutorial shell">
                             Enable
                             <div class="loader-container">
                                 <div id="shell-loader" class="loader"></div>

@@ -10,7 +10,7 @@ function waitForKernel() {
         // We need a more specific attribute to add the caret.
         $('.thebelab-cell').attr('id', 'demo-code');
         // Adds the caret
-        $('#numpy-shell #demo-code').prepend('<div class="demo-caret">&gt;</div>');
+        $('#numpy-shell #demo-code').prepend('<div class="demo-caret" aria-label="interactive shell prompt">&gt;</div>');
 
         // Style the 'Run' button
         $('.thebelab-button').each(function(idx) {
