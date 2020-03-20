@@ -9,7 +9,7 @@
 
 .section3-title {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     letter-spacing: 1.5px;
     font-size: 27px;
 }
@@ -17,7 +17,7 @@
 .section3-box-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .section3-box-content {
@@ -26,7 +26,6 @@
     width: 350px;
     margin: 30px 30px 30px 0;
     border-radius: 3px;
-    background-color: #f2f1ef;
 }
 
 .section3 a {

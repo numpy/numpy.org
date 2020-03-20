@@ -15,7 +15,7 @@
 
 .tabs-title {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     letter-spacing: 1.5px;
     font-size: 27px;
     margin: 30px 0;
