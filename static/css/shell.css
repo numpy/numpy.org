@@ -102,12 +102,13 @@
     position: relative;
     border: none;
     border-radius: 10px;
-    min-height: 430px;
-    max-height: 430px;
+    min-height: 460px;
+    max-height: 460px;
     min-width: 500px;
     margin: 15px;
     padding: 0 17px;
     color: #fff;
+    overflow: auto;
     background-color: #2e3131;
     font-family: 'Source Code Pro', monospace;
 }
@@ -164,7 +165,7 @@
 
 #demo-output {
     position: absolute;
-    top: 135px;
+    top: 88px;
 }
 
 @media only screen and (max-width: 1100px) {
