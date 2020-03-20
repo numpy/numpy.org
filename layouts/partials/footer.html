@@ -30,7 +30,7 @@
             <p>Sign up for the latest NumPy news, resources, and more!</p>
             <div class="sign-up-container">
                 <i class="fal fa-envelope sign-up-image"></i>
-                <input aria-label="Input for email" id="email" class="sign-up-input" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') enterEmail()" />
+                <input aria-label="Input for email, press enter to submit" id="email" class="sign-up-input" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') enterEmail()" />
                 <div class="submission-instructions">Press Enter</div>
                 <button class="signup-button" onclick="enterEmail()" aria-label="Submit">
                     <i class="fal fa-paper-plane"></i>
@@ -40,7 +40,7 @@
             <nav class="level is-mobile">
                 <div class="social-media-icons">
                     {{- range $socialMedia }}
-                    <a class="level-item" href="{{ .link }}">
+                    <a class="level-item" href="{{ .link }}" aria-label="{{ .link }}">
                     <span class="icon"><i class="fa fa-{{ .icon }}"></i></span>
                     </a>
                     {{- end }}
