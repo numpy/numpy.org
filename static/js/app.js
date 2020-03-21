@@ -61,21 +61,16 @@ $('.sign-up-input').focus(function(e) {
 
 
 function sendThankYou() {
+  // Hides the email form to show a thank you
   $('.sign-up-container').css('display', 'none');
   $('.thank-you').css('display', 'flex');
 
   setTimeout(() => {
-    $('#email').val('');
+    // Resets email input to empty string
+    $('#mce-EMAIL').val('');
     $('.thank-you').css('display', 'none');
     $( ".sign-up-container" ).fadeIn( "slow");
-  }, 3000);
-}
-
-// Mailchimp
-function enterEmail() {
-  sendThankYou();
-  const email = $('#email').val();
-  // Mailchimp integration goes here
+  }, 8000);
 }
 
 // Content Page Shortcuts

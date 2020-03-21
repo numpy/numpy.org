@@ -202,12 +202,16 @@ p {
     margin: 25px;
 }
 
+.footer-actions p {
+    margin: 0;
+}
+
 .sign-up-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     position: relative;
-    margin: 15px 0 25px 0;
+    height: 75px;
 }
 
 .sign-up-image {
