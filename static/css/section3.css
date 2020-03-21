@@ -1,6 +1,5 @@
 .section3 {
     padding: 30px;
-    margin: 35px 0 0 0;
 }
 
 .section3 a:hover {
@@ -11,7 +10,8 @@
 .section3-title {
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    letter-spacing: 1.5px;
+    font-size: 27px;
 }
 
 .section3-box-container {
@@ -22,67 +22,37 @@
 
 .section3-box-content {
     height: 450px;
-    width: 20vw;
-    margin: 30px 15px;
-    border-radius: 5px;
+    min-width: 275px;
+    width: 350px;
+    margin: 30px 30px 30px 0;
+    border-radius: 3px;
+}
+
+.section3 a {
+    color: #333 !important;
 }
 
 .section3-box-title {
     margin: 15px;
     font-size: 16px;
-    color:black;
+    text-transform: uppercase;
 }
 
 .section3-box-text {
     margin: 30px 15px;
-    color: black;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1290px) {
+    .section3-box-container {
+        justify-content: center;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 700px) {
     .section3-box-container {
         flex-direction: column;
-    }
-    .section3-box-content {
-        height: 550px;
-        width: 80vw;
-    }
-}
-
-@media only screen and (min-width: 701px) and (max-width: 868px) {
-    .section3-box-container {
-        flex-direction: column;
-    }
-    .section3-box-content {
-        height: 600px;
-        width: 80vw;
-    }
-}
-
-@media only screen and (min-width: 869px) and (max-width: 968px) {
-    .section3-box-content {
-        height: 650px;
-        width: 80vw;
-    }
-}
-
-@media only screen and (min-width: 969px) and (max-width: 1100x) {
-    .section3-box-content {
-        height: 700px;
-    }
-}
-
-@media only screen and (min-width: 1101px) and (max-width: 1279x) {
-    .section3-box-content {
-        height: 800px;
-    }
-}
-
-@media only screen and (min-width: 1280px) {
-    .section3-box-content {
-        height: 500px;
-    }
-    .section3-box-container {
-        flex-wrap: nowrap;
+        align-items: center;
     }
 }
 

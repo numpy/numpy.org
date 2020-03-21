@@ -8,10 +8,17 @@
     flex-direction: column;
 }
 
+.tabs-section .container {
+    display: flex;
+    flex-direction: column;
+}
+
 .tabs-title {
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    letter-spacing: 1.5px;
+    font-size: 27px;
+    margin: 30px 0;
 }
 
 .visualization, .data-science, .scientific-domains, .machine-learning, .array-libraries {
@@ -38,8 +45,12 @@
 }
 
 @media only screen and (max-width: 1200px) {
-    #tabs-content {
-        margin-left: 30px;
+    .tabs-section {
+        margin: 30px 10px;
+    }
+
+    .tabs-title {
+        margin: 30px;
     }
 }
 
@@ -52,6 +63,12 @@
 .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: middle;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        display: block;
+    }
 }
 
 /* Visualization */
