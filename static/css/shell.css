@@ -84,10 +84,18 @@
 
 .shell-lesson {
     display: none;
-    align-items: center;
-    justify-content: center;
-    height: 30%;
-    width: 100%;
+    text-align: left;
+    padding: 15px;
+    height: 100%;
+    width: 60%;
+}
+
+.shell-lesson > p {
+    margin: 2px 0 2px 0;
+}
+
+.highlight:not(:last-child) {
+    margin-bottom: 1px !important;
 }
 
 .demo-caret {
