@@ -24,25 +24,28 @@ from a sidewalk café in Paris!
 
 [resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
 
-### Key Imaging Objectives
+### Key Goals and Results
 
-* To study the most extreme objects in the Universe predicted by Einstein’s
-  theory of general relativity, during the centennial year of the historic
-  experiment that first confirmed the theory (2017).
+* The EHT is an exciting new tool for studying the most extreme objects in the
+  universe. The EHT's groundbreaking first result was published 100 years
+  after [Sir Arthur Eddington's expidition][eddington] yielded the first 
+  observational evidence in support of Einstein's theory of general relativity.
 
-* Focus on the [black hole](https://solarsystem.nasa.gov/resources/2319/first-image-of-a-black-hole/)
-  at the center of Messier 87 galaxy, located in the Virgo galaxy cluster.
+* The EHT's first image focuses on the supermassive black hole at the center
+  of the galaxy Messier 87 (M87), located in the Virgo galaxy cluster.
   This black hole resides approximately 55 million light-years from Earth and
   has a mass equal  to 6.5 billion times that of the Sun. It has been a
   subject of astronomical study for
   [over a 100 years](https://www.jpl.nasa.gov/news/news.php?feature=7385).
-  Black holes have been theoretically predicted and observed but a real image
-  was never created until now.
+  Black holes have long been the object of intense study but the EHT provides
+  the first direct visual evidence of one of these extreme objects.
 
-* Based on Einstein’s general theory of relativity, the scientists expected to
+* Based on Einstein’s general theory of relativity, scientists expected 
   see a dark region similar to a shadow, caused by the gravitational bending
   and capture of light by the event horizon. By studying this shadow
   scientists could measure the enormous mass of M87’s black hole.
+
+[eddington]: https://en.wikipedia.org/wiki/Eddington_experiment
 
 ### The Challenges
 
