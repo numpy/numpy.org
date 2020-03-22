@@ -14,15 +14,15 @@ sidebar: false
 
 The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org), is an
 array of eight ground-based radio telescopes forming a computational telescope
-the size of the earth, that are designed to study extreme objects in the
-universe, with unprecedented sensitivity and resolution.  It is a worldwide
-network of eight pre-existing telescopes based on a technique called
-very-long-baseline interferometry (VLBI). This technique is used to
-synchronize these telescopes deployed across the globe to form one huge,
-Earth-size telescope capable of observing at a wavelength of 1.3 mm. This
-means EHT can achieve an angular resolution of
-[20 micro-arcseconds](https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole) —
-enough to read a newspaper in New York from a sidewalk café in Paris!
+the size of the earth, designed to study extreme objects in the
+universe with unprecedented sensitivity and resolution.  The worldwide
+network of radio-telescopes comprises a virtual telescope based on a technique
+called very-long-baseline interferometry (VLBI).
+Using this technique, the EHT is able to achieve an angular resolution of
+[20 micro-arcseconds][resolution] — enough to read a newspaper in New York
+from a sidewalk café in Paris!
+
+[resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
 
 ### Key Imaging Objectives
 
