@@ -74,7 +74,7 @@ Making the installation of all the packages your analysis, library or applicatio
 
 The problem with Python packaging is that sooner or later, something will break. It's not often this bad,
 
-{{< figure src="/images/content_images/python_environment_xkcd.png" alt="Python Environment XKCD image" link="https://xkcd.com/1987/" width=400 attr="_XKCD illustration - Python environment degradation_">}}
+{{< figure src="/images/content_images/python_environment_xkcd.png" alt="Python Environment XKCD image" link="https://xkcd.com/1987/" width="400" attr="_XKCD illustration - Python environment degradation_">}}
 
 but it does degrade over time. Hence, it's important to be able to delete and reconstruct the set of packages you have installed.
 
