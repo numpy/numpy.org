@@ -4,6 +4,10 @@ title: NumPy
 theme: hugo-fresh
 disableKinds: ["taxonomyTerm"]
 DefaultContentLanguage: en
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 params:
   navColor: blue
