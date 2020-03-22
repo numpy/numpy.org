@@ -4,6 +4,10 @@ title: NumPy
 theme: hugo-fresh
 disableKinds: ["taxonomyTerm"]
 DefaultContentLanguage: en
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 params:
   navColor: blue
@@ -11,8 +15,8 @@ params:
     image: logos/numpy.svg
     link: /
   font:
-    name: "Ubuntu"
-    sizes: [400,600]
+    name: "Lato"
+    sizes: [400,900]
   hero:
     # Main hero title
     title: NumPy
@@ -21,7 +25,7 @@ params:
     # Button text
     buttontext: Get started
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "/learn"
     # Hero image (from static/images/___)
     image: logos/numpy.svg
   # Customizable navbar. For a dropdown, add a "sublinks" list.

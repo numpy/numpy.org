@@ -3,13 +3,14 @@ function waitForKernel() {
     try {
       if (thebeKernel) {
         // Hide the enable button & copy, show the shell
-        $('.numpy-shell-canvas').css('display', 'none');
+        $('#demo-code.fake-shell').css('display', 'none');
+        $('#numpy-shell.real-shell').css('display', 'flex');
         $('#numpy-shell').addClass('numpy-shell-border');
 
         // We need a more specific attribute to add the caret.
         $('.thebelab-cell').attr('id', 'demo-code');
         // Adds the caret
-        $('#demo-code').prepend('<div class="demo-caret">&gt;</div>');
+        $('#numpy-shell #demo-code').prepend('<div class="demo-caret" aria-label="interactive shell prompt">&gt;</div>');
 
         // Style the 'Run' button
         $('.thebelab-button').each(function(idx) {
@@ -25,7 +26,8 @@ function waitForKernel() {
         $('.jp-OutputArea').parent().closest('div').attr('id', 'demo-output-parent');
         $('.jp-OutputArea').attr('id', 'demo-output');
 
-        // Show the lesson
+        // Show the lesson & hide the 'wait' text
+        $('.shell-wait').css('display', 'none');
         $('.shell-lesson').css('display', 'flex');
         clearInterval(kernelInterval);
       }
@@ -39,12 +41,9 @@ function waitForKernel() {
 
 function loadShell() {
   $('#shell-loader').css('display', 'inline-block');
-  // Animation
-  $('.numpy-shell-container').animate({height: '70%'});
-
   // Add 'wait' text
-  $('.shell-title').text('While we wait...');
-  $('.shell-intro-message').text('Don\'t forget to check out the docs here: www...');
+  $('.shell-intro').css('display', 'none');
+  $('.shell-wait').css('display', 'flex');
   thebelab.bootstrap();
   waitForKernel();
 }
@@ -62,21 +61,16 @@ $('.sign-up-input').focus(function(e) {
 
 
 function sendThankYou() {
+  // Hides the email form to show a thank you
   $('.sign-up-container').css('display', 'none');
   $('.thank-you').css('display', 'flex');
 
   setTimeout(() => {
-    $('#email').val('');
+    // Resets email input to empty string
+    $('#mce-EMAIL').val('');
     $('.thank-you').css('display', 'none');
     $( ".sign-up-container" ).fadeIn( "slow");
-  }, 3000);
-}
-
-// Mailchimp
-function enterEmail() {
-  sendThankYou();
-  const email = $('#email').val();
-  // Mailchimp integration goes here
+  }, 8000);
 }
 
 // Content Page Shortcuts
