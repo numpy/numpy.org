@@ -3,7 +3,7 @@ title: "Case Study: Discovery of Gravitational Waves"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/gw_sxs_image.png" class="fig-center" caption="**Gravitational Waves**" alt="binary coalesce black hole generating gravitational waves" attr="(**Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO** )" attrlink="https://youtu.be/Zt8Z_uzG71o" >}}
+{{< figure src="/images/content_images/cs/gw_sxs_image.png" class="fig-center" caption="**Gravitational Waves**" alt="binary coalesce black hole generating gravitational waves" attr="*(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)*" attrlink="https://youtu.be/Zt8Z_uzG71o" >}}
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
     <p>The scientific Python ecosystem is critical infrastructure for the research done at LIGO.</p>
@@ -45,12 +45,13 @@ made from warped spacetime.
   astrophysics, cosmology, particle physics, and nuclear physics.
 * Crunch observed data via numerical relativity computations that involves
   complex maths in order to discern signal from noise, filter out relevant
-  signal and statistically estimate significance of observed data 
+  signal and statistically estimate significance of observed data
 * Data visualization so that the binary / numerical results can be
   comprehended.
- 
 
-### The Challenges 
+
+
+### The Challenges
 
 * **Computation**
 
@@ -61,7 +62,7 @@ made from warped spacetime.
     complex relativity equations and huge amounts of data which present a
     computational challenge:
     [O(10^7) CPU hrs needed for binary merger analyses](https://youtu.be/7mcHknWWzNI)
-    spread on 6 dedicated LIGO clusters 
+    spread on 6 dedicated LIGO clusters
 
 * **Data Deluge**
 
@@ -89,7 +90,7 @@ made from warped spacetime.
 {{< figure src="/images/content_images/cs/gw_strain_amplitude.png" class="fig-center" alt="gravitational waves strain amplitude" caption="**Estimated gravitational-wave strain amplitude from GW150914**" attr="(**Graph Credits:** Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)" attrlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
 
 ## NumPy’s Role in the detection of Gravitational Waves
-	
+
 Gravitational waves emitted from the merger cannot be computed using any
 technique except brute force numerical relativity using supercomputers.
 The amount of data LIGO collects is as incomprehensibly large as gravitational
@@ -111,12 +112,13 @@ speed.  Here are some examples:
 * Visualization of data
   - Time series
   - Spectrograms
-* Compute Correlations 
+* Compute Correlations
 * Key [Software](https://github.com/lscsoft) developed in GW data analysis
   such as [GwPy](https://gwpy.github.io/docs/stable/overview.html) and
   [PyCBC](https://pycbc.org) uses NumPy and AstroPy under the hood for
   providing object based interfaces to utilities, tools and methods for
   studying data from gravitational-wave detectors.
+
 
 ## Summary
 

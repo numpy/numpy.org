@@ -4,9 +4,10 @@ sidebar: false
 ---
 
 {{< figure src="/images/content_images/cs/ipl-stadium.png"
-caption="**IPLT20 the biggest Cricket Festival in India**"
-alt="IPLCricket" attr="(**Photo** - Cup and Logo: IPLT20, Cricket Stadium Akash Yadav/Unsplash)"
-attrlink="https://unsplash.com/@aksh1802?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyTexgt" >}}
+           caption="**IPLT20, the biggest Cricket Festival in India**"
+           alt="Indian Premier League Cricket"
+           attr="*(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))*"
+           attrlink="https://unsplash.com/@aksh1802" >}}
 
 <blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
     <p>You don't play for the crowd, you play for the country.</p>
@@ -118,7 +119,7 @@ analytics queries requires highly granular dataset availability and the
 capability to synthesize data and create generative models that are highly
 accurate.
 
-## NumPy’s Role Cricket Analytics
+## NumPy’s Role in Cricket Analytics
 
 Sports Analytics is a thriving field. It utilizes several Python based software
 including NumPy, Matplotlib, Sci-kit learn, PyCharm, Jupyter and
