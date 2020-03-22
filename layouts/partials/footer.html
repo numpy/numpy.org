@@ -31,7 +31,7 @@
             <!-- Begin Mailchimp -->
             <form action="https://numpy.us4.list-manage.com/subscribe/post?u=5ddd0d1d6e807900a8212481a&amp;id=287fa4253c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sign-up-container" target="_blank" novalidate>
                 <i class="fal fa-envelope sign-up-image"></i>
-                <input type="email" value="" name="EMAIL" class="required email sign-up-input" id="mce-EMAIL" aria-label="Input for email" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') sendThankYou()" />
+                <input type="email" value="" name="EMAIL" class="required email sign-up-input" id="mce-EMAIL" aria-label="Input for email, press enter to submit" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') sendThankYou()" />
                 <div class="submission-instructions">Press Enter</div>
                 <button class="signup-button" onclick="sendThankYou()" aria-label="Submit">
                     <i class="fal fa-paper-plane"></i>
@@ -50,7 +50,7 @@
             <nav class="level is-mobile">
                 <div class="social-media-icons">
                     {{- range $socialMedia }}
-                    <a class="level-item" href="{{ .link }}">
+                    <a class="level-item" href="{{ .link }}" aria-label="{{ .link }}">
                     <span class="icon"><i class="fa fa-{{ .icon }}"></i></span>
                     </a>
                     {{- end }}
