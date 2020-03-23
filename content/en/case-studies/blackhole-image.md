@@ -74,14 +74,25 @@ from a sidewalk café in Paris!
 
 ## NumPy’s Role in Black Hole Imaging
 
-There are several aspects to black hole imaging besides data collection, noise
-elimination, data cleanup, reduction and correlation. Imaging is crucial as it
-can help  to predict not only the black hole mass but also rule out whether a
-black hole could be a wormhole, a theoretical bridge between distant points
-in spacetime. But it is also incredibly hard to measure given the astronomical
-distances involved. As Katie Bouman mentions in her
-[TED talk](https://www.youtube.com/watch?v=BIvezCVcsYs),
-‘It is like taking a picture of an orange on the surface of the moon.’
+While collecting, curating, and processing the data from the EHT facilities 
+represents a monumental challenge, it is only the first step in generating
+an image from the data.
+There are many approaches to image reconstruction, each incorporating unique
+assumptions and constraints in order to solve the ill-posed problem of 
+recovering an image of the black hole from the collected data.
+But how can anyone be confident that the image that's produced is correct?
+What if there's a problem with the data? Or perhaps an algorithm relies too
+heavily on a particular assumption? Will the image change drastically if a
+single parameter is changed?
+The EHT collaboration met these challenges by having independent teams 
+evaluate the data using both established and cutting-edge image reconstruction
+techniques to verify that the resulting images were consistent.
+Results from these independent teams of researchers were combined to yield the
+first-of-a-kind image of the black hole.
+This approach is a powerful example of the importance of reproducibility and
+collaboration to modern scientific discovery --- and illustrates the role that
+the scientific Python ecosystem plays in supporting scientific advancement
+through collaborative data analysis.
 
 {{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**The role of NumPy in Black Hole imaging**" >}}
 
