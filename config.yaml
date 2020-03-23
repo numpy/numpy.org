@@ -52,14 +52,17 @@ params:
     title: KEY FEATURES
     features:
     - title: Powerful N-dimensional arrays
-      subtitle: Fast, versatile and easy to use
-      text:  Fast, versatile and easy to use, the NumPy vectorization, indexing and broadcasting concepts are the de-facto standards of array computing today.
+      text:  Fast and versatile, the NumPy vectorization, indexing and broadcasting concepts are the de-facto standards of array computing today.
     - title: Numerical computing tools
-      text: Fundamental package for scientific computing, NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms and more.
+      text: NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms and more.
     - title: Interoperable
-      text: Works on your choice of computing platform, whether your code fits in memory and runs on a CPU or requires a GPU. NumPy supports a wide range of computing platforms and works well with all major distributed arrays and sparse arrays libraries. 
+      text: NumPy supports a wide range of hardware and computing platforms, and plays well with distributed, GPU and sparse array libraries.
+    - title: Performant
+      text: The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
+    - title: Easy to use
+      text: NumPy's high level syntax makes it accessible to and productive for programmers from any background or experience level.
     - title: Open source
-      text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained publicly on GitHub by a vibrant, responsive and diverse community.
+      text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive and diverse [community](/community).
   tabs:
     title: ECOSYSTEM
   section5: false
