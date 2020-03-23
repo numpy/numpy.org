@@ -117,14 +117,13 @@ of the final image of the black hole.
 ## Summary
 
 NumPy enabled researchers to manipulate large numerical datasets through its
-efficient data structures of vectors and matrices leading to imaging and
-plotting of the first ever image of a black hole. Imaging of M87 black hole is
-a major scientific feat that was almost presumed impossible a century ago.  In
-a way, black hole image has helped in a stunning confirmation of Einstein’s
-general theory of relativity. This is not only a breakthrough in technology,
-but an example of international scale collaboration that uses connections
-between the world's best radio observatories, over 200 scientists worked with
-observations collected over 10 days and analyzed for over a year. They used
+efficient and generic n-dimensional array, leading to the first ever image of
+a black hole. The direct imaging of a black hole is
+a major scientific accomplishment providing stunning, visual evidence ofEinstein’s
+general theory of relativity. This achievement encompasses not only a
+breakthrough in technology, but international-scale scientific collaboration
+connections between the world's best radio observatories, and among over 200
+scientists. They used
 innovative algorithms and data processing techniques improving upon existing
 astronomical models to help unfold some of the mysteries of the universe.
 
