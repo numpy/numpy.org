@@ -43,7 +43,8 @@ from a sidewalk café in Paris!
 * Based on Einstein’s general theory of relativity, scientists expected 
   see a dark region similar to a shadow, caused by the gravitational bending
   and capture of light by the event horizon. By studying this shadow
-  scientists could measure the enormous mass of M87’s black hole.
+  scientists could measure the enormous mass of M87’s central supermassive
+  black hole.
 
 [eddington]: https://en.wikipedia.org/wiki/Eddington_experiment
 
@@ -63,12 +64,11 @@ from a sidewalk café in Paris!
     Terabytes worth of observed data per day, stored on high-performance
     helium filled hard drives.
 
-* **Source Imaging and Model Fitting**
+* **Image Reconstruction**
 
-    The sequence of correlation and engineering releases represents a
-    year-long effort of identifying and mitigating data issues, and developing
-    new software and procedures that could reliably choose the most likely
-    image based on actual measurements.
+    How are the calibrated data processed to produce an image of something that
+    has never before been directly imaged? How can scientists be confident
+    that the image is correct?
 
 {{< figure src="/images/content_images/cs/dataprocessbh.png" class="csfigcaption" caption="**EHT Data Processing Pipeline**" alt="data pipeline" align="middle" attr="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)" attrlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
 
