@@ -10,13 +10,13 @@ sidebar: false
     <footer align="right">—Katie Bouman, <cite>Assistant Professor, Computing & Mathematical Sciences, Caltech</cite></footer>
 </blockquote>
 
-## About Event Horizon Telescope
+## About The Event Horizon Telescope
 
 The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org), is an
 array of eight ground-based radio telescopes forming a computational telescope
 the size of the earth, designed to study extreme objects in the
 universe with unprecedented sensitivity and resolution.  The worldwide
-network of radio-telescopes comprises a virtual telescope based on a technique
+network of radio telescopes comprises a virtual telescope based on a technique
 called very-long-baseline interferometry (VLBI).
 Using this technique, the EHT is able to achieve an angular resolution of
 [20 micro-arcseconds][resolution] — enough to read a newspaper in New York
@@ -27,7 +27,7 @@ from a sidewalk café in Paris!
 ### Key Goals and Results
 
 * The EHT is an exciting new tool for studying the most extreme objects in the
-  universe. The EHT's groundbreaking first result was published 100 years
+  universe. The EHT's groundbreaking image was published 100 years
   after [Sir Arthur Eddington's expidition][eddington] yielded the first 
   observational evidence in support of Einstein's theory of general relativity.
 
@@ -38,7 +38,7 @@ from a sidewalk café in Paris!
   subject of astronomical study for
   [over a 100 years](https://www.jpl.nasa.gov/news/news.php?feature=7385).
   Black holes have long been the object of intense study but the EHT provides
-  the first direct visual evidence of one of these extreme objects.
+  the first direct visual evidence of these extreme phenomena.
 
 * Based on Einstein’s general theory of relativity, scientists expected 
   see a dark region similar to a shadow, caused by the gravitational bending
@@ -68,7 +68,8 @@ from a sidewalk café in Paris!
 
     How are the calibrated data processed to produce an image of something that
     has never before been directly imaged? How can scientists be confident
-    that the image is correct?
+    that the image is correct? These are some of the challenges overcome in
+    the analysis to produce the image.
 
 {{< figure src="/images/content_images/cs/dataprocessbh.png" class="csfigcaption" caption="**EHT Data Processing Pipeline**" alt="data pipeline" align="middle" attr="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)" attrlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
 
@@ -90,7 +91,7 @@ techniques to verify that the resulting images were consistent.
 Results from these independent teams of researchers were combined to yield the
 first-of-a-kind image of the black hole.
 This approach is a powerful example of the importance of reproducibility and
-collaboration to modern scientific discovery --- and illustrates the role that
+collaboration to modern scientific discovery, and illustrates the role that
 the scientific Python ecosystem plays in supporting scientific advancement
 through collaborative data analysis.
 
@@ -99,31 +100,35 @@ through collaborative data analysis.
 For example, the [`eht-imaging`][ehtim] Python package provides tools for
 simulating and performing image reconstruction on VLBI data. 
 NumPy is at the core of array data processing used
-in this software package as indicated by the partial software
+in this package as illustrated by the partial software
 dependency chart below.
 
 {{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Software dependency chart of ehtim package highlighting NumPy**" >}}
 
+[ehtim]: https://github.com/achael/eht-imaging
 
-Besides NumPy, there were other packages such as
-[SciPy](https://www.scipy.org), [Pandas](https://pandas.io) and
-[Matplotlib](https://matplotlib.org) that helped in imaging and
-[data processing for imaging the black hole](https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57).
+Besides NumPy, many other packages such as
+[SciPy](https://www.scipy.org) and [Pandas](https://pandas.io) were used in the
+data processing pipeline for imaging the black hole.
 The standard astronomical file formats and time/coordinate transformations
-were handled by [Astropy](https://www.astropy.org) while Matplotlib was used
+were handled by [Astropy][astropy] while [Matplotlib][mpl] was used
 in visualizing data throughout the analysis pipeline, including the generation
 of the final image of the black hole.
+
+[astropy]: https://www.astropy.org/
+[mpl]: https://matplotlib.org/
 
 ## Summary
 
 NumPy enabled researchers to manipulate large numerical datasets through its
-efficient and generic n-dimensional array, leading to the first ever image of
+efficient and generic n-dimensional array, providing a foundation for the
+software used to generated the first ever image of
 a black hole. The direct imaging of a black hole is
-a major scientific accomplishment providing stunning, visual evidence ofEinstein’s
-general theory of relativity. This achievement encompasses not only a
-breakthrough in technology, but international-scale scientific collaboration
-connections between the world's best radio observatories, and among over 200
-scientists. They used
+a major scientific accomplishment providing stunning, visual evidence of Einstein’s
+general theory of relativity. This achievement encompasses not only
+technological breakthroughs, but international-scale scientific collaboration
+between over 200 scientists and some of the world's best radio observatories.
+They used
 innovative algorithms and data processing techniques improving upon existing
 astronomical models to help unfold some of the mysteries of the universe.
 
