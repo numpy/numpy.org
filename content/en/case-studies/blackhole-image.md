@@ -96,16 +96,14 @@ through collaborative data analysis.
 
 {{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**The role of NumPy in Black Hole imaging**" >}}
 
-Once the key challenges posed by EHT, data collection and reduction are taken
-care of, the next big challenge in data processing is related to imaging. The
-imaging algorithms form the core of this task as through imaging, scientists
-could calculate the shadow of the black hole which forms the crux of several
-other calculations related to event horizon and nearby objects. One of the key
-algorithms used in imaging was developed by Katie Bouman – Continuous
-High-resolution Image Reconstruction using Patch priors, or ‘CHIRP’. It can
-parse the cumulative telescope data gathered by the Event Horizon Telescope
-project.For imaging tasks, researchers banked on Python to run the datasets on
-these algorithms, arraying and plotting data for meaningful insights.
+For example, the [`eht-imaging`][ehtim] Python package provides tools for
+simulating and performing image reconstruction on VLBI data. 
+NumPy is at the core of array data processing used
+in this software package as indicated by the partial software
+dependency chart below.
+
+{{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Software dependency chart of ehtim package highlighting NumPy**" >}}
+
 
 Besides NumPy, there were other packages such as
 [SciPy](https://www.scipy.org), [Pandas](https://pandas.io) and
@@ -115,22 +113,6 @@ The standard astronomical file formats and time/coordinate transformations
 were handled by [Astropy](https://www.astropy.org) while Matplotlib was used
 in visualizing data throughout the analysis pipeline, including the generation
 of the final image of the black hole.
-
-Andrew Chael and the ehtim project team came up with
-[eht-imaging](https://github.com/achael/eht-imaging) Python modules for
-simulating and manipulating VLBI data and producing images with regularized
-maximum likelihood methods. NumPy is at the core of array data processing used
-in this software package named ehtim as indicated by the partial software
-dependency chart below.
-
-{{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Software dependency chart of ehtim package highlighting NumPy**" >}}
-
-The challenge posed during reconstruction of an image using VLBI measurements
-is that there can be an infinite number of possible images that explain the
-data.  The ehtim software addresses this challenge by implementing algorithms
-that help find a set of most likely reasonable images that respects prior
-scientific assumptions while still satisfying the observed data.
-
 
 ## Summary
 
