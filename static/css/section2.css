@@ -27,6 +27,10 @@
     font-size: 19px;
 }
 
+.section2-box-text > a {
+    color: #0E73D8;
+}
+
 .section2-box-text {
     margin: 30px 15px;
 }
