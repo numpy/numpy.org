@@ -102,7 +102,6 @@ languages:
             - text: Roadmap
               link: https://numpy.org/neps/roadmap.html
         column2:
-          title: ""
           links:
             - text: About us
               link: /about
@@ -115,7 +114,6 @@ languages:
             - text: Contribute
               link: /contribute
         column3:
-          title: ""
           links:
             - text: Terms of use
               link: /terms
