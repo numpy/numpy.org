@@ -83,6 +83,10 @@ transform: translateX(4px);
     text-transform: uppercase;
 }
 
+.section2-box-text > a {
+    color: #0E73D8;
+}
+
 .section2-box-text {
     margin: 30px 15px;
     font-size: 14px;
