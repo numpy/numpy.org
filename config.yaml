@@ -109,7 +109,6 @@ languages:
             - text: Roadmap
               link: https://numpy.org/neps/roadmap.html
         column2:
-          title: ""
           links:
             - text: About us
               link: /about
@@ -120,7 +119,6 @@ languages:
             - text: Code of conduct
               link: /code-of-conduct
         column3:
-          title: ""
           links:
             - text: Get help
               link: /gethelp
