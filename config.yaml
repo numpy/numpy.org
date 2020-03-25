@@ -115,8 +115,6 @@ languages:
               link: /about
             - text: Community
               link: /community
-            - text: Code of conduct
-              link: /code-of-conduct
             - text: Get help
               link: /gethelp
             - text: Contribute
@@ -128,8 +126,8 @@ languages:
               link: /terms
             - text: Privacy
               link: /privacy
-            - text: Trademarks
-              link: /trademarks
+            - text: Code of conduct
+              link: /code-of-conduct
             - text: Press kit
               link: /press-kit
   nl:
@@ -179,8 +177,6 @@ languages:
           links:
             - text: About us
               link: /nl/about
-            - text: Code of conduct
-              link: /nl/code-of-conduct
             - text: Get help
               link: /nl/gethelp
             - text: Contribute
@@ -192,7 +188,7 @@ languages:
               link: /nl/terms
             - text: Privacy
               link: /nl/privacy
-            - text: Trademarks
-              link: /nl/trademarks
+            - text: Code of conduct
+              link:  /nl/code-of-conduct
             - text: Press kit
               link: /nl/press-kit
