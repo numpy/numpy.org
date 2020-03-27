@@ -98,5 +98,5 @@ In the conda-forge channel, NumPy is built against a dummy "BLAS" package. When 
 
 Besides install sizes, performance and robustness, there are two more things to consider:
 - Intel MKL is not open source. For normal use this is not a problem, but if the user needs to redistribute an application built with NumPy, this could be an issue.
-- Both MKL and OpenBLAS will use multi-threading for function calls like `np.dot`, with the number of threads being determined by both a build-time option and an environment variable. Often all CPU cores will be used. This is sometimes unexpected for users; NumPy itself doesn't auto-parallize any function calls. It can also be harmful for performance, for example when using another level of parallellization manually or with, e.g. Dask or scikit-learn functionality.
+- Both MKL and OpenBLAS will use multi-threading for function calls like `np.dot`, with the number of threads being determined by both a build-time option and an environment variable. Often all CPU cores will be used. This is sometimes unexpected for users; NumPy itself doesn't auto-parallelize any function calls. It can also be harmful for performance, for example when using another level of parallelization manually or with, e.g. Dask or scikit-learn functionality.
 
