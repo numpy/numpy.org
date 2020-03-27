@@ -37,7 +37,7 @@ On all of Windows, macOS and Linux:
 #### Windows or macOS
 
 - Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
-- Keep the `base` conda environment minimal, and use one or more 
+- Keep the `base` conda environment minimal, and use one or more
   [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
   to install the package you need for the task or project you're working on.
 - Unless you're fine with only the packages in the `defaults` channel, make `conda-forge`
@@ -54,7 +54,7 @@ able to use the latest versions of libraries:
 
 If you use a GPU:
 - Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
-- Keep the `base` conda environment minimal, and use one or more 
+- Keep the `base` conda environment minimal, and use one or more
   [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
   to install the package you need for the task or project you're working on.
 - Use the `defaults` conda channel (`conda-forge` doesn't have good support for
@@ -62,7 +62,7 @@ If you use a GPU:
 
 Otherwise:
 - Install [Miniforge](https://github.com/conda-forge/miniforge)
-- Keep the `base` conda environment minimal, and use one or more 
+- Keep the `base` conda environment minimal, and use one or more
   [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
   to install the package you need for the task or project you're working on.
 
@@ -173,7 +173,7 @@ now have two copies of OpenBLAS on disk.
 In the Conda defaults channel, NumPy is built against Intel MKL. MKL is a
 separate package that will be installed in the user's environment when she
 installs NumPy. That MKL package is a lot larger than OpenBLAS, several hundred
-MB. MKL is typically a little faster and more robust than OpenBLAS. 
+MB. MKL is typically a little faster and more robust than OpenBLAS.
 
 In the conda-forge channel, NumPy is built against a dummy "BLAS" package. When
 the user install NumPy from conda-forge, that BLAS package then gets installed
@@ -189,8 +189,8 @@ consider:
 - Both MKL and OpenBLAS will use multi-threading for function calls like
   `np.dot`, with the number of threads being determined by both a build-time
   option and an environment variable. Often all CPU cores will be used. This is
-  sometimes unexpected for users; NumPy itself doesn't auto-parallize any
+  sometimes unexpected for users; NumPy itself doesn't auto-parallelize any
   function calls. It can also be harmful for performance, for example when
-  using another level of parallellization manually or with, e.g. Dask or
+  using another level of parallelization manually or with, e.g. Dask or
   scikit-learn functionality.
 
