@@ -43,7 +43,7 @@ The NumPy project is growing, we have separate teams for:
 - Funding & grants
 - Admin
 
-See the [Team](/team) page for individual team members.
+See the [Team](/team) page for the individual team members.
 
 
 ## Sponsors

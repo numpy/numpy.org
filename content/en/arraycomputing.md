@@ -29,7 +29,7 @@ pack newer algorithms and features geared towards machine learning and artificia
   title="Array Computing Landscape">
 
 **Array computing** is based on **arrays** data structures. *Arrays* are used
-to organize vast amounts of data such that related set of values can be easily
+to organize vast amounts of data such that a related set of values can be easily
 sorted, searched, mathematically manipulated and transformed easily and quickly.
 
 Array computing is *unique* as it involves operating on the data array *at
