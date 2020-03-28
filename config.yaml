@@ -58,7 +58,7 @@ params:
     - title: Interoperable
       text: NumPy supports a wide range of hardware and computing platforms, and plays well with distributed, GPU and sparse array libraries.
     - title: Performant
-      text: The core of NumPy is a well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
+      text: The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
     - title: Easy to use
       text: NumPy's high level syntax makes it accessible to and productive for programmers from any background or experience level.
     - title: Open source
