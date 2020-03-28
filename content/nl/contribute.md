@@ -23,9 +23,9 @@ Onze gemeenschap streeft ernaar iedereen gelijk te behandelen en alle bijdragen 
 
 ## Hoe te beginnen
 
-Voor het proces van bijdragen aan de NumPy code base hebben we een uitgebreide [developer guide](https://numpy.org/devdocs/dev/index.html). We werken niet met het toewijzen van problemen - als je iets interessants ziet, duik dan alsjeblieft in!
+For the process of contributing to the NumPy code base, we have an extensive [developer guide](https://numpy.org/devdocs/dev/index.html). We werken niet met het toewijzen van problemen - als je iets interessants ziet, duik dan alsjeblieft in!
 
-Voor andere activiteiten zullen we proberen enige begeleiding te geven op deze pagina. Als je niet zeker weet waar je aan de slag gaat of hoe je vaardigheden voor het project uitmaken, _neem dan contact met ons op_! Je kunt vragen stellen op de [mailinglijst](https://mail.python.org/mailman/listinfo/numpy-discussion) of op [GitHub](http://github.com/numpy/numpy) (open een probleem of reactie op een relevant probleem). Dit zijn onze voorkeurscommunicatiekanalen (open source is open van natuur! , Maar als u liever eerst privé discussieert, neem dan contact op met onze communitycoördinatoren via `numpy-team@googlegroups. om` of op [Slack](https://numpy-team.slack.com) (stuur een e-mail naar `numpy-team@googlegroups.com` voor de eerste keer).
+For other activities, we will attempt to give some guidance on this page. Als je niet zeker weet waar je aan de slag gaat of hoe je vaardigheden voor het project uitmaken, _neem dan contact met ons op_! You can ask on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) or [GitHub](http://github.com/numpy/numpy) (open an issue or comment on a relevant issue). These are our preferred communication channels (open source is open by nature!), however, if you prefer to discuss in private first, please reach out to our community coordinators at `numpy-team@googlegroups.com` or on [Slack](https://numpy-team.slack.com) (send an email to `numpy-team@googlegroups.com` for an invite the first time).
 
 We hebben ook een tweewekelijkse _community call_, waarvan de details worden aangekondigd op de mailinglijst. U bent van harte welkom bij deze oproep!
 
@@ -59,7 +59,7 @@ We streven ernaar om dit [numpy te vertalen. rg](https://numpy.org) website in m
 
 ### Financiering
 
-NumPy is een project dat vrijwilliger is voor het grootste deel van zijn geschiedenis, Gezien de voortdurende groei van onze gebruikersbasis zijn wij echter van mening dat de financiering nodig is om het project gezond te houden. [Dit SciPy'19 talk](https://www.youtube.com/watch?v=dBTJD_FDVjU) probeert de impact te kwantificeren van recent ontvangen financiering en de behoeften van het project. We hebben een aantal ideeën over hoe we financiering kunnen verkrijgen (en we verwelkomen natuurlijk meer goede ideeën!), maar deze alles kost tijd om uit te voeren. Fundraising is ook een vaardigheid die niet veel huidige teamleden hebben - we zouden je hulp graag zien!
+NumPy has been an all-volunteer project for most of its history, however, with the continuous growth of our user base we feel the need for funding to keep the project healthy. [Dit SciPy'19 talk](https://www.youtube.com/watch?v=dBTJD_FDVjU) probeert de impact te kwantificeren van recent ontvangen financiering en de behoeften van het project. We have a number of ideas about how to obtain funding (and of course welcome more good ideas!), these all take time to execute though. Fundraising is ook een vaardigheid die niet veel huidige teamleden hebben - we zouden je hulp graag zien!
 
 
 ### Communautaire coördinatie en outreach
