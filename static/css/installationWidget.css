@@ -1,0 +1,8 @@
+.installationWidget {
+    border: 1px solid black;
+}
+
+.installationWidget .container {
+    display: flex;
+    flex-direction: column;
+}
