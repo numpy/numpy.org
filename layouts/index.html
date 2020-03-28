@@ -11,6 +11,10 @@
     {{ partial "section2.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.installationWidget }}
+    {{ partial "installationWidget.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.tabs }}
     {{ partial "tabs.html" . }}
     {{ end }}

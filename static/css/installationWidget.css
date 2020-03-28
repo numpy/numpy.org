@@ -1,0 +1,103 @@
+ .installationWidget {
+    /* border: 1px solid black; */
+    margin: 20px;
+}
+
+.installationWidget .container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px 10px 15px;
+}
+
+.main-heading {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    letter-spacing: 1.5px;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.description {
+    text-align: center;
+}
+
+/* .justify-content-around {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.title-block {
+    padding: 10px 16px;
+    margin: 21px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    /* border: 1px solid black; */
+}
+
+.command-block {
+    /* padding: 10px 16px; */
+    margin: 24px 21px 21px 21px;
+    /* border: 1px solid black; */
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+.command-to-run {
+    margin: 19px 21px 21px 0px;
+}
+
+.option {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 3px;
+    margin: 20px;
+}
+
+.option-text {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+#command {
+    margin-bottom: 0px;
+}
+
+/* .headings {
+
+} */
+
+/* .col-md-3 > div {
+    border:1px solid grey;
+    padding:15px;
+} */
+
+/* .col-md-4 > div {
+    border:1px solid grey;
+    padding:15px;
+} */
+
+.selected {
+    background-color: #4d77cf;
+    color: white;
+}
+
+.option:hover {
+    background-color: #ececee;
+    /*  #bccff7 */
+}
+
+.selected:hover {
+    background-color: #4d77cf;
+    color: white;
+}
