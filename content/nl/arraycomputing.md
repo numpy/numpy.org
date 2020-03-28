@@ -16,6 +16,6 @@ Sinds de lancering van het aantal in 2006 verschenen Pandas in 2008 in het lands
   alt="arraycl"
   title="Array Computing Landschap" />
 
-**Array computing** is gebaseerd op **arrays** data structuren. *Arrays* worden gebruikt om enorme hoeveelheden gegevens te organiseren zodat gerelateerde waardenset gemakkelijk kan worden gesorteerd, zoeken, wiskundig gemanipuleerd en makkelijk en snel getransformeerd.
+**Array computing** is gebaseerd op **arrays** data structuren. *Arrays* are used to organize vast amounts of data such that a related set of values can be easily sorted, searched, mathematically manipulated and transformed easily and quickly.
 
 Array computing is *unieke* omdat het draait om het werken met de data array *bij once*. Wat dit betekent, is dat elke array operatie van toepassing is op een hele set van waarden in één schot.  Deze gevectoriseerde aanpak biedt snelheid en eenvoud door programmeurs in staat te stellen te programmeren en te werken op geaggregeerde data zonder lussen van individuele schaalbewerkingen te gebruiken.
