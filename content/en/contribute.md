@@ -24,9 +24,9 @@ Our community aspires to treat everyone equally, and to value all contributions.
 
 ## How to get started
 
-For the process of contributing to the NumPy code base we have an extensive [developer guide](https://numpy.org/devdocs/dev/index.html). We don't work with assigning issues - if you see something of interest, please dive in!
+For the process of contributing to the NumPy code base, we have an extensive [developer guide](https://numpy.org/devdocs/dev/index.html). We don't work with assigning issues - if you see something of interest, please dive in!
 
-For other activities we will attempt to give some guidance on this page. If you're unsure of where to get started or how your skills matter to the project, _please reach out to us_! You can ask on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) or on [GitHub](http://github.com/numpy/numpy) (open an issue or comment on a relevant issue). These are our preferred communication channels (open source is open by nature!), however if you prefer to discuss in private first, please reach out to our community coordinators at `numpy-team@googlegroups.com` or on [Slack](https://numpy-team.slack.com) (send an email to `numpy-team@googlegroups.com` for an invite the first time).
+For other activities, we will attempt to give some guidance on this page. If you're unsure of where to get started or how your skills matter to the project, _please reach out to us_! You can ask on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) or [GitHub](http://github.com/numpy/numpy) (open an issue or comment on a relevant issue). These are our preferred communication channels (open source is open by nature!), however, if you prefer to discuss in private first, please reach out to our community coordinators at `numpy-team@googlegroups.com` or on [Slack](https://numpy-team.slack.com) (send an email to `numpy-team@googlegroups.com` for an invite the first time).
 
 We also have a bi-weekly _community call_, the details of which are announced on the mailing list. You are very welcome to join this call!
 
@@ -68,7 +68,7 @@ We aim to translate this [numpy.org](https://numpy.org) website into multiple la
 
 ### Fundraising
 
-NumPy has been an all-volunteer project for most of its history, however with the continuous growth of our user base we feel the need for funding to keep the project healthy. [This SciPy'19 talk](https://www.youtube.com/watch?v=dBTJD_FDVjU) attempts to quantify the impact of recently received funding and the needs of the project. We have a number of ideas about how to obtain funding (and of course welcome more good ideas!), however these all take time to execute. Fundraising is also a skill that not many current team members have - we'd love your help!
+NumPy has been an all-volunteer project for most of its history, however, with the continuous growth of our user base we feel the need for funding to keep the project healthy. [This SciPy'19 talk](https://www.youtube.com/watch?v=dBTJD_FDVjU) attempts to quantify the impact of recently received funding and the needs of the project. We have a number of ideas about how to obtain funding (and of course welcome more good ideas!), these all take time to execute though. Fundraising is also a skill that not many current team members have - we'd love your help!
 
 
 ### Community coordination and outreach
