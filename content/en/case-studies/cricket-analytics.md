@@ -87,36 +87,25 @@ metrics for improving match winning chances:
 
 * **Data Cleaning and preprocessing**
 
-  There are several public and proprietary sources of cricket data. The
-  latter are mostly owned by broadcasting corporations that hold rights to
-  various seasons and matches played. IPL has expanded cricket beyond the
-  classic test match format to a much larger scale. The number of matches
-  played every season across various formats has increased and so has the data,
-  the algorithms, newer technologies and simulation models. Real time video
-  analysis requires field mapping, player tracking, ball tracking, player shot
-  analysis and several other aspects involved in how the ball is delivered, its
-  angle, spin, velocity and trajectory.
+  IPL has expanded cricket beyond the classic test match format to a much larger scale. The number of matches played every season across various formats has increased and so has the data, the algorithms, newer sports data analysis 
+technologies and simulation models.  Cricket data analysis requires field mapping, player tracking, ball tracking, player shot analysis and several other aspects involved in how the ball is delivered, its angle, spin, velocity and trajectory. All these factors together have increased the complexity of data cleaning and preprocessing. 
 
-* **Data Representation**
+* **Dynamic Modeling**
 
-  One of the most tricky challenges with sports analytics is getting the
-  right data representation. What this means is getting the raw data in a form
-  such that it can be laid out for comparison and building models. If the
-  initial representation itself is incorrect, everything that follows is akin
-  to fitting noise to detect a signal. In cricket, just like any other sport,
+  In cricket, just like any other sport,
   there can be a large number of variables related to tracking various numbers
   of players on the field, their attributes, the ball and several possibilities
-  of potential actions.  The complexity of data analytics and representation is
+  of potential actions.  The complexity of data analytics and modeling is
   directly proportional to the kind of predictive questions that are put forth
   during analysis and are highly dependent on data representation and the
   model.  Things get even more challenging in terms of computation, data
   comparisons when dynamic cricket play predictions are sought such as what
   would have happened if the batsman had hit the ball at a different angle or
-  velocity?
+  velocity.
 
 * **Predictive Analytics Complexity**
 
-  In cricket, some of the decision making is based on questions such as "how
+  Much of the decision making in Cricket is based on questions such as "how
   often does a batsman play a certain kind of shot if the ball delivery is of a
   particular type", or "how does a bowler change his line and length if the
   batsman responds to his delivery in a certain way".
@@ -132,11 +121,11 @@ and other PyData packages like Scikit-learn, SciPy, Matplotlib, and Jupyter.
 in addition to latest machine learning and AI techniques.  NumPy has been used
 for various kinds of cricket related sporting analytics such as:
 
-* **Data Correlation:** data graphing and [visualization](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b)
+* **Data Visualization:** Data graphing and [visualization](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b)
   provides useful insights into relationship between various datasets;
   [causal analysis](https://amplitude.com/blog/2017/01/19/causation-correlation),
   and [big data approaches](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/)
-  are used for tactical analysis. NumPy offers the core foundation for several
+  are used for tactical analysis. NumPy offers the core numeric computing foundation for several
   such analyses.
 
 * **Statistical Analysis:** NumPy numerical capabilities help estimate the
@@ -144,27 +133,11 @@ for various kinds of cricket related sporting analytics such as:
   of various player and game tactics, estimating the game outcome by comparison
   with a generative or static model.
 
-* **Data Visualization:** NumPy is used as the primary
-  [numerical computing](https://www.researchgate.net/publication/336886516_Data_visualization_and_toss_related_analysis_of_IPL_teams_and_batsmen_performances)
-  engine for cricket datasets. Pandas is used for statistics and I/O.
-  Matplotlib is used as the basic visualization for players. with Seaborn used
-  as the modern visualization package for Toss related analysis as well as for
-  team and player insights.
-
-{{< figure src="/images/content_images/cs/cricket-stats.png"
-           class="fig-center"
-           alt="The role of NumPy in cricket analytics - toss and match winners"
-           caption="**IPL toss data analysis**"
-           attr="*(Image credits: mc.ai)*"
-           attrlink="https://mc.ai/predicting-the-outcome-of-cricket-matches-using-ai/" >}}
-
 ## Summary
 
 Sports Analytics have changed the way professional games are played, especially
 regarding decision making which was until recently primarily done based on
-“gut feeling" or adherence to past traditions. It is no secret that the Indian
-cricket teams rely heavily on data analytics to decide their strategy for an
-upcoming match or fine tune their tactics during the game.  NumPy forms a
+“gut feeling" or adherence to past traditions. NumPy forms a
 solid foundation for a large set of Python packages which provide higher level
 functions related to data analytics, machine learning and AI algorithms. These
 packages are widely deployed to gain real-time insights that help in decision
