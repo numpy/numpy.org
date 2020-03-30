@@ -36,7 +36,7 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: 500;
-    color: #757575;
+    color: #6C7A89;
 }
 
 #tabs-content > li {
@@ -62,6 +62,7 @@
 }
 
 .grid-container > div {
+    /* White, with 80% opacity */
     background-color: rgba(255, 255, 255, 0.8);
     text-align: middle;
 }
@@ -84,8 +85,8 @@
 }
 
 .image-grid > div {
-    background-color: #eee;
-    border: 2px solid #fff;
+    background-color: #EEEEEE;
+    border: 2px solid #FFFFFF;
     border-radius: 10px;
     padding: 10px;
 }
@@ -101,7 +102,7 @@ td > a {
 }
 
 tr.highlight-th {
-    border-top: 1px solid #ececec;
+    border-top: 1px solid #EEEEEE;
     font-size: 0.8rem;
 }
 
@@ -133,7 +134,7 @@ td.full-center-text {
 td.lastrow-center-text {
     text-align: center;
     line-height: 35%;
-    border-bottom: 1px solid #ececec;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 /* Array Libraries */

@@ -1,3 +1,12 @@
+/* NumPy Color Palette */
+/* #FFC553 Mustard */
+/* #4DABCF Maximum Blue */
+/* #4D77CF Han Blue */
+/* #FFFFFF White */
+/* #EEEEEE Isabelline */
+/* #6C7A89 Aurometalsaurus */
+/* #013243 Warm Black */
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -68,17 +77,18 @@ em {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: 500;
-    color:#fff;
+    color:#FFFFFF;
     background-color: #013243;
     border: none;
     border-radius: 25px;
     outline: none;
+    /* Black, with 10% opacity */
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
 
 #navbar-item {
-    color: #2e3131;
+    color: #013243;
 }
 
 #feature-card {
@@ -216,10 +226,10 @@ p {
 
 .sign-up-image {
     z-index: 2;
-    color: #2e3131;
+    color: #013243;
     padding: 9px 10px 10px 10px;
-    border-right: 1px solid #ececec;
-    background-color: #ececec;
+    border-right: 1px solid #EEEEEE;
+    background-color: #EEEEEE;
     border-radius: 5px 0 0 5px;
 }
 
@@ -231,7 +241,7 @@ p {
     height: 35px;
     padding-left: 5px;
     font-size: 14px;
-    color: #2e3131;
+    color: #013243;
 }
 
 .submission-instructions {
@@ -249,7 +259,7 @@ p {
 .thank-you {
     display: none;
     height: 75px;
-    color: #ececec;
+    color: #EEEEEE;
     align-items: center;
 }
 
@@ -262,19 +272,19 @@ p {
 }
 
 figcaption {
-  text-align: center;
+    text-align: center;
 }
 
 .csfigcaption {
-  text-align: center;
+    text-align: center;
 }
 
 .fig-center {
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 blockquote {
@@ -283,7 +293,7 @@ blockquote {
 
 blockquote p {
     padding: 15px;
-    background: #eee;
+    background: #EEEEEE;
     border-radius: 5px;
 }
 
