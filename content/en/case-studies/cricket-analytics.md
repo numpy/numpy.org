@@ -87,8 +87,14 @@ metrics for improving match winning chances:
 
 * **Data Cleaning and preprocessing**
 
-  IPL has expanded cricket beyond the classic test match format to a much larger scale. The number of matches played every season across various formats has increased and so has the data, the algorithms, newer sports data analysis 
-technologies and simulation models.  Cricket data analysis requires field mapping, player tracking, ball tracking, player shot analysis and several other aspects involved in how the ball is delivered, its angle, spin, velocity and trajectory. All these factors together have increased the complexity of data cleaning and preprocessing. 
+  IPL has expanded cricket beyond the classic test match format to a much
+  larger scale. The number of matches played every season across various
+  formats has increased and so has the data, the algorithms, newer sports data
+  analysis technologies and simulation models.  Cricket data analysis requires
+  field mapping, player tracking, ball tracking, player shot analysis and
+  several other aspects involved in how the ball is delivered, its angle, spin,
+  velocity and trajectory. All these factors together have increased the
+  complexity of data cleaning and preprocessing.
 
 * **Dynamic Modeling**
 
