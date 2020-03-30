@@ -49,7 +49,7 @@ main:
       node_id: MDQ6VXNlcjM5NDk5MzI=
       organizations_url: https://api.github.com/users/melissawm/orgs
       public_gists: 0
-      public_repos: 74
+      public_repos: 76
       received_events_url: https://api.github.com/users/melissawm/received_events
       repos_url: https://api.github.com/users/melissawm/repos
       site_admin: false
@@ -66,7 +66,7 @@ main:
       created_at: '2009-06-23T23:16:22Z'
       email: null
       events_url: https://api.github.com/users/rgommers/events{/privacy}
-      followers: 232
+      followers: 233
       followers_url: https://api.github.com/users/rgommers/followers
       following: 14
       following_url: https://api.github.com/users/rgommers/following{/other_user}
@@ -88,39 +88,8 @@ main:
       starred_url: https://api.github.com/users/rgommers/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/rgommers/subscriptions
       type: User
-      updated_at: '2020-03-25T12:31:18Z'
+      updated_at: '2020-03-29T15:21:08Z'
       url: https://api.github.com/users/rgommers
-    - avatar_url: https://avatars1.githubusercontent.com/u/35413198?v=4
-      bio: Data Analysis, Machine Learning, and AI
-      blog: https://bonn0062.github.io/portfolio_ab/
-      company: null
-      created_at: '2018-01-14T03:06:33Z'
-      email: null
-      events_url: https://api.github.com/users/bonn0062/events{/privacy}
-      followers: 101
-      followers_url: https://api.github.com/users/bonn0062/followers
-      following: 18
-      following_url: https://api.github.com/users/bonn0062/following{/other_user}
-      gists_url: https://api.github.com/users/bonn0062/gists{/gist_id}
-      gravatar_id: ''
-      hireable: true
-      html_url: https://github.com/bonn0062
-      id: 35413198
-      location: CA
-      login: bonn0062
-      name: Anne Bonner
-      node_id: MDQ6VXNlcjM1NDEzMTk4
-      organizations_url: https://api.github.com/users/bonn0062/orgs
-      public_gists: 5
-      public_repos: 69
-      received_events_url: https://api.github.com/users/bonn0062/received_events
-      repos_url: https://api.github.com/users/bonn0062/repos
-      site_admin: false
-      starred_url: https://api.github.com/users/bonn0062/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/bonn0062/subscriptions
-      type: User
-      updated_at: '2020-01-15T00:55:54Z'
-      url: https://api.github.com/users/bonn0062
     documentation:
     - melissawm
     - rgommers
@@ -134,256 +103,7 @@ main:
     - aarchiba
     - pearu
     - certik
-    emerpeople:
-    - avatar_url: https://avatars1.githubusercontent.com/u/254880?v=4
-      bio: NumPy, SciPy, Numba, Conda, PyData, NumFocus, Anaconda, Quansight
-      blog: technicaldiscovery.blogspot.com
-      company: Quansight
-      created_at: '2010-04-27T21:53:47Z'
-      email: null
-      events_url: https://api.github.com/users/teoliphant/events{/privacy}
-      followers: 678
-      followers_url: https://api.github.com/users/teoliphant/followers
-      following: 17
-      following_url: https://api.github.com/users/teoliphant/following{/other_user}
-      gists_url: https://api.github.com/users/teoliphant/gists{/gist_id}
-      gravatar_id: ''
-      hireable: true
-      html_url: https://github.com/teoliphant
-      id: 254880
-      location: Austin, TX
-      login: teoliphant
-      name: Travis E. Oliphant
-      node_id: MDQ6VXNlcjI1NDg4MA==
-      organizations_url: https://api.github.com/users/teoliphant/orgs
-      public_gists: 6
-      public_repos: 30
-      received_events_url: https://api.github.com/users/teoliphant/received_events
-      repos_url: https://api.github.com/users/teoliphant/repos
-      site_admin: false
-      starred_url: https://api.github.com/users/teoliphant/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/teoliphant/subscriptions
-      type: User
-      updated_at: '2020-03-24T14:48:52Z'
-      url: https://api.github.com/users/teoliphant
-    - avatar_url: https://avatars1.githubusercontent.com/u/25111?v=4
-      bio: null
-      blog: cournape.github.io
-      company: Mercari JP
-      created_at: '2008-09-18T04:42:23Z'
-      email: null
-      events_url: https://api.github.com/users/cournape/events{/privacy}
-      followers: 388
-      followers_url: https://api.github.com/users/cournape/followers
-      following: 2
-      following_url: https://api.github.com/users/cournape/following{/other_user}
-      gists_url: https://api.github.com/users/cournape/gists{/gist_id}
-      gravatar_id: ''
-      hireable: true
-      html_url: https://github.com/cournape
-      id: 25111
-      location: Tokyo, Japan
-      login: cournape
-      name: David Cournapeau
-      node_id: MDQ6VXNlcjI1MTEx
-      organizations_url: https://api.github.com/users/cournape/orgs
-      public_gists: 18
-      public_repos: 138
-      received_events_url: https://api.github.com/users/cournape/received_events
-      repos_url: https://api.github.com/users/cournape/repos
-      site_admin: false
-      starred_url: https://api.github.com/users/cournape/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/cournape/subscriptions
-      type: User
-      updated_at: '2020-03-05T02:14:32Z'
-      url: https://api.github.com/users/cournape
-    - avatar_url: https://avatars0.githubusercontent.com/u/399551?v=4
-      bio: null
-      blog: ''
-      company: AWS Thinkbox
-      created_at: '2010-09-14T23:17:58Z'
-      email: null
-      events_url: https://api.github.com/users/mwiebe/events{/privacy}
-      followers: 95
-      followers_url: https://api.github.com/users/mwiebe/followers
-      following: 0
-      following_url: https://api.github.com/users/mwiebe/following{/other_user}
-      gists_url: https://api.github.com/users/mwiebe/gists{/gist_id}
-      gravatar_id: ''
-      hireable: null
-      html_url: https://github.com/mwiebe
-      id: 399551
-      location: Seattle
-      login: mwiebe
-      name: Mark Wiebe
-      node_id: MDQ6VXNlcjM5OTU1MQ==
-      organizations_url: https://api.github.com/users/mwiebe/orgs
-      public_gists: 4
-      public_repos: 35
-      received_events_url: https://api.github.com/users/mwiebe/received_events
-      repos_url: https://api.github.com/users/mwiebe/repos
-      site_admin: false
-      starred_url: https://api.github.com/users/mwiebe/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/mwiebe/subscriptions
-      type: User
-      updated_at: '2019-08-19T17:24:24Z'
-      url: https://api.github.com/users/mwiebe
-    - avatar_url: https://avatars1.githubusercontent.com/u/123428?v=4
-      bio: null
-      blog: http://www.jarrodmillman.com/
-      company: UC Berkeley
-      created_at: '2009-09-04T22:25:30Z'
-      email: null
-      events_url: https://api.github.com/users/jarrodmillman/events{/privacy}
-      followers: 147
-      followers_url: https://api.github.com/users/jarrodmillman/followers
-      following: 0
-      following_url: https://api.github.com/users/jarrodmillman/following{/other_user}
-      gists_url: https://api.github.com/users/jarrodmillman/gists{/gist_id}
-      gravatar_id: ''
-      hireable: null
-      html_url: https://github.com/jarrodmillman
-      id: 123428
-      location: California
-      login: jarrodmillman
-      name: Jarrod Millman
-      node_id: MDQ6VXNlcjEyMzQyOA==
-      organizations_url: https://api.github.com/users/jarrodmillman/orgs
-      public_gists: 2
-      public_repos: 90
-      received_events_url: https://api.github.com/users/jarrodmillman/received_events
-      repos_url: https://api.github.com/users/jarrodmillman/repos
-      site_admin: false
-      starred_url: https://api.github.com/users/jarrodmillman/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/jarrodmillman/subscriptions
-      type: User
-      updated_at: '2020-03-11T00:29:06Z'
-      url: https://api.github.com/users/jarrodmillman
-    - avatar_url: https://avatars1.githubusercontent.com/u/3343990?v=4
-      bio: null
-      blog: ''
-      company: Google
-      created_at: '2013-01-22T21:50:33Z'
-      email: null
-      events_url: https://api.github.com/users/jaimefrio/events{/privacy}
-      followers: 89
-      followers_url: https://api.github.com/users/jaimefrio/followers
-      following: 5
-      following_url: https://api.github.com/users/jaimefrio/following{/other_user}
-      gists_url: https://api.github.com/users/jaimefrio/gists{/gist_id}
-      gravatar_id: ''
-      hireable: null
-      html_url: https://github.com/jaimefrio
-      id: 3343990
-      location: Zurich, Switzerland
-      login: jaimefrio
-      name: Jaime
-      node_id: MDQ6VXNlcjMzNDM5OTA=
-      organizations_url: https://api.github.com/users/jaimefrio/orgs
-      public_gists: 6
-      public_repos: 20
-      received_events_url: https://api.github.com/users/jaimefrio/received_events
-      repos_url: https://api.github.com/users/jaimefrio/repos
-      site_admin: false
-      starred_url: https://api.github.com/users/jaimefrio/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/jaimefrio/subscriptions
-      type: User
-      updated_at: '2020-02-05T16:36:30Z'
-      url: https://api.github.com/users/jaimefrio
-    - avatar_url: https://avatars1.githubusercontent.com/u/136867?v=4
-      bio: null
-      blog: ''
-      company: University of Newcastle
-      created_at: '2009-10-08T14:54:43Z'
-      email: null
-      events_url: https://api.github.com/users/aarchiba/events{/privacy}
-      followers: 23
-      followers_url: https://api.github.com/users/aarchiba/followers
-      following: 0
-      following_url: https://api.github.com/users/aarchiba/following{/other_user}
-      gists_url: https://api.github.com/users/aarchiba/gists{/gist_id}
-      gravatar_id: ''
-      hireable: null
-      html_url: https://github.com/aarchiba
-      id: 136867
-      location: null
-      login: aarchiba
-      name: Anne Archibald
-      node_id: MDQ6VXNlcjEzNjg2Nw==
-      organizations_url: https://api.github.com/users/aarchiba/orgs
-      public_gists: 4
-      public_repos: 40
-      received_events_url: https://api.github.com/users/aarchiba/received_events
-      repos_url: https://api.github.com/users/aarchiba/repos
-      site_admin: false
-      starred_url: https://api.github.com/users/aarchiba/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/aarchiba/subscriptions
-      type: User
-      updated_at: '2020-03-18T17:21:15Z'
-      url: https://api.github.com/users/aarchiba
-    - avatar_url: https://avatars3.githubusercontent.com/u/402156?v=4
-      bio: null
-      blog: ''
-      company: Quansight
-      created_at: '2010-09-16T10:43:25Z'
-      email: null
-      events_url: https://api.github.com/users/pearu/events{/privacy}
-      followers: 34
-      followers_url: https://api.github.com/users/pearu/followers
-      following: 1
-      following_url: https://api.github.com/users/pearu/following{/other_user}
-      gists_url: https://api.github.com/users/pearu/gists{/gist_id}
-      gravatar_id: ''
-      hireable: null
-      html_url: https://github.com/pearu
-      id: 402156
-      location: Estonia
-      login: pearu
-      name: Pearu Peterson
-      node_id: MDQ6VXNlcjQwMjE1Ng==
-      organizations_url: https://api.github.com/users/pearu/orgs
-      public_gists: 1
-      public_repos: 16
-      received_events_url: https://api.github.com/users/pearu/received_events
-      repos_url: https://api.github.com/users/pearu/repos
-      site_admin: false
-      starred_url: https://api.github.com/users/pearu/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/pearu/subscriptions
-      type: User
-      updated_at: '2020-02-13T04:35:32Z'
-      url: https://api.github.com/users/pearu
-    - avatar_url: https://avatars3.githubusercontent.com/u/20568?v=4
-      bio: The original author of the @sympy and @symengine libraries and the @lfortran
-        compiler.
-      blog: https://ondrejcertik.com/
-      company: Los Alamos National Laboratory
-      created_at: '2008-08-13T18:39:11Z'
-      email: null
-      events_url: https://api.github.com/users/certik/events{/privacy}
-      followers: 381
-      followers_url: https://api.github.com/users/certik/followers
-      following: 93
-      following_url: https://api.github.com/users/certik/following{/other_user}
-      gists_url: https://api.github.com/users/certik/gists{/gist_id}
-      gravatar_id: ''
-      hireable: true
-      html_url: https://github.com/certik
-      id: 20568
-      location: Los Alamos, NM
-      login: certik
-      name: "Ond\u0159ej \u010Cert\xEDk"
-      node_id: MDQ6VXNlcjIwNTY4
-      organizations_url: https://api.github.com/users/certik/orgs
-      public_gists: 481
-      public_repos: 302
-      received_events_url: https://api.github.com/users/certik/received_events
-      repos_url: https://api.github.com/users/certik/repos
-      site_admin: false
-      starred_url: https://api.github.com/users/certik/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/certik/subscriptions
-      type: User
-      updated_at: '2020-03-04T07:32:12Z'
-      url: https://api.github.com/users/certik
+    emerpeople: []
     people:
     - avatar_url: https://avatars1.githubusercontent.com/u/9040124?v=4
       bio: null
@@ -423,7 +143,7 @@ main:
       created_at: '2012-11-13T19:48:46Z'
       email: null
       events_url: https://api.github.com/users/mhvk/events{/privacy}
-      followers: 43
+      followers: 44
       followers_url: https://api.github.com/users/mhvk/followers
       following: 0
       following_url: https://api.github.com/users/mhvk/following{/other_user}
@@ -516,7 +236,7 @@ main:
       created_at: '2009-01-13T01:44:12Z'
       email: null
       events_url: https://api.github.com/users/rkern/events{/privacy}
-      followers: 163
+      followers: 164
       followers_url: https://api.github.com/users/rkern/followers
       following: 1
       following_url: https://api.github.com/users/rkern/following{/other_user}
@@ -547,7 +267,7 @@ main:
       created_at: '2010-10-03T11:40:19Z'
       email: null
       events_url: https://api.github.com/users/eric-wieser/events{/privacy}
-      followers: 116
+      followers: 118
       followers_url: https://api.github.com/users/eric-wieser/followers
       following: 33
       following_url: https://api.github.com/users/eric-wieser/following{/other_user}
@@ -562,7 +282,7 @@ main:
       node_id: MDQ6VXNlcjQyNTI2MA==
       organizations_url: https://api.github.com/users/eric-wieser/orgs
       public_gists: 38
-      public_repos: 183
+      public_repos: 184
       received_events_url: https://api.github.com/users/eric-wieser/received_events
       repos_url: https://api.github.com/users/eric-wieser/repos
       site_admin: false
@@ -579,7 +299,7 @@ main:
       created_at: '2009-01-08T12:17:56Z'
       email: null
       events_url: https://api.github.com/users/stefanv/events{/privacy}
-      followers: 526
+      followers: 527
       followers_url: https://api.github.com/users/stefanv/followers
       following: 7
       following_url: https://api.github.com/users/stefanv/following{/other_user}
@@ -601,7 +321,7 @@ main:
       starred_url: https://api.github.com/users/stefanv/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/stefanv/subscriptions
       type: User
-      updated_at: '2020-03-18T10:14:47Z'
+      updated_at: '2020-03-29T13:02:39Z'
       url: https://api.github.com/users/stefanv
     - avatar_url: https://avatars1.githubusercontent.com/u/35046?v=4
       bio: null
@@ -642,7 +362,7 @@ main:
       created_at: '2009-06-23T23:16:22Z'
       email: null
       events_url: https://api.github.com/users/rgommers/events{/privacy}
-      followers: 232
+      followers: 233
       followers_url: https://api.github.com/users/rgommers/followers
       following: 14
       following_url: https://api.github.com/users/rgommers/following{/other_user}
@@ -664,7 +384,7 @@ main:
       starred_url: https://api.github.com/users/rgommers/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/rgommers/subscriptions
       type: User
-      updated_at: '2020-03-25T12:31:18Z'
+      updated_at: '2020-03-29T15:21:08Z'
       url: https://api.github.com/users/rgommers
     - avatar_url: https://avatars3.githubusercontent.com/u/77272?v=4
       bio: null
@@ -766,7 +486,7 @@ main:
       created_at: '2013-10-01T11:57:59Z'
       email: null
       events_url: https://api.github.com/users/bashtage/events{/privacy}
-      followers: 323
+      followers: 324
       followers_url: https://api.github.com/users/bashtage/followers
       following: 0
       following_url: https://api.github.com/users/bashtage/following{/other_user}
@@ -828,7 +548,7 @@ main:
       created_at: '2010-07-02T20:57:40Z'
       email: null
       events_url: https://api.github.com/users/WarrenWeckesser/events{/privacy}
-      followers: 57
+      followers: 58
       followers_url: https://api.github.com/users/WarrenWeckesser/followers
       following: 0
       following_url: https://api.github.com/users/WarrenWeckesser/following{/other_user}
@@ -881,7 +601,7 @@ main:
       starred_url: https://api.github.com/users/mattip/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/mattip/subscriptions
       type: User
-      updated_at: '2020-03-25T10:51:56Z'
+      updated_at: '2020-03-30T08:51:53Z'
       url: https://api.github.com/users/mattip
     - avatar_url: https://avatars0.githubusercontent.com/u/7903078?v=4
       bio: Core developer of SciPy and MDAnalysis libraries. LANL owns my contributions
@@ -945,7 +665,7 @@ main:
       starred_url: https://api.github.com/users/joelachance/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/joelachance/subscriptions
       type: User
-      updated_at: '2020-03-24T16:06:45Z'
+      updated_at: '2020-03-27T18:33:17Z'
       url: https://api.github.com/users/joelachance
     - avatar_url: https://avatars0.githubusercontent.com/u/43481325?v=4
       bio: null
@@ -969,14 +689,14 @@ main:
       node_id: MDQ6VXNlcjQzNDgxMzI1
       organizations_url: https://api.github.com/users/InessaPawson/orgs
       public_gists: 0
-      public_repos: 4
+      public_repos: 5
       received_events_url: https://api.github.com/users/InessaPawson/received_events
       repos_url: https://api.github.com/users/InessaPawson/repos
       site_admin: false
       starred_url: https://api.github.com/users/InessaPawson/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/InessaPawson/subscriptions
       type: User
-      updated_at: '2020-03-22T06:36:21Z'
+      updated_at: '2020-03-28T06:30:35Z'
       url: https://api.github.com/users/InessaPawson
     - avatar_url: https://avatars2.githubusercontent.com/u/46167686?v=4
       bio: Full-stack engineer at Quansight Labs. Graduate of QCC CUNYTechworks.
@@ -1039,7 +759,7 @@ main:
       starred_url: https://api.github.com/users/shaloo/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/shaloo/subscriptions
       type: User
-      updated_at: '2020-03-24T11:36:22Z'
+      updated_at: '2020-03-29T17:44:06Z'
       url: https://api.github.com/users/shaloo
     - avatar_url: https://avatars3.githubusercontent.com/u/98330?v=4
       bio: NumPy, SciPy, PyWavelets maintainer. Building open source communities at
@@ -1049,7 +769,7 @@ main:
       created_at: '2009-06-23T23:16:22Z'
       email: null
       events_url: https://api.github.com/users/rgommers/events{/privacy}
-      followers: 232
+      followers: 233
       followers_url: https://api.github.com/users/rgommers/followers
       following: 14
       following_url: https://api.github.com/users/rgommers/following{/other_user}
@@ -1071,7 +791,7 @@ main:
       starred_url: https://api.github.com/users/rgommers/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/rgommers/subscriptions
       type: User
-      updated_at: '2020-03-25T12:31:18Z'
+      updated_at: '2020-03-29T15:21:08Z'
       url: https://api.github.com/users/rgommers
     webteam:
     - joelachance

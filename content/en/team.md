@@ -15,13 +15,7 @@ We are an international team on a mission to support scientific and research com
 					<img class="card-img-top" style="border-radius: 5%;" alt="" src="{{ person.avatar_url }}"/>
 					<div class="card-body">
 						<h6 class="card-title">
-							{% if person.blog %}
-							<a href="{{ person.blog }}">
-								{{ person.name or person.login }}
-							</a>
-							{% else %}
-								{{ person.name or person.login }}
-							{% endif %}
+							{{ person.name or person.login }}
 						</h6>
 						<p class="card-text small">
 							<a href="{{ person.html_url }}">{{ person.login }}</a>
@@ -48,13 +42,7 @@ We are an international team on a mission to support scientific and research com
 					<img class="card-img-top" style="border-radius: 5%;" alt="" src="{{ person.avatar_url }}"/>
 					<div class="card-body">
 						<h6 class="card-title">
-							{% if person.blog %}
-							<a href="{{ person.blog }}">
-								{{ person.name or person.login }}
-							</a>
-							{% else %}
-								{{ person.name or person.login }}
-							{% endif %}
+							{{ person.name or person.login }}
 						</h6>
 						<p class="card-text small">
 							<a href="{{ person.html_url }}">{{ person.login }}</a>
@@ -82,13 +70,7 @@ We are an international team on a mission to support scientific and research com
 					<img class="card-img-top" style="border-radius: 5%;" alt="" src="{{ person.avatar_url }}"/>
 					<div class="card-body">
 						<h6 class="card-title">
-							{% if person.blog %}
-							<a href="{{ person.blog }}">
-								{{ person.name or person.login }}
-							</a>
-							{% else %}
-								{{ person.name or person.login }}
-							{% endif %}
+							{{ person.name or person.login }}
 						</h6>
 						<p class="card-text small">
 							<a href="{{ person.html_url }}">{{ person.login }}</a>
@@ -115,13 +97,7 @@ We are an international team on a mission to support scientific and research com
 					<img class="card-img-top" style="border-radius: 5%; filter: grayscale(100%);" alt="" src="{{ person.avatar_url }}"/>
 					<div class="card-body">
 						<h6 class="card-title">
-							{% if person.blog %}
-							<a href="{{ person.blog }}">
-								{{ person.name or person.login }}
-							</a>
-							{% else %}
-								{{ person.name or person.login }}
-							{% endif %}
+							{{ person.name or person.login }}
 						</h6>
 						<p class="card-text small">
 							<a href="{{ person.html_url }}">{{ person.login }}</a>
