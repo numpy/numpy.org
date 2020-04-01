@@ -89,6 +89,11 @@ em {
 
 #navbar-item {
     color: #013243;
+    text-decoration: none;
+}
+
+#navbar-item:hover {
+    color: #4DABCF !important;
 }
 
 #feature-card {
