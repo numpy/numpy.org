@@ -1,6 +1,7 @@
 .hero-right {
     display: flex;
     width: 100vw;
+    /* Black, with 10% opacity */
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -10,7 +11,7 @@
     justify-content: center;
     width: 100vw;
     min-height: 455px;
-    background-color: #f2f1ef;
+    background-color: #EEEEEE;
 }
 
 .numpy-shell-container {
@@ -74,10 +75,11 @@
     letter-spacing: 1.5px;
     font-weight: 500;
     color: black;
-    background-color: #f2f1ef;
+    background-color: #EEEEEE;
     border: none;
     border-radius: 25px;
     outline: none;
+    /* Black, with 10% opacity */
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
@@ -115,9 +117,9 @@
     min-width: 500px;
     margin: 15px;
     padding: 0 17px;
-    color: #fff;
+    color: #FFFFFF;
     overflow: auto;
-    background-color: #2e3131;
+    background-color: #013243;
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -130,19 +132,20 @@
 }
 
 .CodeMirror pre {
-    color: #fff!important;
+    color: #FFFFFF !important;
 }
 
 .CodeMirror-cursor {
-    color: #fff!important;
-    border-left: 1px solid white!important;
+    color: #FFFFFF !important;
+    border-left: 1px solid white !important;
 }
 
 #demo-code.fake-shell {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(46,49,49, 0.5)
+    /* #013243, with 50% opacity */
+    background: rgba(1,50,67, 0.5)
 }
 
 #demo-button-run {
@@ -153,10 +156,11 @@
     letter-spacing: 1.5px;
     font-weight: 500;
     color: black;
-    background-color: #f2f1ef;
+    background-color: #EEEEEE;
     border: none;
     border-radius: 25px;
     outline: none;
+    /* Black, with 10% opacity */
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     position: absolute;
