@@ -54,5 +54,14 @@ So you can use some random number instead of `TRAVIS_PULL_REQUEST` variable.
 
 You also can run the docker image in daemon mode and then interact with the container and run the hugo server.
 
+## User Experience (UX)
 
+### NumPy Color Palette
 
+#FFC553 Mustard
+#4DABCF Maximum Blue
+#4D77CF Han Blue
+#FFFFFF White
+#EEEEEE Isabelline
+#6C7A89 Aurometalsaurus
+#013243 Warm Black

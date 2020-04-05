@@ -29,7 +29,7 @@
 }
 
 .section3 a {
-    color: #333 !important;
+    color: #013243 !important;
 }
 
 .section3-box-title {
@@ -61,6 +61,7 @@
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
+    /* Black, with 10% opacity */
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;

@@ -22,7 +22,7 @@ Announcements about NumPy, such as for releases, developer meetings, sprints or
 conference talks are also made on this list.
 
 On this list please use bottom posting, reply to the list (rather than to
-another sender), and don't reply to digests. A searchable archive of this lists
+another sender), and don't reply to digests. A searchable archive of this list
 is available [here](http://numpy-discussion.10968.n7.nabble.com/).
 
 ***
@@ -41,7 +41,7 @@ _Please note that GitHub is not the right place to report a security vulnerabili
 
 A real-time chat room to ask questions about _contributing_ to NumPy.
 This is a private space, specifically meant for people who are hesitant to
-bring up their questions or ideas on a large public mailing list or on GitHub.
+bring up their questions or ideas on a large public mailing list or GitHub.
 Please see
 [here](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) for more
 details and how to get an invite.
@@ -51,7 +51,7 @@ details and how to get an invite.
 
 If you would like to find a local meetup or study group to learn more about NumPy and the wider ecosystem of Python packages for data science and scientific computing, we recommend exploring the [PyData meetups](https://www.meetup.com/pro/pydata/) (150+ meetups, 100,000+ members).
 
-NumPy also organizes in-person sprints for its team and interested contributors occasionally. These are typically planned several months in advance, and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and on [Twitter](https://twitter.com/numpy_team).
+NumPy also organizes in-person sprints for its team and interested contributors occasionally. These are typically planned several months in advance and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and [Twitter](https://twitter.com/numpy_team).
 
 
 ## Conferences
@@ -65,7 +65,7 @@ The NumPy project doesn't organize its own conferences. The conferences that hav
 - [SciPy Japan](https://conference.scipy.org)
 - [PyData conferences](https://pydata.org/event-schedule/) (15-20 events a year spread over many countries)
 
-Many of these conferences include tutorial days that cover NumPy and/or sprints where you can learn to contribute to NumPy or related open source projects.
+Many of these conferences include tutorial days that cover NumPy and/or sprints where you can learn how to contribute to NumPy or related open source projects.
 
 
 ## Join the NumPy community
