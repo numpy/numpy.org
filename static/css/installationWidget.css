@@ -1,5 +1,4 @@
  .installationWidget {
-    /* border: 1px solid black; */
     margin: 20px;
 }
 
@@ -23,24 +22,16 @@
     text-align: center;
 }
 
-/* .justify-content-around {
-    display: flex;
-    justify-content: space-around;
-} */
-
 .title-block {
     padding: 10px 16px;
     margin: 21px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: 500;
-    /* border: 1px solid black; */
 }
 
 .command-block {
-    /* padding: 10px 16px; */
     margin: 24px 21px 21px 21px;
-    /* border: 1px solid black; */
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: 500;
@@ -73,28 +64,13 @@
     margin-bottom: 0px;
 }
 
-/* .headings {
-
-} */
-
-/* .col-md-3 > div {
-    border:1px solid grey;
-    padding:15px;
-} */
-
-/* .col-md-4 > div {
-    border:1px solid grey;
-    padding:15px;
-} */
-
 .selected {
     background-color: #4d77cf;
     color: white;
 }
 
 .option:hover {
-    background-color: #ececee;
-    /*  #bccff7 */
+    background-color: #bccff7;
 }
 
 .selected:hover {
