@@ -3,6 +3,7 @@ languageCode: en-us
 title: NumPy
 theme: hugo-fresh
 disableKinds: ["taxonomyTerm"]
+googleAnalytics: UA-162151853-1
 DefaultContentLanguage: en
 markup:
   goldmark:
@@ -109,7 +110,6 @@ languages:
             - text: Roadmap
               link: https://numpy.org/neps/roadmap.html
         column2:
-          title: ""
           links:
             - text: About us
               link: /about
@@ -120,7 +120,6 @@ languages:
             - text: Code of conduct
               link: /code-of-conduct
         column3:
-          title: ""
           links:
             - text: Get help
               link: /gethelp
