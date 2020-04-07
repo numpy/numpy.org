@@ -8,6 +8,24 @@
     padding: 30px 15px 10px 15px;
 }
 
+.row {
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.justify-content-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-width {
+    width: 80%
+}
+
+.flex {
+    display: flex;
+}
+
 .main-heading {
     display: flex;
     flex-direction: column;
@@ -23,8 +41,8 @@
 }
 
 .title-block {
-    padding: 10px 16px;
-    margin: 21px;
+    padding: 31px 16px 32px 16px;
+    margin: 0px 20px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: 500;
@@ -38,7 +56,7 @@
 }
 
 .command-to-run {
-    margin: 19px 21px 21px 0px;
+    margin: 20px 50px 20px 48px;
 }
 
 .option {
@@ -50,7 +68,8 @@
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     border: none;
     border-radius: 3px;
-    margin: 20px;
+    margin: 20px 50px;
+    width: 200px;
 }
 
 .option-text {
