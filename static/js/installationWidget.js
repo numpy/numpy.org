@@ -18,15 +18,18 @@ updateCommand = () => {
    // Method 3) Using switch instead of if statement
    switch(packageId) {
        case 'source':
+           // Note: the per-platform docs at
+           // http://scipy.github.io/devdocs/building/index.html#building are
+           // out of date and also need to be made NumPy-specific
            switch(osId) {
                 case 'linux':
-                    document.getElementByTagName("pre").innerHTML = "Go to [linux-specific url] for instructions on downloading from source.";
+                    document.getElementByTagName("pre").innerHTML = "Go to https://numpy.org/devdocs/user/building.html for instructions on downloading from source.";
                     break;
                 case 'macos':
-                    document.getElementById("command").innerHTML = "Go to [macos-specific url] for instructions on downloading from source.";
+                    document.getElementById("command").innerHTML = "Go to https://numpy.org/devdocs/user/building.html for instructions on downloading from source.";
                     break;
                 case 'windows':
-                    document.getElementById("command").innerHTML = "Go to [windows-specific url] for instructions on downloading from source.";
+                    document.getElementById("command").innerHTML = "Go to https://numpy.org/devdocs/user/building.html for instructions on downloading from source.";
                     break;
                 default:
                     document.getElementById("command").innerHTML = "Invalid set-up.";
@@ -38,13 +41,13 @@ updateCommand = () => {
                 case 'linux':
                     switch(versionId) {
                         case '3.6':
-                            document.getElementById("command").innerHTML = "pip install linux 3.6";
+                            document.getElementById("command").innerHTML = "pip install numpy";
                             break;
                         case '3.7':
-                            document.getElementById("command").innerHTML = "pip install linux 3.7";
+                            document.getElementById("command").innerHTML = "pip install numpy";
                             break;
                         case '3.8':
-                            document.getElementById("command").innerHTML = "pip install linux 3.8";
+                            document.getElementById("command").innerHTML = "pip install numpy";
                             break;
                         default:
                             document.getElementById("command").innerHTML = "Invalid set-up.";
@@ -54,13 +57,13 @@ updateCommand = () => {
                 case 'macos':
                     switch(versionId) {
                         case '3.6':
-                            document.getElementById("command").innerHTML = "pip install macos 3.6";
+                            document.getElementById("command").innerHTML = "pip install numpy";
                             break;
                         case '3.7':
-                            document.getElementById("command").innerHTML = "pip install macos 3.7";
+                            document.getElementById("command").innerHTML = "pip install numpy";
                             break;
                         case '3.8':
-                            document.getElementById("command").innerHTML = "pip install macos 3.8";
+                            document.getElementById("command").innerHTML = "pip install numpy";
                             break;
                         default:
                             document.getElementById("command").innerHTML = "Invalid set-up.";
@@ -70,13 +73,13 @@ updateCommand = () => {
                 case 'windows':
                 switch(versionId) {
                     case '3.6':
-                        document.getElementById("command").innerHTML = "pip install windows 3.6";
+                        document.getElementById("command").innerHTML = "pip install numpy";
                         break;
                     case '3.7':
-                        document.getElementById("command").innerHTML = "pip install windows 3.7";
+                        document.getElementById("command").innerHTML = "pip install numpy";
                         break;
                     case '3.8':
-                        document.getElementById("command").innerHTML = "pip install windows 3.8";
+                        document.getElementById("command").innerHTML = "pip install numpy";
                         break;
                     default:
                         document.getElementById("command").innerHTML = "Invalid set-up.";
@@ -90,13 +93,13 @@ updateCommand = () => {
                 case 'linux':
                     switch(versionId) {
                         case '3.6':
-                            document.getElementById("command").innerHTML = "conda install linux 3.6";
+                            document.getElementById("command").innerHTML = "conda install numpy";
                             break;
                         case '3.7':
-                            document.getElementById("command").innerHTML = "conda install linux 3.7";
+                            document.getElementById("command").innerHTML = "conda install numpy";
                             break;
                         case '3.8':
-                            document.getElementById("command").innerHTML = "conda install linux 3.8";
+                            document.getElementById("command").innerHTML = "conda install numpy";
                             break;
                         default:
                             document.getElementById("command").innerHTML = "Invalid set-up.";
@@ -106,13 +109,13 @@ updateCommand = () => {
                 case 'macos':
                     switch(versionId) {
                         case '3.6':
-                            document.getElementById("command").innerHTML = "conda install macos 3.6";
+                            document.getElementById("command").innerHTML = "conda install numpy";
                             break;
                         case '3.7':
-                            document.getElementById("command").innerHTML = "conda install macos 3.7";
+                            document.getElementById("command").innerHTML = "conda install numpy";
                             break;
                         case '3.8':
-                            document.getElementById("command").innerHTML = "conda install macos 3.8";
+                            document.getElementById("command").innerHTML = "conda install numpy";
                             break;
                         default:
                             document.getElementById("command").innerHTML = "Invalid set-up.";
@@ -122,13 +125,13 @@ updateCommand = () => {
                 case 'windows':
                 switch(versionId) {
                     case '3.6':
-                        document.getElementById("command").innerHTML = "conda install windows 3.6";
+                        document.getElementById("command").innerHTML = "conda install numpy";
                         break;
                     case '3.7':
-                        document.getElementById("command").innerHTML = "conda install windows 3.7";
+                        document.getElementById("command").innerHTML = "conda install numpy";
                         break;
                     case '3.8':
-                        document.getElementById("command").innerHTML = "conda install windows 3.8";
+                        document.getElementById("command").innerHTML = "conda install numpy";
                         break;
                     default:
                         document.getElementById("command").innerHTML = "Invalid set-up.";
