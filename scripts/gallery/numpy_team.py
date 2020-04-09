@@ -190,7 +190,7 @@ def main(config_yaml: str,
     templates_path = os.path.join(os.getcwd(),
                                   context["main"]["templates_path"])
     jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader(templates_path))
-    fname = "../../content/en/team.md"
+    fname = "./team.md" 
     sys.stderr.write(f"Processing {fname}\n")
     with open(fname, 'r') as f:
         content = f.read()
