@@ -3,7 +3,15 @@
 {{- $features := index $section2 "features" }}
 <section class="section2">
     <div class="container">
-        <h1 class="section2-title">{{ $title }}</h1>
+        <h1 class="section2-header">
+            {{ $title }}
+            <a class="section2-header-link hvr-icon-forward" href="/learn">
+                <span class="section2-header-link-title">LEARN MORE</span>
+                <span class="section2-header-link-icon" style="color: firebrick;">
+                    <i class="fal fa-arrow-circle-right hvr-icon"></i>
+                </span>
+            </a>
+        </h1>
         <div class="section2-box-container">
             {{- range $features }}
             <div class="section2-box-content section2-underline">

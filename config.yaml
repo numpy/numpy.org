@@ -3,7 +3,12 @@ languageCode: en-us
 title: NumPy
 theme: hugo-fresh
 disableKinds: ["taxonomyTerm"]
+googleAnalytics: UA-162151853-1
 DefaultContentLanguage: en
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 params:
   navColor: blue
@@ -11,8 +16,8 @@ params:
     image: logos/numpy.svg
     link: /
   font:
-    name: "Ubuntu"
-    sizes: [400,600]
+    name: "Lato"
+    sizes: [400,900]
   hero:
     # Main hero title
     title: NumPy
@@ -21,7 +26,7 @@ params:
     # Button text
     buttontext: Get started
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "/learn"
     # Hero image (from static/images/___)
     image: logos/numpy.svg
   # Customizable navbar. For a dropdown, add a "sublinks" list.
@@ -32,27 +37,33 @@ params:
     - title: First Image of a Black Hole
       text: How NumPy, together with libraries like SciPy and Matplotlib that depend on NumPy, enabled the Event Horizon Telescope to produce the first ever image of a black hole
       img: images/content_images/case_studies/blackhole.png
+      alttext: First image of a black hole. It is an orange circle in a black background.
       url: /case-studies/blackhole-image
     - title: Detection of Gravitational Waves
       text: One hundred years after they were predicted by Albert Einstein, NumPy was instrumental in the first observation of gravitational waves by LIGO in 2016.
       img: images/content_images/case_studies/gravitional.png
+      alttext: Two orbs orbiting each other. They are displacing gravity around them.
       url: /case-studies/gw-discov
     - title: Sports Analytics
       text: TODO!
       img: images/content_images/case_studies/sports.jpg
+      alttext: Cricket ball on green field.
       url: /
   section2:
     title: KEY FEATURES
     features:
     - title: Powerful N-dimensional arrays
-      subtitle: Fast, versatile and easy to use
-      text:  Fast, versatile and easy to use, the NumPy vectorization, indexing and broadcasting concepts are the de-facto standards of array computing today.
+      text:  Fast and versatile, the NumPy vectorization, indexing and broadcasting concepts are the de-facto standards of array computing today.
     - title: Numerical computing tools
-      text: Fundamental package for scientific computing, NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms and more.
+      text: NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms and more.
     - title: Interoperable
-      text: Works on your choice of computing platform, whether your code fits in memory and runs on a CPU or requires a GPU. NumPy supports a wide range of computing platforms and works well with all major distributed arrays and sparse arrays libraries. 
+      text: NumPy supports a wide range of hardware and computing platforms, and plays well with distributed, GPU and sparse array libraries.
+    - title: Performant
+      text: The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
+    - title: Easy to use
+      text: NumPy's high level syntax makes it accessible to and productive for programmers from any background or experience level.
     - title: Open source
-      text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained publicly on GitHub by a vibrant, responsive and diverse community.
+      text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive and diverse [community](/community).
   tabs:
     title: ECOSYSTEM
   section5: false
@@ -67,7 +78,7 @@ languages:
       - title: Install
         url: /install
       - title: Documentation
-        url: /doc
+        url: https://numpy.org/doc/
       - title: Learn
         url: /learn
       - title: Array computing
@@ -93,33 +104,29 @@ languages:
             - text: Install
               link: /install
             - text: Documentation
-              link: /docs
+              link: https://numpy.org/doc/
             - text: Learn
               link: /learn
             - text: Roadmap
               link: https://numpy.org/neps/roadmap.html
         column2:
-          title: ""
           links:
             - text: About us
               link: /about
             - text: Community
               link: /community
-            - text: Code of conduct
-              link: /code-of-conduct
-            - text: Get help
-              link: /help
             - text: Contribute
               link: /contribute
+            - text: Code of conduct
+              link: /code-of-conduct
         column3:
-          title: ""
           links:
+            - text: Get help
+              link: /gethelp
             - text: Terms of use
               link: /terms
             - text: Privacy
               link: /privacy
-            - text: Trademarks
-              link: /trademarks
             - text: Press kit
               link: /press-kit
   nl:
@@ -131,7 +138,7 @@ languages:
       - title: Install
         url: /nl/install
       - title: Documentation
-        url: /nl/doc
+        url: https://numpy.org/doc/
       - title: Array computing
         url: /nl/arraycomputing
       - title: Case Studies
@@ -159,7 +166,7 @@ languages:
             - text: Install
               link: /nl/install
             - text: Documentation
-              link: /nl/docs
+              link: https://numpy.org/doc/
             - text: Release notes
               link: /nl/release-notes
             - text: Roadmap
@@ -169,84 +176,20 @@ languages:
           links:
             - text: About us
               link: /nl/about
-            - text: Code of conduct
-              link: /nl/code-of-conduct
-            - text: Get help
-              link: /nl/help
+            - text: Community
+              link: /community
             - text: Contribute
               link: /nl/contribute
+            - text: Code of conduct
+              link:  /nl/code-of-conduct
         column3:
           title: ""
           links:
+            - text: Get help
+              link: /nl/gethelp
             - text: Terms of use
               link: /nl/terms
             - text: Privacy
               link: /nl/privacy
-            - text: Trademarks
-              link: /nl/trademarks
             - text: Press kit
               link: /nl/press-kit
-  hi:
-    title: NumPy
-    languageName: हिंदी
-    weight: 3
-    contentDir: content/hi
-    navbar:
-      - title: Install
-        url: /hi/install
-      - title: Documentation
-        url: /hi/doc
-      - title: Array computing
-        url: /hi/arraycomputing
-      - title: Case Studies
-        url: /hi/case-studies/blackhole-image
-      - title: Learn
-        url: /hi/learn
-      - title: Community
-        url: /hi/community
-      - title: About Us
-        url: /hi/about
-      - title: Contribute
-        url: /hi/contribute
-    footer:
-      logo: numpy.svg
-      socialmediatitle: ""
-      socialmedia:
-      - link: https://github.com/numpy/numpy
-        icon: github
-      - link: https://twitter.com/numpy_team
-        icon: twitter
-      quicklinks:
-        column1:
-          title: ""
-          links:
-            - text: Install
-              link: /hi/install
-            - text: Documentation
-              link: /hi/docs
-            - text: Release notes
-              link: /hi/release-notes
-            - text: Roadmap
-              link: /hi/roadmap
-        column2:
-          title: ""
-          links:
-            - text: About us
-              link: /hi/about
-            - text: Code of conduct
-              link: /hi/code-of-conduct
-            - text: Get help
-              link: /hi/help
-            - text: Contribute
-              link: /hi/contribute
-        column3:
-          title: ""
-          links:
-            - text: Terms of use
-              link: /hi/terms
-            - text: Privacy
-              link: /hi/privacy
-            - text: Trademarks
-              link: /hi/trademarks
-            - text: Press kit
-              link: /hi/press-kit

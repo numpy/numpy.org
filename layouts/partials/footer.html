@@ -6,13 +6,12 @@
   <div class="container">
     <div id="footer-columns" class="columns">
       <div class="footer-logo-column">
-        <img id="footer-logo" src="{{ printf "/images/logos/%s" $logo | relURL }}">
+        <img id="footer-logo" src="{{ printf "/images/logos/%s" $logo | relURL }}" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
       </div>
       {{- range $quickLinks }}
         <div class="link-column">
           <div class="footer-column">
             <div class="footer-header">
-                <h3>{{ .title }}</h3>
             </div>
             <ul class="link-list">
               {{- range .links }}
@@ -27,20 +26,30 @@
         </div>
       {{- end }}
         <div class="footer-actions">
-            <p>Sign up for the latest NumPy news, resources, and more!</p>
-            <div class="sign-up-container">
+            <p>Sign up for the latest NumPy news, resources, <br> and more</p>
+            <!-- Begin Mailchimp -->
+            <form action="https://numpy.us4.list-manage.com/subscribe/post?u=5ddd0d1d6e807900a8212481a&amp;id=287fa4253c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sign-up-container" target="_blank" novalidate>
                 <i class="fal fa-envelope sign-up-image"></i>
-                <input id="email" class="sign-up-input" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') enterEmail()" />
+                <input type="email" value="" name="EMAIL" class="required email sign-up-input" id="mce-EMAIL" aria-label="Input for email, press enter to submit" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') sendThankYou()" />
                 <div class="submission-instructions">Press Enter</div>
-                <button class="signup-button" onclick="enterEmail()">
+                <button class="signup-button" onclick="sendThankYou()" aria-label="Submit">
                     <i class="fal fa-paper-plane"></i>
                 </button>
-            </div>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5ddd0d1d6e807900a8212481a_287fa4253c" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="display: none;"></div>
+            </form>
             <div class="thank-you">Thank you! &#127881;</div>
+            <!--End MailChimp -->
+
             <nav class="level is-mobile">
                 <div class="social-media-icons">
                     {{- range $socialMedia }}
-                    <a class="level-item" href="{{ .link }}">
+                    <a class="level-item" href="{{ .link }}" aria-label="{{ .link }}">
                     <span class="icon"><i class="fa fa-{{ .icon }}"></i></span>
                     </a>
                     {{- end }}

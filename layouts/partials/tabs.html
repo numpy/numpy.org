@@ -1,22 +1,24 @@
 {{- $tabs := .Site.Params.tabs }}
 {{- $title    := index $tabs "title" }}
 <section class="tabs-section">
-    <h1 class="tabs-title">{{ $title }}</h1>
+    <div class="container">
+        <h1 class="tabs-title">{{ $title }}</h1>
 
-    <div class="uikit-tab-wrapper">
-        <ul class="uk-flex-center uk-nav" uk-tab>
-            <li class="uk-active"><a href="#">Visualization</a></li>
-            <li><a href="#">Data Science</a></li>
-            <li><a href="#">Scientific Domains</a></li>
-            <li><a href="#">Machine Learning</a></li>
-            <li><a href="#">Array libraries</a></li>
-        </ul>
-        <ul id="tabs-content" class="uk-switcher uk-margin">
-            {{ partial "visualization.html" . }}
-            {{ partial "data-science.html" . }}
-            {{ partial "scientific-domains.html" . }}
-            {{ partial "machine-learning.html" . }}
-            {{ partial "array-libraries.html" . }}
-        </ul>
+        <div class="uikit-tab-wrapper">
+            <ul class="uk-flex-center uk-nav" uk-tab>
+                <li class="uk-active"><a href="#">Visualization</a></li>
+                <li><a href="#">Data Science</a></li>
+                <li><a href="#">Scientific Domains</a></li>
+                <li><a href="#">Machine Learning</a></li>
+                <li><a href="#">Array libraries</a></li>
+            </ul>
+            <ul id="tabs-content" class="uk-switcher uk-margin">
+                {{ partial "visualization.html" . }}
+                {{ partial "data-science.html" . }}
+                {{ partial "scientific-domains.html" . }}
+                {{ partial "machine-learning.html" . }}
+                {{ partial "array-libraries.html" . }}
+            </ul>
+        </div>
     </div>
 </section>

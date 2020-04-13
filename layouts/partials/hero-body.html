@@ -6,45 +6,40 @@
 {{- $image      := index $hero "image" }}
 <div class="hero-container">
     <div class="hero-content">
-        <div class="flex-column">
-            <div class="flex-row">
-                <div class="hero-title">
-                    {{ $title }}
-                    <img class="hero-logo" src="{{ printf "/images/%s" $image | relURL }}" alt="Description">
-                </div>
+        <div class="hero-title-content">
+            <div class="hero-title">
+                {{ $title }}
+                <img class="hero-logo" src="{{ printf "/images/%s" $image | relURL }}" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
             </div>
-            {{ with $subtitle }}
+            <div class="flex-column">
+                {{ with $subtitle }}
                 <div class="hero-subtitle">
                     {{ . }}
                 </div>
-            {{ end }}
-            <div class="hero-cta">
-                <button class="cta-button">Download</button>
+                {{ end }}
+                <div class="hero-cta">
+                    <a href="{{ $buttonLink }}"><button class="cta-button">{{ $buttonText }}</button></a>
+                </div>
             </div>
         </div>
         <div class="hero-right">
             <div class="numpy-shell-canvas">
                 <div class="numpy-shell-container">
-                    <!-- Shell Intro -->
-                    <div class="shell-intro shell-absolute-position">
-                        <div class="shell-title">Try NumPy</div>
-                        <div class="shell-intro-message">Enable the NumPy Shell.</div>
-                        <button class="shell-enable-button shell-button" onclick="loadShell();">
+                    {{ partial "shell-content.html" . }}
+                    <!-- Interactive Shell -->
+                    <div class="fake-shell" id="demo-code">
+                        <div class="demo-caret" aria-label="interactive shell prompt">&gt;</div>
+                        <button class="shell-enable-button shell-button" onclick="loadShell();" aria-label="Enables the interactive tutorial shell">
                             Enable
                             <div class="loader-container">
                                 <div id="shell-loader" class="loader"></div>
                             </div>
                         </button>
-                        <div class="shell-copy">Give NumPy a shot. We should write some better copy here.</div>
+                    </div>
+                    <div class="real-shell" id="numpy-shell" style="display: none;">
+                        <pre id="demo-code" data-executable="true" data-language="python" style="white-space: pre-line;">import numpy as np</pre>
                     </div>
                 </div>
-            </div>
-            <!-- Interactive Shelll -->
-            <div class="shell-absolute-position" id="numpy-shell">
-                <div class="shell-lesson">
-                    Here we should include a lesson about numpy!
-                </div>
-                <pre id="demo-code" data-executable="true" data-language="python" style="white-space: pre-line;">import numpy as np</pre>
             </div>
         </div>
     </div>
