@@ -25,12 +25,12 @@ detectors that use laser interferometry.  The LIGO Scientific Collaboration
 (LSC), is a group of more than 1000 scientists from universities around the
 United States and in 14 other countries supported by more than 90 universities
 and research institutes; approximately 250 students actively contributing to the
-collaboration. The new LIGO discovery is the first observation of gravitational
-waves themselves, made by measuring the tiny disturbances the waves make to
-space and time as they pass through the earth.  It has opened up new
-astrophysical frontiers that explore the warped side of the universe—objects and
-phenomena that are made from warped spacetime.
+collaboration. LIGO discovery GW150914 is the first observation that is
+significant in being the first observation both confirming the existence of
+gravitational waves as well as proves the ability to directly measure them. 
 
+Gravitational waves allow scientists to observe and study the universe in a
+brand new way, ushering in the era of gravitational wave astronomy.
 
 ### Key Objectives
 
@@ -65,7 +65,7 @@ posed by data deluge and finding a needle in a haystack rise multi-fold.  LIGO
 generates terabytes of data every day! Making sense of this data requires an
 enormous effort for each and every detection. For example, the signals being
 collected by LIGO must be matched by supercomputers against hundreds of
-thousands of templates of possible gravitational-wave signatures.
+thousands of templates of possible gravitational-wave signatures. 
 
 * **Visualization**
 
@@ -87,8 +87,13 @@ domain.
 	
 Gravitational waves emitted from the merger cannot be computed using any
 technique except brute force numerical relativity using supercomputers.  The
-amount of data LIGO collects is as incomprehensibly large as gravitational wave
-signals are small.
+amount of data LIGO collects is as incomprehensibly large and requires careful
+processing like any other data science problem.  Although it is technologically
+more challenging to achieve the requisite sensitivity for capturing
+gravitaional waves and is way harder than dealing with large scale data, yet
+the latter is complex enough to require numerical processing skills of several
+Python tools including
+[NumPy](https://towardsdatascience.com/2020-how-a-i-could-help-astronomers-sorting-big-data-811571705707).
 
 NumPy, the standard numerical analysis package for Python,  was utilized by the
 software used for various tasks performed during the GW detection project at
@@ -99,6 +104,13 @@ Here are some examples:
   detection,  [Noise identification and Data
 Characterization](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf)
 (NumPy, scikit-learn, scipy, matplotlib, pandas, pyCharm )
+* GW data analysis
+  such as [GwPy](https://gwpy.github.io/docs/stable/overview.html) and
+[PyCBC](https://pycbc.org) uses NumPy and AstroPy under the hood for providing
+object based interfaces to utilities, tools and methods for studying data from
+gravitational-wave detectors. Both GwPy and pycbc libraries rely on NumPy for
+analysis of the "chirp" signal. For example, in pycbc, the time series data are
+stored in ndarrays and scipy.signal, which operates on NumPy arrays.
 * Data retrieval: Deciding which data can be analyzed, figuring out whether it
   contains a signal - needle in a haystack
 * Statistical analysis: estimate the statistical significance of observational
@@ -108,11 +120,6 @@ and distance) by comparison with a model.
   - Time series
   - Spectrograms
 * Compute Correlations Key [Software](https://github.com/lscsoft) developed in
-* GW data analysis
-  such as [GwPy](https://gwpy.github.io/docs/stable/overview.html) and
-[PyCBC](https://pycbc.org) uses NumPy and AstroPy under the hood for providing
-object based interfaces to utilities, tools and methods for studying data from
-gravitational-wave detectors.
 
 ## Summary
 
