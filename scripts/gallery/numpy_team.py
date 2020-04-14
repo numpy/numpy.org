@@ -6,43 +6,45 @@ The output team.html is stored in static/gallery/ target folder by default.
 It is inspired from the code in pandas/pandas-web project.
 
 It requires as input numpy_team.yml configuration file.
-This configuration file should contain:
-```
-main:
-    template_path: <path_to_the_jinja2_templates_directory>
-    base_template: <template_file_all_other_files_will_extend>
-    github_repo_url: <organization/repo-name>
-    context_preprocessors:
-    - <list_of_functions_that_will_enrich_the_context_parsed_in_this_file>
-    markdown_extensions:
-    - <list_of_markdown_extensions_that_will_be_loaded>
-    maintainers:
-        core: <list_of_core_dev_team_members_github_handle>
-        webteam: <list_of_numpy_webteam_members_github_handle>
-        documentation: <list_of_numpy_documentation_team_members>
-        emeritus: <list_of_emeritus_team_numpy>
-```
+This configuration file should contain::
+
+    main:
+        template_path: <path_to_the_jinja2_templates_directory>
+        base_template: <template_file_all_other_files_will_extend>
+        github_repo_url: <organization/repo-name>
+        context_preprocessors:
+        - <list_of_functions_that_will_enrich_the_context_parsed_in_this_file>
+        markdown_extensions:
+        - <list_of_markdown_extensions_that_will_be_loaded>
+        maintainers:
+            core: <list_of_core_dev_team_members_github_handle>
+            webteam: <list_of_numpy_webteam_members_github_handle>
+            documentation: <list_of_numpy_documentation_team_members>
+            emeritus: <list_of_emeritus_team_numpy>
+
 The rest of the items in the file will be added directly to the context.
 
 Make sure your current directory is gallery which contains numpy_team.py file.
 
-Run ./numpy_team.py --help to see how to run it.
+Run ``./numpy_team.py --help`` to see how to run it.
 
 Example:
 
-    * To run the script use:
-```
-        ./numpy_team.py <Dir Path to yml file location> --ignore-io-errors
-```
-    This will pull information about team members listed in yaml file into a
-local file called numpy_team.context. In subsequent runs, unless the team changes, you can reuse this locally stored information to render it using this script and play with layout, css etc. as shown in the next example.
+To run the script use::
+
+    ./numpy_team.py <Dir Path to yml file location> --ignore-io-errors
+
+This will pull information about team members listed in yaml file into a local
+file called numpy_team.context. In subsequent runs, unless the team changes,
+you can reuse this locally stored information to render it using this script
+and play with layout, css etc. as shown in the next example.
 
 
-    * To run the script using github info stored locally, use: 
-```
-        ./numpy_team.py <Dir Path to yml file location> --ignore-io-errors
+To run the script using github info stored locally, use::
+
+    ./numpy_team.py <Dir Path to yml file location> --ignore-io-errors
             --stored-context="./cache/numpy_numpy_team.context"
-```
+
 """
 
 import os
@@ -55,6 +57,7 @@ import jinja2
 import requests
 import yaml
 import argparse
+
 
 class Preprocessors:
     """
@@ -100,6 +103,7 @@ class Preprocessors:
 
         return context
 
+
 def get_team_gitinfo(subteam, ctx_tag, context):
     """
     Given the subteam kind as input, fetch their info from git.
@@ -114,6 +118,7 @@ def get_team_gitinfo(subteam, ctx_tag, context):
         context["main"]["maintainers"][ctx_tag].append(resp.json())
 
     return context
+
 
 def get_callable(obj_as_str: str) -> object:
     """
@@ -143,9 +148,11 @@ def get_callable(obj_as_str: str) -> object:
 
     return obj
 
+
 def get_context(contrib_fname: str, ignore_io_errors: bool, **kwargs):
     """
-    Load contrib yaml as base context and add information by context preprocessor for team
+    Load contrib yaml as base context and add information by context
+    preprocessor for team.
     """
     with open(contrib_fname) as f:
         context = yaml.safe_load(f)
@@ -165,6 +172,7 @@ def get_context(contrib_fname: str, ignore_io_errors: bool, **kwargs):
 
     return context
 
+
 def extend_base_template(content: str, base_template: str) -> str:
     result = '{% extends "' + base_template + '" %}'
     result += '{% block body %}'
@@ -172,28 +180,31 @@ def extend_base_template(content: str, base_template: str) -> str:
     result += '{% endblock %}'
     return result
 
+
 def main(config_yaml: str,
          target_path: str,
          stored_context: str,
          ignore_io_errors: bool) -> int:
     """
-    Uses Team.md file in Hugo sources content/en subfolder, renderis
-    it with context and transformed it to HTML which is statically included in
-    NumPy Hugo static/gallery folder.
+    Uses Team.md file in Hugo sources content/en subfolder, render it with
+    context and transformed it to HTML which is statically included in NumPy
+    Hugo static/gallery folder.
     """
 
     shutil.rmtree(target_path, ignore_errors=True)
     os.makedirs(target_path, exist_ok=True)
     sys.stderr.write("Generating context...\n")
-    context = get_context(config_yaml, ignore_io_errors, stored_context=stored_context)
+    context = get_context(config_yaml, ignore_io_errors,
+                          stored_context=stored_context)
     sys.stderr.write("Context generated successfully. \n")
     templates_path = os.path.join(os.getcwd(),
                                   context["main"]["templates_path"])
     jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader(templates_path))
-    fname = "./team.md" 
+    fname = "./team.md"
     sys.stderr.write(f"Processing {fname}\n")
     with open(fname, 'r') as f:
         content = f.read()
+
     body = markdown.markdown(content,
                              extensions=context["main"]["markdown_extensions"])
     content = extend_base_template(body,
@@ -201,7 +212,8 @@ def main(config_yaml: str,
     content = (jinja_env.from_string(content).render(**context))
     fname = "team.html"
     with open(os.path.join(target_path,fname), 'w') as f:
-        f.write(content)                        
+        f.write(content)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Team Page builder.")
