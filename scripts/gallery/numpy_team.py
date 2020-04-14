@@ -32,18 +32,17 @@ Example:
 
 To run the script use::
 
-    ./numpy_team.py <Dir Path to yml file location> --ignore-io-errors
+    ./numpy_team.py <Dir Path to yml file location>
 
 This will pull information about team members listed in yaml file into a local
 file called numpy_team.context. In subsequent runs, unless the team changes,
 you can reuse this locally stored information to render it using this script
 and play with layout, css etc. as shown in the next example.
 
-
 To run the script using github info stored locally, use::
 
     ./numpy_team.py <Dir Path to yml file location> --ignore-io-errors
-            --stored-context="./cache/numpy_numpy_team.context"
+            --stored-context="cache/numpy_team.context"
 
 """
 
