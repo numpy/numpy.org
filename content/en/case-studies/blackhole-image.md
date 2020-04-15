@@ -26,12 +26,14 @@ from a sidewalk café in Paris!
 
 ### Key Goals and Results
 
-* The EHT is an exciting new tool for studying the most extreme objects in the
+* **A New View of the Universe:**
+  The EHT is an exciting new tool for studying the most extreme objects in the
   universe. The EHT's groundbreaking image was published 100 years
   after [Sir Arthur Eddington's expidition][eddington] yielded the first 
   observational evidence in support of Einstein's theory of general relativity.
 
-* The EHT's first image focuses on the supermassive black hole at the center
+* **Investigating Black Holes:**
+  The EHT's first image focuses on the supermassive black hole at the center
   of the galaxy Messier 87 (M87), located in the Virgo galaxy cluster.
   This black hole resides approximately 55 million light-years from Earth and
   has a mass equal  to 6.5 billion times that of the Sun. It has been a
@@ -40,7 +42,8 @@ from a sidewalk café in Paris!
   Black holes have long been the object of intense study but the EHT provides
   the first direct visual evidence of these extreme phenomena.
 
-* Based on Einstein’s general theory of relativity, scientists expected 
+* **Comparing Observations to Theory:**
+  Based on Einstein’s general theory of relativity, scientists expected 
   see a dark region similar to a shadow, caused by the gravitational bending
   and capture of light by the event horizon. By studying this shadow
   scientists could measure the enormous mass of M87’s central supermassive
