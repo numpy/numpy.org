@@ -43,7 +43,7 @@ Het NumPy project groeit, we hebben aparte teams voor:
 - Financiering & subsidies
 - Beheerder
 
-See the [Team](/team) page for the individual team members.
+See the [Team](/gallery/team.html) page for individual team members.
 
 
 ## Sponsors
