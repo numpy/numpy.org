@@ -32,6 +32,9 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
     title: NumPy News
+
+  shell:
+    title: NumPy Shell
   section3:
     title: CASE STUDIES
     features:
