@@ -3,12 +3,12 @@
     {{ partial "hero.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.section1 }}
-    {{ partial "section1.html" . }}
-    {{ end }}
-
     {{ if .Site.Params.section2 }}
     {{ partial "section2.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.shell }}
+    {{ partial "shell.html" . }}
     {{ end }}
 
     {{ if .Site.Params.tabs }}

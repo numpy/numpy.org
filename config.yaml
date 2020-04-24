@@ -31,6 +31,8 @@ params:
     image: logos/numpy.svg
   # Customizable navbar. For a dropdown, add a "sublinks" list.
 
+  shell:
+    title: NumPy Shell
   section3:
     title: CASE STUDIES
     features:
