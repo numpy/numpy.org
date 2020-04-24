@@ -26,8 +26,9 @@ em {
     justify-content: center;
 }
 
-.hero-container {
-    min-height: 630px;
+.shell-title-container {
+    text-align: center;
+    margin: 15px;
 }
 
 .hero-content {
