@@ -127,17 +127,16 @@ and other PyData packages like Scikit-learn, SciPy, Matplotlib, and Jupyter.
 in addition to latest machine learning and AI techniques.  NumPy has been used
 for various kinds of cricket related sporting analytics such as:
 
-* **Data Visualization:** Data graphing and [visualization](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b)
-  provides useful insights into relationship between various datasets;
-  [causal analysis](https://amplitude.com/blog/2017/01/19/causation-correlation),
-  and [big data approaches](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/)
-  are used for tactical analysis. NumPy offers the core numeric computing foundation for several
-  such analyses.
-
-* **Statistical Analysis:** NumPy numerical capabilities help estimate the
+* **Statistical Analysis:** NumPy's numerical capabilities help estimate the
   statistical significance of observational data or match events in the context
   of various player and game tactics, estimating the game outcome by comparison
   with a generative or static model.
+  [Causal analysis](https://amplitude.com/blog/2017/01/19/causation-correlation)
+  and [big data approaches](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/)
+  are used for tactical analysis.
+
+* **Data Visualization:** Data graphing and [visualization](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b)
+  provides useful insights into relationship between various datasets.
 
 ## Summary
 
