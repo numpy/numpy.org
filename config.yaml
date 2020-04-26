@@ -45,10 +45,11 @@ params:
       alttext: Two orbs orbiting each other. They are displacing gravity around them.
       url: /case-studies/gw-discov
     - title: Sports Analytics
-      text: TODO!
+      text: Cricket Analytics is changing the game by improving player and team performance through statistical modelling and predictive analytics. NumPy enables many of these analyses.
       img: images/content_images/case_studies/sports.jpg
       alttext: Cricket ball on green field.
-      url: /
+      url: /case-studies/cricket-analytics
+
   section2:
     title: KEY FEATURES
     features:
