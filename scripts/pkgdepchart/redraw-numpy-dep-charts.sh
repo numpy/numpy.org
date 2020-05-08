@@ -5,6 +5,8 @@
 
 set -ue
 
+scriptdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
 curdir=`pwd`
 outputdir=$curdir
 
@@ -40,6 +42,7 @@ declare -a pkgurl=("https://github.com/achael/eht-imaging.git"
                    "https://github.com/gwpy/gwpy.git"
                    "https://github.com/gwastro/pycbc.git")
 declare -a pkgsetup=("eht-imaging" "gwpy" "pycbc")
+
 highlightcolor="cyan"
 
 #numpkg=${#pkgarray[@]}
@@ -52,8 +55,8 @@ do
     echo "and using $workingdir as scratch"
 
     mkdir $workingdir/${pkgarray[$index]} $workingdir/${pkgarray[$index]}/graphdir
-    ./scripts/fetch-numpydeppkg.sh ${pkgarray[$index]} $workingdir/${pkgarray[$index]} ${pkgurl[$index]} ${pkgsetup[$index]}
-    ./scripts/gen-numpy-dep-graph.sh ${pkgarray[$index]} $workingdir/${pkgarray[$index]} $workingdir/${pkgarray[$index]}/numpy_${pkgarray[$index]}_dep/${pkgsetup[$index]} $workingdir/${pkgarray[$index]}/graphdir/ $highlightcolor
+    ${scriptdir}/fetch-numpydeppkg.sh ${pkgarray[$index]} $workingdir/${pkgarray[$index]} ${pkgurl[$index]} ${pkgsetup[$index]}
+    ${scriptdir}/gen-numpy-dep-graph.sh ${pkgarray[$index]} $workingdir/${pkgarray[$index]} $workingdir/${pkgarray[$index]}/numpy_${pkgarray[$index]}_dep/${pkgsetup[$index]} $workingdir/${pkgarray[$index]}/graphdir/ $highlightcolor
     if ! [ -f $workingdir/${pkgarray[$index]}/graphdir/numpy-clean-color.png ]
     then
         echo "Error: Graph for ${pkgarray[$index]} failed! Exiting."
@@ -66,7 +69,7 @@ done
 for index in "${!pkgarray[@]}" ;
 do
     echo "Uninstalling ${pkgarray[$index]}....."
-    ./scripts/cleanup-numpydeppkg.sh ${pkgarray[$index]} $workingdir/${pkgarray[$index]} ${pkgsetup[$index]}
+    ${scriptdir}/cleanup-numpydeppkg.sh ${pkgarray[$index]} $workingdir/${pkgarray[$index]} ${pkgsetup[$index]}
 done
 
 echo "Cleaning up scratch dir: $workingdir..........."

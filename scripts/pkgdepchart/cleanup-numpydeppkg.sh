@@ -30,6 +30,9 @@ cleanup_pkg() {
 
   $workingdir/env-${pkgname}/bin/pip3 uninstall -y -r $workingdir/numpy_${pkgname}_dep/$setupdir/requirements.txt
 
+  \rm -rf $workingdir/env-${pkgname}
+  \rm -rf $workingdir/numpy_${pkgname}_dep
+
   return 0
 }
 
