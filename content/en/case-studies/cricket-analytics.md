@@ -67,7 +67,7 @@ metrics for improving match winning chances:
 
 * Sports data analytics are used not only in cricket but many [other
   sports](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) for
-  improving the overall team performance and maximize winning chances.
+  improving the overall team performance and maximizing winning chances.
 * Real-time data analytics can help in gaining insights even during the game
   for changing tactics by the team and by associated businesses for economic
   benefits and growth.
@@ -123,8 +123,8 @@ metrics for improving match winning chances:
 
 Sports Analytics is a thriving field. Many researchers and companies
 [use NumPy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx)
-and other PyData packages like Scikit-learn, SciPy, Matplotlib, and Jupyter.
-in addition to latest machine learning and AI techniques.  NumPy has been used
+and other PyData packages like Scikit-learn, SciPy, Matplotlib, and Jupyter,
+besides using the latest machine learning and AI techniques.  NumPy has been used
 for various kinds of cricket related sporting analytics such as:
 
 * **Statistical Analysis:** NumPy's numerical capabilities help estimate the
@@ -140,17 +140,17 @@ for various kinds of cricket related sporting analytics such as:
 
 ## Summary
 
-Sports Analytics have changed the way professional games are played, especially
-regarding decision making which was until recently primarily done based on
-“gut feeling" or adherence to past traditions. NumPy forms a
-solid foundation for a large set of Python packages which provide higher level
-functions related to data analytics, machine learning and AI algorithms. These
-packages are widely deployed to gain real-time insights that help in decision
-making for game-changing outcomes, both on field as well as to draw inferences
-and drive business around the game of cricket.  Finding out the hidden
-parameters, patterns and attributes that lead to the outcome of a cricket match
-helps the stakeholders to take notice of game insights that are otherwise hidden
-in numbers and statistics.
+Sports Analytics is a game changer when it comes to how professional games are
+played, especially how strategic decision making happens, which until recently
+was primarily done based on “gut feeling" or adherence to past traditions.  NumPy
+forms a solid foundation for a large set of Python packages which provide higher
+level functions related to data analytics, machine learning and AI algorithms.
+These packages are widely deployed to gain real-time insights that help in
+decision making for game-changing outcomes, both on field as well as to draw
+inferences and drive business around the game of cricket.  Finding out the
+hidden parameters, patterns and attributes that lead to the outcome of a
+cricket match helps the stakeholders to take notice of game insights that are
+otherwise hidden in numbers and statistics.
 
 {{< figure src="/images/content_images/cs/numpy_ca_benefits.png"
            class="fig-center"
