@@ -52,8 +52,8 @@ Je kunt problemen melden bij de NumPy Code of Gedragscommissie op numpy-conduct@
 Op dit moment bestaat het comité uit:
 
 * Stefan van der Walt
-* Nathaniel J. Smith
-* Ralf Gommers
+* Melissa Weber Mendonça
+* Anirudh Subramanian
 
 Als er leden van de commissie bij uw verslag betrokken zijn of als zij het gevoel hebben dat zij belangenverstrengeling hebben bij het behandelen ervan. Dan zullen zij zich onthouden van de behandeling van uw verslag. Een andere mogelijkheid, als u zich om een of andere reden ongemakkelijk voelt om een verslag voor te leggen aan de commissie. dan kun je ook contact opnemen met de senior NumFOCUS medewerkers via [conduct@numfocus. rg](https://numfocus.org/code-of-conduct#persons-responsible).
 
