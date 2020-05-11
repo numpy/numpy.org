@@ -119,6 +119,11 @@ speed.  Here are some examples:
   providing object based interfaces to utilities, tools and methods for
   studying data from gravitational-wave detectors.
 
+{{< figure src="/images/content_images/cs/gwpy-numpy-dep-graph.png" class="fig-center" alt="gwpy-numpy depgraph" caption="**Dependency graph showing how GwPy package depends on NumPy**" >}}
+
+----
+
+{{< figure src="/images/content_images/cs/PyCBC-numpy-dep-graph.png" class="fig-center" alt="PyCBC-numpy depgraph" caption="**Dependency graph showing how PyCBC package depends on NumPy**" >}}
 
 ## Summary
 
