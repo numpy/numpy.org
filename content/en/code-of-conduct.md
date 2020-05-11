@@ -47,13 +47,13 @@ We know that it is painfully common for internet communication to start at or de
 
 For clearly intentional breaches, report those to the Code of Conduct Committee (see below). For possibly unintentional breaches, you may reply to the person and point out this code of conduct (either in public or in private, whatever is most appropriate). If you would prefer not to do that, please feel free to report to the Code of Conduct Committee directly, or ask the Committee for advice, in confidence.
 
-You can report issues to the NumPy Code of Conduct Committee at numpy-conduct@googlegroups.com. 
+You can report issues to the NumPy Code of Conduct Committee at numpy-conduct@googlegroups.com.
 
 Currently, the Committee consists of:
 
 * Stefan van der Walt
-* Nathaniel J. Smith
-* Ralf Gommers
+* Melissa Weber Mendonça
+* Anirudh Subramanian
 
 If your report involves any members of the Committee, or if they feel they have a conflict of interest in handling it, then they will recuse themselves from considering your report. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
