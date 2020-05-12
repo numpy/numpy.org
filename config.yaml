@@ -30,7 +30,8 @@ params:
     # Hero image (from static/images/___)
     image: logos/numpy.svg
   # Customizable navbar. For a dropdown, add a "sublinks" list.
-
+  news:
+    title: NumPy News
   section3:
     title: CASE STUDIES
     features:

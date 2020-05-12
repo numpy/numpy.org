@@ -1,0 +1,16 @@
+.news-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    min-height: 100px;
+}
+
+.news-title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    letter-spacing: 1.5px;
+    font-size: 27px;
+}

@@ -1,0 +1,7 @@
+{{- $news       := .Site.Params.news }}
+{{- $title      := index $news "title" }}
+
+<div class="news-container">
+    <div class="news-title">{{ $title }}</div>
+    <div class="news-content">NumPy News goes here</div>
+</div>
