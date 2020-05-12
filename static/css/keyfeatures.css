@@ -1,5 +1,5 @@
 .keyfeatures {
-    margin-bottom: 30px;
+    margin: 50px 0;
 }
 
 .keyfeatures .container {
@@ -65,7 +65,6 @@
         margin: 0 6vw;
     }
 }
-
 
 @media only screen and (max-width: 525px) {
     .keyfeatures-header {
