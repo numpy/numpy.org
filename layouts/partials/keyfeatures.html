@@ -1,16 +1,11 @@
 {{- $keyfeatures := .Site.Params.keyfeatures }}
 {{- $title    := index $keyfeatures "title" }}
 {{- $features := index $keyfeatures "features" }}
+
 <section class="keyfeatures">
     <div class="container">
         <h1 class="keyfeatures-header">
             {{ $title }}
-            <a class="keyfeatures-header-link hvr-icon-forward" href="/learn">
-                <span class="keyfeatures-header-link-title">LEARN MORE</span>
-                <span class="keyfeatures-header-link-icon" style="color: firebrick;">
-                    <i class="fal fa-arrow-circle-right hvr-icon"></i>
-                </span>
-            </a>
         </h1>
         <div class="keyfeatures-box-container">
             {{- range $features }}
