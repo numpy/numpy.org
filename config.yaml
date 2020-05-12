@@ -34,7 +34,7 @@ params:
     title: NumPy News
 
   shell:
-    title: NumPy Shell
+    title: placeholder
   section3:
     title: CASE STUDIES
     features:

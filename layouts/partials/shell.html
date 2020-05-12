@@ -1,11 +1,7 @@
-{{- $shell       := .Site.Params.shell }}
-{{- $title      := index $shell "title" }}
-
 <div class="hero-right">
     <div class="numpy-shell-canvas">
         <div class="numpy-shell-container">
             <div class="flex-column shell-title-container">
-                <div class="shell-title">{{ $title }}</div>
                 {{ partial "shell-content.html" . }}
             </div>
             <!-- Interactive Shell -->
