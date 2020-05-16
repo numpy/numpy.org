@@ -31,7 +31,11 @@ params:
     image: logos/numpy.svg
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
-    title: NumPy News
+    title: NumPy v1.18.0
+    content: The C-API for numpy.random defined and documented - Basic infrastructure for linking with 64-bit BLAS and LAPACK - Improved documentation
+
+  shell:
+    title: placeholder
   section3:
     title: CASE STUDIES
     features:
@@ -51,7 +55,7 @@ params:
       alttext: Cricket ball on green field.
       url: /case-studies/cricket-analytics
 
-  section2:
+  keyfeatures:
     title: KEY FEATURES
     features:
     - title: Powerful N-dimensional arrays

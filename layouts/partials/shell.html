@@ -1,0 +1,22 @@
+<div class="hero-right">
+    <div class="numpy-shell-canvas">
+        <div class="numpy-shell-container">
+            <div class="flex-column shell-title-container">
+                {{ partial "shell-content.html" . }}
+            </div>
+            <!-- Interactive Shell -->
+            <div class="fake-shell" id="demo-code">
+                <div class="demo-caret" aria-label="interactive shell prompt">&gt;</div>
+                <button class="shell-enable-button shell-button" onclick="loadShell();" aria-label="Enables the interactive tutorial shell">
+                    Enable
+                    <div class="loader-container">
+                        <div id="shell-loader" class="loader"></div>
+                    </div>
+                </button>
+            </div>
+            <div class="real-shell" id="numpy-shell" style="display: none;">
+                <pre id="demo-code" data-executable="true" data-language="python" style="white-space: pre-line;">import numpy as np</pre>
+            </div>
+        </div>
+    </div>
+</div>
