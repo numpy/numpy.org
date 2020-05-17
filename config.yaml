@@ -32,7 +32,8 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
     title: NumPy v1.18.0
-    content: The C-API for numpy.random defined and documented - Basic infrastructure for linking with 64-bit BLAS and LAPACK - Improved documentation
+    content: A new C-API for numpy.random - Basic infrastructure for linking with 64-bit BLAS and LAPACK
+    url: /news
 
   shell:
     title: placeholder
