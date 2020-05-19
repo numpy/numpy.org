@@ -9,6 +9,14 @@
     white-space: nowrap;
 }
 
+.news-container a {
+    color: white;
+}
+
+.news-container a:hover {
+    color: white;
+}
+
 .news-title {
     display: flex;
     letter-spacing: 1.5px;
