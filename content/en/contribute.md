@@ -33,7 +33,7 @@ We also have a bi-weekly _community call_, the details of which are announced on
 
 ### Developing educational materials
 
-NumPy's [User Guide](https://numpy.org/devdocs/user) can use a lot of help -
+NumPy's [User Guide](https://numpy.org/devdocs) can use a lot of help -
 restructuring the contents, clearer (and more) tutorials, how-to's on many
 topics, and focused explanations of concepts. We are in the process of writing
 up a comprehensive plan for a documentation overhaul, but already have concrete

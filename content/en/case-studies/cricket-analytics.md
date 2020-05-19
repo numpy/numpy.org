@@ -60,7 +60,7 @@ metrics for improving match winning chances:
            caption="**Cricket Pitch, the focal point in the field**"
            alt="A cricket pitch with bowler and batsmen"
            align="middle"
-           attr="*(Image Credits: Debarghya Das)*"
+           attr="*(Image credit: Debarghya Das)*"
            attrlink="http://debarghyadas.com/files/IPLpaper.pdf" >}}
 
 ### Key Data Analytics Objectives
@@ -80,7 +80,7 @@ metrics for improving match winning chances:
            class="fig-center"
            alt="pose estimator"
            caption="**Cricket Pose Estimator**"
-           attr="*(Image Credits: connect.vin)*"
+           attr="*(Image credit: connect.vin)*"
            attrlink="https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/" >}}
 
 ### The Challenges
