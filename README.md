@@ -2,11 +2,16 @@
 
 ## Getting Started
 
-To contribute to the website, you'll first need to install Hugo.
+To contribute to the website, you'll first need to install the *extended
+version* of Hugo.
 
-https://gohugo.io/getting-started/quick-start/
+The Hugo [install page](https://gohugo.io/getting-started/installing/) has
+instructions for different platforms and installers; make sure you end up with
+the extended version.
 
-Hint: If you're on a Mac, you can run `brew install hugo`.
+On Linux it may be easiest to pick up a tarball of the latest extended version
+from the [release page](https://github.com/gohugoio/hugo/releases/) and
+install it per https://gohugo.io/getting-started/installing/#install-hugo-from-tarball.
 
 Next, clone this repository, and install the theme:
 
@@ -29,6 +34,13 @@ hugo server -D
 to run the hugo server with draft enabled.
 
 after which the site should be served at http://localhost:1313.
+
+You'll see
+```
+error: failed to transform resource: TOCSS: failed to transform "style.sass"
+```
+if you don't have the Hugo extended version.
+
 
 ## Using docker:
 
