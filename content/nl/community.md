@@ -3,7 +3,7 @@ title: Gemeenschap
 sidebar: Onjuist
 ---
 
-NumPy is een door de gemeenschap gedreven open source project ontwikkeld door een zeer diverse groep van [bijdragers](/team). De NumPy leadership heeft zich sterk ingezet voor het creëren van een open, inclusieve en positieve gemeenschap. Lees de [NumPy Code of Conduct](/code-of-conduct) voor begeleiding over hoe interactie met anderen moet worden gevoerd op een manier die de gemeenschap laat gedijen.
+NumPy is a community-driven open source project developed by a very diverse group of [contributors](/gallery/team.html). De NumPy leadership heeft zich sterk ingezet voor het creëren van een open, inclusieve en positieve gemeenschap. Lees de [NumPy Code of Conduct](/code-of-conduct) voor begeleiding over hoe interactie met anderen moet worden gevoerd op een manier die de gemeenschap laat gedijen.
 
 We bieden verschillende communicatiekanalen aan om je kennis te leren, je kennis te delen en te verbinden met anderen binnen de NumPy Gemeenschap.
 
