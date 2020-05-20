@@ -23,7 +23,7 @@ Onze gemeenschap streeft ernaar iedereen gelijk te behandelen en alle bijdragen 
 
 ## Hoe te beginnen
 
-For the process of contributing to the NumPy code base, we have an extensive [developer guide](https://numpy.org/devdocs/dev/index.html). We werken niet met het toewijzen van problemen - als je iets interessants ziet, duik dan alsjeblieft in!
+For the process of contributing to the NumPy code base, we have an extensive [developer guide](https://numpy.org/devdocs/dev/index.html#development-process-summary). We werken niet met het toewijzen van problemen - als je iets interessants ziet, duik dan alsjeblieft in!
 
 For other activities, we will attempt to give some guidance on this page. Als je niet zeker weet waar je aan de slag gaat of hoe je vaardigheden voor het project uitmaken, _neem dan contact met ons op_! You can ask on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) or [GitHub](http://github.com/numpy/numpy) (open an issue or comment on a relevant issue). These are our preferred communication channels (open source is open by nature!), however, if you prefer to discuss in private first, please reach out to our community coordinators at `numpy-team@googlegroups.com` or on [Slack](https://numpy-team.slack.com) (send an email to `numpy-team@googlegroups.com` for an invite the first time).
 
@@ -32,7 +32,7 @@ We hebben ook een tweewekelijkse _community call_, waarvan de details worden aan
 
 ### Onderwijsmaterialen ontwikkelen
 
-NumPy's [Gebruikershandleiding](https://numpy.org/devdocs/user) kan veel hulp gebruiken - de inhoud herstructureren, duidelijker (en meer) tutorials, hoe-to's over veel onderwerpen, en doelgerichte uitleg van concepten. We zijn bezig een uitgebreid plan op te stellen voor een revisie van documentatie, maar hebben al concrete ideeën. Of je kunt je eigen hebben. Hoe dan ook, neem contact met ons op om te discussiëren.
+NumPy's [User Guide](https://numpy.org/devdocs) can use a lot of help - restructuring the contents, clearer (and more) tutorials, how-to's on many topics, and focused explanations of concepts. We zijn bezig een uitgebreid plan op te stellen voor een revisie van documentatie, maar hebben al concrete ideeën. Of je kunt je eigen hebben. Hoe dan ook, neem contact met ons op om te discussiëren.
 
 Naast de inhoud van de gebruikershandleiding zijn we ook geïnteresseerd in andere types educatief materiaal - bewerkte voorbeelden, notebooks, video's en meer. We zouden het geweldig vinden als ons team zich concentreerde op hoogwaardige documentatie en educatieve materialen.
 
