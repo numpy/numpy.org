@@ -15,14 +15,14 @@ There is tons of information about NumPy out there. If you are new to NumPy, we'
 <i class="fad fa-chalkboard"></i> **Tutorials**
 
 * [NumPy Quickstart Handleiding](https://numpy.org/devdocs/user/quickstart.html)
-* [SciPy Lectures](https://www.scipy-lectures.org/) Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.
+* [SciPy Lectures](https://scipy-lectures.org/) Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.
 * [Towards Data Science, an introduction to NumPy *by Anne Bonner*](https://towardsdatascience.com/the-ultimate-beginners-guide-to-numpy-f5a2f99aef54)
 * [Machine Learning Plus - Inleiding tot ndarray](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
 * [Edureka - NumPy Arrays met voorbeelden ](https://www.edureka.co/blog/python-numpy-tutorial/)
 * [Dataquest - NumPy Tutorial: Data Analyse met Python](https://www.dataquest.io/blog/numpy-tutorial-python/)
 * [NumPy tutorial *by Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
 * [Stanford CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
-* [NumPy gebruikershandleiding](https://numpy.org/devdocs/user/index.html)
+* [NumPy gebruikershandleiding](https://numpy.org/devdocs)
 
 <i class="fas fa-books"></i> **Books**
 
