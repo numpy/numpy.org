@@ -26,11 +26,9 @@
     align-items: center;
 }
 
-
 .shell-content {
     display: flex;
     flex-direction: column;
-    min-width: 500px;
     text-align: center;
 }
 
@@ -55,6 +53,12 @@
     position: absolute;
     top: 30%;
     left: 40%;
+}
+
+.shell-title-container {
+    text-align: center;
+    align-items: center;
+    margin: 15px;
 }
 
 .shell-title {
@@ -180,7 +184,7 @@
     top: 88px;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1090px) {
     .numpy-shell-container {
         flex-direction: column;
         justify-content: space-around;
