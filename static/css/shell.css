@@ -59,6 +59,7 @@
     text-align: center;
     align-items: center;
     margin: 15px;
+    min-width: 260px;
 }
 
 .shell-title {
@@ -175,13 +176,16 @@
     font-size: 0.8em;
 }
 
+.thebelab-input {
+    height: 190px;
+}
+
 #demo-output-parent {
     position: relative;
 }
 
 #demo-output {
     position: absolute;
-    top: 88px;
 }
 
 @media only screen and (max-width: 1090px) {
