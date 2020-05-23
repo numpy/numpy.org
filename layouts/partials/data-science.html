@@ -9,38 +9,34 @@
         <div>
             <p>
                 NumPy lies at the core of a rich ecosystem of data science libraries.
-            </p>
-            <p>
-                Data science is the analysis of massive amounts of data
-                to gain insight. A typical workflow might be:
+                A typical exploratory data science workflow might look like:
 
                 <ul class="content-tab">
-                    <li><b>Extract, Transform, Load (ETL):</b>
+                    <li><b>Extract, Transform, Load: </b>
                         <a href="https://pandas.pydata.org">Pandas</a>,
-                        <a href="https://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a>,
-                        <a href="https://intake.readthedocs.io/en/latest/"> Intake</a>
+                        <a href="https://intake.readthedocs.io"> Intake</a>,
+                        <a href="https://pyjanitor.readthedocs.io/">PyJanitor</a>
                     </li>
 
-                    <li><b>Explore:</b>
+                    <li><b>Exploratory analysis: </b>
+                        <a href="https://jupyter.org">Jupyter</a>,
                         <a href="https://seaborn.pydata.org"> Seaborn</a>,
-                        <a href="https://matplotlib.org">Matplotlib</a>,
+                        <a href="https://matplotlib.org"> Matplotlib</a>,
+                        <a href="https://altair-viz.github.io"> Altair</a>
 
                     </li>
 
-                    <li><b>Model:</b>
+                    <li><b>Model and evaluate: </b>
                         <a href="https://scikit-learn.org">scikit-learn</a>,
-                        <a href="https://www.scipy.org">SciPy</a>,
-                        <a href="https://www.statsmodels.org/stable/index.html"> statsmodels</a>.
+                        <a href="https://www.statsmodels.org/stable/index.html"> statsmodels</a>,
+                        <a href="https://docs.pymc.io"> PyMC3</a>,
+                        <a href="https://spacy.io"> spaCy</a>
                     </li>
 
-                    <li><b>Evaluate:</b>
-                        NumPy,
-                        <a href="https://www.tensorflow.org">TensorFlow</a>
-                    </li>
-
-                    <li>
-                        <b>Display:</b>
-                        <a href="./index.html/#tab-visual"> Data Visualization Tools</a>
+                    <li><b>Report in a dashboard: </b>
+                        <a href="https://plotly.com/dash">Dash</a>,
+                        <a href="https://panel.holoviz.org"> Panel</a>,
+                        <a href="https://github.com/voila-dashboards/voila"> Voila</a>
                     </li>
                 </ul>
             </p>
@@ -48,34 +44,17 @@
     </div>
     <div class="grid-container">
         <div>
-            <p>
-                <a href="https://pandas.pydata.org">Pandas </a>helps in data discovery and handling,
-                <a href="https://intake.readthedocs.io/en/latest/"> Intake</a> helps with
-                data access and distribution, while
-                <a href="https://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a>
-                is widely used for web-scraping and gathering data sets.
-                <a href="https://seaborn.pydata.org"> Seaborn</a> is well known for
-                <a href="https://towardsdatascience.com/how-to-perform-exploratory-data-analysis-with-seaborn-97e3413e841d">exploratory data analysis (EDA)</a>;
-                <a href="https://scikit-learn.org">scikit-learn</a> and
-                <a href="https://www.scipy.org">SciPy</a> (statistical computing) serve some
-                of the backbone processes required for machine learning (regression methods,
-                classification, clustering, model validation and selection).
-                Statistical data exploration, estimation of various statistical models,
-                and conducting statistical tests are some of the functions offered by
-                <a href="https://www.statsmodels.org/stable/index.html"> statsmodels</a>.
+            <p></p><p>
+                For high data volumes, <a href="https://dask.org">Dask</a> and
+                <a href="https://ray.io/">Ray</a> are designed to scale. Stable production
+                environments rely on data versioning (<a href="https://dvc.org">DVC</a>),
+                experiment tracking (<a href="https://mlflow.org">MLFlow</a>), and
+                workflow automation (<a href="https://airflow.apache.org">Airflow</a> and
+                <a href="https://www.prefect.io">Prefect</a>).</p>
             </p>
         </div>
         <div>
             <img src="images/content_images/data-science.png" alt="Diagram of three overlapping circle. The circles labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'." align="centre" width="75%">
         </div>
     </div>
-    <p>
-        Effective data analytics requires deep knowledge of the data domain (e.g.,
-        retail, healthcare, marketing, finance, social media, automation, sales, travel,
-        etc.) as well as other core disciplines of data science, data engineering, and
-        data visualization. Tools such as <a href="https://mlflow.org">MLFlow</a> address
-        experiment hyperparameter and result tracking needs, while
-        <a href="https://dvc.org"> DVC</a> provides data version control for data science
-        and machine learning workflows.
-    </p>
 </li>
