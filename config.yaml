@@ -57,7 +57,6 @@ params:
       url: /case-studies/cricket-analytics
 
   keyfeatures:
-    title: KEY FEATURES
     features:
     - title: Powerful N-dimensional arrays
       text:  Fast and versatile, the NumPy vectorization, indexing and broadcasting concepts are the de-facto standards of array computing today.
@@ -88,8 +87,6 @@ languages:
         url: https://numpy.org/doc/
       - title: Learn
         url: /learn
-      - title: Array computing
-        url: /arraycomputing
       - title: Community
         url: /community
       - title: About Us

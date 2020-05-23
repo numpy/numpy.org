@@ -1,12 +1,8 @@
 {{- $keyfeatures := .Site.Params.keyfeatures }}
-{{- $title    := index $keyfeatures "title" }}
 {{- $features := index $keyfeatures "features" }}
 
 <section class="keyfeatures">
     <div class="container">
-        <h1 class="keyfeatures-header">
-            {{ $title }}
-        </h1>
         <div class="keyfeatures-box-container">
             {{- range $features }}
             <div class="keyfeatures-box-content keyfeatures-underline">

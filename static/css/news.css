@@ -35,7 +35,7 @@
     }
 }
 
-@media only screen and (max-width: 1087px) {
+@media only screen and (max-width: 1090px) {
     .news-container {
         flex-direction: column;
         padding: 30px;
