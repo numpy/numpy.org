@@ -49,7 +49,7 @@ Deze website kan je hulp gebruiken! We raden een van de twee manieren aan om dit
 
 ### Grafisch ontwerp
 
-We willen graag bijdragen van grafisch ontwerpers! Het NumPy logo is verouderd en kan een herontwerp gebruiken (zie [dit issue](https://github.com/numpy/numpy.org/issues/37)). Deze website kan op een aantal manieren worden verbeterd (blader je rond, je ideeën zijn waarschijnlijk beter dan de onze!). En we zouden erg geïnteresseerd zijn in het maken van bijvoorbeeld onze tutorials meer visueel engaging.
+We willen graag bijdragen van grafisch ontwerpers! This website could be improved in a number of ways (please just browse around, your ideas are probably better than ours!). And we'd be very interested in making, e.g., our tutorials more visually engaging.
 
 
 ### Vertalen van website-inhoud
