@@ -31,6 +31,10 @@ em {
     margin: 15px;
 }
 
+.hero-container {
+    width: 100vw;
+}
+
 .hero-content {
     display: flex;
     flex-direction: column;
@@ -55,6 +59,7 @@ em {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 100px;
+    color: #013243;
 }
 
 .hero-logo {
@@ -191,6 +196,10 @@ p {
 }
 
 /* Footer */
+#footer {
+    background-color: #013243;
+}
+
 .footer-logo-column {
     display: flex;
     justify-content: center;
@@ -211,6 +220,7 @@ p {
 
 .footer-link {
     font-size: 1rem;
+    color: #EEEEEE;
 }
 
 .footer-actions {
@@ -220,6 +230,7 @@ p {
 
 .footer-actions p {
     margin: 0;
+    color: #EEEEEE;
 }
 
 .sign-up-container {
@@ -275,6 +286,7 @@ p {
 
 .copyright {
     font-size: 12px;
+    color: #EEEEEE;
 }
 
 figcaption {
