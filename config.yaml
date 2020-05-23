@@ -88,8 +88,6 @@ languages:
         url: https://numpy.org/doc/
       - title: Learn
         url: /learn
-      - title: Array computing
-        url: /arraycomputing
       - title: Community
         url: /community
       - title: About Us
