@@ -203,7 +203,7 @@ p {
 .footer-logo-column {
     display: flex;
     justify-content: center;
-    padding: 5vw;
+    padding: 20px 5vw;
     font-size: 1rem;
 }
 
@@ -218,7 +218,7 @@ p {
     flex-shrink: 1;
 }
 
-.footer-link {
+.footer-link, .footer-link:hover {
     font-size: 1rem;
     color: #EEEEEE;
 }
