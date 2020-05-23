@@ -57,8 +57,7 @@ This website can use your help! We recommend one of two ways to go about this: e
 
 ### Graphic design
 
-We would love to get contributions from graphic designers! The NumPy logo is
-outdated and could use a redesign (see [this issue](https://github.com/numpy/numpy.org/issues/37)). This website could be improved in a number of ways (please just browse around, your ideas are probably better than ours!). And we'd be very interested in making, e.g., our tutorials more visually engaging.
+We would love to get contributions from graphic designers! This website could be improved in a number of ways (please just browse around, your ideas are probably better than ours!). And we'd be very interested in making, e.g., our tutorials more visually engaging.
 
 
 ### Translating website content
