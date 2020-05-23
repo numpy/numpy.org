@@ -3,29 +3,29 @@ title: Get Help
 sidebar: false
 ---
 
-User questions are best asked on a public community site. The largest such site
-is Stack Overflow.  There are also smaller active groups of users that ask and
-answer questions on IRC, Gitter, and Reddit.
+**User questions:** The best way to get help is to post your question to a site
+like [StackOverflow](http://stackoverflow.com/questions/tagged/numpy), with
+thousands of users available to answer.  Smaller alternatives include
+[IRC](https://webchat.freenode.net/?channels=%23numpy),
+[Gitter](https://gitter.im/numpy/numpy), and
+[Reddit](https://www.reddit.com/r/Numpy/). We wish we could keep an eye on
+these sites, or answer questions directly, but the volume is just a little
+overwhelming!
 
-These forums are not moderated by the NumPy team at the moment (we wish we
-could, the volume is just a little overwhelming!). We encourage everyone to
-engage patiently and respectfully in all these forums, in the spirit of the
-[NumPy Code of Conduct](/code-of-conduct).
+**Development issues:** For NumPy development-related matters (e.g. bug reports), please
+see [Community](/community).
 
-
-_For NumPy development related matters (e.g. bug reports), please
-see [Community](/community)._
 
 
 ### [StackOverflow](http://stackoverflow.com/questions/tagged/numpy)
 
-A forum for asking usage questions, e.g. "How do I do X in NumPy?”. Please use the `#numpy` tag.
+A forum for asking usage questions, e.g. "How do I do X in NumPy?”. Please [use the `#numpy` tag](https://stackoverflow.com/help/tagging)
 
 ***
 
 ### [Reddit](https://www.reddit.com/r/Numpy/)
 
-Another forum for asking usage questions.
+Another forum for usage questions.
 
 ***
 
