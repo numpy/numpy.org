@@ -22,8 +22,8 @@ The [Laser Interferometer Gravitational-Wave Observatory (LIGO)](https://www.lig
 was designed to open the field of gravitational-wave astrophysics through the
 direct detection of gravitational waves predicted by Einstein’s General Theory
 of Relativity. It comprises two widely-separated interferometers within the
-United States—one in Hanford, Washington and the other in Livingston,
-Louisiana—operated in unison to detect gravitational waves. Each of them has
+United States — one in Hanford, Washington and the other in Livingston,
+Louisiana — operated in unison to detect gravitational waves. Each of them has
 multi-kilometer-scale gravitational wave detectors that use laser
 interferometry.  The LIGO Scientific Collaboration (LSC), is a group of more
 than 1000 scientists from universities around the United States and in 14
@@ -56,7 +56,7 @@ made from warped spacetime.
 * **Computation**
 
     Gravitational Waves are hard to detect as they produce a very small effect
-    and have tiny interaction with matter.  Processing and analyzing all of
+    and have tiny interaction with matter. Processing and analyzing all of
     LIGO's data requires a vast computing infrastructure.After taking care of
     noise, which is billions of times of the signal, there is still very
     complex relativity equations and huge amounts of data which present a
@@ -89,7 +89,7 @@ made from warped spacetime.
 
 {{< figure src="/images/content_images/cs/gw_strain_amplitude.png" class="fig-center" alt="gravitational waves strain amplitude" caption="**Estimated gravitational-wave strain amplitude from GW150914**" attr="(**Graph Credits:** Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)" attrlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
 
-## NumPy’s Role in the detection of Gravitational Waves
+## NumPy’s Role in the Detection of Gravitational Waves
 
 Gravitational waves emitted from the merger cannot be computed using any
 technique except brute force numerical relativity using supercomputers.
@@ -103,7 +103,7 @@ speed.  Here are some examples:
 
 * [Signal Processing](https://www.uv.es/virgogroup/Denoising_ROF.html): Glitch
   detection,  [Noise identification and Data Characterization](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf)
-  (NumPy, scikit-learn, scipy, matplotlib, pandas, pyCharm )
+  (NumPy, scikit-learn, scipy, matplotlib, pandas, pyCharm)
 * Data retrieval: Deciding which data can be analyzed, figuring out whether it
   contains a signal - needle in a haystack
 * Statistical analysis: estimate the statistical significance of observational
@@ -116,7 +116,7 @@ speed.  Here are some examples:
 * Key [Software](https://github.com/lscsoft) developed in GW data analysis
   such as [GwPy](https://gwpy.github.io/docs/stable/overview.html) and
   [PyCBC](https://pycbc.org) uses NumPy and AstroPy under the hood for
-  providing object based interfaces to utilities, tools and methods for
+  providing object based interfaces to utilities, tools, and methods for
   studying data from gravitational-wave detectors.
 
 {{< figure src="/images/content_images/cs/gwpy-numpy-dep-graph.png" class="fig-center" alt="gwpy-numpy depgraph" caption="**Dependency graph showing how GwPy package depends on NumPy**" >}}
@@ -134,7 +134,7 @@ that helps scientists gain insights into data gathered from the scientific
 observations and understand the results. The computations are complex and
 cannot be comprehended by humans unless it is visualized using computer
 simulations that are fed with the real observed data and analysis.  NumPy
-along with other Python packages such as matplotlib, pandas and scikit-learn
+along with other Python packages such as matplotlib, pandas, and scikit-learn
 is [enabling researchers](https://www.gw-openscience.org/events/GW150914/) to
 answer complex questions and discover new horizons in our understanding of the
 universe.

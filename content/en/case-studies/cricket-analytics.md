@@ -34,7 +34,7 @@ Cricket is a game of numbers - the runs scored by a batsman, the wickets taken
 by a bowler, the matches won by a cricket team, the number of times a batsman
 responds in a certain way to a kind of bowling attack, etc. The capability to
 dig into cricketing numbers for both improving performance and studying
-the business opportunities, overall market and economics of cricket via powerful
+the business opportunities, overall market, and economics of cricket via powerful
 analytics tools, powered by numerical computing software such as NumPy, is a big
 deal. Cricket analytics provides interesting insights into the game and
 predictive intelligence regarding game outcomes.
@@ -72,7 +72,7 @@ metrics for improving match winning chances:
   for changing tactics by the team and by associated businesses for economic
   benefits and growth.
 * Besides historical analysis, predictive models are
-  harnessed  to determine the possible match outcomes that require significant
+  harnessed to determine the possible match outcomes that require significant
   number crunching and data science know-how, visualization tools and capability
   to include newer observations in the analysis.
 
@@ -90,28 +90,28 @@ metrics for improving match winning chances:
   IPL has expanded cricket beyond the classic test match format to a much
   larger scale. The number of matches played every season across various
   formats has increased and so has the data, the algorithms, newer sports data
-  analysis technologies and simulation models.  Cricket data analysis requires
-  field mapping, player tracking, ball tracking, player shot analysis and
+  analysis technologies and simulation models. Cricket data analysis requires
+  field mapping, player tracking, ball tracking, player shot analysis, and
   several other aspects involved in how the ball is delivered, its angle, spin,
-  velocity and trajectory. All these factors together have increased the
+  velocity, and trajectory. All these factors together have increased the
   complexity of data cleaning and preprocessing.
 
 * **Dynamic Modeling**
 
   In cricket, just like any other sport,
   there can be a large number of variables related to tracking various numbers
-  of players on the field, their attributes, the ball and several possibilities
-  of potential actions.  The complexity of data analytics and modeling is
+  of players on the field, their attributes, the ball, and several possibilities
+  of potential actions. The complexity of data analytics and modeling is
   directly proportional to the kind of predictive questions that are put forth
   during analysis and are highly dependent on data representation and the
-  model.  Things get even more challenging in terms of computation, data
+  model. Things get even more challenging in terms of computation, data
   comparisons when dynamic cricket play predictions are sought such as what
   would have happened if the batsman had hit the ball at a different angle or
   velocity.
 
 * **Predictive Analytics Complexity**
 
-  Much of the decision making in Cricket is based on questions such as "how
+  Much of the decision making in cricket is based on questions such as "how
   often does a batsman play a certain kind of shot if the ball delivery is of a
   particular type", or "how does a bowler change his line and length if the
   batsman responds to his delivery in a certain way".
@@ -135,20 +135,19 @@ for various kinds of cricket related sporting analytics such as:
   and [big data approaches](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/)
   are used for tactical analysis.
 
-* **Data Visualization:** Data graphing and [visualization](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b)
-  provides useful insights into relationship between various datasets.
+* **Data Visualization:** Data graphing and [visualization](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) provides useful insights into relationship between various datasets.
 
 ## Summary
 
 Sports Analytics is a game changer when it comes to how professional games are
 played, especially how strategic decision making happens, which until recently
-was primarily done based on “gut feeling" or adherence to past traditions.  NumPy
+was primarily done based on “gut feeling" or adherence to past traditions. NumPy
 forms a solid foundation for a large set of Python packages which provide higher
-level functions related to data analytics, machine learning and AI algorithms.
+level functions related to data analytics, machine learning, and AI algorithms.
 These packages are widely deployed to gain real-time insights that help in
 decision making for game-changing outcomes, both on field as well as to draw
-inferences and drive business around the game of cricket.  Finding out the
-hidden parameters, patterns and attributes that lead to the outcome of a
+inferences and drive business around the game of cricket. Finding out the
+hidden parameters, patterns, and attributes that lead to the outcome of a
 cricket match helps the stakeholders to take notice of game insights that are
 otherwise hidden in numbers and statistics.
 
