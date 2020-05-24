@@ -84,7 +84,7 @@ languages:
       - title: Install
         url: /install
       - title: Documentation
-        url: https://numpy.org/doc/
+        url: https://numpy.org/doc/stable
       - title: Learn
         url: /learn
       - title: Community
@@ -108,7 +108,7 @@ languages:
             - text: Install
               link: /install
             - text: Documentation
-              link: https://numpy.org/doc/
+              link: https://numpy.org/doc/stable
             - text: Learn
               link: /learn
             - text: Roadmap
@@ -142,7 +142,7 @@ languages:
       - title: Install
         url: /nl/install
       - title: Documentation
-        url: https://numpy.org/doc/
+        url: https://numpy.org/doc/stable
       - title: Array computing
         url: /nl/arraycomputing
       - title: Case Studies
