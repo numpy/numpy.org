@@ -49,7 +49,7 @@ Deze website kan je hulp gebruiken! We raden een van de twee manieren aan om dit
 
 ### Grafisch ontwerp
 
-We willen graag bijdragen van grafisch ontwerpers! This website could be improved in a number of ways (please just browse around, your ideas are probably better than ours!). And we'd be very interested in making, e.g., our tutorials more visually engaging.
+We willen graag bijdragen van grafisch ontwerpers! This website could be further improved with new graphics. And we'd be very interested in making, e.g., our tutorials more visually engaging.
 
 
 ### Vertalen van website-inhoud
