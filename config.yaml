@@ -11,6 +11,7 @@ markup:
       unsafe: true
 
 params:
+  description: The fundamental package for scientific computing with Python
   navColor: blue
   navbarlogo:
     image: logos/numpy.svg
