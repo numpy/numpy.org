@@ -3,15 +3,15 @@ title: Guide to installing Python and NumPy
 sidebar: false
 ---
 
-Installing and managing packages in Python land is complicated, there are a
+Installing and managing packages in the Python land is complicated, there are a
 number of alternative solutions for most tasks. This guide tries to give the
 reader a sense of the best (or most popular) solutions, and give clear
-recommendations. It focuses on users of Python, NumPy and the PyData (or
+recommendations. It focuses on users of Python, NumPy, and the PyData (or
 numerical computing) stack on common operating systems and hardware.
 
 ## Recommendations
 
-We'll start with recommendations based on the experience level of the user and
+We'll start with recommendations based on the user's experience level and
 operating system of interest. If you're in between "beginning" and "advanced",
 please go with "beginning" if you want to keep things simple, and with
 "advanced" if you want to work according to best practices that go a longer way
@@ -19,9 +19,9 @@ in the future.
 
 ### Beginning users
 
-On all of Windows, macOS and Linux:
+On all of Windows, macOS, and Linux:
 
-- Install [Anaconda](https://www.anaconda.com/distribution/) (it install all
+- Install [Anaconda](https://www.anaconda.com/distribution/) (it installs all
   packages you need and all other tools mentioned below).
 - For writing and executing code, use notebooks in
   [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) for
@@ -29,14 +29,14 @@ On all of Windows, macOS and Linux:
   [Spyder](https://www.spyder-ide.org/) or [Visual Studio Code](https://code.visualstudio.com/)
   for writing scripts and packages.
 - Use [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) to
-  manage your packages and start JupyterLab, Spyder or Visual Studio Code.
+  manage your packages and start JupyterLab, Spyder, or Visual Studio Code.
 
 
 ### Advanced users
 
 #### Windows or macOS
 
-- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
 - Keep the `base` conda environment minimal, and use one or more
   [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
   to install the package you need for the task or project you're working on.
@@ -48,20 +48,20 @@ On all of Windows, macOS and Linux:
 
 If you're fine with slightly outdated packages and prefer stability over being
 able to use the latest versions of libraries:
-- use your OS package manager for as much as possible (Python itself, NumPy and
-  other libraries)
-- install packages not provided by your package manager with `pip install somepackage --user`
+- Use your OS package manager for as much as possible (Python itself, NumPy, and
+  other libraries).
+- Install packages not provided by your package manager with `pip install somepackage --user`.
 
 If you use a GPU:
-- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
 - Keep the `base` conda environment minimal, and use one or more
   [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
   to install the package you need for the task or project you're working on.
 - Use the `defaults` conda channel (`conda-forge` doesn't have good support for
-  GPU packages yet)
+  GPU packages yet).
 
 Otherwise:
-- Install [Miniforge](https://github.com/conda-forge/miniforge)
+- Install [Miniforge](https://github.com/conda-forge/miniforge).
 - Keep the `base` conda environment minimal, and use one or more
   [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
   to install the package you need for the task or project you're working on.
@@ -70,56 +70,56 @@ Otherwise:
 #### Alternative if you prefer pip/PyPI
 
 For users who know, from personal preference or reading about the main
-differences between Conda and Pip below, they prefer a pip/PyPI-based solution,
+differences between conda and pip below, they prefer a pip/PyPI-based solution,
 we recommend:
 - Install Python from, for example, [python.org](https://www.python.org/downloads/),
-  [Homebrew](https://brew.sh/) or your Linux package manager
+  [Homebrew](https://brew.sh/), or your Linux package manager.
 - Use [Poetry](https://python-poetry.org/) as the most well-maintained tool
   that provides a dependency resolver and environment management capabilities
-  in a similar fashion as Conda does.
+  in a similar fashion as conda does.
 
 
 ## Python package management
 
-Managing packages is a challenging problem, and as a result there are lots of
+Managing packages is a challenging problem, and, as a result, there are lots of
 tools. For web and general purpose Python development there's a whole
 [host of tools](https://packaging.python.org/guides/tool-recommendations/)
-complementary with Pip. For high-performance computing (HPC),
+complementary with pip. For high-performance computing (HPC),
 [Spack](https://github.com/spack/spack) is worth considering. For most NumPy
-users though, [Conda](https://conda.io/en/latest/) and
-[Pip](https://pip.pypa.io/en/stable/) are the two most popular tools.
+users though, [conda](https://conda.io/en/latest/) and
+[pip](https://pip.pypa.io/en/stable/) are the two most popular tools.
 
 
-### Pip & Conda
+### Pip & conda
 
 The two main tools that install Python packages are `pip` and `conda`. Their
-functionality partially overlaps (e.g. both can install `numpy`), however they
-can also work together. We'll discuss the major differences between Pip and
-Conda here - this is important to understand if you want to manage packages
+functionality partially overlaps (e.g. both can install `numpy`), however, they
+can also work together. We'll discuss the major differences between pip and
+conda here - this is important to understand if you want to manage packages
 effectively.
 
-The first difference is that Conda is cross-language and it can install Python,
-while Pip is installed for a particular Python on your system and install other
-packages to that same Python install only. This also means Conda can install
-non-Python libraries and tools you may need (e.g. compilers, CUDA, HDF5) while
-Pip can't.
+The first difference is that conda is cross-language and it can install Python,
+while pip is installed for a particular Python on your system and installs other
+packages to that same Python install only. This also means conda can install
+non-Python libraries and tools you may need (e.g. compilers, CUDA, HDF5), while
+pip can't.
 
-The second difference is that Pip install from the Python Packaging Index
-(PyPI) while Conda installs from its own channels (typically "defaults" or
-"conda-forge"). PyPI is the largest collection of packages by far, however all
-popular packages are available for Conda as well.
+The second difference is that pip installs from the Python Packaging Index
+(PyPI), while conda installs from its own channels (typically "defaults" or
+"conda-forge"). PyPI is the largest collection of packages by far, however, all
+popular packages are available for conda as well.
 
-The third difference is that Pip does not have a _dependency resolver_ (this is
-expecting to change next year though) while Conda does. For simple cases (e.g.
-you just want NumPy, SciPy, Matplotlib, Pandas, Scikit-learn and a few other
-packages) that doesn't matter, however for complicated cases Conda can be
-expected to do a better job keeping everything working well together.  The flip
-side of that coin is that installing with Pip is typically a _lot_ faster than
-installing with Conda.
+The third difference is that pip does not have a _dependency resolver_ (this is
+expecting to change in the near future), while conda does. For simple cases (e.g.
+you just want NumPy, SciPy, Matplotlib, Pandas, Scikit-learn, and a few other
+packages) that doesn't matter, however, for complicated cases conda can be
+expected to do a better job keeping everything working well together. The flip
+side of that coin is that installing with pip is typically a _lot_ faster than
+installing with conda.
 
-The fourth difference is that Conda is an integrated solution for managing
-packages, dependencies and environments, while with Pip you may need another
-tool (there's many!) for dealing with environments or complex dependencies.
+The fourth difference is that conda is an integrated solution for managing
+packages, dependencies and environments, while with pip you may need another
+tool (there are many!) for dealing with environments or complex dependencies.
 
 
 ### Reproducible installs
@@ -158,25 +158,25 @@ importing it in notebooks).
 
 ## NumPy packages & accelerated linear algebra libraries
 
-NumPy doesn't depend on any other Python packages, however it does depend on an
+NumPy doesn't depend on any other Python packages, however, it does depend on an
 accelerated linear algebra library - typically
 [Intel MKL](https://software.intel.com/en-us/mkl) or
-[OpenBLAS](https://www.openblas.net/).  The user doesn't have to worry about
+[OpenBLAS](https://www.openblas.net/). Users doesn't have to worry about
 installing those, but it may still be important to understand how the packaging
-is done and how that affects performance and behavior the user sees.
+is done and how it affects performance and behavior users see.
 
-The NumPy wheels on PyPI, which is what Pip installs, are built with OpenBLAS.
+The NumPy wheels on PyPI, which is what pip installs, are built with OpenBLAS.
 The OpenBLAS libraries are shipped within the wheels itself. This makes those
-wheels larger, and if the user installs (for example) SciPy as well, she will
+wheels larger, and if a user installs (for example) SciPy as well, they will
 now have two copies of OpenBLAS on disk.
 
-In the Conda defaults channel, NumPy is built against Intel MKL. MKL is a
-separate package that will be installed in the user's environment when she
-installs NumPy. That MKL package is a lot larger than OpenBLAS, several hundred
+In the conda defaults channel, NumPy is built against Intel MKL. MKL is a
+separate package that will be installed in the users' environment when they
+install NumPy. That MKL package is a lot larger than OpenBLAS, several hundred
 MB. MKL is typically a little faster and more robust than OpenBLAS.
 
 In the conda-forge channel, NumPy is built against a dummy "BLAS" package. When
-the user install NumPy from conda-forge, that BLAS package then gets installed
+a user installs NumPy from conda-forge, that BLAS package then gets installed
 together with the actual library - this defaults to OpenBLAS, but it can also
 be MKL (from the defaults channel), or even
 [BLIS](https://github.com/flame/blis) or reference BLAS.
@@ -184,7 +184,7 @@ be MKL (from the defaults channel), or even
 Besides install sizes, performance and robustness, there are two more things to
 consider:
 - Intel MKL is not open source. For normal use this is not a problem, but if
-  the user needs to redistribute an application built with NumPy, this could be
+  a user needs to redistribute an application built with NumPy, this could be
   an issue.
 - Both MKL and OpenBLAS will use multi-threading for function calls like
   `np.dot`, with the number of threads being determined by both a build-time
