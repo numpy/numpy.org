@@ -22,7 +22,7 @@ The [Laser Interferometer Gravitational-Wave Observatory (LIGO)](https://www.lig
 was designed to open the field of gravitational-wave astrophysics through the
 direct detection of gravitational waves predicted by Einstein’s General Theory
 of Relativity. It comprises two widely-separated interferometers within the
-United States—one in Hanford, Washington and the other in Livingston,
+United States — one in Hanford, Washington and the other in Livingston,
 Louisiana — operated in unison to detect gravitational waves. Each of them has
 multi-kilometer-scale gravitational wave detectors that use laser
 interferometry.  The LIGO Scientific Collaboration (LSC), is a group of more
@@ -89,7 +89,7 @@ made from warped spacetime.
 
 {{< figure src="/images/content_images/cs/gw_strain_amplitude.png" class="fig-center" alt="gravitational waves strain amplitude" caption="**Estimated gravitational-wave strain amplitude from GW150914**" attr="(**Graph Credits:** Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)" attrlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
 
-## NumPy’s Role in the detection of Gravitational Waves
+## NumPy’s Role in the Detection of Gravitational Waves
 
 Gravitational waves emitted from the merger cannot be computed using any
 technique except brute force numerical relativity using supercomputers.
