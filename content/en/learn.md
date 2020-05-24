@@ -3,7 +3,7 @@ title: Learn
 sidebar: false
 ---
 
-The official NumPy documentation lives [here](https://numpy.org/doc/stable).
+**The official NumPy documentation lives [here](https://numpy.org/doc/stable).**
 
 Below is a curated collection of external resources. To contribute, see the [end of this page](#add-to-this-list).
 ***
@@ -30,7 +30,7 @@ There's a ton of information about NumPy out there. If you are new, we'd strongl
 * [From Python to NumPy *by Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 * [Elegant SciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) *by Juan Nunez-Iglesias, Stefan van der Walt, and Harriet Dashnow*
 
-You may also want to check out the [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) on the subject of "Python+SciPy". Most books there are about the "SciPy ecosystem", which has NumPy at its core.
+You may also want to check out the [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) on the subject of "Python+SciPy." Most books there are about the "SciPy ecosystem," which has NumPy at its core.
 
 <i class="far fa-file-video"></i> **Videos**
 
