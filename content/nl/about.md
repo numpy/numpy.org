@@ -5,7 +5,7 @@ sidebar: Onjuist
 
 _Meer informatie over het NumPy project en de community_
 
-NumPy is een open source project dat erop gericht is numerieke computers met Python mogelijk te maken. Het is opgericht in 2005, voortbouwend op het vroege werk van de bibliotheken in cijfers en cijfers. NumPy zal altijd 100% open-source software zijn, gratis te gebruiken en vrij te geven onder de liberale voorwaarden van de [gewijzigde BSD licentie](https://github.com/numpy/numpy/blob/master/LICENSE.txt).
+NumPy is een open source project dat erop gericht is numerieke computers met Python mogelijk te maken. It was created in 2005, building on the early work of the Numerical and Numarray libraries. NumPy will always be 100% open source software, free for all to use and released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt).
 
 NumPy is ontwikkeld in de open op GitHub, door de consensus van de NumPy en bredere wetenschappelijke Python-gemeenschap. Voor meer informatie over onze governance-aanpak, zie ons [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
 
@@ -60,11 +60,11 @@ Institutionele Partners zijn organisaties die het project ondersteunen door mens
 
 ## Doneren
 
-If you have found NumPy to be useful in your work, research or company, please consider making a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation and community.
+If you have found NumPy to be useful in your work, research, or company, please consider making a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation, and community.
 
 NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit [numfocus.org](https://numfocus.org) for more information.
 
-Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax adviser about your particular tax situation.
+Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax advisor about your particular tax situation.
 
 NumPy's Steering Council will make the decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
 {{< numfocus >}}
