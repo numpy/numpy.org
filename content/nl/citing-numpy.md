@@ -6,7 +6,7 @@ sidebar: Onjuist
 Als NumPy belangrijk is geweest in uw onderzoek en je zou het project willen erkennen in je academische publicatie, we raden je aan om de volgende documenten aan te halen:
 
 * Travis E, Oliphant. _Een handleiding voor nummer_, USA: Trelgol Publishing, (2006).
-* Stéfan van der Walt, S. Chris Colbert en Gaël Varoquaux. _The NumPy Array: a Structure for Efficiënt Numerical Computation_, Bereken in Wetenschap & Engineering, 13, 22-30 (2011),[ DOI:10. 109/MCSE.2011.37](http://dx.doi.org/10.1109/MCSE.2011.37) ([publisher link](http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.37))
+* Stéfan van der Walt, S. Chris Colbert, and Gaël Varoquaux. _The NumPy Array: a Structure for Efficiënt Numerical Computation_, Bereken in Wetenschap & Engineering, 13, 22-30 (2011),[ DOI:10. 109/MCSE.2011.37](http://dx.doi.org/10.1109/MCSE.2011.37) ([publisher link](http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.37))
 
 _In BibTeX formaat:_
 
