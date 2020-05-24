@@ -3,6 +3,6 @@ title: Druk uitrusting
 sidebar: Onjuist
 ---
 
-We willen het makkelijk maken voor u om de nummermerken in uw volgende academische papier, cursusmaterialen of presentaties op te nemen.
+We would like to make it easy for you to include the NumPy project identity in your next academic paper, course materials, or presentation.
 
 Je vindt een logo van NumPy [hier](https://github.com/numpy/numpy/tree/master/branding/icons). Note that by using the numpy.org resources, you accept the [NumPy Code of Conduct](/code-of-conduct).
