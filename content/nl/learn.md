@@ -3,14 +3,14 @@ title: Leren
 sidebar: Onjuist
 ---
 
-To learn how to use NumPy, you could begin with the resources listed under the **'Beginners'** section. Once you gain a broad view, you could try the more involved tutorials and resources listed under the **'Advanced'** section.
+The official NumPy documentation lives at https://numpy.org/doc.
 
-This is a curated collection of NumPy related educational resources. Some are very specific to NumPy, while others offer a broader view on numerical computing. It is a continuously evolving list. In case you would like to contribute, please refer to the information at the bottom of this page.
+Below is a curated collection of external resources. To contribute, see the [end of this page](#add-to-this-list).
 ***
 
 ## Beginners
 
-There is tons of information about NumPy out there. If you are new to NumPy, we'd strongly recommend the following tutorials, books and videos to get started.
+There's a ton of information about NumPy out there. If you are new, we'd strongly recommend these:
 
 <i class="fad fa-chalkboard"></i> **Tutorials**
 
@@ -30,7 +30,7 @@ There is tons of information about NumPy out there. If you are new to NumPy, we'
 * [From Python to NumPy *by Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 * [Elegant SciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) *by Juan Nunez-Iglesias, Stefan van der Walt and Harriet Dashnow*
 
-Besides the ones listed above, you may want to check out the [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) on the subject of "Python+SciPy". Most of the books on this list are about the "SciPy ecosystem", which has NumPy at its core.
+You may also want to check out the [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) on the subject of "Python+SciPy". Most books there are about the "SciPy ecosystem", which has NumPy at its core.
 
 <i class="far fa-file-video"></i> **Videos**
 
@@ -40,7 +40,7 @@ Besides the ones listed above, you may want to check out the [Goodreads list](ht
 
 ## Geavanceerd
 
-If you have the basic know-how of NumPy and how to use it, you can try these advanced tutorials, books and videos for a better understanding of the specific NumPy concepts such as advanced indexing, splitting, stacking, linear algebra and more.
+Try these advanced resources for a better understanding of NumPy concepts like advanced indexing, splitting, stacking, linear algebra, and more.
 
 <i class="fad fa-chalkboard"></i> **Tutorials**
 
@@ -78,6 +78,7 @@ If you have the basic know-how of NumPy and how to use it, you can try these adv
 
 If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, please see [this citation information](/citing-numpy).
 
-***
+## Contribute to this list
 
-_If you would like to contribute to this collection of NumPy Learning resources, please submit your recommendation [here via a pull request](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md). Make sure that your submission includes a brief description regarding why it deserves mention on numpy.org and what audience would benefit from it the most._
+<a name="add-to-this-list"></a>
+To add to this collection, submit a recommendation [via a pull request](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md). Say why your recommendation deserves mention on this page and also which audience would benefit most.
