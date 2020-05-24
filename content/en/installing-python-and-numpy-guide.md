@@ -3,7 +3,7 @@ title: Guide to installing Python and NumPy
 sidebar: false
 ---
 
-Installing and managing packages in the Python land is complicated, there are a
+Installing and managing packages in Python is complicated, there are a
 number of alternative solutions for most tasks. This guide tries to give the
 reader a sense of the best (or most popular) solutions, and give clear
 recommendations. It focuses on users of Python, NumPy, and the PyData (or
@@ -110,7 +110,7 @@ The second difference is that pip installs from the Python Packaging Index
 popular packages are available for conda as well.
 
 The third difference is that pip does not have a _dependency resolver_ (this is
-expecting to change in the near future), while conda does. For simple cases (e.g.
+expected to change in the near future), while conda does. For simple cases (e.g.
 you just want NumPy, SciPy, Matplotlib, Pandas, Scikit-learn, and a few other
 packages) that doesn't matter, however, for complicated cases conda can be
 expected to do a better job keeping everything working well together. The flip
@@ -161,7 +161,7 @@ importing it in notebooks).
 NumPy doesn't depend on any other Python packages, however, it does depend on an
 accelerated linear algebra library - typically
 [Intel MKL](https://software.intel.com/en-us/mkl) or
-[OpenBLAS](https://www.openblas.net/). Users doesn't have to worry about
+[OpenBLAS](https://www.openblas.net/). Users don't have to worry about
 installing those, but it may still be important to understand how the packaging
 is done and how it affects performance and behavior users see.
 
