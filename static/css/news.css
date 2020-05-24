@@ -23,6 +23,7 @@
     font-size: 27px;
     font-weight: bold;
     margin: 10px;
+    margin-right: 20px;
 }
 
 @media only screen and (max-width: 1300px) {
