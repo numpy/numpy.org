@@ -3,5 +3,5 @@
 	url = https://github.com/StefMa/hugo-fresh.git
 [submodule "public"]
 	path = public
-	url = git@github.com:numpy/numpy.github.com.git
+	url = https://github.com/numpy/numpy.github.com.git
 	branch = master
