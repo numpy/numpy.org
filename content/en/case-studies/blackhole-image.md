@@ -29,7 +29,7 @@ from a sidewalk café in Paris!
 * **A New View of the Universe:**
   The EHT is an exciting new tool for studying the most extreme objects in the
   universe. The EHT's groundbreaking image was published 100 years
-  after [Sir Arthur Eddington's expidition][eddington] yielded the first 
+  after [Sir Arthur Eddington's experiment][eddington] yielded the first 
   observational evidence in support of Einstein's theory of general relativity.
 
 * **Investigating Black Holes:**
@@ -44,7 +44,7 @@ from a sidewalk café in Paris!
 
 * **Comparing Observations to Theory:**
   Based on Einstein’s general theory of relativity, scientists expected 
-  see a dark region similar to a shadow, caused by the gravitational bending
+  to see a dark region similar to a shadow, caused by the gravitational bending
   and capture of light by the event horizon. By studying this shadow
   scientists could measure the enormous mass of M87’s central supermassive
   black hole.
@@ -94,7 +94,7 @@ techniques to verify that the resulting images were consistent.
 Results from these independent teams of researchers were combined to yield the
 first-of-a-kind image of the black hole.
 This approach is a powerful example of the importance of reproducibility and
-collaboration to modern scientific discovery, and illustrates the role that
+collaboration to modern scientific discovery and illustrates the role that
 the scientific Python ecosystem plays in supporting scientific advancement
 through collaborative data analysis.
 
@@ -125,7 +125,7 @@ of the final image of the black hole.
 
 NumPy enabled researchers to manipulate large numerical datasets through its
 efficient and generic n-dimensional array, providing a foundation for the
-software used to generated the first ever image of
+software used to generate the first ever image of
 a black hole. The direct imaging of a black hole is
 a major scientific accomplishment providing stunning, visual evidence of Einstein’s
 general theory of relativity. This achievement encompasses not only
