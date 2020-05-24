@@ -6,9 +6,9 @@ sidebar: false
 
 ### Season of Docs acceptance
 
-_May 11, 2020_ -- NumPy got accepted as one of the mentor organizations for
-Google's Season of Docs program. We are excited to again get the opportunity to
-work with a technical writer to improve NumPy's documentation! For more
+_May 11, 2020_ -- NumPy has been accepted as one of the mentor organizations for
+the Google Season of Docs program. We are excited about an opportunity to
+work with a technical writer to improve NumPy's documentation once again! For more
 details, please see
 [the official Season of Docs site](https://developers.google.com/season-of-docs/) and our
 [ideas page](https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas).
