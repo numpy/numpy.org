@@ -1,6 +1,8 @@
 ---
 title: NumPy Code van Gedrag
 sidebar: Onjuist
+aliases:
+  - /conduct.html
 ---
 
 ### Introductie
