@@ -1,0 +1,17 @@
+{{- $casestudies := .Site.Params.casestudies }}
+{{- $title    := index $casestudies "title" }}
+{{- $features := index $casestudies "features" }}
+<section class="casestudies">
+    <div class="container">
+        <h1 class="casestudies-title">{{ $title }}</h1>
+        <div class="casestudies-box-container">
+            {{- range $features }}
+            <a class="casestudies-box-content casestudies-underline" href="{{ .url }}">
+                <div class="casestudies-box-title">{{ .title }}</div>
+                    <img src="{{ .img }}" alt="{{ .alttext }}">
+                <div class="casestudies-box-text">{{ .text | markdownify }}</div>
+            </a>
+            {{- end }}
+        </div>
+    </div>
+</section>
