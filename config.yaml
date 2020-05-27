@@ -38,7 +38,7 @@ params:
 
   shell:
     title: placeholder
-  section3:
+  casestudies:
     title: CASE STUDIES
     features:
     - title: First Image of a Black Hole
