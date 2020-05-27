@@ -6,15 +6,11 @@
         <h1 class="section3-title">{{ $title }}</h1>
         <div class="section3-box-container">
             {{- range $features }}
-            <div class="section3-box-content section3-underline">
-                <a href="{{ .url }}">
-                    <p>
-                        <div class="section3-box-title">{{ .title }}</div>
-                            <img src="{{ .img }}" alt="{{ .alttext }}">
-                        <div class="section3-box-text">{{ .text | markdownify }}</div>
-                    </p>
-                </a>
-            </div>
+            <a class="section3-box-content section3-underline" href="{{ .url }}">
+                <div class="section3-box-title">{{ .title }}</div>
+                    <img src="{{ .img }}" alt="{{ .alttext }}">
+                <div class="section3-box-text">{{ .text | markdownify }}</div>
+            </a>
             {{- end }}
         </div>
     </div>
