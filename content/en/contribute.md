@@ -16,10 +16,6 @@ you can
 - [Work on our website](#website-development)
 - [Contribute graphic design](#graphic-design)
 - [Translate website content](#translating-website-content)
-- Answer questions on [Gitter](https://gitter.im/numpy/numpy),
-  [Stack Overflow](https://stackoverflow.com/questions/tagged/numpy),
-  and [Reddit](https://www.reddit.com/r/Numpy/)
-- Participate in [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) discussions
 - [Serve as a community coordinator](#community-coordination-and-outreach)
 - [Write grant proposals and help with other fundraising](#fundraising)
 
@@ -32,8 +28,8 @@ issue).
 
 Those are our preferred channels (open source is open by nature), but
 if you prefer to talk privately, contact our community coordinators at
-`numpy-team@googlegroups.com` or on [Slack](https://numpy-team.slack.com)
-(write  `numpy-team@googlegroups.com` for an invite).
+<numpy-team@googlegroups.com> or on [Slack](https://numpy-team.slack.com)
+(write  <numpy-team@googlegroups.com> for an invite).
 
 We also have a biweekly _community call_, details of which are announced on
 the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion).
@@ -50,8 +46,10 @@ Programmers, this
 explains how to contribute to the codebase.
 
 ### Reviewing pull requests
-Even inexperienced contributors can help us deal with our surging PR count
-(more than 250 open). A new contributor can:
+The project has more than 250 open pull requests -- meaning hundreds of
+missed improvements and many discouraged open-source contributors. If you're a
+developer who knows NumPy, you can help even if you're not familiar with the
+codebase. You can:
 * tag a stale PR
 * summarize a long-running discussion
 * triage documentation PRs
@@ -91,9 +89,9 @@ list some of our unmet needs -- and feel free to share your own ideas.
 
 ### Graphic design
 
-We've barely begun to think of all the contributions a graphic designer can
-make on this site. Our docs are parched for illustration; our growing website
-craves images -- opportunities abound.
+We can barely begin to list the contributions a graphic designer can make on
+this site. Our docs are parched for illustration; our growing website craves
+images -- opportunities abound.
 
 
 ### Translating website content
@@ -109,15 +107,17 @@ issue](https://github.com/numpy/numpy.org/issues/55) to sign up.
 ### Community coordination and outreach
 
 Through community contact we share our work more widely and learn where we're
-falling short. We'd love to get more people involved in efforts like our
+falling short. We're eager to get more people involved in efforts like our
 [Twitter](https://twitter.com/numpy_team) account, organizing NumPy [code
 sprints](https://scisprints.github.io/), a newsletter, and perhaps a blog.
 
 ### Fundraising
 
-For most of its history NumPy was all-volunteer, but as the user base grew,
-paid staffers were added to ensure the project stayed healthy. [This SciPy'19
-talk](https://www.youtube.com/watch?v=dBTJD_FDVjU) attempts to quantify the
-impact of recently received funding and the needs of the project. We have a
-number of fundraising ideas and of course we welcome more. Fundraising is a
-scarce skill here  -- we'd love your help.
+NumPy was all-volunteer for many years, but as its importance grew it became
+clear that to ensure stability and growth we'd need financial support. [This
+SciPy'19 talk](https://www.youtube.com/watch?v=dBTJD_FDVjU) explains how much
+difference that support has made. Like all the nonprofit world, we're
+constantly searching for grants, sponsorships, and other kinds of support. We
+have a number of ideas and of course we welcome more. Fundraising is a scarce
+skill here  -- we'd appreciate your help.
+
