@@ -89,16 +89,16 @@ list some of our unmet needs -- and feel free to share your own ideas.
 
 ### Graphic design
 
-We can barely begin to list the contributions a graphic designer can make on
-this site. Our docs are parched for illustration; our growing website craves
-images -- opportunities abound.
+We can barely begin to list the contributions a graphic designer can make here. Our
+docs are parched for illustration; our growing website craves images --
+opportunities abound.
 
 
 ### Translating website content
 
 We plan multiple translations of [numpy.org](https://numpy.org) to make NumPy
-accessible to users in their native language. Volunteer translators, are, of
-course, at the heart of this effort.  See
+accessible to users in their native language. Volunteer translators at the heart
+of this effort.  See
 [here](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n)
 for background; comment on [this GitHub
 issue](https://github.com/numpy/numpy.org/issues/55) to sign up.
