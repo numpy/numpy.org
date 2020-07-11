@@ -4,6 +4,15 @@ sidebar: false
 ---
 
 
+### NumPy 1.19.0 release
+
+_Jun 20, 2020_ -- NumPy 1.19.0 is now available. This is the first release
+without Python 2 support, hence it was a "clean-up release". The minimum
+supported Python version is now Python 3.6. An important new feature is that
+the random number generation infrastructure that was introduced in NumPy 1.17.0
+is now accessible from Cython.
+
+
 ### Season of Docs acceptance
 
 _May 11, 2020_ -- NumPy has been accepted as one of the mentor organizations for
