@@ -56,7 +56,7 @@ params:
       img: images/content_images/case_studies/sports.jpg
       alttext: Cricket ball on green field.
       url: /case-studies/cricket-analytics
-    - title: Posture Estimation using DNN 
+    - title: Pose Estimation using deep learning
       text: DeepLabCut uses NumPy for accelerating scientific studies that involve observing animal behavior for better understanding of motor control, across species and timescales.
       img: images/content_images/case_studies/deeplabcut.png
       alttext:  Cheetah pose analysis
