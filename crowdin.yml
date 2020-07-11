@@ -8,7 +8,7 @@ files: [
     "translation": "/content/%two_letters_code%/%original_file_name%"
   }
   {
-    "source": "/content/en/case-studies*.md",
+    "source": "/content/en/case-studies/*.md",
     "translation": "/content/%two_letters_code%/case-studies/%original_file_name%"
   }
 ]
