@@ -4,6 +4,18 @@ sidebar: false
 ---
 
 
+### The inaugural NumPy survey is live!
+
+_Jul 2, 2020_ -- This survey is meant to guide and set priorities for
+decision-making about the development of NumPy as software and as a community.
+The survey is available in 8 additional languages besides English:
+Bangla, Hindi, Japanese, Mandarin, Portuguese, Russian, Spanish and French.
+The survey will run till July 17th.
+
+Please help us make NumPy better and take the survey
+[here](https://umdsurvey.umd.edu/jfe/form/SV_8bJrXjbhXf7saAl).
+
+
 ### NumPy has a new logo!
 
 _Jun 24, 2020_ -- NumPy now has a new logo:

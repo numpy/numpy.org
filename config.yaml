@@ -32,8 +32,8 @@ params:
     image: logos/numpy.svg
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
-    title: NumPy v1.18.0
-    content: A new C-API for numpy.random - Basic infrastructure for linking with 64-bit BLAS and LAPACK
+    title: 1st NumPy survey is live!
+    content: please help us make NumPy better and take the survey by July 17th
     url: /news
 
   shell:
