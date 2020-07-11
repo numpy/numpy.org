@@ -4,6 +4,22 @@ sidebar: false
 ---
 
 
+### NumPy has a new logo!
+
+_Jun 24, 2020_ -- NumPy now has a new logo:
+
+<img
+  src="/images/logos/numpy_logo.svg"
+  alt="NumPy logo"
+  title="The new NumPy logo"
+  width=300>
+
+The logo is a modern take on the old one, with a cleaner design and a color
+scheme that matches the new website. Thanks to Isabela Presedo-Floyd for
+designing the new logo, as well as to Travis Vaught for the old logo that
+served us well for 15+ years.
+
+
 ### NumPy 1.19.0 release
 
 _Jun 20, 2020_ -- NumPy 1.19.0 is now available. This is the first release
