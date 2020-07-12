@@ -3,14 +3,14 @@ title: About Us
 sidebar: false
 ---
 
-_Some information about the NumPy project and community_
+_NumPy 프로젝트와 커뮤니티에 대한 몇가지 정보_
 
-NumPy is an open source project aiming to enable numerical computing with Python. It was created in 2005, building on the early work of the Numerical and Numarray libraries. NumPy will always be 100% open source software, free for all to use and released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt).
+NumPy는 Python에서 Numerical Computing을 할 수 있도록 도와주는 오픈소스 프로젝트입니다. Numerical와 Numarray라는 라이브러리의 초기 작업을 기반으로 2005년에 만들어졌습니다. NumPy는 항상 100% 오픈소스 소프트웨어 일것이며, [수정된 BSD 라이센스](https://github.com/numpy/numpy/blob/master/LICENSE.txt)에 따라서 누구나 무료로 사용하고 배포할 수 있습니디.
 
-NumPy is developed in the open on GitHub, through the consensus of the NumPy and wider scientific Python community. For more information on our governance approach, please see our [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
+NumPy는 광범위한 Scientific Python 커뮤니티의 협의를 통해 GitHub에서 공개적으로 개발되었습니다. 우리의 거버넌스 접근 방식에 대한 더 자세한 내용은 [거버넌스 문서](https://www.numpy.org/devdocs/dev/governance/index.html)를 참조해 주세요.
 
 
-## Steering Council
+## 운영 협의회
 
 The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community. The NumPy Steering Council currently consists of the following members (in alphabetical order):
 
