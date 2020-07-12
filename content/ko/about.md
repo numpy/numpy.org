@@ -10,9 +10,9 @@ NumPy는 Python에서 Numerical Computing을 할 수 있도록 도와주는 오�
 NumPy는 광범위한 Scientific Python 커뮤니티의 협의를 통해 GitHub에서 공개적으로 개발되었습니다. 우리의 거버넌스 접근 방식에 대한 더 자세한 내용은 [거버넌스 문서](https://www.numpy.org/devdocs/dev/governance/index.html)를 참조해 주세요.
 
 
-## 운영 협의회
+## 운영 위원회
 
-The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community. The NumPy Steering Council currently consists of the following members (in alphabetical order):
+NumPy 운영 위원회의 역할은 더 광범위한 NumPy 커뮤니티와 협력하고 서비스를 통해서 기술적으로나 커뮤니티로서 프로젝트의 장기적인 안녕을 보장하는 것입니다. NumPy 운영 위원회는 현재 다음과 같은 회원들로 구성되어 있습니다. (알파벳 순서)
 
 - Sebastian Berg
 - Jaime Fernández del Río
@@ -27,45 +27,45 @@ The role of the NumPy Steering Council is to ensure, through working with and se
 - Stéfan van der Walt
 - Eric Wieser
 
-Emeritus:
+명예 회원
 
 - Travis Oliphant (project founder, 2005-2012)
 - Alex Griffing (2015-2017)
 - Marten van Kerkwijk (2017-2019)
 
-## Teams
+## 팀
 
-The NumPy project is growing; we have teams for
+NumPy 프로젝트는 성장하고 있습니다. 그리고 우리는 다음과 같은 팀들이 있습니다.
 
-- code
-- documentation
-- website
-- triage
-- funding and grants
-- admin
+- 코드
+- 문서
+- 웹사이트
+- 심사
+- 자원 및 보조금
+- 운영
 
-See the [Team](/gallery/team.html) page for individual team members.
+개발 팀원들은 [팀](/gallery/team.html) 페이지를 참조하세요.
 
 
-## Sponsors
+## 스폰서
 
-NumPy receives direct funding from the following sources:
+NumPy는 다음과 같은 곳들에서 직접적으로 자금을 받습니다.
 {{< sponsors >}}
 
 
-## Institutional Partners
+## 기관 파트너
 
-Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include:
+기관 파트너는 그들의 업무의 일환으로 NumPy에 기여하는 직원을 고용하여 프로젝트를 지원하는 조직입니다. 현재 기관 파트너는 다음과 같습니다.
 {{< partners >}}
 
 
-## Donate
+## 후원
 
-If you have found NumPy useful in your work, research, or company, please consider a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation, and community.
+만약 NumPy가 당신의 업무, 연구 혹은 회사에서 유용하다고 판단된다면 당신의 자원에 맞는 프로젝트에 기여하는 것을 고려해보세요. 그것이 얼마든 도움이 됩니다! 모든 후원은 NumPy의 소프트웨어 개발, 문서 작성과 커뮤니티 운영의 자금으로 엄격하게 사용될 것입니다.
 
-NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit [numfocus.org](https://numfocus.org) for more information.
+NumPy는 미국의 501(c)(3) 비영리 단체인 NumFOCUS의 후원 프로젝트입니다. NumFOCUS는 NumPy에 재정적, 법적, 행정적 지원을 제공하고 프로젝트의 건강과 지속 가능성을 보장할 수 있도록 도와줍니다. 더 자세한 정보를 알고싶다면 [numfocus.org](https://numfocus.org)를 방문하세요.
 
-Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax advisor about your particular tax situation.
+NumPy에 대한 후원은 [NumFOCUS](https://numfocus.org)가 관리합니다. 미국에 거주하는 후원자의 경우에는, 당신의 후원은 법이 제공하는 한도 내에서 세금 공제를 받을 수 있습니다. 기부와 마찬가지로 특정 세금 상황에 대해서는 세금 전문가와 상담해야합니다.
 
-NumPy's Steering Council will make the decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
+NumPy 운영 위원회는 후원받은 후원금을 가장 잘 활용하는 방안을 결정합니다. 기술 및 인프라의 우선 순위는 NumPy [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap)에 문서화되어 있습니다.
 {{< numfocus >}}
