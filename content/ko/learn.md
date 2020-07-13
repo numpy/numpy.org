@@ -3,14 +3,14 @@ title: Learn
 sidebar: false
 ---
 
-**The official NumPy documentation lives [here](https://numpy.org/doc/stable).**
+**공식 NumPy 문서는 [여기](https://numpy.org/doc/stable)에 있습니다.**
 
-Below is a curated collection of external resources. To contribute, see the [end of this page](#add-to-this-list).
+아래는 선별된 외부 자료들의 모음입니다. 이곳에 기여하고 싶다면, [이 페이지의 끝](#add-to-this-list)을 참조하세요.
 ***
 
-## Beginners
+## Begginners
 
-There's a ton of information about NumPy out there. If you are new, we'd strongly recommend these:
+여기에 NumPy에 대한 많은 자료가 있습니다. If you are new, we'd strongly recommend these:
 
 <i class="fad fa-chalkboard"></i> **Tutorials**
 
