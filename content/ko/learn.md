@@ -10,9 +10,9 @@ sidebar: false
 
 ## Begginners
 
-여기에 NumPy에 대한 많은 자료가 있습니다. If you are new, we'd strongly recommend these:
+여기에 NumPy에 대한 많은 자료가 있습니다. NumPy가 처음이라면 이 자료들을 강력하게 권장합니다.
 
-<i class="fad fa-chalkboard"></i> **Tutorials**
+<i class="fad fa-chalkboard"></i> **튜토리얼**
 
 * [NumPy Quickstart Tutorial](https://numpy.org/devdocs/user/quickstart.html)
 * [SciPy Lectures](https://scipy-lectures.org/) Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.
@@ -24,7 +24,7 @@ sidebar: false
 * [Stanford CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
 * [NumPy User Guide](https://numpy.org/devdocs)
 
-<i class="fas fa-books"></i> **Books**
+<i class="fas fa-books"></i> **도서**
 
 * [Guide to NumPy *by Travis E. Oliphant*](http://web.mit.edu/dvp/Public/numpybook.pdf) This is a free version 1 from 2006. For the latest copy (2015) see [here](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007).
 * [From Python to NumPy *by Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
@@ -32,7 +32,7 @@ sidebar: false
 
 You may also want to check out the [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) on the subject of "Python+SciPy." Most books there are about the "SciPy ecosystem," which has NumPy at its core.
 
-<i class="far fa-file-video"></i> **Videos**
+<i class="far fa-file-video"></i> **영상**
 
 * [Introduction to Numerical Computing with NumPy](http://youtu.be/ZB7BZMhfPgk) *by Alex Chabot-Leclerc*
 
@@ -40,9 +40,9 @@ You may also want to check out the [Goodreads list](https://www.goodreads.com/sh
 
 ## Advanced
 
-Try these advanced resources for a better understanding of NumPy concepts like advanced indexing, splitting, stacking, linear algebra, and more.
+Indexing, Splitting, Stacking, 선형대수 등과 같은 NumPy의 개념을 더 잘 이해하러면 이 고급 자료들을 참조 해보세요.
 
-<i class="fad fa-chalkboard"></i> **Tutorials**
+<i class="fad fa-chalkboard"></i> **튜토리얼**
 
 * [100 NumPy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) *by Nicolas P. Rougier*
 * [An Introduction to NumPy and Scipy](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) *by M. Scott Shell*
@@ -51,13 +51,13 @@ Try these advanced resources for a better understanding of NumPy concepts like a
 * [Advanced Indexing](https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm)
 * [Machine Learning and Data Analytics with NumPy](https://www.machinelearningplus.com/python/numpy-tutorial-python-part2/)
 
-<i class="fas fa-books"></i> **Books**
+<i class="fas fa-books"></i> **도서**
 
 * [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057) *by Jake Vanderplas*
 * [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662) *by Wes McKinney*
 * [Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy, and Matplotlib](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459) *by Robert Johansson*
 
-<i class="far fa-file-video"></i> **Videos**
+<i class="far fa-file-video"></i> **영상**
 
 * [Advanced NumPy - broadcasting rules, strides, and advanced indexing](https://www.youtube.com/watch?v=cYugp9IN1-Q) *by Juan Nunuz-Iglesias*
 * [Advanced Indexing Operations in NumPy Arrays](https://www.youtube.com/watch?v=2WTDrSkQBng) *by Amuls Academy*
@@ -74,11 +74,11 @@ Try these advanced resources for a better understanding of NumPy concepts like a
 
 ***
 
-## Citing NumPy
+## NumPy 인용하기
 
-If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, please see [this citation information](/citing-numpy).
+만약 당신의 연구에서 NumPy가 중요한 역할을 수행하였고 학술 간행물에서 출판하기 위해서는 [이 인용 정보](/citing-numpy)를 참조하세요.
 
-## Contribute to this list
+## 이 목록에 기여하기
 
 <a name="add-to-this-list"></a>
-To add to this collection, submit a recommendation [via a pull request](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md). Say why your recommendation deserves mention on this page and also which audience would benefit most.
+이 목록에 자료를 추가하려면 [Pull Request](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md)를 통해서 제출하세요. 당신이 추천한 자료가 왜 이 페이지에 올라야하는지, 또한 어떤 사람들이 가장 좋아할지 말해주세요.
