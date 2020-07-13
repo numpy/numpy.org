@@ -8,7 +8,7 @@ sidebar: false
 아래는 선별된 외부 자료들의 모음입니다. 이곳에 기여하고 싶다면, [이 페이지의 끝](#add-to-this-list)을 참조하세요.
 ***
 
-## Begginners
+## Beginners
 
 여기에 NumPy에 대한 많은 자료가 있습니다. NumPy가 처음이라면 이 자료들을 강력하게 권장합니다.
 
