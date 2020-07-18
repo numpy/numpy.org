@@ -32,8 +32,8 @@ params:
     image: logos/numpy.svg
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
-    title: 1st NumPy survey is live!
-    content: please help us make NumPy better and take the survey by July 17th
+    title: NumPy Community Survey is LIVE!
+    content: help us make NumPy better
     url: /news
 
   shell:

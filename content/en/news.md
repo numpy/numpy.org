@@ -10,7 +10,6 @@ _Jul 2, 2020_ -- This survey is meant to guide and set priorities for
 decision-making about the development of NumPy as software and as a community.
 The survey is available in 8 additional languages besides English:
 Bangla, Hindi, Japanese, Mandarin, Portuguese, Russian, Spanish and French.
-The survey will run till July 17th.
 
 Please help us make NumPy better and take the survey
 [here](https://umdsurvey.umd.edu/jfe/form/SV_8bJrXjbhXf7saAl).
@@ -26,10 +25,9 @@ _Jun 24, 2020_ -- NumPy now has a new logo:
   title="The new NumPy logo"
   width=300>
 
-The logo is a modern take on the old one, with a cleaner design and a color
-scheme that matches the new website. Thanks to Isabela Presedo-Floyd for
-designing the new logo, as well as to Travis Vaught for the old logo that
-served us well for 15+ years.
+The logo is a modern take on the old one, with a cleaner design. Thanks to
+Isabela Presedo-Floyd for designing the new logo, as well as to Travis Vaught
+for the old logo that served us well for 15+ years.
 
 
 ### NumPy 1.19.0 release
