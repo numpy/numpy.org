@@ -69,10 +69,18 @@ You also can run the docker image in daemon mode and then interact with the cont
 ## User Experience (UX)
 
 ### NumPy Color Palette
-![#013243 Warm Black](./static/images/content_images/swatch_013243_warm_black.png)
-![#4D77CF Han Blue](./static/images/content_images/swatch_4D77CF_han_blue.png)
-![#4DABCF Maximum Blue](./static/images/content_images/swatch_4DABCF_maximum_blue.png)
-![#6C7A89 Aurometalsaurus](./static/images/content_images/swatch_6C7A89_aurometalsaurus.png)
-![#EEEEEE Isabelline](./static/images/content_images/swatch_EEEEEE_isabelline.png)
-![#FFC553 Mustard](./static/images/content_images/swatch_FFC553_mustard.png)
-![#FFFFFF White](./static/images/content_images/swatch_FFFFFF_white.png)
+
+![#013243 Warm Black](./static/images/content_images/swatch_013243_warm_black.png) `#013243` **Warm Black**
+
+![#4D77CF Han Blue](./static/images/content_images/swatch_4D77CF_han_blue.png) `#4D77CF` **Han Blue**
+
+![#4DABCF Maximum Blue](./static/images/content_images/swatch_4DABCF_maximum_blue.png) `#4DABCF` **Maximum Blue**
+
+![#6C7A89 Aurometalsaurus](./static/images/content_images/swatch_6C7A89_aurometalsaurus.png) `#6C7A89` **Aurometalsaurus**
+
+![#EEEEEE Isabelline](./static/images/content_images/swatch_EEEEEE_isabelline.png) `#EEEEEE` **Isabelline**
+
+![#FFC553 Mustard](./static/images/content_images/swatch_FFC553_mustard.png) `#FFC553` **Mustard**
+
+![#FFFFFF White](./static/images/content_images/swatch_FFFFFF_white.png) `#FFFFFF` **White**
+
