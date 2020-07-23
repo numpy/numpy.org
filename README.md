@@ -69,11 +69,10 @@ You also can run the docker image in daemon mode and then interact with the cont
 ## User Experience (UX)
 
 ### NumPy Color Palette
-
-#FFC553 Mustard
-#4DABCF Maximum Blue
-#4D77CF Han Blue
-#FFFFFF White
-#EEEEEE Isabelline
-#6C7A89 Aurometalsaurus
-#013243 Warm Black
+![#013243 Warm Black](./static/images/content_images/swatch_013243_warm_black.png)
+![#4D77CF Han Blue](./static/images/content_images/swatch_4D77CF_han_blue.png)
+![#4DABCF Maximum Blue](./static/images/content_images/swatch_4DABCF_maximum_blue.png)
+![#6C7A89 Aurometalsaurus](./static/images/content_images/swatch_6C7A89_aurometalsaurus.png)
+![#EEEEEE Isabelline](./static/images/content_images/swatch_EEEEEE_isabelline.png)
+![#FFC553 Mustard](./static/images/content_images/swatch_FFC553_mustard.png)
+![#FFFFFF White](./static/images/content_images/swatch_FFFFFF_white.png)
