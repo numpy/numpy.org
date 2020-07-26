@@ -1,5 +1,5 @@
 .keyfeatures {
-    margin: 30px 0;
+    margin: 10px 0;
 }
 
 .keyfeatures .container {
@@ -17,12 +17,12 @@
     height: 175px;
     min-width: 275px;
     width: 325px;
-    margin: 30px auto;
+    margin: 10px auto;
     border-radius: 3px;
 }
 
 .keyfeatures-box-title {
-    margin: 15px;
+    margin: 10px;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -32,7 +32,7 @@
 }
 
 .keyfeatures-box-text {
-    margin: 30px 15px;
+    margin: 10px 15px;
     font-size: 14px;
 }
 
