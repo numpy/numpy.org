@@ -1,6 +1,6 @@
 baseURL: http://numpy.org/
 languageCode: en-us
-title: NumPy
+title: NumPy - the fundamental package for scientific computing with Python.
 theme: hugo-fresh
 disableKinds: ["taxonomyTerm"]
 googleAnalytics: UA-162151853-1
@@ -11,7 +11,7 @@ markup:
       unsafe: true
 
 params:
-  description: The fundamental package for scientific computing with Python
+  description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
   navColor: blue
   navbarlogo:
     image: logos/numpy.svg
