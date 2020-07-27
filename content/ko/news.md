@@ -39,11 +39,11 @@ Please see the [release notes](https://github.com/numpy/numpy/releases/tag/v1.18
 
 ### NumPy receives a grant from the Chan Zuckerberg Initiative
 
-_Nov 15, 2019_ -- We are very pleased to announce that NumPy and OpenBLAS have received a joint grant for $195,000 from the Chan Zuckerberg Initiative.
+_Nov 15, 2019_ -- We are pleased to announce that NumPy and OpenBLAS, one of NumPy's key dependencies, have received a joint grant for $195,000 from the Chan Zuckerberg Initiative through their [Essential Open Source Software for Science program](https://chanzuckerberg.com/eoss/) that supports software maintenance, growth, development, and community engagement for open source tools critical to science.
 
-This grant is for high-level documentation, website development and graphic design, governance activities and community building for NumPy, and for technical work on OpenBLAS (which is one of NumPy's key dependencies). [This blog post](https://labs.quansight.org/blog/2019/11/numpy-openblas-CZI-grant/) describes what this grant will be about and provides some background on the grant program. The full proposal is published [here](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167). The program managers wrote a blog post titled [The Invisible Foundations of Biomedicine](https://medium.com/@cziscience/the-invisible-foundations-of-biomedicine-4ab7f8d4f5dd) about the whole program which is also well worth reading.
+This grant will be used to ramp up the efforts in improving NumPy documentation, website redesign, and community development to better serve our large and rapidly growing user base, and ensure the long-term sustainability of the project. While the OpenBLAS team will focus on addressing sets of key technical issues, in particular thread-safety, AVX-512, and thread-local storage (TLS) issues, as well as algorithmic improvements in ReLAPACK (Recursive LAPACK) on which OpenBLAS depends.
 
-We're looking forward to what we'll be able to do with this grant. The work is planned to start quite soon, Dec 1st, and run for one year.
+More details on our proposed initiatives and deliverables can be found in the [full grant proposal](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167). The work is scheduled to start on Dec 1st, 2019 and continue for the next 12 months.
 
 
 ## Releases
