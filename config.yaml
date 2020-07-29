@@ -12,6 +12,8 @@ markup:
 
 params:
   description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
+  images:
+  - logos/numpy.svg
   navColor: blue
   navbarlogo:
     image: logos/numpy.svg

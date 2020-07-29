@@ -11,6 +11,7 @@
       <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}" />
       {{ end }}
     {{ end }}
+    {{ template "_internal/twitter_cards.html" . }}
   </head>
   <body>
     <!-- Preloader. Set to true for front-page fade-in animation -->
