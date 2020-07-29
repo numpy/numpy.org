@@ -45,28 +45,6 @@ error: failed to transform resource: TOCSS: failed to transform "style.sass"
 
 if you don't have the Hugo extended version.
 
-## Using docker
-
-* Build the docker image:
-
-```bash
-  $ docker build -t deploy_surge .
-  $ docker images
-
-```
-
-Run the image:
-
-```bash
-  $ docker run -e SURGE_LOGIN=${SURGE_LOGIN} -e SURGE_TOKEN=${SURGE_TOKEN} -e PR_NUMBER=${TRAVIS_PULL_REQUEST} deploy_surge
-```
-
-Note: `SURGE_LOGIN` and `SURGE_TOKEN` is needed only when you want to push the
-build in surge server. The URL will look like: numpy-${PR_NUMBER}.surge.sh
-
-So you can use some random number instead of `TRAVIS_PULL_REQUEST` variable.
-
-You also can run the docker image in daemon mode and then interact with the container and run the hugo server.
 
 ## User Experience (UX)
 
