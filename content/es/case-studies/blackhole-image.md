@@ -10,11 +10,11 @@ sidebar: false
     <footer align="right">—Katie Bouman, <cite>Assistant Professor, Computing & Mathematical Sciences, Caltech</cite></footer>
 </blockquote>
 
-## About The Event Horizon Telescope
+## Acerca del telescopio Horizonte de sucesos
 
-The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org), is an array of eight ground-based radio telescopes forming a computational telescope the size of the earth, designed to study extreme objects in the universe with unprecedented sensitivity and resolution.  The worldwide network of radio telescopes comprises a virtual telescope based on a technique called very-long-baseline interferometry (VLBI). Using this technique, the EHT is able to achieve an angular resolution of [20 micro-arcseconds][resolution] — enough to read a newspaper in New York from a sidewalk café in Paris!
+El [ telescopio Horizonte de Sucesos (EHT) ](https://eventhorizontelescope.org), es un arreglo de ocho radio telescopios terrestres que forman un telescopio computacional del tamaño de la tierra, diseñado para estudiar objetos extremos del universo con una sensibilidad y resolución sin precedentes.  La red mundial de radiotelescopios comprende un telescopio virtual basado en la técnica llamada Interferometría de muy larga base (VLBI). Isando esta técnica, el EHT es capaz de lograr una resolución angular de [20 micro-segundos de arco][resolution] -¡suficiente para leer un periódico en Nueva York desde la acera de un café en Paris!
 
-### Key Goals and Results
+### Objetivos clave y resultados
 
 * **A New View of the Universe:** The EHT is an exciting new tool for studying the most extreme objects in the universe. The EHT's groundbreaking image was published 100 years after [Sir Arthur Eddington's experiment][eddington] yielded the first observational evidence in support of Einstein's theory of general relativity.
 
