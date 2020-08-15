@@ -29,7 +29,7 @@ O papel do Conselho Diretor do NumPy consiste em assegurar o bem-estar a longo p
 
 Membros Eméritos:
 
-- Travis Oliphant (project founder, 2005-2012)
+- Travis Oliphant (fundador do projeto, 2005-2012)
 - Alex Griffing (2015-2017)
 - Marten van Kerkwijk (2017-2019)
 
