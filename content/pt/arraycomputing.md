@@ -1,5 +1,5 @@
 ---
-title: Array Computing
+title: Computação com Arrays
 sidebar: false
 ---
 
