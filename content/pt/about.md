@@ -10,9 +10,9 @@ NumPy é um projeto de código aberto visando habilitar a computação numérica
 O NumPy é desenvolvido no GitHub, através do consenso da comunidade NumPy e de uma comunidade científica em Python mais ampla. Para obter mais informações sobre nossa abordagem de governança, por favor, consulte nosso [Documento de Governança](https://www.numpy.org/devdocs/dev/governance/index.html).
 
 
-## Steering Council
+## Conselho Diretor (Steering Council)
 
-The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community. The NumPy Steering Council currently consists of the following members (in alphabetical order):
+O papel do Conselho Diretor do NumPy consiste em assegurar o bem-estar a longo prazo do projeto, tanto nos aspectos técnicos quanto na comunidade. Isso é feito através do trabalho com e para a comunidade NumPy em geral. O Conselho Diretor do NumPy atualmente consiste dos seguintes membros (em ordem alfabética):
 
 - Sebastian Berg
 - Jaime Fernández del Río
@@ -27,45 +27,45 @@ The role of the NumPy Steering Council is to ensure, through working with and se
 - Stéfan van der Walt
 - Eric Wieser
 
-Emeritus:
+Membros Eméritos:
 
 - Travis Oliphant (project founder, 2005-2012)
 - Alex Griffing (2015-2017)
 - Marten van Kerkwijk (2017-2019)
 
-## Teams
+## Times
 
-The NumPy project is growing; we have teams for
+O projeto NumPy está crescendo; temos equipes para
 
-- code
-- documentation
+- código
+- documentação
 - website
-- triage
-- funding and grants
-- admin
+- triagem
+- financiamento e bolsas
+- administração
 
-See the [Team](/gallery/team.html) page for individual team members.
+Veja a página de [Times](/gallery/team.html) para membros individuais de cada time.
 
 
-## Sponsors
+## Patrocinadores
 
-NumPy receives direct funding from the following sources:
+O NumPy recebe financiamento direto das seguintes fontes:
 {{< sponsors >}}
 
 
-## Institutional Partners
+## Parceiros Institucionais
 
-Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include:
+Os Parceiros Institucionais são organizações que apoiam o projeto, empregando pessoas que contribuem para a NumPy como parte de seu trabalho. Os parceiros institucionais atuais incluem:
 {{< partners >}}
 
 
-## Donate
+## Doações
 
-If you have found NumPy useful in your work, research, or company, please consider a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation, and community.
+Se você achou o NumPy útil no seu trabalho, pesquisa ou empresa, por favor considere fazer uma doação para o projeto que seja compatível com seus recursos. Qualquer quantidade ajuda! Todas as doações serão utilizadas estritamente para financiar o desenvolvimento do software de código aberto da NumPy, documentação e comunidade.
 
-NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit [numfocus.org](https://numfocus.org) for more information.
+NumPy é um Projeto Patrocinado da NumFOCUS, uma instituição de caridade sem fins lucrativos nos Estados Unidos. A NumFOCUS fornece ao NumPy apoio fiscal, legal e administrativo para ajudar a garantir a saúde e a sustentabilidade do projeto. Visite [numfocus.org](https://numfocus.org) para obter mais informações.
 
-Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax advisor about your particular tax situation.
+Doações para o NumPy são gerenciadas pela [NumFOCUS](https://numfocus.org). Para doadores nos Estados Unidos, sua doação é dedutível para fins fiscais na medida oferecida pela lei. Como em qualquer doação, você deve consultar seu conselheiro fiscal sobre sua situação fiscal em particular.
 
-NumPy's Steering Council will make the decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
+O Conselho Diretor da NumPy tomará as decisões sobre a melhor forma de utilizar os fundos recebidos. Prioridades técnicas e de infraestrutura estão documentadas no [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
 {{< numfocus >}}
