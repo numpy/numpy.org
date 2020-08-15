@@ -3,11 +3,11 @@ title: Computação com Arrays
 sidebar: false
 ---
 
-*Array computing is the foundation of statistical, mathematical, scientific computing in various contemporary data science and analytics applications such as data visualization, digital signal processing, image processing, bioinformatics, machine learning, AI, and several others.*
+*A computação com arrays é a base para estatística e matemática computacionais, computação científica e suas várias aplicações em ciência e análise de dados, tais como visualização de dados, processamento de sinais digitais, processamento de imagens, bioinformática, aprendizagem de máquina, IA e muitas outras.*
 
-Large scale data manipulation and transformation depends on efficient, high-performance array computing. The language of choice for data analytics, machine learning, and productive numerical computing is **Python.**
+A manipulação e a transformação de dados de grande escala dependem de computação eficiente de alta performance com arrays. A linguagem mais escolhida para análise de dados, aprendizagem de máquina e computação numérica produtiva é **Python.**
 
-**Num**erical **Py**thon or NumPy is its de-facto standard Python programming language library that supports large, multi-dimensional arrays and matrices, and comes with a vast collection of high-level mathematical functions to operate on these arrays.
+**Num**erical **Py**thon (Python Numérico) ou NumPy é a biblioteca em Python padrão para o suporte à utilização de matrizes e arrays multidimensionais de grande porte, e vem com uma vasta coleção de funções matemáticas de alto nível para operar nestas arrays.
 
 Since the launch of NumPy in 2006, Pandas appeared on the landscape in 2008, and it was not until a couple of years ago that several array computing libraries showed up in succession, crowding the array computing landscape. Many of these newer libraries mimic NumPy-like features and capabilities, and pack newer algorithms and features geared towards machine learning and artificial intelligence applications.
 
