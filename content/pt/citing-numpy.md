@@ -1,14 +1,14 @@
 ---
-title: Citing NumPy
+title: Citando a NumPy
 sidebar: false
 ---
 
-If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, we suggest citing the following papers:
+Se a NumPy é importante na sua pesquisa, e você gostaria de dar reconhecimento ao projeto na sua publicação acadêmica, sugerimos citar os seguintes documentos:
 
 * Travis E, Oliphant. _A guide to NumPy_, USA: Trelgol Publishing, (2006).
 * Stéfan van der Walt, S. Chris Colbert, and Gaël Varoquaux. _The NumPy Array: A Structure for Efficient Numerical Computation_, Computing in Science & Engineering, 13, 22-30 (2011),[ DOI:10.1109/MCSE.2011.37](http://dx.doi.org/10.1109/MCSE.2011.37) ([publisher link](http://scitation.aip.org/content/aip/journal/cise/13/2/10.1109/MCSE.2011.37))
 
-_In BibTeX format:_
+_Em formato BibTeX:_
 
  ``` 
 @book{oliphant2006guide,
