@@ -11,16 +11,16 @@ Este código de conduta aplica-se a todos os espaços gerenciados pelo projeto N
 
 Este Código de Conduta deve ser honrado por todas as pessoas que participam da comunidade NumPy formal ou informalmente, ou que reivindicam qualquer afiliação com o projeto, em qualquer atividade relacionada ao projeto, especialmente ao representar o projeto, em qualquer função.
 
-Este código não é exaustivo ou completo. Serve para disseminar a nossa compreensão comum de um ambiente colaborativo e de objetivos compartilhados entre nós. Please try to follow this code in spirit as much as in letter, to create a friendly and productive environment that enriches the surrounding community.
+Este código não é exaustivo ou completo. Serve para disseminar a nossa compreensão comum de um ambiente colaborativo e de objetivos compartilhados entre nós. Por favor, tente seguir este código tanto na essência quanto ao pé da letra, para criar um ambiente amigável e produtivo que enriqueça a comunidade em geral.
 
-### Specific Guidelines
+### Diretrizes específicas
 
-We strive to:
+Nós nos esforçamos para:
 
-1. Be open. We invite anyone to participate in our community. We prefer to use public methods of communication for project-related messages, unless discussing something sensitive. This applies to messages for help or project-related support, too; not only is a public support request much more likely to result in an answer to a question, it also ensures that any inadvertent mistakes in answering are more easily detected and corrected.
-2. Be empathetic, welcoming, friendly, and patient. We work together to resolve conflict, and assume good intentions. We may all experience some frustration from time to time, but we do not allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.
-3. Be collaborative. Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of the project, we are willing to explain to others how it works, so that they can build on the work to make it even better. Any decision we make will affect users and colleagues, and we take those consequences seriously when making decisions.
-4. Be inquisitive. Nobody knows everything! Asking questions early avoids many problems later, so we encourage questions, although we may direct them to the appropriate forum. We will try hard to be responsive and helpful.
+1. Sermos abertos. Convidamos qualquer pessoa a participar da nossa comunidade. Preferimos usar métodos públicos de comunicação para mensagens relacionadas aos projetos, a menos que estejamos discutindo algo sensível. Isso se aplica a mensagens em busca de ajuda ou suporte relacionado ao projeto também; não só é muito mais provável que um pedido de ajuda público resulte em uma resposta, mas isso também garante que qualquer erro involuntário na resposta seja mais facilmente detectado e corrigido.
+2. Sermos empáticos, acolhedores, amigáveis e pacientes. Trabalhamos juntos para resolver conflitos e acreditamos em boas intenções. Todos nós podemos sentir alguma frustração de vez em quando, mas não permitimos que a frustração se transforme num ataque pessoal. Uma comunidade onde as pessoas se sentem desconfortáveis ou ameaçadas não é uma comunidade produtiva.
+3. Sermos colaborativos. O nosso trabalho será utilizado por outras pessoas e, por sua vez, dependeremos do trabalho dos outros. Quando fazemos algo em benefício do projeto, estamos dispostos a explicar aos outros como esse algo funciona, para que outros possam desenvolver o trabalho e torná-lo ainda melhor. Qualquer decisão que tomemos afetará nossos usuários e os colegas, e levamos essas consequências a sério quando tomamos decisões.
+4. Sermos inquisitivos. Ninguém sabe tudo! Fazer perguntas antecipadamente evita muitos problemas mais tarde, por isso encorajamos as perguntas, embora possamos encaminhá-las para um fórum adequado. Vamos nos esforçar para sermos sensíveis e úteis.
 5. Be careful in the words that we choose. We are careful and respectful in our communication, and we take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. We will not accept harassment or other exclusionary behaviour, such as:
     * Violent threats or language directed against another person.
     * Sexist, racist, or otherwise discriminatory jokes and language.
