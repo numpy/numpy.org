@@ -1,17 +1,17 @@
 ---
-title: NumPy Code of Conduct
+title: Código de Conduta NumPy
 sidebar: false
 aliases:
   - /conduct.html
 ---
 
-### Introduction
+### Introdução
 
-This Code of Conduct applies to all spaces managed by the NumPy project, including all public and private mailing lists, issue trackers, wikis, blogs, Twitter, and any other communication channel used by our community. The NumPy project does not organise in-person events, however events related to our community should have a code of conduct similar in spirit to this one.
+Este código de conduta aplica-se a todos os espaços gerenciados pelo projeto NumPy, incluindo todas as listas de discussão públicas e privadas, *issue tracker*, wikis, blogs, Twitter e qualquer outro canal de comunicação usado pela nossa comunidade. O projeto NumPy não organiza eventos presenciais. No entanto, os eventos relacionados à nossa comunidade devem ter um código de conduta semelhante ao atual.
 
-This Code of Conduct should be honored by everyone who participates in the NumPy community formally or informally, or claims any affiliation with the project, in any project-related activities and especially when representing the project, in any role.
+Este Código de Conduta deve ser honrado por todas as pessoas que participam da comunidade NumPy formal ou informalmente, ou que reivindicam qualquer afiliação com o projeto, em qualquer atividade relacionada ao projeto, especialmente ao representar o projeto, em qualquer função.
 
-This code is not exhaustive or complete. It serves to distill our common understanding of a collaborative, shared environment and goals. Please try to follow this code in spirit as much as in letter, to create a friendly and productive environment that enriches the surrounding community.
+Este código não é exaustivo ou completo. Serve para disseminar a nossa compreensão comum de um ambiente colaborativo e de objetivos compartilhados entre nós. Please try to follow this code in spirit as much as in letter, to create a friendly and productive environment that enriches the surrounding community.
 
 ### Specific Guidelines
 
