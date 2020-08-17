@@ -21,49 +21,49 @@ Nós nos esforçamos para:
 2. Sermos empáticos, acolhedores, amigáveis e pacientes. Trabalhamos juntos para resolver conflitos e acreditamos em boas intenções. Todos nós podemos sentir alguma frustração de vez em quando, mas não permitimos que a frustração se transforme num ataque pessoal. Uma comunidade onde as pessoas se sentem desconfortáveis ou ameaçadas não é uma comunidade produtiva.
 3. Sermos colaborativos. O nosso trabalho será utilizado por outras pessoas e, por sua vez, dependeremos do trabalho dos outros. Quando fazemos algo em benefício do projeto, estamos dispostos a explicar aos outros como esse algo funciona, para que outros possam desenvolver o trabalho e torná-lo ainda melhor. Qualquer decisão que tomemos afetará nossos usuários e os colegas, e levamos essas consequências a sério quando tomamos decisões.
 4. Sermos inquisitivos. Ninguém sabe tudo! Fazer perguntas antecipadamente evita muitos problemas mais tarde, por isso encorajamos as perguntas, embora possamos encaminhá-las para um fórum adequado. Vamos nos esforçar para sermos sensíveis e úteis.
-5. Be careful in the words that we choose. We are careful and respectful in our communication, and we take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. We will not accept harassment or other exclusionary behaviour, such as:
-    * Violent threats or language directed against another person.
-    * Sexist, racist, or otherwise discriminatory jokes and language.
-    * Posting sexually explicit or violent material.
-    * Posting (or threatening to post) other people’s personally identifying information (“doxing”).
-    * Sharing private content, such as emails sent privately or non-publicly, or unlogged forums such as IRC channel history, without the sender’s consent.
-    * Personal insults, especially those using racist or sexist terms.
-    * Unwelcome sexual attention.
-    * Excessive profanity. Please avoid swearwords; people differ greatly in their sensitivity to swearing.
-    * Repeated harassment of others. In general, if someone asks you to stop, then stop.
-    * Advocating for, or encouraging, any of the above behaviour.
+5. Termos cuidado com as palavras que escolhemos. Somos cuidadosos e respeitosos na nossa comunicação e assumimos a responsabilidade pelo nosso próprio discurso. Seja gentil com os outros. Não insulte ou deprecie outros participantes. Nós não aceitaremos assédio ou outros comportamentos exclusivos, como:
+    * Ameaças ou linguagem violenta direcionadas contra outra pessoa.
+    * Piadas e linguagem sexista, racista ou discriminatória.
+    * Postagem de material sexualmente explícito ou violento.
+    * Postar (ou ameaçar postar) informações pessoais de outras pessoas (“doxing”).
+    * Compartilhar conteúdo privado, como e-mails enviados de maneira privada ou não-pública, ou fóruns não registrados, como histórico de canais IRC, sem o consentimento do remetente.
+    * Insultos pessoais, especialmente aqueles que utilizam termos racistas ou sexistas.
+    * Atenção sexual não consentida.
+    * Profanidade excessiva. Por favor, evite palavrões; as pessoas diferem muito na sua sensibilidade à linguagem.
+    * Assédio reiterado. Em geral, se alguém pedir que você pare, então pare.
+    * Advogar em favor ou encorajar qualquer um dos comportamentos acima.
 
-### Diversity Statement
+### Declaração de diversidade
 
-The NumPy project welcomes and encourages participation by everyone. We are committed to being a community that everyone enjoys being part of. Although we may not always be able to accommodate each individual’s preferences, we try our best to treat everyone kindly.
+O projeto NumPy convida e incentiva a participação de todas as pessoas. Estamos empenhados em ser uma comunidade da qual todas as pessoas gostem de fazer parte. Embora nem sempre sejamos capazes de acomodar as preferências de cada indivíduo, nós tentamos o nosso melhor para tratar todos gentilmente.
 
-No matter how you identify yourself or how others perceive you: we welcome you. Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct.
+Não importa como você se identifica ou como os outros percebem você: nós lhe damos as boas-vindas. Embora nenhuma lista possa esperar ser totalmente abrangente, honramos explicitamente a diversidade em: idade, cultura, etnia, genótipo, identidade ou expressão de gênero, língua, origem, neurotipo, fenotipo, crenças políticas, profissão, raça, religião, orientação sexual, estado socioeconômico, subcultura e capacidade técnica, na medida em que não entrem em conflito com este código de conduta.
 
-Though we welcome people fluent in all languages, NumPy development is conducted in English.
+Embora sejamos receptivos às pessoas fluentes em todas as línguas, o desenvolvimento do NumPy é conduzido em inglês.
 
-Standards for behaviour in the NumPy community are detailed in the Code of Conduct above. Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
+Padrões de comportamento na comunidade NumPy estão detalhados no Código de Conduta acima. Os participantes da nossa comunidade devem se comportar de acordo com esses padrões em todas as suas interações e ajudar os outros a fazê-lo também (veja a próxima seção).
 
-### Reporting Guidelines
+### Diretrizes de Resposta a Incidentes
 
-We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We also recognize that sometimes people may have a bad day, or be unaware of some of the guidelines in this Code of Conduct. Please keep this in mind when deciding on how to respond to a breach of this Code.
+Sabemos que é mais comum do que o desejado que a comunicação na Internet comece ou se transforme em abusos óbvios e flagrantes. Reconhecemos também que, por vezes, as pessoas podem ter um dia ruim, ou não conhecer algumas das orientações deste Código de Conduta. Tenha isto em mente ao decidir como responder a uma violação deste Código.
 
-For clearly intentional breaches, report those to the Code of Conduct Committee (see below). For possibly unintentional breaches, you may reply to the person and point out this code of conduct (either in public or in private, whatever is most appropriate). If you would prefer not to do that, please feel free to report to the Code of Conduct Committee directly, or ask the Committee for advice, in confidence.
+Em caso de violações claramente intencionais, o Comitê do Código de Conduta (veja abaixo) deve ser informado. Para violações possivelmente não intencionais, você pode responder à pessoa e apontar este código de conduta (seja em público ou em privado, o que for mais apropriado). Se preferir não o fazer, sinta-se à vontade para informar diretamente o Comitê do Código de Conduta, ou peça ao Comitê um conselho, sigilosamente.
 
-You can report issues to the NumPy Code of Conduct Committee at numpy-conduct@googlegroups.com.
+Você pode relatar problemas ao Comitê do Código de Conduta NumPy em numpy-conduct@googlegroups.com.
 
-Currently, the Committee consists of:
+Atualmente, o comitê é formato por:
 
 * Stefan van der Walt
 * Melissa Weber Mendonça
 * Anirudh Subramanian
 
-If your report involves any members of the Committee, or if they feel they have a conflict of interest in handling it, then they will recuse themselves from considering your report. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
+Se o seu relatório envolve algum membro da comissão, ou se você sentir que existe um conflito de interesses em tratá-lo, então os membros abster-se-ão de considerar o seu relatório. Como alternativa, se por qualquer razão você se sentir desconfortável em fazer um relatório à comissão, então você também pode entrar em contato com a equipe sênior da NumFOCUS em [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
-### Incident reporting resolution & Code of Conduct enforcement
+### Resolução de Incidentes & Execução do Código de Conduta
 
-_This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](/report-handling-manual).
+_Esta seção resume os pontos mais importantes, mais detalhes podem ser encontrados em_ [Código de Conduta do NumPy - Como dar seguimento a um relatório](/report-handling-manual).
 
-We will investigate and respond to all complaints. The NumPy Code of Conduct Committee and the NumPy Steering Committee (if involved) will protect the identity of the reporter, and treat the content of complaints as confidential (unless the reporter agrees otherwise).
+Vamos investigar e responder a todas as queixas. The NumPy Code of Conduct Committee and the NumPy Steering Committee (if involved) will protect the identity of the reporter, and treat the content of complaints as confidential (unless the reporter agrees otherwise).
 
 In case of severe and obvious breaches, e.g. personal threat or violent, sexist or racist language, we will immediately disconnect the originator from NumPy communication channels; please see the manual for details.
 
