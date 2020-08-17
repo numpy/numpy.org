@@ -7,12 +7,6 @@
 TARGET ?= origin
 BASEURL ?= 
 
-ifeq ($(TARGET), origin)
-	WORKTREETARGET =
-else
-	WORKTREETARGET = "$(TARGET)/gh-pages"
-endif 
-
 ifdef BASEURL
 	BASEURLARG=-b $(BASEURL)
 endif 
@@ -27,7 +21,7 @@ serve: public ## serve the website
 	hugo --i18n-warnings server -D
 
 public: ## create a worktree branch in the public directory
-	git worktree add -B gh-pages public $(WORKTREETARGET)
+	git worktree add -B gh-pages public $(TARGET)/gh-pages
 	rm -rf public/*
 
 html: public ## build the website in ./public
@@ -39,7 +33,7 @@ public/.nojekyll: html
 clean: ## remove the build artifacts, mainly the "public" directory
 	rm -rf public
 	git worktree prune
-	rm -rf .git/wortrees/public
+	rm -rf .git/worktrees/public
 
 deploy: public/.nojekyll ## push the built site to the gh-pages of this repo
 	cd public && git add --all && git commit -m"Publishing to gh-pages"
