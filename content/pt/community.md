@@ -1,65 +1,65 @@
 ---
-title: Community
+title: Comunidade
 sidebar: false
 ---
 
-NumPy is a community-driven open source project developed by a very diverse group of [contributors](/gallery/team.html). The NumPy leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the [NumPy Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
+NumPy é um projeto de código aberto impulsionado pela comunidade desenvolvido por um grupo muito diversificado de [contribuidores](/gallery/team.html). A liderança da NumPy assumiu um forte compromisso de criar uma comunidade aberta, inclusiva e positiva. Por favor, leia [o Código de Conduta NumPy](/code-of-conduct) para orientações sobre como interagir com os outros de uma forma que faça a comunidade prosperar.
 
-We offer several communication channels to learn, share your knowledge and connect with others within the NumPy community.
-
-
-## Participate online
-
-The following are ways to engage directly with the NumPy project and community. _Please note that we encourage users and community members to support each other for usage questions - see [Get Help](/gethelp)._
+Oferecemos vários canais de comunicação para aprender, compartilhar seu conhecimento e se conectar com outros dentro da comunidade NumPy.
 
 
-### [NumPy mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion)
+## Participar online
 
-This list is the main forum for longer-form discussions, like adding new features to NumPy, making changes to the NumPy Roadmap, and all kinds of project-wide decision making. Announcements about NumPy, such as for releases, developer meetings, sprints or conference talks are also made on this list.
+Abaixo, listamos algumas formas de se envolver diretamente com o projeto e a comunidade do NumPy. _Por favor, note que encorajamos os usuários e membros da comunidade a apoiarem-se uns aos outros para perguntas sobre utilização - veja [Obter Ajuda](/gethelp)._
 
-On this list please use bottom posting, reply to the list (rather than to another sender), and don't reply to digests. A searchable archive of this list is available [here](http://numpy-discussion.10968.n7.nabble.com/).
+
+### [Lista de discussões NumPy](https://mail.python.org/mailman/listinfo/numpy-discussion)
+
+Esta lista é o principal fórum para discussões mais longas, como adicionar novos recursos ao NumPy, fazer alterações no roadmap do NumPy e em todos os tipos de tomada de decisão para todo o projeto. Anúncios sobre o NumPy, como novas versões, reuniões de desenvolvedores, sprints ou palestras de conferência também são feitas nesta lista.
+
+Nesta lista, por favor, use *bottom posting*, responda à lista (em vez de a outro remetente), e não responda aos *digests*. Um arquivo pesquisável desta lista está disponível [aqui](http://numpy-discussion.10968.n7.nabble.com/).
 
 ***
 
-### [GitHub issue tracker](https://github.com/numpy/numpy/issues)
+### [Página de issues do GitHub](https://github.com/numpy/numpy/issues)
 
-- For bug reports (e.g. "`np.arange(3).shape` returns `(5,)`, when it should return `(3,)`");
-- documentation issues (e.g. "I found this section unclear");
-- and feature requests (e.g. "I would like to have a new interpolation method in `np.percentile`").
+- Para relatórios de bugs (por exemplo, "`np.arange(3).shape` retorna `(5,)`, quando deveria retornar `(3,)`");
+- problemas de documentação (ex. "Eu achei esta seção confusa");
+- e pedidos de recursos (por exemplo, "Eu gostaria de ter um novo método de interpolação em `np.percentile`").
 
-_Please note that GitHub is not the right place to report a security vulnerability. If you think you have found a security vulnerability in NumPy, please report it [here](https://tidelift.com/docs/security)._
+_Por favor, note que o GitHub não é o lugar certo para relatar uma vulnerabilidade de segurança. Se você acha que encontrou uma vulnerabilidade de segurança no NumPy, relate-a [aqui](https://tidelift.com/docs/security)._
 
 ***
 
 ### [Slack](https://numpy-team.slack.com)
 
-A real-time chat room to ask questions about _contributing_ to NumPy. This is a private space, specifically meant for people who are hesitant to bring up their questions or ideas on a large public mailing list or GitHub. Please see [here](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) for more details and how to get an invite.
+Uma sala de bate-papo em tempo real para fazer perguntas sobre _contribuir_ para o NumPy. Este é um fórum privado, especificamente para pessoas hesitantes em levantar suas perguntas ou idéias em uma grande lista de e-mails públicos ou no GitHub. Por favor, clique [aqui](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) para mais detalhes e como obter um convite.
 
 
-## Study Groups and Meetups
+## Grupos de Estudo e Meetups
 
-If you would like to find a local meetup or study group to learn more about NumPy and the wider ecosystem of Python packages for data science and scientific computing, we recommend exploring the [PyData meetups](https://www.meetup.com/pro/pydata/) (150+ meetups, 100,000+ members).
+Se você gostaria de encontrar um encontro ou grupo de estudo local para aprender mais sobre o NumPy e o ecossistema mais amplo de pacotes Python para ciência de dados e computação científica, recomendamos explorar os [meetups PyData](https://www.meetup.com/pro/pydata/) (mais de 150 encontros, mais de 100.000 membros).
 
-NumPy also organizes in-person sprints for its team and interested contributors occasionally. These are typically planned several months in advance and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and [Twitter](https://twitter.com/numpy_team).
+O NumPy também organiza sprints presenciais para sua equipe e colaboradores interessados ocasionalmente. Estes eventos são normalmente planejados com vários meses de antecedência e serão anunciados na [lista de discussão](https://mail.python.org/mailman/listinfo/numpy-discussion) e no [Twitter](https://twitter.com/numpy_team).
 
 
-## Conferences
+## Conferências
 
-The NumPy project doesn't organize its own conferences. The conferences that have traditionally been most popular with NumPy maintainers, contributors and users are the SciPy and PyData conference series:
+O projeto NumPy não organiza suas próprias conferências. As conferências que tradicionalmente têm sido mais populares com mantenedores, colaboradores e usuários são as conferências SciPy e PyData:
 
 - [SciPy US](https://conference.scipy.org)
 - [EuroSciPy](https://www.euroscipy.org)
 - [SciPy Latin America](https://www.scipyla.org)
 - [SciPy India](https://scipy.in)
 - [SciPy Japan](https://conference.scipy.org)
-- [PyData conferences](https://pydata.org/event-schedule/) (15-20 events a year spread over many countries)
+- [conferências PyData](https://pydata.org/event-schedule/) (15-20 eventos por ano espalhados por muitos países)
 
-Many of these conferences include tutorial days that cover NumPy and/or sprints where you can learn how to contribute to NumPy or related open source projects.
+Muitas dessas conferências incluem dias de tutorial sobre o NumPy e/ou sprints onde você pode aprender como contribuir com o NumPy ou projetos de código aberto relacionados.
 
 
-## Join the NumPy community
+## Junte-se à comunidade NumPy
 
-To thrive, the NumPy project needs your expertise and enthusiasm. Not a coder? Not a problem! There are many ways to contribute to NumPy.
+Para prosperar, o projeto NumPy precisa de sua experiência e entusiasmo. Não é uma pessoa programadora? Sem problemas! Existem muitas maneiras de contribuir com o NumPy.
 
-If you are interested in becoming a NumPy contributor (yay!) we recommend checking out our [Contribute](/contribute) page.
+Se você está interessado em se tornar um contribuidor do NumPy (oba!) recomendamos que você confira nossa página sobre [Contribuições](/contribute).
 
