@@ -78,6 +78,6 @@ O comitê responderá a qualquer relatório o mais rapidamente possível e, no m
 
 ### Notas
 
-We are thankful to the groups behind the following documents, from which we drew content and inspiration:
+Somos gratos aos grupos responsáveis pelos documentos abaixo, dos quais retiramos conteúdo e inspiração:
 
 - [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/reference/dev/conduct/code_of_conduct.html)
