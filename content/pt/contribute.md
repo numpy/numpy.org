@@ -1,36 +1,36 @@
 - - -
-title: Contribute to NumPy sidebar: false
+title: Contribua com o NumPy sidebar: false
 - - -
 
-Thanks so much for being interested in contributing to NumPy! You are our kind of Pythonista!
+Muito obrigado por estar interessado em contribuir para o NumPy! Você é o nosso tipo de Pythonista!
 
-To thrive, the NumPy project needs your expertise and enthusiasm. Not a coder? Not a problem! There are many ways to contribute to NumPy:
+Para prosperar, o projeto NumPy precisa de sua experiência e entusiasmo. Não é uma pessoa programadora? Sem problemas! Existem muitas maneiras de contribuir com o NumPy:
 
-- Writing code
-- Reviewing pull requests from other developers
-- Developing educational materials (tutorials, presentations, etc.)
-- Improving the documentation
-- Triaging bugs and issues on GitHub
-- Maintaining and enhancing our website
-- Graphic design
-- Translating website content into other languages
-- Answering questions on Gitter, Stack Overflow, and Reddit
-- Participating in discussions on the mailing list
-- Serving as a community coordinator
-- Grant writing and other fundraising activities
+- Escrevendo código
+- Revisando pull requests de outros desenvolvedores
+- Desenvolvendo materiais educacionais (tutoriais, apresentações, etc.)
+- Melhorando a documentação
+- Fazendo triagem de bugs e issues no GitHub
+- Mantendo e melhorando nosso site
+- Design gráfico
+- Traduzindo o conteúdo do site para outros idiomas
+- Respondendo a perguntas no Gitter, Stack Overflow e Reddit
+- Participando de discussões na lista de discussão
+- Servindo como coordenador da comunidade
+- Escrevendo pedidos de bolsas e outras atividades de financiamento
 
-Our community aspires to treat everyone equally, and to value all contributions. Please take note of our [Code of Conduct](/code-of-conduct). Try to follow this code in spirit as much as in letter, to foster an open and welcoming environment that enriches the entire open source ecosystem.
+Nossa comunidade deseja tratar todos da mesma forma e valorizar todas as contribuições. Por favor, observe o nosso [Código de Conduta](/code-of-conduct). Tente seguir este código em espírito, tanto quanto literalmente, para promover um ambiente aberto e acolhedor que enriquecerá todo o ecossistema de código aberto.
 
-## How to get started
+## Como começar
 
-For the process of contributing to the NumPy code base, we have an extensive [developer guide](https://numpy.org/devdocs/dev/index.html#development-process-summary). We don't work with assigning issues - if you see something of interest, please dive in!
+Para o processo de contribuição para a base de código do NumPy, temos um [guia para desenvolvedores](https://numpy.org/devdocs/dev/index.html#development-process-summary). Não trabalhamos com a atribuição de issues - se você vê algo interessante, por favor, vá em frente!
 
-For other activities, we will attempt to give some guidance on this page. If you're unsure of where to get started or how your skills matter to the project, _please reach out to us_! You can ask on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) or [GitHub](http://github.com/numpy/numpy) (open an issue or comment on a relevant issue). These are our preferred communication channels (open source is open by nature!), however, if you prefer to discuss in private first, please reach out to our community coordinators at `numpy-team@googlegroups.com` or on [Slack](https://numpy-team.slack.com) (send an email to `numpy-team@googlegroups.com` for an invite the first time).
+Para outras atividades, tentaremos fornecer algumas orientações nesta página. Se você não tem certeza de onde começar ou como suas habilidades podem ser importantes para o projeto, _entre em contato conosco_! Você pode perguntar na [lista de e-mails](https://mail.python.org/mailman/listinfo/numpy-discussion) ou [no GitHub](http://github.com/numpy/numpy) (abrir uma issue ou comentar em uma issue relevante). Estes são os nossos canais de comunicação preferidos (projetos de código aberto são abertos por natureza!), no entanto, se você preferir discutir em privado, entre em contato com os coordenadores da comunidade em `numpy-team@googlegroups.com` ou no [Slack](https://numpy-team.slack.com) (envie um e-mail para `numpy-team@googlegroups.com` para obter um convite antes de entrar).
 
-We also have a bi-weekly _community call_, the details of which are announced on the mailing list. You are very welcome to join this call!
+Também temos uma _reunião da comunidade_ uma vez a cada duas semanas, cujos detalhes são anunciados na lista de discussão. Convidamos você a participar desta chamada se quiser!
 
 
-### Developing educational materials
+### Desenvolvimento de materiais educacionais
 
 NumPy's [User Guide](https://numpy.org/devdocs) can use a lot of help - restructuring the contents, clearer (and more) tutorials, how-to's on many topics, and focused explanations of concepts. We are in the process of writing up a comprehensive plan for a documentation overhaul, but already have concrete ideas. Or you may have your own. Either way, please reach out to us to discuss.
 
