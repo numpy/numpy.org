@@ -63,20 +63,20 @@ Se o seu relatório envolve algum membro da comissão, ou se você sentir que ex
 
 _Esta seção resume os pontos mais importantes, mais detalhes podem ser encontrados em_ [Código de Conduta do NumPy - Como dar seguimento a um relatório](/report-handling-manual).
 
-Vamos investigar e responder a todas as queixas. The NumPy Code of Conduct Committee and the NumPy Steering Committee (if involved) will protect the identity of the reporter, and treat the content of complaints as confidential (unless the reporter agrees otherwise).
+Vamos investigar e responder a todas as queixas. O Comitê do Código de Conduta do NumPy e o Comitê Diretor do NumPy (se envolvido) protegerão a identidade do relatante, e tratarão o conteúdo das reclamações como confidencial (a menos que o relatante aceite o contrário).
 
-In case of severe and obvious breaches, e.g. personal threat or violent, sexist or racist language, we will immediately disconnect the originator from NumPy communication channels; please see the manual for details.
+Em caso de violações graves e óbvias, por exemplo, ameaça pessoal ou linguagem violenta, sexista ou racista, vamos imediatamente desconectar a pessoa relatada dos canais de comunicação do NumPy; por favor, consulte o manual para mais detalhes.
 
-In cases not involving clear severe and obvious breaches of this Code of Conduct the process for acting on any received Code of Conduct violation report will be:
+Em casos que não envolvam claras violações graves e óbvias deste Código de Conduta, o processo de ação referente a qualquer relato de violação do Código de Conduta recebido será:
 
-1. acknowledge report is received,
-2. reasonable discussion/feedback,
-3. mediation (if feedback didn’t help, and only if both reporter and reportee agree to this),
-4. enforcement via transparent decision (see [Resolutions](/report-handling-manual#resolutions)) by the Code of Conduct Committee.
+1. acusar o recebimento do relato,
+2. discussão/feedback razoável,
+3. mediação (se o feedback não ajudar e somente se ambos o relatante e relatado concordarem com isso),
+4. aplicação de solução via decisão transparente (veja as [Resoluções](/report-handling-manual#resolutions)) do Comitê do Código de Conduta.
 
-The Committee will respond to any report as soon as possible, and at most within 72 hours.
+O comitê responderá a qualquer relatório o mais rapidamente possível e, no máximo, no prazo de 72 horas.
 
-### Endnotes
+### Notas
 
 We are thankful to the groups behind the following documents, from which we drew content and inspiration:
 
