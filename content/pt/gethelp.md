@@ -1,34 +1,34 @@
 ---
-title: Get Help
+title: Obter ajuda
 sidebar: false
 ---
 
-**User questions:** The best way to get help is to post your question to a site like [StackOverflow](http://stackoverflow.com/questions/tagged/numpy), with thousands of users available to answer.  Smaller alternatives include [IRC](https://webchat.freenode.net/?channels=%23numpy), [Gitter](https://gitter.im/numpy/numpy), and [Reddit](https://www.reddit.com/r/Numpy/). We wish we could keep an eye on these sites, or answer questions directly, but the volume is just a little overwhelming!
+**Perguntas de usuários:** A melhor maneira de obter ajuda é postar sua pergunta em um site como [StackOverflow](http://stackoverflow.com/questions/tagged/numpy), com milhares de usuários disponíveis para responder.  Outras alternativas incluem [IRC](https://webchat.freenode.net/?channels=%23numpy), [Gitter](https://gitter.im/numpy/numpy)e [Reddit](https://www.reddit.com/r/Numpy/). Gostaríamos de poder ficar de olho nestes sites, ou responder perguntas diretamente, mas o volume é imenso!
 
-**Development issues:** For NumPy development-related matters (e.g. bug reports), please see [Community](/community).
+**Issues sobre desenvolvimento:** Para assuntos relacionados ao desenvolvimento do NumPy (por exemplo, relatórios de bugs), veja a [Comunidade](/community).
 
 
 
 ### [StackOverflow](http://stackoverflow.com/questions/tagged/numpy)
 
-A forum for asking usage questions, e.g. "How do I do X in NumPy?”. Please [use the `#numpy` tag](https://stackoverflow.com/help/tagging)
+Um fórum para fazer perguntas sobre a utilização da biblioteca, por exemplo: "Como faço X no NumPy?". Por favor [use a tag `#numpy`](https://stackoverflow.com/help/tagging)
 
 ***
 
 ### [Reddit](https://www.reddit.com/r/Numpy/)
 
-Another forum for usage questions.
+Outro fórum para perguntas de utilização.
 
 ***
 
 ### [Gitter](https://gitter.im/numpy/numpy)
 
-A real-time chat room where users and community members help each other.
+Uma sala de bate-papo em tempo real onde usuários e membros da comunidade se ajudam uns aos outros.
 
 ***
 
 ### [IRC](https://webchat.freenode.net/?channels=%23numpy)
 
-Another real-time chat room where users and community members help each other.
+Outra sala de bate-papo em tempo real onde usuários e membros da comunidade se ajudam uns aos outros.
 
 ***
