@@ -32,14 +32,14 @@ Também temos uma _reunião da comunidade_ uma vez a cada duas semanas, cujos de
 
 ### Desenvolvimento de materiais educacionais
 
-NumPy's [User Guide](https://numpy.org/devdocs) can use a lot of help - restructuring the contents, clearer (and more) tutorials, how-to's on many topics, and focused explanations of concepts. We are in the process of writing up a comprehensive plan for a documentation overhaul, but already have concrete ideas. Or you may have your own. Either way, please reach out to us to discuss.
+O [Guia do Usuário](https://numpy.org/devdocs) da NumPy pode ser melhorado - tendo seu conteúdo reestruturado, tutoriais mais claros (e em maior número), *how-to's* em vários tópicos e explicações mais focadas de conceitos. Estamos trabalhando para escrever um plano abrangente para uma revisão de documentação, mas já temos ideias concretas. Ou você pode ter as suas. De qualquer forma, por favor, fale conosco para discutirmos.
 
-Besides content for the user guide, we are also interested in other types of educational materials - worked examples, notebooks, videos, and more. We'd love to grow our team focused on high-level documentation and educational materials.
+Além do conteúdo para o guia do usuário, também estamos interessados em outros tipos de materiais educativos - exemplos trabalhados, notebooks, vídeos, e muito mais. Nós adoraríamos que a nossa equipe focada em materiais educacionais e documentação de alto nível aumentasse.
 
 
-### Issue triaging
+### Triagem de Issues
 
-The [NumPy issue tracker](https://github.com/numpy/numpy/issues) has a _lot_ of open issues. It's not easy to figure out which of those are still valid, should be prioritized, or would make good issues for new contributors. Help with triaging is always welcome. Useful activities include checking if older bugs are still present in the NumPy master branch, finding duplicate issues, adding good self-contained reproducers to issues, labeling issues correctly (this requires triage rights - please ask us), linking related issues, and more. Please just dive in and start commenting!
+O [*issue tracker* do NumPy](https://github.com/numpy/numpy/issues) tem um monte de __ de issues abertas. Não é fácil descobrir quais dessas ainda são válidas, devem ter prioridade ou podem ser boas issues para pessoas que querem ser colaboradoras. A ajuda com triagem é sempre bem-vinda. Atividades úteis incluem verificar se bugs mais antigos ainda estão presentes no branch principal do NumPy, encontrando issues duplicadas, adicionando bons exemplos autocontidos para reproduzir esses bugs, rotulando questões corretamente (isso requer direitos de triagem - por favor, entre em contato), criando links a issues relacionadas e muito mais. Please just dive in and start commenting!
 
 
 ### Website development
