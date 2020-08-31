@@ -9,13 +9,13 @@ Para um histórico aprofundado dos marcos no desenvolvimento do NumPy e bibliote
 
 Se você quiser obter uma cópia das bibliotecas Numeric e Numarray, siga os links abaixo:
 
-[Download Page for *Numeric*](https://sourceforge.net/projects/numpy/files/Old%20Numeric/)*
+[Página de download para *Numeric*](https://sourceforge.net/projects/numpy/files/Old%20Numeric/)*
 
-[Download Page for *Numarray*](https://sourceforge.net/projects/numpy/files/Old%20Numarray/)*
+[Página de download para *Numarray*](https://sourceforge.net/projects/numpy/files/Old%20Numarray/)*
 
-*<sub>Please note that these older array packages are no longer maintained, and users are strongly advised to use NumPy for any array-related purposes or refactor any pre-existing code to utilize the NumPy library.</sub>
+*<sub>Por favor, note que esses pacotes antigos não são mais mantidos, e os usuários são fortemente aconselhados a usar o NumPy para quaisquer propósitos relacionados a arrays e matrizes ou refatorar qualquer código pré-existente para utilizar a biblioteca do NumPy.</sub>
 
-### Historic Documentation
+### Documentação Histórica
 
-[Download *`Numeric'* Manual](static/numeric-manual.pdf)
+[Baixe o manual do *`Numeric'*](static/numeric-manual.pdf)
 
