@@ -17,7 +17,7 @@ conda install numpy
 
 ## pip
 
-If you use `pip`, you can install it with:
+Se você usar o `pip`, você pode instalar a NumPy com:
 
 ```bash
 pip install numpy
@@ -25,94 +25,94 @@ pip install numpy
 
 <a name="python-numpy-install-guide"></a>
 
-# Python and NumPy installation guide
+# Guia de instalação do Python e da NumPy
 
-Installing and managing packages in Python is complicated, there are a number of alternative solutions for most tasks. This guide tries to give the reader a sense of the best (or most popular) solutions, and give clear recommendations. It focuses on users of Python, NumPy, and the PyData (or numerical computing) stack on common operating systems and hardware.
+Instalar e gerenciar pacotes no Python pode ser complicado. Há várias soluções alternativas para a maioria das tarefas. Este guia tenta dar ao leitor um resumo das melhores soluções (ou mais populares) e dar recomendações claras. Ele se concentra em usuários do Python, NumPy e do PyData (ou cálculo numérico) em sistemas operacionais e hardware comuns.
 
-## Recommendations
+## Recomendações
 
-We'll start with recommendations based on the user's experience level and operating system of interest. If you're in between "beginning" and "advanced", please go with "beginning" if you want to keep things simple, and with "advanced" if you want to work according to best practices that go a longer way in the future.
+Vamos começar com recomendações baseadas no nível de experiência do usuário e no sistema operacional de interesse. Se você estiver entre "iniciante" e "avançado", por favor, escolha "iniciante" se você quiser manter as coisas simples, e "avançado" se você quiser trabalhar de acordo com as melhores práticas que te ajudarão a ir mais longe no futuro.
 
-### Beginning users
+### Usuários iniciantes
 
-On all of Windows, macOS, and Linux:
+Em Windows, macOS e Linux:
 
-- Install [Anaconda](https://www.anaconda.com/distribution/) (it installs all packages you need and all other tools mentioned below).
-- For writing and executing code, use notebooks in [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) for exploratory and interactive computing, and [Spyder](https://www.spyder-ide.org/) or [Visual Studio Code](https://code.visualstudio.com/) for writing scripts and packages.
-- Use [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) to manage your packages and start JupyterLab, Spyder, or Visual Studio Code.
+- Instale o [Anaconda](https://www.anaconda.com/distribution/) (instala todos os pacotes que você precisa e todas as outras ferramentas mencionadas abaixo).
+- Para escrever e executar código, use notebooks no [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) para a computação exploratória e interativa, e o [Spyder](https://www.spyder-ide.org/) ou [Visual Studio Code](https://code.visualstudio.com/) para escrever scripts e pacotes.
+- Use o [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) para gerenciar seus pacotes e iniciar o JupyterLab, Spyder ou o Visual Studio Code.
 
 
-### Advanced users
+### Usuários avançados
 
-#### Windows or macOS
+#### Windows ou macOS
 
-- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-- Keep the `base` conda environment minimal, and use one or more [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) to install the package you need for the task or project you're working on.
-- Unless you're fine with only the packages in the `defaults` channel, make `conda-forge` your default channel via [setting the channel priority](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge).
+- Instale o [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+- Mantenha o ambiente conda `base` mínimo, e use um ou mais [ambientes conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) para instalar o pacote que você precisa para a tarefa ou projeto em que você está trabalhando.
+- A menos que você esteja satisfeito com apenas os pacotes no canal `defaults`, faça do `conda-forge` seu canal padrão [definindo a prioridade do canal](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge).
 
 
 #### Linux
 
-If you're fine with slightly outdated packages and prefer stability over being able to use the latest versions of libraries:
-- Use your OS package manager for as much as possible (Python itself, NumPy, and other libraries).
-- Install packages not provided by your package manager with `pip install somepackage --user`.
+Se você não tiver problemas em ter pacotes um pouco desatualizados e preferir estabilidade ao invés de ser capaz de usar as últimas versões das bibliotecas:
+- Use seu gerenciador de pacotes do SO o máximo possível (para o Python, NumPy e outras bibliotecas).
+- Instale pacotes não fornecidos pelo seu gerenciador de pacotes com `pip install somepackage --user`.
 
-If you use a GPU:
-- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-- Keep the `base` conda environment minimal, and use one or more [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) to install the package you need for the task or project you're working on.
-- Use the `defaults` conda channel (`conda-forge` doesn't have good support for GPU packages yet).
+Se você usa uma GPU:
+- Instale o [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+- Mantenha o ambiente conda `base` mínimo, e use um ou mais [ambientes conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) para instalar o pacote que você precisa para a tarefa ou projeto em que você está trabalhando.
+- Use o canal conda`defaults` (`conda-forge` não tem bom suporte para pacotes de GPU).
 
-Otherwise:
-- Install [Miniforge](https://github.com/conda-forge/miniforge).
-- Keep the `base` conda environment minimal, and use one or more [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) to install the package you need for the task or project you're working on.
-
-
-#### Alternative if you prefer pip/PyPI
-
-For users who know, from personal preference or reading about the main differences between conda and pip below, they prefer a pip/PyPI-based solution, we recommend:
-- Install Python from, for example, [python.org](https://www.python.org/downloads/), [Homebrew](https://brew.sh/), or your Linux package manager.
-- Use [Poetry](https://python-poetry.org/) as the most well-maintained tool that provides a dependency resolver and environment management capabilities in a similar fashion as conda does.
+Caso contrário:
+- Instale o [Miniforge](https://github.com/conda-forge/miniforge).
+- Mantenha o ambiente conda `base` mínimo, e use um ou mais [ambientes conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) para instalar o pacote que você precisa para a tarefa ou projeto em que você está trabalhando.
 
 
-## Python package management
+#### Alternativa se você preferir pip/PyPI
 
-Managing packages is a challenging problem, and, as a result, there are lots of tools. For web and general purpose Python development there's a whole [host of tools](https://packaging.python.org/guides/tool-recommendations/) complementary with pip. For high-performance computing (HPC), [Spack](https://github.com/spack/spack) is worth considering. For most NumPy users though, [conda](https://conda.io/en/latest/) and [pip](https://pip.pypa.io/en/stable/) are the two most popular tools.
+Para usuários que preferem uma solução baseada em pip/PyPI, por preferência pessoal ou leitura sobre as principais diferenças entre a conda e o pip, nós recomendamos:
+- Instale o Python a partir de, por exemplo, [python.org](https://www.python.org/downloads/), [Homebrew](https://brew.sh/), ou seu gerenciador de pacotes Linux.
+- Use [Poetry](https://python-poetry.org/) como a ferramenta mais bem mantida que fornece um resolvedor de dependências e recursos de gerenciamento de ambiente de forma semelhante ao que o conda faz.
+
+
+## Gerenciamento de pacotes Python
+
+Gerenciar pacotes é um problema desafiador e, como resultado, há muitas ferramentas. Para o desenvolvimento web e de propósito geral em Python, há uma [série de ferramentas](https://packaging.python.org/guides/tool-recommendations/) complementares com pip. Para computação de alto desempenho (HPC), vale a pena considerar o [Spack](https://github.com/spack/spack). Para a maioria dos usuários NumPy, porém, [conda](https://conda.io/en/latest/) e [pip](https://pip.pypa.io/en/stable/) são as duas ferramentas mais populares.
 
 
 ### Pip & conda
 
-The two main tools that install Python packages are `pip` and `conda`. Their functionality partially overlaps (e.g. both can install `numpy`), however, they can also work together. We'll discuss the major differences between pip and conda here - this is important to understand if you want to manage packages effectively.
+As duas principais ferramentas que instalam pacotes do Python são `pip` e `conda`. Algumas de suas funcionalidades são redundantes (por exemplo, ambos podem instalar o `numpy`). No entanto, elas também podem trabalhar juntas. Vamos discutir as principais diferenças entre o pip e o conda aqui - é importante entender isso se você deseja gerenciar pacotes de forma efetiva.
 
-The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. This also means conda can install non-Python libraries and tools you may need (e.g. compilers, CUDA, HDF5), while pip can't.
+A primeira diferença é que "conda" é multilinguagens e pode instalar o Python, enquanto o pip é instalado em um determinado Python em seu sistema e instala outros pacotes apenas para essa mesma instalação de Python. Isto também significa que o conda pode instalar bibliotecas e ferramentas não-Python das quais você pode precisar (por exemplo, compiladores, CUDA, HDF5), enquanto pip não pode.
 
-The second difference is that pip installs from the Python Packaging Index (PyPI), while conda installs from its own channels (typically "defaults" or "conda-forge"). PyPI is the largest collection of packages by far, however, all popular packages are available for conda as well.
+A segunda diferença é que o pip instala do Índice de Pacotes Python (Python Packaging Index - PyPI), enquanto o conda instala de seus próprios canais (tipicamente "defaults" ou "conda-forge"). PyPI é a maior coleção de pacotes, no entanto, todos os pacotes populares também estão disponíveis para conda.
 
-The third difference is that pip does not have a _dependency resolver_ (this is expected to change in the near future), while conda does. For simple cases (e.g. you just want NumPy, SciPy, Matplotlib, Pandas, Scikit-learn, and a few other packages) that doesn't matter, however, for complicated cases conda can be expected to do a better job keeping everything working well together. The flip side of that coin is that installing with pip is typically a _lot_ faster than installing with conda.
+A terceira diferença é que o pip não tem um _resolvedor de dependências_ (isso pode mudar no futuro), ao contrário do conda. Para casos simples (por exemplo, você só quer NumPy, SciPy, Matplotlib, Pandas, Scikit-learn, e alguns outros pacotes) isso não importa. No entanto, para casos complicados, é de se esperar que o conda faça um trabalho melhor, mantendo tudo funcionando bem ao mesmo tempo. A única desvantagem é que usar pip é tipicamente _bem_ mais rápido que instalar usando o conda.
 
-The fourth difference is that conda is an integrated solution for managing packages, dependencies and environments, while with pip you may need another tool (there are many!) for dealing with environments or complex dependencies.
+A quarta diferença é que o conda é uma solução integrada para gerenciar pacotes, dependências e ambientes, enquanto com o pip você pode precisar de outra ferramenta (há muitas!) para lidar com ambientes ou dependências complexas.
 
 
-### Reproducible installs
+### Instalações reprodutíveis
 
-Making the installation of all the packages your analysis, library or application depends on reproducible is important. Sounds obvious, yet most users don't think about doing this (at least until it's too late).
+Manter a instalação de todos os pacotes de que sua análise, biblioteca ou aplicação depende reprodutível é importante. Parece óbvio, mas a maioria dos usuários não pensam em fazer isso (pelo menos até que seja tarde demais).
 
-The problem with Python packaging is that sooner or later, something will break. It's not often this bad,
+O problema com o gerenciamento de pacotes no Python é que mais cedo ou mais tarde, alguma coisa irá quebrar. Não é frequentemente tão ruim assim,
 
 {{< figure src="/images/content_images/python_environment_xkcd.png" alt="Python Environment XKCD image" link="https://xkcd.com/1987/" width="400" attr="_XKCD illustration - Python environment degradation_">}}
 
-but it does degrade over time. Hence, it's important to be able to delete and reconstruct the set of packages you have installed.
+mas com o tempo pode ficar ruim. Por isso, é importante poder excluir e reconstruir o conjunto de pacotes que você instalou.
 
-Best practice is to use a different environment per project you're working on, and record at least the names (and preferably versions) of the packages you directly depend on in a static metadata file. Each packaging tool has its own metadata format for this:
-- Conda: [conda environments and environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
-- Pip: [virtual environments](https://docs.python.org/3/tutorial/venv.html) and [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
-- Poetry: [virtual environments and pyproject.toml](https://python-poetry.org/docs/basic-usage/)
+A melhor prática é usar um ambiente diferente por projeto no qual você está trabalhando, e registrar pelo menos os nomes (e de preferência versões) dos pacotes dos quais você depende diretamente em um arquivo de metadados estático. Cada ferramenta de empacotamento tem seu próprio formato de metadados para isto:
+- Conda: [ambientes conda e arquivos environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
+- Pip: [ambientes virtuais](https://docs.python.org/3/tutorial/venv.html) e [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
+- Poetry: [ambientes virtuais e pyproject.toml](https://python-poetry.org/docs/basic-usage/)
 
-Sometimes it's too much overhead to create and switch between new environments for small tasks. In that case we encourage you to not install too many packages into your base environment, and keep track of versions of packages some other way (e.g. comments inside files, or printing `numpy.__version__` after importing it in notebooks).
+Às vezes, é desnecessário criar e alternar entre novos ambientes para tarefas pequenas. Nesse caso, recomendamos que você não instale muitos pacotes em seu ambiente base, e acompanhe as versões dos pacotes de alguma outra maneira (por exemplo, comentários dentro de arquivos, ou imprimir `numpy.__version__` após importá-lo nos notebooks).
 
 
-## NumPy packages & accelerated linear algebra libraries
+## Pacotes NumPy & bibliotecas de álgebra linear aceleradas
 
-NumPy doesn't depend on any other Python packages, however, it does depend on an accelerated linear algebra library - typically [Intel MKL](https://software.intel.com/en-us/mkl) or [OpenBLAS](https://www.openblas.net/). Users don't have to worry about installing those, but it may still be important to understand how the packaging is done and how it affects performance and behavior users see.
+A NumPy não depende de quaisquer outros pacotes Python, no entanto, depende de uma biblioteca de álgebra linear acelerada - tipicamente [Intel MKL](https://software.intel.com/en-us/mkl) ou [OpenBLAS](https://www.openblas.net/). Users don't have to worry about installing those, but it may still be important to understand how the packaging is done and how it affects performance and behavior users see.
 
 The NumPy wheels on PyPI, which is what pip installs, are built with OpenBLAS. The OpenBLAS libraries are shipped within the wheels itself. This makes those wheels larger, and if a user installs (for example) SciPy as well, they will now have two copies of OpenBLAS on disk.
 
