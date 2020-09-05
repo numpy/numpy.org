@@ -112,15 +112,15 @@ A melhor prática é usar um ambiente diferente por projeto no qual você está 
 
 ## Pacotes NumPy & bibliotecas de álgebra linear aceleradas
 
-A NumPy não depende de quaisquer outros pacotes Python, no entanto, depende de uma biblioteca de álgebra linear acelerada - tipicamente [Intel MKL](https://software.intel.com/en-us/mkl) ou [OpenBLAS](https://www.openblas.net/). Users don't have to worry about installing those, but it may still be important to understand how the packaging is done and how it affects performance and behavior users see.
+A NumPy não depende de quaisquer outros pacotes Python, no entanto, depende de uma biblioteca de álgebra linear acelerada - tipicamente [Intel MKL](https://software.intel.com/en-us/mkl) ou [OpenBLAS](https://www.openblas.net/). Os usuários não precisam se preocupar em instalar estas bibliotecas, mas ainda pode ser importante entender como o empacotamento é feito e como isso afeta o desempenho e comportamento que os usuários vêem.
 
-The NumPy wheels on PyPI, which is what pip installs, are built with OpenBLAS. The OpenBLAS libraries are shipped within the wheels itself. This makes those wheels larger, and if a user installs (for example) SciPy as well, they will now have two copies of OpenBLAS on disk.
+As wheels da NumPy no PyPI, que é o que o pip instala, são compiladas com OpenBLAS. As bibliotecas da OpenBLAS são empacotadas dentro da wheel. Isso faz com que a wheel fique maior, e se um usário também instalar (por exemplo) a SciPy, terá agora duas cópias da OpenBLAS no disco.
 
-In the conda defaults channel, NumPy is built against Intel MKL. MKL is a separate package that will be installed in the users' environment when they install NumPy. That MKL package is a lot larger than OpenBLAS, several hundred MB. MKL is typically a little faster and more robust than OpenBLAS.
+No canal defaults do conda, a NumPy é compilada com a Intel MKL. MKL é um pacote separado que será instalado no ambiente do usuário quando instalar a NumPy. Esse pacote MKL é muito maior que a OpenBLAS, várias centenas de MB. A MKL é normalmente um pouco mais rápida e mais robusta do que a OpenBLAS.
 
-In the conda-forge channel, NumPy is built against a dummy "BLAS" package. When a user installs NumPy from conda-forge, that BLAS package then gets installed together with the actual library - this defaults to OpenBLAS, but it can also be MKL (from the defaults channel), or even [BLIS](https://github.com/flame/blis) or reference BLAS.
+No canal do conda-Forge, a NumPy é compilada com um pacote "BLAS" fictício. Quando um usuário instala a NumPy do conda-forge, esse pacote BLAS então é instalado juntamente com a biblioteca real - o padrão é OpenBLAS, mas também pode ser MKL (do canal defaults), ou até mesmo [BLIS](https://github.com/flame/blis) ou BLAS.
 
-Besides install sizes, performance and robustness, there are two more things to consider:
-- Intel MKL is not open source. For normal use this is not a problem, but if a user needs to redistribute an application built with NumPy, this could be an issue.
-- Both MKL and OpenBLAS will use multi-threading for function calls like `np.dot`, with the number of threads being determined by both a build-time option and an environment variable. Often all CPU cores will be used. This is sometimes unexpected for users; NumPy itself doesn't auto-parallelize any function calls. It can also be harmful for performance, for example when using another level of parallelization manually or with, e.g. Dask or scikit-learn functionality.
+Além do tamanho instalado, desempenho e robustez, há mais duas coisas a se considerar:
+- Intel MKL não é de código aberto. Para uso normal isto não é um problema, mas se um usuário precisa redistribuir uma aplicação construída com a NumPy, isso pode ser um problema.
+- Tanto MKL quanto OpenBLAS usarão multi-threading para chamadas de função como `np.dot`, com o número de threads sendo determinado tanto por uma opção no momento da compilação quanto por uma variável de ambiente. Muitas vezes, todos os núcleos de CPU serão usados. Isto é, às vezes, inesperado para usuários; a NumPy em si não paraleliza automaticamente nenhuma chamada de função. Isso também pode ser prejudicial para o desempenho, se outro nível de paralelização for usado manualmente ou com funcionalidade do Dask ou da scikit-learn, por exemplo.
 
