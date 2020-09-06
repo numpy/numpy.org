@@ -6,14 +6,14 @@ sidebar: false
 
 ### A primeira pesquisa NumPy está aqui!
 
-_Jul 2, 2020_ -- Esta pesquisa tem como objetivo guiar e definir prioridades para tomada de decisões sobre o desenvolvimento do NumPy como software e como comunidade. A pesquisa está disponível em mais 8 idiomas além do inglês: Bangla, Hindi, Japonês, Mandarim, Português, Russo, Espanhol e Francês.
+_2 de Julho de 2020_ -- Esta pesquisa tem como objetivo guiar e definir prioridades para tomada de decisões sobre o desenvolvimento do NumPy como software e como comunidade. A pesquisa está disponível em mais 8 idiomas além do inglês: Bangla, Hindi, Japonês, Mandarim, Português, Russo, Espanhol e Francês.
 
 Ajude-nos a melhorar o NumPy respondendo à pesquisa [aqui](https://umdsurvey.umd.edu/jfe/form/SV_8bJrXjbhXf7saAl).
 
 
 ### O NumPy tem um novo logo!
 
-_Jun 24, 2020_ -- NumPy agora tem um novo logo:
+_24 de Junho de 2020_ -- NumPy agora tem um novo logo:
 
 <img src="/images/logos/numpy_logo.svg" alt="NumPy logo" title="The new NumPy logo" width=300>
 
@@ -22,17 +22,17 @@ O logo é uma versão moderna do antigo, com um design mais limpo. Obrigado Isab
 
 ### NumPy versão 1.19.0
 
-_Jun 20, 2020_ -- NumPy 1.19.0 está disponível. Esta é a primeira versão sem suporte ao Python 2, portanto foi uma "versão de limpeza". A versão mínima de Python suportada agora é Python 3.6. Uma característica nova importante é que a infraestrutura de geração de números aleatórios que foi introduzida na NumPy 1.17.0 agora está acessível a partir do Cython.
+_20 de Junho de 2020_ -- NumPy 1.19.0 está disponível. Esta é a primeira versão sem suporte ao Python 2, portanto foi uma "versão de limpeza". A versão mínima de Python suportada agora é Python 3.6. Uma característica nova importante é que a infraestrutura de geração de números aleatórios que foi introduzida na NumPy 1.17.0 agora está acessível a partir do Cython.
 
 
 ### Aceitação no programa Season of Docs
 
-_11 de maio de 2020_ -- O NumPy foi aceito como uma das organizações mentoras do programa Google Season of Docs. Estamos animados com a oportunidade de trabalhar com um *technical writer* para melhorar a documentação do NumPy mais uma vez! For more details, please see [the official Season of Docs site](https://developers.google.com/season-of-docs/) and our [ideas page](https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas).
+_11 de maio de 2020_ -- O NumPy foi aceito como uma das organizações mentoras do programa Google Season of Docs. Estamos animados com a oportunidade de trabalhar com um *technical writer* para melhorar a documentação do NumPy mais uma vez! Para mais detalhes, consulte [o site oficial do programa Season of Docs](https://developers.google.com/season-of-docs/) e nossa [página de ideias](https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas).
 
 
-### NumPy 1.18.0 release
+### NumPy versão 1.18.0
 
-_Dec 22, 2019_ -- NumPy 1.18.0 is now available. After the major changes in 1.17.0, this is a consolidation release. It is the last minor release that will support Python 3.5. Highlights of the release includes the addition of basic infrastructure for linking with 64-bit BLAS and LAPACK libraries, and a new C-API for `numpy.random`.
+_22 de Dezembro de 2019_ -- NumPy 1.18.0 está disponível. Após as principais mudanças em 1.17.0, esta é uma versão de consolidação. Esta é a última versão menor que irá suportar Python 3.5. Highlights of the release includes the addition of basic infrastructure for linking with 64-bit BLAS and LAPACK libraries, and a new C-API for `numpy.random`.
 
 Please see the [release notes](https://github.com/numpy/numpy/releases/tag/v1.18.0) for more details.
 
