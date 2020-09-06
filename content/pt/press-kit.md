@@ -1,8 +1,8 @@
 ---
-title: Press kit
+title: Kit de imprensa
 sidebar: false
 ---
 
-We would like to make it easy for you to include the NumPy project identity in your next academic paper, course materials, or presentation.
+Gostaríamos de facilitar a inclusão da identidade do projeto NumPy em seu próximo documento acadêmico, materiais educacionais ou apresentação.
 
-You will find several high-resolution versions of the NumPy logo [here](https://github.com/numpy/numpy/tree/master/branding/logo). Note that by using the numpy.org resources, you accept the [NumPy Code of Conduct](/code-of-conduct).
+Você encontrará várias versões de alta resolução do logo do NumPy [aqui](https://github.com/numpy/numpy/tree/master/branding/logo). Note que usando os recursos numpy.org, você aceita o [Código de Conduta do NumPy](/code-of-conduct).
