@@ -1,81 +1,81 @@
 ---
-title: NumPy Code of Conduct - How to follow up on a report
+title: Código de Conduta NumPy - Como dar seguimento a um relatório
 sidebar: false
 ---
 
-This is the manual followed by NumPy’s Code of Conduct Committee. It’s used when we respond to an issue to make sure we’re consistent and fair.
+Este é o manual seguido pelo Comitê do Código de Conduta do NumPy. É usado quando respondemos a um incidente para nos certificarmos de que somos pessoas consistentes e justas.
 
-Enforcing the [Code of Conduct](/code-of-conduct) impacts our community today and for the future. It’s an action that we do not take lightly. When reviewing enforcement measures, the Code of Conduct Committee will keep the following values and guidelines in mind:
+Garantir que o [Código de Conduta](/code-of-conduct) seja respeitado afeta nossa comunidade hoje e no futuro. É uma ação que levamos muito a sério. Ao analisar medidas de aplicação do Código de Conduta, o Comitê terá em mente os seguintes valores e orientações:
 
-* Act in a personal manner rather than impersonal. The Committee can engage the parties to understand the situation while respecting the privacy and any necessary confidentiality of reporters. However, sometimes it is necessary to communicate with one or more individuals directly: the Committee’s goal is to improve the health of our community rather than only produce a formal decision.
-* Emphasize empathy for individuals rather than judging behavior, avoiding binary labels of “good” and “bad/evil”. Overt, clear-cut aggression and harassment exist, and we will address them firmly. But many scenarios that can prove challenging to resolve are those where normal disagreements devolve into unhelpful or harmful behavior from multiple parties. Understanding the full context and finding a path that re-engages all is hard, but ultimately the most productive for our community.
-* We understand that email is a difficult medium and can be isolating. Receiving criticism over email, without personal contact, can be particularly painful. This makes it especially important to keep an atmosphere of open-minded respect for the views of others. It also means that we must be transparent in our actions, and that we will do everything in our power to make sure that all our members are treated fairly and with sympathy.
-* Discrimination can be subtle and it can be unconscious. It can show itself as unfairness and hostility in otherwise ordinary interactions. We know that this does occur, and we will take care to look out for it. We would very much like to hear from you if you feel you have been treated unfairly, and we will use these procedures to make sure that your complaint is heard and addressed.
-* Help increase engagement in good discussion practice: try to identify where discussion may have broken down, and provide actionable information, pointers, and resources that can lead to positive change on these points.
-* Be mindful of the needs of new members: provide them with explicit support and consideration, with the aim of increasing participation from underrepresented groups in particular.
-* Individuals come from different cultural backgrounds and native languages. Try to identify any honest misunderstandings caused by a non-native speaker and help them understand the issue and what they can change to avoid causing offence. Complex discussion in a foreign language can be very intimidating, and we want to grow our diversity also across nationalities and cultures.
-
-
-## Mediation
-
-Voluntary informal mediation is a tool at our disposal. In contexts such as when two or more parties have all escalated to the point of inappropriate behavior (something sadly common in human conflict), it may be useful to facilitate a mediation process. This is only an example: the Committee can consider mediation in any case, mindful that the process is meant to be strictly voluntary and no party can be pressured to participate. If the Committee suggests mediation, it should:
-
-* Find a candidate who can serve as a mediator.
-* Obtain the agreement of the reporter(s). The reporter(s) have complete freedom to decline the mediation idea or to propose an alternate mediator.
-* Obtain the agreement of the reported person(s).
-* Settle on the mediator: while parties can propose a different mediator than the suggested candidate, only if a common agreement is reached on all terms can the process move forward.
-* Establish a timeline for mediation to complete, ideally within two weeks.
-
-The mediator will engage with all the parties and seek a resolution that is satisfactory to all. Upon completion, the mediator will provide a report (vetted by all parties to the process) to the Committee, with recommendations on further steps. The Committee will then evaluate these results (whether a satisfactory resolution was achieved or not) and decide on any additional action deemed necessary.
+* Agir de forma pessoal e não impessoal. O Comitê pode levar as partes a compreender a situação, respeitando simultaneamente a privacidade e a necessária confidencialidade das pessoas relatantes. No entanto, por vezes, é necessário comunicar diretamente com um ou mais indivíduos: o objetivo do Comitê é melhorar a saúde da nossa comunidade, em vez de produzir apenas uma decisão formal.
+* Enfatizar empatia pelos indivíduos ao invés de julgar o comportamento, evitando rótulos binários de "bom" e "mau". Existem atos de agressão e assédio claros e visíveis, e vamos abordá-los com firmeza. Mas muitos cenários que podem ser desafiadores são aqueles em que as discordâncias normais se transformam em comportamento desnecessário ou prejudicial de várias partes. Compreender o contexto completo e encontrar um caminho que traga um entendimento entre as partes é difícil, mas, em última análise, é o resultado mais produtivo para a nossa comunidade.
+* Compreendemos que o e-mail é um meio difícil e que pode causar uma sensação de isolamento. Receber críticas por e-mail, sem contato pessoal, pode ser particularmente doloroso. Isto faz com que seja especialmente importante manter um clima de respeito aberto pelas opiniões dos outros. Significa também que temos de ser transparentes nas nossas ações, e que faremos tudo o que estiver ao nosso alcance para garantir que todos os nossos membros sejam tratados de forma justa e com simpatia.
+* A discriminação pode ser sutil e pode ser inconsciente. Pode revelar-se em tratamentos injustos e hostis em interações que normalmente seriam ordinárias. Sabemos que isso acontece, e teremos o cuidado de ter isso em mente. Gostaríamos muito de ouvir se você acha que foi tratado injustamente, e usaremos esses procedimentos para garantir que a sua reclamação seja ouvida e abordada.
+* Ajudar a aumentar o envolvimento em uma boa prática de discussão: tentar identificar onde a discussão pode ter falhado, e fornecer informações úteis, indicadores e recursos que podem levar a mudanças positivas nestes pontos.
+* Estar ciente das necessidades de novos membros: fornecer-lhes apoio e consideração explícitos, com o objetivo de aumentar a participação de grupos sub-representados, em particular.
+* As pessoas vêm de meios culturais e linguísticos diferentes. Tentar identificar quaisquer mal-entendidos honestos causados por falantes não-nativos e ajudá-los a entender a questão e o que pode ser modificado para evitar causar ofensa. Uma discussão complexa numa língua estrangeira pode ser muito intimidante, e queremos aumentar a nossa diversidade também entre nacionalidades e culturas.
 
 
-## How the Committee will respond to reports
+## Mediação
 
-When the Committee (or a Committee member) receives a report, they will first determine whether the report is about a clear and severe breach (as defined below). If so, immediate action needs to be taken in addition to the regular report handling process.
+A mediação informal voluntária é um instrumento à nossa disposição. Em contextos em que duas ou mais partes escalaram ao ponto de demonstrarem comportamento inapropriado (algo tristemente comum no conflito humano), poderá ser útil facilitar um processo de mediação. Isto é apenas um exemplo: em todo caso, o Comitê pode considerar a mediação, tendo em conta que o processo se destina a ser estritamente voluntário e que nenhuma das partes pode ser pressionada a participar. Se o Comitê sugerir mediação, deve:
 
+* Encontrar uma pessoa candidata que possa servir de mediadora.
+* Obter o acordo da(s) pessoa(s) relatante(s). A(s) pessoa(s) relatante(s) têm total liberdade para recusar a ideia de mediação ou propor um mediador alternativo.
+* Obter o acordo da(s) pessoa(s) relatada(s).
+* Estabelecer uma pessoa mediadora: enquanto as partes podem propor um mediador diferente da pessoa sugerida, o processo só poderá avançar se for alcançado um acordo comum em todos os termos.
+* Estabelecer um cronograma para a mediação ser concluida, idealmente dentro de duas semanas.
 
-## Clear and severe breach actions
-
-We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We will deal quickly with clear and severe breaches like personal threats, violent, sexist or racist language.
-
-When a member of the Code of Conduct Committee becomes aware of a clear and severe breach, they will do the following:
-
-* Immediately disconnect the originator from all NumPy communication channels.
-* Reply to the reporter that their report has been received and that the originator has been disconnected.
-* In every case, the moderator should make a reasonable effort to contact the originator, and tell them specifically how their language or actions qualify as a “clear and severe breach”. The moderator should also say that, if the originator believes this is unfair or they want to be reconnected to NumPy, they have the right to ask for a review, as below, by the Code of Conduct Committee. The moderator should copy this explanation to the Code of Conduct Committee.
-* The Code of Conduct Committee will formally review and sign off on all cases where this mechanism has been applied to make sure it is not being used to control ordinary heated disagreement.
+A pessoa mediadora entrará em contato com todas as partes e procurará uma resolução satisfatória para todos. Após a sua conclusão, a pessoa mediadora apresentará ao Comitê um relatório (examinado por todas as partes envolvidas no processo) com recomendações sobre outras medidas. O Comitê avaliará então esses resultados (em caso de resolução satisfatória ou não) e decidirá sobre quaisquer medidas adicionais consideradas necessárias.
 
 
-## Report handling
+## Como o Comitê responderá aos relatórios
 
-When a report is sent to the Committee they will immediately reply to the reporter to confirm receipt. This reply must be sent within 72 hours, and the group should strive to respond much quicker than that.
-
-If a report doesn’t contain enough information, the Committee will obtain all relevant data before acting. The Committee is empowered to act on the Steering Council’s behalf in contacting any individuals involved to get a more complete account of events.
-
-The Committee will then review the incident and determine, to the best of their ability:
-
-* What happened.
-* Whether this event constitutes a Code of Conduct violation.
-* Who are the responsible party(ies).
-* Whether this is an ongoing situation, and there is a threat to anyone’s physical safety.
-
-This information will be collected in writing, and whenever possible the group’s deliberations will be recorded and retained (i.e. chat transcripts, email discussions, recorded conference calls, summaries of voice conversations, etc).
-
-It is important to retain an archive of all activities of this Committee to ensure consistency in behavior and provide institutional memory for the project. To assist in this, the default channel of discussion for this Committee will be a private mailing list accessible to current and future members of the Committee as well as members of the Steering Council upon justified request. If the Committee finds the need to use off-list communications (e.g. phone calls for early/rapid response), it should in all cases summarize these back to the list so there’s a good record of the process.
-
-The Code of Conduct Committee should aim to have a resolution agreed upon within two weeks. In the event that a resolution can’t be determined in that time, the Committee will respond to the reporter(s) with an update and projected timeline for resolution.
+Quando o Comitê (ou um membro do Comitê) recebe um relatório, será inicialmente determinado se o relatório é sobre uma violação clara e severa (como definido abaixo). Em caso afirmativo, medidas imediatas serão tomadas para além do processo regular de tratamento dos relatórios.
 
 
-## Resolutions
+## Ações claras e severas de violação
 
-The Committee must agree on a resolution by consensus. If the group cannot reach consensus and deadlocks for over a week, the group will turn the matter over to the Steering Council for resolution.
+Sabemos que é mais comum do que o desejado que a comunicação na Internet comece ou se transforme em abusos óbvios e flagrantes. Trataremos rapidamente de violações claras e severas como ameaças pessoais, linguagem violenta, sexista ou racista.
 
-Possible responses may include:
+Quando um membro do Comitê do Código de Conduta tomar conhecimento de uma violação clara e grave, fará o seguinte:
 
-* Taking no further action:
-  -   if we determine no violations have occurred;
-  -   if the matter has been resolved publicly while the Committee was considering responses.
-* Coordinating voluntary mediation: if all involved parties agree, the Committee may facilitate a mediation process as detailed above.
+* Desligará imediatamente a pessoa originadora de todos os canais de comunicação do NumPy.
+* Responderá à pessoa relatante para informá-la que seu relatório foi recebido e que a pessoa originadora foi desligada.
+* Em todos os casos, a pessoa moderadora deve fazer um esforço razoável para entrar em contato com a pessoa originadora, e dizer-lhes especificamente como sua linguagem ou ações se qualificam como uma "violação clara e severa". A pessoa moderadora deve também dizer que, se a pessoa originadora considerar que isso é injusto ou quiser ser reconectada ao NumPy, tem o direito de solicitar uma revisão, de acordo com as disposições do Comitê do Código de Conduta. A pessoa moderadora deve copiar esta explicação para o Comitê do Código de Conduta.
+* O Comitê do Código de Conduta procederá formalmente à análise e decisão em todos os casos em que este mecanismo tenha sido aplicado para garantir que não seja utilizado para controlar desentendimentos acalorados comuns.
+
+
+## Tratamento de relatórios
+
+Quando um relatório é enviado ao Comitê, ele responderá imediatamente à pessoa relatante para confirmar a sua recepção. Esta resposta deve ser enviada no prazo de 72 horas, e o grupo deve esforçar-se por responder muito mais rapidamente.
+
+Se um relatório não contiver informações suficientes, o Comitê obterá todos os dados relevantes antes de agir. O Comitê tem poderes para agir em nome do Conselho Diretor ao contactar quaisquer pessoas envolvidas para obter um relato mais completo dos acontecimentos.
+
+O Comitê analisará então o incidente e determinará, do melhor jeito possível:
+
+* O que aconteceu.
+* Se este evento constitui ou não uma violação do Código de Conduta.
+* Quem são as pessoas responsáveis.
+* Se se trata de uma situação contínua, e existe uma ameaça para a segurança física de alguém.
+
+Estas informações serão recolhidas por escrito e, sempre que possível, as deliberações do grupo serão gravadas e armazenadas (por exemplo, transcrições de conversas, discussões por e-mail, chamadas gravadas de videoconferência, resumos de conversas por voz, etc).
+
+É importante manter um arquivo de todas as atividades deste Comitê para garantir a consistência no comportamento e fornecer memória institucional ao projeto. Para ajudar com isto, o canal de discussão padrão para este Comitê será uma lista de e-mail privada, acessível a atuais e futuros membros do Comitê, bem como aos membros do Conselho Diretor a pedido justificado. Se o Comitê sentir a necessidade de usar comunicações fora da lista (por exemplo, chamadas por telefone para resposta precoce/rápida), deve em todos os casos resumi-las de volta para a lista, para que haja um bom registro do processo.
+
+O Comitê do Código de Conduta deve ter por objetivo chegar a um acordo sobre uma resolução no prazo de duas semanas. Caso uma resolução não possa ser determinada nesse período, o Comitê responderá à(s) pessoa(s) relatante(s) com uma atualização e cronograma previsto para a resolução.
+
+
+## Resoluções
+
+O Comitê tem de chegar a um acordo sobre uma resolução por consenso. Se o grupo não conseguir chegar a um consenso e permanece bloqueado durante mais de uma semana, o grupo encaminhará o assunto para o Conselho Diretor para resolução.
+
+Possíveis respostas podem incluir:
+
+* Não tomar nenhuma outra ação:
+  -   se determinarmos que não ocorreram violações;
+  -   se a questão tiver sido resolvida publicamente enquanto o Comitê estava considerando uma resposta.
+* Coordenação de mediação voluntária: se todas as partes envolvidas concordarem, o Comitê poderá facilitar um processo de mediação, conforme detalhado acima.
 * Remind publicly, and point out that some behavior/actions/language have been judged inappropriate and why in the current context, or can but hurtful to some people, requesting the community to self-adjust.
 * A private reprimand from the Committee to the individual(s) involved. In this case, the group chair will deliver that reprimand to the individual(s) over email, cc’ing the group.
 * A public reprimand. In this case, the Committee chair will deliver that reprimand in the same venue that the violation occurred, within the limits of practicality. E.g., the original mailing list for an email violation, but for a chat room discussion where the person/context may be gone, they can be reached by other means. The group may choose to publish this message elsewhere for documentation purposes.
