@@ -26,13 +26,13 @@ O [telescópio Event Horizon(EHT)](https://eventhorizontelescope.org), é um con
 
 * **Escala**
 
-    The observations from Event Horizon Telescope (EHT) present challenges for existing data processing tools, arising from the rapid atmospheric phase fluctuations, wide recording bandwidth, and highly heterogeneous array.
+    As observações do telescópio Event Horizon (EHT) apresentam desafios para ferramentas de processamento de dados existentes, decorrentes das flutuações de fase atmosférica rápidas, largura de banda ampla para gravação e um conjunto de telescópios altamente heterogêneos.
 
-* **Calibration and Correlation**
+* **Calibração e Correlação**
 
-    Besides scheduling all of these coordinated observations of EHT, reducing the overall volume and complexity of data to aid analysis is a really hard problem to solve. To put things in perspective, EHT generates over 350 Terabytes worth of observed data per day, stored on high-performance helium filled hard drives.
+    Além de agendar todas essas observações coordenadas do EHT, reduzir o volume geral e a complexidade dos dados para ajudar na análise é um problema difícil de ser resolvido. Para colocar as coisas em perspectiva, o EHT gera mais de 350 Terabytes de dados observados por dia, armazenados em discos rígidos de alto desempenho preenchidos com hélio.
 
-* **Image Reconstruction**
+* **Reconstrução de imagem**
 
     How are the calibrated data processed to produce an image of something that has never before been directly imaged? How can scientists be confident that the image is correct? These are some of the challenges overcome in the analysis to produce the image.
 
