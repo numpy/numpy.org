@@ -1,9 +1,9 @@
 ---
-title: Terms of Use
+title: Termos de Uso
 sidebar: false
 ---
 
-*Last updated January 4, 2020*
+*Última atualização em 4 de janeiro de 2020*
 
 
 ## AGREEMENT TO TERMS
