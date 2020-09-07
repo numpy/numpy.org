@@ -44,17 +44,17 @@ Ainda que coletar, selecionar e processar os dados das instalações do EHT repr
 
 {{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**O papel do NumPy na criação da imagem do Buraco Negro**" >}}
 
-Por exemplo, o pacote Python [`eht-imaging`][ehtim] fornece ferramentas para simular e realizar reconstrução de imagem nos dados do VLBI. NumPy is at the core of array data processing used in this package as illustrated by the partial software dependency chart below.
+Por exemplo, o pacote Python [`eht-imaging`][ehtim] fornece ferramentas para simular e realizar reconstrução de imagem nos dados do VLBI. O NumPy está no núcleo do processamento de dados em arranjos usado neste pacote, como ilustrado pelo gráfico parcial de dependências de software abaixo.
 
-{{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Software dependency chart of ehtim package highlighting NumPy**" >}}
+{{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Diagrama de dependência de software do pacote ehtim evidenciando o NumPy**" >}}
 
-Besides NumPy, many other packages such as [SciPy](https://www.scipy.org) and [Pandas](https://pandas.io) were used in the data processing pipeline for imaging the black hole. The standard astronomical file formats and time/coordinate transformations were handled by [Astropy][astropy] while [Matplotlib][mpl] was used in visualizing data throughout the analysis pipeline, including the generation of the final image of the black hole.
+Além do NumPy, muitos outros pacotes como [SciPy](https://www.scipy.org) e [Pandas](https://pandas.io) foram usados na *pipeline* de processamento de dados para criar a imagem do buraco negro. Os formatos de arquivos astronômicos padrão e transformações de tempo/coordenadas foram tratados pelo [Astropy][astropy] enquanto a[Matplotlib][mpl] foi usada na visualização de dados em todas as etapas de análise, incluindo a geração da imagem final do buraco negro.
 
-## Summary
+## Resumo
 
-NumPy enabled researchers to manipulate large numerical datasets through its efficient and generic n-dimensional array, providing a foundation for the software used to generate the first ever image of a black hole. The direct imaging of a black hole is a major scientific accomplishment providing stunning, visual evidence of Einstein’s general theory of relativity. This achievement encompasses not only technological breakthroughs, but international-scale scientific collaboration between over 200 scientists and some of the world's best radio observatories. They used innovative algorithms and data processing techniques improving upon existing astronomical models to help unfold some of the mysteries of the universe.
+O NumPy permitiu que pesquisadores manipulassem grandes conjuntos de dados numéricos através de sua estrutura de dados n-dimensional eficiente e genérica, fornecendo uma fundação para o software usado para gerar a primeira imagem de um buraco negro. A criação de uma imagem direta de um buraco negro é uma importante realização científica fornecendo evidências visuais impressionantes da relatividade geral de Einstein. Esta conquista abrange não apenas avanços tecnológicos, mas colaboração científica em escala internacional entre mais de 200 cientistas e alguns dos melhores observatórios de rádio do mundo. Eles usaram algoritmos e técnicas de processamento de dados inovadores que aperfeiçoaram os modelos astronômicos existentes para ajudar a descobrir alguns dos mistérios do universo.
 
-{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**Key NumPy Capabilities utilized**" >}}
+{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**Funcionalidades-chave do NumPy utilizadas**" >}}
 
 [resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
 
