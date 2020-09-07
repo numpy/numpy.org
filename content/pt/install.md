@@ -1,15 +1,15 @@
 ---
-title: Instalando a NumPy
+title: Instalando o NumPy
 sidebar: false
 ---
 
-O único pré-requisito para a NumPy é o próprio Python. Se você ainda não tem o Python e quer começar do jeito mais simples, nós recomendamos que você use a [Distribuição Anaconda](https://www.anaconda.com/distribution) - inclui Python, NumPy e outros pacotes comumente usados para computação científica e ciência de dados.
+O único pré-requisito para o NumPy é o próprio Python. Se você ainda não tem o Python e quer começar do jeito mais simples, nós recomendamos que você use a [Distribuição Anaconda](https://www.anaconda.com/distribution) - inclui Python, NumPy e outros pacotes comumente usados para computação científica e ciência de dados.
 
-A NumPy pode ser instalada com `conda`, com `pip`, ou com um gerenciador de pacotes no macOS e Linux. Para obter instruções mais detalhadas, consulte nosso [guia de instalação do Python e da NumPy](#python-numpy-install-guide) abaixo.
+O NumPy pode ser instalado com `conda`, com `pip`, ou com um gerenciador de pacotes no macOS e Linux. Para obter instruções mais detalhadas, consulte nosso [guia de instalação do Python e do NumPy](#python-numpy-install-guide) abaixo.
 
 ## conda
 
-Se você usar o `conda`, você pode instalar a NumPy com:
+Se você usa o `conda`, você pode instalar o NumPy com:
 
 ```bash
 conda install numpy
@@ -17,7 +17,7 @@ conda install numpy
 
 ## pip
 
-Se você usar o `pip`, você pode instalar a NumPy com:
+Se você usa o `pip`, você pode instalar o NumPy com:
 
 ```bash
 pip install numpy
@@ -25,9 +25,9 @@ pip install numpy
 
 <a name="python-numpy-install-guide"></a>
 
-# Guia de instalação do Python e da NumPy
+# Guia de instalação do Python e do NumPy
 
-Instalar e gerenciar pacotes no Python pode ser complicado. Há várias soluções alternativas para a maioria das tarefas. Este guia tenta dar ao leitor um resumo das melhores soluções (ou mais populares) e dar recomendações claras. Ele se concentra em usuários do Python, NumPy e do PyData (ou cálculo numérico) em sistemas operacionais e hardware comuns.
+Instalar e gerenciar pacotes no Python pode ser complicado. Há várias soluções alternativas para a maioria das tarefas. Este guia tenta dar ao leitor um resumo das melhores (ou mais populares) soluções e dar recomendações claras. Ele se concentra em usuários do Python, NumPy e do PyData (ou cálculo numérico) em sistemas operacionais e hardware comuns.
 
 ## Recomendações
 
@@ -55,7 +55,7 @@ Em Windows, macOS e Linux:
 
 Se você não tiver problemas em ter pacotes um pouco desatualizados e preferir estabilidade ao invés de ser capaz de usar as últimas versões das bibliotecas:
 - Use seu gerenciador de pacotes do SO o máximo possível (para o Python, NumPy e outras bibliotecas).
-- Instale pacotes não fornecidos pelo seu gerenciador de pacotes com `pip install somepackage --user`.
+- Instale pacotes não fornecidos pelo seu gerenciador de pacotes com `pip install algumpacote --user`.
 
 Se você usa uma GPU:
 - Instale o [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
