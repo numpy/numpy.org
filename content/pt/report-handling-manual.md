@@ -76,20 +76,20 @@ Possíveis respostas podem incluir:
   -   se determinarmos que não ocorreram violações;
   -   se a questão tiver sido resolvida publicamente enquanto o Comitê estava considerando uma resposta.
 * Coordenação de mediação voluntária: se todas as partes envolvidas concordarem, o Comitê poderá facilitar um processo de mediação, conforme detalhado acima.
-* Remind publicly, and point out that some behavior/actions/language have been judged inappropriate and why in the current context, or can but hurtful to some people, requesting the community to self-adjust.
-* A private reprimand from the Committee to the individual(s) involved. In this case, the group chair will deliver that reprimand to the individual(s) over email, cc’ing the group.
-* A public reprimand. In this case, the Committee chair will deliver that reprimand in the same venue that the violation occurred, within the limits of practicality. E.g., the original mailing list for an email violation, but for a chat room discussion where the person/context may be gone, they can be reached by other means. The group may choose to publish this message elsewhere for documentation purposes.
-* A request for a public or private apology, assuming the reporter agrees to this idea: they may at their discretion refuse further contact with the violator. The chair will deliver this request. The Committee may, if it chooses, attach “strings” to this request: for example, the group may ask a violator to apologize in order to retain one’s membership on a mailing list.
-* A “mutually agreed upon hiatus” where the Committee asks the individual to temporarily refrain from community participation. If the individual chooses not to take a temporary break voluntarily, the Committee may issue a “mandatory cooling off period”.
-* A permanent or temporary ban from some or all NumPy spaces (mailing lists, gitter.im, etc.). The group will maintain records of all such bans so that they may be reviewed in the future or otherwise maintained.
+* Salientar publicamente que alguns comportamentos, ações ou linguagem foram julgados inapropriados ou podem ser considerados danosos para algumas pessoas, explicando por que no contexto atual e solicitando que a comunidade se auto-ajuste.
+* Uma advertência privada do Comitê para a(s) pessoa(s) envolvida(s). Neste caso, a pessoa presidente do Comitê irá entregar essa advertência à(s) pessoa(s) por e-mail, em cópia (CC) ao grupo.
+* Uma advertência pública. Neste caso, a pessoa presidente do Comitê vai apresentar essa advertência no mesmo fórum em que ocorreu a violação, dentro dos limites da viabilidade. Exemplo: a lista original para uma violação de e-mail, mas para uma discussão em sala de bate-papo onde a pessoa/contexto pode sumir, isto pode ser feito por outros meios. O grupo pode optar por publicar esta mensagem em outro local para fins de documentação.
+* Um pedido de desculpas públicas ou privadas, supondo que a(s) pessoa(s) relatante(s) concorde(m) com esta ideia: a(s) pessoa(s) pode(m), a seu critério, recusar contatos adicionais com a pessoa relatada. A Presidência dará seguimento a este pedido. O Comitê, se escolher, pode anexar condições adicionais a este pedido inicial: por exemplo, o grupo pode pedir à pessoa relatada que se desculpe para que tenha o direito de manter a sua adesão a uma lista de e-mails.
+* Um “acordo mútuo de trégua” onde o Comitê solicita à pessoa que se abstenha temporariamente da participação na comunidade. Se a pessoa optar por não fazer uma pausa temporária voluntariamente, o Comitê pode aplicar um “período de afastamento obrigatório”.
+* Um banimento permanente ou temporário de alguns ou todos os espaços do NumPy (listas de e-mails, gitter.im, etc.). O grupo manterá registro de todas essas proibições, para que elas possam ser revistas no futuro ou mantidas.
 
-Once a resolution is agreed upon, but before it is enacted, the Committee will contact the original reporter and any other affected parties and explain the proposed resolution. The Committee will ask if this resolution is acceptable, and must note feedback for the record.
+Uma vez aprovada uma resolução, mas antes de ser efetivamente aplicada, o Comitê entrará em contato com a pessoa relatante original e quaisquer outras partes afetadas e explicará a resolução proposta. O Comitê perguntará se esta resolução é aceitável e terá de tomar nota da sua resposta para registro futuro.
 
-Finally, the Committee will make a report to the NumPy Steering Council (as well as the NumPy core team in the event of an ongoing resolution, such as a ban).
+Finalmente, o Comitê apresentará um relatório ao Conselho Diretor do NumPy (bem como ao time *core* do NumPy no caso de uma resolução em curso, como um banimento).
 
-The Committee will never publicly discuss the issue; all public statements will be made by the chair of the Code of Conduct Committee or the NumPy Steering Council.
+O Comitê nunca discutirá publicamente a questão; todas as declarações públicas serão feitas pela pessoa presidente do Comitê do Código de Conduta ou pelo Conselho Diretor do NumPy.
 
 
-## Conflicts of Interest
+## Conflitos de Interesse
 
-In the event of any conflict of interest, a Committee member must immediately notify the other members, and recuse themselves if necessary.
+Em caso de conflito de interesses, um membro do Comitê deve notificar imediatamente os outros membros e abdicar de sua participação no processo caso seja necessário.
