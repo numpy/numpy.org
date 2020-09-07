@@ -1,30 +1,30 @@
 ---
-title: "Case Study: The First Image of a Black Hole"
+title: "Estudo de Caso: A Primeira Imagem de um Buraco Negro"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Black Hole M87**" alt="black hole image" attr="*(Image Credits: Event Horizon Telescope Collaboration)*" attrlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
+{{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Black Hole M87**" alt="black hole image" attr="*(Créditos: Event Horizon Telescope Collaboration)*" attrlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
-    <p>Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.</p>
-    <footer align="right">—Katie Bouman, <cite>Assistant Professor, Computing & Mathematical Sciences, Caltech</cite></footer>
+    <p>Criar uma imagem do Buraco Negro M87 é como tentar ver algo que, por definição, é impossível de se ver.</p>
+    <footer align="right">—Katie Bouman, <cite>Professora Assistente, Ciências da Computação e Matemática, Caltech</cite></footer>
 </blockquote>
 
-## About The Event Horizon Telescope
+## Sobre o Telescópio Event Horizon
 
-The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org), is an array of eight ground-based radio telescopes forming a computational telescope the size of the earth, designed to study extreme objects in the universe with unprecedented sensitivity and resolution.  The worldwide network of radio telescopes comprises a virtual telescope based on a technique called very-long-baseline interferometry (VLBI). Using this technique, the EHT is able to achieve an angular resolution of [20 micro-arcseconds][resolution] — enough to read a newspaper in New York from a sidewalk café in Paris!
+O [telescópio Event Horizon(EHT)](https://eventhorizontelescope.org), é um conjunto de oito telescópios em solo formando um telescópio computacional do tamanho da Terra, projetado para estudar objetos extremos no universo com sensibilidade e resolução sem precedentes.  A rede mundial de telescópios de rádio compreende um telescópio virtual baseado em uma técnica chamada "interferometria de base muito longa" (*very-long-baseline interferometry* — VLBI). Usando essa técnica, o EHT é capaz de alcançar uma resolução angular de [20 micro arco-segundos][resolution] — o suficiente para ler um jornal em Nova York de uma cafeteira em Paris!
 
-### Key Goals and Results
+### Principais Objetivos e Resultados
 
-* **A New View of the Universe:** The EHT is an exciting new tool for studying the most extreme objects in the universe. The EHT's groundbreaking image was published 100 years after [Sir Arthur Eddington's experiment][eddington] yielded the first observational evidence in support of Einstein's theory of general relativity.
+* **Uma nova visão do universo:** O EHT é uma ferramenta nova empolgante para estudar os objetos mais extremos no universo. A imagem inovadora do EHT foi publicada 100 anos após [o experimento de Sir Arthur Eddington][eddington] ter produzido as primeiras evidências observacionais apoiando a teoria da relatividade geral de Einstein.
 
-* **Investigating Black Holes:** The EHT's first image focuses on the supermassive black hole at the center of the galaxy Messier 87 (M87), located in the Virgo galaxy cluster. This black hole resides approximately 55 million light-years from Earth and has a mass equal  to 6.5 billion times that of the Sun. It has been a subject of astronomical study for [over a 100 years](https://www.jpl.nasa.gov/news/news.php?feature=7385). Black holes have long been the object of intense study but the EHT provides the first direct visual evidence of these extreme phenomena.
+* **Investigando os Buracos Negros:** A primeira imagem do EHT foca no buraco negro supermassivo no centro da galáxia Messier 87 (M87), localizado no aglomerado de Virgem. Esse buraco negro reside a aproximadamente 55 milhões de anos-luz da Terra e tem uma massa igual a 6,5 bilhões de vezes a do Sol. Tem sido um tema de estudo astronômico há [mais de 100 anos](https://www.jpl.nasa.gov/news/news.php?feature=7385). Buracos negros são objeto de estudo intenso há muito tempo, mas o EHT fornece a primeira evidência visual direta desses fenômenos extremos.
 
-* **Comparing Observations to Theory:** Based on Einstein’s general theory of relativity, scientists expected to see a dark region similar to a shadow, caused by the gravitational bending and capture of light by the event horizon. By studying this shadow scientists could measure the enormous mass of M87’s central supermassive black hole.
+* **Comparando observações com teoria:** Baseado na teoria geral da relatividade de Einstein, cientistas esperavam ver uma região sombria semelhante a uma sombra, causada pela curvatura gravitacional e captura de luz pelo horizonte de eventos. Ao estudar esta sombra cientistas poderiam medir a enorme massa do buraco negro supermassivo central da M87.
 
-### The Challenges
+### Desafios
 
-* **Scale**
+* **Escala**
 
     The observations from Event Horizon Telescope (EHT) present challenges for existing data processing tools, arising from the rapid atmospheric phase fluctuations, wide recording bandwidth, and highly heterogeneous array.
 
