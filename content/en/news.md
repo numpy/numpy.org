@@ -13,7 +13,7 @@ new Python versiontypically takes a few weeks for the packages to appear
 on PyPI and conda forge. In preparation for this event, please make sure to
 - update your `pip` to version 20.1 at least to support `manylinux2010` and
   `manylinux2014`
-- use `--only-binary=numpy` or `--only-binary=:all:` to prevent `pip` from
+- use [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) or `--only-binary=:all:` to prevent `pip` from
   trying to build from source.
 
 
