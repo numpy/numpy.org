@@ -9,7 +9,7 @@ _Sept 14, 2020_ -- Python 3.9 will be released in a few weeks. If you are an
 early adopter of Python versions, you may be dissapointed to find that NumPy
 (and other binary packages like SciPy) will not have binary wheels ready on the
 day of the release. It is a major effort to adapt the build infrastructure to a
-new Python versiontypically takes a few weeks for the packages to appear
+new Python version and it typically takes a few weeks for the packages to appear
 on PyPI and conda forge. In preparation for this event, please make sure to
 - update your `pip` to version 20.1 at least to support `manylinux2010` and
   `manylinux2014`
