@@ -3,6 +3,30 @@ title: News
 sidebar: false
 ---
 
+### Python 3.9 is coming, when will NumPy release binary wheels?
+
+_Sept 14, 2020_ -- Python 3.9 will be released in a few weeks. If you are an
+early adopter of Python versions, you may be dissapointed to find that NumPy
+(and other binary packages like SciPy) will not have binary wheels ready on the
+day of the release. It is a major effort to adapt the build infrastructure to a
+new Python versiontypically takes a few weeks for the packages to appear
+on PyPI and conda forge. In preparation for this event, please make sure to
+- update your `pip` to version 20.1 at least to support `manylinux2010` and
+  `manylinux2014`
+- use `--only-binary=numpy` or `--only-binary=:all:` to prevent `pip` from
+  trying to build from source.
+
+
+### Numpy 1.19.2 release
+
+_Sept 10, 2020_ -- [NumPy
+1.19.2](https://numpy.org/devdocs/release/1.19.2-notes.html) is now available.
+This latest release in the 1.19 series fixes several bugs, prepares for the
+[upcoming Cython 3.x
+release](http://docs.cython.org/en/latest/src/changes.html).  and pins
+setuptools to keep distutils working while upstream modifications are ongoing.
+The aarch64 wheels are built with the latest manylinux2014 release that fixes
+the problem of differing page sizes used by different linux distros.
 
 ### The inaugural NumPy survey is live!
 
