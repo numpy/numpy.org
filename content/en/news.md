@@ -23,7 +23,7 @@ _Sept 10, 2020_ -- [NumPy
 1.19.2](https://numpy.org/devdocs/release/1.19.2-notes.html) is now available.
 This latest release in the 1.19 series fixes several bugs, prepares for the
 [upcoming Cython 3.x
-release](http://docs.cython.org/en/latest/src/changes.html).  and pins
+release](http://docs.cython.org/en/latest/src/changes.html) and pins
 setuptools to keep distutils working while upstream modifications are ongoing.
 The aarch64 wheels are built with the latest manylinux2014 release that fixes
 the problem of differing page sizes used by different linux distros.
