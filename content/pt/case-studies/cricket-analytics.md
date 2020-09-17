@@ -1,16 +1,16 @@
 ---
-title: "Case Study: Cricket Analytics, the game changer!"
+title: "Estudo de Caso: Análise de Cricket, a revolução!"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**IPLT20, the biggest Cricket Festival in India**" alt="Indian Premier League Cricket cup and stadium" attr="*(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
+{{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**IPLT20, o maior festival de Cricket da Índia**" alt="Copa e estádio da Indian Premier League Cricket" attr="*(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
 
 <blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
-    <p>You don't play for the crowd, you play for the country.</p>
-    <footer align="right">—M S Dhoni, <cite>International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL</cite></footer>
+    <p>Você não joga para a torcida, joga para o país.</p>
+    <footer align="right">—M S Dhoni, <cite>Jogador Internacional de Cricket, ex-capitão, Time Indiano, joga pelo Chennai Super Kings na IPL</cite></footer>
 </blockquote>
 
-## About Cricket
+## Sobre Cricket
 
 It would be an understatement to state that Indians love cricket. The game is played in just about every nook and cranny of India, rural or urban, popular with the young and the old alike, connecting billions in India unlike any other sport. Cricket enjoys lots of media attention. There is a significant amount of [money](https://www.statista.com/topics/4543/indian-premier-league-ipl/) and fame at stake. Over the last several years, technology has literally been a game changer. Audiences are spoilt for choice with streaming media, tournaments, affordable access to mobile based live cricket watching, and more.
 
