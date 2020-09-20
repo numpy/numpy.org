@@ -3,6 +3,17 @@ title: News
 sidebar: false
 ---
 
+### First official NumPy paper published in Nature!
+
+_Sep 16, 2020_ -- We are pleased to announce the publication of
+[the first official paper on NumPy](https://www.nature.com/articles/s41586-020-2649-2)
+as a review article in Nature. This comes 14 years after the release of NumPy 1.0.
+The paper covers applications and fundamental concepts of array programming,
+the rich scientific Python ecosystem built on top of NumPy, and the recently added
+array protocols to facilitate interoperability with external array and tensor
+libraries like CuPy, Dask, and JAX.
+
+
 ### Python 3.9 is coming, when will NumPy release binary wheels?
 
 _Sept 14, 2020_ -- Python 3.9 will be released in a few weeks. If you are an
