@@ -114,6 +114,10 @@ Importing the numpy c-extensions failed. This error can happen for
 different reasons, often due to issues with your setup.
 ```
 
+## Building from source
+
+For instructions on building for source package, see
+[Building from source](https://numpy.org/devdocs/user/building.html).
 
 
 ## Python package management
