@@ -116,8 +116,7 @@ different reasons, often due to issues with your setup.
 
 ## Building from source
 
-For instructions on building for source package, see
-[Building from source](https://numpy.org/devdocs/user/building.html).
+See [Building from source](https://numpy.org/devdocs/user/building.html).
 
 
 ## Python package management
