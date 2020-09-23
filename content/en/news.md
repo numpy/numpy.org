@@ -3,6 +3,11 @@ title: News
 sidebar: false
 ---
 
+### Diversity in the NumPy project
+
+_Sep 20, 2020_ -- We wrote a [statement on the state of, and discussion on social media around, diversity and inclusion in the NumPy project](/diversity_sep2020).
+
+
 ### First official NumPy paper published in Nature!
 
 _Sep 16, 2020_ -- We are pleased to announce the publication of
