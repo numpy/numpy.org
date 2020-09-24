@@ -16,7 +16,7 @@ El [ telescopio Horizonte de Sucesos (EHT) ](https://eventhorizontelescope.org),
 
 ### Objetivos clave y resultados
 
-* **A New View of the Universe:** The EHT is an exciting new tool for studying the most extreme objects in the universe. The EHT's groundbreaking image was published 100 years after [Sir Arthur Eddington's experiment][eddington] yielded the first observational evidence in support of Einstein's theory of general relativity.
+* **Una nueva visión del universo** La revolucionaria imagen del EHT fue publicada 100 años después de que el experimento de Sir Arthur Eddington  proporcionara la primera evidencia observacional que respaldaba la teoría de la relatividad de Einstein. The EHT's groundbreaking image was published 100 years after [Sir Arthur Eddington's experiment][eddington] yielded the first observational evidence in support of Einstein's theory of general relativity.
 
 * **Investigating Black Holes:** The EHT's first image focuses on the supermassive black hole at the center of the galaxy Messier 87 (M87), located in the Virgo galaxy cluster. This black hole resides approximately 55 million light-years from Earth and has a mass equal  to 6.5 billion times that of the Sun. It has been a subject of astronomical study for [over a 100 years](https://www.jpl.nasa.gov/news/news.php?feature=7385). Black holes have long been the object of intense study but the EHT provides the first direct visual evidence of these extreme phenomena.
 
