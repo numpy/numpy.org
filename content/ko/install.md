@@ -74,6 +74,22 @@ For users who know, from personal preference or reading about the main differenc
 - Use [Poetry](https://python-poetry.org/) as the most well-maintained tool that provides a dependency resolver and environment management capabilities in a similar fashion as conda does.
 
 
+## Troubleshooting ImportError
+
+If your installation fails with the message below, see [Troubleshooting ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
+
+```
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy c-extensions failed. This error can happen for
+different reasons, often due to issues with your setup.
+```
+
+## Building from source
+
+See [Building from source](https://numpy.org/devdocs/user/building.html).
+
+
 ## Python package management
 
 Managing packages is a challenging problem, and, as a result, there are lots of tools. For web and general purpose Python development there's a whole [host of tools](https://packaging.python.org/guides/tool-recommendations/) complementary with pip. For high-performance computing (HPC), [Spack](https://github.com/spack/spack) is worth considering. For most NumPy users though, [conda](https://conda.io/en/latest/) and [pip](https://pip.pypa.io/en/stable/) are the two most popular tools.
