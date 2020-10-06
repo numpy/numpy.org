@@ -33,11 +33,11 @@ Hoje, existem conjuntos ricos e quase infinitos de estatísticas e informações
 * A análise de dados em tempo real pode ajudar a obtenção de informações mesmo durante o jogo para orientar mudanças nas táticas da equipe e dos negócios associados para benefícios e crescimento econômicos.
 * Além da análise histórica, os modelos preditivos explorados para determinar os possíveis resultados das partidas requerem um conhecimento significativo sobre processamento numérico e ciência de dados, ferramentas de visualização e a possibilidade de incluir observações mais recentes na análise.
 
-{{< figure src="/images/content_images/cs/player-pose-estimator.png" class="fig-center" alt="pose estimator" caption="**Cricket Pose Estimator**" attr="*(Image credit: connect.vin)*" attrlink="https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/" >}}
+{{< figure src="/images/content_images/cs/player-pose-estimator.png" class="fig-center" alt="estimador de postura" caption="**Estimador de Postura de Críquete**" attr="*(Créditos de imagem: connect.vin)*" attrlink="https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/" >}}
 
-### The Challenges
+### Desafios
 
-* **Data Cleaning and preprocessing**
+* **Limpeza e pré-processamento de dados**
 
   IPL has expanded cricket beyond the classic test match format to a much larger scale. The number of matches played every season across various formats has increased and so has the data, the algorithms, newer sports data analysis technologies and simulation models. Cricket data analysis requires field mapping, player tracking, ball tracking, player shot analysis, and several other aspects involved in how the ball is delivered, its angle, spin, velocity, and trajectory. All these factors together have increased the complexity of data cleaning and preprocessing.
 
