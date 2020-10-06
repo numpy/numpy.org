@@ -23,15 +23,15 @@ Hoje, existem conjuntos ricos e quase infinitos de estatísticas e informações
 * média móvel do desempenho em rebatidas,
 * previsão de pontuação,
 * ganho de informações sobre desempenho e condição física de um determinado jogador contra determinado adversário,
-* player contribution to wins and losses for making strategic decisions on team composition
+* contribuições dos jogadores para vitórias e derrotas para a tomada de decisões estratégicas na composição do time
 
-{{< figure src="/images/content_images/cs/cricket-pitch.png" class="csfigcaption" caption="**Cricket Pitch, the focal point in the field**" alt="A cricket pitch with bowler and batsmen" align="middle" attr="*(Image credit: Debarghya Das)*" attrlink="http://debarghyadas.com/files/IPLpaper.pdf" >}}
+{{< figure src="/images/content_images/cs/cricket-pitch.png" class="csfigcaption" caption="**Pitch de críquete, o ponto focal do campo**" alt="Um pitch de críquete com um boleador e batsmen" align="middle" attr="*(Créditos de imagem: Debarghya Das)*" attrlink="http://debarghyadas.com/files/IPLpaper.pdf" >}}
 
-### Key Data Analytics Objectives
+### Objetivos Principais da Análise de Dados
 
-* Sports data analytics are used not only in cricket but many [other sports](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) for improving the overall team performance and maximizing winning chances.
-* Real-time data analytics can help in gaining insights even during the game for changing tactics by the team and by associated businesses for economic benefits and growth.
-* Besides historical analysis, predictive models are harnessed to determine the possible match outcomes that require significant number crunching and data science know-how, visualization tools and capability to include newer observations in the analysis.
+* A análise de dados esportivos é usada não somente em críquete mas em muitos [outros esportes](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) para melhorar o desempenho geral da equipe e maximizar as chances de vitória.
+* A análise de dados em tempo real pode ajudar a obtenção de informações mesmo durante o jogo para orientar mudanças nas táticas da equipe e dos negócios associados para benefícios e crescimento econômicos.
+* Além da análise histórica, os modelos preditivos explorados para determinar os possíveis resultados das partidas requerem um conhecimento significativo sobre processamento numérico e ciência de dados, ferramentas de visualização e a possibilidade de incluir observações mais recentes na análise.
 
 {{< figure src="/images/content_images/cs/player-pose-estimator.png" class="fig-center" alt="pose estimator" caption="**Cricket Pose Estimator**" attr="*(Image credit: connect.vin)*" attrlink="https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/" >}}
 
