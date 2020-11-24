@@ -39,19 +39,19 @@ Hoje, existem conjuntos ricos e quase infinitos de estatísticas e informações
 
 * **Limpeza e pré-processamento de dados**
 
-  IPL has expanded cricket beyond the classic test match format to a much larger scale. The number of matches played every season across various formats has increased and so has the data, the algorithms, newer sports data analysis technologies and simulation models. Cricket data analysis requires field mapping, player tracking, ball tracking, player shot analysis, and several other aspects involved in how the ball is delivered, its angle, spin, velocity, and trajectory. All these factors together have increased the complexity of data cleaning and preprocessing.
+  A IPL expandiu o cricket para além do formato de jogo clássico para uma escala muito maior. O número de partidas jogadas a cada temporada em vários formatos tem aumentado, assim como os dados, os algoritmos, tecnologias de análise de dados mais recentes e modelos de simulação. A análise de dados de críquete requer mapeamento de campo, rastreamento do jogador, rastreamento de bola e análise de tiros do jogador, análise de lances do jogador e vários outros aspectos envolvidos em como a bola é lançada, seu ângulo, giro, velocidade e trajetória. Todos esses fatores em conjunto aumentaram a complexidade da limpeza e pré-processamento de dados.
 
-* **Dynamic Modeling**
+* **Modelagem Dinâmica**
 
-  In cricket, just like any other sport, there can be a large number of variables related to tracking various numbers of players on the field, their attributes, the ball, and several possibilities of potential actions. The complexity of data analytics and modeling is directly proportional to the kind of predictive questions that are put forth during analysis and are highly dependent on data representation and the model. Things get even more challenging in terms of computation, data comparisons when dynamic cricket play predictions are sought such as what would have happened if the batsman had hit the ball at a different angle or velocity.
+  No críquete, como em qualquer outro esporte, pode haver um grande número de variáveis relacionadas ao rastreamento de vários jogadores no campo, seus atributos, a bola e várias possibilidades de ações em potencial. A complexidade da análise e modelagem de dados é diretamente proporcional ao tipo de questões preditivas que são consideradas durante a análise e são altamente dependentes da representação de dados e do modelo. As coisas são ainda mais desafiadoras em termos de computação e comparações de dados quando previsões dinâmicas de jogo de críquete são desejadas, como o que teria acontecido se o batsman tivesse atingido a bola com um ângulo ou velocidade diferentes.
 
-* **Predictive Analytics Complexity**
+* **Complexidade da análise preditiva**
 
-  Much of the decision making in cricket is based on questions such as "how often does a batsman play a certain kind of shot if the ball delivery is of a particular type", or "how does a bowler change his line and length if the batsman responds to his delivery in a certain way". This kind of predictive analytics query requires highly granular dataset availability and the capability to synthesize data and create generative models that are highly accurate.
+  Muito da tomada de decisões em críquete se baseia em questões como "com que frequência um batsman joga um certo tipo de lance se a recepção da bola for de um determinado tipo", ou "como um boleador muda a direção e alcance da sua jogada se o batsman responder de uma certa maneira". Esse tipo de consulta de análise preditiva requer a disponibilidade de conjuntos de dados altamente granulares e a capacidade de sintetizar dados e criar modelos generativos que sejam altamente precisos.
 
-## NumPy’s Role in Cricket Analytics
+## Papel da NumPy na Análise de Críquete
 
-Sports Analytics is a thriving field. Many researchers and companies [use NumPy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) and other PyData packages like Scikit-learn, SciPy, Matplotlib, and Jupyter, besides using the latest machine learning and AI techniques.  NumPy has been used for various kinds of cricket related sporting analytics such as:
+A análise de dados esportivos é um campo próspero. Muitos pesquisadores e empresas [usam NumPy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) e outros pacotes PyData como Scikit-learn, SciPy, Matplotlib, e Jupyter, além de usar as últimas técnicas de aprendizagem de máquina e IA.  A NumPy foi usada para vários tipos de análise esportiva relacionada a críquete, como:
 
 * **Statistical Analysis:** NumPy's numerical capabilities help estimate the statistical significance of observational data or match events in the context of various player and game tactics, estimating the game outcome by comparison with a generative or static model. [Causal analysis](https://amplitude.com/blog/2017/01/19/causation-correlation) and [big data approaches](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) are used for tactical analysis.
 
