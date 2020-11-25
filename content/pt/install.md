@@ -74,9 +74,9 @@ Para usuários que preferem uma solução baseada em pip/PyPI, por preferência 
 - Use [Poetry](https://python-poetry.org/) como a ferramenta mais bem mantida que fornece um resolvedor de dependências e recursos de gerenciamento de ambiente de forma semelhante ao que o conda faz.
 
 
-## Troubleshooting ImportError
+## Solucionando ImportError
 
-If your installation fails with the message below, see [Troubleshooting ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
+Se sua instalação falhar com a mensagem abaixo, consulte [Solucionando ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
 
 ```
 IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
@@ -85,9 +85,9 @@ Importing the numpy c-extensions failed. This error can happen for
 different reasons, often due to issues with your setup.
 ```
 
-## Building from source
+## Compilar a partir do código-fonte
 
-See [Building from source](https://numpy.org/devdocs/user/building.html).
+Veja [Compilando a partir do código-fonte](https://numpy.org/devdocs/user/building.html).
 
 
 ## Python package management
