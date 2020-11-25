@@ -3,9 +3,9 @@ title: Citando a NumPy
 sidebar: false
 ---
 
-If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, we suggest citing the following paper:
+Se a NumPy é importante na sua pesquisa, e você gostaria de dar reconhecimento ao projeto na sua publicação acadêmica, sugerimos citar os seguintes documentos:
 
-*  Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _Array programming with NumPy_. Nature 585, 357–362 (2020). DOI: [0.1038/s41586-020-2649-2](https://doi.org/10.1038/s41586-020-2649-2). ([Publisher link](https://www.nature.com/articles/s41586-020-2649-2)).
+*  Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _Array programming with NumPy_. Nature 585, 357–362 (2020). DOI: [0.1038/s41586-020-2649-2](https://doi.org/10.1038/s41586-020-2649-2). ([Link da editora](https://www.nature.com/articles/s41586-020-2649-2)).
 
 _Em formato BibTeX:_
 
