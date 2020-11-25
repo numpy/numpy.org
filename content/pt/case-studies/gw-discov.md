@@ -12,32 +12,32 @@ sidebar: false
 
 ## Sobre [Ondas Gravitacionais](https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/) e o [LIGO](https://www.ligo.caltech.edu)
 
-Ondas gravitacionais são ondulações no tecido espaço-tempo, gerado por eventos cataclísmicos no universo, como colisão e fusão de dois buracos pretos ou a coalescência de estrelas binárias ou supernovas. A observação de ondas gravitacionais pode ajudar não só no estudo da gravidade, mas também no entendimento de alguns dos fenômenos obscuros existentes no universo distante e seu impacto.
+Ondas gravitacionais são ondulações no tecido espaço-tempo, gerado por eventos cataclísmicos no universo, como colisão e fusão de dois buracos negros ou a coalescência de estrelas binárias ou supernovas. A observação de ondas gravitacionais pode ajudar não só no estudo da gravidade, mas também no entendimento de alguns dos fenômenos obscuros existentes no universo distante e seu impacto.
 
 O [Observatório Interferômetro Laser de Ondas Gravitacionais (LIGO)](https://www.ligo.caltech.edu) foi projetado para abrir o campo da astrofísica das ondas gravitacionais através da detecção direta de ondas gravitacionais previstas pela Teoria Geral da Relatividade de Einstein. O observatório consiste de dois interferômetros amplamente separados dentro dos Estados Unidos - um em Hanford, Washington e o outro em Livingston, Louisiana — operando em uníssono para detectar ondas gravitacionais. Cada um deles tem detectores em escala quilométrica de ondas gravitacionais que usam interferometria laser.  A Colaboração Científica LIGO (LSC), é um grupo de mais de 1000 cientistas de universidades dos Estados Unidos e em 14 outros países apoiados por mais de 90 universidades e institutos de pesquisa; aproximadamente 250 estudantes contribuem ativamente com a colaboração. A nova descoberta do LIGO é a primeira observação de ondas gravitacionais em si, feita medindo os pequenos distúrbios que as ondas fazem ao espaço-tempo enquanto atravessam a terra.  A descoberta abriu novas fronteiras astrofísicas que exploram o lado "curvado" do universo - objetos e fenômenos que são feitos a partir da curvatura do espaço-tempo.
 
 
 ### Objetivos
 
-* Though its [mission](https://www.ligo.caltech.edu/page/what-is-ligo) is to detect gravitational waves from some of the most violent and energetic processes in the Universe, the data LIGO collects may have far-reaching effects on many areas of physics including gravitation, relativity, astrophysics, cosmology, particle physics, and nuclear physics.
-* Crunch observed data via numerical relativity computations that involves complex maths in order to discern signal from noise, filter out relevant signal and statistically estimate significance of observed data
-* Data visualization so that the binary / numerical results can be comprehended.
+* Embora sua [missão](https://www.ligo.caltech.edu/page/what-is-ligo) seja detectar ondas gravitacionais de alguns dos processos mais violentos e enérgicos no Universo, os dados que o LIGO coleta podem ter efeitos de grande alcance em muitas áreas da física, incluindo gravitação, relatividade, astrofísica, cosmologia, física de partículas e física nuclear.
+* Processar dados observados através de cálculos numéricos de relatividade que envolvem matemática complexa para identificar o sinal e o ruído, filtrar o sinal relevante e estimar estatisticamente o significado dos dados observados.
+* Visualização de dados para que os resultados binários/numéricos possam ser compreendidos.
 
 
 
-### The Challenges
+### Desafios
 
-* **Computation**
+* **Computação**
 
-    Gravitational Waves are hard to detect as they produce a very small effect and have tiny interaction with matter. Processing and analyzing all of LIGO's data requires a vast computing infrastructure.After taking care of noise, which is billions of times of the signal, there is still very complex relativity equations and huge amounts of data which present a computational challenge: [O(10^7) CPU hrs needed for binary merger analyses](https://youtu.be/7mcHknWWzNI) spread on 6 dedicated LIGO clusters
+    As ondas gravitacionais são difíceis de detectar pois produzem um efeito muito pequeno e têm uma pequena interação com a matéria. Processar e analisar todos os dados do LIGO requer uma vasta infraestrutura de computação. Depois de cuidar do ruído, que é bilhões de vezes maior que o sinal, ainda há equações de relatividade complexas e enormes quantidades de dados que apresentam um desafio computacional: [O(10^7) horas de CPU necessárias para análises de fusão binária](https://youtu.be/7mcHknWWzNI) espalhado em 6 clusters LIGO dedicados.
 
-* **Data Deluge**
+* **Sobrecarga de dados**
 
-    As observational devices become more sensitive and reliable, the challenges posed by data deluge and finding a needle in a haystack rise multi-fold. LIGO generates terabytes of data every day! Making sense of this data requires an enormous effort for each and every detection. For example, the signals being collected by LIGO must be matched by supercomputers against hundreds of thousands of templates of possible gravitational-wave signatures.
+    À medida que os dispositivos observacionais se tornam mais sensíveis e confiáveis, os desafios criados pela sobrecarga de dados e a procura por uma agulha em um palheiro se tornam muito maiores. O LIGO gera terabytes de dados todos os dias! Entender esses dados requer um enorme esforço para cada detecção. Por exemplo, os sinais sendo coletados pelo LIGO devem ser combinados por supercomputadores e comparados a centenas de milhares de modelos de possíveis assinaturas de ondas gravitacionais.
 
-* **Visualization**
+* **Visualização**
 
-    Once the obstacles related to understanding Einstein’s equations well enough to solve them using supercomputers are taken care of, the next big challenge was making data comprehensible to the human brain. Simulation modeling as well as  signal detection requires effective visualization techniques.  Visualization also plays a role in lending more credibility to numerical relativity in the eyes of pure science aficionados, who did not give enough importance to numerical relativity until imaging and simulations made it easier to comprehend results for a larger audience. Speed of complex computations and rendering, re-rendering images and simulations using latest experimental inputs and insights can be a time consuming activity that challenges researchers in this domain.
+    Uma vez que os obstáculos relacionados a compreender as equações de Einstein bem o suficiente para resolvê-las usando supercomputadores foram ultrapassados, o próximo grande desafio era tornar os dados compreensíveis para o cérebro humano. A modelagem de simulações, assim como a detecção de sinais, exigem técnicas de visualização efetiva.  A visualização também desempenha um papel de fornecer mais credibilidade à relatividade numérica aos olhos dos aficionados pela ciência pura, que não dão importância suficiente à relatividade numérica até que a imagem e as simulações tornem mais fácil a compreensão dos resultados para um público maior. A velocidade da computação complexa, e da renderização, re-renderização de imagens e simulações usando as últimas entradas e informações experimentais pode ser uma atividade demorada que desafia pesquisadores neste domínio.
 
 {{< figure src="/images/content_images/cs/gw_strain_amplitude.png" class="fig-center" alt="gravitational waves strain amplitude" caption="**Estimated gravitational-wave strain amplitude from GW150914**" attr="(**Graph Credits:** Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)" attrlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
 
