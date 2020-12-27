@@ -1,5 +1,5 @@
 ---
-title: "Estudo de Caso: A Primeira Imagem de um Buraco Negro"
+title: "Case Study: First Image of a Black Hole"
 sidebar: false
 ---
 
@@ -7,54 +7,58 @@ sidebar: false
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
     <p>Criar uma imagem do Buraco Negro M87 é como tentar ver algo que, por definição, é impossível de se ver.</p>
-    <footer align="right">—Katie Bouman, <cite>Professora Assistente, Ciências da Computação e Matemática, Caltech</cite></footer>
+    <footer align="right">Katie Bouman, <cite>Assistant Professor, Computing & Mathematical Sciences, Caltech</cite></footer>
 </blockquote>
 
-## Sobre o Telescópio Event Horizon
+## A telescope the size of the earth
 
-O [telescópio Event Horizon(EHT)](https://eventhorizontelescope.org), é um conjunto de oito telescópios em solo formando um telescópio computacional do tamanho da Terra, projetado para estudar objetos extremos no universo com sensibilidade e resolução sem precedentes.  A rede mundial de telescópios de rádio compreende um telescópio virtual baseado em uma técnica chamada "interferometria de base muito longa" (*very-long-baseline interferometry* — VLBI). Usando essa técnica, o EHT é capaz de alcançar uma resolução angular de [20 micro arco-segundos][resolution] — o suficiente para ler um jornal em Nova York de uma cafeteira em Paris!
+The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org) is an array of eight ground-based radio telescopes forming a computational telescope the size of the earth, studing the universe with unprecedented sensitivity and resolution.  The huge virtual telescope,  which uses a technique called very-long-baseline interferometry (VLBI), has an angular resolution of [20 micro-arcseconds][resolution] — enough to read a newspaper in New York from a sidewalk café in Paris!
 
 ### Principais Objetivos e Resultados
 
-* **Uma nova visão do universo:** O EHT é uma ferramenta nova empolgante para estudar os objetos mais extremos no universo. A imagem inovadora do EHT foi publicada 100 anos após [o experimento de Sir Arthur Eddington][eddington] ter produzido as primeiras evidências observacionais apoiando a teoria da relatividade geral de Einstein.
+* **A New View of the Universe:** The groundwork for the EHT's groundbreaking image had been laid 100 years earlier when [Sir Arthur Eddington][eddington] yielded the first observational support of Einstein's theory of general relativity.
 
-* **Investigando os Buracos Negros:** A primeira imagem do EHT foca no buraco negro supermassivo no centro da galáxia Messier 87 (M87), localizado no aglomerado de Virgem. Esse buraco negro reside a aproximadamente 55 milhões de anos-luz da Terra e tem uma massa igual a 6,5 bilhões de vezes a do Sol. Tem sido um tema de estudo astronômico há [mais de 100 anos](https://www.jpl.nasa.gov/news/news.php?feature=7385). Buracos negros são objeto de estudo intenso há muito tempo, mas o EHT fornece a primeira evidência visual direta desses fenômenos extremos.
+* **The Black Hole:** EHT was trained on a supermassive black hole approximately 55 million light-years from Earth, lying at the center of the galaxy Messier 87 (M87) in the Virgo galaxy cluster. Its mass is 6.5 billion times the Sun's. It had been studied for [over 100 years](https://www.jpl.nasa.gov/news/news.php?feature=7385), but never before had a black hole been visually observed.
 
-* **Comparando observações com teoria:** Baseado na teoria geral da relatividade de Einstein, cientistas esperavam ver uma região sombria semelhante a uma sombra, causada pela curvatura gravitacional e captura de luz pelo horizonte de eventos. Ao estudar esta sombra cientistas poderiam medir a enorme massa do buraco negro supermassivo central da M87.
+* **Comparing Observations to Theory:** From Einstein’s general theory of relativity, scientists expected to find a shadow-like region caused by gravitational bending and capture of light. Scientists could use it to measure the black hole's enormous mass.
 
 ### Desafios
 
-* **Escala**
+* **Computational scale**
 
-    As observações do telescópio Event Horizon (EHT) apresentam desafios para ferramentas de processamento de dados existentes, decorrentes das flutuações de fase atmosférica rápidas, largura de banda ampla para gravação e um conjunto de telescópios altamente heterogêneos.
+    EHT poses massive data-processing challenges, including rapid atmospheric phase fluctuations, large recording bandwidth, and telescopes that are widely dissimilar and geographically dispersed.
 
-* **Calibração e Correlação**
+* **Too much information**
 
-    Além de agendar todas essas observações coordenadas do EHT, reduzir o volume geral e a complexidade dos dados para ajudar na análise é um problema difícil de ser resolvido. Para colocar as coisas em perspectiva, o EHT gera mais de 350 Terabytes de dados observados por dia, armazenados em discos rígidos de alto desempenho preenchidos com hélio.
+    Each day EHT generates over 350 terabytes of observations, stored on helium-filled hard drives. Reducing the volume and complexity of this much data is enormously difficult.
 
-* **Reconstrução de imagem**
+* **Into the unknown**
 
-    Como os dados calibrados são processados para produzir uma imagem de algo que nunca foi diretamente visto? Como os cientistas podem ter confiança de que a imagem está correta? Esses são alguns dos desafios que precisaram ser superados na análise realizada para produzir a imagem.
+    When the goal is to see something never before seen, how can scientists be confident the image is correct?
 
 {{< figure src="/images/content_images/cs/dataprocessbh.png" class="csfigcaption" caption="**Etapas de Processamento de Dados do EHT**" alt="data pipeline" align="middle" attr="(Créditos do diagrama: The Astrophysical Journal, Event Horizon Telescope Collaboration)" attrlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
 
-## Papel do NumPy na criação da imagem do Buraco Negro
+## NumPy’s Role
 
-Ainda que coletar, selecionar e processar os dados das instalações do EHT represente um desafio monumental, é apenas o primeiro passo para gerar uma imagem a partir dos dados. Há muitas abordagens para a reconstrução de imagens, cada uma incorporando suposições e restrições únicas para resolver o problema mal-posto de recuperar uma imagem do buraco negro a partir dos dados coletados. Mas como alguém pode ter certeza de que a imagem que foi produzida está correta? E se houver um problema com os dados? Ou talvez um algoritmo seja muito dependente de uma hipótese em particular? A imagem será alterada drasticamente se um único parâmetro for alterado? A colaboração do EHT venceu esses desafios ao estabelecer equipes independentes que avaliaram os dados usando técnicas de reconstrução de imagem estabelecidas e de ponta para verificar se as imagens resultantes eram consistentes. Resultados destas equipes independentes de pesquisadores foram combinados para proporcionar a imagem sem precedentes do buraco negro. Essa abordagem é um poderoso exemplo da importância da reprodutibilidade e da colaboração para a descoberta científica moderna e ilustra o papel que o ecossistema científico Python desempenha no apoio ao progresso científico através da análise de dados colaborativos.
+What if there's a problem with the data? Or perhaps an algorithm relies too heavily on a particular assumption. Will the image change drastically if a single parameter is changed?
 
-{{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**O papel do NumPy na criação da imagem do Buraco Negro**" >}}
+The EHT collaboration met these challenges by having independent teams evaluate the data, using both established and cutting-edge image reconstruction techniques. When results proved consistent, they were combined to yield the first-of-a-kind image of the black hole.
 
-Por exemplo, o pacote Python [`eht-imaging`][ehtim] fornece ferramentas para simular e realizar reconstrução de imagem nos dados do VLBI. O NumPy está no núcleo do processamento de dados em arranjos usado neste pacote, como ilustrado pelo gráfico parcial de dependências de software abaixo.
+Their work illustrates the role the scientific Python ecosystem plays in advancing science through collaborative data analysis.
 
-{{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Diagrama de dependência de software do pacote ehtim evidenciando o NumPy**" >}}
+{{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**The role of NumPy in Black Hole imaging**" >}}
 
-Além do NumPy, muitos outros pacotes como [SciPy](https://www.scipy.org) e [Pandas](https://pandas.io) foram usados na *pipeline* de processamento de dados para criar a imagem do buraco negro. Os formatos de arquivos astronômicos padrão e transformações de tempo/coordenadas foram tratados pelo [Astropy][astropy] enquanto a[Matplotlib][mpl] foi usada na visualização de dados em todas as etapas de análise, incluindo a geração da imagem final do buraco negro.
+For example, the [`eht-imaging`][ehtim] Python package provides tools for simulating and performing image reconstruction on VLBI data. NumPy is at the core of array data processing used in this package, as illustrated by the partial software dependency chart below.
+
+{{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Software dependency chart of ehtim package highlighting NumPy**" >}}
+
+Besides NumPy, many other packages, such as [SciPy](https://www.scipy.org) and [Pandas](https://pandas.io), are part of the data processing pipeline for imaging the black hole. The standard astronomical file formats and time/coordinate transformations were handled by [Astropy][astropy], while [Matplotlib][mpl] was used in visualizing data throughout the analysis pipeline, including the generation of the final image of the black hole.
 
 ## Resumo
 
-O NumPy permitiu que pesquisadores manipulassem grandes conjuntos de dados numéricos através de sua estrutura de dados n-dimensional eficiente e genérica, fornecendo uma fundação para o software usado para gerar a primeira imagem de um buraco negro. A criação de uma imagem direta de um buraco negro é uma importante realização científica fornecendo evidências visuais impressionantes da relatividade geral de Einstein. Esta conquista abrange não apenas avanços tecnológicos, mas colaboração científica em escala internacional entre mais de 200 cientistas e alguns dos melhores observatórios de rádio do mundo. Eles usaram algoritmos e técnicas de processamento de dados inovadores que aperfeiçoaram os modelos astronômicos existentes para ajudar a descobrir alguns dos mistérios do universo.
+The efficient and adaptable n-dimensional array that is NumPy's central feature enabled researchers to manipulate large numerical datasets, providing a foundation for the first-ever image of a black hole. A landmark moment in science, it gives stunning visual evidence of Einstein’s theory. The achievement encompasses not only technological breakthroughs but also international collaboration among over 200 scientists and some of the world's best radio observatories.  Innovative algorithms and data processing techniques, improving upon existing astronomical models, helped unfold a mystery of the universe.
 
-{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**Funcionalidades-chave do NumPy utilizadas**" >}}
+{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**Key NumPy Capabilities utilized**" >}}
 
 [resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
 
