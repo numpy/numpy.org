@@ -25,10 +25,9 @@ Our community aspires to treat everyone equally, and to value all contributions.
 
 For the process of contributing to the NumPy code base, we have an extensive [developer guide](https://numpy.org/devdocs/dev/index.html#development-process-summary). We don't work with assigning issues - if you see something of interest, please dive in!
 
-For other activities, we will attempt to give some guidance on this page. If you're unsure of where to get started or how your skills matter to the project, _please reach out to us_! You can ask on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) or [GitHub](http://github.com/numpy/numpy) (open an issue or comment on a relevant issue). These are our preferred communication channels (open source is open by nature!), however, if you prefer to discuss in private first, please reach out to our community coordinators at `numpy-team@googlegroups.com` or on [Slack](https://numpy-team.slack.com) (send an email to `numpy-team@googlegroups.com` for an invite the first time).
+For other activities, we will attempt to give some guidance on this page. If you're unsure of where to get started or how your skills matter to the project, _please reach out to us_! You can ask on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) or [GitHub](http://github.com/numpy/numpy) (open an issue or comment on a relevant issue). These are our preferred communication channels (open source is open by nature!), however, if you prefer to discuss in private first, please reach out to our community coordinators at `numpy-team@googlegroups.com` or on [Slack](https://numpy-team.slack.com) (send an email to `numpy-team@googlegroups.com` for an invite the first time). We also have a bi-weekly _community call_, the details of which are announced on the mailing list. You are very welcome to join this call!
 
-We also have a bi-weekly _community call_, the details of which are announced on the mailing list. You are very welcome to join this call!
-
+If you are new to contributing to open source, we also highly recommend reading [this guide](https://opensource.guide/how-to-contribute/).
 
 ### Developing educational materials
 
