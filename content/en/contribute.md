@@ -34,6 +34,8 @@ if you prefer to talk privately, contact our community coordinators at
 We also have a biweekly _community call_, details of which are announced on
 the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion).
 You are very welcome to join.
+If you are new to contributing to open source, we also highly recommend reading
+[this guide](https://opensource.guide/how-to-contribute/).
 
 Our community aspires to treat everyone equally and to value all
 contributions. We have a [Code of Conduct](/code-of-conduct) to foster an open
@@ -53,7 +55,6 @@ codebase. You can:
 * tag a stale PR
 * summarize a long-running discussion
 * triage documentation PRs
-
 
 ### Developing educational materials
 

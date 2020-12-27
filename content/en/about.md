@@ -20,28 +20,29 @@ The role of the NumPy Steering Council is to ensure, through working with and se
 - Allan Haldane
 - Charles Harris
 - Stephan Hoyer
+- Matti Picus
 - Nathaniel Smith
 - Julian Taylor
 - Pauli Virtanen
-- Stefan van der Walt
+- Stéfan van der Walt
 - Eric Wieser
 
-Emeritus members are:
+Emeritus:
 
-- Travis Oliphant (project founder, served: 2005-2012)
-- Alex Griffing (served: 2015-2017)
-- Marten van Kerkwijk (served: 2017-2019)
+- Travis Oliphant (project founder, 2005-2012)
+- Alex Griffing (2015-2017)
+- Marten van Kerkwijk (2017-2019)
 
 ## Teams
 
-The NumPy project is growing, we have separate teams for:
+The NumPy project is growing; we have teams for
 
-- Code
-- Documentation
-- Website
-- Triage
-- Funding & grants
-- Admin
+- code
+- documentation
+- website
+- triage
+- funding and grants
+- admin
 
 See the [Team](/gallery/team.html) page for individual team members.
 
@@ -60,7 +61,7 @@ Institutional Partners are organizations that support the project by employing p
 
 ## Donate
 
-If you have found NumPy to be useful in your work, research, or company, please consider making a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation, and community.
+If you have found NumPy useful in your work, research, or company, please consider a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation, and community.
 
 NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit [numfocus.org](https://numfocus.org) for more information.
 

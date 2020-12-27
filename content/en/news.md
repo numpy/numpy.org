@@ -3,6 +3,81 @@ title: News
 sidebar: false
 ---
 
+### Diversity in the NumPy project
+
+_Sep 20, 2020_ -- We wrote a [statement on the state of, and discussion on social media around, diversity and inclusion in the NumPy project](/diversity_sep2020).
+
+
+### First official NumPy paper published in Nature!
+
+_Sep 16, 2020_ -- We are pleased to announce the publication of
+[the first official paper on NumPy](https://www.nature.com/articles/s41586-020-2649-2)
+as a review article in Nature. This comes 14 years after the release of NumPy 1.0.
+The paper covers applications and fundamental concepts of array programming,
+the rich scientific Python ecosystem built on top of NumPy, and the recently added
+array protocols to facilitate interoperability with external array and tensor
+libraries like CuPy, Dask, and JAX.
+
+
+### Python 3.9 is coming, when will NumPy release binary wheels?
+
+_Sept 14, 2020_ -- Python 3.9 will be released in a few weeks. If you are an
+early adopter of Python versions, you may be dissapointed to find that NumPy
+(and other binary packages like SciPy) will not have binary wheels ready on the
+day of the release. It is a major effort to adapt the build infrastructure to a
+new Python version and it typically takes a few weeks for the packages to appear
+on PyPI and conda-forge. In preparation for this event, please make sure to
+- update your `pip` to version 20.1 at least to support `manylinux2010` and
+  `manylinux2014`
+- use [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) or `--only-binary=:all:` to prevent `pip` from
+  trying to build from source.
+
+
+### Numpy 1.19.2 release
+
+_Sept 10, 2020_ -- [NumPy
+1.19.2](https://numpy.org/devdocs/release/1.19.2-notes.html) is now available.
+This latest release in the 1.19 series fixes several bugs, prepares for the
+[upcoming Cython 3.x
+release](http://docs.cython.org/en/latest/src/changes.html) and pins
+setuptools to keep distutils working while upstream modifications are ongoing.
+The aarch64 wheels are built with the latest manylinux2014 release that fixes
+the problem of differing page sizes used by different linux distros.
+
+### The inaugural NumPy survey is live!
+
+_Jul 2, 2020_ -- This survey is meant to guide and set priorities for
+decision-making about the development of NumPy as software and as a community.
+The survey is available in 8 additional languages besides English:
+Bangla, Hindi, Japanese, Mandarin, Portuguese, Russian, Spanish and French.
+
+Please help us make NumPy better and take the survey
+[here](https://umdsurvey.umd.edu/jfe/form/SV_8bJrXjbhXf7saAl).
+
+
+### NumPy has a new logo!
+
+_Jun 24, 2020_ -- NumPy now has a new logo:
+
+<img
+  src="/images/logos/numpy_logo.svg"
+  alt="NumPy logo"
+  title="The new NumPy logo"
+  width=300>
+
+The logo is a modern take on the old one, with a cleaner design. Thanks to
+Isabela Presedo-Floyd for designing the new logo, as well as to Travis Vaught
+for the old logo that served us well for 15+ years.
+
+
+### NumPy 1.19.0 release
+
+_Jun 20, 2020_ -- NumPy 1.19.0 is now available. This is the first release
+without Python 2 support, hence it was a "clean-up release". The minimum
+supported Python version is now Python 3.6. An important new feature is that
+the random number generation infrastructure that was introduced in NumPy 1.17.0
+is now accessible from Cython.
+
 
 ### Season of Docs acceptance
 
@@ -26,11 +101,11 @@ Please see the [release notes](https://github.com/numpy/numpy/releases/tag/v1.18
 
 ### NumPy receives a grant from the Chan Zuckerberg Initiative
 
-_Nov 15, 2019_ -- We are very pleased to announce that NumPy and OpenBLAS have received a joint grant for $195,000 from the Chan Zuckerberg Initiative.
+_Nov 15, 2019_ -- We are pleased to announce that NumPy and OpenBLAS, one of NumPy's key dependencies, have received a joint grant for $195,000 from the Chan Zuckerberg Initiative through their [Essential Open Source Software for Science program](https://chanzuckerberg.com/eoss/) that supports software maintenance, growth, development, and community engagement for open source tools critical to science.
 
-This grant is for high-level documentation, website development and graphic design, governance activities and community building for NumPy, and for technical work on OpenBLAS (which is one of NumPy's key dependencies). [This blog post](https://labs.quansight.org/blog/2019/11/numpy-openblas-CZI-grant/) describes what this grant will be about and provides some background on the grant program. The full proposal is published [here](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167). The program managers wrote a blog post titled [The Invisible Foundations of Biomedicine](https://medium.com/@cziscience/the-invisible-foundations-of-biomedicine-4ab7f8d4f5dd) about the whole program which is also well worth reading.
+This grant will be used to ramp up the efforts in improving NumPy documentation, website redesign, and community development to better serve our large and rapidly growing user base, and ensure the long-term sustainability of the project. While the OpenBLAS team will focus on addressing sets of key technical issues, in particular thread-safety, AVX-512, and thread-local storage (TLS) issues, as well as algorithmic improvements in ReLAPACK (Recursive LAPACK) on which OpenBLAS depends.
 
-We're looking forward to what we'll be able to do with this grant. The work is planned to start quite soon, Dec 1st, and run for one year.
+More details on our proposed initiatives and deliverables can be found in the [full grant proposal](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167). The work is scheduled to start on Dec 1st, 2019 and continue for the next 12 months.
 
 
 ## Releases

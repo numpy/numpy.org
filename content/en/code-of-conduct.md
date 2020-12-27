@@ -1,6 +1,8 @@
 ---
 title: NumPy Code of Conduct
 sidebar: false
+aliases:
+    - /conduct.html
 ---
 
 ### Introduction
