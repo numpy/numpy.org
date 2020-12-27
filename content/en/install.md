@@ -14,7 +14,7 @@ macOS and Linux, or [from source](https://numpy.org/devdocs/user/building.html).
 For more detailed instructions, consult our [Python and NumPy
 installation guide](#python-numpy-install-guide) below.
 
-## conda
+**CONDA**
 
 If you use `conda`, you can install NumPy from the `defaults` or `conda-forge`
 channels:
@@ -29,7 +29,7 @@ conda config --env --add channels conda-forge
 conda install numpy
 ```
 
-## pip
+**PIP**
 
 If you use `pip`, you can install NumPy with:
 
@@ -121,19 +121,6 @@ we recommend:
   in a similar fashion as conda does.
 
 
-## Troubleshooting ImportError
-
-If your installation fails with the message below, see [Troubleshooting
-ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
-
-```
-IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
-
-Importing the numpy c-extensions failed. This error can happen for
-different reasons, often due to issues with your setup.
-```
-
-
 ## Python package management
 
 Managing packages is a challenging problem, and, as a result, there are lots of
@@ -222,4 +209,17 @@ consider:
   function calls. It can also be harmful for performance, for example when
   using another level of parallelization manually or with, e.g. Dask or
   scikit-learn functionality.
+
+
+## Troubleshooting
+
+If your installation fails with the message below, see [Troubleshooting
+ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
+
+```
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy c-extensions failed. This error can happen for
+different reasons, often due to issues with your setup.
+```
 
