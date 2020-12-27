@@ -167,15 +167,7 @@ The second difference is that pip installs from the Python Packaging Index
 "conda-forge"). PyPI is the largest collection of packages by far, however, all
 popular packages are available for conda as well.
 
-The third difference is that pip does not have a _dependency resolver_ (this is
-expected to change in the near future), while conda does. For simple cases (e.g.
-you just want NumPy, SciPy, Matplotlib, Pandas, Scikit-learn, and a few other
-packages) that doesn't matter, however, for complicated cases conda can be
-expected to do a better job keeping everything working well together. The flip
-side of that coin is that installing with pip is typically a _lot_ faster than
-installing with conda.
-
-The fourth difference is that conda is an integrated solution for managing
+The third difference is that conda is an integrated solution for managing
 packages, dependencies and environments, while with pip you may need another
 tool (there are many!) for dealing with environments or complex dependencies.
 
