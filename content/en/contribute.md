@@ -48,13 +48,14 @@ Programmers, this
 explains how to contribute to the codebase.
 
 ### Reviewing pull requests
-The project has more than 250 open pull requests -- meaning hundreds of
-missed improvements and many discouraged open-source contributors. If you're a
-developer who knows NumPy, you can help even if you're not familiar with the
+The project has more than 250 open pull requests -- meaning many potential
+improvements and many open-source contributors waiting for feedback. If you're
+a developer who knows NumPy, you can help even if you're not familiar with the
 codebase. You can:
-* tag a stale PR
 * summarize a long-running discussion
 * triage documentation PRs
+* test proposed changes
+
 
 ### Developing educational materials
 
