@@ -178,27 +178,33 @@ NumPy doesn't depend on any other Python packages, however, it does depend on an
 accelerated linear algebra library - typically
 [Intel MKL](https://software.intel.com/en-us/mkl) or
 [OpenBLAS](https://www.openblas.net/). Users don't have to worry about
-installing those, but it may still be important to understand how the packaging
-is done and how it affects performance and behavior users see.
+installing those (they're automatically included in all NumPy install methods).
+Power users may still want to know the details, because the used BLAS can
+affect performance, behavior and size on disk:
 
-The NumPy wheels on PyPI, which is what pip installs, are built with OpenBLAS.
-The OpenBLAS libraries are shipped within the wheels itself. This makes those
-wheels larger, and if a user installs (for example) SciPy as well, they will
-now have two copies of OpenBLAS on disk.
+- The NumPy wheels on PyPI, which is what pip installs, are built with OpenBLAS.
+  The OpenBLAS libraries are included in the wheel. This makes the wheel
+  larger, and if a user installs (for example) SciPy as well, they will now
+  have two copies of OpenBLAS on disk.
 
-In the conda defaults channel, NumPy is built against Intel MKL. MKL is a
-separate package that will be installed in the users' environment when they
-install NumPy. That MKL package is a lot larger than OpenBLAS, several hundred
-MB. MKL is typically a little faster and more robust than OpenBLAS.
+- In the conda defaults channel, NumPy is built against Intel MKL. MKL is a
+  separate package that will be installed in the users' environment when they
+  install NumPy.
 
-In the conda-forge channel, NumPy is built against a dummy "BLAS" package. When
-a user installs NumPy from conda-forge, that BLAS package then gets installed
-together with the actual library - this defaults to OpenBLAS, but it can also
-be MKL (from the defaults channel), or even
-[BLIS](https://github.com/flame/blis) or reference BLAS.
+- In the conda-forge channel, NumPy is built against a dummy "BLAS" package. When
+  a user installs NumPy from conda-forge, that BLAS package then gets installed
+  together with the actual library - this defaults to OpenBLAS, but it can also
+  be MKL (from the defaults channel), or even
+  [BLIS](https://github.com/flame/blis) or reference BLAS.
+
+- The MKL package is a lot larger than OpenBLAS, it's about 700 MB on disk
+  while OpenBLAS is about 30 MB.
+
+- MKL is typically a little faster and more robust than OpenBLAS.
 
 Besides install sizes, performance and robustness, there are two more things to
 consider:
+
 - Intel MKL is not open source. For normal use this is not a problem, but if
   a user needs to redistribute an application built with NumPy, this could be
   an issue.
@@ -206,9 +212,9 @@ consider:
   `np.dot`, with the number of threads being determined by both a build-time
   option and an environment variable. Often all CPU cores will be used. This is
   sometimes unexpected for users; NumPy itself doesn't auto-parallelize any
-  function calls. It can also be harmful for performance, for example when
-  using another level of parallelization manually or with, e.g. Dask or
-  scikit-learn functionality.
+  function calls. It typically yields better performance, but can also be
+  harmful - for example when using another level of parallelization with Dask,
+  scikit-learn or multiprocessing.
 
 
 ## Troubleshooting
