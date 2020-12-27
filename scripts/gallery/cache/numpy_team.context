@@ -34,7 +34,7 @@ main:
       created_at: '2013-03-23T14:48:55Z'
       email: null
       events_url: https://api.github.com/users/melissawm/events{/privacy}
-      followers: 217
+      followers: 265
       followers_url: https://api.github.com/users/melissawm/followers
       following: 41
       following_url: https://api.github.com/users/melissawm/following{/other_user}
@@ -49,15 +49,80 @@ main:
       node_id: MDQ6VXNlcjM5NDk5MzI=
       organizations_url: https://api.github.com/users/melissawm/orgs
       public_gists: 0
-      public_repos: 76
+      public_repos: 89
       received_events_url: https://api.github.com/users/melissawm/received_events
       repos_url: https://api.github.com/users/melissawm/repos
       site_admin: false
       starred_url: https://api.github.com/users/melissawm/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/melissawm/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-08T21:41:17Z'
+      updated_at: '2020-08-06T14:30:56Z'
       url: https://api.github.com/users/melissawm
+    - avatar_url: https://avatars2.githubusercontent.com/u/1268991?v=4
+      bio: null
+      blog: ''
+      company: Berkeley Institute for Data Science (BIDS)
+      created_at: '2011-12-17T00:08:48Z'
+      email: null
+      events_url: https://api.github.com/users/rossbar/events{/privacy}
+      followers: 23
+      followers_url: https://api.github.com/users/rossbar/followers
+      following: 1
+      following_url: https://api.github.com/users/rossbar/following{/other_user}
+      gists_url: https://api.github.com/users/rossbar/gists{/gist_id}
+      gravatar_id: ''
+      hireable: null
+      html_url: https://github.com/rossbar
+      id: 1268991
+      location: Berkeley, CA
+      login: rossbar
+      name: Ross Barnowski
+      node_id: MDQ6VXNlcjEyNjg5OTE=
+      organizations_url: https://api.github.com/users/rossbar/orgs
+      public_gists: 5
+      public_repos: 67
+      received_events_url: https://api.github.com/users/rossbar/received_events
+      repos_url: https://api.github.com/users/rossbar/repos
+      site_admin: false
+      starred_url: https://api.github.com/users/rossbar/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/rossbar/subscriptions
+      twitter_username: null
+      type: User
+      updated_at: '2020-08-03T00:49:28Z'
+      url: https://api.github.com/users/rossbar
+    - avatar_url: https://avatars1.githubusercontent.com/u/6691888?v=4
+      bio: null
+      blog: ''
+      company: null
+      created_at: '2014-02-15T18:42:03Z'
+      email: null
+      events_url: https://api.github.com/users/bjnath/events{/privacy}
+      followers: 0
+      followers_url: https://api.github.com/users/bjnath/followers
+      following: 0
+      following_url: https://api.github.com/users/bjnath/following{/other_user}
+      gists_url: https://api.github.com/users/bjnath/gists{/gist_id}
+      gravatar_id: ''
+      hireable: null
+      html_url: https://github.com/bjnath
+      id: 6691888
+      location: null
+      login: bjnath
+      name: null
+      node_id: MDQ6VXNlcjY2OTE4ODg=
+      organizations_url: https://api.github.com/users/bjnath/orgs
+      public_gists: 2
+      public_repos: 16
+      received_events_url: https://api.github.com/users/bjnath/received_events
+      repos_url: https://api.github.com/users/bjnath/repos
+      site_admin: false
+      starred_url: https://api.github.com/users/bjnath/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/bjnath/subscriptions
+      twitter_username: null
+      type: User
+      updated_at: '2020-08-04T18:16:23Z'
+      url: https://api.github.com/users/bjnath
     - avatar_url: https://avatars3.githubusercontent.com/u/98330?v=4
       bio: NumPy, SciPy, PyWavelets maintainer. Building open source communities at
         Quansight Labs. He/him.
@@ -66,7 +131,7 @@ main:
       created_at: '2009-06-23T23:16:22Z'
       email: null
       events_url: https://api.github.com/users/rgommers/events{/privacy}
-      followers: 240
+      followers: 281
       followers_url: https://api.github.com/users/rgommers/followers
       following: 14
       following_url: https://api.github.com/users/rgommers/following{/other_user}
@@ -81,23 +146,24 @@ main:
       node_id: MDQ6VXNlcjk4MzMw
       organizations_url: https://api.github.com/users/rgommers/orgs
       public_gists: 17
-      public_repos: 83
+      public_repos: 87
       received_events_url: https://api.github.com/users/rgommers/received_events
       repos_url: https://api.github.com/users/rgommers/repos
       site_admin: false
       starred_url: https://api.github.com/users/rgommers/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/rgommers/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-12T10:08:05Z'
+      updated_at: '2020-08-06T13:57:14Z'
       url: https://api.github.com/users/rgommers
     - avatar_url: https://avatars1.githubusercontent.com/u/35413198?v=4
-      bio: Data Analysis, Machine Learning, and AI
-      blog: https://bonn0062.github.io/portfolio_ab/
-      company: null
+      bio: Editor at Towards Data Science
+      blog: https://contentsimplicity.com/
+      company: Towards Data Science
       created_at: '2018-01-14T03:06:33Z'
       email: null
       events_url: https://api.github.com/users/bonn0062/events{/privacy}
-      followers: 103
+      followers: 135
       followers_url: https://api.github.com/users/bonn0062/followers
       following: 18
       following_url: https://api.github.com/users/bonn0062/following{/other_user}
@@ -118,11 +184,14 @@ main:
       site_admin: false
       starred_url: https://api.github.com/users/bonn0062/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/bonn0062/subscriptions
+      twitter_username: annebonnerdata
       type: User
-      updated_at: '2020-01-15T00:55:54Z'
+      updated_at: '2020-06-25T18:43:23Z'
       url: https://api.github.com/users/bonn0062
     documentation:
     - melissawm
+    - rossbar
+    - bjnath
     - rgommers
     - bonn0062
     emeritus:
@@ -135,15 +204,15 @@ main:
     - certik
     emerpeople:
     - avatar_url: https://avatars1.githubusercontent.com/u/254880?v=4
-      bio: NumPy, SciPy, Numba, Conda, PyData, NumFocus, Anaconda, Quansight
+      bio: NumPy, SciPy, Numba, Conda, PyData, NumFocus, Anaconda, Quansight, OpenTeams
       blog: technicaldiscovery.blogspot.com
-      company: Quansight
+      company: Quansight, OpenTeams
       created_at: '2010-04-27T21:53:47Z'
       email: null
       events_url: https://api.github.com/users/teoliphant/events{/privacy}
-      followers: 685
+      followers: 739
       followers_url: https://api.github.com/users/teoliphant/followers
-      following: 17
+      following: 19
       following_url: https://api.github.com/users/teoliphant/following{/other_user}
       gists_url: https://api.github.com/users/teoliphant/gists{/gist_id}
       gravatar_id: ''
@@ -162,8 +231,9 @@ main:
       site_admin: false
       starred_url: https://api.github.com/users/teoliphant/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/teoliphant/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-03T16:39:14Z'
+      updated_at: '2020-08-07T08:16:40Z'
       url: https://api.github.com/users/teoliphant
     - avatar_url: https://avatars1.githubusercontent.com/u/25111?v=4
       bio: null
@@ -172,7 +242,7 @@ main:
       created_at: '2008-09-18T04:42:23Z'
       email: null
       events_url: https://api.github.com/users/cournape/events{/privacy}
-      followers: 395
+      followers: 409
       followers_url: https://api.github.com/users/cournape/followers
       following: 2
       following_url: https://api.github.com/users/cournape/following{/other_user}
@@ -193,6 +263,7 @@ main:
       site_admin: false
       starred_url: https://api.github.com/users/cournape/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/cournape/subscriptions
+      twitter_username: null
       type: User
       updated_at: '2020-03-05T02:14:32Z'
       url: https://api.github.com/users/cournape
@@ -203,7 +274,7 @@ main:
       created_at: '2010-09-14T23:17:58Z'
       email: null
       events_url: https://api.github.com/users/mwiebe/events{/privacy}
-      followers: 94
+      followers: 93
       followers_url: https://api.github.com/users/mwiebe/followers
       following: 0
       following_url: https://api.github.com/users/mwiebe/following{/other_user}
@@ -224,8 +295,9 @@ main:
       site_admin: false
       starred_url: https://api.github.com/users/mwiebe/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/mwiebe/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2019-08-19T17:24:24Z'
+      updated_at: '2020-07-27T23:42:14Z'
       url: https://api.github.com/users/mwiebe
     - avatar_url: https://avatars3.githubusercontent.com/u/402156?v=4
       bio: null
@@ -234,7 +306,7 @@ main:
       created_at: '2010-09-16T10:43:25Z'
       email: null
       events_url: https://api.github.com/users/pearu/events{/privacy}
-      followers: 35
+      followers: 37
       followers_url: https://api.github.com/users/pearu/followers
       following: 1
       following_url: https://api.github.com/users/pearu/following{/other_user}
@@ -255,8 +327,9 @@ main:
       site_admin: false
       starred_url: https://api.github.com/users/pearu/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/pearu/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-14T10:27:24Z'
+      updated_at: '2020-08-04T13:06:21Z'
       url: https://api.github.com/users/pearu
     - avatar_url: https://avatars1.githubusercontent.com/u/123428?v=4
       bio: null
@@ -265,7 +338,7 @@ main:
       created_at: '2009-09-04T22:25:30Z'
       email: null
       events_url: https://api.github.com/users/jarrodmillman/events{/privacy}
-      followers: 147
+      followers: 151
       followers_url: https://api.github.com/users/jarrodmillman/followers
       following: 0
       following_url: https://api.github.com/users/jarrodmillman/following{/other_user}
@@ -274,20 +347,21 @@ main:
       hireable: null
       html_url: https://github.com/jarrodmillman
       id: 123428
-      location: California
+      location: Berkeley, California
       login: jarrodmillman
       name: Jarrod Millman
       node_id: MDQ6VXNlcjEyMzQyOA==
       organizations_url: https://api.github.com/users/jarrodmillman/orgs
       public_gists: 2
-      public_repos: 90
+      public_repos: 89
       received_events_url: https://api.github.com/users/jarrodmillman/received_events
       repos_url: https://api.github.com/users/jarrodmillman/repos
       site_admin: false
       starred_url: https://api.github.com/users/jarrodmillman/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/jarrodmillman/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-13T23:15:37Z'
+      updated_at: '2020-08-04T03:25:49Z'
       url: https://api.github.com/users/jarrodmillman
     - avatar_url: https://avatars1.githubusercontent.com/u/3343990?v=4
       bio: null
@@ -296,7 +370,7 @@ main:
       created_at: '2013-01-22T21:50:33Z'
       email: null
       events_url: https://api.github.com/users/jaimefrio/events{/privacy}
-      followers: 89
+      followers: 93
       followers_url: https://api.github.com/users/jaimefrio/followers
       following: 5
       following_url: https://api.github.com/users/jaimefrio/following{/other_user}
@@ -317,8 +391,9 @@ main:
       site_admin: false
       starred_url: https://api.github.com/users/jaimefrio/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/jaimefrio/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-02-05T16:36:30Z'
+      updated_at: '2020-06-19T09:50:38Z'
       url: https://api.github.com/users/jaimefrio
     - avatar_url: https://avatars3.githubusercontent.com/u/20568?v=4
       bio: The original author of the @sympy and @symengine libraries and the @lfortran
@@ -328,7 +403,7 @@ main:
       created_at: '2008-08-13T18:39:11Z'
       email: null
       events_url: https://api.github.com/users/certik/events{/privacy}
-      followers: 385
+      followers: 415
       followers_url: https://api.github.com/users/certik/followers
       following: 93
       following_url: https://api.github.com/users/certik/following{/other_user}
@@ -342,15 +417,16 @@ main:
       name: "Ond\u0159ej \u010Cert\xEDk"
       node_id: MDQ6VXNlcjIwNTY4
       organizations_url: https://api.github.com/users/certik/orgs
-      public_gists: 483
-      public_repos: 303
+      public_gists: 487
+      public_repos: 307
       received_events_url: https://api.github.com/users/certik/received_events
       repos_url: https://api.github.com/users/certik/repos
       site_admin: false
       starred_url: https://api.github.com/users/certik/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/certik/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-02T18:04:32Z'
+      updated_at: '2020-08-04T14:50:08Z'
       url: https://api.github.com/users/certik
     people:
     - avatar_url: https://avatars1.githubusercontent.com/u/9040124?v=4
@@ -360,7 +436,7 @@ main:
       created_at: '2014-10-06T17:58:36Z'
       email: null
       events_url: https://api.github.com/users/ahaldane/events{/privacy}
-      followers: 14
+      followers: 16
       followers_url: https://api.github.com/users/ahaldane/followers
       following: 0
       following_url: https://api.github.com/users/ahaldane/following{/other_user}
@@ -375,14 +451,15 @@ main:
       node_id: MDQ6VXNlcjkwNDAxMjQ=
       organizations_url: https://api.github.com/users/ahaldane/orgs
       public_gists: 7
-      public_repos: 14
+      public_repos: 15
       received_events_url: https://api.github.com/users/ahaldane/received_events
       repos_url: https://api.github.com/users/ahaldane/repos
       site_admin: false
       starred_url: https://api.github.com/users/ahaldane/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/ahaldane/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-06T23:24:36Z'
+      updated_at: '2020-08-07T19:50:51Z'
       url: https://api.github.com/users/ahaldane
     - avatar_url: https://avatars0.githubusercontent.com/u/2789820?v=4
       bio: null
@@ -391,7 +468,7 @@ main:
       created_at: '2012-11-13T19:48:46Z'
       email: null
       events_url: https://api.github.com/users/mhvk/events{/privacy}
-      followers: 44
+      followers: 46
       followers_url: https://api.github.com/users/mhvk/followers
       following: 0
       following_url: https://api.github.com/users/mhvk/following{/other_user}
@@ -406,14 +483,15 @@ main:
       node_id: MDQ6VXNlcjI3ODk4MjA=
       organizations_url: https://api.github.com/users/mhvk/orgs
       public_gists: 4
-      public_repos: 33
+      public_repos: 34
       received_events_url: https://api.github.com/users/mhvk/received_events
       repos_url: https://api.github.com/users/mhvk/repos
       site_admin: false
       starred_url: https://api.github.com/users/mhvk/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/mhvk/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-05T21:05:15Z'
+      updated_at: '2020-07-18T19:42:20Z'
       url: https://api.github.com/users/mhvk
     - avatar_url: https://avatars2.githubusercontent.com/u/1217238?v=4
       bio: null
@@ -422,7 +500,7 @@ main:
       created_at: '2011-11-24T04:06:45Z'
       email: null
       events_url: https://api.github.com/users/shoyer/events{/privacy}
-      followers: 586
+      followers: 613
       followers_url: https://api.github.com/users/shoyer/followers
       following: 18
       following_url: https://api.github.com/users/shoyer/following{/other_user}
@@ -436,15 +514,16 @@ main:
       name: Stephan Hoyer
       node_id: MDQ6VXNlcjEyMTcyMzg=
       organizations_url: https://api.github.com/users/shoyer/orgs
-      public_gists: 58
-      public_repos: 76
+      public_gists: 64
+      public_repos: 77
       received_events_url: https://api.github.com/users/shoyer/received_events
       repos_url: https://api.github.com/users/shoyer/repos
       site_admin: false
       starred_url: https://api.github.com/users/shoyer/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/shoyer/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-13T21:03:01Z'
+      updated_at: '2020-07-27T19:26:42Z'
       url: https://api.github.com/users/shoyer
     - avatar_url: https://avatars0.githubusercontent.com/u/609896?v=4
       bio: null
@@ -453,7 +532,7 @@ main:
       created_at: '2011-02-10T00:04:33Z'
       email: null
       events_url: https://api.github.com/users/njsmith/events{/privacy}
-      followers: 548
+      followers: 585
       followers_url: https://api.github.com/users/njsmith/followers
       following: 0
       following_url: https://api.github.com/users/njsmith/following{/other_user}
@@ -467,15 +546,16 @@ main:
       name: Nathaniel J. Smith
       node_id: MDQ6VXNlcjYwOTg5Ng==
       organizations_url: https://api.github.com/users/njsmith/orgs
-      public_gists: 88
+      public_gists: 91
       public_repos: 116
       received_events_url: https://api.github.com/users/njsmith/received_events
       repos_url: https://api.github.com/users/njsmith/repos
       site_admin: false
       starred_url: https://api.github.com/users/njsmith/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/njsmith/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-08T14:28:30Z'
+      updated_at: '2020-08-08T14:27:12Z'
       url: https://api.github.com/users/njsmith
     - avatar_url: https://avatars3.githubusercontent.com/u/46135?v=4
       bio: null
@@ -484,7 +564,7 @@ main:
       created_at: '2009-01-13T01:44:12Z'
       email: null
       events_url: https://api.github.com/users/rkern/events{/privacy}
-      followers: 165
+      followers: 174
       followers_url: https://api.github.com/users/rkern/followers
       following: 1
       following_url: https://api.github.com/users/rkern/following{/other_user}
@@ -498,15 +578,16 @@ main:
       name: Robert Kern
       node_id: MDQ6VXNlcjQ2MTM1
       organizations_url: https://api.github.com/users/rkern/orgs
-      public_gists: 20
-      public_repos: 32
+      public_gists: 21
+      public_repos: 33
       received_events_url: https://api.github.com/users/rkern/received_events
       repos_url: https://api.github.com/users/rkern/repos
       site_admin: false
       starred_url: https://api.github.com/users/rkern/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/rkern/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-07T01:03:52Z'
+      updated_at: '2020-05-20T18:24:50Z'
       url: https://api.github.com/users/rkern
     - avatar_url: https://avatars3.githubusercontent.com/u/425260?v=4
       bio: null
@@ -515,7 +596,7 @@ main:
       created_at: '2010-10-03T11:40:19Z'
       email: null
       events_url: https://api.github.com/users/eric-wieser/events{/privacy}
-      followers: 119
+      followers: 143
       followers_url: https://api.github.com/users/eric-wieser/followers
       following: 33
       following_url: https://api.github.com/users/eric-wieser/following{/other_user}
@@ -529,15 +610,16 @@ main:
       name: Eric Wieser
       node_id: MDQ6VXNlcjQyNTI2MA==
       organizations_url: https://api.github.com/users/eric-wieser/orgs
-      public_gists: 38
-      public_repos: 185
+      public_gists: 41
+      public_repos: 202
       received_events_url: https://api.github.com/users/eric-wieser/received_events
       repos_url: https://api.github.com/users/eric-wieser/repos
       site_admin: false
       starred_url: https://api.github.com/users/eric-wieser/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/eric-wieser/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-06T14:27:58Z'
+      updated_at: '2020-08-06T12:21:42Z'
       url: https://api.github.com/users/eric-wieser
     - avatar_url: https://avatars2.githubusercontent.com/u/45071?v=4
       bio: Researcher at Berkeley Institute for Data Science, open source scientific
@@ -547,7 +629,7 @@ main:
       created_at: '2009-01-08T12:17:56Z'
       email: null
       events_url: https://api.github.com/users/stefanv/events{/privacy}
-      followers: 533
+      followers: 572
       followers_url: https://api.github.com/users/stefanv/followers
       following: 7
       following_url: https://api.github.com/users/stefanv/following{/other_user}
@@ -561,15 +643,16 @@ main:
       name: Stefan van der Walt
       node_id: MDQ6VXNlcjQ1MDcx
       organizations_url: https://api.github.com/users/stefanv/orgs
-      public_gists: 106
-      public_repos: 190
+      public_gists: 107
+      public_repos: 192
       received_events_url: https://api.github.com/users/stefanv/received_events
       repos_url: https://api.github.com/users/stefanv/repos
       site_admin: false
       starred_url: https://api.github.com/users/stefanv/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/stefanv/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-14T17:21:13Z'
+      updated_at: '2020-08-04T08:12:23Z'
       url: https://api.github.com/users/stefanv
     - avatar_url: https://avatars1.githubusercontent.com/u/35046?v=4
       bio: null
@@ -578,7 +661,7 @@ main:
       created_at: '2008-11-17T20:04:29Z'
       email: null
       events_url: https://api.github.com/users/pv/events{/privacy}
-      followers: 122
+      followers: 132
       followers_url: https://api.github.com/users/pv/followers
       following: 0
       following_url: https://api.github.com/users/pv/following{/other_user}
@@ -593,14 +676,15 @@ main:
       node_id: MDQ6VXNlcjM1MDQ2
       organizations_url: https://api.github.com/users/pv/orgs
       public_gists: 51
-      public_repos: 105
+      public_repos: 109
       received_events_url: https://api.github.com/users/pv/received_events
       repos_url: https://api.github.com/users/pv/repos
       site_admin: false
       starred_url: https://api.github.com/users/pv/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/pv/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-03-19T13:18:23Z'
+      updated_at: '2020-08-08T12:05:34Z'
       url: https://api.github.com/users/pv
     - avatar_url: https://avatars3.githubusercontent.com/u/98330?v=4
       bio: NumPy, SciPy, PyWavelets maintainer. Building open source communities at
@@ -610,7 +694,7 @@ main:
       created_at: '2009-06-23T23:16:22Z'
       email: null
       events_url: https://api.github.com/users/rgommers/events{/privacy}
-      followers: 240
+      followers: 281
       followers_url: https://api.github.com/users/rgommers/followers
       following: 14
       following_url: https://api.github.com/users/rgommers/following{/other_user}
@@ -625,14 +709,15 @@ main:
       node_id: MDQ6VXNlcjk4MzMw
       organizations_url: https://api.github.com/users/rgommers/orgs
       public_gists: 17
-      public_repos: 83
+      public_repos: 87
       received_events_url: https://api.github.com/users/rgommers/received_events
       repos_url: https://api.github.com/users/rgommers/repos
       site_admin: false
       starred_url: https://api.github.com/users/rgommers/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/rgommers/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-12T10:08:05Z'
+      updated_at: '2020-08-06T13:57:14Z'
       url: https://api.github.com/users/rgommers
     - avatar_url: https://avatars3.githubusercontent.com/u/77272?v=4
       bio: null
@@ -641,7 +726,7 @@ main:
       created_at: '2009-04-24T04:37:21Z'
       email: null
       events_url: https://api.github.com/users/charris/events{/privacy}
-      followers: 83
+      followers: 86
       followers_url: https://api.github.com/users/charris/followers
       following: 2
       following_url: https://api.github.com/users/charris/following{/other_user}
@@ -655,15 +740,16 @@ main:
       name: Charles Harris
       node_id: MDQ6VXNlcjc3Mjcy
       organizations_url: https://api.github.com/users/charris/orgs
-      public_gists: 1
+      public_gists: 2
       public_repos: 19
       received_events_url: https://api.github.com/users/charris/received_events
       repos_url: https://api.github.com/users/charris/repos
       site_admin: false
       starred_url: https://api.github.com/users/charris/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/charris/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-07T20:32:26Z'
+      updated_at: '2020-06-03T01:08:19Z'
       url: https://api.github.com/users/charris
     - avatar_url: https://avatars1.githubusercontent.com/u/61977?v=4
       bio: null
@@ -672,7 +758,7 @@ main:
       created_at: '2009-03-10T13:37:39Z'
       email: null
       events_url: https://api.github.com/users/seberg/events{/privacy}
-      followers: 29
+      followers: 37
       followers_url: https://api.github.com/users/seberg/followers
       following: 0
       following_url: https://api.github.com/users/seberg/following{/other_user}
@@ -686,15 +772,16 @@ main:
       name: Sebastian Berg
       node_id: MDQ6VXNlcjYxOTc3
       organizations_url: https://api.github.com/users/seberg/orgs
-      public_gists: 15
+      public_gists: 16
       public_repos: 27
       received_events_url: https://api.github.com/users/seberg/received_events
       repos_url: https://api.github.com/users/seberg/repos
       site_admin: false
       starred_url: https://api.github.com/users/seberg/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/seberg/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-03-13T16:11:57Z'
+      updated_at: '2020-06-23T01:39:59Z'
       url: https://api.github.com/users/seberg
     - avatar_url: https://avatars1.githubusercontent.com/u/542663?v=4
       bio: null
@@ -703,7 +790,7 @@ main:
       created_at: '2010-12-31T14:04:50Z'
       email: null
       events_url: https://api.github.com/users/juliantaylor/events{/privacy}
-      followers: 23
+      followers: 25
       followers_url: https://api.github.com/users/juliantaylor/followers
       following: 2
       following_url: https://api.github.com/users/juliantaylor/following{/other_user}
@@ -718,14 +805,15 @@ main:
       node_id: MDQ6VXNlcjU0MjY2Mw==
       organizations_url: https://api.github.com/users/juliantaylor/orgs
       public_gists: 16
-      public_repos: 43
+      public_repos: 46
       received_events_url: https://api.github.com/users/juliantaylor/received_events
       repos_url: https://api.github.com/users/juliantaylor/repos
       site_admin: false
       starred_url: https://api.github.com/users/juliantaylor/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/juliantaylor/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-01-02T17:01:56Z'
+      updated_at: '2020-06-11T09:10:39Z'
       url: https://api.github.com/users/juliantaylor
     - avatar_url: https://avatars3.githubusercontent.com/u/5585221?v=4
       bio: null
@@ -734,7 +822,7 @@ main:
       created_at: '2013-10-01T11:57:59Z'
       email: null
       events_url: https://api.github.com/users/bashtage/events{/privacy}
-      followers: 338
+      followers: 527
       followers_url: https://api.github.com/users/bashtage/followers
       following: 0
       following_url: https://api.github.com/users/bashtage/following{/other_user}
@@ -748,15 +836,16 @@ main:
       name: Kevin Sheppard
       node_id: MDQ6VXNlcjU1ODUyMjE=
       organizations_url: https://api.github.com/users/bashtage/orgs
-      public_gists: 1
-      public_repos: 36
+      public_gists: 2
+      public_repos: 32
       received_events_url: https://api.github.com/users/bashtage/received_events
       repos_url: https://api.github.com/users/bashtage/repos
       site_admin: false
       starred_url: https://api.github.com/users/bashtage/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/bashtage/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-01T22:01:09Z'
+      updated_at: '2020-08-08T21:55:59Z'
       url: https://api.github.com/users/bashtage
     - avatar_url: https://avatars2.githubusercontent.com/u/67612?v=4
       bio: null
@@ -765,7 +854,7 @@ main:
       created_at: '2009-03-26T21:53:42Z'
       email: null
       events_url: https://api.github.com/users/matthew-brett/events{/privacy}
-      followers: 222
+      followers: 232
       followers_url: https://api.github.com/users/matthew-brett/followers
       following: 0
       following_url: https://api.github.com/users/matthew-brett/following{/other_user}
@@ -779,15 +868,16 @@ main:
       name: Matthew Brett
       node_id: MDQ6VXNlcjY3NjEy
       organizations_url: https://api.github.com/users/matthew-brett/orgs
-      public_gists: 78
-      public_repos: 376
+      public_gists: 82
+      public_repos: 394
       received_events_url: https://api.github.com/users/matthew-brett/received_events
       repos_url: https://api.github.com/users/matthew-brett/repos
       site_admin: false
       starred_url: https://api.github.com/users/matthew-brett/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/matthew-brett/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-13T11:57:13Z'
+      updated_at: '2020-08-08T00:35:36Z'
       url: https://api.github.com/users/matthew-brett
     - avatar_url: https://avatars2.githubusercontent.com/u/321463?v=4
       bio: null
@@ -796,7 +886,7 @@ main:
       created_at: '2010-07-02T20:57:40Z'
       email: null
       events_url: https://api.github.com/users/WarrenWeckesser/events{/privacy}
-      followers: 59
+      followers: 67
       followers_url: https://api.github.com/users/WarrenWeckesser/followers
       following: 0
       following_url: https://api.github.com/users/WarrenWeckesser/following{/other_user}
@@ -810,15 +900,16 @@ main:
       name: Warren Weckesser
       node_id: MDQ6VXNlcjMyMTQ2Mw==
       organizations_url: https://api.github.com/users/WarrenWeckesser/orgs
-      public_gists: 23
-      public_repos: 44
+      public_gists: 24
+      public_repos: 45
       received_events_url: https://api.github.com/users/WarrenWeckesser/received_events
       repos_url: https://api.github.com/users/WarrenWeckesser/repos
       site_admin: false
       starred_url: https://api.github.com/users/WarrenWeckesser/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/WarrenWeckesser/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-06T11:11:31Z'
+      updated_at: '2020-07-31T03:20:53Z'
       url: https://api.github.com/users/WarrenWeckesser
     - avatar_url: https://avatars0.githubusercontent.com/u/823911?v=4
       bio: null
@@ -827,7 +918,7 @@ main:
       created_at: '2011-06-01T19:55:55Z'
       email: null
       events_url: https://api.github.com/users/mattip/events{/privacy}
-      followers: 62
+      followers: 72
       followers_url: https://api.github.com/users/mattip/followers
       following: 3
       following_url: https://api.github.com/users/mattip/following{/other_user}
@@ -841,15 +932,16 @@ main:
       name: Matti Picus
       node_id: MDQ6VXNlcjgyMzkxMQ==
       organizations_url: https://api.github.com/users/mattip/orgs
-      public_gists: 45
-      public_repos: 63
+      public_gists: 48
+      public_repos: 74
       received_events_url: https://api.github.com/users/mattip/received_events
       repos_url: https://api.github.com/users/mattip/repos
       site_admin: false
       starred_url: https://api.github.com/users/mattip/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/mattip/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-14T09:56:34Z'
+      updated_at: '2020-08-07T14:27:38Z'
       url: https://api.github.com/users/mattip
     - avatar_url: https://avatars0.githubusercontent.com/u/7903078?v=4
       bio: Core developer of SciPy and MDAnalysis libraries. LANL owns my contributions
@@ -859,7 +951,7 @@ main:
       created_at: '2014-06-16T14:02:26Z'
       email: null
       events_url: https://api.github.com/users/tylerjereddy/events{/privacy}
-      followers: 66
+      followers: 74
       followers_url: https://api.github.com/users/tylerjereddy/followers
       following: 0
       following_url: https://api.github.com/users/tylerjereddy/following{/other_user}
@@ -874,14 +966,15 @@ main:
       node_id: MDQ6VXNlcjc5MDMwNzg=
       organizations_url: https://api.github.com/users/tylerjereddy/orgs
       public_gists: 5
-      public_repos: 73
+      public_repos: 77
       received_events_url: https://api.github.com/users/tylerjereddy/received_events
       repos_url: https://api.github.com/users/tylerjereddy/repos
       site_admin: false
       starred_url: https://api.github.com/users/tylerjereddy/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/tylerjereddy/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-03-23T15:05:35Z'
+      updated_at: '2020-07-22T14:51:55Z'
       url: https://api.github.com/users/tylerjereddy
     webpeople:
     - avatar_url: https://avatars0.githubusercontent.com/u/3891660?v=4
@@ -891,7 +984,7 @@ main:
       created_at: '2013-03-17T17:07:39Z'
       email: null
       events_url: https://api.github.com/users/joelachance/events{/privacy}
-      followers: 9
+      followers: 11
       followers_url: https://api.github.com/users/joelachance/followers
       following: 4
       following_url: https://api.github.com/users/joelachance/following{/other_user}
@@ -906,14 +999,15 @@ main:
       node_id: MDQ6VXNlcjM4OTE2NjA=
       organizations_url: https://api.github.com/users/joelachance/orgs
       public_gists: 3
-      public_repos: 26
+      public_repos: 31
       received_events_url: https://api.github.com/users/joelachance/received_events
       repos_url: https://api.github.com/users/joelachance/repos
       site_admin: false
       starred_url: https://api.github.com/users/joelachance/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/joelachance/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-03-27T18:33:17Z'
+      updated_at: '2020-07-29T00:15:10Z'
       url: https://api.github.com/users/joelachance
     - avatar_url: https://avatars0.githubusercontent.com/u/43481325?v=4
       bio: null
@@ -922,9 +1016,9 @@ main:
       created_at: '2018-09-21T19:00:11Z'
       email: null
       events_url: https://api.github.com/users/InessaPawson/events{/privacy}
-      followers: 3
+      followers: 7
       followers_url: https://api.github.com/users/InessaPawson/followers
-      following: 1
+      following: 0
       following_url: https://api.github.com/users/InessaPawson/following{/other_user}
       gists_url: https://api.github.com/users/InessaPawson/gists{/gist_id}
       gravatar_id: ''
@@ -943,8 +1037,9 @@ main:
       site_admin: false
       starred_url: https://api.github.com/users/InessaPawson/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/InessaPawson/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-03-28T06:30:35Z'
+      updated_at: '2020-08-07T07:37:23Z'
       url: https://api.github.com/users/InessaPawson
     - avatar_url: https://avatars2.githubusercontent.com/u/46167686?v=4
       bio: Full-stack engineer at Quansight Labs. Graduate of QCC CUNYTechworks.
@@ -953,7 +1048,7 @@ main:
       created_at: '2018-12-26T18:31:08Z'
       email: null
       events_url: https://api.github.com/users/MarsBarLee/events{/privacy}
-      followers: 14
+      followers: 16
       followers_url: https://api.github.com/users/MarsBarLee/followers
       following: 18
       following_url: https://api.github.com/users/MarsBarLee/following{/other_user}
@@ -974,8 +1069,9 @@ main:
       site_admin: false
       starred_url: https://api.github.com/users/MarsBarLee/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/MarsBarLee/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-03T18:35:42Z'
+      updated_at: '2020-07-27T16:54:29Z'
       url: https://api.github.com/users/MarsBarLee
     - avatar_url: https://avatars0.githubusercontent.com/u/5890484?v=4
       bio: Technology Marketing Consultant, SW Engineer, two decades of cutting edge
@@ -985,9 +1081,9 @@ main:
       created_at: '2013-11-08T17:34:59Z'
       email: null
       events_url: https://api.github.com/users/shaloo/events{/privacy}
-      followers: 4
+      followers: 3
       followers_url: https://api.github.com/users/shaloo/followers
-      following: 5
+      following: 6
       following_url: https://api.github.com/users/shaloo/following{/other_user}
       gists_url: https://api.github.com/users/shaloo/gists{/gist_id}
       gravatar_id: ''
@@ -1006,8 +1102,9 @@ main:
       site_admin: false
       starred_url: https://api.github.com/users/shaloo/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/shaloo/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-14T06:13:14Z'
+      updated_at: '2020-08-04T11:45:20Z'
       url: https://api.github.com/users/shaloo
     - avatar_url: https://avatars3.githubusercontent.com/u/98330?v=4
       bio: NumPy, SciPy, PyWavelets maintainer. Building open source communities at
@@ -1017,7 +1114,7 @@ main:
       created_at: '2009-06-23T23:16:22Z'
       email: null
       events_url: https://api.github.com/users/rgommers/events{/privacy}
-      followers: 240
+      followers: 281
       followers_url: https://api.github.com/users/rgommers/followers
       following: 14
       following_url: https://api.github.com/users/rgommers/following{/other_user}
@@ -1032,14 +1129,15 @@ main:
       node_id: MDQ6VXNlcjk4MzMw
       organizations_url: https://api.github.com/users/rgommers/orgs
       public_gists: 17
-      public_repos: 83
+      public_repos: 87
       received_events_url: https://api.github.com/users/rgommers/received_events
       repos_url: https://api.github.com/users/rgommers/repos
       site_admin: false
       starred_url: https://api.github.com/users/rgommers/starred{/owner}{/repo}
       subscriptions_url: https://api.github.com/users/rgommers/subscriptions
+      twitter_username: null
       type: User
-      updated_at: '2020-04-12T10:08:05Z'
+      updated_at: '2020-08-06T13:57:14Z'
       url: https://api.github.com/users/rgommers
     webteam:
     - joelachance

@@ -13,8 +13,3 @@ OR/AND
 Describe your changes here
 -->
 
-#### Deployed URL
-
-<!-- replace <pr_number> with your pr number -->
-
-http://numpy-<pr_number>.surge.sh/

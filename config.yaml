@@ -12,6 +12,8 @@ markup:
 
 params:
   description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
+  images:
+  - images/logos/numpy.svg
   navColor: blue
   navbarlogo:
     image: logos/numpy.svg
@@ -32,8 +34,8 @@ params:
     image: logos/numpy.svg
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
-    title: NumPy Community Survey is LIVE!
-    content: help us make NumPy better
+    title: NumPy v1.19.0
+    content: First Python 3 only release - Cython interface to numpy.random complete
     url: /news
 
   shell:

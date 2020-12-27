@@ -1,5 +1,7 @@
 # Numpy.org
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/efd504a5-56ff-4f46-8a51-b6d4bb338c59/deploy-status)](https://app.netlify.com/sites/numpy/deploys)
+
 ## Getting Started
 
 To contribute to the website, you'll first need to install the *extended
@@ -15,19 +17,19 @@ install it per https://gohugo.io/getting-started/installing/#install-hugo-from-t
 
 Next, clone this repository, and install the theme:
 
-```
+```bash
 git submodule update --init
 ```
 
 The development web server is started with:
 
-```
+```bash
 hugo server
 ```
 
 or
 
-```
+```bash
 hugo server -D
 ```
 
@@ -36,35 +38,13 @@ to run the hugo server with draft enabled.
 after which the site should be served at http://localhost:1313.
 
 You'll see
-```
+
+```bash
 error: failed to transform resource: TOCSS: failed to transform "style.sass"
 ```
+
 if you don't have the Hugo extended version.
 
-
-## Using docker:
-
-* Build the docker image:
-
-```
-
-  $ docker build -t deploy_surge .
-  $ docker images
-
-```
-
-Run the image:
-
-```
-  $ docker run -e SURGE_LOGIN=${SURGE_LOGIN} -e SURGE_TOKEN=${SURGE_TOKEN} -e PR_NUMBER=${TRAVIS_PULL_REQUEST} deploy_surge
-```
-
-Note: `SURGE_LOGIN` and `SURGE_TOKEN` is needed only when you want to push the
-build in surge server. The URL will look like: numpy-${PR_NUMBER}.surge.sh
-
-So you can use some random number instead of `TRAVIS_PULL_REQUEST` variable.
-
-You also can run the docker image in daemon mode and then interact with the container and run the hugo server.
 
 ## User Experience (UX)
 
@@ -84,3 +64,8 @@ You also can run the docker image in daemon mode and then interact with the cont
 
 ![#FFFFFF White](./static/images/content_images/swatch_FFFFFF_white.png) `#FFFFFF` **White**
 
+## Deployment
+
+Submit pull requests first, those get run on [Netlify](https://quansight-labs.netlify.app/) and you can see a build preview by clicking on the `details` link at the bottom.
+
+![Build previews](images/readme-build-previews.png)
