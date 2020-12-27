@@ -90,7 +90,7 @@ dependency chart below.
 
 [ehtim]: https://github.com/achael/eht-imaging
 
-Besides NumPy, many other packages. such as
+Besides NumPy, many other packages, such as
 [SciPy](https://www.scipy.org) and [Pandas](https://pandas.io), are part of the
 data processing pipeline for imaging the black hole.
 The standard astronomical file formats and time/coordinate transformations
@@ -103,13 +103,14 @@ of the final image of the black hole.
 
 ## Summary
 
-The efficient and adaptable n-dimensional array that is NumPy's central feature enabled researchers to manipulate large numerical datasets, providing a foundation for the
-first-ever image of
-a black hole. A landmark moment in science, it gives stunning visual evidence of Einstein’s
-theory. The achievement encompasses not only
-technological breakthroughs but also international collaboration
-among over 200 scientists and some of the world's best radio observatories.
-Innovative algorithms and data processing techniques, improving upon existing
-astronomical models, helped unfold a mystery of the universe.
+The efficient and adaptable n-dimensional array that is NumPy's central feature
+enabled researchers to manipulate large numerical datasets, providing a
+foundation for the first-ever image of a black hole. A landmark moment in
+science, it gives stunning visual evidence of Einstein’s theory. The
+achievement encompasses not only technological breakthroughs but also
+international collaboration among over 200 scientists and some of the world's
+best radio observatories.  Innovative algorithms and data processing
+techniques, improving upon existing astronomical models, helped unfold a
+mystery of the universe.
 
 {{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**Key NumPy Capabilities utilized**" >}}
