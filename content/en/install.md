@@ -182,36 +182,18 @@ tool (there are many!) for dealing with environments or complex dependencies.
 
 ### Reproducible installs
 
-Making the installation of all the packages your analysis, library or
-application depends on reproducible is important. Sounds obvious, yet most
-users don't think about doing this (at least until it's too late).
+As libraries get updated, results from running your code can change, or your
+code can break completely. It's important to be able to reconstruct the set
+of packages and versions you're using. Best practice is to:
 
-The problem with Python packaging is that sooner or later, something will
-break. It's not often this bad,
-
-{{< figure src="/images/content_images/python_environment_xkcd.png"
-           alt="Python Environment XKCD image"
-           link="https://xkcd.com/1987/"
-           width="400"
-           attr="_XKCD illustration - Python environment degradation_">}}
-
-but it does degrade over time. Hence, it's important to be able to delete and
-reconstruct the set of packages you have installed.
-
-Best practice is to use a different environment per project you're working on,
-and record at least the names (and preferably versions) of the packages you
-directly depend on in a static metadata file. Each packaging tool has its own
-metadata format for this:
-- Conda: [conda environments and environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
-- Pip: [virtual environments](https://docs.python.org/3/tutorial/venv.html) and
+1. use a different environment per project you're working on,
+2. record package names and versions using your package installer;
+   each has its own metadata format for this:
+   - Conda: [conda environments and environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
+   - Pip: [virtual environments](https://docs.python.org/3/tutorial/venv.html) and
   [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
-- Poetry: [virtual environments and pyproject.toml](https://python-poetry.org/docs/basic-usage/)
+   - Poetry: [virtual environments and pyproject.toml](https://python-poetry.org/docs/basic-usage/)
 
-Sometimes it's too much overhead to create and switch between new environments
-for small tasks. In that case we encourage you to not install too many packages
-into your base environment, and keep track of versions of packages some other
-way (e.g. comments inside files, or printing `numpy.__version__` after
-importing it in notebooks).
 
 
 ## NumPy packages & accelerated linear algebra libraries
