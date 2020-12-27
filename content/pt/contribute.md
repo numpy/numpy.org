@@ -25,10 +25,9 @@ Nossa comunidade deseja tratar todos da mesma forma e valorizar todas as contrib
 
 Para o processo de contribuição para a base de código do NumPy, temos um [guia para desenvolvedores](https://numpy.org/devdocs/dev/index.html#development-process-summary). Não trabalhamos com a atribuição de issues - se você vê algo interessante, por favor, vá em frente!
 
-Para outras atividades, tentaremos fornecer algumas orientações nesta página. Se você não tem certeza de onde começar ou como suas habilidades podem ser importantes para o projeto, _entre em contato conosco_! Você pode perguntar na [lista de e-mails](https://mail.python.org/mailman/listinfo/numpy-discussion) ou [no GitHub](http://github.com/numpy/numpy) (abrir uma issue ou comentar em uma issue relevante). Estes são os nossos canais de comunicação preferidos (projetos de código aberto são abertos por natureza!), no entanto, se você preferir discutir em privado, entre em contato com os coordenadores da comunidade em `numpy-team@googlegroups.com` ou no [Slack](https://numpy-team.slack.com) (envie um e-mail para `numpy-team@googlegroups.com` para obter um convite antes de entrar).
+Para outras atividades, tentaremos fornecer algumas orientações nesta página. Se você não tem certeza de onde começar ou como suas habilidades podem ser importantes para o projeto, _entre em contato conosco_! Você pode perguntar na [lista de e-mails](https://mail.python.org/mailman/listinfo/numpy-discussion) ou [no GitHub](http://github.com/numpy/numpy) (abrir uma issue ou comentar em uma issue relevante). Estes são os nossos canais de comunicação preferidos (projetos de código aberto são abertos por natureza!), no entanto, se você preferir discutir em privado, entre em contato com os coordenadores da comunidade em `numpy-team@googlegroups.com` ou no [Slack](https://numpy-team.slack.com) (envie um e-mail para `numpy-team@googlegroups.com` para obter um convite antes de entrar). We also have a bi-weekly _community call_, the details of which are announced on the mailing list. You are very welcome to join this call!
 
-Também temos uma _reunião da comunidade_ uma vez a cada duas semanas, cujos detalhes são anunciados na lista de discussão. Convidamos você a participar desta chamada se quiser!
-
+If you are new to contributing to open source, we also highly recommend reading [this guide](https://opensource.guide/how-to-contribute/).
 
 ### Desenvolvimento de materiais educacionais
 
