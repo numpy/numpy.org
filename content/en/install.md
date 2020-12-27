@@ -9,8 +9,9 @@ Python yet and want the simplest way to get started, we recommend you use the
 Python, NumPy, and many other commonly used packages for scientific computing
 and data science.
 
-NumPy can be installed with `conda`, with `pip`, or with a package manager on
-macOS and Linux. For more detailed instructions, consult our [Python and NumPy
+NumPy can be installed with `conda`, with `pip`, with a package manager on
+macOS and Linux, or [from source](https://numpy.org/devdocs/user/building.html).
+For more detailed instructions, consult our [Python and NumPy
 installation guide](#python-numpy-install-guide) below.
 
 ## conda
@@ -131,10 +132,6 @@ IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
 Importing the numpy c-extensions failed. This error can happen for
 different reasons, often due to issues with your setup.
 ```
-
-## Building from source
-
-See [Building from source](https://numpy.org/devdocs/user/building.html).
 
 
 ## Python package management
