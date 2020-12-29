@@ -49,17 +49,17 @@ Numpy プロジェクトは拡大しているため、いくつかのチーム�
 
 ## スポンサー情報
 
-NumPy receives direct funding from the following sources:
+Numpyは以下の団体から直接資金援助を受けています。
 {{< sponsors >}}
 
 
-## Institutional Partners
+## パートナー団体
 
-Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include:
-{{< partners >}}
+パートナー団体は、Numpyへの開発を仕事の一つとして、社員を雇っている団体です。 現在のパートナー団体としては、下記の通りです。
+{{< partner >}}
 
 
-## Donate
+## 寄付
 
 If you have found NumPy useful in your work, research, or company, please consider a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation, and community.
 
