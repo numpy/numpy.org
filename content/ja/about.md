@@ -5,17 +5,17 @@ sidebar: false
 
 _このページでは、NumPyのプロジェクトとそれを支えるコミュニティについて説明します。_
 
-Numpy は Python を使った数値計算のためのオープンソースプロジェクトです。 Numpyは、Numerical and Numarrayライブラリの初期のコードを基に、2005年から開発がスタートしました。 NumPy will always be 100% open source software, free for all to use and released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt).
+Numpy は Python を使った数値計算のためのオープンソースプロジェクトです。 Numpyは、Numerical and Numarrayライブラリの初期のコードを基に、2005年から開発がスタートしました。 NumPyは開発当初から100%オープンソースソフトウェアとして開発されてきました。[修正BSD ライセンス](https://github.com/numpy/numpy/blob/master/LICENSE.txt) の条項の下で、すべての人が利用可能です。
 
-NumPy is developed in the open on GitHub, through the consensus of the NumPy and wider scientific Python community. For more information on our governance approach, please see our [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
+Numpy は 、様々な科学Python コミュニティとのコンセンサスを得ながら、GitHub 上でオープンに開発されています。 Numpyのガバナンス方法の詳細については、 [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html) をご覧ください。
 
 
-## Steering Council
+## 運営委員会
 
-The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community. The NumPy Steering Council currently consists of the following members (in alphabetical order):
+Numpy運営委員会の役割は、Numpyのコミュニティと協力しサポートすることを通じて、技術的にもコミュニティ的にも長期的にNumpyプロジェクトを良い状態に保つことです。 Numpy運営委員会は現在以下のメンバーで構成されています (アルファベット順):
 
 - Sebastian Berg
-- Jaime Fernández del Río
+- Jaime Fernández del Río
 - Ralf Gommers
 - Allan Haldane
 - Charles Harris
@@ -24,16 +24,16 @@ The role of the NumPy Steering Council is to ensure, through working with and se
 - Nathaniel Smith
 - Julian Taylor
 - Pauli Virtanen
-- Stéfan van der Walt
+- Stéfan van der Walt
 - Eric Wieser
 
-Emeritus:
+終身名誉委員
 
-- Travis Oliphant (project founder, 2005-2012)
+- Travis Oliphant (プロジェクト創設者, 2005-2012)
 - Alex Griffing (2015-2017)
 - Marten van Kerkwijk (2017-2019)
 
-## Teams
+## チーム
 
 The NumPy project is growing; we have teams for
 
