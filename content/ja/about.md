@@ -35,19 +35,19 @@ Numpy運営委員会の役割は、Numpyのコミュニティと協力しサポ�
 
 ## チーム
 
-The NumPy project is growing; we have teams for
+Numpy プロジェクトは拡大しているため、いくつかのチームが設置されています。
 
-- code
-- documentation
-- website
-- triage
-- funding and grants
-- admin
+- コード
+- ドキュメント
+- ウェブサイト
+- トリアージ
+- 資金と助成金
+- 管理
 
-See the [Team](/gallery/team.html) page for individual team members.
+個々のチームメンバーについては、 [チーム](/gallery/team.html) のページを参照してください。
 
 
-## Sponsors
+## スポンサー情報
 
 NumPy receives direct funding from the following sources:
 {{< sponsors >}}
