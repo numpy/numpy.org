@@ -61,11 +61,11 @@ Numpyは以下の団体から直接資金援助を受けています。
 
 ## 寄付
 
-If you have found NumPy useful in your work, research, or company, please consider a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation, and community.
+NumPy があなたの仕事や研究、ビジネスで役に立った場合、できる範囲で良いので、是非、Numpyプロジェクトへの寄付を検討して頂けると助かります。 少額の寄付でも大きな助けになります。 すべての寄付は、NumPyのオープンソースソフトウェア、ドキュメント、コミュニティの開発のために使用されることが約束されています。
 
-NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit [numfocus.org](https://numfocus.org) for more information.
+Numpy は NumFOCUS にスポンサーされたプロジェクトであり、米国の 501(c)(3) 非営利の慈善団体でもあります。 NumFOCUSは、Numpyプロジェクトに財政、法務、管理面でのサポートを提供し、プロジェクトの安定と持続可能性を保つ手助けをしています。 詳細については、 [numfocus.org](https://numfocus.org) をご覧ください。
 
-Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax advisor about your particular tax situation.
+Numpy への寄付は [NumFOCUS](https://numfocus.org) によって管理されています。 米国の寄付提供者の場合、その人の寄付は法律によって定められる範囲で免税されます。 但し、他の寄付と同様に、あなたはあなたの税務状況について、あなたの税務担当と相談する必要があることを忘れないで下さい。
 
-NumPy's Steering Council will make the decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
+Numpyの運営委員会は、受け取った資金をどのように使えば良いかを検討し、使用する方法について決定します. Numpyに関する技術とインフラの投資の優先順位に関しては、[Numpy Roadmap](https://www.numpy.org/neps/index.html#roadmap) に記載されています。
 {{< numfocus >}}
