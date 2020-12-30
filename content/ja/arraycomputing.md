@@ -1,13 +1,13 @@
 ---
-title: Array Computing
+title: 配列計算
 sidebar: false
 ---
 
-*Array computing is the foundation of statistical, mathematical, scientific computing in various contemporary data science and analytics applications such as data visualization, digital signal processing, image processing, bioinformatics, machine learning, AI, and several others.*
+*配列計算は統計、数学、科学計算の基礎です。可視化、信号処理、画像処理、生命情報学、機械学習、人工知能など、現代のデータサイエンスやデータ分析の様々な分野でも配列計算は中核を担っています。*
 
-Large scale data manipulation and transformation depends on efficient, high-performance array computing. The language of choice for data analytics, machine learning, and productive numerical computing is **Python.**
+大規模なデータ処理やデータ変換には、効率的な配列計算が重要です。 データ分析や、機械学習、効率的な数値計算に最適な言語のひとつは **Python** です。
 
-**Num**erical **Py**thon or NumPy is its de-facto standard Python programming language library that supports large, multi-dimensional arrays and matrices, and comes with a vast collection of high-level mathematical functions to operate on these arrays.
+**Num**erical **Py**thon: NumPyは、大規模な多次元配列や行列、そして、それらの配列を処理する様々な分野の数学ルーチンをサポートする、Pythonにおけるデファクトスタンダードなライブラリです。
 
 Since the launch of NumPy in 2006, Pandas appeared on the landscape in 2008, and it was not until a couple of years ago that several array computing libraries showed up in succession, crowding the array computing landscape. Many of these newer libraries mimic NumPy-like features and capabilities, and pack newer algorithms and features geared towards machine learning and artificial intelligence applications.
 
