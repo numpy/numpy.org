@@ -1,5 +1,5 @@
 ---
-title: Citing NumPy
+title: NumPy を引用する場合
 sidebar: false
 ---
 
