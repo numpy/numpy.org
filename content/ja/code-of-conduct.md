@@ -1,13 +1,13 @@
 ---
-title: NumPy Code of Conduct
+title: Numpy行動規範
 sidebar: false
 aliases:
   - /conduct.html
 ---
 
-### Introduction
+### はじめに
 
-This Code of Conduct applies to all spaces managed by the NumPy project, including all public and private mailing lists, issue trackers, wikis, blogs, Twitter, and any other communication channel used by our community. The NumPy project does not organise in-person events, however events related to our community should have a code of conduct similar in spirit to this one.
+この行動規範は、NumPy プロジェクトによって管理されるすべての場所で適用されます。この場所とは、すべてのパブリックおよびプライベートのメーリングリスト、イシュートラッカー、Wiki、ブログ、Twitter、コミュニティで使用されているその他の通信チャンネルなどを含みます。 The NumPy project does not organise in-person events, however events related to our community should have a code of conduct similar in spirit to this one.
 
 This Code of Conduct should be honored by everyone who participates in the NumPy community formally or informally, or claims any affiliation with the project, in any project-related activities and especially when representing the project, in any role.
 
