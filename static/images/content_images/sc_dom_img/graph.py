@@ -14,9 +14,9 @@ pos = {1: (0, 0), 2: (-1, 0.3), 3: (2, 0.17), 4: (4, 0.255), 5: (5, 0.03)}
 
 options = {
     "node_size": 4000,
-    "node_color": "powderblue",
-    "edge_color": "dimgray",
-    "edgecolors": "dimgray",
+    "node_color": "white",
+    "edge_color": "black",
+    "edgecolors": "black",
     "linewidths": 20,
     "width": 20,
 }
