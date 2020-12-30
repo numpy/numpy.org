@@ -1,21 +1,21 @@
 ---
-title: 配列計算
+title: 配列演算
 sidebar: false
 ---
 
-*配列計算は統計、数学、科学計算の基礎です。可視化、信号処理、画像処理、生命情報学、機械学習、人工知能など、現代のデータサイエンスやデータ分析の様々な分野でも配列計算は中核を担っています。*
+*配列演算は統計、数学、科学計算の基礎です。可視化、信号処理、画像処理、生命情報学、機械学習、人工知能など、現代のデータサイエンスやデータ分析の様々な分野でも配列演算は中核を担っています。*
 
-大規模なデータ処理やデータ変換には、効率的な配列計算が重要です。 データ分析や、機械学習、効率的な数値計算に最適な言語のひとつは **Python** です。
+大規模なデータ処理やデータ変換には、効率的な配列演算が重要です。 データ分析や、機械学習、効率的な数値計算に最適な言語のひとつは **Python** です。
 
 **Num**erical **Py**thon: NumPyは、大規模な多次元配列や行列、そして、それらの配列を処理する様々な分野の数学ルーチンをサポートする、Pythonにおけるデファクトスタンダードなライブラリです。
 
-Since the launch of NumPy in 2006, Pandas appeared on the landscape in 2008, and it was not until a couple of years ago that several array computing libraries showed up in succession, crowding the array computing landscape. Many of these newer libraries mimic NumPy-like features and capabilities, and pack newer algorithms and features geared towards machine learning and artificial intelligence applications.
+2006年にNumpyが発表されてから、2008年にPandasが登場し、その後、数年間にいくつかの配列演算関連のライブラリが次々と現れるようになりました。そこから配列演算界隈は盛り上がり始めました。 これらの新しい配列演算ライブラリの多くは、Numpy 似た機能を模倣しており、機械学習や人工知能に適した、新しいアルゴリズムや機能を有しています。
 
 <img
   src="/images/content_images/array_c_landscape.png"
   alt="arraycl"
-  title="Array Computing Landscape" />
+  title="配列演算の概略" />
 
-**Array computing** is based on **arrays** data structures. *Arrays* are used to organize vast amounts of data such that a related set of values can be easily sorted, searched, mathematically manipulated, and transformed easily and quickly.
+**配列演算** は **配列** のデータ構造に基づいています。 *配列* は、関連する膨大なデータ群を簡単にかつ高速に、ソート、検索、変換、数学処理できるように構成されています。
 
-Array computing is *unique* as it involves operating on the data array *at once*. What this means is that any array operation applies to an entire set of values in one shot. This vectorized approach provides speed and simplicity by enabling programmers to code and operate on aggregates of data, without having to use loops of individual scalar operations.
+配列演算は *一度に* 配列のデータの複数の要素を操作するため、 * ユニーク* な処理と言えます。 これは、配列操作が一回の処理で、配列内の 値の全体に適用されることを意味しています。 このベクトル演算は、高速で、シンプルな処理を実現し、ループによる配列の個々の要素のスカラー演算無しに、データを処理することを可能にします。
