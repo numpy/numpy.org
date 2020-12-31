@@ -17,7 +17,7 @@ aliases:
 
 私たちは下記の内容に真摯に取り組みます。
 
-1. 開けたコミュニティであれ 私たちは、誰でもコミュニティに参加できるようにします。 私たちは、何かあまり公にすべきではない内容を議論しない限り、プロジェクト関連のメッセージにはパブリックな通信方法を使用するように努めます。 This applies to messages for help or project-related support, too; not only is a public support request much more likely to result in an answer to a question, it also ensures that any inadvertent mistakes in answering are more easily detected and corrected.
+1. 開けたコミュニティであれ 私たちは、誰でもコミュニティに参加できるようにします。 私たちは、何かあまり公にすべきではない内容を議論しない限り、プロジェクト関連のメッセージにはパブリックな通信方法を使用するように努めます。 この行動規範はNumpyのヘルプやプロジェクト関連のサポートのメッセージにも適用されます。パブリックなサポートだけでなく、Numpyに関する質問に答える場合もこの行動規範に従うことがひです。 これにより、質問に答えた時の、無意識な間違いを、より簡単に検出し、訂正できるようになります。
 2. Be empathetic, welcoming, friendly, and patient. We work together to resolve conflict, and assume good intentions. We may all experience some frustration from time to time, but we do not allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.
 3. Be collaborative. Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of the project, we are willing to explain to others how it works, so that they can build on the work to make it even better. Any decision we make will affect users and colleagues, and we take those consequences seriously when making decisions.
 4. Be inquisitive. Nobody knows everything! Asking questions early avoids many problems later, so we encourage questions, although we may direct them to the appropriate forum. We will try hard to be responsive and helpful.
