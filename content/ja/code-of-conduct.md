@@ -7,17 +7,17 @@ aliases:
 
 ### はじめに
 
-この行動規範は、NumPy プロジェクトによって管理されるすべての場所で適用されます。この場所とは、すべてのパブリックおよびプライベートのメーリングリスト、イシュートラッカー、Wiki、ブログ、Twitter、コミュニティで使用されているその他の通信チャンネルなどを含みます。 The NumPy project does not organise in-person events, however events related to our community should have a code of conduct similar in spirit to this one.
+この行動規範は、NumPy プロジェクトによって管理されるすべての場所で適用されます。この場所とは、すべてのパブリックおよびプライベートのメーリングリスト、イシュートラッカー、Wiki、ブログ、Twitter、コミュニティで使用されているその他の通信チャンネルなどを含みます。 Numpy プロジェクトでは対面でのイベントは開催していません。しかし、我々のコミュニティでは、対面でもイベント同様の行動規範を持つ必要があります。
 
-This Code of Conduct should be honored by everyone who participates in the NumPy community formally or informally, or claims any affiliation with the project, in any project-related activities and especially when representing the project, in any role.
+この行動規範は、NumPy コミュニティに正式または非公式に参加するすべての人が順守する必要があります。その他にも、Numpyとの提携、関連するプロジェクト活動、特にそれらのプロジェクトを運営する場合、同様の行動規範に従う必要があります。
 
-This code is not exhaustive or complete. It serves to distill our common understanding of a collaborative, shared environment and goals. Please try to follow this code in spirit as much as in letter, to create a friendly and productive environment that enriches the surrounding community.
+この行動規範は完全ではありません。 しかし、行動規範は我々が理解すべき、互いの協力の仕方や、共通の場所のあるべき姿、我々のゴールなどをまとめるのに重要な役目を果たします。 是非、我々のコミュニティをより豊かにし、フレンドリーで生産的な環境を作るために、この行動規範に従ってください。
 
-### Specific Guidelines
+### ガイドラインの概要
 
-We strive to:
+私たちは下記の内容に真摯に取り組みます。
 
-1. Be open. We invite anyone to participate in our community. We prefer to use public methods of communication for project-related messages, unless discussing something sensitive. This applies to messages for help or project-related support, too; not only is a public support request much more likely to result in an answer to a question, it also ensures that any inadvertent mistakes in answering are more easily detected and corrected.
+1. 開けたコミュニティであれ 私たちは、誰でもコミュニティに参加できるようにします。 私たちは、何かあまり公にすべきではない内容を議論しない限り、プロジェクト関連のメッセージにはパブリックな通信方法を使用するように努めます。 This applies to messages for help or project-related support, too; not only is a public support request much more likely to result in an answer to a question, it also ensures that any inadvertent mistakes in answering are more easily detected and corrected.
 2. Be empathetic, welcoming, friendly, and patient. We work together to resolve conflict, and assume good intentions. We may all experience some frustration from time to time, but we do not allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.
 3. Be collaborative. Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of the project, we are willing to explain to others how it works, so that they can build on the work to make it even better. Any decision we make will affect users and colleagues, and we take those consequences seriously when making decisions.
 4. Be inquisitive. Nobody knows everything! Asking questions early avoids many problems later, so we encourage questions, although we may direct them to the appropriate forum. We will try hard to be responsive and helpful.
