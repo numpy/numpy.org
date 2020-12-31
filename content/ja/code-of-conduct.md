@@ -26,12 +26,12 @@ aliases:
     * 性差別や人種差別、その他の差別的なジョークや言動。
     * 性的または暴力的な内容の投稿。
     * 他のユーザーの個人情報を投稿すること。(または投稿すると脅すこと)。
-    * Sharing private content, such as emails sent privately or non-publicly, or unlogged forums such as IRC channel history, without the sender’s consent.
-    * Personal insults, especially those using racist or sexist terms.
-    * Unwelcome sexual attention.
-    * Excessive profanity. Please avoid swearwords; people differ greatly in their sensitivity to swearing.
-    * Repeated harassment of others. In general, if someone asks you to stop, then stop.
-    * Advocating for, or encouraging, any of the above behaviour.
+    * 公開目的のない電子メールや、非公開フォーラム上でものIRCチャネル履歴などのプライベートコンテンツを、送信者の同意なしに共有すること。
+    * 個人的な侮辱, 特に人種差別や性差別的な用語を使用して侮辱すること。
+    * 不快な思いをさせる性的な言動。
+    * 過度に粗暴に振る舞うこと。 ひどいな言葉を使うのを避けてください。 人々は怒りを覚える感度が、それぞれ大きく異なります。
+    * 他人に対するハラスメントの繰り返し。 一般的に、誰かがあなたにある言動を止めるように要求した場合、その言動をやめて下さい。
+    * 上記のいずれかの行動を擁護すること、または奨励すること。
 
 ### Diversity Statement
 
