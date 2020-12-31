@@ -33,11 +33,11 @@ aliases:
     * 他人に対するハラスメントの繰り返し。 一般的に、誰かがあなたにある言動を止めるように要求した場合、その言動をやめて下さい。
     * 上記のいずれかの行動を擁護すること、または奨励すること。
 
-### Diversity Statement
+### 多様性に関する声明
 
-The NumPy project welcomes and encourages participation by everyone. We are committed to being a community that everyone enjoys being part of. Although we may not always be able to accommodate each individual’s preferences, we try our best to treat everyone kindly.
+NumPyプロジェクトは、全ての人の参加を歓迎しています。 私たちは、誰もがコミュニティの一員であることを楽しめるように力を注いでいます。 全ての人が満足できるように対応できるとは限りませんが、全員を出来るだけ親切に扱えるように最善を尽くしていきます。
 
-No matter how you identify yourself or how others perceive you: we welcome you. Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct.
+あなたがどのようにあなた自身を認識し、他の人があなたをどのように認識していても、私達 はあなたのプロジェクトへの参加を歓迎します。 Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct.
 
 Though we welcome people fluent in all languages, NumPy development is conducted in English.
 
