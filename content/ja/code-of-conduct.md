@@ -19,13 +19,13 @@ aliases:
 
 1. 開けたコミュニティにしましょう。 私たちは、誰でもコミュニティに参加できるようにします。 私たちは、何かあまり公にすべきではない内容を議論しない限り、プロジェクト関連のメッセージにはパブリックな通信方法を使用するように努めます。 この行動規範はNumpyのヘルプやプロジェクト関連のサポートのメッセージにも適用されます。パブリックなサポートだけでなく、Numpyに関する質問に答える場合もこの行動規範に従うことがひです。 これにより、質問に答えた時の、無意識な間違いを、より簡単に検出し、訂正できるようになります。
 2. 共感し、歓迎し、友好的で、そして我慢強くありましょう。 私たちはお互いの意見の尊重しあい、互いの善意を信じ合います。 私達はたまに様々な種類の不満を感じるかもしれません。しかしそんな時でも、私達はそのような不満を個人的な攻撃に変えるのを許しません。 なぜなら人々が不快や脅威を感じるコミュニティは、生産的な場所ではないからです。
-3. 互いに協力し合おう。 私たちが開発したものは、他の人々によって使用され、一方で、私たちは他の人が開発しているものに依存しているのです。 私たちがプロジェクトために何かを作るとき、私たちはそれがどのように動作するかを他の人に説明する必要があります。しかし、この作業により、より良いものを作り上げることができるのです。 Any decision we make will affect users and colleagues, and we take those consequences seriously when making decisions.
-4. Be inquisitive. Nobody knows everything! Asking questions early avoids many problems later, so we encourage questions, although we may direct them to the appropriate forum. We will try hard to be responsive and helpful.
-5. Be careful in the words that we choose. We are careful and respectful in our communication, and we take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. We will not accept harassment or other exclusionary behaviour, such as:
-    * Violent threats or language directed against another person.
-    * Sexist, racist, or otherwise discriminatory jokes and language.
-    * Posting sexually explicit or violent material.
-    * Posting (or threatening to post) other people’s personally identifying information (“doxing”).
+3. 互いに協力し合おう。 私たちが開発したものは、他の人々によって使用され、一方で、私たちは他の人が開発しているものに依存しているのです。 私たちがプロジェクトために何かを作るとき、私たちはそれがどのように動作するかを他の人に説明する必要があります。しかし、この作業により、より良いものを作り上げることができるのです。 私達が実施する全ての決断は、全てのユーザと開発コミュニティに影響を与え、その決断による結果を私達は真摯に受け止めます。
+4. 好奇心を大事にしよう。 全てのことを理解している人は存在しません。 早め早めに質問を行うことは、後で多くの問題を回避することができます。なので私達は、それぞれの質問に対して、適切なフォーラムに案内することで、質問を奨励していきます。 私たちは、出来るだけ質問に対する対応を良くし、手助けできるように努力します。
+5. 使う言葉に注意しましょう。 私たちは、コミュニティにおけるコミュニケーションに注意と敬意を払います。そして、私たちは自分の言葉に責任を持つようにします。 他人に優しくしましょう。 他のコミュニティの参加者を侮辱しないでください。 私たちは、以下のようなハラスメントやその他の排斥行為を許しません。:
+    * 他の人に向けられた暴力的な行為や言葉。
+    * 性差別や人種差別、その他の差別的なジョークや言動。
+    * 性的または暴力的な内容の投稿。
+    * 他のユーザーの個人情報を投稿すること。(または投稿すると脅すこと)。
     * Sharing private content, such as emails sent privately or non-publicly, or unlogged forums such as IRC channel history, without the sender’s consent.
     * Personal insults, especially those using racist or sexist terms.
     * Unwelcome sexual attention.
