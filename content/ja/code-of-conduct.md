@@ -63,21 +63,21 @@ Numpy行動規範委員会に問題を報告する場合はこちらにご連絡
 
 本節では、_最も重要な点のみをまとめます。_詳細については、[Numpy Code of Conduct - How to follow up on a report](/report-handling-manual) をご覧ください。
 
-We will investigate and respond to all complaints. The NumPy Code of Conduct Committee and the NumPy Steering Committee (if involved) will protect the identity of the reporter, and treat the content of complaints as confidential (unless the reporter agrees otherwise).
+私たちはすべての訴えを調査し、対応するようにします。 NumPy行動規範委員会およびNumPy運営委員会(もし関係する場合) は、報告者の身元を保護します。 また(報告者が同意しない限り) 苦情の内容を機密として扱うこととします。
 
-In case of severe and obvious breaches, e.g. personal threat or violent, sexist or racist language, we will immediately disconnect the originator from NumPy communication channels; please see the manual for details.
+もし深刻で明らかな違反の場合、例えば、 個人的な脅し、または暴力的、性差別的または人種差別的な発言などの場合、我々は直ちにNumPyのコミュニケーションの場から発言者を退場させます。詳細についてはマニュアルを参照してください。
 
-In cases not involving clear severe and obvious breaches of this Code of Conduct the process for acting on any received Code of Conduct violation report will be:
+もし、行動規範に対して明白な違反がみられない場合、受領された行動規範違反報告に対するプロセスは以下の通りです。
 
-1. acknowledge report is received,
-2. reasonable discussion/feedback,
-3. mediation (if feedback didn’t help, and only if both reporter and reportee agree to this),
-4. enforcement via transparent decision (see [Resolutions](/report-handling-manual#resolutions)) by the Code of Conduct Committee.
+1. 報告書の受領を確認
+2. 建設的な議論/フィードバック
+3. 調停（報告者と報告を受けたものの両方がフィードバックが役に立たなかったと同意した場合に限る）
+4. 行動規範委員会による透明性のある決定と執行( [決議](/report-handling-manual#resolutions)を参照)
 
-The Committee will respond to any report as soon as possible, and at most within 72 hours.
+行動規範委員会は、可能な限り速やかに対応し、最大で72時間以内に対応する様にします。
 
-### Endnotes
+### 文末脚注:
 
-We are thankful to the groups behind the following documents, from which we drew content and inspiration:
+私たちは下記のドキュメントの作成したグループに感謝しています。このドキュメントから私たちは我々の行動規範の内容と発想を得ることが出来ました。
 
-- [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/reference/dev/conduct/code_of_conduct.html)
+- [SciPy行動規範](https://docs.scipy.org/doc/scipy/reference/dev/conduct/code_of_conduct.html)
