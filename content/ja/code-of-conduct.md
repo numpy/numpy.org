@@ -37,11 +37,11 @@ aliases:
 
 NumPyプロジェクトは、全ての人の参加を歓迎しています。 私たちは、誰もがコミュニティの一員であることを楽しめるように力を注いでいます。 全ての人が満足できるように対応できるとは限りませんが、全員を出来るだけ親切に扱えるように最善を尽くしていきます。
 
-あなたがどのようにあなた自身を認識し、他の人があなたをどのように認識していても、私達 はあなたのプロジェクトへの参加を歓迎します。 Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct.
+あなたがどのようにあなた自身を認識し、他の人があなたをどのように認識していても、私達 はあなたのプロジェクトへの参加を歓迎します。 下記のリストが全てを含んでいるとは言えませんが、私達は行動規範に反しない限り、下記の多様性を尊重することを明言します。: 年齢、文化。 民族、遺伝、性同一性あるいは関連する表現、言語、国籍、神経学的な差異、生物学的な差異、 政治的信条、職業、人種、宗教、性的指向、社会経済的地位、文化的な差異、技術的な能力。
 
-Though we welcome people fluent in all languages, NumPy development is conducted in English.
+私たちはすべての種類の言語言語話者の参加を歓迎しますが、Numpy 開発は英語で実施します。
 
-Standards for behaviour in the NumPy community are detailed in the Code of Conduct above. Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
+NumPy コミュニティの標準的なルールは、上記の行動規範で説明されています。 Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
 
 ### Reporting Guidelines
 
