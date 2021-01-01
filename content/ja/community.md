@@ -3,19 +3,19 @@ title: コミュニティ
 sidebar: false
 ---
 
-NumPy is a community-driven open source project developed by a very diverse group of [contributors](/gallery/team.html). The NumPy leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the [NumPy Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
+Numpy は 常に多様な[コントリビュータ](/gallery/team.html) のグループによって開発されている、コミュニティ主導のオープンソースプロジェクトです。 Numpy を主導するグループは、オープンで協力的でポジティブなコミュニティを作ることを、約束しました。 コミュニティを繁栄させるために、コミュニティの人達と交流する方法については、 [NumPy 行動規範](/code-of-conduct) をご覧ください。
 
-We offer several communication channels to learn, share your knowledge and connect with others within the NumPy community.
-
-
-## Participate online
-
-The following are ways to engage directly with the NumPy project and community. _Please note that we encourage users and community members to support each other for usage questions - see [Get Help](/gethelp)._
+私たちは、NumPyコミュニティ内で学んだり、知識を共有したり、他の人と交流するためのいくつかのコミュニケーション方法を提供しています。
 
 
-### [NumPy mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion)
+## オンラインで参加する方法
 
-This list is the main forum for longer-form discussions, like adding new features to NumPy, making changes to the NumPy Roadmap, and all kinds of project-wide decision making. Announcements about NumPy, such as for releases, developer meetings, sprints or conference talks are also made on this list.
+Numpy プロジェクトやコミュニティと直接交流する方法は次の通りです。 _重要: 私達はユーザとコミュニティメンバーに互いにNumpyの使い方の質問に関して助言し合って欲しいと思っています。 - 参照[サポート](/gethelp)._
+
+
+### [NumPyメーリングリスト：](https://mail.python.org/mailman/listinfo/numpy-discussion)
+
+このメーリングリストは、Numpy に新しい機能を追加するなど、より長い期間の議論のための主なコミュニケーションの場です。 NumpyのRoadmapに変更を加えたり、プロジェクト全体での意思決定を行います。 Announcements about NumPy, such as for releases, developer meetings, sprints or conference talks are also made on this list.
 
 On this list please use bottom posting, reply to the list (rather than to another sender), and don't reply to digests. A searchable archive of this list is available [here](http://numpy-discussion.10968.n7.nabble.com/).
 
