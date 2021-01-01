@@ -41,23 +41,23 @@ NumPyプロジェクトは、全ての人の参加を歓迎しています。 �
 
 私たちはすべての種類の言語言語話者の参加を歓迎しますが、Numpy 開発は英語で実施します。
 
-NumPy コミュニティの標準的なルールは、上記の行動規範で説明されています。 Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
+NumPy コミュニティの標準的なルールは、上記の行動規範で説明されています。 我々のコミュニティの参加者は、これらの行動基準をすべてのコミュニケーションにおいて順守し、他の人々にも同様な行動をすることを推奨すべきです。(次のセクションを参照)。
 
-### Reporting Guidelines
+### 報告ガイドライン
 
-We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We also recognize that sometimes people may have a bad day, or be unaware of some of the guidelines in this Code of Conduct. Please keep this in mind when deciding on how to respond to a breach of this Code.
+私たちは、インターネットでの会話が簡単にひどい誹謗中傷になってしまうことを、痛いほど知っています. また、この行動規範のガイドラインにそのような行為が禁止されていることに気づいていない人もいることを認識しています。 行動規範の違反に対応する方法を決定する際には、この事実を覚心に留めておく必要があります。
 
-For clearly intentional breaches, report those to the Code of Conduct Committee (see below). For possibly unintentional breaches, you may reply to the person and point out this code of conduct (either in public or in private, whatever is most appropriate). If you would prefer not to do that, please feel free to report to the Code of Conduct Committee directly, or ask the Committee for advice, in confidence.
+意図的な行動規範違反については、行動規範委員会に報告してください(下記参照)。 もし、ある行動規範違反が意図的ではない可能性がある場合、あなたはその人にこの行動規範が存在していることを指摘することができます(方法としてはパブリックな方法でもプライベートな方法に、適切な方法であればはどの様な方法でも可能です。)。 もし、直接指摘するのが躊躇われる場合は、是非、行動規範委員会に連絡下さい。 委員会に助言を求めることもできます。
 
-You can report issues to the NumPy Code of Conduct Committee at numpy-conduct@googlegroups.com.
+Numpy行動規範委員会に問題を報告する場合はこちらにご連絡下さい: numpy-conduct@googlegroups.com
 
-Currently, the Committee consists of:
+現在、行動規範委員会は以下のメンバーで構成されています:
 
 * Stefan van der Walt
-* Melissa Weber Mendonça
+* Melissa Weber Mendonça
 * Anirudh Subramanian
 
-If your report involves any members of the Committee, or if they feel they have a conflict of interest in handling it, then they will recuse themselves from considering your report. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
+もしあなたの違反報告に委員会のメンバーが含まれている場合, または彼らがそれを処理する上で利益相反をしていると感じる場合、そのメンバーはあなたの報告を評価する立場からは辞退してもらいます。 または、もしあなたが行動規範委員会に報告するのが躊躇われるばあい、こちらのNumFOCUSのスタッフに連絡することも可能です。:[conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
 ### Incident reporting resolution & Code of Conduct enforcement
 
