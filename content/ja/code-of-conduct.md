@@ -59,9 +59,9 @@ Numpy行動規範委員会に問題を報告する場合はこちらにご連絡
 
 もしあなたの違反報告に委員会のメンバーが含まれている場合, または彼らがそれを処理する上で利益相反をしていると感じる場合、そのメンバーはあなたの報告を評価する立場からは辞退してもらいます。 または、もしあなたが行動規範委員会に報告するのが躊躇われるばあい、こちらのNumFOCUSのスタッフに連絡することも可能です。:[conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
-### Incident reporting resolution & Code of Conduct enforcement
+### インシデント報告の解決 & 行動規範の実施
 
-_This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](/report-handling-manual).
+本節では、_最も重要な点のみをまとめます。_詳細については、[Numpy Code of Conduct - How to follow up on a report](/report-handling-manual) をご覧ください。
 
 We will investigate and respond to all complaints. The NumPy Code of Conduct Committee and the NumPy Steering Committee (if involved) will protect the identity of the reporter, and treat the content of complaints as confidential (unless the reporter agrees otherwise).
 
