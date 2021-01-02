@@ -15,7 +15,7 @@ Numpy プロジェクトやコミュニティと直接交流する方法は次�
 
 ### [NumPyメーリングリスト：](https://mail.python.org/mailman/listinfo/numpy-discussion)
 
-このメーリングリストは、Numpy に新しい機能を追加するなど、より長い期間の議論のための主なコミュニケーションの場です。 NumpyのRoadmapに変更を加えたり、プロジェクト全体での意思決定を行います。 Announcements about NumPy, such as for releases, developer meetings, sprints or conference talks are also made on this list.
+このメーリングリストは、Numpy に新しい機能を追加するなど、より長い期間の議論のための主なコミュニケーションの場です。 NumpyのRoadmapに変更を加えたり、プロジェクト全体での意思決定を行います。 このメーリングリストでは、リリース、開発者会議、スプリント、カンファレンストークなど、Numpy についてのアナウンスなどにも利用されます。
 
 On this list please use bottom posting, reply to the list (rather than to another sender), and don't reply to digests. A searchable archive of this list is available [here](http://numpy-discussion.10968.n7.nabble.com/).
 
