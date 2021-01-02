@@ -17,11 +17,11 @@ Numpy プロジェクトやコミュニティと直接交流する方法は次�
 
 このメーリングリストは、Numpy に新しい機能を追加するなど、より長い期間の議論のための主なコミュニケーションの場です。 NumpyのRoadmapに変更を加えたり、プロジェクト全体での意思決定を行います。 このメーリングリストでは、リリース、開発者会議、スプリント、カンファレンストークなど、Numpy についてのアナウンスなどにも利用されます。
 
-On this list please use bottom posting, reply to the list (rather than to another sender), and don't reply to digests. A searchable archive of this list is available [here](http://numpy-discussion.10968.n7.nabble.com/).
+このメーリングリストでは、一番下のメールを使用し、メーリングリストに返信して下さい( 他の送信者ではなく)。 また、自動送信のメールには返信しないでください。 このメーリングリストの検索可能なアーカイブは [こちら](http://numpy-discussion.10968.n7.nabble.com/) にあります。
 
 ***
 
-### [GitHub issue tracker](https://github.com/numpy/numpy/issues)
+### [GitHub イシュートラッカー](https://github.com/numpy/numpy/issues)
 
 - For bug reports (e.g. "`np.arange(3).shape` returns `(5,)`, when it should return `(3,)`");
 - documentation issues (e.g. "I found this section unclear");
