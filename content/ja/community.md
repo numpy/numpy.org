@@ -23,20 +23,20 @@ Numpy プロジェクトやコミュニティと直接交流する方法は次�
 
 ### [GitHub イシュートラッカー](https://github.com/numpy/numpy/issues)
 
-- For bug reports (e.g. "`np.arange(3).shape` returns `(5,)`, when it should return `(3,)`");
-- documentation issues (e.g. "I found this section unclear");
-- and feature requests (e.g. "I would like to have a new interpolation method in `np.percentile`").
+- バグレポート（例：”`np.arange(3).shape` returns `(5,)`, when it should return `(3,)`");
+- ドキュメントの問題 (例: "I find this section unclear");
+- 機能追加リクエスト (例: "I would like to have a new interpolation method in `np.percentile`").
 
-_Please note that GitHub is not the right place to report a security vulnerability. If you think you have found a security vulnerability in NumPy, please report it [here](https://tidelift.com/docs/security)._
+_ちなみに、セキュリティの脆弱性を報告するには、GitHubのイシュートラッカーは適切な場所ではないことに注意してください。 NumPy でセキュリティ上の脆弱性を発見したと思われる場合は、 [こちら](https://tidelift.com/docs/security) から報告してください。_
 
 ***
 
 ### [Slack](https://numpy-team.slack.com)
 
-A real-time chat room to ask questions about _contributing_ to NumPy. This is a private space, specifically meant for people who are hesitant to bring up their questions or ideas on a large public mailing list or GitHub. Please see [here](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) for more details and how to get an invite.
+SlackはNumpyに_ 貢献するための質問をする_、リアルタイムのチャットルームです。 Slackはプライベートな空間です。具体的には、 公開のメーリングリストやGitHubで質問やアイデアを持ち出すことを躊躇している人々のためのものです。 Slackに招待してもらいたい場合は[こちら](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy)を確認下さい。
 
 
-## Study Groups and Meetups
+## Numpy研究グループとミートアップ
 
 If you would like to find a local meetup or study group to learn more about NumPy and the wider ecosystem of Python packages for data science and scientific computing, we recommend exploring the [PyData meetups](https://www.meetup.com/pro/pydata/) (150+ meetups, 100,000+ members).
 
