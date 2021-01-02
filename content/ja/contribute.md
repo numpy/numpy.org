@@ -1,8 +1,8 @@
 - - -
-title: Contribute to NumPy sidebar: false
+title: Numpy に貢献する サイドバー: false
 - - -
 
-The NumPy project welcomes your expertise and enthusiasm! Your choices aren't limited to programming -- in addition to
+Numpyプロジェクトを成功させるには、あなたの専門知識とプロジェクトに関する熱意が必要です。 Your choices aren't limited to programming -- in addition to
 
 - [Writing code](#writing-code)
 
