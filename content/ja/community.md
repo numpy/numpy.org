@@ -36,9 +36,9 @@ _ちなみに、セキュリティの脆弱性を報告するには、GitHubの�
 SlackはNumpyに_ 貢献するための質問をする_、リアルタイムのチャットルームです。 Slackはプライベートな空間です。具体的には、 公開のメーリングリストやGitHubで質問やアイデアを持ち出すことを躊躇している人々のためのものです。 Slackに招待してもらいたい場合は[こちら](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy)を確認下さい。
 
 
-## Numpy研究グループとミートアップ
+## 勉強会とミートアップ
 
-If you would like to find a local meetup or study group to learn more about NumPy and the wider ecosystem of Python packages for data science and scientific computing, we recommend exploring the [PyData meetups](https://www.meetup.com/pro/pydata/) (150+ meetups, 100,000+ members).
+NumPyや、データサイエンス、科学技術計算などのより広いエコシステムのためのPythonパッケージついて、もっと学ぶためのローカルミートアップや勉強会を見つけたい場合、 [PyData ミートアップ](https://www.meetup.com/pro/pydata/) (150人以上のミートアップ、10万人以上のメンバーをまとめたもの) を調べてみることをお勧めします。
 
 NumPy also organizes in-person sprints for its team and interested contributors occasionally. These are typically planned several months in advance and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and [Twitter](https://twitter.com/numpy_team).
 
