@@ -40,26 +40,26 @@ SlackはNumpyに_ 貢献するための質問をする_、リアルタイムの�
 
 NumPyや、データサイエンス、科学技術計算などのより広いエコシステムのためのPythonパッケージついて、もっと学ぶためのローカルミートアップや勉強会を見つけたい場合、 [PyData ミートアップ](https://www.meetup.com/pro/pydata/) (150人以上のミートアップ、10万人以上のメンバーをまとめたもの) を調べてみることをお勧めします。
 
-NumPy also organizes in-person sprints for its team and interested contributors occasionally. These are typically planned several months in advance and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and [Twitter](https://twitter.com/numpy_team).
+加えて、NumPy では開発チームと参加に興味があるコントリビュータのために、対面でのスプリントを時折開催しています。 この開発スプリントは通常数ヶ月に一度に開催されており、 [ メーリングリスト ](https://mail. python. org/mailman/listinfo/numpy-discussion) と [ Twitter ](https://twitter. com/numpy_team) で開催連絡されます。
 
 
-## Conferences
+## カンファレンス
 
-The NumPy project doesn't organize its own conferences. The conferences that have traditionally been most popular with NumPy maintainers, contributors and users are the SciPy and PyData conference series:
+Numpy プロジェクトは独自のカンファレンスは開催していません。 NumPy の管理者や、コントリビュータ、ユーザーに最も人気があったカンファレンスは、SciPy および PyDataのカンファレンスです。
 
 - [SciPy US](https://conference.scipy.org)
 - [EuroSciPy](https://www.euroscipy.org)
 - [SciPy Latin America](https://www.scipyla.org)
 - [SciPy India](https://scipy.in)
 - [SciPy Japan](https://conference.scipy.org)
-- [PyData conferences](https://pydata.org/event-schedule/) (15-20 events a year spread over many countries)
+- [PyData conference](https://pydata.org/event-schedule/) (年に15~20のイベントが様々な国で開催されています。)
 
-Many of these conferences include tutorial days that cover NumPy and/or sprints where you can learn how to contribute to NumPy or related open source projects.
+これらのカンファレンスの多くは、Numpyの使い方や関連するオープンソースプロジェクトに貢献する方法を学ぶことができるチュートリアルを開催しています。
 
 
-## Join the NumPy community
+## NumPy コミュニティに参加する
 
-To thrive, the NumPy project needs your expertise and enthusiasm. Not a coder? Not a problem! There are many ways to contribute to NumPy.
+Numpyプロジェクトを成功させるには、あなたの専門知識とプロジェクトに関する熱意が必要です。 プログラマーじゃないから参加できない？ そんなことはありません！ Numpy に貢献する様々な方法があります。
 
-If you are interested in becoming a NumPy contributor (yay!) we recommend checking out our [Contribute](/contribute) page.
+もし、Numpyに貢献したい場合は、 [コントリビュート](/contribute) ページをご覧いただくことをお勧めします。
 
