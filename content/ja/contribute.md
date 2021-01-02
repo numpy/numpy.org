@@ -2,28 +2,28 @@
 title: Numpy に貢献する サイドバー: false
 - - -
 
-Numpyプロジェクトを成功させるには、あなたの専門知識とプロジェクトに関する熱意が必要です。 Your choices aren't limited to programming -- in addition to
+Numpyプロジェクトを成功させるには、あなたの専門知識とプロジェクトに関する熱意が必要です。 Numpyに貢献する方法はコーディングだけではありません。
 
-- [Writing code](#writing-code)
+- [コードを書く。](#writing-code)
 
-you can
+他にも下記の貢献の方法があります:
 
-- [Review pull requests](#reviewing-pull-requests)
-- [Develop tutorials, presentations, and other educational material](#developing-educational-materials)
-- [Triage issues](#issue-triaging)
-- [Work on our website](#website-development)
-- [Contribute graphic design](#graphic-design)
-- [Translate website content](#translating-website-content)
-- [Serve as a community coordinator](#community-coordination-and-outreach)
-- [Write grant proposals and help with other fundraising](#fundraising)
+- [プラリクエストのレビュー](#reviewing-pull-requests)
+- [チュートリアル、プレゼン資料、その他の教育資料の作成](#developing-educational-materials)
+- [イシューのトリアージ。](#issue-triaging)
+- [ウェブサイトのメンテナンス](#website-development)
+- [グラフィックデザインへの貢献](#graphic-design)
+- [ウェブサイトの翻訳](#translating-website-content)
+- [コミュニティのコーディネーターとしての貢献](#community-coordination-and-outreach)
+- [助成金のプロポーザルの作成や他の人の資金調達のサポート](#fundraising)
 
-If you're unsure where to start or how your skills fit in, _reach out!_ You can ask on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) or [GitHub](http://github.com/numpy/numpy) (open an [issue](https://github.com/numpy/numpy/issues) or comment on a relevant issue).
+もしどの分野で, 自分が貢献出来るか、わからない場合は、 _是非ご連絡下さい。_ 連絡の方法としては、 [メーリングリスト](https://mail.python.org/mailman/listinfo/numpy-discussion) 、 [GitHub](http://github.com/numpy/numpy)、 [イシューの作成](https://github.com/numpy/numpy/issues) 、関連するイシューへのコメントがあります。
 
-Those are our preferred channels (open source is open by nature), but if you prefer to talk privately, contact our community coordinators at <numpy-team@googlegroups.com> or on [Slack](https://numpy-team.slack.com) (write  <numpy-team@googlegroups.com> for an invite).
+これらが私達にとって好ましい連絡手段ですが(元来、オープンソースプロジェクトはオープンな方法を好みます)、もしどうしても非公開の方法で連絡を取りたい場合は、コミュニティコーディネーターに連絡して下さい。連絡先としては、 <numpy-team@googlegroups.com> または、[Slack](https://numpy-team.slack.com) (グループに招待するためにこちらに連絡お願いします: <numpy-team@googlegroups.com>)があります。
 
-We also have a biweekly _community call_, details of which are announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion). You are very welcome to join. If you are new to contributing to open source, we also highly recommend reading [this guide](https://opensource.guide/how-to-contribute/).
+また、隔週の _コミュニティミーティング_もあり、詳細は [メーリングリスト](https://mail.python.org/mailman/listinfo/numpy-discussion) で発表されています。 是非、参加してみて下さい！ オープンソースプロジェクトに貢献するのが初めての方は、是非、 [このガイド](https://opensource.guide/how-to-contribute/) を読んでみて下さい。
 
-Our community aspires to treat everyone equally and to value all contributions. We have a [Code of Conduct](/code-of-conduct) to foster an open and welcoming environment.
+私たちのコミュニティは、誰もが平等に扱われ、すべての貢献が平等に扱われることを目指しています。 We have a [Code of Conduct](/code-of-conduct) to foster an open and welcoming environment.
 
 ### Writing code
 
