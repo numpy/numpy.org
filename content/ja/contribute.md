@@ -43,7 +43,7 @@ NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模�
 
 ### イシューのトリアージ
 
-[NumPyのイシュートラッカー](https://github.com/numpy/numpy/issues) には、 _沢山の_Open状態のイシューがあります。 Some are no longer valid, some should be prioritized, and some would make good issues for new contributors.  You can:
+[NumPyのイシュートラッカー](https://github.com/numpy/numpy/issues) には、 _沢山の_Open状態のイシューがあります。 いくつかのイシューはすでに解決されており、いくつかは優先順位付けされるべきであり、 いくつかは初心者が取り組むのに良いイシューになるでしょう。  You can:
 
 * check if older bugs are still present
 * find duplicate issues and link related ones
