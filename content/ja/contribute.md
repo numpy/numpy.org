@@ -30,10 +30,10 @@ Numpyプロジェクトを成功させるには、あなたの専門知識とプ
 プログラマーの方々に向けて、こちらの [ガイド](https://numpy.org/devdocs/dev/index.html#development-process-summary)でNumpyのコードに貢献する方法か説明されています。
 
 ### プルリクエストのレビュー
-Numpyプロジェクトには現時点で250以上のオープンなプルリクエストがあり、多くの 改善要求と多くのレビュワーからのフィードバックを待っています。 If you're a developer who knows NumPy, you can help even if you're not familiar with the codebase. You can:
-* summarize a long-running discussion
-* triage documentation PRs
-* test proposed changes
+Numpyプロジェクトには現時点で250以上のオープンなプルリクエストがあり、多くの 改善要求と多くのレビュワーからのフィードバックを待っています。 もしあなたがNumPy を使ったことがある場合、 たとえNumpyコードベースに慣れていない場合でも貢献する方法はあります。 例えば、
+* 長期にわたる議論をまとめる
+* ドキュメントのPRをトリアージする
+* 提案された変更をテストする
 
 
 ### Developing educational materials
