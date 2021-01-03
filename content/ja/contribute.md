@@ -23,14 +23,14 @@ Numpyプロジェクトを成功させるには、あなたの専門知識とプ
 
 また、隔週の _コミュニティミーティング_もあり、詳細は [メーリングリスト](https://mail.python.org/mailman/listinfo/numpy-discussion) で発表されています。 是非、参加してみて下さい！ オープンソースプロジェクトに貢献するのが初めての方は、是非、 [このガイド](https://opensource.guide/how-to-contribute/) を読んでみて下さい。
 
-私たちのコミュニティは、誰もが平等に扱われ、すべての貢献が平等に扱われることを目指しています。 We have a [Code of Conduct](/code-of-conduct) to foster an open and welcoming environment.
+私たちのコミュニティは、誰もが平等に扱われ、すべての貢献が平等に扱われることを目指しています。 私達はオープンで居心地の良いコミュニティを作るために [行動基準](/code-of-conduct) を制定しています。
 
-### Writing code
+### コードを書く
 
-Programmers, this [guide](https://numpy.org/devdocs/dev/index.html#development-process-summary) explains how to contribute to the codebase.
+プログラマーの方々に向けて、こちらの [ガイド](https://numpy.org/devdocs/dev/index.html#development-process-summary)でNumpyのコードに貢献する方法か説明されています。
 
-### Reviewing pull requests
-The project has more than 250 open pull requests -- meaning many potential improvements and many open-source contributors waiting for feedback. If you're a developer who knows NumPy, you can help even if you're not familiar with the codebase. You can:
+### プルリクエストのレビュー
+Numpyプロジェクトには現時点で250以上のオープンなプルリクエストがあり、多くの 改善要求と多くのレビュワーからのフィードバックを待っています。 If you're a developer who knows NumPy, you can help even if you're not familiar with the codebase. You can:
 * summarize a long-running discussion
 * triage documentation PRs
 * test proposed changes
