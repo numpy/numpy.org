@@ -38,12 +38,12 @@ Numpyプロジェクトには現時点で250以上のオープンなプルリク
 
 ### 教育用の資料を作成する
 
-NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模な再設計中です。 新しいNumpyのWebページは、新しいチュートリアルや、Numpyの使い方、Numpy内部の深い説明など必要としており、サイト全体にも再設計と再構築が必要です。 このウェブサイトの再構築の作業は、ドキュメントを書くだけではありません。 コード例や、ノートブック、ビデオなどの作成も歓迎しています。 [NEP 44 — Restructuring the NumPyDocumentation](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html) lays out our ideas -- and you may have others.
+NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模な再設計中です。 新しいNumpyのWebページは、新しいチュートリアルや、Numpyの使い方、Numpy内部の深い説明など必要としており、サイト全体にも再設計と再構築が必要です。 このウェブサイトの再構築の作業は、ドキュメントを書くだけではありません。 コード例や、ノートブック、ビデオなどの作成も歓迎しています。 [NEP 44 — Restructuring the NumPyDocumentation](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html)に、ウェブサイトの再構築についての詳細が説明されています。
 
 
-### Issue triaging
+### イシューのトリアージ
 
-The [NumPy issue tracker](https://github.com/numpy/numpy/issues) has a _lot_ of open issues. Some are no longer valid, some should be prioritized, and some would make good issues for new contributors.  You can:
+[NumPyのイシュートラッカー](https://github.com/numpy/numpy/issues) には、 _沢山の_Open状態のイシューがあります。 Some are no longer valid, some should be prioritized, and some would make good issues for new contributors.  You can:
 
 * check if older bugs are still present
 * find duplicate issues and link related ones
