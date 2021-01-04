@@ -60,10 +60,10 @@ NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模�
 
 ### グラフィックデザイン
 
-残念ながら、グラフィックデザイナーの方々が可能な貢献をリストアップすることは難しいです。 Our docs are parched for illustration; our growing website craves images -- opportunities abound.
+残念ながら、グラフィックデザイナーの方々が可能な貢献をリストアップすることは難しいです。 しかし、私たちのドキュメントは説明のために可視化が重要であり、私たちの拡大しているウェブサイトは良い画像を求めていることから、 貢献する機会が沢山あると言えます。
 
 
-### Translating website content
+### ウェブサイトの翻訳
 
 We plan multiple translations of [numpy.org](https://numpy.org) to make NumPy accessible to users in their native language. Volunteer translators are at the heart of this effort.  See [here](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n) for background; comment on [this GitHub issue](https://github.com/numpy/numpy.org/issues/55) to sign up.
 
