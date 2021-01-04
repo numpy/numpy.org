@@ -68,11 +68,11 @@ NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模�
 私達は、[numpy.org](https://numpy.org) を複数言語に翻訳し、Numpyを母国語でアクセスできるようにしたいと思っています。 これを実現するには、ボランティアの翻訳者が必要です。  詳しくは[このイシュー](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n)を参照してください。 [この GitHubイシュー](https://github.com/numpy/numpy.org/issues/55) にコメントしてサインアップしてください。
 
 
-### Community coordination and outreach
+### コミュニティの調整とアウトリーチ
 
-Through community contact we share our work more widely and learn where we're falling short. We're eager to get more people involved in efforts like our [Twitter](https://twitter.com/numpy_team) account, organizing NumPy [code sprints](https://scisprints.github.io/), a newsletter, and perhaps a blog.
+コミュニティとのコミュニケーションを通じて、私たちは、Numpyより広く知ってもらうようにし、どこに問題があるのかを知りたいと思っています。 私達は、[Twitter](https://twitter.com/numpy_team) アカウントや、NumPy [code sprints](https://scisprints.github.io/)の開催, ニュースレターの発行、そしておそらくブログなどを通じて、より沢山の人にコミュニティに参加して欲しいと思っています。
 
-### Fundraising
+### 資金調達
 
-NumPy was all-volunteer for many years, but as its importance grew it became clear that to ensure stability and growth we'd need financial support. [This SciPy'19 talk](https://www.youtube.com/watch?v=dBTJD_FDVjU) explains how much difference that support has made. Like all the nonprofit world, we're constantly searching for grants, sponsorships, and other kinds of support. We have a number of ideas and of course we welcome more. Fundraising is a scarce skill here  -- we'd appreciate your help.
+NumPyは何年にも渡ってボランティアベースで活動していましたが、Bumpy の重要性が高まるにつれ、安定性と成長のためには資金面での支援が必要であることがわかってきました。 こちらの[SciPy'19のプレゼン](https://www.youtube.com/watch?v=dBTJD_FDVjU) では、資金的なサポートを受けたことで、どれだけ違いが出たかを説明しています。 他の非営利団体のように、私たちは助成金や、スポンサーシップ、その他の資金支援を常に探しています。 私たちはすでにいくつかの資金調達のアイデアを持っていますが、他にもより多くを資金調達を受けたいと思っています。 資金調達に関する知識は、我々には不足しているスキルです。是非、あなたのサポートをお待ちしています。
 
