@@ -65,7 +65,7 @@ NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模�
 
 ### ウェブサイトの翻訳
 
-We plan multiple translations of [numpy.org](https://numpy.org) to make NumPy accessible to users in their native language. Volunteer translators are at the heart of this effort.  See [here](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n) for background; comment on [this GitHub issue](https://github.com/numpy/numpy.org/issues/55) to sign up.
+私達は、[numpy.org](https://numpy.org) を複数言語に翻訳し、Numpyを母国語でアクセスできるようにしたいと思っています。 これを実現するには、ボランティアの翻訳者が必要です。  詳しくは[このイシュー](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n)を参照してください。 [この GitHubイシュー](https://github.com/numpy/numpy.org/issues/55) にコメントしてサインアップしてください。
 
 
 ### Community coordination and outreach
