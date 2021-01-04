@@ -58,7 +58,7 @@ NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模�
 私たちはちょうどウェブサイトの再設計を始めました。しかし、それらはまだ完了していません。 もしWeb開発が好きなら、この[イシュー](https://github.com/numpy/numpy.org/issues?q=is%3Aissue+is%3Aopen+label%3Adesign) ではまだ実装されていない要求が列挙されているので、是非あなたのアイデアを共有してください。
 
 
-### Graphic design
+### グラフィックデザイン
 
 We can barely begin to list the contributions a graphic designer can make here. Our docs are parched for illustration; our growing website craves images -- opportunities abound.
 
