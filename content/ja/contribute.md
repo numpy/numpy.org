@@ -60,7 +60,7 @@ NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模�
 
 ### グラフィックデザイン
 
-We can barely begin to list the contributions a graphic designer can make here. Our docs are parched for illustration; our growing website craves images -- opportunities abound.
+残念ながら、グラフィックデザイナーの方々が可能な貢献をリストアップすることは難しいです。 Our docs are parched for illustration; our growing website craves images -- opportunities abound.
 
 
 ### Translating website content
