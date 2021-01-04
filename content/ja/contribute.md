@@ -43,19 +43,19 @@ NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模�
 
 ### イシューのトリアージ
 
-[NumPyのイシュートラッカー](https://github.com/numpy/numpy/issues) には、 _沢山の_Open状態のイシューがあります。 いくつかのイシューはすでに解決されており、いくつかは優先順位付けされるべきであり、 いくつかは初心者が取り組むのに良いイシューになるでしょう。  You can:
+[NumPyのイシュートラッカー](https://github.com/numpy/numpy/issues) には、 _沢山の_Open状態のイシューがあります。 いくつかのイシューはすでに解決されており、いくつかは優先順位付けされるべきであり、 いくつかは初心者が取り組むのに良いイシューになるでしょう。  例えば、できる貢献としては、
 
-* check if older bugs are still present
-* find duplicate issues and link related ones
-* add good self-contained reproducers to issues
-* label issues correctly (this requires triage rights -- just ask)
+* 古いバグがまだ残っているかを確認する
+* 重複したイシューを見つけ、お互いに関連づける。
+* 問題を再現するコードを作成すること
+* イシューに正しいラベル付けをすること(トリアージ権が必要なので、必要で有れば連絡下さい)
 
-Please just dive in.
+是非参加してみてください。
 
 
-### Website development
+### ウェブサイトの開発
 
-We've just revamped our website, but we're far from done. If you love web development, these [issues](https://github.com/numpy/numpy.org/issues?q=is%3Aissue+is%3Aopen+label%3Adesign) list some of our unmet needs -- and feel free to share your own ideas.
+私たちはちょうどウェブサイトの再設計を始めました。しかし、それらはまだ完了していません。 もしWeb開発が好きなら、この[イシュー](https://github.com/numpy/numpy.org/issues?q=is%3Aissue+is%3Aopen+label%3Adesign) ではまだ実装されていない要求が列挙されているので、是非あなたのアイデアを共有してください。
 
 
 ### Graphic design
