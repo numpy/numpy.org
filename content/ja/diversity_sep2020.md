@@ -1,5 +1,5 @@
 ---
-title: NumPy Diversity and Inclusion Statement
+title: Numpyの多様性とコミュニティに関する声明
 sidebar: false
 ---
 
