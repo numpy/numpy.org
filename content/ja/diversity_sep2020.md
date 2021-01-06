@@ -1,13 +1,13 @@
 ---
-title: Numpyの多様性とコミュニティに関する声明
+title: Numpyの多様性とチームの参加に関する声明
 sidebar: false
 ---
 
 
-_In light of the foregoing discussion on social media after publication of the NumPy paper in Nature and the concerns raised about the state of diversity and inclusion on the NumPy team, we would like to issue the following statement:_
+_Natureに掲載されたNumPyの論文が発表された後のソーシャルメディアで議論が行われ、Numpyの多様性とチームへの参加に関する懸念が提起されました。 そこで以下の声明を発表したいと思います_
 
 
-It is our strong belief that we are at our best, as a team and community, when we are inclusive and equitable. Being an international team from the onset, we recognize the value of collaborating with individuals from diverse backgrounds and expertise. A culture where everyone is welcomed, supported, and valued is at the core of the NumPy project.
+私たちがチームに加わりたい人にオープンで平等であるとき、私たちはチームとコミュニティに最善を尽くしていると強く信じることが出来ます。 Being an international team from the onset, we recognize the value of collaborating with individuals from diverse backgrounds and expertise. A culture where everyone is welcomed, supported, and valued is at the core of the NumPy project.
 
 ## The Past
 
