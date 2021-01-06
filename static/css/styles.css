@@ -229,9 +229,7 @@ p {
 }
 
 .sign-up-image {
-    z-index: 2;
-    color: #013243;
-    padding: 9px 10px 10px 10px;
+    padding: 5px 10px 6px 10px;
     border-right: 1px solid #EEEEEE;
     background-color: #EEEEEE;
     border-radius: 5px 0 0 5px;
@@ -249,7 +247,6 @@ p {
 }
 
 .submission-instructions {
-    display: none;
     position: absolute;
     right: 18%;
     font-size: 10px;
@@ -340,6 +337,10 @@ blockquote p::after {
         width: 100%;
     }
 
+    .submission-instructions {
+        display: none;
+    }
+
     .signup-button {
         display: block;
         height: 35px;
@@ -347,5 +348,7 @@ blockquote p::after {
         margin-left: 5px;
         width: 60px;
         color: black;
+        border:none;
+        outline:none;
     }
 }
