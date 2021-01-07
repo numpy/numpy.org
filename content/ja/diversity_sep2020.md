@@ -7,9 +7,9 @@ sidebar: false
 _Natureに掲載されたNumPyの論文が発表された後のソーシャルメディアで議論が行われ、Numpyの多様性とチームへの参加に関する懸念が提起されました。 そこで以下の声明を発表したいと思います_
 
 
-私たちがチームに加わりたい人にオープンで平等であるとき、私たちはチームとコミュニティに最善を尽くしていると強く信じることが出来ます。 Being an international team from the onset, we recognize the value of collaborating with individuals from diverse backgrounds and expertise. A culture where everyone is welcomed, supported, and valued is at the core of the NumPy project.
+私たちがチームに加わりたい人にオープンで平等であるとき、私たちはチームとコミュニティに最善を尽くしていると強く信じることが出来ます。 プロジェクトの発足当初からの私達は国際的なチームでありたいと思っていました。また、私たちは多様なバックグラウンドや専門知識を持つ個人同士のコラボレーションの価値を認識しています。 誰もが歓迎され、助け合い、評価される文化は、Numpy プロジェクトの中核です。
 
-## The Past
+## 過去
 
 Contributing to open source has always been a pastime in which most historically marginalized groups, especially women, faced more obstacles to participate due to a number of societal constraints and expectations. Open source has a severe diversity gap that is well documented (see, e.g., the [2017 GitHub Open Source Survey](https://opensourcesurvey.org/2017/) and [this blog post](https://medium.com/tech-diversity-files/if-you-think-women-in-tech-is-just-a-pipeline-problem-you-haven-t-been-paying-attention-cb7a2073b996)).
 
