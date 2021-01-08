@@ -21,7 +21,7 @@ _Natureに掲載されたNumPyの論文が発表された後のソーシャル�
 
 ## 現在
 
-Offering employment opportunities is an effective way to attract and retain diverse talent in OSS. Therefore, we used two-thirds of our second grant that became available in Dec 2019 to employ Melissa Weber Mendonça and Mars Lee.
+雇用機会を提供することは、OSSにおいて、 多様な人材を引き寄せ、維持するために効果的な方法です。 よって、私たちはMelissa Weber Mendonça とMars Leeを採用するために、2019年12月に利用できるようになった2回目の助成金の3分の2を利用することにしました。
 
 As a result of several initiatives aimed at community development and engagement led by Inessa Pawson and Ralf Gommers, the NumPy project has received a number of valuable contributions from women and other underrepresented groups in open source in 2020:
 
