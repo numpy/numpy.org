@@ -12,7 +12,7 @@ Abaixo está uma coleção de recursos externos selecionados. Para contribuir, v
 
 Há uma tonelada de informações sobre o NumPy lá fora. Se você está começando, recomendamos fortemente estes:
 
-<i class="fad fa-chalkboard"></i> **Tutoriais**
+<i class="fas fa-chalkboard"></i> **Tutoriais**
 
 * [NumPy Quickstart Tutorial (Tutorial de Início Rápido)](https://numpy.org/devdocs/user/quickstart.html)
 * [SciPy Lectures](https://scipy-lectures.org/) Além de incluir conteúdo sobre a NumPy, estas aulas oferecem uma introdução mais ampla ao ecossistema científico do Python.
@@ -24,7 +24,7 @@ Há uma tonelada de informações sobre o NumPy lá fora. Se você está começa
 * [Stanford CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
 * [NumPy User Guide (Guia de Usuário NumPy)](https://numpy.org/devdocs)
 
-<i class="fas fa-books"></i> **Livros**
+<i class="fas fa-book"></i> **Livros**
 
 * [Guide to NumPy *de Travis E. Oliphant*](http://web.mit.edu/dvp/Public/numpybook.pdf) Essa é uma versão free de 2006. Para a última versão (2015) veja [aqui](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007).
 * [From Python to NumPy *por Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
@@ -42,7 +42,7 @@ Você também pode querer conferir a [lista Goodreads](https://www.goodreads.com
 
 Experimente esses recursos avançados para uma melhor compreensão dos conceitos da NumPy, como indexação avançada, splitting, stacking, álgebra linear e muito mais.
 
-<i class="fad fa-chalkboard"></i> **Tutoriais**
+<i class="fas fa-chalkboard"></i> **Tutoriais**
 
 * [100 NumPy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) *por Nicolas P. Rougier*
 * [An Introduction to NumPy and Scipy](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) *por M. Scott Shell*
@@ -51,7 +51,7 @@ Experimente esses recursos avançados para uma melhor compreensão dos conceitos
 * [Advanced Indexing](https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm)
 * [Machine Learning and Data Analytics with NumPy](https://www.machinelearningplus.com/python/numpy-tutorial-python-part2/)
 
-<i class="fas fa-books"></i> **Livros**
+<i class="fas fa-book"></i> **Livros**
 
 * [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057) *por Jake Vanderplas*
 * [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662) *por Wes McKinney*
