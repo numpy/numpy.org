@@ -13,6 +13,7 @@
 .content-container {
     max-width: 850px;
     margin: 0 30px;
+    overflow: auto;
 }
 
 .content-container ul {
