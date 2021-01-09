@@ -23,26 +23,26 @@ _Natureに掲載されたNumPyの論文が発表された後のソーシャル�
 
 雇用機会を提供することは、OSSにおいて、 多様な人材を引き寄せ、維持するために効果的な方法です。 よって、私たちはMelissa Weber Mendonça とMars Leeを採用するために、2019年12月に利用できるようになった2回目の助成金の3分の2を利用することにしました。
 
-As a result of several initiatives aimed at community development and engagement led by Inessa Pawson and Ralf Gommers, the NumPy project has received a number of valuable contributions from women and other underrepresented groups in open source in 2020:
+Inessa PawsonとRalf Gommersによるコミュニティの発展を目的としたいくつかの取り組みの結果として、NumPyプロジェクトには女性や2020年のOSSにはあまり参加してこなかった人から、貴重な投稿が多数寄せられています。
 
-- Melissa Weber Mendonça gained commit rights, is maintaining numpy.f2py and is leading the documentation team,
-- Shaloo Shalini created all case studies on numpy.org,
-- Mars Lee contributed web design and led our accessibility improvements work,
-- Isabela Presedo-Floyd designed our new logo,
-- Stephanie Mendoza, Xiayoi Deng, Deji Suolang, and Mame Fatou Thiam designed and fielded the first NumPy user survey,
-- Yuki Dunn, Dayane Machado, Mahfuza Humayra Mohona, Sumera Priyadarsini, Shaloo Shalini, and Kriti Singh (former Outreachy intern) helped the survey team to reach out to non-English speaking NumPy users and developers by translating the questionnaire into their native languages,
-- Sayed Adel, Raghuveer Devulapalli, and Chunlin Fang are driving the work on SIMD optimizations in the core of NumPy.
+- Melissa Weber Mendonça はコミット権限を取得し、numpy.f2py をメンテナンスし、ドキュメンテーションチームを率いています。
+- Shaloo Shaliniはnumpy.org のすべてのケーススタディを作成しました。
+- Mars Leeはウェブデザインに貢献し、アクセシビリティの向上に貢献しました。
+- Isabela Presedo-Floydは新しいNumpyのロゴをデザインしました。
+- Stephanie Mendoza, Xiayoi Deng, Deji Suolang, Mame Fatou Thiamは、Numpy ユーザー調査を設計し実施しました。
+- Yuki Dunn, Dayane Machado, Mahfuza Humayra Mohona, Sumera Priyadarsini, Shaloo Shalini, and Kriti Singh (前回のアウトリーチインターン) は英語を母国語としないNumPyユーザーや開発者にアンケートを母国語に翻訳することで、調査チームを支援しました。
+- Sayed Adel, Raghuveer Devulapalli, Chunlin Fangは、NumpyのコアのためにSIMD最適化に取り組んでいます。
 
-While we still have much more work to do, the NumPy team is starting to look much more representative of our user base. And we can assure you that the next NumPy paper will certainly have a more diverse group of authors.
+私たちにはまだ多くのやるべきことがあるため、より一層の参加者を探しています。 そして私達は次のNumPy論文の著者は、確実に、より多様的になっていることでしょう。
 
-## The Future
+## 未来
 
-We are fully committed to fostering inclusion and diversity on our team and in our community, and to do our part in building a more just and equitable future.
+私たちは、チームとコミュニティにおける参加のしやすさと多様性を育成することに力を注ぎ、より公正で公平な未来を築くために我々の役割を果たそうとしています。
 
-We are open to dialogue and welcome every opportunity to connect with organizations representing and supporting women and minorities in tech and science. We are ready to listen, learn, and support.
+私たちとの対話は開かれており、技術と 科学分野における女性やマイノリティを代表し支援する組織と連携したいと思っています。 私たちは対話し、学び、サポートする準備ができています。
 
-Please get in touch with us on [our mailing list](https://scipy.org/scipylib/mailing-lists.html#mailing-lists), [GitHub](https://github.com/numpy/numpy/issues), [Slack](https://numpy.org/contribute/), in private at numpy-team@googlegroups.com, or join our [bi-weekly community meeting](https://hackmd.io/76o-IxCjQX2mOXO_wwkcpg).
+是非以下の連絡手段を使ってご連絡下さい:[メーリングリスト](https://scipy.org/scipylib/mailing-lists.html#mailing-lists), [GitHub](https://github.com/numpy/numpy/issues), [Slack](https://numpy.org/contribute/)。非公開な連絡ではこちらのEmailを使ってください: numpy-team@googlegroups.com, または [2週間に1回のミーティング](https://hackmd.io/76o-IxCjQX2mOXO_wwkcpg)に参加してください。
 
 
-_Sayed Adel, Sebastian Berg, Raghuveer Devulapalli, Chunlin Fang, Ralf Gommers, Allan Haldane, Stephan Hoyer, Mars Lee, Melissa Weber Mendonça, Jarrod Millman, Inessa Pawson, Matti Picus, Nathaniel Smith, Julian Taylor, Pauli Virtanen, Stéfan van der Walt, Eric Wieser, on behalf of the NumPy team_
+_以下の人達がNumpyチームの代表してこれらの宣言をします: Sayed Adel, Sebastian Berg, Raghuveer Devulapalli, Chunlin Fang, Ralf Gommers, Allan Haldane, Stephan Hoyer, Mars Lee, Melissa Weber Mendonça, Jarrod Millman, Inessa Pawson, Matti Picus, Nathaniel Smith, Julian Taylor, Pauli Virtanen, Stéfan van der Walt, Eric Wieser_
 
