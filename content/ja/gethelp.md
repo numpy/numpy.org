@@ -1,5 +1,5 @@
 ---
-title: Get Help
+title: サポートを得る
 sidebar: false
 ---
 
