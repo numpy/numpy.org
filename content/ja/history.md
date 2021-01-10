@@ -1,5 +1,5 @@
 ---
-title: History of NumPy
+title: NumPyの歴史
 sidebar: false
 ---
 
