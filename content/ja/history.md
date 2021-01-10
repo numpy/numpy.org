@@ -3,15 +3,15 @@ title: NumPyの歴史
 sidebar: false
 ---
 
-NumPy is a foundational Python library that provides array data structures and related fast numerical routines. When started, the library had little funding, and was written mainly by graduate students—many of them without computer science education, and often without a blessing of their advisors. To even imagine that a small group of “rogue” student programmers could upend the already well-established ecosystem of research software—backed by millions in funding and many hundreds of highly qualified engineers — was preposterous. Yet, the philosophical motivations behind a fully open tool stack, in combination with the excited, friendly community with a singular focus, have proven auspicious in the long run.  Nowadays, NumPy is relied upon by scientists, engineers, and many other professionals around the world. For example, the published scripts used in the analysis of gravitational waves import NumPy, and the M87 black hole imaging project directly cites NumPy.
+Numpy は配列形式のデータ構造と配列形式に関連する高速な数値ルーチンを提供する Python の基礎的なライブラリです。 このライブラリの開発開始当初は資金も少なく、主に大学院生が開発していましたが、その多くはコンピュータサイエンスの教育を受けておらず、指導教官のサポートも受けていませんでした。 何百万もの資金調達と何百人もの優秀なエンジニアに支えられている当時の商用研究ソフトウェアのエコシステムを、少数の "野良"学生プログラマーのグループがひっくり返すことができると想像することさえ、当時は馬鹿げていると考えられていました。 しかし、完全にオープンなツールスタックの背後にある哲学的な動機と、独特の焦点を持つことによるコミュニティの盛り上がりと、フレンドリーなコミュニティの組み合わせは、長い目で見ると良い結果を得られることが知られていました。  現在では、Numpy は科学者、技術者、および世界中の多くの専門家によって信頼され、使われています。 例えば、重力波の解析に用いられた公開スクリプトはNumpyを利用していますし、「M87ブラックホール画像化プロジェクト」では、Numpyのことを引用しています。
 
-For the in-depth account on milestones in the development of NumPy and related libraries please see [arxiv.org](arxiv.org/abs/1907.10121).
+Numpy および関連ライブラリの開発におけるマイルストーンの詳細については、 [arxiv.org](arxiv.org/abs/1907.10121) を参照してください。
 
-If you’d like to obtain a copy of the original Numeric and Numarray libraries, follow the links below:
+NumpyのベースとなったNumericとNumarrayライブラリのコピーを入手したい場合は、以下のリンクを参照してください。
 
-[Download Page for *Numeric*](https://sourceforge.net/projects/numpy/files/Old%20Numeric/)*
+[ *Numeric*](https://sourceforge.net/projects/numpy/files/Old%20Numeric/) のダウンロード*
 
-[Download Page for *Numarray*](https://sourceforge.net/projects/numpy/files/Old%20Numarray/)*
+[*Numarray *](https://sourceforge.net/projects/numpy/files/Old%20Numarray/) のダウンロード*
 
 *<sub>Please note that these older array packages are no longer maintained, and users are strongly advised to use NumPy for any array-related purposes or refactor any pre-existing code to utilize the NumPy library.</sub>
 
