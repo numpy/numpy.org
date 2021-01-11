@@ -1,5 +1,5 @@
 ---
-title: Installing NumPy
+title: Numpyのインストール
 sidebar: false
 ---
 
