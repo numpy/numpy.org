@@ -13,9 +13,9 @@ NumpyのベースとなったNumericとNumarrayライブラリのコピーを入
 
 [*Numarray *](https://sourceforge.net/projects/numpy/files/Old%20Numarray/) のダウンロード*
 
-*<sub>Please note that these older array packages are no longer maintained, and users are strongly advised to use NumPy for any array-related purposes or refactor any pre-existing code to utilize the NumPy library.</sub>
+*<sub>これらの古いパッケージはもはや保守されていないことに注意してください。配列関連の処理をしたい場合は、NumPyを使用するか、NumPyライブラリを利用するために既存のコードをリファクタリングすることを強くお勧めします。 </sub>
 
-### Historic Documentation
+### 過去の資料
 
-[Download *`Numeric'* Manual](static/numeric-manual.pdf)
+[*Numeric*マニュアルのダウンロード](static/numeric-manual.pdf)
 
