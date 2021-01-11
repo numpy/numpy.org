@@ -42,7 +42,6 @@ O projeto NumPy está crescendo; temos equipes para
 - website
 - triagem
 - financiamento e bolsas
-- administração
 
 Veja a página de [Times](/gallery/team.html) para membros individuais de cada time.
 
