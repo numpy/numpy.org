@@ -42,7 +42,6 @@ The NumPy project is growing; we have teams for
 - website
 - triage
 - funding and grants
-- admin
 
 See the [Team](/gallery/team.html) page for individual team members.
 
