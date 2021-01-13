@@ -45,7 +45,6 @@ O projeto NumPy está crescendo; temos equipes para
 
 Veja a página de [Times](/gallery/team.html) para membros individuais de cada time.
 
-
 ## Patrocinadores
 
 O NumPy recebe financiamento direto das seguintes fontes:
