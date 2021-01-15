@@ -5,7 +5,7 @@ sidebar: false
 
 Numpy をインストールするための必ず必要なものはPython本体です。 もしまだPythonをインストールしていないのであれば、最もシルプルな始め方として、こちらがあります: [Anaconda Distribution](https://www.anaconda.com/distribution)。このanacondaはPythonだけでなく、NumPyや、その他科学技術計算やデータサイエンスのために一般的に使用される沢山のパッケージが含まれています。
 
-NumPy can be installed with `conda`, with `pip`, with a package manager on macOS and Linux, or [from source](https://numpy.org/devdocs/user/building.html). For more detailed instructions, consult our [Python and NumPy installation guide](#python-numpy-install-guide) below.
+NumPyは`conda`や`pip` 、Mac OSやLinuxのパッケージマネージャー、または [ソースコード](https://numpy.org/devdocs/user/building.html)からインストールすることが出来ます。 詳細な手順については、以下の [Python と Numpyの インストールガイド](#python-numpy-install-guide) を参照してください。
 
 **CONDA**
 
