@@ -51,7 +51,7 @@ Windows、macOS、Linuxのすべてのユーザー向けには:
 
 ### 上級ユーザー
 
-#### Windows or macOS
+#### WindowsまたはmacOS
 
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html) をインストールします。
 - `ベース` のconda環境を出来るだけ小さく保ちます。 そして、作業中のタスクやプロジェクトに必要なパッケージは個別の` ` [conda 環境](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) を使用して、インストールするようにします。
@@ -60,24 +60,24 @@ Windows、macOS、Linuxのすべてのユーザー向けには:
 
 #### Linux
 
-If you're fine with slightly outdated packages and prefer stability over being able to use the latest versions of libraries:
-- Use your OS package manager for as much as possible (Python itself, NumPy, and other libraries).
-- Install packages not provided by your package manager with `pip install somepackage --user`.
+もしあなたが最新バージョンのライブラリを使用するよりも、少し古いパッケージで安定性を求める場合は:
+- 可能な限りOS付帯のパッケージマネージャーを使用してください (Python本体やNumPy、 その他のライブラリのインストールに)。
+- `pip install somepackage --user` でパッケージマネージャによって提供されていないパッケージをインストールすることができます。
 
-If you use a GPU:
-- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-- Keep the `base` conda environment minimal, and use one or more [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) to install the package you need for the task or project you're working on.
-- Use the `defaults` conda channel (`conda-forge` doesn't have good support for GPU packages yet).
+GPUを使用する場合:
+- [Miniconda](https://docs.conda.io/en/latest/miniconda.html) をインストールして下さい。
+- `ベース` のconda環境を出来るだけ小さく保ちます。 そして、作業中のタスクやプロジェクトに必要なパッケージは個別の` ` [conda 環境](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) を使用して、インストールするようにします。
+- また、`デフォルトの` conda channel (`conda-forge` は GPU パッケージをまだサポートしていません) を使用してください。
 
-Otherwise:
-- Install [Miniforge](https://github.com/conda-forge/miniforge).
-- Keep the `base` conda environment minimal, and use one or more [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) to install the package you need for the task or project you're working on.
+上記以外の場合
+- [Miniforge](https://github.com/conda-forge/miniforge) をインストールします。
+- `ベース` のconda環境を出来るだけ小さく保ちます。 そして、作業中のタスクやプロジェクトに必要なパッケージは個別の` ` [conda 環境](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) を使用して、インストールするようにします。
 
 
-#### Alternative if you prefer pip/PyPI
+#### pip/PyPI を利用したい場合
 
-For users who know, from personal preference or reading about the main differences between conda and pip below, they prefer a pip/PyPI-based solution, we recommend:
-- Install Python from, for example, [python.org](https://www.python.org/downloads/), [Homebrew](https://brew.sh/), or your Linux package manager.
+個人的な好みや、下記のcondaとpipの違いを理解した上で、pip/PyPIベースの方法を使いたいユーザーには、下記をお勧めします:
+- Pythonをインストールします。例えば、 [python.org](https://www.python.org/downloads/), [Homebrew](https://brew.sh/), または Linux パッケージマネージャを使うことができます。
 - Use [Poetry](https://python-poetry.org/) as the most well-maintained tool that provides a dependency resolver and environment management capabilities in a similar fashion as conda does.
 
 
