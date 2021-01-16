@@ -53,9 +53,9 @@ Windows、macOS、Linuxのすべてのユーザー向けには:
 
 #### Windows or macOS
 
-- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-- Keep the `base` conda environment minimal, and use one or more [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) to install the package you need for the task or project you're working on.
-- Unless you're fine with only the packages in the `defaults` channel, make `conda-forge` your default channel via [setting the channel priority](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge).
+- [Miniconda](https://docs.conda.io/en/latest/miniconda.html) をインストールします。
+- `ベース` のconda環境を出来るだけ小さく保ちます。 そして、作業中のタスクやプロジェクトに必要なパッケージは個別の` ` [conda 環境](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) を使用して、インストールするようにします。
+- もし、あなたの必要なパッケージが`defaults` チャンネルだけで足りない場合は、`conda-forge` こちらの [チャンネルプライオリティの設定](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge)でデフォルトチャンネルを設定することができます。
 
 
 #### Linux
