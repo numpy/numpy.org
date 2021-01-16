@@ -9,7 +9,7 @@ NumPyは`conda`や`pip` 、Mac OSやLinuxのパッケージマネージャー、
 
 **CONDA**
 
-If you use `conda`, you can install NumPy from the `defaults` or `conda-forge` channels:
+`conda`を使用する場合、 `defaults` または `conda-forge` のチャンネルから NumPy をインストールできます。
 
 ```bash
 # Best practice, use an environment rather than install in the base env
@@ -23,24 +23,24 @@ conda install numpy
 
 **PIP**
 
-If you use `pip`, you can install NumPy with:
+`pip`を使用している場合は、 NumPy を以下のようにインストールできます:
 
 ```bash
 pip install numpy
 ```
-Also when using pip, it's good practice to use a virtual environment - see  [Reproducible Installs](#reproducible-installs) below for why, and [this guide](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto) for details on using virtual environments.
+またpipを使う場合、仮想環境を使うことをおすすめします - 参考  [再現可能なインストール](#reproducible-installs) 。 [こちらの記事](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto)では仮想環境を使う詳細について説明されています。
 
 <a name="python-numpy-install-guide"></a>
 
-# Python and NumPy installation guide
+# Python と Numpy インストールガイド
 
-Installing and managing packages in Python is complicated, there are a number of alternative solutions for most tasks. This guide tries to give the reader a sense of the best (or most popular) solutions, and give clear recommendations. It focuses on users of Python, NumPy, and the PyData (or numerical computing) stack on common operating systems and hardware.
+Pythonパッケージのインストールと管理は複雑なで、ほとんどのタスクには数多くの代替ツールがあります。 このガイドでは、読者に最適な(または最も人気のある) 方法と明確な指針を提供したいと思います。 このガイドでは、一般的なオペレーティングシステムとハードウェア上での、 Python、NumPy、PyData (または数値計算) スタックのユーザに焦点を当てています。
 
-## Recommendations
+## 推奨方法
 
-We'll start with recommendations based on the user's experience level and operating system of interest. If you're in between "beginning" and "advanced", please go with "beginning" if you want to keep things simple, and with "advanced" if you want to work according to best practices that go a longer way in the future.
+まずはユーザの経験のレベルと、関心のあるOSに基づいた推奨方法から説明していきたいと思います。 PythonやNumpyの経験が「初級」と「上級」の間の方や、シンプルにインストールしたい方は「初級」を、より長い視点にたったベストプラクティスに沿ってインストールしたい方は「上級」を参照下さい。
 
-### Beginning users
+### 初級ユーザ
 
 On all of Windows, macOS, and Linux:
 
