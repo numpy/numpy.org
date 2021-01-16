@@ -42,9 +42,9 @@ Pythonパッケージのインストールと管理は複雑なで、ほとん�
 
 ### 初級ユーザ
 
-On all of Windows, macOS, and Linux:
+Windows、macOS、Linuxのすべてのユーザー向けには:
 
-- Install [Anaconda](https://www.anaconda.com/distribution/) (it installs all packages you need and all other tools mentioned below).
+- [Anaconda](https://www.anaconda.com/distribution/) をインストールします（必要な パッケージと以下に挙げるすべてのツールがインストールされます）。
 - For writing and executing code, use notebooks in [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) for exploratory and interactive computing, and [Spyder](https://www.spyder-ide.org/) or [Visual Studio Code](https://code.visualstudio.com/) for writing scripts and packages.
 - Use [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) to manage your packages and start JupyterLab, Spyder, or Visual Studio Code.
 
