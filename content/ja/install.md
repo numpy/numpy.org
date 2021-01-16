@@ -78,10 +78,10 @@ GPUを使用する場合:
 
 個人的な好みや、下記のcondaとpipの違いを理解した上で、pip/PyPIベースの方法を使いたいユーザーには、下記をお勧めします:
 - Pythonをインストールします。例えば、 [python.org](https://www.python.org/downloads/), [Homebrew](https://brew.sh/), または Linux パッケージマネージャを使うことができます。
-- Use [Poetry](https://python-poetry.org/) as the most well-maintained tool that provides a dependency resolver and environment management capabilities in a similar fashion as conda does.
+- 依存関係の解決と環境の管理を提供する最もよくメンテナンスされているツールとして、[Poetry](https://python-poetry. org/) をconda と同様な方法で使用することができます。
 
 
-## Python package management
+## Python パッケージ管理
 
 Managing packages is a challenging problem, and, as a result, there are lots of tools. For web and general purpose Python development there's a whole [host of tools](https://packaging.python.org/guides/tool-recommendations/) complementary with pip. For high-performance computing (HPC), [Spack](https://github.com/spack/spack) is worth considering. For most NumPy users though, [conda](https://conda.io/en/latest/) and [pip](https://pip.pypa.io/en/stable/) are the two most popular tools.
 
