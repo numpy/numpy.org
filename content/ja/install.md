@@ -117,26 +117,51 @@ Numpy は他の Python パッケージに依存していませんが、高速な
 
 - Condaのデフォルトチャンネルでは、Numpy はインテル® MKLを使ってビルドされます。 MKL はNumpy をインストールしたときにユーザーの環境にインストールされるのとは、別のパッケージです。
 
-- conda-forgeのチャンネルでは、Numpyはダミーの「BLAS」パッケージを使ってビルドされています。 When a user installs NumPy from conda-forge, that BLAS package then gets installed together with the actual library - this defaults to OpenBLAS, but it can also be MKL (from the defaults channel), or even [BLIS](https://github.com/flame/blis) or reference BLAS.
+- conda-forgeのチャンネルでは、Numpyはダミーの「BLAS」パッケージを使ってビルドされています。 ユーザーがconda-forgeからNumPyをインストールすると、BLASパッケージが実際のライブラリと一緒にインストールされます - デフォルトはOpenBLASですが、MKL(default チャンネルの場合)やBLIS<a>、またはBLASを利用することもできます。</p></li> 
+  
+  <li>
+    <p spaces-before="0">
+      OpenBLASのサイズは約30MBですが、MKLパッケージはOpenBLASよりもはるかに大きく、ディスク上の約700MBです。
+    </p>
+  </li>
+  
+  <li>
+    <p spaces-before="0">
+      MKLは通常、OpenBLASよりも少し速く、よりロバストな結果が得られます。
+    </p>
+  </li></ul> 
+  
+  <p spaces-before="0">
+    インストールサイズ、パフォーマンスとロバスト性に加えて、考慮すべき2つの点があります:
+  </p>
+  
+  <ul>
+    <li>
+      <p spaces-before="0">
+        インテル® MKL はオープンソースではありません。 通常の使用では問題ではありませんが、 ユーザーが Numpy で構築されたアプリケーションを再配布する必要がある場合、これは 問題が発生する可能性があります。
+      </p>
+    </li>
+    <li>
+      <p spaces-before="0">
+        Both MKL and OpenBLAS will use multi-threading for function calls like <code>np.dot</code>, with the number of threads being determined by both a build-time option and an environment variable. Often all CPU cores will be used. This is sometimes unexpected for users; NumPy itself doesn't auto-parallelize any function calls. It typically yields better performance, but can also be harmful - for example when using another level of parallelization with Dask, scikit-learn or multiprocessing.
+      </p>
+    </li>
+  </ul>
+  
+  
 
-- The MKL package is a lot larger than OpenBLAS, it's about 700 MB on disk while OpenBLAS is about 30 MB.
 
-- MKL is typically a little faster and more robust than OpenBLAS.
+<h2 spaces-before="0">
+  Troubleshooting
+</h2>
 
-Besides install sizes, performance and robustness, there are two more things to consider:
+<p spaces-before="0">
+  If your installation fails with the message below, see <a href="https://numpy.org/doc/stable/user/troubleshooting-importerror.html">Troubleshooting ImportError</a>.
+</p>
 
-- Intel MKL is not open source. For normal use this is not a problem, but if a user needs to redistribute an application built with NumPy, this could be an issue.
-- Both MKL and OpenBLAS will use multi-threading for function calls like `np.dot`, with the number of threads being determined by both a build-time option and an environment variable. Often all CPU cores will be used. This is sometimes unexpected for users; NumPy itself doesn't auto-parallelize any function calls. It typically yields better performance, but can also be harmful - for example when using another level of parallelization with Dask, scikit-learn or multiprocessing.
-
-
-## Troubleshooting
-
-If your installation fails with the message below, see [Troubleshooting ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
-
-```
-IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+<pre><code>IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
 
 Importing the numpy c-extensions failed. This error can happen for
 different reasons, often due to issues with your setup.
-```
+</code></pre>
 
