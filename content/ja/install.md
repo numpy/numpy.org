@@ -97,15 +97,15 @@ Python パッケージをインストールするための2 つの主要なツ�
 3つ目の違いは、condaはパッケージ、依存関係、環境を管理するための統合されたソリューションであるのに対し、pipでは環境や複雑な依存関係を扱うために別のツール(たくさん存在しています！) が必要になるかもしれないということです。
 
 
-### Reproducible installs
+### 再現可能なインストール
 
-As libraries get updated, results from running your code can change, or your code can break completely. It's important to be able to reconstruct the set of packages and versions you're using. Best practice is to:
+ライブラリが更新されると、コードの実行結果が変わったり、コードが壊れたりする可能性があります。 なので重要なことは、使用しているパッケージの組み合わせと各バージョンのセットを再構築できるようにしておくことです。 ベストプラクティスは次の通りです:
 
-1. use a different environment per project you're working on,
-2. record package names and versions using your package installer; each has its own metadata format for this:
-   - Conda: [conda environments and environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
-   - Pip: [virtual environments](https://docs.python.org/3/tutorial/venv.html) and [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
-   - Poetry: [virtual environments and pyproject.toml](https://python-poetry.org/docs/basic-usage/)
+1. プロジェクトごとに異なる仮想環境を使用してください。
+2. パッケージインストーラを使用してパッケージ名とバージョンを記録するようにします( それぞれに独自のメタデータフォーマットがあります)。
+   - Condaの場合: [conda environments, environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
+   - pipの場合: [仮想環境](https://docs.python.org/3/tutorial/venv.html) と [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
+   - Poetryの場合: [仮想環境と pyproject.toml](https://python-poetry.org/docs/basic-usage/)
 
 
 
