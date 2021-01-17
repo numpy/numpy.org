@@ -143,7 +143,7 @@ Numpy は他の Python パッケージに依存していませんが、高速な
     </li>
     <li>
       <p spaces-before="0">
-        Both MKL and OpenBLAS will use multi-threading for function calls like <code>np.dot</code>, with the number of threads being determined by both a build-time option and an environment variable. Often all CPU cores will be used. This is sometimes unexpected for users; NumPy itself doesn't auto-parallelize any function calls. It typically yields better performance, but can also be harmful - for example when using another level of parallelization with Dask, scikit-learn or multiprocessing.
+        MKLとOpenBLASの両方とも、 <code>np.dot</code>のような関数呼び出しにマルチスレッドを使用し、スレッド数はビルド時オプションと環境変数の両方で決定されます。 多くの場合、すべての CPU コアが使用されます。 これによりユーザーに予期しないことが起こることがあります。例えばNumPy 自体は、関数呼び出しを自動的に並列化しないことです。 線形代数ライブラリの配列処理は、一般的にはより良いパフォーマンスが得られますが、Daskやscikit-learn、マルチプロセシングなどの別のレベルの並列化を使用している場合などに、逆に悪い結果をもたらすことがあります。
       </p>
     </li>
   </ul>
@@ -152,16 +152,15 @@ Numpy は他の Python パッケージに依存していませんが、高速な
 
 
 <h2 spaces-before="0">
-  Troubleshooting
+  トラブルシューティング
 </h2>
 
 <p spaces-before="0">
-  If your installation fails with the message below, see <a href="https://numpy.org/doc/stable/user/troubleshooting-importerror.html">Troubleshooting ImportError</a>.
+  インストールに失敗した場合に、下記のエラーメッセージが表示される場合は、 <a href="https://numpy.org/doc/stable/user/troubleshooting-importerror.html">トラブルシューティング ImportError</a> を参照してください。
 </p>
 
 <pre><code>IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
 
-Importing the numpy c-extensions failed. This error can happen for
-different reasons, often due to issues with your setup.
+Importing the numpy c-extensions failed. This error can happen for different reasons, often due to issues with your setup.
 </code></pre>
 
