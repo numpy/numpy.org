@@ -109,9 +109,9 @@ Python パッケージをインストールするための2 つの主要なツ�
 
 
 
-## NumPy packages & accelerated linear algebra libraries
+## Numpyパッケージ & 高速線形代数ライブラリ
 
-NumPy doesn't depend on any other Python packages, however, it does depend on an accelerated linear algebra library - typically [Intel MKL](https://software.intel.com/en-us/mkl) or [OpenBLAS](https://www.openblas.net/). Users don't have to worry about installing those (they're automatically included in all NumPy install methods). Power users may still want to know the details, because the used BLAS can affect performance, behavior and size on disk:
+Numpy は他の Python パッケージに依存していませんが、高速な線形代数ライブラリ - 一般的には、 [インテル® MKL](https://software.intel.com/en-us/mkl) または [OpenBLAS](https://www.openblas.net/) に依存しています。 ユーザーはこれらの線形代数ライブラリのインストールを心配する必要はありません (Numpy install メソッドが自動的に実施します)。 Power users may still want to know the details, because the used BLAS can affect performance, behavior and size on disk:
 
 - The NumPy wheels on PyPI, which is what pip installs, are built with OpenBLAS. The OpenBLAS libraries are included in the wheel. This makes the wheel larger, and if a user installs (for example) SciPy as well, they will now have two copies of OpenBLAS on disk.
 
