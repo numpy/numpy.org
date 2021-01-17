@@ -115,9 +115,9 @@ Numpy は他の Python パッケージに依存していませんが、高速な
 
 - pipでインストールされる、PyPI 上の Numpy wheelは、OpenBLASを使ってビルドされます。 つまりwheelにはOpenBLASライブラリが含まれています。 これにより、ユーザが（例えば）SciPyをインストールした場合、ディスク上にOpenBLASのコピーをNumpyのものと、2つ持つことになります
 
-- Condaのデフォルトチャンネルでは、Numpy はインテル® MKLを使ってビルドされます。 MKL is a separate package that will be installed in the users' environment when they install NumPy.
+- Condaのデフォルトチャンネルでは、Numpy はインテル® MKLを使ってビルドされます。 MKL はNumpy をインストールしたときにユーザーの環境にインストールされるのとは、別のパッケージです。
 
-- In the conda-forge channel, NumPy is built against a dummy "BLAS" package. When a user installs NumPy from conda-forge, that BLAS package then gets installed together with the actual library - this defaults to OpenBLAS, but it can also be MKL (from the defaults channel), or even [BLIS](https://github.com/flame/blis) or reference BLAS.
+- conda-forgeのチャンネルでは、Numpyはダミーの「BLAS」パッケージを使ってビルドされています。 When a user installs NumPy from conda-forge, that BLAS package then gets installed together with the actual library - this defaults to OpenBLAS, but it can also be MKL (from the defaults channel), or even [BLIS](https://github.com/flame/blis) or reference BLAS.
 
 - The MKL package is a lot larger than OpenBLAS, it's about 700 MB on disk while OpenBLAS is about 30 MB.
 
