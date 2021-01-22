@@ -1,16 +1,16 @@
 ---
-title: "Case Study: First Image of a Black Hole"
+title: "ケーススタディ：世界初のブラックホールの画像"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Black Hole M87**" alt="black hole image" attr="*(Image Credits: Event Horizon Telescope Collaboration)*" attrlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
+{{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Black Hole M87**" alt="black hole image" attr="*(Image Credits: Event Horizon Telescope Collaboration)*" attrk="https://www.jpl.nasa.gov/images/universe/90410/blackhole20190410.jpg" >}}
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
-    <p>Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.</p>
-    <footer align="right">Katie Bouman, <cite>Assistant Professor, Computing & Mathematical Sciences, Caltech</cite></footer>
+    <p>M87ブラックホールを画像化することは、見ることのできないものを、あえて見ようとするようなものです。</p>
+    <footer align="right"><cite>カリフォルニア工科大学 計算・数理学部</cite>のKatie Bouman助教授</footer>
 </blockquote>
 
-## A telescope the size of the earth
+## 地球の大きさの望遠鏡。
 
 The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org) is an array of eight ground-based radio telescopes forming a computational telescope the size of the earth, studing the universe with unprecedented sensitivity and resolution.  The huge virtual telescope,  which uses a technique called very-long-baseline interferometry (VLBI), has an angular resolution of [20 micro-arcseconds][resolution] — enough to read a newspaper in New York from a sidewalk café in Paris!
 
