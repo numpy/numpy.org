@@ -18,29 +18,29 @@ sidebar: false
 
 * **宇宙の新しい見方:** EHTの画期的な考え方の基礎が築かれたのは、100年前に [Sir Arthur Eddington][eddington] がアインシュタインの一般相対性理論に沿った最初の観測を実施したことが始まりでした。
 
-* **ブラックホール:** EHTは、おとめ座銀河団のメシエ87銀河 (M87) の中心にある、地球から約5500万光年の距離にある超巨大ブラックホールを観測しました。 Its mass is 6.5 billion times the Sun's. It had been studied for [over 100 years](https://www.jpl.nasa.gov/news/news.php?feature=7385), but never before had a black hole been visually observed.
+* **ブラックホール:** EHTは、おとめ座銀河団のメシエ87銀河 (M87) の中心にある、地球から約5500万光年の距離にある超巨大ブラックホールを観測しました。 その質量は、太陽の65億倍です。 この取り組みは[ 100年以上 ](https://www.jpl.nasa.gov/news/news.php?feature=7385)に渡って研究されてきたが、これまでに視覚的にブラックホールを観測できたことはありませんでした。
 
-* **Comparing Observations to Theory:** From Einstein’s general theory of relativity, scientists expected to find a shadow-like region caused by gravitational bending and capture of light. Scientists could use it to measure the black hole's enormous mass.
+* **観測と理論の比較:** 科学者達は、アインシュタインの一般相対性理論から、重力による光の曲げや光の捕獲による影のような領域を観測できるのではないかと期待していました。 科学者たちは、ブラックホールの巨大な質量を測定するためにその情報を利用することができます。
 
-### The Challenges
+### 課題
 
-* **Computational scale**
+* **大規模な計算**
 
-    EHT poses massive data-processing challenges, including rapid atmospheric phase fluctuations, large recording bandwidth, and telescopes that are widely dissimilar and geographically dispersed.
+    EHTは、急速な大気の位相変動、大規模な記録帯域幅、広く性能が異なり地理的に分散した望遠鏡などに対して、膨大なデータ処理の課題を抱えていました。
 
-* **Too much information**
+* **大量のデータ**
 
-    Each day EHT generates over 350 terabytes of observations, stored on helium-filled hard drives. Reducing the volume and complexity of this much data is enormously difficult.
+    EHTは一日で350テラバイトを超える観測データを生成し、ヘリウムで満たされたハードドライブに保存しています。 この大量のデータとデータの複雑さを軽減することは非常に難しいことです。
 
-* **Into the unknown**
+* **よくわからないものを観測する**
 
-    When the goal is to see something never before seen, how can scientists be confident the image is correct?
+    研究の目標が今までに見たことのないものを見ることであるとき、どのようにして科学者はその画像が正しいと確信することができるのでしょうか?
 
-{{< figure src="/images/content_images/cs/dataprocessbh.png" class="csfigcaption" caption="**EHT Data Processing Pipeline**" alt="data pipeline" align="middle" attr="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)" attrlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
+{{< figure src="/images/content_images/cs/dataprocessbh.png" class="csfigcaption" caption="**EHTのデータ処理パイプライン**" alt="data pipeline" align="middle" attr="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)" attrlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
 
-## NumPy’s Role
+## NumPyが果たした役割
 
-What if there's a problem with the data? Or perhaps an algorithm relies too heavily on a particular assumption. Will the image change drastically if a single parameter is changed?
+データに問題がある場合はどうなるでしょう？ あるいは、アルゴリズムが特定の仮定に あまりにも大きく依存しているかもしれません。 Will the image change drastically if a single parameter is changed?
 
 The EHT collaboration met these challenges by having independent teams evaluate the data, using both established and cutting-edge image reconstruction techniques. When results proved consistent, they were combined to yield the first-of-a-kind image of the black hole.
 
