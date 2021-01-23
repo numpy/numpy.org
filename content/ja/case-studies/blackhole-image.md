@@ -40,23 +40,23 @@ sidebar: false
 
 ## NumPyが果たした役割
 
-データに問題がある場合はどうなるでしょう？ あるいは、アルゴリズムが特定の仮定に あまりにも大きく依存しているかもしれません。 Will the image change drastically if a single parameter is changed?
+データに問題がある場合はどうなるでしょう？ あるいは、アルゴリズムが特定の仮定に あまりにも大きく依存しているかもしれません。 もしあるパラメータを変更した場合、画像は大きく変化するのでしょうか？
 
-The EHT collaboration met these challenges by having independent teams evaluate the data, using both established and cutting-edge image reconstruction techniques. When results proved consistent, they were combined to yield the first-of-a-kind image of the black hole.
+EHTの共同研究では、最先端の画像再構成技術を使用して、それぞれのチームがデータを評価することによって、これらの課題に対処しました。 それぞれのチームの解析結果が同じであることが証明されると、それらの結果を組み合わせることで、ブラックホール画像を得ることができました。
 
-Their work illustrates the role the scientific Python ecosystem plays in advancing science through collaborative data analysis.
+彼らの研究は、共同のデータ解析を通じて科学を進歩させる、科学的なPythonエコシステムが果たす役割を如実に表しています。
 
-{{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**The role of NumPy in Black Hole imaging**" >}}
+{{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**ブラックホールの画像化でNumpyが果たした役割**" >}}
 
-For example, the [`eht-imaging`][ehtim] Python package provides tools for simulating and performing image reconstruction on VLBI data. NumPy is at the core of array data processing used in this package, as illustrated by the partial software dependency chart below.
+例えば、 [`eht-imaging`][ehtim] というPython パッケージは VLBI データで画像の再構築をシミュレートし、実行するためのツールです。 NumPyは、以下のソフトウェア依存関係チャートで示されているように、このパッケージで使用される配列データ処理の中核を担っています。
 
-{{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Software dependency chart of ehtim package highlighting NumPy**" >}}
+{{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Numpyの中心としたehtimのソフトウェア依存図**" >}}
 
-Besides NumPy, many other packages, such as [SciPy](https://www.scipy.org) and [Pandas](https://pandas.io), are part of the data processing pipeline for imaging the black hole. The standard astronomical file formats and time/coordinate transformations were handled by [Astropy][astropy], while [Matplotlib][mpl] was used in visualizing data throughout the analysis pipeline, including the generation of the final image of the black hole.
+Numpyだけでなく、[SciPy](https://www.scipy.org)や[Pandas](https://pandas.io)などのパッケージもブラックホールの画像化のデータ処理パイプラインに利用されています。 天文学の標準的なファイル形式や時間/座標変換 は[Astropy][astropy]で実施し、ブラックホールの最終画像の生成を含め、解析パイプライン全体でのデータ可視化には [Matplotlib][mpl]が利用されました。
 
-## Summary
+## まとめ
 
-The efficient and adaptable n-dimensional array that is NumPy's central feature enabled researchers to manipulate large numerical datasets, providing a foundation for the first-ever image of a black hole. A landmark moment in science, it gives stunning visual evidence of Einstein’s theory. The achievement encompasses not only technological breakthroughs but also international collaboration among over 200 scientists and some of the world's best radio observatories.  Innovative algorithms and data processing techniques, improving upon existing astronomical models, helped unfold a mystery of the universe.
+NumPyの中心的な機能である、効率的で適用性の高いn次元配列は、研究者が大規模な数値データを操作することを可能にし、世界で初めてのブラックホールの画像化の基礎を築きました。 アインシュタインの理論に素晴らしい視覚的証拠を与えたのは、科学の画期的な瞬間だといえます。 この科学的に偉大な達成には、技術的の飛躍的な進歩だけでなく、200人以上の科学者と世界で 最高の電波観測所の間での国際協力も寄与しました。  革新的なアルゴリズムとデータ処理技術は、既存の天文学モデルを改良し、宇宙の謎を解き明かす助けになったといえます。
 
 {{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**Key NumPy Capabilities utilized**" >}}
 
