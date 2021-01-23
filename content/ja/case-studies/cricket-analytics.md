@@ -1,9 +1,9 @@
 ---
-title: "Case Study: Cricket Analytics, the game changer!"
+title: "ケーススタディ: クリケット分析、ゲームチェンジャー!"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**IPLT20, the biggest Cricket Festival in India**" alt="Indian Premier League Cricket cup and stadium" attr="*(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
+{{< figure src="/images/content_images/cs/ipl-stadium.png" caption="** IPLT20、インド最大のクリケットフェスティバル**" alt="Indian Premier League Cricket cup and stadium" attr="*(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
 
 <blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
     <p>You don't play for the crowd, you play for the country.</p>
