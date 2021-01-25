@@ -22,8 +22,8 @@ sidebar: false
 
 * バッティングの記録の移動平均
 * スコア予測
-* gaining insights into fitness and performance of a player against different opposition,
-* player contribution to wins and losses for making strategic decisions on team composition
+* プレイヤーの体力やパフォーマンスについての知識を得ること
+* チーム構成に戦略的な決定を下すための、各勝敗へのプレイヤーの貢献
 
 {{< figure src="/images/content_images/cs/cricket-pitch.png" class="csfigcaption" caption="**Cricket Pitch, the focal point in the field**" alt="A cricket pitch with bowler and batsmen" align="middle" attr="*(Image credit: Debarghya Das)*" attrlink="http://debarghyadas.com/files/IPLpaper.pdf" >}}
 
