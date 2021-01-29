@@ -25,11 +25,11 @@ sidebar: false
 * プレイヤーの体力やパフォーマンスについての知識を得ること
 * チーム構成に戦略的な決定を下すための、各勝敗へのプレイヤーの貢献
 
-{{< figure src="/images/content_images/cs/cricket-pitch.png" class="csfigcaption" caption="**Cricket Pitch, the focal point in the field**" alt="A cricket pitch with bowler and batsmen" align="middle" attr="*(Image credit: Debarghya Das)*" attrlink="http://debarghyadas.com/files/IPLpaper.pdf" >}}
+{{< figure src="/images/content_images/cs/cricket-pitch.png" class="csfigcaption" caption="** フィールドのフォーカルポイントとなるクリケットピッチ**" alt="A cricket pitch with bowler and batsmen" align="middle" attr="*(Image credit: Debarghya Das)*" attrlink="http://debarghyadas.com/files/IPLpaper.pdf" >}}
 
-### Key Data Analytics Objectives
+### データ分析の主要な目標
 
-* Sports data analytics are used not only in cricket but many [other sports](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) for improving the overall team performance and maximizing winning chances.
+* スポーツデータ分析はクリケットだけでなく、チーム全体のパフォーマンスを向上させ、勝利率を最大限に高めるために、 [ 他のスポーツ](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx)でも使用されています。
 * Real-time data analytics can help in gaining insights even during the game for changing tactics by the team and by associated businesses for economic benefits and growth.
 * Besides historical analysis, predictive models are harnessed to determine the possible match outcomes that require significant number crunching and data science know-how, visualization tools and capability to include newer observations in the analysis.
 
