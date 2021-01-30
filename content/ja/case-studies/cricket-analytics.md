@@ -43,11 +43,11 @@ sidebar: false
 
 * **動的モデリング**
 
-  クリケットも、他のスポーツのように、フィールド上の選手の様々な数字を追跡するために、関連する変数の数が多くなってしまいがちです。たとえば、ボールやその属性情報、および潜在的なアクションのいくつかの可能性などの変数です。 データ分析とモデリングの複雑さは、分析中に必要となる予測のための質問の種類に正比例しており、データ表現とモデルにも大きく依存しています。 Things get even more challenging in terms of computation, data comparisons when dynamic cricket play predictions are sought such as what would have happened if the batsman had hit the ball at a different angle or velocity.
+  クリケットも、他のスポーツのように、フィールド上の選手の様々な数字を追跡するために、関連する変数の数が多くなってしまいがちです。たとえば、ボールやその属性情報、および潜在的なアクションのいくつかの可能性などの変数です。 データ分析とモデリングの複雑さは、分析中に必要となる予測のための質問の種類に正比例しており、データ表現とモデルにも大きく依存しています。 打者が異なる角度や速度でボールを打った場合に何が起こるのかのような、動的なクリケットのプレーの予測が必要な場合、計算量やデータ比較が更に困難になります。
 
-* **Predictive Analytics Complexity**
+* **予測分析の複雑さ**
 
-  Much of the decision making in cricket is based on questions such as "how often does a batsman play a certain kind of shot if the ball delivery is of a particular type", or "how does a bowler change his line and length if the batsman responds to his delivery in a certain way". This kind of predictive analytics query requires highly granular dataset availability and the capability to synthesize data and create generative models that are highly accurate.
+  クリケットの意思決定の多くは、"ボール運びがある特定のタイプの場合、バッツマンはどのくらいの頻度で特定の種類のショットを打つのか？"や、"バッツマンが特定の方法であるボール運びに反応した場合、ボウラーはどのように彼のラインと長さを変更するのか "などの質問に基づいています。 This kind of predictive analytics query requires highly granular dataset availability and the capability to synthesize data and create generative models that are highly accurate.
 
 ## NumPy’s Role in Cricket Analytics
 
