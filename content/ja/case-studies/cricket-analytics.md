@@ -47,18 +47,18 @@ sidebar: false
 
 * **予測分析の複雑さ**
 
-  クリケットの意思決定の多くは、"ボール運びがある特定のタイプの場合、バッツマンはどのくらいの頻度で特定の種類のショットを打つのか？"や、"バッツマンが特定の方法であるボール運びに反応した場合、ボウラーはどのように彼のラインと長さを変更するのか "などの質問に基づいています。 This kind of predictive analytics query requires highly granular dataset availability and the capability to synthesize data and create generative models that are highly accurate.
+  クリケットの意思決定の多くは、"ボール運びがある特定のタイプの場合、バッツマンはどのくらいの頻度で特定の種類のショットを打つのか？"や、"バッツマンが特定の方法であるボール運びに反応した場合、ボウラーはどのように彼のラインと長さを変更するのか "などの質問に基づいています。 この種の予測分析クエリには、精度の良いデータセットが利用できること、データを合成して高精度な生成モデルを作成する能力が必要です。
 
-## NumPy’s Role in Cricket Analytics
+## クリケット解析におけるNumPyの役割
 
-Sports Analytics is a thriving field. Many researchers and companies [use NumPy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) and other PyData packages like Scikit-learn, SciPy, Matplotlib, and Jupyter, besides using the latest machine learning and AI techniques.  NumPy has been used for various kinds of cricket related sporting analytics such as:
+スポーツ分析は現在、非常に盛んな分野です。 多くの研究者や企業は、最新の機械学習やAI技術以外にも、Numpyや、Scikit-learn, SciPy, Matplotlib, Jupyter などの他の PyData パッケージを [使っています](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx)。  Numpy は 以下のような様々な種類のクリケット関連のスポーツ分析に使用されています:
 
-* **Statistical Analysis:** NumPy's numerical capabilities help estimate the statistical significance of observational data or match events in the context of various player and game tactics, estimating the game outcome by comparison with a generative or static model. [Causal analysis](https://amplitude.com/blog/2017/01/19/causation-correlation) and [big data approaches](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) are used for tactical analysis.
+* **統計分析:** NumPyの数値計算機能は、様々なプレイヤーやゲーム戦術のコンテキストでの観測データで、試合中のイベントの統計的有意性を推定し、生成モデルや静的モデルと比較して試合結果を推定するのに役立ちます。 [因果分析](https://amplitude.com/blog/2017/01/19/causation-correlation) と [ビッグデータアプローチ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) は戦術的分析に使用されています。
 
-* **Data Visualization:** Data graphing and [visualization](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) provides useful insights into relationship between various datasets.
+* **データ可視化:** データのグラフ化と [視覚化](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) は、さまざまなデータセット間の関係に関する、有益な洞察を与えてくれます。
 
-## Summary
+## まとめ
 
-Sports Analytics is a game changer when it comes to how professional games are played, especially how strategic decision making happens, which until recently was primarily done based on “gut feeling" or adherence to past traditions. NumPy forms a solid foundation for a large set of Python packages which provide higher level functions related to data analytics, machine learning, and AI algorithms. These packages are widely deployed to gain real-time insights that help in decision making for game-changing outcomes, both on field as well as to draw inferences and drive business around the game of cricket. Finding out the hidden parameters, patterns, and attributes that lead to the outcome of a cricket match helps the stakeholders to take notice of game insights that are otherwise hidden in numbers and statistics.
+スポーツアナリティクスは、それがプロの試合がどのように実施されるか、特に最近まで主に "直感 "や過去の伝統的な考え方に基づいて行われていた戦略的な意思決定が、どのように起こるかという面で、世界を変えた技術的であるといえます。 NumPyは、データ分析や機械学習、人工知能のアルゴリズムに関連する高レベルの関数を提供する 沢山のPython パッケージ群に対して、堅固な基盤として利用されています。 これらのパッケージは、クリケットの試合だけでなくクリケットの試合周辺の推論やビジネスを推進しつつ、ゲームの結果を変えるような意思決定を支援するリアルタイムのインサイトを得るために広く利用されています。 クリケットの試合の結果につながる隠れたパラメータや、パターン、属性を見つけることは、ステークホルダーが数字や統計に隠されているゲームの洞察方法を見つけるのにも役に立つのです。
 
-{{< figure src="/images/content_images/cs/numpy_ca_benefits.png" class="fig-center" alt="Diagram showing benefits of using NumPy for cricket analytics" caption="**Key NumPy Capabilities utilized**" >}}
+{{< figure src="/images/content_images/cs/numpy_ca_benefits.png" class="fig-center" alt="クリケット分析にNumPyを使用するメリットを示す図" caption="** 利用されている主なNumPy機能 **" >}
