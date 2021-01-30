@@ -1,5 +1,5 @@
 ---
-title: "Case Study: DeepLabCut 3D Pose Estimation"
+title: "ケーススタディ: DeepLabCut 三次元姿勢推定"
 sidebar: false
 ---
 
