@@ -30,20 +30,20 @@ sidebar: false
 ### データ分析の主要な目標
 
 * スポーツデータ分析はクリケットだけでなく、チーム全体のパフォーマンスを向上させ、勝利率を最大限に高めるために、 [ 他のスポーツ](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx)でも使用されています。
-* Real-time data analytics can help in gaining insights even during the game for changing tactics by the team and by associated businesses for economic benefits and growth.
-* Besides historical analysis, predictive models are harnessed to determine the possible match outcomes that require significant number crunching and data science know-how, visualization tools and capability to include newer observations in the analysis.
+* リアルタイムデータ分析は、ゲーム中の洞察を得ることができ、チームや関連ビジネスが経済的利益と成長のために戦術を変更するためも役立ちます。
+* 履歴分析に加えて、予測モデルは可能性のある結果を求めることができますが、かなりの数のナンバークランチングとデータサイエンスのノウハウ、可視化ツール、および分析に新しい観測データを含める機能などが必要になります。
 
-{{< figure src="/images/content_images/cs/player-pose-estimator.png" class="fig-center" alt="pose estimator" caption="**Cricket Pose Estimator**" attr="*(Image credit: connect.vin)*" attrlink="https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/" >}}
+{{< figure src="/images/content_images/cs/player-pose-estimator.png" class="fig-center" alt="pose estimator" caption="**クリケットの姿勢推定**" attr="*(Image credit: connect.vin)*" attrlink="https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/" >}}
 
-### The Challenges
+### 課題
 
-* **Data Cleaning and preprocessing**
+* **データのクリーニングと前処理**
 
-  IPL has expanded cricket beyond the classic test match format to a much larger scale. The number of matches played every season across various formats has increased and so has the data, the algorithms, newer sports data analysis technologies and simulation models. Cricket data analysis requires field mapping, player tracking, ball tracking, player shot analysis, and several other aspects involved in how the ball is delivered, its angle, spin, velocity, and trajectory. All these factors together have increased the complexity of data cleaning and preprocessing.
+  IPLは、クリケットを古典的なテストマッチ形式をから、はるかに大規模に拡大させました。 毎シーズン、様々なフォーマットで行われる試合の数は増加しており、データ、アルゴリズム、最新のスポーツデータ分析技術、シミュレーションモデルも増加しています。 クリケットのデータ分析には、フィールドマッピング、プレイヤートラッキング、ボールトラッキング、プレイヤーショット分析、およびボールがどのように動くのか、その角度、スピン、速度、軌道など、他の沢山の種類のデータを必要とします。 これらの要因により、データクリーニングと前処理の複雑さが増してしまいました。
 
-* **Dynamic Modeling**
+* **動的モデリング**
 
-  In cricket, just like any other sport, there can be a large number of variables related to tracking various numbers of players on the field, their attributes, the ball, and several possibilities of potential actions. The complexity of data analytics and modeling is directly proportional to the kind of predictive questions that are put forth during analysis and are highly dependent on data representation and the model. Things get even more challenging in terms of computation, data comparisons when dynamic cricket play predictions are sought such as what would have happened if the batsman had hit the ball at a different angle or velocity.
+  クリケットも、他のスポーツのように、フィールド上の選手の様々な数字を追跡するために、関連する変数の数が多くなってしまいがちです。たとえば、ボールやその属性情報、および潜在的なアクションのいくつかの可能性などの変数です。 データ分析とモデリングの複雑さは、分析中に必要となる予測のための質問の種類に正比例しており、データ表現とモデルにも大きく依存しています。 Things get even more challenging in terms of computation, data comparisons when dynamic cricket play predictions are sought such as what would have happened if the batsman had hit the ball at a different angle or velocity.
 
 * **Predictive Analytics Complexity**
 
