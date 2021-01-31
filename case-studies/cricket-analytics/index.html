@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-162151853-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<meta name="description" content="Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source." />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>NumPy</title>
+  
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.min.cf5efcb8a6e49b945af419cd8b208a5ae87eb3015995b9afc61218743a0fed3e.css" integrity="sha256-z178uKbkm5Ra9BnNiyCKWuh&#43;swFZlbmvxhIYdDoP7T4=">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="/css/shell.css" />
+<link rel="stylesheet" type="text/css" href="/css/tabs.css" />
+<link rel="stylesheet" type="text/css" href="/css/content.css" />
+<link rel="stylesheet" type="text/css" href="/css/news.css" />
+<link rel="stylesheet" type="text/css" href="/css/keyfeatures.css" />
+<link rel="stylesheet" type="text/css" href="/css/casestudies.css" />
+
+</head>
+
+<body>
+  
+
+  
+
+
+<nav id="nav" class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      
+            <a id="navbar-item" class="navbar-item" href="/">
+                <img src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow." width="112" height="28" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+            </a>
+      
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+
+        <div class="navbar-end">
+          <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+            Install
+          </a>
+          <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+            Documentation
+          </a>
+          <a href="/learn" id="navbar-item" class="navbar-item is-secondary">
+            Learn
+          </a>
+          <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+            Community
+          </a>
+          <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+            About Us
+          </a>
+          <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+            Contribute
+          </a>
+
+          
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a id="navbar-item" class="navbar-item" href="/">
+        <img src="/images/logos/numpy.svg" alt="" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+
+      <div class="navbar-end">
+        <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+          Install
+        </a>
+        <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+          Documentation
+        </a>
+        <a href="/learn" id="navbar-item" class="navbar-item is-secondary">
+          Learn
+        </a>
+        <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+          Community
+        </a>
+        <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+          About Us
+        </a>
+        <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+          Contribute
+        </a>
+        
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="content-padding flex-row">
+    <div class="shortcuts-container">
+        <div class="shortcuts-title">Shortcuts</div>
+        <div id="shortcuts"></div>
+        <div class="sidebar-links">
+            <a href="/gethelp">Get Help</a>
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="columns">
+            <div class="column is-centered-tablet-portrait">
+                <h1 class="title section-title">Case Study: Cricket Analytics, the game changer!</h1>
+                <h5 class="subtitle is-5 is-muted"></h5>
+                <div class="divider"></div>
+            </div>
+        </div>
+        <figure>
+    <img src="/images/content_images/cs/ipl-stadium.png"
+         alt="Indian Premier League Cricket cup and stadium"/> <figcaption>
+            <p><strong>IPLT20, the biggest Cricket Festival in India</strong>
+                    <a href="https://unsplash.com/@aksh1802"><em>(Image credits: IPLT20 (cup and logo) &amp; Akash Yadav (stadium))</em></a></p>
+        </figcaption>
+</figure>
+
+<blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
+    <p>You don't play for the crowd, you play for the country.</p>
+    <footer align="right">—M S Dhoni, <cite>International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL</cite></footer>
+</blockquote>
+<h2 id="about-cricket">About Cricket</h2>
+<p>It would be an understatement to state that Indians love cricket. The game is
+played in just about every nook and cranny of India, rural or urban, popular
+with the young and the old alike, connecting billions in India unlike any other sport.
+Cricket enjoys lots of media attention. There is a significant amount of
+<a href="https://www.statista.com/topics/4543/indian-premier-league-ipl/">money</a> and
+fame at stake. Over the last several years, technology has literally been a game
+changer. Audiences are spoilt for choice with streaming media, tournaments,
+affordable access to mobile based live cricket watching, and more.</p>
+<p>The Indian Premier League (IPL) is a professional Twenty20 cricket
+league, founded in 2008. It is one of the most attended cricketing events in
+the world, valued at <a href="https://en.wikipedia.org/wiki/Indian_Premier_League">$6.7 billion</a>
+in 2019.</p>
+<p>Cricket is a game of numbers - the runs scored by a batsman, the wickets taken
+by a bowler, the matches won by a cricket team, the number of times a batsman
+responds in a certain way to a kind of bowling attack, etc. The capability to
+dig into cricketing numbers for both improving performance and studying
+the business opportunities, overall market, and economics of cricket via powerful
+analytics tools, powered by numerical computing software such as NumPy, is a big
+deal. Cricket analytics provides interesting insights into the game and
+predictive intelligence regarding game outcomes.</p>
+<p>Today, there are rich and almost infinite troves of cricket game records and
+statistics available, e.g., <a href="https://stats.espncricinfo.com/ci/engine/stats/index.html">ESPN
+cricinfo</a> and
+<a href="https://cricsheet.org">cricsheet</a>. These and several such cricket databases
+have been used for <a href="https://www.researchgate.net/publication/336886516_Data_visualization_and_toss_related_analysis_of_IPL_teams_and_batsmen_performances">cricket
+analysis</a>
+using the latest machine learning and predictive modelling algorithms.
+Media and entertainment platforms along with professional sports bodies
+associated with the game use technology and analytics for determining key
+metrics for improving match winning chances:</p>
+<ul>
+<li>batting performance moving average,</li>
+<li>score forecasting,</li>
+<li>gaining insights into fitness and performance of a player against different opposition,</li>
+<li>player contribution to wins and losses for making strategic decisions on team composition</li>
+</ul>
+<figure class="csfigcaption">
+    <img src="/images/content_images/cs/cricket-pitch.png"
+         alt="A cricket pitch with bowler and batsmen"/> <figcaption>
+            <p><strong>Cricket Pitch, the focal point in the field</strong>
+                    <a href="http://debarghyadas.com/files/IPLpaper.pdf"><em>(Image credit: Debarghya Das)</em></a></p>
+        </figcaption>
+</figure>
+
+<h3 id="key-data-analytics-objectives">Key Data Analytics Objectives</h3>
+<ul>
+<li>Sports data analytics are used not only in cricket but many <a href="https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx">other
+sports</a> for
+improving the overall team performance and maximizing winning chances.</li>
+<li>Real-time data analytics can help in gaining insights even during the game
+for changing tactics by the team and by associated businesses for economic
+benefits and growth.</li>
+<li>Besides historical analysis, predictive models are
+harnessed to determine the possible match outcomes that require significant
+number crunching and data science know-how, visualization tools and capability
+to include newer observations in the analysis.</li>
+</ul>
+<figure class="fig-center">
+    <img src="/images/content_images/cs/player-pose-estimator.png"
+         alt="pose estimator"/> <figcaption>
+            <p><strong>Cricket Pose Estimator</strong>
+                    <a href="https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/"><em>(Image credit: connect.vin)</em></a></p>
+        </figcaption>
+</figure>
+
+<h3 id="the-challenges">The Challenges</h3>
+<ul>
+<li>
+<p><strong>Data Cleaning and preprocessing</strong></p>
+<p>IPL has expanded cricket beyond the classic test match format to a much
+larger scale. The number of matches played every season across various
+formats has increased and so has the data, the algorithms, newer sports data
+analysis technologies and simulation models. Cricket data analysis requires
+field mapping, player tracking, ball tracking, player shot analysis, and
+several other aspects involved in how the ball is delivered, its angle, spin,
+velocity, and trajectory. All these factors together have increased the
+complexity of data cleaning and preprocessing.</p>
+</li>
+<li>
+<p><strong>Dynamic Modeling</strong></p>
+<p>In cricket, just like any other sport,
+there can be a large number of variables related to tracking various numbers
+of players on the field, their attributes, the ball, and several possibilities
+of potential actions. The complexity of data analytics and modeling is
+directly proportional to the kind of predictive questions that are put forth
+during analysis and are highly dependent on data representation and the
+model. Things get even more challenging in terms of computation, data
+comparisons when dynamic cricket play predictions are sought such as what
+would have happened if the batsman had hit the ball at a different angle or
+velocity.</p>
+</li>
+<li>
+<p><strong>Predictive Analytics Complexity</strong></p>
+<p>Much of the decision making in cricket is based on questions such as &ldquo;how
+often does a batsman play a certain kind of shot if the ball delivery is of a
+particular type&rdquo;, or &ldquo;how does a bowler change his line and length if the
+batsman responds to his delivery in a certain way&rdquo;.
+This kind of predictive analytics query requires highly granular dataset
+availability and the capability to synthesize data and create generative
+models that are highly accurate.</p>
+</li>
+</ul>
+<h2 id="numpys-role-in-cricket-analytics">NumPy’s Role in Cricket Analytics</h2>
+<p>Sports Analytics is a thriving field. Many researchers and companies
+<a href="https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx">use NumPy</a>
+and other PyData packages like Scikit-learn, SciPy, Matplotlib, and Jupyter,
+besides using the latest machine learning and AI techniques.  NumPy has been used
+for various kinds of cricket related sporting analytics such as:</p>
+<ul>
+<li>
+<p><strong>Statistical Analysis:</strong> NumPy&rsquo;s numerical capabilities help estimate the
+statistical significance of observational data or match events in the context
+of various player and game tactics, estimating the game outcome by comparison
+with a generative or static model.
+<a href="https://amplitude.com/blog/2017/01/19/causation-correlation">Causal analysis</a>
+and <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/">big data approaches</a>
+are used for tactical analysis.</p>
+</li>
+<li>
+<p><strong>Data Visualization:</strong> Data graphing and <a href="https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b">visualization</a> provides useful insights into relationship between various datasets.</p>
+</li>
+</ul>
+<h2 id="summary">Summary</h2>
+<p>Sports Analytics is a game changer when it comes to how professional games are
+played, especially how strategic decision making happens, which until recently
+was primarily done based on “gut feeling&rdquo; or adherence to past traditions. NumPy
+forms a solid foundation for a large set of Python packages which provide higher
+level functions related to data analytics, machine learning, and AI algorithms.
+These packages are widely deployed to gain real-time insights that help in
+decision making for game-changing outcomes, both on field as well as to draw
+inferences and drive business around the game of cricket. Finding out the
+hidden parameters, patterns, and attributes that lead to the outcome of a
+cricket match helps the stakeholders to take notice of game insights that are
+otherwise hidden in numbers and statistics.</p>
+<figure class="fig-center">
+    <img src="/images/content_images/cs/numpy_ca_benefits.png"
+         alt="Diagram showing benefits of using NumPy for cricket analytics"/> <figcaption>
+            <p><strong>Key NumPy Capabilities utilized</strong></p>
+        </figcaption>
+</figure>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+  
+  <div id="backtotop"><a href="#"></a></div>
+
+  
+
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/css/uikit.min.css" />
+
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "joelachance/thebelab-requirements"
+        },
+    }
+</script>
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
+
+<script src="/js/app.js"></script>
+
+
+  
+  
+<footer id="footer" class="footer">
+  <div class="container">
+    <div id="footer-columns" class="columns">
+      <div class="footer-logo-column">
+        <img id="footer-logo" src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+      </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/install">
+                  Install
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/doc/stable">
+                  Documentation
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/learn">
+                  Learn
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/neps/roadmap.html">
+                  Roadmap
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/about">
+                  About us
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/community">
+                  Community
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/contribute">
+                  Contribute
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/code-of-conduct">
+                  Code of conduct
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/gethelp">
+                  Get help
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/terms">
+                  Terms of use
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/privacy">
+                  Privacy
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/press-kit">
+                  Press kit
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-actions">
+            <p>Sign up for the latest NumPy news, resources, <br> and more</p>
+            
+            <form action="https://numpy.us4.list-manage.com/subscribe/post?u=5ddd0d1d6e807900a8212481a&amp;id=287fa4253c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sign-up-container" target="_blank" novalidate>
+                <div class="sign-up-image">
+                    <i class="far fa-envelope"></i>
+                </div>
+                <input type="email" value="" name="EMAIL" class="required email sign-up-input" id="mce-EMAIL" aria-label="Input for email, press enter to submit" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') sendThankYou()" />
+                <div class="submission-instructions">Press Enter</div>
+                <button class="signup-button" onclick="sendThankYou()" aria-label="Submit">
+                    <i class="far fa-paper-plane"></i>
+                </button>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5ddd0d1d6e807900a8212481a_287fa4253c" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="display: none;"></div>
+            </form>
+            <div class="thank-you">Thank you! &#127881;</div>
+            
+
+            <nav class="level is-mobile">
+                <div class="social-media-icons">
+                    <a class="level-item" href="https://github.com/numpy/numpy" aria-label="https://github.com/numpy/numpy">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    </a>
+                    <a class="level-item" href="https://twitter.com/numpy_team" aria-label="https://twitter.com/numpy_team">
+                    <span class="icon"><i class="fab fa-twitter"></i></span>
+                    </a>
+                </div>
+            </nav>
+            <div class="copyright">&copy; 2019-2020 NumPy. All rights reserved.</div>
+        </div>
+    </div>
+  </div>
+</footer>
+
+  
+</body>
+
+</html>

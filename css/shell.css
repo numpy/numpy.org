@@ -1,0 +1,204 @@
+.hero-right {
+    display: flex;
+    width: 100vw;
+    /* Black, with 10% opacity */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.numpy-shell-canvas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 455px;
+    background-color: #EEEEEE;
+}
+
+.numpy-shell-container {
+    width: 100vw;
+    max-width: 1200px;
+    height: 100%;
+    min-height: 400px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.shell-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.numpy-shell-border {
+    max-width: 1200px;
+}
+
+#numpy-shell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loader-container {
+    position: absolute;
+    top: 19px;
+    right: 60px;
+}
+
+#shell-loader {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.shell-title-container {
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    min-width: 260px;
+}
+
+.shell-title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.shell-enable-button {
+    position: relative;
+    margin: 15px 0;
+}
+
+.shell-button {
+    width: 225px;
+    height: 50px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color: black;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    /* Black, with 10% opacity */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.shell-lesson {
+    display: none;
+    text-align: left;
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.shell-lesson > p {
+    margin: 2px 0 2px 0;
+}
+
+.highlight:not(:last-child) {
+    margin-bottom: 1px !important;
+}
+
+.demo-caret {
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    font-weight: bolder;
+    font-size: small;
+}
+
+#demo-code {
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    min-height: 460px;
+    max-height: 460px;
+    min-width: 500px;
+    margin: 15px;
+    padding: 0 17px;
+    color: #FFFFFF;
+    overflow: auto;
+    background-color: #013243;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.CodeMirror {
+    max-height: 124px;
+}
+
+.CodeMirror-lines {
+    min-height: 30px!important;
+}
+
+.CodeMirror pre {
+    color: #FFFFFF !important;
+}
+
+.CodeMirror-cursor {
+    color: #FFFFFF !important;
+    border-left: 1px solid white !important;
+}
+
+#demo-code.fake-shell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* #013243, with 50% opacity */
+    background: rgba(1,50,67, 0.5)
+}
+
+#demo-button-run {
+    width: 170px;
+    height: 35px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color: black;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    /* Black, with 10% opacity */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: absolute;
+    top: 135px;
+}
+
+.shift-enter {
+    font-size: 0.8em;
+}
+
+.thebelab-input {
+    height: 190px;
+}
+
+#demo-output-parent {
+    position: relative;
+}
+
+#demo-output {
+    position: absolute;
+}
+
+@media only screen and (max-width: 1090px) {
+    .numpy-shell-container {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #numpy-shell {
+        width: 100vw;
+    }
+
+    #demo-code {
+        min-width: 75%;
+    }
+}

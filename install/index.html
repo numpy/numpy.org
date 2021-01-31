@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-162151853-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<meta name="description" content="Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source." />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>NumPy</title>
+  
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.min.cf5efcb8a6e49b945af419cd8b208a5ae87eb3015995b9afc61218743a0fed3e.css" integrity="sha256-z178uKbkm5Ra9BnNiyCKWuh&#43;swFZlbmvxhIYdDoP7T4=">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="/css/shell.css" />
+<link rel="stylesheet" type="text/css" href="/css/tabs.css" />
+<link rel="stylesheet" type="text/css" href="/css/content.css" />
+<link rel="stylesheet" type="text/css" href="/css/news.css" />
+<link rel="stylesheet" type="text/css" href="/css/keyfeatures.css" />
+<link rel="stylesheet" type="text/css" href="/css/casestudies.css" />
+
+</head>
+
+<body>
+  
+
+  
+
+
+<nav id="nav" class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      
+            <a id="navbar-item" class="navbar-item" href="/">
+                <img src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow." width="112" height="28" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+            </a>
+      
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+
+        <div class="navbar-end">
+          <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+            Install
+          </a>
+          <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+            Documentation
+          </a>
+          <a href="/learn" id="navbar-item" class="navbar-item is-secondary">
+            Learn
+          </a>
+          <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+            Community
+          </a>
+          <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+            About Us
+          </a>
+          <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+            Contribute
+          </a>
+
+          
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a id="navbar-item" class="navbar-item" href="/">
+        <img src="/images/logos/numpy.svg" alt="" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+
+      <div class="navbar-end">
+        <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+          Install
+        </a>
+        <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+          Documentation
+        </a>
+        <a href="/learn" id="navbar-item" class="navbar-item is-secondary">
+          Learn
+        </a>
+        <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+          Community
+        </a>
+        <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+          About Us
+        </a>
+        <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+          Contribute
+        </a>
+        
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="content-padding flex-row">
+    <div class="shortcuts-container">
+        <div class="shortcuts-title">Shortcuts</div>
+        <div id="shortcuts"></div>
+        <div class="sidebar-links">
+            <a href="/gethelp">Get Help</a>
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="columns">
+            <div class="column is-centered-tablet-portrait">
+                <h1 class="title section-title">Installing NumPy</h1>
+                <h5 class="subtitle is-5 is-muted"></h5>
+                <div class="divider"></div>
+            </div>
+        </div>
+        <p>The only prerequisite for installing NumPy is Python itself. If you don&rsquo;t have
+Python yet and want the simplest way to get started, we recommend you use the
+<a href="https://www.anaconda.com/distribution">Anaconda Distribution</a> - it includes
+Python, NumPy, and many other commonly used packages for scientific computing
+and data science.</p>
+<p>NumPy can be installed with <code>conda</code>, with <code>pip</code>, with a package manager on
+macOS and Linux, or <a href="https://numpy.org/devdocs/user/building.html">from source</a>.
+For more detailed instructions, consult our <a href="#python-numpy-install-guide">Python and NumPy
+installation guide</a> below.</p>
+<p><strong>CONDA</strong></p>
+<p>If you use <code>conda</code>, you can install NumPy from the <code>defaults</code> or <code>conda-forge</code>
+channels:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Best practice, use an environment rather than install in the base env</span>
+conda create -n my-env
+conda activate my-env
+<span style="color:#75715e"># If you want to install from conda-forge</span>
+conda config --env --add channels conda-forge
+<span style="color:#75715e"># The actual install command</span>
+conda install numpy
+</code></pre></div><p><strong>PIP</strong></p>
+<p>If you use <code>pip</code>, you can install NumPy with:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip install numpy
+</code></pre></div><p>Also when using pip, it&rsquo;s good practice to use a virtual environment -
+see  <a href="#reproducible-installs">Reproducible Installs</a> below for why, and
+<a href="https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto">this guide</a>
+for details on using virtual environments.</p>
+<p><a name="python-numpy-install-guide"></a></p>
+<h1 id="python-and-numpy-installation-guide">Python and NumPy installation guide</h1>
+<p>Installing and managing packages in Python is complicated, there are a
+number of alternative solutions for most tasks. This guide tries to give the
+reader a sense of the best (or most popular) solutions, and give clear
+recommendations. It focuses on users of Python, NumPy, and the PyData (or
+numerical computing) stack on common operating systems and hardware.</p>
+<h2 id="recommendations">Recommendations</h2>
+<p>We&rsquo;ll start with recommendations based on the user&rsquo;s experience level and
+operating system of interest. If you&rsquo;re in between &ldquo;beginning&rdquo; and &ldquo;advanced&rdquo;,
+please go with &ldquo;beginning&rdquo; if you want to keep things simple, and with
+&ldquo;advanced&rdquo; if you want to work according to best practices that go a longer way
+in the future.</p>
+<h3 id="beginning-users">Beginning users</h3>
+<p>On all of Windows, macOS, and Linux:</p>
+<ul>
+<li>Install <a href="https://www.anaconda.com/distribution/">Anaconda</a> (it installs all
+packages you need and all other tools mentioned below).</li>
+<li>For writing and executing code, use notebooks in
+<a href="https://jupyterlab.readthedocs.io/en/stable/index.html">JupyterLab</a> for
+exploratory and interactive computing, and
+<a href="https://www.spyder-ide.org/">Spyder</a> or <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+for writing scripts and packages.</li>
+<li>Use <a href="https://docs.anaconda.com/anaconda/navigator/">Anaconda Navigator</a> to
+manage your packages and start JupyterLab, Spyder, or Visual Studio Code.</li>
+</ul>
+<h3 id="advanced-users">Advanced users</h3>
+<h4 id="windows-or-macos">Windows or macOS</h4>
+<ul>
+<li>Install <a href="https://docs.conda.io/en/latest/miniconda.html">Miniconda</a>.</li>
+<li>Keep the <code>base</code> conda environment minimal, and use one or more
+<a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#">conda environments</a>
+to install the package you need for the task or project you&rsquo;re working on.</li>
+<li>Unless you&rsquo;re fine with only the packages in the <code>defaults</code> channel, make <code>conda-forge</code>
+your default channel via <a href="https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge">setting the channel priority</a>.</li>
+</ul>
+<h4 id="linux">Linux</h4>
+<p>If you&rsquo;re fine with slightly outdated packages and prefer stability over being
+able to use the latest versions of libraries:</p>
+<ul>
+<li>Use your OS package manager for as much as possible (Python itself, NumPy, and
+other libraries).</li>
+<li>Install packages not provided by your package manager with <code>pip install somepackage --user</code>.</li>
+</ul>
+<p>If you use a GPU:</p>
+<ul>
+<li>Install <a href="https://docs.conda.io/en/latest/miniconda.html">Miniconda</a>.</li>
+<li>Keep the <code>base</code> conda environment minimal, and use one or more
+<a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#">conda environments</a>
+to install the package you need for the task or project you&rsquo;re working on.</li>
+<li>Use the <code>defaults</code> conda channel (<code>conda-forge</code> doesn&rsquo;t have good support for
+GPU packages yet).</li>
+</ul>
+<p>Otherwise:</p>
+<ul>
+<li>Install <a href="https://github.com/conda-forge/miniforge">Miniforge</a>.</li>
+<li>Keep the <code>base</code> conda environment minimal, and use one or more
+<a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#">conda environments</a>
+to install the package you need for the task or project you&rsquo;re working on.</li>
+</ul>
+<h4 id="alternative-if-you-prefer-pippypi">Alternative if you prefer pip/PyPI</h4>
+<p>For users who know, from personal preference or reading about the main
+differences between conda and pip below, they prefer a pip/PyPI-based solution,
+we recommend:</p>
+<ul>
+<li>Install Python from, for example, <a href="https://www.python.org/downloads/">python.org</a>,
+<a href="https://brew.sh/">Homebrew</a>, or your Linux package manager.</li>
+<li>Use <a href="https://python-poetry.org/">Poetry</a> as the most well-maintained tool
+that provides a dependency resolver and environment management capabilities
+in a similar fashion as conda does.</li>
+</ul>
+<h2 id="python-package-management">Python package management</h2>
+<p>Managing packages is a challenging problem, and, as a result, there are lots of
+tools. For web and general purpose Python development there&rsquo;s a whole
+<a href="https://packaging.python.org/guides/tool-recommendations/">host of tools</a>
+complementary with pip. For high-performance computing (HPC),
+<a href="https://github.com/spack/spack">Spack</a> is worth considering. For most NumPy
+users though, <a href="https://conda.io/en/latest/">conda</a> and
+<a href="https://pip.pypa.io/en/stable/">pip</a> are the two most popular tools.</p>
+<h3 id="pip--conda">Pip &amp; conda</h3>
+<p>The two main tools that install Python packages are <code>pip</code> and <code>conda</code>. Their
+functionality partially overlaps (e.g. both can install <code>numpy</code>), however, they
+can also work together. We&rsquo;ll discuss the major differences between pip and
+conda here - this is important to understand if you want to manage packages
+effectively.</p>
+<p>The first difference is that conda is cross-language and it can install Python,
+while pip is installed for a particular Python on your system and installs other
+packages to that same Python install only. This also means conda can install
+non-Python libraries and tools you may need (e.g. compilers, CUDA, HDF5), while
+pip can&rsquo;t.</p>
+<p>The second difference is that pip installs from the Python Packaging Index
+(PyPI), while conda installs from its own channels (typically &ldquo;defaults&rdquo; or
+&ldquo;conda-forge&rdquo;). PyPI is the largest collection of packages by far, however, all
+popular packages are available for conda as well.</p>
+<p>The third difference is that conda is an integrated solution for managing
+packages, dependencies and environments, while with pip you may need another
+tool (there are many!) for dealing with environments or complex dependencies.</p>
+<h3 id="reproducible-installs">Reproducible installs</h3>
+<p>As libraries get updated, results from running your code can change, or your
+code can break completely. It&rsquo;s important to be able to reconstruct the set
+of packages and versions you&rsquo;re using. Best practice is to:</p>
+<ol>
+<li>use a different environment per project you&rsquo;re working on,</li>
+<li>record package names and versions using your package installer;
+each has its own metadata format for this:
+<ul>
+<li>Conda: <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#">conda environments and environment.yml</a></li>
+<li>Pip: <a href="https://docs.python.org/3/tutorial/venv.html">virtual environments</a> and
+<a href="https://pip.readthedocs.io/en/latest/user_guide/#requirements-files">requirements.txt</a></li>
+<li>Poetry: <a href="https://python-poetry.org/docs/basic-usage/">virtual environments and pyproject.toml</a></li>
+</ul>
+</li>
+</ol>
+<h2 id="numpy-packages--accelerated-linear-algebra-libraries">NumPy packages &amp; accelerated linear algebra libraries</h2>
+<p>NumPy doesn&rsquo;t depend on any other Python packages, however, it does depend on an
+accelerated linear algebra library - typically
+<a href="https://software.intel.com/en-us/mkl">Intel MKL</a> or
+<a href="https://www.openblas.net/">OpenBLAS</a>. Users don&rsquo;t have to worry about
+installing those (they&rsquo;re automatically included in all NumPy install methods).
+Power users may still want to know the details, because the used BLAS can
+affect performance, behavior and size on disk:</p>
+<ul>
+<li>
+<p>The NumPy wheels on PyPI, which is what pip installs, are built with OpenBLAS.
+The OpenBLAS libraries are included in the wheel. This makes the wheel
+larger, and if a user installs (for example) SciPy as well, they will now
+have two copies of OpenBLAS on disk.</p>
+</li>
+<li>
+<p>In the conda defaults channel, NumPy is built against Intel MKL. MKL is a
+separate package that will be installed in the users&rsquo; environment when they
+install NumPy.</p>
+</li>
+<li>
+<p>In the conda-forge channel, NumPy is built against a dummy &ldquo;BLAS&rdquo; package. When
+a user installs NumPy from conda-forge, that BLAS package then gets installed
+together with the actual library - this defaults to OpenBLAS, but it can also
+be MKL (from the defaults channel), or even
+<a href="https://github.com/flame/blis">BLIS</a> or reference BLAS.</p>
+</li>
+<li>
+<p>The MKL package is a lot larger than OpenBLAS, it&rsquo;s about 700 MB on disk
+while OpenBLAS is about 30 MB.</p>
+</li>
+<li>
+<p>MKL is typically a little faster and more robust than OpenBLAS.</p>
+</li>
+</ul>
+<p>Besides install sizes, performance and robustness, there are two more things to
+consider:</p>
+<ul>
+<li>Intel MKL is not open source. For normal use this is not a problem, but if
+a user needs to redistribute an application built with NumPy, this could be
+an issue.</li>
+<li>Both MKL and OpenBLAS will use multi-threading for function calls like
+<code>np.dot</code>, with the number of threads being determined by both a build-time
+option and an environment variable. Often all CPU cores will be used. This is
+sometimes unexpected for users; NumPy itself doesn&rsquo;t auto-parallelize any
+function calls. It typically yields better performance, but can also be
+harmful - for example when using another level of parallelization with Dask,
+scikit-learn or multiprocessing.</li>
+</ul>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<p>If your installation fails with the message below, see <a href="https://numpy.org/doc/stable/user/troubleshooting-importerror.html">Troubleshooting
+ImportError</a>.</p>
+<pre><code>IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy c-extensions failed. This error can happen for
+different reasons, often due to issues with your setup.
+</code></pre>
+    </div>
+  </div>
+</section>
+
+
+
+  
+  <div id="backtotop"><a href="#"></a></div>
+
+  
+
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/css/uikit.min.css" />
+
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "joelachance/thebelab-requirements"
+        },
+    }
+</script>
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
+
+<script src="/js/app.js"></script>
+
+
+  
+  
+<footer id="footer" class="footer">
+  <div class="container">
+    <div id="footer-columns" class="columns">
+      <div class="footer-logo-column">
+        <img id="footer-logo" src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+      </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/install">
+                  Install
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/doc/stable">
+                  Documentation
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/learn">
+                  Learn
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/neps/roadmap.html">
+                  Roadmap
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/about">
+                  About us
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/community">
+                  Community
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/contribute">
+                  Contribute
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/code-of-conduct">
+                  Code of conduct
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/gethelp">
+                  Get help
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/terms">
+                  Terms of use
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/privacy">
+                  Privacy
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/press-kit">
+                  Press kit
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-actions">
+            <p>Sign up for the latest NumPy news, resources, <br> and more</p>
+            
+            <form action="https://numpy.us4.list-manage.com/subscribe/post?u=5ddd0d1d6e807900a8212481a&amp;id=287fa4253c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sign-up-container" target="_blank" novalidate>
+                <div class="sign-up-image">
+                    <i class="far fa-envelope"></i>
+                </div>
+                <input type="email" value="" name="EMAIL" class="required email sign-up-input" id="mce-EMAIL" aria-label="Input for email, press enter to submit" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') sendThankYou()" />
+                <div class="submission-instructions">Press Enter</div>
+                <button class="signup-button" onclick="sendThankYou()" aria-label="Submit">
+                    <i class="far fa-paper-plane"></i>
+                </button>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5ddd0d1d6e807900a8212481a_287fa4253c" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="display: none;"></div>
+            </form>
+            <div class="thank-you">Thank you! &#127881;</div>
+            
+
+            <nav class="level is-mobile">
+                <div class="social-media-icons">
+                    <a class="level-item" href="https://github.com/numpy/numpy" aria-label="https://github.com/numpy/numpy">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    </a>
+                    <a class="level-item" href="https://twitter.com/numpy_team" aria-label="https://twitter.com/numpy_team">
+                    <span class="icon"><i class="fab fa-twitter"></i></span>
+                    </a>
+                </div>
+            </nav>
+            <div class="copyright">&copy; 2019-2020 NumPy. All rights reserved.</div>
+        </div>
+    </div>
+  </div>
+</footer>
+
+  
+</body>
+
+</html>

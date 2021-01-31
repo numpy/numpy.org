@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-162151853-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<meta name="description" content="Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source." />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>NumPy</title>
+  
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.min.cf5efcb8a6e49b945af419cd8b208a5ae87eb3015995b9afc61218743a0fed3e.css" integrity="sha256-z178uKbkm5Ra9BnNiyCKWuh&#43;swFZlbmvxhIYdDoP7T4=">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="/css/shell.css" />
+<link rel="stylesheet" type="text/css" href="/css/tabs.css" />
+<link rel="stylesheet" type="text/css" href="/css/content.css" />
+<link rel="stylesheet" type="text/css" href="/css/news.css" />
+<link rel="stylesheet" type="text/css" href="/css/keyfeatures.css" />
+<link rel="stylesheet" type="text/css" href="/css/casestudies.css" />
+
+</head>
+
+<body>
+  
+
+  
+
+
+<nav id="nav" class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      
+            <a id="navbar-item" class="navbar-item" href="/">
+                <img src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow." width="112" height="28" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+            </a>
+      
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+
+        <div class="navbar-end">
+          <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+            Install
+          </a>
+          <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+            Documentation
+          </a>
+          <a href="/learn" id="navbar-item" class="navbar-item is-secondary">
+            Learn
+          </a>
+          <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+            Community
+          </a>
+          <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+            About Us
+          </a>
+          <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+            Contribute
+          </a>
+
+          
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a id="navbar-item" class="navbar-item" href="/">
+        <img src="/images/logos/numpy.svg" alt="" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+
+      <div class="navbar-end">
+        <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+          Install
+        </a>
+        <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+          Documentation
+        </a>
+        <a href="/learn" id="navbar-item" class="navbar-item is-secondary">
+          Learn
+        </a>
+        <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+          Community
+        </a>
+        <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+          About Us
+        </a>
+        <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+          Contribute
+        </a>
+        
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="content-padding flex-row">
+    <div class="shortcuts-container">
+        <div class="shortcuts-title">Shortcuts</div>
+        <div id="shortcuts"></div>
+        <div class="sidebar-links">
+            <a href="/gethelp">Get Help</a>
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="columns">
+            <div class="column is-centered-tablet-portrait">
+                <h1 class="title section-title">Case Study: Discovery of Gravitational Waves</h1>
+                <h5 class="subtitle is-5 is-muted"></h5>
+                <div class="divider"></div>
+            </div>
+        </div>
+        <figure class="fig-center">
+    <img src="/images/content_images/cs/gw_sxs_image.png"
+         alt="binary coalesce black hole generating gravitational waves"/> <figcaption>
+            <p><strong>Gravitational Waves</strong>
+                    <a href="https://youtu.be/Zt8Z_uzG71o"><em>(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)</em></a></p>
+        </figcaption>
+</figure>
+
+<blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
+    <p>The scientific Python ecosystem is critical infrastructure for the research done at LIGO.</p>
+    <footer align="right">David Shoemaker, <cite>LIGO Scientific Collaboration</cite></footer>
+</blockquote>
+<h2 id="about-gravitational-waveshttpswwwnationalgeographiccomnews201710what-are-gravitational-waves-ligo-astronomy-science-and-ligohttpswwwligocaltechedu">About <a href="https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/">Gravitational Waves</a> and <a href="https://www.ligo.caltech.edu">LIGO</a></h2>
+<p>Gravitational waves are ripples in the fabric of space and time, generated by
+cataclysmic events in the universe such as collision and merging of two black
+holes or coalescing binary stars or supernovae. Observing GW can not only help
+in studying gravity but also in understanding some of the obscure phenomena in
+the distant universe and its impact.</p>
+<p>The <a href="https://www.ligo.caltech.edu">Laser Interferometer Gravitational-Wave Observatory (LIGO)</a>
+was designed to open the field of gravitational-wave astrophysics through the
+direct detection of gravitational waves predicted by Einstein’s General Theory
+of Relativity. It comprises two widely-separated interferometers within the
+United States — one in Hanford, Washington and the other in Livingston,
+Louisiana — operated in unison to detect gravitational waves. Each of them has
+multi-kilometer-scale gravitational wave detectors that use laser
+interferometry.  The LIGO Scientific Collaboration (LSC), is a group of more
+than 1000 scientists from universities around the United States and in 14
+other countries supported by more than 90 universities and research institutes;
+approximately 250 students actively contributing to the collaboration. The new
+LIGO discovery is the first observation of gravitational waves themselves,
+made by measuring the tiny disturbances the waves make to space and time as
+they pass through the earth.  It has opened up new astrophysical frontiers
+that explore the warped side of the universe—objects and phenomena that are
+made from warped spacetime.</p>
+<h3 id="key-objectives">Key Objectives</h3>
+<ul>
+<li>Though its <a href="https://www.ligo.caltech.edu/page/what-is-ligo">mission</a> is to
+detect gravitational waves from some of the most violent and energetic
+processes in the Universe, the data LIGO collects may have far-reaching
+effects on many areas of physics including gravitation, relativity,
+astrophysics, cosmology, particle physics, and nuclear physics.</li>
+<li>Crunch observed data via numerical relativity computations that involves
+complex maths in order to discern signal from noise, filter out relevant
+signal and statistically estimate significance of observed data</li>
+<li>Data visualization so that the binary / numerical results can be
+comprehended.</li>
+</ul>
+<h3 id="the-challenges">The Challenges</h3>
+<ul>
+<li>
+<p><strong>Computation</strong></p>
+<p>Gravitational Waves are hard to detect as they produce a very small effect
+and have tiny interaction with matter. Processing and analyzing all of
+LIGO&rsquo;s data requires a vast computing infrastructure.After taking care of
+noise, which is billions of times of the signal, there is still very
+complex relativity equations and huge amounts of data which present a
+computational challenge:
+<a href="https://youtu.be/7mcHknWWzNI">O(10^7) CPU hrs needed for binary merger analyses</a>
+spread on 6 dedicated LIGO clusters</p>
+</li>
+<li>
+<p><strong>Data Deluge</strong></p>
+<p>As observational devices become more sensitive and reliable, the challenges
+posed by data deluge and finding a needle in a haystack rise multi-fold.
+LIGO generates terabytes of data every day! Making sense of this data
+requires an enormous effort for each and every detection. For example, the
+signals being collected by LIGO must be matched by supercomputers against
+hundreds of thousands of templates of possible gravitational-wave signatures.</p>
+</li>
+<li>
+<p><strong>Visualization</strong></p>
+<p>Once the obstacles related to understanding Einstein’s equations well
+enough to solve them using supercomputers are taken care of, the next big
+challenge was making data comprehensible to the human brain. Simulation
+modeling as well as  signal detection requires effective visualization
+techniques.  Visualization also plays a role in lending more credibility
+to numerical relativity in the eyes of pure science aficionados, who did
+not give enough importance to numerical relativity until imaging and
+simulations made it easier to comprehend results for a larger audience.
+Speed of complex computations and rendering, re-rendering images and
+simulations using latest experimental inputs and insights can be a time
+consuming activity that challenges researchers in this domain.</p>
+</li>
+</ul>
+<figure class="fig-center">
+    <img src="/images/content_images/cs/gw_strain_amplitude.png"
+         alt="gravitational waves strain amplitude"/> <figcaption>
+            <p><strong>Estimated gravitational-wave strain amplitude from GW150914</strong>
+                    <a href="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger">(<strong>Graph Credits:</strong> Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)</a></p>
+        </figcaption>
+</figure>
+
+<h2 id="numpys-role-in-the-detection-of-gravitational-waves">NumPy’s Role in the Detection of Gravitational Waves</h2>
+<p>Gravitational waves emitted from the merger cannot be computed using any
+technique except brute force numerical relativity using supercomputers.
+The amount of data LIGO collects is as incomprehensibly large as gravitational
+wave signals are small.</p>
+<p>NumPy, the standard numerical analysis package for Python,  was utilized by
+the software used for various tasks performed during the GW detection project
+at LIGO. NumPy helped in solving complex maths and data manipulation at high
+speed.  Here are some examples:</p>
+<ul>
+<li><a href="https://www.uv.es/virgogroup/Denoising_ROF.html">Signal Processing</a>: Glitch
+detection,  <a href="https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf">Noise identification and Data Characterization</a>
+(NumPy, scikit-learn, scipy, matplotlib, pandas, pyCharm)</li>
+<li>Data retrieval: Deciding which data can be analyzed, figuring out whether it
+contains a signal - needle in a haystack</li>
+<li>Statistical analysis: estimate the statistical significance of observational
+data, estimating the signal parameters (e.g. masses of stars, spin velocity,
+and distance) by comparison with a model.</li>
+<li>Visualization of data
+<ul>
+<li>Time series</li>
+<li>Spectrograms</li>
+</ul>
+</li>
+<li>Compute Correlations</li>
+<li>Key <a href="https://github.com/lscsoft">Software</a> developed in GW data analysis
+such as <a href="https://gwpy.github.io/docs/stable/overview.html">GwPy</a> and
+<a href="https://pycbc.org">PyCBC</a> uses NumPy and AstroPy under the hood for
+providing object based interfaces to utilities, tools, and methods for
+studying data from gravitational-wave detectors.</li>
+</ul>
+<figure class="fig-center">
+    <img src="/images/content_images/cs/gwpy-numpy-dep-graph.png"
+         alt="gwpy-numpy depgraph"/> <figcaption>
+            <p><strong>Dependency graph showing how GwPy package depends on NumPy</strong></p>
+        </figcaption>
+</figure>
+
+<hr>
+<figure class="fig-center">
+    <img src="/images/content_images/cs/PyCBC-numpy-dep-graph.png"
+         alt="PyCBC-numpy depgraph"/> <figcaption>
+            <p><strong>Dependency graph showing how PyCBC package depends on NumPy</strong></p>
+        </figcaption>
+</figure>
+
+<h2 id="summary">Summary</h2>
+<p>GW detection has enabled researchers to discover entirely unexpected phenomena
+while providing new insight into many of the most profound astrophysical
+phenomena known. Number crunching and data visualization is a crucial step
+that helps scientists gain insights into data gathered from the scientific
+observations and understand the results. The computations are complex and
+cannot be comprehended by humans unless it is visualized using computer
+simulations that are fed with the real observed data and analysis.  NumPy
+along with other Python packages such as matplotlib, pandas, and scikit-learn
+is <a href="https://www.gw-openscience.org/events/GW150914/">enabling researchers</a> to
+answer complex questions and discover new horizons in our understanding of the
+universe.</p>
+<figure class="fig-center">
+    <img src="/images/content_images/cs/numpy_gw_benefits.png"
+         alt="numpy benefits"/> <figcaption>
+            <p><strong>Key NumPy Capabilities utilized</strong></p>
+        </figcaption>
+</figure>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+  
+  <div id="backtotop"><a href="#"></a></div>
+
+  
+
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/css/uikit.min.css" />
+
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "joelachance/thebelab-requirements"
+        },
+    }
+</script>
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
+
+<script src="/js/app.js"></script>
+
+
+  
+  
+<footer id="footer" class="footer">
+  <div class="container">
+    <div id="footer-columns" class="columns">
+      <div class="footer-logo-column">
+        <img id="footer-logo" src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+      </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/install">
+                  Install
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/doc/stable">
+                  Documentation
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/learn">
+                  Learn
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/neps/roadmap.html">
+                  Roadmap
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/about">
+                  About us
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/community">
+                  Community
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/contribute">
+                  Contribute
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/code-of-conduct">
+                  Code of conduct
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/gethelp">
+                  Get help
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/terms">
+                  Terms of use
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/privacy">
+                  Privacy
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/press-kit">
+                  Press kit
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-actions">
+            <p>Sign up for the latest NumPy news, resources, <br> and more</p>
+            
+            <form action="https://numpy.us4.list-manage.com/subscribe/post?u=5ddd0d1d6e807900a8212481a&amp;id=287fa4253c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sign-up-container" target="_blank" novalidate>
+                <div class="sign-up-image">
+                    <i class="far fa-envelope"></i>
+                </div>
+                <input type="email" value="" name="EMAIL" class="required email sign-up-input" id="mce-EMAIL" aria-label="Input for email, press enter to submit" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') sendThankYou()" />
+                <div class="submission-instructions">Press Enter</div>
+                <button class="signup-button" onclick="sendThankYou()" aria-label="Submit">
+                    <i class="far fa-paper-plane"></i>
+                </button>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5ddd0d1d6e807900a8212481a_287fa4253c" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="display: none;"></div>
+            </form>
+            <div class="thank-you">Thank you! &#127881;</div>
+            
+
+            <nav class="level is-mobile">
+                <div class="social-media-icons">
+                    <a class="level-item" href="https://github.com/numpy/numpy" aria-label="https://github.com/numpy/numpy">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    </a>
+                    <a class="level-item" href="https://twitter.com/numpy_team" aria-label="https://twitter.com/numpy_team">
+                    <span class="icon"><i class="fab fa-twitter"></i></span>
+                    </a>
+                </div>
+            </nav>
+            <div class="copyright">&copy; 2019-2020 NumPy. All rights reserved.</div>
+        </div>
+    </div>
+  </div>
+</footer>
+
+  
+</body>
+
+</html>

@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<meta name="generator" content="Hugo 0.74.3" />
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-162151853-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<meta name="description" content="Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source." />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>NumPy</title>
+    
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.min.cf5efcb8a6e49b945af419cd8b208a5ae87eb3015995b9afc61218743a0fed3e.css" integrity="sha256-z178uKbkm5Ra9BnNiyCKWuh&#43;swFZlbmvxhIYdDoP7T4=">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="/css/shell.css" />
+<link rel="stylesheet" type="text/css" href="/css/tabs.css" />
+<link rel="stylesheet" type="text/css" href="/css/content.css" />
+<link rel="stylesheet" type="text/css" href="/css/news.css" />
+<link rel="stylesheet" type="text/css" href="/css/keyfeatures.css" />
+<link rel="stylesheet" type="text/css" href="/css/casestudies.css" />
+
+
+    
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://numpy.org/images/logos/numpy.svg"/>
+
+<meta name="twitter:title" content="NumPy"/>
+<meta name="twitter:description" content="Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source."/>
+
+  </head>
+  <body>
+    
+    
+    <div id="preloader"></div>
+    
+
+    
+    
+    <section class="hero">
+  
+
+
+<nav id="nav" class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+
+        <div class="navbar-end">
+          <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+            Install
+          </a>
+          <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+            Documentation
+          </a>
+          <a href="/learn" id="navbar-item" class="navbar-item is-secondary">
+            Learn
+          </a>
+          <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+            Community
+          </a>
+          <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+            About Us
+          </a>
+          <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+            Contribute
+          </a>
+
+          
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+  
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a id="navbar-item" class="navbar-item" href="/">
+        <img src="/images/logos/numpy.svg" alt="" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+
+      <div class="navbar-end">
+        <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+          Install
+        </a>
+        <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+          Documentation
+        </a>
+        <a href="/learn" id="navbar-item" class="navbar-item is-secondary">
+          Learn
+        </a>
+        <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+          Community
+        </a>
+        <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+          About Us
+        </a>
+        <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+          Contribute
+        </a>
+        
+      </div>
+    </div>
+</div>
+</nav>
+
+  
+<div class="hero-container">
+    <div class="hero-content">
+        <div class="hero-title-content">
+            <div class="hero-title">
+                NumPy
+                <img class="hero-logo" src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+            </div>
+            <div class="flex-column">
+                
+                <div class="hero-subtitle">
+                    The fundamental package for scientific computing with Python
+                </div>
+                
+                <div class="hero-cta">
+                    <a href="/install"><button class="cta-button">Get started</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+    
+
+    
+    
+
+<div class="news-container">
+    <div class="news-title"> <a href="/news"> NumPy v1.20.0 </a></div>
+    <div class="news-content"> <a href="/news"> Type annotation support - Performance improvements through multi-platform SIMD </a></div>
+</div>
+
+    
+
+    
+    
+
+<section class="keyfeatures">
+    <div class="container">
+        <div class="keyfeatures-box-container">
+            <div class="keyfeatures-box-content keyfeatures-underline">
+                <p>
+                    <div class="keyfeatures-box-title">Powerful N-dimensional arrays</div>
+                    <div class="keyfeatures-box-text">Fast and versatile, the NumPy vectorization, indexing, and broadcasting concepts are the de-facto standards of array computing today.</div>
+                </p>
+            </div>
+            <div class="keyfeatures-box-content keyfeatures-underline">
+                <p>
+                    <div class="keyfeatures-box-title">Numerical computing tools</div>
+                    <div class="keyfeatures-box-text">NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.</div>
+                </p>
+            </div>
+            <div class="keyfeatures-box-content keyfeatures-underline">
+                <p>
+                    <div class="keyfeatures-box-title">Interoperable</div>
+                    <div class="keyfeatures-box-text">NumPy supports a wide range of hardware and computing platforms, and plays well with distributed, GPU, and sparse array libraries.</div>
+                </p>
+            </div>
+            <div class="keyfeatures-box-content keyfeatures-underline">
+                <p>
+                    <div class="keyfeatures-box-title">Performant</div>
+                    <div class="keyfeatures-box-text">The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.</div>
+                </p>
+            </div>
+            <div class="keyfeatures-box-content keyfeatures-underline">
+                <p>
+                    <div class="keyfeatures-box-title">Easy to use</div>
+                    <div class="keyfeatures-box-text">NumPy&rsquo;s high level syntax makes it accessible and productive for programmers from any background or experience level.</div>
+                </p>
+            </div>
+            <div class="keyfeatures-box-content keyfeatures-underline">
+                <p>
+                    <div class="keyfeatures-box-title">Open source</div>
+                    <div class="keyfeatures-box-text">Distributed under a liberal <a href="https://github.com/numpy/numpy/blob/master/LICENSE.txt">BSD license</a>, NumPy is developed and maintained <a href="https://github.com/numpy/numpy">publicly on GitHub</a> by a vibrant, responsive, and diverse <a href="/community">community</a>.</div>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+    
+    <div class="hero-right">
+    <div class="numpy-shell-canvas">
+        <div class="numpy-shell-container">
+            <div class="flex-column shell-title-container">
+                <div class="shell-intro shell-content">
+    <div class="shell-title">Try NumPy</div>
+    <div class="shell-content-message">Enable the interactive shell</div>
+</div>
+
+<div class="shell-wait shell-content" style="display: none;">
+    <div class="shell-title">While we wait...</div>
+    <div class="shell-content-message">
+        <p>Launching container on mybinder.org...</p>
+
+        <p>Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a></p>
+    </div>
+</div>
+
+<div class="shell-lesson shell-content" style="display: none;">
+    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#75715e"># The standard way to import NumPy:</span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#75715e"># Create a 2-D array, set every second element in</span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#75715e"># some rows and find max per row:</span>
+
+<span style="color:#f92672">&gt;&gt;&gt;</span> x <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>arange(<span style="color:#ae81ff">15</span>, dtype<span style="color:#f92672">=</span>np<span style="color:#f92672">.</span>int64)<span style="color:#f92672">.</span>reshape(<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">5</span>)
+<span style="color:#f92672">&gt;&gt;&gt;</span> x[<span style="color:#ae81ff">1</span>:, ::<span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">99</span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> x
+array([[  <span style="color:#ae81ff">0</span>,   <span style="color:#ae81ff">1</span>,   <span style="color:#ae81ff">2</span>,   <span style="color:#ae81ff">3</span>,   <span style="color:#ae81ff">4</span>],
+       [<span style="color:#f92672">-</span><span style="color:#ae81ff">99</span>,   <span style="color:#ae81ff">6</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">99</span>,   <span style="color:#ae81ff">8</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">99</span>],
+       [<span style="color:#f92672">-</span><span style="color:#ae81ff">99</span>,  <span style="color:#ae81ff">11</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">99</span>,  <span style="color:#ae81ff">13</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">99</span>]])
+<span style="color:#f92672">&gt;&gt;&gt;</span> x<span style="color:#f92672">.</span>max(axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+array([ <span style="color:#ae81ff">4</span>,  <span style="color:#ae81ff">8</span>, <span style="color:#ae81ff">13</span>])
+
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#75715e"># Generate normally distributed random numbers:</span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> rng <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>default_rng()
+<span style="color:#f92672">&gt;&gt;&gt;</span> samples <span style="color:#f92672">=</span> rng<span style="color:#f92672">.</span>normal(size<span style="color:#f92672">=</span><span style="color:#ae81ff">2500</span>)
+</code></pre></div>
+</div>
+
+            </div>
+            
+            <div class="fake-shell" id="demo-code">
+                <div class="demo-caret" aria-label="interactive shell prompt">&gt;</div>
+                <button class="shell-enable-button shell-button" onclick="loadShell();" aria-label="Enables the interactive tutorial shell">
+                    Enable
+                    <div class="loader-container">
+                        <div id="shell-loader" class="loader"></div>
+                    </div>
+                </button>
+            </div>
+            <div class="real-shell" id="numpy-shell" style="display: none;">
+                <pre id="demo-code" data-executable="true" data-language="python" style="white-space: pre-line;">import numpy as np</pre>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+    
+    
+<section class="tabs-section">
+    <div class="container">
+        <h1 class="tabs-title">ECOSYSTEM</h1>
+
+        <div class="uikit-tab-wrapper">
+            <ul class="uk-flex-center uk-nav" uk-tab>
+                <li class="uk-active"><a href="#">Scientific Domains</a></li>
+                <li><a href="#">Array libraries</a></li>
+                <li><a href="#">Data Science</a></li>
+                <li><a href="#">Machine Learning</a></li>
+                <li><a href="#">Visualization</a></li>
+            </ul>
+            <ul id="tabs-content" class="uk-switcher uk-margin">
+                
+<li class="scientific-domains">
+    <p>
+        Nearly every scientist working in Python draws on the power of NumPy.
+    </p>
+    <p>
+        NumPy brings the computational power of languages like C and Fortran
+        to Python, a language much easier to learn and use. With this power
+        comes simplicity: a solution in NumPy is often clear and elegant.
+    </p>
+    
+    <table>
+        <tr class="highlight-th">
+            <td class="bold-text">Quantum Computing </td>
+            <td class="bold-text">Statistical Computing </td>
+            <td class="bold-text">Signal Processing </td>
+            <td class="bold-text">Image Processing </td>
+            <td class="bold-text">Graphs and Networks </td>
+            <td class="bold-text">Astronomy Processes </td>
+            <td class="bold-text">Cognitive Psychology </td>
+        </tr>
+        <tr>
+            <td><img class="cell-layout" src="images/content_images/sc_dom_img/sd1.png" alt="A computer chip with an atomic symbol."></td>
+            <td><img class="cell-layout" src="images/content_images/sc_dom_img/sd2.png" alt="A line graph with the line moving up."></td>
+            <td><img class="cell-layout" src="images/content_images/sc_dom_img/sd3.png" alt="A bar chart with positive and negative values."></td>
+            <td><img class="cell-layout" src="images/content_images/sc_dom_img/sd4.png" alt="An photograph of the sun and mountains."></td>
+            <td><img class="cell-layout" src="images/content_images/sc_dom_img/sd6.svg" alt="A simple graph."></td>
+            <td><img class="cell-layout" src="images/content_images/sc_dom_img/sd7.png" alt="A telescope and multiple planets."></td>
+            <td><img class="cell-layout" src="images/content_images/sc_dom_img/sd8.png" alt="A human head with gears."></td>
+        </tr>
+        <tr>
+            <td class="center-text"><a href="http://qutip.org">QuTiP</a></td>
+            <td class="center-text"><a href="https://pandas.pydata.org">Pandas</a></td>
+            <td class="center-text"><a href="https://www.scipy.org">SciPy</a></td>
+            <td class="center-text"><a href="https://scikit-image.org">Scikit-image</a></td>
+            <td class="center-text"><a href="https://networkx.org">NetworkX</a></td>
+            <td class="center-text"><a href="https://www.astropy.org">AstroPy</a></td>
+            <td class="center-text"><a href="https://www.psychopy.org">PsychoPy</a></td>
+        </tr>
+        <tr>
+            <td class="center-text"><a href="https://pyquil-docs.rigetti.com/en/stable">PyQuil</a></td>
+            <td class="center-text"><a href="https://github.com/statsmodels/statsmodels"> statsmodels</a></td>
+            <td class="center-text"><a href="https://pywavelets.readthedocs.io">PyWavelets</a></td>
+            <td class="center-text"><a href="https://opencv.org">OpenCV</a></td>
+            <td class="center-text"><a href="https://graph-tool.skewed.de/">graph-tool</a></td>
+            <td class="center-text"><a href="https://github.com/sunpy/sunpy">SunPy</a></td>
+            <td class="center-text"></td>
+        </tr>
+        <tr>
+            <td class="center-text"><a href="https://qiskit.org">Qiskit</a></td>
+            <td class="center-text"><a href="https://github.com/mwaskom/seaborn">Seaborn</a></td>
+            <td class="center-text"></td>
+            <td class="center-text"></td>
+            <td class="center-text"><a href="https://igraph.org/python/">igraph</a></td>
+            <td class="center-text"><a href="https://github.com/spacepy/spacepy">SpacePy</a></td>
+            <td class="center-text"></td>
+        </tr>
+        <tr>
+            <td class="lastrow-center-text"></td>
+            <td class="lastrow-center-text"></td>
+            <td class="lastrow-center-text"></td>
+            <td class="lastrow-center-text"></td>
+            <td class="center-text"><a href="https://pygsp.rtfd.io">PyGSP</a></td>
+            <td class="lastrow-center-text"></td>
+            <td class="lastrow-center-text"></td>
+        </tr>
+    
+        <tr class="highlight-th">
+            <td class="bold-text">Bioinformatics</td>
+            <td class="bold-text">Bayesian Inference</td>
+            <td class="bold-text">Mathematical Analysis</td>
+            <td class="bold-text">Simulation Modeling</td>
+            <td class="bold-text">Multi-variate Analysis</td>
+            <td class="bold-text">Geographic Processing</td>
+            <td class="bold-text">Interactive Computing</td>
+        </tr>
+        <tr>
+            <td><img class="cell-layout" src="images/content_images/sc_dom_img/sd9.png" alt="A strand of DNA."></td>
+            <td><img class="cell-layout" src="images/content_images/sc_dom_img/sd10.png" alt="Many dots connected by lines."></td>
+            <td><img class="cell-layout" src="images/content_images/sc_dom_img/sd11.png" alt="Four mathematical symbols."></td>
+            <td><img class="cell-layout" src="images/content_images/sc_dom_img/sd12.png" alt="A three-dimensional graph with a box."></td>
+            <td><img class="cell-layout" src="images/content_images/sc_dom_img/sd13.png" alt="A conical flask and test tube."></td>
+            <td><img class="cell-layout" src="images/content_images/sc_dom_img/sd14.png" alt="The Earth surrounded by four circling arrows."></td>
+            <td><img class="cell-layout" src="images/content_images/sc_dom_img/sd15.png" alt="A human hand tapping a browser window."></td>
+        </tr>
+        <tr>
+            <td class="center-text"><a href="https://biopython.org">BioPython</a></td>
+            <td class="center-text"><a href="https://pystan.readthedocs.io/en/latest/">PyStan</a></td>
+            <td class="center-text"><a href="https://www.scipy.org">SciPy</a></td>
+            <td class="center-text"><a href="https://github.com/robclewley/pydstool">PyDSTool</a></td>
+            <td class="center-text"><a href="https://www.ncbi.nlm.nih.gov/pubmed/16882648">PyChem</a></td>
+            <td class="center-text"><a href="https://shapely.readthedocs.io">Shapely</a></td>
+            <td class="center-text"><a href="https://jupyter.org/">Jupyter</a></td>
+        </tr>
+        <tr>
+            <td class="center-text"><a href="http://scikit-bio.org">Scikit-Bio</a></td>
+            <td class="center-text"><a href="https://docs.pymc.io">PyMC3</a></td>
+            <td class="center-text"><a href="https://www.sympy.org">SymPy</a></td>
+            <td class="center-text"></td>
+            <td class="center-text"></td>
+            <td class="center-text"><a href="https://geopandas.org/">GeoPandas</a></td>
+            <td class="center-text"><a href="https://ipython.org">IPython</a></td>
+        </tr>
+        <tr>
+            <td class="center-text"><a href="https://github.com/openvax/pyensembl">PyEnsembl</a></td>
+            <td class="center-text"></td>
+            <td class="center-text"><a href="https://github.com/cvxgrp/cvxpy">cvxpy</a></td>
+            <td class="center-text"></td>
+            <td class="center-text"></td>
+            <td class="center-text"><a href="https://python-visualization.github.io/folium">Folium</a></td>
+            <td class="center-text"><a href="https://mybinder.org">Binder</a></td>
+        </tr>
+        <tr>
+            <td class="lastrow-center-text"></td>
+            <td class="lastrow-center-text"></td>
+            <td class="lastrow-center-text"><a href="https://fenicsproject.org/">FEniCS</a></td>
+            <td class="lastrow-center-text"></td>
+            <td class="lastrow-center-text"></td>
+            <td class="lastrow-center-text"></td>
+            <td class="lastrow-center-text"></td>
+        </tr>
+    </table>
+</li>
+
+                
+<li class="array-libraries">
+    <p>
+        NumPy's API is the starting point when libraries are written to exploit innovative hardware,
+        create specialized array types, or add capabilities beyond what NumPy provides.
+    </p>
+    <table>
+        <tr class="highlight-th">
+            <td class="bold-text"></td>
+            <td class="bold-text">Array Library</td>
+            <td class="bold-text">Capabilities & Application areas</td>
+            </td>
+        </tr>
+        <tr>
+            <td><img class="first-column-layout" src="images/content_images/arlib/dask.png" alt="Dask"></td>
+            <td class="full-center-text"><a href="https://dask.org/">Dask</a></td>
+            <td class="left-text">Distributed arrays and advanced parallelism for analytics, enabling performance at scale.</td>
+        </tr>
+        <tr>
+            <td><img class="first-column-layout" src="images/content_images/arlib/cupy.png" alt="CuPy"></td>
+            <td class="full-center-text"><a href="https://cupy.chainer.org">CuPy</a></td>
+            <td class="left-text">NumPy-compatible array library for GPU-accelerated computing with Python.</td>
+        </tr>
+        <tr>
+            <td><img class="first-column-layout" src="images/content_images/arlib/jax_logo_250px.png" alt="JAX"></td>
+            <td class="full-center-text"><a href="https://github.com/google/jax">JAX</a></td>
+            <td class="left-text">Composable transformations of NumPy programs: differentiate, vectorize, just-in-time compilation to GPU/TPU.</td>
+        </tr>
+        <tr>
+            <td><img class="first-column-layout" src="images/content_images/arlib/xarray.png" alt="xarray"></td>
+            <td class="full-center-text"><a href="https://xarray.pydata.org/en/stable/index.html">Xarray</a></td>
+            <td class="left-text">Labeled, indexed multi-dimensional arrays for advanced analytics and visualization</td>
+        </tr>
+        <tr>
+            <td><img class="first-column-layout" src="images/content_images/arlib/sparse.png" alt="sparse"></td>
+            <td class="full-center-text"><a href="https://sparse.pydata.org/en/latest/">Sparse</a></td>
+            <td class="left-text">NumPy-compatible sparse array library that integrates with Dask and SciPy's sparse linear algebra.</td>
+        </tr>
+        <tr>
+            <td><img class="first-column-layout" src="images/content_images/arlib/pytorch-logo-dark.svg" alt="PyTorch"></td>
+            <td class="full-center-text"><a href="https://pytorch.org/">PyTorch</a></td>
+            <td class="left-text">Deep learning framework that accelerates the path from research prototyping to production deployment.</td>
+        </tr>
+        <tr>
+            <td><img class="first-column-layout" src="images/content_images/arlib/tensorflow-logo.svg" alt="TensorFlow"></td>
+            <td class="full-center-text"><a href="https://www.tensorflow.org">TensorFlow</a></td>
+            <td class="left-text">An end-to-end platform for machine learning to easily build and deploy ML powered applications.</td>
+        </tr>
+        <tr>
+            <td><img class="first-column-layout" src="images/content_images/arlib/mxnet_logo.png" alt="MXNet"></td>
+            <td class="full-center-text"><a href="https://mxnet.apache.org/">MXNet</a></td>
+            <td class="left-text">Deep learning framework suited for flexible research prototyping and production.</td>
+        </tr>
+        <tr>
+            <td><img class="first-column-layout" src="images/content_images/arlib/arrow.png" alt="arrow"></td>
+            <td class="full-center-text"><a href="https://github.com/apache/arrow">Arrow</a></td>
+            <td class="left-text">A cross-language development platform for columnar in-memory data and analytics.</td>
+        </tr>
+        <tr>
+            <td><img class="first-column-layout" src="images/content_images/arlib/xtensor.png" alt="xtensor"></td>
+            <td class="full-center-text"><a href="https://github.com/xtensor-stack/xtensor-python">xtensor</a> </td>
+                    <td class="left-text">Multi-dimensional arrays with broadcasting and lazy computing for numerical
+                    analysis.</td>
+        </tr>
+        <tr>
+            <td><img class="first-column-layout" src="images/content_images/arlib/xnd.png" alt="xnd"></td>
+            <td class="full-center-text"><a href="https://xnd.io">XND</a></td>
+            <td class="left-text">Develop libraries for array computing, recreating NumPy's foundational concepts.</td>
+        </tr>
+                <tr>
+            <td><img class="first-column-layout" src="images/content_images/arlib/uarray.png" alt="uarray"></td>
+            <td class="full-center-text"><a href="https://uarray.org/en/latest/">uarray</a></td>
+            <td class="left-text">Python backend system that decouples API from implementation; unumpy provides a NumPy API.</td>
+        </tr>
+        <tr>
+            <td><img class="first-column-layout" src="images/content_images/arlib/tensorly.png" alt="tensorly"></td>
+            <td class="full-center-text"><a href="http://tensorly.org/stable/home.html">TensorLy</a></td>
+            <td class="left-text">Tensor learning, algebra and backends to seamlessly use NumPy, MXNet, PyTorch, TensorFlow or CuPy.</td>
+        </tr>
+        <tr style="border-bottom:2px solid #ececec">
+            <td colspan="80%"></td>
+        </tr>
+    </table>
+</li>
+
+                
+<li class="data-science">
+    <div class="grid-container">
+        <div>
+            <a href="images/content_images/ds-landscape.png" target="_blank">
+            <img src="images/content_images/ds-landscape.png" alt="Diagram of Python Libraries. The five catagories are 'Extract, Transform, Load', 'Data Exploration', 'Data Modeling', 'Data Evaluation' and 'Data Presentation'." align="left">
+            </a>
+        </div>
+        <div>
+            <p>
+                NumPy lies at the core of a rich ecosystem of data science libraries.
+                A typical exploratory data science workflow might look like:
+
+                <ul class="content-tab">
+                    <li><b>Extract, Transform, Load: </b>
+                        <a href="https://pandas.pydata.org">Pandas</a>,
+                        <a href="https://intake.readthedocs.io"> Intake</a>,
+                        <a href="https://pyjanitor.readthedocs.io/">PyJanitor</a>
+                    </li>
+
+                    <li><b>Exploratory analysis: </b>
+                        <a href="https://jupyter.org">Jupyter</a>,
+                        <a href="https://seaborn.pydata.org"> Seaborn</a>,
+                        <a href="https://matplotlib.org"> Matplotlib</a>,
+                        <a href="https://altair-viz.github.io"> Altair</a>
+
+                    </li>
+
+                    <li><b>Model and evaluate: </b>
+                        <a href="https://scikit-learn.org">scikit-learn</a>,
+                        <a href="https://www.statsmodels.org/stable/index.html"> statsmodels</a>,
+                        <a href="https://docs.pymc.io"> PyMC3</a>,
+                        <a href="https://spacy.io"> spaCy</a>
+                    </li>
+
+                    <li><b>Report in a dashboard: </b>
+                        <a href="https://plotly.com/dash">Dash</a>,
+                        <a href="https://panel.holoviz.org"> Panel</a>,
+                        <a href="https://github.com/voila-dashboards/voila"> Voila</a>
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div>
+            <p></p><p>
+                For high data volumes, <a href="https://dask.org">Dask</a> and
+                <a href="https://ray.io/">Ray</a> are designed to scale. Stable
+                deployments rely on data versioning (<a href="https://dvc.org">DVC</a>),
+                experiment tracking (<a href="https://mlflow.org">MLFlow</a>), and
+                workflow automation (<a href="https://airflow.apache.org">Airflow</a> and
+                <a href="https://www.prefect.io">Prefect</a>).</p>
+            </p>
+        </div>
+        <div>
+            <img src="images/content_images/data-science.png" alt="Diagram of three overlapping circle. The circles labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'." align="centre" width="75%">
+        </div>
+    </div>
+</li>
+
+                
+<li class="machine-learning">
+    <div class="grid-container">
+        <div class="animation-holder">
+            <a href="https://ai.googleblog.com/2016/12/open-sourcing-embedding-projector-tool.html">
+                <img src="images/content_images/ml_img/tensorflow-ml-anim.gif" alt="An animated gif showing a three-dimensional graph of embeddings made in Tensorflow." align="middle" class="animation-img">
+            </a>
+            <p>
+                <i style="font-size:80%;">
+                    <a href="https://ai.googleblog.com/2016/12/open-sourcing-embedding-projector-tool.html">Source: Google AI Blog</a>
+                </i>
+            </p>
+        </div>
+        <div>
+            <p>
+                NumPy forms the basis of powerful machine learning libraries
+                like
+                <a href="https://scikit-learn.org">scikit-learn</a> and
+                <a href="https://www.scipy.org">SciPy</a>.
+                As machine learning grows, so does the
+                list of libraries built on NumPy.
+                <a href="https://www.tensorflow.org">TensorFlow’s</a>
+                deep learning capabilities have broad
+                applications &mdash; among them speech and image recognition, text-based
+                applications, time-series analysis, and video detection.
+                <a href="https://pytorch.org">PyTorch</a>, another deep
+                learning library, is popular among researchers in
+                computer vision and natural language processing.
+                <a href="https://github.com/apache/incubator-mxnet">MXNet</a>
+                is another AI package, providing blueprints and
+                templates for deep learning.
+            </p>
+        </div>
+    </div>
+    <div>
+        <div>
+            <p>
+                Statistical techniques called
+                <a href="https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205">ensemble</a>
+                methods such as binning,
+                bagging, stacking, and boosting are among the ML
+                algorithms implemented by tools such as
+                <a href="https://github.com/dmlc/xgboost">XGBoost</a>,
+                <a href="https://lightgbm.readthedocs.io/en/latest/">LightGBM</a>, and
+                <a href="https://catboost.ai">CatBoost</a> &mdash; one of the
+                fastest inference engines.
+                <a href="https://www.scikit-yb.org/en/latest/">Yellowbrick</a> and
+                <a href="https://eli5.readthedocs.io/en/latest/">Eli5</a>
+                offer machine learning visualizations.
+            </p>
+        </div>
+    </div>
+</li>
+                
+<li class="visualization">
+    <div class="grid-container">
+        <div class="visualization-images">
+            <div class="image-grid">
+                <div>
+                    <a href="https://www.fusioncharts.com/blog/best-python-data-visualization-libraries/">
+                        <img src="images/content_images/v_matplotlib.png" alt="A streamplot made in matplotlib"
+                            align="middle"/>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/yhat/ggpy">
+                        <img src="images/content_images/v_ggpy.png" alt="A scatter-plot graph made in ggpy"
+                            align="middle"/>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.journaldev.com/19692/python-plotly-tutorial">
+                        <img src="images/content_images/v_plotly.png" alt="A box-plot made in plotly" align="middle"/>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://altair-viz.github.io/gallery/streamgraph.html ">
+                        <img src="images/content_images/v_altair.png" alt="A streamgraph made in altair" align="middle"/>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://seaborn.pydata.org">
+                        <img src="images/content_images/v_seaborn.png"
+                            alt="A pairplot of two types of graph, a plot-graph and a frequency graph made in seaborn"
+                            align="middle"/>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://docs.pyvista.org/examples/index.html">
+                        <img src="images/content_images/v_pyvista.png" alt="A 3D volume rendering made in PyVista."
+                            align="middle"/>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://napari.org">
+                        <img src="images/content_images/v_napari.png" alt="A multi-dimensionan image made in napari."
+                            align="middle"/>
+                    </a>
+                </div>
+                <div>
+                    <a href="http://vispy.org/gallery.html">
+                        <img src="images/content_images/v_vispy.png" alt="A Voronoi diagram made in vispy."
+                            align="middle"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p>
+                NumPy is an essential component in the burgeoning
+                <a href="https://pyviz.org/overviews/index.html">Python visualization landscape</a>, which includes
+                <a href="https://matplotlib.org">Matplotlib</a>,
+                <a href="https://seaborn.pydata.org">Seaborn</a>,
+                <a href="https://plot.ly">Plotly</a>,
+                <a href="https://altair-viz.github.io">Altair</a>,
+                <a href="https://docs.bokeh.org/en/latest/">Bokeh</a>,
+                <a href="https://holoviz.org">Holoviz</a>,
+                <a href="http://vispy.org">Vispy</a>,
+                <a href="https://github.com/napari/napari">Napari</a>, and
+                <a href="https://github.com/pyvista/pyvista">PyVista</a>,
+                to name a few.
+            </p>
+            <p>
+                NumPy's accelerated processing of large arrays allows researchers to visualize
+                datasets far larger than native Python could handle.
+            </p>
+        </div>
+        <div>
+        </div>
+    </div>
+</li>
+
+            </ul>
+        </div>
+    </div>
+</section>
+
+    
+
+    
+    
+<section class="casestudies">
+    <div class="container">
+        <h1 class="casestudies-title">CASE STUDIES</h1>
+        <div class="casestudies-box-container">
+            <a class="casestudies-box-content casestudies-underline" href="/case-studies/blackhole-image">
+                <div class="casestudies-box-title">First Image of a Black Hole</div>
+                    <img src="images/content_images/case_studies/blackhole.png" alt="First image of a black hole. It is an orange circle in a black background.">
+                <div class="casestudies-box-text">How NumPy, together with libraries like SciPy and Matplotlib that depend on NumPy, enabled the Event Horizon Telescope to produce the first ever image of a black hole</div>
+            </a>
+            <a class="casestudies-box-content casestudies-underline" href="/case-studies/gw-discov">
+                <div class="casestudies-box-title">Detection of Gravitational Waves</div>
+                    <img src="images/content_images/case_studies/gravitional.png" alt="Two orbs orbiting each other. They are displacing gravity around them.">
+                <div class="casestudies-box-text">In 1916, Albert Einstein predicted gravitational waves; 100 years later their existence was confirmed by LIGO scientists using NumPy.</div>
+            </a>
+            <a class="casestudies-box-content casestudies-underline" href="/case-studies/cricket-analytics">
+                <div class="casestudies-box-title">Sports Analytics</div>
+                    <img src="images/content_images/case_studies/sports.jpg" alt="Cricket ball on green field.">
+                <div class="casestudies-box-text">Cricket Analytics is changing the game by improving player and team performance through statistical modelling and predictive analytics. NumPy enables many of these analyses.</div>
+            </a>
+            <a class="casestudies-box-content casestudies-underline" href="/case-studies/deeplabcut-dnn">
+                <div class="casestudies-box-title">Pose Estimation using deep learning</div>
+                    <img src="images/content_images/case_studies/deeplabcut.png" alt="Cheetah pose analysis">
+                <div class="casestudies-box-text">DeepLabCut uses NumPy for accelerating scientific studies that involve observing animal behavior for better understanding of motor control, across species and timescales.</div>
+            </a>
+        </div>
+    </div>
+</section>
+
+    
+
+    
+
+    
+
+    
+    
+<footer id="footer" class="footer">
+  <div class="container">
+    <div id="footer-columns" class="columns">
+      <div class="footer-logo-column">
+        <img id="footer-logo" src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+      </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/install">
+                  Install
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/doc/stable">
+                  Documentation
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/learn">
+                  Learn
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/neps/roadmap.html">
+                  Roadmap
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/about">
+                  About us
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/community">
+                  Community
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/contribute">
+                  Contribute
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/code-of-conduct">
+                  Code of conduct
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/gethelp">
+                  Get help
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/terms">
+                  Terms of use
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/privacy">
+                  Privacy
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/press-kit">
+                  Press kit
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-actions">
+            <p>Sign up for the latest NumPy news, resources, <br> and more</p>
+            
+            <form action="https://numpy.us4.list-manage.com/subscribe/post?u=5ddd0d1d6e807900a8212481a&amp;id=287fa4253c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sign-up-container" target="_blank" novalidate>
+                <div class="sign-up-image">
+                    <i class="far fa-envelope"></i>
+                </div>
+                <input type="email" value="" name="EMAIL" class="required email sign-up-input" id="mce-EMAIL" aria-label="Input for email, press enter to submit" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') sendThankYou()" />
+                <div class="submission-instructions">Press Enter</div>
+                <button class="signup-button" onclick="sendThankYou()" aria-label="Submit">
+                    <i class="far fa-paper-plane"></i>
+                </button>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5ddd0d1d6e807900a8212481a_287fa4253c" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="display: none;"></div>
+            </form>
+            <div class="thank-you">Thank you! &#127881;</div>
+            
+
+            <nav class="level is-mobile">
+                <div class="social-media-icons">
+                    <a class="level-item" href="https://github.com/numpy/numpy" aria-label="https://github.com/numpy/numpy">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    </a>
+                    <a class="level-item" href="https://twitter.com/numpy_team" aria-label="https://twitter.com/numpy_team">
+                    <span class="icon"><i class="fab fa-twitter"></i></span>
+                    </a>
+                </div>
+            </nav>
+            <div class="copyright">&copy; 2019-2020 NumPy. All rights reserved.</div>
+        </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+    
+    <div id="backtotop"><a href="#"></a></div>
+
+    
+
+
+    
+    <div id="backtotop"><a href="#" id="backtotop-color"></a></div>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/css/uikit.min.css" />
+
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "joelachance/thebelab-requirements"
+        },
+    }
+</script>
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
+
+<script src="/js/app.js"></script>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-162151853-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

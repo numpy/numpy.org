@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-162151853-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<meta name="description" content="Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source." />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>NumPy</title>
+  
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.min.cf5efcb8a6e49b945af419cd8b208a5ae87eb3015995b9afc61218743a0fed3e.css" integrity="sha256-z178uKbkm5Ra9BnNiyCKWuh&#43;swFZlbmvxhIYdDoP7T4=">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="/css/shell.css" />
+<link rel="stylesheet" type="text/css" href="/css/tabs.css" />
+<link rel="stylesheet" type="text/css" href="/css/content.css" />
+<link rel="stylesheet" type="text/css" href="/css/news.css" />
+<link rel="stylesheet" type="text/css" href="/css/keyfeatures.css" />
+<link rel="stylesheet" type="text/css" href="/css/casestudies.css" />
+
+</head>
+
+<body>
+  
+
+  
+
+
+<nav id="nav" class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      
+            <a id="navbar-item" class="navbar-item" href="/">
+                <img src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow." width="112" height="28" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+            </a>
+      
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+
+        <div class="navbar-end">
+          <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+            Install
+          </a>
+          <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+            Documentation
+          </a>
+          <a href="/learn" id="navbar-item" class="navbar-item is-secondary">
+            Learn
+          </a>
+          <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+            Community
+          </a>
+          <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+            About Us
+          </a>
+          <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+            Contribute
+          </a>
+
+          
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a id="navbar-item" class="navbar-item" href="/">
+        <img src="/images/logos/numpy.svg" alt="" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+
+      <div class="navbar-end">
+        <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+          Install
+        </a>
+        <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+          Documentation
+        </a>
+        <a href="/learn" id="navbar-item" class="navbar-item is-secondary">
+          Learn
+        </a>
+        <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+          Community
+        </a>
+        <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+          About Us
+        </a>
+        <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+          Contribute
+        </a>
+        
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="content-padding flex-row">
+    <div class="shortcuts-container">
+        <div class="shortcuts-title">Shortcuts</div>
+        <div id="shortcuts"></div>
+        <div class="sidebar-links">
+            <a href="/gethelp">Get Help</a>
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="columns">
+            <div class="column is-centered-tablet-portrait">
+                <h1 class="title section-title">News</h1>
+                <h5 class="subtitle is-5 is-muted"></h5>
+                <div class="divider"></div>
+            </div>
+        </div>
+        <h3 id="numpy-1200-release">Numpy 1.20.0 release</h3>
+<p><em>Jan 30, 2021</em> &ndash; <a href="https://numpy.org/doc/stable/release/1.20.0-notes.html">NumPy 1.20.0</a>
+is now available. This is the largest NumPy release to date, thanks to 180+
+contributors. The two most exciting new features are:</p>
+<ul>
+<li>Type annotations for large parts of NumPy, and a new <code>numpy.typing</code> submodule
+containing <code>ArrayLike</code> and <code>DtypeLike</code> aliases that users and downstream
+libraries can use when adding type annotations in their own code.</li>
+<li>Multi-platform SIMD compiler optimizations, with support for x86 (SSE,
+AVX), ARM64 (Neon), and PowerPC (VSX) instructions. This yielded significant
+performance improvements for many functions (examples:
+<a href="https://github.com/numpy/numpy/pull/17587">sin/cos</a>,
+<a href="https://github.com/numpy/numpy/pull/18194">einsum</a>).</li>
+</ul>
+<h3 id="diversity-in-the-numpy-project">Diversity in the NumPy project</h3>
+<p><em>Sep 20, 2020</em> &ndash; We wrote a <a href="/diversity_sep2020">statement on the state of, and discussion on social media around, diversity and inclusion in the NumPy project</a>.</p>
+<h3 id="first-official-numpy-paper-published-in-nature">First official NumPy paper published in Nature!</h3>
+<p><em>Sep 16, 2020</em> &ndash; We are pleased to announce the publication of
+<a href="https://www.nature.com/articles/s41586-020-2649-2">the first official paper on NumPy</a>
+as a review article in Nature. This comes 14 years after the release of NumPy 1.0.
+The paper covers applications and fundamental concepts of array programming,
+the rich scientific Python ecosystem built on top of NumPy, and the recently added
+array protocols to facilitate interoperability with external array and tensor
+libraries like CuPy, Dask, and JAX.</p>
+<h3 id="python-39-is-coming-when-will-numpy-release-binary-wheels">Python 3.9 is coming, when will NumPy release binary wheels?</h3>
+<p><em>Sept 14, 2020</em> &ndash; Python 3.9 will be released in a few weeks. If you are an
+early adopter of Python versions, you may be dissapointed to find that NumPy
+(and other binary packages like SciPy) will not have binary wheels ready on the
+day of the release. It is a major effort to adapt the build infrastructure to a
+new Python version and it typically takes a few weeks for the packages to appear
+on PyPI and conda-forge. In preparation for this event, please make sure to</p>
+<ul>
+<li>update your <code>pip</code> to version 20.1 at least to support <code>manylinux2010</code> and
+<code>manylinux2014</code></li>
+<li>use <a href="https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary"><code>--only-binary=numpy</code></a> or <code>--only-binary=:all:</code> to prevent <code>pip</code> from
+trying to build from source.</li>
+</ul>
+<h3 id="numpy-1192-release">Numpy 1.19.2 release</h3>
+<p><em>Sep 10, 2020</em> &ndash; <a href="https://numpy.org/devdocs/release/1.19.2-notes.html">NumPy
+1.19.2</a> is now available.
+This latest release in the 1.19 series fixes several bugs, prepares for the
+<a href="http://docs.cython.org/en/latest/src/changes.html">upcoming Cython 3.x
+release</a> and pins
+setuptools to keep distutils working while upstream modifications are ongoing.
+The aarch64 wheels are built with the latest manylinux2014 release that fixes
+the problem of differing page sizes used by different linux distros.</p>
+<h3 id="the-inaugural-numpy-survey-is-live">The inaugural NumPy survey is live!</h3>
+<p><em>Jul 2, 2020</em> &ndash; This survey is meant to guide and set priorities for
+decision-making about the development of NumPy as software and as a community.
+The survey is available in 8 additional languages besides English:
+Bangla, Hindi, Japanese, Mandarin, Portuguese, Russian, Spanish and French.</p>
+<p>Please help us make NumPy better and take the survey
+<a href="https://umdsurvey.umd.edu/jfe/form/SV_8bJrXjbhXf7saAl">here</a>.</p>
+<h3 id="numpy-has-a-new-logo">NumPy has a new logo!</h3>
+<p><em>Jun 24, 2020</em> &ndash; NumPy now has a new logo:</p>
+<p><img
+src="/images/logos/numpy_logo.svg"
+alt="NumPy logo"
+title="The new NumPy logo"
+width=300></p>
+<p>The logo is a modern take on the old one, with a cleaner design. Thanks to
+Isabela Presedo-Floyd for designing the new logo, as well as to Travis Vaught
+for the old logo that served us well for 15+ years.</p>
+<h3 id="numpy-1190-release">NumPy 1.19.0 release</h3>
+<p><em>Jun 20, 2020</em> &ndash; NumPy 1.19.0 is now available. This is the first release
+without Python 2 support, hence it was a &ldquo;clean-up release&rdquo;. The minimum
+supported Python version is now Python 3.6. An important new feature is that
+the random number generation infrastructure that was introduced in NumPy 1.17.0
+is now accessible from Cython.</p>
+<h3 id="season-of-docs-acceptance">Season of Docs acceptance</h3>
+<p><em>May 11, 2020</em> &ndash; NumPy has been accepted as one of the mentor organizations for
+the Google Season of Docs program. We are excited about the opportunity to
+work with a technical writer to improve NumPy&rsquo;s documentation once again! For more
+details, please see
+<a href="https://developers.google.com/season-of-docs/">the official Season of Docs site</a> and our
+<a href="https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas">ideas page</a>.</p>
+<h3 id="numpy-1180-release">NumPy 1.18.0 release</h3>
+<p><em>Dec 22, 2019</em> &ndash; NumPy 1.18.0 is now available. After the major changes in
+1.17.0, this is a consolidation release. It is the last minor release that will
+support Python 3.5. Highlights of the release includes the addition of basic
+infrastructure for linking with 64-bit BLAS and LAPACK libraries, and a new C-API for <code>numpy.random</code>.</p>
+<p>Please see the <a href="https://github.com/numpy/numpy/releases/tag/v1.18.0">release notes</a> for more details.</p>
+<h3 id="numpy-receives-a-grant-from-the-chan-zuckerberg-initiative">NumPy receives a grant from the Chan Zuckerberg Initiative</h3>
+<p><em>Nov 15, 2019</em> &ndash; We are pleased to announce that NumPy and OpenBLAS, one of NumPy&rsquo;s key dependencies, have received a joint grant for $195,000 from the Chan Zuckerberg Initiative through their <a href="https://chanzuckerberg.com/eoss/">Essential Open Source Software for Science program</a> that supports software maintenance, growth, development, and community engagement for open source tools critical to science.</p>
+<p>This grant will be used to ramp up the efforts in improving NumPy documentation, website redesign, and community development to better serve our large and rapidly growing user base, and ensure the long-term sustainability of the project. While the OpenBLAS team will focus on addressing sets of key technical issues, in particular thread-safety, AVX-512, and thread-local storage (TLS) issues, as well as algorithmic improvements in ReLAPACK (Recursive LAPACK) on which OpenBLAS depends.</p>
+<p>More details on our proposed initiatives and deliverables can be found in the <a href="https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167">full grant proposal</a>. The work is scheduled to start on Dec 1st, 2019 and continue for the next 12 months.</p>
+<h2 id="releases">Releases</h2>
+<p>Here is a list of NumPy releases, with links to release notes. All bugfix
+releases (only the <code>z</code> changes in the <code>x.y.z</code> version number) have no new
+features; minor releases (the <code>y</code> increases) do.</p>
+<ul>
+<li>NumPy 1.18.4 (<a href="https://github.com/numpy/numpy/releases/tag/v1.18.4">release notes</a>) &ndash; <em>3 May 2020</em>.</li>
+<li>NumPy 1.18.3 (<a href="https://github.com/numpy/numpy/releases/tag/v1.18.3">release notes</a>) &ndash; <em>19 Apr 2020</em>.</li>
+<li>NumPy 1.18.2 (<a href="https://github.com/numpy/numpy/releases/tag/v1.18.2">release notes</a>) &ndash; <em>17 Mar 2020</em>.</li>
+<li>NumPy 1.18.1 (<a href="https://github.com/numpy/numpy/releases/tag/v1.18.1">release notes</a>) &ndash; <em>6 Jan 2020</em>.</li>
+<li>NumPy 1.17.5 (<a href="https://github.com/numpy/numpy/releases/tag/v1.17.5">release notes</a>) &ndash; <em>1 Jan 2020</em>.</li>
+<li>NumPy 1.18.0 (<a href="https://github.com/numpy/numpy/releases/tag/v1.18.0">release notes</a>) &ndash; <em>22 Dec 2019</em>.</li>
+<li>NumPy 1.17.4 (<a href="https://github.com/numpy/numpy/releases/tag/v1.17.4">release notes</a>) &ndash; <em>11 Nov 2019</em>.</li>
+<li>NumPy 1.17.0 (<a href="https://github.com/numpy/numpy/releases/tag/v1.17.0">release notes</a>) &ndash; <em>26 Jul 2019</em>.</li>
+<li>NumPy 1.16.0 (<a href="https://github.com/numpy/numpy/releases/tag/v1.16.0">release notes</a>) &ndash; <em>14 Jan 2019</em>.</li>
+<li>NumPy 1.15.0 (<a href="https://github.com/numpy/numpy/releases/tag/v1.15.0">release notes</a>) &ndash; <em>23 Jul 2018</em>.</li>
+<li>NumPy 1.14.0 (<a href="https://github.com/numpy/numpy/releases/tag/v1.14.0">release notes</a>) &ndash; <em>7 Jan 2018</em>.</li>
+</ul>
+
+    </div>
+  </div>
+</section>
+
+
+
+  
+  <div id="backtotop"><a href="#"></a></div>
+
+  
+
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/css/uikit.min.css" />
+
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "joelachance/thebelab-requirements"
+        },
+    }
+</script>
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
+
+<script src="/js/app.js"></script>
+
+
+  
+  
+<footer id="footer" class="footer">
+  <div class="container">
+    <div id="footer-columns" class="columns">
+      <div class="footer-logo-column">
+        <img id="footer-logo" src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+      </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/install">
+                  Install
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/doc/stable">
+                  Documentation
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/learn">
+                  Learn
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/neps/roadmap.html">
+                  Roadmap
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/about">
+                  About us
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/community">
+                  Community
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/contribute">
+                  Contribute
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/code-of-conduct">
+                  Code of conduct
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/gethelp">
+                  Get help
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/terms">
+                  Terms of use
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/privacy">
+                  Privacy
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/press-kit">
+                  Press kit
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-actions">
+            <p>Sign up for the latest NumPy news, resources, <br> and more</p>
+            
+            <form action="https://numpy.us4.list-manage.com/subscribe/post?u=5ddd0d1d6e807900a8212481a&amp;id=287fa4253c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sign-up-container" target="_blank" novalidate>
+                <div class="sign-up-image">
+                    <i class="far fa-envelope"></i>
+                </div>
+                <input type="email" value="" name="EMAIL" class="required email sign-up-input" id="mce-EMAIL" aria-label="Input for email, press enter to submit" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') sendThankYou()" />
+                <div class="submission-instructions">Press Enter</div>
+                <button class="signup-button" onclick="sendThankYou()" aria-label="Submit">
+                    <i class="far fa-paper-plane"></i>
+                </button>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5ddd0d1d6e807900a8212481a_287fa4253c" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="display: none;"></div>
+            </form>
+            <div class="thank-you">Thank you! &#127881;</div>
+            
+
+            <nav class="level is-mobile">
+                <div class="social-media-icons">
+                    <a class="level-item" href="https://github.com/numpy/numpy" aria-label="https://github.com/numpy/numpy">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    </a>
+                    <a class="level-item" href="https://twitter.com/numpy_team" aria-label="https://twitter.com/numpy_team">
+                    <span class="icon"><i class="fab fa-twitter"></i></span>
+                    </a>
+                </div>
+            </nav>
+            <div class="copyright">&copy; 2019-2020 NumPy. All rights reserved.</div>
+        </div>
+    </div>
+  </div>
+</footer>
+
+  
+</body>
+
+</html>

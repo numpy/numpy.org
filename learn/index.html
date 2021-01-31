@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-162151853-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<meta name="description" content="Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source." />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>NumPy</title>
+  
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.min.cf5efcb8a6e49b945af419cd8b208a5ae87eb3015995b9afc61218743a0fed3e.css" integrity="sha256-z178uKbkm5Ra9BnNiyCKWuh&#43;swFZlbmvxhIYdDoP7T4=">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="/css/shell.css" />
+<link rel="stylesheet" type="text/css" href="/css/tabs.css" />
+<link rel="stylesheet" type="text/css" href="/css/content.css" />
+<link rel="stylesheet" type="text/css" href="/css/news.css" />
+<link rel="stylesheet" type="text/css" href="/css/keyfeatures.css" />
+<link rel="stylesheet" type="text/css" href="/css/casestudies.css" />
+
+</head>
+
+<body>
+  
+
+  
+
+
+<nav id="nav" class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      
+            <a id="navbar-item" class="navbar-item" href="/">
+                <img src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow." width="112" height="28" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+            </a>
+      
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+
+        <div class="navbar-end">
+          <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+            Install
+          </a>
+          <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+            Documentation
+          </a>
+          <a href="/learn" id="navbar-item" class="navbar-item is-secondary">
+            Learn
+          </a>
+          <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+            Community
+          </a>
+          <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+            About Us
+          </a>
+          <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+            Contribute
+          </a>
+
+          
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a id="navbar-item" class="navbar-item" href="/">
+        <img src="/images/logos/numpy.svg" alt="" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+
+      <div class="navbar-end">
+        <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+          Install
+        </a>
+        <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+          Documentation
+        </a>
+        <a href="/learn" id="navbar-item" class="navbar-item is-secondary">
+          Learn
+        </a>
+        <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+          Community
+        </a>
+        <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+          About Us
+        </a>
+        <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+          Contribute
+        </a>
+        
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="content-padding flex-row">
+    <div class="shortcuts-container">
+        <div class="shortcuts-title">Shortcuts</div>
+        <div id="shortcuts"></div>
+        <div class="sidebar-links">
+            <a href="/gethelp">Get Help</a>
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="columns">
+            <div class="column is-centered-tablet-portrait">
+                <h1 class="title section-title">Learn</h1>
+                <h5 class="subtitle is-5 is-muted"></h5>
+                <div class="divider"></div>
+            </div>
+        </div>
+        <p><strong>The official NumPy documentation lives <a href="https://numpy.org/doc/stable">here</a>.</strong></p>
+<p>Below is a curated collection of external resources. To contribute, see the <a href="#add-to-this-list">end of this page</a>.</p>
+<hr>
+<h2 id="beginners">Beginners</h2>
+<p>There&rsquo;s a ton of information about NumPy out there. If you are new, we&rsquo;d strongly recommend these:</p>
+<p><i class="fas fa-chalkboard"></i> <strong>Tutorials</strong></p>
+<ul>
+<li><a href="https://numpy.org/devdocs/user/quickstart.html">NumPy Quickstart Tutorial</a></li>
+<li><a href="https://scipy-lectures.org/">SciPy Lectures</a> Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.</li>
+<li><a href="https://numpy.org/devdocs/user/absolute_beginners.html">NumPy: the absolute basics for beginners</a></li>
+<li><a href="https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/">Machine Learning Plus - Introduction to ndarray</a></li>
+<li><a href="https://www.edureka.co/blog/python-numpy-tutorial/">Edureka - Learn NumPy Arrays with Examples </a></li>
+<li><a href="https://www.dataquest.io/blog/numpy-tutorial-python/">Dataquest - NumPy Tutorial: Data Analysis with Python</a></li>
+<li><a href="https://github.com/rougier/numpy-tutorial">NumPy tutorial <em>by Nicolas Rougier</em></a></li>
+<li><a href="http://cs231n.github.io/python-numpy-tutorial/">Stanford CS231 <em>by Justin Johnson</em></a></li>
+<li><a href="https://numpy.org/devdocs">NumPy User Guide</a></li>
+</ul>
+<p><i class="fas fa-book"></i> <strong>Books</strong></p>
+<ul>
+<li><a href="http://web.mit.edu/dvp/Public/numpybook.pdf">Guide to NumPy <em>by Travis E. Oliphant</em></a> This is a free version 1 from 2006. For the latest copy (2015) see <a href="https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007">here</a>.</li>
+<li><a href="https://www.labri.fr/perso/nrougier/from-python-to-numpy/">From Python to NumPy <em>by Nicolas P. Rougier</em></a></li>
+<li><a href="https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877">Elegant SciPy</a> <em>by Juan Nunez-Iglesias, Stefan van der Walt, and Harriet Dashnow</em></li>
+</ul>
+<p>You may also want to check out the <a href="https://www.goodreads.com/shelf/show/python-scipy">Goodreads list</a> on the subject of &ldquo;Python+SciPy.&rdquo; Most books there are about the &ldquo;SciPy ecosystem,&rdquo; which has NumPy at its core.</p>
+<p><i class="far fa-file-video"></i> <strong>Videos</strong></p>
+<ul>
+<li><a href="http://youtu.be/ZB7BZMhfPgk">Introduction to Numerical Computing with NumPy</a> <em>by Alex Chabot-Leclerc</em></li>
+</ul>
+<hr>
+<h2 id="advanced">Advanced</h2>
+<p>Try these advanced resources for a better understanding of NumPy concepts like advanced indexing, splitting, stacking, linear algebra, and more.</p>
+<p><i class="fas fa-chalkboard"></i> <strong>Tutorials</strong></p>
+<ul>
+<li><a href="http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html">100 NumPy Exercises</a> <em>by Nicolas P. Rougier</em></li>
+<li><a href="https://engineering.ucsb.edu/~shell/che210d/numpy.pdf">An Introduction to NumPy and Scipy</a> <em>by M. Scott Shell</em></li>
+<li><a href="http://mentat.za.net/numpy/numpy_advanced_slides/">Numpy Medkits</a> <em>by Stéfan van der Walt</em></li>
+<li><a href="https://www.geeksforgeeks.org/numpy-python-set-2-advanced/">NumPy in Python (Advanced)</a></li>
+<li><a href="https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm">Advanced Indexing</a></li>
+<li><a href="https://www.machinelearningplus.com/python/numpy-tutorial-python-part2/">Machine Learning and Data Analytics with NumPy</a></li>
+</ul>
+<p><i class="fas fa-book"></i> <strong>Books</strong></p>
+<ul>
+<li><a href="https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057">Python Data Science Handbook</a> <em>by Jake Vanderplas</em></li>
+<li><a href="https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662">Python for Data Analysis</a> <em>by Wes McKinney</em></li>
+<li><a href="https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459">Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy, and Matplotlib</a> <em>by Robert Johansson</em></li>
+</ul>
+<p><i class="far fa-file-video"></i> <strong>Videos</strong></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=cYugp9IN1-Q">Advanced NumPy - broadcasting rules, strides, and advanced indexing</a> <em>by Juan Nunuz-Iglesias</em></li>
+<li><a href="https://www.youtube.com/watch?v=2WTDrSkQBng">Advanced Indexing Operations in NumPy Arrays</a> <em>by Amuls Academy</em></li>
+</ul>
+<hr>
+<h2 id="numpy-talks">NumPy Talks</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=o0EacbIbf58">The Future of NumPy Indexing</a> <em>by Jaime Fernández</em> (2016)</li>
+<li><a href="https://www.youtube.com/watch?v=HVLPJnvInzM&amp;t=10s">Evolution of Array Computing in Python</a> <em>by Ralf Gommers</em> (2019)</li>
+<li><a href="https://www.youtube.com/watch?v=YFLVQFjRmPY">NumPy: what has changed and what is going to change?</a> <em>by Matti Picus</em> (2019)</li>
+<li><a href="https://www.youtube.com/watch?v=dBTJD_FDVjU">Inside NumPy</a> <em>by Ralf Gommers, Sebastian Berg, Matti Picus, Tyler Reddy, Stefan van der Walt, Charles Harris</em> (2019)</li>
+<li><a href="https://www.youtube.com/watch?v=f176j2g2eNc">Brief Review of Array Computing in Python</a> <em>by Travis Oliphant</em> (2019)</li>
+</ul>
+<hr>
+<h2 id="citing-numpy">Citing NumPy</h2>
+<p>If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, please see <a href="/citing-numpy">this citation information</a>.</p>
+<h2 id="contribute-to-this-list">Contribute to this list</h2>
+<p><a name="add-to-this-list"></a>
+To add to this collection, submit a recommendation <a href="https://github.com/numpy/numpy.org/blob/master/content/en/learn.md">via a pull request</a>. Say why your recommendation deserves mention on this page and also which audience would benefit most.</p>
+
+    </div>
+  </div>
+</section>
+
+
+
+  
+  <div id="backtotop"><a href="#"></a></div>
+
+  
+
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/css/uikit.min.css" />
+
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "joelachance/thebelab-requirements"
+        },
+    }
+</script>
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
+
+<script src="/js/app.js"></script>
+
+
+  
+  
+<footer id="footer" class="footer">
+  <div class="container">
+    <div id="footer-columns" class="columns">
+      <div class="footer-logo-column">
+        <img id="footer-logo" src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+      </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/install">
+                  Install
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/doc/stable">
+                  Documentation
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/learn">
+                  Learn
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/neps/roadmap.html">
+                  Roadmap
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/about">
+                  About us
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/community">
+                  Community
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/contribute">
+                  Contribute
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/code-of-conduct">
+                  Code of conduct
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/gethelp">
+                  Get help
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/terms">
+                  Terms of use
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/privacy">
+                  Privacy
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/press-kit">
+                  Press kit
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-actions">
+            <p>Sign up for the latest NumPy news, resources, <br> and more</p>
+            
+            <form action="https://numpy.us4.list-manage.com/subscribe/post?u=5ddd0d1d6e807900a8212481a&amp;id=287fa4253c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sign-up-container" target="_blank" novalidate>
+                <div class="sign-up-image">
+                    <i class="far fa-envelope"></i>
+                </div>
+                <input type="email" value="" name="EMAIL" class="required email sign-up-input" id="mce-EMAIL" aria-label="Input for email, press enter to submit" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') sendThankYou()" />
+                <div class="submission-instructions">Press Enter</div>
+                <button class="signup-button" onclick="sendThankYou()" aria-label="Submit">
+                    <i class="far fa-paper-plane"></i>
+                </button>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5ddd0d1d6e807900a8212481a_287fa4253c" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="display: none;"></div>
+            </form>
+            <div class="thank-you">Thank you! &#127881;</div>
+            
+
+            <nav class="level is-mobile">
+                <div class="social-media-icons">
+                    <a class="level-item" href="https://github.com/numpy/numpy" aria-label="https://github.com/numpy/numpy">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    </a>
+                    <a class="level-item" href="https://twitter.com/numpy_team" aria-label="https://twitter.com/numpy_team">
+                    <span class="icon"><i class="fab fa-twitter"></i></span>
+                    </a>
+                </div>
+            </nav>
+            <div class="copyright">&copy; 2019-2020 NumPy. All rights reserved.</div>
+        </div>
+    </div>
+  </div>
+</footer>
+
+  
+</body>
+
+</html>

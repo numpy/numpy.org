@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-162151853-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<meta name="description" content="Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source." />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>NumPy</title>
+  
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.min.cf5efcb8a6e49b945af419cd8b208a5ae87eb3015995b9afc61218743a0fed3e.css" integrity="sha256-z178uKbkm5Ra9BnNiyCKWuh&#43;swFZlbmvxhIYdDoP7T4=">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="/css/shell.css" />
+<link rel="stylesheet" type="text/css" href="/css/tabs.css" />
+<link rel="stylesheet" type="text/css" href="/css/content.css" />
+<link rel="stylesheet" type="text/css" href="/css/news.css" />
+<link rel="stylesheet" type="text/css" href="/css/keyfeatures.css" />
+<link rel="stylesheet" type="text/css" href="/css/casestudies.css" />
+
+</head>
+
+<body>
+  
+
+  
+
+
+<nav id="nav" class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      
+            <a id="navbar-item" class="navbar-item" href="/">
+                <img src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow." width="112" height="28" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+            </a>
+      
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+
+        <div class="navbar-end">
+          <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+            Install
+          </a>
+          <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+            Documentation
+          </a>
+          <a href="/learn" id="navbar-item" class="navbar-item is-secondary">
+            Learn
+          </a>
+          <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+            Community
+          </a>
+          <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+            About Us
+          </a>
+          <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+            Contribute
+          </a>
+
+          
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a id="navbar-item" class="navbar-item" href="/">
+        <img src="/images/logos/numpy.svg" alt="" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+
+      <div class="navbar-end">
+        <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+          Install
+        </a>
+        <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+          Documentation
+        </a>
+        <a href="/learn" id="navbar-item" class="navbar-item is-secondary">
+          Learn
+        </a>
+        <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+          Community
+        </a>
+        <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+          About Us
+        </a>
+        <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+          Contribute
+        </a>
+        
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="content-padding flex-row">
+    <div class="shortcuts-container">
+        <div class="shortcuts-title">Shortcuts</div>
+        <div id="shortcuts"></div>
+        <div class="sidebar-links">
+            <a href="/gethelp">Get Help</a>
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="columns">
+            <div class="column is-centered-tablet-portrait">
+                <h1 class="title section-title">Case Study: First Image of a Black Hole</h1>
+                <h5 class="subtitle is-5 is-muted"></h5>
+                <div class="divider"></div>
+            </div>
+        </div>
+        <figure>
+    <img src="/images/content_images/cs/blackhole.jpg"
+         alt="black hole image"/> <figcaption>
+            <p><strong>Black Hole M87</strong>
+                    <a href="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg"><em>(Image Credits: Event Horizon Telescope Collaboration)</em></a></p>
+        </figcaption>
+</figure>
+
+<blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
+    <p>Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.</p>
+    <footer align="right">Katie Bouman, <cite>Assistant Professor, Computing & Mathematical Sciences, Caltech</cite></footer>
+</blockquote>
+<h2 id="a-telescope-the-size-of-the-earth">A telescope the size of the earth</h2>
+<p>The <a href="https://eventhorizontelescope.org">Event Horizon telescope (EHT)</a> is an
+array of eight ground-based radio telescopes forming a computational telescope
+the size of the earth, studing the universe with unprecedented
+sensitivity and resolution.  The huge virtual telescope,  which uses a technique
+called very-long-baseline interferometry (VLBI), has an angular resolution of
+<a href="https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole">20 micro-arcseconds</a> — enough to read a newspaper in New York
+from a sidewalk café in Paris!</p>
+<h3 id="key-goals-and-results">Key Goals and Results</h3>
+<ul>
+<li>
+<p><strong>A New View of the Universe:</strong>
+The groundwork for the EHT&rsquo;s groundbreaking image had been laid 100 years
+earlier when <a href="https://en.wikipedia.org/wiki/Eddington_experiment">Sir Arthur Eddington</a> yielded the first
+observational support of Einstein&rsquo;s theory of general relativity.</p>
+</li>
+<li>
+<p><strong>The Black Hole:</strong> EHT was trained on a supermassive black hole
+approximately 55 million light-years from Earth, lying at the center
+of the galaxy Messier 87 (M87) in the Virgo galaxy cluster. Its mass is
+6.5 billion times the Sun&rsquo;s. It had been studied for
+<a href="https://www.jpl.nasa.gov/news/news.php?feature=7385">over 100 years</a>, but never before
+had a black hole been visually observed.</p>
+</li>
+<li>
+<p><strong>Comparing Observations to Theory:</strong> From Einstein’s general theory of
+relativity, scientists expected to find a shadow-like region caused by
+gravitational bending and capture of light. Scientists could
+use it to measure the black hole&rsquo;s enormous mass.</p>
+</li>
+</ul>
+<h3 id="the-challenges">The Challenges</h3>
+<ul>
+<li>
+<p><strong>Computational scale</strong></p>
+<p>EHT poses massive data-processing challenges, including rapid atmospheric
+phase fluctuations, large recording bandwidth, and telescopes that are
+widely dissimilar and geographically dispersed.</p>
+</li>
+<li>
+<p><strong>Too much information</strong></p>
+<p>Each day EHT generates over 350 terabytes of observations, stored on
+helium-filled hard drives. Reducing the volume and complexity of this much
+data is enormously difficult.</p>
+</li>
+<li>
+<p><strong>Into the unknown</strong></p>
+<p>When the goal is to see something never before seen, how can scientists be
+confident the image is correct?</p>
+</li>
+</ul>
+<figure class="csfigcaption">
+    <img src="/images/content_images/cs/dataprocessbh.png"
+         alt="data pipeline"/> <figcaption>
+            <p><strong>EHT Data Processing Pipeline</strong>
+                    <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57">(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)</a></p>
+        </figcaption>
+</figure>
+
+<h2 id="numpys-role">NumPy’s Role</h2>
+<p>What if there&rsquo;s a problem with the data? Or perhaps an algorithm relies too
+heavily on a particular assumption. Will the image change drastically if a
+single parameter is changed?</p>
+<p>The EHT collaboration met these challenges by having independent teams
+evaluate the data, using both established and cutting-edge image reconstruction
+techniques. When results proved consistent, they were combined to yield the
+first-of-a-kind image of the black hole.</p>
+<p>Their work illustrates the role the scientific Python ecosystem plays in
+advancing science through collaborative data analysis.</p>
+<figure class="fig-center">
+    <img src="/images/content_images/cs/bh_numpy_role.png"
+         alt="role of numpy"/> <figcaption>
+            <p><strong>The role of NumPy in Black Hole imaging</strong></p>
+        </figcaption>
+</figure>
+
+<p>For example, the <a href="https://github.com/achael/eht-imaging"><code>eht-imaging</code></a> Python package provides tools for
+simulating and performing image reconstruction on VLBI data.
+NumPy is at the core of array data processing used
+in this package, as illustrated by the partial software
+dependency chart below.</p>
+<figure class="fig-center">
+    <img src="/images/content_images/cs/ehtim_numpy.png"
+         alt="ehtim dependency map highlighting numpy"/> <figcaption>
+            <p><strong>Software dependency chart of ehtim package highlighting NumPy</strong></p>
+        </figcaption>
+</figure>
+
+<p>Besides NumPy, many other packages, such as
+<a href="https://www.scipy.org">SciPy</a> and <a href="https://pandas.io">Pandas</a>, are part of the
+data processing pipeline for imaging the black hole.
+The standard astronomical file formats and time/coordinate transformations
+were handled by <a href="https://www.astropy.org/">Astropy</a>, while <a href="https://matplotlib.org/">Matplotlib</a> was used
+in visualizing data throughout the analysis pipeline, including the generation
+of the final image of the black hole.</p>
+<h2 id="summary">Summary</h2>
+<p>The efficient and adaptable n-dimensional array that is NumPy&rsquo;s central feature
+enabled researchers to manipulate large numerical datasets, providing a
+foundation for the first-ever image of a black hole. A landmark moment in
+science, it gives stunning visual evidence of Einstein’s theory. The
+achievement encompasses not only technological breakthroughs but also
+international collaboration among over 200 scientists and some of the world&rsquo;s
+best radio observatories.  Innovative algorithms and data processing
+techniques, improving upon existing astronomical models, helped unfold a
+mystery of the universe.</p>
+<figure class="fig-center">
+    <img src="/images/content_images/cs/numpy_bh_benefits.png"
+         alt="numpy benefits"/> <figcaption>
+            <p><strong>Key NumPy Capabilities utilized</strong></p>
+        </figcaption>
+</figure>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+  
+  <div id="backtotop"><a href="#"></a></div>
+
+  
+
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/css/uikit.min.css" />
+
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "joelachance/thebelab-requirements"
+        },
+    }
+</script>
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
+
+<script src="/js/app.js"></script>
+
+
+  
+  
+<footer id="footer" class="footer">
+  <div class="container">
+    <div id="footer-columns" class="columns">
+      <div class="footer-logo-column">
+        <img id="footer-logo" src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+      </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/install">
+                  Install
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/doc/stable">
+                  Documentation
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/learn">
+                  Learn
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/neps/roadmap.html">
+                  Roadmap
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/about">
+                  About us
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/community">
+                  Community
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/contribute">
+                  Contribute
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/code-of-conduct">
+                  Code of conduct
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/gethelp">
+                  Get help
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/terms">
+                  Terms of use
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/privacy">
+                  Privacy
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/press-kit">
+                  Press kit
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-actions">
+            <p>Sign up for the latest NumPy news, resources, <br> and more</p>
+            
+            <form action="https://numpy.us4.list-manage.com/subscribe/post?u=5ddd0d1d6e807900a8212481a&amp;id=287fa4253c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sign-up-container" target="_blank" novalidate>
+                <div class="sign-up-image">
+                    <i class="far fa-envelope"></i>
+                </div>
+                <input type="email" value="" name="EMAIL" class="required email sign-up-input" id="mce-EMAIL" aria-label="Input for email, press enter to submit" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') sendThankYou()" />
+                <div class="submission-instructions">Press Enter</div>
+                <button class="signup-button" onclick="sendThankYou()" aria-label="Submit">
+                    <i class="far fa-paper-plane"></i>
+                </button>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5ddd0d1d6e807900a8212481a_287fa4253c" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="display: none;"></div>
+            </form>
+            <div class="thank-you">Thank you! &#127881;</div>
+            
+
+            <nav class="level is-mobile">
+                <div class="social-media-icons">
+                    <a class="level-item" href="https://github.com/numpy/numpy" aria-label="https://github.com/numpy/numpy">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    </a>
+                    <a class="level-item" href="https://twitter.com/numpy_team" aria-label="https://twitter.com/numpy_team">
+                    <span class="icon"><i class="fab fa-twitter"></i></span>
+                    </a>
+                </div>
+            </nav>
+            <div class="copyright">&copy; 2019-2020 NumPy. All rights reserved.</div>
+        </div>
+    </div>
+  </div>
+</footer>
+
+  
+</body>
+
+</html>

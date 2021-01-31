@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NumPy</title>
+    <link>http://numpy.org/</link>
+    <description>Recent content on NumPy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://numpy.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>404</title>
+      <link>http://numpy.org/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/404/</guid>
+      <description>Oops! You&amp;rsquo;ve reached a dead end.
+If you think something should be here, you can open an issue on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>About Us</title>
+      <link>http://numpy.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/about/</guid>
+      <description>Some information about the NumPy project and community
+NumPy is an open source project aiming to enable numerical computing with Python. It was created in 2005, building on the early work of the Numerical and Numarray libraries. NumPy will always be 100% open source software, free for all to use and released under the liberal terms of the modified BSD license.
+NumPy is developed in the open on GitHub, through the consensus of the NumPy and wider scientific Python community.</description>
+    </item>
+    
+    <item>
+      <title>Array Computing</title>
+      <link>http://numpy.org/arraycomputing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/arraycomputing/</guid>
+      <description>Array computing is the foundation of statistical, mathematical, scientific computing in various contemporary data science and analytics applications such as data visualization, digital signal processing, image processing, bioinformatics, machine learning, AI, and several others.
+Large scale data manipulation and transformation depends on efficient, high-performance array computing. The language of choice for data analytics, machine learning, and productive numerical computing is Python.
+Numerical Python or NumPy is its de-facto standard Python programming language library that supports large, multi-dimensional arrays and matrices, and comes with a vast collection of high-level mathematical functions to operate on these arrays.</description>
+    </item>
+    
+    <item>
+      <title>Case Study: Cricket Analytics, the game changer!</title>
+      <link>http://numpy.org/case-studies/cricket-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/case-studies/cricket-analytics/</guid>
+      <description>IPLT20, the biggest Cricket Festival in India (Image credits: IPLT20 (cup and logo) &amp;amp; Akash Yadav (stadium))
+  You don&#39;t play for the crowd, you play for the country.
+—M S Dhoni, International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL  About Cricket It would be an understatement to state that Indians love cricket. The game is played in just about every nook and cranny of India, rural or urban, popular with the young and the old alike, connecting billions in India unlike any other sport.</description>
+    </item>
+    
+    <item>
+      <title>Case Study: DeepLabCut 3D Pose Estimation</title>
+      <link>http://numpy.org/case-studies/deeplabcut-dnn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/case-studies/deeplabcut-dnn/</guid>
+      <description>Analyzing mice hand-movement using DeepLapCut (Source: www.deeplabcut.org )
+  Open Source Software is accelerating Biomedicine. DeepLabCut enables automated video analysis of animal behavior using Deep Learning.
+—Alexander Mathis, Assistant Professor, École polytechnique fédérale de Lausanne (EPFL)  About DeepLabCut DeepLabCut is an open source toolbox that empowers researchers at hundreds of institutions worldwide to track behaviour of laboratory animals, with very little training data, at human-level accuracy. With DeepLabCut technology, scientists can delve deeper into the scientific understanding of motor control and behavior across animal species and timescales.</description>
+    </item>
+    
+    <item>
+      <title>Case Study: Discovery of Gravitational Waves</title>
+      <link>http://numpy.org/case-studies/gw-discov/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/case-studies/gw-discov/</guid>
+      <description>Gravitational Waves (Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)
+  The scientific Python ecosystem is critical infrastructure for the research done at LIGO.
+David Shoemaker, LIGO Scientific Collaboration  About Gravitational Waves and LIGO Gravitational waves are ripples in the fabric of space and time, generated by cataclysmic events in the universe such as collision and merging of two black holes or coalescing binary stars or supernovae.</description>
+    </item>
+    
+    <item>
+      <title>Case Study: First Image of a Black Hole</title>
+      <link>http://numpy.org/case-studies/blackhole-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/case-studies/blackhole-image/</guid>
+      <description>Black Hole M87 (Image Credits: Event Horizon Telescope Collaboration)
+  Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.
+Katie Bouman, Assistant Professor, Computing &amp; Mathematical Sciences, Caltech  A telescope the size of the earth The Event Horizon telescope (EHT) is an array of eight ground-based radio telescopes forming a computational telescope the size of the earth, studing the universe with unprecedented sensitivity and resolution.</description>
+    </item>
+    
+    <item>
+      <title>Citing NumPy</title>
+      <link>http://numpy.org/citing-numpy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/citing-numpy/</guid>
+      <description>If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, we suggest citing the following paper:
+ Harris, C.R., Millman, K.J., van der Walt, S.J. et al. Array programming with NumPy. Nature 585, 357–362 (2020). DOI: 0.1038/s41586-020-2649-2. (Publisher link).  In BibTeX format:
+@Article{ harris2020array, title = {Array programming with {NumPy}}, author = {Charles R. Harris and K. Jarrod Millman and St{&#39;{e}}fan J.</description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>http://numpy.org/community/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/community/</guid>
+      <description>NumPy is a community-driven open source project developed by a very diverse group of contributors. The NumPy leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the NumPy Code of Conduct for guidance on how to interact with others in a way that makes the community thrive.
+We offer several communication channels to learn, share your knowledge and connect with others within the NumPy community.</description>
+    </item>
+    
+    <item>
+      <title>Contribute to NumPy</title>
+      <link>http://numpy.org/contribute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/contribute/</guid>
+      <description>The NumPy project welcomes your expertise and enthusiasm! Your choices aren&amp;rsquo;t limited to programming &amp;ndash; in addition to
+ Writing code  you can
+ Review pull requests Develop tutorials, presentations, and other educational material Triage issues Work on our website Contribute graphic design Translate website content Serve as a community coordinator Write grant proposals and help with other fundraising  If you&amp;rsquo;re unsure where to start or how your skills fit in, reach out!</description>
+    </item>
+    
+    <item>
+      <title>Get Help</title>
+      <link>http://numpy.org/gethelp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/gethelp/</guid>
+      <description>User questions: The best way to get help is to post your question to a site like StackOverflow, with thousands of users available to answer. Smaller alternatives include IRC, Gitter, and Reddit. We wish we could keep an eye on these sites, or answer questions directly, but the volume is just a little overwhelming!
+Development issues: For NumPy development-related matters (e.g. bug reports), please see Community.
+StackOverflow A forum for asking usage questions, e.</description>
+    </item>
+    
+    <item>
+      <title>History of NumPy</title>
+      <link>http://numpy.org/history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/history/</guid>
+      <description>NumPy is a foundational Python library that provides array data structures and related fast numerical routines. When started, the library had little funding, and was written mainly by graduate students—many of them without computer science education, and often without a blessing of their advisors. To even imagine that a small group of “rogue” student programmers could upend the already well-established ecosystem of research software—backed by millions in funding and many hundreds of highly qualified engineers — was preposterous.</description>
+    </item>
+    
+    <item>
+      <title>Installing NumPy</title>
+      <link>http://numpy.org/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/install/</guid>
+      <description>The only prerequisite for installing NumPy is Python itself. If you don&amp;rsquo;t have Python yet and want the simplest way to get started, we recommend you use the Anaconda Distribution - it includes Python, NumPy, and many other commonly used packages for scientific computing and data science.
+NumPy can be installed with conda, with pip, with a package manager on macOS and Linux, or from source. For more detailed instructions, consult our Python and NumPy installation guide below.</description>
+    </item>
+    
+    <item>
+      <title>Learn</title>
+      <link>http://numpy.org/learn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/learn/</guid>
+      <description>The official NumPy documentation lives here.
+Below is a curated collection of external resources. To contribute, see the end of this page.
+ Beginners There&amp;rsquo;s a ton of information about NumPy out there. If you are new, we&amp;rsquo;d strongly recommend these:
+ Tutorials
+ NumPy Quickstart Tutorial SciPy Lectures Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem. NumPy: the absolute basics for beginners Machine Learning Plus - Introduction to ndarray Edureka - Learn NumPy Arrays with Examples  Dataquest - NumPy Tutorial: Data Analysis with Python NumPy tutorial by Nicolas Rougier Stanford CS231 by Justin Johnson NumPy User Guide   Books</description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>http://numpy.org/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/news/</guid>
+      <description>Numpy 1.20.0 release Jan 30, 2021 &amp;ndash; NumPy 1.20.0 is now available. This is the largest NumPy release to date, thanks to 180+ contributors. The two most exciting new features are:
+ Type annotations for large parts of NumPy, and a new numpy.typing submodule containing ArrayLike and DtypeLike aliases that users and downstream libraries can use when adding type annotations in their own code. Multi-platform SIMD compiler optimizations, with support for x86 (SSE, AVX), ARM64 (Neon), and PowerPC (VSX) instructions.</description>
+    </item>
+    
+    <item>
+      <title>NumPy Code of Conduct</title>
+      <link>http://numpy.org/code-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/code-of-conduct/</guid>
+      <description>Introduction This Code of Conduct applies to all spaces managed by the NumPy project, including all public and private mailing lists, issue trackers, wikis, blogs, Twitter, and any other communication channel used by our community. The NumPy project does not organise in-person events, however events related to our community should have a code of conduct similar in spirit to this one.
+This Code of Conduct should be honored by everyone who participates in the NumPy community formally or informally, or claims any affiliation with the project, in any project-related activities and especially when representing the project, in any role.</description>
+    </item>
+    
+    <item>
+      <title>NumPy Code of Conduct - How to follow up on a report</title>
+      <link>http://numpy.org/report-handling-manual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/report-handling-manual/</guid>
+      <description>This is the manual followed by NumPy’s Code of Conduct Committee. It’s used when we respond to an issue to make sure we’re consistent and fair.
+Enforcing the Code of Conduct impacts our community today and for the future. It’s an action that we do not take lightly. When reviewing enforcement measures, the Code of Conduct Committee will keep the following values and guidelines in mind:
+ Act in a personal manner rather than impersonal.</description>
+    </item>
+    
+    <item>
+      <title>NumPy Diversity and Inclusion Statement</title>
+      <link>http://numpy.org/diversity_sep2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/diversity_sep2020/</guid>
+      <description>In light of the foregoing discussion on social media after publication of the NumPy paper in Nature and the concerns raised about the state of diversity and inclusion on the NumPy team, we would like to issue the following statement:
+It is our strong belief that we are at our best, as a team and community, when we are inclusive and equitable. Being an international team from the onset, we recognize the value of collaborating with individuals from diverse backgrounds and expertise.</description>
+    </item>
+    
+    <item>
+      <title>Press kit</title>
+      <link>http://numpy.org/press-kit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/press-kit/</guid>
+      <description>We would like to make it easy for you to include the NumPy project identity in your next academic paper, course materials, or presentation.
+You will find several high-resolution versions of the NumPy logo here. Note that by using the numpy.org resources, you accept the NumPy Code of Conduct.</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://numpy.org/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/privacy/</guid>
+      <description>numpy.org is operated by NumFOCUS, Inc., the fiscal sponsor of the NumPy project. For the Privacy Policy of this website please refer to https://numfocus.org/privacy-policy.
+If you have any questions about the policy or NumFOCUS’s data collection, use, and disclosure practices, please contact the NumFOCUS staff at privacy@numfocus.org.</description>
+    </item>
+    
+    <item>
+      <title>Terms of Use</title>
+      <link>http://numpy.org/terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://numpy.org/terms/</guid>
+      <description>Last updated January 4, 2020
+AGREEMENT TO TERMS These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and NumPy (&amp;quot;Project&amp;rdquo;, “we”, “us”, or “our”), concerning your access to and use of the numpy.org website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use.</description>
+    </item>
+    
+  </channel>
+</rss>

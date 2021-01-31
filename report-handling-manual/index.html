@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-162151853-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<meta name="description" content="Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source." />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>NumPy</title>
+  
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.min.cf5efcb8a6e49b945af419cd8b208a5ae87eb3015995b9afc61218743a0fed3e.css" integrity="sha256-z178uKbkm5Ra9BnNiyCKWuh&#43;swFZlbmvxhIYdDoP7T4=">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+
+<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="/css/shell.css" />
+<link rel="stylesheet" type="text/css" href="/css/tabs.css" />
+<link rel="stylesheet" type="text/css" href="/css/content.css" />
+<link rel="stylesheet" type="text/css" href="/css/news.css" />
+<link rel="stylesheet" type="text/css" href="/css/keyfeatures.css" />
+<link rel="stylesheet" type="text/css" href="/css/casestudies.css" />
+
+</head>
+
+<body>
+  
+
+  
+
+
+<nav id="nav" class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      
+            <a id="navbar-item" class="navbar-item" href="/">
+                <img src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow." width="112" height="28" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+            </a>
+      
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+
+        <div class="navbar-end">
+          <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+            Install
+          </a>
+          <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+            Documentation
+          </a>
+          <a href="/learn" id="navbar-item" class="navbar-item is-secondary">
+            Learn
+          </a>
+          <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+            Community
+          </a>
+          <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+            About Us
+          </a>
+          <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+            Contribute
+          </a>
+
+          
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a id="navbar-item" class="navbar-item" href="/">
+        <img src="/images/logos/numpy.svg" alt="" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+
+      <div class="navbar-end">
+        <a href="/install" id="navbar-item" class="navbar-item is-secondary">
+          Install
+        </a>
+        <a href="https://numpy.org/doc/stable" id="navbar-item" class="navbar-item is-secondary">
+          Documentation
+        </a>
+        <a href="/learn" id="navbar-item" class="navbar-item is-secondary">
+          Learn
+        </a>
+        <a href="/community" id="navbar-item" class="navbar-item is-secondary">
+          Community
+        </a>
+        <a href="/about" id="navbar-item" class="navbar-item is-secondary">
+          About Us
+        </a>
+        <a href="/contribute" id="navbar-item" class="navbar-item is-secondary">
+          Contribute
+        </a>
+        
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="content-padding flex-row">
+    <div class="shortcuts-container">
+        <div class="shortcuts-title">Shortcuts</div>
+        <div id="shortcuts"></div>
+        <div class="sidebar-links">
+            <a href="/gethelp">Get Help</a>
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="columns">
+            <div class="column is-centered-tablet-portrait">
+                <h1 class="title section-title">NumPy Code of Conduct - How to follow up on a report</h1>
+                <h5 class="subtitle is-5 is-muted"></h5>
+                <div class="divider"></div>
+            </div>
+        </div>
+        <p>This is the manual followed by NumPy’s Code of Conduct Committee. It’s used when we respond to an issue to make sure we’re consistent and fair.</p>
+<p>Enforcing the <a href="/code-of-conduct">Code of Conduct</a> impacts our community today and for the future. It’s an action that we do not take lightly. When reviewing enforcement measures, the Code of Conduct Committee will keep the following values and guidelines in mind:</p>
+<ul>
+<li>Act in a personal manner rather than impersonal. The Committee can engage the parties to understand the situation while respecting the privacy and any necessary confidentiality of reporters. However, sometimes it is necessary to communicate with one or more individuals directly: the Committee’s goal is to improve the health of our community rather than only produce a formal decision.</li>
+<li>Emphasize empathy for individuals rather than judging behavior, avoiding binary labels of “good” and “bad/evil”. Overt, clear-cut aggression and harassment exist, and we will address them firmly. But many scenarios that can prove challenging to resolve are those where normal disagreements devolve into unhelpful or harmful behavior from multiple parties. Understanding the full context and finding a path that re-engages all is hard, but ultimately the most productive for our community.</li>
+<li>We understand that email is a difficult medium and can be isolating. Receiving criticism over email, without personal contact, can be particularly painful. This makes it especially important to keep an atmosphere of open-minded respect for the views of others. It also means that we must be transparent in our actions, and that we will do everything in our power to make sure that all our members are treated fairly and with sympathy.</li>
+<li>Discrimination can be subtle and it can be unconscious. It can show itself as unfairness and hostility in otherwise ordinary interactions. We know that this does occur, and we will take care to look out for it. We would very much like to hear from you if you feel you have been treated unfairly, and we will use these procedures to make sure that your complaint is heard and addressed.</li>
+<li>Help increase engagement in good discussion practice: try to identify where discussion may have broken down, and provide actionable information, pointers, and resources that can lead to positive change on these points.</li>
+<li>Be mindful of the needs of new members: provide them with explicit support and consideration, with the aim of increasing participation from underrepresented groups in particular.</li>
+<li>Individuals come from different cultural backgrounds and native languages. Try to identify any honest misunderstandings caused by a non-native speaker and help them understand the issue and what they can change to avoid causing offence. Complex discussion in a foreign language can be very intimidating, and we want to grow our diversity also across nationalities and cultures.</li>
+</ul>
+<h2 id="mediation">Mediation</h2>
+<p>Voluntary informal mediation is a tool at our disposal. In contexts such as when two or more parties have all escalated to the point of inappropriate behavior (something sadly common in human conflict), it may be useful to facilitate a mediation process. This is only an example: the Committee can consider mediation in any case, mindful that the process is meant to be strictly voluntary and no party can be pressured to participate. If the Committee suggests mediation, it should:</p>
+<ul>
+<li>Find a candidate who can serve as a mediator.</li>
+<li>Obtain the agreement of the reporter(s). The reporter(s) have complete freedom to decline the mediation idea or to propose an alternate mediator.</li>
+<li>Obtain the agreement of the reported person(s).</li>
+<li>Settle on the mediator: while parties can propose a different mediator than the suggested candidate, only if a common agreement is reached on all terms can the process move forward.</li>
+<li>Establish a timeline for mediation to complete, ideally within two weeks.</li>
+</ul>
+<p>The mediator will engage with all the parties and seek a resolution that is satisfactory to all. Upon completion, the mediator will provide a report (vetted by all parties to the process) to the Committee, with recommendations on further steps. The Committee will then evaluate these results (whether a satisfactory resolution was achieved or not) and decide on any additional action deemed necessary.</p>
+<h2 id="how-the-committee-will-respond-to-reports">How the Committee will respond to reports</h2>
+<p>When the Committee (or a Committee member) receives a report, they will first determine whether the report is about a clear and severe breach (as defined below). If so, immediate action needs to be taken in addition to the regular report handling process.</p>
+<h2 id="clear-and-severe-breach-actions">Clear and severe breach actions</h2>
+<p>We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We will deal quickly with clear and severe breaches like personal threats, violent, sexist or racist language.</p>
+<p>When a member of the Code of Conduct Committee becomes aware of a clear and severe breach, they will do the following:</p>
+<ul>
+<li>Immediately disconnect the originator from all NumPy communication channels.</li>
+<li>Reply to the reporter that their report has been received and that the originator has been disconnected.</li>
+<li>In every case, the moderator should make a reasonable effort to contact the originator, and tell them specifically how their language or actions qualify as a “clear and severe breach”. The moderator should also say that, if the originator believes this is unfair or they want to be reconnected to NumPy, they have the right to ask for a review, as below, by the Code of Conduct Committee. The moderator should copy this explanation to the Code of Conduct Committee.</li>
+<li>The Code of Conduct Committee will formally review and sign off on all cases where this mechanism has been applied to make sure it is not being used to control ordinary heated disagreement.</li>
+</ul>
+<h2 id="report-handling">Report handling</h2>
+<p>When a report is sent to the Committee they will immediately reply to the reporter to confirm receipt. This reply must be sent within 72 hours, and the group should strive to respond much quicker than that.</p>
+<p>If a report doesn’t contain enough information, the Committee will obtain all relevant data before acting. The Committee is empowered to act on the Steering Council’s behalf in contacting any individuals involved to get a more complete account of events.</p>
+<p>The Committee will then review the incident and determine, to the best of their ability:</p>
+<ul>
+<li>What happened.</li>
+<li>Whether this event constitutes a Code of Conduct violation.</li>
+<li>Who are the responsible party(ies).</li>
+<li>Whether this is an ongoing situation, and there is a threat to anyone’s physical safety.</li>
+</ul>
+<p>This information will be collected in writing, and whenever possible the group’s deliberations will be recorded and retained (i.e. chat transcripts, email discussions, recorded conference calls, summaries of voice conversations, etc).</p>
+<p>It is important to retain an archive of all activities of this Committee to ensure consistency in behavior and provide institutional memory for the project. To assist in this, the default channel of discussion for this Committee will be a private mailing list accessible to current and future members of the Committee as well as members of the Steering Council upon justified request. If the Committee finds the need to use off-list communications (e.g. phone calls for early/rapid response), it should in all cases summarize these back to the list so there’s a good record of the process.</p>
+<p>The Code of Conduct Committee should aim to have a resolution agreed upon within two weeks. In the event that a resolution can’t be determined in that time, the Committee will respond to the reporter(s) with an update and projected timeline for resolution.</p>
+<h2 id="resolutions">Resolutions</h2>
+<p>The Committee must agree on a resolution by consensus. If the group cannot reach consensus and deadlocks for over a week, the group will turn the matter over to the Steering Council for resolution.</p>
+<p>Possible responses may include:</p>
+<ul>
+<li>Taking no further action:
+<ul>
+<li>if we determine no violations have occurred;</li>
+<li>if the matter has been resolved publicly while the Committee was considering responses.</li>
+</ul>
+</li>
+<li>Coordinating voluntary mediation: if all involved parties agree, the Committee may facilitate a mediation process as detailed above.</li>
+<li>Remind publicly, and point out that some behavior/actions/language have been judged inappropriate and why in the current context, or can but hurtful to some people, requesting the community to self-adjust.</li>
+<li>A private reprimand from the Committee to the individual(s) involved. In this case, the group chair will deliver that reprimand to the individual(s) over email, cc’ing the group.</li>
+<li>A public reprimand. In this case, the Committee chair will deliver that reprimand in the same venue that the violation occurred, within the limits of practicality. E.g., the original mailing list for an email violation, but for a chat room discussion where the person/context may be gone, they can be reached by other means. The group may choose to publish this message elsewhere for documentation purposes.</li>
+<li>A request for a public or private apology, assuming the reporter agrees to this idea: they may at their discretion refuse further contact with the violator. The chair will deliver this request. The Committee may, if it chooses, attach “strings” to this request: for example, the group may ask a violator to apologize in order to retain one’s membership on a mailing list.</li>
+<li>A “mutually agreed upon hiatus” where the Committee asks the individual to temporarily refrain from community participation. If the individual chooses not to take a temporary break voluntarily, the Committee may issue a “mandatory cooling off period”.</li>
+<li>A permanent or temporary ban from some or all NumPy spaces (mailing lists, gitter.im, etc.). The group will maintain records of all such bans so that they may be reviewed in the future or otherwise maintained.</li>
+</ul>
+<p>Once a resolution is agreed upon, but before it is enacted, the Committee will contact the original reporter and any other affected parties and explain the proposed resolution. The Committee will ask if this resolution is acceptable, and must note feedback for the record.</p>
+<p>Finally, the Committee will make a report to the NumPy Steering Council (as well as the NumPy core team in the event of an ongoing resolution, such as a ban).</p>
+<p>The Committee will never publicly discuss the issue; all public statements will be made by the chair of the Code of Conduct Committee or the NumPy Steering Council.</p>
+<h2 id="conflicts-of-interest">Conflicts of Interest</h2>
+<p>In the event of any conflict of interest, a Committee member must immediately notify the other members, and recuse themselves if necessary.</p>
+
+    </div>
+  </div>
+</section>
+
+
+
+  
+  <div id="backtotop"><a href="#"></a></div>
+
+  
+
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/css/uikit.min.css" />
+
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "joelachance/thebelab-requirements"
+        },
+    }
+</script>
+<script src="https://unpkg.com/thebelab@0.4.0/lib/index.js"></script>
+
+<script src="/js/app.js"></script>
+
+
+  
+  
+<footer id="footer" class="footer">
+  <div class="container">
+    <div id="footer-columns" class="columns">
+      <div class="footer-logo-column">
+        <img id="footer-logo" src="/images/logos/numpy.svg" alt="Numpy logo. A three-dimensional blue cube with the letter 'N' highlighted in yellow.">
+      </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/install">
+                  Install
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/doc/stable">
+                  Documentation
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/learn">
+                  Learn
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="https://numpy.org/neps/roadmap.html">
+                  Roadmap
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/about">
+                  About us
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/community">
+                  Community
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/contribute">
+                  Contribute
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/code-of-conduct">
+                  Code of conduct
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              <li class="link-list">
+                <a class="footer-link" href="/gethelp">
+                  Get help
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/terms">
+                  Terms of use
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/privacy">
+                  Privacy
+                </a>
+              </li>
+              <li class="link-list">
+                <a class="footer-link" href="/press-kit">
+                  Press kit
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-actions">
+            <p>Sign up for the latest NumPy news, resources, <br> and more</p>
+            
+            <form action="https://numpy.us4.list-manage.com/subscribe/post?u=5ddd0d1d6e807900a8212481a&amp;id=287fa4253c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sign-up-container" target="_blank" novalidate>
+                <div class="sign-up-image">
+                    <i class="far fa-envelope"></i>
+                </div>
+                <input type="email" value="" name="EMAIL" class="required email sign-up-input" id="mce-EMAIL" aria-label="Input for email, press enter to submit" onkeypress="if (event.which === 13 || event.keyCode === 13 || event.key === 'Enter') sendThankYou()" />
+                <div class="submission-instructions">Press Enter</div>
+                <button class="signup-button" onclick="sendThankYou()" aria-label="Submit">
+                    <i class="far fa-paper-plane"></i>
+                </button>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5ddd0d1d6e807900a8212481a_287fa4253c" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="display: none;"></div>
+            </form>
+            <div class="thank-you">Thank you! &#127881;</div>
+            
+
+            <nav class="level is-mobile">
+                <div class="social-media-icons">
+                    <a class="level-item" href="https://github.com/numpy/numpy" aria-label="https://github.com/numpy/numpy">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    </a>
+                    <a class="level-item" href="https://twitter.com/numpy_team" aria-label="https://twitter.com/numpy_team">
+                    <span class="icon"><i class="fab fa-twitter"></i></span>
+                    </a>
+                </div>
+            </nav>
+            <div class="copyright">&copy; 2019-2020 NumPy. All rights reserved.</div>
+        </div>
+    </div>
+  </div>
+</footer>
+
+  
+</body>
+
+</html>
