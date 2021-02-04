@@ -21,4 +21,3 @@ jobs:
           branch: master
           repo: numpy/numpy.github.com
           hugoVersion: extended_0.74.3 # Locked version, see issue #363
-          siteDir: /github/workspace/public
