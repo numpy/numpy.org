@@ -5,7 +5,7 @@ sidebar: false
 
 _下面是 NumPy 项目和社区的一些信息：_
 
-NumPy 是一个使 Python 支持数值计算的开源项目， 它诞生于 2005 年，早期由 Numerical 和 Numarray 库发展而来。 NumPy 将始终保证项目完整开源，所有人都可以根据 [修改后的 BSD 条款](https://github.com/numpy/numpy/blob/master/LICENSE.txt) 免费对其进行使用和分发。
+NumPy 是一个使 Python 支持数值计算的开源项目， It was created in 2005, building on the early work of the Numeric and Numarray libraries. NumPy 将始终保证项目完整开源，所有人都可以根据 [修改后的 BSD 条款](https://github.com/numpy/numpy/blob/master/LICENSE.txt) 免费对其进行使用和分发。
 
 经过 Numpy 和 Python 科学计算社区协商讨论，最终决定将 Numpy 在 GitHub 上开源。 想要了解更多与社区治理有关的信息，请参阅我们的[治理文件](https://www.numpy.org/devdocs/dev/governance/index.html)。
 
