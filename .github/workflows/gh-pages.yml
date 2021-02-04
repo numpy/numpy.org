@@ -17,8 +17,7 @@ jobs:
       - name: Publish Site
         uses: chabad360/hugo-gh-pages@master
         with:
-          branch: master
-          hugoVersion: 'extended_0.74.3' # Locked version, see issue #363
-          repo: numpy/numpy.github.com
-          siteDir: /github/workspace/public
           githubToken: ${{ secrets.PERSONAL_TOKEN }}
+          branch: master
+          repo: numpy/numpy.github.com
+          hugoVersion: extended_0.74.3 # Locked version, see issue #363
