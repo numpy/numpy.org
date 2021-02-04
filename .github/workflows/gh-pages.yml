@@ -19,5 +19,6 @@ jobs:
         with:
           githubToken: ${{ secrets.PERSONAL_TOKEN }}
           branch: master
+          cname: numpy.org
           repo: numpy/numpy.github.com
           hugoVersion: extended_0.74.3 # Locked version, see issue #363
