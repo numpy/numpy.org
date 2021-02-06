@@ -12,7 +12,7 @@ sidebar: false
 
 ## DeepLabCut について
 
-[DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) は世界中の何百もの研究機関の研究者が、ごくわずかなトレーニングデータで、人間レベルの精度で実験動物の行動を追跡可能にするオープンソースのツールボックスです。 With DeepLabCut  technology, scientists can delve deeper into the scientific understanding of motor control and behavior across animal species and timescales.
+[DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) は世界中の何百もの研究機関の研究者が、ごくわずかなトレーニングデータで、人間レベルの精度で実験動物の行動を追跡可能にするオープンソースのツールボックスです。 DeepLabCutの技術により、科学者は動物の種類と時系列のデータを元に、運動制御と行動に関する科学的な理解を深めることができるようになりました。
 
 Several areas of research, including neuroscience, medicine, and biomechanics, use data from tracking animal movement. DeepLabCut helps in understanding what humans and other animals are doing by parsing actions that have been recorded on film. Using automation for laborious tasks of tagging and monitoring, along with deep neural network based data analysis, DeepLabCut makes scientific studies involving observing animals, such as primates, mice, fish, flies etc., much faster and more accurate.
 
