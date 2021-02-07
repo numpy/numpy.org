@@ -16,9 +16,9 @@ sidebar: false
 
 神経科学、医学、生体力学などのいくつかの研究分野では、動物の動きを追跡したデータを使用しています。 DeepLabCut は、動画に記録された動きを解析することで、人間やその他の動物が何をしているのかを理解することができます。 タグ付けや監視などの、手間のかかる作業に自動化を利用し、深層学習ベースのデータ解析を実施します。DeepLabCut は、霊長類、マウス、魚、ハエなどの動物を観察する科学的研究に利用されており、より速く、正確な結果をもたらしました。
 
-{{< figure src="/images/content_images/cs/race-horse.gif" class="fig-center" caption="**Colored dots track the positions of a racehorse’s body part**" alt="horserideranim" attr="*(Source: Mackenzie Mathis)*">}}
+{{< figure src="/images/content_images/cs/race-hore. if" class="fig-center" caption="**色のついた点は競走馬の体の位置を追跡**" alt="horserideranim" attr="*(Source: Mackenzie Mathis)*">}}
 
-DeepLabCut's non-invasive behavioral tracking of animals by extracting the poses of animals is crucial for scientific pursuits in domains such as biomechanics, genetics, ethology & neuroscience. Measuring animal poses non-invasively from video - without markers - in dynamically changing backgrounds is computationally challenging, both technically as well as in terms of resource needs and training data required.
+DeepLabCutによる動物の姿勢を抽出することによる、非侵襲的な行動追跡は、生体力学や、遺伝学、倫理学、神経科学などの分野における科学的な研究に必要不可欠です。 動的に変化する背景の中で、動物の姿勢をビデオデータから非侵襲的に測定することは、計算処理的に非常に困難です。 例えば、必要な計算リソースやトレーニングデータが問題になります。
 
 DeepLabCut allows researchers to estimate the pose of the subject, efficiently enabling them to quantify the behavior through a Python based software toolkit.  With DeepLabCut, researchers can identify distinct frames from videos, digitally label specific body parts in a few dozen frames with a tailored GUI, and then the deep learning based pose estimation architectures in DeepLabCut learn how to pick out those same features in the rest of the video and in other similar videos of animals. It works across species of animals, from common laboratory animals such as flies and mice to more unusual animals like [cheetahs][cheetah-movement].
 
