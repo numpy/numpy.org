@@ -24,30 +24,30 @@ DeepLabCutは、研究者が対象の姿勢をを推定することができ、P
 
 DeepLabCut では [transfer learning](https://arxiv.org/pdf/1909.11229)という技術を使用しています。これにより必要な学習データの量を大幅に削減し、学習の収束を加速させることができます。  必要に応じて、より高速な推論を提供するさまざまなネットワークアーキテクチャ(MobileNetV2など)を選択することができ、リアルタイムの実験データフィードバックと組み合わせることもできます。 DeepLabCutはもともと、ツールの名前の元となった [DeeperCut](https://arxiv.org/abs/1605.03170)と呼ばれる、パフォーマンスの高い人像推定アーキテクチャからの特徴検出器を使用しています。 その過程で、このパッケージには、追加のアーキテクチャや、拡張メソッド、および一通りのフロントエンドユーザエクスペリエンスが得られるように大幅に変更されました。 さらに、 大規模な生物学的実験をサポートするために DeepLabCut はアクティブな学習機能を提供しています。例えば、エッジケースをカバーしたり、特定のコンテキスト内でポーズ推定アルゴリズムを堅牢にするために、時間経過しても学習データを増やすことができます。
 
-Recently, the [DeepLabCut model zoo](http://www.mousemotorlab.org/dlc-modelzoo) was introduced, which provides pre-trained models for various species and experimental conditions from facial analysis in primates to dog posture. This can be run for instance in the cloud without any labeling of new data, or neural network training, and no programming experience is necessary.
+最近、[DeepLabCut model zoo](http://www.mousemotorlab.org/dlc-modelzoo)が発表されました。これは、霊長類の顔分析から犬の姿勢まで、様々な種や実験条件に対応した事前訓練済みモデルを提供しています。 これにより、例えば、新しいデータのラベルを付けることなくクラウドで予測を実行することができたり、ニューラルネットワーク学習を実行することができます。また、プログラミング経験は必要ありません。
 
-### Key Goals and Results
+### 主な目標と結果
 
-* **Automation of animal pose analysis for scientific studies:**
+* **科学研究のための動物姿勢解析の自動化:**
 
-  The primary objective of DeepLabCut technology is to measure and track posture of animals in a diverse settings. This data can be used, for example, in neuroscience studies to understand how the brain controls movement, or to elucidate how animals socially interact. Researchers have observed a [tenfold performance boost](https://www.biorxiv.org/content/10.1101/457242v1) with DeepLabCut. Poses can be inferred offline at up to 1200 frames per second (FPS).
+  DeepLabCut 技術の主な目的は、多様な環境で動物の姿勢を測定し追跡することです。 このデータは、例えば、脳がどのように運動を制御しているかを理解するための神経科学の研究や、動物がどのように社会的に交流しているかを明らかにするために利用することができます。 研究者はDeepLabCutで [10倍のパフォーマンス向上](https://www.biorxiv.org/content/10.1101/457242v1) が可能であると発表しています。 オフラインでは最大1200フレーム/秒(FPS) で姿勢推定することができます。
 
-* **Creation of an easy-to-use Python toolkit for pose estimation:**
+* **姿勢推定のための使いやすいPythonツールキットの作成:**
 
-  DeepLabCut wanted to share their animal pose-estimation technology in the form of an easy to use tool that can be adopted by researchers easily. So they have created a complete, easy-to-use Python toolbox with project management features as well. These enable not only automation of pose-estimation but also managing the project end-to-end by helping the DeepLabCut Toolkit user right from the dataset collection stage to creating shareable and reusable analysis pipelines.
+  DeepLabCutは、動物の姿勢推定技術を研究者が簡単に利用できるツールとして共有したいという考えから開発されています。 そこでらはプロジェクト管理機能 を備えた、単独で機能し、使いやすいPythonツールボックスとしてこのツールを作成しました。 これにより、姿勢推定の自動化だけでなく、 データセット収集段階から共有可能て、再利用可能な分析パイプラインを作成するDeepLabCut Toolkitを提供し、プロジェクトのエンドツーエンドの管理も可能になりました。
 
-  Their [toolkit][DLCToolkit] is now available as open source.
+  この[ツールキット][DLCToolkit] はオープンソースとして利用できます。
 
-  A typical DeepLabCut Workflow includes:
+  DeepLabCut ワークフローは以下のようになります。
 
-  - creation and refining of training sets via active learning
-  - creation of tailored neural networks for specific animals and scenarios
-  - code for large-scale inference on videos
-  - draw inferences using integrated visualization tools
+  - アクティブ学習によるトレーニングセットの作成と調整を行います
+  - 特定の動物やシナリオに合わせたニューラルネットワークの構築
+  - 動画における大規模推論のためのコード作成
+  - 統合された可視化ツールを使用して推論の描画
 
-{{< figure src="/images/content_images/cs/deeplabcut-toolkit-steps.png" class="csfigcaption" caption="**Pose estimation steps with DeepLabCut**" alt="dlcsteps" align="middle" attr="(Source: DeepLabCut)" attrlink="https://twitter.com/DeepLabCut/status/1198046918284210176/photo/1" >}}
+{{< figure src="/images/content_images/cs/deeplabcut-toolkit-steps.png" class="csfigcaption" caption="**DeepLabCutによる姿勢推定のステップ**" alt="dlcsteps" align="middle" attr="(Source: DeepLabCut)" attrlink="https://twitter.com/DeepLabCut/status/1198046918284210176/photo/1" >}}
 
-### The Challenges
+### 課題
 
 * **Speed**
 
