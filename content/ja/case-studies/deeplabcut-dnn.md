@@ -49,7 +49,7 @@ DeepLabCut では [transfer learning](https://arxiv.org/pdf/1909.11229)という
 
 ### 課題
 
-* **Speed**
+* **速度**
 
     Fast processing of animal behavior videos in order to measure their behavior and at the same time make scientific experiments more efficient, accurate. Extracting detailed animal poses for laboratory experiments, without markers, in dynamically changing backgrounds, can be challenging, both technically as well as in terms of resource needs and training data required. Coming up with a tool that is easy to use without the need for skills such as computer vision expertise that enables scientists to do research in more real-world contexts, is a non-trivial problem to solve.
 
