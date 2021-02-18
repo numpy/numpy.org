@@ -3,7 +3,7 @@ title: Learn
 sidebar: false
 ---
 
-**공식 NumPy 문서는 [여기](https://numpy.org/doc/stable)에 있습니다.**
+For the **official NumPy documentation** visit [numpy.org/doc/stable](https://numpy.org/doc/stable).
 
 아래는 선별된 외부 자료들의 모음입니다. 이곳에 기여하고 싶다면, [이 페이지의 끝](#add-to-this-list)을 참조하세요.
 ***
