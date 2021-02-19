@@ -51,13 +51,13 @@ DeepLabCut では [transfer learning](https://arxiv.org/pdf/1909.11229)という
 
 * **速度**
 
-    動物行動動画の高速処理は、彼らの行動を測定し、同時に科学実験をより効率的で正確にするために重要です。 動的に変化する背景の中で、マーカーを使用せずに、実験室での実験のために動物の詳細な姿勢を抽出することは、技術的にも、必要なリソース的にも、必要なトレーニングデータの面でも、困難な場合があります。 Coming up with a tool that is easy to use without the need for skills such as computer vision expertise that enables scientists to do research in more real-world contexts, is a non-trivial problem to solve.
+    動物行動動画の高速処理は、彼らの行動を測定し、同時に科学実験をより効率的で正確にするために重要です。 動的に変化する背景の中で、マーカーを使用せずに、実験室での実験のために動物の詳細な姿勢を抽出することは、技術的にも、必要なリソース的にも、必要なトレーニングデータの面でも、困難な場合があります。 科学者が、より現実的な状況で研究を行うために、コンピュータビジョンなどの専門知識のスキルを必要とせずに使うことができるツールを開発することは、解決すべき重要な問題です。
 
-* **Combinatorics**
+* **組み合わせ問題**
 
-    Combinatorics involves assembly and integration of movement of multiple limbs into individual animal behavior. Assembling keypoints and their connections into individual animal movements and linking them across time is a complex process that requires heavy-duty numerical analysis, especially in case of multi-animal movement tracking in experiment videos.
+    組合せ問題とは、複数の四肢の動きを個々の動物行動に統合することを指します。 キーポイントとそ個々の動物の動きを関連性に基づき組み合わせ、それらを時間的に結びつけることは、複雑なプロセスであり、特に実験映像の中で複数の動物の動きを追跡する場合には、非常に膨大な数値解析が必要となります。
 
-* **Data Processing**
+* **データ処理**
 
     Last but not the least, array manipulation - processing large stacks of arrays corresponding to various images, target tensors and keypoints is fairly challenging.
 
