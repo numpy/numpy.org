@@ -65,15 +65,15 @@ DeepLabCut では [transfer learning](https://arxiv.org/pdf/1909.11229)という
 
 ## 姿勢推定の課題に対応するためのNumPyの役割
 
-NumPy addresses DeepLabCut technology's core need of numerical computations at high speed for behavioural analytics.  Besides NumPy, DeepLabCut employs various Python software that utilize NumPy at their core, such as [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug), [scikit-learn](https://scikit-learn.org/stable/), [scikit-image](https://scikit-image.org) and [Tensorflow](https://www.tensorflow.org).
+Numpy は DeepLabCutにおける、行動分析の高速化のための数値計算の核となっています。  NumPyだけでなく、 DeepLabCutは様々なNumpyをベースとしているPythonライブラリを利用しています。: [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug), [scikit-learn](https://scikit-learn.org/stable/), [scikit-image](https://scikit-image.org) and [Tensorflow](https://www.tensorflow.org).
 
-The following features of NumPy played a key role in addressing the image processing, combinatorics requirements and need for fast computation in DeepLabCut pose estimation algorithms:
+NumPyの特徴である、画像処理、組み合わせ処理、そして高速計算は、DeepLabCutの姿勢推定アルゴリズムにおいて重要な役割を果たしました。
 
-* Vectorization
-* Masked Array Operations
-* Linear Algebra
-* Random Sampling
-* Reshaping of large arrays
+* ベクトル化
+* マスクされた配列操作
+* 線形代数
+* ランダムサンプリング
+* 大きな配列の再構成
 
 DeepLabCut utilizes NumPy’s array capabilities throughout the workflow offered by the toolkit. In particular, NumPy is used for sampling distinct frames for human annotation labeling, and for writing, editing and processing annotation data.  Within TensorFlow the neural network is trained by DeepLabCut technology over thousands of iterations to predict the ground truth annotations from frames. For this purpose, target densities (scoremaps) are created to cast pose estimation as a image-to-image translation problem. To make the neural networks robust, data augmentation is employed, which requires the calculation of target scoremaps subject to various geometric and image processing steps. To make training fast, NumPy’s vectorization capabilities are leveraged. For inference, the most likely predictions from target scoremaps need to extracted and one needs to efficiently “link predictions to assemble individual animals”.
 
