@@ -59,11 +59,11 @@ DeepLabCut では [transfer learning](https://arxiv.org/pdf/1909.11229)という
 
 * **データ処理**
 
-    Last but not the least, array manipulation - processing large stacks of arrays corresponding to various images, target tensors and keypoints is fairly challenging.
+    最後に、配列の操作、 様々な画像処理、目標のテンソル処理、キーポイントに対応する大きな配列のスタックを処理することは、かなり難しい問題です。
 
-{{< figure src="/images/content_images/cs/pose-estimation.png" class="csfigcaption" caption="**Pose estimation variety and complexity**" alt="challengesfig" align="middle" attr="(Source: Mackenzie Mathis)" attrlink="https://www.biorxiv.org/content/10.1101/476531v1.full.pdf" >}}
+{{< figure src="/images/content_images/cs/pose-estimation.png" class="csfigcaption" caption="**姿勢推定の多様性と難しさ**" alt="challengesfig" align="middle" attr="(Source: Mackenzie Mathis)" attrlink="https://www.biorxiv.org/content/10.1101/476531v1.full.pdf" >}}
 
-## NumPy's Role in meeting Pose Estimation Challenges
+## 姿勢推定の課題に対応するためのNumPyの役割
 
 NumPy addresses DeepLabCut technology's core need of numerical computations at high speed for behavioural analytics.  Besides NumPy, DeepLabCut employs various Python software that utilize NumPy at their core, such as [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug), [scikit-learn](https://scikit-learn.org/stable/), [scikit-image](https://scikit-image.org) and [Tensorflow](https://www.tensorflow.org).
 
