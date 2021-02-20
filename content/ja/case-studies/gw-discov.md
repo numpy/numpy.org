@@ -1,5 +1,5 @@
 ---
-title: "Case Study: Discovery of Gravitational Waves"
+title: "ケーススタディ: 重力波の発見"
 sidebar: false
 ---
 
