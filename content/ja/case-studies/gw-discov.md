@@ -3,7 +3,7 @@ title: "ケーススタディ: 重力波の発見"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/gw_sxs_image.png" class="fig-center" caption="**Gravitational Waves**" alt="binary coalesce black hole generating gravitational waves" attr="*(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)*" attrlink="https://youtu.be/Zt8Z_uzG71o" >}}
+{{< figure src="/images/content_images/cs/gw_sxs_image.png" class="fig-center" caption="**重力波**" alt="binary coalesce black hole generating gravitational waves" attr="*(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)*" attrlink="https://youtu.be/Zt8Z_uzG71o" >}}
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
     <p>The scientific Python ecosystem is critical infrastructure for the research done at LIGO.</p>
