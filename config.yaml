@@ -119,6 +119,8 @@ languages:
               link: https://numpy.org/doc/stable
             - text: Learn
               link: /learn
+            - text: Citing Numpy
+              link: /citing-numpy
             - text: Roadmap
               link: https://numpy.org/neps/roadmap.html
         column2:
