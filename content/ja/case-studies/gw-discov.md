@@ -14,7 +14,7 @@ sidebar: false
 
 重力波は、空間と時間の基本構造の波紋です。 2つのブラックホールの衝突や合体、2連星や超新星の合体など、大きな変動現象によって生成されます。 重力波を観測することは、重力を研究する上で 重要なだけでなく、遠い宇宙とその影響におけるいくつかの不明瞭な現象の理解するためにも役立ちます。
 
-[レーザー干渉計重力波天文台(LIGO)](https://www. ligo. caltech. edu)は、アインシュタインの一般相対性理論によって予測された重力波の直接検出を通して、重力波天体物理学の分野を切り開くように設計されました。 このシステムは、アメリカのワシントン州ハンフォードとルイジアナ州リビングストンにある2つの干渉計が一体となって構成され、重力波を検出します。 Each of them has multi-kilometer-scale gravitational wave detectors that use laser interferometry.  The LIGO Scientific Collaboration (LSC), is a group of more than 1000 scientists from universities around the United States and in 14 other countries supported by more than 90 universities and research institutes; approximately 250 students actively contributing to the collaboration. The new LIGO discovery is the first observation of gravitational waves themselves, made by measuring the tiny disturbances the waves make to space and time as they pass through the earth.  It has opened up new astrophysical frontiers that explore the warped side of the universe—objects and phenomena that are made from warped spacetime.
+[レーザー干渉計重力波天文台(LIGO)](https://www. ligo. caltech. edu)は、アインシュタインの一般相対性理論によって予測された重力波の直接検出を通して、重力波天体物理学の分野を切り開くように設計されました。 このシステムは、アメリカのワシントン州ハンフォードとルイジアナ州リビングストンにある2つの干渉計が一体となって構成され、重力波を検出します。 それぞれのシステムには、レーザー干渉法を用いた数キロ規模の重力波検出器が設置されています。  LIGO Scientific Collaboration（LSC）は、米国をはじめとする14カ国の大学から1000人以上の科学者が集まり、90以上の大学・研究機関によって支援されています。また、約250人の学生も参加しています。 今回のLIGOの重要な発見は、重力波が地球を通過する際に生じる空間と時間の微小な乱れを測定することで、重力波そのものを観測した初めての例であることです。  それは、ゆがんだ時空から作られた 物体と現象を宇宙の歪んだ側面を探索する、新しい天体物理学フロンティア を開きました。
 
 
 ### Key Objectives
