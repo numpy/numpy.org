@@ -14,26 +14,26 @@ sidebar: false
 
 重力波は、空間と時間の基本構造の波紋です。 2つのブラックホールの衝突や合体、2連星や超新星の合体など、大きな変動現象によって生成されます。 重力波を観測することは、重力を研究する上で 重要なだけでなく、遠い宇宙とその影響におけるいくつかの不明瞭な現象の理解するためにも役立ちます。
 
-[レーザー干渉計重力波天文台(LIGO)](https://www. ligo. caltech. edu)は、アインシュタインの一般相対性理論によって予測された重力波の直接検出を通して、重力波天体物理学の分野を切り開くように設計されました。 このシステムは、アメリカのワシントン州ハンフォードとルイジアナ州リビングストンにある2つの干渉計が一体となって構成され、重力波を検出します。 それぞれのシステムには、レーザー干渉法を用いた数キロ規模の重力波検出器が設置されています。  LIGO Scientific Collaboration（LSC）は、米国をはじめとする14カ国の大学から1000人以上の科学者が集まり、90以上の大学・研究機関によって支援されています。また、約250人の学生も参加しています。 今回のLIGOの重要な発見は、重力波が地球を通過する際に生じる空間と時間の微小な乱れを測定することで、重力波そのものを観測した初めての例であることです。  それは、ゆがんだ時空から作られた 物体と現象を宇宙の歪んだ側面を探索する、新しい天体物理学フロンティア を開きました。
+[レーザー干渉計重力波天文台(LIGO)](https://www. ligo. caltech. edu)は、アインシュタインの一般相対性理論によって予測された重力波の直接検出を通して、重力波天体物理学の分野を切り開くように設計されました。 このシステムは、アメリカのワシントン州ハンフォードとルイジアナ州リビングストンにある2つの干渉計が一体となって構成され、重力波を検出します。 それぞれのシステムには、レーザー干渉法を用いた数キロ規模の重力波検出器が設置されています。  LIGO Scientific Collaboration（LSC）は、米国をはじめとする14カ国の大学から1000人以上の科学者が集まり、90以上の大学・研究機関によって支援されています。また、約250人の学生も参加しています。 今回のLIGOの重要な発見は、重力波が地球を通過する際に生じる空間と時間の微小な乱れを測定することで、重力波そのものを観測した初めての例であることです。  これにより、ゆがんだ時空から作られた 物体とそれに伴う現象を、宇宙の歪んだ側面から探索する、新しい天体物理学のフロンティア が開かれました。
 
 
-### Key Objectives
+### 主な目的
 
-* Though its [mission](https://www.ligo.caltech.edu/page/what-is-ligo) is to detect gravitational waves from some of the most violent and energetic processes in the Universe, the data LIGO collects may have far-reaching effects on many areas of physics including gravitation, relativity, astrophysics, cosmology, particle physics, and nuclear physics.
-* Crunch observed data via numerical relativity computations that involves complex maths in order to discern signal from noise, filter out relevant signal and statistically estimate significance of observed data
-* Data visualization so that the binary / numerical results can be comprehended.
+* LIGOの[ミッション](https://www.ligo.caltech.edu/page/what-is-ligo)は、宇宙で最も激しくエネルギーに満ちたプロセスからの重力波を検出することですが、LIGOが収集するデータは、重力、相対性理論、天体物理学、宇宙論、素粒子物理学、原子核物理学など、物理学の多くの分野に広く影響を与える可能性があります。
+* 複雑な数学を含む相対性理論の数値計算によって観測データを解析し、信号とノイズを識別し、関連性のある信号をフィルタリングし、観測データの有意性を統計的に推定することで、宇宙の始まりのクランチを観測できるようになります。
+* バイナリや数値の結果を理解しやすいのようにデータを可視化することも必要です。
 
 
 
-### The Challenges
+### 課題
 
-* **Computation**
+* **計算**
 
-    Gravitational Waves are hard to detect as they produce a very small effect and have tiny interaction with matter. Processing and analyzing all of LIGO's data requires a vast computing infrastructure.After taking care of noise, which is billions of times of the signal, there is still very complex relativity equations and huge amounts of data which present a computational challenge: [O(10^7) CPU hrs needed for binary merger analyses](https://youtu.be/7mcHknWWzNI) spread on 6 dedicated LIGO clusters
+    重力波は非常に小さい効果を生み、物質と微小な相互作用を持つため、検出が困難です。 LIGOのすべてのデータを処理・分析するには、膨大な計算インフラが必要です。信号の数十億倍のノイズを除去した後も、非常に複雑な相対性理論の方程式と膨大な量のデータがあり、計算上の課題となっています。例えば6つのLIGO専用クラスターに分散されたバイナリ結合解析には[O(10^7)個のCPU時間](https:/youtu.be7mcHknWWzNI)が必要です。
 
-* **Data Deluge**
+* **データの氾濫**
 
-    As observational devices become more sensitive and reliable, the challenges posed by data deluge and finding a needle in a haystack rise multi-fold. LIGO generates terabytes of data every day! Making sense of this data requires an enormous effort for each and every detection. For example, the signals being collected by LIGO must be matched by supercomputers against hundreds of thousands of templates of possible gravitational-wave signatures.
+    観測装置がより高感度で信頼性を持つようになると、データの大洪水によって、干し草の中から針を探すような問題が、多重に発生することがわかります。 LIGOは毎日テラバイトのデータを生成しているからです！ Making sense of this data requires an enormous effort for each and every detection. For example, the signals being collected by LIGO must be matched by supercomputers against hundreds of thousands of templates of possible gravitational-wave signatures.
 
 * **Visualization**
 
