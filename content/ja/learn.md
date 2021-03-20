@@ -1,5 +1,5 @@
 ---
-title: Learn
+title: Numpyの学び方
 sidebar: false
 ---
 
