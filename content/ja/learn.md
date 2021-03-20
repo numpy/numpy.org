@@ -3,14 +3,14 @@ title: Numpyの学び方
 sidebar: false
 ---
 
-For the **official NumPy documentation** visit [numpy.org/doc/stable](https://numpy.org/doc/stable).
+**公式の Numpy ドキュメント** については [numpy.org/doc/stable](https://numpy.org/doc/stable) を参照してください。
 
-Below is a curated collection of external resources. To contribute, see the [end of this page](#add-to-this-list).
+以下は、キュレーションされた外部リソースのリストです。 こちらのリストに貢献するには、 [このページの末尾](#add-to-this-list) を参照してください。
 ***
 
-## Beginners
+## 初心者向け
 
-There's a ton of information about NumPy out there. If you are new, we'd strongly recommend these:
+NumPyについての資料は多数存在しています。 初心者の方にはこちらの資料をお勧めします：
 
 <i class="fas fa-chalkboard"></i> **Tutorials**
 
