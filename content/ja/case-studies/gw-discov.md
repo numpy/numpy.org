@@ -39,17 +39,17 @@ sidebar: false
 
     アインシュタインの方程式を元にスーパーコンピュータでデータを解析できるようになったら、次はデータを人間の脳で理解できるようにしなければなりません。 シミュレーションのモデリングや信号の検出には、わかりやすい可視化技術が必要です。  画像処理やシミュレーションによって、解析結果をより多くの人に理解してもらえる状態になる前の段階において、可視化は、数値相対性を十分に重要視していなかった純粋な科学愛好家の目に、数値相対性が、より信頼性の高いものとして映るようにするという役割も果たしています。 実験データの処理や考察のために、複雑な計算をしたり、画像やシミュレーションの再レンダリングしたりすることは、この分野の研究者にとって時間のかかる作業となります。
 
-{{< figure src="/images/content_images/cs/gw_strain_amplitude.png" class="fig-center" alt="gravitational waves strain amplitude" caption="**Estimated gravitational-wave strain amplitude from GW150914**" attr="(**Graph Credits:** Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)" attrlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
+{{< figure src="/images/content_images/cs/gw_strain_amplitude.png" class="fig-center" alt="gravitational waves strain amplitude" caption="**GW150914から推定される重力波の歪みの振幅**" attr="(**Graph Credits:** Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)" attrlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
 
-## NumPy’s Role in the Detection of Gravitational Waves
+## 重力波の検出におけるNumPyの役割
 
-Gravitational waves emitted from the merger cannot be computed using any technique except brute force numerical relativity using supercomputers. The amount of data LIGO collects is as incomprehensibly large as gravitational wave signals are small.
+合成により放出される重力波は、スーパーコンピュータを用いたブルートフォースの数値相対性処理以外の手法では計算できません。 LIGOが収集するデータ量は、重力波の信号が少ないのと同じくらい不可解です。
 
-NumPy, the standard numerical analysis package for Python,  was utilized by the software used for various tasks performed during the GW detection project at LIGO. NumPy helped in solving complex maths and data manipulation at high speed.  Here are some examples:
+Python用の標準的な数値解析パッケージNumPyは、LIGOの重力波検出プロジェクトで実行される様々なタスクに使用されるソフトウェアで利用されています。 Numpyは、複雑な数学と高速なデータ操作に役立ちました。  次にいくつかの例を示します。
 
-* [Signal Processing](https://www.uv.es/virgogroup/Denoising_ROF.html): Glitch detection,  [Noise identification and Data Characterization](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf) (NumPy, scikit-learn, scipy, matplotlib, pandas, pyCharm)
-* Data retrieval: Deciding which data can be analyzed, figuring out whether it contains a signal - needle in a haystack
-* Statistical analysis: estimate the statistical significance of observational data, estimating the signal parameters (e.g. masses of stars, spin velocity, and distance) by comparison with a model.
+* [信号処理](https://www.uv.es/virgogroup/Denoising_ROF.html): グリッジ検出,  [ノイズ同定とデータ判定](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf) (NumPy, scikit-learn, scipy, matplotlib, pandas, pyCharm)
+* データ取得: どのデータが解析できるかを決定し、干し草の中の針のような信号が入っているかどうかを突き止める。
+* 統計解析：観測データの統計的有意性を推定し、モデルとの比較により信号パラメータ（星の質量、スピン速度、距離など）を推定する。
 * Visualization of data
   - Time series
   - Spectrograms
