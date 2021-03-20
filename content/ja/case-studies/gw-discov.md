@@ -37,7 +37,7 @@ sidebar: false
 
 * **可視化**
 
-    アインシュタインの方程式を元にスーパーコンピュータでデータを解析できるようになったら、次はデータを人間の脳で理解できるようにしなければなりません。 シミュレーションのモデリングや信号の検出には、わかりやすい可視化技術が必要です。  Visualization also plays a role in lending more credibility to numerical relativity in the eyes of pure science aficionados, who did not give enough importance to numerical relativity until imaging and simulations made it easier to comprehend results for a larger audience. Speed of complex computations and rendering, re-rendering images and simulations using latest experimental inputs and insights can be a time consuming activity that challenges researchers in this domain.
+    アインシュタインの方程式を元にスーパーコンピュータでデータを解析できるようになったら、次はデータを人間の脳で理解できるようにしなければなりません。 シミュレーションのモデリングや信号の検出には、わかりやすい可視化技術が必要です。  画像処理やシミュレーションによって、解析結果をより多くの人に理解してもらえる状態になる前の段階において、可視化は、数値相対性を十分に重要視していなかった純粋な科学愛好家の目に、数値相対性が、より信頼性の高いものとして映るようにするという役割も果たしています。 実験データの処理や考察のために、複雑な計算をしたり、画像やシミュレーションの再レンダリングしたりすることは、この分野の研究者にとって時間のかかる作業となります。
 
 {{< figure src="/images/content_images/cs/gw_strain_amplitude.png" class="fig-center" alt="gravitational waves strain amplitude" caption="**Estimated gravitational-wave strain amplitude from GW150914**" attr="(**Graph Credits:** Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)" attrlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
 
