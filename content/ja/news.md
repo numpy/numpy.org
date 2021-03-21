@@ -1,5 +1,5 @@
 ---
-title: News
+title: ニュース
 sidebar: false
 ---
 
