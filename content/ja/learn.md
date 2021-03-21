@@ -60,25 +60,25 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 <i class="far fa-file-video"></i> **動画**
 
 * [アドバンスドNumPy -](https://www.youtube.com/watch?v=cYugp9IN1-Q) *ブロードキャストルール、ストライド、および高度なインデックシング* by Fan Nunuz-Iglesias
-* [Advanced Indexing Operations in NumPy Arrays](https://www.youtube.com/watch?v=2WTDrSkQBng) *by Amuls Academy*
+* [NumPy配列における高度なインデクシング処理](https://www.youtube.com/watch?v=2WTDrSkQBng) *by Amuls Academy*
 
 ***
 
-## NumPy Talks
+## NumPyに関するトーク
 
-* [The Future of NumPy Indexing](https://www.youtube.com/watch?v=o0EacbIbf58) *by Jaime Fernández* (2016)
-* [Evolution of Array Computing in Python](https://www.youtube.com/watch?v=HVLPJnvInzM&t=10s) *by Ralf Gommers* (2019)
-* [NumPy: what has changed and what is going to change?](https://www.youtube.com/watch?v=YFLVQFjRmPY) *by Matti Picus* (2019)
-* [Inside NumPy](https://www.youtube.com/watch?v=dBTJD_FDVjU) *by Ralf Gommers, Sebastian Berg, Matti Picus, Tyler Reddy, Stefan van der Walt, Charles Harris* (2019)
-* [Brief Review of Array Computing in Python](https://www.youtube.com/watch?v=f176j2g2eNc) *by Travis Oliphant* (2019)
+* [Numpy Indexing の未来](https://www.youtube.com/watch?v=o0EacbIbf58) *by Jaime Fernadez* (2016)
+* [Python における配列計算革命](https://www.youtube.com/watch?v=HVLPJnvInzM&t=10s) *by Ralf Gommers* (2019)
+* [Numpy: 何が変わり、そして何が今後変わるのか?](https://www.youtube.com/watch?v=YFLVQFjRmPY) *by Matti Picus* (2019)
+* [NumPyの内部](https://www.youtube.com/watch?v=dBTJD_FDVjU) *by Ralf Gommers, Sebastian Berg, Matti Picus, Tyler Reddy, Stefan van der Walt, Charles Harris* (2019)
+* [Python における配列計算の概要](https://www.youtube.com/watch?v=f176j2g2eNc) *by Travis Oliphant* (2019)
 
 ***
 
-## Citing NumPy
+## NumPy を引用する場合
 
-If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, please see [this citation information](/citing-numpy).
+もし、あなたの研究においてNumpyが重要な役割を果たし、論文でこのプロジェクトについて言及したい場合は、こちらの[ページ](/citing-numpy)を参照して下さい。
 
-## Contribute to this list
+## このページへの貢献
 
 <a name="add-to-this-list"></a>
-To add to this collection, submit a recommendation [via a pull request](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md). Say why your recommendation deserves mention on this page and also which audience would benefit most.
+このページのリストに新しいリンクを追加するには、[プルリクエスト](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md)を使って提案してみて下さい。 あなたが推薦する情報が、このページで紹介するに値する理由と、その情報によってどのような人が最も恩恵を受けるかを説明して下さい。
