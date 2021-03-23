@@ -3,11 +3,11 @@ title: NumPy行動規範 - 報告書のフォローアップ方法
 sidebar: false
 ---
 
-This is the manual followed by NumPy’s Code of Conduct Committee. It’s used when we respond to an issue to make sure we’re consistent and fair.
+NumPyの行動規範委員会はこのマニュアルに従います。 このマニュアルは様々な問題に対応する際に使用され、一貫性と公平性を確保します。
 
-Enforcing the [Code of Conduct](/code-of-conduct) impacts our community today and for the future. It’s an action that we do not take lightly. When reviewing enforcement measures, the Code of Conduct Committee will keep the following values and guidelines in mind:
+[行動規範](/code-of-conduct) を施行することは、私たちのコミュニティの現在と未来に重要です。 私達はこのルールを重く受け止めています。 施行措置の見直しに際しては、行動規範委員会は以下の考え方とガイドラインに留意するようにします。
 
-* Act in a personal manner rather than impersonal. The Committee can engage the parties to understand the situation while respecting the privacy and any necessary confidentiality of reporters. However, sometimes it is necessary to communicate with one or more individuals directly: the Committee’s goal is to improve the health of our community rather than only produce a formal decision.
+* 機械的ではなく、人間的に行動します。 The Committee can engage the parties to understand the situation while respecting the privacy and any necessary confidentiality of reporters. However, sometimes it is necessary to communicate with one or more individuals directly: the Committee’s goal is to improve the health of our community rather than only produce a formal decision.
 * Emphasize empathy for individuals rather than judging behavior, avoiding binary labels of “good” and “bad/evil”. Overt, clear-cut aggression and harassment exist, and we will address them firmly. But many scenarios that can prove challenging to resolve are those where normal disagreements devolve into unhelpful or harmful behavior from multiple parties. Understanding the full context and finding a path that re-engages all is hard, but ultimately the most productive for our community.
 * We understand that email is a difficult medium and can be isolating. Receiving criticism over email, without personal contact, can be particularly painful. This makes it especially important to keep an atmosphere of open-minded respect for the views of others. It also means that we must be transparent in our actions, and that we will do everything in our power to make sure that all our members are treated fairly and with sympathy.
 * Discrimination can be subtle and it can be unconscious. It can show itself as unfairness and hostility in otherwise ordinary interactions. We know that this does occur, and we will take care to look out for it. We would very much like to hear from you if you feel you have been treated unfairly, and we will use these procedures to make sure that your complaint is heard and addressed.
