@@ -21,15 +21,15 @@ NumPyの行動規範委員会はこのマニュアルに従います。 この�
 自主的な非公式の調停は、私たちの重要な役割です。 2つのグループ以上の当事者が不適切な行動をエスカレートした場合(人類の紛争では悲しいことに一般的なものですが)、調停プロセスを促進するは非常に重要です。 ちなみに、これは一例に過ぎません。委員会は、どのようなケースでも調停を検討することができますが、このプロセスはあくまでも自発的なものであり、当事者に参加を迫ることはできないことを念頭に置いて下さい。 委員会が調停を提案する場合は、次のようにすべきです。
 
 * 調停者として役立つ候補者を見つけます。
-* 報告者の合意を取得します。 The reporter(s) have complete freedom to decline the mediation idea or to propose an alternate mediator.
-* Obtain the agreement of the reported person(s).
-* Settle on the mediator: while parties can propose a different mediator than the suggested candidate, only if a common agreement is reached on all terms can the process move forward.
-* Establish a timeline for mediation to complete, ideally within two weeks.
+* 報告者の合意を取得します。 報告者は、調停のアイデアを拒否したり、代替の調停者を提案する権利を持ちます。
+* 報告者の同意を取得します。
+* 調停人の決定：当事者は、提案された候補者とは別の調停人を提案することができ、すべての条件で共通の合意に達した場合のみ、プロセスを進めることができます。
+* 調停が完了するまでのタイムラインを設定し、理想的には2週間以内に完了させます。
 
-The mediator will engage with all the parties and seek a resolution that is satisfactory to all. Upon completion, the mediator will provide a report (vetted by all parties to the process) to the Committee, with recommendations on further steps. The Committee will then evaluate these results (whether a satisfactory resolution was achieved or not) and decide on any additional action deemed necessary.
+調停者は、すべての当事者と関わり、すべての人に満足のいく決議を求めていきます。 終了後、調停人は（プロセスの全当事者によって吟味された）報告書を委員会に提出し、今後のステップに関する推奨事項を提示します。 委員会は、これらの結果(満足のいく決議が達成されたか否か) を評価し、必要と判断される追加的な措置を決定します。
 
 
-## How the Committee will respond to reports
+## 報告に対する委員会の対応
 
 When the Committee (or a Committee member) receives a report, they will first determine whether the report is about a clear and severe breach (as defined below). If so, immediate action needs to be taken in addition to the regular report handling process.
 
