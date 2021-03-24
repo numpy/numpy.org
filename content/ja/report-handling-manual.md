@@ -18,10 +18,10 @@ NumPyの行動規範委員会はこのマニュアルに従います。 この�
 
 ## 仲介
 
-Voluntary informal mediation is a tool at our disposal. In contexts such as when two or more parties have all escalated to the point of inappropriate behavior (something sadly common in human conflict), it may be useful to facilitate a mediation process. This is only an example: the Committee can consider mediation in any case, mindful that the process is meant to be strictly voluntary and no party can be pressured to participate. If the Committee suggests mediation, it should:
+自主的な非公式の調停は、私たちの重要な役割です。 2つのグループ以上の当事者が不適切な行動をエスカレートした場合(人類の紛争では悲しいことに一般的なものですが)、調停プロセスを促進するは非常に重要です。 ちなみに、これは一例に過ぎません。委員会は、どのようなケースでも調停を検討することができますが、このプロセスはあくまでも自発的なものであり、当事者に参加を迫ることはできないことを念頭に置いて下さい。 委員会が調停を提案する場合は、次のようにすべきです。
 
-* Find a candidate who can serve as a mediator.
-* Obtain the agreement of the reporter(s). The reporter(s) have complete freedom to decline the mediation idea or to propose an alternate mediator.
+* 調停者として役立つ候補者を見つけます。
+* 報告者の合意を取得します。 The reporter(s) have complete freedom to decline the mediation idea or to propose an alternate mediator.
 * Obtain the agreement of the reported person(s).
 * Settle on the mediator: while parties can propose a different mediator than the suggested candidate, only if a common agreement is reached on all terms can the process move forward.
 * Establish a timeline for mediation to complete, ideally within two weeks.
