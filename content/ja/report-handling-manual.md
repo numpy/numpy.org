@@ -31,12 +31,12 @@ NumPyの行動規範委員会はこのマニュアルに従います。 この�
 
 ## 報告に対する委員会の対応
 
-When the Committee (or a Committee member) receives a report, they will first determine whether the report is about a clear and severe breach (as defined below). If so, immediate action needs to be taken in addition to the regular report handling process.
+委員会(または委員) が行動規範違反報告を受けた時、その報告が明確で深刻な違反であるかどうかは判断されます(以下に違反項目を定義します)。 違反判定された場合は、通常のレポート処理プロセスに加えて、即時の対応が必要になります。
 
 
-## Clear and severe breach actions
+## 明確かつ深刻な違反行為の解決
 
-We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We will deal quickly with clear and severe breaches like personal threats, violent, sexist or racist language.
+私たちは、インターネットでの会話が簡単にひどい誹謗中傷になってしまうことを、痛いほど知っています. We will deal quickly with clear and severe breaches like personal threats, violent, sexist or racist language.
 
 When a member of the Code of Conduct Committee becomes aware of a clear and severe breach, they will do the following:
 
