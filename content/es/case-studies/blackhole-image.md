@@ -1,5 +1,5 @@
 ---
-title: "Case Study: First Image of a Black Hole"
+title: "Caso de estudio: Primera imagen de un agujero negro"
 sidebar: false
 ---
 
@@ -10,7 +10,7 @@ sidebar: false
     <footer align="right">Katie Bouman, <cite>Assistant Professor, Computing & Mathematical Sciences, Caltech</cite></footer>
 </blockquote>
 
-## A telescope the size of the earth
+## Un telescopio del tamaño del mundo
 
 The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org) is an array of eight ground-based radio telescopes forming a computational telescope the size of the earth, studing the universe with unprecedented sensitivity and resolution.  The huge virtual telescope,  which uses a technique called very-long-baseline interferometry (VLBI), has an angular resolution of [20 micro-arcseconds][resolution] — enough to read a newspaper in New York from a sidewalk café in Paris!
 
