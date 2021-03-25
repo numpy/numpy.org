@@ -3,7 +3,7 @@ title: "Caso de estudio: Primera imagen de un agujero negro"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Black Hole M87**" alt="black hole image" attr="*(Image Credits: Event Horizon Telescope Collaboration)*" attrlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
+{{<figure src="/images/content_images/cs/blackhole.jpg" caption="**Agujero Negro M87**" alt=black hole image" attr="*(Créditos de imagen: Colaboración del Telescopio de Horizonte de Eventos)*" attrlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg">}}
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
     <p>Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.</p>
