@@ -36,17 +36,17 @@ NumPyの行動規範委員会はこのマニュアルに従います。 この�
 
 ## 明確かつ深刻な違反行為の解決
 
-私たちは、インターネットでの会話が簡単にひどい誹謗中傷になってしまうことを、痛いほど知っています. We will deal quickly with clear and severe breaches like personal threats, violent, sexist or racist language.
+私たちは、インターネットでの会話が簡単にひどい誹謗中傷になってしまうことを、痛いほど知っています. 個人的な脅迫、暴力的、性差別的、人種差別的な言葉など、明らかで深刻な違反に対しては、迅速に対処します。
 
-When a member of the Code of Conduct Committee becomes aware of a clear and severe breach, they will do the following:
+行動規範委員会のメンバーは、明確かつ深刻な違反に気づいた場合、以下のように行動します。
 
-* Immediately disconnect the originator from all NumPy communication channels.
-* Reply to the reporter that their report has been received and that the originator has been disconnected.
-* In every case, the moderator should make a reasonable effort to contact the originator, and tell them specifically how their language or actions qualify as a “clear and severe breach”. The moderator should also say that, if the originator believes this is unfair or they want to be reconnected to NumPy, they have the right to ask for a review, as below, by the Code of Conduct Committee. The moderator should copy this explanation to the Code of Conduct Committee.
-* The Code of Conduct Committee will formally review and sign off on all cases where this mechanism has been applied to make sure it is not being used to control ordinary heated disagreement.
+* 直ちにすべてのNumpy 通信チャンネルから違反者を排除します。
+* 報告が受信され、違反者が排除されたことを報告者に連絡します。
+* どのような場合でも、モデレーターは違反者に連絡するための合理的な努力を行い、違反者の言葉や行動がどのように「明確かつ重大な違反」に該当するのかを具体的に伝えるべきです。 モデレーターは、違反者がこれは不当だと思う場合、あるいはNumPyチャンネルとの再接続を望む場合には、行動規範委員会による以下のような審査を求める権利があることも述べるべきです。 モデレータは、この説明を行動規範委員会に転送する必要があります。
+* 行動規範委員会は、このプロセスが適用されたすべてのケースを正式にレビューし、作業完了することで、よくある激しい意見の相違を制御するためにこのプロセスが使用されていないことを確認します。
 
 
-## Report handling
+## 報告の処理
 
 When a report is sent to the Committee they will immediately reply to the reporter to confirm receipt. This reply must be sent within 72 hours, and the group should strive to respond much quicker than that.
 
