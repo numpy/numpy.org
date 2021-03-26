@@ -12,7 +12,7 @@ sidebar: false
 
 ## Un telescopio del tamaño del mundo
 
-The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org) is an array of eight ground-based radio telescopes forming a computational telescope the size of the earth, studing the universe with unprecedented sensitivity and resolution.  The huge virtual telescope,  which uses a technique called very-long-baseline interferometry (VLBI), has an angular resolution of [20 micro-arcseconds][resolution] — enough to read a newspaper in New York from a sidewalk café in Paris!
+El [ telescopio Horizonte de Sucesos (EHT) ](https://eventhorizontelescope.org), es un arreglo de ocho radio telescopios terrestres formando un telescopio computacional del tamaño del mundo, estudiando el universo con una sensibilidad y resolución sin precedente.  The huge virtual telescope,  which uses a technique called very-long-baseline interferometry (VLBI), has an angular resolution of [20 micro-arcseconds][resolution] — enough to read a newspaper in New York from a sidewalk café in Paris!
 
 ### Objetivos clave y resultados
 
