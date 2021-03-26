@@ -48,9 +48,9 @@ NumPyの行動規範委員会はこのマニュアルに従います。 この�
 
 ## 報告の処理
 
-When a report is sent to the Committee they will immediately reply to the reporter to confirm receipt. This reply must be sent within 72 hours, and the group should strive to respond much quicker than that.
+報告が委員会に送られると、直ちに報告者に返信して報告を受領したことを確認します。 この返信は72時間以内に送信される必要があり、委員会はそれよりもはるかに迅速に対応するよう努める必要があります。
 
-If a report doesn’t contain enough information, the Committee will obtain all relevant data before acting. The Committee is empowered to act on the Steering Council’s behalf in contacting any individuals involved to get a more complete account of events.
+レポートに十分な情報が含まれていない場合、委員会は行動する前に、関連するすべてのデータを取得するようにします。 The Committee is empowered to act on the Steering Council’s behalf in contacting any individuals involved to get a more complete account of events.
 
 The Committee will then review the incident and determine, to the best of their ability:
 
