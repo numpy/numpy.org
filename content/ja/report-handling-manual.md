@@ -68,14 +68,14 @@ NumPyの行動規範委員会はこのマニュアルに従います。 この�
 
 ## 解決方法
 
-The Committee must agree on a resolution by consensus. If the group cannot reach consensus and deadlocks for over a week, the group will turn the matter over to the Steering Council for resolution.
+委員会は、合意により決議について決定しなければなりません。 検討グループが一週間以上、合意かデッドロックに達しなかった場合、グループは、ステアリング評議会にこの問題を引き渡すことができます。
 
-Possible responses may include:
+ありうる返答は次のとおりです:
 
-* Taking no further action:
-  -   if we determine no violations have occurred;
-  -   if the matter has been resolved publicly while the Committee was considering responses.
-* Coordinating voluntary mediation: if all involved parties agree, the Committee may facilitate a mediation process as detailed above.
+* これ以上アクションを取らない:
+  -   違反が起きていないと判断された
+  -   検討中に問題が明らかに解決された
+* 調停の調整: すべての関係者が合意した場合、委員会は上記のように調停プロセスを促進することができます。
 * Remind publicly, and point out that some behavior/actions/language have been judged inappropriate and why in the current context, or can but hurtful to some people, requesting the community to self-adjust.
 * A private reprimand from the Committee to the individual(s) involved. In this case, the group chair will deliver that reprimand to the individual(s) over email, cc’ing the group.
 * A public reprimand. In this case, the Committee chair will deliver that reprimand in the same venue that the violation occurred, within the limits of practicality. E.g., the original mailing list for an email violation, but for a chat room discussion where the person/context may be gone, they can be reached by other means. The group may choose to publish this message elsewhere for documentation purposes.
