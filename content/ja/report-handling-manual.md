@@ -50,23 +50,23 @@ NumPyの行動規範委員会はこのマニュアルに従います。 この�
 
 報告が委員会に送られると、直ちに報告者に返信して報告を受領したことを確認します。 この返信は72時間以内に送信される必要があり、委員会はそれよりもはるかに迅速に対応するよう努める必要があります。
 
-レポートに十分な情報が含まれていない場合、委員会は行動する前に、関連するすべてのデータを取得するようにします。 The Committee is empowered to act on the Steering Council’s behalf in contacting any individuals involved to get a more complete account of events.
+レポートに十分な情報が含まれていない場合、委員会は行動する前に、関連するすべてのデータを取得するようにします。 委員会は、今回の事象の全ての状況を知るために関係する個人に連絡する際に、運営協議会に代わって行動する権限を与えられています。
 
-The Committee will then review the incident and determine, to the best of their ability:
+その後、委員会は今回の問題を見直し、効果を最大限に発揮する対策を決定します。
 
-* What happened.
-* Whether this event constitutes a Code of Conduct violation.
-* Who are the responsible party(ies).
-* Whether this is an ongoing situation, and there is a threat to anyone’s physical safety.
+* 問題の種類
+* 今回の事情が行動規範違反であるかどうか。
+* 責任者が誰であるか
+* これが進行中の状況であるか、誰の物理的安全に脅威があるかどうか。
 
-This information will be collected in writing, and whenever possible the group’s deliberations will be recorded and retained (i.e. chat transcripts, email discussions, recorded conference calls, summaries of voice conversations, etc).
+これらの情報は書面で収集され、可能な限りグループの審議が記録され、保持されます (例えば、チャットの記録、Eメールのディスカッション、会議通話の記録、音声会話の概要など)。
 
-It is important to retain an archive of all activities of this Committee to ensure consistency in behavior and provide institutional memory for the project. To assist in this, the default channel of discussion for this Committee will be a private mailing list accessible to current and future members of the Committee as well as members of the Steering Council upon justified request. If the Committee finds the need to use off-list communications (e.g. phone calls for early/rapid response), it should in all cases summarize these back to the list so there’s a good record of the process.
+行動の一貫性を確保し、プロジェクトのために記録を残すために、委員会のすべての活動のアーカイブを保持することが重要です. この活動支援するために、委員会のデフォルトの議論チャネルは、正当化された要求に応じて、委員会の現在および将来のメンバー、および運営委員会のメンバーがアクセスできるプライベートメーリングリストにします。 委員会がリストにはない連絡方法を使用する必要がある場合(例: 早期/迅速な対応を求める電話など)、そのプロセスの良い記録となるように、これらをリストにまとめて戻すべきです。
 
-The Code of Conduct Committee should aim to have a resolution agreed upon within two weeks. In the event that a resolution can’t be determined in that time, the Committee will respond to the reporter(s) with an update and projected timeline for resolution.
+行動規範委員会は、2週間以内に決議の合意を目指すべきです。 その期間内に決議が確定できない場合。 委員会は、レポーターに対して現状の更新と今後のタイムラインを連絡します。
 
 
-## Resolutions
+## 解決方法
 
 The Committee must agree on a resolution by consensus. If the group cannot reach consensus and deadlocks for over a week, the group will turn the matter over to the Steering Council for resolution.
 
