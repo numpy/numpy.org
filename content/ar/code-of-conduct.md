@@ -9,9 +9,9 @@ aliases:
 
 هذه القواعد السلوكية تنطبق علي جميع المجالات التي تدار من قبل مشروع نمباي, بما في ذلك كل قوائم البريد سواء كانت خاصة أم عامة ومتعقبات القضايا والويكي والمدونات وتويتر وأي قناة اتصال تستخدم من قبل مجتمعنا. مشروع نمباي لا يقوم بتنظيم أي فعاليات شخصية ومع ذلك أي فعاليات متعلقة لمجتمعنا ينبغي أن تكون لها قواعد سلوكية مشابهة لروح هذا المستند.
 
-This Code of Conduct should be honored by everyone who participates in the NumPy community formally or informally, or claims any affiliation with the project, in any project-related activities and especially when representing the project, in any role.
+ينبغي علي كل شخص مشارك في مجتمع نمباي أن يحتذي بهذه القواعد سواء كان مشترك بصورة رسمية أو غير رسمية، أو يدعي انتمائه للمشروع في أي انشطه متعلقة للمشروع وخاصة عندما يمثل المشروع تحت أي دور.
 
-This code is not exhaustive or complete. It serves to distill our common understanding of a collaborative, shared environment and goals. Please try to follow this code in spirit as much as in letter, to create a friendly and productive environment that enriches the surrounding community.
+هذه القواعد ليست شاملة أو كاملة. It serves to distill our common understanding of a collaborative, shared environment and goals. Please try to follow this code in spirit as much as in letter, to create a friendly and productive environment that enriches the surrounding community.
 
 ### Specific Guidelines
 
