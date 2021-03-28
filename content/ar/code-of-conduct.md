@@ -11,14 +11,14 @@ aliases:
 
 ينبغي علي كل شخص مشارك في مجتمع نمباي أن يحتذي بهذه القواعد سواء كان مشترك بصورة رسمية أو غير رسمية، أو يدعي انتمائه للمشروع في أي انشطه متعلقة للمشروع وخاصة عندما يمثل المشروع تحت أي دور.
 
-هذه القواعد ليست شاملة أو كاملة. It serves to distill our common understanding of a collaborative, shared environment and goals. Please try to follow this code in spirit as much as in letter, to create a friendly and productive environment that enriches the surrounding community.
+هذه القواعد ليست شاملة أو كاملة. لكنها تساعد علي استخلاص فهمنا المشترك للتعاون في ظل بيئة وأهداف مشتركة. من فضلك حاول أن تتبع هذه القواعد روحا ونصا من أجل إنشاء بيئة ودودة ومنتجة نثري بها المجتمع المحيط.
 
-### Specific Guidelines
+### مبادئ توجيهية محددة
 
-We strive to:
+نحن نسعى إلي:
 
-1. Be open. We invite anyone to participate in our community. We prefer to use public methods of communication for project-related messages, unless discussing something sensitive. This applies to messages for help or project-related support, too; not only is a public support request much more likely to result in an answer to a question, it also ensures that any inadvertent mistakes in answering are more easily detected and corrected.
-2. Be empathetic, welcoming, friendly, and patient. We work together to resolve conflict, and assume good intentions. We may all experience some frustration from time to time, but we do not allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.
+1. أن نكون منفتحين. نحن ندعو الجميع للمشاركة في مجتمعنا. نحن نفضل استخدام وسائل الاتصال العامة للرسائل المتعلقة بالمشروع، ما لم نناقش شيئا حساسا. ينطبق هذا علي الرسائل الخاصة بطلب المساعدة أوالمتعلقة بدعم المشروع ، ليس فقط ﻷن طلبات الدعم العام محببة لاحتمالية الوصول للإجابة عن الاستفسارات بشكل اكبر، ولكن أيضا لضمان سهولة الكشف والتصحيح عن أي أخطاء غير مقصودة في الإجابات.
+2. أن نكون عطوفين ومرحبين واكثر ودا وصبرا. نحن نعمل معا لحل الخلافات ونفترض حسن النوايا. قد نواجه بعض الإحباط من حين ألي أخر لكننا لا نسمح للإحباط أن يتحول إلي هجوم شخصي. فالمجتمع الذي يشعر فيه الناس بعدم الارتياح أو بالتهديد ليس مجتمعا منتجا.
 3. Be collaborative. Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of the project, we are willing to explain to others how it works, so that they can build on the work to make it even better. Any decision we make will affect users and colleagues, and we take those consequences seriously when making decisions.
 4. Be inquisitive. Nobody knows everything! Asking questions early avoids many problems later, so we encourage questions, although we may direct them to the appropriate forum. We will try hard to be responsive and helpful.
 5. Be careful in the words that we choose. We are careful and respectful in our communication, and we take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. We will not accept harassment or other exclusionary behaviour, such as:
