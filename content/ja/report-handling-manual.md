@@ -76,20 +76,20 @@ NumPyの行動規範委員会はこのマニュアルに従います。 この�
   -   違反が起きていないと判断された
   -   検討中に問題が明らかに解決された
 * 調停の調整: すべての関係者が合意した場合、委員会は上記のように調停プロセスを促進することができます。
-* Remind publicly, and point out that some behavior/actions/language have been judged inappropriate and why in the current context, or can but hurtful to some people, requesting the community to self-adjust.
-* A private reprimand from the Committee to the individual(s) involved. In this case, the group chair will deliver that reprimand to the individual(s) over email, cc’ing the group.
-* A public reprimand. In this case, the Committee chair will deliver that reprimand in the same venue that the violation occurred, within the limits of practicality. E.g., the original mailing list for an email violation, but for a chat room discussion where the person/context may be gone, they can be reached by other means. The group may choose to publish this message elsewhere for documentation purposes.
-* A request for a public or private apology, assuming the reporter agrees to this idea: they may at their discretion refuse further contact with the violator. The chair will deliver this request. The Committee may, if it chooses, attach “strings” to this request: for example, the group may ask a violator to apologize in order to retain one’s membership on a mailing list.
-* A “mutually agreed upon hiatus” where the Committee asks the individual to temporarily refrain from community participation. If the individual chooses not to take a temporary break voluntarily, the Committee may issue a “mandatory cooling off period”.
-* A permanent or temporary ban from some or all NumPy spaces (mailing lists, gitter.im, etc.). The group will maintain records of all such bans so that they may be reviewed in the future or otherwise maintained.
+* 公の場において、いくつかの行動/言動/言語が不適切で、現在の状況がなぜか引き起こされたのか指摘し、人々を傷つけることができルール言動であったことを説明するなど、コミュニティに自己調整を要求することもあります。
+* 委員会から関係者(複数可) への非公開処分の実施。 この場合、委員会は、電子メールを介して、グループにccを入れながら、対象者に問題の指摘を連絡します。
+* 公の場での指摘。 この場合、委員会の議長は、違反が発生したのと同じ場所で、実用性の範囲内で叱責を行います。 例えば、メールルールの違反の元のメーリングリストなどです。しかし、人や状況がかわるかもしれないチャットルームなどの場合、他の手段を利用する可能性もあります。 対策グループは、文書化のために、この問題のメッセージを他の場所で公開することを選択することもできます。
+* 報告者がこの考えに同意することを前提とした、公的または私的な謝罪の要求：報告者は自分の裁量で、違反者とのさらなる接触を拒否することもできます。 委員会がこの要求をお届けします。 委員会は、必要に応じてこの要求に「条件」を付けることができます。例えば、メーリングリストの会員資格を維持するために、違反者に謝罪を求めることができます。
+* 委員会が個人にコミュニティへの参加を一時的に控える「相互に合意した休止」を要求できます。 対象者が自発的に一時的な休みを取らないことを選択した場合、委員会は「冷却期限」を準備することがあります。
+* これは、一部またはすべての Numpy スペース (メーリングリスト、gitter.im など) からの永続的または一時的な禁止のことです。 対策グループは、将来的な見直しや、または別の方法で対策されるように、すべてのそのような禁止の記録を記録します。
 
-Once a resolution is agreed upon, but before it is enacted, the Committee will contact the original reporter and any other affected parties and explain the proposed resolution. The Committee will ask if this resolution is acceptable, and must note feedback for the record.
+決議が合意されると制定される前に、委員会は、元の報告者およびその他の影響を受けた当事者に連絡し、提案された決議を説明します。 委員会は、この決議が受け入れられるかどうかを尋ねます。そして、記録のためのフィードバックに注意を払います。
 
-Finally, the Committee will make a report to the NumPy Steering Council (as well as the NumPy core team in the event of an ongoing resolution, such as a ban).
+最後に 委員会は、Numpy Steering CouncilとNumPy Coreチームに報告を行います。(例えば禁止事項など)
 
-The Committee will never publicly discuss the issue; all public statements will be made by the chair of the Code of Conduct Committee or the NumPy Steering Council.
+委員会はこの問題について公に議論することはありません。 すべての公開声明は、行動規範委員会またはNumpy Steering Councilの議長によって行われます。
 
 
-## Conflicts of Interest
+## 利益相反
 
-In the event of any conflict of interest, a Committee member must immediately notify the other members, and recuse themselves if necessary.
+利益相反が発生した場合、委員会メンバーは直ちに他のメンバーに通知し、必要に応じて対応を辞退しなければなりません。
