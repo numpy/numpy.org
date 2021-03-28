@@ -20,16 +20,16 @@ aliases:
 1. أن نكون منفتحين. نحن ندعو الجميع للمشاركة في مجتمعنا. نحن نفضل استخدام وسائل الاتصال العامة للرسائل المتعلقة بالمشروع، ما لم نناقش شيئا حساسا. ينطبق هذا علي الرسائل الخاصة بطلب المساعدة أوالمتعلقة بدعم المشروع ، ليس فقط ﻷن طلبات الدعم العام محببة لاحتمالية الوصول للإجابة عن الاستفسارات بشكل اكبر، ولكن أيضا لضمان سهولة الكشف والتصحيح عن أي أخطاء غير مقصودة في الإجابات.
 2. أن نكون عطوفين ومرحبين واكثر ودا وصبرا. نحن نعمل معا لحل الخلافات ونفترض حسن النوايا. قد نواجه بعض الإحباط من حين ألي أخر لكننا لا نسمح للإحباط أن يتحول إلي هجوم شخصي. فالمجتمع الذي يشعر فيه الناس بعدم الارتياح أو بالتهديد ليس مجتمعا منتجا.
 3. أن نكون متعاونين. كما سيستفيد بعملنا الآخرين سنستفيد نحن أيضا بعملهم. عندما نقوم بصنع شيئاً لمنفعة المشروع ، سوف نكون علي الاستعداد لشرح للآخرين كيفية عمله ، حتي يكونوا قادرين علي البناء عليه لجعله أفضل. أي قرار سنتخذه سيؤثر علي المستخدمين وعلي زملائنا في العمل لذا يجب أن تأخذ العواقب علي محمل الجد عندما نتخذ القرارات.
-4. أن نكون اكثر استطلاعاً. لا أحد علي دراية بكل شئ! Asking questions early avoids many problems later, so we encourage questions, although we may direct them to the appropriate forum. We will try hard to be responsive and helpful.
-5. Be careful in the words that we choose. We are careful and respectful in our communication, and we take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. We will not accept harassment or other exclusionary behaviour, such as:
-    * Violent threats or language directed against another person.
-    * Sexist, racist, or otherwise discriminatory jokes and language.
-    * Posting sexually explicit or violent material.
-    * Posting (or threatening to post) other people’s personally identifying information (“doxing”).
-    * Sharing private content, such as emails sent privately or non-publicly, or unlogged forums such as IRC channel history, without the sender’s consent.
-    * Personal insults, especially those using racist or sexist terms.
-    * Unwelcome sexual attention.
-    * Excessive profanity. Please avoid swearwords; people differ greatly in their sensitivity to swearing.
+4. أن نكون اكثر استطلاعاً. لا أحد علي دراية بكل شئ! طرح الأسئلة في وقت مبكر قد يجنب العديد من المشاكل اللاحقة ، لذا نحن نشجع الأسئلة علي الرغم من أننا قد نعيد توجهها إلي المنتدي المناسب. وسنحاول جاهدين أن نكون متجاوبين ومفيدين.
+5. أن نكون حذريين في اختيار الكلمات. وأن نتوخى الحذر والاحترام في اتصالاتنا، ونتحمل المسؤولية عن خطابنا. وأن نكون عطوفين مع الأخريين. لا تهين أو تحط من قدر المشاركين الآخرين. نحن لن نتقبل المضايقات أو أي سلوك إستباعدي اخر ، مثل:
+    * التهديدات العنيفة أو الخطاب الموجه ضد الأخر.
+    * النكات والتلميحات القائمة علي الجنس أو العرق أو اي أشكال التمييز الأخري.
+    * نشر مواد جنسية صريحة أو مواد تشجع علي العنف.
+    * نشر (أو التهديد بنشر) المعلومات التعريفية الشخصية لأناس آخرين ("doxing").
+    * مشاركة المحتوى الخاص، مثل رسائل البريد الإلكتروني المرسلة بشكل خاص أو غير علني، أو المنتديات غير المسجلة مثل تاريخ قناة IRC، بدون موافقة المرسل.
+    * الإهانات الشخصية، خاصةً التي تستخدم مصطلحات عنصرية أو متحيزة جنسياً.
+    * الاهتمام الجنسي الغير مرحب به.
+    * البذائه المفرطه. Please avoid swearwords; people differ greatly in their sensitivity to swearing.
     * Repeated harassment of others. In general, if someone asks you to stop, then stop.
     * Advocating for, or encouraging, any of the above behaviour.
 
