@@ -1,5 +1,5 @@
 ---
-title: القواعد التنظيمية لنمباي
+title: القواعد السلوكية لنمباي
 sidebar: false
 aliases:
   - /conduct.html
@@ -7,7 +7,7 @@ aliases:
 
 ### المقدمة
 
-هذه القواعد التنظيمية تنطبق علي جميع المجالات التي تدار من قبل مشروع نمباي, بما في ذلك كل قوائم البريد سواء كانت خاصة أم عامة ومتعقبات القضايا والويكي والمدونات وتويتر وأي قناة اتصال تستخدم من قبل مجتمعنا. The NumPy project does not organise in-person events, however events related to our community should have a code of conduct similar in spirit to this one.
+هذه القواعد السلوكية تنطبق علي جميع المجالات التي تدار من قبل مشروع نمباي, بما في ذلك كل قوائم البريد سواء كانت خاصة أم عامة ومتعقبات القضايا والويكي والمدونات وتويتر وأي قناة اتصال تستخدم من قبل مجتمعنا. مشروع نمباي لا يقوم بتنظيم أي فعاليات شخصية ومع ذلك أي فعاليات متعلقة لمجتمعنا ينبغي أن تكون لها قواعد سلوكية مشابهة لروح هذا المستند.
 
 This Code of Conduct should be honored by everyone who participates in the NumPy community formally or informally, or claims any affiliation with the project, in any project-related activities and especially when representing the project, in any role.
 
