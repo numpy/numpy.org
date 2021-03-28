@@ -114,7 +114,7 @@ Otherwise:
 For users who know, from personal preference or reading about the main
 differences between conda and pip below, they prefer a pip/PyPI-based solution,
 we recommend:
-- Install Python from, for example, [python.org](https://www.python.org/downloads/),
+- Install Python from [python.org](https://www.python.org/downloads/),
   [Homebrew](https://brew.sh/), or your Linux package manager.
 - Use [Poetry](https://python-poetry.org/) as the most well-maintained tool
   that provides a dependency resolver and environment management capabilities
