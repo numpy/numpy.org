@@ -21,7 +21,7 @@ aliases:
 2. أن نكون عطوفين ومرحبين واكثر ودا وصبرا. نحن نعمل معا لحل الخلافات ونفترض حسن النوايا. قد نواجه بعض الإحباط من حين ألي أخر لكننا لا نسمح للإحباط أن يتحول إلي هجوم شخصي. فالمجتمع الذي يشعر فيه الناس بعدم الارتياح أو بالتهديد ليس مجتمعا منتجا.
 3. أن نكون متعاونين. كما سيستفيد بعملنا الآخرين سنستفيد نحن أيضا بعملهم. عندما نقوم بصنع شيئاً لمنفعة المشروع ، سوف نكون علي الاستعداد لشرح للآخرين كيفية عمله ، حتي يكونوا قادرين علي البناء عليه لجعله أفضل. أي قرار سنتخذه سيؤثر علي المستخدمين وعلي زملائنا في العمل لذا يجب أن تأخذ العواقب علي محمل الجد عندما نتخذ القرارات.
 4. أن نكون اكثر استطلاعاً. لا أحد علي دراية بكل شئ! طرح الأسئلة في وقت مبكر قد يجنب العديد من المشاكل اللاحقة ، لذا نحن نشجع الأسئلة علي الرغم من أننا قد نعيد توجهها إلي المنتدي المناسب. وسنحاول جاهدين أن نكون متجاوبين ومفيدين.
-5. أن نكون حذريين في اختيار الكلمات. وأن نتوخى الحذر والاحترام في اتصالاتنا، ونتحمل المسؤولية عن خطابنا. وأن نكون عطوفين مع الأخريين. لا تهين أو تحط من قدر المشاركين الآخرين. نحن لن نتقبل المضايقات أو أي سلوك إستباعدي اخر ، مثل:
+5. أن نكون حذريين في اختيار الكلمات. وأن نتوخى الحذر والاحترام في اتصالاتنا، ونتحمل المسؤولية عن خطابنا. وأن نكون عطوفين مع الأخريين. لا تهين أو تحط من قدر المشاركين الآخرين. نحن لن نتقبل المضايقات أو أي سلوك استبعادي أخر ، مثل:
     * التهديدات العنيفة أو الخطاب الموجه ضد الأخر.
     * النكات والتلميحات القائمة علي الجنس أو العرق أو اي أشكال التمييز الأخري.
     * نشر مواد جنسية صريحة أو مواد تشجع علي العنف.
@@ -30,14 +30,14 @@ aliases:
     * الإهانات الشخصية، خاصةً التي تستخدم مصطلحات عنصرية أو متحيزة جنسياً.
     * الاهتمام الجنسي الغير مرحب به.
     * البذائه المفرطه. يرجى تجنب الكلمات البذيئة، يختلف الناس اختلافا كبيرا في حساسيتهم للبذائه.
-    * • المضايقة المتكررة للآخرين. In general, if someone asks you to stop, then stop.
-    * Advocating for, or encouraging, any of the above behaviour.
+    * • المضايقة المتكررة للآخرين. بشكل عام، إذا طلب منك شخص ما التوقف فيجب عليك التوقف.
+    * الدعوة إلى أي من السلوكيات المذكور أعلاه أو التشجيع إليها.
 
-### Diversity Statement
+### بيان التنوع
 
-The NumPy project welcomes and encourages participation by everyone. We are committed to being a community that everyone enjoys being part of. Although we may not always be able to accommodate each individual’s preferences, we try our best to treat everyone kindly.
+يرحب ويشجع مشروع نمباي بمشاركات الجميع. نحن ملتزمون بأن نكون مجتمعا يتمتع كل فرد فيه بكونه جزء منه. وبالرغم أننا قد لا نكون قادرين دوماً على استيعاب تفضيلات كل فرد، إلا إننا حريصين علي بذل قصارى جهدنا لمعاملة الجميع معاملة كريمة.
 
-No matter how you identify yourself or how others perceive you: we welcome you. Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct.
+بغض النظر عن كيفية تعريفك لنفسك أو كيف يتصورك الآخرون:  نحن نرحب بك. Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct.
 
 Though we welcome people fluent in all languages, NumPy development is conducted in English.
 
