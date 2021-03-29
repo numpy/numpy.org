@@ -13,7 +13,7 @@ aliases:
 
 هذه القواعد ليست شاملة أو كاملة. لكنها تساعد علي استخلاص فهمنا المشترك للتعاون في ظل بيئة وأهداف مشتركة. من فضلك حاول أن تتبع هذه القواعد روحا ونصا من أجل إنشاء بيئة ودودة ومنتجة نثري بها المجتمع المحيط.
 
-### مبادئ توجيهية محددة
+### القواعد الارشادية المحددة
 
 نحن نسعى إلي:
 
@@ -41,9 +41,9 @@ aliases:
 
 على الرغم من أننا نتقبل الناس بجميع اللغات التي يتقنوها، إلا أن تطوير نمباي يجري باستخدام اللغة الإنجليزية.
 
-ترد في قواعد السلوكية المذكورة أعلاه تفاصيل معايير السلوك في مجتمع نمباي. Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
+ترد في قواعد السلوكية المذكورة أعلاه تفاصيل معايير السلوك في مجتمع نمباي. وينبغي علي المشاركين في مجتمعنا أن يتمسكوا بهذه المعايير في جميع فعاليتهم وأن يساعدوا الآخرين على القيام بالمثل (انظر الفرع التالي).
 
-### Reporting Guidelines
+### القواعد الارشادية للإبلاغ
 
 We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We also recognize that sometimes people may have a bad day, or be unaware of some of the guidelines in this Code of Conduct. Please keep this in mind when deciding on how to respond to a breach of this Code.
 
