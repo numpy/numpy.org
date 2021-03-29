@@ -37,11 +37,11 @@ aliases:
 
 يرحب ويشجع مشروع نمباي بمشاركات الجميع. نحن ملتزمون بأن نكون مجتمعا يتمتع كل فرد فيه بكونه جزء منه. وبالرغم أننا قد لا نكون قادرين دوماً على استيعاب تفضيلات كل فرد، إلا إننا حريصين علي بذل قصارى جهدنا لمعاملة الجميع معاملة كريمة.
 
-بغض النظر عن كيفية تعريفك لنفسك أو كيف يتصورك الآخرون:  نحن نرحب بك. Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct.
+بغض النظر عن كيفية تعريفك لنفسك أو كيف يتصورك الآخرون:  نحن نرحب بك. وعلى الرغم من أنه لا يمكن لأي قائمة أن تكون شاملة، فإننا نكرم بوضوح التنوع في: السن والثقافة والأصل العرقي والوراثي والهوية الجنسية واللغة والأصل القومي وتنوع العصبي والتكوين الظاهري والمعتقد السياسي والمهنة والعرق والديانة والتوجه الجنسي والحالة الاجتماعية الاقتصادية وثقافات الفرعية والقدرات التقنية بما لا يتعارض مع هذه القواعد السلوكية.
 
-Though we welcome people fluent in all languages, NumPy development is conducted in English.
+على الرغم من أننا نتقبل الناس بجميع اللغات التي يتقنوها، إلا أن تطوير نمباي يجري باستخدام اللغة الإنجليزية.
 
-Standards for behaviour in the NumPy community are detailed in the Code of Conduct above. Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
+ترد في قواعد السلوكية المذكورة أعلاه تفاصيل معايير السلوك في مجتمع نمباي. Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
 
 ### Reporting Guidelines
 
