@@ -29,8 +29,8 @@ aliases:
     * مشاركة المحتوى الخاص، مثل رسائل البريد الإلكتروني المرسلة بشكل خاص أو غير علني، أو المنتديات غير المسجلة مثل تاريخ قناة IRC، بدون موافقة المرسل.
     * الإهانات الشخصية، خاصةً التي تستخدم مصطلحات عنصرية أو متحيزة جنسياً.
     * الاهتمام الجنسي الغير مرحب به.
-    * البذائه المفرطه. Please avoid swearwords; people differ greatly in their sensitivity to swearing.
-    * Repeated harassment of others. In general, if someone asks you to stop, then stop.
+    * البذائه المفرطه. يرجى تجنب الكلمات البذيئة، يختلف الناس اختلافا كبيرا في حساسيتهم للبذائه.
+    * • المضايقة المتكررة للآخرين. In general, if someone asks you to stop, then stop.
     * Advocating for, or encouraging, any of the above behaviour.
 
 ### Diversity Statement
