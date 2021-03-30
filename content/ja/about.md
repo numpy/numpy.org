@@ -1,5 +1,5 @@
 ---
-title: Numpyプロジェクトについて
+title: 私たちについて
 sidebar: false
 ---
 
