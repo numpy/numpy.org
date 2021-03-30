@@ -45,19 +45,19 @@ aliases:
 
 ### القواعد الارشادية للإبلاغ
 
-نحن نعلم أنه شاع بشكل مؤلم إساءة استخدام الاتصالات عبر الإنترنت في انتهاكات واضحة وصارخة. We also recognize that sometimes people may have a bad day, or be unaware of some of the guidelines in this Code of Conduct. Please keep this in mind when deciding on how to respond to a breach of this Code.
+نحن نعلم أنه شاع بشكل مؤلم إساءة استخدام الاتصالات عبر الإنترنت في انتهاكات واضحة وصارخة. وندرك أيضاً أن الناس قد يمرون أحيانا بيوم سيئ أو قد لا يكونون علي دراية ببعض إرشادات القواعد السلوكية. لذا ضع هذا في عين الاعتبار عند اتخاذ القرار بشأن كيفية الرد علي انتهاك هذه القواعد.
 
-For clearly intentional breaches, report those to the Code of Conduct Committee (see below). For possibly unintentional breaches, you may reply to the person and point out this code of conduct (either in public or in private, whatever is most appropriate). If you would prefer not to do that, please feel free to report to the Code of Conduct Committee directly, or ask the Committee for advice, in confidence.
+أما بالنسبة للانتهاكات المتعمدة بشكل واضح فيجب إبلاغ لجنة قواعد السلوك عليها (انظر أدناه). في حالة حدوث خروفات غير متعمدة فيمكنك الرد على الشخص المعني والإشارة إلى قواعد السلوك هذه (سواء علناً أو سراً، أينما كان ذلك مناسباً). وإذا كنت تفضل عدم القيام بذلك، فلا تتردد في إبلاغ اللجنة المعنية بقواعد السلوك مباشرة ويمكنك أيضاً طلب المشورة من اللجنة بكل ثقة.
 
-You can report issues to the NumPy Code of Conduct Committee at numpy-conduct@googlegroups.com.
+يمكنك إبلاغ لجنة القواعد السلوكية لنمباي عبر numpy-conduct@googlegroups.com.
 
-Currently, the Committee consists of:
+وتتألف اللجنة حاليا مما يلي:
 
-* Stefan van der Walt
-* Melissa Weber Mendonça
-* Anirudh Subramanian
+* ستيفان فان دير والت (Stefan van der Walt)
+* ميليسا فيبر ميندونسا (Melissa Weber Mendonça)
+* أنيروده سوبرامانيان (Anirudh Subramanian)
 
-If your report involves any members of the Committee, or if they feel they have a conflict of interest in handling it, then they will recuse themselves from considering your report. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
+لو كان بلاغك متورط به أحد أعضاء اللجنة أو إذا كانوا يشعرون بأن لديهم تضارب في المصالح يحدهم عن التعامل معه. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
 ### Incident reporting resolution & Code of Conduct enforcement
 
