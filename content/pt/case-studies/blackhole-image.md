@@ -38,7 +38,7 @@ O [telescópio Event Horizon (EHT)](https://eventhorizontelescope.org), é um co
 
 {{< figure src="/images/content_images/cs/dataprocessbh.png" class="csfigcaption" caption="**Etapas de Processamento de Dados do EHT**" alt="data pipeline" align="middle" attr="(Créditos do diagrama: The Astrophysical Journal, Event Horizon Telescope Collaboration)" attrlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
 
-## NumPy’s Role
+## O papel do NumPy
 
 E se houver um problema com os dados? Ou talvez um algoritmo seja muito dependente de uma hipótese em particular. A imagem será alterada drasticamente se um único parâmetro for alterado?
 
