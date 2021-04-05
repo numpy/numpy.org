@@ -23,56 +23,56 @@ Estes são os nossos canais de comunicação preferidos (projetos de código abe
 
 Nós também temos uma _reunião aberta da comunidade_ a cada duas semanas. Os detalhes são anunciados na nossa [lista de emails](https://mail.python.org/mailman/listinfo/numpy-discussion). Convidamos você a participar desta chamada se quiser. Se você nunca contribuiu para projetos de código aberto, recomendamos fortemente que você leita [esse guia](https://opensource.guide/how-to-contribute/).
 
-Our community aspires to treat everyone equally and to value all contributions. We have a [Code of Conduct](/code-of-conduct) to foster an open and welcoming environment.
+Nossa comunidade deseja tratar todos da mesma forma e valorizar todas as contribuições. Temos um [Código de Conduta](/code-of-conduct) para promover um ambiente aberto e acolhedor.
 
-### Writing code
+### Escrevendo código
 
-Programmers, this [guide](https://numpy.org/devdocs/dev/index.html#development-process-summary) explains how to contribute to the codebase.
+Para pessoas programadoras, este [guia](https://numpy.org/devdocs/dev/index.html#development-process-summary) explica como contribuir para a base de código.
 
-### Reviewing pull requests
-The project has more than 250 open pull requests -- meaning many potential improvements and many open-source contributors waiting for feedback. If you're a developer who knows NumPy, you can help even if you're not familiar with the codebase. You can:
-* summarize a long-running discussion
-* triage documentation PRs
-* test proposed changes
-
-
-### Developing educational materials
-
-NumPy's [User Guide](https://numpy.org/devdocs) is undergoing rehabilitation. We're in need of new tutorials, how-to's, and deep-dive explanations, and the site needs restructuring. Opportunities aren't limited to writers. We'd also welcome worked examples, notebooks, and videos. [NEP 44 — Restructuring the NumPyDocumentation](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html) lays out our ideas -- and you may have others.
+### Revisar pull requests
+O projeto tem mais de 250 pull requests abertos -- o que significa que muitas potenciais melhorias e muitos contribuidores de código aberto estão aguardando feedback. Se você é uma pessoa programadora que conhece o NumPy, você pode ajudar, mesmo que não tenha familiaridade com o código. Você pode:
+* resumir uma discussão longa
+* fazer triagem de PRs de documentação
+* testar alterações propostas
 
 
-### Issue triaging
+### Desenvolvimento de materiais educacionais
 
-The [NumPy issue tracker](https://github.com/numpy/numpy/issues) has a _lot_ of open issues. Some are no longer valid, some should be prioritized, and some would make good issues for new contributors.  You can:
-
-* check if older bugs are still present
-* find duplicate issues and link related ones
-* add good self-contained reproducers to issues
-* label issues correctly (this requires triage rights -- just ask)
-
-Please just dive in.
+O [Guia do Usuário](https://numpy.org/devdocs) do Numpy está sendo reformado. Precisamos de novos tutoriais, how-to's e de explicações de conceitos, e o site precisa de reestruturação. Oportunidades não se limitam a pessoas com experiência em escrita técnica. Também procuramos exemplos práticos, notebooks e vídeos. A [NEP 44](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html) explica nossas ideias para reestruturar a documentação do NumPy — talvez você também tenha outras ideias.
 
 
-### Website development
+### Triagem de Issues
 
-We've just revamped our website, but we're far from done. If you love web development, these [issues](https://github.com/numpy/numpy.org/issues?q=is%3Aissue+is%3Aopen+label%3Adesign) list some of our unmet needs -- and feel free to share your own ideas.
+O [*issue tracker* do NumPy](https://github.com/numpy/numpy/issues) tem _um monte_ de issues abertas. Algumas não são mais válidas, algumas deveriam ser priorizadas, e algumas poderiam ser boas para pessoas que estão procurando sua primeira contribuição.  Você pode:
 
+* verificar se erros mais antigos ainda estão presentes
+* encontrar issues duplicadas e criar links entre issues relacionadas
+* adicionar bons exemplos autocontidos que reproduzam issues
+* rotular issues corretamente (isso requer direitos de triagem -- basta perguntar)
 
-### Graphic design
-
-We can barely begin to list the contributions a graphic designer can make here. Our docs are parched for illustration; our growing website craves images -- opportunities abound.
-
-
-### Translating website content
-
-We plan multiple translations of [numpy.org](https://numpy.org) to make NumPy accessible to users in their native language. Volunteer translators are at the heart of this effort.  See [here](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n) for background; comment on [this GitHub issue](https://github.com/numpy/numpy.org/issues/55) to sign up.
+Sinta-se à vontade!
 
 
-### Community coordination and outreach
+### Desenvolvimento do site
 
-Through community contact we share our work more widely and learn where we're falling short. We're eager to get more people involved in efforts like our [Twitter](https://twitter.com/numpy_team) account, organizing NumPy [code sprints](https://scisprints.github.io/), a newsletter, and perhaps a blog.
+Acabamos de renovar o nosso site, mas estamos longe de terminar. Se você adora o desenvolvimento web, estas [issues](https://github.com/numpy/numpy.org/issues?q=is%3Aissue+is%3Aopen+label%3Adesign) listam algumas de nossas necessidades não atendidas -- e sinta-se livre para compartilhar suas próprias ideias.
 
-### Fundraising
 
-NumPy was all-volunteer for many years, but as its importance grew it became clear that to ensure stability and growth we'd need financial support. [This SciPy'19 talk](https://www.youtube.com/watch?v=dBTJD_FDVjU) explains how much difference that support has made. Like all the nonprofit world, we're constantly searching for grants, sponsorships, and other kinds of support. We have a number of ideas and of course we welcome more. Fundraising is a scarce skill here  -- we'd appreciate your help.
+### Design gráfico
+
+Nós mal podemos começar a listar as contribuições que uma pessoa com conhecimento em design gráfico pode fazer aqui. Nossa documentação precisa de ilustrações; nosso site crescente precisa de imagens -- há muitas oportunidades.
+
+
+### Traduzir conteúdo do site
+
+Planejamos várias traduções do [numpy.org](https://numpy.org) para tornar o NumPy acessível aos usuários em seu idioma nativo. Tradutores voluntários estão no coração deste esforço.  Veja [aqui](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n) para informações; comente [nesta issue do GitHub](https://github.com/numpy/numpy.org/issues/55) para se envolver.
+
+
+### Coordenação e promoção na comunidade
+
+Através do contato com a comunidade podemos compartilhar nosso trabalho para mais pessoas e descobrir onde precisamos trabalhar mais. Estamos ansiosos para que mais pessoas se envolvam em esforços como nossa conta no [Twitter](https://twitter.com/numpy_team), na organização de [sprints](https://scisprints.github.io/) sobre o NumPy, uma newsletter, e talvez um blog.
+
+### Financiamento
+
+O NumPy foi um projeto totalmente voluntário por muitos anos, mas conforme sua importância cresceu, tornou-se clara a necessidade de apoio financeiro para garantir estabilidade e crescimento. [Esta palestra na SciPy'19](https://www.youtube.com/watch?v=dBTJD_FDVjU) explica quanta diferença esse suporte fez. Como todo o mundo das organizações sem fins lucrativos, nós estamos constantemente procurando bolsas, patrocinadores e outros tipos de apoio. Nós temos uma série de ideias e é claro que nós damos as boas-vindas a mais. Habilidade de buscar financiamento é uma habilidade rara aqui -- apreciaríamos a sua ajuda.
 
