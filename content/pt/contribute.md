@@ -2,26 +2,26 @@
 title: Contribua com o NumPy sidebar: false
 - - -
 
-The NumPy project welcomes your expertise and enthusiasm! Your choices aren't limited to programming -- in addition to
+O projeto NumPy precisa de sua experiência e entusiasmo! Suas opções de não são limitadas à programação -- além de
 
-- [Writing code](#writing-code)
+- [Escrever código](#writing-code)
 
-you can
+você pode:
 
-- [Review pull requests](#reviewing-pull-requests)
-- [Develop tutorials, presentations, and other educational material](#developing-educational-materials)
-- [Triage issues](#issue-triaging)
-- [Work on our website](#website-development)
-- [Contribute graphic design](#graphic-design)
-- [Translate website content](#translating-website-content)
-- [Serve as a community coordinator](#community-coordination-and-outreach)
-- [Write grant proposals and help with other fundraising](#fundraising)
+- [Revisar pull requests](#reviewing-pull-requests)
+- [Desenvolver tutoriais, apresentações e outros materiais educacionais](#developing-educational-materials)
+- [Fazer triagem em issues](#issue-triaging)
+- [Trabalhar no nosso site](#website-development)
+- [Contribuir com design gráfico](#graphic-design)
+- [Traduzir conteúdo do site](#translating-website-content)
+- [Trabalhar coordenando a comunidade](#community-coordination-and-outreach)
+- [Escrever propostas e ajudar com outras atividades para financiamento](#fundraising)
 
-If you're unsure where to start or how your skills fit in, _reach out!_ You can ask on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) or [GitHub](http://github.com/numpy/numpy) (open an [issue](https://github.com/numpy/numpy/issues) or comment on a relevant issue).
+Se você não sabe por onde começar ou como suas habilidades podem ajudar, _fale conosco!_ Você pode perguntar na nossa [lista de emails](https://mail.python.org/mailman/listinfo/numpy-discussion) ou [GitHub](http://github.com/numpy/numpy) (abrindo uma [issue](https://github.com/numpy/numpy/issues) ou comentando em uma issue relevante).
 
-Those are our preferred channels (open source is open by nature), but if you prefer to talk privately, contact our community coordinators at <numpy-team@googlegroups.com> or on [Slack](https://numpy-team.slack.com) (write  <numpy-team@googlegroups.com> for an invite).
+Estes são os nossos canais de comunicação preferidos (projetos de código aberto são abertos por natureza!). No entanto, se você preferir discutir em privado, entre em contato com os coordenadores da comunidade em <numpy-team@googlegroups.com> ou no [Slack](https://numpy-team.slack.com) (envie um e-mail para <numpy-team@googlegroups.com> para obter um convite antes de entrar).
 
-We also have a biweekly _community call_, details of which are announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion). You are very welcome to join. If you are new to contributing to open source, we also highly recommend reading [this guide](https://opensource.guide/how-to-contribute/).
+Nós também temos uma _reunião aberta da comunidade_ a cada duas semanas. Os detalhes são anunciados na nossa [lista de emails](https://mail.python.org/mailman/listinfo/numpy-discussion). Convidamos você a participar desta chamada se quiser. Se você nunca contribuiu para projetos de código aberto, recomendamos fortemente que você leita [esse guia](https://opensource.guide/how-to-contribute/).
 
 Our community aspires to treat everyone equally and to value all contributions. We have a [Code of Conduct](/code-of-conduct) to foster an open and welcoming environment.
 
