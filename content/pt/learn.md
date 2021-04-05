@@ -3,7 +3,7 @@ title: Aprenda
 sidebar: false
 ---
 
-For the **official NumPy documentation** visit [numpy.org/doc/stable](https://numpy.org/doc/stable).
+Para a **documentação oficial do NumPy** visite [numpy.org/doc/stable](https://numpy.org/doc/stable).
 
 Abaixo está uma coleção de recursos externos selecionados. Para contribuir, veja o [fim desta página](#add-to-this-list).
 ***
