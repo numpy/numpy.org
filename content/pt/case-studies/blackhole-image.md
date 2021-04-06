@@ -26,7 +26,7 @@ O [telescópio Event Horizon (EHT)](https://eventhorizontelescope.org), é um co
 
 * **Escala computacional**
 
-    O EHT representa um desafio imenso em processamento de dados, incluindo flutuações rápidas de fase atmosférica, uma largura grande de banda nas gravações e telescópios que são muito diferentes e geograficamente dispersos.
+    O EHT representa um desafio imenso em processamento de dados, incluindo rápidas flutuações de fase atmosférica, uma largura grande de banda nas gravações e telescópios que são muito diferentes e geograficamente dispersos.
 
 * **Muitas informações**
 
@@ -48,11 +48,11 @@ O trabalho desse grupo ilustra o papel do ecossistema científico do Python no a
 
 {{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**O papel do NumPy na criação da primeira imagem de um Buraco Negro**" >}}
 
-Por exemplo, o pacote Python [`eht-imaging`][ehtim] fornece ferramentas para simular e realizar reconstrução de imagem nos dados do VLBI. O NumPy está no coração do processamento de dados vetorial usado neste pacote, como ilustrado pelo gráfico parcial de dependências de software abaixo.
+Por exemplo, o pacote Python [`eht-imaging`][ehtim] fornece ferramentas para simular e realizar reconstrução de imagem nos dados do VLBI. O NumPy está no coração do processamento de dados vetoriais usado neste pacote, como ilustrado pelo gráfico parcial de dependências de software abaixo.
 
 {{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Diagrama de dependência de software do pacote ehtim evidenciando o NumPy**" >}}
 
-Além do NumPy, muitos outros pacotes como [SciPy](https://www.scipy.org) e [Pandas](https://pandas.io) foram usados na *pipeline* de processamento de dados para criar a imagem do buraco negro. Os formatos de arquivos astronômicos padrão e transformações de tempo/coordenadas foram tratados pelo [Astropy][astropy] enquanto a[Matplotlib][mpl] foi usada na visualização de dados em todas as etapas de análise, incluindo a geração da imagem final do buraco negro.
+Além do NumPy, muitos outros pacotes como [SciPy](https://www.scipy.org) e [Pandas](https://pandas.io) foram usados na *pipeline* de processamento de dados para criar a imagem do buraco negro. Os arquivos astronômicos de formato padrão e transformações de tempo/coordenadas foram tratados pelo [Astropy][astropy] enquanto a[Matplotlib][mpl] foi usada na visualização de dados em todas as etapas de análise, incluindo a geração da imagem final do buraco negro.
 
 ## Resumo
 
