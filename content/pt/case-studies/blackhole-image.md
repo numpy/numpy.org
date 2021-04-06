@@ -26,7 +26,7 @@ O [telescópio Event Horizon (EHT)](https://eventhorizontelescope.org), é um co
 
 * **Escala computacional**
 
-    O EHT representa um desafio imenso em processamento de dados, incluindo flutuações de fase atmosféricas rápidas, uma largura grande de banda nas gravações e telescópios que são muito diferentes e geograficamente dispersos.
+    O EHT representa um desafio imenso em processamento de dados, incluindo flutuações rápidas de fase atmosférica, uma largura grande de banda nas gravações e telescópios que são muito diferentes e geograficamente dispersos.
 
 * **Muitas informações**
 
