@@ -65,19 +65,19 @@ _هذا القسم يلخص أهم النقاط، يمكنك العثور على
 
 سوف نقوم بالتحقيق في جميع الشكاوى والرد عليها. وستقوم لجنة القواعد السلوكية واللجنة التوجيهية لنمباي (إذا اشتركت) بحماية هوية المبلِّغ وسوف يتم التعامل مع مضمون الشكاوى على أنها سرية (ما لم يوافق المبلغ على غير ذلك).
 
-In case of severe and obvious breaches, e.g. personal threat or violent, sexist or racist language, we will immediately disconnect the originator from NumPy communication channels; please see the manual for details.
+في حالة حدوث إخلالات خطيرة وواضحة، مثل التهديد أو العنف الشخصي أو التحيز جنسياً أو عنصرياً، سنقوم على الفور بفصل المقدم عن قنوات الاتصال الخاصة بنمباي؛ يرجى الاطلاع على الدليل للحصول على التفاصيل.
 
-In cases not involving clear severe and obvious breaches of this Code of Conduct the process for acting on any received Code of Conduct violation report will be:
+وفي الحالات التي لا تنطوي على انتهاكات خطيرة وواضحة لقواعد السلوك هذه، تكون عملية التصرف بشأن أي تقرير يرد عن انتهاك القواعد السلوكية علي ما يلي:
 
-1. acknowledge report is received,
-2. reasonable discussion/feedback,
-3. mediation (if feedback didn’t help, and only if both reporter and reportee agree to this),
-4. enforcement via transparent decision (see [Resolutions](/report-handling-manual#resolutions)) by the Code of Conduct Committee.
+1. الإقرار بتلقي التقرير،
+2. مناقشات/ملاحظات معقولة،
+3. الوساطة (إذا لم تساعد ردود الفعل، وفقط إذا وافق كل من المبلّغ والمبلّغ على ذلك)،
+4. • الإنفاذ من خلال قرار شفاف (انظر [القرارات](/report-handling-manual#resolutions))الصادر عن لجنة قواعد السلوك.
 
-The Committee will respond to any report as soon as possible, and at most within 72 hours.
+واللجنة سترد على أي تقرير في أقرب وقت ممكن، وفي الأغلب 72 ساعة على الأكثر.
 
-### Endnotes
+### تعليق ختامي
 
-We are thankful to the groups behind the following documents, from which we drew content and inspiration:
+نحن ممتنون للمجموعات التي تقف وراء الوثائق التالية التي استخلصنا منها المضمون والإلهام:
 
-- [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/reference/dev/conduct/code_of_conduct.html)
+- [القواعد السلوكية لسكابي](https://docs.scipy.org/doc/scipy/reference/dev/conduct/code_of_conduct.html)
