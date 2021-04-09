@@ -57,13 +57,13 @@ aliases:
 * ميليسا فيبر ميندونسا (Melissa Weber Mendonça)
 * أنيروده سوبرامانيان (Anirudh Subramanian)
 
-لو كان بلاغك متورط به أحد أعضاء اللجنة أو إذا كانوا يشعرون بأن لديهم تضارب في المصالح يحدهم عن التعامل معه. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
+لو كان بلاغك متورط به أحد أعضاء اللجنة أو إذا كانوا يشعرون بأن لديهم تضارب في المصالح يحدهم عن التعامل معه. أو إذا شعرت بعدم الارتياح لأي سبب من الأسباب لإبلاغ اللجنة ، فبمكانك الاتصال عوضا عن ذلك بفريق NumFOCUS الأعلى على [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
-### Incident reporting resolution & Code of Conduct enforcement
+### تسوية بلاغات الحوادث & نفاذ القواعد السلوكية
 
-_This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](/report-handling-manual).
+_هذا القسم يلخص أهم النقاط، يمكنك العثور على مزيد من التفاصيل في_ [ قواعد سلوكيات نمباي - كيفية متابعة التقرير](/report-handling-manual).
 
-We will investigate and respond to all complaints. The NumPy Code of Conduct Committee and the NumPy Steering Committee (if involved) will protect the identity of the reporter, and treat the content of complaints as confidential (unless the reporter agrees otherwise).
+سوف نقوم بالتحقيق في جميع الشكاوى والرد عليها. وستقوم لجنة القواعد السلوكية واللجنة التوجيهية لنمباي (إذا اشتركت) بحماية هوية المبلِّغ وسوف يتم التعامل مع مضمون الشكاوى على أنها سرية (ما لم يوافق المبلغ على غير ذلك).
 
 In case of severe and obvious breaches, e.g. personal threat or violent, sexist or racist language, we will immediately disconnect the originator from NumPy communication channels; please see the manual for details.
 
