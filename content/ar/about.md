@@ -1,18 +1,18 @@
 ---
-title: About Us
+title: من نحن
 sidebar: false
 ---
 
-_Some information about the NumPy project and community_
+_بعض المعلومات حول مشروع ومجتمع نمباي_
 
-NumPy is an open source project aiming to enable numerical computing with Python. It was created in 2005, building on the early work of the Numeric and Numarray libraries. NumPy will always be 100% open source software, free for all to use and released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt).
+نمباي هو مشروع مفتوح المصدر يهدف إلي إتاحة الحوسبة الرقمية باستخدام لغة برمجة بايثون. وقد أنشئت في عام 2005، استنادا علي العمل المبكر للمكتبتان Numeric و Numarray. ستظل نمباي دائماُ مائة في المائة برمجية مفتوحة المصدر، مجانية للجميع وتصدر بموجب الشروط الليبرالية [لرخصة BSD المعدلة](https://github.com/numpy/numpy/blob/master/LICENSE.txt).
 
-NumPy is developed in the open on GitHub, through the consensus of the NumPy and wider scientific Python community. For more information on our governance approach, please see our [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
+وقد تم تطوير نمباي في العلن على GitHub ومن خلال توافق آراء مجتمع نمباي ونطاق أوسع لمجتمع بايثون العلمي. لمزيد من المعلومات حول نهج الإدارة، يرجى الاطلاع على [الوثيقة الإدارية](https://www.numpy.org/devdocs/dev/governance/index.html) الخاصة بنا.
 
 
-## Steering Council
+## المجلس التوجيهي
 
-The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community. The NumPy Steering Council currently consists of the following members (in alphabetical order):
+The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community. ويتألف المجلس التوجيهي المعني لنمباي حاليا علي الأعضاء التالية (بالترتيب الأبجدي):
 
 - Sebastian Berg
 - Jaime Fernández del Río
