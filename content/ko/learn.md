@@ -15,6 +15,7 @@ For the **official NumPy documentation** visit [numpy.org/doc/stable](https://nu
 <i class="fas fa-chalkboard"></i> **튜토리얼**
 
 * [NumPy Quickstart Tutorial](https://numpy.org/devdocs/user/quickstart.html)
+* [NumPy Illustrated: The Visual Guide to NumPy *by Lev Maximov*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
 * [SciPy Lectures](https://scipy-lectures.org/) Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.
 * [NumPy: the absolute basics for beginners](https://numpy.org/devdocs/user/absolute_beginners.html)
 * [Machine Learning Plus - Introduction to ndarray](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
