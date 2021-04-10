@@ -16,7 +16,7 @@ sidebar: false
 
 神経科学、医学、生体力学などのいくつかの研究分野では、動物の動きを追跡したデータを使用しています。 DeepLabCut は、動画に記録された動きを解析することで、人間やその他の動物が何をしているのかを理解することができます。 タグ付けや監視などの、手間のかかる作業に自動化を利用し、深層学習ベースのデータ解析を実施します。DeepLabCut は、霊長類、マウス、魚、ハエなどの動物を観察する科学的研究に利用されており、より速く、正確な結果をもたらしました。
 
-{{< figure src="/images/content_images/cs/race-hore. if" class="fig-center" caption="**色のついた点は競走馬の体の位置を追跡**" alt="horserideranim" attr="*(Source: Mackenzie Mathis)*">}}
+{{< figure src="/images/content_images/cs/race-horse.gif" class="fig-center" caption="**色のついた点は競走馬の体の位置を追跡**" alt="horserideranim" attr="*(Source: Mackenzie Mathis)*">}}
 
 DeepLabCutによる動物の姿勢を抽出することによる、非侵襲的な行動追跡は、生体力学や、遺伝学、倫理学、神経科学などの分野における科学的な研究に必要不可欠です。 動的に変化する背景の中で、動物の姿勢をビデオデータから非侵襲的に測定することは、計算処理的に非常に困難です。 例えば、必要な計算リソースやトレーニングデータが問題になります。
 
