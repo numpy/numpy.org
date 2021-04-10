@@ -10,7 +10,6 @@ markup:
       unsafe: true
 
 params:
-  description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
   images:
   - /images/logos/numpy.svg
   navColor: blue
@@ -24,6 +23,7 @@ languages:
     weight: 1
     contentDir: content/en
     params:
+      description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
       navbarlogo:
         image: logos/numpy.svg
         link: /
@@ -153,6 +153,7 @@ languages:
     weight: 2
     contentDir: content/pt
     params:
+      description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
       navbarlogo:
         image: logos/numpy.svg
         link: /pt/
@@ -280,6 +281,7 @@ languages:
     weight: 3
     contentDir: content/ja
     params:
+      description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
       navbarlogo:
         image: logos/numpy.svg
         link: /ja/
