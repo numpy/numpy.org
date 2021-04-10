@@ -83,7 +83,7 @@ DeepLabCutは、ツールキットが提供する ワークフローを通じて
 
 行動を観察し、効率的に表現することは、現代倫理学、神経科学、医学、工学の根幹です。 [DeepLabCut](http://orga.cvss.cc/wp-content/uploads/2019/05/NathMathis2019.pdf) により、研究者は対象の姿勢を推定し、行動を効率的に定量化できるようになりました。 DeepLabCutのPythonツールボックスでは、わずかな学習画像のセットで、ニューラルネットワークを人間レベルのラベリング精度で学習することができ、実験室での行動分析だけでなく、スポーツ、歩行分析、医学、リハビリテーション研究などへの応用が可能になります。 DeepLabCut アルゴリズムに必要な、複雑な組み合わせ処理や、データ処理の問題は、Numpy の配列操作機能を使用して対応することになります。
 
-{{< figure src="/images/content_images/cs/numpy_dlc_benefits.png" class="fig-center" alt="numpy benefits" caption="**NumPyの主要機能**" >}
+{{< figure src="/images/content_images/cs/numpy_dlc_benefits.png" class="fig-center" alt="numpy benefits" caption="**NumPyの主要機能**" >}}
 
 [cheetah-movement]: https://www.technologynetworks.com/neuroscience/articles/interview-a-deeper-cut-into-behavior-with-mackenzie-mathis-327618
 

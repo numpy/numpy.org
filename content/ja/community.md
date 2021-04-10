@@ -40,7 +40,7 @@ SlackはNumpyに_ 貢献するための質問をする_、リアルタイムの�
 
 NumPyや、データサイエンス、科学技術計算などのより広いエコシステムのためのPythonパッケージついて、もっと学ぶためのローカルミートアップや勉強会を見つけたい場合、 [PyData ミートアップ](https://www.meetup.com/pro/pydata/) (150人以上のミートアップ、10万人以上のメンバーをまとめたもの) を調べてみることをお勧めします。
 
-加えて、NumPy では開発チームと参加に興味があるコントリビュータのために、対面でのスプリントを時折開催しています。 この開発スプリントは通常数ヶ月に一度に開催されており、 [ メーリングリスト ](https://mail. python. org/mailman/listinfo/numpy-discussion) と [ Twitter ](https://twitter. com/numpy_team) で開催連絡されます。
+加えて、NumPy では開発チームと参加に興味があるコントリビュータのために、対面でのスプリントを時折開催しています。 この開発スプリントは通常数ヶ月に一度に開催されており、 [メーリングリスト](https://mail.python.org/mailman/listinfo/numpy-discussion) と [Twitter](https://twitter.com/numpy_team) で開催連絡されます。
 
 
 ## カンファレンス
