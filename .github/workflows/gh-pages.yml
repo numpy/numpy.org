@@ -14,6 +14,10 @@ jobs:
         uses: actions/checkout@master
         with:
           submodules: true
+      - name: Setup Python
+        uses: actions/setup-python@v2
+      - name: Generate config.yaml
+        run: python gen_config.py
       - name: Publish Site
         uses: chabad360/hugo-gh-pages@master
         with:
