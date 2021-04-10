@@ -144,6 +144,7 @@ languages:
               link: /privacy
             - text: Press kit
               link: /press-kit
+  #
   # Portuguese
   # ----------
   pt:
@@ -163,7 +164,7 @@ languages:
         # Button text
         buttontext: Get started
         # Where the main hero button links to
-        buttonlink: "/install"
+        buttonlink: "/pt/install"
         # Hero image (from static/images/___)
         image: logos/numpy.svg
       # Customizable navbar. For a dropdown, add a "sublinks" list.
@@ -270,6 +271,7 @@ languages:
               link: /pt/privacy
             - text: Press kit
               link: /pt/press-kit
+  #
   # Japanese
   # --------
   ja:
@@ -289,7 +291,7 @@ languages:
         # Button text
         buttontext: Get started
         # Where the main hero button links to
-        buttonlink: "/install"
+        buttonlink: "/ja/install"
         # Hero image (from static/images/___)
         image: logos/numpy.svg
       # Customizable navbar. For a dropdown, add a "sublinks" list.
