@@ -15,15 +15,12 @@ NumPy는 광범위한 Scientific Python 커뮤니티의 협의를 통해 GitHub�
 NumPy 운영 위원회의 역할은 더 광범위한 NumPy 커뮤니티와 협력하고 서비스를 통해서 기술적으로나 커뮤니티로서 프로젝트의 장기적인 안녕을 보장하는 것입니다. NumPy 운영 위원회는 현재 다음과 같은 회원들로 구성되어 있습니다. (알파벳 순서)
 
 - Sebastian Berg
-- Jaime Fernández del Río
 - Ralf Gommers
-- Allan Haldane
 - Charles Harris
 - Stephan Hoyer
+- Melissa Weber Mendonça
+- Inessa Pawson
 - Matti Picus
-- Nathaniel Smith
-- Julian Taylor
-- Pauli Virtanen
 - Stéfan van der Walt
 - Eric Wieser
 
@@ -32,6 +29,12 @@ NumPy 운영 위원회의 역할은 더 광범위한 NumPy 커뮤니티와 협�
 - Travis Oliphant (project founder, 2005-2012)
 - Alex Griffing (2015-2017)
 - Marten van Kerkwijk (2017-2019)
+- Allan Haldane (2015-2021)
+- Nathaniel Smith (2012-2021)
+- Julian Taylor (2013-2021)
+- Pauli Virtanen (2008-2021)
+- Jaime Fernández del Río (2014-2021)
+
 
 ## 팀
 
