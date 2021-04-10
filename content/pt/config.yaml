@@ -1,21 +1,25 @@
+# FOR TRANSLATORS: this is a YAML file, with lines being of the form:
+#
+#   key: value
+#
+# Please translate the `value`s, not the `key`s!
+# Comments (starting with `#`) and `url:` or `link:` lines also do not
+# need to be translated. `title:` and `text:` lines do need translation.
+#
 languageName: Portuguese
 params:
   description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
   navbarlogo:
     image: logos/numpy.svg
     link: /pt/
+
   hero:
-    # Main hero title
     title: NumPy
-    # Hero subtitle (optional)
     subtitle: The fundamental package for scientific computing with Python
-    # Button text
     buttontext: Get started
-    # Where the main hero button links to
     buttonlink: "/pt/install"
-    # Hero image (from static/images/___)
     image: logos/numpy.svg
-  # Customizable navbar. For a dropdown, add a "sublinks" list.
+
   news:
     title: NumPy v1.20.0
     content: Type annotation support - Performance improvements through multi-platform SIMD
@@ -23,6 +27,7 @@ params:
 
   shell:
     title: placeholder  # do not translate
+
   casestudies:
     title: CASE STUDIES
     features:
@@ -60,10 +65,12 @@ params:
     - title: Easy to use
       text: NumPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
     - title: Open source
-      text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/community).
+      text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/pt/community).
+
   tabs:
     title: ECOSYSTEM
   section5: false
+
 navbar:
   - title: Install
     url: /pt/install
@@ -77,6 +84,7 @@ navbar:
     url: /pt/about
   - title: Contribute
     url: /pt/contribute
+
 footer:
   logo: numpy.svg
   socialmediatitle: ""
