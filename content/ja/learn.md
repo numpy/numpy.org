@@ -15,14 +15,15 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 <i class="fas fa-chalkboard"></i> **チュートリアル**
 
 * [NumPy Quickstart チュートリアル](https://numpy.org/devdocs/user/quickstart.html)
-* [SciPyレクチャー](https://scipy-lectures.org/) NumPyだけでなく、科学的なPythonソフトウェアエコシステムを広く紹介しています。
-* [Numpy: 初心者のための基本](https://numpy.org/devdocs/user/absolute_beginners.html)
-* [機械学習プラス - ndarray入門](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
-* [Edureka - NumPy配列を例題で学ぶ ](https://www.edureka.co/blog/python-numpy-tutorial/)
-* [Dataquest - NumPyチュートリアル: Python を使ったデータ解析](https://www.dataquest.io/blog/numpy-tutorial-python/)
-* [Numpy チュートリアル *by Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
+* [NumPy Illustrated: The Visual Guide to NumPy *by Lev Maximov*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
+* [SciPy Lectures](https://scipy-lectures.org/) Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.
+* [NumPy: the absolute basics for beginners](https://numpy.org/devdocs/user/absolute_beginners.html)
+* [Machine Learning Plus - Introduction to ndarray](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
+* [Edureka - Learn NumPy Arrays with Examples ](https://www.edureka.co/blog/python-numpy-tutorial/)
+* [Dataquest - NumPy Tutorial: Data Analysis with Python](https://www.dataquest.io/blog/numpy-tutorial-python/)
+* [NumPy tutorial *by Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
 * [Stanford CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
-* [Numpyユーザーガイド](https://numpy.org/devdocs)
+* [NumPy User Guide](https://numpy.org/devdocs)
 
 <i class="fas fa-book"></i> **書籍**
 
