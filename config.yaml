@@ -1,6 +1,5 @@
 baseURL: http://numpy.org/
 languageCode: en-us
-title: NumPy - the fundamental package for scientific computing with Python.
 theme: hugo-fresh
 disableKinds: ["taxonomyTerm"]
 googleAnalytics: UA-162151853-1
@@ -143,3 +142,123 @@ languages:
               link: /privacy
             - text: Press kit
               link: /press-kit
+  pt:
+    title: NumPy
+    languageName: Portuguese
+    weight: 2
+    contentDir: content/pt
+    navbar:
+      - title: Install
+        url: /pt/install
+      - title: Documentation
+        url: https://numpy.org/doc/stable
+      - title: Learn
+        url: /pt/learn
+      - title: Community
+        url: /pt/community
+      - title: About Us
+        url: /pt/about
+      - title: Contribute
+        url: /pt/contribute
+    footer:
+      logo: numpy.svg
+      socialmediatitle: ""
+      socialmedia:
+      - link: https://github.com/numpy/numpy
+        icon: github
+      - link: https://twitter.com/numpy_team
+        icon: twitter
+      quicklinks:
+        column1:
+          title: ""
+          links:
+            - text: Install
+              link: /pt/install
+            - text: Documentation
+              link: https://numpy.org/doc/stable
+            - text: Learn
+              link: /pt/learn
+            - text: Citing Numpy
+              link: /pt/citing-numpy
+            - text: Roadmap
+              link: https://numpy.org/neps/roadmap.html
+        column2:
+          links:
+            - text: About us
+              link: /pt/about
+            - text: Community
+              link: /pt/community
+            - text: Contribute
+              link: /pt/contribute
+            - text: Code of conduct
+              link: /pt/code-of-conduct
+        column3:
+          links:
+            - text: Get help
+              link: /pt/gethelp
+            - text: Terms of use
+              link: /pt/terms
+            - text: Privacy
+              link: /pt/privacy
+            - text: Press kit
+              link: /pt/press-kit
+  ja:
+    title: NumPy
+    languageName: Japanese
+    weight: 3
+    contentDir: content/ja
+    navbar:
+      - title: Install
+        url: /ja/install
+      - title: Documentation
+        url: https://numpy.org/doc/stable
+      - title: Learn
+        url: /ja/learn
+      - title: Community
+        url: /ja/community
+      - title: About Us
+        url: /ja/about
+      - title: Contribute
+        url: /ja/contribute
+    footer:
+      logo: numpy.svg
+      socialmediatitle: ""
+      socialmedia:
+      - link: https://github.com/numpy/numpy
+        icon: github
+      - link: https://twitter.com/numpy_team
+        icon: twitter
+      quicklinks:
+        column1:
+          title: ""
+          links:
+            - text: Install
+              link: /ja/install
+            - text: Documentation
+              link: https://numpy.org/doc/stable
+            - text: Learn
+              link: /ja/learn
+            - text: Citing Numpy
+              link: /ja/citing-numpy
+            - text: Roadmap
+              link: https://numpy.org/neps/roadmap.html
+        column2:
+          links:
+            - text: About us
+              link: /ja/about
+            - text: Community
+              link: /ja/community
+            - text: Contribute
+              link: /ja/contribute
+            - text: Code of conduct
+              link: /ja/code-of-conduct
+        column3:
+          links:
+            - text: Get help
+              link: /ja/gethelp
+            - text: Terms of use
+              link: /ja/terms
+            - text: Privacy
+              link: /ja/privacy
+            - text: Press kit
+              link: /ja/press-kit
