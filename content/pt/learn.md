@@ -15,14 +15,15 @@ Há uma tonelada de informações sobre o NumPy lá fora. Se você está começa
 <i class="fas fa-chalkboard"></i> **Tutoriais**
 
 * [NumPy Quickstart Tutorial (Tutorial de Início Rápido)](https://numpy.org/devdocs/user/quickstart.html)
-* [SciPy Lectures](https://scipy-lectures.org/) Além de incluir conteúdo sobre a NumPy, estas aulas oferecem uma introdução mais ampla ao ecossistema científico do Python.
-* [NumPy: the absolute basics for beginners ("o básico absoluto para inciantes")](https://numpy.org/devdocs/user/absolute_beginners.html)
+* [NumPy Illustrated: The Visual Guide to NumPy *by Lev Maximov*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
+* [SciPy Lectures](https://scipy-lectures.org/) Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.
+* [NumPy: the absolute basics for beginners](https://numpy.org/devdocs/user/absolute_beginners.html)
 * [Machine Learning Plus - Introduction to ndarray](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
 * [Edureka - Learn NumPy Arrays with Examples ](https://www.edureka.co/blog/python-numpy-tutorial/)
 * [Dataquest - NumPy Tutorial: Data Analysis with Python](https://www.dataquest.io/blog/numpy-tutorial-python/)
-* [NumPy tutorial *por Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
+* [NumPy tutorial *by Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
 * [Stanford CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
-* [NumPy User Guide (Guia de Usuário NumPy)](https://numpy.org/devdocs)
+* [NumPy User Guide](https://numpy.org/devdocs)
 
 <i class="fas fa-book"></i> **Livros**
 
