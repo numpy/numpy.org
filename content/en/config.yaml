@@ -1,0 +1,124 @@
+languageName: English
+params:
+  description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
+  navbarlogo:
+    image: logos/numpy.svg
+    link: /
+  hero:
+    # Main hero title
+    title: NumPy
+    # Hero subtitle (optional)
+    subtitle: The fundamental package for scientific computing with Python
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "/install"
+    # Hero image (from static/images/___)
+    image: logos/numpy.svg
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  news:
+    title: NumPy v1.20.0
+    content: Type annotation support - Performance improvements through multi-platform SIMD
+    url: /news
+
+  shell:
+    title: placeholder
+  casestudies:
+    title: CASE STUDIES
+    features:
+    - title: First Image of a Black Hole
+      text: How NumPy, together with libraries like SciPy and Matplotlib that depend on NumPy, enabled the Event Horizon Telescope to produce the first ever image of a black hole
+      img: /images/content_images/case_studies/blackhole.png
+      alttext: First image of a black hole. It is an orange circle in a black background.
+      url: /case-studies/blackhole-image
+    - title: Detection of Gravitational Waves
+      text: In 1916, Albert Einstein predicted gravitational waves; 100 years later their existence was confirmed by LIGO scientists using NumPy.
+      img: /images/content_images/case_studies/gravitional.png
+      alttext: Two orbs orbiting each other. They are displacing gravity around them.
+      url: /case-studies/gw-discov
+    - title: Sports Analytics
+      text: Cricket Analytics is changing the game by improving player and team performance through statistical modelling and predictive analytics. NumPy enables many of these analyses.
+      img: /images/content_images/case_studies/sports.jpg
+      alttext: Cricket ball on green field.
+      url: /case-studies/cricket-analytics
+    - title: Pose Estimation using deep learning
+      text: DeepLabCut uses NumPy for accelerating scientific studies that involve observing animal behavior for better understanding of motor control, across species and timescales.
+      img: /images/content_images/case_studies/deeplabcut.png
+      alttext:  Cheetah pose analysis
+      url: /case-studies/deeplabcut-dnn
+
+  keyfeatures:
+    features:
+    - title: Powerful N-dimensional arrays
+      text:  Fast and versatile, the NumPy vectorization, indexing, and broadcasting concepts are the de-facto standards of array computing today.
+    - title: Numerical computing tools
+      text: NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
+    - title: Interoperable
+      text: NumPy supports a wide range of hardware and computing platforms, and plays well with distributed, GPU, and sparse array libraries.
+    - title: Performant
+      text: The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
+    - title: Easy to use
+      text: NumPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
+    - title: Open source
+      text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/community).
+  tabs:
+    title: ECOSYSTEM
+  section5: false
+
+
+navbar:
+  - title: Install
+    url: /install
+  - title: Documentation
+    url: https://numpy.org/doc/stable
+  - title: Learn
+    url: /learn
+  - title: Community
+    url: /community
+  - title: About Us
+    url: /about
+  - title: Contribute
+    url: /contribute
+footer:
+  logo: numpy.svg
+  socialmediatitle: ""
+  socialmedia:
+  - link: https://github.com/numpy/numpy
+    icon: github
+  - link: https://twitter.com/numpy_team
+    icon: twitter
+  quicklinks:
+    column1:
+      title: ""
+      links:
+        - text: Install
+          link: /install
+        - text: Documentation
+          link: https://numpy.org/doc/stable
+        - text: Learn
+          link: /learn
+        - text: Citing Numpy
+          link: /citing-numpy
+        - text: Roadmap
+          link: https://numpy.org/neps/roadmap.html
+    column2:
+      links:
+        - text: About us
+          link: /about
+        - text: Community
+          link: /community
+        - text: Contribute
+          link: /contribute
+        - text: Code of conduct
+          link: /code-of-conduct
+    column3:
+      links:
+        - text: Get help
+          link: /gethelp
+        - text: Terms of use
+          link: /terms
+        - text: Privacy
+          link: /privacy
+        - text: Press kit
+          link: /press-kit
+
