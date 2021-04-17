@@ -15,7 +15,7 @@ params:
 
   hero:
     title: NumPy
-    subtitle: The fundamental package for scientific computing with Python
+    subtitle: Pythonによる科学技術計算の基礎パッケージ
     buttontext: Get started
     buttonlink: "/ja/install"
     image: logos/numpy.svg
