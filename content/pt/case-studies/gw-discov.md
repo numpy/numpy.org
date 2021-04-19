@@ -29,7 +29,7 @@ O [Observatório Interferômetro Laser de Ondas Gravitacionais (LIGO)](https://w
 
 * **Computação**
 
-    As ondas gravitacionais são difíceis de detectar pois produzem um efeito muito pequeno e têm uma pequena interação com a matéria. Processar e analisar todos os dados do LIGO requer uma vasta infraestrutura de computação. Depois de cuidar do ruído, que é bilhões de vezes maior que o sinal, ainda há equações de relatividade complexas e enormes quantidades de dados que apresentam um desafio computacional: [O(10^7) horas de CPU necessárias para análises de fusão binária](https://youtu.be/7mcHknWWzNI) espalhado em 6 clusters LIGO dedicados.
+    As ondas gravitacionais são difíceis de detectar pois produzem um efeito muito pequeno e têm uma pequena interação com a matéria. Processar e analisar todos os dados do LIGO requer uma vasta infraestrutura de computação. Depois de cuidar do ruído, que é bilhões de vezes maior que o sinal, ainda há equações de relatividade complexas e enormes quantidades de dados que apresentam um desafio computacional: [O(10^7) horas de CPU necessárias para análises de fusão binária](https://youtu.be/7mcHknWWzNI) espalhado em 6 clusters dedicados ao LIGO.
 
 * **Sobrecarga de dados**
 
@@ -45,7 +45,7 @@ O [Observatório Interferômetro Laser de Ondas Gravitacionais (LIGO)](https://w
 
 Ondas gravitacionais emitidas da fusão não podem ser calculadas usando nenhuma técnica a não ser relatividade numérica por força bruta usando supercomputadores. A quantidade de dados que o LIGO coleta é imensa tanto quanto os sinais de ondas gravitacionais são pequenos.
 
-NumPy, o pacote padrão de análise numérica para Python, foi parte do software utilizado para várias tarefas executadas durante o projeto de detecção de ondas gravitacionais no LIGO. A NumPy ajudou a resolver problemas matemáticos e de manipulação de dados complexos em alta velocidade.  Aqui estão alguns exemplos:
+NumPy, o pacote padrão de análise numérica para Python, foi parte do software utilizado para várias tarefas executadas durante o projeto de detecção de ondas gravitacionais no LIGO. O NumPy ajudou a resolver problemas matemáticos e de manipulação de dados complexos em alta velocidade.  Aqui estão alguns exemplos:
 
 * [Processamento de sinais](https://www.uv.es/virgogroup/Denoising_ROF.html): Detecção de falhas,  [Identificação de ruídos e caracterização de dados](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf) (NumPy, scikit-learn, scipy, matplotlib, pandas, PyCharm)
 * Recuperação de dados: Decidir quais dados podem ser analisados, compreender se os dados contém um sinal - como uma agulha em um palheiro
@@ -64,6 +64,6 @@ NumPy, o pacote padrão de análise numérica para Python, foi parte do software
 
 ## Resumo
 
-A detecção de ondas gravitacionais permitiu que pesquisadores descobrissem fenômenos totalmente inesperados ao mesmo tempo em que proporcionaram novas idéias sobre muitos dos fenômenos mais profundos conhecidos na astrofísica. O processamento e a visualização de dados é um passo crucial que ajuda cientistas a obter informações coletadas de observações científicas e a entender os resultados. Os cálculos são complexos e não podem ser compreendidos por humanos a não ser que sejam visualizados usando simulações de computador que são alimentadas com dados e análises reais observados.  A NumPy, junto com outras bibliotecas Python, como matplotlib, pandas, e scikit-learn [permitem que pesquisadores](https://www.gw-openscience.org/events/GW150914/) respondam perguntas complexas e descubram novos horizontes em nossa compreensão do universo.
+A detecção de ondas gravitacionais permitiu que pesquisadores descobrissem fenômenos totalmente inesperados ao mesmo tempo em que proporcionaram novas idéias sobre muitos dos fenômenos mais profundos conhecidos na astrofísica. O processamento e a visualização de dados é um passo crucial que ajuda cientistas a obter informações coletadas de observações científicas e a entender os resultados. Os cálculos são complexos e não podem ser compreendidos por humanos a não ser que sejam visualizados usando simulações de computador que são alimentadas com dados e análises reais observados.  O NumPy, junto com outras bibliotecas Python, como matplotlib, pandas, e scikit-learn [permitem que pesquisadores](https://www.gw-openscience.org/events/GW150914/) respondam perguntas complexas e descubram novos horizontes em nossa compreensão do universo.
 
-{{< figure src="/images/content_images/cs/numpy_gw_benefits.png" class="fig-center" alt="numpy benefits" caption="**Recursos chave da NumPy utilizados**" >}}
+{{< figure src="/images/content_images/cs/numpy_gw_benefits.png" class="fig-center" alt="funcionalidades do numpy" caption="**Recursos chave do NumPy utilizados**" >}}
