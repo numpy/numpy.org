@@ -3,7 +3,7 @@ title: "Estudo de Caso: Descoberta de Ondas Gravitacionais"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/gw_sxs_image.png" class="fig-center" caption="**Ondas gravitacionais**" alt="binary coalesce black hole generating gravitational waves" attr="*(Créditos de imagem: O projeto Simulating eXtreme Spacetimes (SXS) no LIGO)*" attrlink="https://youtu.be/Zt8Z_uzG71o" >}}
+{{< figure src="/images/content_images/cs/gw_sxs_image.png" class="fig-center" caption="**Ondas gravitacionais**" alt="duas esferas orbitando a si mesmas, gerando ondas gravitacionais" attr="*(Créditos de imagem: O projeto Simulating eXtreme Spacetimes (SXS) no LIGO)*" attrlink="https://youtu.be/Zt8Z_uzG71o" >}}
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
     <p>O ecossistema científico Python é uma infraestrutura crítica para a pesquisa feita no LIGO.</p>
@@ -39,7 +39,7 @@ O [Observatório Interferômetro Laser de Ondas Gravitacionais (LIGO)](https://w
 
     Uma vez que os obstáculos relacionados a compreender as equações de Einstein bem o suficiente para resolvê-las usando supercomputadores foram ultrapassados, o próximo grande desafio era tornar os dados compreensíveis para o cérebro humano. A modelagem de simulações, assim como a detecção de sinais, exigem técnicas de visualização efetiva.  A visualização também desempenha um papel de fornecer mais credibilidade à relatividade numérica aos olhos dos aficionados pela ciência pura, que não dão importância suficiente à relatividade numérica até que a imagem e as simulações tornem mais fácil a compreensão dos resultados para um público maior. A velocidade da computação complexa, e da renderização, re-renderização de imagens e simulações usando as últimas entradas e informações experimentais pode ser uma atividade demorada que desafia pesquisadores neste domínio.
 
-{{< figure src="/images/content_images/cs/gw_strain_amplitude.png" class="fig-center" alt="gravitational waves strain amplitude" caption="**Amplitude estimada da deformação das ondas gravitacionais do evento GW150914**" attr="(**Créditos do gráfico:** Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)" attrlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
+{{< figure src="/images/content_images/cs/gw_strain_amplitude.png" class="fig-center" alt="amplitude da deformação das ondas gravitacionais" caption="**Amplitude estimada da deformação das ondas gravitacionais do evento GW150914**" attr="(**Créditos do gráfico:** Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)" attrlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
 
 ## O papel da NumPy na detecção de ondas gravitacionais
 
@@ -56,11 +56,11 @@ NumPy, o pacote padrão de análise numérica para Python, foi parte do software
 * Cálculo de correlações
 * [Software](https://github.com/lscsoft) fundamental desenvolvido na análise de ondas gravitacionais, como [GwPy](https://gwpy.github.io/docs/stable/overview.html) e [PyCBC](https://pycbc.org) usam NumPy e AstroPy internamente para fornecer interfaces baseadas em objetos para utilidades, ferramentas e métodos para o estudo de dados de detectores de ondas gravitacionais.
 
-{{< figure src="/images/content_images/cs/gwpy-numpy-dep-graph.png" class="fig-center" alt="gwpy-numpy depgraph" caption="**Grafo de dependências mostrando como o pacote GwPy depended da NumPy**" >}}
+{{< figure src="/images/content_images/cs/gwpy-numpy-dep-graph.png" class="fig-center" alt="gráfico de dependências do gwpy com o NumPy em realce" caption="**Gráfico de dependências mostrando como o pacote GwPy depende do NumPy**" >}}
 
 ----
 
-{{< figure src="/images/content_images/cs/PyCBC-numpy-dep-graph.png" class="fig-center" alt="PyCBC-numpy depgraph" caption="**Grafo de dependências mostrando como o pacote PyCBC depended da NumPy**" >}}
+{{< figure src="/images/content_images/cs/PyCBC-numpy-dep-graph.png" class="fig-center" alt="gráfico de dependências do PyCBC com NumPy em realce" caption="**Gráfico de dependências mostrando como o pacote PyCBC depende do NumPy**" >}}
 
 ## Resumo
 
