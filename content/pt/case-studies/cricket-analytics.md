@@ -3,7 +3,7 @@ title: "Estudo de Caso: Análise de Críquete, a revolução!"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**IPLT20, o maior festival de Críquete da Índia**" alt="Copa e estádio da Indian Premier League Cricket" attr="*(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
+{{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**IPLT20, o maior festival de Críquete da Índia**" alt="Copa e estádio da Indian Premier League Cricket" attr="*(Créditos de imagem: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
 
 <blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
     <p>Você não joga para a torcida, joga para o país.</p>
@@ -49,7 +49,7 @@ Hoje, existem conjuntos ricos e quase infinitos de estatísticas e informações
 
   Muito da tomada de decisões em críquete se baseia em questões como "com que frequência um batsman joga um certo tipo de lance se a recepção da bola for de um determinado tipo", ou "como um boleador muda a direção e alcance da sua jogada se o batsman responder de uma certa maneira". Esse tipo de consulta de análise preditiva requer a disponibilidade de conjuntos de dados altamente granulares e a capacidade de sintetizar dados e criar modelos generativos que sejam altamente precisos.
 
-## Papel da NumPy na Análise de Críquete
+## Papel do NumPy na Análise de Críquete
 
 A análise de dados esportivos é um campo próspero. Muitos pesquisadores e empresas [usam NumPy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) e outros pacotes PyData como Scikit-learn, SciPy, Matplotlib, e Jupyter, além de usar as últimas técnicas de aprendizagem de máquina e IA.  O NumPy foi usado para vários tipos de análise esportiva relacionada a críquete, como:
 
@@ -61,4 +61,4 @@ A análise de dados esportivos é um campo próspero. Muitos pesquisadores e emp
 
 A análise de dados esportivos é revolucionária quando se trata de como os jogos profissionais são jogados, especialmente se consideramos como acontece a tomada de decisões estratégicas, que até pouco tempo era principalmente feita com base na "intuição" ou adesão a tradições passadas. O NumPy forma uma fundação sólida para um grande conjunto de pacotes Python que fornecem funções de alto nível relacionadas à análise de dados, aprendizagem de máquina e algoritmos de IA. Estes pacotes são amplamente implantados para se obter informações em tempo real que ajudam na tomada de decisão para resultados decisivos, tanto em campo como para se derivar inferências e orientar negócios em torno do jogo de críquete. Encontrar os parâmetros ocultos, padrões, e atributos que levam ao resultado de uma partida de críquete ajuda os envolvidos a tomar nota das percepções do jogo que estariam de outra forma ocultas nos números e estatísticas.
 
-{{< figure src="/images/content_images/cs/numpy_ca_benefits.png" class="fig-center" alt="Diagrama mostrando os benefícios de usar a NumPy para análise de críquete" caption="**Recursos principais da NumPy utilizados**" >}}
+{{< figure src="/images/content_images/cs/numpy_ca_benefits.png" class="fig-center" alt="Diagrama mostrando os benefícios de usar o NumPy para análise de críquete" caption="**Recursos principais do NumPy utilizados**" >}}
