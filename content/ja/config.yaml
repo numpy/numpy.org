@@ -8,7 +8,7 @@
 #
 languageName: Japanese
 params:
-  description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
+  description: NumPyが広く利用される理由: 強力なな多次元配列、数値計算ツール、相互運用性、高パフォーマンス、オープンソース
   navbarlogo:
     image: logos/numpy.svg
     link: /ja/
@@ -97,9 +97,9 @@ footer:
     column1:
       title: ""
       links:
-        - text: Install
+        - text: インストール
           link: /ja/install
-        - text: Documentation
+        - text: ドキュメント
           link: https://numpy.org/doc/stable
         - text: Learn
           link: /ja/learn
