@@ -1,11 +1,11 @@
 ---
-title: Array Computing
+title: Cómputo vectorial
 sidebar: false
 ---
 
 *Array computing is the foundation of statistical, mathematical, scientific computing in various contemporary data science and analytics applications such as data visualization, digital signal processing, image processing, bioinformatics, machine learning, AI, and several others.*
 
-Large scale data manipulation and transformation depends on efficient, high-performance array computing. The language of choice for data analytics, machine learning, and productive numerical computing is **Python.**
+La manipulación y transformación de datos a gran escala depende de una computación vectorial eficiente y de alto rendimiento. El lenguaje de elección para el análisis de datos, el aprendizaje automático y el cómputo numérico productivo es **Python.**
 
 **Num**erical **Py**thon or NumPy is its de-facto standard Python programming language library that supports large, multi-dimensional arrays and matrices, and comes with a vast collection of high-level mathematical functions to operate on these arrays.
 
