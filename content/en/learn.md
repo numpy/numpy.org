@@ -5,8 +5,13 @@ sidebar: false
 
 For the **official NumPy documentation** visit [numpy.org/doc/stable](https://numpy.org/doc/stable).
 
-Below is a curated collection of external resources. To contribute, see the [end of this page](#add-to-this-list).
+## NumPy Tutorials
+
+The official set of tutorials and educational materials by the NumPy community is [NumPy Tutorials](https://numpy.org/numpy-tutorials). The goal of this page is to provide high-quality resources by the NumPy project, both for self-learning and for teaching classes with, in the format of Jupyter Notebooks. If you’re interested in adding your own content, check the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
+
 ***
+
+Below is a curated collection of external resources. To contribute, see the [end of this page](#add-to-this-list).
 
 ## Beginners
 
@@ -60,7 +65,7 @@ Try these advanced resources for a better understanding of NumPy concepts like a
 
 <i class="far fa-file-video"></i> **Videos**
 
-* [Advanced NumPy - broadcasting rules, strides, and advanced indexing](https://www.youtube.com/watch?v=cYugp9IN1-Q) *by Juan Nunuz-Iglesias*
+* [Advanced NumPy - broadcasting rules, strides, and advanced indexing](https://www.youtube.com/watch?v=cYugp9IN1-Q) *by Juan Nunez-Iglesias*
 * [Advanced Indexing Operations in NumPy Arrays](https://www.youtube.com/watch?v=2WTDrSkQBng) *by Amuls Academy*
 
 ***
