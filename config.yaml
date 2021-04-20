@@ -302,30 +302,30 @@ languages:
     #
     languageName: Japanese
     params:
-      description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
+      description: NumPyが広く利用される理由, 強力なな多次元配列、数値計算ツール、相互運用性、高パフォーマンス、オープンソース
       navbarlogo:
         image: logos/numpy.svg
         link: /ja/
     
       hero:
         title: NumPy
-        subtitle: The fundamental package for scientific computing with Python
+        subtitle: Pythonによる科学技術計算の基礎パッケージ
         buttontext: Get started
         buttonlink: "/ja/install"
         image: logos/numpy.svg
     
       news:
         title: NumPy v1.20.0
-        content: Type annotation support - Performance improvements through multi-platform SIMD
+        content: 型アノテーションサポート - 複数のプラットフォームにおけるSIMDを利用したパフォーマンス改善
         url: /ja/news
     
       shell:
         title: placeholder  # do not translate
     
       casestudies:
-        title: CASE STUDIES
+        title: ケーススタディ
         features:
-        - title: First Image of a Black Hole
+        - title: 世界で初めてのブラックホールの画像
           text: How NumPy, together with libraries like SciPy and Matplotlib that depend on NumPy, enabled the Event Horizon Telescope to produce the first ever image of a black hole
           img: /images/content_images/case_studies/blackhole.png
           alttext: First image of a black hole. It is an orange circle in a black background.
@@ -362,11 +362,11 @@ languages:
           text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/ja/community).
     
       tabs:
-        title: ECOSYSTEM
+        title: エコシステム
       section5: false
     
     navbar:
-      - title: Install
+      - title: インストール
         url: /ja/install
       - title: Documentation
         url: https://numpy.org/doc/stable
@@ -391,25 +391,25 @@ languages:
         column1:
           title: ""
           links:
-            - text: Install
+            - text: インストール
               link: /ja/install
-            - text: Documentation
+            - text: ドキュメント
               link: https://numpy.org/doc/stable
-            - text: Learn
+            - text: 使い方の学び方
               link: /ja/learn
-            - text: Citing Numpy
+            - text: Numpyを引用する
               link: /ja/citing-numpy
-            - text: Roadmap
+            - text: ロードマップ
               link: https://numpy.org/neps/roadmap.html
         column2:
           links:
-            - text: About us
+            - text: 私達について
               link: /ja/about
-            - text: Community
+            - text: コミュニティ
               link: /ja/community
-            - text: Contribute
+            - text: プロジェクトに貢献する方法
               link: /ja/contribute
-            - text: Code of conduct
+            - text: 行動規範
               link: /ja/code-of-conduct
         column3:
           links:

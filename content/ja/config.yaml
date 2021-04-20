@@ -8,7 +8,7 @@
 #
 languageName: Japanese
 params:
-  description: NumPyが広く利用される理由: 強力なな多次元配列、数値計算ツール、相互運用性、高パフォーマンス、オープンソース
+  description: NumPyが広く利用される理由, 強力なな多次元配列、数値計算ツール、相互運用性、高パフォーマンス、オープンソース
   navbarlogo:
     image: logos/numpy.svg
     link: /ja/
