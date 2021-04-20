@@ -3,19 +3,19 @@ title: Cómputo vectorial
 sidebar: false
 ---
 
-*Array computing is the foundation of statistical, mathematical, scientific computing in various contemporary data science and analytics applications such as data visualization, digital signal processing, image processing, bioinformatics, machine learning, AI, and several others.*
+*El cómputo vectorial es la base del cómputo estadístico, matemático y científico en varias aplicaciones contemporáneas de ciencia de datos y análisis, como la visualización de datos, el procesamiento digital de señales, el procesamiento de imágenes, la bioinformática el aprendizaje automático, la IA y muchas otras.*
 
 La manipulación y transformación de datos a gran escala depende de una computación vectorial eficiente y de alto rendimiento. El lenguaje de elección para el análisis de datos, el aprendizaje automático y el cómputo numérico productivo es **Python.**
 
-**Num**erical **Py**thon or NumPy is its de-facto standard Python programming language library that supports large, multi-dimensional arrays and matrices, and comes with a vast collection of high-level mathematical functions to operate on these arrays.
+**Num**erical **Py**thon o NumPy es la biblioteca estándar de facto del lenguaje de programación Python que soporta matrices y arreglos multidimensionales de gran tamaño, y viene con una amplia colección de funciones matemáticas de alto nivel para operar sobre estos arreglos.
 
-Since the launch of NumPy in 2006, Pandas appeared on the landscape in 2008, and it was not until a couple of years ago that several array computing libraries showed up in succession, crowding the array computing landscape. Many of these newer libraries mimic NumPy-like features and capabilities, and pack newer algorithms and features geared towards machine learning and artificial intelligence applications.
+Tras el lanzamiento de NumPy en 2006, Pandas apareció en el panorama en 2008, y no fue hasta hace un par de años que aparecieron sucesivamente varias bibliotecas de cómputo vectorial, poblando este escenario. Muchas de estas nuevas bibliotecas imitan las características y capacidades de NumPy, y contienen nuevos algoritmos y características orientadas a las aplicaciones de aprendizaje automático e inteligencia artificial.
 
 <img
   src="/images/content_images/array_c_landscape.png"
   alt="arraycl"
-  title="Array Computing Landscape" />
+  title="Panorama del cómputo vectorial" />
 
-**Array computing** is based on **arrays** data structures. *Arrays* are used to organize vast amounts of data such that a related set of values can be easily sorted, searched, mathematically manipulated, and transformed easily and quickly.
+El **cómputo vectorial** está basado en los **arreglos** como estructura de datos. *Los arreglos* se utilizan para organizar grandes cantidades de datos de manera que un conjunto de valores relacionados pueda ordenarse, buscarse, manipularse matemáticamente y transformarse con facilidad y rapidez.
 
-Array computing is *unique* as it involves operating on the data array *at once*. What this means is that any array operation applies to an entire set of values in one shot. This vectorized approach provides speed and simplicity by enabling programmers to code and operate on aggregates of data, without having to use loops of individual scalar operations.
+La computación vectorial es *única* ya que implica operar sobre los arreglos de datos *de una vez*. Esto significa que cualquier operación de arreglos se aplica a un conjunto completo de valores de una sola vez. Este enfoque vectorial proporciona velocidad y simplicidad al permitir a los programadores codificar y trabajar sobre los datos agregados, sin tener que utilizar bucles de instrucciones escalares individuales.
