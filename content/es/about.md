@@ -1,18 +1,18 @@
 ---
-title: About Us
+title: Quiénes somos
 sidebar: false
 ---
 
-_Some information about the NumPy project and community_
+_Información sobre el proyecto y la comunidad NumPy_
 
-NumPy is an open source project aiming to enable numerical computing with Python. It was created in 2005, building on the early work of the Numeric and Numarray libraries. NumPy will always be 100% open source software, free for all to use and released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt).
+NumPy es un proyecto de código abierto cuyo objetivo es facilitar la computación numérica con Python. Se creó en el 2005, a partir de los primeros trabajos de las bibliotecas Numeric y Numarray. NumPy siempre será un software 100% de código abierto, de uso libre para todos y liberado bajo los términos liberales de la [licencia BSD modificada](https://github.com/numpy/numpy/blob/master/LICENSE.txt).
 
-NumPy is developed in the open on GitHub, through the consensus of the NumPy and wider scientific Python community. For more information on our governance approach, please see our [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
+NumPy se desarrolla de forma abierta en GitHub, mediante el consenso de la comunidad de NumPy y de la comunidad científica de Python en general. Para más información sobre nuestro enfoque de gobernanza, consulta nuestro [Documento de Gobernanza](https://www.numpy.org/devdocs/dev/governance/index.html).
 
 
-## Steering Council
+## Consejo Directivo
 
-The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community. The NumPy Steering Council currently consists of the following members (in alphabetical order):
+El papel del Consejo Directivo de NumPy es garantizar, a través del trabajo con la comunidad NumPy en general y al servicio de la misma, el bienestar a largo plazo del proyecto, tanto desde el punto de vista técnico como de la comunidad. El Consejo Directivo de NumPy está formado actualmente por los siguientes miembros (en orden alfabético):
 
 - Sebastian Berg
 - Ralf Gommers
@@ -24,9 +24,9 @@ The role of the NumPy Steering Council is to ensure, through working with and se
 - Stéfan van der Walt
 - Eric Wieser
 
-Emeritus:
+Eméritos:
 
-- Travis Oliphant (project founder, 2005-2012)
+- Travis Oliphant (fundador del proyecto, 2005-2012)
 - Alex Griffing (2015-2017)
 - Marten van Kerkwijk (2017-2019)
 - Allan Haldane (2015-2021)
@@ -36,37 +36,37 @@ Emeritus:
 - Jaime Fernández del Río (2014-2021)
 
 
-## Teams
+## Equipos
 
-The NumPy project is growing; we have teams for
+El proyecto NumPy está creciendo; tenemos equipos para
 
-- code
-- documentation
-- website
-- triage
-- funding and grants
+- código
+- documentación
+- sitio web
+- triaje
+- financiación y subvenciones
 
-See the [Team](/gallery/team.html) page for individual team members.
+Visita la página [Equipo](/gallery/team.html) para conocer a los miembros de cada equipo.
 
-## Sponsors
+## Patrocinadores
 
-NumPy receives direct funding from the following sources:
+NumPy recibe financiación directa de las siguientes fuentes:
 {{< sponsors >}}
 
 
-## Institutional Partners
+## Socios institucionales
 
-Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include:
+Los socios institucionales son organizaciones que apoyan el proyecto empleando a personas que contribuyen a NumPy como parte de su trabajo. Entre los actuales socios institucionales se encuentran:
 {{< partners >}}
 
 
-## Donate
+## Donar
 
-If you have found NumPy useful in your work, research, or company, please consider a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation, and community.
+Si has encontrado NumPy útil en tu trabajo, investigación o empresa, por favor considera una donación al proyecto proporcional a tus recursos. ¡Cualquier cantidad ayuda! Todas las donaciones se utilizarán estrictamente para financiar el desarrollo del software de código abierto, la documentación y la comunidad de NumPy.
 
-NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit [numfocus.org](https://numfocus.org) for more information.
+NumPy es un proyecto patrocinado por NumFOCUS, una organización benéfica sin fines de lucro 501(c)(3) de Estados Unidos. NumFOCUS proporciona a NumPy apoyo fiscal, legal y administrativo para ayudar a garantizar el bienestar y la sostenibilidad del proyecto. Visita [numfocus.org](https://numfocus.org) para más información.
 
-Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax advisor about your particular tax situation.
+Las donaciones a NumPy son gestionadas por [NumFOCUS](https://numfocus.org). Para los donantes de Estados Unidos, su donación es deducible de impuestos en la medida prevista por la ley. Al igual que con cualquier donación, debes consultar a tu asesor de impuestos sobre tu situación fiscal particular.
 
-NumPy's Steering Council will make the decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
+El Consejo Directivo de NumPy tomará las decisiones sobre el mejor uso de los fondos recibidos. Las prioridades técnicas y de infraestructura están documentadas en la [Hoja de ruta de NumPy](https://www.numpy.org/neps/index.html#roadmap).
 {{< numfocus >}}
