@@ -39,7 +39,7 @@ params:
     - title: 重力波の検知
       text: 1916年にアルバート・アインシュタインが重力波を予言し、その100年後にLIGOの研究者がNumPyを使ってその存在を確認しました。
       img: /images/content_images/case_studies/gravitional.png
-      alttext: 2つのオーブがお互いに周回し、周りの重力を変位させている。
+      alttext: 2つのオーブがお互いに周回し、周りの重力を変位させています。
       url: /ja/case-studies/gw-discov
     - title: スポーツ分析
       text: クリケット分析は、統計的モデリングと予測分析によって選手やチームのパフォーマンスを向上させることで、クリケットの試合を変えようとしています。多くの分析が、NumPyにより可能になりました。
