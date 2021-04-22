@@ -34,7 +34,7 @@ params:
     - title: 世界で初めてのブラックホールの画像
       text: NumPyと、NumPyに依存するSciPyやMatplotlibなどのライブラリを使って、Event Horizon Telescopeがどうやって世界で初めてブラックホールの画像を作成することができたのでしょうか。
       img: /images/content_images/case_studies/blackhole.png
-      alttext: 世界で最初のブラックホールの画像。黒い背景にオレンジ色の円で描かれています。
+      alttext: 世界初のブラックホール画像。黒い背景にオレンジ色の円で描かれています。
       url: /ja/case-studies/blackhole-image
     - title: 重力波の検知
       text: 1916年にアルバート・アインシュタインが重力波を予言し、その100年後にLIGOの研究者がNumPyを使ってその存在を確認しました。
