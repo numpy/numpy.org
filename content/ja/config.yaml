@@ -8,7 +8,7 @@
 #
 languageName: Japanese
 params:
-  description: NumPyが広く利用される理由, 強力な多次元配列、数値計算ツール群、相互運用性、高パフォーマンス、オープンソース
+  description: NumPyが広く利用される理由 強力な多次元配列、数値計算ツール群、相互運用性、高いパフォーマンス、オープンソース
   navbarlogo:
     image: logos/numpy.svg
     link: /ja/
@@ -32,12 +32,12 @@ params:
     title: ケーススタディ
     features:
     - title: 世界初のブラックホール画像
-      text: NumPyはどのように、SciPyやMatplotlibなどNumPyに依存するライブラリとともに、イベントホライズンテレスコープによる世界初のブラックホール画像の作成を可能にしたのでしょうか。
+      text: NumPyはどのように、SciPyやMatplotlibなどのNumPyに依存するライブラリとともに、イベントホライズンテレスコープによる世界初のブラックホール画像の作成を可能にしたのでしょうか。
       img: /images/content_images/case_studies/blackhole.png
       alttext: 世界初のブラックホール画像。黒い背景にオレンジ色の円で描かれています。
       url: /ja/case-studies/blackhole-image
     - title: 重力波の検知
-      text: 1916年にアルバート・アインシュタインが重力波を予言し、その100年後にLIGOの研究者がNumPyを使ってその存在を確認しました。
+      text: 1916年、アルバート・アインシュタインは重力波を予言しました。100年後、LIGOの研究者たちはNumPyを使ってその存在を確認しました。
       img: /images/content_images/case_studies/gravitional.png
       alttext: 2つのオーブがお互いに周回し、周りの重力を変位させています。
       url: /ja/case-studies/gw-discov
@@ -82,7 +82,7 @@ navbar:
     url: /ja/community
   - title: 私達について
     url: /ja/about
-  - title: 貢献のする方法
+  - title: NumPyに貢献する
     url: /ja/contribute
 
 footer:

@@ -302,7 +302,7 @@ languages:
     #
     languageName: Japanese
     params:
-      description: NumPyが広く利用される理由, 強力なな多次元配列、数値計算ツール群、相互運用性、高パフォーマンス、オープンソース
+      description: NumPyが広く利用される理由 強力な多次元配列、数値計算ツール群、相互運用性、高いパフォーマンス、オープンソース
       navbarlogo:
         image: logos/numpy.svg
         link: /ja/
@@ -325,23 +325,23 @@ languages:
       casestudies:
         title: ケーススタディ
         features:
-        - title: 世界で初めてのブラックホールの画像
-          text: NumPyと、NumPyに依存するSciPyやMatplotlibなどのライブラリを使って、Event Horizon Telescopeがどうやって世界で初めてブラックホールの画像を作成することができたのでしょうか。
+        - title: 世界初のブラックホール画像
+          text: NumPyはどのように、SciPyやMatplotlibなどのNumPyに依存するライブラリとともに、イベントホライズンテレスコープによる世界初のブラックホール画像の作成を可能にしたのでしょうか。
           img: /images/content_images/case_studies/blackhole.png
-          alttext: 世界で最初のブラックホールの画像。黒い背景にオレンジ色の円で描かれています。
+          alttext: 世界初のブラックホール画像。黒い背景にオレンジ色の円で描かれています。
           url: /ja/case-studies/blackhole-image
         - title: 重力波の検知
-          text: 1916年にアルバート・アインシュタインが重力波を予言し、その100年後にLIGOの研究者がNumPyを使ってその存在を確認しました。
+          text: 1916年、アルバート・アインシュタインは重力波を予言しました。100年後、LIGOの研究者たちはNumPyを使ってその存在を確認しました。
           img: /images/content_images/case_studies/gravitional.png
-          alttext: 2つのオーブがお互いに周回し、周りの重力を変位させている。
+          alttext: 2つのオーブがお互いに周回し、周りの重力を変位させています。
           url: /ja/case-studies/gw-discov
         - title: スポーツ分析
-          text: クリケット分析は、統計的モデリングと予測分析によって選手やチームのパフォーマンスを向上させることで、クリケットの試合を変えようとしています。NumPyはこれらの沢山の分析を実現可能にしました。
+          text: クリケット分析は、統計的モデリングと予測分析によって選手やチームのパフォーマンスを向上させることで、クリケットの試合を変えようとしています。多くの分析が、NumPyにより可能になりました。
           img: /images/content_images/case_studies/sports.jpg
-          alttext: 緑のフィールド上にボールが存在している。
+          alttext: 緑のフィールド上にあるクリケットのボール。
           url: /ja/case-studies/cricket-analytics
         - title: 深層学習による姿勢推定
-          text: DeepLabCutでは、動物の行動を観察することで、動物の種類や時間軸を超えた運動制御の理解を深めることで科学技術研究を加速するために、NumPyを使用しています。
+          text: DeepLabCutは、NumPyを使用して、種族・時間スケールによらない運動制御の理解を目指し動物の行動観察を行う科学技術研究を加速しています。
           img: /images/content_images/case_studies/deeplabcut.png
           alttext:  チータの姿勢推定
           url: /ja/case-studies/deeplabcut-dnn
@@ -355,11 +355,11 @@ languages:
         - title: 相互運用性
           text: NumPyは、幅広いハードウェアとコンピューティング・プラットフォームをサポートしており、分散処理、GPU、疎行列ライブラリにも対応しています。
         - title: 高パフォーマンス
-          text: NumPyの中核は最適化されたC言語のコードです。Pythonの柔軟性とコンパイルされたコードのスピードを楽しむことができます。
+          text: NumPyの中核は最適化されたC言語のコードです。Pythonの柔軟性とコンパイルされたコードの高速さを享受できます。
         - title: 使いやすさ
-          text: NumPyの高度なシンタックスは、どんなバックグラウンドや経験値のプログラマーでも利用でき、生産性高めることができます。
+          text: NumPyの高水準なシンタックスは、どんなバックグラウンドや経験値のプログラマーでも利用でき、生産性を高めることができます。
         - title: オープンソース
-          text: 自由な[BSDライセンス](https://github.com/numpy/numpy/blob/master/LICENSE.txt)で公開されており, NumPyは活発で, 互いを尊重し, 多様性を認め合う[コミュニティ](/ja/community)によって、 [GitHub](https://github.com/numpy/numpy)上でオープンに開発されています.
+          text: 寛容な[BSDライセンス](https://github.com/numpy/numpy/blob/master/LICENSE.txt)で公開されています。NumPyは活発で、互いを尊重し、多様性を認め合う[コミュニティ](/ja/community)によって、 [GitHub](https://github.com/numpy/numpy)上でオープンに開発されています.
     
       tabs:
         title: エコシステム
@@ -376,7 +376,7 @@ languages:
         url: /ja/community
       - title: 私達について
         url: /ja/about
-      - title: 貢献のする方法
+      - title: NumPyに貢献する
         url: /ja/contribute
     
     footer:
