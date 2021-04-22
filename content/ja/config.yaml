@@ -31,8 +31,8 @@ params:
   casestudies:
     title: ケーススタディ
     features:
-    - title: 世界で初めてのブラックホールの画像
-      text: NumPyと、NumPyに依存するSciPyやMatplotlibなどのライブラリを使って、Event Horizon Telescopeがどうやって世界で初めてブラックホールの画像を作成することができたのでしょうか。
+    - title: 世界初のブラックホール画像
+      text: NumPyはどのように、SciPyやMatplotlibなどNumPyに依存するライブラリとともに、イベントホライズンテレスコープによる世界初のブラックホール画像の作成を可能にしたのでしょうか。
       img: /images/content_images/case_studies/blackhole.png
       alttext: 世界初のブラックホール画像。黒い背景にオレンジ色の円で描かれています。
       url: /ja/case-studies/blackhole-image
