@@ -44,7 +44,7 @@ params:
     - title: スポーツ分析
       text: クリケット分析は、統計的モデリングと予測分析によって選手やチームのパフォーマンスを向上させることで、クリケットの試合を変えようとしています。NumPyはこれらの沢山の分析を実現可能にしました。
       img: /images/content_images/case_studies/sports.jpg
-      alttext: 緑のフィールド上にボールが存在している。
+      alttext: 緑のフィールド上にあるクリケットのボール。
       url: /ja/case-studies/cricket-analytics
     - title: 深層学習による姿勢推定
       text: DeepLabCutは、NumPyを使用して、種族・時間スケールによらない運動制御の理解を目指し動物の行動観察を行う科学技術研究を加速しています。
