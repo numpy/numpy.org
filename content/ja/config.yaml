@@ -47,7 +47,7 @@ params:
       alttext: 緑のフィールド上にボールが存在している。
       url: /ja/case-studies/cricket-analytics
     - title: 深層学習による姿勢推定
-      text: DeepLabCutでは、動物の行動を観察することで、動物の種類や時間軸を超えた運動制御の理解を深めることで科学技術研究を加速するために、NumPyを使用しています。
+      text: DeepLabCutは、NumPyを使用して、種族・時間スケールによらない運動制御の理解を目指し動物の行動観察を行う科学技術研究を加速しています。
       img: /images/content_images/case_studies/deeplabcut.png
       alttext:  チータの姿勢推定
       url: /ja/case-studies/deeplabcut-dnn
