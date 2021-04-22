@@ -42,7 +42,7 @@ params:
       alttext: 2つのオーブがお互いに周回し、周りの重力を変位させている。
       url: /ja/case-studies/gw-discov
     - title: スポーツ分析
-      text: クリケット分析は、統計的モデリングと予測分析によって選手やチームのパフォーマンスを向上させることで、クリケットの試合を変えようとしています。NumPyはこれらの沢山の分析を実現可能にしました。
+      text: クリケット分析は、統計的モデリングと予測分析によって選手やチームのパフォーマンスを向上させることで、クリケットの試合を変えようとしています。多くの分析が、NumPyにより可能になりました。
       img: /images/content_images/case_studies/sports.jpg
       alttext: 緑のフィールド上にあるクリケットのボール。
       url: /ja/case-studies/cricket-analytics
