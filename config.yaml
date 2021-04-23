@@ -338,10 +338,10 @@ languages:
         - title: スポーツ分析
           text: クリケット分析は、統計的モデリングと予測分析によって選手やチームのパフォーマンスを向上させることで、クリケットの試合を変えようとしています。多くの分析が、NumPyにより可能になりました。
           img: /images/content_images/case_studies/sports.jpg
-          alttext: 緑のフィールド上にあるクリケットのボール。
+          alttext: 緑のフィールド上にあるクリケットボール。
           url: /ja/case-studies/cricket-analytics
         - title: 深層学習による姿勢推定
-          text: DeepLabCutは、NumPyを使用して、種族・時間スケールによらない運動制御の理解を目指し動物の行動観察を行う科学技術研究を加速しています。
+          text: DeepLabCutはNumPyを利用し、種族・時間スケールによらない運動制御の理解へ向け、動物の行動観察を含む科学技術研究を加速しています。
           img: /images/content_images/case_studies/deeplabcut.png
           alttext:  チータの姿勢推定
           url: /ja/case-studies/deeplabcut-dnn
@@ -355,7 +355,7 @@ languages:
         - title: 相互運用性
           text: NumPyは、幅広いハードウェアとコンピューティング・プラットフォームをサポートしており、分散処理、GPU、疎行列ライブラリにも対応しています。
         - title: 高パフォーマンス
-          text: NumPyの中核は最適化されたC言語のコードです。Pythonの柔軟性とコンパイルされたコードの高速さを享受できます。
+          text: NumPyの中核は最適化されたC言語のコードです。Pythonの柔軟性を、コンパイルされたコードの高速さとともに享受できます。
         - title: 使いやすさ
           text: NumPyの高水準なシンタックスは、どんなバックグラウンドや経験値のプログラマーでも利用でき、生産性を高めることができます。
         - title: オープンソース
