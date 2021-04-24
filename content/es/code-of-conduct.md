@@ -7,21 +7,21 @@ aliases:
 
 ### Introducción
 
-This Code of Conduct applies to all spaces managed by the NumPy project, including all public and private mailing lists, issue trackers, wikis, blogs, Twitter, and any other communication channel used by our community. The NumPy project does not organise in-person events, however events related to our community should have a code of conduct similar in spirit to this one.
+Este Código de Conducta se aplica a todos los espacios gestionados por el proyecto NumPy, incluyendo todas las listas de correo públicas y privadas, gestores de incidencias, wikis, blogs, Twitter y cualquier otro canal de comunicación utilizado por nuestra comunidad. El proyecto NumPy no organiza eventos en persona, sin embargo los eventos relacionados con nuestra comunidad deben tener un código de conducta similar a este.
 
-This Code of Conduct should be honored by everyone who participates in the NumPy community formally or informally, or claims any affiliation with the project, in any project-related activities and especially when representing the project, in any role.
+Este Código de Conducta debe ser respetado por todos los que participan en la comunidad NumPy formalmente o informalmente, o reclaman cualquier afiliación con el proyecto, en cualquier actividad relacionada con el proyecto y especialmente cuando representan el proyecto, de cualquier manera.
 
-This code is not exhaustive or complete. It serves to distill our common understanding of a collaborative, shared environment and goals. Please try to follow this code in spirit as much as in letter, to create a friendly and productive environment that enriches the surrounding community.
+Este código no es exhaustivo ni completo. Sirve para sintetizar nuestro entendimiento común de un entorno y unos objetivos compartidos y de colaboración. Por favor, intenta seguir este código tanto en el espíritu como en la letra, para crear un ambiente cordial y productivo que enriquezca a la comunidad circundante.
 
-### Specific Guidelines
+### Directrices Específicas
 
-We strive to:
+Nos esforzamos por:
 
-1. Be open. We invite anyone to participate in our community. We prefer to use public methods of communication for project-related messages, unless discussing something sensitive. This applies to messages for help or project-related support, too; not only is a public support request much more likely to result in an answer to a question, it also ensures that any inadvertent mistakes in answering are more easily detected and corrected.
-2. Be empathetic, welcoming, friendly, and patient. We work together to resolve conflict, and assume good intentions. We may all experience some frustration from time to time, but we do not allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.
-3. Be collaborative. Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of the project, we are willing to explain to others how it works, so that they can build on the work to make it even better. Any decision we make will affect users and colleagues, and we take those consequences seriously when making decisions.
-4. Be inquisitive. Nobody knows everything! Asking questions early avoids many problems later, so we encourage questions, although we may direct them to the appropriate forum. We will try hard to be responsive and helpful.
-5. Be careful in the words that we choose. We are careful and respectful in our communication, and we take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. We will not accept harassment or other exclusionary behaviour, such as:
+1. Ser abiertos. Invitamos a todas las personas a participar en nuestra comunidad. Preferimos utilizar métodos de comunicación públicos para los mensajes relacionados con el proyecto, a menos que se trate de algo delicado. Esto se aplica también a los mensajes de ayuda o soporte relacionados con el proyecto; no sólo es mucho más probable que una solicitud de soporte pública dé lugar a una respuesta a una pregunta, sino que también garantiza que cualquier error involuntario en la respuesta se detecte y corrija más fácilmente.
+2. Ser empáticos, receptivos, amables y pacientes. Trabajamos juntos para resolver los conflictos y asumimos que hay buenas intenciones. Todos podemos experimentar cierta frustración de vez en cuando, pero no permitimos que la frustración se convierta en un ataque personal. Una comunidad en la que la gente se siente incómoda o amenazada no es productiva.
+3. Ser colaborativos. Nuestro trabajo será utilizado por otras personas, y a su vez dependeremos del trabajo de otros. Cuando hacemos algo en beneficio del proyecto, estamos dispuestos a explicar a otros cómo funciona. para que puedan aprovechar el trabajo y hacerlo aún mejor. Cualquier decisión que tomemos afectará a usuarios y colegas, y nos tomaremos en serio esas consecuencias a la hora de tomar decisiones.
+4. Ser curiosos. ¡Nadie lo sabe todo! Plantear las preguntas con antelación evita muchos problemas posteriores, por lo que fomentamos las preguntas, aunque es conveniente dirigirlas al foro adecuado. Nos esforzaremos por ser receptivos y útiles.
+5. Ser cuidadosos con las palabras que elijamos. We are careful and respectful in our communication, and we take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. We will not accept harassment or other exclusionary behaviour, such as:
     * Violent threats or language directed against another person.
     * Sexist, racist, or otherwise discriminatory jokes and language.
     * Posting sexually explicit or violent material.
