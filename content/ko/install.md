@@ -1,11 +1,11 @@
 ---
-title: Installing NumPy
+title: NumPy 설치
 sidebar: false
 ---
 
-The only prerequisite for installing NumPy is Python itself. If you don't have Python yet and want the simplest way to get started, we recommend you use the [Anaconda Distribution](https://www.anaconda.com/distribution) - it includes Python, NumPy, and many other commonly used packages for scientific computing and data science.
+NumPy 설치를 위해서는 Python만 필요합니다. 만양 파이썬이 설치되지 않았다면, Python, NumPy, 그리고 다양한 데이터 과학과 과학 계산을 위해 일반적으로 많이 사용되는 패키지를 한번에 설치할 수 있는 [Anaconda Distribution](https://www.anaconda.com/distribution)을 활용하여 설치하는 것을 추천합니다.
 
-NumPy can be installed with `conda`, with `pip`, with a package manager on macOS and Linux, or [from source](https://numpy.org/devdocs/user/building.html). For more detailed instructions, consult our [Python and NumPy installation guide](#python-numpy-install-guide) below.
+NumPy 는 `conda`, `pip` 그리고 macOS과 Linux의 패키지 매니저를 사용하거나 또는 [소스](https://numpy.org/devdocs/user/building.html)로 부터 설치할 수 있습니다. For more detailed instructions, consult our [Python and NumPy installation guide](#python-numpy-install-guide) below.
 
 **CONDA**
 
