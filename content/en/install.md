@@ -1,5 +1,5 @@
 ---
-title: Installing NumPy
+title: Installing NumPy (the right way)
 sidebar: false
 ---
 
