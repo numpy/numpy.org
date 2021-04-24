@@ -24,3 +24,4 @@
 # Here is another way to define context specific environment variables.
 [context.deploy-preview.environment]
   PYTHON_VERSION = "3.7"
+  NUMPYORG_WITH_TRANSLATIONS = "1"
