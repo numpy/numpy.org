@@ -6,7 +6,7 @@
 # Comments (starting with `#`) and `url:` or `link:` lines also do not
 # need to be translated. `title:` and `text:` lines do need translation.
 #
-languageName: Japanese
+languageName: 日本語 (Japanese)
 params:
   description: NumPyが広く利用される理由 強力な多次元配列、数値計算ツール群、相互運用性、高いパフォーマンス、オープンソース
   navbarlogo:
