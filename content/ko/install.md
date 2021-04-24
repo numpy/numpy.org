@@ -5,30 +5,31 @@ sidebar: false
 
 NumPy 설치를 위해서는 Python만 필요합니다. 만양 파이썬이 설치되지 않았다면, Python, NumPy, 그리고 다양한 데이터 과학과 과학 계산을 위해 일반적으로 많이 사용되는 패키지를 한번에 설치할 수 있는 [Anaconda Distribution](https://www.anaconda.com/distribution)을 활용하여 설치하는 것을 추천합니다.
 
-NumPy 는 `conda`, `pip` 그리고 macOS과 Linux의 패키지 매니저를 사용하거나 또는 [소스](https://numpy.org/devdocs/user/building.html)로 부터 설치할 수 있습니다. For more detailed instructions, consult our [Python and NumPy installation guide](#python-numpy-install-guide) below.
+NumPy 는 `conda`, `pip` 그리고 macOS과 Linux의 패키지 매니저를 사용하거나 또는 [소스](https://numpy.org/devdocs/user/building.html)로 부터 설치할 수 있습니다. 보다 상세한 설치 과정과 방법은 [Python and NumPy 설치 가이드](#python-numpy-install-guide)의 아래쪽에 있습니다.
 
 **CONDA**
 
-If you use `conda`, you can install NumPy from the `defaults` or `conda-forge` channels:
+만약 `conda`를 사용해 설치하는 경우, `defaults` 또는 `conda-forge` 채널을 활용해서 설치할 수 있습니다.
 
 ```bash
-# Best practice, use an environment rather than install in the base env
-conda create -n my-env
-conda activate my-env
-# If you want to install from conda-forge
+# 기본 환경보다 가상환경을 설치하여 활용하는 것이 좋습니다.
+# Anaconda가 설치된 환경에서 cmd에서 하기 명령어를 입력합니다.
+conda create -n my-env # my-env 라는 이름의 가상환경 생성
+conda activate my-env # 활성화 된 가상환경을 my-env로 변경
+# conda-forge로 설치하는 경우하기 명령어 입력
 conda config --env --add channels conda-forge
-# The actual install command
+# 실제 설치 명령어
 conda install numpy
 ```
 
 **PIP**
 
-If you use `pip`, you can install NumPy with:
+만약 `pip`로 NumPy를 설치하는 경우
 
 ```bash
 pip install numpy
 ```
-Also when using pip, it's good practice to use a virtual environment - see  [Reproducible Installs](#reproducible-installs) below for why, and [this guide](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto) for details on using virtual environments.
+또한 pip를 사용할 때, 가상환경을 만들어보고, 만들어진 가상환경에 설치하는 것이 좋습니다. 상세한 내용은 [Reproducible Installs](#reproducible-installs)를 참조하십시오. 또한 가상환경을 사용하는 상세한 내용은 [가이드](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto)를 참조하십시오.
 
 <a name="python-numpy-install-guide"></a>
 
