@@ -12,7 +12,7 @@ _بعض المعلومات حول مشروع ومجتمع نمباي_
 
 ## المجلس التوجيهي
 
-The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community. ويتألف المجلس التوجيهي المعني لنمباي حاليا علي الأعضاء التالية (بالترتيب الأبجدي):
+The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community. ويتألف المجلس التوجيهي المعني بالمشروع حاليا من الأعضاء التالية (بالترتيب الأبجدي):
 
 - Sebastian Berg
 - Ralf Gommers
@@ -26,8 +26,8 @@ The role of the NumPy Steering Council is to ensure, through working with and se
 
 Emeritus:
 
-- Travis Oliphant (project founder, 2005-2012)
-- Alex Griffing (2015-2017)
+- ترافيس أوليفانت (مؤسس المشروع، 2005-2012)
+- ألكس غريفينغ (2015-2017)
 - Marten van Kerkwijk (2017-2019)
 - Allan Haldane (2015-2021)
 - Nathaniel Smith (2012-2021)
