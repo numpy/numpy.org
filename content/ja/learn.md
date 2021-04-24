@@ -5,14 +5,19 @@ sidebar: false
 
 **公式の Numpy ドキュメント** については [numpy.org/doc/stable](https://numpy.org/doc/stable) を参照してください。
 
-以下は、キュレーションされた外部リソースのリストです。 こちらのリストに貢献するには、 [このページの末尾](#add-to-this-list) を参照してください。
+## NumPy Tutorials
+
+You can find a set of tutorials and educational materials by the NumPy community at [NumPy Tutorials](https://numpy.org/numpy-tutorials). The goal of this page is to provide high-quality resources by the NumPy project, both for self-learning and for teaching classes with, in the format of Jupyter Notebooks. If you’re interested in adding your own content, check the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
+
 ***
 
-## 初心者向け
+Below is a curated collection of external resources. To contribute, see the [end of this page](#add-to-this-list).
 
-NumPyについての資料は多数存在しています。 初心者の方にはこちらの資料をお勧めします：
+## Beginners
 
-<i class="fas fa-chalkboard"></i> **チュートリアル**
+There's a ton of information about NumPy out there. If you are new, we'd strongly recommend these:
+
+<i class="fas fa-chalkboard"></i> **Tutorials**
 
 * [NumPy Quickstart チュートリアル](https://numpy.org/devdocs/user/quickstart.html)
 * [NumPy Illustrated: The Visual Guide to NumPy *by Lev Maximov*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
@@ -25,25 +30,25 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 * [Stanford CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
 * [NumPy User Guide](https://numpy.org/devdocs)
 
-<i class="fas fa-book"></i> **書籍**
+<i class="fas fa-book"></i> **Books**
 
 * [NumPガイド*by Travelis E. Oliphant*](http://web.mit.edu/dvp/Public/numpybook.pdf) これは2006年の無料版の初版です 最新版(2015年)については、こちら [を参照ください](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007).
 * [PythonからNumPyまで*by Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 * [エレガントなSciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) *by Juan Nunez-Iglesias, Stefan van der Walt, and Harriet Dashnow*
 
-また、"Python+SciPy"を題材にした [おすすめリスト](https://www.goodreads.com/shelf/show/python-scipy) をもチェックしてみてください。 ほとんどの本にはNumPyを核とした「SciPyエコシステム」が説明されています。
+You may also want to check out the [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) on the subject of "Python+SciPy." Most books there are about the "SciPy ecosystem," which has NumPy at its core.
 
-<i class="far fa-file-video"></i> **動画**
+<i class="far fa-file-video"></i> **Videos**
 
 * [Numpy を使った数値計算入門](http://youtu.be/ZB7BZMhfPgk) *by Alex Chabot-Leclerc*
 
 ***
 
-## 上級者向け
+## Advanced
 
-より高度なインデックス作成、分割、スタック、線形代数など、Numpy の概念をより深く理解するためには、これらのリソースを試してみてください。
+Try these advanced resources for a better understanding of NumPy concepts like advanced indexing, splitting, stacking, linear algebra, and more.
 
-<i class="fas fa-chalkboard"></i> **チュートリアル**
+<i class="fas fa-chalkboard"></i> **Tutorials**
 
 * [NumPy 100演習](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) *Nicolas P. Rougier*
 * [NumPyとSciPyイントロダクション](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) *by M. Scott Shell*
@@ -52,20 +57,20 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 * [高度なインデックシング](https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm)
 * [NumPy による機械学習とデータ分析](https://www.machinelearningplus.com/python/numpy-tutorial-python-part2/)
 
-<i class="fas fa-book"></i> **書籍**
+<i class="fas fa-book"></i> **Books**
 
 * [Pythonデータサイエンスハンドブック](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057) *by Jake Vanderplas*
 * [Pythonデータ解析](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662) *by Wes McKinney*
 * [数値解析Python: Numpy, SciPy, Matplotlibによる数値計算とデータサイエンスアプリケーション](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459) *by Robert Johansson*
 
-<i class="far fa-file-video"></i> **動画**
+<i class="far fa-file-video"></i> **Videos**
 
-* [アドバンスドNumPy -](https://www.youtube.com/watch?v=cYugp9IN1-Q) *ブロードキャストルール、ストライド、および高度なインデックシング* by Fan Nunuz-Iglesias
+* [Advanced NumPy - broadcasting rules, strides, and advanced indexing](https://www.youtube.com/watch?v=cYugp9IN1-Q) *by Juan Nunez-Iglesias*
 * [NumPy配列における高度なインデクシング処理](https://www.youtube.com/watch?v=2WTDrSkQBng) *by Amuls Academy*
 
 ***
 
-## NumPyに関するトーク
+## NumPy Talks
 
 * [Numpy Indexing の未来](https://www.youtube.com/watch?v=o0EacbIbf58) *by Jaime Fernadez* (2016)
 * [Python における配列計算革命](https://www.youtube.com/watch?v=HVLPJnvInzM&t=10s) *by Ralf Gommers* (2019)
@@ -75,11 +80,11 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 
 ***
 
-## NumPy を引用する場合
+## Citing NumPy
 
-もし、あなたの研究においてNumpyが重要な役割を果たし、論文でこのプロジェクトについて言及したい場合は、こちらの[ページ](/citing-numpy)を参照して下さい。
+If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, please see [this citation information](/citing-numpy).
 
-## このページへの貢献
+## Contribute to this list
 
 <a name="add-to-this-list"></a>
-このページのリストに新しいリンクを追加するには、[プルリクエスト](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md)を使って提案してみて下さい。 あなたが推薦する情報が、このページで紹介するに値する理由と、その情報によってどのような人が最も恩恵を受けるかを説明して下さい。
+To add to this collection, submit a recommendation [via a pull request](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md). Say why your recommendation deserves mention on this page and also which audience would benefit most.
