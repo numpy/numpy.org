@@ -3,21 +3,21 @@ title: Learn
 sidebar: false
 ---
 
-For the **official NumPy documentation** visit [numpy.org/doc/stable](https://numpy.org/doc/stable).
+**공식 NumPy 문서**는 [numpy.org/doc/stable](https://numpy.org/doc/stable)에 있습니다.
 
-## NumPy Tutorials
+## NumPy 튜토리얼
 
-You can find a set of tutorials and educational materials by the NumPy community at [NumPy Tutorials](https://numpy.org/numpy-tutorials). The goal of this page is to provide high-quality resources by the NumPy project, both for self-learning and for teaching classes with, in the format of Jupyter Notebooks. If you’re interested in adding your own content, check the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
+NumPy 커뮤니티 [NumPy Tutorials](https://numpy.org/numpy-tutorials)에서 다양한 튜토리얼과 교육 자료를 찾을 수 있습니다. 이 페이지의 목적은 개인 학습 자료와 강의 자료 모두로 활용할 수 있도록 양질의 자료를 제공하는 것이며, 자료는 Jupyter Notebooks 형식으로 되어 있습니다. 만약 추가하고 싶은 내용이 생기는 경우 [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials)를 확인해 주십시오.
 
 ***
 
-Below is a curated collection of external resources. To contribute, see the [end of this page](#add-to-this-list).
+아래는 선별된 외부 자료가 모아져 있습니다. 여기에 기여하기 위해서는 [이 페이지](#add-to-this-list)의 마지막 부분을 확인 해주십시오.
 
-## Beginners
+## 초심자
 
-There's a ton of information about NumPy out there. If you are new, we'd strongly recommend these:
+방대한 자료가 제공되고 있습니다. 만약 처음 접하신다면, 아래의 자료를 강하게 권해드립니다.
 
-<i class="fas fa-chalkboard"></i> **Tutorials**
+<i class="fas fa-chalkboard"></i> **튜토리얼**
 
 * [NumPy Quickstart Tutorial](https://numpy.org/devdocs/user/quickstart.html)
 * [NumPy Illustrated: The Visual Guide to NumPy *by Lev Maximov*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
