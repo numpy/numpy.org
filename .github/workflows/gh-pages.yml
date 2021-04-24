@@ -25,4 +25,4 @@ jobs:
           branch: master
           cname: numpy.org
           repo: numpy/numpy.github.com
-          hugoVersion: extended_0.74.3 # Locked version, see issue #363
+          hugoVersion: extended_0.82.0 # Locked version, see issue #363
