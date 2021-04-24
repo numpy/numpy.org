@@ -3,7 +3,7 @@ title: Citing NumPy
 sidebar: false
 ---
 
-If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, we suggest citing the following paper:
+진행한 연구에서 NumPy가 중요한 부분을 차지하고 있고 학술지에 출판한다면, 아래의 논문을 참조문헌에 써주시길 바랍니다.
 
 *  Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _Array programming with NumPy_. Nature 585, 357–362 (2020). DOI: [0.1038/s41586-020-2649-2](https://doi.org/10.1038/s41586-020-2649-2). ([Publisher link](https://www.nature.com/articles/s41586-020-2649-2)).
 
