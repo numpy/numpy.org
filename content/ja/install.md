@@ -117,19 +117,11 @@ Numpy は他の Python パッケージに依存していませんが、高速な
 
 - Condaのデフォルトチャンネルでは、Numpy はインテル® MKLを使ってビルドされます。 MKL はNumpy をインストールしたときにユーザーの環境にインストールされるのとは、別のパッケージです。
 
-- conda-forgeのチャンネルでは、Numpyはダミーの「BLAS」パッケージを使ってビルドされています。 ユーザーがconda-forgeからNumPyをインストールすると、BLASパッケージが実際のライブラリと一緒にインストールされます - デフォルトはOpenBLASですが、MKL(default チャンネルの場合)やBLIS、またはBLASを利用することもできます。
+- conda-forgeのチャンネルでは、Numpyはダミーの「BLAS」パッケージを使ってビルドされています。 ユーザーがconda-forgeからNumPyをインストールすると、BLASパッケージが実際のライブラリと一緒にインストールされます - デフォルトはOpenBLASですが、MKL(default チャンネルの場合)やBLIS、またはBLASを利用することもできます。 
   
-  <li>
-    <p spaces-before="0">
-      OpenBLASのサイズは約30MBですが、MKLパッケージはOpenBLASよりもはるかに大きく、ディスク上の約700MBです。
-    </p>
-  </li>
+- OpenBLASのサイズは約30MBですが、MKLパッケージはOpenBLASよりもはるかに大きく、ディスク上の約700MBです。
   
-  <li>
-    <p spaces-before="0">
-      MKLは通常、OpenBLASよりも少し速く、よりロバストな結果が得られます。
-    </p>
-  </li></ul> 
+- MKLは通常、OpenBLASよりも少し速く、よりロバストな結果が得られます。
   
   <p spaces-before="0">
     インストールサイズ、パフォーマンスとロバスト性に加えて、考慮すべき2つの点があります:
