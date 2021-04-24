@@ -34,7 +34,7 @@ pip install numpy
 
 # Python と Numpy インストールガイド
 
-Pythonパッケージのインストールと管理は複雑なで、ほとんどのタスクには数多くの代替ツールがあります。 このガイドでは、読者に最適な(または最も人気のある) 方法と明確な指針を提供したいと思います。 このガイドでは、一般的なオペレーティングシステムとハードウェア上での、 Python、NumPy、PyData (または数値計算) スタックのユーザに焦点を当てています。
+Pythonパッケージのインストールと管理は複雑なので、ほとんどのタスクには数多くの代替ツールがあります。 このガイドでは、読者に最適な(または最も人気のある) 方法と明確な指針を提供したいと思います。 このガイドでは、一般的なオペレーティングシステムとハードウェア上での、 Python、NumPy、PyData (または数値計算) スタックのユーザに焦点を当てています。
 
 ## 推奨方法
 
@@ -54,39 +54,39 @@ Windows、macOS、Linuxのすべてのユーザー向けには:
 #### WindowsまたはmacOS
 
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html) をインストールします。
-- `ベース` のconda環境を出来るだけ小さく保ちます。 そして、作業中のタスクやプロジェクトに必要なパッケージは個別の` ` [conda 環境](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) を使用して、インストールするようにします。
-- もし、あなたの必要なパッケージが`defaults` チャンネルだけで足りない場合は、`conda-forge` こちらの [チャンネルプライオリティの設定](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge)でデフォルトチャンネルを設定することができます。
+- `ベース` のconda環境を出来るだけ小さく保ちます。 そして、作業中のタスクやプロジェクトに必要なパッケージは個別の[`conda 環境`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) を使用して、インストールするようにします。
+- もし、あなたの必要なパッケージが`defaults` チャンネルだけで足りない場合は、`conda-forge`をこちらの [チャンネルプライオリティの設定](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge)でデフォルトチャンネルを設定することができます。
 
 
 #### Linux
 
 もしあなたが最新バージョンのライブラリを使用するよりも、少し古いパッケージで安定性を求める場合は:
-- 可能な限りOS付帯のパッケージマネージャーを使用してください (Python本体やNumPy、 その他のライブラリのインストールに)。
+- Python本体やNumPy、その他のライブラリのインストールに、可能な限りOS付帯のパッケージマネージャーを使用してください。。
 - `pip install somepackage --user` でパッケージマネージャによって提供されていないパッケージをインストールすることができます。
 
 GPUを使用する場合:
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html) をインストールして下さい。
-- `ベース` のconda環境を出来るだけ小さく保ちます。 そして、作業中のタスクやプロジェクトに必要なパッケージは個別の` ` [conda 環境](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) を使用して、インストールするようにします。
+- `ベース` のconda環境を出来るだけ小さく保ちます。 そして、作業中のタスクやプロジェクトに必要なパッケージは個別の`[conda 環境](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)` を使用して、インストールするようにします。
 - また、`デフォルトの` conda channel (`conda-forge` は GPU パッケージをまだサポートしていません) を使用してください。
 
 上記以外の場合
 - [Miniforge](https://github.com/conda-forge/miniforge) をインストールします。
-- `ベース` のconda環境を出来るだけ小さく保ちます。 そして、作業中のタスクやプロジェクトに必要なパッケージは個別の` ` [conda 環境](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) を使用して、インストールするようにします。
+- `ベース` のconda環境を出来るだけ小さく保ちます。 そして、作業中のタスクやプロジェクトに必要なパッケージは個別の`[conda 環境](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)` を使用して、インストールするようにします。
 
 
 #### pip/PyPI を利用したい場合
 
 個人的な好みや、下記のcondaとpipの違いを理解した上で、pip/PyPIベースの方法を使いたいユーザーには、下記をお勧めします:
-- [python.org](https://www.python.org/downloads/)からや、Macを使っている場合は[Homebrew](https://brew.sh/), Linuxを使っている場合は、Linuxのパッケージマネージャーを使ってPythonをインストールします。
-- 依存関係の解決と環境の管理を提供する最もよくメンテナンスされているツールとして、[Poetry](https://python-poetry. org/) をconda と同様な方法で使用することができます。
+- [python.org](https://www.python.org/downloads/)からや、Macを使っている場合は[Homebrew](https://brew.sh/)、 Linuxを使っている場合は、Linuxのパッケージマネージャーを使ってPythonをインストールします。
+- 依存関係の解決と環境の管理を提供する最もよくメンテナンスされているツールとして、[Poetry](https://python-poetry.org/) をconda と同様な方法で使用することができます。
 
 
 ## Python パッケージ管理
 
-パッケージの管理は難しいので、その結果、たくさんのツールが存在しています。 ウェブ開発と汎用的なPython開発には、こちらのようなpipを補完する [ツール](https://packaging.python.org/guides/tool-recommendations/) があります。 ハイパフォーマンスコンピューティング(HPC)では、 [Spack](https://github.com/spack/spack) を使うことを検討して下さい。 NumPyのほとんどのユーザーにとっては、 [conda](https://conda.io/en/latest/) と [pip](https://pip.pypa.io/en/stable/) が最も広く利用されているツールです。
+パッケージの管理は難しいため、たくさんのツールが存在しています。 ウェブ開発と汎用的なPython開発には、こちらのようなpipを補完する [ツール](https://packaging.python.org/guides/tool-recommendations/) があります。 ハイパフォーマンスコンピューティング(HPC)では、 [Spack](https://github.com/spack/spack) を使うことを検討して下さい。 NumPyのほとんどのユーザーにとっては、 [conda](https://conda.io/en/latest/) と [pip](https://pip.pypa.io/en/stable/) が最も広く利用されているツールです。
 
 
-### Pip & conda
+### Pipとconda
 
 Python パッケージをインストールするための2 つの主要なツールは `pip` と `conda` です。 これらの二つのツールの機能は部分的に重複しますが(例えば、両方とも `numpy`をインストールできます)、これらは一緒に動作することもできます。 ここでは、pip とconda の主要な違いについて説明します。パッケージをどのように効果的に管理するかを理解することが重要です。
 
@@ -109,15 +109,15 @@ Python パッケージをインストールするための2 つの主要なツ�
 
 
 
-## Numpyパッケージ & 高速線形代数ライブラリ
+## Numpyパッケージと高速線形代数ライブラリ
 
-Numpy は他の Python パッケージに依存していませんが、高速な線形代数ライブラリ - 一般的には、 [インテル® MKL](https://software.intel.com/en-us/mkl) または [OpenBLAS](https://www.openblas.net/) に依存しています。 ユーザーはこれらの線形代数ライブラリのインストールを心配する必要はありません (Numpy install メソッドが自動的に実施します)。 パワーユーザーの中には、使用されているBLASがパフォーマンスや、動作、ディスク上のサイズに影響を与えるため、より詳細を知りたいと思っているかもしれません。
+Numpy は他の Python パッケージに依存していませんが、高速な線形代数ライブラリ、一般的には[インテル® MKL](https://software.intel.com/en-us/mkl)、または [OpenBLAS](https://www.openblas.net/) に依存しています。 ユーザーはこれらの線形代数ライブラリのインストールを心配する必要はありません (Numpy install メソッドが自動的に実施します)。 パワーユーザーの中には、使用されているBLASがパフォーマンスや、動作、ディスク上のサイズに影響を与えるため、より詳細を知りたいと思っているかもしれません。
 
 - pipでインストールされる、PyPI 上の Numpy wheelは、OpenBLASを使ってビルドされます。 つまりwheelにはOpenBLASライブラリが含まれています。 これにより、ユーザが（例えば）SciPyをインストールした場合、ディスク上にOpenBLASのコピーをNumpyのものと、2つ持つことになります
 
 - Condaのデフォルトチャンネルでは、Numpy はインテル® MKLを使ってビルドされます。 MKL はNumpy をインストールしたときにユーザーの環境にインストールされるのとは、別のパッケージです。
 
-- conda-forgeのチャンネルでは、Numpyはダミーの「BLAS」パッケージを使ってビルドされています。 ユーザーがconda-forgeからNumPyをインストールすると、BLASパッケージが実際のライブラリと一緒にインストールされます - デフォルトはOpenBLASですが、MKL(default チャンネルの場合)やBLIS<a>、またはBLASを利用することもできます。</p></li> 
+- conda-forgeのチャンネルでは、Numpyはダミーの「BLAS」パッケージを使ってビルドされています。 ユーザーがconda-forgeからNumPyをインストールすると、BLASパッケージが実際のライブラリと一緒にインストールされます - デフォルトはOpenBLASですが、MKL(default チャンネルの場合)やBLIS、またはBLASを利用することもできます。
   
   <li>
     <p spaces-before="0">
