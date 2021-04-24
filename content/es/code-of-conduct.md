@@ -1,11 +1,11 @@
 ---
-title: NumPy Code of Conduct
+title: Código de conducta de NumPy
 sidebar: false
 aliases:
   - /conduct.html
 ---
 
-### Introduction
+### Introducción
 
 This Code of Conduct applies to all spaces managed by the NumPy project, including all public and private mailing lists, issue trackers, wikis, blogs, Twitter, and any other communication channel used by our community. The NumPy project does not organise in-person events, however events related to our community should have a code of conduct similar in spirit to this one.
 
