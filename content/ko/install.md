@@ -46,40 +46,40 @@ pip install numpy
 Windows, macOS, Linux 등 모든 일반적인 운영체제:
 
 - [Anaconda](https://www.anaconda.com/distribution/) 를 설치하십시오.(당신이 필요로 하는 패키지를 설치하고, 아래에 언급될 다양한 도구들을 제공합니다.)
-- For writing and executing code, use notebooks in [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) for exploratory and interactive computing, and [Spyder](https://www.spyder-ide.org/) or [Visual Studio Code](https://code.visualstudio.com/) for writing scripts and packages.
-- Use [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) to manage your packages and start JupyterLab, Spyder, or Visual Studio Code.
+- 코드를 작성하거나 실행할 때, 데이터를 분석하거나 대화형으로 코드를 작업하는 경우에는 [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) 의 notebooks를 사용하십시오. 그리고 코드를 작성하거나 패키지를 작성할 때는 [Spyder](https://www.spyder-ide.org/)나 [Visual Studio Code](https://code.visualstudio.com/)를 사용하십시오.
+- 패키지를 관리하거나 JupyterLab, Spyder, Visual Studio Code 를 사용하는 경우 [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/)를 사용하십시오.
 
 
-### Advanced users
+### 숙련자 유저
 
-#### Windows or macOS
+#### Windows, macOS
 
-- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-- Keep the `base` conda environment minimal, and use one or more [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) to install the package you need for the task or project you're working on.
-- Unless you're fine with only the packages in the `defaults` channel, make `conda-forge` your default channel via [setting the channel priority](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge).
+- [Miniconda](https://docs.conda.io/en/latest/miniconda.html)를 설치하십시오.
+- `base` 라는 이름의 콘다 가상환경은 초기 최소 상태를 유지하고, [콘다 가상환경](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)을 만들어서, 해당 가상환경에 진행하고자 하는 일이나 프로젝트를 위해서 필요한 패키지를 설치하십시오.
+- `기본 채널`로 충분하지 않다면, `conda-forge` [채널 우선순위 설정](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge)을 통해서 원하는 채널을설정할 수 있습니다..
 
 
 #### Linux
 
-If you're fine with slightly outdated packages and prefer stability over being able to use the latest versions of libraries:
-- Use your OS package manager for as much as possible (Python itself, NumPy, and other libraries).
-- Install packages not provided by your package manager with `pip install somepackage --user`.
+만약 약간 하위 버전의 패키지나, 최신 버전이 아닌 보다 안정적인 패키지를 설치하고 싶은 경우에 참고하십시오.
+- OS에서 사용 가능한 패키지 매니저를 활용하여 설치하십시오 (Python itself, NumPy, and other libraries).
+- 설치한 패키지 매니저가 라이브러리를 설치해주지 않는다면, `pip install somepackage --user`를 명령 프롬프트에 입력하십시오.
 
-If you use a GPU:
-- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-- Keep the `base` conda environment minimal, and use one or more [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) to install the package you need for the task or project you're working on.
-- Use the `defaults` conda channel (`conda-forge` doesn't have good support for GPU packages yet).
+GPU를 사용하는 경우:
+- [Miniconda](https://docs.conda.io/en/latest/miniconda.html)를 설치하십시오.
+- `base` 라는 이름의 콘다 가상환경은 초기 최소 상태를 유지하고, [콘다 가상환경](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)을 만들어서, 해당 가상환경에 진행하고자 하는 일이나 프로젝트를 위해서 필요한 패키지를 설치하십시오.
+- `기본 콘다 채널`을 활용해 주십시오.(`conda-forge` GPU 패키지를 지원하는 좋은 채널을 아직 제공하지 않습니다.).
 
-Otherwise:
-- Install [Miniforge](https://github.com/conda-forge/miniforge).
-- Keep the `base` conda environment minimal, and use one or more [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) to install the package you need for the task or project you're working on.
+기타:
+- [Miniforge](https://github.com/conda-forge/miniforge)를 설치하십시오.
+- `base` 라는 이름의 콘다 가상환경은 초기 최소 상태를 유지하고, [콘다 가상환경](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)을 만들어서, 해당 가상환경에 진행하고자 하는 일이나 프로젝트를 위해서 필요한 패키지를 설치하십시오.
 
 
-#### Alternative if you prefer pip/PyPI
+#### Pip/PyPI를 활용하는 경우:
 
-For users who know, from personal preference or reading about the main differences between conda and pip below, they prefer a pip/PyPI-based solution, we recommend:
-- Install Python from [python.org](https://www.python.org/downloads/), [Homebrew](https://brew.sh/), or your Linux package manager.
-- Use [Poetry](https://python-poetry.org/) as the most well-maintained tool that provides a dependency resolver and environment management capabilities in a similar fashion as conda does.
+개인적인 선호나 아래의 conda 와 pip의 차이점을 설명하는 글을 읽은 유저나 또는 pip/PyPI기반의 설치 방법을 선호하는 경우 참고하십시오.
+- [python.org](https://www.python.org/downloads/) 이나 [Homebrew](https://brew.sh/), Linux package manager를 활용해서 Python을 설치하십시오.
+- Conda와 동일한 수준의 가상환경 관리와 패키지 의존성을 해결을 도와주는 [Poetry](https://python-poetry.org/)를 유지관리 도구로 사용하십시오.
 
 
 ## Python package management
