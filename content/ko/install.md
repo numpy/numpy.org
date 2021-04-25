@@ -33,19 +33,19 @@ pip install numpy
 
 <a name="python-numpy-install-guide"></a>
 
-# Python and NumPy installation guide
+# Python, Numpy 설치 가이드
 
-Installing and managing packages in Python is complicated, there are a number of alternative solutions for most tasks. This guide tries to give the reader a sense of the best (or most popular) solutions, and give clear recommendations. It focuses on users of Python, NumPy, and the PyData (or numerical computing) stack on common operating systems and hardware.
+파이썬만 활용해서 패키지를 설치하고 관리하는 것은 복잡하기 때문에, 다양한 대안들이 많이 있습니다. 이 가이드에는 가장 보편적이고, 명확한 방식을 알려줍니다. 이 가이드는 통상적으로 사용되는 운영체제와 하드웨어에서 Python과 NumPy 그리고 수치 계산을 해주는 PyData를 사용하는 유저를 위한 자료입니다.
 
 ## Recommendations
 
-We'll start with recommendations based on the user's experience level and operating system of interest. If you're in between "beginning" and "advanced", please go with "beginning" if you want to keep things simple, and with "advanced" if you want to work according to best practices that go a longer way in the future.
+사용자의 전문성과 사용하는 운영체제를 기준으로 추천하는 방식을 알려드리겠습니다. 만약 당신이 초심자 또는 숙련자범위에 속해있다면, 간단하게 설치하고 싶다면 초심자로, 추후에 작업을 위해서 보다 구체적인 연습을 하고 싶다면 숙련자 자료를 참고하십시오.
 
-### Beginning users
+### 초심자 유저
 
-On all of Windows, macOS, and Linux:
+Windows, macOS, Linux 등 모든 일반적인 운영체제:
 
-- Install [Anaconda](https://www.anaconda.com/distribution/) (it installs all packages you need and all other tools mentioned below).
+- [Anaconda](https://www.anaconda.com/distribution/) 를 설치하십시오.(당신이 필요로 하는 패키지를 설치하고, 아래에 언급될 다양한 도구들을 제공합니다.)
 - For writing and executing code, use notebooks in [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) for exploratory and interactive computing, and [Spyder](https://www.spyder-ide.org/) or [Visual Studio Code](https://code.visualstudio.com/) for writing scripts and packages.
 - Use [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) to manage your packages and start JupyterLab, Spyder, or Visual Studio Code.
 
