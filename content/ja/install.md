@@ -109,7 +109,7 @@ Python パッケージをインストールするための2 つの主要なツ�
 
 
 
-## Numpyパッケージと高速線形代数ライブラリ
+## NumPyパッケージと高速線形代数ライブラリ
 
 Numpy は他の Python パッケージに依存していませんが、高速な線形代数ライブラリ、一般的には[インテル® MKL](https://software.intel.com/en-us/mkl)、または [OpenBLAS](https://www.openblas.net/) に依存しています。 ユーザーはこれらの線形代数ライブラリのインストールを心配する必要はありません (Numpy install メソッドが自動的に実施します)。 パワーユーザーの中には、使用されているBLASがパフォーマンスや、動作、ディスク上のサイズに影響を与えるため、より詳細を知りたいと思っているかもしれません。
 
@@ -137,4 +137,3 @@ Numpy は他の Python パッケージに依存していませんが、高速な
 
 Importing the numpy c-extensions failed. This error can happen for different reasons, often due to issues with your setup.
 </code></pre>
-
