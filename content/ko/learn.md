@@ -46,7 +46,7 @@ Python+SciPy와 관련된 자료는 [Goodreads list](https://www.goodreads.com/s
 
 ## 숙련자
 
-Try these advanced resources for a better understanding of NumPy concepts like advanced indexing, splitting, stacking, linear algebra, and more.
+NumPy에서 제공하는 어레이 인덱싱, 분리, 중첩, 선형 대수 등과 같은 개념들을 보다 깊이 이해하고 싶다면, 아래의 숙련자 자료를 활용하십시오.
 
 <i class="fas fa-chalkboard"></i> **Tutorials**
 
