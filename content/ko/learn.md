@@ -36,7 +36,7 @@ NumPy 커뮤니티 [NumPy Tutorials](https://numpy.org/numpy-tutorials)에서 �
 * [From Python to NumPy *by Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 * [Elegant SciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) *by Juan Nunez-Iglesias, Stefan van der Walt, and Harriet Dashnow*
 
-You may also want to check out the [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) on the subject of "Python+SciPy." Most books there are about the "SciPy ecosystem," which has NumPy at its core.
+Python+SciPy와 관련된 자료는 [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy)를 확인하시면 좋습니다. 대부분 NumPy를 핵심으로 사용하는 SciPy 에코시스템과 관련된 자료입니다.
 
 <i class="far fa-file-video"></i> **Videos**
 
@@ -44,7 +44,7 @@ You may also want to check out the [Goodreads list](https://www.goodreads.com/sh
 
 ***
 
-## Advanced
+## 숙련자
 
 Try these advanced resources for a better understanding of NumPy concepts like advanced indexing, splitting, stacking, linear algebra, and more.
 
