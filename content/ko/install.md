@@ -82,9 +82,9 @@ GPU를 사용하는 경우:
 - Conda와 동일한 수준의 가상환경 관리와 패키지 의존성을 해결을 도와주는 [Poetry](https://python-poetry.org/)를 유지관리 도구로 사용하십시오.
 
 
-## Python package management
+## Python 패키지 관리
 
-Managing packages is a challenging problem, and, as a result, there are lots of tools. For web and general purpose Python development there's a whole [host of tools](https://packaging.python.org/guides/tool-recommendations/) complementary with pip. For high-performance computing (HPC), [Spack](https://github.com/spack/spack) is worth considering. For most NumPy users though, [conda](https://conda.io/en/latest/) and [pip](https://pip.pypa.io/en/stable/) are the two most popular tools.
+패키지 관리는 아주 중요하기 때문에, 사용할 수 있는 도구들이 많다, 웹 및 범용 Python 개발을 위해 Pip뿐만 아니라 [다양한 도구](https://packaging.python.org/guides/tool-recommendations/)들이 있다. For high-performance computing (HPC), [Spack](https://github.com/spack/spack) is worth considering. For most NumPy users though, [conda](https://conda.io/en/latest/) and [pip](https://pip.pypa.io/en/stable/) are the two most popular tools.
 
 
 ### Pip & conda
