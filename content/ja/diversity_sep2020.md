@@ -11,11 +11,11 @@ _Natureに掲載されたNumPyの論文が発表された後のソーシャル�
 
 ## 過去
 
-オープンソースへ貢献することは、歴史的に疎外されてきた人達、特に女性や、多くの社会的制約や期待のために参加するためにより多くの障害に直面してきた人達に取って、娯楽であり続けてきました。 オープンソースのプロジェクトでは、大きな多様性の問題があり、レポートとしてもまとめられています。(例えば、 [2017 GitHub Open Source Survey](https://opensourcesurvey.org/2017/) と [こちらのブログ投稿](https://medium.com/tech-diversity-files/if-you-think-women-in-tech-is-just-a-pipeline-problem-you-haven-t-been-paying-attention-cb7a2073b996)).
+オープンソースへの貢献はいつでも、歴史的に疎外されてきた集団、特に女性にとって、虐げられた娯楽であり続けてきました。たくさんの社会的制約や、偏見のためです。オープンソースのプロジェクトでは、重大な多様性の問題があり、文書にもよくまとめられています。(例えば、 [2017 GitHub Open Source Survey](https://opensourcesurvey.org/2017/) と [このブログポスト](https://medium.com/tech-diversity-files/if-you-think-women-in-tech-is-just-a-pipeline-problem-you-haven-t-been-paying-attention-cb7a2073b996)).
 
-プロジェクトがスタートしてから2018年まで、NumPyは一握りのボランティアによって維持されていました。 ほとんどの場合、コードレビューやコミュニティからの貢献をマージする、アクティブなコア開発者の数は、4～8の範囲でした。 NumPyのプロジェクトには当時はロードマップやリソースを配分する仕組みがなく、必要と思われることが個々の努力によって進められていました。 Natureの論文の著者の人達は、15年間(2005年から2019年) の期間に渡って、このプロジェクトに最も重要で持続的な貢献をした人達です。 この著者リストの多様性の欠如は、PythonとSciPyエコシステムの形成する年数を反映しているといえます。
+プロジェクトがスタートしてから2018年までNumPyは、夜や週末など仕事以外の時間に働く一握りのボランティアによって維持されていました。 コードレビューやコミュニティからの貢献をマージする、アクティブなコア開発者の数は、常に4人から8人の範囲でした。 当時NumPyのプロジェクトにはロードマップやリソースを配分する仕組みがなく、必要と思われることが個々の努力によって進められていました。 NumPy論文の著者たちは、15年間(2005年から2019年) の期間に渡って、このプロジェクトに最も重要で持続的な貢献をした人達です。 この著者リストの多様性の欠如は、Python・SciPyエコシステムの形成期を反映しているといえます。
 
-2018年はNumPyプロジェクトの歴史において重要な節目となりました。 ゴードン・ベティムーア財団とアルフレッド・P・ソロラン財団により資金援助を受け、Pythonエコシステムに貢献する長年の経験を持つ二人のエンジニア。フルタイム雇用することができました。 これらの取り組みにより、NumPyは技術的により健康的な状態になりました。
+2018年はNumPyプロジェクトの歴史において重要な節目となりました。 ゴードン・ベティムーア財団とアルフレッド・P・ソロラン財団により資金援助を受け、Pythonエコシステムに長年貢献した経験を持つ二人のエンジニアをフルタイムで雇用することができました。 これらの取り組みにより、NumPyは技術的により健康的な状態になりました。
 
 加えて、この資金調達により、NumPy メンテナーはプロジェクトガバナンス、コミュニティ開発、あまりプロジェクトに参加していないグループへのアウトリーチなどにも取り組めるようになりました。 [CZI EOSSプログラムのために2019年半ばに書かれた多様性に関する声明](https://figshare.com/articles/online_resource/Diversity_and_Inclusion_Statement_NumPy_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/12980852) では、いくつかの課題と、NumPyチームに多様な 才能ある人達を参加してもらうための取り組みについて詳しく説明しています。
 
@@ -30,10 +30,10 @@ Inessa PawsonとRalf Gommersによるコミュニティの発展を目的とし�
 - Mars Leeはウェブデザインに貢献し、アクセシビリティの向上に貢献しました。
 - Isabela Presedo-Floydは新しいNumPyのロゴをデザインしました。
 - Stephanie Mendoza, Xiayoi Deng, Deji Suolang, Mame Fatou Thiamは、NumPy ユーザー調査を設計し実施しました。
-- Yuki Dunn, Dayane Machado, Mahfuza Humayra Mohona, Sumera Priyadarsini, Shaloo Shalini, and Kriti Singh (前回のアウトリーチインターン) は英語を母国語としないNumPyユーザーや開発者にアンケートを母国語に翻訳することで、調査チームを支援しました。
-- Sayed Adel, Raghuveer Devulapalli, Chunlin Fangは、NumPyのコアのためにSIMD最適化に取り組んでいます。
+- Yuki Dunn, Dayane Machado, Mahfuza Humayra Mohona, Sumera Priyadarsini, Shaloo Shalini, and Kriti Singh (過去のアウトリーチインターン) は英語を母国語としないNumPyユーザーや開発者にアンケートを母国語に翻訳することで、調査チームを支援しました。
+- Sayed Adel, Raghuveer Devulapalli, Chunlin Fangは、NumPyコアのSIMD最適化に取り組んでいます。
 
-私たちにはまだ多くのやるべきことがあるため、より一層の参加者を探しています。 そして私たちは次のNumPy論文の著者は、確実に、より多様的になっていることでしょう。
+私たちにはまだ多くのやるべきことがあるため、より一層の参加者を探しています。 そして私たちは次のNumPy論文の著者は確実に、より多様になっていることでしょう。
 
 ## 未来
 
