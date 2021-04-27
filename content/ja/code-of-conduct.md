@@ -1,5 +1,5 @@
 ---
-title: Numpy行動規範
+title: NumPy行動規範
 sidebar: false
 aliases:
   - /conduct.html
@@ -61,7 +61,7 @@ NumPy行動規範委員会に問題を報告する場合は、こちらにご連
 
 ### インシデント報告の解決 & 行動規範の実施
 
-本節では、_最も重要な点のみをまとめます。_詳細については、[Numpy Code of Conduct - How to follow up on a report](/report-handling-manual) をご覧ください。
+本節では、_最も重要な点のみをまとめます。_詳細については、[NumPy Code of Conduct - How to follow up on a report](/report-handling-manual) をご覧ください。
 
 私たちはすべての訴えを調査し、対応するようにします。 NumPy行動規範委員会およびNumPy運営委員会(もし関係する場合) は、報告者の身元を保護します。 また(報告者が同意しない限り) 苦情の内容を機密として扱うこととします。
 

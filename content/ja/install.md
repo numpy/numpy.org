@@ -1,11 +1,11 @@
 ---
-title: Numpyのインストール
+title: NumPyのインストール
 sidebar: false
 ---
 
-Numpy をインストールするための必ず必要なものはPython本体です。 もしまだPythonをインストールしていないのであれば、最もシルプルな始め方として、こちらがあります: [Anaconda Distribution](https://www.anaconda.com/distribution)。このanacondaはPythonだけでなく、NumPyや、その他科学技術計算やデータサイエンスのために一般的に使用される沢山のパッケージが含まれています。
+NumPy をインストールするための必ず必要なものはPython本体です。 もしまだPythonをインストールしていないのであれば、最もシルプルな始め方として、こちらがあります: [Anaconda Distribution](https://www.anaconda.com/distribution)。このanacondaはPythonだけでなく、NumPyや、その他科学技術計算やデータサイエンスのために一般的に使用される沢山のパッケージが含まれています。
 
-NumPyは`conda`や`pip` 、Mac OSやLinuxのパッケージマネージャー、または [ソースコード](https://numpy.org/devdocs/user/building.html)からインストールすることが出来ます。 詳細な手順については、以下の [Python と Numpyの インストールガイド](#python-numpy-install-guide) を参照してください。
+NumPyは`conda`や`pip` 、Mac OSやLinuxのパッケージマネージャー、または [ソースコード](https://numpy.org/devdocs/user/building.html)からインストールすることが出来ます。 詳細な手順については、以下の [Python と NumPyの インストールガイド](#python-numpy-install-guide) を参照してください。
 
 **CONDA**
 
@@ -32,13 +32,13 @@ pip install numpy
 
 <a name="python-numpy-install-guide"></a>
 
-# Python と Numpy インストールガイド
+# Python と NumPy インストールガイド
 
 Pythonパッケージのインストールと管理は複雑なで、ほとんどのタスクには数多くの代替ツールがあります。 このガイドでは、読者に最適な(または最も人気のある) 方法と明確な指針を提供したいと思います。 このガイドでは、一般的なオペレーティングシステムとハードウェア上での、 Python、NumPy、PyData (または数値計算) スタックのユーザに焦点を当てています。
 
 ## 推奨方法
 
-まずはユーザの経験のレベルと、関心のあるOSに基づいた推奨方法から説明していきたいと思います。 PythonやNumpyの経験が「初級」と「上級」の間の方や、シンプルにインストールしたい方は「初級」を、より長い視点にたったベストプラクティスに沿ってインストールしたい方は「上級」を参照下さい。
+まずはユーザの経験のレベルと、関心のあるOSに基づいた推奨方法から説明していきたいと思います。 PythonやNumPyの経験が「初級」と「上級」の間の方や、シンプルにインストールしたい方は「初級」を、より長い視点にたったベストプラクティスに沿ってインストールしたい方は「上級」を参照下さい。
 
 ### 初級ユーザ
 
@@ -109,15 +109,15 @@ Python パッケージをインストールするための2 つの主要なツ�
 
 
 
-## Numpyパッケージ & 高速線形代数ライブラリ
+## NumPyパッケージ & 高速線形代数ライブラリ
 
-Numpy は他の Python パッケージに依存していませんが、高速な線形代数ライブラリ - 一般的には、 [インテル® MKL](https://software.intel.com/en-us/mkl) または [OpenBLAS](https://www.openblas.net/) に依存しています。 ユーザーはこれらの線形代数ライブラリのインストールを心配する必要はありません (Numpy install メソッドが自動的に実施します)。 パワーユーザーの中には、使用されているBLASがパフォーマンスや、動作、ディスク上のサイズに影響を与えるため、より詳細を知りたいと思っているかもしれません。
+NumPy は他の Python パッケージに依存していませんが、高速な線形代数ライブラリ - 一般的には、 [インテル® MKL](https://software.intel.com/en-us/mkl) または [OpenBLAS](https://www.openblas.net/) に依存しています。 ユーザーはこれらの線形代数ライブラリのインストールを心配する必要はありません (NumPy install メソッドが自動的に実施します)。 パワーユーザーの中には、使用されているBLASがパフォーマンスや、動作、ディスク上のサイズに影響を与えるため、より詳細を知りたいと思っているかもしれません。
 
-- pipでインストールされる、PyPI 上の Numpy wheelは、OpenBLASを使ってビルドされます。 つまりwheelにはOpenBLASライブラリが含まれています。 これにより、ユーザが（例えば）SciPyをインストールした場合、ディスク上にOpenBLASのコピーをNumpyのものと、2つ持つことになります
+- pipでインストールされる、PyPI 上の NumPy wheelは、OpenBLASを使ってビルドされます。 つまりwheelにはOpenBLASライブラリが含まれています。 これにより、ユーザが（例えば）SciPyをインストールした場合、ディスク上にOpenBLASのコピーをNumPyのものと、2つ持つことになります
 
-- Condaのデフォルトチャンネルでは、Numpy はインテル® MKLを使ってビルドされます。 MKL はNumpy をインストールしたときにユーザーの環境にインストールされるのとは、別のパッケージです。
+- Condaのデフォルトチャンネルでは、NumPy はインテル® MKLを使ってビルドされます。 MKL はNumPy をインストールしたときにユーザーの環境にインストールされるのとは、別のパッケージです。
 
-- conda-forgeのチャンネルでは、Numpyはダミーの「BLAS」パッケージを使ってビルドされています。 ユーザーがconda-forgeからNumPyをインストールすると、BLASパッケージが実際のライブラリと一緒にインストールされます - デフォルトはOpenBLASですが、MKL(default チャンネルの場合)やBLIS<a>、またはBLASを利用することもできます。</p></li> 
+- conda-forgeのチャンネルでは、NumPyはダミーの「BLAS」パッケージを使ってビルドされています。 ユーザーがconda-forgeからNumPyをインストールすると、BLASパッケージが実際のライブラリと一緒にインストールされます - デフォルトはOpenBLASですが、MKL(default チャンネルの場合)やBLIS<a>、またはBLASを利用することもできます。</p></li> 
   
   <li>
     <p spaces-before="0">
@@ -138,7 +138,7 @@ Numpy は他の Python パッケージに依存していませんが、高速な
   <ul>
     <li>
       <p spaces-before="0">
-        インテル® MKL はオープンソースではありません。 通常の使用では問題ではありませんが、 ユーザーが Numpy で構築されたアプリケーションを再配布する必要がある場合、これは 問題が発生する可能性があります。
+        インテル® MKL はオープンソースではありません。 通常の使用では問題ではありませんが、 ユーザーが NumPy で構築されたアプリケーションを再配布する必要がある場合、これは 問題が発生する可能性があります。
       </p>
     </li>
     <li>

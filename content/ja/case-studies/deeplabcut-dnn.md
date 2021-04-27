@@ -65,7 +65,7 @@ DeepLabCut では [transfer learning](https://arxiv.org/pdf/1909.11229)という
 
 ## 姿勢推定の課題に対応するためのNumPyの役割
 
-Numpy は DeepLabCutにおける、行動分析の高速化のための数値計算の核となっています。  NumPyだけでなく、 DeepLabCutは様々なNumpyをベースとしているPythonライブラリを利用しています。: [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug), [scikit-learn](https://scikit-learn.org/stable/), [scikit-image](https://scikit-image.org) and [Tensorflow](https://www.tensorflow.org).
+NumPy は DeepLabCutにおける、行動分析の高速化のための数値計算の核となっています。  NumPyだけでなく、 DeepLabCutは様々なNumPyをベースとしているPythonライブラリを利用しています。: [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug), [scikit-learn](https://scikit-learn.org/stable/), [scikit-image](https://scikit-image.org) and [Tensorflow](https://www.tensorflow.org).
 
 NumPyの特徴である、画像処理、組み合わせ処理、そして高速計算は、DeepLabCutの姿勢推定アルゴリズムにおいて重要な役割を果たしました。
 
@@ -75,13 +75,13 @@ NumPyの特徴である、画像処理、組み合わせ処理、そして高速
 * ランダムサンプリング
 * 大きな配列の再構成
 
-DeepLabCutは、ツールキットが提供する ワークフローを通じてNumPyの配列機能を利用しています。 特にNumpy はヒューマンアノテーションのラベル付けや、アノテーションの書き込み、編集、処理のために、特定のフレームをサンプリングするために使用されています。  TensorFlowを使ったニューラルネットワークは、DeepLabCut技術によって何千回も訓練され、 フレームから真アノテーション情報を予測します。 この目的のために、姿勢推定問題を、画像-画像変換問題として変換するための目標密(スコアマップ) を作成します。 ニューラルネットワークのロバスト化のために、幾何学・画像的処理を施した、スコアマップの計算を行うデータオーグメンテーションを採用しています。 また学習を高速化するために、NumPyのベクトル化機能が利用されています。 推論のためには、ターゲットスコアマップから最も可能性の高い予測値を抽出し、効率的に「予測値をリンクさせて個々の動物を組み立てる」ことが必要になります。
+DeepLabCutは、ツールキットが提供する ワークフローを通じてNumPyの配列機能を利用しています。 特にNumPy はヒューマンアノテーションのラベル付けや、アノテーションの書き込み、編集、処理のために、特定のフレームをサンプリングするために使用されています。  TensorFlowを使ったニューラルネットワークは、DeepLabCut技術によって何千回も訓練され、 フレームから真アノテーション情報を予測します。 この目的のために、姿勢推定問題を、画像-画像変換問題として変換するための目標密(スコアマップ) を作成します。 ニューラルネットワークのロバスト化のために、幾何学・画像的処理を施した、スコアマップの計算を行うデータオーグメンテーションを採用しています。 また学習を高速化するために、NumPyのベクトル化機能が利用されています。 推論のためには、ターゲットスコアマップから最も可能性の高い予測値を抽出し、効率的に「予測値をリンクさせて個々の動物を組み立てる」ことが必要になります。
 
 {{< figure src="/images/content_images/cs/deeplabcut-workflow.png" class="fig-center" caption="**DeepLabCutのワークフロー**" alt="workflow" attr="*(Source: Mackenzie Mathis)*" attrlink="https://www.researchgate.net/figure/DeepLabCut-work-flow-The-diagram-delineates-the-work-flow-as-well-as-the-directory-and_fig1_329185962">}}
 
 ## まとめ
 
-行動を観察し、効率的に表現することは、現代倫理学、神経科学、医学、工学の根幹です。 [DeepLabCut](http://orga.cvss.cc/wp-content/uploads/2019/05/NathMathis2019.pdf) により、研究者は対象の姿勢を推定し、行動を効率的に定量化できるようになりました。 DeepLabCutのPythonツールボックスでは、わずかな学習画像のセットで、ニューラルネットワークを人間レベルのラベリング精度で学習することができ、実験室での行動分析だけでなく、スポーツ、歩行分析、医学、リハビリテーション研究などへの応用が可能になります。 DeepLabCut アルゴリズムに必要な、複雑な組み合わせ処理や、データ処理の問題は、Numpy の配列操作機能を使用して対応することになります。
+行動を観察し、効率的に表現することは、現代倫理学、神経科学、医学、工学の根幹です。 [DeepLabCut](http://orga.cvss.cc/wp-content/uploads/2019/05/NathMathis2019.pdf) により、研究者は対象の姿勢を推定し、行動を効率的に定量化できるようになりました。 DeepLabCutのPythonツールボックスでは、わずかな学習画像のセットで、ニューラルネットワークを人間レベルのラベリング精度で学習することができ、実験室での行動分析だけでなく、スポーツ、歩行分析、医学、リハビリテーション研究などへの応用が可能になります。 DeepLabCut アルゴリズムに必要な、複雑な組み合わせ処理や、データ処理の問題は、NumPy の配列操作機能を使用して対応することになります。
 
 {{< figure src="/images/content_images/cs/numpy_dlc_benefits.png" class="fig-center" alt="numpy benefits" caption="**NumPyの主要機能**" >}}
 

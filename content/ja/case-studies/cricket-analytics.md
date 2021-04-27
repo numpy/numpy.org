@@ -51,7 +51,7 @@ sidebar: false
 
 ## クリケット解析におけるNumPyの役割
 
-スポーツ分析は現在、非常に盛んな分野です。 多くの研究者や企業は、最新の機械学習やAI技術以外にも、Numpyや、Scikit-learn, SciPy, Matplotlib, Jupyter などの他の PyData パッケージを [使っています](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx)。  Numpy は 以下のような様々な種類のクリケット関連のスポーツ分析に使用されています:
+スポーツ分析は現在、非常に盛んな分野です。 多くの研究者や企業は、最新の機械学習やAI技術以外にも、NumPyや、Scikit-learn, SciPy, Matplotlib, Jupyter などの他の PyData パッケージを [使っています](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx)。  NumPy は 以下のような様々な種類のクリケット関連のスポーツ分析に使用されています:
 
 * **統計分析:** NumPyの数値計算機能は、様々なプレイヤーやゲーム戦術のコンテキストでの観測データで、試合中のイベントの統計的有意性を推定し、生成モデルや静的モデルと比較して試合結果を推定するのに役立ちます。 [因果分析](https://amplitude.com/blog/2017/01/19/causation-correlation) と [ビッグデータアプローチ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) は戦術的分析に使用されています。
 

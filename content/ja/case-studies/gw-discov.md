@@ -45,7 +45,7 @@ sidebar: false
 
 合成により放出される重力波は、スーパーコンピュータを用いたブルートフォースの数値相対性処理以外の手法では計算できません。 LIGOが収集するデータ量は、重力波の信号が少ないのと同じくらい不可解です。
 
-Python用の標準的な数値解析パッケージNumPyは、LIGOの重力波検出プロジェクトで実行される様々なタスクに使用されるソフトウェアで利用されています。 Numpyは、複雑な数学と高速なデータ操作に役立ちました。  次にいくつかの例を示します。
+Python用の標準的な数値解析パッケージNumPyは、LIGOの重力波検出プロジェクトで実行される様々なタスクに使用されるソフトウェアで利用されています。 NumPyは、複雑な数学と高速なデータ操作に役立ちました。  次にいくつかの例を示します。
 
 * [信号処理](https://www.uv.es/virgogroup/Denoising_ROF.html): グリッジ検出,  [ノイズ同定とデータ判定](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf) (NumPy, scikit-learn, scipy, matplotlib, pandas, pyCharm)
 * データ取得: どのデータが解析できるかを決定し、干し草の中の針のような信号が入っているかどうかを突き止める。
@@ -56,7 +56,7 @@ Python用の標準的な数値解析パッケージNumPyは、LIGOの重力波�
 * 相関計算
 * 重力波データ解析のために開発された [ソフトウェア](https://github.com/lscsoft)である[GwPy](https://gwpy.github.io/docs/stable/overview.html)や [PyCBC](https://pycbc.org)はNumPy やAstroPyを重力波検出器からのデータを研究するためのユーティリティー、ツール、およびメソッドへのオブジェクトベースのインターフェースを提供するために利用しています。
 
-{{< figure src="/images/content_images/cs/gwpy-numpy-dep-graph.png" class="fig-center" alt="gwpy-numpy depgraph" caption="**GwPyのNumpy依存グラフ**" >}}
+{{< figure src="/images/content_images/cs/gwpy-numpy-dep-graph.png" class="fig-center" alt="gwpy-numpy depgraph" caption="**GwPyのNumPy依存グラフ**" >}}
 
 ----
 
@@ -64,6 +64,6 @@ Python用の標準的な数値解析パッケージNumPyは、LIGOの重力波�
 
 ## まとめ
 
-重力波の検出により、研究者はこれまでに予期しなかった現象を発見することができました。 一方で、これまで知られてきた深遠な天体物理学の現象に、多くに新たな洞察を提供しました。 データ解釈とデータの可視化は、科学者が科学的な観測から収集したデータについての洞察を得て、その結果を理解するのに役立つ重要なステップです。 しかし、その計算は複雑であり、実際の観測データと分析を用いたコンピュータシミュレーションを用いて可視化されない限り、人間が理解することはできませんでした。  Numpy、matplotlib、pandasなどの、Pythonパッケージとともに、 scikit-learningは 、研究者 [が](https://www.gw-openscience.org/events/GW150914/) 複雑な質問に答え、 私たちの宇宙についての理解において、新しい地平を発見することを可能にしてきたのです。
+重力波の検出により、研究者はこれまでに予期しなかった現象を発見することができました。 一方で、これまで知られてきた深遠な天体物理学の現象に、多くに新たな洞察を提供しました。 データ解釈とデータの可視化は、科学者が科学的な観測から収集したデータについての洞察を得て、その結果を理解するのに役立つ重要なステップです。 しかし、その計算は複雑であり、実際の観測データと分析を用いたコンピュータシミュレーションを用いて可視化されない限り、人間が理解することはできませんでした。  NumPy、matplotlib、pandasなどの、Pythonパッケージとともに、 scikit-learningは 、研究者 [が](https://www.gw-openscience.org/events/GW150914/) 複雑な質問に答え、 私たちの宇宙についての理解において、新しい地平を発見することを可能にしてきたのです。
 
-{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**利用されたNumpyの主要機能**" >}}
+{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**利用されたNumPyの主要機能**" >}}

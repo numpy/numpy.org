@@ -1,9 +1,9 @@
 ---
-title: Numpy に貢献する
+title: NumPy に貢献する
 sidebar: false
 ---
 
-Numpyプロジェクトを成功させるには、あなたの専門知識とプロジェクトに関する熱意が必要です。 Numpyに貢献する方法はコーディングだけではありません。
+NumPyプロジェクトを成功させるには、あなたの専門知識とプロジェクトに関する熱意が必要です。 NumPyに貢献する方法はコーディングだけではありません。
 
 - [コードを書く。](#writing-code)
 
@@ -28,10 +28,10 @@ Numpyプロジェクトを成功させるには、あなたの専門知識とプ
 
 ### コードを書く
 
-プログラマーの方々に向けて、こちらの [ガイド](https://numpy.org/devdocs/dev/index.html#development-process-summary)でNumpyのコードに貢献する方法か説明されています。
+プログラマーの方々に向けて、こちらの [ガイド](https://numpy.org/devdocs/dev/index.html#development-process-summary)でNumPyのコードに貢献する方法か説明されています。
 
 ### プルリクエストのレビュー
-Numpyプロジェクトには現時点で250以上のオープンなプルリクエストがあり、多くの 改善要求と多くのレビュワーからのフィードバックを待っています。 もしあなたがNumPy を使ったことがある場合、 たとえNumpyコードベースに慣れていない場合でも貢献する方法はあります。 例えば、
+NumPyプロジェクトには現時点で250以上のオープンなプルリクエストがあり、多くの 改善要求と多くのレビュワーからのフィードバックを待っています。 もしあなたがNumPy を使ったことがある場合、 たとえNumPyコードベースに慣れていない場合でも貢献する方法はあります。 例えば、
 * 長期にわたる議論をまとめる
 * ドキュメントのPRをトリアージする
 * 提案された変更をテストする
@@ -39,7 +39,7 @@ Numpyプロジェクトには現時点で250以上のオープンなプルリク
 
 ### 教育用の資料を作成する
 
-NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模な再設計中です。 新しいNumpyのWebページは、新しいチュートリアルや、Numpyの使い方、Numpy内部の深い説明など必要としており、サイト全体にも再設計と再構築が必要です。 このウェブサイトの再構築の作業は、ドキュメントを書くだけではありません。 コード例や、ノートブック、ビデオなどの作成も歓迎しています。 [NEP 44 — Restructuring the NumPyDocumentation](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html)に、ウェブサイトの再構築についての詳細が説明されています。
+NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模な再設計中です。 新しいNumPyのWebページは、新しいチュートリアルや、NumPyの使い方、NumPy内部の深い説明など必要としており、サイト全体にも再設計と再構築が必要です。 このウェブサイトの再構築の作業は、ドキュメントを書くだけではありません。 コード例や、ノートブック、ビデオなどの作成も歓迎しています。 [NEP 44 — Restructuring the NumPyDocumentation](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html)に、ウェブサイトの再構築についての詳細が説明されています。
 
 
 ### イシューのトリアージ
@@ -66,12 +66,12 @@ NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模�
 
 ### ウェブサイトの翻訳
 
-私達は、[numpy.org](https://numpy.org) を複数言語に翻訳し、Numpyを母国語でアクセスできるようにしたいと思っています。 これを実現するには、ボランティアの翻訳者が必要です。  詳しくは[このイシュー](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n)を参照してください。 [この GitHubイシュー](https://github.com/numpy/numpy.org/issues/55) にコメントしてサインアップしてください。
+私達は、[numpy.org](https://numpy.org) を複数言語に翻訳し、NumPyを母国語でアクセスできるようにしたいと思っています。 これを実現するには、ボランティアの翻訳者が必要です。  詳しくは[このイシュー](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n)を参照してください。 [この GitHubイシュー](https://github.com/numpy/numpy.org/issues/55) にコメントしてサインアップしてください。
 
 
 ### コミュニティの調整とアウトリーチ
 
-コミュニティとのコミュニケーションを通じて、私たちは、Numpyより広く知ってもらうようにし、どこに問題があるのかを知りたいと思っています。 私達は、[Twitter](https://twitter.com/numpy_team) アカウントや、NumPy [code sprints](https://scisprints.github.io/)の開催, ニュースレターの発行、そしておそらくブログなどを通じて、より沢山の人にコミュニティに参加して欲しいと思っています。
+コミュニティとのコミュニケーションを通じて、私たちは、NumPyより広く知ってもらうようにし、どこに問題があるのかを知りたいと思っています。 私達は、[Twitter](https://twitter.com/numpy_team) アカウントや、NumPy [code sprints](https://scisprints.github.io/)の開催, ニュースレターの発行、そしておそらくブログなどを通じて、より沢山の人にコミュニティに参加して欲しいと思っています。
 
 ### 資金調達
 

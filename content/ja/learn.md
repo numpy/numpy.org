@@ -1,9 +1,9 @@
 ---
-title: Numpyの学び方
+title: NumPyの学び方
 sidebar: false
 ---
 
-**公式の Numpy ドキュメント** については [numpy.org/doc/stable](https://numpy.org/doc/stable) を参照してください。
+**公式の NumPy ドキュメント** については [numpy.org/doc/stable](https://numpy.org/doc/stable) を参照してください。
 
 以下は、キュレーションされた外部リソースのリストです。 こちらのリストに貢献するには、 [このページの末尾](#add-to-this-list) を参照してください。
 ***
@@ -16,13 +16,13 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 
 * [NumPy Quickstart チュートリアル](https://numpy.org/devdocs/user/quickstart.html)
 * [SciPyレクチャー](https://scipy-lectures.org/) NumPyだけでなく、科学的なPythonソフトウェアエコシステムを広く紹介しています。
-* [Numpy: 初心者のための基本](https://numpy.org/devdocs/user/absolute_beginners.html)
+* [NumPy: 初心者のための基本](https://numpy.org/devdocs/user/absolute_beginners.html)
 * [機械学習プラス - ndarray入門](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
 * [Edureka - NumPy配列を例題で学ぶ ](https://www.edureka.co/blog/python-numpy-tutorial/)
 * [Dataquest - NumPyチュートリアル: Python を使ったデータ解析](https://www.dataquest.io/blog/numpy-tutorial-python/)
-* [Numpy チュートリアル *by Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
+* [NumPy チュートリアル *by Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
 * [Stanford CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
-* [Numpyユーザーガイド](https://numpy.org/devdocs)
+* [NumPyユーザーガイド](https://numpy.org/devdocs)
 
 <i class="fas fa-book"></i> **書籍**
 
@@ -34,19 +34,19 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 
 <i class="far fa-file-video"></i> **動画**
 
-* [Numpy を使った数値計算入門](http://youtu.be/ZB7BZMhfPgk) *by Alex Chabot-Leclerc*
+* [NumPy を使った数値計算入門](http://youtu.be/ZB7BZMhfPgk) *by Alex Chabot-Leclerc*
 
 ***
 
 ## 上級者向け
 
-より高度なインデックス作成、分割、スタック、線形代数など、Numpy の概念をより深く理解するためには、これらのリソースを試してみてください。
+より高度なインデックス作成、分割、スタック、線形代数など、NumPy の概念をより深く理解するためには、これらのリソースを試してみてください。
 
 <i class="fas fa-chalkboard"></i> **チュートリアル**
 
 * [NumPy 100演習](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) *Nicolas P. Rougier*
 * [NumPyとSciPyイントロダクション](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) *by M. Scott Shell*
-* [Numpy救急キット](http://mentat.za.net/numpy/numpy_advanced_slides/) *by Stéfan van der Walt*
+* [NumPy救急キット](http://mentat.za.net/numpy/numpy_advanced_slides/) *by Stéfan van der Walt*
 * [PythonにおけるNumPy (発展編)](https://www.geeksforgeeks.org/numpy-python-set-2-advanced/)
 * [高度なインデックシング](https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm)
 * [NumPy による機械学習とデータ分析](https://www.machinelearningplus.com/python/numpy-tutorial-python-part2/)
@@ -55,7 +55,7 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 
 * [Pythonデータサイエンスハンドブック](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057) *by Jake Vanderplas*
 * [Pythonデータ解析](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662) *by Wes McKinney*
-* [数値解析Python: Numpy, SciPy, Matplotlibによる数値計算とデータサイエンスアプリケーション](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459) *by Robert Johansson*
+* [数値解析Python: NumPy, SciPy, Matplotlibによる数値計算とデータサイエンスアプリケーション](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459) *by Robert Johansson*
 
 <i class="far fa-file-video"></i> **動画**
 
@@ -66,9 +66,9 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 
 ## NumPyに関するトーク
 
-* [Numpy Indexing の未来](https://www.youtube.com/watch?v=o0EacbIbf58) *by Jaime Fernadez* (2016)
+* [NumPy Indexing の未来](https://www.youtube.com/watch?v=o0EacbIbf58) *by Jaime Fernadez* (2016)
 * [Python における配列計算革命](https://www.youtube.com/watch?v=HVLPJnvInzM&t=10s) *by Ralf Gommers* (2019)
-* [Numpy: 何が変わり、そして何が今後変わるのか?](https://www.youtube.com/watch?v=YFLVQFjRmPY) *by Matti Picus* (2019)
+* [NumPy: 何が変わり、そして何が今後変わるのか?](https://www.youtube.com/watch?v=YFLVQFjRmPY) *by Matti Picus* (2019)
 * [NumPyの内部](https://www.youtube.com/watch?v=dBTJD_FDVjU) *by Ralf Gommers, Sebastian Berg, Matti Picus, Tyler Reddy, Stefan van der Walt, Charles Harris* (2019)
 * [Python における配列計算の概要](https://www.youtube.com/watch?v=f176j2g2eNc) *by Travis Oliphant* (2019)
 
@@ -76,7 +76,7 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 
 ## NumPy を引用する場合
 
-もし、あなたの研究においてNumpyが重要な役割を果たし、論文でこのプロジェクトについて言及したい場合は、こちらの[ページ](/citing-numpy)を参照して下さい。
+もし、あなたの研究においてNumPyが重要な役割を果たし、論文でこのプロジェクトについて言及したい場合は、こちらの[ページ](/citing-numpy)を参照して下さい。
 
 ## このページへの貢献
 
