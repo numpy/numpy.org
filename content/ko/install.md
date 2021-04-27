@@ -84,18 +84,18 @@ GPU를 사용하는 경우:
 
 ## Python 패키지 관리
 
-패키지 관리는 아주 중요하기 때문에, 사용할 수 있는 도구들이 많다, 웹 및 범용 Python 개발을 위해 Pip뿐만 아니라 [다양한 도구](https://packaging.python.org/guides/tool-recommendations/)들이 있다. For high-performance computing (HPC), [Spack](https://github.com/spack/spack) is worth considering. For most NumPy users though, [conda](https://conda.io/en/latest/) and [pip](https://pip.pypa.io/en/stable/) are the two most popular tools.
+패키지 관리는 아주 중요하기 때문에, 사용할 수 있는 도구들이 많습니다. 웹 및 범용 Python 개발을 위해 Pip뿐만 아니라 [다양한 도구](https://packaging.python.org/guides/tool-recommendations/)들이 있습니다. 고성능 컴퓨터 (HPC)를 사용하는 경우 [Spack](https://github.com/spack/spack)를 사용하는 것을 추천합니다. 대부분 Numpy를 사용하는 유저는, [conda](https://conda.io/en/latest/) 와 [pip](https://pip.pypa.io/en/stable/)를 가장 많이 사용합니다.
 
 
 ### Pip & conda
 
-The two main tools that install Python packages are `pip` and `conda`. Their functionality partially overlaps (e.g. both can install `numpy`), however, they can also work together. We'll discuss the major differences between pip and conda here - this is important to understand if you want to manage packages effectively.
+`pip`, `conda`가 Python 패키지를 설치하고 관리하는 주요 툴입니다. 그들의 기능은 대부분 겹칩니다. (e.g. both can install `numpy`), 그리고 같이 쓰일 수도 있습니다. 곧 pip와 conda의 차이점에 대해서 논의해볼 것입니다. - 패키지 관리를 잘 하기 위해서는 알고 계시는 것이 좋습니다.
 
-The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. This also means conda can install non-Python libraries and tools you may need (e.g. compilers, CUDA, HDF5), while pip can't.
+첫번째 차이점은, conda는 cross-language 를 지원하고, Python을 설치할 수 도있습니다. 하지만 pip는 특정 설치된 Python에만 패키지를 설치하고 관리할 수 있습니다. 따라서 해당 Python에 모든 패키지가 설치됩니다. 또한 conda는 non-Python 라이브러리나 도구들을 설치할 수 있습니다. (e.g. compilers, CUDA, HDF5), 하지만 pip는 Python이 필요하기 때문에 설치할 수 없습니다.
 
-The second difference is that pip installs from the Python Packaging Index (PyPI), while conda installs from its own channels (typically "defaults" or "conda-forge"). PyPI is the largest collection of packages by far, however, all popular packages are available for conda as well.
+두번째 차이점은 pip는 Python Packaging Index(PyPI) 로 부터 패키지를 다운받아 설치합니다. 반면에 conda는 conda 만의 채널로 설치합니다. (일반적으로 "defaults" or "conda-forge"). PyPI 가 가장 큰 패키지 저장소입니다만, 많은 사람들이 사용하는 패키지는 conda에서도 설치할 수 있습니다.
 
-The third difference is that conda is an integrated solution for managing packages, dependencies and environments, while with pip you may need another tool (there are many!) for dealing with environments or complex dependencies.
+세번째 차이점은 conda는 환경이나 패키지간 의존성을 해결하기 위한 해키지 관리 도구를 제공합니다. 하지만 pip는 그를 위해서 (아주 많은) 추가적인 도구들이 필요합니다.
 
 
 ### Reproducible installs
