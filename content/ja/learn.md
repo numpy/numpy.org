@@ -5,17 +5,17 @@ sidebar: false
 
 **公式の Numpy ドキュメント** については [numpy.org/doc/stable](https://numpy.org/doc/stable) を参照してください。
 
-## NumPy Tutorials
+## NumPy のチュートリアル
 
-You can find a set of tutorials and educational materials by the NumPy community at [NumPy Tutorials](https://numpy.org/numpy-tutorials). The goal of this page is to provide high-quality resources by the NumPy project, both for self-learning and for teaching classes with, in the format of Jupyter Notebooks. If you’re interested in adding your own content, check the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
+[Numpy のチュートリアル](https://numpy.org/numpy-tutorials) では、Numpy コミュニティによるチュートリアルや教材が手に入ります｡ このページの目標は、NumPy プロジェクトによる自己学習と授業のための高品質な教材を Jupyter Notebooks の形式で提供することです。 独自のコンテンツを追加したい場合は、GitHubの [numpy-tutorials リポジトリ](https://github.com/numpy/numpy-tutorials)を確認してください。
 
 ***
 
-Below is a curated collection of external resources. To contribute, see the [end of this page](#add-to-this-list).
+以下は、厳選された外部の教材です。 こちらのリストに貢献するには、 [このページの末尾](#add-to-this-list) を参照してください。
 
-## Beginners
+## 初学者向け
 
-There's a ton of information about NumPy out there. If you are new, we'd strongly recommend these:
+NumPyについての情報はたくさん見つかります。 If you are new, we'd strongly recommend these:
 
 <i class="fas fa-chalkboard"></i> **Tutorials**
 
