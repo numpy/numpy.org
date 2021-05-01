@@ -36,7 +36,7 @@ Emeritus:
 - Jaime Fernández del Río (2014-2021)
 
 
-## Teams
+## الأقسام
 
 The NumPy project is growing; we have teams for
 
