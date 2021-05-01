@@ -38,7 +38,7 @@ Emeritus:
 
 ## الأقسام
 
-The NumPy project is growing; we have teams for
+يزدهر مشروع نمباي حيث أصبح لدينا أقسام لكل من
 
 - code
 - documentation
@@ -48,7 +48,7 @@ The NumPy project is growing; we have teams for
 
 See the [Team](/gallery/team.html) page for individual team members.
 
-## Sponsors
+## الرُعاة
 
 NumPy receives direct funding from the following sources:
 {{< sponsors >}}
