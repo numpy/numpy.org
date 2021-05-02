@@ -50,7 +50,7 @@ See the [Team](/gallery/team.html) page for individual team members.
 
 ## الرُعاة
 
-NumPy receives direct funding from the following sources:
+ويتلقى المشروع تمويلا مباشرا من المصادر التالية:
 {{< sponsors >}}
 
 
