@@ -37,7 +37,7 @@ pip install numpy
 
 파이썬만 활용해서 패키지를 설치하고 관리하는 것은 복잡하기 때문에, 다양한 대안들이 많이 있습니다. 이 가이드에는 가장 보편적이고, 명확한 방식을 알려줍니다. 이 가이드는 통상적으로 사용되는 운영체제와 하드웨어에서 Python과 NumPy 그리고 수치 계산을 해주는 PyData를 사용하는 유저를 위한 자료입니다.
 
-## Recommendations
+## 권장 사항
 
 사용자의 전문성과 사용하는 운영체제를 기준으로 추천하는 방식을 알려드리겠습니다. 만약 당신이 초심자 또는 숙련자범위에 속해있다면, 간단하게 설치하고 싶다면 초심자로, 추후에 작업을 위해서 보다 구체적인 연습을 하고 싶다면 숙련자 자료를 참고하십시오.
 
@@ -130,9 +130,9 @@ Besides install sizes, performance and robustness, there are two more things to 
 - Both MKL and OpenBLAS will use multi-threading for function calls like `np.dot`, with the number of threads being determined by both a build-time option and an environment variable. Often all CPU cores will be used. This is sometimes unexpected for users; NumPy itself doesn't auto-parallelize any function calls. It typically yields better performance, but can also be harmful - for example when using another level of parallelization with Dask, scikit-learn or multiprocessing.
 
 
-## Troubleshooting
+## 문제 해결
 
-If your installation fails with the message below, see [Troubleshooting ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
+아래와 같은 응답과 함께 설치에 실패한다면, [Troubleshooting ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html)를 참고하시기 바랍니다.
 
 ```
 IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
