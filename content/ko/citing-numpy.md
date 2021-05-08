@@ -1,13 +1,13 @@
 ---
-title: Citing NumPy
+title: NumPy 인용하기
 sidebar: false
 ---
 
 진행한 연구에서 NumPy가 중요한 부분을 차지하고 있고 학술지에 출판한다면, 아래의 논문을 참조문헌에 써주시길 바랍니다.
 
-*  Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _Array programming with NumPy_. Nature 585, 357–362 (2020). DOI: [0.1038/s41586-020-2649-2](https://doi.org/10.1038/s41586-020-2649-2). ([Publisher link](https://www.nature.com/articles/s41586-020-2649-2)).
+*  Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _Array programming with NumPy_. Nature 585, 357–362 (2020). DOI: [0.1038/s41586-020-2649-2](https://doi.org/10.1038/s41586-020-2649-2). ([링크](https://www.nature.com/articles/s41586-020-2649-2)).
 
-_In BibTeX format:_
+_BibTeX 형식:_
 
  ``` 
 @Article{         harris2020array,
