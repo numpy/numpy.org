@@ -3,11 +3,11 @@ title: NumPy의 역사
 sidebar: false
 ---
 
-NumPy is a foundational Python library that provides array data structures and related fast numerical routines. When started, the library had little funding, and was written mainly by graduate students—many of them without computer science education, and often without a blessing of their advisors. To even imagine that a small group of “rogue” student programmers could upend the already well-established ecosystem of research software—backed by millions in funding and many hundreds of highly qualified engineers — was preposterous. Yet, the philosophical motivations behind a fully open tool stack, in combination with the excited, friendly community with a singular focus, have proven auspicious in the long run.  Nowadays, NumPy is relied upon by scientists, engineers, and many other professionals around the world. For example, the published scripts used in the analysis of gravitational waves import NumPy, and the M87 black hole imaging project directly cites NumPy.
+NumPy는 배열 데이터 구조와 이에 대한 빠른 수치적 루틴을 제공하는 Python의 기초적인 라이브러리입니다. When started, the library had little funding, and was written mainly by graduate students—many of them without computer science education, and often without a blessing of their advisors. To even imagine that a small group of “rogue” student programmers could upend the already well-established ecosystem of research software—backed by millions in funding and many hundreds of highly qualified engineers — was preposterous. Yet, the philosophical motivations behind a fully open tool stack, in combination with the excited, friendly community with a singular focus, have proven auspicious in the long run.  Nowadays, NumPy is relied upon by scientists, engineers, and many other professionals around the world. For example, the published scripts used in the analysis of gravitational waves import NumPy, and the M87 black hole imaging project directly cites NumPy.
 
-For the in-depth account on milestones in the development of NumPy and related libraries please see [arxiv.org](arxiv.org/abs/1907.10121).
+NumPy 및 관련 라이브러리의 개발 단계에 대한 자세한 설명은 [arxiv.org](arxiv.org/abs/1907.10121)를 참고하십시오.
 
-If you’d like to obtain a copy of the original Numeric and Numarray libraries, follow the links below:
+원본 Numeric 및 Numarray 라이브러리의 사본을 얻으려면 아래 링크를 들어가십시오.
 
 [*Numeric* 다운로드 페이지](https://sourceforge.net/projects/numpy/files/Old%20Numeric/)*
 
