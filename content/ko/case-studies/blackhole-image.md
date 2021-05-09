@@ -48,11 +48,11 @@ EHT는 기존 및 최첨된 이미지 재구성 기술을 모두 사용한 뒤, 
 
 {{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="numpy의 역할" caption="**블랙홀 시각화에서 NumPy의 역할**" >}}
 
-For example, the [`eht-imaging`][ehtim] Python package provides tools for simulating and performing image reconstruction on VLBI data. NumPy is at the core of array data processing used in this package, as illustrated by the partial software dependency chart below.
+예를 들어, [`eht-imaging`][ehtim] Python 패키지는 VLBI 데이터를 통해 실험이나 이미지 재구성을 수행할 때 필요한 도구를 제공합니다. NumPy is at the core of array data processing used in this package, as illustrated by the partial software dependency chart below.
 
-{{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Software dependency chart of ehtim package highlighting NumPy**" >}}
+{{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="numpy를 강조하는 ehtim의 종속성 맵" caption="**NumPy를 강조하는 ehtim 패키지의 소프트웨어 종속성 차트**" >}}
 
-Besides NumPy, many other packages, such as [SciPy](https://www.scipy.org) and [Pandas](https://pandas.io), are part of the data processing pipeline for imaging the black hole. The standard astronomical file formats and time/coordinate transformations were handled by [Astropy][astropy], while [Matplotlib][mpl] was used in visualizing data throughout the analysis pipeline, including the generation of the final image of the black hole.
+NumPy 외에도 [SciPy](https://www.scipy.org)와 [Pandas](https://pandas.io) 등의 다른 많은 패키지가 블랙홀을 시각화하는 데이터 처리 파이프라인의 일부입니다. The standard astronomical file formats and time/coordinate transformations were handled by [Astropy][astropy], while [Matplotlib][mpl] was used in visualizing data throughout the analysis pipeline, including the generation of the final image of the black hole.
 
 ## 요약
 
