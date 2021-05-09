@@ -1,5 +1,5 @@
 ---
-title: "Case Study: First Image of a Black Hole"
+title: "사례 연구: 최초의 블랙홀 사진"
 sidebar: false
 ---
 
