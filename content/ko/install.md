@@ -98,12 +98,12 @@ GPU를 사용하는 경우:
 세번째 차이점은 conda는 환경이나 패키지간 의존성을 해결하기 위한 해키지 관리 도구를 제공합니다. 하지만 pip는 그를 위해서 (아주 많은) 추가적인 도구들이 필요합니다.
 
 
-### Reproducible installs
+### 재구성 가능한 설치
 
-As libraries get updated, results from running your code can change, or your code can break completely. It's important to be able to reconstruct the set of packages and versions you're using. Best practice is to:
+라이브러리가 업데이트되면, 코드의 실행 결과가 바뀌거나, 코드가 완전히 손상될 수 있습니다. 사용중인 패키지 및 버전을 재구성할 수 있도록 하는 것이 중요합니다. 가장 좋은 방법으로는
 
-1. use a different environment per project you're working on,
-2. record package names and versions using your package installer; each has its own metadata format for this:
+1. 작업 중인 프로젝트마다 다른 환경을 이용하고,
+2. 각각 자체 메타 데이터 형식이 있는 패키지 설치 프로그램을 통해 패키지 이름과 버전을 기록해둡니다.
    - Conda: [conda environments and environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
    - Pip: [virtual environments](https://docs.python.org/3/tutorial/venv.html) and [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
    - Poetry: [virtual environments and pyproject.toml](https://python-poetry.org/docs/basic-usage/)
