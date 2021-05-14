@@ -15,9 +15,9 @@ sidebar: false
 
 ## 初学者向け
 
-NumPyについての情報はたくさん見つかります。 If you are new, we'd strongly recommend these:
+NumPyについての情報はたくさん見つかります。 初心者の方にはこちらの資料をお勧めします：
 
-<i class="fas fa-chalkboard"></i> **Tutorials**
+<i class="fas fa-chalkboard"></i> **チュートリアル**
 
 * [NumPy Quickstart チュートリアル](https://numpy.org/devdocs/user/quickstart.html)
 * [NumPy Illustrated: The Visual Guide to NumPy *by Lev Maximov*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
