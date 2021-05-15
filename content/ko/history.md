@@ -3,7 +3,7 @@ title: NumPy의 역사
 sidebar: false
 ---
 
-NumPy는 배열 데이터 구조와 이에 대한 빠른 수치적 루틴을 제공하는 Python의 기초적인 라이브러리입니다. When started, the library had little funding, and was written mainly by graduate students—many of them without computer science education, and often without a blessing of their advisors. To even imagine that a small group of “rogue” student programmers could upend the already well-established ecosystem of research software—backed by millions in funding and many hundreds of highly qualified engineers — was preposterous. Yet, the philosophical motivations behind a fully open tool stack, in combination with the excited, friendly community with a singular focus, have proven auspicious in the long run.  Nowadays, NumPy is relied upon by scientists, engineers, and many other professionals around the world. For example, the published scripts used in the analysis of gravitational waves import NumPy, and the M87 black hole imaging project directly cites NumPy.
+NumPy는 배열 데이터 구조와 이에 대한 빠른 수치적 루틴을 제공하는 Python의 기초적인 라이브러리입니다. 처음 시작했을 때는 라이브러리를 개발할 자금이 거의 없었고, 주로 컴퓨터 공학 교육을 받지 못했고, 교수의 승인조차 받지 못한 대학원생이 이를 제작해나갔습니다. 소규모 "불량" 학생 프로그래머 집단이 이미 잘 정립되었으며 엄청난 자본과 많은 우수한 기술자들이 뒷받침하는 연구 소프트웨어 생태계를 뒤바꾼다고 상상해보세요. 정말 터무니없는 일입니다. 그러나 완전 개방형 도구 속에 감추어졌던 철학적 동기들이, 친근하고 들떴으며 특별한 목표를 가진 공동체와 결합되어, 장기적으로 유의미한 것이 드러났습니다.  오늘날 NumPy는 전 세계의 과학자, 기술자 및 기타 많은 전문가들의 신뢰를 받고 있습니다. 예를 들어, 중력파 분석에 사용되며 출시된 스크립트는 NumPy 패키지를 가져 왔고, M87 블랙홀 시각화 프로젝트에서는 NumPy를 직접 인용하였습니다.
 
 NumPy 및 관련 라이브러리의 개발 단계에 대한 자세한 설명은 [arxiv.org](arxiv.org/abs/1907.10121)를 참고하십시오.
 
