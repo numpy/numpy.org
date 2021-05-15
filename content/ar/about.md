@@ -24,12 +24,12 @@ The role of the NumPy Steering Council is to ensure, through working with and se
 - Stéfan van der Walt
 - Eric Wieser
 
-Emeritus:
+الأعضاء الفخريون:
 
 - ترافيس أوليفانت (مؤسس المشروع، 2005-2012)
 - ألكس غريفينغ (2015-2017)
 - مارتن فان كيركويك (2017-2019)
-- Allan Haldane (2015-2021)
+- آلان هالدين (2015-2021)
 - ناثانييل سميث (2012-2021)
 - جوليان تايلور (2013-2021)
 - باولي فيرتانين (2008-2021)
@@ -51,13 +51,13 @@ Emeritus:
 ## الرُعاة
 
 ويتلقى المشروع تمويلا مباشرا من المصادر التالية:
-{{< sponsors >}}
+{{< المتبرعون >}}
 
 
 ## الشركاء المؤسسيون
 
 الشركاء المؤسسيون هم المنظمات التي تدعم المشروع وذلك بتوظيف الأشخاص الذين يساهمون في "نمباي" كجزء من عملهم. ويشمل الشركاء المؤسسيون الحاليون ما يلي:
-{{< partners >}}
+شركاء
 
 
 ## التبرع
@@ -66,7 +66,7 @@ Emeritus:
 
 نمباي هو مشروع ممول برعاية شركةNumFOCUS, 501(c)(3) وهي مؤسسة خيرية غير ربحية في الولايات المتحدة. فهى تدعم مشروع نمباي ماليا وقانونيا وإداريا للمساعدة في ضمان ازدهاره واستدامته. قم بزيارة [numfocus.org](https://numfocus.org) لمزيد من المعلومات.
 
-يمكنك التبرع من خلال: [](https://numfocus.org). وبخصوص المتبرعين في الولايات المتحدة، فإن هديتكم تخصم من الضرائب بالقدر الذي ينص عليه القانون. As with any donation, you should consult with your tax advisor about your particular tax situation.
+يمكنك التبرع من خلال: [](https://numfocus.org). وبخصوص المتبرعين في الولايات المتحدة، فإن هديتكم تخصم من الضرائب بالقدر الذي ينص عليه القانون. كما هو الحال في أي تبرع، وعلى هذا فيتوجب عليك التشاور مع مستشارك الضريبى.
 
-NumPy's Steering Council will make the decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
+وسيتخذ المجلس التوجيهي لنمباى القرارات المتعلقة بكيفية استخدام أي أموال يتلقاها على أفضل وجه. وتوثق الأولويات التقنية وأولويات البنية التحتية على [](https://www.numpy.org/neps/index.html#roadmap).
 {{< numfocus >}}
