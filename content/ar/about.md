@@ -40,13 +40,13 @@ Emeritus:
 
 يزدهر مشروع نمباي حيث أصبح لدينا أقسام لكل من
 
-- code
-- documentation
-- website
-- triage
-- funding and grants
+- الشفرة(الكود)
+- الوثائق
+- المواقع الالكترونية
+- الفرز
+- التمويل والمنح
 
-See the [Team](/gallery/team.html) page for individual team members.
+شاهد صفحة [ ](/gallery/team.html) لأعضاء الفريق.
 
 ## الرُعاة
 
@@ -54,9 +54,9 @@ See the [Team](/gallery/team.html) page for individual team members.
 {{< sponsors >}}
 
 
-## Institutional Partners
+## الشركاء المؤسسيون
 
-Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include:
+الشركاء المؤسسيون هم المنظمات التي تدعم المشروع وذلك بتوظيف الأشخاص الذين يساهمون في "نمباي" كجزء من عملهم. Current Institutional Partners include:
 {{< partners >}}
 
 
