@@ -1,9 +1,9 @@
 ---
-title: Community
+title: 커뮤니티
 sidebar: false
 ---
 
-NumPy is a community-driven open source project developed by a very diverse group of [contributors](/gallery/team.html). The NumPy leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the [NumPy Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
+NumPy는 매우 다양한 [기여자](/gallery/team.html) 집단이 개발하며 커뮤니티에 의해 유지되는 오픈소스 프로젝트입니다. NumPy 관리자는 개방적이며 포용적이고 긍정적인 커뮤니티를 만들기 위해 상당한 노력을 기울였습니다. Please read the [NumPy Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
 
 We offer several communication channels to learn, share your knowledge and connect with others within the NumPy community.
 
@@ -33,7 +33,7 @@ _Please note that GitHub is not the right place to report a security vulnerabili
 
 ### [Slack](https://numpy-team.slack.com)
 
-A real-time chat room to ask questions about _contributing_ to NumPy. This is a private space, specifically meant for people who are hesitant to bring up their questions or ideas on a large public mailing list or GitHub. Please see [here](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) for more details and how to get an invite.
+NumPy에 _기여하는_ 방법에 대하여 질문하는 실시간 채팅방입니다. 여기는 비공개 공간으로, 공용 메일링 리스트나 GitHub에 질문 또는 아이디어를 올리는 것을 주저하는 사람들을 위한 곳입니다. [여기](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy)에서 자세한 내용과 초대를 받는 방법을 알아보세요.
 
 
 ## Study Groups and Meetups
@@ -43,23 +43,23 @@ If you would like to find a local meetup or study group to learn more about NumP
 NumPy also organizes in-person sprints for its team and interested contributors occasionally. These are typically planned several months in advance and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and [Twitter](https://twitter.com/numpy_team).
 
 
-## Conferences
+## 컨퍼런스
 
-The NumPy project doesn't organize its own conferences. The conferences that have traditionally been most popular with NumPy maintainers, contributors and users are the SciPy and PyData conference series:
+NumPy 프로젝트에서는 자체 컨퍼런스를 추진하지 않습니다. 보통 NumPy 관리자나 기여자, 사용자들에게 가장 인기 있는 컨퍼런스는 SciPy나 PyData 쪽 컨퍼런스입니다.
 
 - [SciPy US](https://conference.scipy.org)
 - [EuroSciPy](https://www.euroscipy.org)
-- [SciPy Latin America](https://www.scipyla.org)
-- [SciPy India](https://scipy.in)
-- [SciPy Japan](https://conference.scipy.org)
-- [PyData conferences](https://pydata.org/event-schedule/) (15-20 events a year spread over many countries)
+- [SciPy 라틴 아메리카](https://www.scipyla.org)
+- [SciPy 인도](https://scipy.in)
+- [SciPy 일본](https://conference.scipy.org)
+- [PyData 컨퍼런스](https://pydata.org/event-schedule/) (세계 곳곳의 여러 나라에서 1년에 15~20개의 이벤트를 개최)
 
-Many of these conferences include tutorial days that cover NumPy and/or sprints where you can learn how to contribute to NumPy or related open source projects.
+이런 컨퍼런스 대부분에는 NumPy를 배우는 튜토리얼의 날이나 NumPy 혹은 관련 오픈소스 프로젝트에 기여하는 방법을 배울 수 있는 장이 마련되어 있습니다.
 
 
-## Join the NumPy community
+## NumPy 커뮤니티에 가입
 
-To thrive, the NumPy project needs your expertise and enthusiasm. Not a coder? Not a problem! There are many ways to contribute to NumPy.
+더욱 성장하기 위해, NumPy 프로젝트에서는 당신의 경험과 의욕을 필요로 합니다. Not a coder? Not a problem! There are many ways to contribute to NumPy.
 
 If you are interested in becoming a NumPy contributor (yay!) we recommend checking out our [Contribute](/contribute) page.
 
