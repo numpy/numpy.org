@@ -114,20 +114,20 @@ GPU를 사용하는 경우:
 
 NumPy는 다른 Python 패키지에 의존하지 않습니다. 그러나 고속 선형 대수 라이브러리, 일반적으로 [Inter MKL](https://software.intel.com/en-us/mkl) 또는 [OpenBLAS](https://www.openblas.net/)에 의존하고 있습니다. 사용자는 이를 설치하지 않아도 됩니다 (NumPy 설치 중 저절로 설치됨). 고급 사용자의 경우 사용한 BLAS가 디스크의 성능, 동작 및 크기에 영향을 끼칠 수 있기 때문에 세부 정보를 알고 싶을 수도 있습니다.
 
-- The NumPy wheels on PyPI, which is what pip installs, are built with OpenBLAS. The OpenBLAS libraries are included in the wheel. This makes the wheel larger, and if a user installs (for example) SciPy as well, they will now have two copies of OpenBLAS on disk.
+- PIP가 설치하는 PyPI의 휠 파일에 있는 NumPy의 경우는 OpenBLAS로 빌드되었습니다. OpenBLAS 라이브러리가 휠 파일에 포함되어 있습니다. 이는 휠 파일의 크기를 더 크게 만들고, 사용자가 (예를 들어) SciPy도 설치하게 되면 디스크에 2개의 OpenBLAS 사본이 있게 됩니다.
 
-- In the conda defaults channel, NumPy is built against Intel MKL. MKL is a separate package that will be installed in the users' environment when they install NumPy.
+- Conda의 기본 채널 내 NumPy는 Interl MKL로 빌드되었습니다. MKL은 NumPy를 설치할 때 사용자의 환경에 같이 설치되는 분할 패키지입니다.
 
-- In the conda-forge channel, NumPy is built against a dummy "BLAS" package. When a user installs NumPy from conda-forge, that BLAS package then gets installed together with the actual library - this defaults to OpenBLAS, but it can also be MKL (from the defaults channel), or even [BLIS](https://github.com/flame/blis) or reference BLAS.
+- conda-forge 채널 내 NumPy는 더미 "BLAS" 패키지로 빌드되었습니다. 사용자가 conda-forge에서 NumPy를 설치할 때 해당 BLAS 패키지가 실제 라이브러리와 함께 설치됩니다. 기본값은 OpenBLAS이나, (기본 채널에서는) MKL이 될 수도 있고, 심지어 [BLIS](https://github.com/flame/blis)나 Reference BLAS가 될 수도 있습니다.
 
-- The MKL package is a lot larger than OpenBLAS, it's about 700 MB on disk while OpenBLAS is about 30 MB.
+- MKL 패키지가 OpenBLAS에 비해 더욱 큽니다. OpenBLAS가 30MB를 차지하는 반면, MKL 쪽은 700MB에 달하는 디스크 공간을 차지합니다.
 
-- MKL is typically a little faster and more robust than OpenBLAS.
+- 보통 MKL이 OpenBLAS보다 더 빠르고 안정적입니다.
 
-Besides install sizes, performance and robustness, there are two more things to consider:
+설치 크기, 성능 및 안정성을 제쳐 두더라도, 고려할 사항이 2가지 더 있습니다.
 
-- Intel MKL is not open source. For normal use this is not a problem, but if a user needs to redistribute an application built with NumPy, this could be an issue.
-- Both MKL and OpenBLAS will use multi-threading for function calls like `np.dot`, with the number of threads being determined by both a build-time option and an environment variable. Often all CPU cores will be used. This is sometimes unexpected for users; NumPy itself doesn't auto-parallelize any function calls. It typically yields better performance, but can also be harmful - for example when using another level of parallelization with Dask, scikit-learn or multiprocessing.
+- Intel MKL은 오픈소스가 아닙니다. 일반적으로 사용할 때는 문제가 되지 않지만, 사용자가 NumPy로 빌드한 애플리케이션을 재배포하는 경우 문제가 될 수 있습니다.
+- MKL과 OpenBLAS 모두 `np.dot`과 같이 함수를 호출하는 데 다중 스레드를 사용하며, 스레드의 수는 빌드 시간 설정과 환경 변수에 의해 결정됩니다. 보통은 모든 CPU 코어가 사용됩니다. 이로 인하여 예기치 않은 일이 발생할 수 있습니다. NumPy 자체적으로는 어떤 함수 호출도 병렬화하지 않습니다. 일반적으로 더 나은 성능을 제공해주지만, 예를 들어 Dask, scikit-learn 또는 멀티프로세싱과 함께 다른 수준의 병렬화를 사용하는 경우 좋지 않은 결과를 초래할 수 있습니다.
 
 
 ## 문제 해결
