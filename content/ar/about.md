@@ -56,13 +56,13 @@ Emeritus:
 
 ## الشركاء المؤسسيون
 
-الشركاء المؤسسيون هم المنظمات التي تدعم المشروع وذلك بتوظيف الأشخاص الذين يساهمون في "نمباي" كجزء من عملهم. Current Institutional Partners include:
+الشركاء المؤسسيون هم المنظمات التي تدعم المشروع وذلك بتوظيف الأشخاص الذين يساهمون في "نمباي" كجزء من عملهم. ويشمل الشركاء المؤسسيون الحاليون ما يلي:
 {{< partners >}}
 
 
-## Donate
+## التبرع
 
-If you have found NumPy useful in your work, research, or company, please consider a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation, and community.
+يرجى النظر في التبرع للمشروع بما يتناسب مع مواردك إذا كنت وجدته مفيد في عملك أو بحثك أو شركتك. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation, and community.
 
 NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit [numfocus.org](https://numfocus.org) for more information.
 
