@@ -48,7 +48,7 @@ EHT는 기존 및 최첨된 이미지 재구성 기술을 모두 사용한 뒤, 
 
 {{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="numpy의 역할" caption="**블랙홀 시각화에서 NumPy의 역할**" >}}
 
-예를 들어, [`eht-imaging`][ehtim] Python 패키지는 VLBI 데이터를 통해 실험이나 이미지 재구성을 수행할 때 필요한 도구를 제공합니다. NumPy is at the core of array data processing used in this package, as illustrated by the partial software dependency chart below.
+예를 들어, [`eht-imaging`][ehtim] Python 패키지는 VLBI 데이터를 통해 실험이나 이미지 재구성을 수행할 때 필요한 도구를 제공합니다. NumPy는 아래 소프트웨어 종속성 차트에 나와 있는 것처럼 이 패키지에서 사용되는 배열 데이터 처리의 핵심 역할을 합니다.
 
 {{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="numpy를 강조하는 ehtim의 종속성 맵" caption="**NumPy를 강조하는 ehtim 패키지의 소프트웨어 종속성 차트**" >}}
 
