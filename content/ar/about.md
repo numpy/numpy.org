@@ -62,11 +62,11 @@ Emeritus:
 
 ## التبرع
 
-يرجى النظر في التبرع للمشروع بما يتناسب مع مواردك إذا كنت وجدته مفيد في عملك أو بحثك أو شركتك. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation, and community.
+يرجى النظر في التبرع للمشروع بما يتناسب مع مواردك إذا كنت وجدته مفيد في عملك أو بحثك أو شركتك. ،أي مبلغ قد يساعد، وستستخدم جميع التبرعات بشكل صارم لتطوير برمجيات المشروع مفتوحة المصدر، ووثائقه، ومجتمعه.
 
-NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit [numfocus.org](https://numfocus.org) for more information.
+نمباي هو مشروع ممول برعاية شركةNumFOCUS, 501(c)(3) وهي مؤسسة خيرية غير ربحية في الولايات المتحدة. فهى تدعم مشروع نمباي ماليا وقانونيا وإداريا للمساعدة في ضمان ازدهاره واستدامته. قم بزيارة [numfocus.org](https://numfocus.org) لمزيد من المعلومات.
 
-Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax advisor about your particular tax situation.
+يمكنك التبرع من خلال: [](https://numfocus.org). وبخصوص المتبرعين في الولايات المتحدة، فإن هديتكم تخصم من الضرائب بالقدر الذي ينص عليه القانون. As with any donation, you should consult with your tax advisor about your particular tax situation.
 
 NumPy's Steering Council will make the decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
 {{< numfocus >}}
