@@ -3,7 +3,7 @@ title: 커뮤니티
 sidebar: false
 ---
 
-NumPy는 매우 다양한 [기여자](/gallery/team.html) 집단이 개발하며 커뮤니티에 의해 유지되는 오픈소스 프로젝트입니다. NumPy 관리자는 개방적이며 포용적이고 긍정적인 커뮤니티를 만들기 위해 상당한 노력을 기울였습니다. Please read the [NumPy Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
+NumPy는 매우 다양한 [기여자](/gallery/team.html) 집단이 개발하며 커뮤니티에 의해 유지되는 오픈소스 프로젝트입니다. NumPy 관리자는 개방적이며 포용적이고 긍정적인 커뮤니티를 만들기 위해 상당한 노력을 기울였습니다. [NumPy 이용약관](/code-of-conduct)을 읽으면 커뮤니티가 발전하도록 해 주는 상대방과의 상호작용을 어떻게 하는지 그 방법을 알 수 있습니다.
 
 We offer several communication channels to learn, share your knowledge and connect with others within the NumPy community.
 
@@ -59,7 +59,7 @@ NumPy 프로젝트에서는 자체 컨퍼런스를 추진하지 않습니다. �
 
 ## NumPy 커뮤니티에 가입
 
-더욱 성장하기 위해, NumPy 프로젝트에서는 당신의 경험과 의욕을 필요로 합니다. Not a coder? Not a problem! There are many ways to contribute to NumPy.
+더욱 성장하기 위해, NumPy 프로젝트에서는 당신의 경험과 의욕을 필요로 합니다. 프로그래머가 아니라고요? 걱정하지 마세요! NumPy에 기여하는 방법에는 여러 가지가 있습니다.
 
-If you are interested in becoming a NumPy contributor (yay!) we recommend checking out our [Contribute](/contribute) page.
+NumPy 기여자가 되는 데 관심이 있으시다면 (야호!) [기여](/contribute) 페이지를 방문하시는 것을 추천해 드립니다.
 
