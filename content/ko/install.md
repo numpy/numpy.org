@@ -3,9 +3,9 @@ title: NumPy 설치
 sidebar: false
 ---
 
-NumPy 설치를 위해서는 Python만 필요합니다. 만양 파이썬이 설치되지 않았다면, Python, NumPy, 그리고 다양한 데이터 과학과 과학 계산을 위해 일반적으로 많이 사용되는 패키지를 한번에 설치할 수 있는 [Anaconda Distribution](https://www.anaconda.com/distribution)을 활용하여 설치하는 것을 추천합니다.
+NumPy 설치를 위해서는 Python만 필요합니다. 만약 파이썬이 설치되지 않았다면, Python, NumPy, 그리고 다양한 데이터 과학과 과학 계산을 위해 일반적으로 많이 사용되는 패키지를 한번에 설치할 수 있는 [Anaconda Distribution](https://www.anaconda.com/distribution)을 활용하여 설치하는 것을 추천합니다.
 
-NumPy 는 `conda`, `pip` 그리고 macOS과 Linux의 패키지 매니저를 사용하거나 또는 [소스](https://numpy.org/devdocs/user/building.html)로 부터 설치할 수 있습니다. 보다 상세한 설치 과정과 방법은 [Python and NumPy 설치 가이드](#python-numpy-install-guide)의 아래쪽에 있습니다.
+NumPy는 `conda`, `pip`, macOS와 Linux의 패키지 매니저를 사용하거나 [소스](https://numpy.org/devdocs/user/building.html)로부터 설치할 수 있습니다. 보다 상세한 설치 과정과 방법은 [Python and NumPy 설치 가이드](#python-numpy-install-guide)의 아래쪽에 있습니다.
 
 **CONDA**
 
@@ -110,7 +110,7 @@ GPU를 사용하는 경우:
 
 
 
-## NumPy packages & accelerated linear algebra libraries
+## NumPy 패키지 & 고속 선형 대수 라이브러리
 
 NumPy doesn't depend on any other Python packages, however, it does depend on an accelerated linear algebra library - typically [Intel MKL](https://software.intel.com/en-us/mkl) or [OpenBLAS](https://www.openblas.net/). Users don't have to worry about installing those (they're automatically included in all NumPy install methods). Power users may still want to know the details, because the used BLAS can affect performance, behavior and size on disk:
 
