@@ -112,7 +112,7 @@ GPU를 사용하는 경우:
 
 ## NumPy 패키지 & 고속 선형 대수 라이브러리
 
-NumPy doesn't depend on any other Python packages, however, it does depend on an accelerated linear algebra library - typically [Intel MKL](https://software.intel.com/en-us/mkl) or [OpenBLAS](https://www.openblas.net/). Users don't have to worry about installing those (they're automatically included in all NumPy install methods). Power users may still want to know the details, because the used BLAS can affect performance, behavior and size on disk:
+NumPy는 다른 Python 패키지에 의존하지 않습니다. 그러나 고속 선형 대수 라이브러리, 일반적으로 [Inter MKL](https://software.intel.com/en-us/mkl) 또는 [OpenBLAS](https://www.openblas.net/)에 의존하고 있습니다. 사용자는 이를 설치하지 않아도 됩니다 (NumPy 설치 중 저절로 설치됨). 고급 사용자의 경우 사용한 BLAS가 디스크의 성능, 동작 및 크기에 영향을 끼칠 수 있기 때문에 세부 정보를 알고 싶을 수도 있습니다.
 
 - The NumPy wheels on PyPI, which is what pip installs, are built with OpenBLAS. The OpenBLAS libraries are included in the wheel. This makes the wheel larger, and if a user installs (for example) SciPy as well, they will now have two copies of OpenBLAS on disk.
 
