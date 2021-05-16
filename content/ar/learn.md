@@ -1,11 +1,11 @@
 ---
-title: Learn
+title: التعلم
 sidebar: false
 ---
 
-For the **official NumPy documentation** visit [numpy.org/doc/stable](https://numpy.org/doc/stable).
+للحصول على وثائق مشروع نمباى الرسمية عليك بزيارة[numpy.org/doc/stable](https://numpy.org/doc/stable).
 
-## NumPy Tutorials
+## المحتوى التعليمى لنمباى
 
 You can find a set of tutorials and educational materials by the NumPy community at [NumPy Tutorials](https://numpy.org/numpy-tutorials). The goal of this page is to provide high-quality resources by the NumPy project, both for self-learning and for teaching classes with, in the format of Jupyter Notebooks. If you’re interested in adding your own content, check the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
 
@@ -13,9 +13,9 @@ You can find a set of tutorials and educational materials by the NumPy community
 
 Below is a curated collection of external resources. To contribute, see the [end of this page](#add-to-this-list).
 
-## Beginners
+## للمبتدئين
 
-There's a ton of information about NumPy out there. If you are new, we'd strongly recommend these:
+يوجد الكثير من المعلومات حول مشروع نمباى هناك. لذا إن كنت جديدا هنا فنوصيك بهذا بشدة:
 
 <i class="fas fa-chalkboard"></i> **Tutorials**
 
@@ -57,13 +57,13 @@ Try these advanced resources for a better understanding of NumPy concepts like a
 * [Advanced Indexing](https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm)
 * [Machine Learning and Data Analytics with NumPy](https://www.machinelearningplus.com/python/numpy-tutorial-python-part2/)
 
-<i class="fas fa-book"></i> **Books**
+<i class="fas fa-book"></i> **الكتب**
 
 * [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057) *by Jake Vanderplas*
 * [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662) *by Wes McKinney*
 * [Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy, and Matplotlib](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459) *by Robert Johansson*
 
-<i class="far fa-file-video"></i> **Videos**
+<i class="far fa-file-video"></i> **الفيديو**
 
 * [Advanced NumPy - broadcasting rules, strides, and advanced indexing](https://www.youtube.com/watch?v=cYugp9IN1-Q) *by Juan Nunez-Iglesias*
 * [Advanced Indexing Operations in NumPy Arrays](https://www.youtube.com/watch?v=2WTDrSkQBng) *by Amuls Academy*
