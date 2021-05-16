@@ -14,15 +14,15 @@ _بعض المعلومات حول مشروع ومجتمع نمباي_
 
 The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community. ويتألف المجلس التوجيهي المعني بالمشروع حاليا من الأعضاء التالية (بالترتيب الأبجدي):
 
-- Sebastian Berg
-- Ralf Gommers
-- Charles Harris
-- Stephan Hoyer
-- Melissa Weber Mendonça
-- Inessa Pawson
-- Matti Picus
-- Stéfan van der Walt
-- Eric Wieser
+- سيباستيان بيرج
+- رالف غومرس
+- تشارلز هاريس
+- ستيفان هوير
+- ميليسا فيبر ميندونسا (Melissa Weber Mendonça)
+- إينيسا باوسون
+- ماتى بيكاس
+- ستيفان فان دير والت(Stefan van der Walt)
+- إريك وايزر
 
 الأعضاء الفخريون:
 
