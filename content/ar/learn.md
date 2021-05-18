@@ -11,16 +11,16 @@ sidebar: false
 
 ***
 
-وفيما يلى مختارات من المصادر الخارجية، للمساهمة تفحص [ نهاية هذة الصفح](#add-to-this-list).
+وفيما يلى مختارات من المصادر الخارجية، للمساهمة تفحص [ نهاية هذة الصفحة](#add-to-this-list).
 
 ## للمبتدئين
 
 يوجد الكثير من المعلومات حول مشروع نمباى هناك. لذا إن كنت جديدا هنا فنوصيك بهذا بشدة:
 
-<i class="fas fa-chalkboard"></i> **Tutorials**
+<i class="fas fa-chalkboard"></i> **المحتوى التعليمى**
 
-* [NumPy Quickstart Tutorial](https://numpy.org/devdocs/user/quickstart.html)
-* [NumPy Illustrated: The Visual Guide to NumPy *by Lev Maximov*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
+* [دروس Quickstart](https://numpy.org/devdocs/user/quickstart.html)
+* [توضيح لنمباى: الدليل المرئى لمشروع نمباى*من قبل ليف ماكسيموف*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
 * [SciPy Lectures](https://scipy-lectures.org/) Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.
 * [NumPy: the absolute basics for beginners](https://numpy.org/devdocs/user/absolute_beginners.html)
 * [Machine Learning Plus - Introduction to ndarray](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
