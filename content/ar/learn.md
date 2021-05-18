@@ -21,16 +21,16 @@ sidebar: false
 
 * [دروس Quickstart](https://numpy.org/devdocs/user/quickstart.html)
 * [توضيح لنمباى: الدليل المرئى لمشروع نمباى *من قبل ليف ماكسيموف*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
-* [SciPy Lectures](https://scipy-lectures.org/) Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.
-* [NumPy: the absolute basics for beginners](https://numpy.org/devdocs/user/absolute_beginners.html)
-* [Machine Learning Plus - Introduction to ndarray](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
-* [Edureka - Learn NumPy Arrays with Examples ](https://www.edureka.co/blog/python-numpy-tutorial/)
+* [محاضرات SciPy](https://scipy-lectures.org/)، بجانب التغطية لمشروع نمباى تعرض هذة المحاضرات مقدمة أوسع لمنظومة لغة البايثون العلمية.
+* [نمباى: الأساسيات الثابتة للمبتدئين](https://numpy.org/devdocs/user/absolute_beginners.html)
+* [بالإضافة إلى التعلم الآلى يوجدمقدمة للمصفوفة ndarray](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
+* [إدوريكا - تعلم مصفوفات نمباى بالأمثلة ](https://www.edureka.co/blog/python-numpy-tutorial/)
 * [Dataquest - NumPy Tutorial: Data Analysis with Python](https://www.dataquest.io/blog/numpy-tutorial-python/)
 * [NumPy tutorial *by Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
 * [Stanford CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
 * [NumPy User Guide](https://numpy.org/devdocs)
 
-<i class="fas fa-book"></i> **Books**
+<i class="fas fa-book"></i> **الكتب**
 
 * [Guide to NumPy *by Travis E. Oliphant*](http://web.mit.edu/dvp/Public/numpybook.pdf) This is a free version 1 from 2006. For the latest copy (2015) see [here](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007).
 * [From Python to NumPy *by Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
@@ -38,7 +38,7 @@ sidebar: false
 
 You may also want to check out the [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) on the subject of "Python+SciPy." Most books there are about the "SciPy ecosystem," which has NumPy at its core.
 
-<i class="far fa-file-video"></i> **Videos**
+<i class="far fa-file-video"></i> **الفيديو**
 
 * [Introduction to Numerical Computing with NumPy](http://youtu.be/ZB7BZMhfPgk) *by Alex Chabot-Leclerc*
 
@@ -48,7 +48,7 @@ You may also want to check out the [Goodreads list](https://www.goodreads.com/sh
 
 Try these advanced resources for a better understanding of NumPy concepts like advanced indexing, splitting, stacking, linear algebra, and more.
 
-<i class="fas fa-chalkboard"></i> **Tutorials**
+<i class="fas fa-chalkboard"></i> **المحتوى التعليمى**
 
 * [100 NumPy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) *by Nicolas P. Rougier*
 * [An Introduction to NumPy and Scipy](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) *by M. Scott Shell*
