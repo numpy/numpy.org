@@ -7,11 +7,11 @@ sidebar: false
 
 ## المحتوى التعليمى لنمباى
 
-يقدم مجتمع نمباى مجموعة من الدروس والمواد التعليمية فى [المحتوى التعليمى لنمباى](https://numpy.org/numpy-tutorials). The goal of this page is to provide high-quality resources by the NumPy project, both for self-learning and for teaching classes with, in the format of Jupyter Notebooks. If you’re interested in adding your own content, check the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
+يقدم مجتمع نمباى مجموعة من الدروس والمواد التعليمية فى [المحتوى التعليمى لنمباى](https://numpy.org/numpy-tutorials). الهدف من هذة الصفحة توفير موارد عالية الجودة عن طريق مشروع نمباى، سواء للتعلم الذاتى أو لتدريس الفصول الدراسية بتنسيق مذكرات جوبيتر(Jupyter Notebooks). لذا إن كنت مهتما بإضافة محتوياتك تحقق من هذا[numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
 
 ***
 
-Below is a curated collection of external resources. To contribute, see the [end of this page](#add-to-this-list).
+وفيما يلى مختارات من المصادر الخارجية، للمساهمة تفحص [ نهاية هذة الصفح](#add-to-this-list).
 
 ## للمبتدئين
 
