@@ -7,7 +7,7 @@ sidebar: false
 
 ## المحتوى التعليمى لنمباى
 
-يقدم مجتمع نمباى مجموعة من الدروس والمواد التعليمية فى[NumPy Tutorials](https://numpy.org/numpy-tutorials). The goal of this page is to provide high-quality resources by the NumPy project, both for self-learning and for teaching classes with, in the format of Jupyter Notebooks. If you’re interested in adding your own content, check the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
+يقدم مجتمع نمباى مجموعة من الدروس والمواد التعليمية فى [المحتوى التعليمى لنمباى](https://numpy.org/numpy-tutorials). The goal of this page is to provide high-quality resources by the NumPy project, both for self-learning and for teaching classes with, in the format of Jupyter Notebooks. If you’re interested in adding your own content, check the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
 
 ***
 
