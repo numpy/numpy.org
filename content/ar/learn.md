@@ -27,14 +27,14 @@ sidebar: false
 * [إدوريكا - تعلم مصفوفات نمباى بالأمثلة ](https://www.edureka.co/blog/python-numpy-tutorial/)
 * [منصةDataquest لعلوم البانات - البرنامج التعليمى لنمباى: تحليل البيانات باستخدام لغة البايثون](https://www.dataquest.io/blog/numpy-tutorial-python/)
 * [برنامج نمباى التعليمى *من قبل نيكولاس روجير*](https://github.com/rougier/numpy-tutorial)
-* [Stanford CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
-* [NumPy User Guide](https://numpy.org/devdocs)
+* [CS231 لجامعة ستانفورد*من قبل جاستين جونسون*](http://cs231n.github.io/python-numpy-tutorial/)
+* [دليل استخدام نمباي](https://numpy.org/devdocs)
 
 <i class="fas fa-book"></i> **الكتب**
 
-* [Guide to NumPy *by Travis E. Oliphant*](http://web.mit.edu/dvp/Public/numpybook.pdf) This is a free version 1 from 2006. For the latest copy (2015) see [here](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007).
-* [From Python to NumPy *by Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
-* [Elegant SciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) *by Juan Nunez-Iglesias, Stefan van der Walt, and Harriet Dashnow*
+* [دليل نمباى *ل ترافيس أوليفانت *](http://web.mit.edu/dvp/Public/numpybook.pdf) وهذا هو الإصدار المجانى 1 من 2006. وللإطلاع على أحدث نسخة (2015)انظر هنا [](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007).
+* [لغة البايثون فى نمباى * ل نيكولاس روجير*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
+* [محاضرات SciPy ممتازة](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877)*> لكلا من خوان نونيز إغليسياس وستيفان فان دير والت بالإضافة إلى هارييت داشنوف*
 
 You may also want to check out the [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) on the subject of "Python+SciPy." Most books there are about the "SciPy ecosystem," which has NumPy at its core.
 
