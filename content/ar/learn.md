@@ -44,7 +44,7 @@ sidebar: false
 
 ***
 
-## Advanced
+## خيارات متقدمة
 
 لفهم أفضل لمفاهيم مشروع نمباى جرب هذة المصادر المتطورة مثل الفهرسة المتقدمة و والتقسيم والتكامل والجبر الخطى و.. إلخ.
 
@@ -61,12 +61,12 @@ sidebar: false
 
 * [مرجع البايثون لعلوم البيانات ل ](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057) *جيك فاندربلاس*
 * [بايثون لتحليل البيانات ](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662) *من قبل ويس ماكيني*
-* [Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy, and Matplotlib](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459) *by Robert Johansson*
+* [الحوسبة العلمية بلغة البايثون: تطبيقات باستخدام نمباى وSciPy ومكتبة Matplotlib المُختصة بالإظهار المرئي للبيانات للحوسبة العلمية وتحليل البيانات](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459) * من قبل روبرت جونسون*
 
 <i class="far fa-file-video"></i> **الفيديو**
 
-* [Advanced NumPy - broadcasting rules, strides, and advanced indexing](https://www.youtube.com/watch?v=cYugp9IN1-Q) *by Juan Nunez-Iglesias*
-* [Advanced Indexing Operations in NumPy Arrays](https://www.youtube.com/watch?v=2WTDrSkQBng) *by Amuls Academy*
+* [خيارات نمباي المتقدمة - قواعد البث والمسارات والفهرسة المتقدمة](https://www.youtube.com/watch?v=cYugp9IN1-Q) * لخوان نونيز إغليسياس*
+* [عمليات الفهرسة المتقدمة فى مصفوفات نمباى ](https://www.youtube.com/watch?v=2WTDrSkQBng) *لAmuls Academy*
 
 ***
 
