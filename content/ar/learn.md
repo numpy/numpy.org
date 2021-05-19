@@ -52,15 +52,15 @@ sidebar: false
 
 * [100 تمرين لنمباى](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) * لنيكولاس بي روجير*
 * [مقدمة لنمباى وScipy](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) * ل ام سكوت شيل*
-* [Numpy Medkits](http://mentat.za.net/numpy/numpy_advanced_slides/) *by Stéfan van der Walt*
-* [NumPy in Python (Advanced)](https://www.geeksforgeeks.org/numpy-python-set-2-advanced/)
-* [Advanced Indexing](https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm)
-* [Machine Learning and Data Analytics with NumPy](https://www.machinelearningplus.com/python/numpy-tutorial-python-part2/)
+* [حقيبة نمباى للإسعافات الأولية ](http://mentat.za.net/numpy/numpy_advanced_slides/) *ل ستيفين فان دير واليت*
+* [نمباى بلغة البايثون(متقدم)](https://www.geeksforgeeks.org/numpy-python-set-2-advanced/)
+* [فهرسة متقدمة](https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm)
+* [التعلم الآلى وتحليل البيانات باستخدام نمباى](https://www.machinelearningplus.com/python/numpy-tutorial-python-part2/)
 
 <i class="fas fa-book"></i> **الكتب**
 
-* [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057) *by Jake Vanderplas*
-* [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662) *by Wes McKinney*
+* [مرجع البايثون لعلوم البيانات ل ](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057) *جيك فاندربلاس*
+* [بايثون لتحليل البيانات ](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662) *من قبل ويس ماكيني*
 * [Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy, and Matplotlib](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459) *by Robert Johansson*
 
 <i class="far fa-file-video"></i> **الفيديو**
