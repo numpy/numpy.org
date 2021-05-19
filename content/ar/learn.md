@@ -25,8 +25,8 @@ sidebar: false
 * [نمباى: الأساسيات الثابتة للمبتدئين](https://numpy.org/devdocs/user/absolute_beginners.html)
 * [بالإضافة إلى التعلم الآلى يوجدمقدمة للمصفوفة ndarray](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
 * [إدوريكا - تعلم مصفوفات نمباى بالأمثلة ](https://www.edureka.co/blog/python-numpy-tutorial/)
-* [Dataquest - NumPy Tutorial: Data Analysis with Python](https://www.dataquest.io/blog/numpy-tutorial-python/)
-* [NumPy tutorial *by Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
+* [منصةDataquest لعلوم البانات - البرنامج التعليمى لنمباى: تحليل البيانات باستخدام لغة البايثون](https://www.dataquest.io/blog/numpy-tutorial-python/)
+* [برنامج نمباى التعليمى *من قبل نيكولاس روجير*](https://github.com/rougier/numpy-tutorial)
 * [Stanford CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
 * [NumPy User Guide](https://numpy.org/devdocs)
 
