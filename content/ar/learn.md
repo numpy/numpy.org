@@ -36,22 +36,22 @@ sidebar: false
 * [لغة البايثون فى نمباى * ل نيكولاس روجير*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 * [محاضرات SciPy ممتازة](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877)*> لكلا من خوان نونيز إغليسياس وستيفان فان دير والت بالإضافة إلى هارييت داشنوف*
 
-You may also want to check out the [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) on the subject of "Python+SciPy." Most books there are about the "SciPy ecosystem," which has NumPy at its core.
+يمكنك أيضا مراجعة [ قائمة القراءات الجيدة(Goodreads list) ](https://www.goodreads.com/shelf/show/python-scipy)حول موضوع "Python+SciPy". وتتحدث معظم الكتب فى هذة القائمة عن النظام البيئى لSciPy والذى يمثل نمباى جوهره.
 
 <i class="far fa-file-video"></i> **الفيديو**
 
-* [Introduction to Numerical Computing with NumPy](http://youtu.be/ZB7BZMhfPgk) *by Alex Chabot-Leclerc*
+* [مقدمة للحوسبة الرقمية مع نمباى ](http://youtu.be/ZB7BZMhfPgk) *أليكساندر شابوت لوكلير*
 
 ***
 
 ## Advanced
 
-Try these advanced resources for a better understanding of NumPy concepts like advanced indexing, splitting, stacking, linear algebra, and more.
+لفهم أفضل لمفاهيم مشروع نمباى جرب هذة المصادر المتطورة مثل الفهرسة المتقدمة و والتقسيم والتكامل والجبر الخطى و.. إلخ.
 
 <i class="fas fa-chalkboard"></i> **المحتوى التعليمى**
 
-* [100 NumPy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) *by Nicolas P. Rougier*
-* [An Introduction to NumPy and Scipy](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) *by M. Scott Shell*
+* [100 تمرين لنمباى](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) * لنيكولاس بي روجير*
+* [مقدمة لنمباى وScipy](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) * ل ام سكوت شيل*
 * [Numpy Medkits](http://mentat.za.net/numpy/numpy_advanced_slides/) *by Stéfan van der Walt*
 * [NumPy in Python (Advanced)](https://www.geeksforgeeks.org/numpy-python-set-2-advanced/)
 * [Advanced Indexing](https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm)
