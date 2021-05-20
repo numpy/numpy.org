@@ -70,7 +70,7 @@ sidebar: false
 
 ***
 
-## NumPy Talks
+## مناقشات نمباى
 
 * [The Future of NumPy Indexing](https://www.youtube.com/watch?v=o0EacbIbf58) *by Jaime Fernández* (2016)
 * [Evolution of Array Computing in Python](https://www.youtube.com/watch?v=HVLPJnvInzM&t=10s) *by Ralf Gommers* (2019)
