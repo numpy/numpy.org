@@ -72,9 +72,9 @@ sidebar: false
 
 ## مناقشات نمباى
 
-* [The Future of NumPy Indexing](https://www.youtube.com/watch?v=o0EacbIbf58) *by Jaime Fernández* (2016)
-* [Evolution of Array Computing in Python](https://www.youtube.com/watch?v=HVLPJnvInzM&t=10s) *by Ralf Gommers* (2019)
-* [NumPy: what has changed and what is going to change?](https://www.youtube.com/watch?v=YFLVQFjRmPY) *by Matti Picus* (2019)
+* [مستقبل فهرسة نمباى](https://www.youtube.com/watch?v=o0EacbIbf58) * ل جيمي فيرنانديز*(2016)
+* [تطور حوسبة المصفوفات بلغة البايثون](https://www.youtube.com/watch?v=HVLPJnvInzM&t=10s) * بواسطة رالف غومرس*(2019)
+* [نمباى: إلى أى مدى تغير نمباى وما هى التغييرات المستقبلية له؟](https://www.youtube.com/watch?v=YFLVQFjRmPY) *ل ماتى بيكاس* (2019)
 * [Inside NumPy](https://www.youtube.com/watch?v=dBTJD_FDVjU) *by Ralf Gommers, Sebastian Berg, Matti Picus, Tyler Reddy, Stefan van der Walt, Charles Harris* (2019)
 * [Brief Review of Array Computing in Python](https://www.youtube.com/watch?v=f176j2g2eNc) *by Travis Oliphant* (2019)
 
