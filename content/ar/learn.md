@@ -80,9 +80,9 @@ sidebar: false
 
 ***
 
-## Citing NumPy
+## الاستشهاد بنمباى
 
-If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, please see [this citation information](/citing-numpy).
+إذا كان لنمباى دور كبير فى بحثك وتود الإشارة إليه فى منشورك الأكاديمى،فيرجى الاطلاع على[ معلومات الاستشهاد هذة](/citing-numpy).
 
 ## المساهمة فى هذة القائمة
 
