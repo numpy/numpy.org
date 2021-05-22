@@ -87,4 +87,4 @@ sidebar: false
 ## المساهمة فى هذة القائمة
 
 <a name="add-to-this-list"></a>
-To add to this collection, submit a recommendation [via a pull request](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md). Say why your recommendation deserves mention on this page and also which audience would benefit most.
+للإضافة إلى هذة المجموعة، قم بتقديم توصية [ عن طريق طلب سحب](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md). اذكر لماذا تستحق توصيتك الذكر فى هذة الصفحة وأيضا من الجمهور الأكثر استفادة.
