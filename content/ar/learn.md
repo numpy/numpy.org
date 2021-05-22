@@ -84,7 +84,7 @@ sidebar: false
 
 If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, please see [this citation information](/citing-numpy).
 
-## Contribute to this list
+## المساهمة فى هذة القائمة
 
 <a name="add-to-this-list"></a>
 To add to this collection, submit a recommendation [via a pull request](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md). Say why your recommendation deserves mention on this page and also which audience would benefit most.
