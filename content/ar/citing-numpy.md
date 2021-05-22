@@ -1,5 +1,5 @@
 ---
-title: Citing NumPy
+title: الاستشهاد بنمباى
 sidebar: false
 ---
 
