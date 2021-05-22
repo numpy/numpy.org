@@ -75,8 +75,8 @@ sidebar: false
 * [مستقبل فهرسة نمباى](https://www.youtube.com/watch?v=o0EacbIbf58) * ل جيمي فيرنانديز*(2016)
 * [تطور حوسبة المصفوفات بلغة البايثون](https://www.youtube.com/watch?v=HVLPJnvInzM&t=10s) * بواسطة رالف غومرس*(2019)
 * [نمباى: إلى أى مدى تغير نمباى وما هى التغييرات المستقبلية له؟](https://www.youtube.com/watch?v=YFLVQFjRmPY) *ل ماتى بيكاس* (2019)
-* [Inside NumPy](https://www.youtube.com/watch?v=dBTJD_FDVjU) *by Ralf Gommers, Sebastian Berg, Matti Picus, Tyler Reddy, Stefan van der Walt, Charles Harris* (2019)
-* [Brief Review of Array Computing in Python](https://www.youtube.com/watch?v=f176j2g2eNc) *by Travis Oliphant* (2019)
+* [محتوى نمباى](https://www.youtube.com/watch?v=dBTJD_FDVjU) *بواسطة رالف غومرس وسيباستيان بيرغ وماتى بيكاس وتايلر ريدي وستيفان فان دير والت وتشارلز هاريس* (2019)
+* [مراجعة موجزة لحوسبة المصفوفات بلغة البايثون ](https://www.youtube.com/watch?v=f176j2g2eNc) *لترافيس أوليفانت* (2019)
 
 ***
 
