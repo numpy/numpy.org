@@ -1,23 +1,23 @@
 ---
-title: NumPy Code of Conduct
-sidebar: false
+title: NumPy 行为守则
+sidebar: 假
 aliases:
   - /conduct.html
 ---
 
-### Introduction
+### 引言
 
-This Code of Conduct applies to all spaces managed by the NumPy project, including all public and private mailing lists, issue trackers, wikis, blogs, Twitter, and any other communication channel used by our community. The NumPy project does not organise in-person events, however events related to our community should have a code of conduct similar in spirit to this one.
+本行为守则适用于 NumPy 项目管理的所有网络空间，包括所有公共和私人的邮件列表、问题追踪器、 维基、 博客、 推特以及本社区使用的任何其他交流频道。 NumPy 项目不组织面对面活动。 然而，与本社区有关的活动应有一个与本社区内涵上类似的行为守则。
 
-This Code of Conduct should be honored by everyone who participates in the NumPy community formally or informally, or claims any affiliation with the project, in any project-related activities and especially when representing the project, in any role.
+本行为守则应由每个正式或非正式参加本社区的、与项目有关的、与项目的活动有关的、特别是在代表项目时的人来遵守。
 
-This code is not exhaustive or complete. It serves to distill our common understanding of a collaborative, shared environment and goals. Please try to follow this code in spirit as much as in letter, to create a friendly and productive environment that enriches the surrounding community.
+该守则不详尽，也不完整。 它有助于提升我们对协作、共享环境和目标的共识。 请尽量从内涵上遵循这一守则，以创造一个友好、高效益的环境来丰富有关的社区。
 
-### Specific Guidelines
+### 具体准则
 
-We strive to:
+要努力去：
 
-1. Be open. We invite anyone to participate in our community. We prefer to use public methods of communication for project-related messages, unless discussing something sensitive. This applies to messages for help or project-related support, too; not only is a public support request much more likely to result in an answer to a question, it also ensures that any inadvertent mistakes in answering are more easily detected and corrected.
+1. 敞开心扉。 我们邀请任何人参加本社区。 我们更喜欢公开交流与项目有关的信息，除非讨论某些敏感问题时。 This applies to messages for help or project-related support, too; not only is a public support request much more likely to result in an answer to a question, it also ensures that any inadvertent mistakes in answering are more easily detected and corrected.
 2. Be empathetic, welcoming, friendly, and patient. We work together to resolve conflict, and assume good intentions. We may all experience some frustration from time to time, but we do not allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.
 3. Be collaborative. Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of the project, we are willing to explain to others how it works, so that they can build on the work to make it even better. Any decision we make will affect users and colleagues, and we take those consequences seriously when making decisions.
 4. Be inquisitive. Nobody knows everything! Asking questions early avoids many problems later, so we encourage questions, although we may direct them to the appropriate forum. We will try hard to be responsive and helpful.
