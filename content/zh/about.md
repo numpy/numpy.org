@@ -15,21 +15,21 @@ NumPy 是一个使 Python 支持数值计算的开源项目， 它诞生于 2005
 指导委员会的成员们通过与 Numpy 社区合作并提供服务的形式来确保项目的长期发展，包括技术层面和社区层面。 Numpy 指导委员会目前由下列成员组成（按字母顺序排列）：
 
 - Sebastian Berg
-- Ralf Gommers
-- Charles Harris
-- Stephan Hoyer
-- Melissa Weber Mendonça
-- Inessa Pawson
+- 拉尔夫·戈默斯
+- 查尔斯·哈里斯
+- 史蒂芬·霍耶
+- 梅丽莎·韦伯·门多萨
+- 伊涅萨·波森
 - Matti Picus
-- Stéfan van der Walt
-- Eric Wieser
+- 斯特凡·凡·德·沃特
+- 艾瑞克·维瑟
 
 荣誉会员：
 
 - Travis Oliphant（项目创始人，2005-2012年）
 - Alex Griffing（2015-2017年）
 - Marten van Kerkwijk （2017-2019年）
-- Allan Haldane (2015-2021)
+- 艾伦·霍尔丹（2015-2021）
 - Nathaniel Smith (2012-2021)
 - Julian Taylor (2013-2021)
 - Pauli Virtanen (2008-2021)
