@@ -1,7 +1,7 @@
 ---
-languageName: English
+languageName: 英语
 params:
-  description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
+  description: 为什么使用 Numpy？它有强大的高维数组、有数字计算工具、互可操作、高性能、开源。
   navbarlogo:
     image: logos/numpy.svg
     link: /
@@ -9,9 +9,9 @@ params:
     #Main hero title
     title: NumPy
     #Hero subtitle (optional)
-    subtitle: The fundamental package for scientific computing with Python
+    subtitle: 使用 Python 进行科学计算的基本包
     #Button text
-    buttontext: Get started
+    buttontext: 入门
     #Where the main hero button links to
     buttonlink: "/install"
     #Hero image (from static/images/___)
@@ -19,44 +19,44 @@ params:
   #Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
     title: NumPy v1.20.0
-    content: Type annotation support - Performance improvements through multi-platform SIMD
+    content: 支持输入批注 - 通过多平台SIMD实现性能改进
     url: /news
   shell:
-    title: placeholder
+    title: 占位符
   casestudies:
     title: CASE STUDIES
     features:
       - 
-        title: First Image of a Black Hole
-        text: How NumPy, together with libraries like SciPy and Matplotlib that depend on NumPy, enabled the Event Horizon Telescope to produce the first ever image of a black hole
+        title: 第一张黑洞图像
+        text: NumPy 是怎么配合 SciPy 和 Matplotlib 等库来让事件视界望远镜（Eht）生成第一张黑洞图像的
         img: /images/content_images/case_studies/blackhole.png
-        alttext: First image of a black hole. It is an orange circle in a black background.
+        alttext: 这是黑洞的第一张图像。它是黑色背景上衬着的一个橙色圆环。
         url: /case-studies/blackhole-image
       - 
-        title: Detection of Gravitational Waves
-        text: In 1916, Albert Einstein predicted gravitational waves; 100 years later their existence was confirmed by LIGO scientists using NumPy.
+        title: 引力波探测
+        text: 在1916年，阿尔伯特·爱因斯坦预测了引力波的存在。100年后，激光干涉引力波天文台（LIGO）的科学家利用 NumPy 证明了引力波的存在。
         img: /images/content_images/case_studies/gravitional.png
-        alttext: Two orbs orbiting each other. They are displacing gravity around them.
+        alttext: 两个相互环绕的天体。它们改变了周围的引力。
         url: /case-studies/gw-discov
       - 
-        title: Sports Analytics
-        text: Cricket Analytics is changing the game by improving player and team performance through statistical modelling and predictive analytics. NumPy enables many of these analyses.
+        title: 运动分析
+        text: Cricket Analytics 正在通过统计模型和预测分析来改进队员的团队的表现，改变体育界。NumPy 让其中很多的分析成为了可能。
         img: /images/content_images/case_studies/sports.jpg
-        alttext: Cricket ball on green field.
+        alttext: 绿色的赛场上的板球。
         url: /case-studies/cricket-analytics
       - 
-        title: Pose Estimation using deep learning
-        text: DeepLabCut uses NumPy for accelerating scientific studies that involve observing animal behavior for better understanding of motor control, across species and timescales.
+        title: 使用深度学习进行估计
+        text: DeepLabCut 使用 NumPy 来加速进行涉及观察动物行为的科学研究，以便跨物种和时间尺度推动研究发展。
         img: /images/content_images/case_studies/deeplabcut.png
         alttext: Cheetah pose analysis
         url: /case-studies/deeplabcut-dnn
   keyfeatures:
     features:
       - 
-        title: Powerful N-dimensional arrays
+        title: 强大的高维数组
         text: Fast and versatile, the NumPy vectorization, indexing, and broadcasting concepts are the de-facto standards of array computing today.
       - 
-        title: Numerical computing tools
+        title: 数字计算工具
         text: NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
       - 
         title: Interoperable
