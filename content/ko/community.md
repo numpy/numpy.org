@@ -13,7 +13,7 @@ We offer several communication channels to learn, share your knowledge and conne
 The following are ways to engage directly with the NumPy project and community. _Please note that we encourage users and community members to support each other for usage questions - see [Get Help](/gethelp)._
 
 
-### [NumPy mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion)
+### [NumPy 메일링 리스트](https://mail.python.org/mailman/listinfo/numpy-discussion)
 
 This list is the main forum for longer-form discussions, like adding new features to NumPy, making changes to the NumPy Roadmap, and all kinds of project-wide decision making. Announcements about NumPy, such as for releases, developer meetings, sprints or conference talks are also made on this list.
 
@@ -36,11 +36,11 @@ _Please note that GitHub is not the right place to report a security vulnerabili
 NumPy에 _기여하는_ 방법에 대하여 질문하는 실시간 채팅방입니다. 여기는 비공개 공간으로, 공용 메일링 리스트나 GitHub에 질문 또는 아이디어를 올리는 것을 주저하는 사람들을 위한 곳입니다. [여기](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy)에서 자세한 내용과 초대를 받는 방법을 알아보세요.
 
 
-## Study Groups and Meetups
+## 학술 그룹 및 모임
 
-If you would like to find a local meetup or study group to learn more about NumPy and the wider ecosystem of Python packages for data science and scientific computing, we recommend exploring the [PyData meetups](https://www.meetup.com/pro/pydata/) (150+ meetups, 100,000+ members).
+NumPy와 데이터 과학 및 과학적 컴퓨팅을 위한 Python 패키지의 생태계에 대해 자세히 알아보기 위하여, 지역 모임이나 학술 그룹을 찾고 싶다면 [PyData 모임](https://www.meetup.com/pro/pydata/) (150개 이상의 모임, 10만 명 이상의 회원) 사이트를 돌아보시는 것을 추천해 드립니다.
 
-NumPy also organizes in-person sprints for its team and interested contributors occasionally. These are typically planned several months in advance and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and [Twitter](https://twitter.com/numpy_team).
+NumPy에서도 가끔 자체 팀이나 관심 있는 기여자들을 위하여 직접 모임을 조직하기도 합니다. These are typically planned several months in advance and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and [Twitter](https://twitter.com/numpy_team).
 
 
 ## 컨퍼런스
