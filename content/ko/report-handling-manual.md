@@ -1,5 +1,5 @@
 ---
-title: NumPy Code of Conduct - How to follow up on a report
+title: NumPy 이용 약관 - 보고서의 후속 조치 방법
 sidebar: false
 ---
 
