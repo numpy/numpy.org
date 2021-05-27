@@ -1,21 +1,21 @@
 - - -
-title: Contribute to NumPy sidebar: false
+title: NumPy에 기여하기 sidebar: false
 - - -
 
-The NumPy project welcomes your expertise and enthusiasm! Your choices aren't limited to programming -- in addition to
+NumPy 프로젝트에서는 당신의 경험과 의욕을 환영합니다! NumPy에 기여할 수 있는 방법은 프로그래밍뿐만이 아닙니다.
 
-- [Writing code](#writing-code)
+- [코드 작성](#writing-code)
 
-you can
+아래와 같이 기여할 수도 있습니다.
 
-- [Review pull requests](#reviewing-pull-requests)
-- [Develop tutorials, presentations, and other educational material](#developing-educational-materials)
-- [Triage issues](#issue-triaging)
-- [Work on our website](#website-development)
-- [Contribute graphic design](#graphic-design)
-- [Translate website content](#translating-website-content)
-- [Serve as a community coordinator](#community-coordination-and-outreach)
-- [Write grant proposals and help with other fundraising](#fundraising)
+- [풀 요청 검토](#reviewing-pull-requests)
+- [튜토리얼, 발표 등 교육 자료 개발](#developing-educational-materials)
+- [이슈 선별](#issue-triaging)
+- [사이트에서 작업](#website-development)
+- [그래픽 디자인에 기여](#graphic-design)
+- [사이트 콘텐츠 번역](#translating-website-content)
+- [커뮤니티 코디네이터로 기여](#community-coordination-and-outreach)
+- [보조금 제안서 작성 및 기타 모금 지원](#fundraising)
 
 If you're unsure where to start or how your skills fit in, _reach out!_ You can ask on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) or [GitHub](http://github.com/numpy/numpy) (open an [issue](https://github.com/numpy/numpy/issues) or comment on a relevant issue).
 
