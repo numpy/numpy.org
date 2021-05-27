@@ -21,11 +21,11 @@ On this list please use bottom posting, reply to the list (rather than to anothe
 
 ***
 
-### [GitHub issue tracker](https://github.com/numpy/numpy/issues)
+### [GitHub 이슈 추적기](https://github.com/numpy/numpy/issues)
 
-- For bug reports (e.g. "`np.arange(3).shape` returns `(5,)`, when it should return `(3,)`");
-- documentation issues (e.g. "I found this section unclear");
-- and feature requests (e.g. "I would like to have a new interpolation method in `np.percentile`").
+- 버그 제보 (예: "`np.arange(3).shape` returns `(5,)`, when it should return `(3,)`");
+- 문서 관련 문제점 (예: "I found this section unclear");
+- 기능 요청 (예: "I would like to have a new interpolation method in `np.percentile`").
 
 _Please note that GitHub is not the right place to report a security vulnerability. If you think you have found a security vulnerability in NumPy, please report it [here](https://tidelift.com/docs/security)._
 
@@ -40,7 +40,7 @@ NumPy에 _기여하는_ 방법에 대하여 질문하는 실시간 채팅방입�
 
 NumPy와 데이터 과학 및 과학적 컴퓨팅을 위한 Python 패키지의 생태계에 대해 자세히 알아보기 위하여, 지역 모임이나 학술 그룹을 찾고 싶다면 [PyData 모임](https://www.meetup.com/pro/pydata/) (150개 이상의 모임, 10만 명 이상의 회원) 사이트를 돌아보시는 것을 추천해 드립니다.
 
-NumPy에서도 가끔 자체 팀이나 관심 있는 기여자들을 위하여 직접 모임을 조직하기도 합니다. These are typically planned several months in advance and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and [Twitter](https://twitter.com/numpy_team).
+NumPy에서도 가끔 자체 팀이나 관심 있는 기여자들을 위하여 직접 모임을 조직하기도 합니다. 보통 몇 달 전부터 미리 계획되며 [메일링 리스트](https://mail.python.org/mailman/listinfo/numpy-discussion) 및 [트위터](https://twitter.com/numpy_team)로 해당 사실을 알립니다.
 
 
 ## 컨퍼런스
