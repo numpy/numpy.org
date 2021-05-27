@@ -5,19 +5,19 @@ sidebar: false
 
 NumPy는 매우 다양한 [기여자](/gallery/team.html) 집단이 개발하며 커뮤니티에 의해 유지되는 오픈소스 프로젝트입니다. NumPy 관리자는 개방적이며 포용적이고 긍정적인 커뮤니티를 만들기 위해 상당한 노력을 기울였습니다. [NumPy 이용약관](/code-of-conduct)을 읽으면 커뮤니티가 발전하도록 해 주는 상대방과의 상호작용을 어떻게 하는지 그 방법을 알 수 있습니다.
 
-We offer several communication channels to learn, share your knowledge and connect with others within the NumPy community.
+NumPy 커뮤니티에서는 배우고, 지식을 공유하고, 다른 사람들과 협력할 수 있는 여러 커뮤니케이션 채널을 제공합니다.
 
 
-## Participate online
+## 온라인으로 참여
 
-The following are ways to engage directly with the NumPy project and community. _Please note that we encourage users and community members to support each other for usage questions - see [Get Help](/gethelp)._
+NumPy 프로젝트 및 커뮤니티에 곧장 참여할 수 있는 방법들입니다. _사용자와 커뮤니티 회원이 사용 중 질문에 대하여 서로 도움을 주고받기를 권장한다는 것을 명심하십시오. [도움말](/gethelp)을 참고하세요._
 
 
 ### [NumPy 메일링 리스트](https://mail.python.org/mailman/listinfo/numpy-discussion)
 
-This list is the main forum for longer-form discussions, like adding new features to NumPy, making changes to the NumPy Roadmap, and all kinds of project-wide decision making. Announcements about NumPy, such as for releases, developer meetings, sprints or conference talks are also made on this list.
+이 리스트는 NumPy 신기능 추가, NumPy 로드맵 변경 등 모든 종류의 프로젝트 전체 의사 결정과 같은 장기적인 토론을 이끄는 주요 포럼이라 할 수 있습니다. 출시, 개발자 모임, 일반 모임, 컨퍼런스 강연과 같은 NumPy에 대한 공지도 이 리스트를 통해 받아볼 수 있습니다.
 
-On this list please use bottom posting, reply to the list (rather than to another sender), and don't reply to digests. A searchable archive of this list is available [here](http://numpy-discussion.10968.n7.nabble.com/).
+리스트에 회신하려면 (다른 발신자에게 회신하기보다는) 하단의 게시물을 이용하십시오. 또, 자동 발신 메일에 회신하지 마십시오. 메일링 리스트에 대하여 검색 가능한 아카이브는 [여기](http://numpy-discussion.10968.n7.nabble.com/)에서 이용할 수 있습니다.
 
 ***
 
@@ -27,7 +27,7 @@ On this list please use bottom posting, reply to the list (rather than to anothe
 - 문서 관련 문제점 (예: "I found this section unclear");
 - 기능 요청 (예: "I would like to have a new interpolation method in `np.percentile`").
 
-_Please note that GitHub is not the right place to report a security vulnerability. If you think you have found a security vulnerability in NumPy, please report it [here](https://tidelift.com/docs/security)._
+_GitHub은 보안 취약점을 제보하는 곳이 아님을 명심하십시오. NumPy의 보안 취약점을 발견한 것 같으시다면, [여기](https://tidelift.com/docs/security)에서 제보하십시오._
 
 ***
 
