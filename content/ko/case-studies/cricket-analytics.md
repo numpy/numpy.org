@@ -12,9 +12,9 @@ sidebar: false
 
 ## 크리켓이란
 
-인도인들이 크리켓과 사랑에 빠졌다고 해도 과언이 아닙니다. 크리켓은 인도의 거의 모든 지역 구석구석에서 시골이든 도시든 상관없이 사랑받고 있습니다. 다른 스포츠와 달리 인도의 수십억 명을 연결하는 매개체 역할을 하는 데다 남녀노소 모두에게 인기가 있습니다. 크리켓은 많은 미디어의 관심을 받고 있기도 합니다. 엄청난 [돈](https://www.statista.com/topics/4543/indian-premier-league-ipl/)과 명성이 달려 있기도 하죠. 최근 몇 년 동안, 기술이 이 분야의 판도를 뒤집어 버렸습니다. Audiences are spoilt for choice with streaming media, tournaments, affordable access to mobile based live cricket watching, and more.
+인도인들이 크리켓과 사랑에 빠졌다고 해도 과언이 아닙니다. 크리켓은 인도의 거의 모든 지역 구석구석에서 시골이든 도시든 상관없이 사랑받고 있습니다. 다른 스포츠와 달리 인도의 수십억 명을 연결하는 매개체 역할을 하는 데다 남녀노소 모두에게 인기가 있습니다. 크리켓은 많은 미디어의 관심을 받고 있기도 합니다. 엄청난 [돈](https://www.statista.com/topics/4543/indian-premier-league-ipl/)과 명성이 달려 있기도 하죠. 최근 몇 년 동안, 기술이 이 분야의 판도를 뒤집어 버렸습니다. 청중들은 스트리밍 미디어, 토너먼트, 모바일 기기를 통해 실시간 크리켓 경기를 저렴하게 볼 수 있습니다.
 
-The Indian Premier League (IPL) is a professional Twenty20 cricket league, founded in 2008. It is one of the most attended cricketing events in the world, valued at [$6.7 billion](https://en.wikipedia.org/wiki/Indian_Premier_League) in 2019.
+인도 프리미어 리그(IPL)는 2008년 설립되어 20개 팀으로 구성된 프로 크리켓 리그입니다. 이는 세계에서 가장 참가자가 많은 크리켓 이벤트 중 하나로, 2019년에 [67억 달러](https://en.wikipedia.org/wiki/Indian_Premier_League)에 달하는 가치로 추산됩니다.
 
 Cricket is a game of numbers - the runs scored by a batsman, the wickets taken by a bowler, the matches won by a cricket team, the number of times a batsman responds in a certain way to a kind of bowling attack, etc. The capability to dig into cricketing numbers for both improving performance and studying the business opportunities, overall market, and economics of cricket via powerful analytics tools, powered by numerical computing software such as NumPy, is a big deal. Cricket analytics provides interesting insights into the game and predictive intelligence regarding game outcomes.
 
@@ -30,7 +30,7 @@ Today, there are rich and almost infinite troves of cricket game records and sta
 ### 데이터 분석의 주요 목표
 
 * 스포츠 데이터는 크리켓에서뿐만 아니라 [다른 스포츠](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx)에서도 팀의 전체 역량과 승리 확률을 높이는 데 쓰입니다.
-* Real-time data analytics can help in gaining insights even during the game for changing tactics by the team and by associated businesses for economic benefits and growth.
+* 실시간 데이터 분석은 경기 중에도 팀과 관련 사업의 변화하는 전략에 대한 통찰력을 확보하여 경제적 이익과 성장을 도모하는 데 도움이 될 수 있습니다.
 * Besides historical analysis, predictive models are harnessed to determine the possible match outcomes that require significant number crunching and data science know-how, visualization tools and capability to include newer observations in the analysis.
 
 {{< figure src="/images/content_images/cs/player-pose-estimator.png" class="fig-center" alt="자세 예측" caption="**크리켓 자세 예측**" attr="*(사진 출처: connect.vin)*" attrlink="https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/" >}}
