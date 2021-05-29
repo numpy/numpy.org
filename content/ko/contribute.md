@@ -25,7 +25,7 @@ We also have a biweekly _community call_, details of which are announced on the 
 
 Our community aspires to treat everyone equally and to value all contributions. We have a [Code of Conduct](/code-of-conduct) to foster an open and welcoming environment.
 
-### Writing code
+### 코드 작성
 
 Programmers, this [guide](https://numpy.org/devdocs/dev/index.html#development-process-summary) explains how to contribute to the codebase.
 
