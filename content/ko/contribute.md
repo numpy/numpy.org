@@ -27,52 +27,52 @@ Our community aspires to treat everyone equally and to value all contributions. 
 
 ### 코드 작성
 
-Programmers, this [guide](https://numpy.org/devdocs/dev/index.html#development-process-summary) explains how to contribute to the codebase.
+프로그래머 여러분, 이 [도움말](https://numpy.org/devdocs/dev/index.html#development-process-summary)에서 어떻게 코드베이스에 기여하는지 알 수 있습니다.
 
-### Reviewing pull requests
-The project has more than 250 open pull requests -- meaning many potential improvements and many open-source contributors waiting for feedback. If you're a developer who knows NumPy, you can help even if you're not familiar with the codebase. You can:
-* summarize a long-running discussion
-* triage documentation PRs
-* test proposed changes
-
-
-### Developing educational materials
-
-NumPy's [User Guide](https://numpy.org/devdocs) is undergoing rehabilitation. We're in need of new tutorials, how-to's, and deep-dive explanations, and the site needs restructuring. Opportunities aren't limited to writers. We'd also welcome worked examples, notebooks, and videos. [NEP 44 — Restructuring the NumPyDocumentation](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html) lays out our ideas -- and you may have others.
+### 풀 요청 검토
+프로젝트의 열린 풀 요청만 250개가 넘습니다. 즉 많은 잠재적 개선점과 오픈소스 기여자들이 피드백을 기다리고 있다는 것입니다. NumPy를 알고 있는 개발자라면, 코드베이스에 대해 잘 알지 못해도 기여할 수 있습니다. 아래와 같은 기여를 해 보십시오.
+* 늘어지는 토론 요약
+* 문서의 풀 요청 심사
+* 제안된 변경 사항 테스트
 
 
-### Issue triaging
+### 교육 자료 개발
 
-The [NumPy issue tracker](https://github.com/numpy/numpy/issues) has a _lot_ of open issues. Some are no longer valid, some should be prioritized, and some would make good issues for new contributors.  You can:
-
-* check if older bugs are still present
-* find duplicate issues and link related ones
-* add good self-contained reproducers to issues
-* label issues correctly (this requires triage rights -- just ask)
-
-Please just dive in.
+NumPy의 [사용자 도움말](https://numpy.org/devdocs)은 현재 대규모로 재구성되고 있습니다. 현재 새로운 튜토리얼, 방법, 심층적 설명이 필요하고, 사이트의 구조를 다시 짜야 합니다. 글을 쓰는 사람에게만 기회가 주어지는 것은 아닙니다. 코드 예제와 노트북, 동영상 등을 통한 기여도 환영합니다. [NEP 44 — NumPy 문서의 재구성](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html)에 사이트 재구성에 대하여 자세한 내용이 설명되어 있습니다.
 
 
-### Website development
+### 이슈 확인
 
-We've just revamped our website, but we're far from done. If you love web development, these [issues](https://github.com/numpy/numpy.org/issues?q=is%3Aissue+is%3Aopen+label%3Adesign) list some of our unmet needs -- and feel free to share your own ideas.
+[NumPy 이슈 트래커](https://github.com/numpy/numpy/issues)에는 _정말 많은_ 이슈들이 현재 열린 상태로 있습니다. 일부는 더 이상 유효하지 않은 이슈고, 일부는 우선 순위를 지정해야 하며, 일부는 새로운 기여자들이 볼 만한 좋은 이슈가 될 수 있을 것입니다.  아래와 같은 기여를 해 보십시오.
+
+* 오래된 버그가 현재도 남아 있는지 확인
+* 중복된 이슈를 찾아 하나로 묶기
+* 이슈를 재현하는 코드를 추가
+* 이슈를 올바르게 라벨링 (이 작업에는 심사 권한이 필요합니다. 필요한 경우 요청하십시오)
+
+한 번 참여해 보시길 바랍니다.
 
 
-### Graphic design
+### 사이트 개발
 
-We can barely begin to list the contributions a graphic designer can make here. Our docs are parched for illustration; our growing website craves images -- opportunities abound.
+사이트를 막 뜯어 고친 상태이지만, 아직 끝이라기엔 멀었습니다. 웹 개발을 좋아하신다면, [여기](https://github.com/numpy/numpy.org/issues?q=is%3Aissue+is%3Aopen+label%3Adesign)에서 저희가 이루지 못했던 사항의 목록을 볼 수 있습니다. 자신만의 아이디어를 마음껏 공유해 주십시오.
 
 
-### Translating website content
+### 그래픽 디자인
 
-We plan multiple translations of [numpy.org](https://numpy.org) to make NumPy accessible to users in their native language. Volunteer translators are at the heart of this effort.  See [here](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n) for background; comment on [this GitHub issue](https://github.com/numpy/numpy.org/issues/55) to sign up.
+그래픽 디자이너분들이 할 수 있는 기여의 목록을 여기에 열거하는 건 어렵습니다. 저희 문서에는 일러스트가 많이 부족합니다. 성장하는 사이트에는 이미지가 필요하기 때문에, 기여할 수 있는 기회가 많을 것입니다.
+
+
+### 사이트 콘텐츠 번역
+
+사용자가 모국어로 NumPy를 이용할 수 있도록 [numpy.org](https://numpy.org)의 여러 번역을 계획하고 있습니다. 이를 위해서는 자원봉사자분들의 통역이 필요합니다.  자세한 내용은 [여기](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n)를 참고하십시오. [이 GitHub 이슈](https://github.com/numpy/numpy.org/issues/55)에 댓글을 달아 번역에 참여하십시오.
 
 
 ### Community coordination and outreach
 
 Through community contact we share our work more widely and learn where we're falling short. We're eager to get more people involved in efforts like our [Twitter](https://twitter.com/numpy_team) account, organizing NumPy [code sprints](https://scisprints.github.io/), a newsletter, and perhaps a blog.
 
-### Fundraising
+### 모금
 
-NumPy was all-volunteer for many years, but as its importance grew it became clear that to ensure stability and growth we'd need financial support. [This SciPy'19 talk](https://www.youtube.com/watch?v=dBTJD_FDVjU) explains how much difference that support has made. Like all the nonprofit world, we're constantly searching for grants, sponsorships, and other kinds of support. We have a number of ideas and of course we welcome more. Fundraising is a scarce skill here  -- we'd appreciate your help.
+NumPy was all-volunteer for many years, but as its importance grew it became clear that to ensure stability and growth we'd need financial support. 이런 지원이 얼마나 큰 차이를 만들어 냈는지 [SciPy'19 강연](https://www.youtube.com/watch?v=dBTJD_FDVjU)에서 확인하실 수 있습니다. Like all the nonprofit world, we're constantly searching for grants, sponsorships, and other kinds of support. We have a number of ideas and of course we welcome more. Fundraising is a scarce skill here  -- we'd appreciate your help.
 
