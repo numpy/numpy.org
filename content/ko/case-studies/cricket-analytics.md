@@ -39,11 +39,11 @@ Today, there are rich and almost infinite troves of cricket game records and sta
 
 * **데이터 정리 및 전처리**
 
-  IPL has expanded cricket beyond the classic test match format to a much larger scale. The number of matches played every season across various formats has increased and so has the data, the algorithms, newer sports data analysis technologies and simulation models. Cricket data analysis requires field mapping, player tracking, ball tracking, player shot analysis, and several other aspects involved in how the ball is delivered, its angle, spin, velocity, and trajectory. All these factors together have increased the complexity of data cleaning and preprocessing.
+  IPL은 크리켓을 고전적인 테스트 매치 형식에서 훨씬 더 큰 규모로 확대시켰습니다. 매 시즌 다양한 형식으로 열리는 경기의 수가 증가하고 있으며, 데이터, 알고리즘, 최신 스포츠 데이터 분석 기술, 시뮬레이션 모델 또한 증가하고 있습니다. 크리켓 데이터 분석에는 필드 매핑, 플레이어 추적, 공 추적, 플레이어의 타격 분석 및 공이 어떻게 움직이는지에 대한 각도, 스핀, 속도, 궤도 등 다른 많은 종류의 데이터를 필요로 합니다. 이 수많은 인자들은 데이터 정리 및 전처리 과정의 복잡성을 증가시켰습니다.
 
 * **동적 모델링**
 
-  In cricket, just like any other sport, there can be a large number of variables related to tracking various numbers of players on the field, their attributes, the ball, and several possibilities of potential actions. The complexity of data analytics and modeling is directly proportional to the kind of predictive questions that are put forth during analysis and are highly dependent on data representation and the model. Things get even more challenging in terms of computation, data comparisons when dynamic cricket play predictions are sought such as what would have happened if the batsman had hit the ball at a different angle or velocity.
+  크리켓에서는 다른 스포츠와 마찬가지로 다양한 선수의 수, 선수의 속성, 공이나 잠재적 행동의 가능성 등 여러 가능성을 추적할 때 많은 변수가 작용합니다. The complexity of data analytics and modeling is directly proportional to the kind of predictive questions that are put forth during analysis and are highly dependent on data representation and the model. Things get even more challenging in terms of computation, data comparisons when dynamic cricket play predictions are sought such as what would have happened if the batsman had hit the ball at a different angle or velocity.
 
 * **예측 분석의 복잡성**
 
