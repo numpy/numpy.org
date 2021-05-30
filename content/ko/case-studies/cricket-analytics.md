@@ -25,7 +25,7 @@ Today, there are rich and almost infinite troves of cricket game records and sta
 * gaining insights into fitness and performance of a player against different opposition,
 * player contribution to wins and losses for making strategic decisions on team composition
 
-{{< figure src="/images/content_images/cs/cricket-pitch.png" class="csfigcaption" caption="**Cricket Pitch, the focal point in the field**" alt="A cricket pitch with bowler and batsmen" align="middle" attr="*(Image credit: Debarghya Das)*" attrlink="http://debarghyadas.com/files/IPLpaper.pdf" >}}
+{{< figure src="/images/content_images/cs/cricket-pitch.png" class="csfigcaption" caption="**경기장의 중심이 되는 크리켓 피치**" alt="볼러와 배트맨으로 이루어진 크리켓 피치" align="middle" attr="*(사진 출처: Debarghya Das)*" attrlink="http://debarghyadas.com/files/IPLpaper.pdf" >}}
 
 ### 데이터 분석의 주요 목표
 
@@ -43,7 +43,7 @@ Today, there are rich and almost infinite troves of cricket game records and sta
 
 * **동적 모델링**
 
-  크리켓에서는 다른 스포츠와 마찬가지로 다양한 선수의 수, 선수의 속성, 공이나 잠재적 행동의 가능성 등 여러 가능성을 추적할 때 많은 변수가 작용합니다. The complexity of data analytics and modeling is directly proportional to the kind of predictive questions that are put forth during analysis and are highly dependent on data representation and the model. Things get even more challenging in terms of computation, data comparisons when dynamic cricket play predictions are sought such as what would have happened if the batsman had hit the ball at a different angle or velocity.
+  크리켓에서는 다른 스포츠와 마찬가지로 다양한 선수의 수, 선수의 속성, 공이나 잠재적 행동의 가능성 등 여러 가능성을 추적할 때 많은 변수가 작용합니다. 데이터 분석 및 모델링의 복잡성은 분석 중 제시되는 예측 질문의 종류에 비례하며, 데이터 표현 및 모델에 크게 의존합니다. 타자가 다른 각도나 속도로 공을 쳤을 때 일어날 일과 같은 동적인 크리켓 경기를 예측할 때, 계산이나 데이터 비교 측면에서 상황이 훨씬 더 어려워집니다.
 
 * **예측 분석의 복잡성**
 
