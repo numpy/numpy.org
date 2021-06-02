@@ -1,12 +1,13 @@
 import os
 import re
+import io
 
 
 with open('config.yaml.in', 'r', encoding='utf-8') as templ:
     lines = templ.readlines()
 
 pattern = re.compile('< content\/\w\w\/config.yaml >')
-with open('config.yaml', 'w', ) as f:
+with io.open('config.yaml', 'w', encoding='utf-8') as f:
     for line in lines:
         match = pattern.search(line)
         if match:
