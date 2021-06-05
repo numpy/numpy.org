@@ -3,9 +3,9 @@ title: الاستشهاد بنمباى
 sidebar: false
 ---
 
-If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, we suggest citing the following paper:
+إذا كان لنمباى دور كبير فى بحثك وتود الإشارة إليه فى منشورك الأكاديمى،فبامكانك القاء نظرة على هذة الورقة المقترحة للاستشهاد:
 
-*  Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _Array programming with NumPy_. Nature 585, 357–362 (2020). DOI: [0.1038/s41586-020-2649-2](https://doi.org/10.1038/s41586-020-2649-2). ([Publisher link](https://www.nature.com/articles/s41586-020-2649-2)).
+*  Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _برمجة المصفوفات بواسطة نمباى_. الطبيعة 585, 357–362 (2020). DOI: [0.1038/s41586-020-2649-2](https://doi.org/10.1038/s41586-020-2649-2). ([Publisher link](https://www.nature.com/articles/s41586-020-2649-2)).
 
 _In BibTeX format:_
 
