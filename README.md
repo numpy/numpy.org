@@ -24,14 +24,14 @@ git submodule update --init
 The development web server is started with:
 
 ```bash
-make hugo
-hugo server
+make hugo 
+#or
+python gen_config.py
 ```
-
-or
-
+You can either use ```make hugo``` or ```python gen_config.py```
 ```bash
-make hugo
+hugo server 
+#or
 hugo server -D
 ```
 
