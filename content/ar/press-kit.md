@@ -1,8 +1,8 @@
 ---
-title: Press kit
+title: الملف الصحفى
 sidebar: false
 ---
 
-We would like to make it easy for you to include the NumPy project identity in your next academic paper, course materials, or presentation.
+نرحب بتسهيل إدراج مشروع نمباى عليك سواء فى بحثك الأكاديمى أو كمادة دراسية أو كعرض.
 
-You will find several high-resolution versions of the NumPy logo [here](https://github.com/numpy/numpy/tree/master/branding/logo). Note that by using the numpy.org resources, you accept the [NumPy Code of Conduct](/code-of-conduct).
+لذلك ستجد عدة إصدارات عالية الجودة من شاعر نمباى[ هنا](https://github.com/numpy/numpy/tree/master/branding/logo). وعليك أن تلاحظ أنه باستخدام موارد numpy.org فأنت توافق على[ قواعد السلوك لنمباى](/code-of-conduct).
