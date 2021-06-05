@@ -1,8 +1,8 @@
 ---
-title: Privacy Policy
+title: سياسة الخصوصية
 sidebar: false
 ---
 
-**numpy.org** is operated by [NumFOCUS, Inc.](https://numfocus.org), the fiscal sponsor of the NumPy project. For the Privacy Policy of this website please refer to https://numfocus.org/privacy-policy.
+**numpy.org** يتم تشغيلة بواسطة [NumFOCUS, Inc.](https://numfocus.org), الراعى المالى لمشروع نمباى. للوصول إلى سياسة الخصوصية لهذا الموقع برجاء زيارة https://numfocus.org/privacy-policy.
 
-If you have any questions about the policy or NumFOCUS’s data collection, use, and disclosure practices, please contact the NumFOCUS staff at privacy@numfocus.org.
+إذا كان لديك أسئلة بخصوص سياسة أو جمع بيانات NumFOCUS واستخدامها بالإضافة إلى ممارسات الإفصاح، يرجى الاتصال بموظفى NumFOCUS على موقع privacy@numfocus.org.
