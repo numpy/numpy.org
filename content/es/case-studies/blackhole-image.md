@@ -34,7 +34,7 @@ El [ telescopio Horizonte de Sucesos (EHT) ](https://eventhorizontelescope.org),
   
   EHT poses massive data-processing challenges, including rapid atmospheric phase fluctuations, large recording bandwidth, and telescopes that are widely dissimilar and geographically dispersed.
 
-* **Too much information**
+* **Demasiada información**
   
   Each day EHT generates over 350 terabytes of observations, stored on helium-filled hard drives. Reducing the volume and complexity of this much data is enormously difficult.
 
@@ -46,7 +46,7 @@ El [ telescopio Horizonte de Sucesos (EHT) ](https://eventhorizontelescope.org),
 
 
 
-## NumPy’s Role
+## Los roles de Numpy
 
 What if there's a problem with the data? Or perhaps an algorithm relies too heavily on a particular assumption. Will the image change drastically if a single parameter is changed?
 
@@ -64,7 +64,7 @@ Besides NumPy, many other packages, such as [SciPy](https://www.scipy.org) and [
 
 
 
-## Summary
+## Resumen
 
 The efficient and adaptable n-dimensional array that is NumPy's central feature enabled researchers to manipulate large numerical datasets, providing a foundation for the first-ever image of a black hole. A landmark moment in science, it gives stunning visual evidence of Einstein’s theory. The achievement encompasses not only technological breakthroughs but also international collaboration among over 200 scientists and some of the world's best radio observatories.  Innovative algorithms and data processing techniques, improving upon existing astronomical models, helped unfold a mystery of the universe.
 
