@@ -37,6 +37,13 @@ hugo server -D
 
 to run the hugo server with draft enabled.
 
+If you don't have `make` available (e.g., on Windows), use this instead:
+```bash
+python gen_config.py
+hugo
+hugo server
+```
+
 after which the site should be served at http://localhost:1313.
 
 You'll see
