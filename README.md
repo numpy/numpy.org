@@ -24,18 +24,25 @@ git submodule update --init
 The development web server is started with:
 
 ```bash
-make hugo 
-#or
-python gen_config.py
+make hugo
+hugo server
 ```
-You can either use ```make hugo``` or ```python gen_config.py```
+
+or
+
 ```bash
-hugo server 
-#or
+make hugo
 hugo server -D
 ```
 
 to run the hugo server with draft enabled.
+
+If you don't have `make` available (e.g., on Windows), use this instead:
+```bash
+python gen_config.py
+hugo
+hugo server
+```
 
 after which the site should be served at http://localhost:1313.
 
