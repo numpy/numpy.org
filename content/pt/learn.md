@@ -7,17 +7,17 @@ Para a **documentação oficial do NumPy** visite [numpy.org/doc/stable](https:/
 
 ## Tutoriais NumPy
 
-Você pode encontrar um conjunto de tutoriais e materiais educativos criados pela comunidade do NumPy em [NumPy Tutorials](https://numpy.org/numpy-tutorials). The goal of this page is to provide high-quality resources by the NumPy project, both for self-learning and for teaching classes with, in the format of Jupyter Notebooks. If you’re interested in adding your own content, check the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
+Você pode encontrar um conjunto de tutoriais e materiais educativos criados pela comunidade do NumPy em [NumPy Tutorials](https://numpy.org/numpy-tutorials). O objetivo desta página é fornecer recursos de alta qualidade pelo projeto NumPy, tanto para autoaprendizado como para o ensino, no formato de notebooks Jupyter. Se você tiver interesse em adicionar o seu próprio conteúdo, verifique o repositório [numpy-tutorials no GitHub](https://github.com/numpy/numpy-tutorials).
 
 ***
 
-Below is a curated collection of external resources. To contribute, see the [end of this page](#add-to-this-list).
+Abaixo você pode encontrar uma coleção de recursos externos selecionados. Para contribuir, veja o [fim desta página](#add-to-this-list).
 
-## Beginners
+## Iniciantes
 
-There's a ton of information about NumPy out there. If you are new, we'd strongly recommend these:
+Há uma tonelada de informações sobre o NumPy por aí. Se você está começando, recomendamos fortemente as fontes seguintes:
 
-<i class="fas fa-chalkboard"></i> **Tutorials**
+<i class="fas fa-chalkboard"></i> **Tutoriais**
 
 * [NumPy Quickstart Tutorial (Tutorial de Início Rápido)](https://numpy.org/devdocs/user/quickstart.html)
 * [NumPy Illustrated: The Visual Guide to NumPy *by Lev Maximov*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
@@ -30,25 +30,25 @@ There's a ton of information about NumPy out there. If you are new, we'd strongl
 * [Stanford CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
 * [NumPy User Guide](https://numpy.org/devdocs)
 
-<i class="fas fa-book"></i> **Books**
+<i class="fas fa-book"></i> **Livros**
 
 * [Guide to NumPy *de Travis E. Oliphant*](http://web.mit.edu/dvp/Public/numpybook.pdf) Essa é uma versão free de 2006. Para a última versão (2015) veja [aqui](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007).
 * [From Python to NumPy *por Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 * [Elegant SciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) *por Juan Nunez-Iglesias, Stefan van der Walt, e Harriet Dashnow*
 
-You may also want to check out the [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) on the subject of "Python+SciPy." Most books there are about the "SciPy ecosystem," which has NumPy at its core.
+Você também pode querer conferir a [lista Goodreads](https://www.goodreads.com/shelf/show/python-scipy) sobre o tema "Python+SciPy. A maioria dos livros lá serão sobre o "ecossistema SciPy", que tem o NumPy em sua essência.
 
-<i class="far fa-file-video"></i> **Videos**
+<i class="far fa-file-video"></i> **Vídeos**
 
 * [Introduction to Numerical Computing with NumPy](http://youtu.be/ZB7BZMhfPgk) *por Alex Chabot-Leclerc*
 
 ***
 
-## Advanced
+## Avançados
 
-Try these advanced resources for a better understanding of NumPy concepts like advanced indexing, splitting, stacking, linear algebra, and more.
+Experimente esses recursos avançados para uma melhor compreensão dos conceitos da NumPy, como indexação avançada, splitting, stacking, álgebra linear e muito mais.
 
-<i class="fas fa-chalkboard"></i> **Tutorials**
+<i class="fas fa-chalkboard"></i> **Tutoriais**
 
 * [100 NumPy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) *por Nicolas P. Rougier*
 * [An Introduction to NumPy and Scipy](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) *por M. Scott Shell*
@@ -57,20 +57,20 @@ Try these advanced resources for a better understanding of NumPy concepts like a
 * [Advanced Indexing](https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm)
 * [Machine Learning and Data Analytics with NumPy](https://www.machinelearningplus.com/python/numpy-tutorial-python-part2/)
 
-<i class="fas fa-book"></i> **Books**
+<i class="fas fa-book"></i> **Livros**
 
 * [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057) *por Jake Vanderplas*
 * [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662) *por Wes McKinney*
 * [Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy, and Matplotlib](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459) *por Robert Johansson*
 
-<i class="far fa-file-video"></i> **Videos**
+<i class="far fa-file-video"></i> **Vídeos**
 
 * [Advanced NumPy - broadcasting rules, strides, and advanced indexing](https://www.youtube.com/watch?v=cYugp9IN1-Q) *by Juan Nunez-Iglesias*
 * [Advanced Indexing Operations in NumPy Arrays](https://www.youtube.com/watch?v=2WTDrSkQBng) *por Amuls Academy*
 
 ***
 
-## NumPy Talks
+## Palestras sobre NumPy
 
 * [The Future of NumPy Indexing](https://www.youtube.com/watch?v=o0EacbIbf58) *por Jaime Fernández* (2016)
 * [Evolution of Array Computing in Python](https://www.youtube.com/watch?v=HVLPJnvInzM&t=10s) *por Ralf Gommers* (2019)
@@ -80,11 +80,11 @@ Try these advanced resources for a better understanding of NumPy concepts like a
 
 ***
 
-## Citing NumPy
+## Citando o NumPy
 
-If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, please see [this citation information](/citing-numpy).
+Se a NumPy é importante na sua pesquisa, e você gostaria de dar reconhecimento ao projeto na sua publicação acadêmica, por favor veja [estas informações sobre citações](/citing-numpy).
 
-## Contribute to this list
+## Contribua para esta lista
 
 <a name="add-to-this-list"></a>
-To add to this collection, submit a recommendation [via a pull request](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md). Say why your recommendation deserves mention on this page and also which audience would benefit most.
+Para adicionar a essa coleção, envie uma recomendação [através de um pull request](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md). Diga por que sua recomendação merece ser mencionada nesta página e também qual o público que mais se beneficiaria.
