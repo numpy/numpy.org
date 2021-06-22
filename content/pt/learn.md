@@ -5,9 +5,9 @@ sidebar: false
 
 Para a **documentação oficial do NumPy** visite [numpy.org/doc/stable](https://numpy.org/doc/stable).
 
-## NumPy Tutorials
+## Tutoriais NumPy
 
-You can find a set of tutorials and educational materials by the NumPy community at [NumPy Tutorials](https://numpy.org/numpy-tutorials). The goal of this page is to provide high-quality resources by the NumPy project, both for self-learning and for teaching classes with, in the format of Jupyter Notebooks. If you’re interested in adding your own content, check the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
+Você pode encontrar um conjunto de tutoriais e materiais educativos criados pela comunidade do NumPy em [NumPy Tutorials](https://numpy.org/numpy-tutorials). The goal of this page is to provide high-quality resources by the NumPy project, both for self-learning and for teaching classes with, in the format of Jupyter Notebooks. If you’re interested in adding your own content, check the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
 
 ***
 
