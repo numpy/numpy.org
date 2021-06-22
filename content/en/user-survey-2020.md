@@ -10,7 +10,7 @@ community survey. Over 1,200 users from 75 countries participated to help us
 map out a landscape of the NumPy community and voiced their thoughts about the
 future of the project.
 
-**[Download a report](https://github.com/numpy/numpy-surveys/blob/master/NumPysurveyresults_report2020.pdf)**
+**[Download a report](/surveys/NumPy_usersurvey_2020_report.pdf)**
 to take a closer look at the survey findings.
 
 
