@@ -18,8 +18,8 @@ params:
     image: logos/numpy.svg
   #Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
-    title: NumPy v1.20.0
-    content: 타입 어노테이션 지원 - 다중 플랫폼 SIMD를 통해 성능 향상
+    title: 2020 NumPy survey
+    content: results are in
     url: /news
   shell:
     title: 플레이스홀더
