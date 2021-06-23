@@ -3,13 +3,18 @@ title: 소식
 sidebar: false
 ---
 
-### Numpy 1.20.0 출시
+### 2020 NumPy survey results
 
-_2021년 1월 30일_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html)이 출시되었습니다. 역대 최대의 NumPy 릴리즈입니다. 180명이 넘는 기여자분들께 감사드립니다. 흥미롭고 새로운 두 기능이 나왔습니다.
+_Jun 22, 2021_ -- In 2020, the NumPy survey team in partnership with students and faculty from the University of Michigan and the University of Maryland conducted the first official NumPy community survey. Find the survey results here: https://numpy.org/user-survey-2020/.
+
+
+### Numpy 1.20.0 release
+
+_Jan 30, 2021_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) is now available. This is the largest NumPy release to date, thanks to 180+ contributors. The two most exciting new features are:
 - Type annotations for large parts of NumPy, and a new `numpy.typing` submodule containing `ArrayLike` and `DtypeLike` aliases that users and downstream libraries can use when adding type annotations in their own code.
 - Multi-platform SIMD compiler optimizations, with support for x86 (SSE, AVX), ARM64 (Neon), and PowerPC (VSX) instructions. This yielded significant performance improvements for many functions (examples: [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
 
-### NumPy 프로젝트 내 다양성
+### Diversity in the NumPy project
 
 _Sep 20, 2020_ -- We wrote a [statement on the state of, and discussion on social media around, diversity and inclusion in the NumPy project](/diversity_sep2020).
 
@@ -37,18 +42,18 @@ _Jul 2, 2020_ -- This survey is meant to guide and set priorities for decision-m
 Please help us make NumPy better and take the survey [here](https://umdsurvey.umd.edu/jfe/form/SV_8bJrXjbhXf7saAl).
 
 
-### NumPy에 새로운 로고가 생겼습니다!
+### NumPy has a new logo!
 
-_2020년 6월 24일_ -- NumPy에 새로운 로고가 생겼습니다.
+_Jun 24, 2020_ -- NumPy now has a new logo:
 
-<img src="/images/logos/numpy_logo.svg" alt="NumPy 로고" title="새 NumPy 로고" width=300>
+<img src="/images/logos/numpy_logo.svg" alt="NumPy logo" title="The new NumPy logo" width=300>
 
-이전 로고를 깔끔하고 현대적으로 다시 디자인했습니다. 새 로고를 만들어 주신 Isabela Presedo-Floyd님께 감사드립니다. 또 15년이 넘는 기간 동안 저희가 사용했던 로고를 만들어 주신 Travis Vaught님께도 감사의 말씀을 드립니다.
+The logo is a modern take on the old one, with a cleaner design. Thanks to Isabela Presedo-Floyd for designing the new logo, as well as to Travis Vaught for the old logo that served us well for 15+ years.
 
 
-### NumPy 1.19.0 출시
+### NumPy 1.19.0 release
 
-_2020년 6월 20일_ -- NumPy 1.19.0이 출시되었습니다. Python 2의 지원을 중단한 첫 릴리즈라서 "정리 릴리즈"라고도 불립니다. 이제 지원하는 Python 최소 버전은 3.6입니다. 중요한 새 기능을 꼽자면, NumPy 1.17.0에 도입된 난수 생성 인프라를 Cython에서 접근할 수 있게 되었다는 것입니다.
+_Jun 20, 2020_ -- NumPy 1.19.0 is now available. This is the first release without Python 2 support, hence it was a "clean-up release". The minimum supported Python version is now Python 3.6. An important new feature is that the random number generation infrastructure that was introduced in NumPy 1.17.0 is now accessible from Cython.
 
 
 ### Season of Docs acceptance
@@ -63,9 +68,9 @@ _Dec 22, 2019_ -- NumPy 1.18.0 is now available. After the major changes in 1.17
 Please see the [release notes](https://github.com/numpy/numpy/releases/tag/v1.18.0) for more details.
 
 
-### NumPy가 Chan Zuckerberg Initiative에서 보조금을 받음
+### NumPy receives a grant from the Chan Zuckerberg Initiative
 
-_2019년 11월 15일_ -- NumPy의 주요 종속 패키지 중 하나인 NumPy와 OpenBLAS가 챈 저커버그 이니셔티브의 [과학 프로그램용 중요 오픈소스 소프트웨어](https://chanzuckerberg.com/eoss/) 지원을 통해 19만 5천 달러에 달하는 공동 보조금을 받았다는 소식을 전할 수 있어 기쁩니다. 이곳에서는 과학에 중요한 오픈소스 도구에 대해 유지 관리, 성장, 개발 및 커뮤니티 참여를 지원합니다.
+_Nov 15, 2019_ -- We are pleased to announce that NumPy and OpenBLAS, one of NumPy's key dependencies, have received a joint grant for $195,000 from the Chan Zuckerberg Initiative through their [Essential Open Source Software for Science program](https://chanzuckerberg.com/eoss/) that supports software maintenance, growth, development, and community engagement for open source tools critical to science.
 
 This grant will be used to ramp up the efforts in improving NumPy documentation, website redesign, and community development to better serve our large and rapidly growing user base, and ensure the long-term sustainability of the project. While the OpenBLAS team will focus on addressing sets of key technical issues, in particular thread-safety, AVX-512, and thread-local storage (TLS) issues, as well as algorithmic improvements in ReLAPACK (Recursive LAPACK) on which OpenBLAS depends.
 
@@ -74,7 +79,7 @@ More details on our proposed initiatives and deliverables can be found in the [f
 
 ## 릴리즈
 
-NumPy 릴리즈의 목록입니다. 모든 버그 수정 릴리즈(`x.y.z`에서 `z`만 바뀐 경우)에는 새로운 기능이 없습니다. 마이너 릴리즈(`y`가 증가한 경우)에는 새로운 기능이 있습니다.
+Here is a list of NumPy releases, with links to release notes. All bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
 
 - NumPy 1.18.4 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.18.4)) -- _2020년 5월 3일_.
 - NumPy 1.18.3 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.18.3)) -- _2020년 4월 19일_.
