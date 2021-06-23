@@ -2,6 +2,10 @@
 title: News
 sidebar: false
 ---
+### 2020 NumPy survey results
+
+_Jun 22, 2021_ -- In 2020, the NumPy survey team in partnership with students and faculty from the University of Michigan and the University of Maryland conducted the first official NumPy community survey. Find the survey results here: https://numpy.org/user-survey-2020/.
+
 
 ### Numpy 1.20.0 release
 
