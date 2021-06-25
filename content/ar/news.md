@@ -1,5 +1,5 @@
 ---
-title: News
+title: أخبار
 sidebar: false
 ---
 
