@@ -5,12 +5,12 @@ sidebar: false
 
 ### نتائج استطلاع نمباى لعام 2020
 
-_Jun 22, 2021_ -- In 2020, the NumPy survey team in partnership with students and faculty from the University of Michigan and the University of Maryland conducted the first official NumPy community survey. Find the survey results here: https://numpy.org/user-survey-2020/.
+_22 يونيو2021_ -قام فريق استطلاع نمباى فى عام 2020 بالاشتراك مع طلاب وأعضاء هيئة التدريس من جامعتى ميشيغان وماريلاند بإجراء أول دراسة استقصائية رسمية لمجتمع نمباى. بامكانك معرفة نتائج الدراسة الاستقصائية من هنا: https://numpy.org/user-survey-2020/.
 
 
-### Numpy 1.20.0 release
+### الإصدار 1.20.0 لنمباى
 
-_Jan 30, 2021_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) is now available. This is the largest NumPy release to date, thanks to 180+ contributors. The two most exciting new features are:
+_30يناير2021_ -- [إصدار1.20.0 لنمباى](https://numpy.org/doc/stable/release/1.20.0-notes.html) متاح الآن. وهذا هو أكبر اصدار لنمباى حتى الآن بفضل 180+ من المساهمين. والسمتان الجديدتان الأكثر إثارة للاهتمام هما:
 - Type annotations for large parts of NumPy, and a new `numpy.typing` submodule containing `ArrayLike` and `DtypeLike` aliases that users and downstream libraries can use when adding type annotations in their own code.
 - Multi-platform SIMD compiler optimizations, with support for x86 (SSE, AVX), ARM64 (Neon), and PowerPC (VSX) instructions. This yielded significant performance improvements for many functions (examples: [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
 
