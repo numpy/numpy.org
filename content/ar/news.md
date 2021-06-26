@@ -1,5 +1,5 @@
 ---
-title: أخبار
+title: الأخبار
 sidebar: false
 ---
 
@@ -19,7 +19,7 @@ _30يناير2021_ -- [إصدار1.20.0 لنمباى](https://numpy.org/doc/stab
 _20 سبتمبر 2020_ -- كتبنا[ تقريرًا وأجرينا نقاشًا على وسائل التواصل الاجتماعي حول التنوع والشمول فى مشروع نمباي](/diversity_sep2020).
 
 
-### First official NumPy paper published in Nature!
+### نشر أول ورقة رسمية لنمباي فى مجلة نيتشر!
 
 _Sep 16, 2020_ -- We are pleased to announce the publication of [the first official paper on NumPy](https://www.nature.com/articles/s41586-020-2649-2) as a review article in Nature. This comes 14 years after the release of NumPy 1.0. The paper covers applications and fundamental concepts of array programming, the rich scientific Python ecosystem built on top of NumPy, and the recently added array protocols to facilitate interoperability with external array and tensor libraries like CuPy, Dask, and JAX.
 
@@ -79,7 +79,7 @@ More details on our proposed initiatives and deliverables can be found in the [f
 
 ## الإصدارات
 
-إليك قائمة من إصدارات نمباى، مع روابط لاصدار الملاحظات. All bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
+إليك قائمة من إصدارات نمباي، مع روابط لملاحظات كل إصدار. All bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
 
 - NumPy 1.18.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.18.4)) -- _3 May 2020_.
 - NumPy 1.18.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.18.3)) -- _19 Apr 2020_.
