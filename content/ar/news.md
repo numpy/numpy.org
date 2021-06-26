@@ -79,7 +79,7 @@ More details on our proposed initiatives and deliverables can be found in the [f
 
 ## الإصدارات
 
-إليك قائمة من إصدارات نمباي، مع روابط لملاحظات كل إصدار. All bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
+إليك قائمة من إصدارات نمباي، مع روابط لملاحظات كل إصدار. لا توجد مزايا جديدة(التغييرات فقط فى رقم الإصدار `z` `x.y.z`) فى جميع إصدارات إصلاح العيوب على عكس الإصدارات الثانوية(الزيادة `y`).
 
 - NumPy 1.18.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.18.4)) -- _3 May 2020_.
 - NumPy 1.18.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.18.3)) -- _19 Apr 2020_.
