@@ -5,7 +5,7 @@ sidebar: false
 
 ### نتائج استطلاع نمباي لعام 2020
 
-_22 يونيو2021_ -قام فريق استطلاع نمباي في عام 2020 بالاشتراك مع طلاب وأعضاء هيئة التدريس من جامعتى ميتشيغان وميريلاند بإجراء أول دراسة استقصائية رسمية لمجتمع نمباي. بامكانك معرفة نتائج الدراسة الاستقصائية من هنا: https://numpy.org/user-survey-2020/.
+_22 يونيو2021_ -قام فريق استطلاع نمباي في عام 2020 بالاشتراك مع طلاب وأعضاء هيئة التدريس من جامعتي ميتشيجان وميريلاند بإجراء أول دراسة استقصائية رسمية لمجتمع نمباي. بامكانك معرفة نتائج الدراسة الاستقصائية من هنا: https://numpy.org/user-survey-2020/.
 
 
 ### الإصدار 1.20.0 لنمباى
@@ -14,9 +14,9 @@ _30يناير2021_ -- [إصدار1.20.0 لنمباى](https://numpy.org/doc/stab
 - Type annotations for large parts of NumPy, and a new `numpy.typing` submodule containing `ArrayLike` and `DtypeLike` aliases that users and downstream libraries can use when adding type annotations in their own code.
 - Multi-platform SIMD compiler optimizations, with support for x86 (SSE, AVX), ARM64 (Neon), and PowerPC (VSX) instructions. This yielded significant performance improvements for many functions (examples: [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
 
-### التنوع فى مشروع نمباى
+### التنوع في مشروع نمباي
 
-_Sep 20, 2020_ -- We wrote a [statement on the state of, and discussion on social media around, diversity and inclusion in the NumPy project](/diversity_sep2020).
+_20 سبتمبر 2020_ -- كتبنا[ تقريرًا وأجرينا نقاشًا على وسائل التواصل الاجتماعي حول التنوع والشمول فى مشروع نمباي](/diversity_sep2020).
 
 
 ### First official NumPy paper published in Nature!
