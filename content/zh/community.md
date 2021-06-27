@@ -1,5 +1,5 @@
 ---
-title: Community
+title: 社区
 sidebar: false
 ---
 
