@@ -3,21 +3,21 @@ title: 社区
 sidebar: false
 ---
 
-NumPy is a community-driven open source project developed by a very diverse group of [contributors](/gallery/team.html). The NumPy leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the [NumPy Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
+Numby是一个社区驱动的开源项目，由一群十分多样化的[贡献者](/gallery/team.html)开发。 Numpy的领导层承诺要打造一个开放，包容，积极向上的社区。 请阅读 [ NumPy 行为准则](/code-of-conduct) 以了解如何用促进社区繁荣的方式与他人交流互动。
 
-We offer several communication channels to learn, share your knowledge and connect with others within the NumPy community.
+我们提供多种交流渠道，可以用来学习知识、分享您的专业见解、或是与 NumPy 社区中的其他人联系。
 
 
 ## Participate online
 
-The following are ways to engage directly with the NumPy project and community. _Please note that we encourage users and community members to support each other for usage questions - see [Get Help](/gethelp)._
+以下是直接参与 NumPy 项目和社区的方法。 _注意，我们鼓励用户和社区成员在使用问题上相互帮助——参阅 [获取帮助](/gethelp)。_
 
 
-### [NumPy mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion)
+### [NumPy 邮件列表](https://mail.python.org/mailman/listinfo/numpy-discussion)
 
-This list is the main forum for longer-form discussions, like adding new features to NumPy, making changes to the NumPy Roadmap, and all kinds of project-wide decision making. Announcements about NumPy, such as for releases, developer meetings, sprints or conference talks are also made on this list.
+这个列表是较长形式讨论的主要讨论区，例如将新功能添加到Numpy，更改Numpy 路线图或是各种项目级的决策。 Announcements about NumPy, such as for releases, developer meetings, sprints or conference talks are also made on this list.
 
-On this list please use bottom posting, reply to the list (rather than to another sender), and don't reply to digests. A searchable archive of this list is available [here](http://numpy-discussion.10968.n7.nabble.com/).
+On this list please use bottom posting, reply to the list (rather than to another sender), and don't reply to digests. 这个列表提供了一个可检索的 [归档](http://numpy-discussion.10968.n7.nabble.com/)。
 
 ***
 
