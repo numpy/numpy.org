@@ -3,7 +3,7 @@ title: الحصول على مساعدة
 sidebar: false
 ---
 
-**User questions:** The best way to get help is to post your question to a site like [StackOverflow](http://stackoverflow.com/questions/tagged/numpy), with thousands of users available to answer.  Smaller alternatives include [IRC](https://webchat.freenode.net/?channels=%23numpy), [Gitter](https://gitter.im/numpy/numpy), and [Reddit](https://www.reddit.com/r/Numpy/). We wish we could keep an eye on these sites, or answer questions directly, but the volume is just a little overwhelming!
+**أسئلة المستخدم**: إن أفضل طريقة للحصول على المساعدة هي أن تقوم بنشر سؤالك على الموقع مثل [ ](http://stackoverflow.com/questions/tagged/numpy)حيث يوجد آلاف المستخدمين المتاحين للإجابة على أسئلتك.  وتحتوي البدائل الأصغر على [IRC](https://webchat.freenode.net/?channels=%23numpy) [Gitterو](https://gitter.im/numpy/numpy) و [Reddit](https://www.reddit.com/r/Numpy/). We wish we could keep an eye on these sites, or answer questions directly, but the volume is just a little overwhelming!
 
 **Development issues:** For NumPy development-related matters (e.g. bug reports), please see [Community](/community).
 
