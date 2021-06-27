@@ -1,61 +1,63 @@
 ---
-title: Installing NumPy
+title: 安装NumPy
 sidebar: false
 ---
 
-The only prerequisite for installing NumPy is Python itself. If you don't have Python yet and want the simplest way to get started, we recommend you use the [Anaconda Distribution](https://www.anaconda.com/distribution) - it includes Python, NumPy, and many other commonly used packages for scientific computing and data science.
+安装 NumPy 的唯一前提条件是安装了 Python 。 如果您还没有Python，并且想以最简单的方式开始， 我们建议您使用[Anaconda Distribution](https://www.anaconda.com/distribution) - 它包括 Python, NumPy，以及许多其他常用的科学计算和数据科学软件包。
 
-NumPy can be installed with `conda`, with `pip`, with a package manager on macOS and Linux, or [from source](https://numpy.org/devdocs/user/building.html). For more detailed instructions, consult our [Python and NumPy installation guide](#python-numpy-install-guide) below.
+NumPy 可以使用 `conda` 安装，用 `pip` 安装， 在macOS 和Linux用软件包管理器安装或用[源码安装](https://numpy.org/devdocs/user/building.html)。 更详细的说明，查阅下方的 [ Python和NumPy安装指南 ](#python-numpy-install-guide)。
 
 **CONDA**
 
-If you use `conda`, you can install NumPy from the `defaults` or `conda-forge` channels:
+如果您使用 `conda`，您可以从 `defaults` 或 `conda-forge` 频道安装 NumPy
 
 ```bash
-# Best practice, use an environment rather than install in the base env
+# 最佳练习 使用环境而不是在基础环境中安装
 conda create -n my-env
-conda activate my-env
-# If you want to install from conda-forge
-conda config --env --add channels conda-forge
-# The actual install command
+conda activer my-env
+
+# 如果你想从conda-forge频道安装
+conda config --env --add channel conda-full
+
+# 实际的安装命令
 conda install numpy
 ```
 
 **PIP**
 
-If you use `pip`, you can install NumPy with:
+如果您使用 `pip`，您可以用如下命令安装NumPy：
 
 ```bash
 pip install numpy
 ```
-Also when using pip, it's good practice to use a virtual environment - see  [Reproducible Installs](#reproducible-installs) below for why, and [this guide](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto) for details on using virtual environments.
+另外，当使用 pip 时，最好使用虚拟环境。查看 [Rupuable Installs](#reproducible-installs) 了解原因。 查看 [指南](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto) 了解关于使用虚拟环境的详情。
 
 <a name="python-numpy-install-guide"></a>
 
-# Python and NumPy installation guide
+# Python 和 NumPy 安装指南
 
-Installing and managing packages in Python is complicated, there are a number of alternative solutions for most tasks. This guide tries to give the reader a sense of the best (or most popular) solutions, and give clear recommendations. It focuses on users of Python, NumPy, and the PyData (or numerical computing) stack on common operating systems and hardware.
+在 Python 上安装和管理软件包很复杂，大多数任务有许多替代解决方案。 本指南试图给读者一种最佳(或最受欢迎) 解决办法，并给出清晰的建议。 It focuses on users of Python, NumPy, and the PyData (or numerical computing) stack on common operating systems and hardware.
 
-## Recommendations
+## 建议
 
-We'll start with recommendations based on the user's experience level and operating system of interest. If you're in between "beginning" and "advanced", please go with "beginning" if you want to keep things simple, and with "advanced" if you want to work according to best practices that go a longer way in the future.
+我们将首先根据用户的经验水平和有兴趣的操作系统提出建议。 如果您在“开始”和“高级”之间纠结，我们建议如果您想要保持简单，请使用"开始"， 如果您想要按照更长远的最佳做法去做，请使用"高级"。
 
-### Beginning users
+### 开始用户
 
-On all of Windows, macOS, and Linux:
+在所有Windows、 macOS和Linux上：
 
-- Install [Anaconda](https://www.anaconda.com/distribution/) (it installs all packages you need and all other tools mentioned below).
-- For writing and executing code, use notebooks in [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) for exploratory and interactive computing, and [Spyder](https://www.spyder-ide.org/) or [Visual Studio Code](https://code.visualstudio.com/) for writing scripts and packages.
-- Use [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) to manage your packages and start JupyterLab, Spyder, or Visual Studio Code.
+- 安装 [Anaconda](https://www.anaconda.com/distribution/) (包含了您需要的所有软件包以及下面提到的所有其他工具)。
+- 编写和执行代码，使用[JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) 的notebooks 用于探索式和交互式计算， 使用 [Spyder](https://www.spyder-ide.org/) 或 [Visual Studio Code](https://code.visualstudio.com/) 编写脚本和软件包。
+- 用 [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) 管理你的软件包并启动JupyterLab, Spyder或Visual Studio Code.
 
 
-### Advanced users
+### 高级用户
 
-#### Windows or macOS
+#### Windows 或 macOS
 
-- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-- Keep the `base` conda environment minimal, and use one or more [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) to install the package you need for the task or project you're working on.
-- Unless you're fine with only the packages in the `defaults` channel, make `conda-forge` your default channel via [setting the channel priority](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge).
+- 安装 [Miniconda](https://docs.conda.io/en/latest/miniconda.html)。
+- 保持 `base` conda 环境最小化， 并使用一个或多个[conda 环境](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) 用于安装你需要的包以完成你正在做的任务或项目。
+- 除非你只需要 `defaults` 频道的包， 否则请通过 [设置频道优先级](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge) 将 `conda-forge` 设为您的默认频道
 
 
 #### Linux
@@ -64,31 +66,31 @@ If you're fine with slightly outdated packages and prefer stability over being a
 - Use your OS package manager for as much as possible (Python itself, NumPy, and other libraries).
 - Install packages not provided by your package manager with `pip install somepackage --user`.
 
-If you use a GPU:
-- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-- Keep the `base` conda environment minimal, and use one or more [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) to install the package you need for the task or project you're working on.
-- Use the `defaults` conda channel (`conda-forge` doesn't have good support for GPU packages yet).
+如果您使用GPU：
+- 安装 [Miniconda](https://docs.conda.io/en/latest/miniconda.html)。
+- 保持 `base` conda 环境最小化， 并使用一个或多个[conda 环境](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) 用于安装你需要的包以完成你正在做的任务或项目。
+- 使用 `defaults` conda 频道 (`conda-forge` 尚不支持 GPU 软件包)。
 
-Otherwise:
-- Install [Miniforge](https://github.com/conda-forge/miniforge).
-- Keep the `base` conda environment minimal, and use one or more [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) to install the package you need for the task or project you're working on.
+否则：
+- 安装[Miniforge](https://github.com/conda-forge/miniforge).
+- 保持 `base` conda 环境最小化， 并使用一个或多个[conda 环境](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) 用于安装你需要的包以完成你正在做的任务或项目。
 
 
 #### Alternative if you prefer pip/PyPI
 
 For users who know, from personal preference or reading about the main differences between conda and pip below, they prefer a pip/PyPI-based solution, we recommend:
-- Install Python from [python.org](https://www.python.org/downloads/), [Homebrew](https://brew.sh/), or your Linux package manager.
-- Use [Poetry](https://python-poetry.org/) as the most well-maintained tool that provides a dependency resolver and environment management capabilities in a similar fashion as conda does.
+- 从 [python.org](https://www.python.org/downloads/), [Homebrew](https://brew.sh/)或 Linux 软件包管理器安装 Python。
+- 使用 [Poetry](https://python-poetry.org/) ，它是具有与conda 相似的依赖解析器和环境管理能力的完善工具。
 
 
-## Python package management
+## Python 软件包管理
 
-Managing packages is a challenging problem, and, as a result, there are lots of tools. For web and general purpose Python development there's a whole [host of tools](https://packaging.python.org/guides/tool-recommendations/) complementary with pip. For high-performance computing (HPC), [Spack](https://github.com/spack/spack) is worth considering. For most NumPy users though, [conda](https://conda.io/en/latest/) and [pip](https://pip.pypa.io/en/stable/) are the two most popular tools.
+软件包管理是一个具有挑战性的问题，因此有许多的工具出现。 对于Web和一般Python开发有一整套能与pip互补的[工具](https://packaging.python.org/guides/tool-recommendations/)。 对于高性能计算 (HPC),[Spack](https://github.com/spack/spack) 值得考虑。 但对于大多数NumPy用户来说， [conda](https://conda.io/en/latest/) 和 [pip](https://pip.pypa.io/en/stable/) 是两个最受欢迎的工具。
 
 
 ### Pip & conda
 
-The two main tools that install Python packages are `pip` and `conda`. Their functionality partially overlaps (e.g. both can install `numpy`), however, they can also work together. We'll discuss the major differences between pip and conda here - this is important to understand if you want to manage packages effectively.
+安装 Python 软件包的两个主要工具是 `pip` and `conda`。 他们的功能部分重叠(例如两者都可以安装 `numpy`)，但他们也可以一起工作。 We'll discuss the major differences between pip and conda here - this is important to understand if you want to manage packages effectively.
 
 The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. This also means conda can install non-Python libraries and tools you may need (e.g. compilers, CUDA, HDF5), while pip can't.
 
