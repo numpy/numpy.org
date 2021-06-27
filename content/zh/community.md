@@ -8,16 +8,16 @@ Numby是一个社区驱动的开源项目，由一群十分多样化的[贡献�
 我们提供多种交流渠道，可以用来学习知识、分享您的专业见解、或是与 NumPy 社区中的其他人联系。
 
 
-## Participate online
+## 线上参与
 
 以下是直接参与 NumPy 项目和社区的方法。 _注意，我们鼓励用户和社区成员在使用问题上相互帮助——参阅 [获取帮助](/gethelp)。_
 
 
 ### [NumPy 邮件列表](https://mail.python.org/mailman/listinfo/numpy-discussion)
 
-这个列表是较长形式讨论的主要讨论区，例如将新功能添加到Numpy，更改Numpy 路线图或是各种项目级的决策。 Announcements about NumPy, such as for releases, developer meetings, sprints or conference talks are also made on this list.
+这个列表是较长形式讨论的主要讨论区，例如将新功能添加到Numpy，更改Numpy 路线图或是各种项目级的决策。 同时也是NumPy的公告区，例如releases，开发者会议，Sprints 或是会议演讲也在这个列表中。
 
-On this list please use bottom posting, reply to the list (rather than to another sender), and don't reply to digests. 这个列表提供了一个可检索的 [归档](http://numpy-discussion.10968.n7.nabble.com/)。
+在这个列表上，请用包含引文回复的方式回复邮件列表(而不是另一个发送者)，并且不要回复摘要。 这个列表提供了一个可检索的 [归档](http://numpy-discussion.10968.n7.nabble.com/)。
 
 ***
 
@@ -38,7 +38,7 @@ _注意，Github不是报告安全漏洞的正确位置! 如果你认为你在 N
 
 ## 学习小组和 Meetups
 
-如果你想找一个关于NumPy以及更广的数据科学和科学计算python包生态的本地meetup或是学习小组，我们建议你探索一下[PyData meetups](https://www.meetup.com/pro/pydata/)(开展过150+次 meetups, 包含100,000+ 名成员)。
+如果你想找一个用于了解NumPy以及更广泛的数据科学和科学计算python包生态的本地meetup或是学习小组，我们建议你探索一下[PyData meetups](https://www.meetup.com/pro/pydata/)(开展过150+次 meetups, 包含100,000+ 名成员)。
 
 NumPy还偶尔为其团队和感兴趣的贡献者组织亲身Sprints。 这往往会提前几个月计划，并在[邮件列表](https://mail.python.org/mailman/listinfo/numpy-discussion)和[Twitter](https://twitter.com/numpy_team)上发布通知。
 
