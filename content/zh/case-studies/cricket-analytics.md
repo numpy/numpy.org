@@ -1,20 +1,20 @@
 ---
-title: "Case Study: Cricket Analytics, the game changer!"
+title: "案例研究：板球赛场上的常胜将军-数据分析！"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**IPLT20, the biggest Cricket Festival in India**" alt="Indian Premier League Cricket cup and stadium" attr="*(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
+{{< figsrc="/images/content_images/cs/ipl-stadium. ng" caption="**IPLT20, 印度最大的板球节**" alt="印度高级板球联赛体育场和冠军奖杯 attr="*(图片来源：IPLT20 (奖杯和标志) & Akash Yadav(体育场))*" totlink="https://unsplash. om/@aksh1802" >}}
 
 <blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
-    <p>You don't play for the crowd, you play for the country.</p>
-    <footer align="right">—M S Dhoni, <cite>International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL</cite></footer>
+    <p>你不是为人群而战，而是为国家而战。</p>
+    <footer align="right">— — M S Dhoni, <cite>International Cricket Player, ex-Captain, Indian team, plays for Chennai Super Kings in IPL</cite></footer>
 </blockquote>
 
-## About Cricket
+## 关于板球
 
-It would be an understatement to state that Indians love cricket. The game is played in just about every nook and cranny of India, rural or urban, popular with the young and the old alike, connecting billions in India unlike any other sport. Cricket enjoys lots of media attention. There is a significant amount of [money](https://www.statista.com/topics/4543/indian-premier-league-ipl/) and fame at stake. Over the last several years, technology has literally been a game changer. Audiences are spoilt for choice with streaming media, tournaments, affordable access to mobile based live cricket watching, and more.
+印度人喜欢板球几乎人尽皆知。 这个游戏几乎在印度的任何角落都可以玩，无论是农村还是城市，与其它任何运动项目相比，只有板球可以轻松连接印度的数十亿年轻人和老年人。 板球受到了媒体的广泛关注。 无数 [金钱](https://www.statista.com/topics/4543/indian-premier-league-ipl/) 和 荣誉都压宝在这项运动上。 在过去的几年中，数据技术分析确实成为了运动场上的常胜将军。 流媒体、锦标赛、在移动设备上实时的观看板球等形式让不同观众的观看欲望得到最大满足。
 
-The Indian Premier League (IPL) is a professional Twenty20 cricket league, founded in 2008. It is one of the most attended cricketing events in the world, valued at [$6.7 billion](https://en.wikipedia.org/wiki/Indian_Premier_League) in 2019.
+印度超级联赛(IPL) 是成立于2008年的Twenty20板球职业联赛。 它是世界上参与人数最多的板球赛事之一，2019年价值为 [67亿美元](https://en.wikipedia.org/wiki/Indian_Premier_League) 。
 
 Cricket is a game of numbers - the runs scored by a batsman, the wickets taken by a bowler, the matches won by a cricket team, the number of times a batsman responds in a certain way to a kind of bowling attack, etc. The capability to dig into cricketing numbers for both improving performance and studying the business opportunities, overall market, and economics of cricket via powerful analytics tools, powered by numerical computing software such as NumPy, is a big deal. Cricket analytics provides interesting insights into the game and predictive intelligence regarding game outcomes.
 
