@@ -6,7 +6,7 @@ sidebar: false
 {{{< figsrc="/images/content_images/cs/blackhole.jpg" caption="**Black Hole M87**" alt="black hole image" tot="*(Image Credits: Event Horizon Telesmall Collection Collaboration)*" tomlink="https://www.jpl.nasa.gov/images/universse/20190410/blackhole20190410.jpg" >}}
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
-    <p>理论上黑洞是不可能被“看见”，M87黑洞的成像正试图打破这种限制</p>
+    <p>理论上黑洞不可能被“看见”，M87黑洞的成像正试图打破这种限制</p>
     <footer align="right">Katie Bouman, <cite>Assistant Professor, Computing & Mathocal Sciences, Caltech</cite></footer>
 </blockquote>
 
@@ -24,7 +24,7 @@ sidebar: false
 
 ### 面临的挑战
 
-* **计算规模**
+* **庞大的计算规模**
 
     EHT带来了巨大的数据处理挑战，其中包括快速的大气层相位波动、极高的记录带宽以及相异且地理位置分散的望远镜。
 
@@ -32,7 +32,7 @@ sidebar: false
 
     EHT每天生成超过350TB的观测值，这些数据存储在充满氦气的硬盘驱动器中。 减少这么多数据的数量和复杂性是极其困难的。
 
-* **探索未知**
+* **对未知的探索**
 
     当目标是看到前所未见的事物时，科学家怎么才能确定图像是正确的？
 
@@ -50,15 +50,15 @@ EHT协作组织为了应对上述挑战，让不同的独立小组使用现有�
 
 例如， [`eht-imaging`][ehtim] 这个Python 软件包提供了 在 VLBI 数据上模拟和执行图像重建的工具。 NumPy 是这个包中使用的数组数据处理的核心，下面的部分软件 依赖关系图说明了这一点。
 
-{{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Software dependency chart of ehtim package highlighting NumPy**" >}}
+{{< figsrc="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="numpy在ehtim软件依赖关系中的地位" caption="**numpy在ehtim软件依赖关系中的重要地位**" >}}
 
-Besides NumPy, many other packages, such as [SciPy](https://www.scipy.org) and [Pandas](https://pandas.io), are part of the data processing pipeline for imaging the black hole. The standard astronomical file formats and time/coordinate transformations were handled by [Astropy][astropy], while [Matplotlib][mpl] was used in visualizing data throughout the analysis pipeline, including the generation of the final image of the black hole.
+除了NumPy以外，许多其他软件包，例如 [SciPy](https://www.scipy.org) 和 [Pandas](https://pandas.io), 也是用于黑洞成像的数据处理管道的一部分。 标准天文学文件格式和时间/坐标转换 由 [Astropy][astropy]处理， 而 [Matplotlib][mpl] 被用于在整个分析管道中的数据可视化，包括生成黑洞的最终图像。
 
-## Summary
+## 总结
 
-The efficient and adaptable n-dimensional array that is NumPy's central feature enabled researchers to manipulate large numerical datasets, providing a foundation for the first-ever image of a black hole. A landmark moment in science, it gives stunning visual evidence of Einstein’s theory. The achievement encompasses not only technological breakthroughs but also international collaboration among over 200 scientists and some of the world's best radio observatories.  Innovative algorithms and data processing techniques, improving upon existing astronomical models, helped unfold a mystery of the universe.
+作为Numpy的核心功能，高效且拓展性强的N维数组使研究人员能够操作大规模数据集，从而为人类有史以来首张黑洞的成像提供坚实基础。 这是整个科学史中具有里程碑意义的时刻，它为爱因斯坦的理论提供了有力的佐证。 这项成就不仅包括技术突破，还见证了包括200多位科学家与世界上最好的无线电观测站之间的国际合作。  创新的算法和数据处理技术改进了现有的天文模型，帮助我们揭开宇宙的神秘面纱。
 
-{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**Key NumPy Capabilities utilized**" >}}
+{{< figsrc="/images/content_images/cs/numpy_bh_bbh_benefits.png" class="fig-center" alt="numpy benefits" caption="**Numpy核心能力的运用**" >}}
 
 [resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
 
