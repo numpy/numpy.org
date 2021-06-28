@@ -6,41 +6,41 @@ sidebar: false
 {{{< figsrc="/images/content_images/cs/blackhole.jpg" caption="**Black Hole M87**" alt="black hole image" tot="*(Image Credits: Event Horizon Telesmall Collection Collaboration)*" tomlink="https://www.jpl.nasa.gov/images/universse/20190410/blackhole20190410.jpg" >}}
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
-    <p>Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.</p>
-    <footer align="right">Katie Bouman, <cite>Assistant Professor, Computing & Mathematical Sciences, Caltech</cite></footer>
+    <p>理论上黑洞是不可能被“看见”，M87黑洞的成像正试图打破这种限制</p>
+    <footer align="right">Katie Bouman, <cite>Assistant Professor, Computing & Mathocal Sciences, Caltech</cite></footer>
 </blockquote>
 
-## A telescope the size of the earth
+## 一架和地球大小相当的望远镜
 
-The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org) is an array of eight ground-based radio telescopes forming a computational telescope the size of the earth, studing the universe with unprecedented sensitivity and resolution.  The huge virtual telescope,  which uses a technique called very-long-baseline interferometry (VLBI), has an angular resolution of [20 micro-arcseconds][resolution] — enough to read a newspaper in New York from a sidewalk café in Paris!
+[事件视界望远镜(EHT)](https://eventhorizontelescope.org) 是由八个地面射电望远镜组成的虚拟的类似地球大小的望远镜， 可以前所未有的敏感度和分辨率来了解宇宙。  这台巨大的虚拟望远镜使用一种称为超长基线干涉法 (VLBI)的技术， 其角分辨率为 [20 微弧秒][resolution] - EHT的分辨本领相当于从巴黎的一家人行道上的咖啡馆里阅读纽约的报纸！
 
-### Key Goals and Results
+### 关键目标和成果
 
-* **A New View of the Universe:** The groundwork for the EHT's groundbreaking image had been laid 100 years earlier when [Sir Arthur Eddington][eddington] yielded the first observational support of Einstein's theory of general relativity.
+* **关于宇宙的新观点:** 100年前，当 [亚瑟.爱丁顿爵士][eddington] 提出爱因斯坦的广义相对论的第一个观测证据时，就为EHT的开创性形象奠定了基础.
 
-* **The Black Hole:** EHT was trained on a supermassive black hole approximately 55 million light-years from Earth, lying at the center of the galaxy Messier 87 (M87) in the Virgo galaxy cluster. Its mass is 6.5 billion times the Sun's. It had been studied for [over 100 years](https://www.jpl.nasa.gov/news/news.php?feature=7385), but never before had a black hole been visually observed.
+* **黑洞成像：** EHT 在距离地球约5500万光年的超大质量黑洞上进行了训练，该黑洞位于处女座星系团梅西埃87(M87) 的中心。 它的质量是太阳的65亿倍。 它已经被研究了 [100多年](https://www.jpl.nasa.gov/news/news.php?feature=7385)，但从来没有一个黑洞被真正“看见”过。
 
-* **Comparing Observations to Theory:** From Einstein’s general theory of relativity, scientists expected to find a shadow-like region caused by gravitational bending and capture of light. Scientists could use it to measure the black hole's enormous mass.
+* **将观察结果与理论进行比较：** 从爱因斯坦的广义相对论来看， 科学家期望找到由引力弯曲和光捕获引发的阴影状区域。 科学家可以用它来测量黑洞的巨大质量。
 
-### The Challenges
+### 面临的挑战
 
-* **Computational scale**
+* **计算规模**
 
-    EHT poses massive data-processing challenges, including rapid atmospheric phase fluctuations, large recording bandwidth, and telescopes that are widely dissimilar and geographically dispersed.
+    EHT带来了巨大的数据处理挑战，其中包括快速的大气层相位波动、极高的记录带宽以及相异且地理位置分散的望远镜。
 
-* **Too much information**
+* **巨大的信息量**
 
-    Each day EHT generates over 350 terabytes of observations, stored on helium-filled hard drives. Reducing the volume and complexity of this much data is enormously difficult.
+    EHT每天生成超过350TB的观测值，这些数据存储在充满氦气的硬盘驱动器中。 减少这么多数据的数量和复杂性是极其困难的。
 
-* **Into the unknown**
+* **探索未知**
 
-    When the goal is to see something never before seen, how can scientists be confident the image is correct?
+    当目标是看到前所未见的事物时，科学家怎么才能确定图像是正确的？
 
-{{< figure src="/images/content_images/cs/dataprocessbh.png" class="csfigcaption" caption="**EHT Data Processing Pipeline**" alt="data pipeline" align="middle" attr="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)" attrlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
+{{< figsrc="/images/content_images/cs/dataprocessbh. ng" class="csfigcaption" caption="**EHT Data Processing Pipeline**" alt="data peline" align="middle" tot="(Diagram Credits: The Astrophysical Journal, Event Horizon Telesrole Collection Collaboration)" tourlink="https://iopscience.op.org/article/10.3847/2041-8213/ab0c57" >}}
 
-## NumPy’s Role
+## Numpy的角色
 
-What if there's a problem with the data? Or perhaps an algorithm relies too heavily on a particular assumption. Will the image change drastically if a single parameter is changed?
+如果数据有问题，怎么办？ 或者一个算法过于依赖某个特定的假设。 如果单个参数被更改，图像是否会发生剧烈变化？
 
 The EHT collaboration met these challenges by having independent teams evaluate the data, using both established and cutting-edge image reconstruction techniques. When results proved consistent, they were combined to yield the first-of-a-kind image of the black hole.
 
