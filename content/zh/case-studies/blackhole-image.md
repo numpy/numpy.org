@@ -42,13 +42,13 @@ sidebar: false
 
 如果数据有问题，怎么办？ 或者一个算法过于依赖某个特定的假设。 如果单个参数被更改，图像是否会发生剧烈变化？
 
-The EHT collaboration met these challenges by having independent teams evaluate the data, using both established and cutting-edge image reconstruction techniques. When results proved consistent, they were combined to yield the first-of-a-kind image of the black hole.
+EHT协作组织为了应对上述挑战，让不同的独立小组使用现有的最先进的图像重建技术来评估数据。 当结果被证明是一致时，将这些结果合并以产生黑洞的第一张图像。
 
-Their work illustrates the role the scientific Python ecosystem plays in advancing science through collaborative data analysis.
+他们的工作说明了Python科学生态系统通过协作数据分析在 推进科学方面发挥的重要作用。
 
-{{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**The role of NumPy in Black Hole imaging**" >}}
+{{< figsrc="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**NumPy在黑洞成像中的作用**" >}}
 
-For example, the [`eht-imaging`][ehtim] Python package provides tools for simulating and performing image reconstruction on VLBI data. NumPy is at the core of array data processing used in this package, as illustrated by the partial software dependency chart below.
+例如， [`eht-imaging`][ehtim] 这个Python 软件包提供了 在 VLBI 数据上模拟和执行图像重建的工具。 NumPy 是这个包中使用的数组数据处理的核心，下面的部分软件 依赖关系图说明了这一点。
 
 {{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Software dependency chart of ehtim package highlighting NumPy**" >}}
 
