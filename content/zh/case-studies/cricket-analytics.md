@@ -1,5 +1,5 @@
 ---
-title: "案例研究：板球赛场上的常胜将军-数据分析！"
+title: "案例研究：通过数据分析玩转板球！"
 sidebar: false
 ---
 
@@ -16,7 +16,7 @@ sidebar: false
 
 印度超级联赛(IPL) 是成立于2008年的Twenty20板球职业联赛。 它是世界上参与人数最多的板球赛事之一，2019年价值为 [67亿美元](https://en.wikipedia.org/wiki/Indian_Premier_League) 。
 
-Cricket is a game of numbers - the runs scored by a batsman, the wickets taken by a bowler, the matches won by a cricket team, the number of times a batsman responds in a certain way to a kind of bowling attack, etc. The capability to dig into cricketing numbers for both improving performance and studying the business opportunities, overall market, and economics of cricket via powerful analytics tools, powered by numerical computing software such as NumPy, is a big deal. Cricket analytics provides interesting insights into the game and predictive intelligence regarding game outcomes.
+板球本质上是关于数字的游戏-击球方的跑动得分，投球手击中门柱的次数，板球队赢得回合的次数，击球手以特定方式还击的次数等等。 The capability to dig into cricketing numbers for both improving performance and studying the business opportunities, overall market, and economics of cricket via powerful analytics tools, powered by numerical computing software such as NumPy, is a big deal. Cricket analytics provides interesting insights into the game and predictive intelligence regarding game outcomes.
 
 Today, there are rich and almost infinite troves of cricket game records and statistics available, e.g., [ESPN cricinfo](https://stats.espncricinfo.com/ci/engine/stats/index.html) and [cricsheet](https://cricsheet.org). These and several such cricket databases have been used for [cricket analysis](https://www.researchgate.net/publication/336886516_Data_visualization_and_toss_related_analysis_of_IPL_teams_and_batsmen_performances) using the latest machine learning and predictive modelling algorithms. Media and entertainment platforms along with professional sports bodies associated with the game use technology and analytics for determining key metrics for improving match winning chances:
 
