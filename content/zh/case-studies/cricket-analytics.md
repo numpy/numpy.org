@@ -53,12 +53,12 @@ sidebar: false
 
 体育分析是一个蓬勃发展的领域。 除了使用最新的机器学习和AI技术之外，许多研究人员和公司[使用Numpy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx)和其它Python数据处理包，例如Scikit-learn, SciPy, Matplotlib和Jupyter。  Numpy已用于各种与板球相关的体育分析中，例如：
 
-* **Statistical Analysis:** NumPy's numerical capabilities help estimate the statistical significance of observational data or match events in the context of various player and game tactics, estimating the game outcome by comparison with a generative or static model. [Causal analysis](https://amplitude.com/blog/2017/01/19/causation-correlation) and [big data approaches](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) are used for tactical analysis.
+* **统计分析:** NumPy的数值计算功能有助于在各种球员和比赛策略下估算观察数据或比赛事件的统计意义，并通过与生成模型或静态模型进行比较来预测比赛结果。 [因果分析](https://amplitude.com/blog/2017/01/19/causation-correlation) 和 [大数据分析](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) 就常用于战术分析。
 
-* **Data Visualization:** Data graphing and [visualization](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) provides useful insights into relationship between various datasets.
+* **数据可视化：** 数据图形化和 [可视化](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) 对各种数据集之间的关系提供了有价值的见解。
 
-## Summary
+## 总结
 
-Sports Analytics is a game changer when it comes to how professional games are played, especially how strategic decision making happens, which until recently was primarily done based on “gut feeling" or adherence to past traditions. NumPy forms a solid foundation for a large set of Python packages which provide higher level functions related to data analytics, machine learning, and AI algorithms. These packages are widely deployed to gain real-time insights that help in decision making for game-changing outcomes, both on field as well as to draw inferences and drive business around the game of cricket. Finding out the hidden parameters, patterns, and attributes that lead to the outcome of a cricket match helps the stakeholders to take notice of game insights that are otherwise hidden in numbers and statistics.
+在专业赛事中，特别是需要战略决策的比赛，运动数据分析常常能起到力挽狂澜的效果，哪怕是现在，主要还是依赖“勇气和直觉”或对过去传统的经验来完成分析。 NumPy为大量的 Python 软件包奠定了坚实的基础，这些软件包提供了与数据分析， 机器学习和AI算法相关的更高层级的函数。 这些软件包被广泛应用以获取实时赛况的分析，从而有助于在现场做出最有利于自己的决策，实现在板球比赛过程中的商业利益最大化。 找出影响板球比赛结果的隐藏参数、模式和属性，有助于投资方获得隐藏在数字和统计数据背后的比赛洞察力。
 
-{{< figure src="/images/content_images/cs/numpy_ca_benefits.png" class="fig-center" alt="Diagram showing benefits of using NumPy for cricket analytics" caption="**Key NumPy Capabilities utilized**" >}}
+{{< figsrc="/images/content_images/cs/numpy_bh_bbh_benefits.png" class="fig-center" alt="numpy benefits" caption="**Numpy核心能力的运用**" >}}
