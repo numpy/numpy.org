@@ -6,25 +6,25 @@ sidebar: false
 {{{< figsrc="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**使用DeepLapCut**分析老鼠的手部姿势</strong> " alt="micehandanim" tot="*(来源: www.deeplabcut.org)*" totlink="http://www.mousemotorlab.org/deeplabcut">}}
 
 <blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/">
-    <p>开源软件正在加速生物医学的发展。 DeepLabCut enables automated video analysis of animal behavior using Deep Learning.</p>
-    <footer align="right">—Alexander Mathis, <cite>Assistant Professor, École polytechnique fédérale de Lausanne <a href="https://www.epfl.ch/en/">(EPFL)</a></cite></footer>
+    <p>开源软件正在加速生物医学的发展。 DeepLabCut能够使用深度学习对动物行为进行自动视频分析。</p>
+    <footer align="right">— — Alexander Mathis, <cite>洛桑联邦理工大学 <a href="https://www.epfl.ch/en/">(EPFL)</a>助理教授</cite></footer>
 </blockquote>
 
-## About DeepLabCut
+## 关于 DeepLabCut
 
-[DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) is an open source toolbox that empowers researchers at hundreds of institutions worldwide to track behaviour of laboratory animals, with very little training data, at human-level accuracy. With DeepLabCut  technology, scientists can delve deeper into the scientific understanding of motor control and behavior across animal species and timescales.
+[DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) 是一个开放源码工具箱，它使世界各地数以百计的研究人员能够在训练数据非常少的情况下跟踪实验室动物的行为，而且能达到人类水平的准确性。 借助DeepLabCut技术，科学家可以更深入更科学地了解不同动物在不同时间段对运动的控制和表现行为。
 
-Several areas of research, including neuroscience, medicine, and biomechanics, use data from tracking animal movement. DeepLabCut helps in understanding what humans and other animals are doing by parsing actions that have been recorded on film. Using automation for laborious tasks of tagging and monitoring, along with deep neural network based data analysis, DeepLabCut makes scientific studies involving observing animals, such as primates, mice, fish, flies etc., much faster and more accurate.
+包括神经科学、医学和生物力学在内的若干研究领域都使用了跟踪动物运动的数据。 DeepLabCut通过解析电影上记录的动作，帮助了解人类和其他动物行为背后的内涵。 DeepLabCut将标记和监测的繁重工作自动化，同时进行基于神经网络的深度数据分析，使得涉及观察例如灵长类动物、小鼠、鱼类和苍蝇等动物行为的科学研究更快、更准确。
 
-{{< figure src="/images/content_images/cs/race-horse.gif" class="fig-center" caption="**Colored dots track the positions of a racehorse’s body part**" alt="horserideranim" attr="*(Source: Mackenzie Mathis)*">}}
+{{< figsrc="/images/content_images/cs/race-horse. gif" class="fig-center" caption="**通过彩色标点跟踪赛马身体位置的变化**" alt="horserideranim" totel="*(资料来源：Mackenzie Mathis)*">}}
 
-DeepLabCut's non-invasive behavioral tracking of animals by extracting the poses of animals is crucial for scientific pursuits in domains such as biomechanics, genetics, ethology & neuroscience. Measuring animal poses non-invasively from video - without markers - in dynamically changing backgrounds is computationally challenging, both technically as well as in terms of resource needs and training data required.
+对于生物力学、遗传学、人类学和神经科学等领域的科学研究来说，DeepLabCut通过非侵入式手段提取动物姿势至关重要。 无论从技术层面还是从庞大的资源需求和训练集来看，不带标记非侵入式的从视频中检测动物的姿势，预测动物在动态变化背景下的行为表现对计算机都极具挑战。
 
-DeepLabCut allows researchers to estimate the pose of the subject, efficiently enabling them to quantify the behavior through a Python based software toolkit.  With DeepLabCut, researchers can identify distinct frames from videos, digitally label specific body parts in a few dozen frames with a tailored GUI, and then the deep learning based pose estimation architectures in DeepLabCut learn how to pick out those same features in the rest of the video and in other similar videos of animals. It works across species of animals, from common laboratory animals such as flies and mice to more unusual animals like [cheetahs][cheetah-movement].
+DeepLabCut使研究人员能够通过基于 Python 的软件工具包有效地估计该实验对象的姿势，使他们能够对实验对象的行为进行量化。  借助DeepLabCut，研究人员可以从视频中识别出不同的帧，并使用量身定制的GUI数字标记数十个帧中的特定身体部位，然后DeepLabCut中基于深度学习的姿势估计架构将学习如何从剩余视频或类似动物行为的视频中提取出相同的特征。 这种方法适用于各种动物，从常见的苍蝇和老鼠等实验室动物到不常见到的[猎豹][cheetah-movement]等动物。
 
-DeepLabCut uses a principle called [transfer learning](https://arxiv.org/pdf/1909.11229), which greatly reduces the amount of training data required and speeds up the convergence of the training period.  Depending on the needs, users can pick different network architectures that provide faster inference (e.g. MobileNetV2), which can also be combined with real-time experimental feedback. DeepLabCut originally used the feature detectors from a top-performing human pose estimation architecture, called [DeeperCut](https://arxiv.org/abs/1605.03170), which inspired the name. The package now has been significantly changed to include additional architectures, augmentation methods, and a full front-end user experience. Furthermore, to support large-scale biological experiments DeepLabCut provides active learning capabilities so that users can increase the training set over time to cover edge cases and make their pose estimation algorithm robust within the specific context.
+DeepLabCut使用一种称为 [转移学习](https://arxiv.org/pdf/1909.11229)的原理，大大减少了所需训练数据的规模，并加快了训练周期的收敛速度。  根据不同需求，用户可以选择不同的网络结构来获得更高性能的推理模型(例如MobileNetV2)，也可以将其与实时的实验反馈相结合。 DeepLabCut最初使用了一个名为[DeeperCut](https://arxiv.org/abs/1605.03170)的高性能人物姿势评估特征探测器, 这也是DeepLabCut这个名字的由来。 现在这套软件已经作了重大更新，包含支持更多架构、算子规模的扩大和全面的前端用户体验提升。 此外， 为了支持大规模生物实验，DeepLabCut提供了主动学习的能力，因此用户可以随着时间的推移增加训练集以覆盖边缘用例，并使他们的姿势估计算法在特定场景下变的更加强大。
 
-Recently, the [DeepLabCut model zoo](http://www.mousemotorlab.org/dlc-modelzoo) was introduced, which provides pre-trained models for various species and experimental conditions from facial analysis in primates to dog posture. This can be run for instance in the cloud without any labeling of new data, or neural network training, and no programming experience is necessary.
+最近，引入了 [DeepLabCut model zoo](http://www.mousemotorlab.org/dlc-modelzoo) ，它为不同物种和不同实验条件提供预训练的模型，从灵长类动物的面部分析到狗的姿势。 This can be run for instance in the cloud without any labeling of new data, or neural network training, and no programming experience is necessary.
 
 ### Key Goals and Results
 
@@ -85,6 +85,6 @@ Observing and efficiently describing behavior is a core tenant of modern etholog
 
 {{< figure src="/images/content_images/cs/numpy_dlc_benefits.png" class="fig-center" alt="numpy benefits" caption="**Key NumPy Capabilities utilized**" >}}
 
-[cheetah-movement]: https://www.technologynetworks.com/neuroscience/articles/interview-a-deeper-cut-into-behavior-with-mackenzie-mathis-327618
+[cheetah-movement]: https://www. technologynetworks. com/neuroscience/articles/interview-a-deeper-cut-into-behavior-with-mackenzie-mathis-327618
 
 [DLCToolkit]: https://github.com/DeepLabCut/DeepLabCut
