@@ -24,13 +24,13 @@ DeepLabCut使研究人员能够通过基于 Python 的软件工具包有效地�
 
 DeepLabCut使用一种称为 [转移学习](https://arxiv.org/pdf/1909.11229)的原理，大大减少了所需训练数据的规模，并加快了训练周期的收敛速度。  根据不同需求，用户可以选择不同的网络结构来获得更高性能的推理模型(例如MobileNetV2)，也可以将其与实时的实验反馈相结合。 DeepLabCut最初使用了一个名为[DeeperCut](https://arxiv.org/abs/1605.03170)的高性能人物姿势评估特征探测器, 这也是DeepLabCut这个名字的由来。 现在这套软件已经作了重大更新，包含支持更多架构、算子规模的扩大和全面的前端用户体验提升。 此外， 为了支持大规模生物实验，DeepLabCut提供了主动学习的能力，因此用户可以随着时间的推移增加训练集以覆盖边缘用例，并使他们的姿势估计算法在特定场景下变的更加强大。
 
-最近，引入了 [DeepLabCut model zoo](http://www.mousemotorlab.org/dlc-modelzoo) ，它为不同物种和不同实验条件提供预训练的模型，从灵长类动物的面部分析到狗的姿势。 This can be run for instance in the cloud without any labeling of new data, or neural network training, and no programming experience is necessary.
+最近，引入了 [DeepLabCut model zoo](http://www.mousemotorlab.org/dlc-modelzoo) ，它为不同物种和不同实验条件提供预训练的模型，从灵长类动物的面部分析到狗的姿势。 有了modelzoo之后，模型就可以在云端运行，而且不用给新数据贴上任何标签，也不需要神经网络训练，也不需要任何编程经验。
 
-### Key Goals and Results
+### 关键目标和成果
 
-* **Automation of animal pose analysis for scientific studies:**
+* **对动物进行自动化分析以供科学研究：**
 
-  The primary objective of DeepLabCut technology is to measure and track posture of animals in a diverse settings. This data can be used, for example, in neuroscience studies to understand how the brain controls movement, or to elucidate how animals socially interact. Researchers have observed a [tenfold performance boost](https://www.biorxiv.org/content/10.1101/457242v1) with DeepLabCut. Poses can be inferred offline at up to 1200 frames per second (FPS).
+  DeepLabCut技术的主要目标是在各种环境下测量和跟踪动物的姿势。 This data can be used, for example, in neuroscience studies to understand how the brain controls movement, or to elucidate how animals socially interact. Researchers have observed a [tenfold performance boost](https://www.biorxiv.org/content/10.1101/457242v1) with DeepLabCut. Poses can be inferred offline at up to 1200 frames per second (FPS).
 
 * **Creation of an easy-to-use Python toolkit for pose estimation:**
 
