@@ -1,12 +1,12 @@
 ---
-title: "Case Study: DeepLabCut 3D Pose Estimation"
+title: "案例研究：使用DeepLabCut预测动物行为"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**Analyzing mice hand-movement using DeepLapCut**" alt="micehandanim" attr="*(Source: www.deeplabcut.org )*" attrlink="http://www.mousemotorlab.org/deeplabcut">}}
+{{{< figsrc="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**使用DeepLapCut**分析老鼠的手部姿势</strong> " alt="micehandanim" tot="*(来源: www.deeplabcut.org)*" totlink="http://www.mousemotorlab.org/deeplabcut">}}
 
 <blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/">
-    <p>Open Source Software is  accelerating Biomedicine. DeepLabCut enables automated video analysis of animal behavior using Deep Learning.</p>
+    <p>开源软件正在加速生物医学的发展。 DeepLabCut enables automated video analysis of animal behavior using Deep Learning.</p>
     <footer align="right">—Alexander Mathis, <cite>Assistant Professor, École polytechnique fédérale de Lausanne <a href="https://www.epfl.ch/en/">(EPFL)</a></cite></footer>
 </blockquote>
 
