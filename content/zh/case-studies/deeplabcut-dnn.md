@@ -28,13 +28,13 @@ DeepLabCut使用一种称为 [转移学习](https://arxiv.org/pdf/1909.11229)的
 
 ### 关键目标和成果
 
-* **对动物进行自动化分析以供科学研究：**
+* **对动物行为进行自动化分析以供科学研究：**
 
-  DeepLabCut技术的主要目标是在各种环境下测量和跟踪动物的姿势。 This data can be used, for example, in neuroscience studies to understand how the brain controls movement, or to elucidate how animals socially interact. Researchers have observed a [tenfold performance boost](https://www.biorxiv.org/content/10.1101/457242v1) with DeepLabCut. Poses can be inferred offline at up to 1200 frames per second (FPS).
+  DeepLabCut技术的主要目标是在各种环境下测量和跟踪动物的姿势。 这些数据大有用处，比如可以用于神经科学研究以了解大脑是如何控制运动的，或者阐明动物是如何进行社交互动的。 研究人员观察到DeepLabCut的 [性能提升了10倍](https://www.biorxiv.org/content/10.1101/457242v1)。 可以在单机状态下以每秒1200多帧(FPS) 的速度推断出动物姿态。
 
-* **Creation of an easy-to-use Python toolkit for pose estimation:**
+* **创建一个易于使用的 Python 工具包用于姿态估计：**
 
-  DeepLabCut wanted to share their animal pose-estimation technology in the form of an easy to use tool that can be adopted by researchers easily. So they have created a complete, easy-to-use Python toolbox with project management features as well. These enable not only automation of pose-estimation but also managing the project end-to-end by helping the DeepLabCut Toolkit user right from the dataset collection stage to creating shareable and reusable analysis pipelines.
+  DeepLabCut想要以易于使用的工具的形式共享其动物姿态估计技术，使得研究人员可以轻松上手。 因此这个Python工具箱甚至包含有项目管理的功能。 These enable not only automation of pose-estimation but also managing the project end-to-end by helping the DeepLabCut Toolkit user right from the dataset collection stage to creating shareable and reusable analysis pipelines.
 
   Their [toolkit][DLCToolkit] is now available as open source.
 
