@@ -34,36 +34,36 @@ DeepLabCut使用一种称为 [转移学习](https://arxiv.org/pdf/1909.11229)的
 
 * **创建一个易于使用的 Python 工具包用于姿态估计：**
 
-  DeepLabCut想要以易于使用的工具的形式共享其动物姿态估计技术，使得研究人员可以轻松上手。 因此这个Python工具箱甚至包含有项目管理的功能。 These enable not only automation of pose-estimation but also managing the project end-to-end by helping the DeepLabCut Toolkit user right from the dataset collection stage to creating shareable and reusable analysis pipelines.
+  DeepLabCut想要以易于使用的工具的形式共享其动物姿态估计技术，使得研究人员可以轻松上手。 因此这个Python工具箱甚至包含有项目管理的功能。 通过帮助使用DeepLabCut工具集的用户打通从数据收集阶段到创建可共享可重用的数据分析流程，这样不仅实现了姿态估计的自动化，而且可以端到端的管理整个项目。
 
-  Their [toolkit][DLCToolkit] is now available as open source.
+  他们的 [工具包][DLCToolkit] 现在已经完全开源了。
 
-  A typical DeepLabCut Workflow includes:
+  典型的DeepLabCut 工作流包括：
 
-  - creation and refining of training sets via active learning
-  - creation of tailored neural networks for specific animals and scenarios
-  - code for large-scale inference on videos
-  - draw inferences using integrated visualization tools
+  - 通过主动学习创建和完善训练集
+  - 针对特定动物和场景创建量身定制的神经网络
+  - 从视频中得到大规模推理所需的代码
+  - 使用集成的可视化工具得出结论
 
-{{< figure src="/images/content_images/cs/deeplabcut-toolkit-steps.png" class="csfigcaption" caption="**Pose estimation steps with DeepLabCut**" alt="dlcsteps" align="middle" attr="(Source: DeepLabCut)" attrlink="https://twitter.com/DeepLabCut/status/1198046918284210176/photo/1" >}}
+{{{< figsrc="/images/content_images/cs/deepplabcut-toolkit-steps.png" class="csfigcaption" caption="**DeepLabCut的姿态估计流程**" alt="dlcsteps" align="middle" tot="(来源: DeepLabCut)" tourlink="https://twitter.com/DeepLabCut/status/1198046918284210176/phot/1" >}}
 
-### The Challenges
+### 面临的挑战
 
-* **Speed**
+* **性能**
 
-    Fast processing of animal behavior videos in order to measure their behavior and at the same time make scientific experiments more efficient, accurate. Extracting detailed animal poses for laboratory experiments, without markers, in dynamically changing backgrounds, can be challenging, both technically as well as in terms of resource needs and training data required. Coming up with a tool that is easy to use without the need for skills such as computer vision expertise that enables scientists to do research in more real-world contexts, is a non-trivial problem to solve.
+    在快速处理动物行为视频以测量其行为的同时提高科学实验的效率和精度。 无论从技术层面还是从庞大的资源需求和训练集来看，不带标记非侵入式的从视频中检测动物的姿势，预测动物在动态变化背景下的行为表现对计算性能都极具挑战。 需要提出一种易于使用的工具，但不依赖诸如计算机科学家的专业知识，也不需要在近乎真实的环境中进行研究，要达成这个目标不是一件容易的事儿。
 
-* **Combinatorics**
+* **组合学**
 
-    Combinatorics involves assembly and integration of movement of multiple limbs into individual animal behavior. Assembling keypoints and their connections into individual animal movements and linking them across time is a complex process that requires heavy-duty numerical analysis, especially in case of multi-animal movement tracking in experiment videos.
+    组合学涉及到将多个肢体的运动姿势组装并整合到单个动物的行为中去。 将关键姿态及其联系与个体动物不同时段的不同动作整合起来是一个复杂的过程，需要进行繁琐的数值分析，尤其是在实验视频中捕捉多个动物行为的情况下。
 
-* **Data Processing**
+* **数据处理**
 
-    Last but not the least, array manipulation - processing large stacks of arrays corresponding to various images, target tensors and keypoints is fairly challenging.
+    最后一点但是并非不重要的一点是对数组的处理-处理与各种图像、目标张量和关键点相对应的大型数组具有相当大的挑战性。
 
-{{< figure src="/images/content_images/cs/pose-estimation.png" class="csfigcaption" caption="**Pose estimation variety and complexity**" alt="challengesfig" align="middle" attr="(Source: Mackenzie Mathis)" attrlink="https://www.biorxiv.org/content/10.1101/476531v1.full.pdf" >}}
+{{< figsrc="/images/content_images/cs/pose-estimatation.png" class="csfigcaption" caption="**姿势估计的复杂性和多样性**" alt="challesfig" ="middle tot="(来源: Mackenzie Mathis)" tacklink="https://www.biorxiv.org/content/10.1101/476531v1.full.pdf" >}}
 
-## NumPy's Role in meeting Pose Estimation Challenges
+## Numpy在应对姿态估计挑战中的角色
 
 NumPy addresses DeepLabCut technology's core need of numerical computations at high speed for behavioural analytics.  Besides NumPy, DeepLabCut employs various Python software that utilize NumPy at their core, such as [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug), [scikit-learn](https://scikit-learn.org/stable/), [scikit-image](https://scikit-image.org) and [Tensorflow](https://www.tensorflow.org).
 
