@@ -90,55 +90,54 @@ For users who know, from personal preference or reading about the main differenc
 
 ### Pip & conda
 
-安装 Python 软件包的两个主要工具是 `pip` and `conda`。 他们的功能部分重叠(例如两者都可以安装 `numpy`)，但他们也可以一起工作。 We'll discuss the major differences between pip and conda here - this is important to understand if you want to manage packages effectively.
+安装 Python 软件包的两个主要工具是 `pip` and `conda`。 他们的功能部分重叠(例如两者都可以安装 `numpy`)，但他们也可以一起工作。 我们将在这里讨论 pip 与 conda 的主要差异——这对于理解如何有效地管理软件包非常重要。
 
-The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. This also means conda can install non-Python libraries and tools you may need (e.g. compilers, CUDA, HDF5), while pip can't.
+第一点不同是conda是跨语言的，它可以安装 Python，然而 pip 安装在您的系统的特定的 Python 之上， 并只为那一个特定的Python安装其他的软件包。 这也意味着conda 可以安装非Python 库和其他您可能需要的工具(例如编译器、CUDA、HDF5)，pip则不行。
 
-The second difference is that pip installs from the Python Packaging Index (PyPI), while conda installs from its own channels (typically "defaults" or "conda-forge"). PyPI is the largest collection of packages by far, however, all popular packages are available for conda as well.
+第二个不同是 pip 以Python包索引(PyPI) 作为安装源。 而conda从自己的渠道安装(通常是"defaults"或 "conda-forge")。 PyPI 是迄今为止最大的软件包集合，不过所有流行的软件包也可用于 conda。
 
-The third difference is that conda is an integrated solution for managing packages, dependencies and environments, while with pip you may need another tool (there are many!) for dealing with environments or complex dependencies.
+第三个不同点，conda是依赖关系、环境和软件包管理的集成解决方案。而 pip 可能需要其他工具 (很多!) 用于处理环境或复杂的依赖关系。
 
 
 ### Reproducible installs
 
-As libraries get updated, results from running your code can change, or your code can break completely. It's important to be able to reconstruct the set of packages and versions you're using. Best practice is to:
+随着库的更新，代码的运行结果可能会改变，甚至您的代码完全跑不起来。 能重建你使用的对应版本软件包集合就很重要了。 最佳做法如下：
 
-1. use a different environment per project you're working on,
-2. record package names and versions using your package installer; each has its own metadata format for this:
+1. 为你的每一个项目构建不同的环境
+2. 用软件包管理器记录软件包名称和版本； 每个包管理器都有自己的元数据格式：
    - Conda: [conda environments and environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
-   - Pip: [virtual environments](https://docs.python.org/3/tutorial/venv.html) and [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
+   - Pip: [virtual environments ](https://docs.python.org/3/tutorial/venv.html) and [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
    - Poetry: [virtual environments and pyproject.toml](https://python-poetry.org/docs/basic-usage/)
 
 
 
-## NumPy packages & accelerated linear algebra libraries
+## NumPy包 & 快速线性代数库
 
-NumPy doesn't depend on any other Python packages, however, it does depend on an accelerated linear algebra library - typically [Intel MKL](https://software.intel.com/en-us/mkl) or [OpenBLAS](https://www.openblas.net/). Users don't have to worry about installing those (they're automatically included in all NumPy install methods). Power users may still want to know the details, because the used BLAS can affect performance, behavior and size on disk:
+NumPy 不依赖任何其他Python 包。 不过它依赖于一个快速线性代数库 - 通常是[Intel MKL](https://software.intel.com/en-us/mkl) 或 [OpenBLAS](https://www.openblas.net/)。 用户不必担心要如何安装那些库 (他们会自动包含在所有NumPy 的安装脚本中)。 高级用户可能仍然想知道详细信息，因为使用 BLAS 会影响磁盘的性能、行为和空间：
 
-- The NumPy wheels on PyPI, which is what pip installs, are built with OpenBLAS. The OpenBLAS libraries are included in the wheel. This makes the wheel larger, and if a user installs (for example) SciPy as well, they will now have two copies of OpenBLAS on disk.
+- 用pip安装的 NumPy，线性代数库是 OpenBLAS。 The OpenBLAS libraries are included in the wheel. 这使得轮子得更大，而且如果用户安装了 (假设) SciPy 他们现在会在磁盘上有两份OpenBLAS 副本。
 
-- In the conda defaults channel, NumPy is built against Intel MKL. MKL is a separate package that will be installed in the users' environment when they install NumPy.
+- In the conda defaults channel, NumPy is built against Intel MKL. MKL 是个分离的软件包，在安装Numpy时会将它安装到用户环境中。
 
 - In the conda-forge channel, NumPy is built against a dummy "BLAS" package. When a user installs NumPy from conda-forge, that BLAS package then gets installed together with the actual library - this defaults to OpenBLAS, but it can also be MKL (from the defaults channel), or even [BLIS](https://github.com/flame/blis) or reference BLAS.
 
-- The MKL package is a lot larger than OpenBLAS, it's about 700 MB on disk while OpenBLAS is about 30 MB.
+- MKL包比OpenBLAS大得多，它在磁盘上有大约700MB，而OpenBLAS 大约30MB。
 
-- MKL is typically a little faster and more robust than OpenBLAS.
+- MKL通常比OpenBLAS更快，更强大。
 
-Besides install sizes, performance and robustness, there are two more things to consider:
+除了安装大小、性能和强大性能外，还有两个东西需要考虑：
 
-- Intel MKL is not open source. For normal use this is not a problem, but if a user needs to redistribute an application built with NumPy, this could be an issue.
-- Both MKL and OpenBLAS will use multi-threading for function calls like `np.dot`, with the number of threads being determined by both a build-time option and an environment variable. Often all CPU cores will be used. This is sometimes unexpected for users; NumPy itself doesn't auto-parallelize any function calls. It typically yields better performance, but can also be harmful - for example when using another level of parallelization with Dask, scikit-learn or multiprocessing.
+- Intel MKL不开源。 对于正常使用，这倒不是一个问题。 但如果用户需要重新发布基于 NumPy 构建的应用程序。这可能是个问题。
+- MKL 和 OpenBLAS 都将使用多线程进行函数调用，如`np.dot`，而线程数量同时由构建时间选项和一个环境变量决定。 通常所有的CPU核心都能用上。 这有时并不是用户期望的；NumPy本身并不进行任何自动并行函数调用。 多线程通常能产生更好的性能，但也可能降低性能――例如，当使用 Dask、scikit-learn 或 multiprocessing 的另一个并行化等级时。
 
 
-## Troubleshooting
+## 故障排查
 
-If your installation fails with the message below, see [Troubleshooting ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
+如果您的安装失败并显示如下信息，请参阅 [故障排查 ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html)。
 
 ```
 IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
 
-Importing the numpy c-extensions failed. This error can happen for
-different reasons, often due to issues with your setup.
+Importing the numpy c-extensions failed. This error can happen for different reasons, often due to issues with your setup.
 ```
 
