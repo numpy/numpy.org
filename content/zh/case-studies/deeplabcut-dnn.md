@@ -65,15 +65,15 @@ DeepLabCut使用一种称为 [转移学习](https://arxiv.org/pdf/1909.11229)的
 
 ## Numpy在应对姿态估计挑战中的角色
 
-NumPy addresses DeepLabCut technology's core need of numerical computations at high speed for behavioural analytics.  Besides NumPy, DeepLabCut employs various Python software that utilize NumPy at their core, such as [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug), [scikit-learn](https://scikit-learn.org/stable/), [scikit-image](https://scikit-image.org) and [Tensorflow](https://www.tensorflow.org).
+NumPy 解决了DeepLabCut技术对行为分析进行高性能数值计算的核心需求。  除了NumPy, DeepLabCut 还使用 各种以 NumPy 为核心的 Python 软件， 例如 [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [tensorpack](https://github.com/tensorpack/tensorpack), [imgig](https://github.com/aleju/imgaug), [sikit-learning](https://scikit-learn.org/stable/), [scikit-image](https://scikit-image.org) 和 [Tensorflow](https://www.tensorflow.org)
 
-The following features of NumPy played a key role in addressing the image processing, combinatorics requirements and need for fast computation in DeepLabCut pose estimation algorithms:
+NumPy 的以下功能在图像处理、组合计算和高性能DeepLabCut 姿态预测算法等方面发挥了关键作用。
 
-* Vectorization
-* Masked Array Operations
-* Linear Algebra
-* Random Sampling
-* Reshaping of large arrays
+* 向量化
+* Mask数组操作
+* 线性代数
+* 随机采样
+* 大规模矩阵变形
 
 DeepLabCut utilizes NumPy’s array capabilities throughout the workflow offered by the toolkit. In particular, NumPy is used for sampling distinct frames for human annotation labeling, and for writing, editing and processing annotation data.  Within TensorFlow the neural network is trained by DeepLabCut technology over thousands of iterations to predict the ground truth annotations from frames. For this purpose, target densities (scoremaps) are created to cast pose estimation as a image-to-image translation problem. To make the neural networks robust, data augmentation is employed, which requires the calculation of target scoremaps subject to various geometric and image processing steps. To make training fast, NumPy’s vectorization capabilities are leveraged. For inference, the most likely predictions from target scoremaps need to extracted and one needs to efficiently “link predictions to assemble individual animals”.
 
