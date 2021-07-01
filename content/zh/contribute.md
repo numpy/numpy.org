@@ -1,8 +1,8 @@
 - - -
-title: Contribute to NumPy sidebar: false
+title: Numpy贡献者指南 sidebar: false
 - - -
 
-The NumPy project welcomes your expertise and enthusiasm! Your choices aren't limited to programming -- in addition to
+NumPy 项目的繁荣发展需要您的专业知识和热情。 Your choices aren't limited to programming -- in addition to
 
 - [Writing code](#writing-code)
 
