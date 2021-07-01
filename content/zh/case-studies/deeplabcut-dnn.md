@@ -75,15 +75,15 @@ NumPy 的以下功能在图像处理、组合计算和高性能DeepLabCut 姿态
 * 随机采样
 * 大规模矩阵变形
 
-DeepLabCut utilizes NumPy’s array capabilities throughout the workflow offered by the toolkit. In particular, NumPy is used for sampling distinct frames for human annotation labeling, and for writing, editing and processing annotation data.  Within TensorFlow the neural network is trained by DeepLabCut technology over thousands of iterations to predict the ground truth annotations from frames. For this purpose, target densities (scoremaps) are created to cast pose estimation as a image-to-image translation problem. To make the neural networks robust, data augmentation is employed, which requires the calculation of target scoremaps subject to various geometric and image processing steps. To make training fast, NumPy’s vectorization capabilities are leveraged. For inference, the most likely predictions from target scoremaps need to extracted and one needs to efficiently “link predictions to assemble individual animals”.
+DeepLabCut在工具包提供的整个工作流中都使用了NumPy 数组。 需要特别指出的是，为了方便手工注释标注，以及便于编写、编辑和处理这些标注，Numpy被广泛应用于对不同的图像帧进行采样。  DeepLabCut对TensorFlow中的神经网络进行了成千上万次迭代训练，以预测图像 帧中注释的准确性。 为了达成这个目标，需要创建一个目标分布图(得分地图) 将姿态预测问题投射为图像之间变换的问题。 采用数据增强技术可以让神经网络变的更健壮，这就需要对遵循各种几何和图像处理流程的目标积分图进行计算。 为了加快训练速度，NumPy 的向量化功能会被充分利用起来。 在推理阶段，目标积分图中最可能的预测结果会被提取出来，然后就可以有效地“将预测结果映射到某种具体的动物”。
 
-{{< figure src="/images/content_images/cs/deeplabcut-workflow.png" class="fig-center" caption="**DeepLabCut Workflow**" alt="workflow" attr="*(Source: Mackenzie Mathis)*" attrlink="https://www.researchgate.net/figure/DeepLabCut-work-flow-The-diagram-delineates-the-work-flow-as-well-as-the-directory-and_fig1_329185962">}}
+{{< figsrc="/images/content_images/cs/deeplabcut-workflow.png" class="fig-center" caption="**DeepLabCut工作流程**" alt="workflow" tot="*(资料来源：Mackenzie Mathis)*" tacklink="https://www.researchgate.net/figure/DeepLabCut-work-flow-The-diagram-lab-lab-the-lab-the-work-flow-as well-the-directory-and_fig1_329185962">}}
 
-## Summary
+## 总结
 
-Observing and efficiently describing behavior is a core tenant of modern ethology, neuroscience, medicine, and technology. [DeepLabCut](http://orga.cvss.cc/wp-content/uploads/2019/05/NathMathis2019.pdf) allows researchers to estimate the pose of the subject, efficiently enabling them to quantify the behavior. With only a small set of training images, the DeepLabCut Python toolbox allows training a neural network to within human level labeling accuracy, thus expanding its application to not only behavior analysis in the laboratory, but to potentially also in sports, gait analysis, medicine and rehabilitation studies. Complex combinatorics, data processing challenges faced by DeepLabCut algorithms are addressed through the use of NumPy's array manipulation capabilities.
+对行为进行精确的观测和高效的描述是现代伦理学、神经科学、医学和技术的核心内容。 [DeepLabCut](http://orga.cvss.cc/wp-content/uploads/2019/05/NathMathis2019.pdf) 让研究人员预测实验对象的行为成为可能，从而高效量化动物行为。 DeepLabCut Python工具箱仅需少量训练图像就可以将神经网络训练达到人类水平的标注准确性，因此它的应用范围绝不局限于实验室的行为分析，而且还可以拓展到运动、步态分析、医学和康复研究中。 通过操作Numpy数组，可以解决DeepLabCut算法面临的复杂组合计算和数据处理难题。
 
-{{< figure src="/images/content_images/cs/numpy_dlc_benefits.png" class="fig-center" alt="numpy benefits" caption="**Key NumPy Capabilities utilized**" >}}
+{{< figsrc="/images/content_images/cs/numpy_bh_bbh_benefits.png" class="fig-center" alt="numpy benefits" caption="**Numpy核心能力的运用**" >}}
 
 [cheetah-movement]: https://www. technologynetworks. com/neuroscience/articles/interview-a-deeper-cut-into-behavior-with-mackenzie-mathis-327618
 
