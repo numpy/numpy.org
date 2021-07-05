@@ -20,24 +20,24 @@ sidebar: false
 ### 关键目标
 
 * 虽然它的 [任务](https://www.ligo.caltech.edu/page/what-is-ligo) 是探测宇宙中反应最剧烈和能量最集中的区域产生的引力波，但 LIGO 收集的数据可能会对物理学的许多领域产生深远的影响，包括引力、相对论、天体物理学、宇宙学、粒子物理学和核物理。
-* Crunch observed data via numerical relativity computations that involves complex maths in order to discern signal from noise, filter out relevant signal and statistically estimate significance of observed data
-* Data visualization so that the binary / numerical results can be comprehended.
+* 通过涉及复杂数学的数值相对论来计算和处理观测数据，以便从噪声中辨别信号、滤除相关信号并统计估计观测数据的重要性。
+* 数据可视化，以便可以理解二进制/数值结果。
 
 
 
-### The Challenges
+### 面临的挑战
 
-* **Computation**
+* **计算**
 
-    Gravitational Waves are hard to detect as they produce a very small effect and have tiny interaction with matter. Processing and analyzing all of LIGO's data requires a vast computing infrastructure.After taking care of noise, which is billions of times of the signal, there is still very complex relativity equations and huge amounts of data which present a computational challenge: [O(10^7) CPU hrs needed for binary merger analyses](https://youtu.be/7mcHknWWzNI) spread on 6 dedicated LIGO clusters
+    引力波很难被探测到，因为它们产生的影响非常小，与物质的相互作用也很小。 处理和分析 LIGO 的所有数据需要庞大的计算基础设施。在处理数十亿倍于引力波信号的噪声后，仍然需要使用非常复杂的相对论方程来处理海量数据，这带来了计算挑战： [二进制合并分析需要花费O(10^ 7) 级别的 CPU 小时数](https://youtu.be/7mcHknWWzNI)才能完成，这些计算过程由 6 个专用 LIGO 集群分摊解决。
 
-* **Data Deluge**
+* **数据泛滥**
 
-    As observational devices become more sensitive and reliable, the challenges posed by data deluge and finding a needle in a haystack rise multi-fold. LIGO generates terabytes of data every day! Making sense of this data requires an enormous effort for each and every detection. For example, the signals being collected by LIGO must be matched by supercomputers against hundreds of thousands of templates of possible gravitational-wave signatures.
+    随着观测设备变得更加敏感和可靠，数据泛滥和大海捞针所带来的挑战成倍增加。 LIGO 每天生成数 TB 的数据！ 每一次检测之后要理解这些数据都要付出巨大的努力。 例如，LIGO 收集的信号必须由超级计算机与数十万个可能的引力波特征模板进行匹配。
 
-* **Visualization**
+* **可视化**
 
-    Once the obstacles related to understanding Einstein’s equations well enough to solve them using supercomputers are taken care of, the next big challenge was making data comprehensible to the human brain. Simulation modeling as well as  signal detection requires effective visualization techniques.  Visualization also plays a role in lending more credibility to numerical relativity in the eyes of pure science aficionados, who did not give enough importance to numerical relativity until imaging and simulations made it easier to comprehend results for a larger audience. Speed of complex computations and rendering, re-rendering images and simulations using latest experimental inputs and insights can be a time consuming activity that challenges researchers in this domain.
+    一旦解决了理解爱因斯坦方程以及使用超级计算机求解这些方程相关的障碍，下一个重大挑战就是使人脑能够理解数据。 仿真建模以及信号检测需要有效的可视化技术。  在纯科学爱好者的眼中，可视化在为数值相对论提供更多可信度方面也发挥了作用，在成像和模拟使更多人更容易理解结果之前，他们并没有对数值相对论给予足够的重视。 Speed of complex computations and rendering, re-rendering images and simulations using latest experimental inputs and insights can be a time consuming activity that challenges researchers in this domain.
 
 {{< figure src="/images/content_images/cs/gw_strain_amplitude.png" class="fig-center" alt="gravitational waves strain amplitude" caption="**Estimated gravitational-wave strain amplitude from GW150914**" attr="(**Graph Credits:** Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)" attrlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
 
