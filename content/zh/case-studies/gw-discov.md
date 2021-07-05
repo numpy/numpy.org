@@ -1,5 +1,5 @@
 ---
-title: "Case Study: Discovery of Gravitational Waves"
+title: "案例研究：发现引力波"
 sidebar: false
 ---
 
