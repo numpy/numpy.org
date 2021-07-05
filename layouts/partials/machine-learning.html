@@ -1,4 +1,6 @@
 <!-- Machine Learning Tab Content -->
+{{- $machinelearning := .Site.Params.machinelearning }}
+{{- $para1 := index $machinelearning "para1" }}
 <li class="machine-learning">
     <div class="grid-container">
         <div class="animation-holder">
@@ -12,24 +14,11 @@
             </p>
         </div>
         <div>
+            {{- range $para1 }}
             <p>
-                NumPy forms the basis of powerful machine learning libraries
-                like
-                <a href="https://scikit-learn.org">scikit-learn</a> and
-                <a href="https://www.scipy.org">SciPy</a>.
-                As machine learning grows, so does the
-                list of libraries built on NumPy.
-                <a href="https://www.tensorflow.org">TensorFlow’s</a>
-                deep learning capabilities have broad
-                applications &mdash; among them speech and image recognition, text-based
-                applications, time-series analysis, and video detection.
-                <a href="https://pytorch.org">PyTorch</a>, another deep
-                learning library, is popular among researchers in
-                computer vision and natural language processing.
-                <a href="https://github.com/apache/incubator-mxnet">MXNet</a>
-                is another AI package, providing blueprints and
-                templates for deep learning.
+                {{ .text }}
             </p>
+            {{- end }}
         </div>
     </div>
     <div>

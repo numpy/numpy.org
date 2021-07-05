@@ -5,7 +5,7 @@ import re
 with open('config.yaml.in', 'r', encoding='utf-8') as templ:
     lines = templ.readlines()
 
-pattern = re.compile('< content\/\w\w\/config.yaml >')
+pattern = re.compile('< content\/\w\w\/\w*.yaml >')
 with open('config.yaml', 'w', encoding='utf-8') as f:
     for line in lines:
         match = pattern.search(line)

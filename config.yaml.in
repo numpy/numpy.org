@@ -27,6 +27,7 @@ languages:
     weight: 1
     contentDir: content/en
     < content/en/config.yaml >
+    < content/en/tabcontents.yaml >
   
   # Portuguese
   pt:
