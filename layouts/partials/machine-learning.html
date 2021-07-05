@@ -1,6 +1,7 @@
 <!-- Machine Learning Tab Content -->
 {{- $machinelearning := .Site.Params.machinelearning }}
-{{- $para1 := index $machinelearning "para1" }}
+{{- $paras := index $machinelearning "paras" }}
+{{- range $paras }}
 <li class="machine-learning">
     <div class="grid-container">
         <div class="animation-holder">
@@ -14,29 +15,17 @@
             </p>
         </div>
         <div>
-            {{- range $para1 }}
             <p>
-                {{ .text }}
+                {{ .para1 | markdownify }}
             </p>
-            {{- end }}
         </div>
     </div>
     <div>
         <div>
             <p>
-                Statistical techniques called
-                <a href="https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205">ensemble</a>
-                methods such as binning,
-                bagging, stacking, and boosting are among the ML
-                algorithms implemented by tools such as
-                <a href="https://github.com/dmlc/xgboost">XGBoost</a>,
-                <a href="https://lightgbm.readthedocs.io/en/latest/">LightGBM</a>, and
-                <a href="https://catboost.ai">CatBoost</a> &mdash; one of the
-                fastest inference engines.
-                <a href="https://www.scikit-yb.org/en/latest/">Yellowbrick</a> and
-                <a href="https://eli5.readthedocs.io/en/latest/">Eli5</a>
-                offer machine learning visualizations.
+                {{ .para2 | markdownify }}
             </p>
         </div>
     </div>
 </li>
+{{- end }}
