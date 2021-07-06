@@ -2,65 +2,65 @@
 title: Numpy贡献者指南 sidebar: false
 - - -
 
-NumPy 项目的繁荣发展需要您的专业知识和热情！ 您在社区能做的不仅仅只是编程 - 或者更直白的说
+NumPy 项目的繁荣发展需要您的专业知识和热情！ 您在社区能做的不仅限于编程 - 除了
 
-- [编写代码](#writing-code)
+- [写代码](#writing-code)
 
-you can
+你还可以
 
-- [Review pull requests](#reviewing-pull-requests)
-- [Develop tutorials, presentations, and other educational material](#developing-educational-materials)
-- [Triage issues](#issue-triaging)
-- [Work on our website](#website-development)
-- [Contribute graphic design](#graphic-design)
-- [Translate website content](#translating-website-content)
-- [Serve as a community coordinator](#community-coordination-and-outreach)
-- [Write grant proposals and help with other fundraising](#fundraising)
+- [检视合并请求](#reviewing-pull-requests)
+- [开发教程、演示文稿和其它教育材料](#developing-educational-materials)
+- [对问题分类](#issue-triaging)
+- [优化社区官网](#website-development)
+- [贡献图形设计](#graphic-design)
+- [翻译网站内容](#translating-website-content)
+- [担任社区协调员](#community-coordination-and-outreach)
+- [撰写捐款提案并帮助完成其他筹款活动](#fundraising)
 
-If you're unsure where to start or how your skills fit in, _reach out!_ You can ask on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) or [GitHub](http://github.com/numpy/numpy) (open an [issue](https://github.com/numpy/numpy/issues) or comment on a relevant issue).
+如果你不确定从哪里开始或你的技能如何匹配社区， _向我们求助吧！_ 您可以在 [邮件列表](https://mail.python.org/mailman/listinfo/numpy-discussion) 或[GitHub](http://github.com/numpy/numpy) (打开一个[issue](https://github.com/numpy/numpy/issues) 或评论相关的问题)。
 
-Those are our preferred channels (open source is open by nature), but if you prefer to talk privately, contact our community coordinators at <numpy-team@googlegroups.com> or on [Slack](https://numpy-team.slack.com) (write  <numpy-team@googlegroups.com> for an invite).
+这些是我们的首选联系渠道(开源的本质是开放)，但如果您更喜欢私下交流，请通过<numpy-team@googlegroups.com> 或 [Slack](https://numpy-team.slack.com)联系我们的社区协调员(发送邮件至<numpy-team@googlegroups.com>以获得邀请)
 
-We also have a biweekly _community call_, details of which are announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion). You are very welcome to join. If you are new to contributing to open source, we also highly recommend reading [this guide](https://opensource.guide/how-to-contribute/).
+我们还有一个双周的 _社区电话例会_，详细信息会在[邮件列表 ](https://mail.python.org/mailman/listinfo/numpy-discussion)中公布。 非常欢迎您的加入。 如果您刚开始为开源做贡献，我们也强烈建议您阅读[本指南](https://opensource.guide/how-to-contribute/)
 
-Our community aspires to treat everyone equally and to value all contributions. We have a [Code of Conduct](/code-of-conduct) to foster an open and welcoming environment.
+我们的社区渴望平等对待每个人并重视所有贡献。 我们有一套 [行为准则 ](/code-of-conduct)来营造一个开放和热情的环境。
 
-### Writing code
+### 编写代码
 
-Programmers, this [guide](https://numpy.org/devdocs/dev/index.html#development-process-summary) explains how to contribute to the codebase.
+面向程序员, 此[指南](https://numpy.org/devdocs/dev/index.html#development-process-summary)解释如何为代码库做出贡献。
 
-### Reviewing pull requests
-The project has more than 250 open pull requests -- meaning many potential improvements and many open-source contributors waiting for feedback. If you're a developer who knows NumPy, you can help even if you're not familiar with the codebase. You can:
-* summarize a long-running discussion
-* triage documentation PRs
-* test proposed changes
-
-
-### Developing educational materials
-
-NumPy's [User Guide](https://numpy.org/devdocs) is undergoing rehabilitation. We're in need of new tutorials, how-to's, and deep-dive explanations, and the site needs restructuring. Opportunities aren't limited to writers. We'd also welcome worked examples, notebooks, and videos. [NEP 44 — Restructuring the NumPyDocumentation](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html) lays out our ideas -- and you may have others.
+### 审核其他人提交的 merge request
+本项目有超过250个开放的合入请求 — 这意味着许多潜在的改进和许多等待反馈的开源贡献者。 如果您是一位了解 NumPy 的开发人员，即使您不熟悉代码库，也可以提供帮助。 您可以：
+* 对长时间讨论的话题进行总结
+* 对文档的PR进行分类
+* 对做出的修改进行测试
 
 
-### Issue triaging
+### 开发教材
 
-The [NumPy issue tracker](https://github.com/numpy/numpy/issues) has a _lot_ of open issues. Some are no longer valid, some should be prioritized, and some would make good issues for new contributors.  You can:
-
-* check if older bugs are still present
-* find duplicate issues and link related ones
-* add good self-contained reproducers to issues
-* label issues correctly (this requires triage rights -- just ask)
-
-Please just dive in.
+NumPy的 [用户指南](https://numpy.org/devdocs) 正在进行整改。 我们需要新的教程、入门指南和深入细致的解释，并且官网结构也需要重新组织。 贡献机会也不限于编写教材。 我们也欢迎使用示例、学习笔记和教学视频。 [NEP 44 — 重构NumPy文档](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html)列出了我们目前的想法，您可能还有其他想法。
 
 
-### Website development
+### 问题分类
 
-We've just revamped our website, but we're far from done. If you love web development, these [issues](https://github.com/numpy/numpy.org/issues?q=is%3Aissue+is%3Aopen+label%3Adesign) list some of our unmet needs -- and feel free to share your own ideas.
+[NumPy的问题跟踪器 ](https://github.com/numpy/numpy/issues)有 _很多_未关闭的问题。 有些问题不再合理范围，有些问题应该优先考虑，有些是新贡献者带来的好问题。  您可以：
+
+* 检查之前的问题是否仍然存在
+* 找出重复出现的问题并将其关联起来
+* 为问题添加清晰的可复现代码
+* 为问题添加正确的标签(这需要分类权限 - 发邮件咨询即可获取)
+
+只管尽情探索吧。
 
 
-### Graphic design
+### 网站开发
 
-We can barely begin to list the contributions a graphic designer can make here. Our docs are parched for illustration; our growing website craves images -- opportunities abound.
+我们刚刚更新了我们的网站，但离完成还有很长的距离。 如果您喜欢网站开发，这些[问题](https://github.com/numpy/numpy.org/issues?q=is%3Aissue+is%3Aopen+label%3Adesign)列出了一些我们尚未满足的需求 -- 请随时分享您的想法。
+
+
+### 平面设计
+
+我们几乎无法开始列出平面设计师可以在这里做出的贡献。 Our docs are parched for illustration; our growing website craves images -- opportunities abound.
 
 
 ### Translating website content
