@@ -60,12 +60,12 @@ NumPy的 [用户指南](https://numpy.org/devdocs) 正在进行整改。 我们�
 
 ### 平面设计
 
-我们几乎无法开始列出平面设计师可以在这里做出的贡献。 Our docs are parched for illustration; our growing website craves images -- opportunities abound.
+我们几乎无法开始列出平面设计师可以在这里做出的贡献。 社区文档为了准确生动的描述而生；日益成长壮大的网站迫切需要大量的平面设计图片-这里的机会比比皆是。
 
 
-### Translating website content
+### 翻译网站内容
 
-We plan multiple translations of [numpy.org](https://numpy.org) to make NumPy accessible to users in their native language. Volunteer translators are at the heart of this effort.  See [here](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n) for background; comment on [this GitHub issue](https://github.com/numpy/numpy.org/issues/55) to sign up.
+我们计划对 [numpy.org](https://numpy.org) 进行多语种翻译，让用户可以用他们的母语访问 NumPy。 翻译志愿者是这项工作的核心。  See [here](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n) for background; comment on [this GitHub issue](https://github.com/numpy/numpy.org/issues/55) to sign up.
 
 
 ### Community coordination and outreach
