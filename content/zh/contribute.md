@@ -65,14 +65,14 @@ NumPy的 [用户指南](https://numpy.org/devdocs) 正在进行整改。 我们�
 
 ### 翻译网站内容
 
-我们计划对 [numpy.org](https://numpy.org) 进行多语种翻译，让用户可以用他们的母语访问 NumPy。 翻译志愿者是这项工作的核心。  See [here](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n) for background; comment on [this GitHub issue](https://github.com/numpy/numpy.org/issues/55) to sign up.
+我们计划对 [numpy.org](https://numpy.org) 进行多语种翻译，让用户可以用他们的母语访问 NumPy。 翻译志愿者是这项工作的核心。  请参阅[此处](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n)了解翻译背景; 对此 [GitHub问题](https://github.com/numpy/numpy.org/issues/55) 发表评论以加入到翻译队伍中.
 
 
-### Community coordination and outreach
+### 社区协调和宣传
 
-Through community contact we share our work more widely and learn where we're falling short. We're eager to get more people involved in efforts like our [Twitter](https://twitter.com/numpy_team) account, organizing NumPy [code sprints](https://scisprints.github.io/), a newsletter, and perhaps a blog.
+通过社区我们可以更广泛地分享我们的工作，并了解我们的不足之处。 我们渴望让更多的人参与进来，比如关注我们的[Twitter](https://twitter.com/numpy_team) 帐户、组织NumPy [代码比赛](https://scisprints.github.io/)、时事通讯以及博客宣传中。
 
-### Fundraising
+### 筹款活动
 
-NumPy was all-volunteer for many years, but as its importance grew it became clear that to ensure stability and growth we'd need financial support. [This SciPy'19 talk](https://www.youtube.com/watch?v=dBTJD_FDVjU) explains how much difference that support has made. Like all the nonprofit world, we're constantly searching for grants, sponsorships, and other kinds of support. We have a number of ideas and of course we welcome more. Fundraising is a scarce skill here  -- we'd appreciate your help.
+NumPy 多年来一直都是靠志愿者发展起来的，但随着其重要性的增加，很明显，为了确保稳定和成长，我们需要经济上的支持。 [这个SciPy'19 演讲](https://www.youtube.com/watch?v=dBTJD_FDVjU) 解释了这种支持产生了多大的不同。 与所有非营利组织一样，我们一直在寻求捐款、赞助和其他类型的支持。 我们有很多想法，当然我们欢迎大家提供更多意见。 筹款在这里是一项稀缺技能 - 我们迫切需要您的帮助。
 
