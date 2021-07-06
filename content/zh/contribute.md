@@ -2,9 +2,9 @@
 title: Numpy贡献者指南 sidebar: false
 - - -
 
-NumPy 项目的繁荣发展需要您的专业知识和热情。 Your choices aren't limited to programming -- in addition to
+NumPy 项目的繁荣发展需要您的专业知识和热情！ 您在社区能做的不仅仅只是编程 - 或者更直白的说
 
-- [Writing code](#writing-code)
+- [编写代码](#writing-code)
 
 you can
 
