@@ -25,3 +25,5 @@
 [context.deploy-preview.environment]
   PYTHON_VERSION = "3.7"
   NUMPYORG_WITH_TRANSLATIONS = "1"
+  # Same Hugo version as in .github/workflogs/gh-pages.yml
+  HUGO_VERSION = "0.82.0"
