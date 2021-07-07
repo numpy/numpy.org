@@ -50,9 +50,9 @@ _بعض المعلومات حول مشروع ومجتمع نمباي_
 
 ## NumFOCUS Subcommittee
 
-- Charles Harris
-- Ralf Gommers
-- Melissa Weber Mendonça
+- تشارلز هاريس
+- رالف غومرس
+- ميليسا ويبر ميندوكا
 - Sebastian Berg
 - External member: Thomas Caswell
 
