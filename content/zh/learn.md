@@ -55,36 +55,36 @@ sidebar: false
 * *Stéfan van der Walt的*[Numpy Medkits](http://mentat.za.net/numpy/numpy_advanced_slides/)
 * [Python 中的 NumPy(进阶)](https://www.geeksforgeeks.org/numpy-python-set-2-advanced/)
 * [高级索引](https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm)
-* [Machine Learning and Data Analytics with NumPy](https://www.machinelearningplus.com/python/numpy-tutorial-python-part2/)
+* [使用NumPy进行机器学习和数据分析](https://www.machinelearningplus.com/python/numpy-tutorial-python-part2/)
 
-<i class="fas fa-book"></i> **Books**
+<i class="fas fa-book"></i> **图书**
 
-* [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057) *by Jake Vanderplas*
-* [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662) *by Wes McKinney*
-* [Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy, and Matplotlib](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459) *by Robert Johansson*
+* *Jake Vanderplas编写的*[Python 数据科学手册](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057)
+* *Wes McKinney的*[Python数据分析](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662)
+* *Robert Johansson的*[数值Python: 使用 Numpy、SciPy 和 Matplotlib 进行科学计算和数据科学应用](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459)
 
-<i class="far fa-file-video"></i> **Videos**
+<i class="far fa-file-video"></i> **视频**
 
-* [Advanced NumPy - broadcasting rules, strides, and advanced indexing](https://www.youtube.com/watch?v=cYugp9IN1-Q) *by Juan Nunez-Iglesias*
-* [Advanced Indexing Operations in NumPy Arrays](https://www.youtube.com/watch?v=2WTDrSkQBng) *by Amuls Academy*
-
-***
-
-## NumPy Talks
-
-* [The Future of NumPy Indexing](https://www.youtube.com/watch?v=o0EacbIbf58) *by Jaime Fernández* (2016)
-* [Evolution of Array Computing in Python](https://www.youtube.com/watch?v=HVLPJnvInzM&t=10s) *by Ralf Gommers* (2019)
-* [NumPy: what has changed and what is going to change?](https://www.youtube.com/watch?v=YFLVQFjRmPY) *by Matti Picus* (2019)
-* [Inside NumPy](https://www.youtube.com/watch?v=dBTJD_FDVjU) *by Ralf Gommers, Sebastian Berg, Matti Picus, Tyler Reddy, Stefan van der Walt, Charles Harris* (2019)
-* [Brief Review of Array Computing in Python](https://www.youtube.com/watch?v=f176j2g2eNc) *by Travis Oliphant* (2019)
+* *Juan Nunez-Iglesias的*[NumPy进阶 - 广播机制、步幅和高级索引](https://www.youtube.com/watch?v=cYugp9IN1-Q)
+* *AMuls Academy的*[在 NumPy 数组中的高级索引操作](https://www.youtube.com/watch?v=2WTDrSkQBng)
 
 ***
 
-## Citing NumPy
+## NumPy演讲
 
-If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, please see [this citation information](/citing-numpy).
+* *Jaime Fernadez的*[NumPy索引的未来](https://www.youtube.com/watch?v=o0EacbIbf58) (2016)
+* *Ralf Gommers的*[Python数组计算的演变史](https://www.youtube.com/watch?v=HVLPJnvInzM&t=10s) (2019)
+* *Matti Picus的*[NumPy：什么已经改变，什么将要改变？](https://www.youtube.com/watch?v=YFLVQFjRmPY) (2019)
+* *Ralf Gommers, Sebastian Berg, Matti Picus, Tyler Reddy, Stefan van der Walt, Charles Harris谈谈*[NumPy揭秘](https://www.youtube.com/watch?v=dBTJD_FDVjU) (2019)
+* *Travis Oliphant的* [ Python 数组计算概述](https://www.youtube.com/watch?v=f176j2g2eNc) (2019)
 
-## Contribute to this list
+***
+
+## 引用 NumPy
+
+如果NumPy在您的研究中具有重要意义，您希望在您的学术出版物中向该项目致谢。 请参阅 [此引用信息](/citing-numpy)。
+
+## 为本页面的资源列表做出贡献
 
 <a name="add-to-this-list"></a>
-To add to this collection, submit a recommendation [via a pull request](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md). Say why your recommendation deserves mention on this page and also which audience would benefit most.
+若要添加资源到本页面，请[通过提交合并请求](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md) 来提交建议 。 需要详细说明为什么您的推荐值得在此页面上被提及，以及哪些受众最受益。
