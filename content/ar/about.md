@@ -48,19 +48,31 @@ _بعض المعلومات حول مشروع ومجتمع نمباي_
 
 شاهد صفحة [ ](/gallery/team.html) لأعضاء الفريق.
 
-## الرُعاة
+## NumFOCUS Subcommittee
+
+- Charles Harris
+- Ralf Gommers
+- Melissa Weber Mendonça
+- Sebastian Berg
+- External member: Thomas Caswell
+
+## Sponsors
 
 ويتلقى المشروع تمويلا مباشرا من المصادر التالية:
 {{< sponsors >}}
 
 
-## الشركاء المؤسسيون
+## Institutional Partners
 
 الشركاء المؤسسيون هم المنظمات التي تدعم المشروع وذلك بتوظيف الأشخاص الذين يساهمون في "نمباي" كجزء من عملهم. ويشمل الشركاء المؤسسيون الحاليون ما يلي:
+
+- UC Berkeley (Stéfan van der Walt, Sebastian Berg, Ross Barnowski)
+- Quansight (Ralf Gommers, Melissa Weber Mendonça, Mars Lee, Matti Picus, Pearu Peterson)
+
 {{< partners >}}
 
 
-## التبرع
+## Donate
 
 يرجى النظر في التبرع للمشروع بما يتناسب مع مواردك إذا كنت وجدته مفيد في عملك أو بحثك أو شركتك. ،أي مبلغ قد يساعد، وستستخدم جميع التبرعات بشكل صارم لتطوير برمجيات المشروع مفتوحة المصدر، ووثائقه، ومجتمعه.
 
