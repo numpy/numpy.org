@@ -1,5 +1,5 @@
 ---
-title: Learn
+title: 学习指南
 sidebar: false
 ---
 
