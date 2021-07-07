@@ -48,21 +48,21 @@ El proyecto NumPy está creciendo; tenemos equipos para
 
 Visita la página [Equipo](/gallery/team.html) para conocer a los miembros de cada equipo.
 
-## NumFOCUS Subcommittee
+## Subcomité NumFOCUS
 
 - Charles Harris
 - Ralf Gommers
 - Melissa Weber Mendonça
 - Sebastian Berg
-- External member: Thomas Caswell
+- Miembro externo: Thomas Caswell
 
-## Sponsors
+## Patrocinadores
 
 NumPy recibe financiación directa de las siguientes fuentes:
 {{< sponsors >}}
 
 
-## Institutional Partners
+## Socios institucionales
 
 Los socios institucionales son organizaciones que apoyan el proyecto empleando a personas que contribuyen a NumPy como parte de su trabajo. Entre los actuales socios institucionales se encuentran:
 
@@ -72,7 +72,7 @@ Los socios institucionales son organizaciones que apoyan el proyecto empleando a
 {{< partners >}}
 
 
-## Donate
+## Donar
 
 Si has encontrado NumPy útil en tu trabajo, investigación o empresa, por favor considera una donación al proyecto proporcional a tus recursos. ¡Cualquier cantidad ayuda! Todas las donaciones se utilizarán estrictamente para financiar el desarrollo del software de código abierto, la documentación y la comunidad de NumPy.
 
