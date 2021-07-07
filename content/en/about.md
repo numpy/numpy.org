@@ -48,6 +48,14 @@ The NumPy project is growing; we have teams for
 
 See the [Team](/gallery/team.html) page for individual team members.
 
+## NumFOCUS Subcommittee
+
+- Charles Harris
+- Ralf Gommers
+- Melissa Weber Mendonça
+- Sebastian Berg
+- External member: Thomas Caswell
+
 ## Sponsors
 
 NumPy receives direct funding from the following sources:
@@ -57,6 +65,10 @@ NumPy receives direct funding from the following sources:
 ## Institutional Partners
 
 Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include:
+
+- UC Berkeley (Stéfan van der Walt, Sebastian Berg, Ross Barnowski)
+- Quansight (Ralf Gommers, Melissa Weber Mendonça, Mars Lee, Matti Picus, Pearu Peterson)
+
 {{< partners >}}
 
 
