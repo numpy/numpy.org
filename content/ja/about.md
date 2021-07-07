@@ -48,19 +48,31 @@ NumPy プロジェクトは拡大しているため、いくつかのチーム�
 
 個々のチームメンバーについては、 [チーム](/gallery/team.html) のページを参照してください。
 
-## スポンサー情報
+## NumFOCUS Subcommittee
+
+- Charles Harris
+- Ralf Gommers
+- Melissa Weber Mendonça
+- Sebastian Berg
+- External member: Thomas Caswell
+
+## Sponsors
 
 NumPyは以下の団体から直接資金援助を受けています。
 {{< sponsors >}}
 
 
-## パートナー団体
+## Institutional Partners
 
 パートナー団体は、NumPyへの開発を仕事の一つとして、社員を雇っている団体です。 現在のパートナー団体としては、下記の通りです。
+
+- UC Berkeley (Stéfan van der Walt, Sebastian Berg, Ross Barnowski)
+- Quansight (Ralf Gommers, Melissa Weber Mendonça, Mars Lee, Matti Picus, Pearu Peterson)
+
 {{< partner >}}
 
 
-## 寄付
+## Donate
 
 NumPy があなたの仕事や研究、ビジネスで役に立った場合、できる範囲で良いので、是非、NumPyプロジェクトへの寄付を検討して頂けると助かります。 少額の寄付でも大きな助けになります。 すべての寄付は、NumPyのオープンソースソフトウェア、ドキュメント、コミュニティの開発のために使用されることが約束されています。
 
