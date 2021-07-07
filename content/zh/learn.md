@@ -3,58 +3,58 @@ title: 学习指南
 sidebar: false
 ---
 
-For the **official NumPy documentation** visit [numpy.org/doc/stable](https://numpy.org/doc/stable).
+有关 **官方NumPy文档**，请访问 [numpy.org/doc/stable](https://numpy.org/doc/stable)。
 
-## NumPy Tutorials
+## Numpy入门教程
 
-You can find a set of tutorials and educational materials by the NumPy community at [NumPy Tutorials](https://numpy.org/numpy-tutorials). The goal of this page is to provide high-quality resources by the NumPy project, both for self-learning and for teaching classes with, in the format of Jupyter Notebooks. If you’re interested in adding your own content, check the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
-
-***
-
-Below is a curated collection of external resources. To contribute, see the [end of this page](#add-to-this-list).
-
-## Beginners
-
-There's a ton of information about NumPy out there. If you are new, we'd strongly recommend these:
-
-<i class="fas fa-chalkboard"></i> **Tutorials**
-
-* [NumPy Quickstart Tutorial](https://numpy.org/devdocs/user/quickstart.html)
-* [NumPy Illustrated: The Visual Guide to NumPy *by Lev Maximov*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
-* [SciPy Lectures](https://scipy-lectures.org/) Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.
-* [NumPy: the absolute basics for beginners](https://numpy.org/devdocs/user/absolute_beginners.html)
-* [Machine Learning Plus - Introduction to ndarray](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
-* [Edureka - Learn NumPy Arrays with Examples ](https://www.edureka.co/blog/python-numpy-tutorial/)
-* [Dataquest - NumPy Tutorial: Data Analysis with Python](https://www.dataquest.io/blog/numpy-tutorial-python/)
-* [NumPy tutorial *by Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
-* [Stanford CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
-* [NumPy User Guide](https://numpy.org/devdocs)
-
-<i class="fas fa-book"></i> **Books**
-
-* [Guide to NumPy *by Travis E. Oliphant*](http://web.mit.edu/dvp/Public/numpybook.pdf) This is a free version 1 from 2006. For the latest copy (2015) see [here](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007).
-* [From Python to NumPy *by Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
-* [Elegant SciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) *by Juan Nunez-Iglesias, Stefan van der Walt, and Harriet Dashnow*
-
-You may also want to check out the [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) on the subject of "Python+SciPy." Most books there are about the "SciPy ecosystem," which has NumPy at its core.
-
-<i class="far fa-file-video"></i> **Videos**
-
-* [Introduction to Numerical Computing with NumPy](http://youtu.be/ZB7BZMhfPgk) *by Alex Chabot-Leclerc*
+您可以在[NumPy教程](https://numpy.org/numpy-tutorials)中找到 NumPy 社区的一套教程和教材。 本页面的目标是通过 NumPy 项目以 Jupyter Notebooks 的格式提供高质量的资源，用于自学和教学课程。 如果您有兴趣添加自己的内容，请查看 GitHub上的 [numpy-tutorials项目](https://github.com/numpy/numpy-tutorials) 。
 
 ***
 
-## Advanced
+以下是精选的外部资源合集。 要做出贡献，请参阅 [本页末尾](#add-to-this-list)。
 
-Try these advanced resources for a better understanding of NumPy concepts like advanced indexing, splitting, stacking, linear algebra, and more.
+## 初学者
 
-<i class="fas fa-chalkboard"></i> **Tutorials**
+外部有大量关于 NumPy 的信息。 如果您是新手，我们强烈推荐学习这些资源：
 
-* [100 NumPy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) *by Nicolas P. Rougier*
-* [An Introduction to NumPy and Scipy](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) *by M. Scott Shell*
-* [Numpy Medkits](http://mentat.za.net/numpy/numpy_advanced_slides/) *by Stéfan van der Walt*
-* [NumPy in Python (Advanced)](https://www.geeksforgeeks.org/numpy-python-set-2-advanced/)
-* [Advanced Indexing](https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm)
+<i class="fas fa-chalkboard"></i> **教程**
+
+* [NumPy 快速入门教程](https://numpy.org/devdocs/user/quickstart.html)
+* [NumPy图解： *Lev Maximov编写的*NumPy可视化指南](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
+* [SciPy 讲座](https://scipy-lectures.org/) 除了涵盖NumPy之外，这些讲座还对Python科学生态系统提供了更广泛的介绍。
+* [NumPy：初学者的必读基础课](https://numpy.org/devdocs/user/absolute_beginners.html)
+* [机器学习之家-ndarray简介](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
+* [Edureka - 通过示例学习 NumPy 数组 ](https://www.edureka.co/blog/python-numpy-tutorial/)
+* [Dataquek - NumPy 教程：使用 Python 进行数据分析](https://www.dataquest.io/blog/numpy-tutorial-python/)
+* [*Nicolas Rougier的*NumPy 教程](https://github.com/rougier/numpy-tutorial)
+* [*由 Justin Johnson 编写的*斯坦福 CS231。](http://cs231n.github.io/python-numpy-tutorial/)
+* [NumPy用户指南](https://numpy.org/devdocs)
+
+<i class="fas fa-book"></i> **图书**
+
+* [Travis E. Oliphant的*NumPy 指南*](http://web.mit.edu/dvp/Public/numpybook.pdf)，这是从2006年开始的免费版本。 最新的副本 (2015) 请参见 [此处](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007)。
+* [*Nicolas P. Rougier的*从 Python 到 NumPy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
+* *由 Juan Nunez-Iglesias, Stefan van der Walt, and Harriet Dashnow编写的*[优雅的SciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877)
+
+您也可能想要查看有关“Python+SciPy”主题的 [Goodreads列表](https://www.goodreads.com/shelf/show/python-scipy) 。 那里的大部分书籍都是有关以NumPy为核心构建起来的“SciPy生态系统”。
+
+<i class="far fa-file-video"></i> **视频**
+
+* *由Alex Chabot-Leclerc制作的*[NumPy数值计算导论](http://youtu.be/ZB7BZMhfPgk)
+
+***
+
+## 进阶资源
+
+学习这些进阶资源以更好地理解 NumPy 概念，例如高级索引、拆分、堆叠、线性代数等。
+
+<i class="fas fa-chalkboard"></i> **教程**
+
+* *Nicolas P. Rougier的*[100 NumPy练习题](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html)
+* * M. Scott Shell的*[NumPy 和 Scipy 介绍](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf)
+* *Stéfan van der Walt的*[Numpy Medkits](http://mentat.za.net/numpy/numpy_advanced_slides/)
+* [Python 中的 NumPy(进阶)](https://www.geeksforgeeks.org/numpy-python-set-2-advanced/)
+* [高级索引](https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm)
 * [Machine Learning and Data Analytics with NumPy](https://www.machinelearningplus.com/python/numpy-tutorial-python-part2/)
 
 <i class="fas fa-book"></i> **Books**
