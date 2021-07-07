@@ -31,9 +31,9 @@ _Sept 14, 2020_ -- Python 3.9 will be released in a few weeks. If you are an ear
 - use [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) or `--only-binary=:all:` to prevent `pip` from trying to build from source.
 
 
-### Numpy 1.19.2 release
+### إصدار 1.19.2 لنمباي
 
-_Sep 10, 2020_ -- [NumPy 1.19.2](https://numpy.org/devdocs/release/1.19.2-notes.html) is now available. This latest release in the 1.19 series fixes several bugs, prepares for the [upcoming Cython 3.x release](http://docs.cython.org/en/latest/src/changes.html) and pins setuptools to keep distutils working while upstream modifications are ongoing. The aarch64 wheels are built with the latest manylinux2014 release that fixes the problem of differing page sizes used by different linux distros.
+_10 سيبتمبر لعام 2020 _- [أصبح نمباي 1.19.2 ](https://numpy.org/devdocs/release/1.19.2-notes.html) متاح الآن. This latest release in the 1.19 series fixes several bugs, prepares for the [upcoming Cython 3.x release](http://docs.cython.org/en/latest/src/changes.html) and pins setuptools to keep distutils working while upstream modifications are ongoing. The aarch64 wheels are built with the latest manylinux2014 release that fixes the problem of differing page sizes used by different linux distros.
 
 ### The inaugural NumPy survey is live!
 
