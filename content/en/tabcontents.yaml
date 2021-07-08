@@ -77,3 +77,54 @@ arraylibraries:
     img: /images/content_images/arlib/tensorly.png
     alttext: tensorly
     url: http://tensorly.org/stable/home.html
+  
+scientificdomains:
+  intro:
+  - text: Nearly every scientist working in Python draws on the power of NumPy.
+  - text: "NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant."
+
+  librariesrow1:
+  - title: Quantum Computing
+    alttext: A computer chip.
+    img: /images/content_images/sc_dom_img/quantum_computing.svg
+  - title: Statistical Computing
+    alttext: A line graph with the line moving up.
+    img: /images/content_images/sc_dom_img/statistical_computing.svg
+  - title: Signal Processing
+    alttext: A bar chart with positive and negative values.
+    img: /images/content_images/sc_dom_img/signal_processing.svg
+  - title: Image Processing
+    alttext: An photograph of the mountains.
+    img: /images/content_images/sc_dom_img/image_processing.svg
+  - title: Graphs and Networks 
+    alttext: A simple graph.
+    img: /images/content_images/sc_dom_img/sd6.svg
+  - title: Astronomy Processes
+    alttext: A telescope.
+    img: /images/content_images/sc_dom_img/astronomy_processes.svg
+  - title: Cognitive Psychology
+    alttext: A human head with gears.
+    img: /images/content_images/sc_dom_img/cognitive_psychology.svg
+
+  librariesrow2:
+  - title: Bioinformatics
+    alttext: A strand of DNA.
+    img: /images/content_images/sc_dom_img/bioinformatics.svg
+  - title: Bayesian Inference
+    alttext: A graph with a bell-shaped curve.
+    img: /images/content_images/sc_dom_img/bayesian_inference.svg
+  - title: Mathematical Analysis
+    alttext: Four mathematical symbols.
+    img: /images/content_images/sc_dom_img/mathematical_analysis.svg
+  - title: Chemistry
+    alttext: A test tube.
+    img: /images/content_images/sc_dom_img/chemistry.svg
+  - title: Geoscience
+    alttext: The Earth.
+    img: /images/content_images/sc_dom_img/geoscience.svg
+  - title: Geographic Processing
+    alttext: A map.
+    img: /images/content_images/sc_dom_img/GIS.svg
+  - title: Architecture & Engineering
+    alttext: A microprocessor development board.
+    img: /images/content_images/sc_dom_img/robotics.svg

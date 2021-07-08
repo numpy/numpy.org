@@ -1,38 +1,25 @@
 <!-- Scientific Domains Tab Content -->
+{{- $scientificdomains := .Site.Params.scientificdomains }}
+{{- $intro := index $scientificdomains "intro" }}
+{{- $librariesrow1 := index $scientificdomains "librariesrow1" }}
+{{- $librariesrow2 := index $scientificdomains "librariesrow2" }}
 <li class="scientific-domains">
+    {{- range $intro }}
     <p>
-        Nearly every scientist working in Python draws on the power of NumPy.
+        {{ .text }}
     </p>
-    <p>
-        NumPy brings the computational power of languages like C and Fortran
-        to Python, a language much easier to learn and use. With this power
-        comes simplicity: a solution in NumPy is often clear and elegant.
-    </p>
+    {{- end }}
     <!-- First Row -->
     <table>
         <tr class="highlight-th">
-            <td class="bold-text">Quantum Computing </td>
-            <td class="bold-text">Statistical Computing </td>
-            <td class="bold-text">Signal Processing </td>
-            <td class="bold-text">Image Processing </td>
-            <td class="bold-text">Graphs and Networks </td>
-            <td class="bold-text">Astronomy Processes </td>
-            <td class="bold-text">Cognitive Psychology </td>
+            {{- range $librariesrow1 }}
+                <td class="bold-text">{{ .title }}</td>
+            {{- end }}
         </tr>
         <tr>
-            <td><img class="cell-layout" src="/images/content_images/sc_dom_img/quantum_computing.svg"
-                    alt="A computer chip."></td>
-            <td><img class="cell-layout" src="/images/content_images/sc_dom_img/statistical_computing.svg"
-                    alt="A line graph with the line moving up."></td>
-            <td><img class="cell-layout" src="/images/content_images/sc_dom_img/signal_processing.svg"
-                    alt="A bar chart with positive and negative values."></td>
-            <td><img class="cell-layout" src="/images/content_images/sc_dom_img/image_processing.svg"
-                    alt="An photograph of the mountains."></td>
-            <td><img class="cell-layout" src="/images/content_images/sc_dom_img/sd6.svg" alt="A simple graph."></td>
-            <td><img class="cell-layout" src="/images/content_images/sc_dom_img/astronomy_processes.svg"
-                    alt="A telescope."></td>
-            <td><img class="cell-layout" src="/images/content_images/sc_dom_img/cognitive_psychology.svg"
-                    alt="A human head with gears."></td>
+            {{- range $librariesrow1 }}
+                <td><img class="cell-layout" src="{{ .img }}" alt="{{ .alttext }}"></td>
+            {{- end }}
         </tr>
         <tr>
             <td class="center-text"><a href="http://qutip.org">QuTiP</a></td>
@@ -70,28 +57,17 @@
             <td class="lastrow-center-text"></td>
             <td class="lastrow-center-text"></td>
         </tr>
+
         <!-- Second Row -->
         <tr class="highlight-th">
-            <td class="bold-text">Bioinformatics</td>
-            <td class="bold-text">Bayesian Inference</td>
-            <td class="bold-text">Mathematical Analysis</td>
-            <td class="bold-text">Chemistry</td>
-            <td class="bold-text">Geoscience</td>
-            <td class="bold-text">Geographic Processing</td>
-            <td class="bold-text">Architecture & Engineering</td>
+            {{- range $librariesrow2 }}
+                <td class="bold-text">{{ .title }}</td>
+            {{- end }}
         </tr>
         <tr>
-            <td><img class="cell-layout" src="/images/content_images/sc_dom_img/bioinformatics.svg"
-                    alt="A strand of DNA."></td>
-            <td><img class="cell-layout" src="/images/content_images/sc_dom_img/bayesian_inference.svg"
-                    alt="A graph with a bell-shaped curve."></td>
-            <td><img class="cell-layout" src="/images/content_images/sc_dom_img/mathematical_analysis.svg"
-                    alt="Four mathematical symbols."></td>
-            <td><img class="cell-layout" src="/images/content_images/sc_dom_img/chemistry.svg" alt="A test tube."></td>
-            <td><img class="cell-layout" src="/images/content_images/sc_dom_img/geoscience.svg" alt="The Earth."></td>
-            <td><img class="cell-layout" src="/images/content_images/sc_dom_img/GIS.svg" alt="A map."></td>
-            <td><img class="cell-layout" src="/images/content_images/sc_dom_img/robotics.svg"
-                    alt="A microprocessor development board."></td>
+            {{- range $librariesrow2 }}
+                <td><img class="cell-layout" src="{{ .img }}" alt="{{ .alttext }}"></td>
+            {{- end }}
         </tr>
         <tr>
             <td class="center-text"><a href="https://biopython.org">BioPython</a></td>
