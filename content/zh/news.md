@@ -42,7 +42,7 @@ _Jul 2, 2020_ -- This survey is meant to guide and set priorities for decision-m
 Please help us make NumPy better and take the survey [here](https://umdsurvey.umd.edu/jfe/form/SV_8bJrXjbhXf7saAl).
 
 
-### NumPy has a new logo!
+### NumPy 有新logo了!
 
 _Jun 24, 2020_ -- NumPy now has a new logo:
 
@@ -61,9 +61,9 @@ _Jun 20, 2020_ -- NumPy 1.19.0 is now available. This is the first release witho
 _May 11, 2020_ -- NumPy has been accepted as one of the mentor organizations for the Google Season of Docs program. We are excited about the opportunity to work with a technical writer to improve NumPy's documentation once again! For more details, please see [the official Season of Docs site](https://developers.google.com/season-of-docs/) and our [ideas page](https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas).
 
 
-### NumPy 1.18.0 release
+### NumPy 1.18.0 发布
 
-_Dec 22, 2019_ -- NumPy 1.18.0 is now available. After the major changes in 1.17.0, this is a consolidation release. It is the last minor release that will support Python 3.5. Highlights of the release includes the addition of basic infrastructure for linking with 64-bit BLAS and LAPACK libraries, and a new C-API for `numpy.random`.
+_Decc 22, 2019_ -- NumPy 1.18.0 现在可用了。 After the major changes in 1.17.0, this is a consolidation release. 这是最后一个支持 Python 3.5小版本。 Highlights of the release includes the addition of basic infrastructure for linking with 64-bit BLAS and LAPACK libraries, and a new C-API for `numpy.random`.
 
 Please see the [release notes](https://github.com/numpy/numpy/releases/tag/v1.18.0) for more details.
 
@@ -77,9 +77,9 @@ This grant will be used to ramp up the efforts in improving NumPy documentation,
 More details on our proposed initiatives and deliverables can be found in the [full grant proposal](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167). The work is scheduled to start on Dec 1st, 2019 and continue for the next 12 months.
 
 
-## Releases
+## 版本发布
 
-Here is a list of NumPy releases, with links to release notes. All bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
+这是NumPy 版本列表，包含了对应版本发布说明的链接。 所有的 bug修复版本(即在 `x.y.z`格式版本号中只有 `z`改变)没有新功能；小版本更新(`y` 改变)有新功能。
 
 - NumPy 1.18.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.18.4)) -- _3 May 2020_.
 - NumPy 1.18.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.18.3)) -- _19 Apr 2020_.
