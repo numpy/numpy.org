@@ -3,7 +3,7 @@ title: 2020 NUMPY COMMUNITY SURVEY
 sidebar: false
 ---
 
-In 2020, the NumPy survey team in partnership with students and faculty from a Master’s course in Survey Methodology jointly hosted by the University of Michigan and the University of Maryland conducted the first official NumPy community survey. Over 1,200 users from 75 countries participated to help us map out a landscape of the NumPy community and voiced their thoughts about the future of the project.
+2020 年，NumPy 调查团队与密歇根大学和马里兰大学联合主办的调查方法学硕士课程的师生合作，进行了第一次官方 NumPy 社区调查。 Over 1,200 users from 75 countries participated to help us map out a landscape of the NumPy community and voiced their thoughts about the future of the project.
 
 {{< figure src="/surveys/NumPy_usersurvey_2020_report_cover.png" class="fig-left" alt="Cover page of the 2020 NumPy user survey report, titled 'NumPy Community Survey 2020 - results'" width="250">}}
 
