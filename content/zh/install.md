@@ -36,11 +36,11 @@ pip install numpy
 
 # Python 和 NumPy 安装指南
 
-在 Python 上安装和管理软件包很复杂，大多数任务有许多替代解决方案。 本指南试图给读者一种最佳(或最受欢迎) 解决办法，并给出清晰的建议。 It focuses on users of Python, NumPy, and the PyData (or numerical computing) stack on common operating systems and hardware.
+在 Python 上安装和管理软件包很复杂，大部分工作任务都有许多可选择的解决方案。 本指南试图给读者一种最佳(或最受欢迎) 解决方案，并给出清晰的建议。 它侧重于在通用操作系统和硬件上使用Python、NumPy和PyData (或数学计算) 这些技术栈的用户。
 
 ## 建议
 
-我们将首先根据用户的经验水平和有兴趣的操作系统提出建议。 如果您在“开始”和“高级”之间纠结，我们建议如果您想要保持简单，请使用"开始"， 如果您想要按照更长远的最佳做法去做，请使用"高级"。
+我们将首先根据用户的经验水平和有兴趣的操作系统提出建议。 如果您在“开始”和“高级”之间纠结，我们建议，如果您想简单点请使用"开始"，如果您想按长期最佳实践去做，请看"高级"。
 
 ### 开始用户
 
@@ -62,9 +62,9 @@ pip install numpy
 
 #### Linux
 
-If you're fine with slightly outdated packages and prefer stability over being able to use the latest versions of libraries:
+如果您觉得稍旧点的库还不错，并且相比于使用最新版本的库更喜欢稳定性：
 - 尽可能使用您操作系统自带的包管理器进行管理(python本身、NumPy和其他库)。
-- Install packages not provided by your package manager with `pip install somepackage --user`.
+- 使用 `pip install somepackage --user` 安装来包管理器未提供的包。
 
 如果您使用GPU：
 - 安装 [Miniconda](https://docs.conda.io/en/latest/miniconda.html)。
@@ -76,9 +76,9 @@ If you're fine with slightly outdated packages and prefer stability over being a
 - 保持 `base` conda 环境最小化， 并使用一个或多个[conda 环境](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) 用于安装你需要的包以完成你正在做的任务或项目。
 
 
-#### Alternative if you prefer pip/PyPI
+#### 如果您更喜欢pip/pyPI
 
-For users who know, from personal preference or reading about the main differences between conda and pip below, they prefer a pip/PyPI-based solution, we recommend:
+对出于个人喜好或看完下面 conda 和 pip之间的主要差异后更喜欢基于 pip/PyPI 的解决方案的用户，我们建议：
 - 从 [python.org](https://www.python.org/downloads/), [Homebrew](https://brew.sh/)或 Linux 软件包管理器安装 Python。
 - 使用 [Poetry](https://python-poetry.org/) ，它是具有与conda 相似的依赖解析器和环境管理能力的完善工具。
 
@@ -99,7 +99,7 @@ For users who know, from personal preference or reading about the main differenc
 第三个不同点，conda是依赖关系、环境和软件包管理的集成解决方案。而 pip 可能需要其他工具 (很多!) 用于处理环境或复杂的依赖关系。
 
 
-### Reproducible installs
+### 可复现安装
 
 随着库的更新，代码的运行结果可能会改变，甚至您的代码完全跑不起来。 能重建你使用的对应版本软件包集合就很重要了。 最佳做法如下：
 
@@ -115,11 +115,11 @@ For users who know, from personal preference or reading about the main differenc
 
 NumPy 不依赖任何其他Python 包。 不过它依赖于一个快速线性代数库 - 通常是[Intel MKL](https://software.intel.com/en-us/mkl) 或 [OpenBLAS](https://www.openblas.net/)。 用户不必担心要如何安装那些库 (他们会自动包含在所有NumPy 的安装脚本中)。 高级用户可能仍然想知道详细信息，因为使用 BLAS 会影响磁盘的性能、行为和空间：
 
-- 用pip安装的 NumPy，线性代数库是 OpenBLAS。 The OpenBLAS libraries are included in the wheel. 这使得轮子得更大，而且如果用户安装了 (假设) SciPy 他们现在会在磁盘上有两份OpenBLAS 副本。
+- 用pip安装的 NumPy，线性代数库是 OpenBLAS。 OpenBLAS 库包含在NumPy的轮子中。 这让轮子变得更大，而且如果用户安装了 (假设) SciPy，他们现在会在磁盘上有两份OpenBLAS 副本。
 
-- In the conda defaults channel, NumPy is built against Intel MKL. MKL 是个分离的软件包，在安装Numpy时会将它安装到用户环境中。
+- 在 conda 的默认频道中，NumPy 是用 Intel MKL 构建的。 MKL 是个单独的软件包，在安装Numpy时会将它安装到用户环境中。
 
-- In the conda-forge channel, NumPy is built against a dummy "BLAS" package. When a user installs NumPy from conda-forge, that BLAS package then gets installed together with the actual library - this defaults to OpenBLAS, but it can also be MKL (from the defaults channel), or even [BLIS](https://github.com/flame/blis) or reference BLAS.
+- 在 conda-forge 通道中，NumPy 是用虚构的“BLAS”软件包构建的。 当用户从conda-forge安装NumPy时，BLAS 软件包就会与实际库一起安装 - 默认是OpenBLAS ，不过它也可以是 MKL (默认频道)，乃至是[BLIS](https://github.com/flame/blis) 或reference BLAS(Netlib的参考实现版本)。
 
 - MKL包比OpenBLAS大得多，它在磁盘上有大约700MB，而OpenBLAS 大约30MB。
 
