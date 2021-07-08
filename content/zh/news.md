@@ -63,9 +63,9 @@ _May 11, 2020_ -- NumPy has been accepted as one of the mentor organizations for
 
 ### NumPy 1.18.0 发布
 
-_Decc 22, 2019_ -- NumPy 1.18.0 现在可用了。 After the major changes in 1.17.0, this is a consolidation release. 这是最后一个支持 Python 3.5小版本。 Highlights of the release includes the addition of basic infrastructure for linking with 64-bit BLAS and LAPACK libraries, and a new C-API for `numpy.random`.
+_Decc 22, 2019_ -- NumPy 1.18.0 现在可用了。 After the major changes in 1.17.0, this is a consolidation release. 这是最后一个支持 Python 3.5小版本。 该版本的重要更新包括两个，添加了与64位 BLAS 和 LAPACK 库有关的底层更新， 添加 一个用于`numpy.random`的新C-API更新。
 
-Please see the [release notes](https://github.com/numpy/numpy/releases/tag/v1.18.0) for more details.
+详情请看 [版本说明](https://github.com/numpy/numpy/releases/tag/v1.18.0)。
 
 
 ### NumPy receives a grant from the Chan Zuckerberg Initiative
