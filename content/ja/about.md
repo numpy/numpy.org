@@ -48,7 +48,7 @@ NumPy プロジェクトは拡大しているため、いくつかのチーム�
 
 個々のチームメンバーについては、 [チーム](/gallery/team.html) のページを参照してください。
 
-## NumFOCUS Subcommittee
+## NumFOCUS分科会
 
 - Charles Harris
 - Ralf Gommers
