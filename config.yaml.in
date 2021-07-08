@@ -35,6 +35,7 @@ languages:
     weight: 2
     contentDir: content/pt
     < content/pt/config.yaml >
+    < content/en/tabcontents.yaml >
 
   # Japanese
   ja:
@@ -42,3 +43,4 @@ languages:
     weight: 3
     contentDir: content/ja
     < content/ja/config.yaml >
+    < content/en/tabcontents.yaml >
