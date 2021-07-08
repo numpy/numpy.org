@@ -11,29 +11,29 @@ _22, 2021_ -- 2020, NumPy调研小组与密歇根大学和马里兰大学的学�
 ### NumPy 1.20.0 发布
 
 _2021年1月30日_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) 正式发布。 这是 NumPy到目前为止最大的一次版本更新，感谢社区的180+贡献者。 最令人振奋的两个新特性是：
-- Type annotations for large parts of NumPy, and a new `numpy.typing` submodule containing `ArrayLike` and `DtypeLike` aliases that users and downstream libraries can use when adding type annotations in their own code.
-- Multi-platform SIMD compiler optimizations, with support for x86 (SSE, AVX), ARM64 (Neon), and PowerPC (VSX) instructions. This yielded significant performance improvements for many functions (examples: [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
+- Numpy的大部分代码都做了类型注解，添加了一个全新的包含 `ArrayLike` 和 `DtypeLike`别名系统的 `numpy.typing` 子模块，使得用户和下游依赖库可以在自己的代码中添加类型注解。
+- 新增多架构SIMD编译优化框架，同时支持X86(SSE、AVX)、ARM64(Neon) 和PowerPC(VSX) 指令集。 大大提高了许多函数的性能(例如： [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194))。
 
-### Diversity in the NumPy project
+### NumPy项目的多样性
 
-_Sep 20, 2020_ -- We wrote a [statement on the state of, and discussion on social media around, diversity and inclusion in the NumPy project](/diversity_sep2020).
-
-
-### First official NumPy paper published in Nature!
-
-_Sep 16, 2020_ -- We are pleased to announce the publication of [the first official paper on NumPy](https://www.nature.com/articles/s41586-020-2649-2) as a review article in Nature. This comes 14 years after the release of NumPy 1.0. The paper covers applications and fundamental concepts of array programming, the rich scientific Python ecosystem built on top of NumPy, and the recently added array protocols to facilitate interoperability with external array and tensor libraries like CuPy, Dask, and JAX.
+_2020年9月20日_ -- 我们就NumPy项目中的多样性和包容性的现状以及社交媒体相关的讨论写了一份[声明](/diversity_sep2020)
 
 
-### Python 3.9 is coming, when will NumPy release binary wheels?
+### 在Nature中发表的第一篇官方的NumPy论文！
 
-_Sept 14, 2020_ -- Python 3.9 will be released in a few weeks. If you are an early adopter of Python versions, you may be dissapointed to find that NumPy (and other binary packages like SciPy) will not have binary wheels ready on the day of the release. It is a major effort to adapt the build infrastructure to a new Python version and it typically takes a few weeks for the packages to appear on PyPI and conda-forge. In preparation for this event, please make sure to
-- update your `pip` to version 20.1 at least to support `manylinux2010` and `manylinux2014`
-- use [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) or `--only-binary=:all:` to prevent `pip` from trying to build from source.
+_2020年9月16日_ - 我们高兴地宣布 [Numpy的第一篇官方论文](https://www.nature.com/articles/s41586-020-2649-2)刊登在自然杂志的评论文章。 这距离NumPy 1.0发布已经过去了整整14年。 该论文涵盖数组编程的应用和基本概念，丰富的Python科学计算生态系统建立在NumPy之上，包括最近添加的数组标准协议，大大提高了与外部数组和张量库(如CuPy, Dask 和 JAX) 的互操作性 。
 
 
-### Numpy 1.19.2 release
+### Python 3.9 即将来临，新版本的NumPy 何时发布？
 
-_Sep 10, 2020_ -- [NumPy 1.19.2](https://numpy.org/devdocs/release/1.19.2-notes.html) is now available. This latest release in the 1.19 series fixes several bugs, prepares for the [upcoming Cython 3.x release](http://docs.cython.org/en/latest/src/changes.html) and pins setuptools to keep distutils working while upstream modifications are ongoing. The aarch64 wheels are built with the latest manylinux2014 release that fixes the problem of differing page sizes used by different linux distros.
+_2020年9月14日_ -- Python 3.9 将在几周后发布。 如果您是这个Python版本的忠实拥趸， 您可能会失望的发现NumPy(以及其他二进制软件包，如SciPy) 在Python新版发布后数天内不会有版本发布。 使构建基础设施兼容新的 Python 版本需要付出重大努力，通常需要几周时间才能让包出现在 PyPI 和 conda-forge 上。 为了准备这次重大事件得以顺利进行，请确保：
+- 将您的 `pip` 升级到 20.1 版本，至少要支持`manylinux2010` 和 `manylinux2014`
+- 使用 [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) 或 `--only-binary=:all:` 选项来防止 `pip` 从源码构建的尝试。
+
+
+### NumPy 1.19.2 发布
+
+_2020年9月10日_ -- [NumPy 19.2.0](https://numpy.org/devdocs/release/1.19.2-notes.html) 正式发布。 This latest release in the 1.19 series fixes several bugs, prepares for the [upcoming Cython 3.x release](http://docs.cython.org/en/latest/src/changes.html) and pins setuptools to keep distutils working while upstream modifications are ongoing. The aarch64 wheels are built with the latest manylinux2014 release that fixes the problem of differing page sizes used by different linux distros.
 
 ### The inaugural NumPy survey is live!
 
