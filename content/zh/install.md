@@ -63,7 +63,7 @@ pip install numpy
 #### Linux
 
 If you're fine with slightly outdated packages and prefer stability over being able to use the latest versions of libraries:
-- Use your OS package manager for as much as possible (Python itself, NumPy, and other libraries).
+- 尽可能使用您操作系统自带的包管理器进行管理(python本身、NumPy和其他库)。
 - Install packages not provided by your package manager with `pip install somepackage --user`.
 
 如果您使用GPU：
