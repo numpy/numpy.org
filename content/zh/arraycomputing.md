@@ -3,7 +3,7 @@ title: 数组计算
 sidebar: false
 ---
 
-*Array computing is the foundation of statistical, mathematical, scientific computing in various contemporary data science and analytics applications such as data visualization, digital signal processing, image processing, bioinformatics, machine learning, AI, and several others.*
+*数组计算是统计学、数学和当代数据科学及应用(如数据可视化、数字信号处理、图像处理、生物信息学、机器学习、AI等) 中的科学计算领域的基础。*
 
 大规模数据操作和转换取决于高效率高性能的数组计算。 数据分析、机器学习和数值计算首选的语言是 **Python**。
 
