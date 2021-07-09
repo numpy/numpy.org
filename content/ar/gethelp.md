@@ -9,9 +9,9 @@ sidebar: false
 
 
 
-### [موقع ستاك أوفرفلو](http://stackoverflow.com/questions/tagged/numpy)
+### [StackOverflow](http://stackoverflow.com/questions/tagged/numpy)
 
-A forum for asking usage questions, e.g. "How do I do X in NumPy?”. Please [use the `#numpy` tag](https://stackoverflow.com/help/tagging)
+A forum for asking usage questions, e.g. "How do I do X in NumPy?”. برجاء [استخدم `#numpy` tag](https://stackoverflow.com/help/tagging)
 
 ***
 
