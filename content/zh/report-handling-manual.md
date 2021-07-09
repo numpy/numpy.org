@@ -3,9 +3,9 @@ title: NumPy Code of Conduct - How to follow up on a report
 sidebar: false
 ---
 
-This is the manual followed by NumPy’s Code of Conduct Committee. It’s used when we respond to an issue to make sure we’re consistent and fair.
+这是NumPy行为准则委员会的指导手册。 它保证我们对问题做出一致且公正的回应。
 
-Enforcing the [Code of Conduct](/code-of-conduct) impacts our community today and for the future. It’s an action that we do not take lightly. When reviewing enforcement measures, the Code of Conduct Committee will keep the following values and guidelines in mind:
+[行为守则](/code-of-conduct) 的执行影响到我们的社区现在和未来。 我们很重视它。 在审查执行措施时，行为准则委员会将牢记以下价值观和准则：
 
 * Act in a personal manner rather than impersonal. The Committee can engage the parties to understand the situation while respecting the privacy and any necessary confidentiality of reporters. However, sometimes it is necessary to communicate with one or more individuals directly: the Committee’s goal is to improve the health of our community rather than only produce a formal decision.
 * Emphasize empathy for individuals rather than judging behavior, avoiding binary labels of “good” and “bad/evil”. Overt, clear-cut aggression and harassment exist, and we will address them firmly. But many scenarios that can prove challenging to resolve are those where normal disagreements devolve into unhelpful or harmful behavior from multiple parties. Understanding the full context and finding a path that re-engages all is hard, but ultimately the most productive for our community.
@@ -16,7 +16,7 @@ Enforcing the [Code of Conduct](/code-of-conduct) impacts our community today an
 * Individuals come from different cultural backgrounds and native languages. Try to identify any honest misunderstandings caused by a non-native speaker and help them understand the issue and what they can change to avoid causing offence. Complex discussion in a foreign language can be very intimidating, and we want to grow our diversity also across nationalities and cultures.
 
 
-## Mediation
+## 调解
 
 Voluntary informal mediation is a tool at our disposal. In contexts such as when two or more parties have all escalated to the point of inappropriate behavior (something sadly common in human conflict), it may be useful to facilitate a mediation process. This is only an example: the Committee can consider mediation in any case, mindful that the process is meant to be strictly voluntary and no party can be pressured to participate. If the Committee suggests mediation, it should:
 
