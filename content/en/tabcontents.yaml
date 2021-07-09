@@ -149,3 +149,41 @@ datascience:
 
   content:
   - text: For high data volumes, [Dask](https://dask.org) and[Ray](https://ray.io/) are designed to scale. Stabledeployments rely on data versioning ([DVC](https://dvc.org)),experiment tracking ([MLFlow](https://mlflow.org)), andworkflow automation ([Airflow](https://airflow.apache.org) and[Prefect](https://www.prefect.io)).
+
+visualization:
+  images:
+  - url: https://www.fusioncharts.com/blog/best-python-data-visualization-libraries
+    img: /images/content_images/v_matplotlib.png
+    alttext: A streamplot made in matplotlib
+  - url: https://github.com/yhat/ggpy
+    img: /images/content_images/v_ggpy.png
+    alttext: A scatter-plot graph made in ggpy
+  - url: https://www.journaldev.com/19692/python-plotly-tutorial
+    img: /images/content_images/v_plotly.png
+    alttext:  A box-plot made in plotly
+  - url: https://altair-viz.github.io/gallery/streamgraph.html
+    img: /images/content_images/v_altair.png
+    alttext:  A streamgraph made in altair
+  - url: https://seaborn.pydata.org
+    img: /images/content_images/v_seaborn.png
+    alttext:  A pairplot of two types of graph, a plot-graph and a frequency graph made in seaborn"
+  - url: https://docs.pyvista.org/examples/index.html
+    img: /images/content_images/v_pyvista.png
+    alttext:  A 3D volume rendering made in PyVista.
+  - url: https://napari.org
+    img: /images/content_images/v_napari.png
+    alttext:  A multi-dimensionan image made in napari.
+  - url: http://vispy.org/gallery.html
+    img: /images/content_images/v_vispy.png
+    alttext:  A Voronoi diagram made in vispy.
+  
+  content:
+  - text: NumPy is an essential component in the burgeoning 
+          [Python visualization landscape](https://pyviz.org/overviews/index.html), 
+          which includes [Matplotlib](https://matplotlib.org), 
+          [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), 
+          [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), 
+          [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), 
+          and [PyVista](https://github.com/pyvista/pyvista), to name a few.
+  - text: NumPy's accelerated processing of large arrays allows researchers to visualize
+          datasets far larger than native Python could handle.
