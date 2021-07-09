@@ -1,6 +1,6 @@
 ---
 title: NumPy 行为守则
-sidebar: 假
+sidebar: false
 aliases:
   - /conduct.html
 ---
