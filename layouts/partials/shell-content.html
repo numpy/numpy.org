@@ -1,14 +1,21 @@
+{{- $shellcontent := .Site.Params.shellcontent }}
+{{- $intro := index $shellcontent "intro" }}
+{{- $loading := index $shellcontent "loading" }}
+{{- $docslink := index $shellcontent "docslink" }}
 <div class="shell-intro shell-content">
-    <div class="shell-title">Try NumPy</div>
-    <div class="shell-content-message">Enable the interactive shell</div>
+    {{- range $intro }}
+    <div class="shell-title">{{ .title }}</div>
+    <div class="shell-content-message">{{ .text }}</div>
+    {{- end }}
 </div>
 
 <div class="shell-wait shell-content" style="display: none;">
-    <div class="shell-title">While we wait...</div>
+    {{- range $loading }}
+    <div class="shell-title">{{ .title }}</div>
     <div class="shell-content-message">
-        <p>Launching container on mybinder.org...</p>
-
-        <p>Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a></p>
+        <p>{{ .text }}</p>
+    {{- end }}
+        <p>{{ $docslink | markdownify }}</p>
     </div>
 </div>
 
