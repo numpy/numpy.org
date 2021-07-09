@@ -23,6 +23,13 @@ params:
 
   shell:
     title: placeholder
+
+    promptlabel: interactive shell prompt
+
+    button:
+    - label: Enables the interactive tutorial shell
+      text: Enable
+
   shellcontent:
     intro:
     - title: Try NumPy
