@@ -10,7 +10,7 @@ _22, 2021_ -- 2020, NumPy调研小组与密歇根大学和马里兰大学的学�
 
 ### NumPy 1.20.0 发布
 
-_2021年1月30日_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) 正式发布。 这是 NumPy到目前为止最大的一次版本更新，感谢社区的180+贡献者。 最令人振奋的两个新特性是：
+_2021年1月30日_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) 正式发布。 这是 NumPy到目前为止最大的一次版本更新，感谢社区的180+位贡献者。 最令人振奋的两个新特性是：
 - Numpy的大部分代码都做了类型注解，添加了一个全新的包含 `ArrayLike` 和 `DtypeLike`别名系统的 `numpy.typing` 子模块，使得用户和下游依赖库可以在自己的代码中添加类型注解。
 - 新增多架构SIMD编译优化框架，同时支持X86(SSE、AVX)、ARM64(Neon) 和PowerPC(VSX) 指令集。 大大提高了许多函数的性能(例如： [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194))。
 
