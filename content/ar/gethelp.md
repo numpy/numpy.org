@@ -11,24 +11,24 @@ sidebar: false
 
 ### [StackOverflow](http://stackoverflow.com/questions/tagged/numpy)
 
-A forum for asking usage questions, e.g. "How do I do X in NumPy?”. برجاء [استخدم `#numpy` tag](https://stackoverflow.com/help/tagging)
+منتدى لطرح أسئلة الاستخدام مثل" كيف أستطيع أن أفعل x في نمباي؟". برجاء [استخدم `#numpy` tag](https://stackoverflow.com/help/tagging)
 
 ***
 
 ### [Reddit](https://www.reddit.com/r/Numpy/)
 
-Another forum for usage questions.
+منتدى آخر لأسئلة الاستخدام.
 
 ***
 
 ### [Gitter](https://gitter.im/numpy/numpy)
 
-A real-time chat room where users and community members help each other.
+غرفة دردشة فورية حيث يساعد المستخدمون وأعضاء المجتمع بعضهم البعض.
 
 ***
 
 ### [IRC](https://webchat.freenode.net/?channels=%23numpy)
 
-Another real-time chat room where users and community members help each other.
+غرفة أخرى للدردشة فورية حيث يساعد المستخدمون وأعضاء المجتمع بعضهم البعض.
 
 ***
