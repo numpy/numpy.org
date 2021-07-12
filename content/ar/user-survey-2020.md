@@ -1,5 +1,5 @@
 ---
-title: 2020 NUMPY COMMUNITY SURVEY
+title: استطلاع مجتمع نمباي لعام 2020
 sidebar: false
 ---
 
