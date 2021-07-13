@@ -5,7 +5,7 @@ sidebar: false
 
 2020 年，NumPy 调查团队与密歇根大学和马里兰大学联合主办的调查方法学硕士课程的师生合作，进行了第一次官方 NumPy 社区调查。 来自 75 个国家/地区的 1,200 多名用户参与其中，帮助我们勾勒出一幅 NumPy 社区的全景图，并表达了他们对项目未来的看法。
 
-{{< figure src="/surveys/NumPy_usersurvey_2020_report_cover.png" class="fig-left" alt="Cover page of the 2020 NumPy user survey report, titled 'NumPy Community Survey 2020 - results'" width="250">}}
+{{< figure src="/surveys/NumPy_usersurvey_2020_report_cover.png" class="fig-left" alt="2020年Numpy用户调查报告的封面，标题是“NumPy Community Survey 2020 - results” width="250">}}
 
 **[下载报告](/surveys/NumPy_usersurvey_2020_report.pdf)** 以更仔细地查看调查结果。
 
