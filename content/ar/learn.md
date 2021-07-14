@@ -5,35 +5,35 @@ sidebar: false
 
 للحصول على وثائق مشروع نمباى الرسمية عليك بزيارة[numpy.org/doc/stable](https://numpy.org/doc/stable).
 
-## المحتوى التعليمى لنمباى
+## المحتوى التعليمي لنمباي
 
-يقدم مجتمع نمباى مجموعة من الدروس والمواد التعليمية فى [المحتوى التعليمى لنمباى](https://numpy.org/numpy-tutorials). الهدف من هذة الصفحة توفير موارد عالية الجودة عن طريق مشروع نمباى، سواء للتعلم الذاتى أو لتدريس الفصول الدراسية بتنسيق مذكرات جوبيتر(Jupyter Notebooks). لذا إن كنت مهتما بإضافة محتوياتك تحقق من هذا[numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
+يقدم مجتمع نمباي مجموعة من الدروس والمواد التعليمية في [المحتوى التعليمى لنمباى](https://numpy.org/numpy-tutorials). الهدف من هذة الصفحة توفير موارد عالية الجودة عن طريق مشروع نمباي، سواء للتعلم الذاتي أو لتدريس الفصول الدراسية بتنسيق مذكرات جوبيتر(Jupyter Notebooks). لذا إن كنت مهتمًا بإضافة محتوياتك تحقق من هذا[numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
 
 ***
 
-وفيما يلى مختارات من المصادر الخارجية، للمساهمة تفحص [ نهاية هذة الصفحة](#add-to-this-list).
+وفيما يلي مختارات من المصادر الخارجية. للمساهمة تفحص [ نهاية هذه الصفحة](#add-to-this-list).
 
 ## للمبتدئين
 
-يوجد الكثير من المعلومات حول مشروع نمباى هناك. لذا إن كنت جديدا هنا فنوصيك بهذا بشدة:
+يوجد الكثير من المعلومات حول مشروع نمباي هناك. لذا إن كنت جديدا هنا فنوصيك بهذا بشدة:
 
-<i class="fas fa-chalkboard"></i> **المحتوى التعليمى**
+<i class="fas fa-chalkboard"></i> **المحتوى التعليمي**
 
 * [دروس Quickstart](https://numpy.org/devdocs/user/quickstart.html)
-* [توضيح لنمباى: الدليل المرئى لمشروع نمباى *من قبل ليف ماكسيموف*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
-* [محاضرات SciPy](https://scipy-lectures.org/)، بجانب التغطية لمشروع نمباى تعرض هذة المحاضرات مقدمة أوسع لمنظومة لغة البايثون العلمية.
+* [توضيح لنمباي: الدليل المرئي لمشروع نمباي *من قبل ليف ماكسيموف*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
+* [محاضرات SciPy](https://scipy-lectures.org/)، بجانب التغطية لمشروع نمباي تعرض هذة المحاضرات مقدمة أوسع لمنظومة لغة البايثون العلمية.
 * [نمباى: الأساسيات الثابتة للمبتدئين](https://numpy.org/devdocs/user/absolute_beginners.html)
-* [بالإضافة إلى التعلم الآلى يوجدمقدمة للمصفوفة ndarray](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
-* [إدوريكا - تعلم مصفوفات نمباى بالأمثلة ](https://www.edureka.co/blog/python-numpy-tutorial/)
-* [منصةDataquest لعلوم البانات - البرنامج التعليمى لنمباى: تحليل البيانات باستخدام لغة البايثون](https://www.dataquest.io/blog/numpy-tutorial-python/)
-* [برنامج نمباى التعليمى *من قبل نيكولاس روجير*](https://github.com/rougier/numpy-tutorial)
+* [بالإضافة إلى التعلم الآلي يوجد مقدمة للمصفوفة ndarray](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
+* [إدوريكا - تعلم مصفوفات نمباي بالأمثلة ](https://www.edureka.co/blog/python-numpy-tutorial/)
+* [منصةDataquest لعلوم البيانات - البرنامج التعليمي لنمباي: تحليل البيانات باستخدام لغة البايثون](https://www.dataquest.io/blog/numpy-tutorial-python/)
+* [برنامج نمباي التعليمي *من قبل نيكولاس روجير*](https://github.com/rougier/numpy-tutorial)
 * [CS231 لجامعة ستانفورد*من قبل جاستين جونسون*](http://cs231n.github.io/python-numpy-tutorial/)
 * [دليل استخدام نمباي](https://numpy.org/devdocs)
 
 <i class="fas fa-book"></i> **الكتب**
 
-* [دليل نمباى *ل ترافيس أوليفانت *](http://web.mit.edu/dvp/Public/numpybook.pdf) وهذا هو الإصدار المجانى 1 من 2006. وللإطلاع على أحدث نسخة (2015)انظر هنا [](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007).
-* [لغة البايثون فى نمباى * ل نيكولاس روجير*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
+* [دليل نمباى *ل ترافيس أوليفانت *](http://web.mit.edu/dvp/Public/numpybook.pdf) وهذا هو الإصدار المجاني 1 من 2006. وللإطلاع على أحدث نسخة (2015)انظر هنا [](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007).
+* [لغة البايثون فى نمباي* ل نيكولاس روجير*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 * [محاضرات SciPy ممتازة](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877)*> لكلا من خوان نونيز إغليسياس وستيفان فان دير والت بالإضافة إلى هارييت داشنوف*
 
 يمكنك أيضا مراجعة [ قائمة القراءات الجيدة(Goodreads list) ](https://www.goodreads.com/shelf/show/python-scipy)حول موضوع "Python+SciPy". وتتحدث معظم الكتب فى هذة القائمة عن النظام البيئى لSciPy والذى يمثل نمباى جوهره.
