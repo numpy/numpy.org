@@ -10,7 +10,7 @@ _22 يونيو2021_ -قام فريق استطلاع نمباي في عام 2020 
 
 ### الإصدار 1.20.0 لنمباى
 
-_30يناير2021_ -- [إصدار1.20.0 لنمباى](https://numpy.org/doc/stable/release/1.20.0-notes.html) متاح الآن. وهذا هو أكبر اصدار لنمباى حتى الآن بفضل 180+ من المساهمين. والسمتان الجديدتان الأكثر إثارة للاهتمام هما:
+_30يناير2021_ -- [إصدار1.20.0 لنمباى](https://numpy.org/doc/stable/release/1.20.0-notes.html) متاح الآن. وهذا هو أكبر إصدار لنمباي حتى الآن بفضل 180+ من المساهمين. والسمتان الجديدتان الأكثر إثارة للاهتمام هما:
 - Type annotations for large parts of NumPy, and a new `numpy.typing` submodule containing `ArrayLike` and `DtypeLike` aliases that users and downstream libraries can use when adding type annotations in their own code.
 - Multi-platform SIMD compiler optimizations, with support for x86 (SSE, AVX), ARM64 (Neon), and PowerPC (VSX) instructions. This yielded significant performance improvements for many functions (examples: [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
 
