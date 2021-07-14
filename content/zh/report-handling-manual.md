@@ -9,24 +9,24 @@ sidebar: false
 
 * 人性化方式运作而非不近人情。 委员会会让各方了解情况，同时尊重举报者的隐私和任何必要的保密性。 然而，仍然存在着这种情况。 有时有必要与一个或多个人直接沟通：委员会的目标是改善我们社区的健康状况，而不仅仅是作出正式决定。
 * 强调对个人遭遇的同情，而不是一味批评行为，避免出现“好”和“坏/邪恶”的二元对立标签。 我们将坚定地处理公开、明显的挑衅和骚扰问题。 但许多可能被证明具有挑战性的情形是有些正常的分歧会转化为多方无助或有害的行为。 了解整个背景并找到一条使所有人都能重新参与进来的道路是困难的，但最终对我们社区最有成效。
-* 我们都知道，电子邮件是一个孤立的、沟通困难的媒介。 在没有个人联系方式的情况下收到匿名举报邮件，可能特别令人痛苦。 This makes it especially important to keep an atmosphere of open-minded respect for the views of others. It also means that we must be transparent in our actions, and that we will do everything in our power to make sure that all our members are treated fairly and with sympathy.
-* Discrimination can be subtle and it can be unconscious. It can show itself as unfairness and hostility in otherwise ordinary interactions. We know that this does occur, and we will take care to look out for it. We would very much like to hear from you if you feel you have been treated unfairly, and we will use these procedures to make sure that your complaint is heard and addressed.
-* Help increase engagement in good discussion practice: try to identify where discussion may have broken down, and provide actionable information, pointers, and resources that can lead to positive change on these points.
-* Be mindful of the needs of new members: provide them with explicit support and consideration, with the aim of increasing participation from underrepresented groups in particular.
-* Individuals come from different cultural backgrounds and native languages. Try to identify any honest misunderstandings caused by a non-native speaker and help them understand the issue and what they can change to avoid causing offence. Complex discussion in a foreign language can be very intimidating, and we want to grow our diversity also across nationalities and cultures.
+* 我们都知道，电子邮件是一个孤立的、沟通困难的媒介。 在没有个人联系方式的情况下收到匿名举报邮件，可能特别令人痛苦。 这使得保持一种尊重他人意见的开放气氛变得特别重要。 这还意味着我们的所有行为必须公开透明。 我们将竭尽全力确保我们所有成员得到公平和同情的待遇。
+* 歧视可能是微妙且不负责任的。 它在一定程度上表现出不公平和敌意的态度，而不是正常的互动。 我们知道这种情况确实发生了，我们将仔细寻找并应对这种情况。 如果你觉得受到了不公平的待遇，我们非常希望听到你们的声音， 我们将利用这些流程确保你的申诉得到关注和处理。
+* 帮助增加良性讨论的实践：想方设法识别出讨论可能已经产生歧义和偏斜的地方。 并提供可实施的信息、方向和资源，以便在这些方面产生积极的影响。
+* 重点关注新成员的需求：向他们提供明确的支持和关心， 目的是增加代表人数不足的群体的参与度。
+* 每个人都拥有不同的文化背景和语言习惯。 尽可能识别对非英文为母语的参与者造成的任何不必要的误解，并帮助他们了解这一问题以及作出哪些改变以避免造成冒犯。 用一门外语进行复杂的讨论可能非常具有威胁性，我们希望在不同民族和不同文化之间扩大我们的多样性。
 
 
 ## 调解
 
-Voluntary informal mediation is a tool at our disposal. In contexts such as when two or more parties have all escalated to the point of inappropriate behavior (something sadly common in human conflict), it may be useful to facilitate a mediation process. This is only an example: the Committee can consider mediation in any case, mindful that the process is meant to be strictly voluntary and no party can be pressured to participate. If the Committee suggests mediation, it should:
+自愿非正式调解是一种好的调解方式。 在两个或多个当事方都已升级到不适当行为程度的情况下(可悲的是在人类冲突中很常见)， 促进调解进程可能是有益的。 这只是一个例子：委员会在任何情况下都可以考虑调解。 考虑到这一进程完全是自愿的，任何一方都不能被迫参与。 如果委员会建议进行调解，它应当：
 
-* Find a candidate who can serve as a mediator.
-* Obtain the agreement of the reporter(s). The reporter(s) have complete freedom to decline the mediation idea or to propose an alternate mediator.
-* Obtain the agreement of the reported person(s).
-* Settle on the mediator: while parties can propose a different mediator than the suggested candidate, only if a common agreement is reached on all terms can the process move forward.
-* Establish a timeline for mediation to complete, ideally within two weeks.
+* 找到一个可以担任调解员的候选人。
+* 取得举报者的同意。 举报者完全可以自由地拒绝调解或提出一名候补调解人。
+* 取得被举报人的同意。
+* 调解人的问题：各方可以提出不同于推荐候选人的调解人， 只有就所有条件达成共同协议，该进程才能向前推进。
+* 最好在两周内确定完成调解的时间计划表。
 
-The mediator will engage with all the parties and seek a resolution that is satisfactory to all. Upon completion, the mediator will provide a report (vetted by all parties to the process) to the Committee, with recommendations on further steps. The Committee will then evaluate these results (whether a satisfactory resolution was achieved or not) and decide on any additional action deemed necessary.
+调解人将与所有参与方接触，寻求各方都满意的解决办法。 Upon completion, the mediator will provide a report (vetted by all parties to the process) to the Committee, with recommendations on further steps. The Committee will then evaluate these results (whether a satisfactory resolution was achieved or not) and decide on any additional action deemed necessary.
 
 
 ## How the Committee will respond to reports
