@@ -3,7 +3,7 @@ title: الحصول على مساعدة
 sidebar: false
 ---
 
-**أسئلة المستخدم**: إن أفضل طريقة للحصول على المساعدة هي أن تقوم بنشر سؤالك على الموقع مثل [ ](http://stackoverflow.com/questions/tagged/numpy)حيث يوجد آلاف المستخدمين المتاحين للإجابة على أسئلتك.  وتحتوي البدائل الأصغر على [IRC](https://webchat.freenode.net/?channels=%23numpy), [Gitter](https://gitter.im/numpy/numpy), and [Reddit](https://www.reddit.com/r/Numpy/). We wish we could keep an eye on these sites, or answer questions directly, but the volume is just a little overwhelming!
+**أسئلة المستخدم**: إن أفضل طريقة للحصول على المساعدة هي أن تقوم بنشر سؤالك على الموقع مثل [ ](http://stackoverflow.com/questions/tagged/numpy)حيث يوجد آلاف المستخدمين المتاحين للإجابة على أسئلتك.  وتحتوي البدائل الأصغر على [IRC](https://webchat.freenode.net/?channels=%23numpy), [Gitter](https://gitter.im/numpy/numpy), and [Reddit](https://www.reddit.com/r/Numpy/). ونتمنى أن نستطيع مراقبة الموقع أو الإجابة على الأسئلة مباشرة ولكن المجلد كبير نوعًا ما!
 
 **مشاكل التطوير:**للاطلاع على المشاكل المتعلقة بتطوير نمباي(مثل تقارير الأخطاء) برجاء انظر هنا[Community](/community).
 
