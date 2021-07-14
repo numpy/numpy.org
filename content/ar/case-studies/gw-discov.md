@@ -1,5 +1,5 @@
 ---
-title: "Case Study: Discovery of Gravitational Waves"
+title: "دراسة حالة: اكتشاف الأمواج الثقالية"
 sidebar: false
 ---
 
