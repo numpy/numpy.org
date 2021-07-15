@@ -26,10 +26,10 @@ sidebar: false
 * 调解人的问题：各方可以提出不同于推荐候选人的调解人， 只有就所有条件达成共同协议，该进程才能向前推进。
 * 最好在两周内确定完成调解的时间计划表。
 
-调解人将与所有参与方接触，寻求各方都满意的解决办法。 Upon completion, the mediator will provide a report (vetted by all parties to the process) to the Committee, with recommendations on further steps. The Committee will then evaluate these results (whether a satisfactory resolution was achieved or not) and decide on any additional action deemed necessary.
+调解人将与所有参与方接触，寻求各方都满意的解决办法。 在调解完成后，调解方将向委员会提交一份书面报告(经调解过程中所有各方审查通过)，并就今后的实施细则提出建议。 然后委员会将评估调解结果(无论是否达成了令人满意的解决方案)，并对必要的额外的调解动作作出决定。
 
 
-## How the Committee will respond to reports
+## 委员会将如何对举报作出回应
 
 When the Committee (or a Committee member) receives a report, they will first determine whether the report is about a clear and severe breach (as defined below). If so, immediate action needs to be taken in addition to the regular report handling process.
 
