@@ -31,10 +31,10 @@ sidebar: false
 
 ## 委员会将如何对举报作出回应
 
-When the Committee (or a Committee member) receives a report, they will first determine whether the report is about a clear and severe breach (as defined below). If so, immediate action needs to be taken in addition to the regular report handling process.
+当委员会(或委员会成员) 收到举报时， 他们将首先要确定该报告是否涉及明显和严重的违约行为（定义见下文）。 如果确认属实，需要立即采取行动并启动常规的举报调解流程。
 
 
-## Clear and severe breach actions
+## 明确和严重的违约行为
 
 We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We will deal quickly with clear and severe breaches like personal threats, violent, sexist or racist language.
 
