@@ -36,13 +36,13 @@ sidebar: false
 
 ## 明确和严重的违约行为
 
-We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We will deal quickly with clear and severe breaches like personal threats, violent, sexist or racist language.
+我们知道，互联网通信平台从诞生开始就演变为非常普遍的辱骂恶意中伤的场所。 我们将迅速处理明显和严重的侵权行为，如人身威胁、暴力、性别歧视或种族主义语言。
 
-When a member of the Code of Conduct Committee becomes aware of a clear and severe breach, they will do the following:
+如果行为守则委员会的一名成员发现明显和严重的违反行为，他们将采取下列行动：
 
-* Immediately disconnect the originator from all NumPy communication channels.
-* Reply to the reporter that their report has been received and that the originator has been disconnected.
-* In every case, the moderator should make a reasonable effort to contact the originator, and tell them specifically how their language or actions qualify as a “clear and severe breach”. The moderator should also say that, if the originator believes this is unfair or they want to be reconnected to NumPy, they have the right to ask for a review, as below, by the Code of Conduct Committee. The moderator should copy this explanation to the Code of Conduct Committee.
+* 立即断开始作俑者与所有NumPy 通信频道的连接。
+* 告知举报者，他们的报告已经收到，被举报人已经断开和Numpy的联系。
+* 在每种情况下，调解人都应作出努力与被举报人联系。 并明确的告诉他们，他们的语言或行动是如何构成“明显和严重的违反行为”的。 调解人还应指出，如果被举报人认为这是不公平的，或者他们想要重新和NumPy取得联系, 他们有权要求行为守则委员会进行下面描述的审查。 The moderator should copy this explanation to the Code of Conduct Committee.
 * The Code of Conduct Committee will formally review and sign off on all cases where this mechanism has been applied to make sure it is not being used to control ordinary heated disagreement.
 
 
