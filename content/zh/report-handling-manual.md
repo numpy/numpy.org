@@ -46,31 +46,31 @@ sidebar: false
 * 行为守则委员会将正式审查和签署所有适用这一行为的案件，以确保其不被用来进行普通程度争执的仲裁。
 
 
-## Report handling
+## 举报处理
 
-When a report is sent to the Committee they will immediately reply to the reporter to confirm receipt. This reply must be sent within 72 hours, and the group should strive to respond much quicker than that.
+当报告送交委员会时，他们将立即答复报告人以确认收到。 这种答复必须在72小时内完成，委员会会尽最大努力比这更快一些。
 
-If a report doesn’t contain enough information, the Committee will obtain all relevant data before acting. The Committee is empowered to act on the Steering Council’s behalf in contacting any individuals involved to get a more complete account of events.
+如果报告没有提供足够多的资料，委员会将在采取行动之前获得所有相关数据。 委员有权代表指导委员会与任何相关个体联系，以更完整地了解事件的来龙去脉。
 
-The Committee will then review the incident and determine, to the best of their ability:
+委员会随后将审查这一事件，并尽力确定如下事项：
 
-* What happened.
-* Whether this event constitutes a Code of Conduct violation.
-* Who are the responsible party(ies).
-* Whether this is an ongoing situation, and there is a threat to anyone’s physical safety.
+* 发生了什么。
+* 这一事件是否违反《行为守则》。
+* 谁是责任方。
+* 这种情况是否正在发生，而且对个人的人身安全产生了威胁。
 
-This information will be collected in writing, and whenever possible the group’s deliberations will be recorded and retained (i.e. chat transcripts, email discussions, recorded conference calls, summaries of voice conversations, etc).
+这种信息将以书面形式收集，只要有可能，委员会的任何相关动作都将记录并保存(比如聊天记录、电子邮件讨论、会议录音、语音对话总结等)。
 
-It is important to retain an archive of all activities of this Committee to ensure consistency in behavior and provide institutional memory for the project. To assist in this, the default channel of discussion for this Committee will be a private mailing list accessible to current and future members of the Committee as well as members of the Steering Council upon justified request. If the Committee finds the need to use off-list communications (e.g. phone calls for early/rapid response), it should in all cases summarize these back to the list so there’s a good record of the process.
+必须保留委员会所有活动的档案，以确保行为上的一致性，并为项目提供机构记忆。 为了协助这方面的工作， 本委员会的默认沟通渠道将是一份私人邮件列表，供委员会现有和未来成员以及指导委员会成员在提出正当要求时查阅。 如果委员会认为有必要使用列表外的沟通方式(例如： 早期/快速响应的电话呼叫)，在所有情况下都应该及时将沟通方式收敛到列表中，以便有一个良好的过程记录。
 
-The Code of Conduct Committee should aim to have a resolution agreed upon within two weeks. In the event that a resolution can’t be determined in that time, the Committee will respond to the reporter(s) with an update and projected timeline for resolution.
+行为守则委员会应争取在两周内商定一项决议。 如果在那个时候无法确定某项决议， 委员会将向报告者提供最新情况和预计的决议时间表。
 
 
-## Resolutions
+## 解决方案
 
-The Committee must agree on a resolution by consensus. If the group cannot reach consensus and deadlocks for over a week, the group will turn the matter over to the Steering Council for resolution.
+委员会必须以协商一致方式商定一项决议。 如果该小组在一个多星期内无法达成共识和陷入僵局，该小组将把问题提交给指导委员会解决。
 
-Possible responses may include:
+可能的原因包括：
 
 * Taking no further action:
   -   if we determine no violations have occurred;
