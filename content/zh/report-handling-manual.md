@@ -42,8 +42,8 @@ sidebar: false
 
 * 立即断开始作俑者与所有NumPy 通信频道的连接。
 * 告知举报者，他们的报告已经收到，被举报人已经断开和Numpy的联系。
-* 在每种情况下，调解人都应作出努力与被举报人联系。 并明确的告诉他们，他们的语言或行动是如何构成“明显和严重的违反行为”的。 调解人还应指出，如果被举报人认为这是不公平的，或者他们想要重新和NumPy取得联系, 他们有权要求行为守则委员会进行下面描述的审查。 The moderator should copy this explanation to the Code of Conduct Committee.
-* The Code of Conduct Committee will formally review and sign off on all cases where this mechanism has been applied to make sure it is not being used to control ordinary heated disagreement.
+* 在每种情况下，调解人都应作出努力与被举报人联系。 并明确的告诉他们，他们的语言或行动是如何构成“明显和严重的违反行为”的。 调解人还应指出，如果被举报人认为这是不公平的，或者他们想要重新和NumPy取得联系, 他们有权要求行为守则委员会进行下面描述的审查。 调解人应将这一审查结果报送给行为守则委员会。
+* 行为守则委员会将正式审查和签署所有适用这一行为的案件，以确保其不被用来进行普通程度争执的仲裁。
 
 
 ## Report handling
