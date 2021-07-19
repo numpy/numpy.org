@@ -74,22 +74,22 @@ sidebar: false
 
 * 不采取进一步行动：
   -   如果确定没有发生侵犯行为；
-  -   if the matter has been resolved publicly while the Committee was considering responses.
-* Coordinating voluntary mediation: if all involved parties agree, the Committee may facilitate a mediation process as detailed above.
-* Remind publicly, and point out that some behavior/actions/language have been judged inappropriate and why in the current context, or can but hurtful to some people, requesting the community to self-adjust.
-* A private reprimand from the Committee to the individual(s) involved. In this case, the group chair will deliver that reprimand to the individual(s) over email, cc’ing the group.
-* A public reprimand. In this case, the Committee chair will deliver that reprimand in the same venue that the violation occurred, within the limits of practicality. E.g., the original mailing list for an email violation, but for a chat room discussion where the person/context may be gone, they can be reached by other means. The group may choose to publish this message elsewhere for documentation purposes.
-* A request for a public or private apology, assuming the reporter agrees to this idea: they may at their discretion refuse further contact with the violator. The chair will deliver this request. The Committee may, if it chooses, attach “strings” to this request: for example, the group may ask a violator to apologize in order to retain one’s membership on a mailing list.
-* A “mutually agreed upon hiatus” where the Committee asks the individual to temporarily refrain from community participation. If the individual chooses not to take a temporary break voluntarily, the Committee may issue a “mandatory cooling off period”.
-* A permanent or temporary ban from some or all NumPy spaces (mailing lists, gitter.im, etc.). The group will maintain records of all such bans so that they may be reviewed in the future or otherwise maintained.
+  -   如果问题在委员会审议答复时已经公开解决了。
+* 协商自愿调解：如果所有有关各方同意，委员会可促进上面详述的调解进程。
+* 公开提醒并指出某些行为/行动/语言被认为是不恰当的，在目前情况下发生的合理性说明， 或者只能伤害特定人群，要求社区进行自我调整。
+* 委员会对有关个体进行私下训诫。 在这种情况下，小组主席将通过电子邮件向个人发出谴责，并抄送小组成员。
+* 公开谴责。 在这种情况下，委员会主席将在实际可行的限度内在同一地点对侵权行为进行申斥。 例如，在原始邮件列表中进行邮件控诉， 有可能被控诉对象未参与到聊天室的讨论中，虽然可以通过其他方式联系到。 该群组可以选择在别处发布控诉消息作为文档备份。
+* 要求公开或私下道歉， 假定举报者同意这一想法：他们可酌情拒绝与侵权者进一步接触。 委员会主席将传递这一请求。 委员会可按其意愿对这项要求附加“严格”条件：该群组可能要求侵权者道歉，以便在邮件列表中保留一个会员资格。
+* 委员会要求个人暂时停止社区参与的“相互商定的间歇”。 如果个人选择不自愿暂停，委员会可发布“强制性冷却期”。
+* 永远或暂时禁止参与NumPy （如邮件列表、gitter.im等等）。 工作组将保存所有这类禁令的记录，以便今后对其进行审查或备案。
 
-Once a resolution is agreed upon, but before it is enacted, the Committee will contact the original reporter and any other affected parties and explain the proposed resolution. The Committee will ask if this resolution is acceptable, and must note feedback for the record.
+一旦商定了一项决议，在该决议颁布之前， 委员会将与原报告人和任何其他受影响的各方进行联系，并解释拟议的决议。 委员会将询问这项决议是否可以接受，并且必须将反馈意见记录在案。
 
-Finally, the Committee will make a report to the NumPy Steering Council (as well as the NumPy core team in the event of an ongoing resolution, such as a ban).
+最后，委员会将向NumPy指导委员会进行汇报（也将向NumPy核心小组以诸如禁令的例行事件形式汇报）。
 
-The Committee will never publicly discuss the issue; all public statements will be made by the chair of the Code of Conduct Committee or the NumPy Steering Council.
+委员会绝不公开讨论这个问题。 所有公开声明将由行为守则委员会主席或NumPy指导委员会作出。
 
 
-## Conflicts of Interest
+## 利益冲突
 
-In the event of any conflict of interest, a Committee member must immediately notify the other members, and recuse themselves if necessary.
+如果出现利益冲突，委员会成员必须立即通知其他成员，必要时需要回避。
