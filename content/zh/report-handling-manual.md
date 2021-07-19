@@ -70,10 +70,10 @@ sidebar: false
 
 委员会必须以协商一致方式商定一项决议。 如果该小组在一个多星期内无法达成共识和陷入僵局，该小组将把问题提交给指导委员会解决。
 
-可能的原因包括：
+可能的应对措施包括：
 
-* Taking no further action:
-  -   if we determine no violations have occurred;
+* 不采取进一步行动：
+  -   如果确定没有发生侵犯行为；
   -   if the matter has been resolved publicly while the Committee was considering responses.
 * Coordinating voluntary mediation: if all involved parties agree, the Committee may facilitate a mediation process as detailed above.
 * Remind publicly, and point out that some behavior/actions/language have been judged inappropriate and why in the current context, or can but hurtful to some people, requesting the community to self-adjust.
