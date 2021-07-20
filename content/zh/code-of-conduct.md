@@ -21,23 +21,23 @@ aliases:
 2. 充满热情、欢迎、友善和耐心。 我们怀着美好的意愿共同努力解决冲突。 我们都可能时不时遭受某种挫折，但我们不允许把沮丧变成个人攻击的工具。 一个让人感到不舒服或受到威胁的社区并不是一个富有成效的社区。
 3. 保持合作。 我们的工作成果将被其他人使用，反过来，我们依靠其他人的工作来进行改进。 当我们在项目中添加一些有用的功能时，我们愿意向其他人解释它是如何运作的。 这样他们就能够在这些功能的基础上进一步改善工作效率。 我们作出的任何决定都将影响到用户和开发者，因此在作出决定时必须认真考虑后果。
 4. 勤于向人请教。 没人知道所有事！ 提早提问可以避免很多麻烦的发生，所以我们鼓励提问，尽管我们可能把它们引向更合适的论坛中。 我们将努力做出反应并提供帮助。
-5. Be careful in the words that we choose. We are careful and respectful in our communication, and we take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. We will not accept harassment or other exclusionary behaviour, such as:
-    * Violent threats or language directed against another person.
-    * Sexist, racist, or otherwise discriminatory jokes and language.
-    * Posting sexually explicit or violent material.
-    * Posting (or threatening to post) other people’s personally identifying information (“doxing”).
-    * Sharing private content, such as emails sent privately or non-publicly, or unlogged forums such as IRC channel history, without the sender’s consent.
-    * Personal insults, especially those using racist or sexist terms.
-    * Unwelcome sexual attention.
-    * Excessive profanity. Please avoid swearwords; people differ greatly in their sensitivity to swearing.
-    * Repeated harassment of others. In general, if someone asks you to stop, then stop.
-    * Advocating for, or encouraging, any of the above behaviour.
+5. 谨慎用词 我们在沟通过程中保持谨慎和尊重，我们对自己的发言负有全部责任。 善待他人。 不要侮辱或贬低其他参与者。 我们不接受骚扰或其他排斥行为，例如：
+    * 针对他人的暴力威胁或语言。
+    * 性别、种族主义或其他歧视性笑话和语言。
+    * 露骨或粗暴的素材;
+    * 发布（或威胁发布）他人个人身份信息（“敲诈”）。
+    * 未经发件人同意分享私人内容，例如私下发送电子邮件、或发送至非公开/未登录论坛，如IRC 频道。
+    * 个人侮辱，尤其是使用种族主义或性别歧视术语的侮辱。
+    * 不受欢迎的性关注。
+    * 过于夸张。 请避免使用骂人的话；人们对咒骂的敏感度差异很大。
+    * 对他人的反复骚扰。 一般来说，如果有人要求你停止，你就要停止了。
+    * 鼓吹或鼓励上述任何行为。
 
-### Diversity Statement
+### 多样性声明
 
-The NumPy project welcomes and encourages participation by everyone. We are committed to being a community that everyone enjoys being part of. Although we may not always be able to accommodate each individual’s preferences, we try our best to treat everyone kindly.
+NumPy项目欢迎并鼓励每个人参与。 我们致力于成为一个人人都参与的共同体。 虽然我们可能并不总是能够照顾到每个人的喜好，但我们尽力善待每一个人。
 
-No matter how you identify yourself or how others perceive you: we welcome you. Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct.
+无论你如何看待自己，也无论其他人如何看待你：我们欢迎你的参与。 Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct.
 
 Though we welcome people fluent in all languages, NumPy development is conducted in English.
 
