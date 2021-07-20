@@ -17,10 +17,10 @@ aliases:
 
 要努力去：
 
-1. 敞开心扉。 我们邀请任何人参加本社区。 我们更喜欢公开交流与项目有关的信息，除非讨论某些敏感问题时。 This applies to messages for help or project-related support, too; not only is a public support request much more likely to result in an answer to a question, it also ensures that any inadvertent mistakes in answering are more easily detected and corrected.
-2. Be empathetic, welcoming, friendly, and patient. We work together to resolve conflict, and assume good intentions. We may all experience some frustration from time to time, but we do not allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.
-3. Be collaborative. Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of the project, we are willing to explain to others how it works, so that they can build on the work to make it even better. Any decision we make will affect users and colleagues, and we take those consequences seriously when making decisions.
-4. Be inquisitive. Nobody knows everything! Asking questions early avoids many problems later, so we encourage questions, although we may direct them to the appropriate forum. We will try hard to be responsive and helpful.
+1. 敞开心扉。 我们邀请任何人参加本社区。 我们更喜欢公开交流与项目有关的信息，除非讨论某些敏感问题时。 这也适用于帮助或项目支持的信息； 向公众寻求支持帮助不仅更有可能得到对某个问题的答复， 它还能确保更容易发现和纠正任何无意中的错误。
+2. 充满热情、欢迎、友善和耐心。 我们怀着美好的意愿共同努力解决冲突。 我们都可能时不时遭受某种挫折，但我们不允许把沮丧变成个人攻击的工具。 一个让人感到不舒服或受到威胁的社区并不是一个富有成效的社区。
+3. 保持合作。 我们的工作成果将被其他人使用，反过来，我们依靠其他人的工作来进行改进。 当我们在项目中添加一些有用的功能时，我们愿意向其他人解释它是如何运作的。 这样他们就能够在这些功能的基础上进一步改善工作效率。 我们作出的任何决定都将影响到用户和开发者，因此在作出决定时必须认真考虑后果。
+4. 勤于向人请教。 没人知道所有事！ 提早提问可以避免很多麻烦的发生，所以我们鼓励提问，尽管我们可能把它们引向更合适的论坛中。 我们将努力做出反应并提供帮助。
 5. Be careful in the words that we choose. We are careful and respectful in our communication, and we take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. We will not accept harassment or other exclusionary behaviour, such as:
     * Violent threats or language directed against another person.
     * Sexist, racist, or otherwise discriminatory jokes and language.
