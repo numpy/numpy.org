@@ -37,17 +37,17 @@ aliases:
 
 NumPy项目欢迎并鼓励每个人参与。 我们致力于成为一个人人都参与的共同体。 虽然我们可能并不总是能够照顾到每个人的喜好，但我们尽力善待每一个人。
 
-无论你如何看待自己，也无论其他人如何看待你：我们欢迎你的参与。 Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct.
+无论你如何看待自己，也无论其他人如何看待你：我们欢迎你的参与。 虽然社区文化不可能做到包罗万象，但我们明确尊重在年龄、文化、族裔、基因、性别认同或表达、语言、民族血统、神经型、表型、政治信仰、职业、种族、宗教、性取向、社会经济地位、亚文化和技术水平等方面的多样性，在不违反本行为守则的情况下，任何人都可以参与到社区中。
 
-Though we welcome people fluent in all languages, NumPy development is conducted in English.
+虽然我们欢迎精通多语种的人群，但NumPy的开发是用英语进行的。
 
-Standards for behaviour in the NumPy community are detailed in the Code of Conduct above. Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
+上面的《行为守则》详细介绍了NumPy社区的行为标准。 我们社区的参与者应在其所有互动过程中遵守这些标准，并帮助其他参与者也这样做（见下一节）。
 
-### Reporting Guidelines
+### 举报指南
 
-We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We also recognize that sometimes people may have a bad day, or be unaware of some of the guidelines in this Code of Conduct. Please keep this in mind when deciding on how to respond to a breach of this Code.
+我们知道，互联网通信平台从诞生开始就演变为非常普遍的辱骂恶意中伤的场所。 我们还认识到，有时人们可能会有不愉快的时候，或不知道本行为守则中的一些准则。 在决定如何应对违反本守则的行为时，请铭记这一点。
 
-For clearly intentional breaches, report those to the Code of Conduct Committee (see below). For possibly unintentional breaches, you may reply to the person and point out this code of conduct (either in public or in private, whatever is most appropriate). If you would prefer not to do that, please feel free to report to the Code of Conduct Committee directly, or ask the Committee for advice, in confidence.
+关于明显故意违反行为，向行为守则委员会报告（见下文）。 For possibly unintentional breaches, you may reply to the person and point out this code of conduct (either in public or in private, whatever is most appropriate). If you would prefer not to do that, please feel free to report to the Code of Conduct Committee directly, or ask the Committee for advice, in confidence.
 
 You can report issues to the NumPy Code of Conduct Committee at numpy-conduct@googlegroups.com.
 
