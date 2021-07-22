@@ -23,6 +23,24 @@ params:
 
   shell:
     title: placeholder
+
+    promptlabel: interactive shell prompt
+
+    button:
+    - label: Enables the interactive tutorial shell
+      text: Enable
+
+  shellcontent:
+    intro:
+    - title: Try NumPy
+      text: Enable the interactive shell
+
+    loading:
+    - title: While we wait...
+      text: Launching container on mybinder.org...
+    
+    docslink: Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a>.
+
   casestudies:
     title: CASE STUDIES
     features:
