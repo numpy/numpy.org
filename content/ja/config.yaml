@@ -23,21 +23,21 @@ params:
     url: /news
   shell:
     title: placeholder
-    promptlabel: interactive shell prompt
+    promptlabel: 対話的なシェルプロンプト
     button:
       - 
-        label: Enables the interactive tutorial shell
-        text: Enable
+        label: 対話的なチュートリアルシェルを有効にします。
+        text: 有効化
   shellcontent:
     intro:
       - 
-        title: Try NumPy
-        text: Enable the interactive shell
+        title: NumPy を試す。
+        text: 対話的なチュートリアルシェルを有効にします。
     loading:
       - 
-        title: While we wait...
-        text: Launching container on mybinder.org...
-    docslink: Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a>.
+        title: しばらくお待ちください...
+        text: mybinder.orgでコンテナを起動しています...
+    docslink: <a href="https://numpy.org/doc/stable" target="_blank">ドキュメント</a> を確認することを忘れないでください。
   casestudies:
     title: CASE STUDIES
     features:
