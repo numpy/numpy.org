@@ -23,7 +23,7 @@ Estes são os nossos canais de comunicação preferidos (projetos de código abe
 
 Nós também temos uma _reunião aberta da comunidade_ a cada duas semanas. Os detalhes são anunciados na nossa [lista de emails](https://mail.python.org/mailman/listinfo/numpy-discussion). Convidamos você a participar desta chamada se quiser. Se você nunca contribuiu para projetos de código aberto, recomendamos fortemente que você leita [esse guia](https://opensource.guide/how-to-contribute/).
 
-Nossa comunidade deseja tratar todos da mesma forma e valorizar todas as contribuições. Temos um [Código de Conduta](/code-of-conduct) para promover um ambiente aberto e acolhedor.
+Nossa comunidade deseja tratar todos da mesma forma e valorizar todas as contribuições. Temos um [Código de Conduta](/pt/code-of-conduct) para promover um ambiente aberto e acolhedor.
 
 ### Escrevendo código
 
