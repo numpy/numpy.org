@@ -2,6 +2,22 @@
 title: News
 sidebar: false
 ---
+### Numpy 1.21.0 release
+
+_Jun 23, 2021_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html)
+is now available. The highlights of the release are:
+
+- continued SIMD work covering more functions and platforms,
+- initial work on the new dtype infrastructure and casting,
+- universal2 wheels for Python 3.8 and Python 3.9 on Mac,
+- improved documentation,
+- improved annotations,
+- new ``PCG64DXSM`` bitgenerator for random numbers.
+
+This NumPy release is the result of 581 merged pull requests contributed by 175 people. 
+The Python versions supported for this release are 3.7-3.9, support for Python 3.10 will be added after Python 3.10 is released.
+
+
 ### 2020 NumPy survey results
 
 _Jun 22, 2021_ -- In 2020, the NumPy survey team in partnership with students and faculty from the University of Michigan and the University of Maryland conducted the first official NumPy community survey. Find the survey results here: https://numpy.org/user-survey-2020/.
