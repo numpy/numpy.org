@@ -29,11 +29,11 @@ Membros Eméritos:
 - Travis Oliphant (fundador do projeto, 2005-2012)
 - Alex Griffing (2015-2017)
 - Marten van Kerkwijk (2017-2019)
-- Allan Haldane (2015-2021)
-- Nathaniel Smith (2012-2021)
-- Julian Taylor (2013-2021)
-- Pauli Virtanen (2008-2021)
-- Jaime Fernández del Río (2014-2021)
+- Allan Haldane
+- Nathaniel Smith
+- Julian Taylor
+- Pauli Virtanen
+- Jaime Fernández del Río
 
 
 ## Times
@@ -48,7 +48,7 @@ O projeto NumPy está crescendo; temos equipes para
 
 Veja a página de [Times](/gallery/team.html) para membros individuais de cada time.
 
-## Subcomitê NumFOCUS
+## Patrocinadores
 
 - Charles Harris
 - Ralf Gommers
@@ -56,13 +56,13 @@ Veja a página de [Times](/gallery/team.html) para membros individuais de cada t
 - Sebastian Berg
 - Membro externo: Thomas Caswell
 
-## Patrocinadores
+## Parceiros Institucionais
 
 O NumPy recebe financiamento direto das seguintes fontes:
 {{< sponsors >}}
 
 
-## Parceiros Institucionais
+## Doações
 
 Os Parceiros Institucionais são organizações que apoiam o projeto, empregando pessoas que contribuem para a NumPy como parte de seu trabalho. Os parceiros institucionais atuais incluem:
 
