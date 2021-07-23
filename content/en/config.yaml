@@ -17,8 +17,8 @@ params:
     image: logos/numpy.svg
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
-    title: 2020 NumPy survey  
-    content: results are in
+    title: 2021 NumPy survey
+    content: Your voice matters
     url: /news
 
   shell:

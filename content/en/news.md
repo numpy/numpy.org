@@ -2,6 +2,15 @@
 title: News
 sidebar: false
 ---
+### 2021 NumPy survey
+
+_July 12, 2021_ -- At NumPy, we believe in the power of our community. 1,236 NumPy users from 75 countries participated in our inaugural survey last year. The survey findings gave us a very good understanding of what we should focus on for the next 12 months.
+
+It’s time for another survey, and we are counting on you once again. It will take about 15 minutes of your time. Besides English, the survey questionnaire is available in 8 additional languages: Bangla, French, Hindi, Japanese, Mandarin, Portuguese, Russian, and Spanish.
+
+Follow the link to get started: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSl4q.
+
+
 ### Numpy 1.21.0 release
 
 _Jun 23, 2021_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html)
@@ -14,7 +23,7 @@ is now available. The highlights of the release are:
 - improved annotations,
 - new ``PCG64DXSM`` bitgenerator for random numbers.
 
-This NumPy release is the result of 581 merged pull requests contributed by 175 people. 
+This NumPy release is the result of 581 merged pull requests contributed by 175 people.
 The Python versions supported for this release are 3.7-3.9, support for Python 3.10 will be added after Python 3.10 is released.
 
 
