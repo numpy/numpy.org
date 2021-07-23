@@ -44,3 +44,11 @@ languages:
     contentDir: content/ja
     < content/ja/config.yaml >
     < content/ja/tabcontents.yaml >
+
+  # Chinese
+  zh:
+    title: NumPy
+    weight: 3
+    contentDir: content/zh
+    < content/zh/config.yaml >
+    < content/zh/tabcontents.yaml >
