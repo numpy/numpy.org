@@ -12,7 +12,7 @@ markup:
 # Uncomment this to disable the translations for the specified languages.
 # This may be useful to be able to merge partial translations without deploying
 # them to numpy.org immediately.
-disableLanguages: ["pt", "ja"]
+disableLanguages: ["pt", "ja", "zh"]
 
 params:
   images:
