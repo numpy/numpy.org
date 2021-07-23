@@ -3,7 +3,7 @@ title: "案例研究：人类有史以来首张黑洞照片"
 sidebar: false
 ---
 
-{{{< figsrc="/images/content_images/cs/blackhole.jpg" caption="**Black Hole M87**" alt="black hole image" tot="*(Image Credits: Event Horizon Telesmall Collection Collaboration)*" tomlink="https://www.jpl.nasa.gov/images/universse/20190410/blackhole20190410.jpg" >}}
+{{{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Black Hole M87**" alt="black hole image" attr="*(Image Credits: Event Horizon Telesmall Collection Collaboration)*" attrlink="https://www.jpl.nasa.gov/images/universse/20190410/blackhole20190410.jpg" >}}
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
     <p>理论上黑洞不可能被“看见”，M87黑洞的成像正试图打破这种限制</p>
@@ -36,9 +36,9 @@ sidebar: false
 
     当目标是看到前所未见的事物时，科学家怎么才能确定图像是正确的？
 
-{{< figsrc="/images/content_images/cs/dataprocessbh. ng" class="csfigcaption" caption="**EHT Data Processing Pipeline**" alt="data peline" align="middle" tot="(Diagram Credits: The Astrophysical Journal, Event Horizon Telesrole Collection Collaboration)" tourlink="https://iopscience.op.org/article/10.3847/2041-8213/ab0c57" >}}
+{{< figure src="/images/content_images/cs/dataprocessbh.png" class="csfigcaption" caption="**EHT Data Processing Pipeline**" alt="data pipeline" align="middle" attr="(Diagram Credits: The Astrophysical Journal, Event Horizon Telesrole Collection Collaboration)" attrlink="https://iopscience.op.org/article/10.3847/2041-8213/ab0c57" >}}
 
-## Numpy的角色
+## NumPy的角色
 
 如果数据有问题，怎么办？ 或者一个算法过于依赖某个特定的假设。 如果单个参数被更改，图像是否会发生剧烈变化？
 
@@ -46,19 +46,19 @@ EHT协作组织为了应对上述挑战，让不同的独立小组使用现有�
 
 他们的工作说明了Python科学生态系统通过协作数据分析在 推进科学方面发挥的重要作用。
 
-{{< figsrc="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**NumPy在黑洞成像中的作用**" >}}
+{{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**NumPy在黑洞成像中的作用**" >}}
 
 例如， [`eht-imaging`][ehtim] 这个Python 软件包提供了 在 VLBI 数据上模拟和执行图像重建的工具。 NumPy 是这个包中使用的数组数据处理的核心，下面的部分软件 依赖关系图说明了这一点。
 
-{{< figsrc="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="numpy在ehtim软件依赖关系中的地位" caption="**numpy在ehtim软件依赖关系中的重要地位**" >}}
+{{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="numpy在ehtim软件依赖关系中的地位" caption="**numpy在ehtim软件依赖关系中的重要地位**" >}}
 
 除了NumPy以外，许多其他软件包，例如 [SciPy](https://www.scipy.org) 和 [Pandas](https://pandas.io), 也是用于黑洞成像的数据处理管道的一部分。 标准天文学文件格式和时间/坐标转换 由 [Astropy][astropy]处理， 而 [Matplotlib][mpl] 被用于在整个分析管道中的数据可视化，包括生成黑洞的最终图像。
 
 ## 总结
 
-作为Numpy的核心功能，高效且拓展性强的N维数组使研究人员能够操作大规模数据集，从而为人类有史以来首张黑洞的成像提供坚实基础。 这是整个科学史中具有里程碑意义的时刻，它为爱因斯坦的理论提供了有力的佐证。 这项成就不仅包括技术突破，还见证了包括200多位科学家与世界上最好的无线电观测站之间的国际合作。  创新的算法和数据处理技术改进了现有的天文模型，帮助我们揭开宇宙的神秘面纱。
+作为NumPy的核心功能，高效且拓展性强的N维数组使研究人员能够操作大规模数据集，从而为人类有史以来首张黑洞的成像提供坚实基础。 这是整个科学史中具有里程碑意义的时刻，它为爱因斯坦的理论提供了有力的佐证。 这项成就不仅包括技术突破，还见证了包括200多位科学家与世界上最好的无线电观测站之间的国际合作。  创新的算法和数据处理技术改进了现有的天文模型，帮助我们揭开宇宙的神秘面纱。
 
-{{< figsrc="/images/content_images/cs/numpy_bh_bbh_benefits.png" class="fig-center" alt="numpy benefits" caption="**Numpy核心能力的运用**" >}}
+{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**NumPy核心能力的运用**" >}}
 
 [resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
 

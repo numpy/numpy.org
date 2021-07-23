@@ -3,7 +3,7 @@ title: "案例研究：发现引力波"
 sidebar: false
 ---
 
-{{< figsrc="/images/content_images/cs/gw_sxs_image. ng" class="fig-center" caption="**引力波**" alt="两个黑洞合并生成引力波纹" totel="*(图片来源：LIGO的极端时空模拟 (SXS) 项目)*" totlink="https://youtu. e/Zt8Z_uzG71o">}}
+{{< figure src="/images/content_images/cs/gw_sxs_image.png" class="fig-center" caption="**引力波**" alt="两个黑洞合并生成引力波纹" totel="*(图片来源：LIGO的极端时空模拟 (SXS) 项目)*" totlink="https://youtu. e/Zt8Z_uzG71o">}}
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
     <p>Python 科学生态系统是 LIGO 研究的关键基础设施。</p>
@@ -39,7 +39,12 @@ sidebar: false
 
     一旦解决了理解爱因斯坦方程以及使用超级计算机求解这些方程相关的障碍，下一个重大挑战就是使人脑能够理解数据。 仿真建模以及信号检测需要有效的可视化技术。  在纯科学爱好者的眼中，可视化在为数值相对论提供更多可信度方面也发挥了作用，在成像和模拟使更多人更容易理解结果之前，他们并没有对数值相对论给予足够的重视。 使用最新的实验输入和见解来加快复杂计算和渲染、重新渲染图像和模拟的速度可能是一项耗时的活动，给该领域的研究人员带来严峻挑战。
 
-{{< figsrc="/images/content_images/cs/gw_strain_amplitude ng" class="fig-center" alt="引力波应变幅值” caption="**来自GW150914的估计引力波应变幅度**"Attorney="(**图表来源:** 从二元黑洞合并中观察引力波，ResearchGate 出版物)" tourlink="https://www. esearchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger” >}}
+{{< figure src="/images/content_images/cs/gw_strain_amplitude.png"
+           class="fig-center"
+           alt="引力波应变幅值"
+           caption="**来自GW150914的估计引力波应变幅度**"
+           attr="(**图表来源:** 从二元黑洞合并中观察引力波，ResearchGate 出版物)"
+           attrlink="https://www. esearchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
 
 ## Numpy 在引力波检测中的作用
 
@@ -56,14 +61,19 @@ NumPy 是 Python 的标准数值分析包，被用于 LIGO GW 检测项目期间
 * 计算相关性
 * 在GW 数据分析中开发的关键 [软件](https://github.com/lscsoft) 例如： [GwPy](https://gwpy.github.io/docs/stable/overview.html) 和 [PyCBC](https://pycbc.org) 使用 NumPy 和 AstroPy 为实用程序、工具和方法提供基于对象的接口，用于研究来自引力波探测器的数据。
 
-{{< figsrc="/images/content_images/cs/gwpy-numpy-dep-graph.png" class="fig-center" alt="gwpy-numpy depgraph" caption="**GwPy 包的软件依赖关系**>}}
+{{< figure src="/images/content_images/cs/gwpy-numpy-dep-graph.png"
+           class="fig-center" alt="gwpy-numpy depgraph"
+               caption="**GwPy 包的软件依赖关系**" >}}
 
 ----
 
-{{< figsrc="/images/content_images/cs/PyCBC-numpy-dep-graph.png" class="fig-center" alt="PyCBC-numpy depgraph" caption="**PyCBC包的软件依赖关系图**>}}
+{{< figure src="/images/content_images/cs/PyCBC-numpy-dep-graph.png"
+           class="fig-center"
+           alt="PyCBC-numpy depgraph"
+           caption="**PyCBC包的软件依赖关系图**" >}}
 
 ## 总结
 
 GW 探测使研究人员能够发现完全出乎意料的现象，同时为许多已知的最深刻的天体物理现象提供了新的见解。 数学运算和数据可视化是帮助科学家深入了解从科学观察中收集到的数据并理解结果的关键步骤。 计算是复杂的，除非使用计算机模拟进行可视化，并提供真实的观察数据和分析，否则人类无法理解。  NumPy 与其他 Python 包（例如 matplotlib、pandas 和 scikit-learn）一起[使研究人员](https://www.gw-openscience.org/events/GW150914/)能够回答复杂的问题并开拓我们理解宇宙的新视角。
 
-{{< figsrc="/images/content_images/cs/numpy_gw_benefits.png" class="fig-center" alt="numpy benefits" caption="**Numpy核心能力的应用**" >}}
+{{< figure src="/images/content_images/cs/numpy_gw_benefits.png" class="fig-center" alt="numpy benefits" caption="**Numpy核心能力的应用**" >}}
