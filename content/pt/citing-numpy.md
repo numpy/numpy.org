@@ -12,14 +12,14 @@ _Em formato BibTeX:_
  ``` 
 @Article{         harris2020array,
   title         = {Array programming with {NumPy}},
-  author        = {Charles R. Harris and K. Jarrod Millman and St{\'{e}}fan J.
+  author        = {Charles R. Harris and K. Jarrod Millman and St{'{e}}fan J.
                   van der Walt and Ralf Gommers and Pauli Virtanen and David
                   Cournapeau and Eric Wieser and Julian Taylor and Sebastian
                   Berg and Nathaniel J. Smith and Robert Kern and Matti Picus
                   and Stephan Hoyer and Marten H. van Kerkwijk and Matthew
-                  Brett and Allan Haldane and Jaime Fern{\'{a}}ndez del
-                  R{\'{i}}o and Mark Wiebe and Pearu Peterson and Pierre
-                  G{\'{e}}rard-Marchant and Kevin Sheppard and Tyler Reddy and
+                  Brett and Allan Haldane and Jaime Fern{'{a}}ndez del
+                  R{'{\i}}o and Mark Wiebe and Pearu Peterson and Pierre
+                  G{'{e}}rard-Marchant and Kevin Sheppard and Tyler Reddy and
                   Warren Weckesser and Hameer Abbasi and Christoph Gohlke and
                   Travis E. Oliphant},
   year          = {2020},
