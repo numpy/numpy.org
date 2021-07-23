@@ -1,26 +1,26 @@
 ---
-languageName: English
+languageName: 日本語 (Japanese)
 params:
-  description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
+  description: NumPyが広く利用される理由 強力な多次元配列、数値計算ツール群、相互運用性、高いパフォーマンス、オープンソース
   navbarlogo:
     image: logos/numpy.svg
-    link: /
+    link: /ja/
   hero:
     #Main hero title
     title: NumPy
     #Hero subtitle (optional)
-    subtitle: The fundamental package for scientific computing with Python
+    subtitle: Pythonによる科学技術計算の基礎パッケージ
     #Button text
-    buttontext: Get started
+    buttontext: 使い始める
     #Where the main hero button links to
-    buttonlink: "/install"
+    buttonlink: "/ja/install"
     #Hero image (from static/images/___)
     image: logos/numpy.svg
   #Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
-    title: 2021 NumPy survey
-    content: Your voice matters
-    url: /news
+    title: NumPy v1.20.0
+    content: 型アノテーションサポート - 複数のプラットフォームにおけるSIMDを利用したパフォーマンス改善
+    url: /ja/news
   shell:
     title: placeholder
     promptlabel: 対話的なシェルプロンプト
@@ -39,74 +39,74 @@ params:
         text: mybinder.orgでコンテナを起動しています...
     docslink: <a href="https://numpy.org/doc/stable" target="_blank">ドキュメント</a> を確認することを忘れないでください。
   casestudies:
-    title: CASE STUDIES
+    title: ケーススタディ
     features:
       - 
-        title: First Image of a Black Hole
-        text: How NumPy, together with libraries like SciPy and Matplotlib that depend on NumPy, enabled the Event Horizon Telescope to produce the first ever image of a black hole
+        title: 世界初のブラックホール画像
+        text: NumPyはどのように、SciPyやMatplotlibなどのNumPyに依存するライブラリとともに、イベントホライズンテレスコープによる世界初のブラックホール画像の作成を可能にしたのでしょうか。
         img: /images/content_images/case_studies/blackhole.png
-        alttext: First image of a black hole. It is an orange circle in a black background.
-        url: /case-studies/blackhole-image
+        alttext: 世界初のブラックホール画像。黒い背景にオレンジ色の円で描かれています。
+        url: /ja/case-studies/blackhole-image
       - 
-        title: Detection of Gravitational Waves
-        text: In 1916, Albert Einstein predicted gravitational waves; 100 years later their existence was confirmed by LIGO scientists using NumPy.
+        title: 重力波の検知
+        text: 1916年、アルバート・アインシュタインは重力波を予言しました。100年後、LIGOの研究者たちはNumPyを使ってその存在を確認しました。
         img: /images/content_images/case_studies/gravitional.png
-        alttext: Two orbs orbiting each other. They are displacing gravity around them.
-        url: /case-studies/gw-discov
+        alttext: 2つのオーブがお互いに周回し、周りの重力を変位させています。
+        url: /ja/case-studies/gw-discov
       - 
-        title: Sports Analytics
-        text: Cricket Analytics is changing the game by improving player and team performance through statistical modelling and predictive analytics. NumPy enables many of these analyses.
+        title: スポーツ分析
+        text: クリケット分析は、統計的モデリングと予測分析によって選手やチームのパフォーマンスを向上させることで、クリケットの試合を変えようとしています。多くの分析が、NumPyにより可能になりました。
         img: /images/content_images/case_studies/sports.jpg
-        alttext: Cricket ball on green field.
-        url: /case-studies/cricket-analytics
+        alttext: 緑のフィールド上にあるクリケットボール。
+        url: /ja/case-studies/cricket-analytics
       - 
-        title: Pose Estimation using deep learning
-        text: DeepLabCut uses NumPy for accelerating scientific studies that involve observing animal behavior for better understanding of motor control, across species and timescales.
+        title: 深層学習による姿勢推定
+        text: DeepLabCutはNumPyを利用し、種族・時間スケールによらない運動制御の理解へ向け、動物の行動観察を含む科学技術研究を加速しています。
         img: /images/content_images/case_studies/deeplabcut.png
-        alttext: Cheetah pose analysis
-        url: /case-studies/deeplabcut-dnn
+        alttext: チータの姿勢推定
+        url: /ja/case-studies/deeplabcut-dnn
   keyfeatures:
     features:
       - 
-        title: Powerful N-dimensional arrays
-        text: Fast and versatile, the NumPy vectorization, indexing, and broadcasting concepts are the de-facto standards of array computing today.
+        title: 強力な多次元配列
+        text: NumPyの高速で多機能なベクトル化計算、インデックス処理、ブロードキャスティングのコンセプトは、今日の配列計算のデファクト・スタンダードです。
       - 
-        title: Numerical computing tools
-        text: NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
+        title: 数値計算ツール群
+        text: NumPyは、様々な数学関数、乱数生成器、線形代数ルーチン、フーリエ変換などを提供しています。
       - 
-        title: Interoperable
-        text: NumPy supports a wide range of hardware and computing platforms, and plays well with distributed, GPU, and sparse array libraries.
+        title: 相互運用性
+        text: NumPyは、幅広いハードウェアとコンピューティング・プラットフォームをサポートしており、分散処理、GPU、疎行列ライブラリにも対応しています。
       - 
-        title: Performant
-        text: The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
+        title: 高パフォーマンス
+        text: NumPyの中核は最適化されたC言語のコードです。Pythonの柔軟性を、コンパイルされたコードの高速さとともに享受できます。
       - 
-        title: Easy to use
-        text: NumPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
+        title: 使いやすさ
+        text: NumPyの高水準なシンタックスは、どんなバックグラウンドや経験値のプログラマーでも利用でき、生産性を高めることができます。
       - 
-        title: Open source
-        text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/community).
+        title: オープンソース
+        text: 寛容な[BSDライセンス](https://github.com/numpy/numpy/blob/master/LICENSE.txt)で公開されています。NumPyは活発で、互いを尊重し、多様性を認め合う[コミュニティ](/ja/community)によって、 [GitHub](https://github.com/numpy/numpy)上でオープンに開発されています.
   tabs:
-    title: ECOSYSTEM
+    title: エコシステム
   section5: false
 navbar:
   - 
-    title: Install
-    url: /install
+    title: インストール
+    url: /ja/install
   - 
-    title: Documentation
+    title: ドキュメント
     url: https://numpy.org/doc/stable
   - 
-    title: Learn
-    url: /learn
+    title: 学び方
+    url: /ja/learn
   - 
-    title: Community
-    url: /community
+    title: コミュニティ
+    url: /ja/community
   - 
-    title: About Us
-    url: /about
+    title: 私達について
+    url: /ja/about
   - 
-    title: Contribute
-    url: /contribute
+    title: NumPyに貢献する
+    url: /ja/contribute
 footer:
   logo: numpy.svg
   socialmediatitle: ""
@@ -122,46 +122,46 @@ footer:
       title: ""
       links:
         - 
-          text: Install
-          link: /install
+          text: インストール
+          link: /ja/install
         - 
-          text: Documentation
+          text: ドキュメント
           link: https://numpy.org/doc/stable
         - 
-          text: Learn
-          link: /learn
+          text: 学び方
+          link: /ja/learn
         - 
-          text: Citing Numpy
-          link: /citing-numpy
+          text: 引用する
+          link: /ja/citing-numpy
         - 
-          text: Roadmap
+          text: ロードマップ
           link: https://numpy.org/neps/roadmap.html
     column2:
       links:
         - 
-          text: About us
-          link: /about
+          text: 私達について
+          link: /ja/about
         - 
-          text: Community
-          link: /community
+          text: コミュニティ
+          link: /ja/community
         - 
-          text: Contribute
-          link: /contribute
+          text: NumPyに貢献する
+          link: /ja/contribute
         - 
-          text: Code of conduct
-          link: /code-of-conduct
+          text: 行動規範
+          link: /ja/code-of-conduct
     column3:
       links:
         - 
-          text: Get help
-          link: /gethelp
+          text: サポートを得る方法
+          link: /ja/gethelp
         - 
-          text: Terms of use
-          link: /terms
+          text: 利用規約
+          link: /ja/terms
         - 
-          text: Privacy
-          link: /privacy
+          text: プライバシーポリシー
+          link: /ja/privacy
         - 
-          text: Press kit
-          link: /press-kit
+          text: プレス用資料
+          link: /ja/press-kit
 
