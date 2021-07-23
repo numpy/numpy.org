@@ -5,30 +5,30 @@ sidebar: false
 
 Para a **documentação oficial do NumPy** visite [numpy.org/doc/stable](https://numpy.org/doc/stable).
 
-## Tutoriais NumPy
+## Iniciantes
 
 Você pode encontrar um conjunto de tutoriais e materiais educativos criados pela comunidade do NumPy em [NumPy Tutorials](https://numpy.org/numpy-tutorials). O objetivo desta página é fornecer recursos de alta qualidade pelo projeto NumPy, tanto para autoaprendizado como para o ensino, no formato de notebooks Jupyter. Se você tiver interesse em adicionar o seu próprio conteúdo, verifique o repositório [numpy-tutorials no GitHub](https://github.com/numpy/numpy-tutorials).
 
 ***
 
-Abaixo você pode encontrar uma coleção de recursos externos selecionados. Para contribuir, veja o [fim desta página](#add-to-this-list).
+Abaixo está uma coleção de recursos externos selecionados. Para contribuir, veja o [fim desta página](#add-to-this-list).
 
-## Iniciantes
+## Avançado
 
-Há uma tonelada de informações sobre o NumPy por aí. Se você está começando, recomendamos fortemente as fontes seguintes:
+Há uma tonelada de informações sobre o NumPy lá fora. Se você está começando, recomendamos fortemente estes:
 
-<i class="fas fa-chalkboard"></i> **Tutoriais**
+<i class="fas fa-chalkboard"></i> **Livros**
 
 * [NumPy Quickstart Tutorial (Tutorial de Início Rápido)](https://numpy.org/devdocs/user/quickstart.html)
-* [NumPy Illustrated: The Visual Guide to NumPy *by Lev Maximov*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
-* [SciPy Lectures](https://scipy-lectures.org/) Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.
-* [NumPy: the absolute basics for beginners](https://numpy.org/devdocs/user/absolute_beginners.html)
+* [NumPy tutorial *por Nicolas Rougier*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
+* [SciPy Lectures](https://scipy-lectures.org/) Além de incluir conteúdo sobre a NumPy, estas aulas oferecem uma introdução mais ampla ao ecossistema científico do Python.
+* [NumPy: the absolute basics for beginners ("o básico absoluto para inciantes")](https://numpy.org/devdocs/user/absolute_beginners.html)
 * [Machine Learning Plus - Introduction to ndarray](https://www.machinelearningplus.com/python/numpy-tutorial-part1-array-python-examples/)
 * [Edureka - Learn NumPy Arrays with Examples ](https://www.edureka.co/blog/python-numpy-tutorial/)
 * [Dataquest - NumPy Tutorial: Data Analysis with Python](https://www.dataquest.io/blog/numpy-tutorial-python/)
-* [NumPy tutorial *by Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
+* [**Tutoriais**](https://github.com/rougier/numpy-tutorial)
 * [Stanford CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
-* [NumPy User Guide](https://numpy.org/devdocs)
+* [NumPy User Guide (Guia de Usuário NumPy)](https://numpy.org/devdocs)
 
 <i class="fas fa-book"></i> **Livros**
 
@@ -36,19 +36,19 @@ Há uma tonelada de informações sobre o NumPy por aí. Se você está começan
 * [From Python to NumPy *por Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 * [Elegant SciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) *por Juan Nunez-Iglesias, Stefan van der Walt, e Harriet Dashnow*
 
-Você também pode querer conferir a [lista Goodreads](https://www.goodreads.com/shelf/show/python-scipy) sobre o tema "Python+SciPy. A maioria dos livros lá serão sobre o "ecossistema SciPy", que tem o NumPy em sua essência.
+**Vídeos**
 
-<i class="far fa-file-video"></i> **Vídeos**
+<i class="far fa-file-video"></i> Experimente esses recursos avançados para uma melhor compreensão dos conceitos da NumPy, como indexação avançada, splitting, stacking, álgebra linear e muito mais.
 
 * [Introduction to Numerical Computing with NumPy](http://youtu.be/ZB7BZMhfPgk) *por Alex Chabot-Leclerc*
 
 ***
 
-## Avançados
+## Palestras sobre NumPy
 
-Experimente esses recursos avançados para uma melhor compreensão dos conceitos da NumPy, como indexação avançada, splitting, stacking, álgebra linear e muito mais.
+**Tutoriais**
 
-<i class="fas fa-chalkboard"></i> **Tutoriais**
+<i class="fas fa-chalkboard"></i> **Livros**
 
 * [100 NumPy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) *por Nicolas P. Rougier*
 * [An Introduction to NumPy and Scipy](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) *por M. Scott Shell*
@@ -57,20 +57,20 @@ Experimente esses recursos avançados para uma melhor compreensão dos conceitos
 * [Advanced Indexing](https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm)
 * [Machine Learning and Data Analytics with NumPy](https://www.machinelearningplus.com/python/numpy-tutorial-python-part2/)
 
-<i class="fas fa-book"></i> **Livros**
+<i class="fas fa-book"></i> **Vídeos**
 
 * [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057) *por Jake Vanderplas*
 * [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662) *por Wes McKinney*
 * [Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy, and Matplotlib](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459) *por Robert Johansson*
 
-<i class="far fa-file-video"></i> **Vídeos**
+<i class="far fa-file-video"></i> Se a NumPy é importante na sua pesquisa, e você gostaria de dar reconhecimento ao projeto na sua publicação acadêmica, por favor veja [estas informações sobre citações](/pt/citing-numpy).
 
-* [Advanced NumPy - broadcasting rules, strides, and advanced indexing](https://www.youtube.com/watch?v=cYugp9IN1-Q) *by Juan Nunez-Iglesias*
+* [Advanced NumPy - broadcasting rules, strides, and advanced indexing](https://www.youtube.com/watch?v=cYugp9IN1-Q) *por Juan Nunuz-Iglesias*
 * [Advanced Indexing Operations in NumPy Arrays](https://www.youtube.com/watch?v=2WTDrSkQBng) *por Amuls Academy*
 
 ***
 
-## Palestras sobre NumPy
+## Citando a NumPy
 
 * [The Future of NumPy Indexing](https://www.youtube.com/watch?v=o0EacbIbf58) *por Jaime Fernández* (2016)
 * [Evolution of Array Computing in Python](https://www.youtube.com/watch?v=HVLPJnvInzM&t=10s) *por Ralf Gommers* (2019)
@@ -80,7 +80,7 @@ Experimente esses recursos avançados para uma melhor compreensão dos conceitos
 
 ***
 
-## Citando o NumPy
+## Contribua para esta lista
 
 Se a NumPy é importante na sua pesquisa, e você gostaria de dar reconhecimento ao projeto na sua publicação acadêmica, por favor veja [estas informações sobre citações](/citing-numpy).
 
