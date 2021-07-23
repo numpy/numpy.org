@@ -3,7 +3,7 @@ title: "Estudo de Caso: Análise de Críquete, a revolução!"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**IPLT20, o maior festival de Críquete da Índia**" alt="Copa e estádio da Indian Premier League Cricket" attr="*(Créditos de imagem: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
+{{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**IPLT20, o maior festival de Críquete da Índia**" alt="Copa e estádio da Indian Premier League Cricket" attr="*(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
 
 <blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
     <p>Você não joga para a torcida, joga para o país.</p>
@@ -16,7 +16,7 @@ Dizer que os indianos adoram o críquete seria subestimar este sentimento. O jog
 
 A Primeira Liga Indiana (*Indian Premier League* - IPL) é uma liga profissional de críquete [Twenty20](https://pt.wikipedia.org/wiki/Twenty20), fundada em 2008. É um dos eventos de críquete mais assistidos no mundo, avaliado em [$6,7 bilhões de dólares](https://en.wikipedia.org/wiki/Indian_Premier_League) em 2019.
 
-Críquete é um jogo dominado pelos números - as corridas executadas por um <en>batsman</en>, os <en>wickets</en> perdidos por um boleador, as partidas ganhas por uma equipe de críquete, o número de vezes que um batsman responde de certa maneira a um tipo de arremesso do boleador, etc. A capacidade de investigar números de críquete para melhorar o desempenho e estudar as oportunidades de negócio, mercado e economia de críquete através de poderosas ferramentas de análise, alimentadas por softwares numéricos de computação, como o NumPy, é um grande negócio. As análises de críquete fornecem informações interessantes sobre o jogo e informações preditivas sobre os resultados do jogo.
+perdidos por um boleador, as partidas ganhas por uma equipe de críquete, o número de vezes que um batsman responde de certa maneira a um tipo de arremesso do boleador, etc. A capacidade de investigar números de críquete para melhorar o desempenho e estudar as oportunidades de negócio, mercado e economia de críquete através de poderosas ferramentas de análise, alimentadas por softwares numéricos de computação, como o NumPy, é um grande negócio. A capacidade de investigar números de críquete para melhorar o desempenho e estudar as oportunidades de negócio, mercado e economia de críquete através de poderosas ferramentas de análise, alimentadas por softwares numéricos de computação, como o NumPy, é um grande negócio. As análises de críquete fornecem informações interessantes sobre o jogo e informações preditivas sobre os resultados do jogo.
 
 Hoje, existem conjuntos ricos e quase infinitos de estatísticas e informações sobre jogos de críquete, por exemplo, [ESPN cricinfo](https://stats.espncricinfo.com/ci/engine/stats/index.html) e [cricsheet](https://cricsheet.org). Estes e muitos outros bancos de dados de críquete foram usados para [análise de críquete](https://www.researchgate.net/publication/336886516_Data_visualization_and_toss_related_analysis_of_IPL_teams_and_batsmen_performances) usando os mais modernos algoritmos de aprendizagem de máquina e modelagem preditiva. Plataformas de mídia e entretenimento, juntamente com entidades de esporte profissionais associadas ao jogo usam tecnologia e análise para determinar métricas chave para melhorar as chances de vitória:
 
@@ -49,7 +49,7 @@ Hoje, existem conjuntos ricos e quase infinitos de estatísticas e informações
 
   Muito da tomada de decisões em críquete se baseia em questões como "com que frequência um batsman joga um certo tipo de lance se a recepção da bola for de um determinado tipo", ou "como um boleador muda a direção e alcance da sua jogada se o batsman responder de uma certa maneira". Esse tipo de consulta de análise preditiva requer a disponibilidade de conjuntos de dados altamente granulares e a capacidade de sintetizar dados e criar modelos generativos que sejam altamente precisos.
 
-## Papel do NumPy na Análise de Críquete
+## Papel da NumPy na Análise de Críquete
 
 A análise de dados esportivos é um campo próspero. Muitos pesquisadores e empresas [usam NumPy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) e outros pacotes PyData como Scikit-learn, SciPy, Matplotlib, e Jupyter, além de usar as últimas técnicas de aprendizagem de máquina e IA.  O NumPy foi usado para vários tipos de análise esportiva relacionada a críquete, como:
 
@@ -61,4 +61,4 @@ A análise de dados esportivos é um campo próspero. Muitos pesquisadores e emp
 
 A análise de dados esportivos é revolucionária quando se trata de como os jogos profissionais são jogados, especialmente se consideramos como acontece a tomada de decisões estratégicas, que até pouco tempo era principalmente feita com base na "intuição" ou adesão a tradições passadas. O NumPy forma uma fundação sólida para um grande conjunto de pacotes Python que fornecem funções de alto nível relacionadas à análise de dados, aprendizagem de máquina e algoritmos de IA. Estes pacotes são amplamente implantados para se obter informações em tempo real que ajudam na tomada de decisão para resultados decisivos, tanto em campo como para se derivar inferências e orientar negócios em torno do jogo de críquete. Encontrar os parâmetros ocultos, padrões, e atributos que levam ao resultado de uma partida de críquete ajuda os envolvidos a tomar nota das percepções do jogo que estariam de outra forma ocultas nos números e estatísticas.
 
-{{< figure src="/images/content_images/cs/numpy_ca_benefits.png" class="fig-center" alt="Diagrama mostrando os benefícios de usar o NumPy para análise de críquete" caption="**Recursos principais do NumPy utilizados**" >}}
+{{< figure src="/images/content_images/cs/numpy_ca_benefits.png" class="fig-center" alt="Diagrama mostrando os benefícios de usar a NumPy para análise de críquete" caption="**Recursos principais da NumPy utilizados**" >}}
