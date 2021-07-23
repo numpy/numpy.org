@@ -3,23 +3,37 @@ title: الأخبار
 sidebar: false
 ---
 
-### نتائج استطلاع نمباي لعام 2020
+### Numpy 1.21.0 release
 
-_22 يونيو2021_ -قام فريق استطلاع نمباي في عام 2020 بالاشتراك مع طلاب وأعضاء هيئة التدريس من جامعتي ميتشيجان وميريلاند بإجراء أول دراسة استقصائية رسمية لمجتمع نمباي. بامكانك معرفة نتائج الدراسة الاستقصائية من هنا: https://numpy.org/user-survey-2020/.
+_Jun 23, 2021_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) is now available. The highlights of the release are:
+
+- continued SIMD work covering more functions and platforms,
+- initial work on the new dtype infrastructure and casting,
+- universal2 wheels for Python 3.8 and Python 3.9 on Mac,
+- improved documentation,
+- improved annotations,
+- new `PCG64DXSM` bitgenerator for random numbers.
+
+This NumPy release is the result of 581 merged pull requests contributed by 175 people. The Python versions supported for this release are 3.7-3.9, support for Python 3.10 will be added after Python 3.10 is released.
 
 
-### الإصدار 1.20.0 لنمباى
+### 2020 NumPy survey results
 
-_30يناير2021_ -- [إصدار1.20.0 لنمباى](https://numpy.org/doc/stable/release/1.20.0-notes.html) متاح الآن. وهذا هو أكبر إصدار لنمباي حتى الآن بفضل 180+ من المساهمين. والسمتان الجديدتان الأكثر إثارة للاهتمام هما:
+_Jun 22, 2021_ -- In 2020, the NumPy survey team in partnership with students and faculty from the University of Michigan and the University of Maryland conducted the first official NumPy community survey. Find the survey results here: https://numpy.org/user-survey-2020/.
+
+
+### Numpy 1.20.0 release
+
+_Jan 30, 2021_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) is now available. This is the largest NumPy release to date, thanks to 180+ contributors. The two most exciting new features are:
 - Type annotations for large parts of NumPy, and a new `numpy.typing` submodule containing `ArrayLike` and `DtypeLike` aliases that users and downstream libraries can use when adding type annotations in their own code.
 - Multi-platform SIMD compiler optimizations, with support for x86 (SSE, AVX), ARM64 (Neon), and PowerPC (VSX) instructions. This yielded significant performance improvements for many functions (examples: [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
 
-### التنوع في مشروع نمباي
+### Diversity in the NumPy project
 
-_20 سبتمبر 2020_ -- كتبنا[ تقريرًا وأجرينا نقاشًا على وسائل التواصل الاجتماعي حول التنوع والشمول فى مشروع نمباي](/diversity_sep2020).
+_Sep 20, 2020_ -- We wrote a [statement on the state of, and discussion on social media around, diversity and inclusion in the NumPy project](/diversity_sep2020).
 
 
-### نشر أول ورقة رسمية لنمباي فى مجلة نيتشر!
+### First official NumPy paper published in Nature!
 
 _Sep 16, 2020_ -- We are pleased to announce the publication of [the first official paper on NumPy](https://www.nature.com/articles/s41586-020-2649-2) as a review article in Nature. This comes 14 years after the release of NumPy 1.0. The paper covers applications and fundamental concepts of array programming, the rich scientific Python ecosystem built on top of NumPy, and the recently added array protocols to facilitate interoperability with external array and tensor libraries like CuPy, Dask, and JAX.
 
@@ -31,9 +45,9 @@ _Sept 14, 2020_ -- Python 3.9 will be released in a few weeks. If you are an ear
 - use [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) or `--only-binary=:all:` to prevent `pip` from trying to build from source.
 
 
-### إصدار 1.19.2 لنمباي
+### Numpy 1.19.2 release
 
-_10 سيبتمبر لعام 2020 _- [أصبح نمباي 1.19.2 ](https://numpy.org/devdocs/release/1.19.2-notes.html) متاح الآن. This latest release in the 1.19 series fixes several bugs, prepares for the [upcoming Cython 3.x release](http://docs.cython.org/en/latest/src/changes.html) and pins setuptools to keep distutils working while upstream modifications are ongoing. The aarch64 wheels are built with the latest manylinux2014 release that fixes the problem of differing page sizes used by different linux distros.
+_Sep 10, 2020_ -- [NumPy 1.19.2](https://numpy.org/devdocs/release/1.19.2-notes.html) is now available. This latest release in the 1.19 series fixes several bugs, prepares for the [upcoming Cython 3.x release](http://docs.cython.org/en/latest/src/changes.html) and pins setuptools to keep distutils working while upstream modifications are ongoing. The aarch64 wheels are built with the latest manylinux2014 release that fixes the problem of differing page sizes used by different linux distros.
 
 ### The inaugural NumPy survey is live!
 
@@ -79,7 +93,7 @@ More details on our proposed initiatives and deliverables can be found in the [f
 
 ## الإصدارات
 
-إليك قائمة من إصدارات نمباي، مع روابط لملاحظات كل إصدار. لا توجد مزايا جديدة(التغييرات فقط فى رقم الإصدار `z` `x.y.z`) فى جميع إصدارات إصلاح العيوب على عكس الإصدارات الثانوية(الزيادة `y`).
+Here is a list of NumPy releases, with links to release notes. All bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
 
 - NumPy 1.18.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.18.4)) -- _3 May 2020_.
 - NumPy 1.18.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.18.3)) -- _19 Apr 2020_.
