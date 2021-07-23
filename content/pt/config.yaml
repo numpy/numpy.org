@@ -1,26 +1,26 @@
 ---
-languageName: English
+languageName: Português
 params:
-  description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
+  description: Por que NumPy? Arrays n-dimensionais poderosas. Ferramentas para computação numérica. Interoperabilidade. Alto desempenho. Código aberto.
   navbarlogo:
     image: logos/numpy.svg
-    link: /
+    link: /pt/
   hero:
     #Main hero title
     title: NumPy
     #Hero subtitle (optional)
-    subtitle: The fundamental package for scientific computing with Python
+    subtitle: A biblioteca fundamental para computação científica com Python
     #Button text
-    buttontext: Get started
+    buttontext: Comece aqui
     #Where the main hero button links to
-    buttonlink: "/install"
+    buttonlink: "/pt/install"
     #Hero image (from static/images/___)
     image: logos/numpy.svg
   #Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
-    title: 2021 NumPy survey
-    content: Your voice matters
-    url: /news
+    title: NumPy v1.20.0
+    content: Suporte a anotações de tipos - Melhorias no desempenho através de SIMD multi-plataformas
+    url: /pt/news
   shell:
     title: placeholder
     promptlabel: interactive shell prompt
@@ -39,74 +39,74 @@ params:
         text: Launching container on mybinder.org...
     docslink: Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a>.
   casestudies:
-    title: CASE STUDIES
+    title: ESTUDOS DE CASO
     features:
       - 
-        title: First Image of a Black Hole
-        text: How NumPy, together with libraries like SciPy and Matplotlib that depend on NumPy, enabled the Event Horizon Telescope to produce the first ever image of a black hole
+        title: A Primeira Imagem de um Buraco Negro
+        text: Como o NumPy, junto com outras bibliotecas como SciPy e Matplotlib que dependem do NumPy, permitiram ao Event Horizon Telescope gerar a primeira imagem de um buraco negro da história.
         img: /images/content_images/case_studies/blackhole.png
-        alttext: First image of a black hole. It is an orange circle in a black background.
-        url: /case-studies/blackhole-image
+        alttext: Primeira imagem de um buraco negro. É um círculo laranja em um fundo preto.
+        url: /pt/case-studies/blackhole-image
       - 
-        title: Detection of Gravitational Waves
-        text: In 1916, Albert Einstein predicted gravitational waves; 100 years later their existence was confirmed by LIGO scientists using NumPy.
+        title: Descoberta de Ondas Gravitacionais
+        text: Em 1916, Albert Einstein previu ondas gravitacionais; 100 anos depois, sua existência foi confirmada pelos cientistas do LIGO usando NumPy.
         img: /images/content_images/case_studies/gravitional.png
-        alttext: Two orbs orbiting each other. They are displacing gravity around them.
-        url: /case-studies/gw-discov
+        alttext: Duas esferas orbitando a si mesmas. Elas deslocam a gravidade em seu entorno.
+        url: /pt/case-studies/gw-discov
       - 
-        title: Sports Analytics
-        text: Cricket Analytics is changing the game by improving player and team performance through statistical modelling and predictive analytics. NumPy enables many of these analyses.
+        title: Análise Esportiva
+        text: A análise de críquete está mudando o jogo ao melhorar o desempenho de jogadores e times através de modelagem estatística e análise preditiva. O NumPy possibilita muitas dessas análises.
         img: /images/content_images/case_studies/sports.jpg
-        alttext: Cricket ball on green field.
-        url: /case-studies/cricket-analytics
+        alttext: Bola de críquete em um campo verde
+        url: /pt/case-studies/cricket-analytics
       - 
-        title: Pose Estimation using deep learning
-        text: DeepLabCut uses NumPy for accelerating scientific studies that involve observing animal behavior for better understanding of motor control, across species and timescales.
+        title: Estimação de poses usando deep learning
+        text: DeepLabCut usa o NumPy para acelerar estudos científicos que envolvem comportamento animal para entender melhor o controle motor em várias espécies e escalas de tempo.
         img: /images/content_images/case_studies/deeplabcut.png
-        alttext: Cheetah pose analysis
-        url: /case-studies/deeplabcut-dnn
+        alttext: Análise de pose de um guepardo
+        url: /pt/case-studies/deeplabcut-dnn
   keyfeatures:
     features:
       - 
-        title: Powerful N-dimensional arrays
-        text: Fast and versatile, the NumPy vectorization, indexing, and broadcasting concepts are the de-facto standards of array computing today.
+        title: Arrays n-dimensionais poderosas
+        text: Rápidos e versáteis, os conceitos de vetorização, indexação e broadcasting do NumPy são, na prática, o padrão em computação com arrays.
       - 
-        title: Numerical computing tools
-        text: NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
+        title: Ferramentas de computação numérica
+        text: O NumPy oferece um conjunto completo de funções matemáticas, geradores de números aleatórios, rotinas de álgebra linear, transformadas de Fourier, e mais.
       - 
-        title: Interoperable
-        text: NumPy supports a wide range of hardware and computing platforms, and plays well with distributed, GPU, and sparse array libraries.
+        title: Interoperabilidade
+        text: O NumPy suporta um grande número de plataformas de hardware e computação, e pode ser combinada com bibliotecas de computação com arrays esparsas, distribuidas ou em GPUs.
       - 
-        title: Performant
-        text: The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
+        title: Alto desempenho
+        text: O núcleo do NumPy é feito de código otimizado em C. Experimente a flexibilidade do Python com a velocidade de código compilado.
       - 
-        title: Easy to use
-        text: NumPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
+        title: Fácil de usar
+        text: A sintaxe de alto nível do NumPy torna-o acessível e produtivo para programadores de qualquer nível de experiência e formação.
       - 
-        title: Open source
-        text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/community).
+        title: Código aberto
+        text: Distribuido com uma [licença BSD](https://github.com/numpy/numpy/blob/master/LICENSE.txt) liberal, o NumPy é desenvolvido e mantido [publicamente no GitHub](https://github.com/numpy/numpy) por uma [comunidade](/pt/community) vibrante, responsiva, e diversa.
   tabs:
-    title: ECOSYSTEM
+    title: ECOSSISTEMA
   section5: false
 navbar:
   - 
-    title: Install
-    url: /install
+    title: Instalação
+    url: /pt/install
   - 
-    title: Documentation
+    title: Documentação
     url: https://numpy.org/doc/stable
   - 
-    title: Learn
-    url: /learn
+    title: Aprenda
+    url: /pt/learn
   - 
-    title: Community
-    url: /community
+    title: Comunidade
+    url: /pt/community
   - 
-    title: About Us
-    url: /about
+    title: Sobre
+    url: /pt/about
   - 
-    title: Contribute
-    url: /contribute
+    title: Contribuir
+    url: /pt/contribute
 footer:
   logo: numpy.svg
   socialmediatitle: ""
@@ -122,46 +122,46 @@ footer:
       title: ""
       links:
         - 
-          text: Install
-          link: /install
+          text: Instalação
+          link: /pt/install
         - 
-          text: Documentation
+          text: Documentação
           link: https://numpy.org/doc/stable
         - 
-          text: Learn
-          link: /learn
+          text: Aprenda
+          link: /pt/learn
         - 
-          text: Citing Numpy
-          link: /citing-numpy
+          text: Citando o Numpy
+          link: /pt/citing-numpy
         - 
           text: Roadmap
           link: https://numpy.org/neps/roadmap.html
     column2:
       links:
         - 
-          text: About us
-          link: /about
+          text: Sobre
+          link: /pt/about
         - 
-          text: Community
-          link: /community
+          text: Comunidade
+          link: /pt/community
         - 
-          text: Contribute
-          link: /contribute
+          text: Contribuir
+          link: /pt/contribute
         - 
-          text: Code of conduct
-          link: /code-of-conduct
+          text: Código de Conduta
+          link: /pt/code-of-conduct
     column3:
       links:
         - 
-          text: Get help
-          link: /gethelp
+          text: Ajuda
+          link: /pt/gethelp
         - 
-          text: Terms of use
-          link: /terms
+          text: Termos de uso (EN)
+          link: /pt/terms
         - 
-          text: Privacy
-          link: /privacy
+          text: Privacidade
+          link: /pt/privacy
         - 
-          text: Press kit
-          link: /press-kit
+          text: Kit de imprensa
+          link: /pt/press-kit
 
