@@ -14,9 +14,9 @@ _2021年7月12日_ -- NumPy ではコミュニティの力を信じています�
 
 ### NumPy 1.21.0 リリース
 
-_Jun 23, 2021_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) is now available. The highlights of the release are:
+_2021年1月23日_ -- [Numpy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) が利用可能になりました。 今回のリリースのハイライトは次のとおりです。
 
-- continued SIMD work covering more functions and platforms,
+- より多くの機能やプラットフォームをカバーするSIMD関連の作業が継続されました。
 - initial work on the new dtype infrastructure and casting,
 - universal2 wheels for Python 3.8 and Python 3.9 on Mac,
 - improved documentation,
