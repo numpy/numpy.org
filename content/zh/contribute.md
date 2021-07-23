@@ -1,5 +1,5 @@
 ---
-title: Numpy贡献者指南
+title: NumPy贡献者指南
 sidebar: false
 ---
 

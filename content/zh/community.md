@@ -3,7 +3,7 @@ title: 社区
 sidebar: false
 ---
 
-Numby是一个社区驱动的开源项目，由一群十分多样化的[贡献者](/gallery/team.html)开发。 Numpy的领导层承诺要打造一个开放，包容，积极向上的社区。 请阅读 [ NumPy 行为准则](/code-of-conduct) 以了解如何用促进社区繁荣的方式与他人交流互动。
+Numby是一个社区驱动的开源项目，由一群十分多样化的[贡献者](/gallery/team.html)开发。 NumPy的领导层承诺要打造一个开放，包容，积极向上的社区。 请阅读 [ NumPy 行为准则](/code-of-conduct) 以了解如何用促进社区繁荣的方式与他人交流互动。
 
 我们提供多种交流渠道，可以用来学习知识、分享您的专业见解、或是与 NumPy 社区中的其他人联系。
 
@@ -15,7 +15,7 @@ Numby是一个社区驱动的开源项目，由一群十分多样化的[贡献�
 
 ### [NumPy 邮件列表](https://mail.python.org/mailman/listinfo/numpy-discussion)
 
-这个列表是较长形式讨论的主要讨论区，例如将新功能添加到Numpy，更改Numpy 路线图或是各种项目级的决策。 同时也是NumPy的公告区，例如releases，开发者会议，Sprints 或是会议演讲也在这个列表中。
+这个列表是较长形式讨论的主要讨论区，例如将新功能添加到NumPy，更改NumPy 路线图或是各种项目级的决策。 同时也是NumPy的公告区，例如releases，开发者会议，Sprints 或是会议演讲也在这个列表中。
 
 在这个列表上，请用包含引文回复的方式回复邮件列表(而不是另一个发送者)，并且不要回复摘要。 这个列表提供了一个可检索的 [归档](http://numpy-discussion.10968.n7.nabble.com/)。
 

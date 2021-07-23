@@ -117,7 +117,7 @@ NumPy 不依赖任何其他Python 包。 不过它依赖于一个快速线性代
 
 - 用pip安装的 NumPy，线性代数库是 OpenBLAS。 OpenBLAS 库包含在NumPy的轮子中。 这让轮子变得更大，而且如果用户安装了 (假设) SciPy，他们现在会在磁盘上有两份OpenBLAS 副本。
 
-- 在 conda 的默认频道中，NumPy 是用 Intel MKL 构建的。 MKL 是个单独的软件包，在安装Numpy时会将它安装到用户环境中。
+- 在 conda 的默认频道中，NumPy 是用 Intel MKL 构建的。 MKL 是个单独的软件包，在安装NumPy时会将它安装到用户环境中。
 
 - 在 conda-forge 通道中，NumPy 是用虚构的“BLAS”软件包构建的。 当用户从conda-forge安装NumPy时，BLAS 软件包就会与实际库一起安装 - 默认是OpenBLAS ，不过它也可以是 MKL (默认频道)，乃至是[BLIS](https://github.com/flame/blis) 或reference BLAS(Netlib的参考实现版本)。
 

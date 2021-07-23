@@ -46,7 +46,7 @@ sidebar: false
            attr="(**图表来源:** 从二元黑洞合并中观察引力波，ResearchGate 出版物)"
            attrlink="https://www. esearchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
 
-## Numpy 在引力波检测中的作用
+## NumPy 在引力波检测中的作用
 
 除了使用超级计算机暴力计算数值相对论之外，目前还无法使用任何其它技术计算黑洞合并发出的引力波。 LIGO 收集的数据量之大，就像无比微弱的引力波信号一样，令人难以置信。
 

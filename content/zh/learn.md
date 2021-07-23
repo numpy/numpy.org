@@ -5,7 +5,7 @@ sidebar: false
 
 有关 **官方NumPy文档**，请访问 [numpy.org/doc/stable](https://numpy.org/doc/stable)。
 
-## Numpy入门教程
+## NumPy入门教程
 
 您可以在[NumPy教程](https://numpy.org/numpy-tutorials)中找到 NumPy 社区的一套教程和教材。 本页面的目标是通过 NumPy 项目以 Jupyter Notebooks 的格式提供高质量的资源，用于自学和教学课程。 如果您有兴趣添加自己的内容，请查看 GitHub上的 [numpy-tutorials项目](https://github.com/numpy/numpy-tutorials) 。
 
@@ -52,7 +52,7 @@ sidebar: false
 
 * *Nicolas P. Rougier的*[100 NumPy练习题](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html)
 * * M. Scott Shell的*[NumPy 和 Scipy 介绍](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf)
-* *Stéfan van der Walt的*[Numpy Medkits](http://mentat.za.net/numpy/numpy_advanced_slides/)
+* *Stéfan van der Walt的*[NumPy Medkits](http://mentat.za.net/numpy/numpy_advanced_slides/)
 * [Python 中的 NumPy(进阶)](https://www.geeksforgeeks.org/numpy-python-set-2-advanced/)
 * [高级索引](https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm)
 * [使用NumPy进行机器学习和数据分析](https://www.machinelearningplus.com/python/numpy-tutorial-python-part2/)
@@ -61,7 +61,7 @@ sidebar: false
 
 * *Jake Vanderplas编写的*[Python 数据科学手册](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057)
 * *Wes McKinney的*[Python数据分析](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662)
-* *Robert Johansson的*[数值Python: 使用 Numpy、SciPy 和 Matplotlib 进行科学计算和数据科学应用](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459)
+* *Robert Johansson的*[数值Python: 使用 NumPy、SciPy 和 Matplotlib 进行科学计算和数据科学应用](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459)
 
 <i class="far fa-file-video"></i> **视频**
 
