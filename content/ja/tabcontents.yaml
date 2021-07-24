@@ -82,7 +82,7 @@ arraylibraries:
       url: https://xnd.io
     - 
       title: uarray
-      text: Python backend system that decouples API from implementation; unumpy provides a NumPy API.
+      text: APIを実装から切り離すPythonバックエンドシステム (unumpyはNumPy APIを提供しています)
       img: /images/content_images/arlib/uarray.png
       alttext: uarray
       url: https://uarray.org/en/latest/
