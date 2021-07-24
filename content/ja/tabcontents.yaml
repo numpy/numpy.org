@@ -40,33 +40,33 @@ arraylibraries:
       url: https://xarray.pydata.org/en/stable/index.html
     - 
       title: Sparse
-      text: NumPy-compatible sparse array library that integrates with Dask and SciPy's sparse linear algebra.
+      text: Dask と SciPy の疎行列の線形代数ライブラリを統合した、Numpy 互換の疎行列ライブラリ
       img: /images/content_images/arlib/sparse.png
       alttext: sparse
       url: https://sparse.pydata.org/en/latest/
     - 
       title: PyTorch
-      text: Deep learning framework that accelerates the path from research prototyping to production deployment.
+      text: 研究用のプロトタイピングから本番運用への展開を加速させる、深層学習フレームワーク
       img: /images/content_images/arlib/pytorch-logo-dark.svg
       alttext: PyTorch
       url: https://pytorch.org/
     - 
       title: TensorFlow
-      text: An end-to-end platform for machine learning to easily build and deploy ML powered applications.
+      text: 機械学習を利用したアプリケーションを簡単に構築・展開するための、エンド・ツー・エンドの機械学習プラットフォーム
       img: /images/content_images/arlib/tensorflow-logo.svg
       alttext: TensorFlow
       url: https://www.tensorflow.org
     - 
       title: MXNet
-      text: Deep learning framework suited for flexible research prototyping and production.
+      text: 柔軟や研究用のプロトタイピングから、実際の運用まで利用可能な深層学習フレームワーク
       img: /images/content_images/arlib/mxnet_logo.png
       alttext: MXNet
       url: https://mxnet.apache.org/
     - 
       title: Arrow
-      text: A cross-language development platform for columnar in-memory data and analytics.
+      text: 列型のインメモリーデータやその分析のための、複数の言語に対応した開発プラットフォーム
       img: /images/content_images/arlib/arrow.png
-      alttext: arrow
+      alttext: 矢
       url: https://github.com/apache/arrow
     - 
       title: xtensor
