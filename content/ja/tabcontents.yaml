@@ -88,7 +88,7 @@ arraylibraries:
       url: https://uarray.org/en/latest/
     - 
       title: tensorly
-      text: Tensor learning, algebra and backends to seamlessly use NumPy, MXNet, PyTorch, TensorFlow or CuPy.
+      text: Numpy、MXNet、PyTorch、TensorFlowまたはCupyをシームレスに使用するための、テンソル学習、テンソル代数、およびバックエンド。
       img: /images/content_images/arlib/tensorly.png
       alttext: tensorly
       url: http://tensorly.org/stable/home.html
@@ -97,7 +97,7 @@ scientificdomains:
     - 
       text: Pythonを使って働くほとんどの科学者はNumPyの力を利用しています。
     - 
-      text: "NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant."
+      text: "Numpy は C や Fortran のような言語の計算パフォーマンスを、Pythonにもたらします。 このパワーはNumPyのシンプルさから来ており、NumPyのソリューションは、多くの場合、明確でエレガントです。"
   librariesrow1:
     - 
       title: 量子コンピューティング
@@ -105,7 +105,7 @@ scientificdomains:
       img: /images/content_images/sc_dom_img/quantum_computing.svg
     - 
       title: 統計コンピューティング
-      alttext: A line graph with the line moving up.
+      alttext: 上に移動している、線グラフ
       img: /images/content_images/sc_dom_img/statistical_computing.svg
     - 
       title: 信号処理
@@ -145,7 +145,7 @@ scientificdomains:
       alttext: 試験管
       img: /images/content_images/sc_dom_img/chemistry.svg
     - 
-      title: Geoscience
+      title: 地球科学
       alttext: 地球
       img: /images/content_images/sc_dom_img/geoscience.svg
     - 
@@ -153,11 +153,11 @@ scientificdomains:
       alttext: 地図
       img: /images/content_images/sc_dom_img/GIS.svg
     - 
-      title: Architecture & Engineering
+      title: アーキテクチャとエンジニアリング
       alttext: マイクロプロセッサ開発ボード
       img: /images/content_images/sc_dom_img/robotics.svg
 datascience:
-  intro: "NumPy lies at the core of a rich ecosystem of data science libraries. A typical exploratory data science workflow might look like:"
+  intro: "Numpy は豊富なデータサイエンスライブラリのエコシステムの中核にあります。一般的なデータサイエンスのワークフローは次のようになります。"
   image1:
     - 
       img: /images/content_images/ds-landscape.png
