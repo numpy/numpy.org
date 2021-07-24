@@ -95,7 +95,7 @@ arraylibraries:
 scientificdomains:
   intro:
     - 
-      text: Nearly every scientist working in Python draws on the power of NumPy.
+      text: Pythonを使って働くほとんどの科学者はNumPyの力を利用しています。
     - 
       text: "NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant."
   librariesrow1:
@@ -138,23 +138,23 @@ scientificdomains:
       img: /images/content_images/sc_dom_img/bayesian_conference.svg
     - 
       title: 数学的分析
-      alttext: Four mathematical symbols.
+      alttext: ４つの数学記号
       img: /images/content_images/sc_dom_img/mathematical_analysis.svg
     - 
-      title: Chemistry
-      alttext: A test tube.
+      title: 化学
+      alttext: 試験管
       img: /images/content_images/sc_dom_img/chemistry.svg
     - 
       title: Geoscience
-      alttext: The Earth.
+      alttext: 地球
       img: /images/content_images/sc_dom_img/geoscience.svg
     - 
-      title: Geographic Processing
-      alttext: A map.
+      title: 地理情報処理
+      alttext: 地図
       img: /images/content_images/sc_dom_img/GIS.svg
     - 
       title: Architecture & Engineering
-      alttext: A microprocessor development board.
+      alttext: マイクロプロセッサ開発ボード
       img: /images/content_images/sc_dom_img/robotics.svg
 datascience:
   intro: "NumPy lies at the core of a rich ecosystem of data science libraries. A typical exploratory data science workflow might look like:"
@@ -170,7 +170,7 @@ datascience:
     - 
       text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org),[ Intake](https://intake.readthedocs.io),[PyJanitor](https://pyjanitor.readthedocs.io/)"
     - 
-      text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org),[Seaborn](https://seaborn.pydata.org),[ Matplotlib](https://matplotlib.org),[ Altair](https://altair-viz.github.io)"
+      text: "<b>探索的解析: </b>[Jupyter](https://jupyter.org),[Seaborn](https://seaborn.pydata.org),[ Matplotlib](https://matplotlib.org),[ Altair](https://altair-viz.github.io)"
     - 
       text: "<b>Model and evaluate: </b>[scikit-learn](https://scikit-learn.org),[ statsmodels](https://www.statsmodels.org/stable/index.html),[ PyMC3](https://docs.pymc.io),[ spaCy](https://spacy.io)"
     - 
@@ -183,7 +183,7 @@ visualization:
     - 
       url: https://www.fusioncharts.com/blog/best-python-data-visualization-libraries
       img: /images/content_images/v_matplotlib.png
-      alttext: A streamplot made in matplotlib
+      alttext: matplotlibで作られたストリームプロット
     - 
       url: https://github.com/yhat/ggpy
       img: /images/content_images/v_ggpy.png
