@@ -28,13 +28,13 @@ arraylibraries:
       url: https://cupy.chainer.org
     - 
       title: JAX
-      text: "Composable transformations of NumPy programs differentiate: vectorize, just-in-time compilation to GPU/TPU."
+      text: "NumPyプログラムの部分的な変換により、微分可能化、ベクトル化、GPU/TPUへのジャストインタイム・コンパイルを実現します。"
       img: /images/content_images/arlib/jax_logo_250px.png
       alttext: JAX
       url: https://github.com/google/jax
     - 
       title: Xarray
-      text: Labeled, indexed multi-dimensional arrays for advanced analytics and visualization
+      text: 高度な分析と視覚化のためのラベルとインデックス付き多次元配列
       img: /images/content_images/arlib/xarray.png
       alttext: xarray
       url: https://xarray.pydata.org/en/stable/index.html
