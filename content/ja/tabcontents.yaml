@@ -3,26 +3,26 @@ machinelearning:
   paras:
     - 
       para1: "NumPyは、[scikit-learn](https://scikit-learn.org)や[SciPy](https://www.scipy.org)のような強力な機械学習ライブラリの基礎を形成しています。機械学習の技術分野が成長するにつれ、NumPyをベースにしたライブラリの数も増えています。[TensorFlow](https://www.tensorflow.org)の深層学習機能は、音声認識や画像認識、テキストベースのアプリケーション、時系列分析、動画検出など、幅広い応用用途があります。[PyTorch](https://pytorch.org)も、コンピュータビジョンや自然言語処理の研究者に人気のある深層学習ライブラリです。[MXNet](https://github.com/apache/incubator-mxnet)もAIパッケージの一つで、深層学習の設計図やテンプレート機能を提供しています。\n\nwww.DeepL.com/Translator（無料版）で翻訳しました。"
-      para2: Statistical techniques called [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205) methods such as binning, bagging, stacking, and boosting are among the ML algorithms implemented by tools such as [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [CatBoost](https://catboost.ai) &mdash; one of the fastest inference engines. [Yellowbrick](https://www.scikit-yb.org/en/latest/) and [Eli5](https://eli5.readthedocs.io/en/latest/) offer machine learning visualizations.
+      para2: "[ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205)法と呼ばれる統計的手法であるビンニング、バギング、スタッキングや、[XGBoost](https://github.com/dmlc/xgboost)、[LightGBM](https://lightgbm.readthedocs.io/en/latest/)、[CatBoost](https://catboost.ai)などのツールで実装されているブースティングなどは、機械学習アルゴリズムの一つであり、最速の推論エンジンの一つです。[Yellowbrick](https://www.scikit-yb.org/en/latest/)や[Eli5](https://eli5.readthedocs.io/en/latest/)は機械学習の可視化機能を提供しています。\n\nwww.DeepL.com/Translator（無料版）で翻訳しました。"
 arraylibraries:
   intro:
     - 
-      text: NumPy's API is the starting point when libraries are written to exploit innovative hardware, create specialized array types, or add capabilities beyond what NumPy provides.
+      text: NumPyのAPIは、革新的なハードウェアを利用したり、特殊な配列タイプを作成したり、NumPyが提供する以上の機能を追加するためにライブラリを作成する際の基礎となります。
   headers:
     - 
       text: 配列ライブラリ
     - 
-      text: Capabilities & Application areas
+      text: 機能と応用分野
   libraries:
     - 
       title: Dask
-      text: Distributed arrays and advanced parallelism for analytics, enabling performance at scale.
+      text: 分析用の分散配列と高度な並列処理により、大規模な処理を可能にします。
       img: /images/content_images/arlib/dask.png
       alttext: Dask
       url: https://dask.org/
     - 
       title: CuPy
-      text: NumPy-compatible array library for GPU-accelerated computing with Python.
+      text: Python を使用した GPUによる高速計算用のNumPy互換配列ライブラリ
       img: /images/content_images/arlib/cupy.png
       alttext: CuPy
       url: https://cupy.chainer.org
