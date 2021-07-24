@@ -161,7 +161,7 @@ datascience:
   image1:
     - 
       img: /images/content_images/ds-landscape.png
-      alttext: Diagram of Python Libraries. The five catagories are 'Extract, Transform, Load', 'Data Exploration', 'Data Modeling', 'Data Evaluation' and 'Data Presentation'.
+      alttext: Python ライブラリの図 。5 つのカテゴリに分類され、「抽出、変換、読み込み」、「データ探索」、「モデリング」、「評価」、「可視化」です。
   image2:
     - 
       img: /images/content_images/data-science.png
