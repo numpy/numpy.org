@@ -70,13 +70,13 @@ arraylibraries:
       url: https://github.com/apache/arrow
     - 
       title: xtensor
-      text: Multi-dimensional arrays with broadcasting and lazy computing for numerical analysis.
+      text: 数値解析のためのブロードキャスティングと遅延計算による多次元配列
       img: /images/content_images/case_studies/xtensor.png
       alttext: xtensor
       url: https://github.com/xtensor-stack/xtensor-python
     - 
       title: XND
-      text: Develop libraries for array computing, recreating NumPy's foundational concepts.
+      text: NumPyの基本的なコンセプトを再現した、配列計算用のライブラリを開発する。
       img: /images/content_images/arlib/xnd.png
       alttext: xnd
       url: https://xnd.io
@@ -187,15 +187,15 @@ visualization:
     - 
       url: https://github.com/yhat/ggpy
       img: /images/content_images/v_ggpy.png
-      alttext: A scatter-plot graph made in ggpy
+      alttext: ggpyで作られた散布図グラフ
     - 
       url: https://www.journaldev.com/19692/python-plotly-tutorial
       img: /images/content_images/v_plotly.png
-      alttext: A box-plot made in plotly
+      alttext: plotyで作られた箱ひげ図
     - 
-      url: https://altair-viz.github.io/gallery/streamgraph.html
+      url: https://alta-viz.github.io/gallery/streamgraph.html
       img: /images/content_images/v_altair.png
-      alttext: A streamgraph made in altair
+      alttext: altairで作られたストリームグラフ
     - 
       url: https://seaborn.pydata.org
       img: /images/content_images/v_seaborn.png
@@ -203,7 +203,7 @@ visualization:
     - 
       url: https://docs.pyvista.org/examples/index.html
       img: /images/content_images/v_pyvista.png
-      alttext: A 3D volume rendering made in PyVista.
+      alttext: PyVista製の3Dボリュームレンダリング
     - 
       url: https://napari.org
       img: /images/content_images/v_napari.png
@@ -216,4 +216,4 @@ visualization:
     - 
       text: NumPyは、[Matplotlib](https://matplotlib.org)、[Seaborn](https://seaborn.pydata.org)、[Plotly](https://plot.ly)、[Altair](https://altair-viz.github.io)、[Bokeh](https://docs.bokeh.org/en/latest/)、[Holoviz](https://holoviz.org)、[Vispy](http://vispy.org)、[Napari](https://github.com/napari/napari)、[PyVista](https://github.com/pyvista/pyvista)などの、急成長している[Python visualization landscape](https://pyviz.org/overviews/index.html)に欠かせないコンポーネントです。
     - 
-      text: NumPy's accelerated processing of large arrays allows researchers to visualize datasets far larger than native Python could handle.
+      text: NumPy の大規模配列の高速処理により、研究者はネイティブの Python が扱うことができるよりも、はるかに大きなデータセットを可視化することができます。
