@@ -2,7 +2,7 @@
 machinelearning:
   paras:
     - 
-      para1: NumPy forms the basis of powerful machine learning libraries like [scikit-learn](https://scikit-learn.org) and [SciPy](https://www.scipy.org). As machine learning grows, so does the list of libraries built on NumPy. [TensorFlow’s](https://www.tensorflow.org) deep learning capabilities have broad applications &mdash; among them speech and image recognition, text-based applications, time-series analysis, and video detection. [PyTorch](https://pytorch.org), another deep learning library, is popular among researchers in computer vision and natural language processing. [MXNet](https://github.com/apache/incubator-mxnet) is another AI package, providing blueprints and templates for deep learning.
+      para1: "NumPyは、[scikit-learn](https://scikit-learn.org)や[SciPy](https://www.scipy.org)のような強力な機械学習ライブラリの基礎を形成しています。機械学習の技術分野が成長するにつれ、NumPyをベースにしたライブラリの数も増えています。[TensorFlow](https://www.tensorflow.org)の深層学習機能は、音声認識や画像認識、テキストベースのアプリケーション、時系列分析、動画検出など、幅広い応用用途があります。[PyTorch](https://pytorch.org)も、コンピュータビジョンや自然言語処理の研究者に人気のある深層学習ライブラリです。[MXNet](https://github.com/apache/incubator-mxnet)もAIパッケージの一つで、深層学習の設計図やテンプレート機能を提供しています。\n\nwww.DeepL.com/Translator（無料版）で翻訳しました。"
       para2: Statistical techniques called [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205) methods such as binning, bagging, stacking, and boosting are among the ML algorithms implemented by tools such as [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [CatBoost](https://catboost.ai) &mdash; one of the fastest inference engines. [Yellowbrick](https://www.scikit-yb.org/en/latest/) and [Eli5](https://eli5.readthedocs.io/en/latest/) offer machine learning visualizations.
 arraylibraries:
   intro:
@@ -10,7 +10,7 @@ arraylibraries:
       text: NumPy's API is the starting point when libraries are written to exploit innovative hardware, create specialized array types, or add capabilities beyond what NumPy provides.
   headers:
     - 
-      text: Array Library
+      text: 配列ライブラリ
     - 
       text: Capabilities & Application areas
   libraries:
