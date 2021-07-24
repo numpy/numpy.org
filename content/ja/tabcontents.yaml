@@ -2,8 +2,8 @@
 machinelearning:
   paras:
     - 
-      para1: "NumPyは、[scikit-learn](https://scikit-learn.org)や[SciPy](https://www.scipy.org)のような強力な機械学習ライブラリの基礎を形成しています。機械学習の技術分野が成長するにつれ、NumPyをベースにしたライブラリの数も増えています。[TensorFlow](https://www.tensorflow.org)の深層学習機能は、音声認識や画像認識、テキストベースのアプリケーション、時系列分析、動画検出など、幅広い応用用途があります。[PyTorch](https://pytorch.org)も、コンピュータビジョンや自然言語処理の研究者に人気のある深層学習ライブラリです。[MXNet](https://github.com/apache/incubator-mxnet)もAIパッケージの一つで、深層学習の設計図やテンプレート機能を提供しています。\n\nwww.DeepL.com/Translator（無料版）で翻訳しました。"
-      para2: "[ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205)法と呼ばれる統計的手法であるビンニング、バギング、スタッキングや、[XGBoost](https://github.com/dmlc/xgboost)、[LightGBM](https://lightgbm.readthedocs.io/en/latest/)、[CatBoost](https://catboost.ai)などのツールで実装されているブースティングなどは、機械学習アルゴリズムの一つであり、最速の推論エンジンの一つです。[Yellowbrick](https://www.scikit-yb.org/en/latest/)や[Eli5](https://eli5.readthedocs.io/en/latest/)は機械学習の可視化機能を提供しています。\n\nwww.DeepL.com/Translator（無料版）で翻訳しました。"
+      para1: NumPyは、[scikit-learn](https://scikit-learn.org)や[SciPy](https://www.scipy.org)のような強力な機械学習ライブラリの基礎を形成しています。機械学習の技術分野が成長するにつれ、NumPyをベースにしたライブラリの数も増えています。[TensorFlow](https://www.tensorflow.org)の深層学習機能は、音声認識や画像認識、テキストベースのアプリケーション、時系列分析、動画検出など、幅広い応用用途があります。[PyTorch](https://pytorch.org)も、コンピュータビジョンや自然言語処理の研究者に人気のある深層学習ライブラリです。[MXNet](https://github.com/apache/incubator-mxnet)もAIパッケージの一つで、深層学習の設計図やテンプレート機能を提供しています。
+      para2: '[ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205)法と呼ばれる統計的手法であるビンニング、バギング、スタッキングや、[XGBoost](https://github.com/dmlc/xgboost)、[LightGBM](https://lightgbm.readthedocs.io/en/latest/)、[CatBoost](https://catboost.ai)などのツールで実装されているブースティングなどは、機械学習アルゴリズムの一つであり、最速の推論エンジンの一つです。[Yellowbrick](https://www.scikit-yb.org/en/latest/)や[Eli5](https://eli5.readthedocs.io/en/latest/)は機械学習の可視化機能を提供しています。'
 arraylibraries:
   intro:
     - 
@@ -71,7 +71,7 @@ arraylibraries:
     - 
       title: xtensor
       text: Multi-dimensional arrays with broadcasting and lazy computing for numerical analysis.
-      img: /images/content_images/arlib/xtensor.png
+      img: /images/content_images/case_studies/xtensor.png
       alttext: xtensor
       url: https://github.com/xtensor-stack/xtensor-python
     - 
@@ -100,44 +100,44 @@ scientificdomains:
       text: "NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant."
   librariesrow1:
     - 
-      title: Quantum Computing
-      alttext: A computer chip.
+      title: 量子コンピューティング
+      alttext: コンピューターチップ
       img: /images/content_images/sc_dom_img/quantum_computing.svg
     - 
-      title: Statistical Computing
+      title: 統計コンピューティング
       alttext: A line graph with the line moving up.
       img: /images/content_images/sc_dom_img/statistical_computing.svg
     - 
-      title: Signal Processing
-      alttext: A bar chart with positive and negative values.
+      title: 信号処理
+      alttext: 正と負の値を持つ棒グラフ。
       img: /images/content_images/sc_dom_img/signal_processing.svg
     - 
-      title: Image Processing
-      alttext: An photograph of the mountains.
+      title: 画像処理
+      alttext: 山々の写真。
       img: /images/content_images/sc_dom_img/image_processing.svg
     - 
-      title: Graphs and Networks
-      alttext: A simple graph.
+      title: グラフとネットワーク
+      alttext: シンプルなグラフ
       img: /images/content_images/sc_dom_img/sd6.svg
     - 
-      title: Astronomy Processes
-      alttext: A telescope.
-      img: /images/content_images/sc_dom_img/astronomy_processes.svg
+      title: 天文学における計算
+      alttext: 望遠鏡。
+      img: /images/content_images/sc_dom_img/天文学_processes.svg
     - 
-      title: Cognitive Psychology
-      alttext: A human head with gears.
-      img: /images/content_images/sc_dom_img/cognitive_psychology.svg
+      title: 認知心理学
+      alttext: ギアをつけた人間の頭部
+      img: /images/content_images/sc_dom_img/cognitive_personicy.svg
   librariesrow2:
     - 
-      title: Bioinformatics
-      alttext: A strand of DNA.
+      title: 生命情報科学
+      alttext: DNAの鎖
       img: /images/content_images/sc_dom_img/bioinformatics.svg
     - 
-      title: Bayesian Inference
-      alttext: A graph with a bell-shaped curve.
-      img: /images/content_images/sc_dom_img/bayesian_inference.svg
+      title: ベイズ推論
+      alttext: 鐘形の曲線のグラフ
+      img: /images/content_images/sc_dom_img/bayesian_conference.svg
     - 
-      title: Mathematical Analysis
+      title: 数学的分析
       alttext: Four mathematical symbols.
       img: /images/content_images/sc_dom_img/mathematical_analysis.svg
     - 
@@ -207,13 +207,13 @@ visualization:
     - 
       url: https://napari.org
       img: /images/content_images/v_napari.png
-      alttext: A multi-dimensionan image made in napari.
+      alttext: ナパリで作られた多次元画像
     - 
       url: http://vispy.org/gallery.html
       img: /images/content_images/v_vispy.png
-      alttext: A Voronoi diagram made in vispy.
+      alttext: vispyで作られたボロノイ図
   content:
     - 
-      text: NumPy is an essential component in the burgeoning [Python visualization landscape](https://pyviz.org/overviews/index.html), which includes [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), and [PyVista](https://github.com/pyvista/pyvista), to name a few.
+      text: NumPyは、[Matplotlib](https://matplotlib.org)、[Seaborn](https://seaborn.pydata.org)、[Plotly](https://plot.ly)、[Altair](https://altair-viz.github.io)、[Bokeh](https://docs.bokeh.org/en/latest/)、[Holoviz](https://holoviz.org)、[Vispy](http://vispy.org)、[Napari](https://github.com/napari/napari)、[PyVista](https://github.com/pyvista/pyvista)などの、急成長している[Python visualization landscape](https://pyviz.org/overviews/index.html)に欠かせないコンポーネントです。
     - 
       text: NumPy's accelerated processing of large arrays allows researchers to visualize datasets far larger than native Python could handle.
