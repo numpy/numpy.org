@@ -17,16 +17,16 @@ _2021年7月12日_ -- NumPy ではコミュニティの力を信じています�
 _2021年1月23日_ -- [Numpy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) が利用可能になりました。 今回のリリースのハイライトは次のとおりです。
 
 - より多くの機能やプラットフォームをカバーするSIMD関連の作業が継続されました。
-- initial work on the new dtype infrastructure and casting,
-- universal2 wheels for Python 3.8 and Python 3.9 on Mac,
-- improved documentation,
-- improved annotations,
-- new `PCG64DXSM` bitgenerator for random numbers.
+- 新しいdtypeインフラとキャストの初期作業
+- mac 版の Python 3.8 と Python 3.9 用 universal2 wheels
+- ドキュメントの改善
+- アノテーションの改善
+- 乱数生成用の新しい `PCG64DXSM` ビット生成機
 
-This NumPy release is the result of 581 merged pull requests contributed by 175 people. The Python versions supported for this release are 3.7-3.9, support for Python 3.10 will be added after Python 3.10 is released.
+今回のNumpy リリースは、175人が貢献した581件のプルリクエストのマージの結果です。 このリリースでサポートされている Python のバージョンは 3.7-3.9 です。Python 3.10 がリリースされた後、Python 3.10 のサポートが追加されます。
 
 
-### Natureに初の公式NumPy論文が掲載されました!
+### 2020年度 NumPy アンケート結果
 
 _Jun 22, 2021_ -- In 2020, the NumPy survey team in partnership with students and faculty from the University of Michigan and the University of Maryland conducted the first official NumPy community survey. Find the survey results here: https://numpy.org/user-survey-2020/.
 
