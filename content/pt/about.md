@@ -56,13 +56,13 @@ Veja a página de [Times](/gallery/team.html) para membros individuais de cada t
 - Sebastian Berg
 - Membro externo: Thomas Caswell
 
-## Parceiros Institucionais
+## Patrocinadores
 
 O NumPy recebe financiamento direto das seguintes fontes:
 {{< sponsors >}}
 
 
-## Doações
+## Parceiros Institucionais
 
 Os Parceiros Institucionais são organizações que apoiam o projeto, empregando pessoas que contribuem para a NumPy como parte de seu trabalho. Os parceiros institucionais atuais incluem:
 
