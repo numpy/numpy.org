@@ -18,28 +18,28 @@ params:
     image: logos/numpy.svg
   #Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
-    title: 2021 NumPy survey
-    content: Your voice matters
+    title: 2021 Numpy调查
+    content: 您的意见很重要
     url: /news
   shell:
     title: 占位符
-    promptlabel: interactive shell prompt
+    promptlabel: 交互式shell提示
     button:
       - 
-        label: Enables the interactive tutorial shell
-        text: Enable
+        label: 启用交互式教程shell。
+        text: 启用
   shellcontent:
     intro:
       - 
-        title: Try NumPy
-        text: Enable the interactive shell
+        title: 尝试使用NumPy
+        text: 启用交互式教程shell。
     loading:
       - 
-        title: While we wait...
-        text: Launching container on mybinder.org...
-    docslink: Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a>.
+        title: 当我们等待时...
+        text: 正在前往 mybinder.org 启动容器...
+    docslink: 别忘了查看 <a href="https://numpy.org/doc/stable" target="_blank">用户手册</a>。
   casestudies:
-    title: CASE STUDIES
+    title: 案例研究
     features:
       - 
         title: 第一张黑洞图像
@@ -63,27 +63,27 @@ params:
         title: 使用深度学习进行估计
         text: DeepLabCut 使用 NumPy 来加速进行涉及观察动物行为的科学研究，以便跨物种和时间尺度推动研究发展。
         img: /images/content_images/case_studies/deeplabcut.png
-        alttext: Cheetah pose analysis
+        alttext: 猎豹姿势分析
         url: /case-studies/deeplabcut-dnn
   keyfeatures:
     features:
       - 
         title: 强大的高维数组
-        text: Fast and versatile, the NumPy vectorization, indexing, and broadcasting concepts are the de-facto standards of array computing today.
+        text: 快速、多面性、NumPy向量化、索引化和广播概念是当今数组计算的事实标准。
       - 
         title: 数字计算工具
-        text: NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
+        text: NumPy 提供了丰富全面的数学函数、随机数生成器、线性代数函数、傅式变换等等。
       - 
-        title: Interoperable
-        text: NumPy supports a wide range of hardware and computing platforms, and plays well with distributed, GPU, and sparse array libraries.
+        title: 互操作性
+        text: NumPy 支持范围广泛的硬件和计算平台，并且在分布式、GPU和稀疏数组库中也能得到很好的应用。
       - 
-        title: Performant
-        text: The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
+        title: 高性能
+        text: NumPy 的核心是高度优化的 C 代码，同时兼顾了Python语言的灵活性和编译代码的高性能。
       - 
-        title: Easy to use
-        text: NumPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
+        title: 简单易用
+        text: NumPy的高度模块化的语法使得任何背景或经验级别的程序员都能够快速上手。
       - 
-        title: Open source
+        title: 开放源代码
         text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/community).
   tabs:
     title: ECOSYSTEM
