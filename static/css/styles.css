@@ -1,5 +1,5 @@
 /* NumPy Color Palette */
-/* #FFC553 Mustard */
+/* rgb(255, 197, 83) Mustard */
 /* #4DABCF Maximum Blue */
 /* #4D77CF Han Blue */
 /* #FFFFFF White */
@@ -12,7 +12,7 @@ body {
 }
 
 em {
-    color: black !important;
+    color: rgb(0,0,0) !important;
 }
 
 .flex-row {
@@ -58,7 +58,7 @@ em {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 6em;
-    color: #013243;
+    color: rgb(1, 50, 67);
 }
 
 .hero-logo {
