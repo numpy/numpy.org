@@ -24,16 +24,25 @@ git submodule update --init
 The development web server is started with:
 
 ```bash
+make hugo
 hugo server
 ```
 
 or
 
 ```bash
+make hugo
 hugo server -D
 ```
 
 to run the hugo server with draft enabled.
+
+If you don't have `make` available (e.g., on Windows), use this instead:
+```bash
+python gen_config.py
+hugo
+hugo server
+```
 
 after which the site should be served at http://localhost:1313.
 
@@ -50,19 +59,20 @@ if you don't have the Hugo extended version.
 
 ### NumPy Color Palette
 
-![#013243 Warm Black](./static/images/content_images/swatch_013243_warm_black.png) `#013243` **Warm Black**
+![#013243 Warm Black](./static/images/content_images/swatch_013243_warm_black.png) `RGB 1/50/67 | HEX #013243`
 
-![#4D77CF Han Blue](./static/images/content_images/swatch_4D77CF_han_blue.png) `#4D77CF` **Han Blue**
+![#4D77CF Han Blue](./static/images/content_images/swatch_4D77CF_han_blue.png) `RGB 77/119/207 | HEX #4D77CF`
 
-![#4DABCF Maximum Blue](./static/images/content_images/swatch_4DABCF_maximum_blue.png) `#4DABCF` **Maximum Blue**
+![#4DABCF Maximum Blue](./static/images/content_images/swatch_4DABCF_maximum_blue.png) `RGB 77/171/207 | HEX #4DABCF`
 
-![#6C7A89 Aurometalsaurus](./static/images/content_images/swatch_6C7A89_aurometalsaurus.png) `#6C7A89` **Aurometalsaurus**
+![#6C7A89 Aurometalsaurus](./static/images/content_images/swatch_6C7A89_aurometalsaurus.png) `RGB 108/122/137 | HEX #6C7A89`
 
-![#EEEEEE Isabelline](./static/images/content_images/swatch_EEEEEE_isabelline.png) `#EEEEEE` **Isabelline**
+![#EEEEEE Isabelline](./static/images/content_images/swatch_EEEEEE_isabelline.png) `RGB 238/238/238 | HEX #EEEEEE`
 
-![#FFC553 Mustard](./static/images/content_images/swatch_FFC553_mustard.png) `#FFC553` **Mustard**
+![#FFC553 Mustard](./static/images/content_images/swatch_FFC553_mustard.png) `RGB 255/197/83 | HEX #FFC553`
 
-![#FFFFFF White](./static/images/content_images/swatch_FFFFFF_white.png) `#FFFFFF` **White**
+![#FFFFFF White](./static/images/content_images/swatch_FFFFFF_white.png) `RGB 255/255/255 | HEX #FFFFFF`
+
 
 ## Deployment
 

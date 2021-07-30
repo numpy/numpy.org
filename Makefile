@@ -25,6 +25,7 @@ public: ## create a worktree branch in the public directory
 	rm -rf public/*
 
 html: public ## build the website in ./public
+	python gen_config.py
 	hugo $(BASEURLARG)
 	touch public/.nojekyll
 
@@ -40,6 +41,9 @@ deploy: public/.nojekyll ## push the built site to the gh-pages of this repo
 	@echo pushint to $(TARGET) gh-pages
 	git push $(TARGET) gh-pages
 
+hugo: ## for local development
+	python gen_config.py
+	hugo $(BASEURLARG)
 
 # Add help text after each target name starting with '\#\#'
 help:   ## Show this help.

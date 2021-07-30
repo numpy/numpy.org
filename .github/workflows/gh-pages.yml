@@ -14,6 +14,10 @@ jobs:
         uses: actions/checkout@master
         with:
           submodules: true
+      - name: Setup Python
+        uses: actions/setup-python@v2
+      - name: Generate config.yaml
+        run: python gen_config.py
       - name: Publish Site
         uses: chabad360/hugo-gh-pages@master
         with:
@@ -21,4 +25,4 @@ jobs:
           branch: master
           cname: numpy.org
           repo: numpy/numpy.github.com
-          hugoVersion: extended_0.74.3 # Locked version, see issue #363
+          hugoVersion: extended_0.82.0 # Locked version, see issue #363

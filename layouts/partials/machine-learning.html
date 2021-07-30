@@ -1,9 +1,12 @@
 <!-- Machine Learning Tab Content -->
+{{- $machinelearning := .Site.Params.machinelearning }}
+{{- $paras := index $machinelearning "paras" }}
+{{- range $paras }}
 <li class="machine-learning">
     <div class="grid-container">
         <div class="animation-holder">
             <a href="https://ai.googleblog.com/2016/12/open-sourcing-embedding-projector-tool.html">
-                <img src="images/content_images/ml_img/tensorflow-ml-anim.gif" alt="An animated gif showing a three-dimensional graph of embeddings made in Tensorflow." align="middle" class="animation-img">
+                <img src="/images/content_images/ml_img/tensorflow-ml-anim.gif" alt="An animated gif showing a three-dimensional graph of embeddings made in Tensorflow." align="middle" class="animation-img">
             </a>
             <p>
                 <i style="font-size:80%;">
@@ -13,41 +16,16 @@
         </div>
         <div>
             <p>
-                NumPy forms the basis of powerful machine learning libraries
-                like
-                <a href="https://scikit-learn.org">scikit-learn</a> and
-                <a href="https://www.scipy.org">SciPy</a>.
-                As machine learning grows, so does the
-                list of libraries built on NumPy.
-                <a href="https://www.tensorflow.org">TensorFlow’s</a>
-                deep learning capabilities have broad
-                applications &mdash; among them speech and image recognition, text-based
-                applications, time-series analysis, and video detection.
-                <a href="https://pytorch.org">PyTorch</a>, another deep
-                learning library, is popular among researchers in
-                computer vision and natural language processing.
-                <a href="https://github.com/apache/incubator-mxnet">MXNet</a>
-                is another AI package, providing blueprints and
-                templates for deep learning.
+                {{ .para1 | markdownify }}
             </p>
         </div>
     </div>
     <div>
         <div>
             <p>
-                Statistical techniques called
-                <a href="https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205">ensemble</a>
-                methods such as binning,
-                bagging, stacking, and boosting are among the ML
-                algorithms implemented by tools such as
-                <a href="https://github.com/dmlc/xgboost">XGBoost</a>,
-                <a href="https://lightgbm.readthedocs.io/en/latest/">LightGBM</a>, and
-                <a href="https://catboost.ai">CatBoost</a> &mdash; one of the
-                fastest inference engines.
-                <a href="https://www.scikit-yb.org/en/latest/">Yellowbrick</a> and
-                <a href="https://eli5.readthedocs.io/en/latest/">Eli5</a>
-                offer machine learning visualizations.
+                {{ .para2 | markdownify }}
             </p>
         </div>
     </div>
 </li>
+{{- end }}

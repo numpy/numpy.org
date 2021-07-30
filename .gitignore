@@ -1,5 +1,6 @@
 public/
 resources/
+config.yaml
 
 *.swp
 *.pyd

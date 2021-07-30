@@ -1,60 +1,46 @@
 <!-- Data Science Tab Content -->
+{{- $datascience := .Site.Params.datascience }}
+{{- $intro := index $datascience "intro" }}
+{{- $content := index $datascience "content" }}
+{{- $examples := index $datascience "examples" }}
+{{- $image1 := index $datascience "image1" }}
+{{- $image2 := index $datascience "image2" }}
 <li class="data-science">
     <div class="grid-container">
         <div>
-            <a href="images/content_images/ds-landscape.png" target="_blank">
-            <img src="images/content_images/ds-landscape.png" alt="Diagram of Python Libraries. The five catagories are 'Extract, Transform, Load', 'Data Exploration', 'Data Modeling', 'Data Evaluation' and 'Data Presentation'." align="left">
-            </a>
+            {{- range $image1 }}
+                <a href="{{ .img }}" target="_blank">
+                <img src="{{ .img }}" alt="{{ .alttext }}" align="left">
+                </a>
+            {{- end }}
         </div>
         <div>
             <p>
-                NumPy lies at the core of a rich ecosystem of data science libraries.
-                A typical exploratory data science workflow might look like:
+                {{ $intro }}
 
                 <ul class="content-tab">
-                    <li><b>Extract, Transform, Load: </b>
-                        <a href="https://pandas.pydata.org">Pandas</a>,
-                        <a href="https://intake.readthedocs.io"> Intake</a>,
-                        <a href="https://pyjanitor.readthedocs.io/">PyJanitor</a>
-                    </li>
-
-                    <li><b>Exploratory analysis: </b>
-                        <a href="https://jupyter.org">Jupyter</a>,
-                        <a href="https://seaborn.pydata.org"> Seaborn</a>,
-                        <a href="https://matplotlib.org"> Matplotlib</a>,
-                        <a href="https://altair-viz.github.io"> Altair</a>
-
-                    </li>
-
-                    <li><b>Model and evaluate: </b>
-                        <a href="https://scikit-learn.org">scikit-learn</a>,
-                        <a href="https://www.statsmodels.org/stable/index.html"> statsmodels</a>,
-                        <a href="https://docs.pymc.io"> PyMC3</a>,
-                        <a href="https://spacy.io"> spaCy</a>
-                    </li>
-
-                    <li><b>Report in a dashboard: </b>
-                        <a href="https://plotly.com/dash">Dash</a>,
-                        <a href="https://panel.holoviz.org"> Panel</a>,
-                        <a href="https://github.com/voila-dashboards/voila"> Voila</a>
-                    </li>
+                    {{- range $examples }}
+                        <li>{{ .text | markdownify }}</li>
+                    {{- end }}
                 </ul>
             </p>
         </div>
     </div>
     <div class="grid-container">
         <div>
-            <p></p><p>
-                For high data volumes, <a href="https://dask.org">Dask</a> and
-                <a href="https://ray.io/">Ray</a> are designed to scale. Stable
-                deployments rely on data versioning (<a href="https://dvc.org">DVC</a>),
-                experiment tracking (<a href="https://mlflow.org">MLFlow</a>), and
-                workflow automation (<a href="https://airflow.apache.org">Airflow</a> and
-                <a href="https://www.prefect.io">Prefect</a>).</p>
+            <p></p>
+            {{- range $content }}
+            <p>
+                {{ .text | markdownify }}
+            </p>
+            {{- end }}
             </p>
         </div>
         <div>
-            <img src="images/content_images/data-science.png" alt="Diagram of three overlapping circle. The circles labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'." align="centre" width="75%">
+        {{- range $image2 }}
+            <img src="{{ .img }}" alt="{{ .alttext }}" align="centre" width="75%">
+            </a>
+        {{- end }}
         </div>
     </div>
 </li>

@@ -14,10 +14,10 @@
 }
 
 .keyfeatures-box-content {
-    height: 175px;
+    height: 200px;
     min-width: 275px;
-    width: 325px;
-    margin: 15px auto;
+    width: 335px;
+    margin: 25px auto;
     border-radius: 3px;
 }
 
@@ -32,8 +32,21 @@
 }
 
 .keyfeatures-box-text {
-    margin: 15px 15px;
+    margin: 15px;
     font-size: 14px;
+    height: 6em;
+    overflow: hidden;
+}
+
+.keyfeatures-box-text:after {
+    content: "";
+    text-align: right;
+    position: absolute;
+    bottom:30px;
+    right: 0;
+    width: 70%;
+    height: 1.2em;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
 }
 
 .keyfeatures-box-content:hover > .keyfeatures-box-text, .keyfeatures-box-content:focus > .keyfeatures-box-text, .keyfeatures-box-content:active > .keyfeatures-box-text {

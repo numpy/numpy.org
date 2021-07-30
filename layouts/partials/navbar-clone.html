@@ -78,13 +78,13 @@
         </a>
         {{- end }}
         {{- end }}
-        <!-- {{- if .IsTranslated }}
+        {{- if .IsTranslated }}
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">{{ .Language.LanguageName }}</a>
               <div class="navbar-dropdown">
               {{- range .Translations }}
 
-              <a href="{{ .Permalink }}" id="navbar-item" class="navbar-item">
+              <a href="{{ .RelPermalink }}" id="navbar-item" class="navbar-item">
                 {{ .Language.LanguageName }}
               </a>
 
@@ -96,7 +96,7 @@
               </a>
               </div>
             </div>
-        {{- end }} -->
+        {{- end }}
       </div>
     </div>
 </div>

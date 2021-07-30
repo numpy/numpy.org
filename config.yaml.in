@@ -1,0 +1,46 @@
+baseURL: https://numpy.org/
+languageCode: en-us
+theme: hugo-fresh
+disableKinds: ["taxonomyTerm"]
+googleAnalytics: UA-162151853-1
+DefaultContentLanguage: en
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Uncomment this to disable the translations for the specified languages.
+# This may be useful to be able to merge partial translations without deploying
+# them to numpy.org immediately.
+disableLanguages: ["pt", "ja"]
+
+params:
+  images:
+  - /images/logos/numpy.svg
+  navColor: blue
+  font:
+    name: "Lato"
+    sizes: [400,900]
+languages:
+  en:
+    title: NumPy
+    weight: 1
+    contentDir: content/en
+    < content/en/config.yaml >
+    < content/en/tabcontents.yaml >
+  
+  # Portuguese
+  pt:
+    title: NumPy
+    weight: 2
+    contentDir: content/pt
+    < content/pt/config.yaml >
+    < content/pt/tabcontents.yaml >
+
+  # Japanese
+  ja:
+    title: NumPy
+    weight: 3
+    contentDir: content/ja
+    < content/ja/config.yaml >
+    < content/ja/tabcontents.yaml >
