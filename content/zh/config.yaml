@@ -102,10 +102,10 @@ navbar:
     title: 社区
     url: /community
   - 
-    title: About Us
+    title: 关于我们
     url: /about
   - 
-    title: Contribute
+    title: 参与贡献
     url: /contribute
 footer:
   logo: numpy.svg
@@ -116,25 +116,25 @@ footer:
       icon: github
     - 
       link: https://twitter.com/numpy_team
-      icon: twitter
+      icon: 推特
   quicklinks:
     column1:
       title: ""
       links:
         - 
-          text: Install
+          text: 安装
           link: /install
         - 
-          text: Documentation
+          text: 文档
           link: https://numpy.org/doc/stable
         - 
-          text: Learn
+          text: 学习指南
           link: /learn
         - 
-          text: Citing Numpy
+          text: 引用 NumPy
           link: /citing-numpy
         - 
-          text: Roadmap
+          text: 版本规划
           link: https://numpy.org/neps/roadmap.html
     column2:
       links:
