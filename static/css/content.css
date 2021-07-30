@@ -35,7 +35,7 @@
 }
 
 .content-container .divider {
-    background: #013243;
+    background: rgb(1, 50, 67);
 }
 
 .content-container h2 {
@@ -61,7 +61,7 @@
 
 #shortcuts {
     margin-top: 10px;
-    border-left: 1px solid #013243;
+    border-left: 1px solid rgb(1, 50, 67);
 }
 
 .shortcuts-H2 {
