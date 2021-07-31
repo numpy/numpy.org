@@ -1,18 +1,18 @@
 /* NumPy Color Palette */
-/* rgb(255, 197, 83) Mustard */
-/* #4DABCF Maximum Blue */
-/* #4D77CF Han Blue */
-/* #FFFFFF White */
-/* #EEEEEE Isabelline */
-/* #6C7A89 Aurometalsaurus */
-/* #013243 Warm Black */
+/* rgb(255, 197, 83)   */
+/* rgb(77, 171, 207)   */
+/* rgb(77, 119, 207)   */
+/* rgb(255, 255, 255)  */
+/* rgb(238, 238, 238)  */
+/* rgb(108, 122, 137)  */
+/* rgb(1, 50, 67)      */
 
 body {
     font-family: 'Lato', sans-serif;
 }
 
 em {
-    color: rgb(0 , 0, 0) !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .flex-row {
