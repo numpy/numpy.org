@@ -86,7 +86,7 @@
 
 .image-grid > div {
     background-color: rgb(238, 238, 238);
-    border: 2px solid rgb(255,255,255);
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
     padding: 10px;
 }
@@ -102,7 +102,7 @@ td > a {
 }
 
 tr.highlight-th {
-    border-top: 1px solid rgb(238,238,238);
+    border-top: 1px solid rgb(238, 238, 238);
     font-size: 0.8rem;
 }
 
@@ -134,7 +134,7 @@ td.full-center-text {
 td.lastrow-center-text {
     text-align: center;
     line-height: 35%;
-    border-bottom: 1px solid #EEEEEE;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 /* Array Libraries */
