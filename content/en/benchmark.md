@@ -1,20 +1,123 @@
 # NumPy Benchmarking
 
-
 ![output-modify-2-new](https://user-images.githubusercontent.com/62256509/127653679-5151e22d-d141-4621-abb9-b3e6dd7988b7.jpg)
 
+These benchmarks are run with an Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz.
+
+## Introduction
+
+## Objective
+
+- Why did you choose to benchmark? (you can link relevant GitHub issue here, if reqd)
+- Important to understand how NumPy performs with other relevant and commonly used libraries in the community.
+
+## Why N-Body Problem for Benchmarking?
+
+The scope of N-body problem takes us to scientific computations involving many processes in a single problem. The aim of this benchmarking is to understand how different libraries perform compared to NumPy and while there can be several problems which can be picked up, but N-body problem is one of the problems which are universally accepted in the community and easy to understand (comparatively).
+
+As mentioned above, N-Body problem comprises of several numerical computations which are helpful in benchmarking tasks, for an example: computing distances, velocities and accelerations involve various arithmetical operations.
+
+## About N-Body Problem
+
+N-Body problem is the system of n-particles in space where the task is to evaluate the motion of each individual particles. The task becomes more interesting when there are several other factors to consider while evaluating the motion of those particles.
+
+**General Formulation:** 
+
+<!-- Better idea for heading? -->
+
+* $n$-particles exist in space such that their masses are denoted by $m_1, m_2, m_3, ..., m_n$.
+* Force on particle: $F$
+* Acceleration: $a$
+* Initial velocity of each particle: $v_{i-1}$.
+* Velocity after nth second: $v_i$.
+* Initial position of particle: $s_{i-1}$.
+* Postion after ith second: $s_i$.
+* Position vectors: $r_i$, $r_j$
+
+Mathematically, these variables/factors (TODO) can be formulated as:
+
+\begin{equation}
+ {s_i} = {s_{i-1}} + {u\times t} + \frac{a\times t^2}{2} \tag{i}
+\end{equation}
+
+\begin{equation}
+ {v_i} = {v_{i-1}} + {a\times t} \tag{ii}
+\end{equation}
+
+By the Newton's Law of Gravitation the force felt on particle of mass $m_i$ by the particle of mass $m_j$ is given by:
+
+\begin{equation}
+ {F} = \frac{{G\times {m_i}\times {m_j}}\times \mid {r_i}-{r_j} \mid}{{\mid {r_i}-{r_j} \mid}^3} \tag{iii}
+\end{equation}
+
+By Newton's second laws of the motion, force of the particle is given by:
+
+\begin{equation}
+ {F} = {m\times a} \tag{iv}
+\end{equation}
+
+The acceleration can now be formulated as:
+
+\begin{equation}
+ {a} = \frac{F}{m} \tag{v}
+\end{equation}
+
+Particles in universe mainly possess two types of energy:
+
+**Potential Energy:** Energy due to virtue of position. It's given by:
+
+\begin{equation}
+ \textrm{U} = -\frac{{m_i}\times {m_j}}{r^2} \tag{vi}
+\end{equation}
+ 
+**Kinetic Energy:** Energy due to virtue of motion. Formula:
+
+\begin{equation}
+ \textrm{K.E} = \frac{\sum m\times v^2}{2} \tag{vii}
+\end{equation}
+
+See [Wikipedia](https://en.wikipedia.org/wiki/N-body_problem) for more details.
+
+## Pseudo Code
+
+<!-- TODO: To add subsripts ($a_i$) -->
+
+```bash
+Set time to 0, time_step to 0.001 and time_end to 10s
+THEN number_of_step is 10/0.001
+FOR time is less than or equal to time_end 
+    Call compute_accelerations ($a_i$, for given position $r_i$)
+    Compute initial_energies:
+        Call compute_kinetic_energy
+        Call compute_potential_energy
+    FOR i less than number_of_steps
+        Call advance_positions ($r_{i+1}$)
+        Swap accelerations
+        Call compute_accelerations
+        Call advance_velocities ($v_{i+1}$)
+        Increment time
+        IF number_of_step % 100 is not 0 THEN
+            Call compute_energies
+            Print energy
+        ENDIF
+    END FOR
+END FOR
+```
+
+## Dataset Description
+
+The dataset consists of nine different text files consisting datas of 16, 32, 64, 128, 256, 512, 1k, 2k and 16k number of particles. It contains the masses of particles and information regarding their positions and velocities along the x-axis, y-axis and z-axis respectively. The datasets have varrying number of rows depending on the datasets but the number of columns are fixed. They have 8 columns in which 1st column shows an entry of data, the next column tells about the mass of particle. The other 3 of them shows the positions of the particle along the x, y and z-axis and the next 3 columns represents velocities of the particle along the 3-dimentional axis.
 
 ## Implemented Algorithms
 
-Till this point 5 algorithms are implemented as mentioned bellow:
+The decision on choosing libraries for benchmarking was done on the basis of their popularity (in terms of usage in the community) and their relevance.
 
 ### NumPy
 
-NumPy is a most fundamental package for scientific computing in Python. The major advantage of using NumPy is these gives same computational speed as C and Fortran. Let's see our inplementation details:
+NumPy is the most fundamental package for scientific computing in Python. The major advantage of using NumPy is these gives same computational speed as C and Fortran. Let's see our inplementation details:
 
 #### NumPy Python
-
-Here, we used optimised code which consists of both type of implementation i.e. via Python and NumPy. This algorithm took 10.15 seconds for datasets with 16 points, 45.2 seconds for datasets with 32 points and 161.01 seconds for datasets with 64 points. 
+Here, we used optimised code which consists of both type of implementation i.e. via Python and NumPy. This algorithm took 10.15 seconds for datasets with 16 points, 45.2 seconds for datasets with 32 points and 161 01 seconds for datasets with 64 points.
 
 #### Pure NumPy
 
@@ -27,16 +130,23 @@ Transonic is a pure python package. It is one of the actively growing libraries 
 #### Transonic - JIT
 
 We used Transonic jit to accelerate our code. To implement this we used Pythran (Ahead-Of-Time) compiler in Just-In-Time mode. This algorithm took 0.01 seconds for input datasets with 16 points, 0.05 seconds for input datasets with 32 points and 0.17 seconds for input datasets with 64 points.
- 
+
 #### Transonic - Boost: Pythran
 
 Pythran is an Ahead Of Time compiler. This module takes a Python file as an input then converts it into some kind of interface which makes the code faster. Transonic's boost decorator replaces the python function with the pythranized function. This algorithm took 10.37 seconds for input data of 16 points, 41.88 seconds for input data with 32 points and 160.15 seconds for input data with 64 points.
 
 ### Numba
 
-Numba converts the Python files to optimized machine code during runtime. The major advantage is after compiling codes using Numba, the speed of code becomes approachable to C or FORTRAN. Numba caches all the compiled functions into a file system for future use of the same functions. We used the jit decorated functions to call another jit decorated function while implementing our code. It is advisable to add the jit decorated function to other functions too, so as to prevent it from generating slower outputs. This algorithm took 0.89 seconds for input data with 16 points, 0.05 seconds for input data with 32 points and 0.17 seconds for input data with 64 points.
+Numba is the Just In Time compiler of the Python functions. Heavily used in community and since it helps saving a lot of memory - thus, this was chosen as one of the candidates for benchmarking.
 
-## Results 
+Implementation details:
+
+* `jit` decorator from Numba was used to compile the Python functions just-in-time.
+* `cache = True`: To avoid repetitive compile time. 
+* Used NumPy arrays and loops.
+* Implemented `jit` decorated functions to call another `jit` decorated functions to increase the performance of our model
+
+## Results
 
 Table values represent the time taken by each algorithm to run, in respected datasets for 5 iterations.
 
@@ -44,9 +154,9 @@ Table values represent the time taken by each algorithm to run, in respected dat
 <table>
  <tr>
   <td></td>
-  <td><b>Input 16</b></td>
-  <td><b>Input 32</b></td>
-  <td><b>Input 64</b></td>
+  <td><b>Input 16 (secs)</b></td>
+  <td><b>Input 32 (secs)</b></td>
+  <td><b>Input 64 (secs)</b></td>
  </tr>
  <tr>
   <td><b>Pythran</b></td>
@@ -74,6 +184,12 @@ Table values represent the time taken by each algorithm to run, in respected dat
  </tr>
  <tr>
   <td><b>Pure NumPy</b></td>
+    <td>10.15</td>
+  <td>45.2</td>
+  <td>161.01</td>
+ </tr>
+ <tr>
+  <td><b>Pure NumPy</b></td>
   <td>10.56</td>
   <td>41.59</td>
   <td>169.4</td>
@@ -81,15 +197,15 @@ Table values represent the time taken by each algorithm to run, in respected dat
 </table>
 </html>
 
-## Code Folders
+## Source Code of Benchmarking
 
-* These codes are originally taken from [here](https://github.com/paugier/nbabel)
-* Benchmark code: [here](https://github.com/khushi-411/numpy-benchmarks/blob/0.3/python/benchmark-2.py)
-* Graph: [here](https://github.com/khushi-411/numpy-benchmarks/blob/0.3/python/plot-modified-1.py)
+* These codes are highly inspired from [here](https://github.com/paugier/nbabel).
+* Benchmarking Code: [here](https://github.com/khushi-411/numpy-benchmarks/blob/0.3/python/benchmark-2.py)
+* Visualizatin Code: [here](https://github.com/khushi-411/numpy-benchmarks/blob/0.3/python/plot-modified-1.py)
 
 <html>
  <table>
-<tr> 
+<tr>
   <td><b>Algorithms</b></td>
   <td><b>Source Codes</b></td>
 </tr>
@@ -97,7 +213,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td>Pythran</td>
   <td> <a href = "https://github.com/khushi-411/numpy-benchmarks/blob/0.3/python/bench.py">bench.py</a></td>
 </tr>
-<tr> 
+<tr>
   <td>Numba</td>
   <td> <a href = "https://github.com/khushi-411/numpy-benchmarks/blob/0.3/python/bench_numba.py">bench_numba.py</a></td>
 </tr>
@@ -106,7 +222,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td><a href = "https://github.com/khushi-411/numpy-benchmarks/blob/0.3/python/bench_numpy_highlevel_jit.py">bench_numpy_highlevel_jit.py</a></td>
 </tr>
 <tr>
-  <td>NumPy</td>
+   <td>NumPy</td>
   <td><a href = "https://github.com/khushi-411/numpy-benchmarks/blob/0.3/python/bench_numpy_highlevel.py">bench_numpy_highlevel.py</a></td>
 </tr>
 <tr>
@@ -119,10 +235,4 @@ Table values represent the time taken by each algorithm to run, in respected dat
 
 ## Conclusion
 
-* These benchmarks are run with an Intel Core i7 processor.
-* We found that codes that use Numba and Pythran Naive as accelerators give the best results among all.
-
-## Acknowledgement
-
-I would like to thank [Matti Picus](https://github.com/mattip) for helping me and guiding me throughout these days. Thank you so much!
-
+* NumPy satisfactorily performs better than most of the chosen libraries (....). Numba and Pythran Naive do perform better than NumPy but it's also because of their scope and applications.
