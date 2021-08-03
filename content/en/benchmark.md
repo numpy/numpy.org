@@ -4,6 +4,8 @@
 
 These benchmarks are run with an Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz.
 
+<!-- TODO: Add analysis of graph -->
+
 ## Introduction
 
 ## Objective
@@ -117,23 +119,16 @@ The decision on choosing libraries for benchmarking was done on the basis of the
 NumPy is the most fundamental package for scientific computing in Python. The major advantage of using NumPy is these gives same computational speed as C and Fortran. Let's see our inplementation details:
 
 #### NumPy Python
+
 Here, we used optimised code which consists of both type of implementation i.e. via Python and NumPy. This algorithm took 10.15 seconds for datasets with 16 points, 45.2 seconds for datasets with 32 points and 161 01 seconds for datasets with 64 points.
 
 #### Pure NumPy
 
 This algorithm is purely implemented via NumPy library functions. It takes 10.56 seconds to run a program with datasets of 16 points, 41.59 seconds for datasets with 32 points and 169.4 seconds for datasets with 64 points.
 
-### Transonic
+#### C++
 
-Transonic is a pure python package. It is one of the actively growing libraries which is used to increase the speed of our codes. Here, we are operating with two kinds of accelerators in the backend jit and boost to accelerate our code. Transonic uses four different types of accelerators in the backend Pythran, Cython, Numba, and Python. Presently, we have implemented Jit and boost accelerators, in the next iteration, we will be using Cython, with different types of backends.
 
-#### Transonic - JIT
-
-We used Transonic jit to accelerate our code. To implement this we used Pythran (Ahead-Of-Time) compiler in Just-In-Time mode. This algorithm took 0.01 seconds for input datasets with 16 points, 0.05 seconds for input datasets with 32 points and 0.17 seconds for input datasets with 64 points.
-
-#### Transonic - Boost: Pythran
-
-Pythran is an Ahead Of Time compiler. This module takes a Python file as an input then converts it into some kind of interface which makes the code faster. Transonic's boost decorator replaces the python function with the pythranized function. This algorithm took 10.37 seconds for input data of 16 points, 41.88 seconds for input data with 32 points and 160.15 seconds for input data with 64 points.
 
 ### Numba
 
@@ -149,6 +144,19 @@ Implementation details:
 * `cache = True`: To avoid repetitive compile time. 
 * Used NumPy arrays and loops.
 * Implemented `jit` decorated functions to call another `jit` decorated functions to increase the performance of our model.
+
+
+### Transonic
+
+Transonic is a pure python package. It is one of the actively growing libraries which is used to increase the speed of our codes. Here, we are operating with two kinds of accelerators in the backend jit and boost to accelerate our code. Transonic uses four different types of accelerators in the backend Pythran, Cython, Numba, and Python. Presently, we have implemented Jit and boost accelerators, in the next iteration, we will be using Cython, with different types of backends.
+
+#### Transonic - JIT
+
+We used Transonic jit to accelerate our code. To implement this we used Pythran (Ahead-Of-Time) compiler in Just-In-Time mode. This algorithm took 0.01 seconds for input datasets with 16 points, 0.05 seconds for input datasets with 32 points and 0.17 seconds for input datasets with 64 points.
+
+#### Transonic - Boost: Pythran
+
+Pythran is an Ahead Of Time compiler. This module takes a Python file as an input then converts it into some kind of interface which makes the code faster. Transonic's boost decorator replaces the python function with the pythranized function. This algorithm took 10.37 seconds for input data of 16 points, 41.88 seconds for input data with 32 points and 160.15 seconds for input data with 64 points.
 
 ## Results
 
