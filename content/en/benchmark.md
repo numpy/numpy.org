@@ -137,14 +137,18 @@ Pythran is an Ahead Of Time compiler. This module takes a Python file as an inpu
 
 ### Numba
 
-Numba is the Just In Time compiler of the Python functions. Heavily used in community and since it helps saving a lot of memory - thus, this was chosen as one of the candidates for benchmarking.
+Numba is the Just In Time compiler of the Python functions. It translates codes to machine codes using LLVM compiler infrastructure. NumPy support varity of features in Numba like passing NumPy arrays as arrguments, including structured `dtypes`, ufuncs, generalized ufuncs and many more. They are also capable of using variety of NumPy's function in `nopython` mode which helps functions to generate fully compiled result hence removing mediating Python interpretator calls. It supports variety of decoartors `@jit`, `@vectorize`, `@guvectorize`, `@stencil`, `@jitclass`, `@cfunc`, and `@overload`. 
+
+NumPy and Numba both uses compiled ufuncs, hence they both gives same result in manual looping which is one of the limitation of Numba. Another thing in which Numba lacks behind is that is does not support all functions of NumPy, there are functions in NumPy which does not support some of the optional arrguments in nopython mode. Numba is capable of using linear algebra calls in the compiled functions but does not return any faster implementation.
+
+Same kind of technology is used by Julia for acceleration. Numba is heavily used in community and since it helps saving a lot of time - thus, this was chosen as one of the candidates for benchmarking. NumPy is approximately 10x times slower than Numba. 
 
 Implementation details:
 
 * `jit` decorator from Numba was used to compile the Python functions just-in-time.
 * `cache = True`: To avoid repetitive compile time. 
 * Used NumPy arrays and loops.
-* Implemented `jit` decorated functions to call another `jit` decorated functions to increase the performance of our model
+* Implemented `jit` decorated functions to call another `jit` decorated functions to increase the performance of our model.
 
 ## Results
 
