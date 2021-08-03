@@ -8,7 +8,7 @@ These benchmarks are run with an Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz.
 
 ## Objective
 
-- Why did you choose to benchmark? (you can link relevant GitHub issue here, if reqd)
+- Why did you choose to benchmark? 
 - Important to understand how NumPy performs with other relevant and commonly used libraries in the community.
 
 ## Why N-Body Problem for Benchmarking?
