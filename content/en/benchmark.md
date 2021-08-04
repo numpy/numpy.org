@@ -1,4 +1,7 @@
-# NumPy Benchmarking
+---
+title: NumPy Benchmarking
+sidebar: false
+---
 
 <img src = "/static/images/content_images/output-modify-2b-new.jpg" alt = "Visualization">
 
