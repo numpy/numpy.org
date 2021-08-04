@@ -196,15 +196,14 @@ Table values represent the time taken by each algorithm to run, in respected dat
  </tr>
  <tr>
   <td><b>Pure NumPy</b></td>
-    <td>10.15</td>
-  <td>45.2</td>
-  <td>161.01</td>
- </tr>
- <tr>
-  <td><b>Pure NumPy</b></td>
   <td>10.56</td>
   <td>41.59</td>
   <td>169.4</td>
+ </tr>
+ <tr>
+  <td>0.04</td>
+  <td>0.07</td>
+  <td>0.24</td>
  </tr>
 </table>
 </html>
@@ -212,8 +211,8 @@ Table values represent the time taken by each algorithm to run, in respected dat
 ## Source Code of Benchmarking
 
 * These codes are highly inspired from [here](https://github.com/paugier/nbabel).
-* Benchmarking Code: [here](https://github.com/khushi-411/numpy-benchmarks/blob/0.3/python/benchmark-2.py)
-* Visualizatin Code: [here](https://github.com/khushi-411/numpy-benchmarks/blob/0.3/python/plot-modified-1.py)
+* Benchmarking Code: [here](https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/benchmark-2.py)
+* Visualizatin Code: [here](https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/plot-modified-1.py)
 
 <html>
  <table>
@@ -223,23 +222,27 @@ Table values represent the time taken by each algorithm to run, in respected dat
 </tr>
 <tr>
   <td>Pythran</td>
-  <td> <a href = "https://github.com/khushi-411/numpy-benchmarks/blob/0.3/python/bench.py">bench.py</a></td>
+  <td> <a href = "https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/bench.py">bench.py</a></td>
 </tr>
 <tr>
   <td>Numba</td>
-  <td> <a href = "https://github.com/khushi-411/numpy-benchmarks/blob/0.3/python/bench_numba.py">bench_numba.py</a></td>
+  <td> <a href = "https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/bench_numba.py">bench_numba.py</a></td>
 </tr>
 <tr>
   <td>Pythran Naive</td>
-  <td><a href = "https://github.com/khushi-411/numpy-benchmarks/blob/0.3/python/bench_numpy_highlevel_jit.py">bench_numpy_highlevel_jit.py</a></td>
+  <td><a href = "https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/bench_numpy_highlevel_jit.py">bench_numpy_highlevel_jit.py</a></td>
 </tr>
 <tr>
    <td>NumPy</td>
-  <td><a href = "https://github.com/khushi-411/numpy-benchmarks/blob/0.3/python/bench_numpy_highlevel.py">bench_numpy_highlevel.py</a></td>
+  <td><a href = "https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/bench_numpy_highlevel.py">bench_numpy_highlevel.py</a></td>
 </tr>
 <tr>
   <td>Pure NumPy</td>
-  <td><a href = "https://github.com/khushi-411/numpy-benchmarks/blob/0.3/python/bench_numpy_highlevel.py">bench_pure_numpy_highlevel.py</a></td>
+  <td><a href = "https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/bench_numpy_highlevel.py">bench_pure_numpy_highlevel.py</a></td>
+</tr>
+<tr>
+ <td>C++</td>
+ <td><a href = "https://github.com/khushi-411/numpy.org/blob/khushi-411/add-benchmarks/benchmarks/cpp/main.cpp">main.cpp</a></td>
 </tr>
   </table>
 </html>
