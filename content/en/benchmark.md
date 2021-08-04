@@ -166,42 +166,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td><b>Input 16k (s)</b></td>
  </tr>
  <tr>
-  <td><b>Pythran</b></td>
-  <td>10.37</td>
-  <td>41.88</td>
-  <td>160.15</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td><b>Numba</b></td>
-  <td>0.89</td>
-  <td>0.05</td>
-  <td>0.17</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td><b>Pythran Naive</b></td>
-  <td>0.01</td>
-  <td>0.05</td>
-  <td>0.17</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
+  <tr>
   <td><b>NumPy</b></td>
   <td>10.15</td>
   <td>45.2</td>
@@ -237,6 +202,41 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td>251.27</td>
   <td></td>
  </tr>
+  <td><b>Pythran</b></td>
+  <td>10.37</td>
+  <td>41.88</td>
+  <td>160.15</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td><b>Numba</b></td>
+  <td>0.89</td>
+  <td>0.05</td>
+  <td>0.17</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td><b>Pythran Naive</b></td>
+  <td>0.01</td>
+  <td>0.05</td>
+  <td>0.17</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
 </table>
 </html>
 
@@ -247,14 +247,19 @@ Table values represent the time taken by each algorithm to run, in respected dat
 * Visualization Code: [here](https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/plot-modified-1.py)
 
 <html>
- <table><tr>
+ <table>
+  <tr>
+   <td><b>Algorithms</b></td>
+   <td><b>Source Codes</b></td>
+  </tr>
+  <tr>
    <td>NumPy</td>
    <td><a href = "https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/bench_numpy_highlevel.py">bench_numpy_highlevel.py</a></td>
- </tr>
- <tr>
+  </tr>
+  <tr>
    <td>Pure NumPy</td>
    <td><a href = "https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/bench_numpy_highlevel.py">bench_pure_numpy_highlevel.py</a></td>
- </tr>
+  </tr>
  <tr>
   <td>C++</td>
   <td><a href = "https://github.com/khushi-411/numpy.org/blob/khushi-411/add-benchmarks/benchmarks/cpp/main.cpp">main.cpp</a></td>
@@ -262,10 +267,6 @@ Table values represent the time taken by each algorithm to run, in respected dat
 <tr>
   <td>Numba</td>
   <td> <a href = "https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/bench_numba.py">bench_numba.py</a></td>
-</tr>
-<tr>
-  <td><b>Algorithms</b></td>
-  <td><b>Source Codes</b></td>
 </tr>
 <tr>
   <td>Pythran</td>
