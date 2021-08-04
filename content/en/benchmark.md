@@ -1,6 +1,6 @@
 # NumPy Benchmarking
 
-![plot](https://github.com/khushi-411/numpy.org/blob/master/static/images/content_images/output-modify-2b-new.jpg)
+<img src = "/static/images/content_images/output-modify-2b-new.jpg>Visualization</img>
 
 These benchmarks are run with an Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz.
 
