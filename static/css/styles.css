@@ -347,7 +347,7 @@ blockquote p::after {
         border-radius: 5px;
         margin-left: 5px;
         width: 60px;
-        color: 	rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
         border:none;
         outline:none;
     }
