@@ -1,6 +1,6 @@
 # NumPy Benchmarking
 
-![output-modify-2-new](https://user-images.githubusercontent.com/62256509/127653679-5151e22d-d141-4621-abb9-b3e6dd7988b7.jpg)
+/static/images/content_images/output-modify-2b-new.jpg
 
 These benchmarks are run with an Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz.
 
