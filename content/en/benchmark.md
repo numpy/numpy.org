@@ -166,9 +166,15 @@ Table values represent the time taken by each algorithm to run, in respected dat
 <table>
  <tr>
   <td></td>
-  <td><b>Input 16 (secs)</b></td>
-  <td><b>Input 32 (secs)</b></td>
-  <td><b>Input 64 (secs)</b></td>
+  <td><b>Input 16 (s)</b></td>
+  <td><b>Input 32 (s)</b></td>
+  <td><b>Input 64 (s)</b></td>
+  <td><b>Input 128 (s)</b></td>
+  <td><b>Input 256 (s)</b></td>
+  <td><b>Input 512 (s)</b></td>
+  <td><b>Input 1k (s)</b></td>
+  <td><b>Input 2k (s)</b></td>
+  <td><b>Input 16k (s)</b></td>
  </tr>
  <tr>
   <td><b>Pythran</b></td>
@@ -180,7 +186,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td><b>Numba</b></td>
   <td>0.89</td>
   <td>0.05</td>
-  <td>o.17</td>
+  <td>0.17</td>
  </tr>
  <tr>
   <td><b>Pythran Naive</b></td>
@@ -201,6 +207,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td>169.4</td>
  </tr>
  <tr>
+  <td><b>C++</b></td>
   <td>0.04</td>
   <td>0.07</td>
   <td>0.24</td>
