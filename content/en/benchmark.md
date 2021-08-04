@@ -1,6 +1,6 @@
 # NumPy Benchmarking
 
-<img src = "/static/images/content_images/output-modify-2b-new.jpg>Visualization</img>
+<img src = "/static/images/content_images/output-modify-2b-new.jpg alt = "Visualization">
 
 These benchmarks are run with an Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz.
 
