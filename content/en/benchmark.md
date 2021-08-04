@@ -19,7 +19,7 @@ sidebar: false
 - Why did you choose to benchmark? 
 - Important to understand how NumPy performs with other relevant and commonly used libraries in the community.
 
-## Why N-Body Problem for Benchmarking?
+## What makes the N-Body problem a good benchmark?
 
 The scope of N-body problem takes us to scientific computations involving many processes in a single problem. The aim of this benchmarking is to understand how different libraries perform compared to NumPy and while there can be several problems which can be picked up, but N-body problem is one of the problems which are universally accepted in the community and easy to understand (comparatively).
 
