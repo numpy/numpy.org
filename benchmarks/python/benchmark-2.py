@@ -15,7 +15,7 @@ from bench_pure_numpy_highlevel import pure_numpy_highlevel
 
 
 # TODO: Name this function something else
-def main(time_step: int, number_of_steps: int, iterations: int, masses: List, positions: List, velocities: List) -> Dict[str, float]:
+def calculate_time(time_step: int, number_of_steps: int, iterations: int, masses: List, positions: List, velocities: List) -> Dict[str, float]:
     """
     This function is used to calculate time for following implementations: NumPy, XYZ, ...
 
@@ -38,7 +38,7 @@ def main(time_step: int, number_of_steps: int, iterations: int, masses: List, po
         for iters in range(iterations):
             energy, energy0 = loop_function(time_step, number_of_steps, masses, positions, velocities)
         end = time.time()
-        times[loop_function.__name__] = math.round((end-start)/iterations, 2)
+        times[loop_function.__name__] = round((end-start)/iterations, 2)
 
     return times
 
@@ -58,7 +58,7 @@ if __name__ == "__main__":
     for dataset_name in ["16.txt", "32.txt", "64.txt"]:
         file_path = "input" + dataset_name
         masses, positions, velocities = load_input_data(file_path)
-        times_list = main(time_step, number_of_steps, iterations, masses, positions, velocities)
+        times_list = calculate_time(time_step, number_of_steps, iterations, masses, positions, velocities)
         datasets_time[file_path.strip(".txt")] = times_list
 
     # Conver tthe output dictionary from datasets_time to a CSV file
