@@ -1,35 +1,12 @@
-# Using Pythran
-
 import sys
-import time
 import math
+import time
 from datetime import timedelta
 
 import numpy as np
 import pandas as pd
 
 from transonic import boost
-from transonic import set_compile_at_import
-from pathlib import Path
-
-# transonic def pythran(float, int, float, float[:, :], float[:,:])
-
-def get_ts_mod_display_state(name):
-    ts = modules[name]
-    print(
-        "(is_transpiled, is_compiling, is_compiled) =",
-        (ts.is_transpiled, ts.is_compiling, ts.is_compiled),
-    )
-    return ts
-
-src = """
-from transonic import boost
-import sys
-import time
-from datetime import timedelta
-import pandas as pd
-import numpy as np
-import math
 
 def load_input_data(path):
     df = pd.read_csv(
@@ -77,7 +54,7 @@ def compute_accelerations(accelerations, masses, positions):
 
 
 @boost
-def pythran_loop(
+def pythran(
     time_step: float,
     nb_steps: int,
     masses: "float[]",
@@ -148,7 +125,7 @@ if __name__ == "__main__":
     time_step = 0.001
     nb_steps = int(time_end / time_step) + 1
 
-    path_input = "/mnt/c/Users/khush/Documents/Quansight-Intern/data/input16.txt"
+    path_input = "input16.txt"
     masses, positions, velocities = load_input_data(path_input)
     
     start = time.time()
@@ -159,14 +136,3 @@ if __name__ == "__main__":
     print(
         f"{nb_steps} time steps run in {timedelta(seconds=end-start)}"
     )
-"""
-
-
-with open("bench-func.py", "w") as file:
-    file.write(src)
-
-paths = Path("__pythran__").glob("bench-func*.*")
-for path in paths:
-    path.unlink()
-
-set_compile_at_import(True)
