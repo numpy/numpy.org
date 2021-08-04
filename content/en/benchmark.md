@@ -152,11 +152,11 @@ Transonic is a pure python package. It is one of the actively growing libraries 
 
 #### Transonic - JIT
 
-We used Transonic jit to accelerate our code. To implement this we used Pythran (Ahead-Of-Time) compiler in Just-In-Time mode. This algorithm took 0.01 seconds for input datasets with 16 points, 0.05 seconds for input datasets with 32 points and 0.17 seconds for input datasets with 64 points.
+We used Transonic jit to accelerate our code. To implement this we used Pythran (Ahead-Of-Time) compiler in Just-In-Time mode. 
 
 #### Transonic - Boost: Pythran
 
-Pythran is an Ahead Of Time compiler. This module takes a Python file as an input then converts it into some kind of interface which makes the code faster. Transonic's boost decorator replaces the python function with the pythranized function. This algorithm took 10.37 seconds for input data of 16 points, 41.88 seconds for input data with 32 points and 160.15 seconds for input data with 64 points.
+Pythran is an Ahead Of Time compiler. This module takes a Python file as an input then converts it into some kind of interface which makes the code faster. Transonic's boost decorator replaces the python function with the pythranized function. 
 
 ## Results
 
@@ -181,36 +181,72 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td>10.37</td>
   <td>41.88</td>
   <td>160.15</td>
- </td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
  <tr>
   <td><b>Numba</b></td>
   <td>0.89</td>
   <td>0.05</td>
   <td>0.17</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
  </tr>
  <tr>
   <td><b>Pythran Naive</b></td>
   <td>0.01</td>
   <td>0.05</td>
   <td>0.17</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
  </tr>
  <tr>
   <td><b>NumPy</b></td>
   <td>10.15</td>
   <td>45.2</td>
   <td>161.01</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
  </tr>
  <tr>
   <td><b>Pure NumPy</b></td>
   <td>10.56</td>
   <td>41.59</td>
   <td>169.4</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
  </tr>
  <tr>
   <td><b>C++</b></td>
   <td>0.04</td>
   <td>0.07</td>
   <td>0.24</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
  </tr>
 </table>
 </html>
