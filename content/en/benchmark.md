@@ -207,18 +207,6 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td>62.56</td>
   <td>251.27</td>
   <td>19082.54</td>
- </tr>
-  <td><b>Pythran</b></td>
-  <td>10.37</td>
-  <td>41.88</td>
-  <td>160.15</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
- </tr>
  <tr>
   <td><b>Numba</b></td>
   <td>0.89</td>
@@ -231,8 +219,20 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td></td>
   <td></td>
  </tr>
+ </tr>
+  <td><b>Transonic: Pythran</b></td>
+  <td>10.37</td>
+  <td>41.88</td>
+  <td>160.15</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
  <tr>
-  <td><b>Pythran Naive</b></td>
+  <td><b>Transonic: Pythran Naive</b></td>
   <td>0.01</td>
   <td>0.05</td>
   <td>0.17</td>
@@ -275,11 +275,11 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td> <a href = "https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/bench_numba.py">bench_numba.py</a></td>
 </tr>
 <tr>
-  <td>Pythran</td>
+  <td>Transonic: Pythran</td>
   <td> <a href = "https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/bench.py">bench.py</a></td>
 </tr>
 <tr>
-  <td>Pythran Naive</td>
+  <td>Transonic: Pythran Naive</td>
   <td><a href = "https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/bench_numpy_highlevel_jit.py">bench_numpy_highlevel_jit.py</a></td>
 </tr>
   </table>
