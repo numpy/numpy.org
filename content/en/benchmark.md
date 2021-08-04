@@ -1,6 +1,6 @@
 # NumPy Benchmarking
 
-<img src = "/static/images/content_images/output-modify-2b-new.jpg alt = "Visualization">
+<img src = "/static/images/content_images/output-modify-2b-new.jpg" alt = "Visualization">
 
 These benchmarks are run with an Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz.
 
@@ -242,9 +242,9 @@ Table values represent the time taken by each algorithm to run, in respected dat
 
 ## Source Code of Benchmarking
 
-* These codes are highly inspired from [here](https://github.com/paugier/nbabel).
-* Benchmarking Code: [here](https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/benchmark-2.py)
-* Visualization Code: [here](https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/plot-modified-1.py)
+* These codes are highly inspired from <a href = "https://github.com/paugier/nbabel">here</a>.
+* Benchmarking Code: <a href = "/benchmarks/python/benchmark-2.py">here</a>.
+* Visualization Code: <a href = "/benchmarks/python/plot-modified-1.py">here</a>.
 
 <html>
  <table>
