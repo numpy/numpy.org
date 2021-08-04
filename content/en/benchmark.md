@@ -110,25 +110,9 @@ END FOR
 
 The dataset consists of nine different text files consisting datas of 16, 32, 64, 128, 256, 512, 1k, 2k and 16k number of particles. It contains the masses of particles and information regarding their positions and velocities along the x-axis, y-axis and z-axis respectively. The datasets have varrying number of rows depending on the datasets but the number of columns are fixed. They have 8 columns in which 1st column shows an entry of data, the next column tells about the mass of particle. The other 3 of them shows the positions of the particle along the x, y and z-axis and the next 3 columns represents velocities of the particle along the 3-dimentional axis.
 
-## Implemented Algorithms
+## Implemented Accelerators
 
 The decision on choosing libraries for benchmarking was done on the basis of their popularity (in terms of usage in the community) and their relevance.
-
-### NumPy
-
-NumPy is the most fundamental package for scientific computing in Python. The major advantage of using NumPy is these gives same computational speed as C and Fortran. Let's see our inplementation details:
-
-#### NumPy Python
-
-Here, we used optimised code which consists of both type of implementation i.e. via Python and NumPy. This algorithm took 10.15 seconds for datasets with 16 points, 45.2 seconds for datasets with 32 points and 161 01 seconds for datasets with 64 points.
-
-#### Pure NumPy
-
-This algorithm is purely implemented via NumPy library functions. It takes 10.56 seconds to run a program with datasets of 16 points, 41.59 seconds for datasets with 32 points and 169.4 seconds for datasets with 64 points.
-
-#### C++
-
-
 
 ### Numba
 
@@ -144,6 +128,11 @@ Implementation details:
 * `cache = True`: To avoid repetitive compile time. 
 * Used NumPy arrays and loops.
 * Implemented `jit` decorated functions to call another `jit` decorated functions to increase the performance of our model.
+
+### Cython
+
+
+### Pythran
 
 
 ### Transonic
@@ -241,11 +230,11 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td>0.04</td>
   <td>0.07</td>
   <td>0.24</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td> 0.94</td>
+  <td>3.90</td>
+  <td>15.28</td>
+  <td>62.56</td>
+  <td>251.27</td>
   <td></td>
  </tr>
 </table>
