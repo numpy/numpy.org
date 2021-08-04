@@ -5,7 +5,10 @@ sidebar: false
 
 <img src = "/static/images/content_images/output-modify-2b-new.jpg" alt = "Visualization">
 
-These benchmarks are run with an Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz.
+**Note:**
+
+* These benchmarks are run with an Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz.
+* 
 
 <!-- TODO: Add analysis of graph -->
 
@@ -203,7 +206,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td>15.28</td>
   <td>62.56</td>
   <td>251.27</td>
-  <td></td>
+  <td>19082.54</td>
  </tr>
   <td><b>Pythran</b></td>
   <td>10.37</td>
