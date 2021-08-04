@@ -1,11 +1,10 @@
-import numpy as np
-import pandas as pd
+import sys
 import math
-
+import time
 from datetime import timedelta
 
-import time
-import sys
+import numpy as np
+import pandas as pd
 
 def load_input_data(path):
     df = pd.read_csv(
