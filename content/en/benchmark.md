@@ -85,10 +85,11 @@ Particles in universe mainly possess two types of energy:
  
 **Kinetic Energy:** Energy due to virtue of motion. Formula:
 
+$$
 \begin{equation}
  \textrm{K.E} = \frac{\sum m\times v^2}{2} \tag{vii}
 \end{equation}
-
+$$
 
 ## Pseudo Code
 
