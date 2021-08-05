@@ -3,7 +3,7 @@ title: NumPy Benchmarking
 sidebar: false
 ---
 
-<img src = "/static/images/content_images/benchmark-plot.jpg" alt = "Visualization">
+<img src = "/images/content_images/benchmark-plot.jpg" alt = "Visualization" title = "Performance Benchmark">
 
 **Note:**
 
@@ -49,47 +49,31 @@ See [Wikipedia](https://en.wikipedia.org/wiki/N-body_problem) for more details.
 
 Mathematically, these factors can be formulated as:
 
-\begin{equation}
- {s_i} = {s_{i-1}} + {u\times t} + \frac{a\times t^2}{2} \tag{i}
-\end{equation}
+$$\begin{equation} {s_i} = {s_{i-1}} + {u\times t} + \frac{a\times t^2}{2} \tag{i} \end{equation}$$
 
-\begin{equation}
- {v_i} = {v_{i-1}} + {a\times t} \tag{ii}
-\end{equation}
+$$\begin{equation}{v_i} = {v_{i-1}} + {a\times t} \tag{ii} \end{equation}$$
 
 By the Newton's Law of Gravitation the force felt on particle of mass $m_i$ by the particle of mass $m_j$ is given by:
 
-\begin{equation}
- {F} = \frac{{G\times {m_i}\times {m_j}}\times \mid {r_i}-{r_j} \mid}{{\mid {r_i}-{r_j} \mid}^3} \tag{iii}
-\end{equation}
+$$\begin{equation} {F} = \frac{{G\times {m_i}\times {m_j}}\times \mid {r_i}-{r_j} \mid}{{\mid {r_i}-{r_j} \mid}^3} \tag{iii} \end{equation}$$
 
 By Newton's second laws of the motion, force of the particle is given by:
 
-\begin{equation}
- {F} = {m\times a} \tag{iv}
-\end{equation}
+$$\begin{equation} {F} = {m\times a} \tag{iv} \end{equation}$$
 
 The acceleration can now be formulated as:
 
-\begin{equation}
- {a} = \frac{F}{m} \tag{v}
-\end{equation}
+\$$begin{equation} {a} = \frac{F}{m} \tag{v} \end{equation}$$
 
 Particles in universe mainly possess two types of energy:
 
 **Potential Energy:** Energy due to virtue of position. It's given by:
 
-\begin{equation}
- \textrm{U} = -\frac{{m_i}\times {m_j}}{r^2} \tag{vi}
-\end{equation}
+$$\begin{equation} \textrm{U} = -\frac{{m_i}\times {m_j}}{r^2} \tag{vi} \end{equation}$$
  
 **Kinetic Energy:** Energy due to virtue of motion. Formula:
 
-$$
-\begin{equation}
- \textrm{K.E} = \frac{\sum m\times v^2}{2} \tag{vii}
-\end{equation}
-$$
+$$\begin{equation} \textrm{K.E} = \frac{\sum m\times v^2}{2} \tag{vii} \end{equation}$$
 
 ## Pseudo Code
 
@@ -214,12 +198,12 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td>19082.54</td>
  <tr>
   <td><b>Numba</b></td>
-  <td>0.89</td>
-  <td>0.05</td>
-  <td>0.17</td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td>0.89/ 0.72/ 0.02</td>
+  <td>0.05/ 0.05</td>
+  <td>0.17/ 0.17</td>     <!-- Zero division error -->
+  <td> 0.61/ 0.60</td>
+  <td>2.40/ 2.66/ 2.31</td>          <!-- Zero division error -->
+  <td>10.56/ 10.09</td>
   <td></td>
   <td></td>
   <td></td>
