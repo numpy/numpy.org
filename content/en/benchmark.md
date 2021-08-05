@@ -3,6 +3,8 @@ title: NumPy Benchmarking
 sidebar: false
 ---
 
+# Work In Progress
+
 <img src = "/static/images/content_images/benchmark-plot.jpg" alt = "Visualization" title = "Performance Benchmark">
 
 **Note:**
@@ -95,9 +97,6 @@ Implementation details:
 * `cache = True`: To avoid repetitive compile time. 
 * Used NumPy arrays and loops.
 * Implemented `jit` decorated functions to call another `jit` decorated functions to increase the performance of our model.
-
-### Cython
-
 
 ### Pythran
 
