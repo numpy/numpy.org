@@ -182,7 +182,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
  </tr>
  </tr>
   <td><b>Transonic: Pythran</b></td>
-  <td>10.37</td>
+  <td>10.37/ 9.17</td>
   <td>41.88</td>
   <td>160.15</td>
   <td></td>
