@@ -250,7 +250,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
 </table>
 </html>
 
-## Source Code of Benchmarking
+## Source Code
 
 * These codes are highly inspired from <a href = "https://github.com/paugier/nbabel">here</a>.
 * Benchmarking Code: <a href = "/benchmarks/python/benchmark-2.py">here</a>.
@@ -266,26 +266,32 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <tr>
    <td>NumPy</td>
    <td><a href = "/benchmarks/python/bench_numpy_highlevel.py">bench_numpy_highlevel.py</a></td>
+   <td>Optimized NumPy</td>
   </tr>
   <tr>
    <td>Pure NumPy</td>
-   <td><a href = "https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/bench_numpy_highlevel.py">bench_pure_numpy_highlevel.py</a></td>
+   <td><a href = "/benchmarks/python/bench_numpy_highlevel.py">bench_pure_numpy_highlevel.py</a></td>
+   <td>Only NumPy Functions</td>
   </tr>
  <tr>
   <td>C++</td>
-  <td><a href = "https://github.com/khushi-411/numpy.org/blob/khushi-411/add-benchmarks/benchmarks/cpp/main.cpp">main.cpp</a></td>
+  <td><a href = "/benchmarks/cpp/main.cpp">main.cpp</a></td>
+  <td></td>
  </tr>
 <tr>
   <td>Numba</td>
-  <td> <a href = "https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/bench_numba.py">bench_numba.py</a></td>
+  <td> <a href = "/benchmarks/python/bench_numba.py">bench_numba.py</a></td>
+  <td>Just-In-Time Compilation</td>
 </tr>
 <tr>
   <td>Transonic: Pythran</td>
-  <td> <a href = "https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/bench.py">bench.py</a></td>
+  <td> <a href = "/benchmarks/python/bench.py">bench.py</a></td>
+  <td>Ahead-Of-Time Compilation</td>
 </tr>
 <tr>
   <td>Transonic: Pythran Naive</td>
-  <td><a href = "https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/bench_numpy_highlevel_jit.py">bench_numpy_highlevel_jit.py</a></td>
+  <td><a href = "/benchmarks/python/bench_numpy_highlevel_jit.py">bench_numpy_highlevel_jit.py</a></td>
+  <td>Just-In-Time Compilation</td>
 </tr>
   </table>
 </html>
