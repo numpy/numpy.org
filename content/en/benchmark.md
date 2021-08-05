@@ -3,8 +3,6 @@ title: NumPy Benchmarking
 sidebar: false
 ---
 
-# Work In Progress
-
 <img src = "/static/images/content_images/benchmark-plot.jpg" alt = "Visualization" title = "Performance Benchmark">
 
 **Note:**
