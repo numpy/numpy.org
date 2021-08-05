@@ -3,7 +3,7 @@ title: NumPy Benchmarking
 sidebar: false
 ---
 
-<img src = "/images/content_images/benchmark-plot.jpg" alt = "Visualization" title = "Performance Benchmark">
+<img src = "/static/images/content_images/benchmark-plot.jpg" alt = "Visualization" title = "Performance Benchmark">
 
 **Note:**
 
@@ -27,53 +27,25 @@ As mentioned above, N-Body problem comprises of several numerical computations w
 
 ## About N-Body Problem
 
+Let us consider $n$ bodies of masses $m_1, m_2, m_3, ..., m_n$, moving under the mutual [gravitational force](https://en.wikipedia.org/wiki/Gravity) of attraction between them in an [inertial frame of reference](https://en.wikipedia.org/wiki/Inertial_frame_of_reference) of three dimension. Such that consequetive positions and velocities of the bodies are denoted by $s_{i-1}$, $s_i$ and $v_{i-1}$, $v_i$. The force gravitational force felt on body of mass $m_i$ by a single mass $m_j$ is denoted as $F$ and the acceleration  of the body $m_i$ is represented as $a$. Consider the position vectors of these particles as $r_i$ and $r_j$. 
 
+For more details visit [Wikipedia](https://en.wikipedia.org/wiki/N-body_problem).
 
-N-Body problem is the system of n-particles in space where the task is to evaluate the motion of each individual particles. The task becomes more interesting when there are several other factors to consider while evaluating the motion of those particles.
-
-**General Formulation:** 
-
-<!-- Better idea for heading? -->
-
-* $n$-particles exist in space such that their masses are denoted by $m_1, m_2, m_3, ..., m_n$.
-* Force on particle: $F$
-* Acceleration: $a$
-* Initial velocity of each particle: $v_{i-1}$.
-* Velocity after nth second: $v_i$.
-* Initial position of particle: $s_{i-1}$.
-* Postion after ith second: $s_i$.
-* Position vectors: $r_i$, $r_j$
-
-
-See [Wikipedia](https://en.wikipedia.org/wiki/N-body_problem) for more details.
-
-Mathematically, these factors can be formulated as:
+Mathematically,
 
 $$\begin{equation} {s_i} = {s_{i-1}} + {u\times t} + \frac{a\times t^2}{2} \tag{i} \end{equation}$$
 
 $$\begin{equation}{v_i} = {v_{i-1}} + {a\times t} \tag{ii} \end{equation}$$
 
-By the Newton's Law of Gravitation the force felt on particle of mass $m_i$ by the particle of mass $m_j$ is given by:
-
 $$\begin{equation} {F} = \frac{{G\times {m_i}\times {m_j}}\times \mid {r_i}-{r_j} \mid}{{\mid {r_i}-{r_j} \mid}^3} \tag{iii} \end{equation}$$
-
-By Newton's second laws of the motion, force of the particle is given by:
 
 $$\begin{equation} {F} = {m\times a} \tag{iv} \end{equation}$$
 
-The acceleration can now be formulated as:
+$$\begin{equation} {a} = \frac{F}{m} \tag{v} \end{equation}$$
 
-\$$begin{equation} {a} = \frac{F}{m} \tag{v} \end{equation}$$
+$$\begin{equation} \textrm{Self Potential Energy} = \textrm{U} = -\frac{{m_i}\times {m_j}}{r^2} \tag{vi} \end{equation}$$
 
-Particles in universe mainly possess two types of energy:
-
-**Potential Energy:** Energy due to virtue of position. It's given by:
-
-$$\begin{equation} \textrm{U} = -\frac{{m_i}\times {m_j}}{r^2} \tag{vi} \end{equation}$$
- 
-**Kinetic Energy:** Energy due to virtue of motion. Formula:
-
-$$\begin{equation} \textrm{K.E} = \frac{\sum m\times v^2}{2} \tag{vii} \end{equation}$$
+$$\begin{equation} \textrm{Kinetic Energy} = \textrm{K.E} = \frac{\sum m\times v^2}{2} \tag{vii} \end{equation}$$
 
 ## Pseudo Code
 
@@ -204,8 +176,8 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td> 0.61/ 0.60</td>
   <td>2.40/ 2.66/ 2.31</td>          <!-- Zero division error -->
   <td>10.56/ 10.09</td>
-  <td></td>
-  <td></td>
+  <td>37.39/ 40.17</td>
+  <td>160.62/ 145.89</td>
   <td></td>
  </tr>
  </tr>
