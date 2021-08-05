@@ -27,6 +27,8 @@ As mentioned above, N-Body problem comprises of several numerical computations w
 
 ## About N-Body Problem
 
+
+
 N-Body problem is the system of n-particles in space where the task is to evaluate the motion of each individual particles. The task becomes more interesting when there are several other factors to consider while evaluating the motion of those particles.
 
 **General Formulation:** 
@@ -42,7 +44,10 @@ N-Body problem is the system of n-particles in space where the task is to evalua
 * Postion after ith second: $s_i$.
 * Position vectors: $r_i$, $r_j$
 
-Mathematically, these variables/factors (TODO) can be formulated as:
+
+See [Wikipedia](https://en.wikipedia.org/wiki/N-body_problem) for more details.
+
+Mathematically, these factors can be formulated as:
 
 \begin{equation}
  {s_i} = {s_{i-1}} + {u\times t} + \frac{a\times t^2}{2} \tag{i}
@@ -84,7 +89,6 @@ Particles in universe mainly possess two types of energy:
  \textrm{K.E} = \frac{\sum m\times v^2}{2} \tag{vii}
 \end{equation}
 
-See [Wikipedia](https://en.wikipedia.org/wiki/N-body_problem) for more details.
 
 ## Pseudo Code
 
@@ -257,10 +261,11 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <tr>
    <td><b>Algorithms</b></td>
    <td><b>Source Codes</b></td>
+   <td><b>Implementation Details</b></td>
   </tr>
   <tr>
    <td>NumPy</td>
-   <td><a href = "https://github.com/khushi-411/numpy.org/tree/khushi-411/add-benchmarks/benchmarks/python/bench_numpy_highlevel.py">bench_numpy_highlevel.py</a></td>
+   <td><a href = "/benchmarks/python/bench_numpy_highlevel.py">bench_numpy_highlevel.py</a></td>
   </tr>
   <tr>
    <td>Pure NumPy</td>
