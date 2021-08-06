@@ -17,9 +17,6 @@ sidebar: false
 
 ## Objective
 
-The idea of benchmarking is highly inspired by one of the articles regarding [Nature's Astronomy](https://www.nature.com/articles/s41550-021-01342-y.epdf?sharing_token=D6WDBKpfOOcWHERGZz4AbtRgN0jAjWel9jnR3ZoTv0Pc7q-oiK1_CxsdnLnqzBdV9-Xj6CQQ98qvVv9fAgz7ySxWpoPJr5C4XgOXuetbs26fddzM8jDAaP_RUyzuPDdOG_uCV2N67FsOGrLM5IQku9K2si3Kw7cSPET-ES0qGQc%3D)., whose main concern was to reduce the ecological impact of computing through education and Python compilers. This was also discussed by NumPy's community members and Pierre Augier. The discussion is followed [here](https://mail.python.org/pipermail/numpy-discussion/2020-November/081248.html).  The task was to prove that how Python-NumPy can be efficient even for computationally intensive tasks. Twitter thread regarding this discussion is available [here](https://twitter.com/pierre_augier/status/1385325261189787650). 
-Seeing the importance of the subject Ralf Gommers opened an [issue](https://github.com/numpy/numpy.org/issues/370). They proposed to implement the N-Body problem as a reference algorithm for benchmarking because it is universally accepted. Our main focus of the problem is on the performance of various libraries and to visualize it along with the required context. 
-
 ## What makes the N-Body problem a good benchmark?
 
 The scope of N-body problem takes us to scientific computations involving many processes in a single problem. The aim of this benchmarking is to understand how different libraries perform compared to NumPy and while there can be several problems which can be picked up, but N-body problem is one of the problems which are universally accepted in the community and easy to understand (comparatively).
