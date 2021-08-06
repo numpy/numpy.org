@@ -8,7 +8,6 @@ sidebar: false
 **Note:**
 
 * These benchmarks are run with an Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz.
-* 
 
 <!-- TODO: Add analysis of graph -->
 
@@ -27,7 +26,7 @@ As mentioned above, N-Body problem comprises of several numerical computations w
 
 ## About N-Body Problem
 
-Let us consider $n$ bodies of masses $m_1, m_2, m_3, ..., m_n$, moving under the mutual [gravitational force](https://en.wikipedia.org/wiki/Gravity) of attraction between them in an [inertial frame of reference](https://en.wikipedia.org/wiki/Inertial_frame_of_reference) of three dimension. Such that consequetive positions and velocities of the bodies are denoted by $s_{i-1}$, $s_i$ and $v_{i-1}$, $v_i$. The force gravitational force felt on body of mass $m_i$ by a single mass $m_j$ is denoted as $F$ and the acceleration  of the body $m_i$ is represented as $a$. Consider the position vectors of these particles as $r_i$ and $r_j$. 
+Let us consider $n$ bodies of masses $m_1, m_2, m_3, ..., m_n$, moving under the mutual [gravitational force](https://en.wikipedia.org/wiki/Gravity) of attraction between them in an [inertial frame of reference](https://en.wikipedia.org/wiki/Inertial_frame_of_reference) of three dimension. Such that consecutive  positions and velocities of the bodies are denoted by $s_{i-1}$, $s_i$ and $v_{i-1}$, $v_i$. The force gravitational force felt on body of mass $m_i$ by a single mass $m_j$ is denoted as $F$ and the acceleration  of the body $m_i$ is represented as $a$. Consider the position vectors of these particles as $r_i$ and $r_j$. 
 
 For more details visit [Wikipedia](https://en.wikipedia.org/wiki/N-body_problem).
 
@@ -75,7 +74,7 @@ END FOR
 
 ## Dataset Description
 
-The dataset consists of nine different text files consisting datas of 16, 32, 64, 128, 256, 512, 1k, 2k and 16k number of particles. It contains the masses of particles and information regarding their positions and velocities along the x-axis, y-axis and z-axis respectively. The datasets have varrying number of rows depending on the datasets but the number of columns are fixed. They have 8 columns in which 1st column shows an entry of data, the next column tells about the mass of particle. The other 3 of them shows the positions of the particle along the x, y and z-axis and the next 3 columns represents velocities of the particle along the 3-dimentional axis.
+The dataset consists of nine different text files with 16, 32, 64, 128, 256, 512, 1k, 2k, and 16k particles. It contains the masses of particles, information about their positions, and velocities along the x, y, and z-axis. The number of rows in the datasets varies depending on the dataset. The dataset has 8 columns, the first column consists of a data entry, and the next column tells about the particle's mass. The other three columns represent the particle's positions along the x, y, and z-axes, while the other three represent the particle's velocities along the three-dimensional axis.
 
 ## Implemented Accelerators
 
@@ -83,11 +82,9 @@ The decision on choosing libraries for benchmarking is taken from the [presentat
 
 ### Numba
 
-Numba is the Just In Time compiler of the Python functions. It translates codes to machine codes using LLVM compiler infrastructure. NumPy support varity of features in Numba like passing NumPy arrays as arrguments, including structured `dtypes`, ufuncs, generalized ufuncs and many more. They are also capable of using variety of NumPy's function in `nopython` mode which helps functions to generate fully compiled result hence removing mediating Python interpretator calls. It's user API supports variety of decoartors like `@jit`, `@vectorize`, `@guvectorize`, `@stencil`, `@jitclass`, `@cfunc`, and `@overload` which make it easier to use. 
+Numba is the Just In Time compiler of the Python functions. It translates codes to machine codes using LLVM compiler infrastructure. NumPy supports diversified features in Numba like passing NumPy arrays as arguments, including structured `dtypes`, ufuncs, generalized ufuncs, and many more. Numba uses nopython mode to generate fully compiled results without the need for intermediate Python interpreter calls. Its user API supports diversified decorators like `@jit`, `@vectorize`, `@guvectorize`, `@stencil`, `@jitclass`, `@cfunc`, and `@overload`; which make it easier to use. Numba is popular in the community since it saves so much time. Numba is approximate 10x times faster than NumPy. 
 
-NumPy and Numba both uses compiled ufuncs, hence they both gives same result in manual looping which is one of the limitation of Numba. Another thing in which Numba lacks behind is that is does not support all functions of NumPy, there are functions in NumPy which does not support some of the optional arrguments in nopython mode. Numba is capable of using linear algebra calls in the compiled functions but does not return any faster implementation.
-
-Same kind of technology is used by Julia for acceleration. Numba is heavily used in community and since it helps saving a lot of time - thus, this was chosen as one of the candidates for benchmarking. NumPy is approximately 10x times slower than Numba. 
+NumPy and Numba both use a similar type of compilation for ufuncs in manual looping resulting in the same speed.  Another thing that Numba lacks behind is that it does not support all functions of NumPy. There are functions in NumPy which does not hold up some of the optional arguments in nopython mode. It can implement linear algebra calls in the compiled functions but does not return any faster implementation.
 
 Visit [here](https://numba.pydata.org/) to know more about Numba.
 
@@ -100,15 +97,11 @@ Implementation details:
 
 ### Pythran
 
-Pythran is a Python-specific Ahead Of Time compiler. It's primary focus was on scientific computing. It has the same C++ API implementation as in NumPy which was originally designed for the purpose of scientific computing. In Pythran, annotated Python modules are converted into native Python modules which have the same interface, but (hopefully) are faster to load. Pythran's biggest benefit is that it uses [Expression Templating](https://en.wikipedia.org/wiki/Expression_templates) and [SIMD](https://en.wikipedia.org/wiki/SIMD) instructions. Pythran was designed with an aim to use it as a backend for NumPy arrays in Cython when possible.  
+Pythran is a Python-specific Ahead Of Time compiler. Its primary focus was on scientific computing. It uses the same C++ API as NumPy, which was designed specifically for scientific computing. Pythran converts annotated Python modules into native Python modules. These modules have the same interface but (hopefully) are faster to load. Pythran's main advantage is that it uses [Expression Templating](https://en.wikipedia.org/wiki/Expression_templates) and [SIMD](https://en.wikipedia.org/wiki/SIMD) instructions.  
 
-To use Pythran in the model it needs to be stored in contiguous memory like C-style or like Fortran, this is where Pythran lacks behind. Another limitation is that the order of sequence of bytes of works must be same as the targeted architecture to make Pythran work.
+NumPy arrays in Cython should be stored in contiguous memory like C-style or Fortran to use Pythran in the backend. Here, the Pythran lacks behind. Another limitation is that the sequence of bytes of words must be the same as the targeted architecture to make Pythran work.
 
 Pythran GitHub repository is available [here](https://github.com/serge-sans-paille/pythran)
-
-Implementation details:
-
-* 
 
 ## Results
 
@@ -177,7 +170,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td></td>
  </tr>
  </tr>
-  <td><b>Transonic: Pythran</b></td>
+  <td><b>Pythran: Transonic</b></td>
   <td>10.37/ 9.17</td>
   <td>41.88</td>
   <td>160.15</td>
@@ -189,7 +182,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td></td>
  </tr>
  <tr>
-  <td><b>Transonic: Pythran Naive</b></td>
+  <td><b>Pythran Naive: Transonic</b></td>
   <td>0.01</td>
   <td>0.05</td>
   <td>0.17</td>
@@ -229,7 +222,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
  <tr>
   <td>C++</td>
   <td><a href = "/benchmarks/cpp/main.cpp">main.cpp</a></td>
-  <td></td>
+  <td>Optimized C++</td>
  </tr>
 <tr>
   <td>Numba</td>
@@ -237,12 +230,12 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td>Just-In-Time Compilation</td>
 </tr>
 <tr>
-  <td>Transonic: Pythran</td>
+  <td>Pythran: Transonic Boost</td>
   <td> <a href = "/benchmarks/python/bench.py">bench.py</a></td>
   <td>Ahead-Of-Time Compilation</td>
 </tr>
 <tr>
-  <td>Transonic: Pythran Naive</td>
+  <td>Pythran Naive: Transonic Jit</td>
   <td><a href = "/benchmarks/python/bench_numpy_highlevel_jit.py">bench_numpy_highlevel_jit.py</a></td>
   <td>Just-In-Time Compilation</td>
 </tr>
