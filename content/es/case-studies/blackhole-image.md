@@ -16,7 +16,7 @@ El [ telescopio del Horizonte de Sucesos (EHT) ](https://eventhorizontelescope.o
 
 ### Objetivos clave y resultados
 
-* **A New View of the Universe:** The groundwork for the EHT's groundbreaking image had been laid 100 years earlier when [Sir Arthur Eddington][eddington] yielded the first observational support of Einstein's theory of general relativity.
+* **Una nueva vista del universo:** El trabajo preliminar para la innovadora imagen de EHT se había establecido 100 años antes, cuando [Sir Arthur Eddington][eddington] dio el primer apoyo observacional a la teoría de la relatividad general de Einstein.
 
 * **The Black Hole:** EHT was trained on a supermassive black hole approximately 55 million light-years from Earth, lying at the center of the galaxy Messier 87 (M87) in the Virgo galaxy cluster. Its mass is 6.5 billion times the Sun's. It had been studied for [over 100 years](https://www.jpl.nasa.gov/news/news.php?feature=7385), but never before had a black hole been visually observed.
 
