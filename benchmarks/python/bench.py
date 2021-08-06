@@ -12,8 +12,7 @@ def load_input_data(path):
     df = pd.read_csv(
         path, names=["mass", "x", "y", "z", "vx", "vy", "vz"], delimiter=r"\s+"
     )
-
-    # with numpy 1.20.3 and pandas 1.2.4
+    
     masses = np.ascontiguousarray(df["mass"].values)
     positions = np.ascontiguousarray(df.loc[:, ["x", "y", "z"]].values)
     velocities = np.ascontiguousarray(df.loc[:, ["vx", "vy", "vz"]].values)
@@ -34,22 +33,22 @@ def compute_distance(vec):
 
 def compute_accelerations(accelerations, masses, positions):
     number_of_particles = masses.size
-    for particle_1_index in range(number_of_particles - 1):
-        position_1 = positions[particle_1_index]
-        masses_1 = masses[particle_1_index]
+    for index_p0 in range(number_of_particles - 1):
+        position0 = positions[index_p0]
+        masses0 = masses[index_p0]
         vector = np.empty(3)
-        for particle_2_index in range(particle_1_index +1, number_of_particles):
-            masses_2 = masses[particle_2_index]
-            position_2 = positions[particle_2_index]
+        for index_p1 in range(index_p0 + 1, number_of_particles):
+            masses1 = masses[index_p1]
+            position1 = positions[index_p1]
             for i in range(3):
-                vector[i] = position_1[i] - position_2[i]
+                vector[i] = position0[i] - position1[i]
 
             distance = sum(vector ** 2) * math.sqrt(sum(vector ** 2))
-            coef_m1 = masses_1 / distance
-            coef_m2 = masses_2 / distance
+            coef_m1 = masses0 / distance
+            coef_m2 = masses1 / distance
             for i in range(3):
-                accelerations[particle_1_index][i] -= coef_m1 * vector[i]
-                accelerations[particle_2_index][i] += coef_m2 * vector[i]
+                accelerations[index_p0][i] -= coef_m1 * vector[i]
+                accelerations[index_p1][i] += coef_m2 * vector[i]
     return accelerations
 
 
@@ -125,7 +124,7 @@ if __name__ == "__main__":
     time_step = 0.001
     nb_steps = int(time_end / time_step) + 1
 
-    path_input = "input16.txt"
+    path_input = sys.argv[1]    
     masses, positions, velocities = load_input_data(path_input)
     
     start = time.time()
