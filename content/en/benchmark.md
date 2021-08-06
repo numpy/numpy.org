@@ -13,10 +13,12 @@ sidebar: false
 
 ## Introduction
 
+
+
 ## Objective
 
-- Why did you choose to benchmark? 
-- Important to understand how NumPy performs with other relevant and commonly used libraries in the community.
+The idea of benchmarking is highly inspired by one of the articles regarding [Nature's Astronomy](https://www.nature.com/articles/s41550-021-01342-y.epdf?sharing_token=D6WDBKpfOOcWHERGZz4AbtRgN0jAjWel9jnR3ZoTv0Pc7q-oiK1_CxsdnLnqzBdV9-Xj6CQQ98qvVv9fAgz7ySxWpoPJr5C4XgOXuetbs26fddzM8jDAaP_RUyzuPDdOG_uCV2N67FsOGrLM5IQku9K2si3Kw7cSPET-ES0qGQc%3D)., whose main concern was to reduce the ecological impact of computing through education and Python compilers. This was also discussed by NumPy's community members and Pierre Augier. The discussion is followed [here](https://mail.python.org/pipermail/numpy-discussion/2020-November/081248.html).  The task was to prove that how Python-NumPy can be efficient even for computationally intensive tasks. Twitter thread regarding this discussion is available [here](https://twitter.com/pierre_augier/status/1385325261189787650). 
+Seeing the importance of the subject Ralf Gommers opened an [issue](https://github.com/numpy/numpy.org/issues/370). They proposed to implement the N-Body problem as a reference algorithm for benchmarking because it is universally accepted. Our main focus of the problem is on the performance of various libraries and to visualize it along with the required context. 
 
 ## What makes the N-Body problem a good benchmark?
 
@@ -123,7 +125,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
  </tr>
  <tr>
   <tr>
-  <td><b>NumPy</b></td>
+  <td><b>Python-NumPy</b></td>
   <td>10.15</td>
   <td>45.2</td>
   <td>161.01</td>
@@ -135,7 +137,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td></td>
  </tr>
  <tr>
-  <td><b>Pure NumPy</b></td>
+  <td><b>Pure-NumPy</b></td>
   <td>10.56</td>
   <td>41.59</td>
   <td>169.4</td>
@@ -182,7 +184,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td></td>
  </tr>
  <tr>
-  <td><b>Pythran Naive: Transonic</b></td>
+  <td><b>Pythran-Naive: Transonic</b></td>
   <td>0.01</td>
   <td>0.05</td>
   <td>0.17</td>
@@ -210,12 +212,12 @@ Table values represent the time taken by each algorithm to run, in respected dat
    <td><b>Implementation Details</b></td>
   </tr>
   <tr>
-   <td>NumPy</td>
+   <td>Python-NumPy</td>
    <td><a href = "/benchmarks/python/bench_numpy_highlevel.py">bench_numpy_highlevel.py</a></td>
    <td>Optimized NumPy</td>
   </tr>
   <tr>
-   <td>Pure NumPy</td>
+   <td>Pure-NumPy</td>
    <td><a href = "/benchmarks/python/bench_numpy_highlevel.py">bench_pure_numpy_highlevel.py</a></td>
    <td>Only NumPy Functions</td>
   </tr>
@@ -235,7 +237,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td>Ahead-Of-Time Compilation</td>
 </tr>
 <tr>
-  <td>Pythran Naive: Transonic Jit</td>
+  <td>Pythran-Naive: Transonic Jit</td>
   <td><a href = "/benchmarks/python/bench_numpy_highlevel_jit.py">bench_numpy_highlevel_jit.py</a></td>
   <td>Just-In-Time Compilation</td>
 </tr>
