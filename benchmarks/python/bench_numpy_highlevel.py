@@ -53,22 +53,22 @@ def numpy_highlevel(
         positions: "float[:,:]", 
         velocities: "float[:,:]",
     ):
-    accelerations_1 = np.zeros_like(positions)
-    accelerations_2 = np.zeros_like(positions)
+    accelerations = np.zeros_like(positions)
+    accelerations1 = np.zeros_like(positions)
 
     # Initial Acceleration
-    accelerations_1 = compute_accelerations(accelerations_1, masses, positions)
+    accelerations = compute_accelerations(accelerations, masses, positions)
 
     time = 0.0
     energy0, _, _ = compute_energies(masses, positions, velocities)
     energy_previous = energy0
 
     for step in range(number_of_steps):
-        advance_positions(positions, velocities, accelerations_1, time_step)
-        accelerations_1, accelerations_2 = accelerations_2, accelerations_1
-        accelerations_1.fill(0)
-        compute_accelerations(accelerations_1, masses, positions)
-        advance_velocities(velocities, accelerations_1, accelerations_2, time_step)
+        advance_positions(positions, velocities, accelerations, time_step)
+        accelerations, accelerations1 = accelerations1, accelerations
+        accelerations.fill(0)
+        compute_accelerations(accelerations, masses, positions)
+        advance_velocities(velocities, accelerations, accelerations1, time_step)
         time += time_step
 
         if not step % 100:
@@ -89,13 +89,13 @@ def compute_kinetic_energy(masses, velocities):
 def compute_potential_energy(masses, positions):
     number_of_particles = masses.size
     pe = 0.0              
-    for particle_1_index in range(number_of_particles - 1):
-        mass_1 = masses[particle_1_index]
-        for particle_2_index in range(particle_1_index + 1, number_of_particles):
-            mass_2 = masses[particle_2_index]
-            vector = positions[particle_1_index] - positions[particle_2_index]
+    for index_p0 in range(number_of_particles - 1):
+        mass = masses[index_p0]
+        for index_p1 in range(index_p0 + 1, number_of_particles):
+            mass1 = masses[index_p1]
+            vector = positions[index_p0] - positions[index_p1]
             distance = math.sqrt(sum(vector ** 2))
-            pe -= (mass_1 * mass_2) / distance
+            pe -= (mass * mass1) / distance
     return pe
 
 def compute_energies(masses, positions, velocities):
@@ -113,7 +113,7 @@ if __name__ == "__main__":
     time_step = 0.001
     number_of_steps = int(time_end/time_step) + 1
 
-    path_input = "input16.txt"
+    path_input = sys.argv[1]
     
     masses, positions, velocities = load_input_data(path_input)
     
