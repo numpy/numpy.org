@@ -20,11 +20,11 @@ El [ telescopio del Horizonte de Sucesos (EHT) ](https://eventhorizontelescope.o
 
 * **El agujero negro:** EHT apuntó a un enorme agujero negro aproximadamente a 55 millones de años luz de la tierra, situada en el centro de la galaxia Messier 87 (M87) en el cúmulo de Virgo. Su masa es 6.5 mil millones de veces la del sol. Se había estudiado por [más de 100 años](https://www.jpl.nasa.gov/news/news.php?feature=7385), pero nunca antes se había observado un agujero negro.
 
-* **Comparing Observations to Theory:** From Einstein’s general theory of relativity, scientists expected to find a shadow-like region caused by gravitational bending and capture of light. Scientists could use it to measure the black hole's enormous mass.
+* **Comparando las observaciones con la teoría:** A partir de la teoría de la relatividad general de Einstein, los científicos esperaban encontrar una región similar a las sombras causada por la flexión gravitacional y la captura de la luz. Los científicos pudieron utilizarla para medir la enorme masa del agujero negro.
 
-### The Challenges
+### Los desafíos
 
-* **Computational scale**
+* **Escala computacional**
 
     EHT poses massive data-processing challenges, including rapid atmospheric phase fluctuations, large recording bandwidth, and telescopes that are widely dissimilar and geographically dispersed.
 
@@ -32,13 +32,13 @@ El [ telescopio del Horizonte de Sucesos (EHT) ](https://eventhorizontelescope.o
 
     Each day EHT generates over 350 terabytes of observations, stored on helium-filled hard drives. Reducing the volume and complexity of this much data is enormously difficult.
 
-* **Into the unknown**
+* **Hacia lo desconocido**
 
     When the goal is to see something never before seen, how can scientists be confident the image is correct?
 
 {{< figure src="/images/content_images/cs/dataprocessbh.png" class="csfigcaption" caption="**EHT Data Processing Pipeline**" alt="data pipeline" align="middle" attr="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)" attrlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
 
-## Los roles de Numpy
+## El rol de NumPy
 
 What if there's a problem with the data? Or perhaps an algorithm relies too heavily on a particular assumption. Will the image change drastically if a single parameter is changed?
 
