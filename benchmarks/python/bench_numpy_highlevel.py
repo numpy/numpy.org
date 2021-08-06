@@ -29,7 +29,6 @@ def compute_accelerations(accelerations, masses, positions):
         mass0 = masses[index_p0]
         vector = np.empty(3)
         for index_p1 in range(index_p0 + 1, nb_particles):
-            # position_2 = positions[particle_2_index]     -- No need to create a new variable here, coz takes more time
             mass1 = masses[index_p1]
             position1 = positions[index_p1]
             for i in range(3):
@@ -39,7 +38,7 @@ def compute_accelerations(accelerations, masses, positions):
         
             coef_m1 = mass0 / distance 
             coef_m2 = mass1 / distance
-            # acceleration_of_particle1 = -mass_of_particle2 * (r1-r2) / (r1-r2)**(3/2)
+           
             for i in range(3):
                 accelerations[index_p0][i] -= coef_m1 * vector[i]
                 accelerations[index_p1][i] += coef_m2 * vector[i]
