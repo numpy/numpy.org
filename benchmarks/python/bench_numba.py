@@ -150,7 +150,7 @@ if __name__ == "__main__":
 
     nb_steps = int(time_end / time_step) + 1
 
-    path_input = "input16.txt"
+    path_input = sys.argv[1]
     masses, positions, velocities = load_input_data(path_input)
     
     start = time.time()
