@@ -79,15 +79,17 @@ The dataset consists of nine different text files consisting datas of 16, 32, 64
 
 ## Implemented Accelerators
 
-The decision on choosing libraries for benchmarking was done on the basis of their popularity (in terms of usage in the community) and their relevance.
+The decision on choosing libraries for benchmarking is taken from the [presentation by Ralf Gommers](https://www.slideshare.net/RalfGommers/scipy-10-and-beyond-a-story-of-community-and-code) (conference [video](https://www.youtube.com/watch?v=oHmm3mPxg6Y)) on Scipy 1.0.
 
 ### Numba
 
-Numba is the Just In Time compiler of the Python functions. It translates codes to machine codes using LLVM compiler infrastructure. NumPy support varity of features in Numba like passing NumPy arrays as arrguments, including structured `dtypes`, ufuncs, generalized ufuncs and many more. They are also capable of using variety of NumPy's function in `nopython` mode which helps functions to generate fully compiled result hence removing mediating Python interpretator calls. It supports variety of decoartors `@jit`, `@vectorize`, `@guvectorize`, `@stencil`, `@jitclass`, `@cfunc`, and `@overload`. 
+Numba is the Just In Time compiler of the Python functions. It translates codes to machine codes using LLVM compiler infrastructure. NumPy support varity of features in Numba like passing NumPy arrays as arrguments, including structured `dtypes`, ufuncs, generalized ufuncs and many more. They are also capable of using variety of NumPy's function in `nopython` mode which helps functions to generate fully compiled result hence removing mediating Python interpretator calls. It's user API supports variety of decoartors like `@jit`, `@vectorize`, `@guvectorize`, `@stencil`, `@jitclass`, `@cfunc`, and `@overload` which make it easier to use. 
 
 NumPy and Numba both uses compiled ufuncs, hence they both gives same result in manual looping which is one of the limitation of Numba. Another thing in which Numba lacks behind is that is does not support all functions of NumPy, there are functions in NumPy which does not support some of the optional arrguments in nopython mode. Numba is capable of using linear algebra calls in the compiled functions but does not return any faster implementation.
 
 Same kind of technology is used by Julia for acceleration. Numba is heavily used in community and since it helps saving a lot of time - thus, this was chosen as one of the candidates for benchmarking. NumPy is approximately 10x times slower than Numba. 
+
+Visit [here](https://numba.pydata.org/) to know more about Numba.
 
 Implementation details:
 
@@ -98,18 +100,15 @@ Implementation details:
 
 ### Pythran
 
+Pythran is a Python-specific Ahead Of Time compiler. It's primary focus was on scientific computing. It has the same C++ API implementation as in NumPy which was originally designed for the purpose of scientific computing. In Pythran, annotated Python modules are converted into native Python modules which have the same interface, but (hopefully) are faster to load. Pythran's biggest benefit is that it uses [Expression Templating](https://en.wikipedia.org/wiki/Expression_templates) and [SIMD](https://en.wikipedia.org/wiki/SIMD) instructions. Pythran was designed with an aim to use it as a backend for NumPy arrays in Cython when possible.  
 
-### Transonic
+To use Pythran in the model it needs to be stored in contiguous memory like C-style or like Fortran, this is where Pythran lacks behind. Another limitation is that the order of sequence of bytes of works must be same as the targeted architecture to make Pythran work.
 
-Transonic is a pure python package. It is one of the actively growing libraries which is used to increase the speed of our codes. Here, we are operating with two kinds of accelerators in the backend jit and boost to accelerate our code. Transonic uses four different types of accelerators in the backend Pythran, Cython, Numba, and Python. Presently, we have implemented Jit and boost accelerators, in the next iteration, we will be using Cython, with different types of backends.
+Pythran GitHub repository is available [here](https://github.com/serge-sans-paille/pythran)
 
-#### Transonic - JIT
+Implementation details:
 
-We used Transonic jit to accelerate our code. To implement this we used Pythran (Ahead-Of-Time) compiler in Just-In-Time mode. 
-
-#### Transonic - Boost: Pythran
-
-Pythran is an Ahead Of Time compiler. This module takes a Python file as an input then converts it into some kind of interface which makes the code faster. Transonic's boost decorator replaces the python function with the pythranized function. 
+* 
 
 ## Results
 
