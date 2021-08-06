@@ -1,5 +1,5 @@
 ---
-title: NumPy Benchmarking
+title: Performant
 sidebar: false
 ---
 
