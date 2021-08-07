@@ -44,10 +44,6 @@ params:
   casestudies:
     title: CASE STUDIES
     features:
-    - title: Performant 
-      text: Demo
-      alttext: idea
-      url: /benchmark
     - title: First Image of a Black Hole
       text: How NumPy, together with libraries like SciPy and Matplotlib that depend on NumPy, enabled the Event Horizon Telescope to produce the first ever image of a black hole
       img: /images/content_images/case_studies/blackhole.png
