@@ -1,9 +1,9 @@
 ---
-title: Performant
+title: NumPy Benchmarks
 sidebar: false
 ---
 
-<img src = "/static/images/content_images/benchmark-plot.jpg" alt = "Visualization" title = "Performance Benchmark">
+<img src = "/images/content_images/benchmark-plot.jpg" alt = "Visualization" title = "Performance Benchmark">
 
 **Note:**
 
@@ -57,15 +57,15 @@ $$\begin{equation} \textrm{Kinetic Energy} = \textrm{K.E} = \frac{\sum m\times v
 Set time to 0, time_step to 0.001 and time_end to 10s
 THEN number_of_step is 10/0.001
 FOR time is less than or equal to time_end 
-    Call compute_accelerations ($a_i$, for given position $r_i$)
+    Call compute_accelerations ($$a_i$$, for given position $$r_i$$)
     Compute initial_energies:
         Call compute_kinetic_energy
         Call compute_potential_energy
     FOR i less than number_of_steps
-        Call advance_positions ($r_{i+1}$)
+        Call advance_positions ($$r_{i+1}$$)
         Swap accelerations
         Call compute_accelerations
-        Call advance_velocities ($v_{i+1}$)
+        Call advance_velocities ($$v_{i+1}$$)
         Increment time
         IF number_of_step % 100 is not 0 THEN
             Call compute_energies
