@@ -44,7 +44,7 @@ params:
   casestudies:
     title: CASE STUDIES
     features:
-    - title: NumPy Benchmarks
+    - title: NumPy Benchmarks 
       text: Demo
       url: /benchmark
     - title: First Image of a Black Hole
