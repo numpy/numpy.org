@@ -25,11 +25,17 @@ As mentioned above, N-Body problem comprises of several numerical computations w
 
 ## About N-Body Problem
 
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-Let us consider $n$ bodies of masses $$m_1, m_2, m_3, ..., m_n$$, moving under the mutual [gravitational force](https://en.wikipedia.org/wiki/Gravity) of attraction between them in an [inertial frame of reference](https://en.wikipedia.org/wiki/Inertial_frame_of_reference) of three dimension. Such that consecutive  positions and velocities of the bodies are denoted by $$s_{i-1}$$, $$s_i$$ and $$v_{i-1}$$, $$v_i$$. The force gravitational force felt on body of mass $$m_i$$ by a single mass $$m_j$$ is denoted as $$F$$ and the acceleration  of the body $$m_i$$ is represented as $$a$$. Consider the position vectors of these particles as $$r_i$$ and $$r_j$$.
+Let us consider $n$ bodies of masses $m_1, m_2, m_3, ..., m_n$, moving under the mutual [gravitational force](https://en.wikipedia.org/wiki/Gravity) of attraction between them in an [inertial frame of reference](https://en.wikipedia.org/wiki/Inertial_frame_of_reference) of three dimension. Such that consecutive  positions and velocities of the bodies are denoted by $s_{i-1}$, $s_i$ and $v_{i-1}$, $v_i$. The force gravitational force felt on body of mass $m_i$ by a single mass $m_j$ is denoted as $F$ and the acceleration  of the body $m_i$ is represented as $a$. Consider the position vectors of these particles as $r_i$ and $r_j$.
  
 For more details visit [Wikipedia](https://en.wikipedia.org/wiki/N-body_problem).
 
@@ -57,15 +63,15 @@ $$\begin{equation} \textrm{Kinetic Energy} = \textrm{K.E} = \frac{\sum m\times v
 Set time to 0, time_step to 0.001 and time_end to 10s
 THEN number_of_step is 10/0.001
 FOR time is less than or equal to time_end 
-    Call compute_accelerations ($$a_i$$, for given position $$r_i$$)
+    Call compute_accelerations ($a_i$, for given position $r_i$)
     Compute initial_energies:
         Call compute_kinetic_energy
         Call compute_potential_energy
     FOR i less than number_of_steps
-        Call advance_positions ($$r_{i+1}$$)
+        Call advance_positions ($r_{i+1}$)
         Swap accelerations
         Call compute_accelerations
-        Call advance_velocities ($$v_{i+1}$$)
+        Call advance_velocities ($v_{i+1}$)
         Increment time
         IF number_of_step % 100 is not 0 THEN
             Call compute_energies
