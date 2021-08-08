@@ -18,26 +18,26 @@ params:
     image: logos/numpy.svg
   #Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
-    title: 2021 NumPy survey
-    content: Your voice matters
+    title: 2021년도 NumPy 설문조사
+    content: 소중한 의견을 들려주세요
     url: /news
   shell:
     title: 플레이스홀더
-    promptlabel: interactive shell prompt
+    promptlabel: 대화형 쉘 프롬프트
     button:
       - 
-        label: Enables the interactive tutorial shell
-        text: Enable
+        label: 대화형 튜토리얼 쉘을 켭니다
+        text: 사용
   shellcontent:
     intro:
       - 
-        title: Try NumPy
-        text: Enable the interactive shell
+        title: NumPy 써 보기
+        text: 대화형 쉘을 켭니다
     loading:
       - 
-        title: While we wait...
-        text: Launching container on mybinder.org...
-    docslink: Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a>.
+        title: 잠시만요...
+        text: mybinder.org의 컨테이너를 실행하는 중입니다...
+    docslink: <a href="https://numpy.org/doc/stable" target="_blank">문서</a>도 한 번 열람해보세요.
   casestudies:
     title: 사례 연구
     features:
