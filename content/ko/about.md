@@ -1,11 +1,11 @@
 ---
-title: About Us
+title: NumPy 정보
 sidebar: false
 ---
 
 _NumPy 프로젝트와 커뮤니티에 대한 몇가지 정보_
 
-NumPy는 Python에서 Numerical Computing을 할 수 있도록 도와주는 오픈소스 프로젝트입니다. Numerical와 Numarray라는 라이브러리의 초기 작업을 기반으로 2005년에 만들어졌습니다. NumPy는 항상 100% 오픈소스 소프트웨어 일것이며, [수정된 BSD 라이센스](https://github.com/numpy/numpy/blob/master/LICENSE.txt)에 따라서 누구나 무료로 사용하고 배포할 수 있습니디.
+NumPy는 Python을 통해 수치적 컴퓨팅을 할 수 있도록 도와주는 오픈소스 프로젝트입니다. Numerical와 Numarray라는 라이브러리의 초기 작업을 기반으로 2005년에 만들어졌습니다. NumPy는 항상 100% 오픈소스 소프트웨어일 것이며, [수정된 BSD 라이선스](https://github.com/numpy/numpy/blob/master/LICENSE.txt)에 따라서 누구나 무료로 사용하고 배포할 수 있습니다.
 
 NumPy는 광범위한 Scientific Python 커뮤니티의 협의를 통해 GitHub에서 공개적으로 개발되었습니다. 우리의 거버넌스 접근 방식에 대한 더 자세한 내용은 [거버넌스 문서](https://www.numpy.org/devdocs/dev/governance/index.html)를 참조해 주세요.
 
@@ -56,23 +56,23 @@ NumPy 프로젝트는 성장하고 있습니다. 그리고 우리는 다음과 �
 - Sebastian Berg
 - External member: Thomas Caswell
 
-## Sponsors
+## 스폰서
 
 NumPy는 다음과 같은 곳들에서 직접적으로 자금을 받습니다.
 {{< sponsors >}}
 
 
-## Institutional Partners
+## 기관 파트너
 
 기관 파트너는 그들의 업무의 일환으로 NumPy에 기여하는 직원을 고용하여 프로젝트를 지원하는 조직입니다. 현재 기관 파트너는 다음과 같습니다.
 
-- UC Berkeley (Stéfan van der Walt, Sebastian Berg, Ross Barnowski)
+- UC 버클리 (Stéfan van der Walt, Sebastian Berg, Ross Barnowski)
 - Quansight (Ralf Gommers, Melissa Weber Mendonça, Mars Lee, Matti Picus, Pearu Peterson)
 
 {{< partners >}}
 
 
-## Donate
+## 후원
 
 만약 NumPy가 당신의 업무, 연구 혹은 회사에서 유용하다고 판단된다면 당신의 자원에 맞는 프로젝트에 기여하는 것을 고려해보세요. 그것이 얼마든 도움이 됩니다! 모든 후원은 NumPy의 소프트웨어 개발, 문서 작성과 커뮤니티 운영의 자금으로 엄격하게 사용될 것입니다.
 
