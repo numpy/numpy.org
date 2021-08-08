@@ -142,19 +142,19 @@ scientificdomains:
       img: /images/content_images/sc_dom_img/mathematical_analysis.svg
     - 
       title: 화학
-      alttext: A test tube.
+      alttext: 시험관.
       img: /images/content_images/sc_dom_img/chemistry.svg
     - 
-      title: Geoscience
-      alttext: The Earth.
+      title: 지구과학
+      alttext: 지구.
       img: /images/content_images/sc_dom_img/geoscience.svg
     - 
-      title: Geographic Processing
-      alttext: A map.
+      title: 지리학적 처리
+      alttext: 지도.
       img: /images/content_images/sc_dom_img/GIS.svg
     - 
-      title: Architecture & Engineering
-      alttext: A microprocessor development board.
+      title: 아키텍처 및 엔지니어링
+      alttext: 마이크로프로세서 개발 보드.
       img: /images/content_images/sc_dom_img/robotics.svg
 datascience:
   intro: "NumPy lies at the core of a rich ecosystem of data science libraries. A typical exploratory data science workflow might look like:"
@@ -187,15 +187,15 @@ visualization:
     - 
       url: https://github.com/yhat/ggpy
       img: /images/content_images/v_ggpy.png
-      alttext: A scatter-plot graph made in ggpy
+      alttext: ggpy로 만든 산점도
     - 
       url: https://www.journaldev.com/19692/python-plotly-tutorial
       img: /images/content_images/v_plotly.png
-      alttext: A box-plot made in plotly
+      alttext: plotly로 만든 상자 그림
     - 
       url: https://altair-viz.github.io/gallery/streamgraph.html
       img: /images/content_images/v_altair.png
-      alttext: A streamgraph made in altair
+      alttext: altair로 만든 스트림 그래프
     - 
       url: https://seaborn.pydata.org
       img: /images/content_images/v_seaborn.png
@@ -207,11 +207,11 @@ visualization:
     - 
       url: https://napari.org
       img: /images/content_images/v_napari.png
-      alttext: A multi-dimensionan image made in napari.
+      alttext: napari로 만든 다차원 이미지.
     - 
       url: http://vispy.org/gallery.html
       img: /images/content_images/v_vispy.png
-      alttext: A Voronoi diagram made in vispy.
+      alttext: vispy로 만든 보로노이 다이어그램.
   content:
     - 
       text: NumPy is an essential component in the burgeoning [Python visualization landscape](https://pyviz.org/overviews/index.html), which includes [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), and [PyVista](https://github.com/pyvista/pyvista), to name a few.
