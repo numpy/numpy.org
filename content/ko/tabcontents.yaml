@@ -10,7 +10,7 @@ arraylibraries:
       text: NumPy's API is the starting point when libraries are written to exploit innovative hardware, create specialized array types, or add capabilities beyond what NumPy provides.
   headers:
     - 
-      text: Array Library
+      text: 배열 라이브러리
     - 
       text: Capabilities & Application areas
   libraries:
