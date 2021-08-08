@@ -68,7 +68,7 @@ NumPy의 [사용자 도움말](https://numpy.org/devdocs)은 현재 대규모로
 사용자가 모국어로 NumPy를 이용할 수 있도록 [numpy.org](https://numpy.org)의 여러 번역을 계획하고 있습니다. 이를 위해서는 자원봉사자분들의 통역이 필요합니다.  자세한 내용은 [여기](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n)를 참고하십시오. [이 GitHub 이슈](https://github.com/numpy/numpy.org/issues/55)에 댓글을 달아 번역에 참여하십시오.
 
 
-### Community coordination and outreach
+### 커뮤니티 조직 및 확산
 
 Through community contact we share our work more widely and learn where we're falling short. We're eager to get more people involved in efforts like our [Twitter](https://twitter.com/numpy_team) account, organizing NumPy [code sprints](https://scisprints.github.io/), a newsletter, and perhaps a blog.
 
