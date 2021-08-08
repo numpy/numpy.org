@@ -1,5 +1,5 @@
 ---
-title: 2020 NUMPY COMMUNITY SURVEY
+title: 2020 NUMPY 커뮤니티 설문조사
 sidebar: false
 ---
 
