@@ -48,13 +48,13 @@ NumPy 프로젝트는 성장하고 있습니다. 그리고 우리는 다음과 �
 
 개발 팀원들은 [팀](/gallery/team.html) 페이지를 참조하세요.
 
-## NumFOCUS Subcommittee
+## NumFOCUS 소위원회
 
 - Charles Harris
 - Ralf Gommers
 - Melissa Weber Mendonça
 - Sebastian Berg
-- External member: Thomas Caswell
+- 외부 회원: Thomas Caswell
 
 ## 스폰서
 
