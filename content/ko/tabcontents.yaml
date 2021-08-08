@@ -22,19 +22,19 @@ arraylibraries:
       url: https://dask.org/
     - 
       title: CuPy
-      text: NumPy-compatible array library for GPU-accelerated computing with Python.
+      text: Python에서 GPU 가속 컴퓨팅을 구현해주며 NumPy와 호환되는 배열 라이브러리.
       img: /images/content_images/arlib/cupy.png
       alttext: CuPy
       url: https://cupy.chainer.org
     - 
       title: JAX
-      text: "Composable transformations of NumPy programs differentiate: vectorize, just-in-time compilation to GPU/TPU."
+      text: "NumPy 프로그램을 부분적으로 변환하여 벡터화, GPU/TPU의 적시 컴파일을 제공하는 라이브러리."
       img: /images/content_images/arlib/jax_logo_250px.png
       alttext: JAX
       url: https://github.com/google/jax
     - 
       title: Xarray
-      text: Labeled, indexed multi-dimensional arrays for advanced analytics and visualization
+      text: 고급 통계 및 시각화를 구동하기 위하여 라벨링 및 인덱싱이 이뤄진 다차원 배열을 제공
       img: /images/content_images/arlib/xarray.png
       alttext: xarray
       url: https://xarray.pydata.org/en/stable/index.html
@@ -100,48 +100,48 @@ scientificdomains:
       text: "NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant."
   librariesrow1:
     - 
-      title: Quantum Computing
-      alttext: A computer chip.
+      title: 양자 컴퓨팅
+      alttext: 컴퓨터 칩.
       img: /images/content_images/sc_dom_img/quantum_computing.svg
     - 
-      title: Statistical Computing
-      alttext: A line graph with the line moving up.
+      title: 통계적 컴퓨팅
+      alttext: 선이 위로 이동하는 선그래프.
       img: /images/content_images/sc_dom_img/statistical_computing.svg
     - 
-      title: Signal Processing
-      alttext: A bar chart with positive and negative values.
+      title: 신호 처리
+      alttext: 양의 값과 음의 값을 가지는 막대 차트.
       img: /images/content_images/sc_dom_img/signal_processing.svg
     - 
-      title: Image Processing
-      alttext: An photograph of the mountains.
+      title: 이미지 처리
+      alttext: 산이 찍힌 사진.
       img: /images/content_images/sc_dom_img/image_processing.svg
     - 
-      title: Graphs and Networks
-      alttext: A simple graph.
+      title: 그래프 및 네트워크
+      alttext: 간단한 그래프.
       img: /images/content_images/sc_dom_img/sd6.svg
     - 
-      title: Astronomy Processes
-      alttext: A telescope.
+      title: 천문 데이터 처리
+      alttext: 망원경.
       img: /images/content_images/sc_dom_img/astronomy_processes.svg
     - 
-      title: Cognitive Psychology
-      alttext: A human head with gears.
+      title: 인지심리학
+      alttext: 톱니바퀴가 안에서 돌아가는 사람의 머리.
       img: /images/content_images/sc_dom_img/cognitive_psychology.svg
   librariesrow2:
     - 
-      title: Bioinformatics
-      alttext: A strand of DNA.
+      title: 생물정보학
+      alttext: DNA 가닥.
       img: /images/content_images/sc_dom_img/bioinformatics.svg
     - 
-      title: Bayesian Inference
-      alttext: A graph with a bell-shaped curve.
+      title: 베이지안 추론
+      alttext: 종 모양 곡선이 그려진 그래프.
       img: /images/content_images/sc_dom_img/bayesian_inference.svg
     - 
-      title: Mathematical Analysis
-      alttext: Four mathematical symbols.
+      title: 수학적 분석
+      alttext: 수학 기호 4개.
       img: /images/content_images/sc_dom_img/mathematical_analysis.svg
     - 
-      title: Chemistry
+      title: 화학
       alttext: A test tube.
       img: /images/content_images/sc_dom_img/chemistry.svg
     - 
@@ -183,7 +183,7 @@ visualization:
     - 
       url: https://www.fusioncharts.com/blog/best-python-data-visualization-libraries
       img: /images/content_images/v_matplotlib.png
-      alttext: A streamplot made in matplotlib
+      alttext: matplotlib으로 만든 streamplot
     - 
       url: https://github.com/yhat/ggpy
       img: /images/content_images/v_ggpy.png
