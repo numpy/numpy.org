@@ -10,10 +10,7 @@ sidebar: false
 * Machine Configurations:
     * **Machine:** Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz, 16GB RAM
     * **Operating System:** Ubuntu 20.04.2 LTS
-    * **Library Versions:**
-	* NumPy: 1.21.1
-	* Numba: 0.53.1
-	* Transonic: 0.4.10
+    * **Library Versions:** Python: 3.8.10, NumPy: 1.21.1, Numba: 0.53.1, Transonic: 0.4.10
     * **Methodology:**  
 
 <!-- TODO: Add analysis of graph -->
