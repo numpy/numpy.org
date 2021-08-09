@@ -3,13 +3,13 @@ title: Instalando o NumPy
 sidebar: false
 ---
 
-O único pré-requisito para instalar o NumPy é o próprio Python. Se você ainda não tem o Python e quer começar do jeito mais simples, nós recomendamos que você use a [Distribuição Anaconda](https://www.anaconda.com/distribution) - inclui Python, NumPy e outros pacotes comumente usados para computação científica e ciência de dados.
+O único pré-requisito para instalar o NumPy é o próprio Python. Se você ainda não tem o Python e quer começar do jeito mais simples, nós recomendamos que você use a [Distribuição Anaconda](https://www.anaconda.com/distribution) - ela inclui Python, NumPy e outros pacotes comumente usados para computação científica e ciência de dados.
 
-O NumPy pode ser instalado com `conda`, com `pip`, com um gerenciador de pacotes no macOS e Linux, ou [da fonte](https://numpy.org/devdocs/user/building.html). Para obter instruções mais detalhadas, consulte nosso [guia de instalação do Python e do NumPy](#python-numpy-install-guide) abaixo.
+O NumPy pode ser instalado com `conda`, com `pip`, com um gerenciador de pacotes no macOS e Linux, ou [pelo código fonte](https://numpy.org/devdocs/user/building.html). Para obter instruções mais detalhadas, consulte nosso [guia de instalação do Python e do NumPy](#python-numpy-install-guide) abaixo.
 
 **CONDA**
 
-Se você usar o `conda`, você pode instalar o NumPy do canal `default` ou do `conda-forge`:
+Se você usar o `conda`, você pode instalar o NumPy do canal `defaults` ou do `conda-forge`:
 
 ```bash
 # Recomenda-se usar um ambiente novo ao invés de instalar no ambiente-base
