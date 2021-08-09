@@ -53,7 +53,7 @@ def compute_accelerations(accelerations, masses, positions):
 
 
 @boost
-def pythran(
+def pythran_loop(
     time_step: float,
     nb_steps: int,
     masses: "float[]",
@@ -128,7 +128,8 @@ if __name__ == "__main__":
     masses, positions, velocities = load_input_data(path_input)
     
     start = time.time()
-    energy, energy0 = pythran_loop(time_step, nb_steps, masses, positions, velocities)
+    for i in range(5):
+        energy, energy0 = pythran_loop(time_step, nb_steps, masses, positions, velocities)
     end = time.time()
 
     print(f"Final dE/E = {(energy - energy0) / energy0:.7e}")
