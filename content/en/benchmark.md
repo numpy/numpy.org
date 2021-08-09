@@ -7,21 +7,24 @@ sidebar: false
 
 **Note:**
 
-* These benchmarks are run with an Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz.
+* Machine Configurations:
+    * **Machine:** Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz, 16GB RAM
+    * **Operating System:** Ubuntu 20.04.2 LTS
+    * **Library Versions:**
+	* NumPy: 1.21.1
+	* Numba: 0.53.1
+	* Transonic: 0.4.10
+    * **Methodology:**  
 
 <!-- TODO: Add analysis of graph -->
 
-## Introduction
+## Overview
 
+Benchmarking is the process of estimating and appraising the best among all the existing practices. This benchmark aims to understand how Python, NumPy, and their various subsets stand and to improve their performance and procedures of libraries accordingly. The aim is to present the current positions and help the end-users select the best existing practices.
 
-
-## Objective
-
-## What makes the N-Body problem a good benchmark?
-
-The scope of N-body problem takes us to scientific computations involving many processes in a single problem. The aim of this benchmarking is to understand how different libraries perform compared to NumPy and while there can be several problems which can be picked up, but N-body problem is one of the problems which are universally accepted in the community and easy to understand (comparatively).
-
-As mentioned above, N-Body problem comprises of several numerical computations which are helpful in benchmarking tasks, for an example: computing distances, velocities and accelerations involve various arithmetical operations.
+We selected the N-Body problem as a reference algorithm for benchmarking. The aim is to examine the efficiency of NumPy in quasi-real-life situations. The task is to show that how Python-NumPy can be efficient even for computationally intensive tasks. 
+The scope of the N-body problem takes us to scientific computations involving many processes in a single problem statement. N-body problem is one of the most famous universally accepted problems in the community and is easy to understand (comparatively).
+All these reasons make the N-Body problem a good problem benchmarking problem.
 
 ## About N-Body Problem
 
@@ -251,7 +254,3 @@ Table values represent the time taken by each algorithm to run, in respected dat
   </table>
 </html>
 
-
-## Conclusion
-
-* NumPy satisfactorily performs better than most of the chosen libraries (....). Numba and Pythran Naive do perform better than NumPy but it's also because of their scope and applications.
