@@ -34,7 +34,7 @@ Recentemente, foi introduzido o [modelo DeepLabCut zoo](http://www.mousemotorlab
 
 * **Criação de um kit de ferramentas Python fácil de usar para estimativa de poses:**
 
-  DeepLabCut queria compartilhar sua tecnologia de estimativa de poses animal na forma de uma ferramenta simples de usar que pudesse ser adotada pelos pesquisadores facilmente. Assim, criaram um conjunto de ferramentas em Python completo e fácil de usar, também com recursos de gerenciamento de projeto. Isso permite não apenas a automação de estimação de poses, mas também o gerenciamento do projeto de ponta a ponta, ajudando o usuário do DeepLabCut Toolkit desde a fase de coleta para criar fluxos de dados compartilháveis e reutilizáveis.
+  DeepLabCut queria compartilhar sua tecnologia de estimativa de poses de animais na forma de uma ferramenta simples de usar que pudesse ser adotada pelos pesquisadores facilmente. Assim, criaram um conjunto de ferramentas em Python completo e fácil de usar, também com recursos de gerenciamento de projeto. Isso permite não apenas a automação de estimação de poses, mas também o gerenciamento do projeto de ponta a ponta, ajudando o usuário do DeepLabCut Toolkit desde a fase de coleta para criar fluxos de dados compartilháveis e reutilizáveis.
 
   Seu [conjunto de ferramentas][DLCToolkit] agora está disponível como software de código aberto.
 
@@ -63,7 +63,7 @@ Recentemente, foi introduzido o [modelo DeepLabCut zoo](http://www.mousemotorlab
 
 {{< figure src="/images/content_images/cs/pose-estimation.png" class="csfigcaption" caption="**Estimação de poses e complexidade**" alt="6 imagens com diferentes exemplos de captura de movimento" align="middle" attr="(Fonte: Mackenzie Mathis)" attrlink="https://www.biorxiv.org/content/10.1101/476531v1.full.pdf" >}}
 
-## O papel da NumPy nos desafios da estimação de poses
+## O papel do NumPy nos desafios da estimação de poses
 
 NumPy supre a principal necessidade da tecnologia DeepLabCut de cálculos numéricos de alta velocidade para análises comportamentais.  Além da NumPy, DeepLabCut emprega várias bibliotecas Python que usam a NumPy como sua base, tais como [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug), [scikit-learn](https://scikit-learn.org/stable/), [scikit-image](https://scikit-image.org) e [Tensorflow](https://www.tensorflow.org).
 
@@ -75,7 +75,7 @@ As seguintes características da NumPy desempenharam um papel fundamental para a
 * Amostragem aleatória
 * Reordenamento de matrizes grandes
 
-A DeepLabCut utiliza as capacidades de manipulação de arrays da NumPy em todo o fluxo de trabalho oferecido pelo seu conjunto de ferramentas. Em particular, a NumPy é usada para amostragem de quadros distintos para serem rotulados com anotações humanas e para escrita, edição e processamento de dados de anotação.  Dentro da TensorFlow, a rede neural é treinada pela tecnologia DeepLabCut em milhares de iterações para prever as anotações verdadeiras dos quadros. Para este propósito, densidades de alvo (*scoremaps*) são criadas para colocar a estimativa como um problema de tradução de imagem a imagem. Para tornar as redes neurais robustas, o aumento de dados é empregado, o que requer o cálculo de scoremaps alvo sujeitos a várias etapas geométricas e de processamento de imagem. Para tornar o treinamento rápido, os recursos de vectorização da NumPy são utilizados. Para inferência, as previsões mais prováveis de scoremaps alvo precisam ser extraídas e é necessário "vincular previsões para montar animais individuais" de maneira eficiente.
+A DeepLabCut utiliza as capacidades de manipulação de arrays do NumPy em todo o fluxo de trabalho oferecido pelo seu conjunto de ferramentas. Em particular, a NumPy é usada para amostragem de quadros distintos para serem rotulados com anotações humanas e para escrita, edição e processamento de dados de anotação.  Dentro da TensorFlow, a rede neural é treinada pela tecnologia DeepLabCut em milhares de iterações para prever as anotações verdadeiras dos quadros. Para este propósito, densidades de alvo (*scoremaps*) são criadas para colocar a estimativa como um problema de tradução de imagem a imagem. Para tornar as redes neurais robustas, o aumento de dados é empregado, o que requer o cálculo de scoremaps alvo sujeitos a várias etapas geométricas e de processamento de imagem. Para tornar o treinamento rápido, os recursos de vectorização da NumPy são utilizados. Para inferência, as previsões mais prováveis de scoremaps alvo precisam ser extraídas e é necessário "vincular previsões para montar animais individuais" de maneira eficiente.
 
 {{< figure src="/images/content_images/cs/deeplabcut-workflow.png" class="fig-center" caption="**Fluxo de dados DeepLabCut**" alt="diagrama com o fluxo de dados do deeplabcut" attr="*(Fonte: Mackenzie Mathis)*" attrlink="https://www.researchgate.net/figure/DeepLabCut-work-flow-The-diagram-delineates-the-work-flow-as-well-as-the-directory-and_fig1_329185962">}}
 
