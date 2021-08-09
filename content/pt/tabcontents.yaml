@@ -34,31 +34,31 @@ arraylibraries:
       url: https://github.com/google/jax
     - 
       title: Xarray
-      text: Labeled, indexed multi-dimensional arrays for advanced analytics and visualization
+      text: Arrays multidimensionais rotuladas e indexadas para análise e visualização avançadas
       img: /images/content_images/arlib/xarray.png
       alttext: xarray
       url: https://xarray.pydata.org/en/stable/index.html
     - 
       title: Sparse
-      text: NumPy-compatible sparse array library that integrates with Dask and SciPy's sparse linear algebra.
+      text: Biblioteca de arrays compatíveis com o NumPy que pode ser integrada com Dask e álgebra linear esparsa da SciPy.
       img: /images/content_images/arlib/sparse.png
       alttext: sparse
       url: https://sparse.pydata.org/en/latest/
     - 
       title: PyTorch
-      text: Deep learning framework that accelerates the path from research prototyping to production deployment.
+      text: Framework de deep learning que acelera o caminho entre prototipação de pesquisa e colocação em produção.
       img: /images/content_images/arlib/pytorch-logo-dark.svg
       alttext: PyTorch
       url: https://pytorch.org/
     - 
       title: TensorFlow
-      text: An end-to-end platform for machine learning to easily build and deploy ML powered applications.
+      text: Uma plataforma completa para aprendizagem de máquina que permite construir e colocar em produção aplicações usando ML facilmente.
       img: /images/content_images/arlib/tensorflow-logo.svg
       alttext: TensorFlow
       url: https://www.tensorflow.org
     - 
       title: MXNet
-      text: Deep learning framework suited for flexible research prototyping and production.
+      text: Framework de deep learning voltado para flexibilizar prototipação em pesquisa e produção.
       img: /images/content_images/arlib/mxnet_logo.png
       alttext: MXNet
       url: https://mxnet.apache.org/
