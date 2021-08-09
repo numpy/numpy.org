@@ -3,7 +3,7 @@ title: Notícias
 sidebar: false
 ---
 
-### NumPy versão 1.20.0
+### Pesquisa NumPy 2021
 
 _12 de julho de 2021_ -- Nós do NumPy acreditamos no poder da nossa comunidade. 1,236 usuários do NumPy de 75 países participaram da nossa primeira pesquisa ano passado. Os resultados da pesquisa nos ajudaram a compreender muito bem o que devemos fazer pelos 12 meses seguintes.
 
@@ -12,13 +12,13 @@ Chegou a hora de fazer outra pesquisa e estamos contando com você novamente. Va
 Siga o link para começar: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSl4q.
 
 
-### Diversidade no projeto NumPy
+### NumPy versão 1.21.0
 
-_Jun 23, 2021_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) is now available. The highlights of the release are:
+_23 de junho de 2021_ -- O [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) está disponível. Os destaques desta versão são:
 
-- Anotações de tipos para grandes partes do NumPy, e um novo submódulo `numpy.typing` contendo aliases `ArrayLike` e `DtypeLike` que usuários e bibliotecas downstream podem usar quando quiserem adicionar anotações de tipos em seu próprio código.
-- initial work on the new dtype infrastructure and casting,
-- universal2 wheels for Python 3.8 and Python 3.9 on Mac,
+- a continuação do trabalho com SIMD para suportar mais funções e plataformas,
+- trabalho inicial na infraestrutura e conversão de novos dtypes,
+- wheels universal2 para Python 3.8 e Python 3.9 no Mac,
 - improved documentation,
 - improved annotations,
 - new `PCG64DXSM` bitgenerator for random numbers.
@@ -34,7 +34,7 @@ _Jun 22, 2021_ -- In 2020, the NumPy survey team in partnership with students an
 ### O Python 3.9 está chegando, quando o NumPy vai liberar wheels binárias?
 
 _30 de janeiro de 2021_ -- O [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) está disponível. Este é o maior release do NumPy até agora, graças a mais de 180 contribuidores. As duas novidades mais emocionantes são:
-- Type annotations for large parts of NumPy, and a new `numpy.typing` submodule containing `ArrayLike` and `DtypeLike` aliases that users and downstream libraries can use when adding type annotations in their own code.
+- Anotações de tipos para grandes partes do NumPy, e um novo submódulo `numpy.typing` contendo aliases `ArrayLike` e `DtypeLike` que usuários e bibliotecas downstream podem usar quando quiserem adicionar anotações de tipos em seu próprio código.
 - Otimizações de compilação SIMD multi-plataforma, com suporte para instruções x86 (SSE, AVX), ARM64 (Neon) e PowerPC (VSX). Isso rendeu melhorias significativas de desempenho para muitas funções (exemplos: [sen/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
 
 ### NumPy versão 1.19.2
