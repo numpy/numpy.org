@@ -64,7 +64,7 @@ arraylibraries:
       url: https://mxnet.apache.org/
     - 
       title: Arrow
-      text: A cross-language development platform for columnar in-memory data and analytics.
+      text: Uma plataforma de desenvolvimento multi-linguagens para dados e análise para dados armazenados em colunas na memória.
       img: /images/content_images/arlib/arrow.png
       alttext: arrow
       url: https://github.com/apache/arrow
@@ -138,43 +138,43 @@ scientificdomains:
       img: /images/content_images/sc_dom_img/bayesian_inference.svg
     - 
       title: Mathematical Analysis
-      alttext: Four mathematical symbols.
+      alttext: Quatro símbolos matemáticos.
       img: /images/content_images/sc_dom_img/mathematical_analysis.svg
     - 
-      title: Chemistry
-      alttext: A test tube.
+      title: Química
+      alttext: Um tubo de ensaio.
       img: /images/content_images/sc_dom_img/chemistry.svg
     - 
-      title: Geoscience
-      alttext: The Earth.
+      title: Geociências
+      alttext: A Terra.
       img: /images/content_images/sc_dom_img/geoscience.svg
     - 
-      title: Geographic Processing
-      alttext: A map.
+      title: Processamento Geográfico
+      alttext: Um mapa.
       img: /images/content_images/sc_dom_img/GIS.svg
     - 
-      title: Architecture & Engineering
-      alttext: A microprocessor development board.
+      title: Arquitetura e Engenharia
+      alttext: Uma placa de desenvolvimento de microprocessador.
       img: /images/content_images/sc_dom_img/robotics.svg
 datascience:
-  intro: "NumPy lies at the core of a rich ecosystem of data science libraries. A typical exploratory data science workflow might look like:"
+  intro: "NumPy está no centro de um rico ecossistema de bibliotecas de ciência de dados. Um fluxo de trabalho típico de ciência de dados exploratório pode parecer assim:"
   image1:
     - 
       img: /images/content_images/ds-landscape.png
-      alttext: Diagram of Python Libraries. The five catagories are 'Extract, Transform, Load', 'Data Exploration', 'Data Modeling', 'Data Evaluation' and 'Data Presentation'.
+      alttext: Diagrama de bibliotecas Python. As cinco categorias são 'Extrair, Transformar, Carregar', 'Exploração de Dados', 'Modelo de Dados', 'Avaliação de Dados' e 'Apresentação de Dados'.
   image2:
     - 
       img: /images/content_images/data-science.png
-      alttext: Diagram of three overlapping circle. The circles labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'.
+      alttext: Diagrama de três círculos sobrepostos. Os círculos estão rotulados como "Matemática", "Ciência da Computação" e "Especialização de Domínio". No meio do diagrama onde se sobrepõem os três círculos, está uma área denominada "Ciência de Dados".
   examples:
     - 
-      text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org),[ Intake](https://intake.readthedocs.io),[PyJanitor](https://pyjanitor.readthedocs.io/)"
+      text: "<b>Extrair, Transformar, Carregar: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
     - 
-      text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org),[Seaborn](https://seaborn.pydata.org),[ Matplotlib](https://matplotlib.org),[ Altair](https://altair-viz.github.io)"
+      text: "<b>Análise exploratória: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
     - 
-      text: "<b>Model and evaluate: </b>[scikit-learn](https://scikit-learn.org),[ statsmodels](https://www.statsmodels.org/stable/index.html),[ PyMC3](https://docs.pymc.io),[ spaCy](https://spacy.io)"
+      text: "<b>Modelar e avaliar: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
     - 
-      text: "<b>Report in a dashboard: </b>[Dash](https://plotly.com/dash),[ Panel](https://panel.holoviz.org),[ Voila](https://github.com/voila-dashboards/voila)"
+      text: "<b>Criar relatórios em dashboards: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
   content:
     - 
       text: For high data volumes, [Dask](https://dask.org) and[Ray](https://ray.io/) are designed to scale. Stabledeployments rely on data versioning ([DVC](https://dvc.org)),experiment tracking ([MLFlow](https://mlflow.org)), andworkflow automation ([Airflow](https://airflow.apache.org) and[Prefect](https://www.prefect.io)).
