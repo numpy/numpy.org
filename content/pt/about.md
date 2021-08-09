@@ -48,7 +48,7 @@ O projeto NumPy está crescendo; temos equipes para
 
 Veja a página de [Times](/gallery/team.html) para membros individuais de cada time.
 
-## Patrocinadores
+## Subcomitê NumFOCUS
 
 - Charles Harris
 - Ralf Gommers
@@ -80,5 +80,5 @@ NumPy é um Projeto Patrocinado da NumFOCUS, uma instituição de caridade sem f
 
 Doações para o NumPy são gerenciadas pela [NumFOCUS](https://numfocus.org). Para doadores nos Estados Unidos, sua doação é dedutível para fins fiscais na medida oferecida pela lei. Como em qualquer doação, você deve consultar seu conselheiro fiscal sobre sua situação fiscal em particular.
 
-O Conselho Diretor da NumPy tomará as decisões sobre a melhor forma de utilizar os fundos recebidos. Prioridades técnicas e de infraestrutura estão documentadas no [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
+O Conselho Diretor do NumPy tomará as decisões sobre a melhor forma de utilizar os fundos recebidos. Prioridades técnicas e de infraestrutura estão documentadas no [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
 {{< numfocus >}}
