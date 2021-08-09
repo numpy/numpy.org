@@ -30,7 +30,7 @@ Hoje, existem conjuntos ricos e quase infinitos de estatísticas e informações
 ### Objetivos Principais da Análise de Dados
 
 * A análise de dados esportivos é usada não somente em críquete, mas em muitos [outros esportes](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) para melhorar o desempenho geral da equipe e maximizar as chances de vitória.
-* A análise de dados em tempo real pode ajudar a obtenção de informações mesmo durante o jogo para orientar mudanças nas táticas da equipe e dos negócios associados para benefícios e crescimento econômicos.
+* A análise de dados em tempo real pode ajudar na obtenção de informações mesmo durante o jogo para orientar mudanças nas táticas da equipe e dos negócios associados para benefícios e crescimento econômicos.
 * Além da análise histórica, os modelos preditivos explorados para determinar os possíveis resultados das partidas requerem um conhecimento significativo sobre processamento numérico e ciência de dados, ferramentas de visualização e a possibilidade de incluir observações mais recentes na análise.
 
 {{< figure src="/images/content_images/cs/player-pose-estimator.png" class="fig-center" alt="estimador de postura" caption="**Estimador de Postura de Críquete**" attr="*(Créditos de imagem: connect.vin)*" attrlink="https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/" >}}
@@ -61,4 +61,4 @@ A análise de dados esportivos é um campo próspero. Muitos pesquisadores e emp
 
 A análise de dados esportivos é revolucionária quando se trata de como os jogos profissionais são jogados, especialmente se consideramos como acontece a tomada de decisões estratégicas, que até pouco tempo era principalmente feita com base na "intuição" ou adesão a tradições passadas. O NumPy forma uma fundação sólida para um grande conjunto de pacotes Python que fornecem funções de alto nível relacionadas à análise de dados, aprendizagem de máquina e algoritmos de IA. Estes pacotes são amplamente implantados para se obter informações em tempo real que ajudam na tomada de decisão para resultados decisivos, tanto em campo como para se derivar inferências e orientar negócios em torno do jogo de críquete. Encontrar os parâmetros ocultos, padrões, e atributos que levam ao resultado de uma partida de críquete ajuda os envolvidos a tomar nota das percepções do jogo que estariam de outra forma ocultas nos números e estatísticas.
 
-{{< figure src="/images/content_images/cs/numpy_ca_benefits.png" class="fig-center" alt="Diagrama mostrando os benefícios de usar a NumPy para análise de críquete" caption="**Recursos principais da NumPy utilizados**" >}}
+{{< figure src="/images/content_images/cs/numpy_ca_benefits.png" class="fig-center" alt="Diagrama mostrando os benefícios de usar o NumPy para análise de críquete" caption="**Recursos principais da NumPy utilizados**" >}}
