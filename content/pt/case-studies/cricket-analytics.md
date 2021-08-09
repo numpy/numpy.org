@@ -3,7 +3,7 @@ title: "Estudo de Caso: Análise de Críquete, a revolução!"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**IPLT20, o maior festival de Críquete da Índia**" alt="Copa e estádio da Indian Premier League Cricket" attr="*(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
+{{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**IPLT20, o maior festival de Críquete da Índia**" alt="Copa e estádio da Indian Premier League Cricket" attr="*(Créditos de imagem: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
 
 <blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
     <p>Você não joga para a torcida, joga para o país.</p>
