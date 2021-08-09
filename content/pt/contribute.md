@@ -2,7 +2,7 @@
 title: Contribua com o NumPy sidebar: false
 - - -
 
-O projeto NumPy precisa de sua experiência e entusiasmo! Suas opções de não são limitadas à programação -- além de
+O projeto NumPy precisa de sua experiência e entusiasmo! Suas opções não são limitadas à programação -- além de
 
 - [Escrever código](#writing-code)
 
