@@ -17,7 +17,7 @@ conda create -n my-env
 conda activate my-env
 # Se quiser instalar do conda-forge
 conda config --env --add channels conda-forge
-# O comando para instação
+# O comando para instalação
 conda install numpy
 ```
 
