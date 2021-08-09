@@ -18,12 +18,12 @@ params:
     image: logos/numpy.svg
   #Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
-    title: NumPy v1.20.0
-    content: Suporte a anotações de tipos - Melhorias no desempenho através de SIMD multi-plataformas
+    title: Pesquisa NumPy 2021
+    content: Sua voz é importante
     url: /pt/news
   shell:
     title: placeholder
-    promptlabel: interactive shell prompt
+    promptlabel: console interativo
     button:
       - 
         label: Habilita o tutorial com console interativo
