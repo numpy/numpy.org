@@ -19,35 +19,35 @@ _23 de junho de 2021_ -- O [NumPy 1.21.0](https://numpy.org/doc/stable/release/1
 - a continuação do trabalho com SIMD para suportar mais funções e plataformas,
 - trabalho inicial na infraestrutura e conversão de novos dtypes,
 - wheels universal2 para Python 3.8 e Python 3.9 no Mac,
-- improved documentation,
-- improved annotations,
-- new `PCG64DXSM` bitgenerator for random numbers.
+- melhorias na documentação,
+- melhorias nas anotações de tipos,
+- novo bitgenerator `PCG64DXSM` para números aleatórios.
 
-This NumPy release is the result of 581 merged pull requests contributed by 175 people. The Python versions supported for this release are 3.7-3.9, support for Python 3.10 will be added after Python 3.10 is released.
-
-
-### Primeiro artigo oficial do NumPy publicado na Nature!
-
-_Jun 22, 2021_ -- In 2020, the NumPy survey team in partnership with students and faculty from the University of Michigan and the University of Maryland conducted the first official NumPy community survey. Find the survey results here: https://numpy.org/user-survey-2020/.
+Esta versão do NumPy é o resultado de 581 pull requests aceitos, a partir das contribuições de 175 pessoas. As versões do Python suportadas por esta versão são 3.7-3.9; o suporte para o Python 3.10 será adicionado após o lançamento do Python 3.10.
 
 
-### O Python 3.9 está chegando, quando o NumPy vai liberar wheels binárias?
+### Resultados da pesquisa NumPy 2020
+
+_22 de junho de 2021_ -- Em 2020, o time de pesquisas NumPy, em parceria com estudantes e professores da Universidade de Michigan e da Universidade de Maryland, realizou a primeira pesquisa oficial sobre a comunidade NumPy. Encontre os resultados da pesquisa aqui: https://numpy.org/user-survey-2020/.
+
+
+### NumPy versão 1.20.0
 
 _30 de janeiro de 2021_ -- O [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) está disponível. Este é o maior release do NumPy até agora, graças a mais de 180 contribuidores. As duas novidades mais emocionantes são:
 - Anotações de tipos para grandes partes do NumPy, e um novo submódulo `numpy.typing` contendo aliases `ArrayLike` e `DtypeLike` que usuários e bibliotecas downstream podem usar quando quiserem adicionar anotações de tipos em seu próprio código.
 - Otimizações de compilação SIMD multi-plataforma, com suporte para instruções x86 (SSE, AVX), ARM64 (Neon) e PowerPC (VSX). Isso rendeu melhorias significativas de desempenho para muitas funções (exemplos: [sen/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
 
-### NumPy versão 1.19.2
+### Diversidade no projeto NumPy
 
-_24 de junho de 2020_ -- NumPy agora tem um novo logo:
+_20 de setembro de 2020_ -- Escrevemos uma [declaração sobre o estado da diversidade e inclusão no projeto NumPy e discussões em redes sociais sobre isso.](/diversity_sep2020).
 
 
-### A primeira pesquisa NumPy está aqui!
+### Primeiro artigo oficial do NumPy publicado na Nature!
 
 _16 de setembro de 2020_ -- Temos o prazer de anunciar a publicação do [primeiro artigo oficial do NumPy](https://www.nature.com/articles/s41586-020-2649-2) como um artigo de revisão na Nature. Isso ocorre 14 anos após o lançamento do NumPy 1.0. O artigo abrange aplicações e conceitos fundamentais da programação de matrizes, o rico ecossistema científico de Python construído em cima do NumPy, e os protocolos de array recentemente adicionados para facilitar a interoperabilidade com bibliotecas externas para computação com matrizes e tensores, como CuPy, Dask e JAX.
 
 
-### O NumPy tem um novo logo!
+### O Python 3.9 está chegando, quando o NumPy vai liberar wheels binárias?
 
 _14 de setembro de 2020_ -- Python 3.9 será lançado em algumas semanas. Se você for quiser usar imediatamente a nova versão do Python, você pode ficar desapontado ao descobrir que o NumPy (e outros pacotes binários como SciPy) não terão wheels no dia do lançamento. É um grande esforço adaptar a infraestrutura de compilação a uma nova versão de Python e normalmente leva algumas semanas para que os pacotes apareçam no PyPI e no conda-forge. Em preparação para este evento, por favor, certifique-se de
 - atualizar seu `pip` para a versão 20.1 pelo menos para suportar `manylinux2010` e `manylinux2014`
