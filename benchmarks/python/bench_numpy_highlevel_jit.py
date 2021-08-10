@@ -1,5 +1,3 @@
-# Pythran Naive
-
 import sys
 import math
 import time
@@ -112,7 +110,8 @@ if __name__ == "__main__":
     masses, positions, velocities = load_input_data(path_input)
     
     start = time.time()
-    energy, energy0 = pythran_naive(time_step, number_of_steps, masses, positions, velocities)
+    for i in range(5):
+        energy, energy0 = pythran_naive(time_step, number_of_steps, masses, positions, velocities)
     end = time.time()
     
     print(f"Final dE/E = {(energy - energy0) / energy0:.7e}")
