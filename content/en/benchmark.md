@@ -150,7 +150,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td></td>
  </tr>
 <tr>
-  <td>Pure-Python</td>
+  <td><b>Pure-Python<b></td>
   <td></td>
   <td></td>
   <td></td>
@@ -175,9 +175,9 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td><b>Numba</b></td>
   <td>0.89/ 0.72/ 0.02</td>
   <td>0.05/ 0.05</td>
-  <td>0.17/ 0.17</td>     <!-- Zero division error -->
+  <td>0.17/ 0.17</td>     
   <td> 0.61/ 0.60</td>
-  <td>2.40/ 2.66/ 2.31</td>          <!-- Zero division error -->
+  <td>2.40/ 2.66/ 2.31</td>         
   <td>10.56/ 10.09</td>
   <td>37.39/ 40.17</td>
   <td>160.62/ 145.89</td>
