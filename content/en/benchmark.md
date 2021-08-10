@@ -113,21 +113,21 @@ Table values represent the time taken by each algorithm to run, in respected dat
 <html>
 <table>
  <tr>
-  <td></td>
-  <td><b>Input 16 (s)</b></td>
-  <td><b>Input 32 (s)</b></td>
-  <td><b>Input 64 (s)</b></td>
-  <td><b>Input 128 (s)</b></td>
-  <td><b>Input 256 (s)</b></td>
-  <td><b>Input 512 (s)</b></td>
-  <td><b>Input 1k (s)</b></td>
-  <td><b>Input 2k (s)</b></td>
-  <td><b>Input 16k (s)</b></td>
+  <td>Input -></td>
+  <td><b>16 (s)</b></td>
+  <td><b>32 (s)</b></td>
+  <td><b>64 (s)</b></td>
+  <td><b>128 (s)</b></td>
+  <td><b>256 (s)</b></td>
+  <td><b>512 (s)</b></td>
+  <td><b>1k (s)</b></td>
+  <td><b>2k (s)</b></td>
+  <td><b>16k (s)</b></td>
  </tr>
  <tr>
   <tr>
   <td><b>Python-NumPy</b></td>
-  <td>10.15</td>
+  <td>47.14</td>
   <td>45.2</td>
   <td>161.01</td>
   <td></td>
@@ -149,6 +149,13 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td></td>
   <td></td>
  </tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td><
+</tr>
  <tr>
   <td><b>C++</b></td>
   <td>0.04</td>
@@ -241,11 +248,6 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td>Just-In-Time Compilation</td>
 </tr>
 <tr>
-  <td>Pythran: Transonic Boost</td>
-  <td> <a href = "/benchmarks/python/bench.py">bench.py</a></td>
-  <td>Ahead-Of-Time Compilation</td>
-</tr>
-<tr>
   <td>Pythran-Naive: Transonic Jit</td>
   <td><a href = "/benchmarks/python/bench_numpy_highlevel_jit.py">bench_numpy_highlevel_jit.py</a></td>
   <td>Just-In-Time Compilation</td>
@@ -253,3 +255,7 @@ Table values represent the time taken by each algorithm to run, in respected dat
   </table>
 </html>
 
+
+## References
+
+* 
