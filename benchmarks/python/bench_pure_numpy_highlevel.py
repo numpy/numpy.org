@@ -1,12 +1,10 @@
-# Pure NumPy
-
-import math
-import numpy as np
-import pandas as pd
-
-from datetime import timedelta
 import sys
 import time
+import math
+from datetime import timedelta
+
+import numpy as np
+import pandas as pd
 
 def load_input_data(path):
     df = pd.read_csv(
@@ -25,22 +23,22 @@ def advance_velocities(velocities, accelerations, accelerations1, time_step):
 
 def compute_accelerations(accelerations, masses, positions):
     number_of_particles = masses.size
-    for particle_1_index in range(number_of_particles - 1):
-        position_1 = positions[particle_1_index]
-        masses_1 = masses[particle_1_index]
+    for index_p0 in range(number_of_particles - 1):
+        position0 = positions[index_p0]
+        masses0 = masses[index_p0]
         vector = np.empty(3)
-        for particle_2_index in range(particle_1_index +1, number_of_particles):
-            masses_2 = masses[particle_2_index]
-            position_2 = positions[particle_2_index]
+        for index_p1 in range(index_p0 +1, number_of_particles):
+            masses1 = masses[index_p1]
+            position1 = positions[index_p1]
             for i in range(3):
-                vector[i] = position_1[i] - position_2[i]
+                vector[i] = position0[i] - position1[i]
     
             distance = sum(vector ** 2) * math.sqrt(sum(vector ** 2))
-            coef_m1 = masses_1 / distance
-            coef_m2 = masses_2 / distance
+            coef_m1 = masses0 / distance
+            coef_m2 = masses1 / distance
             for i in range(3):
-                accelerations[particle_1_index][i] -= coef_m1 * vector[i]
-                accelerations[particle_2_index][i] += coef_m2 * vector[i]
+                accelerations[index_p0][i] -= coef_m1 * vector[i]
+                accelerations[index_p1][i] += coef_m2 * vector[i]
     return accelerations
 
 def pure_numpy_highlevel(time_step: float, 
@@ -50,11 +48,10 @@ def pure_numpy_highlevel(time_step: float,
         velocities: "float[:,:]",
     ):
 
-    accelerations_1 = np.zeros_like(positions)
-    accelerations_2 = np.zeros_like(positions)
+    accelerations0 = np.zeros_like(positions)
+    accelerations1 = np.zeros_like(positions)
 
-    # Initial Acceleration
-    accelerations_1 = compute_accelerations(accelerations_1, masses, positions)
+    accelerations0 = compute_accelerations(accelerations0, masses, positions)
 
     time = 0.0
     energy0, _, _ = compute_energies(masses, positions, velocities)
@@ -62,10 +59,10 @@ def pure_numpy_highlevel(time_step: float,
 
     for step in range(number_of_steps):
         advance_positions(positions, velocities, accelerations_1, time_step)
-        accelerations_1, accelerations_2 = accelerations_2, accelerations_1
-        accelerations_1.fill(0)
-        compute_accelerations(accelerations_1, masses, positions)
-        advance_velocities(velocities, accelerations_1, accelerations_2, time_step)
+        accelerations0, accelerations1 = accelerations1, accelerations0
+        accelerations0.fill(0)
+        compute_accelerations(accelerations0, masses, positions)
+        advance_velocities(velocities, accelerations0, accelerations1, time_step)
         time += time_step
 
         if not step % 100:
@@ -85,13 +82,13 @@ def compute_kinetic_energy(masses, velocities):
 def compute_potential_energy(masses, positions):
     number_of_particles = masses.size
     pe = 0.0              
-    for particle_1_index in range(number_of_particles -1):
-        mass_1 = masses[particle_1_index]
-        for particle_2_index in range(particle_1_index +1, number_of_particles):
-            mass_2 = masses[particle_2_index]
-            vector = np.subtract(positions[particle_1_index], positions[particle_2_index])
+    for index_p0 in range(number_of_particles -1):
+        masses0 = masses[index_p0]
+        for index_p1 in range(index_p0 + 1, number_of_particles):
+            masses1 = masses[index_p1]
+            vector = np.subtract(positions[index_p0], positions[index_p1])
             distance = math.sqrt(sum(np.power(vector,2)))
-            pe -= np.multiply(mass_1, mass_2) / distance
+            pe -= np.multiply(masses0, masses1) / distance
     return pe
 
 def compute_energies(masses, positions, velocities):
@@ -109,11 +106,12 @@ if __name__ == "__main__":
     time_step = 0.001
     number_of_steps = int(time_end/time_step) +1
 
-    path_input = "input16.txt"
+    path_input = sys.argv[1]
     masses, positions, velocities = load_input_data(path_input)
 
     start = time.time()
-    energy, energy0 = pure_numpy_highlevel(time_step, number_of_steps, masses, positions, velocities)
+    for i in range(5):
+        energy, energy0 = pure_numpy_highlevel(time_step, number_of_steps, masses, positions, velocities)
     end = time.time()
     
     print(f"Final dE/E = {(energy - energy0) / energy0:.7e}")
