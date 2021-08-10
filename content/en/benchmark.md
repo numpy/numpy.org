@@ -3,26 +3,18 @@ title: NumPy Benchmarks
 sidebar: false
 ---
 
-<img src = "/images/content_images/benchmark-plot.jpg" alt = "Visualization" title = "Performance Benchmark">
+<img src = "/images/content_images/benchmark-plot.jpg" alt = "Visualization" title = "Performance Benchmark">   
 
-**Note:**
-
-* Machine Configurations:
-    * **Machine:** Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz, 16GB RAM
-    * **Operating System:** Ubuntu 20.04.2 LTS
-    * **Library Versions:** Python: 3.8.10, NumPy: 1.21.1, Numba: 0.53.1, Transonic: 0.4.10
-    * **Methodology:**   
-
-<!-- TODO: Add analysis of graph -->
 
 ## Overview
 
-Benchmarking is the process of estimating and appraising the best among all the existing practices. This benchmark aims to understand how Python, NumPy, and their various subsets stand and to improve their performance and procedures of libraries accordingly. The intend to present the current positions and help the end-users select the best existing practices.
+The aim of this benchmark is to understand how Python, NumPy, Numba, Pythran and Transonic and to improve their performance and procedures of libraries accordingly. We intend to present the current performance of the mentioned libraries and help the end-users to select the best among all the existing practices.
 
-We selected the N-Body problem as a reference problem statement for benchmarking. The aim is to examine the efficiency of NumPy in quasi-real-life situations. The task is to show that how Python-NumPy can be efficient even for computationally intensive tasks.
+We selected the N-Body problem as a reference algorithm for benchmarking. The aim is to examine the efficiency of NumPy in quasi-real-life situations. The task is to show that how Python-NumPy can be efficient even for computationally intensive tasks.
  
-The scope of the N-body problem takes us to scientific computations involving many processes in a single problem statement. N-body problem is one of the most famous universally accepted problems in the community and is easy to understand (comparatively).
-All these reasons make the N-Body problem a good problem benchmarking problem.
+The scope of the N-body problem takes us to scientific computations involving many processes in a single problem statement. N-body problem is one of the most famous and universally accepted algorithms in the community and is easy to understand (comparatively).
+
+All these reasons make the N-Body problem a robust algorithm for benchmarking.
 
 ## About N-Body Problem
 
@@ -56,26 +48,26 @@ $$\begin{equation} \textrm{Self Potential Energy} = \textrm{U} = -\frac{{m_i}\ti
 
 $$\begin{equation} \textrm{Kinetic Energy} = \textrm{K.E} = \frac{\sum m\times v^2}{2} \tag{vii} \end{equation}$$
 
-## Pseudo Code
+$$\begin{equation} \textrm{Total Energy} = \textrm{Kinetic Energy} + \textrm{Self Potential Energy} \tag{viii} \end{equation}$$
 
-<!-- TODO: To add subsripts ($a_i$) -->
+## Pseudo Code
 
 ```bash
 Set time to 0, time_step to 0.001 and time_end to 10s
 THEN number_of_step is 10/0.001
 FOR time is less than or equal to time_end 
-    Call compute_accelerations ($a_i$, for given position $r_i$)
-    Compute initial_energies:
-        Call compute_kinetic_energy
-        Call compute_potential_energy
+    Calculate accelerations ((v) $a_i$, for given position $r_i$)
+    Calculate total initial energies (viii):
+        Calculate kinetic energy (vii)
+        Calculate potential energy (vi)
     FOR i less than number_of_steps
-        Call advance_positions ($r_{i+1}$)
+        Calculate positions ((i) $r_{i+1}$)
         Swap accelerations
-        Call compute_accelerations
-        Call advance_velocities ($v_{i+1}$)
+        Calculate accelerations (v)
+        Calculate velocities ((ii) $v_{i+1}$)
         Increment time
         IF number_of_step % 100 is not 0 THEN
-            Call compute_energies
+            Calculate total energy
             Print energy
         ENDIF
     END FOR
@@ -84,7 +76,8 @@ END FOR
 
 ## Dataset Description
 
-The dataset consists of nine different text files with 16, 32, 64, 128, 256, 512, 1k, 2k, and 16k particles. It contains the masses of particles, information about their positions, and velocities along the x, y, and z-axis. The number of rows in the datasets varies depending on the dataset. The dataset has 8 columns, the first column consists of a data entry, and the next column tells about the particle's mass. The other three columns represent the particle's positions along the x, y, and z-axes, while the other three represent the particle's velocities along the three-dimensional axis.
+* Nine different text files, named as `InputX.txt`, where $X$ is $16$, $32$, $64$, $128$, $256$, $512$, $1000$, $2000$ and $16000$.  
+* Datasets consists of the masses of each particle and information about their initial positions and initial velocities along the three-dimentional axis.   
 
 ## Implemented Accelerators
 
@@ -205,6 +198,14 @@ Table values represent the time taken by each algorithm to run, in respected dat
  </tr>
 </table>
 </html>
+
+**Note:**
+
+* Machine Configurations:
+    * **Machine:** Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz, 16GB RAM
+    * **Operating System:** Ubuntu 20.04.2 LTS
+    * **Library Versions:** Python: 3.8.10, NumPy: 1.21.1, Numba: 0.53.1, Transonic: 0.4.10
+    * **Methodology:**
 
 ## Source Code
 
