@@ -11,15 +11,16 @@ sidebar: false
     * **Machine:** Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz, 16GB RAM
     * **Operating System:** Ubuntu 20.04.2 LTS
     * **Library Versions:** Python: 3.8.10, NumPy: 1.21.1, Numba: 0.53.1, Transonic: 0.4.10
-    * **Methodology:**  
+    * **Methodology:**   
 
 <!-- TODO: Add analysis of graph -->
 
 ## Overview
 
-Benchmarking is the process of estimating and appraising the best among all the existing practices. This benchmark aims to understand how Python, NumPy, and their various subsets stand and to improve their performance and procedures of libraries accordingly. The aim is to present the current positions and help the end-users select the best existing practices.
+Benchmarking is the process of estimating and appraising the best among all the existing practices. This benchmark aims to understand how Python, NumPy, and their various subsets stand and to improve their performance and procedures of libraries accordingly. The intend to present the current positions and help the end-users select the best existing practices.
 
-We selected the N-Body problem as a reference algorithm for benchmarking. The aim is to examine the efficiency of NumPy in quasi-real-life situations. The task is to show that how Python-NumPy can be efficient even for computationally intensive tasks. 
+We selected the N-Body problem as a reference problem statement for benchmarking. The aim is to examine the efficiency of NumPy in quasi-real-life situations. The task is to show that how Python-NumPy can be efficient even for computationally intensive tasks.
+ 
 The scope of the N-body problem takes us to scientific computations involving many processes in a single problem statement. N-body problem is one of the most famous universally accepted problems in the community and is easy to understand (comparatively).
 All these reasons make the N-Body problem a good problem benchmarking problem.
 
@@ -35,7 +36,7 @@ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-Let us consider $n$ bodies of masses $m_1, m_2, m_3, ..., m_n$, moving under the mutual [gravitational force](https://en.wikipedia.org/wiki/Gravity) of attraction between them in an [inertial frame of reference](https://en.wikipedia.org/wiki/Inertial_frame_of_reference) of three dimension. Such that consecutive  positions and velocities of the bodies are denoted by $s_{i-1}$, $s_i$ and $v_{i-1}$, $v_i$. The force gravitational force felt on body of mass $m_i$ by a single mass $m_j$ is denoted as $F$ and the acceleration  of the body of mass $m_i$ is represented as $a$. Consider the position vectors of these particles as $r_i$ and $r_j$.
+Let us consider $n$ bodies of masses $m_1, m_2, m_3, ..., m_n$, moving under the mutual [gravitational force](https://en.wikipedia.org/wiki/Gravity) of attraction between them in an [inertial frame of reference](https://en.wikipedia.org/wiki/Inertial_frame_of_reference) of three dimension. Such that consecutive  positions and velocities of the bodies are denoted by $s_{i-1}$, $s_i$ and $v_{i-1}$, $v_i$. The gravitational force felt on body of mass $m_i$ by a single mass $m_j$ is denoted as $F$ and the acceleration  of the body of mass $m_i$ is represented as $a$. Consider the position vectors of these particles as $r_i$ and $r_j$.
  
 For more details visit [Wikipedia](https://en.wikipedia.org/wiki/N-body_problem).
 
