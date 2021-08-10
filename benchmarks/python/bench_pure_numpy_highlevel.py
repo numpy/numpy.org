@@ -58,7 +58,7 @@ def pure_numpy_highlevel(time_step: float,
     energy_previous = energy0
 
     for step in range(number_of_steps):
-        advance_positions(positions, velocities, accelerations_1, time_step)
+        advance_positions(positions, velocities, accelerations0, time_step)
         accelerations0, accelerations1 = accelerations1, accelerations0
         accelerations0.fill(0)
         compute_accelerations(accelerations0, masses, positions)
