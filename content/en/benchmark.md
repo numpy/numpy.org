@@ -150,11 +150,15 @@ Table values represent the time taken by each algorithm to run, in respected dat
   <td></td>
  </tr>
 <tr>
+  <td>Pure-Python</td>
   <td></td>
   <td></td>
   <td></td>
   <td></td>
-  <td><
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
 </tr>
  <tr>
   <td><b>C++</b></td>
