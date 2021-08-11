@@ -134,6 +134,14 @@ Pythran GitHub repository is available [here](https://github.com/serge-sans-pail
 Table values represent the time taken by each algorithm to run on the given datasets for $5$ number of iterations.
 
 <html>
+<head>
+ <style>
+   table, th, td {
+     border: 1px solid black;
+   }
+ </style>
+</head>
+<body>
 <table>
  <tr>
   <td>Input $\rightarrow$</td>
@@ -185,6 +193,7 @@ Table values represent the time taken by each algorithm to run on the given data
   <td>3.62</td>
  </tr>
 </table>
+</body>
 </html>
 
 **Note** on machine configuration used for benchmarking:
