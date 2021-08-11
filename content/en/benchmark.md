@@ -158,7 +158,7 @@ Table values represent the time taken by each algorithm to run on the given data
   <td>3198.2</td>
  </tr>
 <tr>
-  <td>Pure-Python</td>
+  <td><b>Pure-Python</b></td>
   <td>65.1</td>
   <td>202.3</td>
   <td></td>
