@@ -44,7 +44,7 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/N-body_problem).
 
 From the definition above, the N-body problem involves computations related to energies, acceleration, velocity, the distance of several particles in the space, which has also allowed it to be one of the widely accepted algorithms in the community. A brief description of computations involved in solving the N-body problem is given below, along with the pseudo-code in the next section:
 
-Consider $n$ bodies of masses $m_1, m_2, m_3, ... , m_n$, moving under the mutual [gravitational force](https://en.wikipedia.org/wiki/Gravity) of attraction between them in an [inertial frame of reference](https://en.wikipedia.org/wiki/Inertial_frame_of_reference) of three dimensions, such that consecutive  positions and velocities of an ${ith}$ body are denoted by ($s_{i-1}$, $s_i$) and ($v_{i-1}$, $v_i$) respectively. The gravitational force felt on the $ith$ body of mass $m_i$ by a single body of mass $m_j$ is denoted as $F$ and the acceleration of the $ith$ body is represented as $a_i$. Consider the position vectors of these two bodies as $r_i$ and $r_j$.
+Consider $n$ bodies of masses $m_1, m_2, m_3, ... , m_n$, moving under the mutual [gravitational force](https://en.wikipedia.org/wiki/Gravity) of attraction between them in an [inertial frame of reference](https://en.wikipedia.org/wiki/Inertial_frame_of_reference) of three dimensions, such that consecutive  positions and velocities of an ${ith}$ body are denoted by ($s_{i-1}$, $s_i$) and ($v_{i-1}$, $v_i$) respectively. The gravitational force felt on the $ith$ body of mass $m_i$ by a single body of mass $m_j$ is denoted as $F_{gravitational}$ and the acceleration of the $ith$ body is represented as $a_i$. Consider the position vectors of these two bodies as $r_i$ and $r_j$.
 
 The final aim is to find the total energy of each particle in the celestial space and the equations involved in solving the problem are listed below:
 
@@ -52,17 +52,15 @@ The final aim is to find the total energy of each particle in the celestial spac
 
 \begin{equation}{v_i} = {v_{i-1}} + {a\times t} \tag{ii} \end{equation}
 
-\begin{equation} {F} = \frac{{G\times {m_i}\times {m_j}}\times \mid {r_i}-{r_j} \mid}{{\mid {r_i}-{r_j} \mid}^3} \tag{iii} \end{equation}
+\begin{equation} {F_{gravitational}} = \frac{{G\times {m_i}\times {m_j}}\times \mid {r_i}-{r_j} \mid}{{\mid {r_i}-{r_j} \mid}^3} \tag{iii} \end{equation}
 
-\begin{equation} {F} = {m\times a} \tag{iv} \end{equation}
+\begin{equation} {a} = \frac{F_{gravitational}}{m} \tag{iv} \end{equation}
 
-\begin{equation} {a} = \frac{F}{m} \tag{v} \end{equation}
+\begin{equation} \textrm{Self Potential Energy} = \textrm{U} = -\frac{{m_i}\times {m_j}}{r^2} \tag{v} \end{equation}
 
-\begin{equation} \textrm{Self Potential Energy} = \textrm{U} = -\frac{{m_i}\times {m_j}}{r^2} \tag{vi} \end{equation}
+\begin{equation} \textrm{Kinetic Energy} = \textrm{K.E} = \frac{\sum m\times v^2}{2} \tag{vi} \end{equation}
 
-\begin{equation} \textrm{Kinetic Energy} = \textrm{K.E} = \frac{\sum m\times v^2}{2} \tag{vii} \end{equation}
-
-\begin{equation} \textrm{Total Energy} = \textrm{Kinetic Energy} + \textrm{Self Potential Energy} \tag{viii} \end{equation}
+\begin{equation} \textrm{Total Energy} = \textrm{Kinetic Energy} + \textrm{Self Potential Energy} \tag{vii} \end{equation}
 
 ### Pseudo Code of Solving N-body Problem
 
@@ -134,10 +132,18 @@ Pythran GitHub repository is available [here](https://github.com/serge-sans-pail
 Table values represent the time taken by each algorithm to run on the given datasets for $5$ number of iterations.
 
 <html>
+<head>
+<style>
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
 <body>
-<table rules = "all">
+<table>
  <tr>
-  <td>Input $\rightarrow$</td>
+  <td>Input(s) $\rightarrow$</td>
   <td><b>16</b></td>
   <td><b>32</b></td>
   <td><b>64</b></td>
@@ -146,44 +152,44 @@ Table values represent the time taken by each algorithm to run on the given data
  <tr>
   <tr>
   <td><b>Python-NumPy</b></td>
-  <td>47.14</td>
-  <td>179.6</td>
-  <td>726</td>
-  <td>3399.8</td>
+  <td>0.1841</td>
+  <td>0.1753</td>
+  <td>0.1772</td>
+  <td>0.2075</td>
  </tr>
  <tr>
   <td><b>Pure-NumPy</b></td>
-  <td>42.7</td>
-  <td>167.8</td>
-  <td>758</td>
-  <td>3198.2</td>
+  <td>0.1667</td>
+  <td>0.1638</td>
+  <td>0.1850</td>
+  <td>0.1952</td>
  </tr>
 <tr>
   <td><b>Pure-Python</b></td>
-  <td>65.1</td>
-  <td>202.3</td>
-  <td>443.13</td>
-  <td></td>
+  <td>0.2542</td>
+  <td>0.1975</td>
+  <td>0.1081</td>
+  <td>0.1135</td>
 </tr>
  <tr>
   <td><b>C++</b></td>
-  <td>0.37</td>
-  <td>1.58</td>
-  <td>5.46</td>
-  <td>22.06</td>
+  <td>0.0014</td>
+  <td>0.0015</td>
+  <td>0.0013</td>
+  <td>0.0013</td>
  <tr>
   <td><b>Numba</b></td>
-  <td>0.75</td>
-  <td>1.11</td>
-  <td>1.92</td>     <!-- Zero division error -->
-  <td>4.27</td>
+  <td>0.0029</td>
+  <td>0.0010</td>
+  <td>0.0004</td>     <!-- Zero division error -->
+  <td>0.0002</td>
  </tr>
  <tr>
   <td><b>Pythran-Naive: Transonic</b></td>
-  <td>1.39</td>
-  <td>1.16</td>
-  <td>1.66</td>
-  <td>3.62</td>
+  <td>0.0054</td>
+  <td>0.0011</td>
+  <td>0.0004</td>
+  <td>0.0002</td>
  </tr>
 </table>
 </body>
@@ -203,9 +209,17 @@ Table values represent the time taken by each algorithm to run on the given data
 
 * These codes are highly inspired from <a href = "https://github.com/paugier/nbabel">Pierre Augier's work on N-Body Problem</a>.
 * Benchmarking Code: <a href = "/benchmarks/python/benchmark-2.py">here</a>.
-* Visualization Code: <a href = "/benchmarks/python/plot-modified-1.py">here</a>.
+* Visualization Code: <a href = "/benchmarks/python/plot.py">here</a>.
 
 <html>
+<head>
+<style>
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
  <table>
   <tr>
    <td><b>Algorithms</b></td>
@@ -225,7 +239,7 @@ Table values represent the time taken by each algorithm to run on the given data
   <tr>
    <td>Pure-Python</td>
    <td><a href = "/benchmarks/python/bench_pure_particle.py">bench_pure_particle.py</a></td>
-   <td>Only NumPy Functions</td>
+   <td>Only Python Functions</td>
   </tr>
  <tr>
   <td>C++</td>
@@ -248,5 +262,7 @@ Table values represent the time taken by each algorithm to run on the given data
 
 ## References
 
+* [The issue for adding content on performance](https://github.com/numpy/numpy.org/issues/370)
 * [Wikipedia's Article on N-Body Problem](https://en.wikipedia.org/wiki/N-body_problem)
 * [Dataset used from Pierre Augier's repository](https://github.com/paugier/nbabel/tree/master/data)
+* [High-performance Python for crystallographic computing](https://onlinelibrary.wiley.com/iucr/doi/10.1107/S1600576719008471)
