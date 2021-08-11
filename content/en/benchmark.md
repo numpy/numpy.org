@@ -137,7 +137,7 @@ Table values represent the time taken by each algorithm to run on the given data
 <head>
  <style>
    table, th, td {
-     border: 1px solid black;
+     border;
    }
  </style>
 </head>
