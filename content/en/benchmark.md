@@ -3,7 +3,7 @@ title: NumPy Benchmarks
 sidebar: false
 ---
 
-<img src = "/images/content_images/NumPy-Benchmarking.png" alt = "Visualization" title = "Performance Benchmark; Number of Iterations: 5">
+<img src = "/images/content_images/plot.png" alt = "Visualization" title = "Performance Benchmark; Number of Iterations: 5">
 
 
 ## Overview
