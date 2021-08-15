@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 def plot(x, labels, list_df, names):
 
-    plt.figure(figsize=(350, 220), dpi=100)
+    plt.figure(figsize=(350, 220), dpi=50)
     plt.subplot(2, 1, 1)
     
     width = 0.25
@@ -18,10 +18,10 @@ def plot(x, labels, list_df, names):
     
     for ind, time_taken in enumerate(list1):
         rect[ind] = plt.bar(x + width * ind, time_taken, width, align = 'center', label = labels[ind])
-        plt.bar_label(rect[ind], padding = 3, fontsize = 200)
+        plt.bar_label(rect[ind], padding = 3, fontsize = 250)
     
-    plt.xticks(x + width, names, fontsize = 200)
-    plt.yticks(fontsize = 200)
+    plt.xticks(x + width, names, fontsize = 300)
+    plt.yticks(fontsize = 300)
     plt.legend(fontsize = 250)
     
     plt.ylabel(r'$\frac{Time}{nParticles^2}$', fontsize = 300)
@@ -41,16 +41,17 @@ def plot(x, labels, list_df, names):
     for ind, time_taken in enumerate(list2):
         rect[ind] = plt.bar(x + width * ind, time_taken, width, align = 'center', color = colors[ind % len(colors)], label = labels[j])
         j += 1
-        plt.bar_label(rect[ind], padding = 3, fontsize = 200)
+        plt.bar_label(rect[ind], padding = 3, fontsize = 250)
     
-    plt.xticks(x + width, names, fontsize = 200)
-    plt.yticks(fontsize = 200)
+    plt.xticks(x + width, names, fontsize = 300)
+    plt.yticks(fontsize = 300)
     plt.legend(fontsize = 250)
     
     plt.ylabel(r'$\frac{Time}{nParticles^2}$', fontsize = 300)
     plt.xlabel(r"$Number\ of\ Particles\ Simulated(nParticles)$", fontsize = 250)
     plt.title(r"$Accelerator\ used\ for\ Implementation$", fontsize = 300)
     
+    plt.tight_layout(pad = 70.0)
     plt.savefig("benchmarking-numpy")
 
 if __name__ == "__main__":
