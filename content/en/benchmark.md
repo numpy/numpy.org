@@ -100,7 +100,7 @@ An example from the dataset<a href="#data">[3]</a> used is given below: (for a s
 
 ## Implemented Accelerators
 
-Accelerators like [Numba](http://numba.pydata.org/), [Pythran](https://transonic.readthedocs.io/), and [Transonic](https://transonic.readthedocs.io/) are considered for also considered for benchmarking. This decision is inspired from [Ralf Gommer's Presentation on SciPy 1.0](https://www.slideshare.net/RalfGommers/scipy-10-and-beyond-a-story-of-community-and-code) (conference [video](https://www.youtube.com/watch?v=oHmm3mPxg6Y)). We give brief details on few of the accelerators below:
+We considered accelerators like [Numba](http://numba.pydata.org/), [Pythran](https://transonic.readthedocs.io/), and [Transonic](https://transonic.readthedocs.io/) for benchmarking. This decision is inspired by [Ralf Gommer's Presentation on SciPy 1.0](https://www.slideshare.net/RalfGommers/scipy-10-and-beyond-a-story-of-community-and-code) (conference [video](https://www.youtube.com/watch?v=oHmm3mPxg6Y)). We give brief details on a few of the accelerators below:
 
 ### Numba
 
@@ -108,7 +108,7 @@ Accelerators like [Numba](http://numba.pydata.org/), [Pythran](https://transonic
 
 Source: [Numba's website](http://numba.pydata.org/).
 
-Since Numba is a compiler focused on accelerating Python codes, the user API of the library comes with decorators like: `@jit, @vectorize, @guvectorize, @stencil, @jitclass, @cfunc, @overload` to support ease-of-use of the library. Along with the decorators, it has a `nopython` mode to generate fully compiled results without the need of intermediate Python interpreter calls. Numba supporting NumPy arrays and functions also makes it a good candidate for comparison.
+Since Numba is a compiler focused on accelerating Python codes, the user API of the library comes with decorators like `@jit, @vectorize, @guvectorize, @stencil, @jitclass, @cfunc, @overload` to support ease-of-use of the library. Along with the decorators, it has a `nopython` mode to generate fully compiled results without the need for intermediate Python interpreter calls. Numba supporting NumPy arrays and functions also makes it a good candidate for comparison.
 
 <!-- NumPy and Numba both use a similar type of compilation for ufuncs in manual looping resulting in the same speed.  Another thing that Numba lacks behind is that it does not support all functions of NumPy. There are functions in NumPy which does not hold up some of the optional arguments in nopython mode. It can implement linear algebra calls in the compiled functions but does not return any faster implementation. -->
 
@@ -125,7 +125,7 @@ Implementation details for benchmarking:
 
 Source: [Pythran's Website](https://pythran.readthedocs.io/en/latest/#)
 
-Since it majorly uses C++ implementations of the NumPy API, its main advantages are it supports [Expression Templating](https://en.wikipedia.org/wiki/Expression_templates) and [SIMD](https://en.wikipedia.org/wiki/SIMD) instructions. It converts annotated Python modules which have few interface descriptions into native Python modules with same interface but are faster.
+Since it majorly uses C++ implementations of the NumPy API, its main advantages are it supports [Expression Templating](https://en.wikipedia.org/wiki/Expression_templates) and [SIMD](https://en.wikipedia.org/wiki/SIMD) instructions. It converts annotated Python modules that have few interface descriptions into native Python modules with the same interface but are faster.
 
 <!-- NumPy arrays in Cython should be stored in contiguous memory like C-style or Fortran to use Pythran in the backend. Here, the Pythran lacks behind. Another limitation is that the sequence of bytes of words must be the same as the targeted architecture to make Pythran work.-->
 
@@ -137,7 +137,7 @@ Table values represent the normalized time taken in seconds by each algorithm to
 <head>
 <style>
 table, th, td {
-  border: 2px solid black;
+  border: 1px solid black;
   border-collapse: collapse;
 }
 </style>
@@ -209,7 +209,7 @@ table, th, td {
 
 ## Source Code
 
-* These codes are highly inspired from <a href = "https://github.com/paugier/nbabel">Pierre Augier's work on N-Body Problem</a>.
+* The code is highly inspired by <a href = "https://github.com/paugier/nbabel">Pierre Augier's work on N-Body Problem</a>.
 * Benchmarking Code: <a href = "/benchmarks/python/benchmark-2.py">here</a>.
 * Visualization Code: <a href = "/benchmarks/python/plot.py">here</a>.
 
@@ -217,7 +217,7 @@ table, th, td {
 <head>
 <style>
 table, th, td {
-  border: 2px solid black;
+  border: 1px solid black;
   border-collapse: collapse;
 }
 </style>
@@ -225,7 +225,7 @@ table, th, td {
  <table>
   <tr>
    <td><b>Algorithms</b></td>
-   <td><b>Source Codes</b></td>
+   <td><b>Source Code</b></td>
    <td><b>Implementation Details</b></td>
   </tr>
   <tr>

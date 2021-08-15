@@ -5,12 +5,14 @@
     <div class="container">
         <div class="keyfeatures-box-container">
             {{- range $features }}
-            <div class="keyfeatures-box-content keyfeatures-underline">
-                <p>
-                    <div class="keyfeatures-box-title">{{ .title }}</div>
+	    <div class="keyfeatures-box-content keyfeatures-underline">
+		<p>
+		    <a href="{{ .url }}">
+		        <div class="keyfeatures-box-title">{{ .title }}</div>
+	            </a>
                     <div class="keyfeatures-box-text">{{ .text | markdownify }}</div>
-                </p>
-            </div>
+	        </p>
+	    </div>
             {{- end }}
         </div>
     </div>

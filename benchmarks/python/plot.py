@@ -5,52 +5,53 @@ import matplotlib.pyplot as plt
 
 def plot(x, labels, list_df, names):
 
-    plt.figure(figsize=(80, 40), dpi=100)
-    plt.subplot(1, 2, 1)
-    x_indices = []
+    plt.figure(figsize=(350, 220), dpi=100)
+    plt.subplot(2, 1, 1)
+    
     width = 0.25
     rect = [0, 0, 0]
-    _list = []
+    
+    list1 = []
     for ind, list in enumerate(list_df):
         if ind < 3:
-            _list.append(list)
-    for ind, time_taken in enumerate(_list):
+            list1.append(list)
+    
+    for ind, time_taken in enumerate(list1):
         rect[ind] = plt.bar(x + width * ind, time_taken, width, align = 'center', label = labels[ind])
-        x_indices.append(
-            x + width * ind
-        )
-        plt.bar_label(rect[ind], padding = 3, fontsize = 33)
-    plt.xticks(x + width, names, fontsize = 40)
-    plt.yticks(fontsize = 30)
-    plt.legend(fontsize = 50)
-    plt.ylabel(r'$\frac{Time}{nParticles^2}$', fontsize = 50)
-    plt.xlabel(r"$Number\ of\ Particles\ Simulated(nParticles)$", fontsize = 50)
-    plt.title(r"$Library\ used\ for\ Implementation$", fontsize = 60)
+        plt.bar_label(rect[ind], padding = 3, fontsize = 200)
+    
+    plt.xticks(x + width, names, fontsize = 200)
+    plt.yticks(fontsize = 200)
+    plt.legend(fontsize = 250)
+    
+    plt.ylabel(r'$\frac{Time}{nParticles^2}$', fontsize = 300)
+    plt.xlabel(r"$Number\ of\ Particles\ Simulated(nParticles)$", fontsize = 250)
+    plt.title(r"$Library\ used\ for\ Implementation$", fontsize = 300)
 
-    plt.subplot(1, 2, 2)
+    plt.subplot(2, 1, 2)
     rect = [0, 0, 0]
     colors = ['lightcoral', 'navy', 'm']
-    _list = []
+    
+    list2 = []
     for ind, list in enumerate(list_df):
         if ind >= 3:
-            _list.append(list)
-    j = 3
-    for ind, time_taken in enumerate(_list):
-        rect[ind] = plt.bar(x + width * ind, time_taken, width, align = 'center', color = colors[ind % len(colors)], label = labels[j])
-        x_indices.append(
-            x + width * ind
-        )
-        j += 1
-        plt.bar_label(rect[ind], padding = 3, fontsize = 33)
-    plt.xticks(x + width, names, fontsize = 40)
-    plt.yticks(fontsize = 30)
-    plt.legend(fontsize = 50)
-    plt.ylabel(r'$\frac{Time}{nParticles^2}$', fontsize = 50)
-    plt.xlabel(r"$Number\ of\ Particles\ Simulated(nParticles)$", fontsize = 50)
-    plt.title(r"$Accelerator\ used\ for\ Implementation$", fontsize = 60)
+            list2.append(list)
     
-    plt.suptitle("Performance Comparision; Number of Iterations: 5", fontsize = 70)
-    plt.savefig("subplot")
+    j = 3
+    for ind, time_taken in enumerate(list2):
+        rect[ind] = plt.bar(x + width * ind, time_taken, width, align = 'center', color = colors[ind % len(colors)], label = labels[j])
+        j += 1
+        plt.bar_label(rect[ind], padding = 3, fontsize = 200)
+    
+    plt.xticks(x + width, names, fontsize = 200)
+    plt.yticks(fontsize = 200)
+    plt.legend(fontsize = 250)
+    
+    plt.ylabel(r'$\frac{Time}{nParticles^2}$', fontsize = 300)
+    plt.xlabel(r"$Number\ of\ Particles\ Simulated(nParticles)$", fontsize = 250)
+    plt.title(r"$Accelerator\ used\ for\ Implementation$", fontsize = 300)
+    
+    plt.savefig("benchmarking-numpy")
 
 if __name__ == "__main__":
     df = pd.read_csv("data.csv")
