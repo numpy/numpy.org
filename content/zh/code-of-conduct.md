@@ -72,12 +72,12 @@ _本节概述最重要的环节。 更多详细信息可在_ [NumPy行为守则-
 1. 声明已收到举报信息。
 2. 合理的讨论/反馈。
 3. 调解(如果反馈意见没有产生帮助，并且只有当举报方和被举报方都同意这样做时)，
-4. enforcement via transparent decision (see [Resolutions](/report-handling-manual#resolutions)) by the Code of Conduct Committee.
+4. 《行为守则》委员会通过公开透明的决定(见 [决议](/report-handling-manual#resolutions)) 来执行。
 
-The Committee will respond to any report as soon as possible, and at most within 72 hours.
+委员会将尽快、至多在72小时内对任何举报作出答复。
 
-### Endnotes
+### 尾注
 
-We are thankful to the groups behind the following documents, from which we drew content and inspiration:
+我们感谢以下文件背后的团体，我们从这些文件中吸取了内容和灵感：
 
-- [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/reference/dev/conduct/code_of_conduct.html)
+- [《SciPy行为守则》](https://docs.scipy.org/doc/scipy/reference/dev/conduct/code_of_conduct.html)
