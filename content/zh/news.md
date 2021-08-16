@@ -5,7 +5,7 @@ sidebar: false
 
 ### 2021 Numpy调查
 
-_July 12, 2021_ -- At NumPy, we believe in the power of our community. 1,236 NumPy users from 75 countries participated in our inaugural survey last year. The survey findings gave us a very good understanding of what we should focus on for the next 12 months.
+_2021年7月12日_ -- 我们相信NumPy社区的力量。 来自75个国家的1236 名用户参加了我们去年的首次调查。 调查结果使我们对今后12个月应该集中注意的问题有了很好的了解。
 
 It’s time for another survey, and we are counting on you once again. It will take about 15 minutes of your time. Besides English, the survey questionnaire is available in 8 additional languages: Bangla, French, Hindi, Japanese, Mandarin, Portuguese, Russian, and Spanish.
 
