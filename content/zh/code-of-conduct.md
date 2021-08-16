@@ -47,17 +47,17 @@ NumPy项目欢迎并鼓励每个人参与。 我们致力于成为一个人人�
 
 我们知道，互联网通信平台从诞生开始就演变为非常普遍的辱骂恶意中伤的场所。 我们还认识到，有时人们可能会有不愉快的时候，或不知道本行为守则中的一些准则。 在决定如何应对违反本守则的行为时，请铭记这一点。
 
-关于明显故意违反行为，向行为守则委员会报告（见下文）。 For possibly unintentional breaches, you may reply to the person and point out this code of conduct (either in public or in private, whatever is most appropriate). If you would prefer not to do that, please feel free to report to the Code of Conduct Committee directly, or ask the Committee for advice, in confidence.
+关于明显故意违反行为，向行为守则委员会报告（见下文）。 对于可能无意的违规行为，您可以回复此人并指出此行为准则（无论是在公开场合还是私下场合，选择一种最合适的方式）。 如果你不愿意这样做，请随时直接向行为守则委员会汇报， 或以保密方式向委员会征求意见。
 
-You can report issues to the NumPy Code of Conduct Committee at numpy-conduct@googlegroups.com.
+您可以在 numpy-conduct@googlegroups.com上向NumPy行为守则委员会报告问题。
 
-Currently, the Committee consists of:
+目前，该委员会包含如下成员：
 
 * Stefan van der Walt
-* Melissa Weber Mendonça
+* Melissa Weber Mendonça
 * Anirudh Subramanian
 
-If your report involves any members of the Committee, or if they feel they have a conflict of interest in handling it, then they will recuse themselves from considering your report. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
+如果你的举报涉及委员会的任何成员，或他们认为对举报的处理存在利益冲突， 他们将回避审议你的报告。 Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
 ### Incident reporting resolution & Code of Conduct enforcement
 
