@@ -57,21 +57,21 @@ NumPy项目欢迎并鼓励每个人参与。 我们致力于成为一个人人�
 * Melissa Weber Mendonça
 * Anirudh Subramanian
 
-如果你的举报涉及委员会的任何成员，或他们认为对举报的处理存在利益冲突， 他们将回避审议你的报告。 Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
+如果你的举报涉及委员会的任何成员，或他们认为对举报的处理存在利益冲突， 他们将回避审议你的报告。 或者，如果你出于任何原因感到不方便向委员会提交报告， 那么您也可以通过 [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible)联系NumFOCUS高级工作人员。
 
-### Incident reporting resolution & Code of Conduct enforcement
+### 事故报告决议 & 行为守则执行
 
-_This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](/report-handling-manual).
+_本节概述最重要的环节。 更多详细信息可在_ [NumPy行为守则-如何对举报采取后续行动](/report-handling-manual) 中找到。
 
-We will investigate and respond to all complaints. The NumPy Code of Conduct Committee and the NumPy Steering Committee (if involved) will protect the identity of the reporter, and treat the content of complaints as confidential (unless the reporter agrees otherwise).
+我们将调查并答复所有指控。 NumPy行为守则委员会和NumPy指导委员会（如果涉及的话）将保护举报者的身份，并将投诉内容视为保密(除非举报人另有约定)。
 
-In case of severe and obvious breaches, e.g. personal threat or violent, sexist or racist language, we will immediately disconnect the originator from NumPy communication channels; please see the manual for details.
+如果发生严重和明显的违约行为，例如人身攻击和恐吓、性别或种族歧视， 我们将立即断开发起人与 NumPy 通信频道的联系；详情请参阅手册。
 
-In cases not involving clear severe and obvious breaches of this Code of Conduct the process for acting on any received Code of Conduct violation report will be:
+在不涉及明显严重和明显违反本行为守则行为的情况下，就收到的任何违反行为守则行为报告采取行动的程序将是：
 
-1. acknowledge report is received,
-2. reasonable discussion/feedback,
-3. mediation (if feedback didn’t help, and only if both reporter and reportee agree to this),
+1. 声明已收到举报信息。
+2. 合理的讨论/反馈。
+3. 调解(如果反馈意见没有产生帮助，并且只有当举报方和被举报方都同意这样做时)，
 4. enforcement via transparent decision (see [Resolutions](/report-handling-manual#resolutions)) by the Code of Conduct Committee.
 
 The Committee will respond to any report as soon as possible, and at most within 72 hours.
