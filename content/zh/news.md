@@ -3,7 +3,7 @@ title: 社区快讯
 sidebar: false
 ---
 
-### 2021 NumPy survey
+### 2021 Numpy调查
 
 _July 12, 2021_ -- At NumPy, we believe in the power of our community. 1,236 NumPy users from 75 countries participated in our inaugural survey last year. The survey findings gave us a very good understanding of what we should focus on for the next 12 months.
 
