@@ -139,29 +139,29 @@ footer:
     column2:
       links:
         - 
-          text: About us
+          text: 关于我们
           link: /about
         - 
-          text: Community
+          text: 社区
           link: /community
         - 
-          text: Contribute
+          text: 参与贡献
           link: /contribute
         - 
-          text: Code of conduct
-          link: /code-of-conduct
+          text: 行为准则
+          link: /codes-of-conduct
     column3:
       links:
         - 
-          text: Get help
+          text: 获得帮助
           link: /gethelp
         - 
-          text: Terms of use
+          text: 使用条款
           link: /terms
         - 
-          text: Privacy
+          text: 隐私政策
           link: /privacy
         - 
-          text: Press kit
+          text: 宣传材料
           link: /press-kit
 
