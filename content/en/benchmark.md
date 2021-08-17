@@ -8,7 +8,7 @@ sidebar: false
 
 ## Overview
 
-This blog post aims to benchmark NumPy's performance on the widely accepted N-body problem<a href="#nbody">[2]</a>. This work also compares NumPy with other popular libraries and compilers like Numba, Pythran, Transonic and pure Python and C++ implementations.
+This blog post aims to benchmark NumPy's performance on the widely accepted N-body problem<a href="#nbody">[2]</a>. This work also compares NumPy with other popular libraries like pure Python and C++ and compilers like Numba and Pythran.
 
 The objective of benchmarking NumPy revolves around the efficiency of the library in quasi real-life situations, and the N-body problem suits the purpose well. Benchmarking is performed over several iterations for different datasets to ensure the accuracy of the results.
 
@@ -40,13 +40,15 @@ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
 
 > In physics, the n-body problem is the problem of predicting the individual motions of a group of celestial objects interacting with each other gravitationally.
 
-Source: [Wikipedia](https://en.wikipedia.org/wiki/N-body_problem).
+<div style="text-align: right">Source: <a href="https://en.wikipedia.org/wiki/N-body_problem">Wikipedia</a></div>
 
-From the definition above, the N-body problem involves computations related to energies, acceleration, velocity, the distance of several particles in the space, which has also allowed it to be one of the widely accepted algorithms in the community. A brief description of computations involved in solving the N-body problem is given below, along with the pseudo-code in the next section:
+From the definition above, the N-body problem includes the kinematics between the different bodies, which involve various mathematical computations. Solving this problem has been motivated by the desire to understand the motions of the celestial bodies. Thus it serves as a robust entity between real-world applications and the computational world. 
+
+A brief description of computations involved in solving the N-body problem is given below, along with the pseudo-code in the next section:
 
 Consider $n$ bodies of masses $m_1, m_2, m_3, ... , m_n$, moving under the mutual [gravitational force](https://en.wikipedia.org/wiki/Gravity) of attraction between them in an [inertial frame of reference](https://en.wikipedia.org/wiki/Inertial_frame_of_reference) of three dimensions, such that consecutive  positions and velocities of an ${ith}$ body are denoted by ($s_{i-1}$, $s_i$) and ($v_{i-1}$, $v_i$) respectively. The gravitational force felt on the $ith$ body of mass $m_i$ by a single body of mass $m_j$ is denoted as $F_{gravitational}$ and the acceleration of the $ith$ body is represented as $a_i$. Consider the position vectors of these two bodies as $r_i$ and $r_j$.
 
-The final aim is to find the total energy of each particle in the celestial space and the equations involved in solving the problem are listed below:
+The final aim is to find time taken to evaluate the total energy of each particle in the celestial space at a given time step. The equations involved in solving the problem are listed below:
 
 \begin{equation} {s_i} = {s_{i-1}} + {u\times t} + \frac{a\times t^2}{2} \tag{i} \end{equation}
 
@@ -98,7 +100,7 @@ An example from the dataset<a href="#data">[3]</a> used is given below: (for a s
 -1 0.0625 0.2148  -0.1204  -0.2661 0.7578  0.1576  -0.0715
 ```
 
-## Implemented Accelerators
+## Compiled Methods
 
 We considered accelerators like [Numba](http://numba.pydata.org/), [Pythran](https://transonic.readthedocs.io/), and [Transonic](https://transonic.readthedocs.io/) for benchmarking. This decision is inspired by [Ralf Gommer's Presentation on SciPy 1.0](https://www.slideshare.net/RalfGommers/scipy-10-and-beyond-a-story-of-community-and-code) (conference [video](https://www.youtube.com/watch?v=oHmm3mPxg6Y)). We give brief details on a few of the accelerators below:
 
@@ -106,9 +108,9 @@ We considered accelerators like [Numba](http://numba.pydata.org/), [Pythran](htt
 
 > Numba is an open source JIT compiler that translates a subset of Python and NumPy code into fast machine code.
 
-Source: [Numba's website](http://numba.pydata.org/).
+<div style="text-align: right">Source: <a href="http://numba.pydata.org/">Numba's Website</a></div>
 
-Since Numba is a compiler focused on accelerating Python codes, the user API of the library comes with decorators like `@jit, @vectorize, @guvectorize, @stencil, @jitclass, @cfunc, @overload` to support ease-of-use of the library. Along with the decorators, it has a `nopython` mode to generate fully compiled results without the need for intermediate Python interpreter calls. Numba supporting NumPy arrays and functions also makes it a good candidate for comparison.
+Since Numba is a compiler focused on accelerating Python and NumPy codes, the user API of the library supports various decorators. The supported decorators are `@jit, @vectorize, @guvectorize, @stencil, @jitclass, @cfunc, @overload`. It also supports `nopython` mode to generate fully compiled results without the need for intermediate Python interpreter calls. Numba's assistance to NumPy arrays and functions also makes it a good candidate for comparison.
 
 <!-- NumPy and Numba both use a similar type of compilation for ufuncs in manual looping resulting in the same speed.  Another thing that Numba lacks behind is that it does not support all functions of NumPy. There are functions in NumPy which does not hold up some of the optional arguments in nopython mode. It can implement linear algebra calls in the compiled functions but does not return any faster implementation. -->
 
@@ -123,9 +125,9 @@ Implementation details for benchmarking:
 
 > Pythran is an ahead of time compiler for a subset of the Python language, with a focus on scientific computing.
 
-Source: [Pythran's Website](https://pythran.readthedocs.io/en/latest/#)
+<div style="text-align: right">Source: <a href="https://pythran.readthedocs.io/en/latest/#">Pythran's Website</a></div>
 
-Since it majorly uses C++ implementations of the NumPy API, its main advantages are it supports [Expression Templating](https://en.wikipedia.org/wiki/Expression_templates) and [SIMD](https://en.wikipedia.org/wiki/SIMD) instructions. It converts annotated Python modules that have few interface descriptions into native Python modules with the same interface but are faster.
+Since the focus of Pythran was on accelerating Python and NumPy codes, its C++ API is the same as that of NumPy. Pythran also supports [Expression Templating](https://en.wikipedia.org/wiki/Expression_templates) and [SIMD](https://en.wikipedia.org/wiki/SIMD) instructions, which are its main advantages. It converts annotated Python modules into native Python modules, which are comparatively faster. But both have the same kind of interface.
 
 <!-- NumPy arrays in Cython should be stored in contiguous memory like C-style or Fortran to use Pythran in the backend. Here, the Pythran lacks behind. Another limitation is that the sequence of bytes of words must be the same as the targeted architecture to make Pythran work.-->
 
@@ -229,19 +231,19 @@ table, th, td {
    <td><b>Implementation Details</b></td>
   </tr>
   <tr>
-   <td>Python-NumPy</td>
+   <td>Optimized-NumPy</td>
    <td><a href = "/benchmarks/python/bench_numpy_highlevel.py">bench_numpy_highlevel.py</a></td>
    <td>Optimized NumPy</td>
   </tr>
   <tr>
-   <td>Pure-NumPy</td>
+   <td>NumPy</td>
    <td><a href = "/benchmarks/python/bench_numpy_highlevel.py">bench_pure_numpy_highlevel.py</a></td>
-   <td>Only NumPy Functions</td>
+   <td>Pure NumPy Implementation</td>
   </tr>
   <tr>
    <td>Pure-Python</td>
    <td><a href = "/benchmarks/python/bench_pure_particle.py">bench_pure_particle.py</a></td>
-   <td>Only Python Functions</td>
+   <td>Pure Python Implementation</td>
   </tr>
  <tr>
   <td>C++</td>
@@ -264,7 +266,6 @@ table, th, td {
 
 ## References
 
-* [The issue for adding content on performance](https://github.com/numpy/numpy.org/issues/370)
-* <a id="nbody" href="https://en.wikipedia.org/wiki/N-body_problem">Wikipedia's Article on N-Body Problem</a>
-* <a id="data" href="https://github.com/paugier/nbabel/tree/master/data">Dataset used from Pierre Augier's repository</a>
-* [High-performance Python for crystallographic computing](https://onlinelibrary.wiley.com/iucr/doi/10.1107/S1600576719008471)
+1. [The issue for adding content on performance](https://github.com/numpy/numpy.org/issues/370)
+2. <a id="nbody" href="https://en.wikipedia.org/wiki/N-body_problem">Wikipedia's Article on N-Body Problem</a>
+3. <a id="data" href="https://github.com/paugier/nbabel/tree/master/data">Dataset used from Pierre Augier's repository</a>
