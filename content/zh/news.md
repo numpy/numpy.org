@@ -23,15 +23,15 @@ _2021年6月23日_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0
 - 改进注释
 - 新的 `PCG64DXSM` 位元生成器，用于生成随机数字
 
-这个NumPy版本包含175人所贡献的581个合并请求。 The Python versions supported for this release are 3.7-3.9, support for Python 3.10 will be added after Python 3.10 is released.
+这个NumPy版本包含175人所贡献的581个合并请求。 此发布版本支持Python 3.7-3.9，将在Python 3.10发布后添加Python 3.10支持。
 
 
-### 2020 NumPy survey results
+### 2020 Numpy调研结果出炉
 
-_Jun 22, 2021_ -- In 2020, the NumPy survey team in partnership with students and faculty from the University of Michigan and the University of Maryland conducted the first official NumPy community survey. Find the survey results here: https://numpy.org/user-survey-2020/.
+_2021年6月22日_ -- 在2020年, NumPy调研小组与密歇根大学和马里兰大学的学生和教职员工合作，进行了第一次官方NumPy社区调查。 在这里可以查看调研结果：https://numpy.org/user-survey-2020/。
 
 
-### Numpy 1.20.0 release
+### NumPy 1.20.0 发布
 
 _Jan 30, 2021_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) is now available. This is the largest NumPy release to date, thanks to 180+ contributors. The two most exciting new features are:
 - Type annotations for large parts of NumPy, and a new `numpy.typing` submodule containing `ArrayLike` and `DtypeLike` aliases that users and downstream libraries can use when adding type annotations in their own code.
