@@ -7,14 +7,14 @@ sidebar: false
 
 _2021年7月12日_ -- 我们相信NumPy社区的力量。 来自75个国家的1236 名用户参加了我们去年的首次调查。 调查结果使我们对今后12个月应该集中注意的问题有了很好的了解。
 
-It’s time for another survey, and we are counting on you once again. It will take about 15 minutes of your time. Besides English, the survey questionnaire is available in 8 additional languages: Bangla, French, Hindi, Japanese, Mandarin, Portuguese, Russian, and Spanish.
+现在是时候进行另一次调查了，我们将再度尋求您的合作。 这份调查将耗费您大约15分钟的时间。 除英文外，调查问卷还提供另外8种语文：孟加拉语、法语、印地语、日语、普通话、葡萄牙语、俄语和西班牙语。
 
-Follow the link to get started: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSl4q.
+点击链接开始：https://berkeley.qualtrics.com/jfe/form/SV_aOONjgcBXDSl4q。
 
 
-### Numpy 1.21.0 release
+### NumPy 1.21.0 发布
 
-_Jun 23, 2021_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) is now available. The highlights of the release are:
+_2021年1月23日_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) 正式发布。 The highlights of the release are:
 
 - continued SIMD work covering more functions and platforms,
 - initial work on the new dtype infrastructure and casting,
