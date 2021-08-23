@@ -14,16 +14,16 @@ _2021年7月12日_ -- 我们相信NumPy社区的力量。 来自75个国家的12
 
 ### NumPy 1.21.0 发布
 
-_2021年1月23日_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) 正式发布。 此次发布的重点是：
+_2021年6月23日_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) 正式发布。 此次发布的重点是：
 
-- continued SIMD work covering more functions and platforms,
-- initial work on the new dtype infrastructure and casting,
-- universal2 wheels for Python 3.8 and Python 3.9 on Mac,
-- improved documentation,
-- improved annotations,
-- new `PCG64DXSM` bitgenerator for random numbers.
+- 继续开展SIMD工作，涵盖更多的功能和平台
+- 新dtype的基础和型态转换初步工作
+- 适用于Mac平台的Python 3.8和Python 3.9的universal2 wheels
+- 改进文档
+- 改进注释
+- 新的 `PCG64DXSM` 位元生成器，用于生成随机数字
 
-This NumPy release is the result of 581 merged pull requests contributed by 175 people. The Python versions supported for this release are 3.7-3.9, support for Python 3.10 will be added after Python 3.10 is released.
+这个NumPy版本包含175人所贡献的581个合并请求。 The Python versions supported for this release are 3.7-3.9, support for Python 3.10 will be added after Python 3.10 is released.
 
 
 ### 2020 NumPy survey results
