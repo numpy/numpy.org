@@ -14,7 +14,7 @@ _2021年7月12日_ -- 我们相信NumPy社区的力量。 来自75个国家的12
 
 ### NumPy 1.21.0 发布
 
-_2021年1月23日_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) 正式发布。 The highlights of the release are:
+_2021年1月23日_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) 正式发布。 此次发布的重点是：
 
 - continued SIMD work covering more functions and platforms,
 - initial work on the new dtype infrastructure and casting,
