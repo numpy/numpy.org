@@ -33,13 +33,13 @@ _2021年6月22日_ -- 在2020年, NumPy调研小组与密歇根大学和马里�
 
 ### NumPy 1.20.0 发布
 
-_Jan 30, 2021_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) is now available. This is the largest NumPy release to date, thanks to 180+ contributors. The two most exciting new features are:
-- Type annotations for large parts of NumPy, and a new `numpy.typing` submodule containing `ArrayLike` and `DtypeLike` aliases that users and downstream libraries can use when adding type annotations in their own code.
-- Multi-platform SIMD compiler optimizations, with support for x86 (SSE, AVX), ARM64 (Neon), and PowerPC (VSX) instructions. This yielded significant performance improvements for many functions (examples: [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
+_2021年1月30日_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) 正式发布。 这是 NumPy到目前为止最大的一次版本更新，感谢180+位贡献者。 最令人振奋的两个特点是：
+- 为大部分Numpy代码做了类型注解，並添加了一个全新的`numpy.typing` 子模块，其中包含 `ArrayLike` 和 `DtypeLike`别名 ，使得用户和下游依赖库可以为自己的代码添加类型注解。
+- 为多个架构进行SIMD编译优化，其支持X86(SSE、AVX)、ARM64(Neon) 和PowerPC(VSX) 指令集。 大幅提高许多函数的性能(例如： [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194))。
 
-### Diversity in the NumPy project
+### NumPy项目的多样性
 
-_Sep 20, 2020_ -- We wrote a [statement on the state of, and discussion on social media around, diversity and inclusion in the NumPy project](/diversity_sep2020).
+_2020年9月20日_ -- 我们就NumPy项目的社交媒体、多样性和包容性的现状以及相关的讨论撰写了一份[声明](/diversity_sep2020)。
 
 
 ### First official NumPy paper published in Nature!
