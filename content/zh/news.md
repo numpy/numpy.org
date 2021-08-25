@@ -49,9 +49,9 @@ _2020年9月16日_ - 我们高兴地宣布 [Numpy的第一篇官方论文](https
 
 ### Python 3.9 即将来临，新版本的NumPy 将在何时发布？
 
-_2020年9月14日_ -- Python 3.9 将在几周后发布。 If you are an early adopter of Python versions, you may be dissapointed to find that NumPy (and other binary packages like SciPy) will not have binary wheels ready on the day of the release. It is a major effort to adapt the build infrastructure to a new Python version and it typically takes a few weeks for the packages to appear on PyPI and conda-forge. In preparation for this event, please make sure to
-- update your `pip` to version 20.1 at least to support `manylinux2010` and `manylinux2014`
-- use [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) or `--only-binary=:all:` to prevent `pip` from trying to build from source.
+_2020年9月14日_ -- Python 3.9 将在几周后发布。 如果您是这个Python版本的早期采用者， 您可能会失望的发现NumPy(以及其他二进制软件包，如SciPy) 在Python新版发布当天还不会发布相应的版本。 构建兼容新的 Python 版本的基础设施需要付出重大努力，通常需要几周时间才能让新版本出现在 PyPI 和 conda-forge 上。 为了这次版本升级得以顺利进行，请确保：
+- 将您的 `pip` 升级到 20.1 版本，至少要支持`manylinux2010` 和 `manylinux2014`
+- 使用 [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) 或 `--only-binary=:all:` 选项来防止 `pip` 尝试从源码构建。
 
 
 ### Numpy 1.19.2 release
