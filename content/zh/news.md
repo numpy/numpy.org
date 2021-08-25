@@ -42,14 +42,14 @@ _2021年1月30日_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.21.0
 _2020年9月20日_ -- 我们就NumPy项目的社交媒体、多样性和包容性的现状以及相关的讨论撰写了一份[声明](/diversity_sep2020)。
 
 
-### First official NumPy paper published in Nature!
+### NumPy官方第一次在Nature发表论文！
 
-_Sep 16, 2020_ -- We are pleased to announce the publication of [the first official paper on NumPy](https://www.nature.com/articles/s41586-020-2649-2) as a review article in Nature. This comes 14 years after the release of NumPy 1.0. The paper covers applications and fundamental concepts of array programming, the rich scientific Python ecosystem built on top of NumPy, and the recently added array protocols to facilitate interoperability with external array and tensor libraries like CuPy, Dask, and JAX.
+_2020年9月16日_ - 我们高兴地宣布 [Numpy的第一篇官方论文](https://www.nature.com/articles/s41586-020-2649-2)刊登在Nature的评论文章。 这离NumPy 1.0发布已经过去了整整14年。 该论文涵盖数组编程的应用和基本概念，丰富的Python科学计算生态系统建立在NumPy之上，包括最近添加的数组标准协议，大大提高了与外部数组和张量库(如CuPy, Dask 和 JAX) 的互操作性 。
 
 
-### Python 3.9 is coming, when will NumPy release binary wheels?
+### Python 3.9 即将来临，新版本的NumPy 将在何时发布？
 
-_Sept 14, 2020_ -- Python 3.9 will be released in a few weeks. If you are an early adopter of Python versions, you may be dissapointed to find that NumPy (and other binary packages like SciPy) will not have binary wheels ready on the day of the release. It is a major effort to adapt the build infrastructure to a new Python version and it typically takes a few weeks for the packages to appear on PyPI and conda-forge. In preparation for this event, please make sure to
+_2020年9月14日_ -- Python 3.9 将在几周后发布。 If you are an early adopter of Python versions, you may be dissapointed to find that NumPy (and other binary packages like SciPy) will not have binary wheels ready on the day of the release. It is a major effort to adapt the build infrastructure to a new Python version and it typically takes a few weeks for the packages to appear on PyPI and conda-forge. In preparation for this event, please make sure to
 - update your `pip` to version 20.1 at least to support `manylinux2010` and `manylinux2014`
 - use [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) or `--only-binary=:all:` to prevent `pip` from trying to build from source.
 
