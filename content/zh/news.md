@@ -56,7 +56,7 @@ _2020年9月14日_ -- Python 3.9 将在几周后发布。 如果您是这个Pyth
 
 ### NumPy 1.19.2 发布
 
-_2020年9月10日_ -- [NumPy 19.2.0](https://numpy.org/devdocs/release/1.19.2-notes.html) 正式发布。 This latest release in the 1.19 series fixes several bugs, prepares for the [upcoming Cython 3.x release](http://docs.cython.org/en/latest/src/changes.html) and pins setuptools to keep distutils working while upstream modifications are ongoing. The aarch64 wheels are built with the latest manylinux2014 release that fixes the problem of differing page sizes used by different linux distros.
+_2020年9月10日_ -- [NumPy 19.2.0](https://numpy.org/devdocs/release/1.19.2-notes.html) 正式发布。 这个最新版本修复了1.19 系列中的几个漏洞，为 [即将发布的Cython3.x](http://docs.cython.org/en/latest/src/changes.html) 做准备，並固定设置工具以在上游修改正在进行时保持 distutils 工作。 Aarch64架构的安装包是用最新的 manylinux2014 版本构建的，它修复了 linux 发行版之间使用不同大小内存页的问题。
 
 ### The inaugural NumPy survey is live!
 
