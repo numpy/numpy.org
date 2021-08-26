@@ -2,7 +2,7 @@
 machinelearning:
   paras:
     - 
-      para1: NumPy forms the basis of powerful machine learning libraries like [scikit-learn](https://scikit-learn.org) and [SciPy](https://www.scipy.org). As machine learning grows, so does the list of libraries built on NumPy. [TensorFlow’s](https://www.tensorflow.org) deep learning capabilities have broad applications &mdash; among them speech and image recognition, text-based applications, time-series analysis, and video detection. [PyTorch](https://pytorch.org), another deep learning library, is popular among researchers in computer vision and natural language processing. [MXNet](https://github.com/apache/incubator-mxnet) is another AI package, providing blueprints and templates for deep learning.
+      para1: NumPy 是诸如 [scikit-learn](https://sikit-learn)和[SciPy](https://www.scipy.org)等强大的机器学习库的基础。随着机器学习的增长，函式库列表也在成长。 [TensorFlow's](https://www.tensorflow.org) 深度学习能力有广泛的应用程序 &mdash; ，其中包括语音和图像识别、基于文本的应用、时间序列分析和视频检测。 [PyTorch](https://pytorch.org)是另一个深层学习图书馆，在计算机视力和自然语言处理的研究人员中很受欢迎。 [MXNet](https://github.com/apache/incubator-mxnet) 是另一个 AI 包，提供了深入学习的蓝图和模板。
       para2: Statistical techniques called [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205) methods such as binning, bagging, stacking, and boosting are among the ML algorithms implemented by tools such as [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [CatBoost](https://catboost.ai) &mdash; one of the fastest inference engines. [Yellowbrick](https://www.scikit-yb.org/en/latest/) and [Eli5](https://eli5.readthedocs.io/en/latest/) offer machine learning visualizations.
 arraylibraries:
   intro:
