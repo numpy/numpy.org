@@ -93,16 +93,16 @@ _2019年12月22日_ -- NumPy 1.18.0 正式发布。 在1.17.0发生重大变化�
 
 ### NumPy 从Chan Zuckerberg Initiative获得了一笔捐款
 
-_Nov 15, 2019_ -- We are pleased to announce that NumPy and OpenBLAS, one of NumPy's key dependencies, have received a joint grant for $195,000 from the Chan Zuckerberg Initiative through their [Essential Open Source Software for Science program](https://chanzuckerberg.com/eoss/) that supports software maintenance, growth, development, and community engagement for open source tools critical to science.
+_2019年11月15日_ -- 我们高兴地宣布NumPy和 OpenBLAS (Numpy的一个核心依赖库)已经收到一笔19,5000美元的联合赠款。 捐款来自于Chan Zuckerberg Initiative通过的[基础开源科学计算软件项目](https://chanzuckerberg.com/eoss/)，用来支持对科学发展起到关键作用的开源软件的维护、增长、开发和社区参与。
 
-This grant will be used to ramp up the efforts in improving NumPy documentation, website redesign, and community development to better serve our large and rapidly growing user base, and ensure the long-term sustainability of the project. While the OpenBLAS team will focus on addressing sets of key technical issues, in particular thread-safety, AVX-512, and thread-local storage (TLS) issues, as well as algorithmic improvements in ReLAPACK (Recursive LAPACK) on which OpenBLAS depends.
+这笔赠款将用来加速改进NumPy文档、网站重构和社区开发，进而更好地为我们庞大和迅速增长的用户基础服务，并确保项目的长期可持续性。 OpenBLAS 团队将侧重于处理几个关键技术问题，特别是线程安全问题、AVX-512和 thread-local 存储(TLS) 问题，以及OpenBLAS 依赖的 ReLAPACK (递归的LAPACK) 算法改进。
 
-More details on our proposed initiatives and deliverables can be found in the [full grant proposal](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167). The work is scheduled to start on Dec 1st, 2019 and continue for the next 12 months.
+若想查看更多关于捐款的倡议和交付件的详情，可在 [全额赠款提案](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167) 中找到。 项目开始于2019年12月1日，今后12个月将持续运作下去。
 
 
 ## 版本发布
 
-Here is a list of NumPy releases, with links to release notes. Bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
+这是NumPy 版本列表，包含了对应版本发布说明的链接。 所有的 bug修复版本(即在 `x.y.z`格式版本号中只有 `z`改变)没有新功能；小版本更新(`y` 改变)有新功能。
 
 - NumPy1.21.0 ([发行说明](https://github.com/numpy/numpy/releases/tag/v1.21.0)) -- _2021年6月22日_.
 - NumPy1.23.0 ([发行说明](https://github.com/numpy/numpy/releases/tag/v1.20.3)) -- _2021年5月10日_.
