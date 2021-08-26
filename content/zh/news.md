@@ -58,23 +58,23 @@ _2020年9月14日_ -- Python 3.9 将在几周后发布。 如果您是这个Pyth
 
 _2020年9月10日_ -- [NumPy 19.2.0](https://numpy.org/devdocs/release/1.19.2-notes.html) 正式发布。 这个最新版本修复了1.19 系列中的几个漏洞，为 [即将发布的Cython3.x](http://docs.cython.org/en/latest/src/changes.html) 做准备，並固定设置工具以在上游修改正在进行时保持 distutils 工作。 Aarch64架构的安装包是用最新的 manylinux2014 版本构建的，它修复了 linux 发行版之间使用不同大小内存页的问题。
 
-### The inaugural NumPy survey is live!
+### 首次NumPy调研即将开始！
 
-_Jul 2, 2020_ -- This survey is meant to guide and set priorities for decision-making about the development of NumPy as software and as a community. The survey is available in 8 additional languages besides English: Bangla, Hindi, Japanese, Mandarin, Portuguese, Russian, Spanish and French.
+_2020年7月2日_ - 本次调查旨在指导并确定将NumPy以社区方式还是软件方式来开发。 除英文外，调查还提供了另外8种语言的版本：孟加拉语、印地语、日语、普通话、葡萄牙语、俄语、西班牙语和法语。
 
-Please help us make NumPy better and take the survey [here](https://umdsurvey.umd.edu/jfe/form/SV_8bJrXjbhXf7saAl).
+请帮助我们让 NumPy 变得更好，在[这里](https://umdsurvey.umd.edu/jfe/form/SV_8bJrXjbhXf7saAl)参与调查。
 
 
-### NumPy has a new logo!
+### NumPy 有新标志了!
 
-_Jun 24, 2020_ -- NumPy now has a new logo:
+_2020年7月24日_ -- NumPy 现在有一个新的标志：
 
 <img src="/images/logos/numpy_logo.svg" alt="NumPy logo" title="The new NumPy logo" width=300>
 
-The logo is a modern take on the old one, with a cleaner design. Thanks to Isabela Presedo-Floyd for designing the new logo, as well as to Travis Vaught for the old logo that served us well for 15+ years.
+这是一个更时髦、纯净的标志。 感谢Isabela Presedo-Floryd的设计方案， 同时感谢Travis Vaugh设计的旧图标为我们服务了15年以上。
 
 
-### NumPy 1.19.0 release
+### NumPy 1.19.0 发布
 
 _Jun 20, 2020_ -- NumPy 1.19.0 is now available. This is the first release without Python 2 support, hence it was a "clean-up release". The minimum supported Python version is now Python 3.6. An important new feature is that the random number generation infrastructure that was introduced in NumPy 1.17.0 is now accessible from Cython.
 
@@ -104,8 +104,8 @@ More details on our proposed initiatives and deliverables can be found in the [f
 
 Here is a list of NumPy releases, with links to release notes. Bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
 
-- NumPy 1.21.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.0)) -- _22 Jun 2021_.
-- NumPy 1.20.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.20.3)) -- _10 May 2021_.
+- NumPy1.21.0 ([发行说明](https://github.com/numpy/numpy/releases/tag/v1.21.0)) -- _2021年1月22日_.
+- NumPy1.23.0 ([发行说明](https://github.com/numpy/numpy/releases/tag/v1.20.3)) -- _2021年1月10日_.
 - NumPy 1.20.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.20.0)) -- _30 Jan 2021_.
 - NumPy 1.19.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.19.5)) -- _5 Jan 2021_.
 - NumPy 1.19.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.19.0)) -- _20 Jun 2020_.
