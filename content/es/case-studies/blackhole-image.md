@@ -26,23 +26,23 @@ El [ telescopio del Horizonte de Sucesos (EHT) ](https://eventhorizontelescope.o
 
 * **Escala computacional**
 
-    EHT poses massive data-processing challenges, including rapid atmospheric phase fluctuations, large recording bandwidth, and telescopes that are widely dissimilar and geographically dispersed.
+    EHT plantea desafíos de procesamiento de datos masivos, incluyendo rápidas fluctuaciones de fase atmosféricas, amplio ancho de banda de registro, y telescopios que son ampliamente disímiles y geográficamente dispersos.
 
 * **Demasiada información**
 
-    Each day EHT generates over 350 terabytes of observations, stored on helium-filled hard drives. Reducing the volume and complexity of this much data is enormously difficult.
+    Cada día EHT genera más de 350 terabytes de observaciones, almacenados en discos duros llenos de helio. Reducir el volumen y complejidad de estos datos es enormemente difícil.
 
 * **Hacia lo desconocido**
 
-    When the goal is to see something never before seen, how can scientists be confident the image is correct?
+    Cuando el objetivo es ver algo nunca antes visto, ¿cómo pueden los científicos estar seguros de que la imagen es correcta?
 
-{{< figure src="/images/content_images/cs/dataprocessbh.png" class="csfigcaption" caption="**EHT Data Processing Pipeline**" alt="data pipeline" align="middle" attr="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)" attrlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
+{{< figure src="/images/content_images/cs/dataprocessbh.png" class="csfigcaption" caption="**Pipeline de procesamiento de datos de EHT**" alt="data pipeline" align="middle" attr="(Créditos del diagrama: The Astrophysical Journal, Event Horizon Telescope Collaboration)" attrlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
 
 ## El rol de NumPy
 
-What if there's a problem with the data? Or perhaps an algorithm relies too heavily on a particular assumption. Will the image change drastically if a single parameter is changed?
+¿Qué pasa si hay un problema con los datos? O tal vez un algoritmo depende demasiado de un supuesto en particular. ¿Cambiará drásticamente la imagen si se cambia un sólo parámetro?
 
-The EHT collaboration met these challenges by having independent teams evaluate the data, using both established and cutting-edge image reconstruction techniques. When results proved consistent, they were combined to yield the first-of-a-kind image of the black hole.
+La alianza de EHT respondió a estos desafíos haciendo que los equipos independientes evalúen los datos, utilizando técnicas establecidas y de reconstrucción de imagen de vanguardia. Cuando los resultados se mostraron consistentes, se combinaron para producir la primera imagen de un agujero negro.
 
 Their work illustrates the role the scientific Python ecosystem plays in advancing science through collaborative data analysis.
 
