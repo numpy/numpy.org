@@ -56,7 +56,7 @@ Además de NumPy, muchos otros paquetes, como [SciPy](https://www.scipy.org) y [
 
 ## Resumen
 
-The efficient and adaptable n-dimensional array that is NumPy's central feature enabled researchers to manipulate large numerical datasets, providing a foundation for the first-ever image of a black hole. A landmark moment in science, it gives stunning visual evidence of Einstein’s theory. The achievement encompasses not only technological breakthroughs but also international collaboration among over 200 scientists and some of the world's best radio observatories.  Innovative algorithms and data processing techniques, improving upon existing astronomical models, helped unfold a mystery of the universe.
+El arreglo n-dimensional eficiente y adaptable que es la característica central de NumPy permitió a los investigadores manipular grandes conjuntos de datos numéricos, proporcionando una base para la primera imagen de un agujero negro. Un momento emblemático en la ciencia, ofrece una impresionante evidencia visual de la teoría de Einstein. El logro abarca no sólo los avances tecnológicos sino también la colaboración internacional entre más de 200 científicos y algunos de los mejores observatorios radiofónicos del mundo.  Los algoritmos innovadores y técnicas de procesamiento de datos, mejorando los modelos astronómicos existentes, ayudaron a desarrollar un misterio del universo.
 
 {{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**Capacidades clave de NumPy utilizadas**" >}}
 
