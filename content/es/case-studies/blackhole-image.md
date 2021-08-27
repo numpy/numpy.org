@@ -44,21 +44,21 @@ El [ telescopio del Horizonte de Sucesos (EHT) ](https://eventhorizontelescope.o
 
 La alianza de EHT respondió a estos desafíos haciendo que los equipos independientes evalúen los datos, utilizando técnicas establecidas y de reconstrucción de imagen de vanguardia. Cuando los resultados se mostraron consistentes, se combinaron para producir la primera imagen de un agujero negro.
 
-Their work illustrates the role the scientific Python ecosystem plays in advancing science through collaborative data analysis.
+Su trabajo ilustra el rol que desempeña el ecosistema científico de Python en el avance de la ciencia a través del análisis de datos colaborativos.
 
-{{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**The role of NumPy in Black Hole imaging**" >}}
+{{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**El rol de NumPy en la fotografía del Agujero Negro**" >}}
 
-For example, the [`eht-imaging`][ehtim] Python package provides tools for simulating and performing image reconstruction on VLBI data. NumPy is at the core of array data processing used in this package, as illustrated by the partial software dependency chart below.
+Por ejemplo, el paquete de Python [`eht-imaging`][ehtim] proporciona herramientas para simular y realizar reconstrucción de imágenes en datos VLBI. NumPy está en el núcleo del procesamiento de datos de arreglos utilizados en este paquete, como se muestra en el gráfico de dependencias de software parcial a continuación.
 
-{{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Software dependency chart of ehtim package highlighting NumPy**" >}}
+{{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Gráfico de dependencias de software del paquete ehtim destacando NumPy**" >}}
 
-Besides NumPy, many other packages, such as [SciPy](https://www.scipy.org) and [Pandas](https://pandas.io), are part of the data processing pipeline for imaging the black hole. The standard astronomical file formats and time/coordinate transformations were handled by [Astropy][astropy], while [Matplotlib][mpl] was used in visualizing data throughout the analysis pipeline, including the generation of the final image of the black hole.
+Además de NumPy, muchos otros paquetes, como [SciPy](https://www.scipy.org) y [Pandas](https://pandas.io), son parte del pipeline de procesamiento de datos para fotografiar el agujero negro. Los formatos de archivo astronómicos estándar y transformaciones de tiempo/coordenadas fueron manejados por [Astropy][astropy], mientras que [Matplotlib][mpl] fue utilizado en la visualización de datos a través del pipeline de análisis, incluyendo la generación de la imagen final del agujero negro.
 
 ## Resumen
 
 The efficient and adaptable n-dimensional array that is NumPy's central feature enabled researchers to manipulate large numerical datasets, providing a foundation for the first-ever image of a black hole. A landmark moment in science, it gives stunning visual evidence of Einstein’s theory. The achievement encompasses not only technological breakthroughs but also international collaboration among over 200 scientists and some of the world's best radio observatories.  Innovative algorithms and data processing techniques, improving upon existing astronomical models, helped unfold a mystery of the universe.
 
-{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**Key NumPy Capabilities utilized**" >}}
+{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**Capacidades clave de NumPy utilizadas**" >}}
 
 [resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
 
