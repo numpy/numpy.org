@@ -18,8 +18,8 @@ params:
     image: logos/numpy.svg
   #Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
-    title: 2021 Numpy调查
-    content: 您的意见很重要
+    title: D&I Grant from CZI
+    content: Including NumPy, SciPy, Matplotlib and Pandas
     url: /news
   shell:
     title: 占位符
