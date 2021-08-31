@@ -3,7 +3,7 @@ title: News
 sidebar: false
 ---
 
-### Advancing and inclusive culture in the scientific Python ecosystem
+### Advancing an inclusive culture in the scientific Python ecosystem
 
 _August 31, 2021_ -- We are happy to announce the Chan Zuckerberg Initiative has [awarded a grant](https://chanzuckerberg.com/newsroom/czi-awards-16-million-for-foundational-open-source-software-tools-essential-to-biomedicine/) to support the onboarding, inclusion, and retention of people from historically marginalized groups on scientific Python projects, and to structurally improve the community dynamics for NumPy, SciPy, Matplotlib, and Pandas.
 
