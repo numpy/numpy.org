@@ -18,8 +18,8 @@ params:
     image: logos/numpy.svg
   #Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
-    title: NumPy v1.20.0
-    content: 型アノテーションサポート - 複数のプラットフォームにおけるSIMDを利用したパフォーマンス改善
+    title: D&I Grant from CZI
+    content: Including NumPy, SciPy, Matplotlib and Pandas
     url: /ja/news
   shell:
     title: placeholder
