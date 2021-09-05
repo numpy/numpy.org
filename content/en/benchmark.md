@@ -54,9 +54,9 @@ The final aim is to find time taken to evaluate the total energy of each particl
 
 \begin{equation}{v_i} = {v_{i-1}} + {a\times t} \tag{ii} \end{equation}
 
-\begin{equation} {F_{gravitational}} = \frac{{G\times {m_i}\times {m_j}}\times \mid {r_i}-{r_j} \mid}{{\mid {r_i}-{r_j} \mid}^3} \tag{iii} \end{equation}
+\begin{equation} {F_{ij}} = \frac{{G\times {m_i}\times {m_j}}\times \mid {r_j}-{r_i} \mid}{{\mid {r_j}-{r_i} \mid}^3} \tag{iii} \end{equation}
 
-\begin{equation} {a} = \frac{F_{gravitational}}{m} \tag{iv} \end{equation}
+\begin{equation} {a_{i}} = \frac{F_{ij}}{m_{j}} \tag{iv} \end{equation}
 
 \begin{equation} \textrm{Self Potential Energy} = \textrm{U} = -\frac{{m_i}\times {m_j}}{r^2} \tag{v} \end{equation}
 
@@ -202,17 +202,17 @@ table, th, td {
 **Note** on machine configuration used for benchmarking:
 
 * **Machine:** Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz, 16GB RAM
-* **Operating System:** Ubuntu 20.04.2 LTS
+* **Operating System:** Manjaro Linux 21.1.1, Pahvo
 * **Library Versions:**
-    * Python: 3.8.10
-    * NumPy: 1.21.1
-    * Numba: 0.53.1
+    * Python: 3.9.6
+    * NumPy: 1.20.3
+    * Numba: 0.54.0
+    * Pythran: 0.9.12.post1
     * Transonic: 0.4.10
 
 ## Source Code
 
 * The code is highly inspired by <a href = "https://github.com/paugier/nbabel">Pierre Augier's work on N-Body Problem</a>.
-* Benchmarking Code: <a href = "/benchmarks/python/benchmark-2.py">here</a>.
 * Visualization Code: <a href = "/benchmarks/python/plot.py">here</a>.
 
 <html>
@@ -231,33 +231,28 @@ table, th, td {
    <td><b>Implementation Details</b></td>
   </tr>
   <tr>
-   <td>Optimized-NumPy</td>
-   <td><a href = "/benchmarks/python/bench_numpy_highlevel.py">bench_numpy_highlevel.py</a></td>
-   <td>Optimized NumPy</td>
-  </tr>
-  <tr>
    <td>NumPy</td>
-   <td><a href = "/benchmarks/python/bench_numpy_highlevel.py">bench_pure_numpy_highlevel.py</a></td>
-   <td>Pure NumPy Implementation</td>
+   <td><a href = "/benchmarks/python/optimized-numpy.py">optimized-numpy.py</a></td>
+   <td>NumPy Implementation</td>
   </tr>
   <tr>
-   <td>Pure-Python</td>
-   <td><a href = "/benchmarks/python/bench_pure_particle.py">bench_pure_particle.py</a></td>
-   <td>Pure Python Implementation</td>
+   <td>Python</td>
+   <td><a href = "/benchmarks/python/pure-python.py">pure-python.py</a></td>
+   <td>Python Implementation</td>
   </tr>
  <tr>
   <td>C++</td>
   <td><a href = "/benchmarks/cpp/main.cpp">main.cpp</a></td>
-  <td>Optimized C++</td>
+  <td>C++ Implementation</td>
  </tr>
  <tr>
    <td>Numba</td>
-   <td><a href = "/benchmarks/python/bench_numba.py">bench_pure_numba.py</a></td>
+   <td><a href = "/benchmarks/python/acc_numba.py">acc_numba.py</a></td>
    <td>Just-In-time Compilation</td>
   </tr>
  <tr>
   <td>Pythran: Transonic Jit</td>
-  <td><a href = "/benchmarks/python/bench_numpy_highlevel_jit.py">bench_numpy_highlevel_jit.py</a></td>
+  <td><a href = "/benchmarks/python/acc_pythran.py">acc_pythran.py</a></td>
   <td>Just-In-Time Compilation</td>
  </tr>
  </table>
