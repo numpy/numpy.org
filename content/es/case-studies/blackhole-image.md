@@ -1,5 +1,5 @@
 ---
-title: "Caso de estudio: Primera imagen de un agujero negro"
+title: "Estudio de caso: La primera imagen de un agujero negro"
 sidebar: false
 ---
 
