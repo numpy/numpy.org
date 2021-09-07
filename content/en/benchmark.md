@@ -155,42 +155,35 @@ table, th, td {
  </tr>
  <tr>
   <tr>
-  <td><b>Python-NumPy</b></td>
-  <td>0.1841</td>
-  <td>0.1753</td>
-  <td>0.1772</td>
-  <td>0.2075</td>
- </tr>
- <tr>
-  <td><b>Pure-NumPy</b></td>
-  <td>0.1667</td>
-  <td>0.1638</td>
-  <td>0.1850</td>
-  <td>0.1952</td>
+  <td><b>NumPy</b></td>
+  <td>0.0928</td>
+  <td>0.1786</td>
+  <td>0.2613</td>
+  <td>0.1609</td>
  </tr>
 <tr>
-  <td><b>Pure-Python</b></td>
-  <td>0.2542</td>
-  <td>0.1975</td>
-  <td>0.1081</td>
-  <td>0.1135</td>
+  <td><b>Python</b></td>
+  <td>0.8372</td>
+  <td>0.8629</td>
+  <td>0.8420</td>
+  <td>0.7670</td>
 </tr>
  <tr>
   <td><b>C++</b></td>
-  <td>0.0014</td>
-  <td>0.0015</td>
-  <td>0.0013</td>
-  <td>0.0013</td>
+  <td>0.0027</td>
+  <td>0.0021</td>
+  <td>0.0018</td>
+  <td>0.0018</td>
  <tr>
   <td><b>Numba</b></td>
-  <td>0.0029</td>
-  <td>0.0010</td>
-  <td>0.0004</td>     <!-- Zero division error -->
-  <td>0.0002</td>
+  <td>0.0569</td>
+  <td>0.0355</td>
+  <td>0.0290</td>    
+  <td>0.0207</td>
  </tr>
  <tr>
   <td><b>Pythran-Naive: Transonic</b></td>
-  <td>0.0054</td>
+  <td>0.0023</td>
   <td>0.0011</td>
   <td>0.0004</td>
   <td>0.0002</td>

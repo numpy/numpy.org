@@ -8,7 +8,7 @@ import pandas as pd
 def load_input_data(path):
 
     df = pd.read_csv(
-        path, names = ["mass", "x", "y", "z", "vx", "vy", "vz"], delimiter=r"\s+"
+        path, names = ["mass", "x", "y", "z", "vx", "vy", "vz"], delimiter = r"\s+"
     )
 
     masses = df["mass"].values.copy()
@@ -26,20 +26,28 @@ def compute_accelerations(accelerations, masses, positions):
 
         vectors = position0 - positions[index_p0 + 1: nb_particles]
 
-        distances = np.square(vectors).sum(axis=1)
+        distances = np.square(vectors).sum(axis = 1)
         coefs = distances ** 1.5
 
-        accelerations[index_p0] = np.sum(
+        _x = np.add(np.sum(
             np.divide(
-                np.multiply( masses[index_p0 + 1 : nb_particles], -1 * vectors.T), coefs[0] 
+                np.multiply(
+                    masses[index_p0 + 1: nb_particles], -1 * vectors.T
+                    ),
+                coefs).T, axis = 0),
+            accelerations[index_p0]
             )
-        )
+        accelerations[index_p0] = _x
 
-        accelerations[index_p0 + 1: nb_particles] =  np.sum(
-            np.divide(
-                 mass0 * vectors.T, [i for i in coefs]  
+        _temp = np.add(
+                np.divide(
+                np.multiply(
+                    mass0, vectors.T
+                    ),
+                coefs).T,
+            accelerations[index_p0 + 1: nb_particles]
             )
-        )
+        accelerations[index_p0 + 1: nb_particles] = _temp
 
     return accelerations
 
@@ -112,4 +120,4 @@ if __name__ == "__main__":
     path_input = sys.argv[1]
     masses, positions, velocities = load_input_data(path_input)
 
-    print('time taken: ', timeit.timeit("numpy_loop(time_step, nb_steps, masses, positions, velocities)", globals = globals(), number = 50))
+    print('time taken:', timeit.timeit('numpy_loop(time_step, nb_steps, masses, positions, velocities)', globals = globals(), number = 50))

@@ -87,7 +87,7 @@ def loop(
         for (acc, vel) in zip(new_accelerations, velocities):
             vel1 = []
             for (a, v) in zip(acc, vel):
-                vel1.append(0.5 * time_step * a + v)
+                vel1.append(time_step * a + v)
             velocities1.append(vel1)
         velocities = velocities1
 
