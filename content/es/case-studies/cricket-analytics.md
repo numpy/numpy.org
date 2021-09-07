@@ -1,18 +1,18 @@
 ---
-title: "Case Study: Cricket Analytics, the game changer!"
+title: "Estudio de caso: Análisis de críquet, ¡el cambio radical!"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**IPLT20, the biggest Cricket Festival in India**" alt="Indian Premier League Cricket cup and stadium" attr="*(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
+{{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**IPLT20, el Festival de Cricket más grande en India**" alt="Copa y estadio de la Premier League de Cricket de India" attr="*(Créditos de imagen: IPLT20 (copa y logo) & Akash Yadav (estadio))*" attrlink="https://unsplash.com/@aksh1802" >}}
 
 <blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
-    <p>You don't play for the crowd, you play for the country.</p>
-    <footer align="right">—M S Dhoni, <cite>International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL</cite></footer>
+    <p>No juegas para el público, juegas para el país.</p>
+    <footer align="right">—M S Dhoni, <cite>Jugador de cricket internacional, ex-capitán, Selección de India, juega para Chennai Super Kings en la IPL</cite></footer>
 </blockquote>
 
-## About Cricket
+## Acerca del cricket
 
-It would be an understatement to state that Indians love cricket. The game is played in just about every nook and cranny of India, rural or urban, popular with the young and the old alike, connecting billions in India unlike any other sport. Cricket enjoys lots of media attention. There is a significant amount of [money](https://www.statista.com/topics/4543/indian-premier-league-ipl/) and fame at stake. Over the last several years, technology has literally been a game changer. Audiences are spoilt for choice with streaming media, tournaments, affordable access to mobile based live cricket watching, and more.
+Sería una subestimación decir que a los indios les encanta el críquet. The game is played in just about every nook and cranny of India, rural or urban, popular with the young and the old alike, connecting billions in India unlike any other sport. Cricket enjoys lots of media attention. There is a significant amount of [money](https://www.statista.com/topics/4543/indian-premier-league-ipl/) and fame at stake. Over the last several years, technology has literally been a game changer. Audiences are spoilt for choice with streaming media, tournaments, affordable access to mobile based live cricket watching, and more.
 
 The Indian Premier League (IPL) is a professional Twenty20 cricket league, founded in 2008. It is one of the most attended cricketing events in the world, valued at [$6.7 billion](https://en.wikipedia.org/wiki/Indian_Premier_League) in 2019.
 
