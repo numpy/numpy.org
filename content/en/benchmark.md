@@ -183,10 +183,10 @@ table, th, td {
  </tr>
  <tr>
   <td><b>Pythran-Naive: Transonic</b></td>
-  <td>0.0023</td>
-  <td>0.0011</td>
-  <td>0.0004</td>
-  <td>0.0002</td>
+  <td>0.0111</td>
+  <td>0.0089</td>
+  <td>0.0083</td>
+  <td>0.0078</td>
  </tr>
 </table>
 </body>

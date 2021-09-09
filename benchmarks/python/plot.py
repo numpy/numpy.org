@@ -13,14 +13,14 @@ def plot(x, labels, list_df, names):
     
     list1 = []
     for ind, list in enumerate(list_df):
-        if ind < 3:
+        if ind < 2:
             list1.append(list)
     
     for ind, time_taken in enumerate(list1):
         rect[ind] = plt.bar(x + width * ind, time_taken, width, align = 'center', label = labels[ind])
         plt.bar_label(rect[ind], padding = 3, fontsize = 250)
     
-    plt.xticks(x + width, names, fontsize = 300)
+    plt.xticks(x + width / 2, names, fontsize = 300)
     plt.yticks(fontsize = 300)
     plt.legend(fontsize = 250)
     
@@ -34,10 +34,10 @@ def plot(x, labels, list_df, names):
     
     list2 = []
     for ind, list in enumerate(list_df):
-        if ind >= 3:
+        if ind >= 2:
             list2.append(list)
     
-    j = 3
+    j = 2
     for ind, time_taken in enumerate(list2):
         rect[ind] = plt.bar(x + width * ind, time_taken, width, align = 'center', color = colors[ind % len(colors)], label = labels[j])
         j += 1
@@ -55,10 +55,11 @@ def plot(x, labels, list_df, names):
     plt.savefig("benchmarking-numpy")
 
 if __name__ == "__main__":
-    df = pd.read_csv("data.csv")
+    data_path = "table.csv"
+    df = pd.read_csv(data_path)
     df = df.drop(['Unnamed: 0'], axis = 1)
     df = df.T
-    df.columns = ["Python-NumPy", "Pure-NumPy", "Pure-Python", "C++", "Numba", "Pythran: Transonic"]
+    df.columns = ["NumPy", "Python", "C++", "Numba", "Pythran: Transonic"]
 
     labels = df.columns
     names = ["16", "32", "64", "128"]

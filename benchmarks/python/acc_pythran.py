@@ -26,30 +26,22 @@ def compute_accelerations(accelerations, masses, positions):
         position0 = positions[index_p0]
         mass0 = masses[index_p0]
 
-        vectors = position0 - positions[index_p0 + 1: nb_particles]
+        vector = np.empty(3)
 
-        distances = np.square(vectors).sum(axis = 1)
-        coefs = distances ** 1.5
+        for index_p1 in range(index_p0 + 1, nb_particles):
+            mass1 = masses[index_p1]
+            position1 = positions[index_p1]
 
-        _x = np.add(np.sum(
-            np.divide(
-                np.multiply(
-                    masses[index_p0 + 1: nb_particles], -1 * vectors.T
-                    ),
-                coefs).T, axis = 0),
-            accelerations[index_p0]
-            )
-        accelerations[index_p0] = _x
+            for i in range(3):
+                vector[i] = position0[i] - position1[i]
 
-        _temp = np.add(
-                np.divide(
-                np.multiply(
-                    mass0, vectors.T
-                    ),
-                coefs).T,
-            accelerations[index_p0 + 1: nb_particles]
-            )
-        accelerations[index_p0 + 1: nb_particles] = _temp
+            distance = sum(vector ** 2) * math.sqrt(sum(vector ** 2))
+            coef_m1 = mass0 / distance
+            coef_m2 = mass1 / distance
+
+            for i in range(3):
+                accelerations[index_p0][i] += coef_m1 * -1 * vector[i]
+                accelerations[index_p1][i] += coef_m2 * vector[i]
 
     return accelerations
 
