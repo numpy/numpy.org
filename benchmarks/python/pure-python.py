@@ -8,7 +8,7 @@ import pandas as pd
 def load_input_data(path):
 
     df = pd.read_csv(
-        path, names = ["mass", "x", "y", "z", "vx", "vy", "vz"], delimiter = r"\s+"
+        path, names = ["mass", "x", "y", "z", "vx", "vy", "vz"], delimiter=r"\s+"
     )
 
     masses = df["mass"].values.copy()
@@ -31,11 +31,11 @@ def compute_accelerations(accelerations, masses, positions):
 
             distance = 0
             for i in vector:
-                distance += pow(i, 2)
-            coefs = distance ** 1.5
+                distance += i**2
+            coefs = 1./distance**1.5
 
-            accelerations[index_p0] = [sum(i) for i in zip([vec_val * mass1 * -1 / coefs for vec_val in vector], accelerations[index_p0])]
-            accelerations[index_p1] = [sum(i) for i in zip([vec_val * mass0 / coefs for vec_val in vector], accelerations[index_p1])]
+            accelerations[index_p0] = [sum(i) for i in zip([vec_val * mass1 * -1 * coefs for vec_val in vector], accelerations[index_p0])]
+            accelerations[index_p1] = [sum(i) for i in zip([vec_val * mass0 * coefs for vec_val in vector], accelerations[index_p1])]
 
     return accelerations
 
@@ -61,7 +61,7 @@ def loop(
         for (vel, acc) in zip(velocities, accelerations):
             pos = []
             for (v, a) in zip(vel, acc):
-                pos.append(v * time_step + a * 0.5 * time_step ** 2)
+                pos.append(v*time_step + 0.5*a*time_step**2)
             pos_val.append(pos)
 
         positions1 = []
@@ -87,7 +87,7 @@ def loop(
         for (acc, vel) in zip(new_accelerations, velocities):
             vel1 = []
             for (a, v) in zip(acc, vel):
-                vel1.append(time_step * a + v)
+                vel1.append(v + a*time_step)
             velocities1.append(vel1)
         velocities = velocities1
 
@@ -103,14 +103,14 @@ def compute_energies(masses, positions, velocities):
 
     vel = []
     for ind, val in enumerate(velocities):
-        vel.append([j ** 2 for j in val])
+        vel.append([j**2 for j in val])
     val = []
     for i in vel:
         k = 0
         for j in i:
             k += j
         val.append(k)
-    ke_list = [0.5 * i * masses[ind] for ind, i in enumerate(val)]
+    ke_list = [0.5*i*masses[ind] for ind, i in enumerate(val)]
     ke = 0.0
     for i in ke_list:
         ke += i
@@ -121,18 +121,18 @@ def compute_energies(masses, positions, velocities):
         mass0 = masses[index_p0]
 
         for index_p1 in range(index_p0 + 1, nb_particles):
-            mass1 = masses[index_p1]
 
+            mass1 = masses[index_p1]
             vector = [p0 - p1 for (p0, p1) in zip(positions[index_p0], positions[index_p1])]
 
             dist = 0
             for i in vector:
-                dist += i ** 2
+                dist += i**2
             distance = math.sqrt(dist)
 
-            pe = (mass0 * mass1) / pow(distance, 2) - pe
+            pe -= (mass0*mass1) / distance**2
 
-    return ke + pe, ke, pe
+    return ke+pe, ke, pe
 
 if __name__ == "__main__":
 
@@ -142,7 +142,7 @@ if __name__ == "__main__":
         time_end = 10.0
 
     time_step = 0.001
-    nb_steps = int(time_end / time_step) + 1
+    nb_steps = int(time_end/time_step) + 1
 
     path_input = sys.argv[1]
     masses, positions, velocities = load_input_data(path_input)
@@ -151,4 +151,4 @@ if __name__ == "__main__":
     positions = positions.tolist()
     velocities = velocities.tolist()
 
-    print('time taken', timeit.timeit("loop(time_step, nb_steps, masses, positions, velocities"), globals = globals(), number = 50)
+    print('time taken', timeit.timeit('loop(time_step, nb_steps, masses, positions, velocities'), globals=globals(), number=50)

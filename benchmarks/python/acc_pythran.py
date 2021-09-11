@@ -26,33 +26,23 @@ def compute_accelerations(accelerations, masses, positions):
         position0 = positions[index_p0]
         mass0 = masses[index_p0]
 
-        vector = np.empty(3)
-
         for index_p1 in range(index_p0 + 1, nb_particles):
             mass1 = masses[index_p1]
-            position1 = positions[index_p1]
 
-            for i in range(3):
-                vector[i] = position0[i] - position1[i]
+            vectors = position0 - positions[index_p1]
 
-            distance = sum(vector ** 2) * math.sqrt(sum(vector ** 2))
-            coef_m1 = mass0 / distance
-            coef_m2 = mass1 / distance
+            distances = (vectors**2).sum()
+            coefs = 1./distances**1.5
 
-            for i in range(3):
-                accelerations[index_p0][i] += coef_m1 * -1 * vector[i]
-                accelerations[index_p1][i] += coef_m2 * vector[i]
+            accelerations[index_p0] += mass1 * -1 * vectors * coefs
+            accelerations[index_p1] += mass0 * vectors * coefs
 
     return accelerations
 
 @jit
 def pythran_loop(
-        time_step: float,
-        nb_steps: int,
-        masses: "float[]",
-        positions: "float[:,:]",
-        velocities: "float[:,:]",
-    ):
+        time_step, nb_steps, masses, positions,
+        velocities):
 
     accelerations = np.zeros_like(positions)
     accelerations1 = np.zeros_like(positions)
@@ -64,13 +54,13 @@ def pythran_loop(
     energy_previous = energy0
 
     for step in range(nb_steps):
-        positions = sum(np.multiply(velocities, time_step), 0.5 *  np.multiply(accelerations, time_step ** 2)) + positions
+        positions += time_step*velocities + 0.5*accelerations*time_step**2
 
         accelerations, accelerations1 = accelerations1, accelerations
         accelerations.fill(0)
         accelerations = compute_accelerations(accelerations, masses, positions)
 
-        velocities = 0.5 * np.multiply(time_step, np.add(accelerations, accelerations1)) + velocities
+        velocities += 0.5*time_step*(accelerations+accelerations1)
 
         time += time_step
 
@@ -82,24 +72,23 @@ def pythran_loop(
 
 def compute_energies(masses, positions, velocities):
 
-    ke = 0.5 * (np.multiply(masses, np.square(velocities).sum(axis = 1)).sum())
+    ke = 0.5 * np.sum(masses * np.sum(velocities**2, axis=1))
 
     nb_particles = masses.size
-
     pe = 0.0
     for index_p0 in range(nb_particles - 1):
-        mass0 = masses[index_p0]
 
+        mass0 = masses[index_p0]
         for index_p1 in range(index_p0 + 1, nb_particles):
 
             mass1 = masses[index_p1]
             vector = positions[index_p0] - positions[index_p1]
 
-            distance = np.sqrt((vector ** 2).sum())
+            distance = math.sqrt((vector**2).sum())
 
-            pe = np.subtract(np.divide(np.multiply(mass0, mass1), np.square(distance)), pe)
+            pe -= (mass0*mass1) / distance**2
 
-    return ke + pe, ke, pe
+    return ke+pe, ke, pe
 
 if __name__ == "__main__":
 
@@ -114,4 +103,4 @@ if __name__ == "__main__":
     path_input = sys.argv[1]
     masses, positions, velocities = load_input_data(path_input)
 
-    print('time taken:', timeit.timeit('pythran_loop(time_step, nb_steps, masses, positions, velocities)', globals = globals(), number = 50))
+    print('time taken:', timeit.timeit('pythran_loop(time_step, nb_steps, masses, positions, velocities)', globals=globals(), number=50))

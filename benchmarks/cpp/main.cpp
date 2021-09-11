@@ -57,7 +57,7 @@ public:
           real apre = 1. / sqrt(RdotR * RdotR * RdotR);
 
           for (int i = 0; i != 3; ++i) {
-            si->a[i] -= sj->m * apre * rij[i];
+            si->a[i] = sj->m * -1 * apre * rij[i];
           }
         }
       }
@@ -148,22 +148,21 @@ int main(int argc, char* argv[]) {
   int k = 0;
 
   for (int i = 0; i < 50; i++) {
-  cl.acceleration();
-
-  while (t < tend) {
-
-    cl.updatePositions(dt);
-
     cl.acceleration();
 
-    cl.updateVelocities(dt);
+    while (t < tend) {
+      cl.updatePositions(dt);
 
-    t += dt;
-    k += 1;
-    if (k % 100 == 0) {
-      E = cl.energies();
+      cl.acceleration();
+
+      cl.updateVelocities(dt);
+
+      t += dt;
+      k += 1;
+      if (k % 100 == 0) {
+        E = cl.energies();
+      }
     }
-  }
   }
 
   return 0;

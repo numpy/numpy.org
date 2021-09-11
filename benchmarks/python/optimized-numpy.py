@@ -8,7 +8,7 @@ import pandas as pd
 def load_input_data(path):
 
     df = pd.read_csv(
-        path, names = ["mass", "x", "y", "z", "vx", "vy", "vz"], delimiter = r"\s+"
+        path, names = ["mass", "x", "y", "z", "vx", "vy", "vz"], delimiter=r"\s+"
     )
 
     masses = df["mass"].values.copy()
@@ -26,28 +26,11 @@ def compute_accelerations(accelerations, masses, positions):
 
         vectors = position0 - positions[index_p0 + 1: nb_particles]
 
-        distances = np.square(vectors).sum(axis = 1)
-        coefs = distances ** 1.5
+        distances = (vectors**2).sum(axis=1)
+        coefs = 1./distances**1.5
 
-        _x = np.add(np.sum(
-            np.divide(
-                np.multiply(
-                    masses[index_p0 + 1: nb_particles], -1 * vectors.T
-                    ),
-                coefs).T, axis = 0),
-            accelerations[index_p0]
-            )
-        accelerations[index_p0] = _x
-
-        _temp = np.add(
-                np.divide(
-                np.multiply(
-                    mass0, vectors.T
-                    ),
-                coefs).T,
-            accelerations[index_p0 + 1: nb_particles]
-            )
-        accelerations[index_p0 + 1: nb_particles] = _temp
+        accelerations[index_p0] += np.sum((masses[index_p0 + 1: nb_particles] * -1 * vectors.T * coefs), axis=0)
+        accelerations[index_p0 + 1: nb_particles] += (mass0 * vectors.T * coefs).T
 
     return accelerations
 
@@ -70,17 +53,17 @@ def numpy_loop(
     energy_previous = energy0
 
     for step in range(nb_steps):
-        positions = sum(np.multiply(velocities, time_step), 0.5 * np.multiply(accelerations, time_step ** 2)) + positions
+        positions += time_step*velocities + 0.5*accelerations*time_step**2
 
         accelerations, accelerations1 = accelerations1, accelerations
         accelerations.fill(0)
         accelerations = compute_accelerations(accelerations, masses, positions)
 
-        velocities = 0.5 * np.multiply(time_step, np.add(accelerations, accelerations1)) + velocities
+        velocities += 0.5*time_step*(accelerations+accelerations1)
 
         time += time_step
 
-        if not step % 100:
+        if not step%100:
             energy, _, _ = compute_energies(masses, positions, velocities)
             energy_previous = energy
 
@@ -88,10 +71,9 @@ def numpy_loop(
 
 def compute_energies(masses, positions, velocities):
 
-    ke = 0.5 * (np.multiply(masses, np.square(velocities).sum(axis = 1)).sum())
+    ke = 0.5 * np.sum(masses * np.sum(velocities**2, axis=1))
 
     nb_particles = masses.size
-
     pe = 0.0
     for index_p0 in range(nb_particles - 1):
 
@@ -101,11 +83,11 @@ def compute_energies(masses, positions, velocities):
             mass1 = masses[index_p1]
             vector = positions[index_p0] - positions[index_p1]
 
-            distance = np.sqrt((vector ** 2).sum())
+            distance = math.sqrt((vector**2).sum())
 
-            pe = np.subtract(np.divide(np.multiply(mass0, mass1), np.square(distance)), pe)
+            pe -= (mass0*mass1) / distance**2
 
-    return ke + pe, ke, pe
+    return ke+pe, ke, pe
 
 if __name__ == "__main__":
 
@@ -120,4 +102,4 @@ if __name__ == "__main__":
     path_input = sys.argv[1]
     masses, positions, velocities = load_input_data(path_input)
 
-    print('time taken:', timeit.timeit('numpy_loop(time_step, nb_steps, masses, positions, velocities)', globals = globals(), number = 50))
+    print('time taken:', timeit.timeit('numpy_loop(time_step, nb_steps, masses, positions, velocities)', globals=globals(), number=50))
