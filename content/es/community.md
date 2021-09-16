@@ -3,19 +3,19 @@ title: Community
 sidebar: false
 ---
 
-NumPy es un proyecto de código abierto impulsado por la comunidad y desarrollado por un grupo muy diverso de [colaboradores](/gallery/team.html). El liderazgo de NumPy se ha comprometido firmemente a crear una comunidad abierta, inclusiva y positiva. Please read the [NumPy Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
+NumPy es un proyecto de código abierto impulsado por la comunidad y desarrollado por un grupo muy diverso de [colaboradores](/gallery/team.html). El liderazgo de NumPy se ha comprometido firmemente a crear una comunidad abierta, inclusiva y positiva. Por favor, lee el [Código de Conducta NumPy](/code-of-conduct) para obtener orientación sobre cómo interactuar con los demás de una manera que haga que la comunidad prospere.
 
-We offer several communication channels to learn, share your knowledge and connect with others within the NumPy community.
-
-
-## Participate online
-
-The following are ways to engage directly with the NumPy project and community. _Please note that we encourage users and community members to support each other for usage questions - see [Get Help](/gethelp)._
+Ofrecemos varios canales de comunicación para aprender, compartir conocimientos y conectarse con otros dentro de la comunidad NumPy.
 
 
-### [NumPy mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion)
+## Participar en línea
 
-This list is the main forum for longer-form discussions, like adding new features to NumPy, making changes to the NumPy Roadmap, and all kinds of project-wide decision making. Announcements about NumPy, such as for releases, developer meetings, sprints or conference talks are also made on this list.
+Las siguientes son formas de relacionarse directamente con el proyecto y la comunidad NumPy. _Ten en cuenta que animamos a los usuarios y a los miembros de la comunidad a apoyarse mutuamente por preguntas de uso - ver [Obtener ayuda](/gethelp)._
+
+
+### [Lista de correo de NumPy](https://mail.python.org/mailman/listinfo/numpy-discussion)
+
+Esta lista es el foro principal para discusiones más largas, como añadir nuevas características a NumPy, hacer cambios en el mapa de ruta de NumPy, y todo tipo de proceso de toma de decisiones a nivel de proyecto. Announcements about NumPy, such as for releases, developer meetings, sprints or conference talks are also made on this list.
 
 On this list please use bottom posting, reply to the list (rather than to another sender), and don't reply to digests. A searchable archive of this list is available [here](http://numpy-discussion.10968.n7.nabble.com/).
 
