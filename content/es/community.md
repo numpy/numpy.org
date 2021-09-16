@@ -15,15 +15,15 @@ Las siguientes son formas de relacionarse directamente con el proyecto y la comu
 
 ### [Lista de correo de NumPy](https://mail.python.org/mailman/listinfo/numpy-discussion)
 
-Esta lista es el foro principal para discusiones más largas, como añadir nuevas características a NumPy, hacer cambios en el mapa de ruta de NumPy, y todo tipo de proceso de toma de decisiones a nivel de proyecto. Announcements about NumPy, such as for releases, developer meetings, sprints or conference talks are also made on this list.
+Esta lista es el foro principal para discusiones más largas, como añadir nuevas características a NumPy, hacer cambios en el mapa de ruta de NumPy, y todo tipo de proceso de toma de decisiones a nivel de proyecto. Los anuncios sobre NumPy, tales como lanzamientos, reuniones de desarrolladores, sprints o conferencias también se hacen en esta lista.
 
-On this list please use bottom posting, reply to the list (rather than to another sender), and don't reply to digests. A searchable archive of this list is available [here](http://numpy-discussion.10968.n7.nabble.com/).
+En esta lista, por favor, utilice el envío inferior, responda a la lista (en lugar de a otro remitente), y no responda a los resúmenes. Un archivo de búsqueda de esta lista está disponible [aquí](http://numpy-discussion.10968.n7.nabble.com/).
 
 ***
 
-### [GitHub issue tracker](https://github.com/numpy/numpy/issues)
+### [Seguimiento de incidencias en GitHub](https://github.com/numpy/numpy/issues)
 
-- For bug reports (e.g. "`np.arange(3).shape` returns `(5,)`, when it should return `(3,)`");
+- Para informes de error (por ejemplo, "`np.arange(3).shape` devuelve `(5,)`, donde debería devolver `(3,)`");
 - documentation issues (e.g. "I found this section unclear");
 - and feature requests (e.g. "I would like to have a new interpolation method in `np.percentile`").
 
