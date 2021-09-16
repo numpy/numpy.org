@@ -5,7 +5,7 @@ sidebar: false
 
 Si NumPy ha sido importante en tu investigación y deseas reconocer el proyecto en tu publicación académica, te sugerimos que cites el siguiente documento:
 
-*  Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _Array programming with NumPy_. Nature 585, 357–362 (2020). DOI: [0.1038/s41586-020-2649-2](https://doi.org/10.1038/s41586-020-2649-2). ([Enlace del editor](https://www.nature.com/articles/s41586-020-2649-2)).
+*  Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _Array programming with NumPy_. Nature 585, 357–362 (2020). DOI: [10.1038/s41586-020-2649-2](https://doi.org/10.1038/s41586-020-2649-2). ([Enlace del editor](https://www.nature.com/articles/s41586-020-2649-2)).
 
 _En formato BibTeX:_
 
