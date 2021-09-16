@@ -151,4 +151,4 @@ if __name__ == "__main__":
     positions = positions.tolist()
     velocities = velocities.tolist()
 
-    print('time taken', timeit.timeit('loop(time_step, nb_steps, masses, positions, velocities'), globals=globals(), number=50)
+    print('time taken', timeit.timeit('loop(time_step, nb_steps, masses, positions, velocities)', globals=globals(), number=50))

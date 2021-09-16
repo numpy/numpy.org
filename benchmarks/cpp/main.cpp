@@ -163,6 +163,7 @@ int main(int argc, char* argv[]) {
         E = cl.energies();
       }
     }
+    t = 0;
   }
 
   return 0;

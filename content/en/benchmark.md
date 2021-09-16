@@ -3,7 +3,7 @@ title: NumPy Benchmarks
 sidebar: false
 ---
 
-<img src = "/images/content_images/benchmarking-numpy.png" alt = "Visualization" title = "Performance Benchmark; Number of Iterations: 5">
+<img src = "/images/content_images/performance_benchmarking.png" alt = "Visualization" title = "Performance Benchmark; Number of Iterations: 5">
 
 
 ## Overview
@@ -156,37 +156,37 @@ table, th, td {
  <tr>
   <tr>
   <td><b>NumPy</b></td>
-  <td>0.0928</td>
-  <td>0.1786</td>
-  <td>0.2613</td>
-  <td>0.1609</td>
+  <td>12.61</td>
+  <td>13.88</td>
+  <td>15.59</td>
+  <td>17.9</td>
  </tr>
 <tr>
   <td><b>Python</b></td>
-  <td>0.8372</td>
-  <td>0.8629</td>
-  <td>0.8420</td>
-  <td>0.7670</td>
+  <td>12.85</td>
+  <td>26.82</td>
+  <td>50.13</td>
+  <td>105.01</td>
 </tr>
  <tr>
   <td><b>C++</b></td>
-  <td>0.0027</td>
-  <td>0.0021</td>
-  <td>0.0018</td>
-  <td>0.0018</td>
+  <td>1.646</td>
+  <td>3.206</td>
+  <td>5.725</td>
+  <td>11.44</td>
  <tr>
   <td><b>Numba</b></td>
-  <td>0.0569</td>
-  <td>0.0355</td>
-  <td>0.0290</td>    
-  <td>0.0207</td>
+  <td>1.567</td>
+  <td>3.223</td>
+  <td>6.521</td>    
+  <td>13.64</td>
  </tr>
  <tr>
-  <td><b>Pythran-Naive: Transonic</b></td>
-  <td>0.0111</td>
-  <td>0.0089</td>
-  <td>0.0083</td>
-  <td>0.0078</td>
+  <td><b>Pythran</b></td>
+  <td>0.3177</td>
+  <td>0.6591</td>
+  <td>1.2811</td>
+  <td>2.5082</td>
  </tr>
 </table>
 </body>
@@ -219,34 +219,28 @@ table, th, td {
 </head>
  <table>
   <tr>
-   <td><b>Algorithms</b></td>
-   <td><b>Source Code</b></td>
+   <td><b>Algorithm & Source Code</b></td>
    <td><b>Implementation Details</b></td>
   </tr>
   <tr>
-   <td>NumPy</td>
-   <td><a href = "/benchmarks/python/optimized-numpy.py">optimized-numpy.py</a></td>
-   <td>NumPy Implementation</td>
+   <td><a href = "/benchmarks/python/optimized_numpy.py">NumPy</a></td>
+   <td>Vectorized Approach</td>
   </tr>
   <tr>
-   <td>Python</td>
-   <td><a href = "/benchmarks/python/pure-python.py">pure-python.py</a></td>
-   <td>Python Implementation</td>
+   <td><a href = "/benchmarks/python/pure_python.py">Python</a></td>
+   <td>Standard Python Approach</td>
   </tr>
  <tr>
-  <td>C++</td>
-  <td><a href = "/benchmarks/cpp/main.cpp">main.cpp</a></td>
-  <td>C++ Implementation</td>
+  <td><a href = "/benchmarks/cpp/main.cpp">C++</a></td>
+  <td>C++ Implementation, GNU C++ Compiler</td>
  </tr>
  <tr>
-   <td>Numba</td>
-   <td><a href = "/benchmarks/python/acc_numba.py">acc_numba.py</a></td>
-   <td>Just-In-time Compilation</td>
+   <td><a href = "/benchmarks/python/compiled_methods.py">Numba</a></td>
+   <td>Just-In-time Compilation, Non-Vectorized Approach, Numba via Transonic Compiler</td>
   </tr>
  <tr>
-  <td>Pythran: Transonic Jit</td>
-  <td><a href = "/benchmarks/python/acc_pythran.py">acc_pythran.py</a></td>
-  <td>Just-In-Time Compilation</td>
+  <td><a href = "/benchmarks/python/compiled_methods.py">Pythran</a></td>
+  <td>Just-In-Time Compilation, Non-Vectorized Approach, Pythran via Transonic Compiler</td>
  </tr>
  </table>
 </html>
