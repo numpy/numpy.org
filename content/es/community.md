@@ -24,16 +24,16 @@ En esta lista, por favor, utilice el envío inferior, responda a la lista (en lu
 ### [Seguimiento de incidencias en GitHub](https://github.com/numpy/numpy/issues)
 
 - Para informes de error (por ejemplo, "`np.arange(3).shape` devuelve `(5,)`, donde debería devolver `(3,)`");
-- documentation issues (e.g. "I found this section unclear");
-- and feature requests (e.g. "I would like to have a new interpolation method in `np.percentile`").
+- problemas de documentación (por ejemplo, "Esta sección me pareció poco clara");
+- y solicitudes de funcionalidades (por ejemplo, "Me gustaría tener un nuevo método de interpolación en `np.percentile`").
 
-_Please note that GitHub is not the right place to report a security vulnerability. If you think you have found a security vulnerability in NumPy, please report it [here](https://tidelift.com/docs/security)._
+_Ten en cuenta que GitHub no es el lugar adecuado para reportar una vulnerabilidad de seguridad. Si crees que has encontrado una vulnerabilidad de seguridad en NumPy, por favor repórtalo [aquí](https://tidelift.com/docs/security)._
 
 ***
 
 ### [Slack](https://numpy-team.slack.com)
 
-A real-time chat room to ask questions about _contributing_ to NumPy. This is a private space, specifically meant for people who are hesitant to bring up their questions or ideas on a large public mailing list or GitHub. Please see [here](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) for more details and how to get an invite.
+Una sala de chat en tiempo real para hacer preguntas sobre las _contribuciones_ a NumPy. This is a private space, specifically meant for people who are hesitant to bring up their questions or ideas on a large public mailing list or GitHub. Please see [here](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) for more details and how to get an invite.
 
 
 ## Study Groups and Meetups
