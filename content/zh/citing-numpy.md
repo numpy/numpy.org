@@ -5,7 +5,7 @@ sidebar: false
 
 如果 NumPy 在您的研究中很重要， 您想在您的学术出版物中致谢这个项目，我们建议您引用以下论文：
 
-*  Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _Array programming with NumPy_. Nature 585, 357–362 (2020). DOI: [0.1038/s41586-020-2649-2](https://doi.org/10.1038/s41586-020-2649-2). ([Publisher link](https://www.nature.com/articles/s41586-020-2649-2)).
+*  Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _Array programming with NumPy_. Nature 585, 357–362 (2020). DOI: [10.1038/s41586-020-2649-2](https://doi.org/10.1038/s41586-020-2649-2). ([Publisher link](https://www.nature.com/articles/s41586-020-2649-2)).
 
 _BibTeX 格式：_
 
