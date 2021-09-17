@@ -40,21 +40,21 @@ Una sala de chat en tiempo real para hacer preguntas sobre las _contribuciones_ 
 
 Si desea encontrar un grupo de estudio o reunión local para aprender más sobre NumPy y el ecosistema más amplio de paquetes de Python para la ciencia de los datos y la computación científica, le recomendamos que explore los [PyData meetups](https://www.meetup.com/pro/pydata/) (más de 150 reuniones, más de 100.000 miembros).
 
-NumPy también organiza sprints en persona para su equipo y colaboradores interesados de vez en cuando. These are typically planned several months in advance and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and [Twitter](https://twitter.com/numpy_team).
+NumPy también organiza sprints en persona para su equipo y colaboradores interesados de vez en cuando. Normalmente se planifican con varios meses de antelación y se anunciarán en la [lista de correo](https://mail.python.org/mailman/listinfo/numpy-discussion) y en [Twitter](https://twitter.com/numpy_team).
 
 
-## Conferences
+## Conferencias
 
-The NumPy project doesn't organize its own conferences. The conferences that have traditionally been most popular with NumPy maintainers, contributors and users are the SciPy and PyData conference series:
+El proyecto NumPy no organiza sus propias conferencias. Las conferencias que tradicionalmente han sido más populares entre los mantenedores, colaboradores y usuarios de NumPy son la serie de conferencias SciPy y PyData:
 
 - [SciPy US](https://conference.scipy.org)
 - [EuroSciPy](https://www.euroscipy.org)
-- [SciPy Latin America](https://www.scipyla.org)
+- [SciPy Latinoamérica](https://www.scipyla.org)
 - [SciPy India](https://scipy.in)
-- [SciPy Japan](https://conference.scipy.org)
-- [PyData conferences](https://pydata.org/event-schedule/) (15-20 events a year spread over many countries)
+- [SciPy Japón](https://conference.scipy.org)
+- [Conferencias PyData](https://pydata.org/event-schedule/) (15 eventos al año repartidos en muchos países)
 
-Many of these conferences include tutorial days that cover NumPy and/or sprints where you can learn how to contribute to NumPy or related open source projects.
+Muchas de estas conferencias incluyen tutoriales y/o sprints que cubren NumPy donde puedes aprender cómo contribuir a Numpy o proyectos de código abierto relacionados.
 
 
 ## Join the NumPy community
