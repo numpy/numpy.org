@@ -1,7 +1,7 @@
 ---
-languageName: English
+languageName: Inglés
 params:
-  description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
+  description: '¿Por qué NumPy? Potentes matrices n-dimensionales. Herramientas de cálculo numérico. Interoperable. Rendimiento. Código abierto.'
   navbarlogo:
     image: logos/numpy.svg
     link: /
@@ -9,35 +9,35 @@ params:
     #Main hero title
     title: NumPy
     #Hero subtitle (optional)
-    subtitle: The fundamental package for scientific computing with Python
+    subtitle: El paquete fundamental para la computación científica con Python
     #Button text
-    buttontext: Get started
+    buttontext: Para empezar
     #Where the main hero button links to
     buttonlink: "/install"
     #Hero image (from static/images/___)
     image: logos/numpy.svg
   #Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
-    title: D&I Grant from CZI
-    content: Including NumPy, SciPy, Matplotlib and Pandas
+    title: Subvención D&I de CZI
+    content: Incluye NumPy, SciPy, Matplotlib y Pandas
     url: /news
   shell:
-    title: placeholder
-    promptlabel: interactive shell prompt
+    title: marcador de posición
+    promptlabel: apuntador interactivo de la consola
     button:
       - 
-        label: Enables the interactive tutorial shell
-        text: Enable
+        label: Activa el terminal interactivo del tutorial
+        text: Habilitar
   shellcontent:
     intro:
       - 
-        title: Try NumPy
-        text: Enable the interactive shell
+        title: Prueba NumPy
+        text: Activa el terminal interactivo
     loading:
       - 
-        title: While we wait...
-        text: Launching container on mybinder.org...
-    docslink: Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a>.
+        title: Mientras esperamos...
+        text: Iniciando contenedor en mybinder.org...
+    docslink: No te olvides de echar un vistazo a los <a href="https://numpy.org/doc/stable" target="_blank">documentos</a>.
   casestudies:
     title: CASE STUDIES
     features:
