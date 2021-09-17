@@ -33,14 +33,14 @@ _Ten en cuenta que GitHub no es el lugar adecuado para reportar una vulnerabilid
 
 ### [Slack](https://numpy-team.slack.com)
 
-Una sala de chat en tiempo real para hacer preguntas sobre las _contribuciones_ a NumPy. This is a private space, specifically meant for people who are hesitant to bring up their questions or ideas on a large public mailing list or GitHub. Please see [here](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) for more details and how to get an invite.
+Una sala de chat en tiempo real para hacer preguntas sobre las _contribuciones_ a NumPy. Este es un espacio privado, destinado específicamente a las personas que no se atreven a plantear sus preguntas o ideas en una gran lista de correo pública o en GitHub. Por favor, mira [aquí](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) para más detalles y cómo obtener una invitación.
 
 
-## Study Groups and Meetups
+## Grupos de estudio y reuniones
 
-If you would like to find a local meetup or study group to learn more about NumPy and the wider ecosystem of Python packages for data science and scientific computing, we recommend exploring the [PyData meetups](https://www.meetup.com/pro/pydata/) (150+ meetups, 100,000+ members).
+Si desea encontrar un grupo de estudio o reunión local para aprender más sobre NumPy y el ecosistema más amplio de paquetes de Python para la ciencia de los datos y la computación científica, le recomendamos que explore los [PyData meetups](https://www.meetup.com/pro/pydata/) (más de 150 reuniones, más de 100.000 miembros).
 
-NumPy also organizes in-person sprints for its team and interested contributors occasionally. These are typically planned several months in advance and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and [Twitter](https://twitter.com/numpy_team).
+NumPy también organiza sprints en persona para su equipo y colaboradores interesados de vez en cuando. These are typically planned several months in advance and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and [Twitter](https://twitter.com/numpy_team).
 
 
 ## Conferences
