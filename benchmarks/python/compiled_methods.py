@@ -25,7 +25,9 @@ def compute_accelerations(accelerations, masses, positions):
     for index_p0 in range(nb_particles - 1):
         position0 = positions[index_p0]
         mass0 = masses[index_p0]
-
+        
+        # TODO: Use compiled methods like Numba & Pythran in vectorized approach.
+        # Issue: https://github.com/khushi-411/numpy-benchmarks/issues/4
         for index_p1 in range(index_p0 + 1, nb_particles):
             mass1 = masses[index_p1]
 

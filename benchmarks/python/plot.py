@@ -24,7 +24,7 @@ def plot(x, labels, list_df, names):
     plt.yticks(fontsize=300)
     plt.legend(fontsize=250)
     
-    plt.ylabel(r'$\frac{Time}{nParticles^2}$', fontsize=350)
+    plt.ylabel(r'$\frac{Time}{nParticles}{(sec)}$', fontsize=350)
     plt.xlabel(r"$Number\ of\ Particles\ Simulated(nParticles)$", fontsize=270)
     plt.title(r"$Library\ based\ Implementation$", fontsize=300)
 
@@ -47,7 +47,7 @@ def plot(x, labels, list_df, names):
     plt.yticks(fontsize=300)
     plt.legend(fontsize=250)
 
-    plt.ylabel(r'$\frac{Time}{nParticles^2}$', fontsize=350)
+    plt.ylabel(r'$\frac{Time}{nParticles}{(sec)}$', fontsize=350)
     plt.tick_params(axis='x', which='major', pad=50)
     plt.xlabel(r"$Number\ of\ Particles\ Simulated(nParticles)$", fontsize=270)
     plt.title(r"$Compiler\ based\ Implementation$", fontsize=300)
@@ -57,7 +57,7 @@ def plot(x, labels, list_df, names):
 
 if __name__ == "__main__":
 
-    data_path = "data/table.csv"
+    data_path = "benchmarks/data/table.csv"
     df = pd.read_csv(data_path)
     df = df.drop(['Unnamed: 0'], axis=1)
     df = df.T
