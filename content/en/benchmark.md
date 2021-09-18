@@ -186,7 +186,6 @@ table, th, td {
 <table>
  <tr>
   <td>Input(s) $\rightarrow$</td>
-  <td><b>16</b></td>
   <td><b>32</b></td>
   <td><b>64</b></td>
   <td><b>128</b></td>
@@ -245,7 +244,7 @@ table, th, td {
     * Pythran: 0.9.12.post1
     * Transonic: 0.4.10
     * GCC: 11.1.0
-* **Note:** The benchmarking is performed with the 4 isolated CPU cores for accurate results.
+* **Note:** The benchmarking is performed in the $4$ isolated CPU cores for accurate results.
 
 ## Conclusion
 
