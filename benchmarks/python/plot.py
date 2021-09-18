@@ -20,11 +20,11 @@ def plot(x, labels, list_df, names):
         plt.bar_label(rect[ind], padding=3, fontsize=250)
  
     plt.xticks(x + width/2, names, fontsize=300)
-    plt.tick_params(axis='x', which='major', pad=50)
+    plt.tick_params(axis='both', which='major', pad=60)
     plt.yticks(fontsize=300)
     plt.legend(fontsize=250)
     
-    plt.ylabel(r'$\frac{Time}{nParticles}{(sec)}$', fontsize=350)
+    plt.ylabel(r'$\frac{Time\ (in\ secs)}{nParticles}$', fontsize=350)
     plt.xlabel(r"$Number\ of\ Particles\ Simulated(nParticles)$", fontsize=270)
     plt.title(r"$Library\ based\ Implementation$", fontsize=300)
 
@@ -47,8 +47,8 @@ def plot(x, labels, list_df, names):
     plt.yticks(fontsize=300)
     plt.legend(fontsize=250)
 
-    plt.ylabel(r'$\frac{Time}{nParticles}{(sec)}$', fontsize=350)
-    plt.tick_params(axis='x', which='major', pad=50)
+    plt.ylabel(r'$\frac{Time\ (in\ secs)}{nParticles}$', fontsize=350)
+    plt.tick_params(axis='both', which='major', pad=60)
     plt.xlabel(r"$Number\ of\ Particles\ Simulated(nParticles)$", fontsize=270)
     plt.title(r"$Compiler\ based\ Implementation$", fontsize=300)
     
@@ -64,7 +64,7 @@ if __name__ == "__main__":
     df.columns = ["NumPy", "Python", "C++", "Numba", "Pythran"]
 
     labels = df.columns
-    names = ["16", "32", "64", "128"]
+    names = ["32", "64", "128", "256"]
 
     df = df.T
     x = np.arange(len(df.columns))

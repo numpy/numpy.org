@@ -49,7 +49,7 @@ Consider $n$ bodies of masses $m_1, m_2, m_3, ... , m_n$, moving under the mutua
 
 \begin{equation} {r_i} = {s_{k+1}} - {s_{k}} \tag{I} \end{equation}
 
-\begin{equation} {r_j} = {r_{k}} - {r_{k+1}} \tag{II} \end{equation} 
+\begin{equation} {r_j} = {s_{k}} - {s_{k+1}} \tag{II} \end{equation} 
 
 The final aim is to find time taken to evaluate the total energy of each particle in the celestial space at a given time step. The equations involved in solving the problem are listed below:
 
@@ -195,7 +195,6 @@ table, th, td {
  <tr>
   <tr>
   <td><b>NumPy</b></td>
-  <td>12.61</td>
   <td>13.88</td>
   <td>15.59</td>
   <td>17.90</td>
@@ -203,22 +202,19 @@ table, th, td {
  </tr>
 <tr>
   <td><b>Python</b></td>
-  <td>12.85</td>
   <td>26.82</td>
   <td>50.13</td>
   <td>105.01</td>
-  <td></td>
+  <td>178.6</td>
 </tr>
  <tr>
   <td><b>C++</b></td>
-  <td>1.646</td>
   <td>3.206</td>
   <td>5.725</td>
   <td>11.44</td>
   <td>19.43</td>
  <tr>
   <td><b>Numba</b></td>
-  <td>1.567</td>
   <td>3.223</td>
   <td>6.521</td>    
   <td>13.64</td>
@@ -226,7 +222,6 @@ table, th, td {
  </tr>
  <tr>
   <td><b>Pythran</b></td>
-  <td>0.3177</td>
   <td>0.6591</td>
   <td>1.2811</td>
   <td>2.5082</td>
@@ -250,10 +245,11 @@ table, th, td {
     * Pythran: 0.9.12.post1
     * Transonic: 0.4.10
     * GCC: 11.1.0
+* **Note:** The benchmarking is performed with the 4 isolated CPU cores for accurate results.
 
 ## Conclusion
 
-* NumPy is very efficient, especially for larger datasets. NumPy performs $3.2$ times faster than Python for input size $64$, $5.8$ times faster for a dataset of size, $128$, and $$ times better performance than Python for input size $256$. The performance of NumPy increases drastically as the number of particles in the datasets increases. Thanks to the vectorized approach in NumPy. Vectorization makes the code look clean and concise to read. It results in better performance without any explicit looping, indexing, etc. NumPy's concept of vectorization is handy for the beginner to learn. It is also beneficial for a highly skilled developer to debug the errors with fewer lines of code.
+* NumPy is very efficient, especially for larger datasets. NumPy performs $3.2$ times faster than Python for input size $64$, $5.8$ times faster for a dataset of size, $128$. It gives more than $9.7$ times better performance than Python for input size $256$. The performance of NumPy increases drastically as the number of particles in the datasets increases. Thanks to the vectorized approach in NumPy. Vectorization makes the code look clean and concise to read. It results in better performance without any explicit looping, indexing, etc. NumPy's concept of vectorization is handy for the beginner to learn. It is also beneficial for a highly skilled developer to debug the errors with fewer lines of code.
 * It uses pre-compiled C code, which adds up to the performance of NumPy. We can observe from the table the performance of the NumPy approaches to the speed of C++. For a dataset of size $64$, NumPy is $2.72$ times slower than C++. For the dataset of size $128$, it reaches equivalent to the speed of C++, with a running time of $1.56$ times the time taken by C++. NumPy outperforms C++ by $1.06$ times for input size $256$.
 
 **How can we accelerate NumPy?**
