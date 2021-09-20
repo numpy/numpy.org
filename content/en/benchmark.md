@@ -18,12 +18,14 @@ The objective of benchmarking NumPy revolves around the efficiency of the librar
 <!-- Can be made like a content section? -->
 <!-- 1. Overview: (current section): Discussing the objective of the post. -->
 <!-- 2. About N-body Problem: Brief description on N-body problem and why it was chosen. -->
-<!-- 3. Dataset Description -->
-<!-- 4. Implemented Accelerators -->
-<!-- 5. Source Code -->
-<!-- 6. Results -->
-<!-- 7. Conclusion -->
-<!-- 8. References -->
+<!-- 3. Pseudo Code of Solving N-Body Problem. -->
+<!-- 4. Dataset Description -->
+<!-- 5. Compiled Methods -->
+<!-- 6. Source Code -->
+<!-- 7. Results -->
+<!-- 8. Environment Configuration -->
+<!-- 9. Conclusion -->
+<!-- 10. References -->
 
 ## About N-Body Problem
 
@@ -47,9 +49,9 @@ A brief description of computations involved in solving the N-body problem is gi
 
 Consider $n$ bodies of masses $m_1, m_2, m_3, ... , m_n$, moving under the mutual [gravitational force](https://en.wikipedia.org/wiki/Gravity) of attraction between them in an [inertial frame of reference](https://en.wikipedia.org/wiki/Inertial_frame_of_reference) of three dimensions, such that consecutive  positions and velocities of an ${ith}$ body are denoted by ($s_{k-1}$, $s_k$) and ($v_{k-1}$, $v_k$) respectively. According to the [Newton's law of gravity](https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation), the gravitational force felt on the $ith$ body of mass $m_i$ by a single body of mass $m_j$ is denoted as $F_{ij}$ and the acceleration of the $ith$ body is represented as $a_i$. Let $r_i$ and $r_j$ be the position vectors of two body, such that:
 
-\begin{equation} {r_i} = {s_{k+1}} - {s_{k}} \tag{I} \end{equation}
+\begin{equation} {r_i} = {s_{k}} - {s_{k-1}} \tag{I} \end{equation}
 
-\begin{equation} {r_j} = {s_{k}} - {s_{k+1}} \tag{II} \end{equation} 
+\begin{equation} {r_j} = {s_{k-1}} - {s_{k}} \tag{II} \end{equation} 
 
 The final aim is to find time taken to evaluate the total energy of each particle in the celestial space at a given time step. The equations involved in solving the problem are listed below:
 
@@ -113,7 +115,7 @@ We considered accelerators like [Numba](http://numba.pydata.org/), [Pythran](htt
 
 <div style="text-align: right">Source: <a href="http://numba.pydata.org/">Numba's Website</a></div>
 
-Since Numba is a compiler focused on accelerating Python and NumPy codes, the user API of the library supports various decorators. It uses the industry-standard LLVM compiler library. It aims to translate the Python functions to optimized machine code during runtime. It supports variety of decorators like `@jit, @vectorize, @guvectorize, @stencil, @jitclass, @cfunc, @overload`. We are using `Just-In-Time` compilation in this work. It also supports `nopython` mode to generate fully compiled results without the need for intermediate Python interpreter calls. Numba's assistance to NumPy arrays and functions also makes it a good candidate for comparison.
+Since Numba is a compiler focused on accelerating Python and NumPy codes, the user API of the library supports various decorators. It uses the industry-standard LLVM compiler library. It aims to translate the Python functions to optimized machine code during runtime. It supports variety of decorators like `@jit`, `@vectorize`, `@guvectorize`, `@stencil`, `@jitclass`, `@cfunc`, `@overload`. We are using `Just-In-Time` compilation in this work. It also supports `nopython` mode to generate fully compiled results without the need for intermediate Python interpreter calls. Numba's assistance to NumPy arrays and functions also makes it a good candidate for comparison.
 
 <!-- NumPy and Numba both use a similar type of compilation for ufuncs in manual looping resulting in the same speed.  Another thing that Numba lacks behind is that it does not support all functions of NumPy. There are functions in NumPy which does not hold up some of the optional arguments in nopython mode. It can implement linear algebra calls in the compiled functions but does not return any faster implementation. -->
 
@@ -244,7 +246,7 @@ table, th, td {
     * Pythran: 0.9.12.post1
     * Transonic: 0.4.10
     * GCC: 11.1.0
-* **Note:** The benchmarking is performed in the $4$ isolated CPU cores for accurate results.
+* **Note:** The benchmarking is performed on the $4$ isolated CPU cores for accurate results.
 
 ## Conclusion
 
