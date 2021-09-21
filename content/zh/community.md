@@ -17,7 +17,7 @@ Numby是一个社区驱动的开源项目，由一群十分多样化的[贡献�
 
 这个列表是较长形式讨论的主要讨论区，例如将新功能添加到Numpy，更改Numpy 路线图或是各种项目级的决策。 同时也是NumPy的公告区，例如releases，开发者会议，Sprints 或是会议演讲也在这个列表中。
 
-在这个列表上，请用包含引文回复的方式回复邮件列表(而不是另一个发送者)，并且不要回复摘要。 这个列表提供了一个可检索的 [归档](http://numpy-discussion.10968.n7.nabble.com/)。
+在这个列表上，请用包含引文回复的方式回复邮件列表(而不是另一个发送者)，并且不要回复摘要。 A searchable archive of this list is available [here](https://mail.python.org/archives/list/numpy-discussion@python.org/).
 
 ***
 
