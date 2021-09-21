@@ -17,7 +17,7 @@ Las siguientes son formas de relacionarse directamente con el proyecto y la comu
 
 Esta lista es el foro principal para discusiones más largas, como añadir nuevas características a NumPy, hacer cambios en el mapa de ruta de NumPy, y todo tipo de proceso de toma de decisiones a nivel de proyecto. Los anuncios sobre NumPy, tales como lanzamientos, reuniones de desarrolladores, sprints o conferencias también se hacen en esta lista.
 
-En esta lista, por favor, utilice el envío inferior, responda a la lista (en lugar de a otro remitente), y no responda a los resúmenes. Un archivo de búsqueda de esta lista está disponible [aquí](http://numpy-discussion.10968.n7.nabble.com/).
+En esta lista, por favor, utilice el envío inferior, responda a la lista (en lugar de a otro remitente), y no responda a los resúmenes. A searchable archive of this list is available [here](https://mail.python.org/archives/list/numpy-discussion@python.org/).
 
 ***
 
