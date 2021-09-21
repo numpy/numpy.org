@@ -23,7 +23,7 @@ conference talks are also made on this list.
 
 On this list please use bottom posting, reply to the list (rather than to
 another sender), and don't reply to digests. A searchable archive of this list
-is available [here](http://numpy-discussion.10968.n7.nabble.com/).
+is available [here](https://mail.python.org/archives/list/numpy-discussion@python.org/).
 
 ***
 
