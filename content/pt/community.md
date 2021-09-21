@@ -17,7 +17,7 @@ Abaixo, listamos algumas formas de se envolver diretamente com o projeto e a com
 
 Esta lista é o principal fórum para discussões mais longas, como adicionar novos recursos ao NumPy, fazer alterações no roadmap do NumPy e em todos os tipos de tomada de decisão para todo o projeto. Anúncios sobre o NumPy, como novas versões, reuniões de desenvolvedores, sprints ou palestras de conferência também são feitas nesta lista.
 
-Nesta lista, por favor, use *bottom posting*, responda à lista (em vez de a outro remetente), e não responda aos *digests*. Um arquivo pesquisável desta lista está disponível [aqui](http://numpy-discussion.10968.n7.nabble.com/).
+Nesta lista, por favor, use *bottom posting*, responda à lista (em vez de a outro remetente), e não responda aos *digests*. Um arquivo pesquisável desta lista está disponível [aqui](https://mail.python.org/archives/list/numpy-discussion@python.org/).
 
 ***
 
