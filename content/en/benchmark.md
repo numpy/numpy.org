@@ -71,7 +71,7 @@ The final aim is to find time taken to evaluate the total energy of each particl
 
 ### Pseudo Code of Solving N-body Problem
 
-```bash
+```
 Set time to 0, time_step to 0.001 and time_end to 10s
 THEN number_of_step is 10/0.001
 FOR time is less than or equal to time_end

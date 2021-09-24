@@ -4,11 +4,12 @@ import matplotlib.pyplot as plt
 
 def plot(x, labels, list_df, names):
 
-    plt.figure(figsize=(350, 220), dpi=30)
+    plt.figure(figsize=(350, 220), dpi=4)
     plt.subplot(2, 1, 1)
 
     width = 0.25
     rect = [0, 0, 0]
+    colors = ['#4D77CF', 'navy']
 
     list1 = []
     for ind, list in enumerate(list_df):
@@ -16,7 +17,7 @@ def plot(x, labels, list_df, names):
             list1.append(list)
 
     for ind, time_taken in enumerate(list1):
-        rect[ind] = plt.bar(x + width*ind, time_taken, width, align='center', label=labels[ind])
+        rect[ind] = plt.bar(x + width*ind, time_taken, width, align='center', color=colors[ind % len(colors)], label=labels[ind])
         plt.bar_label(rect[ind], padding=3, fontsize=250)
  
     plt.xticks(x + width/2, names, fontsize=300)
@@ -30,8 +31,8 @@ def plot(x, labels, list_df, names):
 
     plt.subplot(2, 1, 2)
     rect = [0, 0, 0]
-    colors = ['lightcoral', 'navy', 'm']
-    
+    colors = ['#044F88', '#4DABCF', 'm']
+
     list2 = []
     for ind, list in enumerate(list_df):
         if ind >= 2:
