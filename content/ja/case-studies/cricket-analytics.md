@@ -55,7 +55,7 @@ sidebar: false
 
 * **統計分析:** NumPyの数値計算機能は、様々なプレイヤーやゲーム戦術のコンテキストでの観測データで、試合中のイベントの統計的有意性を推定し、生成モデルや静的モデルと比較して試合結果を推定するのに役立ちます。 [因果分析](https://amplitude.com/blog/2017/01/19/causation-correlation) と [ビッグデータアプローチ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/)が戦術的分析に使用されています。
 
-* **データ可視化:** データのグラフ化・[可視化](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) は、さまざまなデータセット間の関係について、有益な洞察を与えてくれます。
+* **Data Visualization:** Data graphing and [visualization](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) provide useful insights into relationship between various datasets.
 
 ## まとめ
 
