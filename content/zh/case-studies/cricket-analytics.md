@@ -55,7 +55,7 @@ sidebar: false
 
 * **统计分析:** NumPy的数值计算功能有助于在各种球员和比赛策略下估算观察数据或比赛事件的统计意义，并通过与生成模型或静态模型进行比较来预测比赛结果。 [因果分析](https://amplitude.com/blog/2017/01/19/causation-correlation) 和 [大数据分析](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) 就常用于战术分析。
 
-* **数据可视化：** 数据图形化和 [可视化](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) 对各种数据集之间的关系提供了有价值的见解。
+* **Data Visualization:** Data graphing and [visualization](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) provide useful insights into relationship between various datasets.
 
 ## 总结
 
