@@ -55,7 +55,7 @@ A análise de dados esportivos é um campo próspero. Muitos pesquisadores e emp
 
 * **Análise Estatística:** Os recursos numéricos do NumPy ajudam a estimar o significado estatístico de dados observados ou de eventos ocorridos em partidas no contexto de vários jogadores e táticas de jogo, bem como estimar o resultado do jogo em comparação com um modelo generativo ou estático. [Análise Causal](https://amplitude.com/blog/2017/01/19/causation-correlation) e [abordagens em *big data*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) são usados para análise tática.
 
-* **Visualização de dados:** Gráficos e [visualizações](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) fornecem informações úteis sobre as relações entre vários conjuntos de dados.
+* **Data Visualization:** Data graphing and [visualization](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) provide useful insights into relationship between various datasets.
 
 ## Resumo
 
