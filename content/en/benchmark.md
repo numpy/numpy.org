@@ -7,9 +7,13 @@ sidebar: false
 
 ## Overview
 
-This web page aims to benchmark NumPy's performance on the widely accepted N-body problem<a href="#nbody">[2]</a>. This work also compares NumPy with Python & C++ and with compilers like Numba and Pythran.
+This web page aims to benchmark NumPy's performance on the widely accepted N-body problem
+<a href="#nbody">[2]</a>. This work also compares NumPy with Python & C++ 
+and with compilers like Numba and Pythran.
 
-The objective of benchmarking NumPy revolves around the efficiency of the library in quasi real-life situations, and the N-body problem suits the purpose well. Benchmarking is performed over several iterations for different datasets to ensure the accuracy of the results.
+The objective of benchmarking NumPy revolves around the efficiency of the library in quasi real-life situations, 
+and the N-body problem suits the purpose well. 
+Benchmarking is performed over several iterations for different datasets to ensure the accuracy of the results.
 
 <!--Towards the end of this post, an attempt will be made to make a conclusion on how NumPy can be efficient in solving problems like N-body problem.-->
 
@@ -43,17 +47,32 @@ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
 
 <div style="text-align: right">Source: <a href="https://en.wikipedia.org/wiki/N-body_problem">Wikipedia</a></div>
 
-From the definition above, the N-body problem includes the kinematics between the different bodies, which involve various mathematical computations. Solving this problem has been motivated by the desire to understand the motions of the celestial bodies. Thus it serves as a robust entity between real-world applications and the computational world. 
+From the definition above, the N-body problem includes the kinematics between the different bodies, 
+which involve various mathematical computations. 
+Solving this problem has been motivated by the desire to understand the motions of the celestial bodies. 
+Thus it serves as a robust entity between real-world applications and the computational world. 
 
-A brief description of computations involved in solving the N-body problem is given below, along with the pseudo-code in the next section:
+A brief description of computations involved in solving the N-body problem is given below, 
+along with the pseudo-code in the next section:
 
-Consider $n$ bodies of masses $m_1, m_2, m_3, ... , m_n$, moving under the mutual [gravitational force](https://en.wikipedia.org/wiki/Gravity) of attraction between them in an [inertial frame of reference](https://en.wikipedia.org/wiki/Inertial_frame_of_reference) of three dimensions, such that consecutive  positions and velocities of an ${ith}$ body are denoted by ($s_{k-1}$, $s_k$) and ($v_{k-1}$, $v_k$) respectively. According to the [Newton's law of gravity](https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation), the gravitational force felt on the $ith$ body of mass $m_i$ by a single body of mass $m_j$ is denoted as $F_{ij}$ and the acceleration of the $ith$ body is represented as $a_i$. Let $r_i$ and $r_j$ be the position vectors of two body, such that:
+Consider $n$ bodies of masses $m_1, m_2, m_3, ... , m_n$, 
+moving under the mutual [gravitational force](https://en.wikipedia.org/wiki/Gravity) of attraction 
+between them in an [inertial frame of reference](https://en.wikipedia.org/wiki/Inertial_frame_of_reference) of three dimensions, 
+such that consecutive  positions and velocities of an ${ith}$ body 
+are denoted by ($s_{k-1}$, $s_k$) and ($v_{k-1}$, $v_k$) respectively. 
+According to the [Newton's law of gravity](https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation), 
+the gravitational force felt on the $ith$ body of mass $m_i$ 
+by a single body of mass $m_j$ is denoted as $F_{ij}$ 
+and the acceleration of the $ith$ body is represented as $a_i$. 
+Let $r_i$ and $r_j$ be the position vectors of two body, such that:
 
 \begin{equation} {r_i} = {s_{k}} - {s_{k-1}} \tag{I} \end{equation}
 
 \begin{equation} {r_j} = {s_{k-1}} - {s_{k}} \tag{II} \end{equation} 
 
-The final aim is to find time taken to evaluate the total energy of each particle in the celestial space at a given time step. The equations involved in solving the problem are listed below:
+The final aim is to find time taken to evaluate the total energy of each particle 
+in the celestial space at a given time step. 
+The equations involved in solving the problem are listed below:
 
 \begin{equation} {s_k} = {s_{k-1}} + {u\times t} + \frac{a\times t^2}{2} \tag{III} \end{equation}
 
@@ -98,7 +117,8 @@ END FOR
 * Nine different text files, named as `InputX.txt`, where $X$ is number of particles in the celestial space (for this problem, number of particles are: $16, 32, 64, 128, 256, 512, 1000, 2000$ and $16000$).
 * Dataset<a href="#data">[3]</a> consists of the masses of each particle and information about their initial positions and velocities along the three-dimensional axis.
 
-An example from the dataset<a href="#data">[3]</a> used is given below: (for a single particle, the values are approximated up to four decimal places for readability)
+An example from the dataset<a href="#data">[3]</a> used is given below: 
+(for a single particle, the values are approximated up to four decimal places for readability)
 
 ```
 # Ordered as: label, mass (grams), position_x, position_y, position_z, velocity_x, velocity_y, velocity_z
@@ -107,7 +127,12 @@ An example from the dataset<a href="#data">[3]</a> used is given below: (for a s
 
 ## Compiled Methods
 
-We considered accelerators like [Numba](http://numba.pydata.org/), [Pythran](https://transonic.readthedocs.io/), and [Transonic](https://transonic.readthedocs.io/) for benchmarking. This decision is inspired by [Ralf Gommer's Presentation on SciPy 1.0](https://www.slideshare.net/RalfGommers/scipy-10-and-beyond-a-story-of-community-and-code) (conference [video](https://www.youtube.com/watch?v=oHmm3mPxg6Y)). We give brief details on a few of the accelerators below:
+We considered accelerators like [Numba](http://numba.pydata.org/), 
+[Pythran](https://transonic.readthedocs.io/), and [Transonic](https://transonic.readthedocs.io/) 
+for benchmarking. 
+This decision is inspired by [Ralf Gommer's Presentation on SciPy 1.0](https://www.slideshare.net/RalfGommers/scipy-10-and-beyond-a-story-of-community-and-code) 
+(conference [video](https://www.youtube.com/watch?v=oHmm3mPxg6Y)). 
+We give brief details on a few of the accelerators below:
 
 ### Numba
 
@@ -115,7 +140,15 @@ We considered accelerators like [Numba](http://numba.pydata.org/), [Pythran](htt
 
 <div style="text-align: right">Source: <a href="http://numba.pydata.org/">Numba's Website</a></div>
 
-Since Numba is a compiler focused on accelerating Python and NumPy codes, the user API of the library supports various decorators. It uses the industry-standard LLVM compiler library. It aims to translate the Python functions to optimized machine code during runtime. It supports variety of decorators like `@jit`, `@vectorize`, `@guvectorize`, `@stencil`, `@jitclass`, `@cfunc`, `@overload`. We are using `Just-In-Time` compilation in this work. It also supports `nopython` mode to generate fully compiled results without the need for intermediate Python interpreter calls. Numba's assistance to NumPy arrays and functions also makes it a good candidate for comparison.
+Since Numba is a compiler focused on accelerating Python and NumPy codes, 
+the user API of the library supports various decorators. 
+It uses the industry-standard LLVM compiler library. 
+It aims to translate the Python functions to optimized machine code during runtime. 
+It supports variety of decorators like `@jit`, `@vectorize`, `@guvectorize`, `@stencil`, `@jitclass`, `@cfunc`, `@overload`. 
+We are using `Just-In-Time` compilation in this work. 
+It also supports `nopython` mode to generate fully compiled results 
+without the need for intermediate Python interpreter calls. 
+Numba's assistance to NumPy arrays and functions also makes it a good candidate for comparison.
 
 <!-- NumPy and Numba both use a similar type of compilation for ufuncs in manual looping resulting in the same speed.  Another thing that Numba lacks behind is that it does not support all functions of NumPy. There are functions in NumPy which does not hold up some of the optional arguments in nopython mode. It can implement linear algebra calls in the compiled functions but does not return any faster implementation. -->
 
@@ -125,7 +158,11 @@ Since Numba is a compiler focused on accelerating Python and NumPy codes, the us
 
 <div style="text-align: right">Source: <a href="https://pythran.readthedocs.io/en/latest/#">Pythran's Website</a></div>
 
-Since the focus of Pythran was on accelerating Python and NumPy codes, its C++ API is the same as that of NumPy. Pythran also supports [Expression Templating](https://en.wikipedia.org/wiki/Expression_templates) and [SIMD](https://en.wikipedia.org/wiki/SIMD) instructions, which are its main advantages. It converts annotated Python modules into native Python modules, which are comparatively faster. But both have the same kind of interface.
+Since the focus of Pythran was on accelerating Python and NumPy codes, 
+its C++ API is the same as that of NumPy. 
+Pythran also supports [Expression Templating](https://en.wikipedia.org/wiki/Expression_templates) and [SIMD](https://en.wikipedia.org/wiki/SIMD) instructions, which are its main advantages. 
+It converts annotated Python modules into native Python modules, which are comparatively faster. 
+But both have the same kind of interface.
 
 <!-- NumPy arrays in Cython should be stored in contiguous memory like C-style or Fortran to use Pythran in the backend. Here, the Pythran lacks behind. Another limitation is that the sequence of bytes of words must be the same as the targeted architecture to make Pythran work.-->
 
@@ -173,7 +210,9 @@ table, th, td {
 
 ## Results
 
-Table values represent the normalized time taken in seconds by each algorithm to run on the given datasets for $50$ number of iterations. The raw timing data can be downloaded from <a href = "benchmarks/data/table.csv">here</a>.
+Table values represent the normalized time 'time / nParticles` taken in seconds 
+by each algorithm to run on the given datasets for $50$ number of iterations. 
+The raw timing data can be downloaded from <a href = "benchmarks/data/table.csv">here</a>.
 
 <html>
 <head>
@@ -250,17 +289,40 @@ table, th, td {
 
 ## Conclusion
 
-* NumPy is very efficient, especially for larger datasets. NumPy performs $3.2$ times faster than Python for input size $64$, $5.8$ times faster for a dataset of size, $128$. It gives more than $9.7$ times better performance than Python for input size $256$. The performance of NumPy increases drastically as the number of particles in the datasets increases. Thanks to the vectorized approach in NumPy. Vectorization makes the code look clean and concise to read. It results in better performance without any explicit looping, indexing, etc. NumPy's concept of vectorization is handy for the beginner to learn. It is also beneficial for a highly skilled developer to debug the errors with fewer lines of code.
-* It uses pre-compiled C code, which adds up to the performance of NumPy. We can observe from the table the performance of the NumPy approaches to the speed of C++. For a dataset of size $64$, NumPy is $2.72$ times slower than C++. For the dataset of size $128$, it reaches equivalent to the speed of C++, with a running time of $1.56$ times the time taken by C++. NumPy outperforms C++ by $1.06$ times for input size $256$.
+* NumPy is very efficient, especially for larger datasets. 
+NumPy performs $3.2$ times faster than Python for input size $64$, 
+$5.8$ times faster for a dataset of size, $128$. 
+It gives more than $9.7$ times better performance than Python for input size $256$. 
+The performance of NumPy increases drastically as the number of particles in the datasets increases. 
+Thanks to the vectorized approach in NumPy. Vectorization makes the code look clean and concise to read. 
+It results in better performance without any explicit looping, indexing, etc. 
+NumPy's concept of vectorization is handy for the beginner to learn. It is also beneficial for a 
+highly skilled developer to debug the errors with fewer lines of code.
+* It uses pre-compiled C code, which adds up to the performance of NumPy. 
+We can observe from the table the performance of the NumPy approaches to the speed of C++. 
+For a dataset of size $64$, NumPy is $2.72$ times slower than C++. For the dataset of size $128$, 
+it reaches equivalent to the speed of C++, with a running time of $1.56$ times the time taken by C++. 
+NumPy outperforms C++ by $1.06$ times for input size $256$.
 
 **How can we accelerate NumPy?**
 
-NumPy aims to improve itself and to give better performance for the end-users. It performs well in most cases. But to fill the gaps where NumPy is not so good various compiled methods like Numba, Pythran, etc are used. They play a huge role. In this implementation, we used Transonic's JIT Compilation at the backend for NumPy arrays to implement Numba & Pythran. To be specific, we want to compare NumPy's vectorized approach with the JIT-compiled non-vectorized approach.
+NumPy aims to improve itself and to give better performance for the end-users. It performs well in most cases. 
+But to fill the gaps where NumPy is not so good various compiled methods 
+like Numba, Pythran, etc are used. They play a huge role. In this implementation, 
+we used Transonic's JIT Compilation at the backend for NumPy arrays to implement Numba & Pythran. 
+To be specific, we want to compare NumPy's vectorized approach with the JIT-compiled non-vectorized approach.
 
-* We observed Numba performs $2.72$ times faster than NumPy for input size $64$ and $1.56$ times faster for input size $128$. But later, NumPy outperforms Numba by $1.45$ times faster for input size $256$.
-* Pythran performs $12.17$ times faster for input size $64$, $7.13$ times better for input size $128$, and $3.51$ times faster than NumPy for input size $256$.
+* We observed Numba performs $2.72$ times faster than NumPy for input size $64$ 
+and $1.56$ times faster for input size $128$. 
+But later, NumPy outperforms Numba by $1.45$ times faster for input size $256$.
+* Pythran performs $12.17$ times faster for input size $64$, 
+$7.13$ times better for input size $128$, and $3.51$ times faster than NumPy for input size $256$.
 
-We have compared the performance of NumPy with two of the most popular languages Python and C++, and with popular compiled methods like Numba and Pythran. NumPy achieves better performance for scientific computations as well as for solving real-life situations. That's NumPy. It stands explicitly well in all kinds of circumstances.
+We have compared the performance of NumPy with two of the most popular languages 
+Python and C++, and with popular compiled methods like Numba and Pythran. 
+NumPy achieves better performance for scientific computations 
+as well as for solving real-life situations. That's NumPy. 
+It stands explicitly well in all kinds of circumstances.
 
 ## References
 
