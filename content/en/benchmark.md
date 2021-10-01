@@ -210,7 +210,7 @@ table, th, td {
 
 ## Results
 
-Table values represent the normalized time 'time / nParticles` taken in seconds 
+Table values represent the normalized time 'time / nParticles^{2}` taken in seconds 
 by each algorithm to run on the given datasets for $50$ number of iterations. 
 The raw timing data can be downloaded from <a href = "benchmarks/data/table.csv">here</a>.
 
@@ -235,37 +235,37 @@ table, th, td {
  <tr>
   <tr>
   <td><b>NumPy</b></td>
-  <td>13.88</td>
-  <td>15.59</td>
-  <td>17.90</td>
-  <td>18.27</td>
+  <td>0.434</td>
+  <td>0.243</td>
+  <td>0.139</td>
+  <td>0.0713</td>
  </tr>
 <tr>
   <td><b>Python</b></td>
-  <td>26.82</td>
-  <td>50.13</td>
-  <td>105.01</td>
-  <td>178.6</td>
+  <td>0.838</td>
+  <td>0.783</td>
+  <td>0.82</td>
+  <td>0.697</td>
 </tr>
  <tr>
   <td><b>C++</b></td>
-  <td>3.206</td>
-  <td>5.725</td>
-  <td>11.44</td>
-  <td>19.43</td>
+  <td>0.1001</td>
+  <td>0.089</td>
+  <td>0.089</td>
+  <td>0.075</td>
  <tr>
   <td><b>Numba</b></td>
-  <td>3.223</td>
-  <td>6.521</td>    
-  <td>13.64</td>
-  <td>26.64</td>
+  <td>0.1007</td>
+  <td>0.101</td>    
+  <td>0.106</td>
+  <td>0.104</td>
  </tr>
  <tr>
   <td><b>Pythran</b></td>
-  <td>0.6591</td>
-  <td>1.2811</td>
-  <td>2.5082</td>
-  <td>5.2042</td>
+  <td>0.02</td>
+  <td>0.02</td>
+  <td>0.019</td>
+  <td>0.0203</td>
  </tr>
 </table>
 </body>
@@ -290,37 +290,39 @@ table, th, td {
 ## Conclusion
 
 * NumPy is very efficient, especially for larger datasets. 
-NumPy performs $3.2$ times faster than Python for input size $64$, 
+It performs $3.2$ times faster than Python for input size $64$, 
 $5.8$ times faster for a dataset of size, $128$. 
 It gives more than $9.7$ times better performance than Python for input size $256$. 
 The performance of NumPy increases drastically as the number of particles in the datasets increases. 
-Thanks to the vectorized approach in NumPy. Vectorization makes the code look clean and concise to read. 
-It results in better performance without any explicit looping, indexing, etc. 
-NumPy's concept of vectorization is handy for the beginner to learn. It is also beneficial for a 
-highly skilled developer to debug the errors with fewer lines of code.
+Thanks to the vectorized approach in NumPy. Vectorization makes the code look clean and concise to read. That resulted in better performance without any explicit looping, indexing, etc.
+
 * It uses pre-compiled C code, which adds up to the performance of NumPy. 
-We can observe from the table the performance of the NumPy approaches to the speed of C++. 
-For a dataset of size $64$, NumPy is $2.72$ times slower than C++. For the dataset of size $128$, 
-it reaches equivalent to the speed of C++, with a running time of $1.56$ times the time taken by C++. 
-NumPy outperforms C++ by $1.06$ times for input size $256$.
+The table shows that the performance of the NumPy is approaching the speed of C++ on increasing the input size. 
+For a dataset of size $64$, NumPy is $2.7$ times slower than C++. For the dataset of size $128$, 
+it reaches equivalent to the speed of C++, with a running time of $1.56$ times, faster than the time taken by C++. 
+NumPy outperforms C++ by $1.05$ times for input size $256$.
 
 **How can we accelerate NumPy?**
 
 NumPy aims to improve itself and to give better performance for the end-users. It performs well in most cases. 
 But to fill the gaps where NumPy is not so good various compiled methods 
-like Numba, Pythran, etc are used. They play a huge role. In this implementation, 
+like Numba, Pythran, etc are used. They play a huge role. Presently, 
 we used Transonic's JIT Compilation at the backend for NumPy arrays to implement Numba & Pythran. 
 To be specific, we want to compare NumPy's vectorized approach with the JIT-compiled non-vectorized approach.
 
-* We observed Numba performs $2.72$ times faster than NumPy for input size $64$ 
-and $1.56$ times faster for input size $128$. 
+* We observed Numba performs $2.4$ times faster than NumPy for input size $64$ 
+and $1.31$ times faster for input size $128$. 
 But later, NumPy outperforms Numba by $1.45$ times faster for input size $256$.
-* Pythran performs $12.17$ times faster for input size $64$, 
-$7.13$ times better for input size $128$, and $3.51$ times faster than NumPy for input size $256$.
+* Pythran performs $12.15$ times faster for input size $64$, 
+$7.31$ times better for input size $128$, and $3.51$ times faster than NumPy for input size $256$.
 
 We have compared the performance of NumPy with two of the most popular languages 
 Python and C++, and with popular compiled methods like Numba and Pythran. 
-NumPy achieves better performance for scientific computations 
+We distinguished the remarkable change in the behaviour of NumPy as we increment the number of input sizes. 
+NumPy initially performed equivalent to the speed of Python, 
+but, later it changed its behavior from "python-like" nature to "compiled-like" behavior. 
+The running time became similar to accelerators that are to increase the performance of the code.
+It achieves better performance for scientific computations 
 as well as for solving real-life situations. That's NumPy. 
 It stands explicitly well in all kinds of circumstances.
 
