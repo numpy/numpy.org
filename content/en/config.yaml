@@ -78,7 +78,7 @@ params:
     - title: Easy to use
       text: NumPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
     - title: Open source
-      text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/community).
+      text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/community).
   tabs:
     title: ECOSYSTEM
   section5: false
