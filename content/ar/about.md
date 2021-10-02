@@ -5,7 +5,7 @@ sidebar: false
 
 _بعض المعلومات حول مشروع ومجتمع نمباي_
 
-نمباي هو مشروع مفتوح المصدر يهدف إلي إتاحة الحوسبة الرقمية باستخدام لغة برمجة بايثون. وقد أنشئت في عام 2005، استنادا علي العمل المبكر للمكتبتان Numeric و Numarray. ستظل نمباي دائماُ مائة في المائة برمجية مفتوحة المصدر، مجانية للجميع وتصدر بموجب الشروط الليبرالية [لرخصة BSD المعدلة](https://github.com/numpy/numpy/blob/master/LICENSE.txt).
+نمباي هو مشروع مفتوح المصدر يهدف إلي إتاحة الحوسبة الرقمية باستخدام لغة برمجة بايثون. وقد أنشئت في عام 2005، استنادا علي العمل المبكر للمكتبتان Numeric و Numarray. NumPy will always be 100% open source software, free for all to use and released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
 
 وقد تم تطوير نمباي في العلن على GitHub ومن خلال توافق آراء مجتمع نمباي ونطاق أوسع لمجتمع بايثون العلمي. لمزيد من المعلومات حول نهج الإدارة، يرجى الاطلاع على [الوثيقة الإدارية](https://www.numpy.org/devdocs/dev/governance/index.html) الخاصة بنا.
 
