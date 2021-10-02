@@ -5,4 +5,4 @@ sidebar: false
 
 نرحب بتسهيل إدراج مشروع نمباى عليك سواء فى بحثك الأكاديمى أو كمادة دراسية أو كعرض.
 
-لذلك ستجد عدة إصدارات عالية الجودة من شاعر نمباى[ هنا](https://github.com/numpy/numpy/tree/master/branding/logo). وعليك أن تلاحظ أنه باستخدام موارد numpy.org فأنت توافق على[ قواعد السلوك لنمباى](/code-of-conduct).
+You will find several high-resolution versions of the NumPy logo [here](https://github.com/numpy/numpy/tree/main/branding/logo). وعليك أن تلاحظ أنه باستخدام موارد numpy.org فأنت توافق على[ قواعد السلوك لنمباى](/code-of-conduct).
