@@ -5,7 +5,7 @@ sidebar: false
 
 _このページでは、NumPyのプロジェクトとそれを支えるコミュニティについて説明します。_
 
-NumPy は、Python で数値計算を可能にするためのオープンソースプロジェクトです。 NumPyは、NumericやNumarrayといった初期のライブラリのコードをもとに、2005年から開発が開始されました。 NumPyは完全にオープンソースなソフトウェアであり、[修正BSD ライセンス](https://github.com/numpy/numpy/blob/master/LICENSE.txt) の条項の下で、すべての人が利用可能です。
+NumPy は、Python で数値計算を可能にするためのオープンソースプロジェクトです。 NumPyは、NumericやNumarrayといった初期のライブラリのコードをもとに、2005年から開発が開始されました。 NumPyは完全にオープンソースなソフトウェアであり、[修正BSD ライセンス](https://github.com/numpy/numpy/blob/main/LICENSE.txt) の条項の下で、すべての人が利用可能です。
 
 NumPy は 、NumPyコミュニティやより広範な科学計算用Python コミュニティとの合意のもと、GitHub 上でオープンに開発されています。 NumPyのガバナンス方法の詳細については、 [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html) をご覧ください。
 
