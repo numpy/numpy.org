@@ -84,7 +84,7 @@ params:
         text: NumPy的高度模块化的语法使得任何背景或经验级别的程序员都能够快速上手。
       - 
         title: 开放源代码
-        text: 以自由的 [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt)下发布。NumPy 是由一个生气勃勃的、响应性的和多样化的 [community](/community)开发和维护的[在 GitHub开源](https://github.com/numpy/numpy)。
+        text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/community).
   tabs:
     title: 生态系统
   section5: false
