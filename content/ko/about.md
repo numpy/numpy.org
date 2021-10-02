@@ -5,7 +5,7 @@ sidebar: false
 
 _NumPy 프로젝트와 커뮤니티에 대한 몇가지 정보_
 
-NumPy는 Python을 통해 수치적 컴퓨팅을 할 수 있도록 도와주는 오픈소스 프로젝트입니다. Numerical와 Numarray라는 라이브러리의 초기 작업을 기반으로 2005년에 만들어졌습니다. NumPy는 항상 100% 오픈소스 소프트웨어일 것이며, [수정된 BSD 라이선스](https://github.com/numpy/numpy/blob/master/LICENSE.txt)에 따라서 누구나 무료로 사용하고 배포할 수 있습니다.
+NumPy는 Python을 통해 수치적 컴퓨팅을 할 수 있도록 도와주는 오픈소스 프로젝트입니다. Numerical와 Numarray라는 라이브러리의 초기 작업을 기반으로 2005년에 만들어졌습니다. NumPy will always be 100% open source software, free for all to use and released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
 
 NumPy는 광범위한 Scientific Python 커뮤니티의 협의를 통해 GitHub에서 공개적으로 개발되었습니다. 우리의 거버넌스 접근 방식에 대한 더 자세한 내용은 [거버넌스 문서](https://www.numpy.org/devdocs/dev/governance/index.html)를 참조해 주세요.
 
