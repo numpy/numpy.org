@@ -84,7 +84,7 @@ params:
         text: NumPyの高水準なシンタックスは、どんなバックグラウンドや経験値のプログラマーでも利用でき、生産性を高めることができます。
       - 
         title: オープンソース
-        text: 寛容な[BSDライセンス](https://github.com/numpy/numpy/blob/master/LICENSE.txt)で公開されています。NumPyは活発で、互いを尊重し、多様性を認め合う[コミュニティ](/ja/community)によって、 [GitHub](https://github.com/numpy/numpy)上でオープンに開発されています.
+        text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/community).
   tabs:
     title: エコシステム
   section5: false
