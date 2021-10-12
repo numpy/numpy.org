@@ -1,3 +1,3 @@
-[submodule "themes/hugo-fresh"]
-	path = themes/hugo-fresh
-	url = https://github.com/StefMa/hugo-fresh.git
+[submodule "themes/scientific-python-hugo-theme"]
+	path = themes/scientific-python-hugo-theme
+	url = https://github.com/scientific-python/scientific-python-hugo-theme.git

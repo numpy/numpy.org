@@ -1,9 +1,0 @@
-{{- $news       := .Site.Params.news }}
-{{- $title      := index $news "title" }}
-{{- $content      := index $news "content" }}
-{{- $url      := index $news "url" }}
-
-<div class="news-container">
-    <div class="news-title"> <a href="{{ $url}}"> {{ $title }} </a></div>
-    <div class="news-content"> <a href="{{ $url}}"> {{ $content }} </a></div>
-</div>
