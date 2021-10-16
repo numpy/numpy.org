@@ -36,7 +36,7 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: 500;
-    color: #6C7A89;
+    color: rgb(108, 122, 137);
 }
 
 #tabs-content > li {
@@ -85,8 +85,8 @@
 }
 
 .image-grid > div {
-    background-color: #EEEEEE;
-    border: 2px solid #FFFFFF;
+    background-color: rgb(238, 238, 238);
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
     padding: 10px;
 }
@@ -102,7 +102,7 @@ td > a {
 }
 
 tr.highlight-th {
-    border-top: 1px solid #EEEEEE;
+    border-top: 1px solid rgb(238, 238, 238);
     font-size: 0.8rem;
 }
 
@@ -134,7 +134,7 @@ td.full-center-text {
 td.lastrow-center-text {
     text-align: center;
     line-height: 35%;
-    border-bottom: 1px solid #EEEEEE;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 /* Array Libraries */

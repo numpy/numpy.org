@@ -11,7 +11,7 @@
     justify-content: center;
     width: 100vw;
     min-height: 455px;
-    background-color: #EEEEEE;
+    background-color: rgb(238, 238, 238);
 }
 
 .numpy-shell-container {
@@ -79,8 +79,8 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: 500;
-    color: black;
-    background-color: #EEEEEE;
+    color: rgb(0,0,0);
+    background-color: rgb(238, 238, 238);
     border: none;
     border-radius: 25px;
     outline: none;
@@ -122,9 +122,9 @@
     min-width: 500px;
     margin: 15px;
     padding: 0 17px;
-    color: #FFFFFF;
+    color: rgb(255 ,255 ,255);
     overflow: auto;
-    background-color: #013243;
+    background-color: rgb(1, 50, 67);
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -137,11 +137,11 @@
 }
 
 .CodeMirror pre {
-    color: #FFFFFF !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .CodeMirror-cursor {
-    color: #FFFFFF !important;
+    color: rgb(255, 255, 255) !important;
     border-left: 1px solid white !important;
 }
 
@@ -160,8 +160,8 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: 500;
-    color: black;
-    background-color: #EEEEEE;
+    color: rgb(0,0,0);
+    background-color: rgb(238 ,238 ,238);
     border: none;
     border-radius: 25px;
     outline: none;

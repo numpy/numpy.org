@@ -1,18 +1,18 @@
 /* NumPy Color Palette */
-/* #FFC553 Mustard */
-/* #4DABCF Maximum Blue */
-/* #4D77CF Han Blue */
-/* #FFFFFF White */
-/* #EEEEEE Isabelline */
-/* #6C7A89 Aurometalsaurus */
-/* #013243 Warm Black */
+/* rgb(255, 197, 83) NumPy Yellow */
+/* rgb(77, 171, 207) NumPy Ndarray Blue */
+/* rgb(77, 119, 207) NumPy Deep Blue */
+/* rgb(255, 255, 255) White */
+/* rgb(238, 238, 238) NumPy Cloud Gray */
+/* rgb(108, 122, 137) NumPy Slate Gray */
+/* rgb(1, 50, 67) NumPy Warm Black */
 
 body {
     font-family: 'Lato', sans-serif;
 }
 
 em {
-    color: black !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .flex-row {
@@ -58,7 +58,7 @@ em {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 6em;
-    color: #013243;
+    color: rgb(1, 50, 67);
 }
 
 .hero-logo {
@@ -82,8 +82,8 @@ em {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: 500;
-    color:#FFFFFF;
-    background-color: #013243;
+    color:rgb(255, 255, 255);
+    background-color: rgb(1, 50, 67);
     border: none;
     border-radius: 25px;
     outline: none;
@@ -93,19 +93,19 @@ em {
 }
 
 #navbar-item {
-    color: #013243;
+    color: rgb(1, 50, 67);
     text-decoration: none;
 }
 
 #navbar-item:hover {
-    color: #4DABCF !important;
+    color: rgb(77, 171, 207) !important;
 }
 
 #feature-card {
     height: 475px;
 }
 #backtotop.visible #backtotop-color:hover {
-    background: #ffc553;
+    background: rgb(255, 197, 83);
 }
 
 .mt-30 {
@@ -180,7 +180,7 @@ p {
 
 /* Footer */
 #footer {
-    background-color: #013243;
+    background-color: rgb(1, 50, 67);
 }
 
 .footer-logo-column {
@@ -203,7 +203,7 @@ p {
 
 .footer-link, .footer-link:hover {
     font-size: 1rem;
-    color: #EEEEEE;
+    color: rgb(238, 238, 238);
 }
 
 .footer-actions {
@@ -217,7 +217,7 @@ p {
 
 .footer-actions p {
     margin: 0;
-    color: #EEEEEE;
+    color: rgb(238, 238, 238);
 }
 
 .sign-up-container {
@@ -230,27 +230,27 @@ p {
 
 .sign-up-image {
     padding: 5px 10px 6px 10px;
-    border-right: 1px solid #EEEEEE;
-    background-color: #EEEEEE;
+    border-right: 1px solid rgb(238, 238, 238);
+    background-color: rgb(238, 238, 238);
     border-radius: 5px 0 0 5px;
 }
 
 .sign-up-input {
-    background-color: white;
+    background-color: rgb(238, 238, 238);
     border-radius: 0 5px 5px 0;
     border: none;
     width: 75%;
     height: 35px;
     padding-left: 5px;
     font-size: 14px;
-    color: #013243;
+    color: rgb(1, 50, 67);
 }
 
 .submission-instructions {
     position: absolute;
     right: 18%;
     font-size: 10px;
-    color: #6c7a89;
+    color: rgb(108, 122, 137);
 }
 
 .signup-button {
@@ -260,7 +260,7 @@ p {
 .thank-you {
     display: none;
     height: 75px;
-    color: #EEEEEE;
+    color: rgb(238, 238, 238);
     align-items: center;
 }
 
@@ -270,7 +270,7 @@ p {
 
 .copyright {
     font-size: 12px;
-    color: #EEEEEE;
+    color: rgb(238, 238, 238);
 }
 
 figcaption {
@@ -295,7 +295,7 @@ blockquote {
 
 blockquote p {
     padding: 15px;
-    background: #EEEEEE;
+    background: rgb(238, 238, 238);
     border-radius: 5px;
 }
 
@@ -347,7 +347,7 @@ blockquote p::after {
         border-radius: 5px;
         margin-left: 5px;
         width: 60px;
-        color: black;
+        color: rgb(0, 0, 0);
         border:none;
         outline:none;
     }
