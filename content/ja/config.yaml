@@ -131,6 +131,8 @@ footer:
           link: /ja/about
         - text: コミュニティ
           link: /ja/community
+        - text: User surveys
+          link: /ja/user-surveys
         - text: NumPyに貢献する
           link: /ja/contribute
         - text: 行動規範

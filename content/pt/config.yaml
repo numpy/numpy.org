@@ -130,6 +130,8 @@ footer:
           link: /pt/about
         - text: Comunidade
           link: /pt/community
+        - text: User surveys
+          link: /pt/user-surveys
         - text: Contribuir
           link: /pt/contribute
         - text: Código de Conduta

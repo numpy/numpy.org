@@ -125,6 +125,8 @@ footer:
           link: /about
         - text: Community
           link: /community
+        - text: User surveys
+          link: /user-surveys
         - text: Contribute
           link: /contribute
         - text: Code of conduct
