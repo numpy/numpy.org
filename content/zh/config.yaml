@@ -145,11 +145,14 @@ footer:
           text: 社区
           link: /community
         - 
-          text: 参与贡献
+          text: User surveys
+          link: /user-surveys
+        - 
+          text: Contribute
           link: /contribute
         - 
-          text: 行为准则
-          link: /codes-of-conduct
+          text: Code of conduct
+          link: /code-of-conduct
     column3:
       links:
         - 
