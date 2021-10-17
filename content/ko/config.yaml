@@ -145,10 +145,13 @@ footer:
           text: 커뮤니티
           link: /community
         - 
-          text: 기여
+          text: User surveys
+          link: /user-surveys
+        - 
+          text: Contribute
           link: /contribute
         - 
-          text: 이용약관
+          text: Code of conduct
           link: /code-of-conduct
     column3:
       links:
