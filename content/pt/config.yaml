@@ -145,11 +145,14 @@ footer:
           text: Comunidade
           link: /pt/community
         - 
-          text: Contribuir
-          link: /pt/contribute
+          text: User surveys
+          link: /user-surveys
         - 
-          text: Código de Conduta
-          link: /pt/code-of-conduct
+          text: Contribute
+          link: /contribute
+        - 
+          text: Code of conduct
+          link: /code-of-conduct
     column3:
       links:
         - 
