@@ -145,6 +145,9 @@ footer:
           text: Community
           link: /community
         - 
+          text: User surveys
+          link: /user-surveys
+        - 
           text: Contribute
           link: /contribute
         - 
