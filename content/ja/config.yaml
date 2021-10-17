@@ -145,11 +145,14 @@ footer:
           text: コミュニティ
           link: /ja/community
         - 
-          text: NumPyに貢献する
-          link: /ja/contribute
+          text: User surveys
+          link: /user-surveys
         - 
-          text: 行動規範
-          link: /ja/code-of-conduct
+          text: Contribute
+          link: /contribute
+        - 
+          text: Code of conduct
+          link: /code-of-conduct
     column3:
       links:
         - 
