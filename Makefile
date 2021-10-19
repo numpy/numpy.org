@@ -24,7 +24,10 @@ public: ## create a worktree branch in the public directory
 	git worktree add -B gh-pages public $(TARGET)/gh-pages
 	rm -rf public/*
 
-html: public ## build the website in ./public
+prepare:
+	git submodule update --init --recursive
+
+html: prepare public ## build the website in ./public
 	python gen_config.py
 	hugo $(BASEURLARG)
 	touch public/.nojekyll
