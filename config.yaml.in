@@ -16,7 +16,7 @@ disableLanguages: ["pt", "ja"]
 
 params:
   images:
-  - /images/logos/numpy.svg
+  - /images/logo.svg
   navColor: blue
   font:
     name: "Lato"

@@ -2,7 +2,7 @@ languageName: English
 params:
   description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
   navbarlogo:
-    image: logos/numpy.svg
+    image: logo.svg
     link: /
   hero:
     # Main hero title
@@ -14,7 +14,7 @@ params:
     # Where the main hero button links to
     buttonlink: "/install"
     # Hero image (from static/images/___)
-    image: logos/numpy.svg
+    image: logo.svg
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
     title: D&I Grant from CZI
@@ -98,7 +98,7 @@ navbar:
   - title: Contribute
     url: /contribute
 footer:
-  logo: numpy.svg
+  logo: logo.svg
   socialmediatitle: ""
   socialmedia:
   - link: https://github.com/numpy/numpy
