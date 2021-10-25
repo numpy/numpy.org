@@ -25,6 +25,31 @@ On this list please use bottom posting, reply to the list (rather than to
 another sender), and don't reply to digests. A searchable archive of this list
 is available [here](https://mail.python.org/archives/list/numpy-discussion@python.org/).
 
+#### List moderation policy
+
+The list is moderated by delegates appointed by the steering council. Currently
+the list is run on the mailman platform. We refer to "moderators" where that
+platform uses the term "owners".
+
+Subscribers to the list are in one of two categories: "new" and "approved".
+
+New subscriber's posts will be held and only released to the list after
+review by a moderator. After three consecutive posts have been approved, the
+subsciber will become "approved" and their posts will no longer require review.
+A new subscriber will be unsubscribed after three posts were removed by
+moderators. An email will be banned from subscribing after the third time it
+has been unsubscribed.
+
+Approved subscribers may be moved back to the "new" category if they begin
+abusing the list.
+
+Decisions by the moderators can be appealed to the steering council.
+
+Criteria for deciding if a post should be deleted from the moderation queue:
+- Replies to a post with generic language and a link not connected to
+  NumPy.
+- Generic information not connected to arrays or NumPy
+
 ***
 
 ### [GitHub issue tracker](https://github.com/numpy/numpy/issues)
