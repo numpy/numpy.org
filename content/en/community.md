@@ -33,7 +33,7 @@ platform uses the term "owners".
 
 Subscribers to the list are in one of two categories: "new" and "approved".
 
-New subscriber's posts will be held and only released to the list after
+New subscribers' posts will be held and only released to the list after
 review by a moderator. After three consecutive posts have been approved, the
 subsciber will become "approved" and their posts will no longer require review.
 A new subscriber will be unsubscribed after three posts were removed by
