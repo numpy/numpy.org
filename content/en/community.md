@@ -48,7 +48,7 @@ Decisions by the moderators can be appealed to the steering council.
 Criteria for deciding if a post should be deleted from the moderation queue:
 - Replies to a post with generic language and a link not connected to
   NumPy.
-- Generic information not connected to arrays or NumPy
+- Generic information not connected to arrays or NumPy.
 
 ***
 
