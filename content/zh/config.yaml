@@ -3,7 +3,7 @@ languageName: 英语
 params:
   description: 为什么使用 Numpy？它有强大的高维数组、有数字计算工具、互可操作、高性能、开源。
   navbarlogo:
-    image: logos/numpy.svg
+    image: logo.svg
     link: /
   hero:
     #Main hero title
@@ -15,7 +15,7 @@ params:
     #Where the main hero button links to
     buttonlink: "/install"
     #Hero image (from static/images/___)
-    image: logos/numpy.svg
+    image: logo.svg
   #Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
     title: D&I Grant from CZI
@@ -108,7 +108,7 @@ navbar:
     title: 参与贡献
     url: /contribute
 footer:
-  logo: numpy.svg
+  logo: logo.svg
   socialmediatitle: ""
   socialmedia:
     - 
