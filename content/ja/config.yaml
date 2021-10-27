@@ -10,7 +10,7 @@ languageName: 日本語 (Japanese)
 params:
   description: NumPyが広く利用される理由 強力な多次元配列、数値計算ツール群、相互運用性、高いパフォーマンス、オープンソース
   navbarlogo:
-    image: logos/numpy.svg
+    image: logo.svg
     link: /ja/
 
   hero:
@@ -18,7 +18,7 @@ params:
     subtitle: Pythonによる科学技術計算の基礎パッケージ
     buttontext: 使い始める
     buttonlink: "/ja/install"
-    image: logos/numpy.svg
+    image: logo.svg
 
   news:
     title: NumPy v1.20.0
@@ -104,7 +104,7 @@ navbar:
     url: /ja/contribute
 
 footer:
-  logo: numpy.svg
+  logo: logo.svg
   socialmediatitle: ""
   socialmedia:
   - link: https://github.com/numpy/numpy

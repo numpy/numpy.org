@@ -18,7 +18,7 @@ install it per https://gohugo.io/getting-started/installing/#install-hugo-from-t
 Next, clone this repository, and install the theme:
 
 ```bash
-git submodule update --init
+git submodule update --init --recursive
 ```
 
 The development web server is started with:

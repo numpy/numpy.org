@@ -10,7 +10,7 @@ languageName: Português
 params:
   description: Por que NumPy? Arrays n-dimensionais poderosas. Ferramentas para computação numérica. Interoperabilidade. Alto desempenho. Código aberto.
   navbarlogo:
-    image: logos/numpy.svg
+    image: logo.svg
     link: /pt/
 
   hero:
@@ -18,7 +18,7 @@ params:
     subtitle: A biblioteca fundamental para computação científica com Python
     buttontext: Comece aqui
     buttonlink: "/pt/install"
-    image: logos/numpy.svg
+    image: logo.svg
 
   news:
     title: NumPy v1.20.0
@@ -103,7 +103,7 @@ navbar:
     url: /pt/contribute
 
 footer:
-  logo: numpy.svg
+  logo: logo.svg
   socialmediatitle: ""
   socialmedia:
   - link: https://github.com/numpy/numpy
