@@ -21,7 +21,7 @@ Cricket is a game of numbers - the runs scored by a batsman, the wickets taken b
 Today, there are rich and almost infinite troves of cricket game records and statistics available, e.g., [ESPN cricinfo](https://stats.espncricinfo.com/ci/engine/stats/index.html) and [cricsheet](https://cricsheet.org). These and several such cricket databases have been used for [cricket analysis](https://www.researchgate.net/publication/336886516_Data_visualization_and_toss_related_analysis_of_IPL_teams_and_batsmen_performances) using the latest machine learning and predictive modelling algorithms. Media and entertainment platforms along with professional sports bodies associated with the game use technology and analytics for determining key metrics for improving match winning chances:
 
 * batting performance moving average,
-* score forecasting,
+* 점수 예측,
 * gaining insights into fitness and performance of a player against different opposition,
 * player contribution to wins and losses for making strategic decisions on team composition
 
