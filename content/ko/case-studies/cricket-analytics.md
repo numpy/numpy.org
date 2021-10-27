@@ -55,7 +55,7 @@ Today, there are rich and almost infinite troves of cricket game records and sta
 
 * **통계적 분석:** NumPy의 수치적 기능은 다양한 플레이어 및 게임 전술에서 관찰 데이터 또는 경기의 통계적 중요성을 추정하는 데 도움을 주거나, 생성적 또는 정적 모델과 비교하여 게임 결과를 추정합니다. 전술 분석에는 [인과 분석](https://amplitude.com/blog/2017/01/19/causation-correlation) 및 [빅데이터 접근법](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/)이 쓰입니다.
 
-* **Data Visualization:** Data graphing and [visualization](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) provide useful insights into relationship between various datasets.
+* **데이터 시각화:** 그래프 그리기 및 [시각화](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b)는 다양한 데이터셋 사이의 관계를 볼 수 있는 유용한 관점을 제공해 줍니다.
 
 ## 요약
 
