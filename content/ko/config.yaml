@@ -3,7 +3,7 @@ languageName: 한국어
 params:
   description: 왜 NumPy인가? 강력한 n차원 배열. 수치 컴퓨팅 도구. 상호운용성. 고성능. 오픈소스.
   navbarlogo:
-    image: logos/numpy.svg
+    image: logo.svg
     link: /
   hero:
     #Main hero title
@@ -15,7 +15,7 @@ params:
     #Where the main hero button links to
     buttonlink: "/install"
     #Hero image (from static/images/___)
-    image: logos/numpy.svg
+    image: logo.svg
   #Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
     title: D&I Grant from CZI
@@ -108,7 +108,7 @@ navbar:
     title: 기여
     url: /contribute
 footer:
-  logo: numpy.svg
+  logo: logo.svg
   socialmediatitle: ""
   socialmedia:
     - 
