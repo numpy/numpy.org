@@ -1,5 +1,5 @@
 ---
-title: NUMPY USER SURVEYS
+title: NUMPY 사용자 설문조사
 sidebar: false
 ---
 
