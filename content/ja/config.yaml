@@ -3,7 +3,7 @@ languageName: 日本語 (Japanese)
 params:
   description: NumPyが広く利用される理由 強力な多次元配列、数値計算ツール群、相互運用性、高いパフォーマンス、オープンソース
   navbarlogo:
-    image: logos/numpy.svg
+    image: logo.svg
     link: /ja/
   hero:
     #Main hero title
@@ -15,7 +15,7 @@ params:
     #Where the main hero button links to
     buttonlink: "/ja/install"
     #Hero image (from static/images/___)
-    image: logos/numpy.svg
+    image: logo.svg
   #Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
     title: D&I Grant from CZI
@@ -108,7 +108,7 @@ navbar:
     title: NumPyに貢献する
     url: /ja/contribute
 footer:
-  logo: numpy.svg
+  logo: logo.svg
   socialmediatitle: ""
   socialmedia:
     - 
