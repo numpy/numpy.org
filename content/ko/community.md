@@ -17,7 +17,7 @@ NumPy 프로젝트 및 커뮤니티에 곧장 참여할 수 있는 방법들입�
 
 이 리스트는 NumPy 신기능 추가, NumPy 로드맵 변경 등 모든 종류의 프로젝트 전체 의사 결정과 같은 장기적인 토론을 이끄는 주요 포럼이라 할 수 있습니다. 출시, 개발자 모임, 일반 모임, 컨퍼런스 강연과 같은 NumPy에 대한 공지도 이 리스트를 통해 받아볼 수 있습니다.
 
-리스트에 회신하려면 (다른 발신자에게 회신하기보다는) 하단의 게시물을 이용하십시오. 또, 자동 발신 메일에 회신하지 마십시오. A searchable archive of this list is available [here](https://mail.python.org/archives/list/numpy-discussion@python.org/).
+리스트에 회신하려면 (다른 발신자에게 회신하기보다는) 하단의 게시물을 이용하십시오. 또, 자동 발신 메일에 회신하지 마십시오. 검색 가능한 아카이브는 [여기](https://mail.python.org/archives/list/numpy-discussion@python.org/)에서 이용할 수 있습니다.
 
 ***
 
