@@ -19,7 +19,7 @@ params:
   #Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
     title: D&I Grant from CZI
-    content: Including NumPy, SciPy, Matplotlib and Pandas
+    content: NumPy, SciPy, Matplotlib 및 Pandas 포함
     url: /news
   shell:
     title: 플레이스홀더
@@ -84,7 +84,7 @@ params:
         text: NumPy의 고수준 문법은 어떤 배경이나 수준을 가지고 있는 프로그래머든 쉽게 접근하여 생산적인 일을 할 수 있도록 만들어줍니다.
       - 
         title: 오픈소스
-        text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/community).
+        text: 자유 [BSD 라이선스](https://github.com/numpy/numpy/blob/main/LICENSE.txt)에 따라, NumPy는 흥미에 찼으며, 반응이 빠르고, 다양성이 넘치는 [커뮤니티](/community)에 의하여 [GitHub](https://github.com/numpy/numpy)에서 공개적으로 개발되고 유지됩니다.
   tabs:
     title: 생태계
   section5: false
@@ -145,13 +145,13 @@ footer:
           text: 커뮤니티
           link: /community
         - 
-          text: User surveys
+          text: 사용자 설문조사
           link: /user-surveys
         - 
-          text: Contribute
+          text: 기여
           link: /contribute
         - 
-          text: Code of conduct
+          text: 이용약관
           link: /code-of-conduct
     column3:
       links:
