@@ -3,7 +3,7 @@ languageName: Português
 params:
   description: Por que NumPy? Arrays n-dimensionais poderosas. Ferramentas para computação numérica. Interoperabilidade. Alto desempenho. Código aberto.
   navbarlogo:
-    image: logos/numpy.svg
+    image: logo.svg
     link: /pt/
   hero:
     #Main hero title
@@ -15,7 +15,7 @@ params:
     #Where the main hero button links to
     buttonlink: "/pt/install"
     #Hero image (from static/images/___)
-    image: logos/numpy.svg
+    image: logo.svg
   #Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
     title: D&I Grant from CZI
@@ -108,7 +108,7 @@ navbar:
     title: Contribuir
     url: /pt/contribute
 footer:
-  logo: numpy.svg
+  logo: logo.svg
   socialmediatitle: ""
   socialmedia:
     - 
