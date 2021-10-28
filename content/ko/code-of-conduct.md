@@ -13,7 +13,7 @@ This Code of Conduct should be honored by everyone who participates in the NumPy
 
 This code is not exhaustive or complete. It serves to distill our common understanding of a collaborative, shared environment and goals. Please try to follow this code in spirit as much as in letter, to create a friendly and productive environment that enriches the surrounding community.
 
-### Specific Guidelines
+### 구체적인 지침
 
 We strive to:
 
@@ -33,7 +33,7 @@ We strive to:
     * Repeated harassment of others. In general, if someone asks you to stop, then stop.
     * Advocating for, or encouraging, any of the above behaviour.
 
-### Diversity Statement
+### 다양성 성명
 
 The NumPy project welcomes and encourages participation by everyone. We are committed to being a community that everyone enjoys being part of. Although we may not always be able to accommodate each individual’s preferences, we try our best to treat everyone kindly.
 
@@ -43,7 +43,7 @@ Though we welcome people fluent in all languages, NumPy development is conducted
 
 Standards for behaviour in the NumPy community are detailed in the Code of Conduct above. Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
 
-### Reporting Guidelines
+### 신고 지침
 
 We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We also recognize that sometimes people may have a bad day, or be unaware of some of the guidelines in this Code of Conduct. Please keep this in mind when deciding on how to respond to a breach of this Code.
 
@@ -59,7 +59,7 @@ Currently, the Committee consists of:
 
 If your report involves any members of the Committee, or if they feel they have a conflict of interest in handling it, then they will recuse themselves from considering your report. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
-### Incident reporting resolution & Code of Conduct enforcement
+### 신고 해결 & 이용약관 강령
 
 _This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](/report-handling-manual).
 
