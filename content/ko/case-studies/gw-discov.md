@@ -3,7 +3,7 @@ title: "Case Study: Discovery of Gravitational Waves"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/gw_sxs_image.png" class="fig-center" caption="**Gravitational Waves**" alt="binary coalesce black hole generating gravitational waves" attr="*(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)*" attrlink="https://youtu.be/Zt8Z_uzG71o" >}}
+{{< figure src="/images/content_images/cs/gw_sxs_image.png" class="fig-center" caption="**중력파**" alt="이항 결합하며 중력파를 생성하는 블랙홀" attr="*(사진 크레딧: LIGO의 Simulating eXtreme Spacetimes (SXS) 프로젝트)*" attrlink="https://youtu.be/Zt8Z_uzG71o" >}}
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
     <p>The scientific Python ecosystem is critical infrastructure for the research done at LIGO.</p>
@@ -39,7 +39,7 @@ The [Laser Interferometer Gravitational-Wave Observatory (LIGO)](https://www.lig
 
     Once the obstacles related to understanding Einstein’s equations well enough to solve them using supercomputers are taken care of, the next big challenge was making data comprehensible to the human brain. Simulation modeling as well as  signal detection requires effective visualization techniques.  Visualization also plays a role in lending more credibility to numerical relativity in the eyes of pure science aficionados, who did not give enough importance to numerical relativity until imaging and simulations made it easier to comprehend results for a larger audience. Speed of complex computations and rendering, re-rendering images and simulations using latest experimental inputs and insights can be a time consuming activity that challenges researchers in this domain.
 
-{{< figure src="/images/content_images/cs/gw_strain_amplitude.png" class="fig-center" alt="gravitational waves strain amplitude" caption="**Estimated gravitational-wave strain amplitude from GW150914**" attr="(**Graph Credits:** Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)" attrlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
+{{< figure src="/images/content_images/cs/gw_strain_amplitude.png" class="fig-center" alt="중력파 변형 진폭" caption="**GW150914에서 추정된 중력파 변형 진폭**" attr="(**그래프 출처:** Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)" attrlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
 
 ## NumPy’s Role in the Detection of Gravitational Waves
 
@@ -56,14 +56,14 @@ NumPy, the standard numerical analysis package for Python,  was utilized by the 
 * Compute Correlations
 * Key [Software](https://github.com/lscsoft) developed in GW data analysis such as [GwPy](https://gwpy.github.io/docs/stable/overview.html) and [PyCBC](https://pycbc.org) uses NumPy and AstroPy under the hood for providing object based interfaces to utilities, tools, and methods for studying data from gravitational-wave detectors.
 
-{{< figure src="/images/content_images/cs/gwpy-numpy-dep-graph.png" class="fig-center" alt="gwpy-numpy depgraph" caption="**Dependency graph showing how GwPy package depends on NumPy**" >}}
+{{< figure src="/images/content_images/cs/gwpy-numpy-dep-graph.png" class="fig-center" alt="gwpy-numpy 종속성" caption="**GwPy 패키지가 어떻게 NumPy에 종속하는지를 나타내는 종속성 그래프**" >}}
 
 ----
 
-{{< figure src="/images/content_images/cs/PyCBC-numpy-dep-graph.png" class="fig-center" alt="PyCBC-numpy depgraph" caption="**Dependency graph showing how PyCBC package depends on NumPy**" >}}
+{{< figure src="/images/content_images/cs/PyCBC-numpy-dep-graph.png" class="fig-center" alt="PyCBC-numpy 종속성" caption="**PyCBC 패키지가 어떻게 NumPy에 종속하는지를 나타내는 종속성 그래프**" >}}
 
 ## Summary
 
 GW detection has enabled researchers to discover entirely unexpected phenomena while providing new insight into many of the most profound astrophysical phenomena known. Number crunching and data visualization is a crucial step that helps scientists gain insights into data gathered from the scientific observations and understand the results. The computations are complex and cannot be comprehended by humans unless it is visualized using computer simulations that are fed with the real observed data and analysis.  NumPy along with other Python packages such as matplotlib, pandas, and scikit-learn is [enabling researchers](https://www.gw-openscience.org/events/GW150914/) to answer complex questions and discover new horizons in our understanding of the universe.
 
-{{< figure src="/images/content_images/cs/numpy_gw_benefits.png" class="fig-center" alt="numpy benefits" caption="**Key NumPy Capabilities utilized**" >}}
+{{< figure src="/images/content_images/cs/numpy_gw_benefits.png" class="fig-center" alt="numpy를 통한 이익" caption="**활용된 주요 NumPy 기능**" >}}
