@@ -13,22 +13,22 @@ endif
 
 all: build
 
-.PHONY: serve html clean deploy help
+.PHONY: serve html clean deploy help prepare
 
 .SILENT: # remove this to see the commands executed
 
-serve: public ## serve the website
-	hugo --i18n-warnings server -D
+prepare:
+	git submodule update --init --recursive
+	python gen_config.py
 
 public: ## create a worktree branch in the public directory
 	git worktree add -B gh-pages public $(TARGET)/gh-pages
 	rm -rf public/*
 
-prepare:
-	git submodule update --init --recursive
+serve: prepare ## serve the website
+	hugo --i18n-warnings server -D
 
 html: prepare public ## build the website in ./public
-	python gen_config.py
 	hugo $(BASEURLARG)
 	touch public/.nojekyll
 
@@ -57,4 +57,3 @@ help:   ## Show this help.
 	@echo If you have naively forked this repo, say to
 	@echo github.com://myname/numpy.org.git, you can test out the build via
 	@echo make TARGET=myname BASEURL=https://myname.github.io/numpy.org deploy
- 
