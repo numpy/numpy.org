@@ -74,5 +74,5 @@ Through community contact we share our work more widely and learn where we're fa
 
 ### 모금
 
-NumPy was all-volunteer for many years, but as its importance grew it became clear that to ensure stability and growth we'd need financial support. 이런 지원이 얼마나 큰 차이를 만들어 냈는지 [SciPy'19 강연](https://www.youtube.com/watch?v=dBTJD_FDVjU)에서 확인하실 수 있습니다. Like all the nonprofit world, we're constantly searching for grants, sponsorships, and other kinds of support. We have a number of ideas and of course we welcome more. Fundraising is a scarce skill here  -- we'd appreciate your help.
+NumPy는 오랜 기간 동안 자원봉사의 형태로 유지되었으나, 그 중요성이 커짐에 따라 안정성 및 성장을 보장하려면 경제적 지원이 필요함이 분명해졌습니다. 이런 지원이 얼마나 큰 차이를 만들어 냈는지 [SciPy'19 강연](https://www.youtube.com/watch?v=dBTJD_FDVjU)에서 확인하실 수 있습니다. Like all the nonprofit world, we're constantly searching for grants, sponsorships, and other kinds of support. We have a number of ideas and of course we welcome more. Fundraising is a scarce skill here  -- we'd appreciate your help.
 
