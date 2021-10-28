@@ -203,7 +203,7 @@ visualization:
     - 
       url: https://docs.pyvista.org/examples/index.html
       img: /images/content_images/v_pyvista.png
-      alttext: A 3D volume rendering made in PyVista.
+      alttext: PyVista로 만든 3D 볼륨 렌더링.
     - 
       url: https://napari.org
       img: /images/content_images/v_napari.png
@@ -214,6 +214,6 @@ visualization:
       alttext: vispy로 만든 보로노이 다이어그램.
   content:
     - 
-      text: NumPy is an essential component in the burgeoning [Python visualization landscape](https://pyviz.org/overviews/index.html), which includes [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), and [PyVista](https://github.com/pyvista/pyvista), to name a few.
+      text: 몇 가지만 예를 들자면 NumPy는 [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), [PyVista](https://github.com/pyvista/pyvista) 등이 포함되어 있으며 급격히 성장해나가고 있는 [Python visualization landscape](https://pyviz.org/overviews/index.html)의 핵심 구성 요소 중 하나입니다.
     - 
-      text: NumPy's accelerated processing of large arrays allows researchers to visualize datasets far larger than native Python could handle.
+      text: NumPy는 큰 배열을 고속으로 처리할 수 있어 연구자가 기존 Python이 처리할 수 있는 데이터셋보다 훨씬 큰 것도 시각화할 수 있도록 합니다.
