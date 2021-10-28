@@ -3,7 +3,7 @@ title: "Case Study: DeepLabCut 3D Pose Estimation"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**Analyzing mice hand-movement using DeepLapCut**" alt="micehandanim" attr="*(Source: www.deeplabcut.org )*" attrlink="http://www.mousemotorlab.org/deeplabcut">}}
+{{< figure src="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**DeepLapCut을 활용한 쥐의 손 움직임 분석**" alt="쥐 손 애니메이션" attr="*(출처: www.deeplabcut.org )*" attrlink="http://www.mousemotorlab.org/deeplabcut">}}
 
 <blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/">
     <p>Open Source Software is  accelerating Biomedicine. DeepLabCut enables automated video analysis of animal behavior using Deep Learning.</p>
@@ -16,7 +16,7 @@ sidebar: false
 
 Several areas of research, including neuroscience, medicine, and biomechanics, use data from tracking animal movement. DeepLabCut helps in understanding what humans and other animals are doing by parsing actions that have been recorded on film. Using automation for laborious tasks of tagging and monitoring, along with deep neural network based data analysis, DeepLabCut makes scientific studies involving observing animals, such as primates, mice, fish, flies etc., much faster and more accurate.
 
-{{< figure src="/images/content_images/cs/race-horse.gif" class="fig-center" caption="**Colored dots track the positions of a racehorse’s body part**" alt="horserideranim" attr="*(Source: Mackenzie Mathis)*">}}
+{{< figure src="/images/content_images/cs/race-horse.gif" class="fig-center" caption="**경주마 신체 부위의 위치를 트래킹하는 색 점**" alt="경주마 애니메이션" attr="*(출처: Mackenzie Mathis)*">}}
 
 DeepLabCut's non-invasive behavioral tracking of animals by extracting the poses of animals is crucial for scientific pursuits in domains such as biomechanics, genetics, ethology & neuroscience. Measuring animal poses non-invasively from video - without markers - in dynamically changing backgrounds is computationally challenging, both technically as well as in terms of resource needs and training data required.
 
@@ -83,7 +83,7 @@ DeepLabCut utilizes NumPy’s array capabilities throughout the workflow offered
 
 Observing and efficiently describing behavior is a core tenant of modern ethology, neuroscience, medicine, and technology. [DeepLabCut](http://orga.cvss.cc/wp-content/uploads/2019/05/NathMathis2019.pdf) allows researchers to estimate the pose of the subject, efficiently enabling them to quantify the behavior. With only a small set of training images, the DeepLabCut Python toolbox allows training a neural network to within human level labeling accuracy, thus expanding its application to not only behavior analysis in the laboratory, but to potentially also in sports, gait analysis, medicine and rehabilitation studies. Complex combinatorics, data processing challenges faced by DeepLabCut algorithms are addressed through the use of NumPy's array manipulation capabilities.
 
-{{< figure src="/images/content_images/cs/numpy_dlc_benefits.png" class="fig-center" alt="numpy benefits" caption="**Key NumPy Capabilities utilized**" >}}
+{{< figure src="/images/content_images/cs/numpy_dlc_benefits.png" class="fig-center" alt="numpy를 통한 이익" caption="**활용한 주요 NumPy 기능**" >}}
 
 [cheetah-movement]: https://www.technologynetworks.com/neuroscience/articles/interview-a-deeper-cut-into-behavior-with-mackenzie-mathis-327618
 
