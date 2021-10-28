@@ -74,5 +74,5 @@ NumPy의 [사용자 도움말](https://numpy.org/devdocs)은 현재 대규모로
 
 ### 모금
 
-NumPy는 오랜 기간 동안 자원봉사의 형태로 유지되었으나, 그 중요성이 커짐에 따라 안정성 및 성장을 보장하려면 경제적 지원이 필요함이 분명해졌습니다. 이런 지원이 얼마나 큰 차이를 만들어 냈는지 [SciPy'19 강연](https://www.youtube.com/watch?v=dBTJD_FDVjU)에서 확인하실 수 있습니다. Like all the nonprofit world, we're constantly searching for grants, sponsorships, and other kinds of support. We have a number of ideas and of course we welcome more. Fundraising is a scarce skill here  -- we'd appreciate your help.
+NumPy는 오랜 기간 동안 자원봉사의 형태로 유지되었으나, 그 중요성이 커짐에 따라 안정성 및 성장을 보장하려면 경제적 지원이 필요함이 분명해졌습니다. 이런 지원이 얼마나 큰 차이를 만들어 냈는지 [SciPy'19 강연](https://www.youtube.com/watch?v=dBTJD_FDVjU)에서 확인하실 수 있습니다. 모든 비영리 조직과 마찬가지로 저희는 지속적으로 보조금, 후원 및 기타 종류의 지원을 끊임없이 찾고 있습니다. 모금을 받을 아이디어가 몇 개 있지만 당연히 더 많은 자금을 받게 된다면 좋을 것입니다. 모금도 정말 희귀한 능력 중 하나입니다 - 도움을 주신다면 감사드리겠습니다.
 
