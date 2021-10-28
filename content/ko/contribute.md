@@ -19,7 +19,7 @@ NumPy 프로젝트에서는 당신의 경험과 의욕을 환영합니다! NumPy
 
 시작점을 찾기 힘들거나 재능을 어떻게 활용해야 할지 잘 모르겠다면, _물어보세요!_ [메일링 리스트](https://mail.python.org/mailman/listinfo/numpy-discussion)나 [GitHub](http://github.com/numpy/numpy) ([이슈](https://github.com/numpy/numpy/issues)를 생성하거나 관련 이슈에 답글을 다세요)에서 질문하시면 됩니다.
 
-Those are our preferred channels (open source is open by nature), but if you prefer to talk privately, contact our community coordinators at <numpy-team@googlegroups.com> or on [Slack](https://numpy-team.slack.com) (write  <numpy-team@googlegroups.com> for an invite).
+앞서 소개드린 것들이 저희가 선호하는 연락 채널입니다. (오픈 소스는 원래 개방되어 있으니까요) 하지만 비공개적으로 대화를 나누고 싶으시다면, <numpy-team@googlegroups.com>을 통해 커뮤니티 코디네이터로 연락하시거나 [Slack](https://numpy-team.slack.com)을 이용하시면 됩니다. (초대를 받으시려면 <numpy-team@googlegroups.com>을 쓰시면 됩니다).
 
 또한 저희는 격주마다 _커뮤니티 연락_을 합니다. 자세한 정보는 [메일링 리스트](https://mail.python.org/mailman/listinfo/numpy-discussion)로 알립니다. 당신의 참여를 매우 환영합니다. 오픈소스에 기여하는 게 처음이시라면 [이 도움말](https://opensource.guide/how-to-contribute/)을 읽어 보시는 것을 적극 권장합니다.
 
@@ -70,7 +70,7 @@ NumPy의 [사용자 도움말](https://numpy.org/devdocs)은 현재 대규모로
 
 ### 커뮤니티 조직 및 확산
 
-Through community contact we share our work more widely and learn where we're falling short. We're eager to get more people involved in efforts like our [Twitter](https://twitter.com/numpy_team) account, organizing NumPy [code sprints](https://scisprints.github.io/), a newsletter, and perhaps a blog.
+우리는 커뮤니티 연락처를 통해 작업물을 더 널리 공유하고 미흡한 부분을 배워 나갑니다. 우리는 [Twitter](https://twitter.com/numpy_team) 계정, NumPy [코드 스프린트](https://scisprints.github.io/) 개최, 뉴스레터 발행, 그리고 아마 블로그 등을 통해서 더 많은 사람들이 커뮤니티에 참여하기를 간절히 바라고 있습니다.
 
 ### 모금
 
