@@ -3,7 +3,7 @@ title: NumPy 이용 약관 - 보고서의 후속 조치 방법
 sidebar: false
 ---
 
-This is the manual followed by NumPy’s Code of Conduct Committee. It’s used when we respond to an issue to make sure we’re consistent and fair.
+NumPy 행동 강령 위원회는 본 설명을 따릅니다. 문제를 해결할 때 일관성과 공정성을 확보하기 위한 지침입니다.
 
 Enforcing the [Code of Conduct](/code-of-conduct) impacts our community today and for the future. It’s an action that we do not take lightly. When reviewing enforcement measures, the Code of Conduct Committee will keep the following values and guidelines in mind:
 
@@ -16,7 +16,7 @@ Enforcing the [Code of Conduct](/code-of-conduct) impacts our community today an
 * Individuals come from different cultural backgrounds and native languages. Try to identify any honest misunderstandings caused by a non-native speaker and help them understand the issue and what they can change to avoid causing offence. Complex discussion in a foreign language can be very intimidating, and we want to grow our diversity also across nationalities and cultures.
 
 
-## Mediation
+## 중재
 
 Voluntary informal mediation is a tool at our disposal. In contexts such as when two or more parties have all escalated to the point of inappropriate behavior (something sadly common in human conflict), it may be useful to facilitate a mediation process. This is only an example: the Committee can consider mediation in any case, mindful that the process is meant to be strictly voluntary and no party can be pressured to participate. If the Committee suggests mediation, it should:
 
@@ -29,12 +29,12 @@ Voluntary informal mediation is a tool at our disposal. In contexts such as when
 The mediator will engage with all the parties and seek a resolution that is satisfactory to all. Upon completion, the mediator will provide a report (vetted by all parties to the process) to the Committee, with recommendations on further steps. The Committee will then evaluate these results (whether a satisfactory resolution was achieved or not) and decide on any additional action deemed necessary.
 
 
-## How the Committee will respond to reports
+## 위원회가 신고에 응답하는 방법
 
 When the Committee (or a Committee member) receives a report, they will first determine whether the report is about a clear and severe breach (as defined below). If so, immediate action needs to be taken in addition to the regular report handling process.
 
 
-## Clear and severe breach actions
+## 명확하고 심각한 권리침해 행위
 
 We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We will deal quickly with clear and severe breaches like personal threats, violent, sexist or racist language.
 
@@ -46,7 +46,7 @@ When a member of the Code of Conduct Committee becomes aware of a clear and seve
 * The Code of Conduct Committee will formally review and sign off on all cases where this mechanism has been applied to make sure it is not being used to control ordinary heated disagreement.
 
 
-## Report handling
+## 신고 대응
 
 When a report is sent to the Committee they will immediately reply to the reporter to confirm receipt. This reply must be sent within 72 hours, and the group should strive to respond much quicker than that.
 
@@ -66,9 +66,9 @@ It is important to retain an archive of all activities of this Committee to ensu
 The Code of Conduct Committee should aim to have a resolution agreed upon within two weeks. In the event that a resolution can’t be determined in that time, the Committee will respond to the reporter(s) with an update and projected timeline for resolution.
 
 
-## Resolutions
+## 결의
 
-The Committee must agree on a resolution by consensus. If the group cannot reach consensus and deadlocks for over a week, the group will turn the matter over to the Steering Council for resolution.
+위원회는 반드시 합의를 바탕으로 결의를 내야 합니다. 그룹에서 합의가 이루어지지 못하고 1주 넘게 교착 상태에 빠진 경우, 결의를 내기 위해 해당 의제는 조정위원회로 이양됩니다.
 
 Possible responses may include:
 
@@ -90,6 +90,6 @@ Finally, the Committee will make a report to the NumPy Steering Council (as well
 The Committee will never publicly discuss the issue; all public statements will be made by the chair of the Code of Conduct Committee or the NumPy Steering Council.
 
 
-## Conflicts of Interest
+## 이해관계 충돌
 
-In the event of any conflict of interest, a Committee member must immediately notify the other members, and recuse themselves if necessary.
+이해관계 충돌이 일어난 경우, 위원회 회원은 즉시 이 사실을 다른 회원에게 고지하고 필요한 경우 자진 사퇴해야 합니다.
