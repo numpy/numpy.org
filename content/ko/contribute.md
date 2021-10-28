@@ -21,7 +21,7 @@ NumPy 프로젝트에서는 당신의 경험과 의욕을 환영합니다! NumPy
 
 Those are our preferred channels (open source is open by nature), but if you prefer to talk privately, contact our community coordinators at <numpy-team@googlegroups.com> or on [Slack](https://numpy-team.slack.com) (write  <numpy-team@googlegroups.com> for an invite).
 
-We also have a biweekly _community call_, details of which are announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion). 당신의 참여를 매우 환영합니다. 오픈소스에 기여하는 게 처음이시라면 [이 도움말](https://opensource.guide/how-to-contribute/)을 읽어 보시는 것을 적극 권장합니다.
+또한 저희는 격주마다 _커뮤니티 연락_을 합니다. 자세한 정보는 [메일링 리스트](https://mail.python.org/mailman/listinfo/numpy-discussion)로 알립니다. 당신의 참여를 매우 환영합니다. 오픈소스에 기여하는 게 처음이시라면 [이 도움말](https://opensource.guide/how-to-contribute/)을 읽어 보시는 것을 적극 권장합니다.
 
 저희 커뮤니티는 모두를 평등하게 대하고 모든 기여의 가치를 인정하려는 뜻을 품고 있습니다. 개방적이고 참여를 환영하는 분위기를 조성하기 위해 [이용약관](/code-of-conduct)을 만들었습니다.
 
