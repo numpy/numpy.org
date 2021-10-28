@@ -85,9 +85,9 @@ Possible responses may include:
 
 Once a resolution is agreed upon, but before it is enacted, the Committee will contact the original reporter and any other affected parties and explain the proposed resolution. The Committee will ask if this resolution is acceptable, and must note feedback for the record.
 
-Finally, the Committee will make a report to the NumPy Steering Council (as well as the NumPy core team in the event of an ongoing resolution, such as a ban).
+최종적으로 위원회는 NumPy 조정위원회에 보고서를 만들어 제출하게 됩니다 (추방 등 효력이 지속되는 결의가 발생하는 경우 NumPy 핵심 팀에게도 보고합니다).
 
-The Committee will never publicly discuss the issue; all public statements will be made by the chair of the Code of Conduct Committee or the NumPy Steering Council.
+위원회는 문제를 반드시 비공개 상태로 다룰 것입니다. 모든 공개 성명은 행동강령 위원회 혹은 NumPy 조정위원회에서 담당합니다.
 
 
 ## 이해관계 충돌
