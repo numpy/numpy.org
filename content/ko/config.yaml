@@ -18,7 +18,7 @@ params:
     image: logo.svg
   #Customizable navbar. For a dropdown, add a "sublinks" list.
   news:
-    title: D&I Grant from CZI
+    title: CZI에서 D&I 장려금 수여
     content: NumPy, SciPy, Matplotlib 및 Pandas 포함
     url: /news
   shell:
