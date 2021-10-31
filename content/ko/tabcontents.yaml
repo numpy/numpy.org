@@ -209,7 +209,7 @@ visualization:
       img: /images/content_images/v_napari.png
       alttext: napari로 만든 다차원 이미지.
     - 
-      url: http://vispy.org/gallery.html
+      url: https://vispy.org/gallery/index.html
       img: /images/content_images/v_vispy.png
       alttext: vispy로 만든 보로노이 다이어그램.
   content:
