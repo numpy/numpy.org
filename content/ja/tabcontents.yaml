@@ -173,7 +173,7 @@ visualization:
   - url: https://napari.org
     img: /images/content_images/v_napari.png
     alttext:  A multi-dimensionan image made in napari.
-  - url: http://vispy.org/gallery.html
+  - url: https://vispy.org/gallery/index.html
     img: /images/content_images/v_vispy.png
     alttext:  A Voronoi diagram made in vispy.
   
