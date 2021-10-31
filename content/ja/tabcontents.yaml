@@ -209,7 +209,7 @@ visualization:
       img: /images/content_images/v_napari.png
       alttext: ナパリで作られた多次元画像
     - 
-      url: http://vispy.org/gallery.html
+      url: https://vispy.org/gallery/index.html
       img: /images/content_images/v_vispy.png
       alttext: vispyで作られたボロノイ図
   content:
