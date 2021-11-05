@@ -47,9 +47,9 @@ Gravitational waves emitted from the merger cannot be computed using any techniq
 
 NumPy, the standard numerical analysis package for Python,  was utilized by the software used for various tasks performed during the GW detection project at LIGO. NumPy helped in solving complex maths and data manipulation at high speed.  Here are some examples:
 
-* [Signal Processing](https://www.uv.es/virgogroup/Denoising_ROF.html): Glitch detection,  [Noise identification and Data Characterization](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf) (NumPy, scikit-learn, scipy, matplotlib, pandas, pyCharm)
-* Data retrieval: Deciding which data can be analyzed, figuring out whether it contains a signal - needle in a haystack
-* Statistical analysis: estimate the statistical significance of observational data, estimating the signal parameters (e.g. masses of stars, spin velocity, and distance) by comparison with a model.
+* [신호 처리](https://www.uv.es/virgogroup/Denoising_ROF.html): 글리치 검출,  [잡음 식별 및 데이터 결정](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf) (NumPy, scikit-learn, scipy, matplotlib, pandas, pyCharm)
+* 데이터 수집: 어떤 데이터를 분석할 수 있을지 결정하고, 모래 속 바늘과 같이 미미한 신호가 있는지 파악
+* 통계적 분석: 관측 데이터의 통계적 유의성 추정, 모델을 비교하여 신호 매개변수(예: 별의 질량, 회전 속도, 거리 등)를 추정
 * 데이터의 시각화
   - 시계열 데이터
   - 스펙트로그램
