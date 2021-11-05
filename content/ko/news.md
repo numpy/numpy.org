@@ -70,7 +70,7 @@ _2020년 9월 10일_ -- [NumPy 1.19.2](https://numpy.org/devdocs/release/1.19.2-
 
 ### The inaugural NumPy survey is live!
 
-_Jul 2, 2020_ -- This survey is meant to guide and set priorities for decision-making about the development of NumPy as software and as a community. The survey is available in 8 additional languages besides English: Bangla, Hindi, Japanese, Mandarin, Portuguese, Russian, Spanish and French.
+_Jul 2, 2020_ -- This survey is meant to guide and set priorities for decision-making about the development of NumPy as software and as a community. 설문지는 영어 외에도 8개 국어로 제공됩니다: 벵골어, 프랑스어, 힌디어, 일본어, 중국 관화, 포르투갈어, 러시아어, 스페인어.
 
 NumPy를 개선할 수 있도록 도와주시고 [여기](https://umdsurvey.umd.edu/jfe/form/SV_8bJrXjbhXf7saAl)에서 설문 조사에 참여해주시면 감사드리겠습니다.
 
