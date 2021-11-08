@@ -1,6 +1,7 @@
 public/
 resources/
 config.yaml
+.hugo_build.lock
 
 *.swp
 *.pyd
