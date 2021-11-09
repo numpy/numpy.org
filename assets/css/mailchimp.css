@@ -1,7 +1,6 @@
-$numpySlateGray: rgb(108, 122, 137);
-
-$colorPrimaryDark: rgb(1, 50, 67);
-$colorPrimaryLight: rgb(238, 238, 238); 
+:root {
+  --numpySlateGray: rgb(108, 122, 137);
+}
 
 .sign-up-container {
   display: flex;
@@ -13,27 +12,27 @@ $colorPrimaryLight: rgb(238, 238, 238);
 
 .sign-up-image {
   padding: 5px 10px 6px 10px;
-  border-right: 1px solid $colorPrimaryLight;
-  background-color: $colorPrimaryLight;
+  border-right: 1px solid var(--colorSecondary);
+  background-color: var(--colorSecondary);
   border-radius: 5px 0 0 5px;
 }
 
 .sign-up-input {
-  background-color: $colorPrimaryLight;
+  background-color: var(--colorSecondary);
   border-radius: 0 5px 5px 0;
   border: none;
   width: 75%;
   height: 35px;
   padding-left: 5px;
   font-size: 14px;
-  color: $colorPrimaryDark;
+  color: var(--colorPrimaryDark);
 }
 
 .submission-instructions {
   position: absolute;
   right: 18%;
   font-size: 10px;
-  color: $numpySlateGray;
+  color: var(--numpySlateGray);
 }
 
 .signup-button {
@@ -43,9 +42,9 @@ $colorPrimaryLight: rgb(238, 238, 238);
 .thank-you {
   display: none;
   height: 75px;
-  color: $colorPrimaryLight;
+  color: var(--colorSecondary);
   align-items: center;
-  color: $colorPrimaryLight;
+  color: var(--colorSecondary);
 }
 
 @media only screen and (max-width: 1150px) {
