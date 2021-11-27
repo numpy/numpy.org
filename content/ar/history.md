@@ -1,5 +1,5 @@
 ---
-title: History of NumPy
+title: تاريخ مشروع نمباي
 sidebar: false
 ---
 
