@@ -16,11 +16,6 @@ params:
     buttonlink: "/install"
     #Hero image (from static/images/___)
     image: logo.svg
-  #Customizable navbar. For a dropdown, add a "sublinks" list.
-  news:
-    title: Subvención D&I de CZI
-    content: Incluye NumPy, SciPy, Matplotlib y Pandas
-    url: /news
   shell:
     title: marcador de posición
     promptlabel: apuntador interactivo de la consola
