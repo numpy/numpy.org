@@ -1,7 +1,7 @@
 ---
 title: 소식
 sidebar: false
-newsHeader: D&I Grant from CZI
+newsHeader: CZI에서 D&I 장려금 수여
 date:
 ---
 
