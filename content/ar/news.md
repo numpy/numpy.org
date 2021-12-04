@@ -1,6 +1,8 @@
 ---
 title: الأخبار
 sidebar: false
+newsHeader: D&I Grant from CZI
+date:
 ---
 
 ### Advancing an inclusive culture in the scientific Python ecosystem
