@@ -116,15 +116,17 @@ More details on our proposed initiatives and deliverables can be found in the [f
 
 Here is a list of NumPy releases, with links to release notes. Bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
 
-- NumPy1.21.0 ([发行说明](https://github.com/numpy/numpy/releases/tag/v1.21.0)) -- _2021年6月22日_.
-- NumPy1.23.0 ([发行说明](https://github.com/numpy/numpy/releases/tag/v1.20.3)) -- _2021年5月10日_.
-- NumPy1.20.0 ([发行说明](https://github.com/numpy/numpy/releases/tag/v1.20.0)) -- _2021年1月30日_.
-- NumPy1.19.5 ([发行说明](https://github.com/numpy/numpy/releases/tag/v1.19.5)) -- _2021年1月5日_.
-- NumPy1.19.0 ([发行说明](https://github.com/numpy/numpy/releases/tag/v1.19.0)) -- _2020年6月20日_.
-- NumPy1.18.4 (<a>发行说明</a>) -- _2020年5月3日_.
-- NumPy1.17.5 (<a>发行说明</a>) -- _2020年1月1日_.
-- NumPy1.18.0 (<a>发行说明</a>) -- _2019年12月22日_.
-- NumPy1.17.0 (<a>发行说明</a>) -- _2019年7月26日_.
-- NumPy1.16.0 (<a>发行说明</a>) -- _2019年1月14日_.
-- NumPy1.15.0 (<a>发行说明</a>) -- _2018年7月23日_.
-- NumPy1.14.0 (<a>发行说明</a>) -- _2018年1月7日_.
+- NumPy 1.22.0rc2 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.0rc2)) -- _10 Dec 2021_.
+- NumPy 1.22.0rc1 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.0rc1)) -- _23 Nov 2021_.
+- NumPy 1.21.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.0)) -- _22 Jun 2021_.
+- NumPy 1.20.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.20.3)) -- _10 May 2021_.
+- NumPy 1.20.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.20.0)) -- _30 Jan 2021_.
+- NumPy 1.19.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.19.5)) -- _5 Jan 2021_.
+- NumPy 1.19.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.19.0)) -- _20 Jun 2020_.
+- NumPy 1.18.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.18.4)) -- _3 May 2020_.
+- NumPy 1.17.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.17.5)) -- _1 Jan 2020_.
+- NumPy 1.18.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.18.0)) -- _22 Dec 2019_.
+- NumPy 1.17.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.17.0)) -- _26 Jul 2019_.
+- NumPy 1.16.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.16.0)) -- _14 Jan 2019_.
+- NumPy 1.15.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.15.0)) -- _23 Jul 2018_.
+- NumPy 1.14.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.14.0)) -- _7 Jan 2018_.
