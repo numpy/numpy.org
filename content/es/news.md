@@ -116,6 +116,8 @@ More details on our proposed initiatives and deliverables can be found in the [f
 
 Here is a list of NumPy releases, with links to release notes. Bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
 
+- NumPy 1.22.0rc2 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.0rc2)) -- _10 Dec 2021_.
+- NumPy 1.22.0rc1 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.0rc1)) -- _23 Nov 2021_.
 - NumPy 1.21.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.0)) -- _22 Jun 2021_.
 - NumPy 1.20.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.20.3)) -- _10 May 2021_.
 - NumPy 1.20.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.20.0)) -- _30 Jan 2021_.
