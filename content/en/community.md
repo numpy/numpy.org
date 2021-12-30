@@ -72,5 +72,5 @@ Many of these conferences include tutorial days that cover NumPy and/or sprints 
 
 To thrive, the NumPy project needs your expertise and enthusiasm. Not a coder? Not a problem! There are many ways to contribute to NumPy.
 
-If you are interested in becoming a NumPy contributor (yay!) we recommend checking out our [Contribute](/contribute) page.
+If you are interested in becoming a NumPy contributor (yay!) we recommend checking out our [Contribute](./contribute.md) page.
 
