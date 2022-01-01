@@ -21,7 +21,7 @@ the distant universe and its impact.
 The [Laser Interferometer Gravitational-Wave Observatory (LIGO)](https://www.ligo.caltech.edu)
 was designed to open the field of gravitational-wave astrophysics through the
 direct detection of gravitational waves predicted by Einstein’s General Theory
-of Relativity. It comprises two widely-separated interferometers within the
+of Relativity. It comprises two widely separated interferometers within the
 United States — one in Hanford, Washington and the other in Livingston,
 Louisiana — operated in unison to detect gravitational waves. Each of them has
 multi-kilometer-scale gravitational wave detectors that use laser
