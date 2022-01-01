@@ -1,7 +1,7 @@
 ---
 title: News
 sidebar: false
-newsHeader: D&I Grant from CZI
+newsHeader: NumPy 1.22.0 released
 date:
 ---
 
@@ -10,22 +10,24 @@ date:
 _Dec 31, 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html)
 is now available. The highlights of the release are:
 
-* Annotations of the main namespace are essentially complete. Upstream is a
-  moving target, so there will likely be further improvements, but the major
+* Type annotations of the main namespace are essentially complete. Upstream is
+  a moving target, so there will likely be further improvements, but the major
   work is done. This is probably the most user visible enhancement in this
   release.
-* A preliminary version of the proposed Array-API is provided. This is a step
-  in creating a standard collection of functions that can be used across
-  applications such as CuPy and JAX.
+* A preliminary version of the proposed
+  [array API Standard](https://data-apis.org/array-api/latest/) is provided
+  (see [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)).
+  This is a step in creating a standard collection of functions that can be
+  used across libraries such as CuPy and JAX.
 * NumPy now has a DLPack backend. DLPack provides a common interchange format
   for array (tensor) data.
 * New methods for ``quantile``, ``percentile``, and related functions. The new
   methods provide a complete set of the methods commonly found in the
   literature.
 * The universal functions have been refactored to implement most of
-  NEP 43.  This also unlocks the ability to experiment with the
-  future DType API.
-* A new configurable allocator for use by downstream projects.
+  [NEP 43](https://numpy.org/neps/nep-0043-extensible-ufuncs.html).
+  This also unlocks the ability to experiment with the future DType API.
+* A new configurable memory allocator for use by downstream projects.
 
 NumPy 1.22.0 is a big release featuring the work of 153 contributors spread
 over 609 pull requests. The Python versions supported by this release are
