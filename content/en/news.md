@@ -1,25 +1,82 @@
 ---
 title: News
 sidebar: false
-newsHeader: D&I Grant from CZI
+newsHeader: NumPy 1.22.0 released
 date:
 ---
 
+### Numpy 1.22.0 release
+
+_Dec 31, 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html)
+is now available. The highlights of the release are:
+
+* Type annotations of the main namespace are essentially complete. Upstream is
+  a moving target, so there will likely be further improvements, but the major
+  work is done. This is probably the most user visible enhancement in this
+  release.
+* A preliminary version of the proposed
+  [array API Standard](https://data-apis.org/array-api/latest/) is provided
+  (see [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)).
+  This is a step in creating a standard collection of functions that can be
+  used across libraries such as CuPy and JAX.
+* NumPy now has a DLPack backend. DLPack provides a common interchange format
+  for array (tensor) data.
+* New methods for ``quantile``, ``percentile``, and related functions. The new
+  methods provide a complete set of the methods commonly found in the
+  literature.
+* The universal functions have been refactored to implement most of
+  [NEP 43](https://numpy.org/neps/nep-0043-extensible-ufuncs.html).
+  This also unlocks the ability to experiment with the future DType API.
+* A new configurable memory allocator for use by downstream projects.
+
+NumPy 1.22.0 is a big release featuring the work of 153 contributors spread
+over 609 pull requests. The Python versions supported by this release are
+3.8-3.10.
+
 ### Advancing an inclusive culture in the scientific Python ecosystem
 
-_August 31, 2021_ -- We are happy to announce the Chan Zuckerberg Initiative has [awarded a grant](https://chanzuckerberg.com/newsroom/czi-awards-16-million-for-foundational-open-source-software-tools-essential-to-biomedicine/) to support the onboarding, inclusion, and retention of people from historically marginalized groups on scientific Python projects, and to structurally improve the community dynamics for NumPy, SciPy, Matplotlib, and Pandas.
+_August 31, 2021_ -- We are happy to announce the Chan Zuckerberg Initiative has
+[awarded a grant](https://chanzuckerberg.com/newsroom/czi-awards-16-million-for-foundational-open-source-software-tools-essential-to-biomedicine/)
+to support the onboarding, inclusion, and retention of people from historically
+marginalized groups on scientific Python projects, and to structurally improve
+the community dynamics for NumPy, SciPy, Matplotlib, and Pandas.
 
-As a part of [CZI's Essential Open Source Software for Science program](https://chanzuckerberg.com/eoss/), this [Diversity & Inclusion supplemental grant](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b) will support the creation of dedicated Contributor Experience Lead positions to identify, document, and implement practices to foster inclusive open-source communities. This project will be led by Melissa Mendonça (NumPy), with additional mentorship and guidance provided by Ralf Gommers (NumPy, SciPy), Hannah Aizenman and Thomas Caswell (Matplotlib), Matt Haberland (SciPy), and Joris Van den Bossche (Pandas).
+As a part of [CZI's Essential Open Source Software for Science program](https://chanzuckerberg.com/eoss/),
+this [Diversity & Inclusion supplemental grant](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b)
+will support the creation of dedicated Contributor Experience Lead positions to
+identify, document, and implement practices to foster inclusive open-source
+communities. This project will be led by Melissa Mendonça (NumPy), with
+additional mentorship and guidance provided by Ralf Gommers (NumPy, SciPy),
+Hannah Aizenman and Thomas Caswell (Matplotlib), Matt Haberland (SciPy), and
+Joris Van den Bossche (Pandas).
 
-This is an ambitious project aiming to discover and implement activities that should structurally improve the community dynamics of our projects. By establishing these new cross-project roles, we hope to introduce a new collaboration model to the Scientific Python communities, allowing community-building work within the ecosystem to be done more efficiently and with greater outcomes. We also expect to develop a clearer picture of what works and what doesn't in our projects to engage and retain new contributors, especially from historically underrepresented groups. Finally, we plan on producing detailed reports on the actions executed, explaining how they have impacted our projects in terms of representation and interaction with our communities.
+This is an ambitious project aiming to discover and implement activities that
+should structurally improve the community dynamics of our projects. By
+establishing these new cross-project roles, we hope to introduce a new
+collaboration model to the Scientific Python communities, allowing
+community-building work within the ecosystem to be done more efficiently and
+with greater outcomes. We also expect to develop a clearer picture of what
+works and what doesn't in our projects to engage and retain new contributors,
+especially from historically underrepresented groups. Finally, we plan on
+producing detailed reports on the actions executed, explaining how they have
+impacted our projects in terms of representation and interaction with our
+communities.
 
-The two-year project is expected to start by November 2021, and we are excited to see the results from this work! [You can read the full proposal here](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063).
+The two-year project is expected to start by November 2021, and we are excited
+to see the results from this work!
+[You can read the full proposal here](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063).
 
 ### 2021 NumPy survey
 
-_July 12, 2021_ -- At NumPy, we believe in the power of our community. 1,236 NumPy users from 75 countries participated in our inaugural survey last year. The survey findings gave us a very good understanding of what we should focus on for the next 12 months.
+_July 12, 2021_ -- At NumPy, we believe in the power of our community. 1,236
+NumPy users from 75 countries participated in our inaugural survey last year.
+The survey findings gave us a very good understanding of what we should focus
+on for the next 12 months.
 
-It’s time for another survey, and we are counting on you once again. It will take about 15 minutes of your time. Besides English, the survey questionnaire is available in 8 additional languages: Bangla, French, Hindi, Japanese, Mandarin, Portuguese, Russian, and Spanish.
+It’s time for another survey, and we are counting on you once again. It will
+take about 15 minutes of your time. Besides English, the survey questionnaire
+is available in 8 additional languages: Bangla, French, Hindi, Japanese,
+Mandarin, Portuguese, Russian, and Spanish.
 
 Follow the link to get started: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSl4q.
 
@@ -36,13 +93,17 @@ is now available. The highlights of the release are:
 - improved annotations,
 - new ``PCG64DXSM`` bitgenerator for random numbers.
 
-This NumPy release is the result of 581 merged pull requests contributed by 175 people.
-The Python versions supported for this release are 3.7-3.9, support for Python 3.10 will be added after Python 3.10 is released.
+This NumPy release is the result of 581 merged pull requests contributed by 175
+people.  The Python versions supported for this release are 3.7-3.9, support
+for Python 3.10 will be added after Python 3.10 is released.
 
 
 ### 2020 NumPy survey results
 
-_Jun 22, 2021_ -- In 2020, the NumPy survey team in partnership with students and faculty from the University of Michigan and the University of Maryland conducted the first official NumPy community survey. Find the survey results here: https://numpy.org/user-survey-2020/.
+_Jun 22, 2021_ -- In 2020, the NumPy survey team in partnership with students
+and faculty from the University of Michigan and the University of Maryland
+conducted the first official NumPy community survey. Find the survey results
+here: https://numpy.org/user-survey-2020/.
 
 
 ### Numpy 1.20.0 release
@@ -170,6 +231,7 @@ Here is a list of NumPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- NumPy 1.22.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.22.0)) -- _31 Dec 2021_.
 - NumPy 1.21.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.5)) -- _19 Dec 2021_.
 - NumPy 1.21.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.0)) -- _22 Jun 2021_.
 - NumPy 1.20.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.20.3)) -- _10 May 2021_.
