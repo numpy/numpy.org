@@ -1,9 +1,22 @@
 ---
 title: ニュース
 sidebar: false
-newsHeader: D&I Grant from CZI
+newsHeader: NumPy 1.22.0 released
 date:
 ---
+
+### Numpy 1.22.0 release
+
+_Dec 31, 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) is now available. The highlights of the release are:
+
+* Type annotations of the main namespace are essentially complete. Upstream is a moving target, so there will likely be further improvements, but the major work is done. This is probably the most user visible enhancement in this release.
+* A preliminary version of the proposed [array API Standard](https://data-apis.org/array-api/latest/) is provided (see [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)). This is a step in creating a standard collection of functions that can be used across libraries such as CuPy and JAX.
+* NumPy now has a DLPack backend. DLPack provides a common interchange format for array (tensor) data.
+* New methods for `quantile`, `percentile`, and related functions. The new methods provide a complete set of the methods commonly found in the literature.
+* The universal functions have been refactored to implement most of [NEP 43](https://numpy.org/neps/nep-0043-extensible-ufuncs.html). This also unlocks the ability to experiment with the future DType API.
+* A new configurable memory allocator for use by downstream projects.
+
+NumPy 1.22.0 is a big release featuring the work of 153 contributors spread over 609 pull requests. The Python versions supported by this release are 3.8-3.10.
 
 ### Advancing an inclusive culture in the scientific Python ecosystem
 
@@ -28,14 +41,14 @@ Follow the link to get started: https://berkeley.qualtrics.com/jfe/form/SV_aaOON
 
 _Jun 23, 2021_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) is now available. The highlights of the release are:
 
-- より多くの機能やプラットフォームをカバーするSIMD関連の作業が継続されました。
-- 新しいdtypeインフラとキャストの初期作業
-- mac 版の Python 3.8 と Python 3.9 用 universal2 wheels
-- ドキュメントの改善
-- アノテーションの改善
-- 乱数生成用の新しい `PCG64DXSM` ビット生成機
+- continued SIMD work covering more functions and platforms,
+- initial work on the new dtype infrastructure and casting,
+- universal2 wheels for Python 3.8 and Python 3.9 on Mac,
+- improved documentation,
+- improved annotations,
+- new `PCG64DXSM` bitgenerator for random numbers.
 
-This NumPy release is the result of 581 merged pull requests contributed by 175 people. The Python versions supported for this release are 3.7-3.9, support for Python 3.10 will be added after Python 3.10 is released.
+This NumPy release is the result of 581 merged pull requests contributed by 175 people.  The Python versions supported for this release are 3.7-3.9, support for Python 3.10 will be added after Python 3.10 is released.
 
 
 ### 2020 NumPy survey results
@@ -46,8 +59,8 @@ _Jun 22, 2021_ -- In 2020, the NumPy survey team in partnership with students an
 ### Numpy 1.20.0 release
 
 _Jan 30, 2021_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) is now available. This is the largest NumPy release to date, thanks to 180+ contributors. The two most exciting new features are:
-- NumPyの大部分のコードに型注釈が追加されました。 そして新しいサブモジュールである`numpy.typing`が追加されました。 このサブモジュールは`ArrayLike` や`DtypeLike`という型注釈のエイリアスが定義されており、これによりユーザーやダウンストリームのライブラリはこの型注釈を使うことができます。
-- X86(SSE、AVX)、ARM64(Neon)、およびPowerPC (VSX) 命令をサポートするマルチプラットフォームSIMDコンパイラの最適化が実施されました。 これにより、多くの関数で大きく パフォーマンスが向上しました (例: [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
+- Type annotations for large parts of NumPy, and a new `numpy.typing` submodule containing `ArrayLike` and `DtypeLike` aliases that users and downstream libraries can use when adding type annotations in their own code.
+- Multi-platform SIMD compiler optimizations, with support for x86 (SSE, AVX), ARM64 (Neon), and PowerPC (VSX) instructions. This yielded significant performance improvements for many functions (examples: [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
 
 ### Diversity in the NumPy project
 
@@ -62,8 +75,8 @@ _Sep 16, 2020_ -- We are pleased to announce the publication of [the first offic
 ### Python 3.9 is coming, when will NumPy release binary wheels?
 
 _Sept 14, 2020_ -- Python 3.9 will be released in a few weeks. If you are an early adopter of Python versions, you may be dissapointed to find that NumPy (and other binary packages like SciPy) will not have binary wheels ready on the day of the release. It is a major effort to adapt the build infrastructure to a new Python version and it typically takes a few weeks for the packages to appear on PyPI and conda-forge. In preparation for this event, please make sure to
-- `pip` が`manylinux2010` と `manylinux2014` をサポートするためにpipを少なくともバージョン 20.1 に更新する。
-- [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) または `--only-binary=:all:` を`pip`がソースからビルドしようとするのを防ぐために使用します。
+- update your `pip` to version 20.1 at least to support `manylinux2010` and `manylinux2014`
+- use [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) or `--only-binary=:all:` to prevent `pip` from trying to build from source.
 
 
 ### Numpy 1.19.2 release
@@ -116,6 +129,7 @@ More details on our proposed initiatives and deliverables can be found in the [f
 
 Here is a list of NumPy releases, with links to release notes. Bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
 
+- NumPy 1.22.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.22.0)) -- _31 Dec 2021_.
 - NumPy 1.21.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.5)) -- _19 Dec 2021_.
 - NumPy 1.21.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.0)) -- _22 Jun 2021_.
 - NumPy 1.20.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.20.3)) -- _10 May 2021_.
