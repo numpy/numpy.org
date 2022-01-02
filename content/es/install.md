@@ -28,7 +28,7 @@ Si utiliza `pip`, puede instalar NumPy con:
 ```bash
 pip install numpy
 ```
-Also when using pip, it's good practice to use a virtual environment - see  [Reproducible Installs](#reproducible-installs) below for why, and [this guide](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto) for details on using virtual environments.
+También al utilizar pip, es buena práctica utilizar un entorno virtual - vea  [Instalaciones reproducibles](#reproducible-installs) a continuación para saber por qué, y [esta guía](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto) para más detalles sobre el uso de entornos virtuales.
 
 <a name="python-numpy-install-guide"></a>
 
