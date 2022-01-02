@@ -34,7 +34,7 @@ _July 12, 2021_ -- At NumPy, we believe in the power of our community. 1,236 Num
 
 It’s time for another survey, and we are counting on you once again. It will take about 15 minutes of your time. Besides English, the survey questionnaire is available in 8 additional languages: Bangla, French, Hindi, Japanese, Mandarin, Portuguese, Russian, and Spanish.
 
-Follow the link to get started: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSl4q.
+시작하려면 아래 링크를 눌러 주세요: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSl4q.
 
 
 ### Numpy 1.21.0 출시
@@ -127,7 +127,7 @@ More details on our proposed initiatives and deliverables can be found in the [f
 
 ## 릴리즈
 
-Here is a list of NumPy releases, with links to release notes. Bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
+NumPy 릴리즈의 목록입니다. 릴리즈 노트로 링크도 걸려 있습니다. 버그 수정 릴리즈(`x.y.z`에서 `z`만 바뀐 경우)에는 새로운 기능이 없습니다. 마이너 릴리즈(`y`가 증가한 경우)에는 새로운 기능이 있습니다.
 
 - NumPy 1.22.0 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.22.0)) -- _2021년 12월 31일_.
 - NumPy 1.21.5 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.21.5)) -- _2021년 12월 19일_.
