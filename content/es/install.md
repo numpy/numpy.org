@@ -9,21 +9,21 @@ NumPy se puede instalar con `conda`, con `pip`, con un gestor de paquetes en mac
 
 **CONDA**
 
-If you use `conda`, you can install NumPy from the `defaults` or `conda-forge` channels:
+Si utiliza `conda`, puede instalar NumPy desde los canales `defaults` o `conda-forge`:
 
 ```bash
-# Best practice, use an environment rather than install in the base env
+# La mejor práctica, utilizar un entorno en lugar de instalar en el entorno base
 conda create -n my-env
 conda activate my-env
-# If you want to install from conda-forge
+# Si quiere instalar desde conda-forge
 conda config --env --add channels conda-forge
-# The actual install command
+# El verdadero comando de instalación
 conda install numpy
 ```
 
 **PIP**
 
-If you use `pip`, you can install NumPy with:
+Si utiliza `pip`, puede instalar NumPy con:
 
 ```bash
 pip install numpy
