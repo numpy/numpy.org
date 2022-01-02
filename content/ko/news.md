@@ -44,11 +44,11 @@ _2021년 6월 23일_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21
 - continued SIMD work covering more functions and platforms,
 - initial work on the new dtype infrastructure and casting,
 - universal2 wheels for Python 3.8 and Python 3.9 on Mac,
-- improved documentation,
-- improved annotations,
-- new `PCG64DXSM` bitgenerator for random numbers.
+- 문서화 향상,
+- 주석 향상,
+- 난수 생성에 이용되는 새 `PCG64DXSM` 비트 생성기.
 
-이번 NumPy 릴리즈는 175명이 기여해주신 581개의 풀 리퀘스트가 합쳐진 결과입니다.  The Python versions supported for this release are 3.7-3.9, support for Python 3.10 will be added after Python 3.10 is released.
+이번 NumPy 릴리즈는 175명이 기여해주신 581개의 풀 리퀘스트가 합쳐진 결과입니다.  본 릴리즈에서 지원하는 Python 버전은 3.7-3.9입니다. Python 3.10은 Python 3.10 릴리즈 이후 지원할 예정입니다.
 
 
 ### 2020년도 NumPy 설문조사 결과
@@ -62,7 +62,7 @@ _2021년 1월 30일_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20
 - Type annotations for large parts of NumPy, and a new `numpy.typing` submodule containing `ArrayLike` and `DtypeLike` aliases that users and downstream libraries can use when adding type annotations in their own code.
 - Multi-platform SIMD compiler optimizations, with support for x86 (SSE, AVX), ARM64 (Neon), and PowerPC (VSX) instructions. This yielded significant performance improvements for many functions (examples: [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
 
-### Diversity in the NumPy project
+### NumPy 프로젝트 내 다양성
 
 _Sep 20, 2020_ -- We wrote a [statement on the state of, and discussion on social media around, diversity and inclusion in the NumPy project](/diversity_sep2020).
 
@@ -74,7 +74,7 @@ _Sep 16, 2020_ -- We are pleased to announce the publication of [the first offic
 
 ### Python 3.9 is coming, when will NumPy release binary wheels?
 
-_Sept 14, 2020_ -- Python 3.9 will be released in a few weeks. If you are an early adopter of Python versions, you may be dissapointed to find that NumPy (and other binary packages like SciPy) will not have binary wheels ready on the day of the release. It is a major effort to adapt the build infrastructure to a new Python version and it typically takes a few weeks for the packages to appear on PyPI and conda-forge. In preparation for this event, please make sure to
+_2020년 9월 14일_ -- Python 3.9가 몇 주 내로 출시될 것입니다. If you are an early adopter of Python versions, you may be dissapointed to find that NumPy (and other binary packages like SciPy) will not have binary wheels ready on the day of the release. It is a major effort to adapt the build infrastructure to a new Python version and it typically takes a few weeks for the packages to appear on PyPI and conda-forge. In preparation for this event, please make sure to
 - update your `pip` to version 20.1 at least to support `manylinux2010` and `manylinux2014`
 - use [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) or `--only-binary=:all:` to prevent `pip` from trying to build from source.
 
@@ -85,9 +85,9 @@ _2020년 9월 10일_ -- [NumPy 1.19.2](https://numpy.org/devdocs/release/1.19.2-
 
 ### The inaugural NumPy survey is live!
 
-_Jul 2, 2020_ -- This survey is meant to guide and set priorities for decision-making about the development of NumPy as software and as a community. The survey is available in 8 additional languages besides English: Bangla, Hindi, Japanese, Mandarin, Portuguese, Russian, Spanish and French.
+_2020년 7월 2일_ -- 본 설문조사는 소프트웨어 및 커뮤니티로서의 NumPy 개발에 대하여, 의사결정의 우선 순위를 안내하고 설정하기 위해 실시됩니다. 설문지는 영어 외에도 8개 국어로 제공됩니다: 벵골어, 프랑스어, 힌디어, 일본어, 중국 관화, 포르투갈어, 러시아어, 스페인어.
 
-Please help us make NumPy better and take the survey [here](https://umdsurvey.umd.edu/jfe/form/SV_8bJrXjbhXf7saAl).
+NumPy를 개선할 수 있도록 도와주시고 [여기](https://umdsurvey.umd.edu/jfe/form/SV_8bJrXjbhXf7saAl)에서 설문 조사에 참여해주시면 감사드리겠습니다.
 
 
 ### NumPy에 새로운 로고가 생겼습니다!
@@ -111,14 +111,14 @@ _May 11, 2020_ -- NumPy has been accepted as one of the mentor organizations for
 
 ### NumPy 1.18.0 출시
 
-_2019년 12월 22일_ -- NumPy 1.18.0이 출시되었습니다. After the major changes in 1.17.0, this is a consolidation release. It is the last minor release that will support Python 3.5. Highlights of the release includes the addition of basic infrastructure for linking with 64-bit BLAS and LAPACK libraries, and a new C-API for `numpy.random`.
+_2019년 12월 22일_ -- NumPy 1.18.0이 출시되었습니다. After the major changes in 1.17.0, this is a consolidation release. 본 릴리즈는 Python 3.5를 지원하는 마지막 마이너 릴리즈입니다. Highlights of the release includes the addition of basic infrastructure for linking with 64-bit BLAS and LAPACK libraries, and a new C-API for `numpy.random`.
 
-Please see the [release notes](https://github.com/numpy/numpy/releases/tag/v1.18.0) for more details.
+자세한 정보는 [릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.18.0)를 참고하시기 바랍니다.
 
 
-### NumPy receives a grant from the Chan Zuckerberg Initiative
+### NumPy가 Chan Zuckerberg Initiative에서 보조금을 받음
 
-_Nov 15, 2019_ -- We are pleased to announce that NumPy and OpenBLAS, one of NumPy's key dependencies, have received a joint grant for $195,000 from the Chan Zuckerberg Initiative through their [Essential Open Source Software for Science program](https://chanzuckerberg.com/eoss/) that supports software maintenance, growth, development, and community engagement for open source tools critical to science.
+_2019년 11월 15일_ -- NumPy의 주요 종속 패키지 중 하나인 NumPy와 OpenBLAS가 챈 저커버그 이니셔티브의 [과학 프로그램용 중요 오픈소스 소프트웨어](https://chanzuckerberg.com/eoss/) 지원을 통해 19만 5천 달러에 달하는 공동 보조금을 받았다는 소식을 전할 수 있어 기쁩니다. 이곳에서는 과학에 중요한 오픈소스 도구에 대해 유지 관리, 성장, 개발 및 커뮤니티 참여를 지원합니다.
 
 This grant will be used to ramp up the efforts in improving NumPy documentation, website redesign, and community development to better serve our large and rapidly growing user base, and ensure the long-term sustainability of the project. While the OpenBLAS team will focus on addressing sets of key technical issues, in particular thread-safety, AVX-512, and thread-local storage (TLS) issues, as well as algorithmic improvements in ReLAPACK (Recursive LAPACK) on which OpenBLAS depends.
 
