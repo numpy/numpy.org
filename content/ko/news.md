@@ -11,12 +11,12 @@ _2021년 12월 31일_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.2
 
 * Type annotations of the main namespace are essentially complete. Upstream is a moving target, so there will likely be further improvements, but the major work is done. This is probably the most user visible enhancement in this release.
 * A preliminary version of the proposed [array API Standard](https://data-apis.org/array-api/latest/) is provided (see [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)). This is a step in creating a standard collection of functions that can be used across libraries such as CuPy and JAX.
-* NumPy now has a DLPack backend. DLPack provides a common interchange format for array (tensor) data.
+* NumPy가 DLPack 백엔드로 구동됩니다. DLPack provides a common interchange format for array (tensor) data.
 * New methods for `quantile`, `percentile`, and related functions. The new methods provide a complete set of the methods commonly found in the literature.
 * The universal functions have been refactored to implement most of [NEP 43](https://numpy.org/neps/nep-0043-extensible-ufuncs.html). This also unlocks the ability to experiment with the future DType API.
 * A new configurable memory allocator for use by downstream projects.
 
-NumPy 1.22.0 is a big release featuring the work of 153 contributors spread over 609 pull requests. The Python versions supported by this release are 3.8-3.10.
+NumPy 1.22.0은 153명의 기여자가 생성한 609개의 풀 요청을 바탕으로 만들어진 대형 릴리즈입니다. 본 릴리즈에서 지원하는 Python 버전은 3.8-3.10입니다.
 
 ### Advancing an inclusive culture in the scientific Python ecosystem
 
@@ -26,7 +26,7 @@ As a part of [CZI's Essential Open Source Software for Science program](https://
 
 This is an ambitious project aiming to discover and implement activities that should structurally improve the community dynamics of our projects. By establishing these new cross-project roles, we hope to introduce a new collaboration model to the Scientific Python communities, allowing community-building work within the ecosystem to be done more efficiently and with greater outcomes. We also expect to develop a clearer picture of what works and what doesn't in our projects to engage and retain new contributors, especially from historically underrepresented groups. Finally, we plan on producing detailed reports on the actions executed, explaining how they have impacted our projects in terms of representation and interaction with our communities.
 
-The two-year project is expected to start by November 2021, and we are excited to see the results from this work! [You can read the full proposal here](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063).
+2개년 프로젝트가 2021년 11월부터 시작될 예정입니다. 프로젝트의 결과를 볼 날이 기대되네요! [전체 정보는 여기서 열람하실 수 있습니다](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063).
 
 ### 2021년도 NumPy 설문조사
 
@@ -74,9 +74,9 @@ _Sep 16, 2020_ -- We are pleased to announce the publication of [the first offic
 
 ### Python 3.9가 곧 출시하는데, NumPy는 바이너리 Wheel을 언제 출시합니까?
 
-_2020년 9월 14일_ -- Python 3.9가 몇 주 내로 출시될 것입니다. 만약 Python 얼리어답터라면, NumPy (그리고 SciPy 등 다른 바이너리 패키지)가 릴리즈 시일에 바이너리 Wheel을 준비하지 못한다는 것을 알고 실망했을 수 있습니다. 새로운 Python 버전에 빌드 환경을 맞추는 것은 많은 노력을 요하고, 패키지가 PyPI 및 conda-forge에 배포되는 데에는 일반적으로 몇 주가 걸립니다. In preparation for this event, please make sure to
-- update your `pip` to version 20.1 at least to support `manylinux2010` and `manylinux2014`
-- use [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) or `--only-binary=:all:` to prevent `pip` from trying to build from source.
+_2020년 9월 14일_ -- Python 3.9가 몇 주 내로 출시될 것입니다. 만약 Python 얼리어답터라면, NumPy (그리고 SciPy 등 다른 바이너리 패키지)가 릴리즈 시일에 바이너리 Wheel을 준비하지 못한다는 것을 알고 실망했을 수 있습니다. 새로운 Python 버전에 빌드 환경을 맞추는 것은 많은 노력을 요하고, 패키지가 PyPI 및 conda-forge에 배포되는 데에는 일반적으로 몇 주가 걸립니다. 출시를 대비하려면 아래 요건을 충족하도록 하십시오.
+- `pip` 버전을 최소 20.1로 업데이트하여 `manylinux2010` 및 `manylinux2014`를 지원하도록 합니다
+- [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) 혹은 `--only-binary=:all:` 인수를 사용하여 `pip`가 소스로부터 빌드하는 것을 막도록 합니다
 
 
 ### NumPy 1.19.2 출시
@@ -106,7 +106,7 @@ _2020년 6월 20일_ -- NumPy 1.19.0이 출시되었습니다. Python 2의 지�
 
 ### Season of Docs 승인
 
-_2020년 5월 11일_ -- NumPy가 Google Season of Docs 프로그램의 선도 조직으로 승인되었습니다. We are excited about the opportunity to work with a technical writer to improve NumPy's documentation once again! 자세한 내용은 [Season of Docs 공식 사이트](https://developers.google.com/season-of-docs/) 및 저희의 [아이디어 페이지](https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas)를 참고하시기 바랍니다.
+_2020년 5월 11일_ -- NumPy가 Google Season of Docs 프로그램의 선도 조직으로 승인되었습니다. 테크니컬 라이터와 협력해서 NumPy 문서를 다시 한 번 개선할 수 있는 기회를 갖게 되어 좋습니다! 자세한 내용은 [Season of Docs 공식 사이트](https://developers.google.com/season-of-docs/) 및 저희의 [아이디어 페이지](https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas)를 참고하시기 바랍니다.
 
 
 ### NumPy 1.18.0 출시
