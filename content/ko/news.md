@@ -72,9 +72,9 @@ _Sep 20, 2020_ -- We wrote a [statement on the state of, and discussion on socia
 _Sep 16, 2020_ -- We are pleased to announce the publication of [the first official paper on NumPy](https://www.nature.com/articles/s41586-020-2649-2) as a review article in Nature. This comes 14 years after the release of NumPy 1.0. The paper covers applications and fundamental concepts of array programming, the rich scientific Python ecosystem built on top of NumPy, and the recently added array protocols to facilitate interoperability with external array and tensor libraries like CuPy, Dask, and JAX.
 
 
-### Python 3.9 is coming, when will NumPy release binary wheels?
+### Python 3.9가 곧 출시하는데, NumPy는 바이너리 Wheel을 언제 출시합니까?
 
-_2020년 9월 14일_ -- Python 3.9가 몇 주 내로 출시될 것입니다. If you are an early adopter of Python versions, you may be dissapointed to find that NumPy (and other binary packages like SciPy) will not have binary wheels ready on the day of the release. It is a major effort to adapt the build infrastructure to a new Python version and it typically takes a few weeks for the packages to appear on PyPI and conda-forge. In preparation for this event, please make sure to
+_2020년 9월 14일_ -- Python 3.9가 몇 주 내로 출시될 것입니다. 만약 Python 얼리어답터라면, NumPy (그리고 SciPy 등 다른 바이너리 패키지)가 릴리즈 시일에 바이너리 Wheel을 준비하지 못한다는 것을 알고 실망했을 수 있습니다. 새로운 Python 버전에 빌드 환경을 맞추는 것은 많은 노력을 요하고, 패키지가 PyPI 및 conda-forge에 배포되는 데에는 일반적으로 몇 주가 걸립니다. In preparation for this event, please make sure to
 - update your `pip` to version 20.1 at least to support `manylinux2010` and `manylinux2014`
 - use [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) or `--only-binary=:all:` to prevent `pip` from trying to build from source.
 
