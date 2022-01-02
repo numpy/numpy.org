@@ -104,14 +104,14 @@ _2020년 6월 24일_ -- NumPy에 새로운 로고가 생겼습니다.
 _2020년 6월 20일_ -- NumPy 1.19.0이 출시되었습니다. Python 2의 지원을 중단한 첫 릴리즈라서 "정리 릴리즈"라고도 불립니다. 이제 지원하는 Python 최소 버전은 3.6입니다. 중요한 새 기능을 꼽자면, NumPy 1.17.0에 도입된 난수 생성 인프라를 Cython에서 접근할 수 있게 되었다는 것입니다.
 
 
-### Season of Docs acceptance
+### Season of Docs 승인
 
-_May 11, 2020_ -- NumPy has been accepted as one of the mentor organizations for the Google Season of Docs program. We are excited about the opportunity to work with a technical writer to improve NumPy's documentation once again! For more details, please see [the official Season of Docs site](https://developers.google.com/season-of-docs/) and our [ideas page](https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas).
+_2020년 5월 11일_ -- NumPy가 Google Season of Docs 프로그램의 선도 조직으로 승인되었습니다. We are excited about the opportunity to work with a technical writer to improve NumPy's documentation once again! 자세한 내용은 [Season of Docs 공식 사이트](https://developers.google.com/season-of-docs/) 및 저희의 [아이디어 페이지](https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas)를 참고하시기 바랍니다.
 
 
 ### NumPy 1.18.0 출시
 
-_2019년 12월 22일_ -- NumPy 1.18.0이 출시되었습니다. After the major changes in 1.17.0, this is a consolidation release. 본 릴리즈는 Python 3.5를 지원하는 마지막 마이너 릴리즈입니다. Highlights of the release includes the addition of basic infrastructure for linking with 64-bit BLAS and LAPACK libraries, and a new C-API for `numpy.random`.
+_2019년 12월 22일_ -- NumPy 1.18.0이 출시되었습니다. 1.17.0에서의 주요 변경점을 통합하는 릴리즈입니다. 본 릴리즈는 Python 3.5를 지원하는 마지막 마이너 릴리즈입니다. 릴리즈의 주요 내용으로는, 64비트 BLAS 및 LAPACK 라이브러리와 연결하기 위한 환경 조성, `numpy.random`을 위한 새로운 C-API 등이 있습니다.
 
 자세한 정보는 [릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.18.0)를 참고하시기 바랍니다.
 
@@ -122,7 +122,7 @@ _2019년 11월 15일_ -- NumPy의 주요 종속 패키지 중 하나인 NumPy와
 
 This grant will be used to ramp up the efforts in improving NumPy documentation, website redesign, and community development to better serve our large and rapidly growing user base, and ensure the long-term sustainability of the project. While the OpenBLAS team will focus on addressing sets of key technical issues, in particular thread-safety, AVX-512, and thread-local storage (TLS) issues, as well as algorithmic improvements in ReLAPACK (Recursive LAPACK) on which OpenBLAS depends.
 
-More details on our proposed initiatives and deliverables can be found in the [full grant proposal](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167). The work is scheduled to start on Dec 1st, 2019 and continue for the next 12 months.
+More details on our proposed initiatives and deliverables can be found in the [full grant proposal](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167). 2019년 12월 1일부터 작업을 시작하여 다음 12개월 동안 진행할 예정입니다.
 
 
 ## 릴리즈
