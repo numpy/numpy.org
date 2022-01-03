@@ -38,13 +38,14 @@ Membros Eméritos:
 
 ## Times
 
-O projeto NumPy está crescendo; temos equipes para
+The NumPy project is growing! &#127881; We have teams for:
 
 - código
 - documentação
 - website
 - triagem
-- financiamento e bolsas
+- survey
+- funding and grants
 
 Veja a página de [Times](/gallery/team.html) para membros individuais de cada time.
 
