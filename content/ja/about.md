@@ -38,13 +38,14 @@ NumPy運営委員会の役割は、NumPyのコミュニティと協力しサポ�
 
 ## チーム
 
-NumPy プロジェクトは拡大しているため、いくつかのチームが設置されています。
+The NumPy project is growing! &#127881; We have teams for:
 
 - コード
 - ドキュメント
 - ウェブサイト
 - トリアージ
-- 資金と助成金
+- survey
+- funding and grants
 
 個々のチームメンバーについては、 [チーム](/gallery/team.html) のページを参照してください。
 
