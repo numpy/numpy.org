@@ -4,14 +4,14 @@ name: github pages
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@master
+        uses: actions/checkout@main
         with:
           submodules: recursive
       - name: Setup Python
@@ -22,7 +22,7 @@ jobs:
         uses: chabad360/hugo-gh-pages@master
         with:
           githubToken: ${{ secrets.PERSONAL_TOKEN }}
-          branch: master
+          branch: main
           cname: numpy.org
           repo: numpy/numpy.github.com
           hugoVersion: extended_0.88.1
