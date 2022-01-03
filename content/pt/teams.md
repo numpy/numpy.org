@@ -5,7 +5,7 @@ sidebar: false
 
 Somos uma equipe internacional com a missão de apoiar a pesquisa científica e
 comunidades em todo o mundo através da construção de software de código aberto de qualidade.
-[Junte-se a nós]({{< ref "/contribute" >}})
+[Junte-se a nós](/contribute/)
 
 {{< include-html "static/gallery/maintainers.html" >}}
 
