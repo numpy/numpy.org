@@ -21,6 +21,23 @@ prepare:
 	git submodule update --init --recursive
 	python gen_config.py
 
+TEAMS_DIR = static/gallery
+TEAMS = emeritus-maintainers maintainers triage-team survey-team web-team
+TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
+
+$(TEAMS_DIR):
+	mkdir -p $(TEAMS_DIR)
+
+$(TEAMS_DIR)/%.md: $(TEAMS_DIR)
+	$(TEAMS_QUERY) --org numpy --team "$*"  >  $(TEAMS_DIR)/$*.html
+
+teams-clean: prepare
+	for team in $(TEAMS); do \
+	  rm -f $(TEAMS_DIR)/$${team}.html ;\
+	done
+
+teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS))
+
 public: ## create a worktree branch in the public directory
 	git worktree add -B gh-pages public $(TARGET)/gh-pages
 	rm -rf public/*
