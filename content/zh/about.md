@@ -38,13 +38,14 @@ NumPy 是一个使 Python 支持数值计算的开源项目， 它诞生于 2005
 
 ## 团队
 
-NumPy 项目正在不断发展中，我们的团队成员负责：
+The NumPy project is growing! &#127881; We have teams for:
 
 - 编码
 - 文档
 - 网站
 - 分类
-- 资金和赠款
+- survey
+- funding and grants
 
 查看[团队](/gallery/team.html)页面以了解每个独立团队的成员信息。
 
