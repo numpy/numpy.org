@@ -38,13 +38,14 @@ Eméritos:
 
 ## Equipos
 
-El proyecto NumPy está creciendo; tenemos equipos para
+The NumPy project is growing! &#127881; We have teams for:
 
 - código
 - documentación
 - sitio web
 - triaje
-- financiación y subvenciones
+- survey
+- funding and grants
 
 Visita la página [Equipo](/gallery/team.html) para conocer a los miembros de cada equipo.
 
