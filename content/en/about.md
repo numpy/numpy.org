@@ -38,12 +38,13 @@ Emeritus:
 
 ## Teams
 
-The NumPy project is growing; we have teams for
+The NumPy project is growing! &#127881; We have teams for:
 
 - code
 - documentation
 - website
 - triage
+- survey
 - funding and grants
 
 See the [Team](/gallery/team.html) page for individual team members.
