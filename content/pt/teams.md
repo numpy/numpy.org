@@ -17,6 +17,6 @@ comunidades em todo o mundo através da construção de software de código aber
 
 {{< include-html "static/gallery/emeritus-maintainers.html" >}}
 
-# Governance
+# Governança
 
 Para obter a lista de pessoas no Conselho Diretor, consulte [aqui](https://numpy.org/devdocs/dev/governance/people.html).
