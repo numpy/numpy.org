@@ -1,11 +1,11 @@
 ---
-title: NumPy Team Gallery
+title: NumPy Times
 sidebar: false
 ---
 
-We are an international team on a mission to support scientific and research
-communities worldwide by building quality, open-source software.
-[Join us]({{< ref "/contribute" >}})
+Somos uma equipe internacional com a missão de apoiar a pesquisa científica e
+comunidades em todo o mundo através da construção de software de código aberto de qualidade.
+[Junte-se a nós]({{< ref "/contribute" >}})
 
 {{< include-html "static/gallery/maintainers.html" >}}
 
@@ -19,4 +19,4 @@ communities worldwide by building quality, open-source software.
 
 # Governance
 
-For the list of people on the Steering Council, please see [here](https://numpy.org/devdocs/dev/governance/people.html).
+Para obter a lista de pessoas no Conselho Diretor, consulte [aqui](https://numpy.org/devdocs/dev/governance/people.html).
