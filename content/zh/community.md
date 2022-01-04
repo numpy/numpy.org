@@ -3,7 +3,7 @@ title: 社区
 sidebar: false
 ---
 
-Numby是一个社区驱动的开源项目，由一群十分多样化的[贡献者](/gallery/team.html)开发。 Numpy的领导层承诺要打造一个开放，包容，积极向上的社区。 请阅读 [ NumPy 行为准则](/code-of-conduct) 以了解如何用促进社区繁荣的方式与他人交流互动。
+NumPy is a community-driven open source project developed by a diverse group of [contributors](/gallery/team.html). Numpy的领导层承诺要打造一个开放，包容，积极向上的社区。 请阅读 [ NumPy 行为准则](/code-of-conduct) 以了解如何用促进社区繁荣的方式与他人交流互动。
 
 我们提供多种交流渠道，可以用来学习知识、分享您的专业见解、或是与 NumPy 社区中的其他人联系。
 
