@@ -38,14 +38,14 @@ NumPy 운영 위원회의 역할은 더 광범위한 NumPy 커뮤니티와 협�
 
 ## 팀
 
-The NumPy project is growing! &#127881; We have teams for:
+NumPy 프로젝트가 성장하고 있습니다! &#127881; 아래 활동들을 하는 팀이 있습니다:
 
 - 코드
 - 문서
 - 웹사이트
 - 심사
-- survey
-- funding and grants
+- 설문조사
+- 자원 및 보조금
 
 개발 팀원들은 [팀](/gallery/team.html) 페이지를 참조하세요.
 
