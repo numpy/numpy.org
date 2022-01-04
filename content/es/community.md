@@ -3,7 +3,7 @@ title: Community
 sidebar: false
 ---
 
-NumPy es un proyecto de código abierto impulsado por la comunidad y desarrollado por un grupo muy diverso de [colaboradores](/gallery/team.html). El liderazgo de NumPy se ha comprometido firmemente a crear una comunidad abierta, inclusiva y positiva. Por favor, lee el [Código de Conducta NumPy](/code-of-conduct) para obtener orientación sobre cómo interactuar con los demás de una manera que haga que la comunidad prospere.
+NumPy is a community-driven open source project developed by a diverse group of [contributors](/gallery/team.html). El liderazgo de NumPy se ha comprometido firmemente a crear una comunidad abierta, inclusiva y positiva. Por favor, lee el [Código de Conducta NumPy](/code-of-conduct) para obtener orientación sobre cómo interactuar con los demás de una manera que haga que la comunidad prospere.
 
 Ofrecemos varios canales de comunicación para aprender, compartir conocimientos y conectarse con otros dentro de la comunidad NumPy.
 
