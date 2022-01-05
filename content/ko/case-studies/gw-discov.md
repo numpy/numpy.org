@@ -45,7 +45,7 @@ The [Laser Interferometer Gravitational-Wave Observatory (LIGO)](https://www.lig
 
 Gravitational waves emitted from the merger cannot be computed using any technique except brute force numerical relativity using supercomputers. The amount of data LIGO collects is as incomprehensibly large as gravitational wave signals are small.
 
-NumPy, the standard numerical analysis package for Python,  was utilized by the software used for various tasks performed during the GW detection project at LIGO. NumPy helped in solving complex maths and data manipulation at high speed.  Here are some examples:
+NumPy, the standard numerical analysis package for Python,  was utilized by the software used for various tasks performed during the GW detection project at LIGO. NumPy helped in solving complex maths and data manipulation at high speed.  몇 가지 예시를 들자면,
 
 * [신호 처리](https://www.uv.es/virgogroup/Denoising_ROF.html): 글리치 검출,  [잡음 식별 및 데이터 결정](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf) (NumPy, scikit-learn, scipy, matplotlib, pandas, pyCharm)
 * 데이터 수집: 어떤 데이터를 분석할 수 있을지 결정하고, 모래 속 바늘과 같이 미미한 신호가 있는지 파악
