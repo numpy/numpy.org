@@ -47,7 +47,7 @@ The NumPy project is growing! &#127881; We have teams for:
 - survey
 - funding and grants
 
-個々のチームメンバーについては、 [チーム](/gallery/team.html) のページを参照してください。
+See the [}}">Team]({{< relref) page for individual team members.
 
 ## スポンサー情報
 
