@@ -125,8 +125,7 @@ def get_callable(obj_as_str: str) -> object:
     """
     components = obj_as_str.split(".")
     attrs = []
-    name = __file__.strip('.py')
-    name = name.strip('/')
+    name = "numpy_team"
 
     while components:
         try:

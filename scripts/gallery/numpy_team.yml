@@ -4,6 +4,8 @@ main:
   ignore:
   - _templates/layout.html
   - team.yml
+  - cache
+  - __init__.py
   context_preprocessors:
   - team.Preprocessors.team_add_info 
   markdown_extensions:
@@ -11,45 +13,45 @@ main:
   - tables
   - fenced_code
   static:
-    logo: /static/img/numpy.png
+    logo: ../../static/images/logo.svg
     css:
-    - /static/css/styles.css
+    - ../../static/css/styles.css
   maintainers:
     core:
     - ahaldane
-    - mhvk
-    - shoyer
-    - njsmith
-    - rkern
+    - bashtage
+    - charris
     - eric-wieser
-    - stefanv
+    - juliantaylor
+    - matthew-brett
+    - mattip
+    - mhvk
+    - njsmith
     - pv
     - rgommers
-    - charris
+    - rkern
     - seberg
-    - juliantaylor
-    - bashtage
-    - matthew-brett
-    - WarrenWeckesser
-    - mattip
+    - shoyer
+    - stefanv
     - tylerjereddy
+    - WarrenWeckesser
     webteam:
-    - joelachance
     - InessaPawson
     - MarsBarLee
+    - joelachance
+    - rgommers
     - shaloo
-    - rgommers
     documentation:
-    - melissawm
-    - rossbar
     - bjnath
-    - rgommers
     - bonn0062
+    - melissawm
+    - rgommers
+    - rossbar
     emeritus:
-    - teoliphant 
+    - certik
     - cournape 
+    - jaimefrio
+    - jarrodmillman
     - mwiebe
     - pearu
-    - jarrodmillman
-    - jaimefrio
-    - certik
+    - teoliphant 
