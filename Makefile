@@ -13,13 +13,30 @@ endif
 
 all: build
 
-.PHONY: serve html clean deploy help prepare
+.PHONY: serve html clean deploy help prepare teams teams-clean
 
 .SILENT: # remove this to see the commands executed
 
 prepare:
 	git submodule update --init --recursive
 	python gen_config.py
+
+TEAMS_DIR = static/gallery
+TEAMS = emeritus-maintainers maintainers triage-team survey-team web-team
+TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
+
+$(TEAMS_DIR):
+	mkdir -p $(TEAMS_DIR)
+
+$(TEAMS_DIR)/%.md: $(TEAMS_DIR)
+	$(TEAMS_QUERY) --org numpy --team "$*"  >  $(TEAMS_DIR)/$*.html
+
+teams-clean: prepare
+	for team in $(TEAMS); do \
+	  rm -f $(TEAMS_DIR)/$${team}.html ;\
+	done
+
+teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS))
 
 public: ## create a worktree branch in the public directory
 	git worktree add -B gh-pages public $(TARGET)/gh-pages
