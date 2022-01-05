@@ -13,7 +13,7 @@ endif
 
 all: build
 
-.PHONY: serve html clean deploy help prepare
+.PHONY: serve html clean deploy help prepare teams teams-clean
 
 .SILENT: # remove this to see the commands executed
 
