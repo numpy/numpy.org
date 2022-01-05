@@ -3,7 +3,7 @@ title: コミュニティ
 sidebar: false
 ---
 
-NumPy is a community-driven open source project developed by a diverse group of [contributors](/gallery/team.html). Numpy を主導するグループは、オープンで協力的でポジティブなコミュニティを作ることを、約束しました。 [NumPy 行動規範](/code-of-conduct) をぜひ参照してください。コミュニティの繁栄につながるようなかたちで、人々と交流する方法について書いてあります。
+NumPy is a community-driven open source project developed by a diverse group of [contributors](/teams/). Numpy を主導するグループは、オープンで協力的でポジティブなコミュニティを作ることを、約束しました。 [NumPy 行動規範](/code-of-conduct) をぜひ参照してください。コミュニティの繁栄につながるようなかたちで、人々と交流する方法について書いてあります。
 
 私たちは、NumPyコミュニティ内で学んだり、知識を共有したり、他の人と交流するためのいくつかのコミュニケーション方法を提供しています。
 
