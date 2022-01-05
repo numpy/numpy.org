@@ -1,7 +1,5 @@
 # Numpy.org
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/efd504a5-56ff-4f46-8a51-b6d4bb338c59/deploy-status)](https://app.netlify.com/sites/numpy/deploys)
-
 ## Getting Started
 
 To contribute to the website, you'll first need to install the *extended
