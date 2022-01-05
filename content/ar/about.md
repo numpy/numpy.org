@@ -47,7 +47,7 @@ The NumPy project is growing! &#127881; We have teams for:
 - survey
 - funding and grants
 
-شاهد صفحة [ ](/gallery/team.html) لأعضاء الفريق.
+See the [}}">Team]({{< relref) page for individual team members.
 
 ## اللجنة الفرعية ل NumFOCUS
 
