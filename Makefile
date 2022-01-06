@@ -36,7 +36,7 @@ teams-clean: prepare
 	  rm -f $(TEAMS_DIR)/$${team}.html ;\
 	done
 
-teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS))
+teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS)) ## generates numpy.org team gallery pages
 
 public: ## create a worktree branch in the public directory
 	git worktree add -B gh-pages public $(TARGET)/gh-pages
@@ -66,7 +66,7 @@ hugo: ## for local development
 	hugo $(BASEURLARG)
 
 # Add help text after each target name starting with '\#\#'
-help:   ## Show this help.
+help:   ## show this help
 	@echo "\nHelp for this makefile"
 	@echo "Possible commands are:"
 	@grep -h "##" $(MAKEFILE_LIST) | grep -v grep | sed -e 's/\(.*\):.*##\(.*\)/    \1: \2/'
