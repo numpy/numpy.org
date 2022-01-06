@@ -36,7 +36,7 @@ teams-clean: prepare
 	  rm -f $(TEAMS_DIR)/$${team}.html ;\
 	done
 
-teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS))
+teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS)) ##generates numpy.org team gallery pages
 
 public: ## create a worktree branch in the public directory
 	git worktree add -B gh-pages public $(TARGET)/gh-pages
