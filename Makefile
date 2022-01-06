@@ -1,4 +1,5 @@
-# type `make help` to see all options 
+# type `make help` to see all options
+.DEFAULT_GOAL := help
 
 BASEURL ?= 
 
@@ -8,15 +9,20 @@ endif
 
 .PHONY: help prepare teams-clean teams serve clean
 
-# Add help text after each target name starting with '\#\#'
-help:   ## show this help
-	@echo "\nHelp for this makefile"
-	@echo "Possible commands are:"
-	@grep -h "##" $(MAKEFILE_LIST) | grep -v grep | sed -e 's/\(.*\):.*##\(.*\)/    \1: \2/'
-
 prepare:
 	git submodule update --init --recursive
 	python gen_config.py
+
+serve: ## serve the website at http://localhost:1313/
+serve: prepare
+	hugo $(BASEURLARG) --i18n-warnings server -D
+
+html: ## build the static website in ./public
+html: prepare
+	hugo $(BASEURLARG)
+
+clean: ## remove build artifacts
+	rm -rf public
 
 TEAMS_DIR = static/gallery
 TEAMS = emeritus-maintainers maintainers triage-team survey-team web-team
@@ -33,14 +39,10 @@ teams-clean: prepare
 	  rm -f $(TEAMS_DIR)/$${team}.html ;\
 	done
 
-teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS)) ## generates numpy.org team gallery pages
+teams: ## generate numpy.org team gallery pages
+teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS))
 
-serve: prepare ## serve the website
-	hugo $(BASEURLARG) --i18n-warnings server -D
-
-html: prepare ## build the website in ./public
-	hugo $(BASEURLARG)
-
-clean: ## remove the build artifacts, mainly the "public" directory
-	rm -rf public
-
+help:   ## display this message
+	@echo numpy.org make targets
+	@echo ----------------------
+	@python scripts/makefile_to_help.py Makefile
