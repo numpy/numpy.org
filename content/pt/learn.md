@@ -81,4 +81,4 @@ Se a NumPy é importante na sua pesquisa, e você gostaria de dar reconhecimento
 ## Contribua para esta lista
 
 <a name="add-to-this-list"></a>
-Para adicionar a essa coleção, envie uma recomendação [através de um pull request](https://github.com/numpy/numpy.org/blob/master/content/en/learn.md). Diga por que sua recomendação merece ser mencionada nesta página e também qual o público que mais se beneficiaria.
+Para adicionar a essa coleção, envie uma recomendação [através de um pull request](https://github.com/numpy/numpy.org/blob/main/content/en/learn.md). Diga por que sua recomendação merece ser mencionada nesta página e também qual o público que mais se beneficiaria.
