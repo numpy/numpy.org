@@ -76,17 +76,13 @@ if you don't have the Hugo extended version.
 
 Submit pull requests first, those get run on [Netlify](https://quansight-labs.netlify.app/) and you can see a build preview by clicking on the `details` link at the bottom.
 
-![Build previews](images/readme-build-previews.png)
-
-
 ## Team lists
 
-To update the teams, the `team_query.py` provided by the theme is used.
-It needs a
-[GitHub token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-with `read:org` permissions. The token has to be exported as `GH_TOKEN`.
+To update the teams, the `team_query.py` provided by [scientific-python-hugo-theme](https://github.com/scientific-python/scientific-python-hugo-theme) is used. It needs a [GitHub token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) with `read:org` permissions. The token has to be exported as `GH_TOKEN`.
 
 ```
 export GH_TOKEN=xxxxxxxxxx
 make teams
 ```
+
+![Build previews](images/readme-build-previews.png)
