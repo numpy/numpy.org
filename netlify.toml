@@ -20,7 +20,7 @@
 [build.environment]
   PYTHON_VERSION = "3.8"
   # Same Hugo version as in .github/workflows/gh-pages.yml
-  HUGO_VERSION = "0.88.1"
+  HUGO_VERSION = "0.91.2"
 
 [context.deploy-preview]
   command = "git submodule update --init --recursive && python gen_config.py && hugo"
