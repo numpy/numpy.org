@@ -22,23 +22,12 @@ git submodule update --init --recursive
 The development web server is started with:
 
 ```bash
-make hugo
-hugo server
+make serve
 ```
-
-or
-
-```bash
-make hugo
-hugo server -D
-```
-
-to run the hugo server with draft enabled.
 
 If you don't have `make` available (e.g., on Windows), use this instead:
 ```bash
 python gen_config.py
-hugo
 hugo server
 ```
 
