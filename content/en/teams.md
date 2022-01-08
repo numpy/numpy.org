@@ -19,4 +19,4 @@ communities worldwide by building quality, open-source software.
 
 # Governance
 
-For the list of people on the Steering Council, please see [here](https://numpy.org/devdocs/dev/governance/people.html).
+For the list of the Steering Council members, please see [here](https://numpy.org/about/).
