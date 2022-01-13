@@ -4,9 +4,7 @@ sidebar: false
 ---
 
 The NumPy project welcomes your expertise and enthusiasm! Your
-choices aren't limited to programming -- in addition to
-
-- [Writing code](#writing-code)
+choices aren't limited to programming -- in addition to [Writing code](#writing-code)
 
 you can
 
