@@ -29,6 +29,7 @@ There's a ton of information about NumPy out there. If you are new, we'd strongl
 * [NumPy tutorial *by Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
 * [Stanford CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
 * [NumPy User Guide](https://numpy.org/devdocs)
+* [Deep Learning Prerequisites: The Numpy Stack in Python (V2)](https://deeplearningcourses.com/c/deep-learning-prerequisites-the-numpy-stack-in-python)
 
 <i class="fas fa-book"></i> **Books**
 
