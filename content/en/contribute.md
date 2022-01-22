@@ -121,5 +121,4 @@ SciPy'19 talk](https://www.youtube.com/watch?v=dBTJD_FDVjU) explains how much
 difference that support has made. Like all the nonprofit world, we're
 constantly searching for grants, sponsorships, and other kinds of support. We
 have a number of ideas and of course we welcome more. Fundraising is a scarce
-skill here  -- we'd appreciate your help.
-
+skill here -- we'd appreciate your help.
