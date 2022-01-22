@@ -20,10 +20,10 @@
 [build.environment]
   PYTHON_VERSION = "3.8"
   # Same Hugo version as in .github/workflows/gh-pages.yml
-  HUGO_VERSION = "0.91.2"
+  HUGO_VERSION = "0.92.0"
 
 [context.deploy-preview]
-  command = "git submodule update --init --recursive && python gen_config.py && hugo"
+  command = "git submodule update --init && python gen_config.py && hugo"
   publish = "public/"
 
 # Here is another way to define context specific environment variables.
