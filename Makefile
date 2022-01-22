@@ -15,7 +15,7 @@ help:   ## show this help
 	@grep -h "##" $(MAKEFILE_LIST) | grep -v grep | sed -e 's/\(.*\):.*##\(.*\)/    \1: \2/'
 
 prepare:
-	git submodule update --init --recursive
+	git submodule update --init
 	python gen_config.py
 
 TEAMS_DIR = static/gallery
