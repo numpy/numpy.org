@@ -6,8 +6,6 @@ sidebar: false
 The NumPy project welcomes your expertise and enthusiasm! Your
 choices aren't limited to programming -- in addition to
 
-Test 
-
 - [Writing code](#writing-code)
 
 you can
