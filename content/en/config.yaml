@@ -98,6 +98,8 @@ footer:
   socialmedia:
   - link: https://github.com/numpy/numpy
     icon: github
+  - link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
+    icon: youtube
   - link: https://twitter.com/numpy_team
     icon: twitter
   quicklinks:
