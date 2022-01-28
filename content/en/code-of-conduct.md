@@ -72,7 +72,7 @@ In cases not involving clear severe and obvious breaches of this Code of Conduct
 1. acknowledge report is received,
 2. reasonable discussion/feedback,
 3. mediation (if feedback didn’t help, and only if both reporter and reportee agree to this),
-4. enforcement via transparent decision (see [Resolutions](/report-handling-manual#resolutions)) by the Code of Conduct Committee.
+4. enforcement via transparent decision (see [Resolutions](/report-handling-manual/#resolutions)) by the Code of Conduct Committee.
 
 The Committee will respond to any report as soon as possible, and at most within 72 hours.
 

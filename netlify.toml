@@ -3,8 +3,14 @@
 [build.environment]
   PYTHON_VERSION = "3.8"
   # Same Hugo version as in .github/workflows/gh-pages.yml
-  HUGO_VERSION = "0.92.0"
+  HUGO_VERSION = "0.92.1"
 
 # Here is another way to define context specific environment variables.
 [context.deploy-preview.environment]
   NUMPYORG_WITH_TRANSLATIONS = "1"
+
+[[plugins]]
+  package = "netlify-plugin-checklinks"
+
+  [plugins.inputs]
+    todoPatterns = [" public/pt/user-surveys", " public/ja/user-surveys"]

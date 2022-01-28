@@ -5,18 +5,18 @@ sidebar: false
 
 NumPyプロジェクトを成功させるには、あなたの専門知識とプロジェクトに関する熱意が必要です。 NumPyに貢献する方法はコーディングだけではありません。
 
-- [コードを書く](#writing-code)
+- [コードを書く]({{< relref "contribute.md#writing-code" >}})
 
 以外にも、下記の貢献の方法があります:
 
-- [プルリクエストをレビューする](#reviewing-pull-requests)
-- [チュートリアル・プレゼンテーションなど教育的資料を作成する](#developing-educational-materials)
-- [イシューをトリアージする](#issue-triaging)
-- [ウェブサイトをメンテナンスをする](#website-development)
-- [グラフィックデザインに貢献する](#graphic-design)
-- [ウェブサイトを翻訳する](#translating-website-content)
-- [コミュニティのコーディネーターをつとめる](#community-coordination-and-outreach)
-- [助成金のプロポーザルを書くなど、資金調達をサポートする](#fundraising)
+- [プルリクエストをレビューする]({{< relref "contribute.md#reviewing-pull-requests" >}})
+- [チュートリアル・プレゼンテーションなど教育的資料を作成する]({{< relref "contribute.md#developing-educational-materials" >}})
+- [イシューをトリアージする]({{< relref "contribute.md#issue-triaging" >}})
+- [ウェブサイトをメンテナンスをする]({{< relref "contribute.md#website-development" >}})
+- [グラフィックデザインに貢献する]({{< relref "contribute.md#graphic-design" >}})
+- [ウェブサイトを翻訳する]({{< relref "contribute.md#translating-website-content" >}})
+- [コミュニティのコーディネーターをつとめる]({{< relref "contribute.md#community-coordination-and-outreach" >}})
+- [助成金のプロポーザルを書くなど、資金調達をサポートする]({{< relref "contribute.md#fundraising" >}})
 
 もしどこから始めればいいか、あなたのスキルをどう生かせばいいかがわからない場合は、 _是非ご連絡下さい。_ 連絡の方法としては、 [メーリングリスト](https://mail.python.org/mailman/listinfo/numpy-discussion) 、 [GitHub](http://github.com/numpy/numpy)、 [イシューの作成](https://github.com/numpy/numpy/issues) 、関連するイシューへのコメントがあります。
 
