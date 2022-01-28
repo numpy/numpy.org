@@ -54,7 +54,7 @@ Em Windows, macOS e Linux:
 #### Windows ou macOS
 
 - Instale o [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-- Mantenha o ambiente conda `base` mínimo, e use um ou mais [ambientes conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) para instalar o pacote que você precisa para a tarefa ou projeto em que você está trabalhando.
+- Mantenha o ambiente conda `base` mínimo, e use um ou mais [ambientes conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) para instalar o pacote que você precisa para a tarefa ou projeto em que você está trabalhando.
 - A menos que você esteja satisfeito com apenas os pacotes no canal `defaults`, faça do `conda-forge` seu canal padrão [definindo a prioridade do canal](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge).
 
 
@@ -66,12 +66,12 @@ Se você não tiver problemas em ter pacotes um pouco desatualizados e preferir 
 
 Se você usa uma GPU:
 - Instale o [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-- Mantenha o ambiente conda `base` mínimo, e use um ou mais [ambientes conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) para instalar o pacote que você precisa para a tarefa ou projeto em que você está trabalhando.
+- Mantenha o ambiente conda `base` mínimo, e use um ou mais [ambientes conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) para instalar o pacote que você precisa para a tarefa ou projeto em que você está trabalhando.
 - Use o canal conda`defaults` (`conda-forge` não tem bom suporte para pacotes de GPU).
 
 Caso contrário:
 - Instale o [Miniforge](https://github.com/conda-forge/miniforge).
-- Mantenha o ambiente conda `base` mínimo, e use um ou mais [ambientes conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#) para instalar o pacote que você precisa para a tarefa ou projeto em que você está trabalhando.
+- Mantenha o ambiente conda `base` mínimo, e use um ou mais [ambientes conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) para instalar o pacote que você precisa para a tarefa ou projeto em que você está trabalhando.
 
 
 #### Alternativa se você preferir pip/PyPI
@@ -103,7 +103,7 @@ A terceira diferença é que o conda é uma solução integrada para gerenciar p
 
 1. usar um ambiente diferente para cada projeto em que você trabalha,
 2. gravar nomes de pacotes e versões usando seu instalador de pacotes; cada um tem seu próprio formato de metadados para essa tarefa:
-   - Conda: [ambientes conda e arquivos environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
+   - Conda: [ambientes conda e arquivos environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
    - Pip: [ambientes virtuais](https://docs.python.org/3/tutorial/venv.html) e [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
    - Poetry: [ambientes virtuais e pyproject.toml](https://python-poetry.org/docs/basic-usage/)
 

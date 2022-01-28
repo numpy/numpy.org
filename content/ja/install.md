@@ -54,7 +54,7 @@ Windows、macOS、Linuxのすべてのユーザー向けには:
 #### WindowsまたはmacOS
 
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html) をインストールします。
-- `base` のconda環境を出来るだけ小さく保って下さい。 そして、一つか二つ個別の[`conda environment`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)を使って、作業中のタスクやプロジェクトに必要なパッケージをインストールしましょう。
+- `base` のconda環境を出来るだけ小さく保って下さい。 そして、一つか二つ個別の[`conda environment`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)を使って、作業中のタスクやプロジェクトに必要なパッケージをインストールしましょう。
 - もし、あなたの必要なパッケージが`defaults` チャンネルだけで足りない場合は、`conda-forge`をこちらの [チャンネルプライオリティの設定](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge)でデフォルトチャンネルに設定できます。
 
 
@@ -66,12 +66,12 @@ Windows、macOS、Linuxのすべてのユーザー向けには:
 
 GPUを使用する場合:
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html) をインストールして下さい。
-- `base` のconda環境を出来るだけ小さく保って下さい。 そして、一つか二つ個別の[`conda environment`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)を使って、作業中のタスクやプロジェクトに必要なパッケージをインストールしましょう。
+- `base` のconda環境を出来るだけ小さく保って下さい。 そして、一つか二つ個別の[`conda environment`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)を使って、作業中のタスクやプロジェクトに必要なパッケージをインストールしましょう。
 - また、`デフォルトの` conda channel (`conda-forge` は GPU パッケージをまだサポートしていません) を使用してください。
 
 上記以外の場合
 - [Miniforge](https://github.com/conda-forge/miniforge) をインストールします。
-- `base` のconda環境を出来るだけ小さく保って下さい。 そして、一つか二つ個別の[`conda environment`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)を使って、作業中のタスクやプロジェクトに必要なパッケージをインストールしましょう。
+- `base` のconda環境を出来るだけ小さく保って下さい。 そして、一つか二つ個別の[`conda environment`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)を使って、作業中のタスクやプロジェクトに必要なパッケージをインストールしましょう。
 
 
 #### pip/PyPI を利用したい場合
@@ -104,7 +104,7 @@ GPUを使用する場合:
 
 1. プロジェクトごとに異なる仮想環境を使用して下さい。
 2. パッケージインストーラを使用してパッケージ名とバージョンを記録するようにして下さい。それぞれ、独自のメタデータフォーマットがあります:
-   - condaの場合: [conda environmentsとenvironment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
+   - condaの場合: [conda environmentsとenvironment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
    - pipの場合: [仮想環境](https://docs.python.org/3/tutorial/venv.html) と [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
    - poetryの場合: [仮想環境とpyproject.toml](https://python-poetry.org/docs/basic-usage/)
 

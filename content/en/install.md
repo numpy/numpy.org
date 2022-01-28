@@ -80,7 +80,7 @@ On all of Windows, macOS, and Linux:
 
 - Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
 - Keep the `base` conda environment minimal, and use one or more
-  [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
+  [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
   to install the package you need for the task or project you're working on.
 - Unless you're fine with only the packages in the `defaults` channel, make `conda-forge`
   your default channel via [setting the channel priority](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge).
@@ -97,7 +97,7 @@ able to use the latest versions of libraries:
 If you use a GPU:
 - Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
 - Keep the `base` conda environment minimal, and use one or more
-  [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
+  [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
   to install the package you need for the task or project you're working on.
 - Use the `defaults` conda channel (`conda-forge` doesn't have good support for
   GPU packages yet).
@@ -105,7 +105,7 @@ If you use a GPU:
 Otherwise:
 - Install [Miniforge](https://github.com/conda-forge/miniforge).
 - Keep the `base` conda environment minimal, and use one or more
-  [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
+  [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
   to install the package you need for the task or project you're working on.
 
 
@@ -165,7 +165,7 @@ of packages and versions you're using. Best practice is to:
 1. use a different environment per project you're working on,
 2. record package names and versions using your package installer;
    each has its own metadata format for this:
-   - Conda: [conda environments and environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
+   - Conda: [conda environments and environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
    - Pip: [virtual environments](https://docs.python.org/3/tutorial/venv.html) and
   [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
    - Poetry: [virtual environments and pyproject.toml](https://python-poetry.org/docs/basic-usage/)
