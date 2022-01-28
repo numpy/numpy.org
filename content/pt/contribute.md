@@ -5,18 +5,18 @@ sidebar: false
 
 O projeto NumPy precisa de sua experiência e entusiasmo! Suas opções de não são limitadas à programação -- além de
 
-- [Escrever código](#writing-code)
+- [Escrever código]({{< relref "contribute.md#writing-code" >}})
 
 você pode:
 
-- [Revisar pull requests](#reviewing-pull-requests)
-- [Desenvolver tutoriais, apresentações e outros materiais educacionais](#developing-educational-materials)
-- [Fazer triagem em issues](#issue-triaging)
-- [Trabalhar no nosso site](#website-development)
-- [Contribuir com design gráfico](#graphic-design)
-- [Traduzir conteúdo do site](#translating-website-content)
-- [Trabalhar coordenando a comunidade](#community-coordination-and-outreach)
-- [Escrever propostas e ajudar com outras atividades para financiamento](#fundraising)
+- [Revisar pull requests]({{< relref "contribute.md#reviewing-pull-requests" >}})
+- [Desenvolver tutoriais, apresentações e outros materiais educacionais]({{< relref "contribute.md#developing-educational-materials" >}})
+- [Fazer triagem em issues]({{< relref "contribute.md#issue-triaging" >}})
+- [Trabalhar no nosso site]({{< relref "contribute.md#website-development" >}})
+- [Contribuir com design gráfico]({{< relref "contribute.md#graphic-design" >}})
+- [Traduzir conteúdo do site]({{< relref "contribute.md#translating-website-content" >}})
+- [Trabalhar coordenando a comunidade]({{< relref "contribute.md#community-coordination-and-outreach" >}})
+- [Escrever propostas e ajudar com outras atividades para financiamento]({{< relref "contribute.md#fundraising" >}})
 
 Se você não sabe por onde começar ou como suas habilidades podem ajudar, _fale conosco!_ Você pode perguntar na nossa [lista de emails](https://mail.python.org/mailman/listinfo/numpy-discussion) ou [GitHub](http://github.com/numpy/numpy) (abrindo uma [issue](https://github.com/numpy/numpy/issues) ou comentando em uma issue relevante).
 
