@@ -11,3 +11,6 @@
 
 [[plugins]]
   package = "netlify-plugin-checklinks"
+
+  [plugins.inputs]
+    todoPatterns = [" public/pt/user-surveys", " public/ja/user-surveys"]
