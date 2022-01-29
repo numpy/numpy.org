@@ -45,7 +45,9 @@ and welcoming environment.
 
 Programmers, this
 [guide](https://numpy.org/devdocs/dev/index.html#development-process-summary)
-explains how to contribute to the codebase.
+explains how to contribute to the NumPy codebase.
+<br>Check out also our [YouTube channel](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) for additional advice.
+
 
 ### Reviewing pull requests
 The project has more than 250 open pull requests -- meaning many potential
