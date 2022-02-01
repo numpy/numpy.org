@@ -3,21 +3,9 @@ title: Contribute to NumPy
 sidebar: false
 ---
 
-The NumPy project welcomes your expertise and enthusiasm! Your
-choices aren't limited to programming -- in addition to
-
-- [Writing code](#writing-code)
-
-you can
-
-- [Review pull requests](#reviewing-pull-requests)
-- [Develop tutorials, presentations, and other educational material](#developing-educational-materials)
-- [Triage issues](#issue-triaging)
-- [Work on our website](#website-development)
-- [Contribute graphic design](#graphic-design)
-- [Translate website content](#translating-website-content)
-- [Serve as a community coordinator](#community-coordination-and-outreach)
-- [Write grant proposals and help with other fundraising](#fundraising)
+The NumPy project welcomes your expertise and enthusiasm!
+Your choices aren't limited to programming, as you can
+see below there are many areas where we need **your** help.
 
 If you're unsure where to start or how your skills fit in, _reach out!_ You
 can ask on the [mailing
