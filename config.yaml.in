@@ -21,6 +21,8 @@ params:
   font:
     name: "Lato"
     sizes: [400,900]
+  plausible:
+    dataDomain: numpy.org
 languages:
   en:
     title: NumPy

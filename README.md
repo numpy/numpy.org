@@ -79,3 +79,9 @@ To update the teams gallery in numpy.org site, you need to run `make teams` Make
 export GH_TOKEN=xxxxxxxxxx
 make teams
 ```
+
+## Analytics
+
+A self-hosted version of [Plausible.io](https://plausible.io) is used to gather simple
+and privacy-friendly analytics for the site. The dashboard can be accessed
+[here](https://views.scientific-python.org/numpy.org).
