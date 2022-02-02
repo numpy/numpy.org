@@ -59,7 +59,6 @@
     text-align: center;
     align-items: center;
     margin: 15px;
-    min-width: 260px;
 }
 
 .shell-title {
@@ -90,7 +89,7 @@
 }
 
 .shell-lesson {
-    display: none;
+    display: flex;
     text-align: left;
     padding: 15px;
     height: 100%;
