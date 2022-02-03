@@ -190,7 +190,7 @@
     }
 
     #numpy-shell {
-        width: 100vw;
+        min-height: 500px;
     }
 
     #demo-code {
