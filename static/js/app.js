@@ -9,6 +9,10 @@ $('.sign-up-input').focus(function(e) {
   }
 });
 
+function loadShell() {
+  $('#fake-shell').css('display', 'none');
+  $('#numpy-shell').css('display', 'flex');
+}
 
 function sendThankYou() {
   // Hides the email form to show a thank you

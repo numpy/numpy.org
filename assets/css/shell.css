@@ -104,14 +104,6 @@
     margin-bottom: 1px !important;
 }
 
-.demo-caret {
-    position: absolute;
-    top: 4px;
-    left: 7px;
-    font-weight: bolder;
-    font-size: small;
-}
-
 #demo-code {
     position: relative;
     border: none;

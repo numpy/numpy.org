@@ -8,8 +8,19 @@
                 {{ partial "shell-content.html" . }}
             </div>
             <!-- Interactive Shell -->
+            <div id="fake-shell">
+                {{- range $button }}
+                <button class="shell-enable-button shell-button" onclick="loadShell();" aria-label="{{ .label }}">
+                    {{ .text }}
+                    <div class="loader-container">
+                        <div id="shell-loader" class="loader"></div>
+                    </div>
+                </button>
+                {{- end }}
+            </div>
             <iframe
                 id="numpy-shell"
+                style="display: none"
                 src="https://replite.vercel.app/retro/consoles/?toolbar=1&kernel=python&code=import%20numpy%20as%20np"
                 width="100%"
                 height="100%"
