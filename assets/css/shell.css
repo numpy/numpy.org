@@ -59,7 +59,6 @@
     text-align: center;
     align-items: center;
     margin: 15px;
-    min-width: 260px;
 }
 
 .shell-title {
@@ -90,7 +89,7 @@
 }
 
 .shell-lesson {
-    display: none;
+    display: flex;
     text-align: left;
     padding: 15px;
     height: 100%;
@@ -103,14 +102,6 @@
 
 .highlight:not(:last-child) {
     margin-bottom: 1px !important;
-}
-
-.demo-caret {
-    position: absolute;
-    top: 4px;
-    left: 7px;
-    font-weight: bolder;
-    font-size: small;
 }
 
 #demo-code {
@@ -176,10 +167,6 @@
     font-size: 0.8em;
 }
 
-.thebelab-input {
-    height: 190px;
-}
-
 #demo-output-parent {
     position: relative;
 }
@@ -195,7 +182,7 @@
     }
 
     #numpy-shell {
-        width: 100vw;
+        min-height: 500px;
     }
 
     #demo-code {

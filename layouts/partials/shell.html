@@ -8,8 +8,7 @@
                 {{ partial "shell-content.html" . }}
             </div>
             <!-- Interactive Shell -->
-            <div class="fake-shell" id="demo-code">
-                <div class="demo-caret" aria-label="{{ $promptlabel }}">&gt;</div>
+            <div id="fake-shell">
                 {{- range $button }}
                 <button class="shell-enable-button shell-button" onclick="loadShell();" aria-label="{{ .label }}">
                     {{ .text }}
@@ -19,9 +18,14 @@
                 </button>
                 {{- end }}
             </div>
-            <div class="real-shell" id="numpy-shell" style="display: none;">
-                <pre id="demo-code" data-executable="true" data-language="python" style="white-space: pre-line;">import numpy as np</pre>
-            </div>
+            <iframe
+                id="numpy-shell"
+                style="display: none"
+                src="https://replite.vercel.app/retro/consoles/?toolbar=1&kernel=python&code=import%20numpy%20as%20np"
+                width="100%"
+                height="100%"
+            >
+            </iframe>
         </div>
     </div>
 </div>
