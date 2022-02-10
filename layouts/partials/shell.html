@@ -12,9 +12,6 @@
                 {{- range $button }}
                 <button class="shell-enable-button shell-button" onclick="loadShell();" aria-label="{{ .label }}">
                     {{ .text }}
-                    <div class="loader-container">
-                        <div id="shell-loader" class="loader"></div>
-                    </div>
                 </button>
                 {{- end }}
             </div>
