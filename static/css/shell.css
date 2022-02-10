@@ -39,7 +39,7 @@
 .shell-title-container {
     text-align: center;
     align-items: center;
-    margin: 15px;
+    background: rgb(238, 238, 238);
 }
 
 .shell-title {
