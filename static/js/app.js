@@ -10,7 +10,7 @@ $('.sign-up-input').focus(function(e) {
 });
 
 function loadShell() {
-  $('#fake-shell').css('display', 'none');
+  $('.shell-enable-button').remove();
   $('#numpy-shell').css('display', 'flex');
 }
 

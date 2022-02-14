@@ -1,23 +1,26 @@
 {{- $shell := .Site.Params.shell }}
-{{- $promptlabel := index $shell "promptlabel" }}
 {{- $button := index $shell "button" }}
+{{- $intro := index $shell "intro" }}
 <div class="hero-right">
+    <div class="flex-column shell-title-container">
+        {{- range $intro }}
+            <div class="shell-title">{{ .title }}</div>
+            <div class="shell-content-message">
+                <p>{{ .text }}</p>
+            </div>
+        {{- end }}
+    </div>
     <div class="numpy-shell-canvas">
         <div class="numpy-shell-container">
-            <div class="flex-column shell-title-container">
-                {{ partial "shell-content.html" . }}
+            <div class="shell-lesson shell-content">
+                {{partial "shell-lesson.html" | print | markdownify}}
             </div>
             <!-- Interactive Shell -->
-            <div id="fake-shell">
-                {{- range $button }}
-                <button class="shell-enable-button shell-button" onclick="loadShell();" aria-label="{{ .label }}">
-                    {{ .text }}
-                    <div class="loader-container">
-                        <div id="shell-loader" class="loader"></div>
-                    </div>
-                </button>
-                {{- end }}
-            </div>
+            {{- range $button }}
+            <button class="shell-enable-button shell-button" onclick="loadShell();" aria-label="{{ .label }}">
+                {{ .text }}
+            </button>
+            {{- end }}
             <iframe
                 id="numpy-shell"
                 style="display: none"
