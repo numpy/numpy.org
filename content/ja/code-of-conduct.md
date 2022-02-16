@@ -55,7 +55,7 @@ NumPy行動規範委員会に問題を報告する場合は、こちらにご連
 
 * Stefan van der Walt
 * Melissa Weber Mendonça
-* Anirudh Subramanian
+* Rohit Goswami
 
 もしあなたの違反報告に委員会のメンバーが含まれている場合, または彼らがそれを処理する上で利益相反をしていると感じる場合、そのメンバーはあなたの報告を評価する立場からは辞退してもらいます。 もしくは、行動規範委員会に報告するのが躊躇われる場合は、こちらからNumFOCUSのシニアスタッフに連絡することも可能です:[conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible) 。
 
