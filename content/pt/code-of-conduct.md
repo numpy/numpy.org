@@ -55,7 +55,7 @@ Atualmente, o comitê é formato por:
 
 * Stefan van der Walt
 * Melissa Weber Mendonça
-* Anirudh Subramanian
+* Rohit Goswami
 
 Se o seu relatório envolve algum membro da comissão, ou se você sentir que existe um conflito de interesses em tratá-lo, então os membros abster-se-ão de considerar o seu relatório. Como alternativa, se por qualquer razão você se sentir desconfortável em fazer um relatório à comissão, então você também pode entrar em contato com a equipe sênior da NumFOCUS em [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 

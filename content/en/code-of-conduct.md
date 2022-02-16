@@ -55,7 +55,7 @@ Currently, the Committee consists of:
 
 * Stefan van der Walt
 * Melissa Weber Mendonça
-* Anirudh Subramanian
+* Rohit Goswami
 
 If your report involves any members of the Committee, or if they feel they have a conflict of interest in handling it, then they will recuse themselves from considering your report. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
