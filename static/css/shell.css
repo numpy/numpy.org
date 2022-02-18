@@ -47,28 +47,6 @@
     font-weight: bold;
 }
 
-.shell-enable-button {
-    position: relative;
-    margin: 15px 0;
-}
-
-.shell-button {
-    width: 225px;
-    height: 50px;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-weight: 500;
-    color: rgb(0,0,0);
-    background-color: rgb(238, 238, 238);
-    border: none;
-    border-radius: 25px;
-    outline: none;
-    /* Black, with 10% opacity */
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-}
-
 .shell-lesson {
     display: none;
     text-align: left;

@@ -21,14 +21,9 @@ params:
 
     intro:
     - title: Try NumPy
-      text: Enable the interactive shell
+      text: Use the interactive shell to try NumPy in the browser
 
     docslink: Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a>.
-
-    button:
-    - label: Enables the interactive tutorial shell
-      text: Enable
-
 
   casestudies:
     title: CASE STUDIES

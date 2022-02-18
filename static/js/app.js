@@ -9,11 +9,6 @@ $('.sign-up-input').focus(function(e) {
   }
 });
 
-function loadShell() {
-  $('.shell-enable-button').remove();
-  $('#numpy-shell').css('display', 'flex');
-}
-
 function sendThankYou() {
   // Hides the email form to show a thank you
   $('.sign-up-container').css('display', 'none');
