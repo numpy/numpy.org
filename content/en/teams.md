@@ -9,6 +9,8 @@ communities worldwide by building quality, open-source software.
 
 {{< include-html "static/gallery/maintainers.html" >}}
 
+{{< include-html "static/gallery/docs-team.html" >}}
+
 {{< include-html "static/gallery/web-team.html" >}}
 
 {{< include-html "static/gallery/triage-team.html" >}}
