@@ -1,6 +1,5 @@
 .hero-right {
     display: flex;
-    flex-direction: column;
     width: 100vw;
     /* Black, with 10% opacity */
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -49,7 +48,7 @@
 }
 
 .shell-lesson {
-    display: flex;
+    display: none;
     text-align: left;
     padding: 15px;
     height: 100%;
@@ -87,6 +86,6 @@
     }
 
     #numpy-shell {
-        min-height: 500px;
+        width: 100vw;
     }
 }
