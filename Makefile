@@ -36,7 +36,7 @@ teams-clean: prepare
 teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS)) ## generates numpy.org team gallery pages
 
 serve: prepare ## serve the website
-	hugo $(BASEURLARG) --i18n-warnings server -D
+	hugo $(BASEURLARG) --printI18nWarnings server -D
 
 html: prepare ## build the website in ./public
 	hugo $(BASEURLARG)
