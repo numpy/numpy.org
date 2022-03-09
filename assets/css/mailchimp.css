@@ -17,6 +17,12 @@
   border-radius: 5px 0 0 5px;
 }
 
+#footer .sign-up-image svg.icon {
+  fill: var(--colorPrimaryDark);
+  width: 1em;
+  height: 1em;
+}
+
 .sign-up-input {
   background-color: var(--colorSecondary);
   border-radius: 0 5px 5px 0;
@@ -37,6 +43,12 @@
 
 .signup-button {
   display: none;
+}
+
+#footer .signup-button svg.icon {
+  fill: var(--colorPrimaryDark);
+  width: 1em;
+  height: 1em;
 }
 
 .thank-you {
