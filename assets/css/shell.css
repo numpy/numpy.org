@@ -4,6 +4,7 @@
     /* Black, with 10% opacity */
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     background: rgb(238, 238, 238);
+    padding: 15px;
 }
 
 .numpy-shell-canvas {
