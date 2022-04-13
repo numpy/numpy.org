@@ -25,7 +25,6 @@ growth and sustainability of diverse and inclusive open-source software
 communities. Accepted participants will participate in a 30-minute interview
 with a research team member.
 
-Thank you for your interest!
 
 ### Numpy 1.22.0 release
 
