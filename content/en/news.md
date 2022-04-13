@@ -1,9 +1,29 @@
 ---
 title: News
 sidebar: false
-newsHeader: NumPy 1.22.0 released
+newsHeader: NumFOCUS DEI research study - call for participation
 date:
 ---
+
+### NumFOCUS DEI research study: call for participation
+
+NumPy is working with [NumFOCUS](http://numfocus.org/) on a
+[research project](https://numfocus.org/diversity-inclusion-disc/a-pivotal-time-in-numfocuss-project-aimed-dei-efforts?eType=EmailBlastContent&eId=f41a86c3-60d4-4cf9-86cf-58eb49dc968c)
+funded by the [Gordon & Betty Moore Foundation](https://www.moore.org/) to
+understand the barriers to participation that contributors, particularly those
+from historically underrepresented groups, face in the open-source software
+community. The research team would like to talk to new contributors, project
+developers and maintainers, and those who have contributed in the past about
+their experiences joining and contributing to NumPy.
+
+**Interested in sharing your experiences?**
+
+Please complete this brief [“Participant Interest” form](https://numfocus.typeform.com/to/WBWVJSqe)
+which contains additional information on the research goals, privacy, and
+confidentiality considerations. Your participation will be valuable to the
+growth and sustainability of diverse and inclusive open-source software
+communities. Accepted participants will participate in a 30-minute interview
+with a research team member.
 
 ### Numpy 1.22.0 release
 
