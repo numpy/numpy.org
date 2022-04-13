@@ -25,7 +25,6 @@ growth and sustainability of diverse and inclusive open-source software
 communities. Accepted participants will participate in a 30-minute interview
 with a research team member.
 
-
 ### Numpy 1.22.0 release
 
 _Dec 31, 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html)
