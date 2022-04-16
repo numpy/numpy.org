@@ -51,28 +51,11 @@ Em Windows, macOS e Linux:
 
 ### Usuários avançados
 
-#### Windows ou macOS
+#### Conda
 
 - Instale o [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
 - Mantenha o ambiente conda `base` mínimo, e use um ou mais [ambientes conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) para instalar o pacote que você precisa para a tarefa ou projeto em que você está trabalhando.
 - A menos que você esteja satisfeito com apenas os pacotes no canal `defaults`, faça do `conda-forge` seu canal padrão [definindo a prioridade do canal](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge).
-
-
-#### Linux
-
-Se você não tiver problemas em ter pacotes um pouco desatualizados e preferir estabilidade ao invés de ser capaz de usar as últimas versões das bibliotecas:
-- Use seu gerenciador de pacotes do SO o máximo possível (para o Python, NumPy e outras bibliotecas).
-- Instale pacotes não fornecidos pelo seu gerenciador de pacotes com `pip install algumpacote --user`.
-
-Se você usa uma GPU:
-- Instale o [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-- Mantenha o ambiente conda `base` mínimo, e use um ou mais [ambientes conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) para instalar o pacote que você precisa para a tarefa ou projeto em que você está trabalhando.
-- Use o canal conda`defaults` (`conda-forge` não tem bom suporte para pacotes de GPU).
-
-Caso contrário:
-- Instale o [Miniforge](https://github.com/conda-forge/miniforge).
-- Mantenha o ambiente conda `base` mínimo, e use um ou mais [ambientes conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) para instalar o pacote que você precisa para a tarefa ou projeto em que você está trabalhando.
-
 
 #### Alternativa se você preferir pip/PyPI
 
