@@ -82,8 +82,6 @@ On all of Windows, macOS, and Linux:
 - Keep the `base` conda environment minimal, and use one or more
   [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
   to install the package you need for the task or project you're working on.
-- Make `conda-forge` your default channel by [setting the channel
-  priority](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge).
 
 #### Alternative if you prefer pip/PyPI
 
