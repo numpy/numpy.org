@@ -53,7 +53,7 @@ Em Windows, macOS e Linux:
 
 #### Conda
 
-- Instale o [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+- Instale o [Miniforge](https://github.com/conda-forge/miniforge).
 - Mantenha o ambiente conda `base` mínimo, e use um ou mais [ambientes conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) para instalar o pacote que você precisa para a tarefa ou projeto em que você está trabalhando.
 - A menos que você esteja satisfeito com apenas os pacotes no canal `defaults`, faça do `conda-forge` seu canal padrão [definindo a prioridade do canal](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge).
 

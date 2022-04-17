@@ -53,7 +53,7 @@ Windows、macOS、Linuxのすべてのユーザー向けには:
 
 #### Conda
 
-- [Miniconda](https://docs.conda.io/en/latest/miniconda.html) をインストールします。
+- [Miniforge](https://github.com/conda-forge/miniforge) をインストールします。
 - `base` のconda環境を出来るだけ小さく保って下さい。 そして、一つか二つ個別の[`conda environment`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)を使って、作業中のタスクやプロジェクトに必要なパッケージをインストールしましょう。
 - もし、あなたの必要なパッケージが`defaults` チャンネルだけで足りない場合は、`conda-forge`をこちらの [チャンネルプライオリティの設定](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge)でデフォルトチャンネルに設定できます。
 

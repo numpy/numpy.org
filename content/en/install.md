@@ -78,12 +78,12 @@ On all of Windows, macOS, and Linux:
 
 #### Conda
 
-- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+- Install [Miniforge](https://github.com/conda-forge/miniforge).
 - Keep the `base` conda environment minimal, and use one or more
   [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
   to install the package you need for the task or project you're working on.
-- Unless you're fine with only the packages in the `defaults` channel, make `conda-forge`
-  your default channel via [setting the channel priority](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge).
+- Make `conda-forge` your default channel by [setting the channel
+  priority](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge).
 
 #### Alternative if you prefer pip/PyPI
 
