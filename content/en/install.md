@@ -76,38 +76,12 @@ On all of Windows, macOS, and Linux:
 
 ### Advanced users
 
-#### Windows or macOS
+#### Conda
 
-- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-- Keep the `base` conda environment minimal, and use one or more
-  [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
-  to install the package you need for the task or project you're working on.
-- Unless you're fine with only the packages in the `defaults` channel, make `conda-forge`
-  your default channel via [setting the channel priority](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge).
-
-
-#### Linux
-
-If you're fine with slightly outdated packages and prefer stability over being
-able to use the latest versions of libraries:
-- Use your OS package manager for as much as possible (Python itself, NumPy, and
-  other libraries).
-- Install packages not provided by your package manager with `pip install somepackage --user`.
-
-If you use a GPU:
-- Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-- Keep the `base` conda environment minimal, and use one or more
-  [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
-  to install the package you need for the task or project you're working on.
-- Use the `defaults` conda channel (`conda-forge` doesn't have good support for
-  GPU packages yet).
-
-Otherwise:
 - Install [Miniforge](https://github.com/conda-forge/miniforge).
 - Keep the `base` conda environment minimal, and use one or more
   [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
   to install the package you need for the task or project you're working on.
-
 
 #### Alternative if you prefer pip/PyPI
 

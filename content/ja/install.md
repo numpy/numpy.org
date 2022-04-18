@@ -51,28 +51,10 @@ Windows、macOS、Linuxのすべてのユーザー向けには:
 
 ### 上級ユーザー
 
-#### WindowsまたはmacOS
+#### Conda
 
-- [Miniconda](https://docs.conda.io/en/latest/miniconda.html) をインストールします。
-- `base` のconda環境を出来るだけ小さく保って下さい。 そして、一つか二つ個別の[`conda environment`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)を使って、作業中のタスクやプロジェクトに必要なパッケージをインストールしましょう。
-- もし、あなたの必要なパッケージが`defaults` チャンネルだけで足りない場合は、`conda-forge`をこちらの [チャンネルプライオリティの設定](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge)でデフォルトチャンネルに設定できます。
-
-
-#### Linux
-
-もしあなたが最新バージョンのライブラリを使用するよりも、少し古いパッケージで安定性を求める場合は:
-- Python本体やNumPy、その他のライブラリのインストールに、可能な限りOSのパッケージマネージャーを使用してください。。
-- `pip install somepackage --user` でパッケージマネージャによって提供されていないパッケージをインストールすることができます。
-
-GPUを使用する場合:
-- [Miniconda](https://docs.conda.io/en/latest/miniconda.html) をインストールして下さい。
-- `base` のconda環境を出来るだけ小さく保って下さい。 そして、一つか二つ個別の[`conda environment`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)を使って、作業中のタスクやプロジェクトに必要なパッケージをインストールしましょう。
-- また、`デフォルトの` conda channel (`conda-forge` は GPU パッケージをまだサポートしていません) を使用してください。
-
-上記以外の場合
 - [Miniforge](https://github.com/conda-forge/miniforge) をインストールします。
 - `base` のconda環境を出来るだけ小さく保って下さい。 そして、一つか二つ個別の[`conda environment`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)を使って、作業中のタスクやプロジェクトに必要なパッケージをインストールしましょう。
-
 
 #### pip/PyPI を利用したい場合
 
