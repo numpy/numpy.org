@@ -1,29 +1,9 @@
 ---
 title: News
 sidebar: false
-newsHeader: NumFOCUS DEI research study - call for participation
+newsHeader: NumPy 1.23.0 released
 date:
 ---
-
-### NumFOCUS DEI research study: call for participation
-
-NumPy is working with [NumFOCUS](http://numfocus.org/) on a
-[research project](https://numfocus.org/diversity-inclusion-disc/a-pivotal-time-in-numfocuss-project-aimed-dei-efforts?eType=EmailBlastContent&eId=f41a86c3-60d4-4cf9-86cf-58eb49dc968c)
-funded by the [Gordon & Betty Moore Foundation](https://www.moore.org/) to
-understand the barriers to participation that contributors, particularly those
-from historically underrepresented groups, face in the open-source software
-community. The research team would like to talk to new contributors, project
-developers and maintainers, and those who have contributed in the past about
-their experiences joining and contributing to NumPy.
-
-**Interested in sharing your experiences?**
-
-Please complete this brief [“Participant Interest” form](https://numfocus.typeform.com/to/WBWVJSqe)
-which contains additional information on the research goals, privacy, and
-confidentiality considerations. Your participation will be valuable to the
-growth and sustainability of diverse and inclusive open-source software
-communities. Accepted participants will participate in a 30-minute interview
-with a research team member.
 
 ### Numpy 1.23.0 released
 
@@ -40,6 +20,26 @@ promotion of dtypes, increase the execution speed, clarify the documentation,
 and expire old deprecations. It is the work of 151 contributors spread over
 494 pull requests. The Python versions supported by this release 3.8-3.10.
 Python 3.11 will be supported when it reaches the rc stage.
+
+### NumFOCUS DEI research study: call for participation
+
+_Apr 13, 2022_ -- NumPy is working with [NumFOCUS](http://numfocus.org/) on a
+[research project](https://numfocus.org/diversity-inclusion-disc/a-pivotal-time-in-numfocuss-project-aimed-dei-efforts?eType=EmailBlastContent&eId=f41a86c3-60d4-4cf9-86cf-58eb49dc968c)
+funded by the [Gordon & Betty Moore Foundation](https://www.moore.org/) to
+understand the barriers to participation that contributors, particularly those
+from historically underrepresented groups, face in the open-source software
+community. The research team would like to talk to new contributors, project
+developers and maintainers, and those who have contributed in the past about
+their experiences joining and contributing to NumPy.
+
+**Interested in sharing your experiences?**
+
+Please complete this brief [“Participant Interest” form](https://numfocus.typeform.com/to/WBWVJSqe)
+which contains additional information on the research goals, privacy, and
+confidentiality considerations. Your participation will be valuable to the
+growth and sustainability of diverse and inclusive open-source software
+communities. Accepted participants will participate in a 30-minute interview
+with a research team member.
 
 ### Numpy 1.22.0 release
 
