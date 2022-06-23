@@ -25,6 +25,22 @@ growth and sustainability of diverse and inclusive open-source software
 communities. Accepted participants will participate in a 30-minute interview
 with a research team member.
 
+### Numpy 1.23.0 released
+
+_Jun 22, 2022_ -- [NumPy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html)
+is now available. The highlights of the release are:
+
+* Implementation of ``loadtxt`` in C, greatly improving its performance.
+* Exposure of DLPack at the Python level for easy data exchange.
+* Changes to the promotion and comparisons of structured dtypes.
+* Improvements to f2py.
+
+The NumPy 1.23.0 release continues the ongoing work to improve the handling and
+promotion of dtypes, increase the execution speed, clarify the documentation,
+and expire old deprecations. It is the work of 151 contributors spread over
+494 pull requests. The Python versions supported by this release 3.8-3.10.
+Python 3.11 will be supported when it reaches the rc stage.
+
 ### Numpy 1.22.0 release
 
 _Dec 31, 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html)
@@ -251,6 +267,7 @@ Here is a list of NumPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- NumPy 1.23.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.23.0)) -- _22 Jun 2022_.
 - NumPy 1.22.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.22.4)) -- _20 May 2022_.
 - NumPy 1.21.6 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.6)) -- _12 Apr 2022_.
 - NumPy 1.22.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.22.3)) -- _7 Mar 2022_.
