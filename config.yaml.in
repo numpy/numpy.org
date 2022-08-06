@@ -2,7 +2,6 @@ baseURL: https://numpy.org/
 languageCode: en-us
 theme: scientific-python-hugo-theme
 disableKinds: ["taxonomy", "term"]
-googleAnalytics: UA-162151853-1
 DefaultContentLanguage: en
 markup:
   goldmark:
