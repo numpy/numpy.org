@@ -6,7 +6,7 @@ sidebar: false
 # WIP for Draft PR: not final placement
 
 **Markdown Image test:**
-![A comic showing how people can start contributing to NumPy](images/content_images/contribute_journey/Numpy_Adventure.png)
+![A comic showing how people can start contributing to NumPy](/images/content_images/contribute_journey/Numpy_Adventure.png)
 
 **Hugo image test:**
 {{< figure src="/images/content_images/contribute_journey/Numpy_Adventure.png" caption="**NumPy Contributor Journey: Choose Your Adventure!**" alt="A comic showing how people can start contributing to NumPy" >}}
