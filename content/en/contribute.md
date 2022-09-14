@@ -3,6 +3,23 @@ title: Contribute to NumPy
 sidebar: false
 ---
 
+# WIP for Draft PR: not final placement
+
+**Markdown Image test:**
+![A comic showing how people can start contributing to NumPy](static/images/content_images/contribute_journey/Numpy_Adventure.png)
+
+**Hugo image test:**
+{{< figure src="/images/content_images/contribute_journey/Numpy_Adventure.png" caption="**NumPy Contributor Journey: Choose Your Adventure!**" alt="A comic showing how people can start contributing to NumPy" >}}
+
+**Panel by panel breakdown**
+
+| Panel | Image Description | Copy/Script |
+|---|---|---|
+| {{< figure src="/images/content_images/contribute_journey/Numpy_Adventure_tracks.png" caption="**NumPy Contributor Journey: Choose Your Adventure!**" alt="A panel showing how different tracks in NumPy" width="500" >}}| A person excitedly holding up a sword. They are standing next to the NumPy logo and the various tracks in NumPy. The tracks are laid in a diverging tree-like pattern. The first track, the "Contributor Track", eventually unlocks the second track, the "Review Track", which unlocks the "Merge Track", which unlocks the last track, the "Maintainer Track". These tracks are represented by dots and the unlocking as keys. Each track is personified with a person wearing a hat.  | Choose your adventure! Start as a contributor! Once you gain enough experience, you can become a reviewer! And perhaps with enough experience and mentorship, you can merge PRs. |
+| {{< figure src="/images/content_images/contribute_journey/Numpy_Adventure_maintainers.png" caption="**NumPy Contributor Journey: Choose Your Adventure!**" alt="A panel showing the role and importance of maintainers." width="500" >}} | A contributor with merge permissions is kneeling down, using their torch to light a campfire. Around the campfire are two maintainers. One is excitedly waving their arms, the other watches on proud and serene. | If you feel that fire within you,  to keep NumPy going, you can join as a maintainer! It's not a quick or easy path. But it's one worth having. Of course, not everyone should or wants to be a maintainer! You may decide to stay a regular contributor. Or review PRs every now and then. |
+| {{< figure src="/images/content_images/contribute_journey/Numpy_Adventure_call_to_action.png" caption="**NumPy Contributor Journey: Choose Your Adventure!**" alt="A panel showing different calls to action." width="500" >}} | A person looking at a computer screen which shows a NumPy community call. An icon of Slack. | Your NumPy adventure is yours to choose! And the NumPy community wil be there with you every step of the way! Start your adventure by joining the NumPy Slack! Or join our community call (every 2 weeks, Wednesday at 6pm UTC). For calendars and links, check out: NumPy.org/community |
+
+---
 The NumPy project welcomes your expertise and enthusiasm!
 Your choices aren't limited to programming, as you can
 see below there are many areas where we need **your** help.
