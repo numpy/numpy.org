@@ -18,10 +18,10 @@ O papel do Conselho Diretor do NumPy consiste em assegurar o bem-estar a longo p
 - Ralf Gommers
 - Charles Harris
 - Stephan Hoyer
-- Melissa Weber Mendonça
 - Inessa Pawson
 - Matti Picus
 - Stéfan van der Walt
+- Melissa Weber Mendonça
 - Eric Wieser
 
 Membros Eméritos:

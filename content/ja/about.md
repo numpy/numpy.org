@@ -18,10 +18,10 @@ NumPy運営委員会の役割は、NumPyのコミュニティと協力しサポ�
 - Ralf Gommers
 - Charles Harris
 - Stephan Hoyer
-- Melissa Weber Mendonça
 - Inessa Pawson
 - Matti Picus
 - Stéfan van der Walt
+- Melissa Weber Mendonça
 - Eric Wieser
 
 終身名誉委員

@@ -18,10 +18,10 @@ The role of the NumPy Steering Council is to ensure, through working with and se
 - Ralf Gommers
 - Charles Harris
 - Stephan Hoyer
-- Melissa Weber Mendonça
 - Inessa Pawson
 - Matti Picus
 - Stéfan van der Walt
+- Melissa Weber Mendonça
 - Eric Wieser
 
 Emeritus:
