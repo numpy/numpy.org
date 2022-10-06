@@ -14,24 +14,26 @@ NumPy は 、NumPyコミュニティやより広範な科学計算用Python コ�
 
 NumPy運営委員会の役割は、NumPyのコミュニティと協力しサポートすることを通じて、技術的にもコミュニティ的にも長期的にNumPyプロジェクトを良い状態に保つことです。 NumPy運営委員会は現在以下のメンバーで構成されています (アルファベット順):
 
-- Sebastian Berg
-- Jaime Fernández del Río
-- Ralf Gommers
-- Allan Haldane
 - Charles Harris
-- Stephan Hoyer
-- Matti Picus
-- Nathaniel Smith
-- Julian Taylor
-- Pauli Virtanen
-- Stéfan van der Walt
 - Eric Wieser
+- Inessa Pawson
+- Matti Picus
+- Melissa Weber Mendonça
+- Ralf Gommers
+- Sebastian Berg
+- Stephan Hoyer
+- Stéfan van der Walt
 
 終身名誉委員
 
-- Travis Oliphant (プロジェクト創設者, 2005-2012)
 - Alex Griffing (2015-2017)
+- Allan Haldane (2015-2021)
+- Jaime Fernández del Río (2014-2021)
+- Julian Taylor (2013-2021)
 - Marten van Kerkwijk (2017-2019)
+- Nathaniel Smith (2012-2021)
+- Pauli Virtanen (2008-2021)
+- Travis Oliphant (プロジェクト創設者, 2005-2012)
 
 ## チーム
 
