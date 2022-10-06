@@ -14,26 +14,26 @@ NumPy is developed in the open on GitHub, through the consensus of the NumPy and
 
 The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community. The NumPy Steering Council currently consists of the following members (in alphabetical order):
 
-- Sebastian Berg
-- Ralf Gommers
 - Charles Harris
-- Stephan Hoyer
-- Melissa Weber Mendonça
+- Eric Wieser
 - Inessa Pawson
 - Matti Picus
+- Melissa Weber Mendonça
+- Ralf Gommers
+- Sebastian Berg
+- Stephan Hoyer
 - Stéfan van der Walt
-- Eric Wieser
 
 Emeritus:
 
-- Travis Oliphant (project founder, 2005-2012)
 - Alex Griffing (2015-2017)
-- Marten van Kerkwijk (2017-2019)
 - Allan Haldane (2015-2021)
-- Nathaniel Smith (2012-2021)
-- Julian Taylor (2013-2021)
-- Pauli Virtanen (2008-2021)
 - Jaime Fernández del Río (2014-2021)
+- Julian Taylor (2013-2021)
+- Marten van Kerkwijk (2017-2019)
+- Nathaniel Smith (2012-2021)
+- Pauli Virtanen (2008-2021)
+- Travis Oliphant (project founder, 2005-2012)
 
 
 ## Teams
@@ -52,8 +52,8 @@ See the [Team]({{< relref "/teams" >}}) page for individual team members.
 ## NumFOCUS Subcommittee
 
 - Charles Harris
-- Ralf Gommers
 - Melissa Weber Mendonça
+- Ralf Gommers
 - Sebastian Berg
 - External member: Thomas Caswell
 
