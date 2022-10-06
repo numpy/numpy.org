@@ -12,28 +12,28 @@ O NumPy é desenvolvido no GitHub, através do consenso da comunidade NumPy e de
 
 ## Conselho Diretor (Steering Council)
 
-O papel do Conselho Diretor do NumPy consiste em assegurar o bem-estar a longo prazo do projeto, tanto nos aspectos técnicos quanto na comunidade. Isso é feito através do trabalho com e para a comunidade NumPy em geral. O Conselho Diretor do NumPy atualmente consiste dos seguintes membros (em ordem alfabética):
+O papel do Conselho Diretor do NumPy consiste em assegurar o bem-estar a longo prazo do projeto, tanto nos aspectos técnicos quanto na comunidade. Isso é feito através do trabalho com e para a comunidade NumPy em geral. O Conselho Diretor do NumPy atualmente consiste dos seguintes membros (em ordem alfabética, pelo sobrenome):
 
+- Sebastian Berg
+- Ralf Gommers
 - Charles Harris
-- Eric Wieser
+- Stephan Hoyer
+- Melissa Weber Mendonça
 - Inessa Pawson
 - Matti Picus
-- Melissa Weber Mendonça
-- Ralf Gommers
-- Sebastian Berg
-- Stephan Hoyer
 - Stéfan van der Walt
+- Eric Wieser
 
 Membros Eméritos:
 
 - Alex Griffing (2015-2017)
 - Allan Haldane (2015-2021)
-- Jaime Fernández del Río (2014-2021)
-- Julian Taylor (2013-2021)
 - Marten van Kerkwijk (2017-2019)
+- Travis Oliphant (project founder, 2005-2012)
 - Nathaniel Smith (2012-2021)
+- Julian Taylor (2013-2021)
+- Jaime Fernández del Río (2014-2021)
 - Pauli Virtanen (2008-2021)
-- Travis Oliphant (fundador do projeto, 2005-2012)
 
 ## Times
 
