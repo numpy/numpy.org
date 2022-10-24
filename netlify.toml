@@ -3,7 +3,7 @@
 [build.environment]
   PYTHON_VERSION = "3.8"
   # Same Hugo version as in .github/workflows/gh-pages.yml
-  HUGO_VERSION = "0.101.0"
+  HUGO_VERSION = "0.104.3"
 
 # Here is another way to define context specific environment variables.
 [context.deploy-preview.environment]
