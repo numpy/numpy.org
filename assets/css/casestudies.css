@@ -29,7 +29,7 @@
 }
 
 .casestudies a {
-    color: rgb(1, 50, 67) !important;
+    color: var(--colorPrimaryDark) !important;
 }
 
 .casestudies-box-title {
@@ -74,7 +74,7 @@
     left: 0;
     right: 100%;
     bottom: 0;
-    background: rgb(1, 50, 67);
+    background: var(--colorPrimaryDark);
     height: 4px;
     -webkit-transition-property: right;
     transition-property: right;

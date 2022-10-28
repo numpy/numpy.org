@@ -112,7 +112,7 @@ td.bold-text {
 }
 
 .scientific-domains td.bold-text {
-    color: #013243;
+    color: var(--colorPrimaryDark);
 }
 
 img.cell-layout {
