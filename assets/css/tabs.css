@@ -111,6 +111,10 @@ td.bold-text {
     text-align: center;
 }
 
+.scientific-domains td.bold-text {
+    color: #013243;
+}
+
 img.cell-layout {
     border-radius: 10px;
     width: 50px;
