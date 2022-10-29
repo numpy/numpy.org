@@ -33,6 +33,8 @@
 }
 
 .casestudies-box-title {
+    line-height: 1.5em;
+    height: 3.0em;
     margin: 15px;
     font-size: 16px;
     text-transform: uppercase;
@@ -45,7 +47,7 @@
 }
 
 .casestudies-box-text {
-    margin: 30px 15px;
+    margin: 30px 15px auto 15px;
     font-size: 14px;
 }
 
