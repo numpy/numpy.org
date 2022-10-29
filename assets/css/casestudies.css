@@ -38,6 +38,12 @@
     text-transform: uppercase;
 }
 
+.casestudies-box-content img {
+    object-fit: cover;
+    width: 350px;
+    height: 218.5px;
+}
+
 .casestudies-box-text {
     margin: 30px 15px;
     font-size: 14px;
