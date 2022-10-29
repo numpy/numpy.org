@@ -111,12 +111,16 @@ td.bold-text {
     text-align: center;
 }
 
+.scientific-domains td.bold-text {
+    color: var(--colorPrimaryDark);
+}
+
 img.cell-layout {
     border-radius: 10px;
     width: 50px;
     height: 50px;
     display: block;
-    margin-left: auto;
+    margin-left: 0px;
     margin-right: auto;
 }
 
