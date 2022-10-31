@@ -15,7 +15,7 @@ disableLanguages: ["pt", "ja"]
 
 params:
   images:
-  - /images/logo.svg
+  - /images/twitter-image.jpg
   navColor: blue
   font:
     name: "Lato"
