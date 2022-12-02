@@ -83,4 +83,6 @@ NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the U
 Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax advisor about your particular tax situation.
 
 NumPy's Steering Council will make the decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
-{{< numfocus >}}
+
+{{<opencollective>}}
+
