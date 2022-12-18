@@ -7,6 +7,22 @@ date:
 
 ### Numpy 1.23.0 released
 
+_Dec 18, 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html)
+is now available. The highlights of the release are:
+
+* New "dtype" and "casting" keywords for stacking functions.
+* New F2PY features and fixes.
+* Many new deprecations, check them out.
+* Many expired deprecations,
+
+The NumPy 1.24.0 release continues the ongoing work to improve the handling and
+promotion of dtypes, increase execution speed, and clarify the documentation.
+There are a large number of new and expired deprecations due to changes in
+dtype promotion and cleanups. It is the work of 177 contributors spread over
+444 pull requests. The supported Python versions are 3.8-3.11.
+
+### Numpy 1.23.0 released
+
 _Jun 22, 2022_ -- [NumPy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html)
 is now available. The highlights of the release are:
 
@@ -267,6 +283,7 @@ Here is a list of NumPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- NumPy 1.24.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.24.0)) -- _18 Dec 2022_.
 - NumPy 1.23.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.23.5)) -- _19 Nov 2022_.
 - NumPy 1.23.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.23.4)) -- _12 Oct 2022_.
 - NumPy 1.23.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.23.3)) -- _9 Sep 2022_.
