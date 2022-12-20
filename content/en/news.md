@@ -1,11 +1,11 @@
 ---
 title: News
 sidebar: false
-newsHeader: NumPy 1.23.0 released
+newsHeader: NumPy 1.24.0 released
 date:
 ---
 
-### Numpy 1.23.0 released
+### Numpy 1.24.0 released
 
 _Dec 18, 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html)
 is now available. The highlights of the release are:
