@@ -74,3 +74,4 @@ To thrive, the NumPy project needs your expertise and enthusiasm. Not a coder? N
 
 If you are interested in becoming a NumPy contributor (yay!) we recommend checking out our [Contribute](/contribute) page.
 
+NumPy also has a [Community Calendar](https://scientific-python.org/calendars/) that lists all upcoming NumPy community events. 
