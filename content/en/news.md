@@ -5,6 +5,13 @@ newsHeader: NumPy 1.24.0 released
 date:
 ---
 
+### NumPy documentation team leadership transition
+
+_Jan 6, 2023_ –- Mukulika Pahari and Ross Barnowski are appointed as the new NumPy 
+documentation team leads replacing Melissa Mendonça. We thank Melissa for all her 
+contributions to the NumPy official documentation and educational materials,
+and Mukulika and Ross for stepping up.
+
 ### Numpy 1.24.0 released
 
 _Dec 18, 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html)
