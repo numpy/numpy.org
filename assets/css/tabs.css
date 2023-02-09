@@ -143,7 +143,9 @@ td.lastrow-center-text {
 
 /* Array Libraries */
 img.first-column-layout {
-    height: 30px;
+    max-width: 100px;
+    max-height: 30px;
+    margin: 0px 20px 0px 10px;
 }
 
 td.left-text {
