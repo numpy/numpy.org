@@ -1,7 +1,7 @@
 ---
 title: News
 sidebar: false
-newsHeader: NumPy 1.24.0 released
+newsHeader: Meet the new NumPy docs team leads
 date:
 ---
 
