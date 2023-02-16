@@ -79,6 +79,8 @@ navbar:
     url: /community
   - title: About Us
     url: /about
+  - title: News
+    url: /news
   - title: Contribute
     url: /contribute
 footer:
