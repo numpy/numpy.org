@@ -62,11 +62,11 @@ arraylibraries:
     img: /images/content_images/arlib/xtensor.png
     alttext: xtensor
     url: https://github.com/xtensor-stack/xtensor-python
-  - title: XND
-    text: Develop libraries for array computing, recreating NumPy's foundational concepts.
-    img: /images/content_images/arlib/xnd.png
-    alttext: xnd
-    url: https://xnd.io
+  - title: Awkward Array
+    text: Manipulate JSON-like data with NumPy-like idioms.
+    img: /images/content_images/arlib/awkward.svg
+    alttext: awkward
+    url: https://awkward-array.org/
   - title: uarray
     text: Python backend system that decouples API from implementation; unumpy provides a NumPy API.
     img: /images/content_images/arlib/uarray.png
