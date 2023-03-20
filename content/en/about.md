@@ -68,7 +68,6 @@ NumPy receives direct funding from the following sources:
 
 Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include:
 
-- UC Berkeley (Stéfan van der Walt)
 - Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça)
 - NVIDIA (Sebastian Berg)
 
