@@ -35,7 +35,7 @@ Emeritus:
 - Jaime Fernández del Río (2014-2021)
 - Pauli Virtanen (2008-2021)
 
-To contact the NumPy Steering Council, please email at numpy-steering-council@googlegroups.com.
+To contact the NumPy Steering Council, please email numpy-steering-council@googlegroups.com.
 
 ## Teams
 
