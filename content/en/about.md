@@ -39,7 +39,7 @@ Emeritus:
 The NumPy project leadership is actively working on diversifying contribution pathways to the project.<br>
 NumPy currently has the following teams:
 
-- developer
+- development
 - documentation
 - triage
 - website
