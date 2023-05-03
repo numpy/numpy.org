@@ -3,9 +3,7 @@ title: Quem Somos
 sidebar: false
 ---
 
-_Algumas informações sobre o projeto NumPy e a comunidade_
-
-NumPy é um projeto de código aberto visando habilitar a computação numérica com Python. Foi criado em 2005, com base no trabalho inicial das bibliotecas Numeric e Numarray. O NumPy sempre será um software 100% de código aberto, livre para que todos usem e disponibilizados sob os termos liberais da [licença BSD modificada](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
+NumPy é um projeto de código aberto visando habilitar a computação numérica com Python. Foi criado em 2005, com base no trabalho inicial das bibliotecas Numeric e Numarray. O NumPy sempre será um software 100% de código aberto, livre para que todos usem e disponibilizados sob os termos liberais da [licença BSD modificada](https://github.com/numpy/numpy/blob/main/LICENSE.txt). It is released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
 
 O NumPy é desenvolvido no GitHub, através do consenso da comunidade NumPy e de uma comunidade científica em Python mais ampla. Para obter mais informações sobre nossa abordagem de governança, por favor, consulte nosso [Documento de Governança](https://www.numpy.org/devdocs/dev/governance/index.html).
 
@@ -24,7 +22,7 @@ O papel do Conselho Diretor do NumPy consiste em assegurar o bem-estar a longo p
 - Melissa Weber Mendonça
 - Eric Wieser
 
-Membros Eméritos:
+Emeritus:
 
 - Alex Griffing (2015-2017)
 - Allan Haldane (2015-2021)
@@ -35,17 +33,30 @@ Membros Eméritos:
 - Jaime Fernández del Río (2014-2021)
 - Pauli Virtanen (2008-2021)
 
-## Times
+To contact the NumPy Steering Council, please email numpy-team@googlegroups.com.
 
-O projeto NumPy está crescendo; temos equipes para
+## Teams
 
-- código
+The NumPy project leadership is actively working on diversifying contribution pathways to the project.<br> NumPy currently has the following teams:
+
+- development
 - documentação
-- website
 - triagem
+- website
+- survey
+- translations
+- sprint mentors
 - financiamento e bolsas
 
-Veja a página de [Times](/teams/) para membros individuais de cada time.
+See the [Team]({{< relref "/teams" >}}) page for more info.
+
+## NumFOCUS Subcommittee
+
+- Charles Harris
+- Ralf Gommers
+- Melissa Weber Mendonça
+- Sebastian Berg
+- External member: Thomas Caswell
 
 ## Patrocinadores
 
@@ -56,6 +67,11 @@ O NumPy recebe financiamento direto das seguintes fontes:
 ## Parceiros Institucionais
 
 Os Parceiros Institucionais são organizações que apoiam o projeto, empregando pessoas que contribuem para a NumPy como parte de seu trabalho. Os parceiros institucionais atuais incluem:
+
+- UC Berkeley (Stéfan van der Walt)
+- Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça)
+- NVIDIA (Sebastian Berg)
+
 {{< partners >}}
 
 
@@ -68,4 +84,6 @@ NumPy é um Projeto Patrocinado da NumFOCUS, uma instituição de caridade sem f
 Doações para o NumPy são gerenciadas pela [NumFOCUS](https://numfocus.org). Para doadores nos Estados Unidos, sua doação é dedutível para fins fiscais na medida oferecida pela lei. Como em qualquer doação, você deve consultar seu conselheiro fiscal sobre sua situação fiscal em particular.
 
 O Conselho Diretor da NumPy tomará as decisões sobre a melhor forma de utilizar os fundos recebidos. Prioridades técnicas e de infraestrutura estão documentadas no [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
-{{< numfocus >}}
+
+{{<opencollective>}}
+
