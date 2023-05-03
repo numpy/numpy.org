@@ -104,7 +104,7 @@ params:
         icon: github
       - 
         link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
-        icon: YouTube
+        icon: youtube
       - 
         link: https://twitter.com/numpy_team
         icon: twitter
