@@ -63,3 +63,4 @@ Para prosperar, o projeto NumPy precisa de sua experiência e entusiasmo. Não �
 
 Se você está interessado em se tornar um contribuidor do NumPy (oba!) recomendamos que você confira nossa página sobre [Contribuições](/pt/contribute).
 
+Also, feel free to stop by and say hi at one of our community meetings. To keep track of them, check out our events calendar [here](https://scientific-python.org/calendars/).
