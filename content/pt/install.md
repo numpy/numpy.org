@@ -80,7 +80,7 @@ A segunda diferença é que o pip instala do Índice de Pacotes Python (Python P
 A terceira diferença é que o conda é uma solução integrada para gerenciar pacotes, dependências e ambientes, enquanto com o pip você pode precisar de outra ferramenta (há muitas!) para lidar com ambientes ou dependências complexas.
 
 
-### Instalações reprodutíveis
+### Instalações reprodutíveis {#reproducible-installs}
 
 À medida que as bibliotecas são atualizadas, os resultados obtidos ao executar seu código podem mudar, ou o seu código pode parar de funcionar. É importante poder reconstruir o conjunto de pacotes e versões que você está usando. A recomendação é:
 
