@@ -1,0 +1,160 @@
+languageName: 한국어
+params:
+  description: 왜 NumPy인가? 강력한 n차원 배열. 수치 컴퓨팅 도구. 상호운용성. 고성능. 오픈소스.
+  navbarlogo:
+    image: logo.svg
+    text: NumPy
+    link: /ko/
+  hero:
+    #Main hero title
+    title: NumPy
+    #Hero subtitle (optional)
+    subtitle: Python으로 과학적 컴퓨팅을 하기 위한 기초 패키지
+    #Button text
+    buttontext: "최신 릴리: NumPy 1.26. 모든 릴리즈 보기"
+    #Where the main hero button links to
+    buttonlink: "/ko/news/#releases"
+    #Hero image (from static/images/___)
+    image: logo.svg
+  shell:
+    title: 자리 표시자
+    intro:
+      - 
+        title: NumPy 써 보기
+        text: 대화형 셸을 이용해 브라우저에서 NumPy를 사용해보세요
+    docslink: <a href="https://numpy.org/doc/stable" target="_blank">문서</a>도 한 번 열람해보세요.
+  casestudies:
+    title: 사례 연구
+    features:
+      - 
+        title: 최초의 블랙홀 사진
+        text: NumPy 및 NumPy에 의존하는 SciPy, Matplotlib와 같은 라이브러리가 사건의 지평선 망원경으로 최초의 블랙홀 사진을 생성할 수 있었던 방법
+        img: /images/content_images/case_studies/blackhole.png
+        alttext: 최초의 블랙홀 사진. 검은 배경의 주황색 원입니다.
+        url: /case-studies/blackhole-image
+      - 
+        title: 중력파 검출
+        text: 1916년, 알베르트 아인슈타인이 중력파를 예측했습니다. LIGO 과학자들이 NumPy를 이용하여 이것이 존재함을 증명하기 100년 전이었습니다.
+        img: /images/content_images/case_studies/gravitional.png
+        alttext: 서로의 궤도를 도는 두 구체. 주위의 중력을 변화시키고 있습니다.
+        url: /case-studies/gw-discov
+      - 
+        title: 스포츠 분석
+        text: 크리켓 분석은 통계적 모델링과 예측 분석을 통해 선수와 팀의 성과를 개선하여 게임을 바꾸고 있습니다. NumPy는 이런 많은 분석을 가능하게 합니다.
+        img: /images/content_images/case_studies/sports.jpg
+        alttext: 크리켓 공이 녹지 위에 있습니다.
+        url: /ko/case-studies/cricket-analytics
+      - 
+        title: 딥러닝을 통한 자세 추정
+        text: DeepLabCut은 동물의 행동을 관찰하는 과학 연구의 속도를 개선하기 위해, NumPy를 사용하여 종이나 시간에 따른 운동 제어 방식을 잘 이해할 수 있도록 하였습니다.
+        img: /images/content_images/case_studies/deeplabcut.png
+        alttext: 치타 자세 분석
+        url: /ko/case-studies/deeplabcut-dnn
+  keyfeatures:
+    features:
+      - 
+        title: 강력한 n차원 배열
+        text: 빠르고 다재다능한 NumPy의 벡터화, 인덱싱, 전송 구성은 오늘날 배열 컴퓨팅의 사실상 표준입니다.
+      - 
+        title: 수치적 컴퓨팅 도구
+        text: NumPy는 포괄적인 수학 함수, 난수 생성기, 선형 대수 루틴, 푸리에 변환 등을 제공합니다.
+      - 
+        title: 오픈소스
+        text: 자유 [BSD 라이선스](https://github.com/numpy/numpy/blob/main/LICENSE.txt)에 따라, NumPy는 흥미에 찼으며, 반응이 빠르고, 다양성이 넘치는 [커뮤니티](/community)에 의하여 [GitHub](https://github.com/numpy/numpy)에서 공개적으로 개발되고 유지됩니다.
+      - 
+        title: 상호운용성
+        text: NumPy는 광범위한 하드웨어 및 컴퓨팅 플랫폼을 지원합니다. 또 분산형, GPU, 희소 배열 라이브러리와도 잘 작동합니다.
+      - 
+        title: 고성능
+        text: NumPy의 핵심은 최적화된 C 코드로 구성되어 있습니다. 컴파일된 코드의 속도와 함께 Python의 유연함을 즐기세요.
+      - 
+        title: 쉬운 사용성
+        text: NumPy의 고수준 문법은 어떤 배경이나 수준을 가지고 있는 프로그래머든 쉽게 접근하여 생산적인 일을 할 수 있도록 만들어줍니다.
+  tabs:
+    title: 생태계
+  section5: false
+  navbar:
+    - 
+      title: 설치
+      url: /ko/install
+    - 
+      title: 문서
+      url: https://numpy.org/doc/stable
+    - 
+      title: 배움
+      url: /ko/learn
+    - 
+      title: 커뮤니티
+      url: /ko/community
+    - 
+      title: NumPy 정보
+      url: /ko/about
+    - 
+      title: 소식
+      url: /ko/news
+    - 
+      title: 기여
+      url: /ko/contribute
+  footer:
+    logo: logo.svg
+    socialmediatitle: ""
+    socialmedia:
+      - 
+        link: https://github.com/numpy/numpy
+        icon: github
+      - 
+        link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
+        icon: youtube
+      - 
+        link: https://twitter.com/numpy_team
+        icon: twitter
+    quicklinks:
+      column1:
+        title: ""
+        links:
+          - 
+            text: 설치
+            link: /ko/install
+          - 
+            text: 문서
+            link: https://numpy.org/doc/stable
+          - 
+            text: 배움
+            link: /ko/learn
+          - 
+            text: Numpy 인용
+            link: /ko/citing-numpy
+          - 
+            text: 로드맵
+            link: https://numpy.org/neps/roadmap.html
+      column2:
+        links:
+          - 
+            text: 정보
+            link: /ko/about
+          - 
+            text: 커뮤니티
+            link: /ko/community
+          - 
+            text: 사용자 설문조사
+            link: /ko/user-surveys
+          - 
+            text: 기여
+            link: /ko/contribute
+          - 
+            text: 이용약관
+            link: /ko/code-of-conduct
+      column3:
+        links:
+          - 
+            text: 도움받기
+            link: /ko/gethelp
+          - 
+            text: 이용약관
+            link: /ko/terms
+          - 
+            text: 개인정보처리방침
+            link: /ko/privacy
+          - 
+            text: 홍보 자료
+            link: /ko/press-kit
