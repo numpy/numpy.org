@@ -17,7 +17,7 @@ NumPy プロジェクトやコミュニティと直接交流する方法は次�
 
 このメーリングリストは、NumPy に新しい機能を追加するなど、より長い期間の議論のための主なコミュニケーションの場です。 NumPyのRoadmapに変更を加えたり、プロジェクト全体での意思決定を行います。 このメーリングリストでは、リリース、開発者会議、スプリント、カンファレンストークなど、NumPy についてのアナウンスなどにも利用されます。
 
-このメーリングリストでは、一番下のメールを使用し、メーリングリストに返信して下さい( 他の送信者ではなく)。 また、自動送信のメールには返信しないでください。 このメーリングリストの検索可能なアーカイブは [こちら](https://mail.python.org/archives/list/numpy-discussion@python.org/) にあります。
+このメーリングリストでは、一番下のメールを使用し、メーリングリストに返信して下さい( 他の送信者ではなく)。 このメーリングリストの検索可能なアーカイブは [こちら](https://mail.python.org/archives/list/numpy-discussion@python.org/) にあります。
 
 ***
 
@@ -33,7 +33,7 @@ _ちなみに、セキュリティの脆弱性を報告するには、GitHubの�
 
 ### [Slack](https://numpy-team.slack.com)
 
-SlackはNumPyに_ 貢献するための質問をする_、リアルタイムのチャットルームです。 Slackはプライベートな空間です。具体的には、 公開のメーリングリストやGitHubで質問やアイデアを持ち出すことを躊躇している人々のためのものです。 Slackに招待してもらいたい場合は[こちら](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy)を確認下さい。
+A real-time chat room to ask questions about _contributing_ to NumPy. 具体的には、 公開のメーリングリストやGitHubで質問やアイデアを持ち出すことを躊躇している人々のためのものです。 Slackに招待してもらいたい場合は[こちら](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy)を確認下さい。
 
 
 ## 勉強会とミートアップ
@@ -52,7 +52,7 @@ NumPy プロジェクトは独自のカンファレンスは開催していま�
 - [SciPy Latin America](https://www.scipyla.org)
 - [SciPy India](https://scipy.in)
 - [SciPy Japan](https://conference.scipy.org)
-- [PyData conference](https://pydata.org/event-schedule/) (年に15~20のイベントが様々な国で開催されています。)
+- [PyData conference](https://pydata.org/event-schedule/) (年に15~20のイベントが様々な国で開催されています。 )
 
 これらのカンファレンスの多くは、NumPyの使い方や関連するオープンソースプロジェクトに貢献する方法を学ぶことができるチュートリアルを開催しています。
 
@@ -63,4 +63,4 @@ NumPyプロジェクトを成功させるには、あなたの専門知識とプ
 
 もし、NumPyに貢献したい場合は、 [コントリビュート](/ja/contribute) ページをご覧いただくことをお勧めします。
 
-
+Also, feel free to stop by and say hi at one of our community meetings. To keep track of them, check out our events calendar [here](https://scientific-python.org/calendars/).
