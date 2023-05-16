@@ -1,7 +1,7 @@
 ---
 title: News
 sidebar: false
-newsHeader: Fostering an Inclusive Culture: Call for Participation
+newsHeader: "Fostering an Inclusive Culture: Call for Participation"
 date: 2023-05-10
 ---
 
