@@ -11,7 +11,7 @@ _May 10, 2023_ -- Fostering an Inclusive Culture: Call for Participation
 
 How can we be better when it comes to diversity and inclusion?
 Read the report and find out how to get involved
-[here](https://contributor-experience.org/docs/posts/dei-report/)
+[here](https://contributor-experience.org/docs/posts/dei-report/).
 
 ### NumPy documentation team leadership transition
 
