@@ -1,9 +1,9 @@
 ---
-title: NumPy Teams
+title: NumPy 팀
 sidebar: false
 ---
 
-We are an international team on a mission to support scientific and research communities worldwide by building quality, open-source software. [Join us]({{< relref "/contribute" >}})!
+저희는 양질의 오픈소스 소프트웨어를 구축하여 전 세계의 과학 및 연구 커뮤니티를 지원한다는 사명을 지닌 국제적 팀입니다. [팀에 참여하십시오]({{< relref "/contribute" >}})!
 
 {{< include-html "static/gallery/maintainers.html" >}}
 
@@ -17,6 +17,6 @@ We are an international team on a mission to support scientific and research com
 
 {{< include-html "static/gallery/emeritus-maintainers.html" >}}
 
-# Governance
+# 운영
 
-For the list of the Steering Council members, please see [here](https://numpy.org/about/).
+운영 위원회 구성원 목록은 [여기](https://numpy.org/about/)를 참고하십시오.
