@@ -19,9 +19,9 @@ params:
     title: placeholder
     intro:
       - 
-        title: Try NumPy
-        text: Use the interactive shell to try NumPy in the browser
-    docslink: Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a>.
+        title: Experimentar o NumPy
+        text: Use o shell interativo para testar o NumPy no navegador
+    docslink: Não se esqueça de conferir a <a href="https://numpy.org/doc/stable" target="_blank">documentação</a>.
   casestudies:
     title: ESTUDOS DE CASO
     features:
@@ -92,7 +92,7 @@ navbar:
     title: Contribuir
     url: /pt/contribute
   - 
-    title: Contribute
+    title: Contribuir
     url: /contribute
 footer:
   logo: logo.svg
@@ -135,7 +135,7 @@ footer:
           text: Comunidade
           link: /pt/community
         - 
-          text: User surveys
+          text: Pesquisas de usuário
           link: /pt/user-surveys
         - 
           text: Contribuir
