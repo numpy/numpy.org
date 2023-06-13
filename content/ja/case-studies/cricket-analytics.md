@@ -12,11 +12,11 @@ sidebar: false
 
 ## クリケットについて
 
-インド人はクリケットが大好きだと言っても過言ではないでしょう。 この競技は、他のスポーツと異なり、インドの農村部や都市部を問わず、あらゆる場所でプレイされており、若者から年配の方まで広く人気があり、インドでは何十億人もの人々を結びつける役割を担っています。 Cricket enjoys lots of media attention. クリケットは多くのメディアの注目を集め、非常に[多額のお金](https://www.statista.com/topics/4543/indian-premier-league-ipl/)と名声がかかっています。 Over the last several years, technology has literally been a game changer. 視聴者はストリーミングメディア、トーナメント、モバイルベースの手頃なアクセスによるライブクリケット視聴などを享受しています。
+インド人はクリケットが大好きだと言っても過言ではないでしょう。 この競技は、他のスポーツと異なり、インドの農村部や都市部を問わず、あらゆる場所でプレイされており、若者から年配の方まで広く人気があり、インドでは何十億人もの人々を結びつける役割を担っています。 クリケットは多くのメディアの注目を集めています。 クリケットは多くのメディアの注目を集め、非常に[多額のお金](https://www.statista.com/topics/4543/indian-premier-league-ipl/)と名声がかかっています。 過去数年間、テクノロジーは文字通りクリケットの試合を変えてきました。 視聴者はストリーミングメディア、トーナメント、モバイルベースの手頃なアクセスによるライブクリケット視聴などを享受しています。
 
 インドプレミアリーグ (IPL) は、2008年に設立された20チームから成るプロクリケットリーグです。 これは世界で最も参加者が多いクリケットイベントの1つで、2019年の市場規模は[67億ドル](https://en.wikipedia.org/wiki/Indian_Premier_League)だと評価されています。
 
-クリケットは数のゲームです。 バッツマンによってスコアされたランの数、ボウラーによって取られたウィケットの数、クリケットチームによって獲得した試合の数、バッツマンがボウリング攻撃に特定の方法で応答する回数。 The capability to dig into cricketing numbers for both improving performance and studying the business opportunities, overall market, and economics of cricket via powerful analytics tools, powered by numerical computing software such as NumPy, is a big deal. クリケット分析は、試合に関する興味深い洞察と、ゲームの結果に関する予測AIを提供します。
+クリケットは数のゲームです。 バッツマンによってスコアされたランの数、ボウラーによって取られたウィケットの数、クリケットチームによって獲得した試合の数、バッツマンがボウリング攻撃に特定の方法で応答する回数。 クリケットの数字を掘り下げてパフォーマンスを向上させるとともに、NumPyなどの数値計算ソフトウェアを利用した強力な分析ツールを介して、クリケットのビジネスチャンス、市場全体、経済性を研究することは、大きな意味を持ちます。 クリケット分析は、試合に関する興味深い洞察と、ゲームの結果に関する予測AIを提供します。
 
 現在では、クリケットゲームの記録と 利用可能な統計データは豊富で、ほぼ無限の宝の山だと言えます。 : [ESPN cricinfo や](https://stats.espncricinfo.com/ci/engine/stats/index.html) [cricsheet](https://cricsheet.org). これらのクリケットデータベースは、最新の機械学習と予測モデリングアルゴリズムを使用して、 [クリケット 分析](https://www.researchgate.net/publication/336886516_Data_visualization_and_toss_related_analysis_of_IPL_teams_and_batsmen_performances) に使用されています。 メディアやプロスポーツ団体のエンターテインメントプラットフォームは、技術や分析を利用し、試合勝率を向上させるために、下記のような要素が主要なメトリックだと考え始めています。
 
