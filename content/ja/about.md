@@ -3,7 +3,7 @@ title: 私たちについて
 sidebar: false
 ---
 
-NumPy は、Python で数値計算を可能にするためのオープンソースプロジェクトです。 It was created in 2005 building on the early work of the Numeric and Numarray libraries. NumPyは完全にオープンソースなソフトウェアであり、[修正BSD ライセンス](https://github.com/numpy/numpy/blob/main/LICENSE.txt) の条項の下で、すべての人が利用可能です。 It is released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
+NumPy は、Python で数値計算を可能にするためのオープンソースプロジェクトです。 NumPyは、NumericやNumarrayといった初期のライブラリのコードをもとに、2005年から開発が開始されました。 NumPyは完全にオープンソースなソフトウェアであり、[修正BSD ライセンス](https://github.com/numpy/numpy/blob/main/LICENSE.txt) の条項の下で、すべての人が利用可能です。 It is released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
 
 NumPy は 、NumPyコミュニティやより広範な科学計算用Python コミュニティとの合意のもと、GitHub 上でオープンに開発されています。 NumPyのガバナンス方法の詳細については、 [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html) をご覧ください。
 
@@ -41,9 +41,9 @@ The NumPy project leadership is actively working on diversifying contribution pa
 
 - development
 - ドキュメント
-- triage
+- トリアージ
 - ウェブサイト
-- survey
+- 調査
 - translations
 - sprint mentors
 - 資金と助成金
