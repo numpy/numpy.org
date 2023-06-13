@@ -66,7 +66,7 @@ Para usuários que preferem uma solução baseada em pip/PyPI, por preferência 
 
 ## Gerenciamento de pacotes Python
 
-Gerenciar pacotes é um problema desafiador e, como resultado, há muitas ferramentas. Para o desenvolvimento web e de propósito geral em Python, há uma [série de ferramentas](https://packaging.python.org/guides/tool-recommendations/) complementares com pip. Para computação de alto desempenho (HPC), vale a pena considerar o [Spack](https://github.com/spack/spack). For high-performance computing (HPC), [Spack](https://github.com/spack/spack) is worth considering. Para a maioria dos usuários NumPy, porém, o [conda](https://conda.io/en/latest/) e o [pip](https://pip.pypa.io/en/stable/) são as duas ferramentas mais populares.
+Gerenciar pacotes é um problema desafiador e, como resultado, há muitas ferramentas. Para o desenvolvimento web e de propósito geral em Python, há uma [série de ferramentas](https://packaging.python.org/guides/tool-recommendations/) complementares com pip. Para computação de alto desempenho (HPC), vale a pena considerar o [Spack](https://github.com/spack/spack). Para computação de alto desempenho (HPC), vale a pena considerar o [Spack](https://github.com/spack/spack). Para a maioria dos usuários NumPy, porém, o [conda](https://conda.io/en/latest/) e o [pip](https://pip.pypa.io/en/stable/) são as duas ferramentas mais populares.
 
 
 ### Pip & conda
@@ -80,7 +80,7 @@ A segunda diferença é que o pip instala do Índice de Pacotes Python (Python P
 A terceira diferença é que o conda é uma solução integrada para gerenciar pacotes, dependências e ambientes, enquanto com o pip você pode precisar de outra ferramenta (há muitas!) para lidar com ambientes ou dependências complexas.
 
 
-### Instalações reprodutíveis {#reproducible-installs}
+### Instalações reprodutíveis
 
 À medida que as bibliotecas são atualizadas, os resultados obtidos ao executar seu código podem mudar, ou o seu código pode parar de funcionar. É importante poder reconstruir o conjunto de pacotes e versões que você está usando. A recomendação é:
 
