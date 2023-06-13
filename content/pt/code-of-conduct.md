@@ -43,7 +43,7 @@ Embora sejamos receptivos às pessoas fluentes em todas as línguas, o desenvolv
 
 Padrões de comportamento na comunidade NumPy estão detalhados no Código de Conduta acima. Os participantes da nossa comunidade devem se comportar de acordo com esses padrões em todas as suas interações e ajudar os outros a fazê-lo também (veja a próxima seção).
 
-### Reporting Guidelines
+### Diretrizes de resposta a incidentes
 
 Sabemos que é mais comum do que o desejado que a comunicação na Internet comece ou se transforme em abusos óbvios e flagrantes. Reconhecemos também que, por vezes, as pessoas podem ter um dia ruim, ou não conhecer algumas das orientações deste Código de Conduta. Tenha isto em mente ao decidir como responder a uma violação deste Código.
 
