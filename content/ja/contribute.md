@@ -30,16 +30,16 @@ NumPyプロジェクトには現時点で250以上のオープンなプルリク
 NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模な再設計中です。 新しいNumPyのWebページは、新しいチュートリアルや、NumPyの使い方、NumPy内部の深い説明など必要としており、サイト全体にも再設計と再構築が必要です。 このウェブサイトの再構築の作業は、ドキュメントを書くだけではありません。 コード例や、ノートブック、ビデオなどの作成も歓迎しています。 [NEP 44 — Restructuring the NumPyDocumentation](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html)に、ウェブサイトの再構築についての詳細が説明されています。
 
 
-### Issue triaging
+### イシューのトリアージ
 
 [NumPyのイシュートラッカー](https://github.com/numpy/numpy/issues) には、 _沢山の_Open状態のイシューがあります。 すでに解決されたもの、優先順位付けされるべきもの、 初心者が取り組むのに適したものがあります。  あなたができることは、いくつもあります:
 
 * 古いバグがまだ残っているか確認する
-* find duplicate issues and link related ones
-* add good self-contained reproducers to issues
-* label issues correctly (this requires triage rights -- just ask)
+* 重複したイシューを見つけ、お互いに関連づける
+* 問題を再現するコードを作成する
+* イシューに正しいラベル付けをする (トリアージ権が必要なので、連絡下さい)
 
-Please just dive in.
+ぜひ、やってみて下さい。
 
 
 ### ウェブサイトの開発
@@ -49,7 +49,7 @@ Please just dive in.
 
 ### グラフィックデザイン
 
-グラフィックデザイナーの方が可能な貢献は、枚挙にいとまがありません。 Our docs are parched for illustration; our growing website craves images -- opportunities abound.
+グラフィックデザイナーの方が可能な貢献は、枚挙にいとまがありません。 しかし、私たちのドキュメントは説明のために可視化が重要であり、私たちの拡大しているウェブサイトは良い画像を求めていることから、 貢献する機会が沢山あると言えます。
 
 
 ### ウェブサイトの翻訳
@@ -63,4 +63,4 @@ Please just dive in.
 
 ### 資金調達
 
-NumPyは何年にも渡ってボランティアだけ活動していましたが、その重要性が高まるにつれ、安定性と成長のためには資金面での支援が必要であることがわかってきました。 こちらの[SciPy'19のプレゼン](https://www.youtube.com/watch?v=dBTJD_FDVjU) では、資金的なサポートを受けたことで、どれだけ違いが出たかを説明しています。 他の非営利団体のように、私たちは助成金や、スポンサーシップ、その他の資金支援を常に探しています。 We have a number of ideas and of course we welcome more. 資金調達に関する知識は、我々には不足しているスキルです。 是非、あなたのサポートをお待ちしています。
+NumPyは何年にも渡ってボランティアだけ活動していましたが、その重要性が高まるにつれ、安定性と成長のためには資金面での支援が必要であることがわかってきました。 こちらの[SciPy'19のプレゼン](https://www.youtube.com/watch?v=dBTJD_FDVjU) では、資金的なサポートを受けたことで、どれだけ違いが出たかを説明しています。 他の非営利団体のように、私たちは助成金や、スポンサーシップ、その他の資金支援を常に探しています。 私たちはすでにいくつかの資金調達のアイデアを持っていますが、他にもより多くを資金調達を受けたいと思っています。 資金調達に関する知識は、我々には不足しているスキルです。 是非、あなたのサポートをお待ちしています。
