@@ -3,7 +3,7 @@ title: 配列演算
 sidebar: false
 ---
 
-*Array computing is the foundation of statistical, mathematical, scientific computing in various contemporary data science and analytics applications such as data visualization, digital signal processing, image processing, bioinformatics, machine learning, AI, and several others.*
+*配列演算は統計、数学、科学計算の基礎です。可視化、信号処理、画像処理、生命情報学、機械学習、人工知能など、現代のデータサイエンスやデータ分析の様々な分野で配列演算は中核を担っています。*
 
 大規模なデータ処理やデータ変換には、効率的な配列演算が重要です。 データ分析や、機械学習、効率的な数値計算に最適な言語のひとつは **Python** です。
 
