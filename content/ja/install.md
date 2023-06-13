@@ -5,7 +5,7 @@ sidebar: false
 
 NumPyは`conda`、`pip` 、macOSやLinuxのパッケージマネージャー、または [ソースコード](https://numpy.org/devdocs/user/building.html)からインストールすることが出来ます。 詳細な手順について、以下の [Python と NumPyの インストールガイド](#python-numpy-install-guide) を参照してください。
 
-NumPy can be installed with `conda`, with `pip`, with a package manager on macOS and Linux, or [from source](https://numpy.org/devdocs/user/building.html). For more detailed instructions, consult our [Python and NumPy installation guide](#python-numpy-install-guide) below.
+NumPyは`conda`、`pip` 、macOSやLinuxのパッケージマネージャー、または [ソースコード](https://numpy.org/devdocs/user/building.html)からインストールすることが出来ます。 詳細な手順については、以下の [Python と Numpyの インストールガイド](#python-numpy-install-guide) を参照してください。
 
 **CONDA**
 
@@ -75,12 +75,12 @@ Windows、macOS、Linuxのすべてのユーザー向けには:
 
 2つ目の違いは、pipはPython Packaging Index(PyPI) からパッケージをインストールするのに対し、condaは独自のチャンネル(一般的には "defaults "や "conda-forge "など) からインストールすることです。 PyPIは最大のパッケージ管理システムですが、人気のある全てのパッケージがcondaでも利用可能です。
 
-最初の違いは、condaは複数言語に対応可能で、Python自体をインストールできることです。 pip はシステム上の特定の Python にインストールされ、パッケージはそのPython用にのみインストールします。 PyPI is the largest collection of packages by far, however, all popular packages are available for conda as well.
+最初の違いは、condaは複数言語に対応可能で、Python自体をインストールできることです。 pip はシステム上の特定の Python にインストールされ、パッケージはそのPython用にのみインストールします。 PyPIは、最大のパッケージ管理システムですが、すべての代表的なパッケージは、condaにも利用可能です。
 
 3つ目の違いは、condaはパッケージ、依存関係、環境を管理するための統合されたソリューションであるのに対し、pipでは環境や複雑な依存関係を扱うために別のツール(たくさん存在しています！
 
 
-### 再現可能なインストール {#reproducible-installs}
+### 再現可能なインストール
 
 ライブラリが更新されると、コードの実行結果が変わったり、コードが完全に 壊れたりする可能性があります。 なので重要なことは、使用しているパッケージの組み合わせと各バージョンのセットを再構築できるようにしておくことです。 ベストプラクティスは次の通りです:
 
