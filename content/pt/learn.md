@@ -7,7 +7,7 @@ Para a **documentação oficial do NumPy** visite [numpy.org/doc/stable](https:/
 
 ***
 
-Below is a curated collection of educational resources, both for self-learning and teaching others, developed by NumPy contributors and vetted by the community.
+Abaixo está uma coleção de recursos educacionais, tanto para autoaprendizado como para ensinar outros, desenvolvidos pelos colaboradores da NumPy e selecionados pela comunidade.
 
 ## Iniciantes
 
@@ -16,12 +16,12 @@ Há uma tonelada de informações sobre o NumPy lá fora. Se você está começa
 <i class="fas fa-chalkboard"></i> **Tutoriais**
 
 * [NumPy Quickstart Tutorial (Tutorial de Início Rápido)](https://numpy.org/devdocs/user/quickstart.html)
-* [NumPy Tutorials](https://numpy.org/numpy-tutorials) A collection of tutorials and educational materials in the format of Jupyter Notebooks developed and maintained by the NumPy Documentation team. To submit your own content, visit the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
-* [NumPy Illustrated: The Visual Guide to NumPy *by Lev Maximov*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
+* [NumPy Tutorials](https://numpy.org/numpy-tutorials) Uma coleção de tutoriais e materiais educacionais no formato de Notebooks Jupyter desenvolvidos e mantidos pelo time de documentação do NumPy. Se você tiver interesse em adicionar o seu próprio conteúdo, verifique o repositório [numpy-tutorials no GitHub](https://github.com/numpy/numpy-tutorials).
+* [NumPy Illustrated: The Visual Guide to NumPy *por Lev Maximov*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
 * [SciPy Lectures](https://scipy-lectures.org/) Além de incluir conteúdo sobre a NumPy, estas aulas oferecem uma introdução mais ampla ao ecossistema científico do Python.
 * [NumPy: the absolute basics for beginners ("o básico absoluto para inciantes")](https://numpy.org/devdocs/user/absolute_beginners.html)
 * [NumPy tutorial *por Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
-* [Stanford CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
+* [Stanford CS231 *por Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
 * [NumPy User Guide (Guia de Usuário NumPy)](https://numpy.org/devdocs)
 
 <i class="fas fa-book"></i> **Livros**
@@ -47,7 +47,7 @@ Experimente esses recursos avançados para uma melhor compreensão dos conceitos
 * [100 NumPy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) *por Nicolas P. Rougier*
 * [An Introduction to NumPy and Scipy](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) *por M. Scott Shell*
 * [Numpy Medkits](http://mentat.za.net/numpy/numpy_advanced_slides/) *por Stéfan van der Walt*
-* [NumPy Tutorials](https://numpy.org/numpy-tutorials) A collection of tutorials and educational materials in the format of Jupyter Notebooks developed and maintained by the NumPy Documentation team. To submit your own content, visit the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
+* [NumPy Tutorials](https://numpy.org/numpy-tutorials) Uma coleção de tutoriais e materiais educacionais no formato de Notebooks Jupyter desenvolvidos e mantidos pelo time de documentação do NumPy. Se você tiver interesse em adicionar o seu próprio conteúdo, verifique o repositório [numpy-tutorials no GitHub](https://github.com/numpy/numpy-tutorials).
 
 <i class="fas fa-book"></i> **Livros**
 
