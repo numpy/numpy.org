@@ -19,9 +19,9 @@ params:
     title: placeholder
     intro:
       - 
-        title: Try NumPy
+        title: NumPy を試す
         text: Use the interactive shell to try NumPy in the browser
-    docslink: Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a>.
+    docslink: <a href="https://numpy.org/doc/stable" target="_blank">ドキュメント</a> を確認することを忘れないでください。
   casestudies:
     title: ケーススタディ
     features:
@@ -92,8 +92,8 @@ navbar:
     title: NumPyに貢献する
     url: /ja/contribute
   - 
-    title: Contribute
-    url: /contribute
+    title: NumPyに貢献する
+    url: /ja/contribute
 footer:
   logo: logo.svg
   socialmediatitle: ""
@@ -135,7 +135,7 @@ footer:
           text: コミュニティ
           link: /ja/community
         - 
-          text: User surveys
+          text: ユーザーの調査
           link: /ja/user-surveys
         - 
           text: NumPyに貢献する
