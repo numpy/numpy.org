@@ -3,7 +3,7 @@ title: Quem Somos
 sidebar: false
 ---
 
-NumPy é um projeto de código aberto visando habilitar a computação numérica com Python. Foi criado em 2005, com base no trabalho inicial das bibliotecas Numeric e Numarray. O NumPy sempre será um software 100% de código aberto, livre para que todos usem e disponibilizados sob os termos liberais da [licença BSD modificada](https://github.com/numpy/numpy/blob/main/LICENSE.txt). It is released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
+NumPy é um projeto de código aberto visando habilitar a computação numérica com Python. Foi criado em 2005, com base no trabalho inicial das bibliotecas Numeric e Numarray. O NumPy sempre será um software 100% de código aberto, livre para que todos usem e disponibilizados sob os termos liberais da [licença BSD modificada](https://github.com/numpy/numpy/blob/main/LICENSE.txt). É lançado sob os termos liberais da [licença BSD modificada](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
 
 O NumPy é desenvolvido no GitHub, através do consenso da comunidade NumPy e de uma comunidade científica em Python mais ampla. Para obter mais informações sobre nossa abordagem de governança, por favor, consulte nosso [Documento de Governança](https://www.numpy.org/devdocs/dev/governance/index.html).
 
@@ -22,7 +22,7 @@ O papel do Conselho Diretor do NumPy consiste em assegurar o bem-estar a longo p
 - Melissa Weber Mendonça
 - Eric Wieser
 
-Emeritus:
+Membros Eméritos:
 
 - Alex Griffing (2015-2017)
 - Allan Haldane (2015-2021)
@@ -33,30 +33,30 @@ Emeritus:
 - Jaime Fernández del Río (2014-2021)
 - Pauli Virtanen (2008-2021)
 
-To contact the NumPy Steering Council, please email numpy-team@googlegroups.com.
+Para entrar em contato com o conselho diretor do NumPy, por favor envie um email para numpy-team@googlegroups.com.
 
-## Teams
+## Times
 
-The NumPy project leadership is actively working on diversifying contribution pathways to the project.<br> NumPy currently has the following teams:
+A liderança do projeto NumPy trabalha ativamente na diversificação dos caminhos possíveis para contribuições.<br> Atualmente, o NumPy conta com os seguintes times:
 
-- development
+- desenvolvimento
 - documentação
 - triagem
 - website
-- survey
-- translations
-- sprint mentors
+- pesquisa
+- traduções
+- mentores para sprints de desenvolvimento
 - financiamento e bolsas
 
-See the [Team]({{< relref "/teams" >}}) page for more info.
+Veja a página sobre os [Times]({{< relref "/teams" >}}) para mais informações.
 
-## NumFOCUS Subcommittee
+## Subcomitê NumFOCUS
 
 - Charles Harris
 - Ralf Gommers
 - Melissa Weber Mendonça
 - Sebastian Berg
-- External member: Thomas Caswell
+- Membro externo: Thomas Caswell
 
 ## Patrocinadores
 
