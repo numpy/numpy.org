@@ -5,7 +5,7 @@ aliases:
   - /ja/conduct/
 ---
 
-### Introduction
+### はじめに
 
 この行動規範は、NumPy プロジェクトによって管理されるすべての場所で適用されます。 この場所とは、すべてのパブリックおよびプライベートのメーリングリスト、イシュートラッカー、Wiki、ブログ、Twitter、コミュニティで使用されているその他の通信チャンネルなどを含みます。 NumPy プロジェクトでは対面でのイベントは開催していません。 しかし、我々のコミュニティに関連するものであれば、対面のイベントでも同様の行動規範を持つ必要があります。
 
@@ -15,21 +15,21 @@ aliases:
 
 ### ガイドラインの概要
 
-We strive to:
+私たちは下記の内容に真摯に取り組みます。
 
-1. Be open. 私たちは、誰でもコミュニティに参加できるようにします。 We prefer to use public methods of communication for project-related messages, unless discussing something sensitive. This applies to messages for help or project-related support, too; not only is a public support request much more likely to result in an answer to a question, it also ensures that any inadvertent mistakes in answering are more easily detected and corrected.
-2. Be empathetic, welcoming, friendly, and patient. 私たちは互いに争いを解決し合い、互いの善意を信じ合います。 私たちは時折り不満を感じるかもしれません。 しかしそのような場合も、不満を個人的な攻撃に変えることは許容されません。 人々が不快や脅威を感じるコミュニティは、生産的ではないからです。
-3. 互いに協力し合おう。 Our work will be used by other people, and in turn we will depend on the work of others. 私たちがプロジェクトために何かを作るとき、私たちはそれがどのように動作するかを他の人に説明する必要があります。 しかし、この作業により、より良いものを作り上げることができるのです。 私たちが下す全ての決断は、ユーザと開発コミュニティに影響を与えうるし、その決断がもたらす結果を私たちは真摯に受け止めます。
-4. 好奇心を大事にしよう。 全てを知っている人はいないのです！ 早め早めに質問をすることで、後に生じうる多くの問題を回避できます。 そのため私たちは質問を奨励しています。 We will try hard to be responsive and helpful.
-5. Be careful in the words that we choose. 私たちは、コミュニティにおけるコミュニケーションに注意と敬意を払います。 そして、私たちは自分の言葉に責任を持ちます。 他人に優しくしましょう。 他のコミュニティの参加者を侮辱しないでください。 私たちは、以下のようなハラスメントやその他の排斥行為を許しません。 :
+1. 開けたコミュニティにしましょう。 私たちは、誰でもコミュニティに参加できるようにします。 私たちは、公にすべきではない内容を議論する場合以外、プロジェクトに関連するメッセージを公の場で告知することを選びます。 これは、NumPyに関するヘルプやプロジェクトサポートにも適用されます。公式なサポートだけでなく、NumPyに関する質問に答える場合もです。 これにより、質問に答えた際の意図しない間違いを、より簡単に検出し、訂正できるようになります。
+2. 共感し、歓迎し、友好的で、そして我慢強くありましょう。 私たちは互いに争いを解決し合い、互いの善意を信じ合います。 私たちは時折り不満を感じるかもしれません。 しかしそのような場合も、不満を個人的な攻撃に変えることは許容されません。 人々が不快や脅威を感じるコミュニティは、生産的ではないからです。
+3. 互いに協力し合おう。 私たちの開発成果は他の人々によって利用され、一方で、たちは他の人々の開発成果に依存しているのです。 私たちがプロジェクトために何かを作るとき、私たちはそれがどのように動作するかを他の人に説明する必要があります。 しかし、この作業により、より良いものを作り上げることができるのです。 私たちが下す全ての決断は、ユーザと開発コミュニティに影響を与えうるし、その決断がもたらす結果を私たちは真摯に受け止めます。
+4. 好奇心を大事にしよう。 全てを知っている人はいないのです！ 早め早めに質問をすることで、後に生じうる多くの問題を回避できます。 そのため私たちは質問を奨励しています。 私たちは、出来るだけ質問に良く対応し、手助けできるよう努力します。
+5. 使う言葉に注意しましょう。 私たちは、コミュニティにおけるコミュニケーションに注意と敬意を払います。 そして、私たちは自分の言葉に責任を持ちます。 他人に優しくしましょう。 他のコミュニティの参加者を侮辱しないでください。 私たちは、以下のようなハラスメントやその他の排斥行為を許しません。 :
     * 他の人に向けられた暴力的な行為や言葉。
     * 性差別や人種差別、その他の差別的なジョークや言動。
     * 性的または暴力的な内容の投稿。
     * 他のユーザーの個人情報を投稿すること。 (または投稿すると脅すこと)。
     * 公開目的のない電子メールや、ICRチャットのようなログの残らないフォーラムの履歴など、プライベートなコンテンツを送信者の同意なしに共有すること。
     * 個人的な侮辱, 特に人種差別や性差別的な用語を使用して侮辱すること。
-    * Unwelcome sexual attention.
-    * Excessive profanity. ひどいな言葉を使うのを避けてください。 人々は怒りを覚える感度が、それぞれ大きく異なります。
+    * 不快な思いをさせる性的な言動。
+    * 過度に粗暴に振る舞うこと。 ひどいな言葉を使うのを避けてください。 人々は怒りを覚える感度が、それぞれ大きく異なります。
     * 他人に対するハラスメントの繰り返し。 一般的に、誰かがあなたにある言動を止めるように要求した場合、その言動をやめて下さい。
     * 上記のいずれかの行動を擁護すること、または奨励すること。
 
@@ -63,11 +63,11 @@ NumPy行動規範委員会に問題を報告する場合は、こちらにご連
 
 本節では、_最も重要な点のみをまとめます。 _詳細については、[NumPy Code of Conduct - How to follow up on a report](/report-handling-manual) をご覧ください。
 
-私たちはすべての訴えを調査し、対応するようにします。 The NumPy Code of Conduct Committee and the NumPy Steering Committee (if involved) will protect the identity of the reporter, and treat the content of complaints as confidential (unless the reporter agrees otherwise).
+私たちはすべての訴えを調査し、対応するようにします。 NumPy行動規範委員会およびNumPy運営委員会(もし関係する場合) は、報告者の身元を保護します。 また(報告者が同意しない限り) 苦情の内容を機密として扱うこととします。
 
-In case of severe and obvious breaches, e.g. personal threat or violent, sexist or racist language, we will immediately disconnect the originator from NumPy communication channels; please see the manual for details.
+もし深刻で明らかな違反の場合、例えば、 個人的な脅し、または暴力的、性差別的または人種差別的な発言などの場合、我々は直ちにNumPyのコミュニケーションの場から発言者を退場させます。詳細についてはマニュアルを参照してください。
 
-In cases not involving clear severe and obvious breaches of this Code of Conduct the process for acting on any received Code of Conduct violation report will be:
+もし、行動規範に対して明白な違反がみられない場合、受領された行動規範違反報告に対するプロセスは以下の通りです。
 
 1. 報告書の受領を確認
 2. 建設的な議論/フィードバック
@@ -76,7 +76,7 @@ In cases not involving clear severe and obvious breaches of this Code of Conduct
 
 行動規範委員会は、可能な限り速やかに対応し、最大で72時間以内に対応する様にします。
 
-### Endnotes
+### 文末脚注:
 
 私たちは下記のドキュメントを作成したグループに感謝します。 内容・発想ともに大いに影響されています。
 
