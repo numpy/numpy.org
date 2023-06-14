@@ -1,10 +1,10 @@
 ---
-title: NUMPY USER SURVEYS
+title: NumPyユーザアンケート
 sidebar: false
 ---
 
-**2020** The NumPy survey team in partnership with students and faculty from the University of Michigan and the University of Maryland conducted the first official NumPy community survey. Find the survey results [here](https://numpy.org/user-survey-2020/).
+**2020** NumPY調査チームは、ミシガン大学とメリーランド大学の学生や教員と協力して、最初の公式NumPyコミュニティ調査を実施しました。 アンケートの結果は[こちら](https://numpy.org/user-survey-2020/)をご覧ください。
 
-**2021** The collected data is currently being analyzed.
+**2021** 収集された調査データは現在解析中です。
 
-If you have any questions or suggestions for the past or future surveys, please open an issue [here](https://github.com/numpy/numpy-surveys/issues). 
+過去または今後のNumPyユーザ調査に関する質問や提案がある場合は、[こちら](https://github.com/numpy/numpy-surveys/issues)にイシューを作成してください。 
