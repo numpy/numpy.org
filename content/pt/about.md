@@ -3,9 +3,9 @@ title: Quem Somos
 sidebar: false
 ---
 
-NumPy é um projeto de código aberto visando habilitar a computação numérica com Python. Foi criado em 2005, com base no trabalho inicial das bibliotecas Numeric e Numarray. O NumPy sempre será um software 100% de código aberto, livre para que todos usem e disponibilizados sob os termos liberais da [licença BSD modificada](https://github.com/numpy/numpy/blob/main/LICENSE.txt). É lançado sob os termos liberais da [licença BSD modificada](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
+NumPy é um projeto de código aberto que visa possibilitar a computação numérica com Python. Foi criado em 2005, com base no trabalho inicial das bibliotecas Numeric e Numarray. O NumPy sempre será 100% software de código aberto, livre para que todos usem. É lançado sob os termos liberais da [licença BSD modificada](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
 
-O NumPy é desenvolvido no GitHub, através do consenso da comunidade NumPy e de uma comunidade científica em Python mais ampla. Para obter mais informações sobre nossa abordagem de governança, por favor, consulte nosso [Documento de Governança](https://www.numpy.org/devdocs/dev/governance/index.html).
+O NumPy é desenvolvido no GitHub, através do consenso da comunidade NumPy e de uma comunidade mais ampla de Python científico. Para obter mais informações sobre nossa abordagem de governança, por favor, consulte nosso [Documento de Governança](https://www.numpy.org/devdocs/dev/governance/index.html).
 
 
 ## Conselho Diretor (Steering Council)
