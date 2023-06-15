@@ -7,7 +7,7 @@ Para a **documentação oficial do NumPy** visite [numpy.org/doc/stable](https:/
 
 ***
 
-Abaixo está uma coleção de recursos educacionais, tanto para autoaprendizado como para ensinar outros, desenvolvidos pelos colaboradores da NumPy e selecionados pela comunidade.
+Abaixo está uma coleção de recursos educacionais, tanto para autoaprendizado como para ensinar outras pessoas, desenvolvidos pelos colaboradores do NumPy e selecionados pela comunidade.
 
 ## Iniciantes
 
