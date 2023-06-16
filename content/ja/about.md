@@ -3,14 +3,14 @@ title: 私たちについて
 sidebar: false
 ---
 
-NumPy は、Python で数値計算を可能にするためのオープンソースプロジェクトです。 NumPyは、NumericやNumarrayといった初期のライブラリのコードをもとに、2005年から開発が開始されました。 NumPyは完全にオープンソースなソフトウェアであり、[修正BSD ライセンス](https://github.com/numpy/numpy/blob/main/LICENSE.txt) の条項の下で、すべての人が利用可能です。 It is released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
+NumPy は、Python で数値計算を可能にするためのオープンソースプロジェクトです。 NumPyは、NumericやNumarrayといった初期のライブラリのコードをもとに、2005年から開発が開始されました。 NumPyは完全にオープンソースなソフトウェアです。 そして、NumPyは[修正BSD ライセンス](https://github.com/numpy/numpy/blob/main/LICENSE.txt) の条項の下で、すべての人が利用可能です。
 
 NumPy は 、NumPyコミュニティやより広範な科学計算用Python コミュニティとの合意のもと、GitHub 上でオープンに開発されています。 NumPyのガバナンス方法の詳細については、 [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html) をご覧ください。
 
 
 ## 運営委員会
 
-The NumPy Steering Council is the project's governing body. Its role is to ensure, through working with and serving the broader NumPy community, the long-term sustainability of the project, both as a software package and community. NumPy運営委員会は現在以下のメンバーで構成されています (アルファベット順、姓で):
+Numpy運営委員会はこのプロジェクトの管理組織です。 その役割は、Numpy コミュニティと協力し、Numpyのソフトウェアサービスを確実にユーザに提供することです。 ソフトウェアパッケージとコミュニティの両方において、プロジェクトの長期的な持続可能性を保っていきます。 NumPy運営委員会は現在以下のメンバーで構成されています (姓のアルファベット順):
 
 - Sebastian Berg
 - Ralf Gommers
@@ -18,8 +18,8 @@ The NumPy Steering Council is the project's governing body. Its role is to ensur
 - Stephan Hoyer
 - Inessa Pawson
 - Matti Picus
-- Stéfan van der Walt
-- Melissa Weber Mendonça
+- Stéfan van der Walt
+- Melissa Weber Mendonça
 - Eric Wieser
 
 Emeritus:
