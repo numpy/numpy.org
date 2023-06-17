@@ -22,41 +22,41 @@ Numpy運営委員会はこのプロジェクトの管理組織です。 その�
 - Melissa Weber Mendonça
 - Eric Wieser
 
-Emeritus:
+過去のメンバー
 
 - Alex Griffing (2015-2017)
 - Allan Haldane (2015-2021)
 - Marten van Kerkwijk (2017-2019)
-- Travis Oliphant (project founder, 2005-2012)
+- Travis Oliphant (プロジェクト創設者, 2005-2012)
 - Nathaniel Smith (2012-2021)
 - Julian Taylor (2013-2021)
-- Jaime Fernández del Río (2014-2021)
+- Jaime Fernández del Río (2014-2021)
 - Pauli Virtanen (2008-2021)
 
-To contact the NumPy Steering Council, please email numpy-team@googlegroups.com.
+Numpy運営委員会に連絡するには、numpy-team@googlegroups.comまでメールしてください。
 
 ## チーム
 
-The NumPy project leadership is actively working on diversifying contribution pathways to the project.<br> NumPy currently has the following teams:
+Numpy プロジェクトのコアメンバーは、プロジェクトへの貢献の方法の多様化に積極的に取り組んでいます。<br> Numpyには現在以下のチームがあります:
 
-- development
+- 開発
 - ドキュメント
 - トリアージ
 - ウェブサイト
 - 調査
-- translations
-- sprint mentors
+- 翻訳
+- スプリントのメンター
 - 資金と助成金
 
 個々のチームメンバーについては、 [チーム](/teams/) のページを参照してください。
 
-## NumFOCUS Subcommittee
+## NumFOCUSサブ委員会
 
 - Charles Harris
 - Ralf Gommers
-- Melissa Weber Mendonça
+- Melissa Weber Mendonça
 - Sebastian Berg
-- External member: Thomas Caswell
+- 外部メンバー: Thomas Caswell
 
 ## スポンサー情報
 
@@ -68,8 +68,8 @@ NumPyは以下の団体から直接資金援助を受けています。
 
 パートナー団体は、NumPyへの開発を仕事の一つとして、社員を雇っている団体です。 現在のパートナー団体としては、下記の通りです。
 
-- UC Berkeley (Stéfan van der Walt)
-- Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça)
+- カルフォルニア大学 バークレー校 (Stéfan van der Walt)
+- Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça)
 - NVIDIA (Sebastian Berg)
 
 {{< partners >}}
