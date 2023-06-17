@@ -63,4 +63,4 @@ NumPyプロジェクトを成功させるには、あなたの専門知識とプ
 
 もし、NumPyに貢献したい場合は、 [コントリビュート](/ja/contribute) ページをご覧いただくことをお勧めします。
 
-Also, feel free to stop by and say hi at one of our community meetings. To keep track of them, check out our events calendar [here](https://scientific-python.org/calendars/).
+また、私たちのコミュニティミーティングにもぜひ参加してみてください。 コミュニティミーティングの活動を確認するには、[こちら](https://scientific-python.org/calendars/)のイベントカレンダーを確認ください。
