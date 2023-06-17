@@ -7,7 +7,7 @@ sidebar: false
 
 ***
 
-Below is a curated collection of educational resources, both for self-learning and teaching others, developed by NumPy contributors and vetted by the community.
+以下は、Numpyへの貢献者とコミュニティによって開発された、NumPyの自己学習と他人への教育のための資料です。
 
 ## 初心者向け
 
@@ -61,7 +61,7 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 
 ***
 
-## NumPy Talks
+## NumPyに関する講演
 
 * [NumPyにおけるインデックス指定の未来](https://www.youtube.com/watch?v=o0EacbIbf58) *Jaime Fernadezによる* (2016)
 * [Pythonにおける配列計算の進化](https://www.youtube.com/watch?v=HVLPJnvInzM&t=10s) *Ralf Gommersによる* (2019)
@@ -71,6 +71,6 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 
 ***
 
-## NumPyに関するトーク
+## NumPyを引用する
 
 もし、あなたの研究においてNumPyが重要な役割を果たし、論文でこのプロジェクトについて言及したい場合は、こちらの[ページ](/ja/citing-numpy)を参照して下さい。
