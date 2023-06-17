@@ -20,7 +20,7 @@ params:
     intro:
       - 
         title: NumPy を試す
-        text: Use the interactive shell to try NumPy in the browser
+        text: インタラクティブシェルを使用して、ブラウザ上で Numpy を試してみてください。
     docslink: <a href="https://numpy.org/doc/stable" target="_blank">ドキュメント</a> を確認することを忘れないでください。
   casestudies:
     title: ケーススタディ
@@ -103,7 +103,7 @@ footer:
       icon: github
     - 
       link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
-      icon: youtube
+      icon: YouTube
     - 
       link: https://twitter.com/numpy_team
       icon: twitter
