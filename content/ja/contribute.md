@@ -3,7 +3,7 @@ title: NumPy に貢献する
 sidebar: false
 ---
 
-NumPyプロジェクトを成功させるには、あなたの専門知識とプロジェクトに関する熱意が必要です。 Your choices aren't limited to programming, as you can see below there are many areas where we need **your** help.
+NumPyプロジェクトを成功させるには、あなたの専門知識とプロジェクトに関する熱意が必要です。 貢献方法はプログラミングに限定されません。 **ここに** 様々な種類の貢献方法が示されています。
 
 もしどこから始めればいいか、あなたのスキルをどう生かせばいいかがわからない場合は、 _是非ご連絡下さい。 _ 連絡の方法としては、 [メーリングリスト](https://mail.python.org/mailman/listinfo/numpy-discussion) 、 [GitHub](http://github.com/numpy/numpy)、 [イシューの作成](https://github.com/numpy/numpy/issues) 、関連するイシューへのコメントがあります。
 
@@ -15,7 +15,7 @@ NumPyプロジェクトを成功させるには、あなたの専門知識とプ
 
 ### コードを書く
 
-プログラマーの方には、こちらの [ガイド](https://numpy.org/devdocs/dev/index.html#development-process-summary)でNumPyのコードに貢献する方法を説明しています。 <br>Check out also our [YouTube channel](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) for additional advice.
+プログラマーの方には、こちらの [ガイド](https://numpy.org/devdocs/dev/index.html#development-process-summary)でNumPyのコードに貢献する方法を説明しています。 <br>追加情報に関しては、 こちらの[YouTube チャンネル](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) もご覧ください。
 
 
 ### プルリクエストのレビュー
