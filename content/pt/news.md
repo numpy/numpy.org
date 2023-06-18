@@ -5,9 +5,9 @@ newsHeader: "Lançado o NumPy 1.25.0"
 date: 2023-06-17
 ---
 
-### NumPy 1.25.0 released
+### Lançado o NumPy 1.25.0
 
-_Jun 17, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) is now available. Some highlights are:
+_17 de junho, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) está disponível agora. Alguns dos destaques são:
 
 * Support for MUSL, there are now MUSL wheels.
 * Support the Fujitsu C/C++ compiler.
