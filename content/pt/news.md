@@ -1,9 +1,22 @@
 ---
 title: Notícias
 sidebar: false
-newsHeader: "Promovendo uma cultura inclusiva: Chamada de participação"
-date: 2023-05-10
+newsHeader: "NumPy 1.25.0 released"
+date: 2023-06-17
 ---
+
+### NumPy 1.25.0 released
+
+_Jun 17, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) is now available. Some highlights are:
+
+* Support for MUSL, there are now MUSL wheels.
+* Support the Fujitsu C/C++ compiler.
+* Object arrays are now supported in einsum
+* Support for inplace matrix multiplication (`@=`).
+
+The NumPy 1.25.0 release continues the ongoing work to improve the handling and promotion of dtypes, increase the execution speed, and clarify the documentation. There has also been preparatory work for the future NumPy 2.0.0, resulting in a large number of new and expired deprecations.
+
+A total of 148 people contributed to this release and 530 pull requests were merged.  The Python versions supported are 3.9-3.11.
 
 ### Promovendo uma cultura inclusiva: Chamada de participação
 
@@ -13,11 +26,11 @@ Como podemos ser melhores quando se trata de diversidade e de inclusão? Leia o 
 
 ### Transição de liderança do time de documentação do NumPy
 
-_6 de janeiro de 2023_ –- Mukulika Pahari e Ross Barnowski são nomeados como lideres do time de documentação do NumPy, substituindo Melissa Mendonça. Agradecemos a Melissa por todas suas contribuições para a documentação oficial do NumPy e materiais educacionais, e Mukulika e Ross por aceitarem o desafio.
+_Jan 6, 2023_ –- Mukulika Pahari and Ross Barnowski are appointed as the new NumPy documentation team leads replacing Melissa Mendonça. We thank Melissa for all her contributions to the NumPy official documentation and educational materials, and Mukulika and Ross for stepping up.
 
-### NumPy versão 1.24.0
+### NumPy 1.24.0 released
 
-_18 de dezembro de 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) está agora disponível. Os destaques desta versão são:
+_18 de dezembro de 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) está agora disponível. The highlights of the release are:
 
 * Novas palavras-chave "dtype" e "casting" para funções que atuam com stacking.
 * Novas funcionalidades e correções do F2PY.
@@ -169,6 +182,7 @@ Mais detalhes sobre nossas propostas e resultados esperados podem ser encontrado
 
 Aqui está uma lista de versões do NumPy, com links para notas de lançamento. Todos os lançamentos de bugfix (apenas o `z` muda no formato `x.y.z` do número da versão) não tem novos recursos; versões menores (o `y` aumenta) contém novos recursos.
 
+- NumPy 1.25.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.25.0)) -- _17 Jun 2023_.
 - NumPy 1.24.3 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.24.3)) -- _22 de abril de 2023_.
 - NumPy 1.24.2 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.24.2)) -- _5 de fevereiro de 2023_.
 - NumPy 1.24.1 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.24.1)) -- _26 de dezembro de 2022_.
