@@ -1,7 +1,7 @@
 ---
 title: Notícias
 sidebar: false
-newsHeader: "NumPy 1.25.0 released"
+newsHeader: "Lançado o NumPy 1.25.0"
 date: 2023-06-17
 ---
 
