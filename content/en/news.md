@@ -1,9 +1,24 @@
 ---
 title: News
 sidebar: false
-newsHeader: "Fostering an Inclusive Culture: Call for Participation"
-date: 2023-05-10
+newsHeader: "Numpy 1.25.0 released"
+date: 2023-06-17
 ---
+
+### Numpy 1.25.0 released
+
+_June 17, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html)
+is now available. The highlights of the release are:
+* Support for MUSL, there are now MUSL wheels.
+* Support for the Fujitsu C/C++ compiler.
+* Object arrays are now supported in einsum.
+* Support for the inplace matrix multiplication (@=).
+
+The NumPy 1.25.0 release continues the ongoing work to improve the handling and promotion of dtypes, increase the execution speed, and clarify the documentation. There has also been work to prepare for the future NumPy 2.0.0 release, resulting in a large number of new and expired deprecation.
+
+We will be releasing a NumPy 1.26 soon after the Python 3.12 release. This release is necessary to migrate NumPy to meson since distutils will be fully deprecated in Python 3.12. The next mainline release will be NumPy 2.0.0. The 2.0 series will continue supporting downstream projects built against earlier versions of NumPy.
+
+The Python versions supported in this release are 3.9-3.11.
 
 ### Fostering an Inclusive Culture: Call for Participation
 
