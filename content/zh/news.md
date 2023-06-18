@@ -1,9 +1,22 @@
 ---
 title: News
 sidebar: false
-newsHeader: "Fostering an Inclusive Culture: Call for Participation"
-date: 2023-05-10
+newsHeader: "NumPy 1.25.0 released"
+date: 2023-06-17
 ---
+
+### NumPy 1.25.0 released
+
+_Jun 17, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) is now available. Some highlights are:
+
+* Support for MUSL, there are now MUSL wheels.
+* Support the Fujitsu C/C++ compiler.
+* Object arrays are now supported in einsum
+* Support for inplace matrix multiplication (`@=`).
+
+The NumPy 1.25.0 release continues the ongoing work to improve the handling and promotion of dtypes, increase the execution speed, and clarify the documentation. There has also been preparatory work for the future NumPy 2.0.0, resulting in a large number of new and expired deprecations.
+
+A total of 148 people contributed to this release and 530 pull requests were merged.  The Python versions supported are 3.9-3.11.
 
 ### Fostering an Inclusive Culture: Call for Participation
 
@@ -15,7 +28,7 @@ How can we be better when it comes to diversity and inclusion? Read the report a
 
 _Jan 6, 2023_ –- Mukulika Pahari and Ross Barnowski are appointed as the new NumPy documentation team leads replacing Melissa Mendonça. We thank Melissa for all her contributions to the NumPy official documentation and educational materials, and Mukulika and Ross for stepping up.
 
-### Numpy 1.24.0 released
+### NumPy 1.24.0 released
 
 _Dec 18, 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) is now available. The highlights of the release are:
 
@@ -169,6 +182,7 @@ More details on our proposed initiatives and deliverables can be found in the [f
 
 Here is a list of NumPy releases, with links to release notes. Bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
 
+- NumPy 1.25.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.25.0)) -- _17 Jun 2023_.
 - NumPy 1.24.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.24.3)) -- _22 Apr 2023_.
 - NumPy 1.24.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.24.2)) -- _5 Feb 2023_.
 - NumPy 1.24.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.24.1)) -- _26 Dec 2022_.
