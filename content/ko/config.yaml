@@ -10,7 +10,7 @@ params:
     #Hero subtitle (optional)
     subtitle: Python으로 과학적 컴퓨팅을 하기 위한 기초 패키지
     #Button text
-    buttontext: "Latest release: numpy 1.24.2. View all releases."
+    buttontext: "Latest release: NumPy 1.25. View all releases"
     #Where the main hero button links to
     buttonlink: "/news/#releases"
     #Hero image (from static/images/___)
