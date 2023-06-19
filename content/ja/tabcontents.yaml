@@ -87,61 +87,61 @@ arraylibraries:
       url: https://uarray.org/en/latest/
     - 
       title: tensorly
-      text: Tensor learning, algebra and backends to seamlessly use NumPy, MXNet, PyTorch, TensorFlow or CuPy.
+      text: Numpy、MXNet、PyTorch、TensorFlowまたはCupyをシームレスに使用するための、テンソル学習、テンソル代数、およびバックエンド
       img: /images/content_images/arlib/tensorly.png
       alttext: tensorly
       url: http://tensorly.org/stable/home.html
 scientificdomains:
   intro:
     - 
-      text: Nearly every scientist working in Python draws on the power of NumPy.
+      text: Pythonを使って働くほとんどの科学者はNumPyの力を利用しています。
     - 
-      text: "NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant."
+      text: "Numpy は、 C や Fortran のような言語の計算パフォーマンスを、Pythonにもたらします。 このパワーはNumPyのシンプルさから来ており、NumPyによるソリューションの多くは明確でエレガントになります。"
   librariesrow1:
     - 
-      title: Quantum Computing
-      alttext: A computer chip.
+      title: 量子コンピューティング
+      alttext: コンピューターチップ
       img: /images/content_images/sc_dom_img/quantum_computing.svg
     - 
-      title: Statistical Computing
-      alttext: A line graph with the line moving up.
+      title: 統計コンピューティング
+      alttext: 線グラフで、グラフが上に移動します。
       img: /images/content_images/sc_dom_img/statistical_computing.svg
     - 
-      title: Signal Processing
-      alttext: A bar chart with positive and negative values.
+      title: 信号処理
+      alttext: 正と負の値を持つ棒グラフ。
       img: /images/content_images/sc_dom_img/signal_processing.svg
     - 
-      title: Image Processing
-      alttext: An photograph of the mountains.
+      title: 画像処理
+      alttext: 山々の写真
       img: /images/content_images/sc_dom_img/image_processing.svg
     - 
-      title: Graphs and Networks
-      alttext: A simple graph.
+      title: グラフとネットワーク
+      alttext: シンプルなグラフ
       img: /images/content_images/sc_dom_img/sd6.svg
     - 
-      title: Astronomy Processes
-      alttext: A telescope.
+      title: 天文学における計算
+      alttext: 望遠鏡
       img: /images/content_images/sc_dom_img/astronomy_processes.svg
     - 
-      title: Cognitive Psychology
-      alttext: A human head with gears.
+      title: 認知心理学
+      alttext: ギアをつけた人間の頭部
       img: /images/content_images/sc_dom_img/cognitive_psychology.svg
   librariesrow2:
     - 
-      title: Bioinformatics
-      alttext: A strand of DNA.
+      title: 生命情報科学
+      alttext: DNAの鎖
       img: /images/content_images/sc_dom_img/bioinformatics.svg
     - 
-      title: Bayesian Inference
-      alttext: A graph with a bell-shaped curve.
+      title: ベイズ推論
+      alttext: 鐘形の曲線のグラフ
       img: /images/content_images/sc_dom_img/bayesian_inference.svg
     - 
-      title: Mathematical Analysis
-      alttext: Four mathematical symbols.
+      title: 数学的分析
+      alttext: ４つの数学記号
       img: /images/content_images/sc_dom_img/mathematical_analysis.svg
     - 
-      title: Chemistry
-      alttext: A test tube.
+      title: 化学
+      alttext: 試験管
       img: /images/content_images/sc_dom_img/chemistry.svg
     - 
       title: 地球科学
