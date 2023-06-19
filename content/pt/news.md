@@ -7,22 +7,24 @@ date: 2023-06-17
 
 ### Lançado o NumPy 1.25.0
 
-_17 de junho, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) está disponível agora. Alguns dos destaques são:
+_17 de junho, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) está disponível agora. The highlights of the release are:
 
 * Support for MUSL, there are now MUSL wheels.
-* Support the Fujitsu C/C++ compiler.
-* Object arrays are now supported in einsum
-* Support for inplace matrix multiplication (`@=`).
+* Support for the Fujitsu C/C++ compiler.
+* Object arrays are now supported in einsum.
+* Support for the inplace matrix multiplication (`@=`).
 
 The NumPy 1.25.0 release continues the ongoing work to improve the handling and promotion of dtypes, increase the execution speed, and clarify the documentation. There has also been preparatory work for the future NumPy 2.0.0, resulting in a large number of new and expired deprecations.
 
-A total of 148 people contributed to this release and 530 pull requests were merged.  The Python versions supported are 3.9-3.11.
+A total of 148 people contributed to this release and 530 pull requests were merged.
+
+The Python versions supported by this release are 3.9-3.11.
 
 ### Promovendo uma cultura inclusiva: Chamada de participação
 
-_10 de maio de 2023_ -- Promovendo uma Cultura Inclusiva: Chamada de Participação
+_May 10, 2023_ -- Fostering an Inclusive Culture: Call for Participation
 
-Como podemos ser melhores quando se trata de diversidade e de inclusão? Leia o relatório e descubra como colaborar [aqui](https://contributor-experience.org/docs/posts/dei-report/).
+How can we be better when it comes to diversity and inclusion? Read the report and find out how to get involved [here](https://contributor-experience.org/docs/posts/dei-report/).
 
 ### Transição de liderança do time de documentação do NumPy
 
@@ -30,37 +32,37 @@ _Jan 6, 2023_ –- Mukulika Pahari and Ross Barnowski are appointed as the new N
 
 ### NumPy 1.24.0 released
 
-_18 de dezembro de 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) está agora disponível. The highlights of the release are:
+_Dec 18, 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) is now available. The highlights of the release are:
 
 * Novas palavras-chave "dtype" e "casting" para funções que atuam com stacking.
 * Novas funcionalidades e correções do F2PY.
 * Muitas depreciações novas, confira.
 * Muitas depreciações expiradas.
 
-A versão 1.24.0 do NumPy continua o trabalho de melhorias no suporte e promoção de dtypes, na velocidade e execução, e na documentação. Há um grande número de depreciações novas e expiradas devido a mudanças na promoção de dtypes e limpezas no código. É o trabalho de 177 contribuidores espalhados em 444 pull requests. As versões suportadas do Python são 3.8-3.11.
+The NumPy 1.24.0 release continues the ongoing work to improve the handling and promotion of dtypes, increase execution speed, and clarify the documentation. There are a large number of new and expired deprecations due to changes in dtype promotion and cleanups. It is the work of 177 contributors spread over 444 pull requests. The supported Python versions are 3.8-3.11.
 
 ### NumPy versão 1.23.0
 
-_22 de junho de 2022_ -- O [NumPy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) está disponível. Os destaques desta versão são:
+_Jun 22, 2022_ -- [NumPy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) is now available. The highlights of the release are:
 
 * Implementação de `loadtxt` em C, melhorando muito seu desempenho.
 * Exposição do DLPack ao nível de Python para facilitar a troca de dados.
 * Mudanças na promoção e comparações de dtypes estruturados.
 * Melhorias no f2py.
 
-A versão 1.23.0 do NumPy continua o trabalho de melhorias no suporte e promoção de dtypes, na velocidade de execução, na documentação e na expiração de depreciações. É o trabalho de 151 contribuidores espalhados em 494 pull requests. As versões do Python suportadas por esta versão 3.8-3.10. Python 3.11 será suportado quando chegar na etapa rc.
+The NumPy 1.23.0 release continues the ongoing work to improve the handling and promotion of dtypes, increase the execution speed, clarify the documentation, and expire old deprecations. It is the work of 151 contributors spread over 494 pull requests. The Python versions supported by this release 3.8-3.10. Python 3.11 will be supported when it reaches the rc stage.
 
 ### Pesquisa NumFOCUS DEI: chamada para participação
 
-_13 de abril de 2022_ -- O NumPy está trabalhando com a [NumFOCUS](http://numfocus.org/) em um [projeto de pesquisa](https://numfocus.org/diversity-inclusion-disc/a-pivotal-time-in-numfocuss-project-aimed-dei-efforts?eType=EmailBlastContent&eId=f41a86c3-60d4-4cf9-86cf-58eb49dc968c) financiado pela [Gordon & Betty Moore Foundation](https://www.moore.org/) para entender as barreiras à participação que contribuidores, especialmente aqueles de grupos historicamente subrepresentados, enfrentam na comunidade open source. A equipe da pesquisa gostaria de falar com novos colaboradores, desenvolvedores e mantenedores, e aqueles que contribuíram no passado sobre suas experiências contribuindo para o NumPy.
+_Apr 13, 2022_ -- NumPy is working with [NumFOCUS](http://numfocus.org/) on a [research project](https://numfocus.org/diversity-inclusion-disc/a-pivotal-time-in-numfocuss-project-aimed-dei-efforts?eType=EmailBlastContent&eId=f41a86c3-60d4-4cf9-86cf-58eb49dc968c) funded by the [Gordon & Betty Moore Foundation](https://www.moore.org/) to understand the barriers to participation that contributors, particularly those from historically underrepresented groups, face in the open-source software community. The research team would like to talk to new contributors, project developers and maintainers, and those who have contributed in the past about their experiences joining and contributing to NumPy.
 
-**Quer compartilhar suas experiências?**
+**Interested in sharing your experiences?**
 
-Por favor, preencha este breve formulário: ["Participant Interest form"](https://numfocus.typeform.com/to/WBWVJSqe) que contém informações adicionais sobre os objetivos da pesquisa, privacidade e considerações de confidencialidade. Sua participação será valiosa para o crescimento e sustentabilidade de comunidades de software open source diversas e inclusivas. Os participantes aceitos participarão de uma entrevista de 30 minutos com um membro da equipe de pesquisa.
+Please complete this brief [“Participant Interest” form](https://numfocus.typeform.com/to/WBWVJSqe) which contains additional information on the research goals, privacy, and confidentiality considerations. Your participation will be valuable to the growth and sustainability of diverse and inclusive open-source software communities. Accepted participants will participate in a 30-minute interview with a research team member.
 
 ### NumPy versão 1.22.0
 
-_31 de dezembro de 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) está agora disponível. Os destaques desta versão são:
+_Dec 31, 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) is now available. The highlights of the release are:
 
 * Anotações de tipo do namespace principal estão praticamente completas. Ainda há trabalho a se fazer no upstream, mas a maior parte do trabalho está feita. Esta é provavelmente a melhoria mais visível para os usuários nesta versão.
 * Uma versão preliminar da proposta do [array API Standard](https://data-apis.org/array-api/latest/) está disponível (veja [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)). Este é um passo na criação de uma coleção padrão de funções que podem ser compartilhadas entre bibliotecas como CuPy e JAX.
@@ -69,30 +71,30 @@ _31 de dezembro de 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/
 * As funções universais foram refatoradas para implementar a maior parte da [NEP 43](https://numpy.org/neps/nep-0043-extensible-ufuncs.html). Isso também desbloqueia a capacidade de experimentar a futura API DType.
 * Um novo alocador de memória configurável para uso pelos projetos downstream.
 
-NumPy 1.22.0 é uma versão importante com o trabalho de 153 contribuidores espalhados por mais de 609 pull requests. As versões do Python suportadas por esta versão são 3.8-3.10.
+NumPy 1.22.0 is a big release featuring the work of 153 contributors spread over 609 pull requests. The Python versions supported by this release are 3.8-3.10.
 
 ### Avançando em uma cultura inclusiva no ecossistema científico de Python
 
-_31 de agosto de 2021_ -- Estamos felizes em anunciar que a Chan Zuckerberg Initiative [vai financiar](https://chanzuckerberg.com/newsroom/czi-awards-16-million-for-foundational-open-source-software-tools-essential-to-biomedicine/) um projeto para apoiar a integração, inclusão, e retenção de pessoas de grupos marginalizados historicamente em projetos científicos em Python, e para estruturalmente melhorar a dinâmica das comunidades para o NumPy, SciPy, Matplotlib, e Pandas.
+_August 31, 2021_ -- We are happy to announce the Chan Zuckerberg Initiative has [awarded a grant](https://chanzuckerberg.com/newsroom/czi-awards-16-million-for-foundational-open-source-software-tools-essential-to-biomedicine/) to support the onboarding, inclusion, and retention of people from historically marginalized groups on scientific Python projects, and to structurally improve the community dynamics for NumPy, SciPy, Matplotlib, and Pandas.
 
-Como parte do programa [CZI's Essential Open Source Software for Science](https://chanzuckerberg.com/eoss/), esse [financiamento adicional para diversidade e inclusão](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b) vai apoiar a criação de posições de Contributor Experience Lead para identificar, documentar e implementar práticas para fomentar comunidades open source inclusivas. Este projeto será liderado por Melissa Mendonça (NumPy), com apoio adicional de Ralf Gommers (NumPy, SciPy), Hannah Aizenman e Thomas Caswell (Matplotlib), Matt Haberland (SciPy), e Joris Van den Bossche (Pandas).
+As a part of [CZI's Essential Open Source Software for Science program](https://chanzuckerberg.com/eoss/), this [Diversity & Inclusion supplemental grant](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b) will support the creation of dedicated Contributor Experience Lead positions to identify, document, and implement practices to foster inclusive open-source communities. This project will be led by Melissa Mendonça (NumPy), with additional mentorship and guidance provided by Ralf Gommers (NumPy, SciPy), Hannah Aizenman and Thomas Caswell (Matplotlib), Matt Haberland (SciPy), and Joris Van den Bossche (Pandas).
 
-Esse é um projeto ambicioso que visa descobrir e implementar atividades que devem estruturalmente melhorar a dinâmica da comunidade de nossos projetos. Ao criar essas novas funções entre projetos, esperamos introduzir um novo modelo de colaboração às comunidades de Python científico, permitir que o trabalho de construção da comunidade no ecossistema seja feito de forma mais eficiente e com maiores resultados. Também esperamos desenvolver uma imagem mais clara do que funciona e o que não funciona em nossos projetos para engajar e reter novos colaboradores, especialmente de grupos historicamente sub-representados. Finalmente, planejamos produzir relatórios detalhados sobre as ações executadas, explicando como eles afetaram nossos projetos em termos de representação e interação com nossas comunidades.
+This is an ambitious project aiming to discover and implement activities that should structurally improve the community dynamics of our projects. By establishing these new cross-project roles, we hope to introduce a new collaboration model to the Scientific Python communities, allowing community-building work within the ecosystem to be done more efficiently and with greater outcomes. We also expect to develop a clearer picture of what works and what doesn't in our projects to engage and retain new contributors, especially from historically underrepresented groups. Finally, we plan on producing detailed reports on the actions executed, explaining how they have impacted our projects in terms of representation and interaction with our communities.
 
-O projeto de dois anos deverá começar em novembro de 2021 e estamos animados para ver os resultados deste trabalho! [Você pode ler a proposta completa aqui](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063).
+The two-year project is expected to start by November 2021, and we are excited to see the results from this work! [You can read the full proposal here](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063).
 
 ### Pesquisa NumPy 2021
 
-_12 de julho de 2021_ -- Nós do NumPy acreditamos no poder da nossa comunidade. 1,236 usuários do NumPy de 75 países participaram da nossa primeira pesquisa ano passado. Os resultados da pesquisa nos ajudaram a compreender muito bem o que devemos fazer pelos 12 meses seguintes.
+_July 12, 2021_ -- At NumPy, we believe in the power of our community. 1,236 NumPy users from 75 countries participated in our inaugural survey last year. The survey findings gave us a very good understanding of what we should focus on for the next 12 months.
 
-Chegou a hora de fazer outra pesquisa e estamos contando com você novamente. Vai levar cerca de 15 minutos do seu tempo. Além de Inglês, o questionário de pesquisa está disponível em 8 idiomas adicionais: Bangla, Francês, Hindi, Japonês, Mandarim, Português, Russo e Espanhol.
+It’s time for another survey, and we are counting on you once again. It will take about 15 minutes of your time. Besides English, the survey questionnaire is available in 8 additional languages: Bangla, French, Hindi, Japanese, Mandarin, Portuguese, Russian, and Spanish.
 
-Siga o link para começar: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSl4q.
+Follow the link to get started: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSl4q.
 
 
 ### NumPy versão 1.19.0
 
-_23 de junho de 2021_ -- O [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) está disponível. Os destaques desta versão são:
+_Jun 23, 2021_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) is now available. The highlights of the release are:
 
 - a continuação do trabalho com SIMD para suportar mais funções e plataformas,
 - trabalho inicial na infraestrutura e conversão de novos dtypes,
@@ -101,86 +103,86 @@ _23 de junho de 2021_ -- O [NumPy 1.21.0](https://numpy.org/doc/stable/release/1
 - melhorias nas anotações de tipos,
 - novo bitgenerator `PCG64DXSM` para números aleatórios.
 
-Esta versão do NumPy é o resultado de 581 pull requests aceitos, a partir das contribuições de 175 pessoas.  As versões do Python suportadas por esta versão são 3.7-3.9; o suporte para o Python 3.10 será adicionado após o lançamento do Python 3.10.
+This NumPy release is the result of 581 merged pull requests contributed by 175 people.  The Python versions supported for this release are 3.7-3.9, support for Python 3.10 will be added after Python 3.10 is released.
 
 
 ### Resultados da pesquisa NumPy 2020
 
-_22 de junho de 2021_ -- Em 2020, o time de pesquisas NumPy, em parceria com estudantes e professores da Universidade de Michigan e da Universidade de Maryland, realizou a primeira pesquisa oficial sobre a comunidade NumPy. Encontre os resultados da pesquisa aqui: https://numpy.org/user-survey-2020/.
+_Jun 22, 2021_ -- In 2020, the NumPy survey team in partnership with students and faculty from the University of Michigan and the University of Maryland conducted the first official NumPy community survey. Find the survey results here: https://numpy.org/user-survey-2020/.
 
 
 ### NumPy versão 1.18.0
 
-_30 de janeiro de 2021_ -- O [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) está disponível. Este é o maior release do NumPy até agora, graças a mais de 180 contribuidores. As duas novidades mais emocionantes são:
+_Jan 30, 2021_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) is now available. This is the largest NumPy release to date, thanks to 180+ contributors. The two most exciting new features are:
 - Anotações de tipos para grandes partes do NumPy, e um novo submódulo `numpy.typing` contendo aliases `ArrayLike` e `DtypeLike` que usuários e bibliotecas downstream podem usar quando quiserem adicionar anotações de tipos em seu próprio código.
 - Otimizações de compilação SIMD multi-plataforma, com suporte para instruções x86 (SSE, AVX), ARM64 (Neon) e PowerPC (VSX). Isso rendeu melhorias significativas de desempenho para muitas funções (exemplos: [sen/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
 
 ### Diversidade no projeto NumPy
 
-_20 de setembro de 2020_ -- Escrevemos uma [declaração sobre o estado da diversidade e inclusão no projeto NumPy e discussões em redes sociais sobre isso.](/diversity_sep2020).
+_Sep 20, 2020_ -- We wrote a [statement on the state of, and discussion on social media around, diversity and inclusion in the NumPy project](/diversity_sep2020).
 
 
 ### Primeiro artigo oficial do NumPy publicado na Nature!
 
-_16 de setembro de 2020_ -- Temos o prazer de anunciar a publicação do [primeiro artigo oficial do NumPy](https://www.nature.com/articles/s41586-020-2649-2) como um artigo de revisão na Nature. Isso ocorre 14 anos após o lançamento do NumPy 1.0. O artigo abrange aplicações e conceitos fundamentais da programação de matrizes, o rico ecossistema científico de Python construído em cima do NumPy, e os protocolos de array recentemente adicionados para facilitar a interoperabilidade com bibliotecas externas para computação com matrizes e tensores, como CuPy, Dask e JAX.
+_Sep 16, 2020_ -- We are pleased to announce the publication of [the first official paper on NumPy](https://www.nature.com/articles/s41586-020-2649-2) as a review article in Nature. This comes 14 years after the release of NumPy 1.0. The paper covers applications and fundamental concepts of array programming, the rich scientific Python ecosystem built on top of NumPy, and the recently added array protocols to facilitate interoperability with external array and tensor libraries like CuPy, Dask, and JAX.
 
 
 ### O Python 3.9 está chegando, quando o NumPy vai liberar wheels binárias?
 
-_14 de setembro de 2020_ -- Python 3.9 será lançado em algumas semanas. Se você for quiser usar imediatamente a nova versão do Python, você pode ficar desapontado ao descobrir que o NumPy (e outros pacotes binários como SciPy) não terão wheels no dia do lançamento. É um grande esforço adaptar a infraestrutura de compilação a uma nova versão de Python e normalmente leva algumas semanas para que os pacotes apareçam no PyPI e no conda-forge. Em preparação para este evento, por favor, certifique-se de
+_Sept 14, 2020_ -- Python 3.9 will be released in a few weeks. If you are an early adopter of Python versions, you may be dissapointed to find that NumPy (and other binary packages like SciPy) will not have binary wheels ready on the day of the release. It is a major effort to adapt the build infrastructure to a new Python version and it typically takes a few weeks for the packages to appear on PyPI and conda-forge. In preparation for this event, please make sure to
 - atualizar seu `pip` para a versão 20.1 pelo menos para suportar `manylinux2010` e `manylinux2014`
 - usar [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) ou `--only-binary=:all:` para impedir `pip` de tentar compilar a partir do código fonte.
 
 
 ### NumPy versão 1.19.2
 
-_10 de setembro de 2020_ -- O [NumPy 1.19.2](https://numpy.org/devdocs/release/1.19.2-notes.html) está disponível. Essa última versão da série 1.19 corrige vários bugs, inclui preparações para o lançamento [do Cython 3](http://docs.cython.org/en/latest/src/changes.html) e fixa o setuptools para que o distutils continue funcionando enquanto modificações upstream estão sendo feitas. As wheels para aarch64 são compiladas com manylinux2014 mais recente que conserta um problema com distribuições linux diferentes.
+_Sep 10, 2020_ -- [NumPy 1.19.2](https://numpy.org/devdocs/release/1.19.2-notes.html) is now available. This latest release in the 1.19 series fixes several bugs, prepares for the [upcoming Cython 3.x release](http://docs.cython.org/en/latest/src/changes.html) and pins setuptools to keep distutils working while upstream modifications are ongoing. The aarch64 wheels are built with the latest manylinux2014 release that fixes the problem of differing page sizes used by different linux distros.
 
 ### A primeira pesquisa NumPy está aqui!
 
-_2 de julho de 2020_ -- Esta pesquisa tem como objetivo guiar e definir prioridades para tomada de decisões sobre o desenvolvimento do NumPy como software e como comunidade. A pesquisa está disponível em mais 8 idiomas além do inglês: Bangla, Hindi, Japonês, Mandarim, Português, Russo, Espanhol e Francês.
+_Jul 2, 2020_ -- This survey is meant to guide and set priorities for decision-making about the development of NumPy as software and as a community. The survey is available in 8 additional languages besides English: Bangla, Hindi, Japanese, Mandarin, Portuguese, Russian, Spanish and French.
 
-Ajude-nos a melhorar o NumPy respondendo à pesquisa [aqui](https://umdsurvey.umd.edu/jfe/form/SV_8bJrXjbhXf7saAl).
+Please help us make NumPy better and take the survey [here](https://umdsurvey.umd.edu/jfe/form/SV_8bJrXjbhXf7saAl).
 
 
 ### O NumPy tem um novo logo!
 
-_24 de junho de 2020_ -- NumPy agora tem um novo logo:
+_Jun 24, 2020_ -- NumPy now has a new logo:
 
 <img src="/images/logos/numpy_logo.svg" alt="NumPy logo" title="The new NumPy logo" width=300>
 
-O logo é uma versão moderna do antigo, com um design mais limpo. Obrigado a Isabela Presedo-Floyd por projetar o novo logo, bem como o Travis Vaught pelo o logo antigo que nos serviu bem durante mais de 15 anos.
+The logo is a modern take on the old one, with a cleaner design. Thanks to Isabela Presedo-Floyd for designing the new logo, as well as to Travis Vaught for the old logo that served us well for 15+ years.
 
 
 ### NumPy versão 1.20.0
 
-_20 de junho de 2020_ -- O NumPy 1.19.0 está disponível. Esta é a primeira versão sem suporte ao Python 2, portanto foi uma "versão de limpeza". A versão mínima de Python suportada agora é Python 3.6. Uma característica nova importante é que a infraestrutura de geração de números aleatórios que foi introduzida na NumPy 1.17.0 agora está acessível a partir do Cython.
+_Jun 20, 2020_ -- NumPy 1.19.0 is now available. This is the first release without Python 2 support, hence it was a "clean-up release". The minimum supported Python version is now Python 3.6. An important new feature is that the random number generation infrastructure that was introduced in NumPy 1.17.0 is now accessible from Cython.
 
 
 ### Aceitação no programa Season of Docs
 
-_11 de maio de 2020_ -- O NumPy foi aceito como uma das organizações mentoras do programa Google Season of Docs. Estamos animados com a oportunidade de trabalhar com um *technical writer* para melhorar a documentação do NumPy mais uma vez! Para mais detalhes, consulte [o site oficial do programa Season of Docs](https://developers.google.com/season-of-docs/) e nossa [página de ideias](https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas).
+_May 11, 2020_ -- NumPy has been accepted as one of the mentor organizations for the Google Season of Docs program. We are excited about the opportunity to work with a technical writer to improve NumPy's documentation once again! For more details, please see [the official Season of Docs site](https://developers.google.com/season-of-docs/) and our [ideas page](https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas).
 
 
 ### NumPy versão 1.18.0
 
-_22 de dezembro de 2019_ -- O NumPy 1.18.0 está disponível. Após as principais mudanças em 1.17.0, esta é uma versão de consolidação. Esta é a última versão menor que irá suportar Python 3.5. Destaques dessa versão incluem a adição de uma infraestrutura básica para permitir o link com as bibliotecas BLAS e LAPACK em 64 bits durante a compilação, e uma nova C-API para `numpy.random`.
+_Dec 22, 2019_ -- NumPy 1.18.0 is now available. After the major changes in 1.17.0, this is a consolidation release. It is the last minor release that will support Python 3.5. Highlights of the release includes the addition of basic infrastructure for linking with 64-bit BLAS and LAPACK libraries, and a new C-API for `numpy.random`.
 
-Por favor, veja as [notas de lançamento](https://github.com/numpy/numpy/releases/tag/v1.18.0) para mais detalhes.
+Please see the [release notes](https://github.com/numpy/numpy/releases/tag/v1.18.0) for more details.
 
 
 ### O NumPy recebe financiamento da Chan Zuckerberg Initiative
 
-_15 de novembro de 2019_ -- Estamos felizes em anunciar que o NumPy e a OpenBLAS, uma das dependências-chave da NumPy, receberam um auxílio conjunto de $195,000 da Chan Zuckerberg Initiative através do seu programa [Essential Open Source Software for Science](https://chanzuckerberg.com/eoss/) que apoia a manutenção, crescimento, desenvolvimento e envolvimento com a comunidade de ferramentas de software open source fundamentais para a ciência.
+_Nov 15, 2019_ -- We are pleased to announce that NumPy and OpenBLAS, one of NumPy's key dependencies, have received a joint grant for $195,000 from the Chan Zuckerberg Initiative through their [Essential Open Source Software for Science program](https://chanzuckerberg.com/eoss/) that supports software maintenance, growth, development, and community engagement for open source tools critical to science.
 
-Este auxílio será usado para aumentar os esforços de melhoria da documentação do NumPy, atualização do design do site, e desenvolvimento comunitário para servir melhor a nossa grande e rápida base de usuários, e garantir a sustentabilidade do projeto a longo prazo. Enquanto a equipe OpenBLAS se concentrará em tratar de um conjunto de questões técnicas fundamentais, em particular relacionadas a *thread-safety*, AVX-512, e *thread-local storage* (TLS), bem como melhorias algorítmicas na ReLAPACK (Recursive LAPACK) da qual a OpenBLAS depende.
+This grant will be used to ramp up the efforts in improving NumPy documentation, website redesign, and community development to better serve our large and rapidly growing user base, and ensure the long-term sustainability of the project. While the OpenBLAS team will focus on addressing sets of key technical issues, in particular thread-safety, AVX-512, and thread-local storage (TLS) issues, as well as algorithmic improvements in ReLAPACK (Recursive LAPACK) on which OpenBLAS depends.
 
-Mais detalhes sobre nossas propostas e resultados esperados podem ser encontrados na [proposta completa de concessão de auxílio](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167). O trabalho está agendado para começar no dia 1 de dezembro de 2019 e continuar pelos próximos 12 meses.
+More details on our proposed initiatives and deliverables can be found in the [full grant proposal](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167). The work is scheduled to start on Dec 1st, 2019 and continue for the next 12 months.
 
 
 ## Lançamentos
 
-Aqui está uma lista de versões do NumPy, com links para notas de lançamento. Todos os lançamentos de bugfix (apenas o `z` muda no formato `x.y.z` do número da versão) não tem novos recursos; versões menores (o `y` aumenta) contém novos recursos.
+Here is a list of NumPy releases, with links to release notes. Bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
 
 - NumPy 1.25.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.25.0)) -- _17 Jun 2023_.
 - NumPy 1.24.3 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.24.3)) -- _22 de abril de 2023_.
