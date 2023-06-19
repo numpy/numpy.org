@@ -32,31 +32,31 @@ _2023年1月6日_ –- Mukulika PahariとRoss Barnowskiは、Melissa MendoncAudi
 
 _2022年12月18日_ -- [Numpy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) がリリースされました。 今回のリリースの目玉機能は下記の通りです。
 
-* New "dtype" and "casting" keywords for stacking functions.
-* New F2PY features and fixes.
-* Many new deprecations, check them out.
-* Many expired deprecations,
+* スタッキング関数のための新しい"dtype"と"casting"キーワードの追加
+* F2PYの新機能追加とバグ修正
+* 多くの新しい非推奨(Deprecation)の追加
+* 多くの期限切れの非推奨(Deprecation)の削除
 
-The NumPy 1.24.0 release continues the ongoing work to improve the handling and promotion of dtypes, increase execution speed, and clarify the documentation. There are a large number of new and expired deprecations due to changes in dtype promotion and cleanups. It is the work of 177 contributors spread over 444 pull requests. The supported Python versions are 3.8-3.11.
+Numpy 1.25. リリースは引き続きdtypeの取り扱いと dtypeのプロモーションを改善し、実行速度を向上させ、 ドキュメントを明確化するための継続的な作業を続けて行く予定です。 dtype のプロモーションとクリーンアップの変更により、多数の新規と期限切れの非推奨が存在しています。 今回のリリースは、444個のプルリクエストと177人のコントリビューターによるものです。 サポートされている Python のバージョンは 3.8-3.11 です。
 
 ### Numpy 1.23.0 リリース
 
-_2022年1月22日_ -- [Numpy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) がリリースされました。 今回のリリースのハイライトは次のとおりです。
+_2022年1月22日_ -- [Numpy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) がリリースされました。 今回のリリースの目玉機能は次のとおりです。
 
-* Implementation of `loadtxt` in C, greatly improving its performance.
-* Exposure of DLPack at the Python level for easy data exchange.
-* Changes to the promotion and comparisons of structured dtypes.
-* Improvements to f2py.
+* `loadtxt` がCで実装されたことによる、大幅なパフォーマンス向上
+* より簡単なデータ交換のためのPythonレベルでのDLPackの公開
+* 構造化されたdtypesのプロモーションと比較方法の変更
+* f2pyの改善
 
-The NumPy 1.23.0 release continues the ongoing work to improve the handling and promotion of dtypes, increase the execution speed, clarify the documentation, and expire old deprecations. It is the work of 151 contributors spread over 494 pull requests. The Python versions supported by this release 3.8-3.10. Python 3.11 will be supported when it reaches the rc stage.
+Numpy 1.23. リリースでは引き続きdtypeの取り扱いと dtypeのプロモーションを改善し、実行速度を向上させ、 ドキュメントを明確化するための継続的な作業を続けて行く予定です。 今回のリリースは、494個のプルリクエストと151人のコントリビューターによるものです。 このリリースでサポートされている Python のバージョンは 3.8 - 3.10 です。 Python 3.11がrc ステージに到達すると Python 3.11 もサポートされます。
 
-### NumFOCUS DEI research study: call for participation
+### NumFOCUS DEI研究への参加募集
 
-_Apr 13, 2022_ -- NumPy is working with [NumFOCUS](http://numfocus.org/) on a [research project](https://numfocus.org/diversity-inclusion-disc/a-pivotal-time-in-numfocuss-project-aimed-dei-efforts?eType=EmailBlastContent&eId=f41a86c3-60d4-4cf9-86cf-58eb49dc968c) funded by the [Gordon & Betty Moore Foundation](https://www.moore.org/) to understand the barriers to participation that contributors, particularly those from historically underrepresented groups, face in the open-source software community. The research team would like to talk to new contributors, project developers and maintainers, and those who have contributed in the past about their experiences joining and contributing to NumPy.
+_2022年4月13日_ -- NumPyは、[NumFOCUS](http://numfocus.org/)と協力して、[ある研究プロジェクト](https://numfocus.org/diversity-inclusion-disc/a-pivotal-time-in-numfocuss-project-aimed-dei-efforts?eType=EmailBlastContent&eId=f41a86c3-60d4-4cf9-86cf-58eb49dc968c)を進めており、これは[Gordon & Betty Moore Foundation](https://www.moore.org/)によって資金提供されています。このプロジェクトでは、オープンソースソフトウェアコミュニティにおいて、特に歴史的に代表されてこなかったグループからの貢献者が参加する際の障壁を理解することを目的としています。 この研究チームは、新しい貢献者、プロジェクトの開発者およびメンテナー、そして過去に貢献した方々に、NumPyに参加し貢献した経験について話を聞きたいと考えています。
 
-**Interested in sharing your experiences?**
+**あなたの経験を共有することに興味がありますか?**
 
-Please complete this brief [“Participant Interest” form](https://numfocus.typeform.com/to/WBWVJSqe) which contains additional information on the research goals, privacy, and confidentiality considerations. Your participation will be valuable to the growth and sustainability of diverse and inclusive open-source software communities. Accepted participants will participate in a 30-minute interview with a research team member.
+もし興味がある場合は、研究目標、プライバシー、および 守秘義務に関する追加情報が記載されている、この簡単な[参加者の興味](https://numfocus.typeform.com/to/WBWVJSqe)フォームに記入をお願いします。 多様で包括的なオープンソースソフトウェアコミュニティの 成長と持続可能性のために、このプロジェクトへのあなたの参加は非常に大きな価値があります。 参加を受け入れられた人は、研究チームメンバーと30分間のインタビューに参加することになります。
 
 ### NumPy 1.19.2 リリース
 
