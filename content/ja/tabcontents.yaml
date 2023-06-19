@@ -69,7 +69,7 @@ arraylibraries:
       url: https://github.com/apache/arrow
     - 
       title: xtensor
-      text: Multi-dimensional arrays with broadcasting and lazy computing for numerical analysis.
+      text: 数値解析のためのブロードキャスティングと遅延計算を備えた多次元配列
       img: /images/content_images/arlib/xtensor.png
       alttext: xtensor
       url: https://github.com/xtensor-stack/xtensor-python
@@ -81,7 +81,7 @@ arraylibraries:
       url: https://xnd.io
     - 
       title: uarray
-      text: Python backend system that decouples API from implementation; unumpy provides a NumPy API.
+      text: APIを実装から切り離すPythonバックエンドシステム (unumpyはNumPy APIを提供しています)
       img: /images/content_images/arlib/uarray.png
       alttext: uarray
       url: https://uarray.org/en/latest/
