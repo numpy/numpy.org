@@ -1,15 +1,15 @@
 ---
 title: News
 sidebar: false
-newsHeader: "NumPy 1.25.0 released"
+newsHeader: "NumPy 1.25.0 출시"
 date: 2023-06-17
 ---
 
-### NumPy 1.25.0 released
+### NumPy 1.25.0 출시
 
-_Jun 17, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) is now available. The highlights of the release are:
+_2023년 6월 17일_ -- 이제 [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html)을 이용할 수 있습니다. The highlights of the release are:
 
-* Support for MUSL, there are now MUSL wheels.
+* MUSL 지원, 이제 MUSL Wheel도 배포됩니다.
 * Support for the Fujitsu C/C++ compiler.
 * Object arrays are now supported in einsum.
 * Support for the inplace matrix multiplication (`@=`).
@@ -30,7 +30,7 @@ How can we be better when it comes to diversity and inclusion? Read the report a
 
 _Jan 6, 2023_ –- Mukulika Pahari and Ross Barnowski are appointed as the new NumPy documentation team leads replacing Melissa Mendonça. We thank Melissa for all her contributions to the NumPy official documentation and educational materials, and Mukulika and Ross for stepping up.
 
-### NumPy 1.24.0 released
+### NumPy 1.24.0 출시
 
 _Dec 18, 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) is now available. The highlights of the release are:
 
@@ -149,7 +149,7 @@ Please help us make NumPy better and take the survey [here](https://umdsurvey.um
 
 _Jun 24, 2020_ -- NumPy now has a new logo:
 
-<img src="/images/logos/numpy_logo.svg" alt="NumPy logo" title="The new NumPy logo" width=300>
+<img src="/images/logos/numpy_logo.svg" alt="NumPy 로고" title="새 NumPy 로고" width=300>
 
 The logo is a modern take on the old one, with a cleaner design. Thanks to Isabela Presedo-Floyd for designing the new logo, as well as to Travis Vaught for the old logo that served us well for 15+ years.
 
@@ -184,33 +184,33 @@ More details on our proposed initiatives and deliverables can be found in the [f
 
 Here is a list of NumPy releases, with links to release notes. Bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
 
-- NumPy 1.25.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.25.0)) -- _17 Jun 2023_.
-- NumPy 1.24.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.24.3)) -- _22 Apr 2023_.
-- NumPy 1.24.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.24.2)) -- _5 Feb 2023_.
-- NumPy 1.24.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.24.1)) -- _26 Dec 2022_.
-- NumPy 1.24.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.24.0)) -- _18 Dec 2022_.
-- NumPy 1.23.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.23.5)) -- _19 Nov 2022_.
-- NumPy 1.23.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.23.4)) -- _12 Oct 2022_.
-- NumPy 1.23.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.23.3)) -- _9 Sep 2022_.
-- NumPy 1.23.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.23.2)) -- _14 Aug 2022_.
-- NumPy 1.23.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.23.1)) -- _8 Jul 2022_.
-- NumPy 1.23.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.23.0)) -- _22 Jun 2022_.
-- NumPy 1.22.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.22.4)) -- _20 May 2022_.
-- NumPy 1.21.6 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.6)) -- _12 Apr 2022_.
-- NumPy 1.22.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.22.3)) -- _7 Mar 2022_.
-- NumPy 1.22.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.22.2)) -- _3 Feb 2022_.
-- NumPy 1.22.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.22.1)) -- _14 Jan 2022_.
-- NumPy 1.22.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.22.0)) -- _31 Dec 2021_.
-- NumPy 1.21.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.5)) -- _19 Dec 2021_.
-- NumPy 1.21.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.0)) -- _22 Jun 2021_.
-- NumPy 1.20.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.20.3)) -- _10 May 2021_.
-- NumPy 1.20.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.20.0)) -- _30 Jan 2021_.
-- NumPy 1.19.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.19.5)) -- _5 Jan 2021_.
-- NumPy 1.19.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.19.0)) -- _20 Jun 2020_.
-- NumPy 1.18.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.18.4)) -- _3 May 2020_.
-- NumPy 1.17.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.17.5)) -- _1 Jan 2020_.
-- NumPy 1.18.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.18.0)) -- _22 Dec 2019_.
-- NumPy 1.17.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.17.0)) -- _26 Jul 2019_.
-- NumPy 1.16.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.16.0)) -- _14 Jan 2019_.
-- NumPy 1.15.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.15.0)) -- _23 Jul 2018_.
-- NumPy 1.14.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.14.0)) -- _7 Jan 2018_.
+- NumPy 1.25.0 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.25.0)) -- _2023년 6월 17일_.
+- NumPy 1.24.3 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.24.3)) -- _2023년 4월 22일_.
+- NumPy 1.24.2 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.24.2)) -- _2023년 2월 5일_.
+- NumPy 1.24.1 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.24.1)) -- _2022년 12월 26일_.
+- NumPy 1.24.0 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.24.0)) -- _2022년 12월 18일_.
+- NumPy 1.23.5 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.23.5)) -- _2022년 11월 19일_.
+- NumPy 1.23.4 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.23.4)) -- _2022년 10월 12일_.
+- NumPy 1.23.3 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.23.3)) -- _2022년 9월 9일_.
+- NumPy 1.23.2 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.23.2)) -- _2022년 8월 14일_.
+- NumPy 1.23.1 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.23.1)) -- _2022년 7월 8일_.
+- NumPy 1.23.0 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.23.0)) -- _2022년 6월 22일_.
+- NumPy 1.22.4 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.22.4)) -- _2022년 5월 20일_.
+- NumPy 1.21.6 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.21.6)) -- _2022년 4월 12일_.
+- NumPy 1.22.3 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.22.3)) -- _2022년 3월 7일_.
+- NumPy 1.22.2 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.22.2)) -- _2022년 2월 3일_.
+- NumPy 1.22.1 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.22.1)) -- _2022년 1월 14일_.
+- NumPy 1.22.0 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.22.0)) -- _2021년 12월 31일_.
+- NumPy 1.21.5 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.21.5)) -- _2021년 12월 19일_.
+- NumPy 1.21.0 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.21.0)) -- _2021년 6월 22일_.
+- NumPy 1.20.3 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.20.3)) -- _2021년 5월 10일_.
+- NumPy 1.20.0 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.20.0)) -- _2021년 1월 30일_.
+- NumPy 1.19.5 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.19.5)) -- _2021년 1월 5일_.
+- NumPy 1.19.0 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.19.0)) -- _2020년 6월 20일_.
+- NumPy 1.18.4 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.18.4)) -- _2020년 5월 3일_.
+- NumPy 1.17.5 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.17.5)) -- _2020년 1월 1일_.
+- NumPy 1.18.0 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.18.0)) -- _2019년 12월 22일_.
+- NumPy 1.17.0 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.17.0)) -- _2019년 7월 26일_.
+- NumPy 1.16.0 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.16.0)) -- _2019년 1월 14일_.
+- NumPy 1.15.0 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.15.0)) -- _2018년 7월 23일_.
+- NumPy 1.14.0 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.14.0)) -- _2018년 1월 7일_.
