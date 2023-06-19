@@ -11,26 +11,26 @@ _2023年1月17日_ -- [Numpy 1.25.0](https://numpy.org/doc/stable/release/1.25.0
 
 * MUSLのサポート。MUSLのWheelが準備されました。
 * 富士通のC/C++コンパイラサポート
-* Object arrays are now supported in einsum
-* Support for inplace matrix multiplication (`@=`).
+* einsum でオブジェクト配列がサポートされるようになりました
+* 行列の置き換え(inplace)掛け算のサポート (`@=`).
 
-The NumPy 1.25.0 release continues the ongoing work to improve the handling and promotion of dtypes, increase the execution speed, and clarify the documentation. There has also been preparatory work for the future NumPy 2.0.0, resulting in a large number of new and expired deprecations.
+Numpy 1.25. リリースは引き続きdtypeの取り扱いと dtypeのプロモーションを改善し、実行速度を向上させ、 ドキュメントを明確化するための継続的な作業を続けて行く予定です。 将来の NumPy 2.0.0 に向けた準備作業も行われており、 多数の新規および期限切れの機能廃止が可能となってきています。
 
-A total of 148 people contributed to this release and 530 pull requests were merged.  The Python versions supported are 3.9-3.11.
+合計148人がこのリリースに貢献し、530個のプルリクエストが マージされました。  サポートされている Python のバージョンは 3.9-3.11 です。
 
-### Fostering an Inclusive Culture: Call for Participation
+### インクルーシブな文化の育成: 参加の募集
 
-_May 10, 2023_ -- Fostering an Inclusive Culture: Call for Participation
+_2023年5月10日_ -- インクルーシブ・カルチャーの育成: 参加募集
 
-How can we be better when it comes to diversity and inclusion? Read the report and find out how to get involved [here](https://contributor-experience.org/docs/posts/dei-report/).
+NumPyプロジェクトの多様性とインクルージョンに関して、我々はどのようなことを実施すればいいでしょうか？ 興味がある方はこちらの [レポート](https://contributor-experience.org/docs/posts/dei-report/) を読んで参加する方法を確認してください。
 
-### NumPy documentation team leadership transition
+### NumPy ドキュメンテーションチームのリーダーの変更
 
-_Jan 6, 2023_ –- Mukulika Pahari and Ross Barnowski are appointed as the new NumPy documentation team leads replacing Melissa Mendonça. We thank Melissa for all her contributions to the NumPy official documentation and educational materials, and Mukulika and Ross for stepping up.
+_2023年1月6日_ –- Mukulika PahariとRoss Barnowskiは、Melissa MendoncAudioに代わるNumPyドキュメンテーションチームの新しいリーダーとして任命されました。 私たちは、MelissaにNumPyの公式ドキュメントと教育資料に対するすべての貢献に感謝し、MukulikaとRossに新しい役割にステップアップしてもらったことに感謝します。
 
-### NumPy 1.24.0 released
+### NumPy 1.24.0 リリース
 
-_2022年12月18日_ -- [Numpy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) がリリースされました。 The highlights of the release are:
+_2022年12月18日_ -- [Numpy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) がリリースされました。 今回のリリースの目玉機能は下記の通りです。
 
 * New "dtype" and "casting" keywords for stacking functions.
 * New F2PY features and fixes.
