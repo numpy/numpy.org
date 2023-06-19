@@ -1,22 +1,22 @@
 ---
-title: NumPy Code of Conduct - How to follow up on a report
+title: NumPy 이용 약관 - 보고서의 후속 조치 방법
 sidebar: false
 ---
 
-This is the manual followed by NumPy’s Code of Conduct Committee. It’s used when we respond to an issue to make sure we’re consistent and fair.
+NumPy 행동 강령 위원회는 본 설명을 따릅니다. 문제를 해결할 때 일관성과 공정성을 확보하기 위한 지침입니다.
 
-Enforcing the [Code of Conduct](/code-of-conduct) impacts our community today and for the future. It’s an action that we do not take lightly. When reviewing enforcement measures, the Code of Conduct Committee will keep the following values and guidelines in mind:
+[행동 강령](/code-of-conduct)을 시행하면 현재와 미래의 커뮤니티에 영향을 미칩니다. 우리가 가볍게 받아들이지 않는 행동입니다. 집행 조치를 검토할 때 행동 강령 위원회는 다음 가치와 지침을 염두에 둘 것입니다.
 
-* Act in a personal manner rather than impersonal. The Committee can engage the parties to understand the situation while respecting the privacy and any necessary confidentiality of reporters. However, sometimes it is necessary to communicate with one or more individuals directly: the Committee’s goal is to improve the health of our community rather than only produce a formal decision.
-* Emphasize empathy for individuals rather than judging behavior, avoiding binary labels of “good” and “bad/evil”. Overt, clear-cut aggression and harassment exist, and we will address them firmly. But many scenarios that can prove challenging to resolve are those where normal disagreements devolve into unhelpful or harmful behavior from multiple parties. Understanding the full context and finding a path that re-engages all is hard, but ultimately the most productive for our community.
-* We understand that email is a difficult medium and can be isolating. Receiving criticism over email, without personal contact, can be particularly painful. This makes it especially important to keep an atmosphere of open-minded respect for the views of others. It also means that we must be transparent in our actions, and that we will do everything in our power to make sure that all our members are treated fairly and with sympathy.
-* Discrimination can be subtle and it can be unconscious. It can show itself as unfairness and hostility in otherwise ordinary interactions. We know that this does occur, and we will take care to look out for it. We would very much like to hear from you if you feel you have been treated unfairly, and we will use these procedures to make sure that your complaint is heard and addressed.
-* Help increase engagement in good discussion practice: try to identify where discussion may have broken down, and provide actionable information, pointers, and resources that can lead to positive change on these points.
-* Be mindful of the needs of new members: provide them with explicit support and consideration, with the aim of increasing participation from underrepresented groups in particular.
-* Individuals come from different cultural backgrounds and native languages. Try to identify any honest misunderstandings caused by a non-native speaker and help them understand the issue and what they can change to avoid causing offence. Complex discussion in a foreign language can be very intimidating, and we want to grow our diversity also across nationalities and cultures.
+* 비인간적이기보다는 개인적인 방식으로 행동하십시오. 위원회는 신고자의 사생활과 필요한 기밀을 존중하면서 상황을 이해하도록 당사자들을 참여시킬 수 있습니다. 그러나 때때로 한 명 이상의 개인과 직접 소통해야 할 필요가 있습니다. 위원회의 목표는 단지 공식적인 결정을 내리는 것이 아니라 우리 지역 사회의 건강을 개선하는 것입니다.
+* 행동을 판단하기보다는 개인에 대한 공감을 강조하고 "좋음"과 "나쁨/악"이라는 이분법적인 레이블을 피하십시오. 노골적이고 분명한 공격성과 괴롭힘이 존재하며 우리는 단호하게 대처할 것입니다. 그러나 해결하기 어려운 것으로 입증될 수 있는 많은 시나리오는 정상적인 불일치가 여러 당사자의 도움이 되지 않거나 해로운 행동으로 귀결되는 시나리오입니다. 전체 맥락을 이해하고 모두를 다시 참여시키는 경로를 찾는 것은 어렵지만 궁극적으로 우리 커뮤니티에 가장 생산적입니다.
+* 우리는 이메일이 어려운 매체이며 고립될 수 있음을 이해합니다. 개인적인 연락 없이 이메일을 통해 비판을 받는 것은 특히 고통스러울 수 있습니다. 따라서 다른 사람의 견해를 열린 마음으로 존중하는 분위기를 유지하는 것이 특히 중요합니다. 또한 투명하게 행동해야 하며 모든 구성원이 공정하고 공감하는 대우를 받을 수 있도록 최선을 다하겠다는 의미이기도 합니다.
+* 차별은 미묘할 수도 있고 무의식적일 수도 있습니다. 일상적인 상호 작용에서 불공평과 적대감으로 나타날 수 있습니다. 저희는 이런 차별이 발생한다는 점을 인지하고 있으며 주의를 기울이고 조심할 것입니다. 저희는 귀하가 부당한 대우를 받았다고 느끼시는 경우 귀하의 의견을 듣고 싶습니다. 귀하의 불만 사항을 듣고 해결하기 위한 절차를 밟을 것입니다.
+* 좋은 토론 관행에 참여를 늘리도록 도와주세요: 토론이 중단되었을 수 있는 부분을 파악하고 이러한 점에서 긍정적인 변화를 가져올 수 있는 실행 가능한 정보, 포인터 및 리소스를 제공하세요.
+* 신입 회원의 필요를 염두에 두십시오. 특히 소외된 그룹의 참여를 늘리는 것을 목표로 명시적인 지원과 배려를 제공하십시오.
+* 개인은 서로 다른 문화적 배경과 모국어를 가지고 있습니다. 원어민이 아닌 사람으로 인한 정직한 오해를 식별하고 문제를 이해하고 불쾌감을 주지 않도록 변경할 수 있는 사항을 이해하도록 돕습니다. 외국어로 복잡한 토론을 하는 것은 매우 위협적일 수 있으며 국적과 문화를 넘어 다양성을 키우고자 합니다.
 
 
-## Mediation
+## 중재
 
 Voluntary informal mediation is a tool at our disposal. In contexts such as when two or more parties have all escalated to the point of inappropriate behavior (something sadly common in human conflict), it may be useful to facilitate a mediation process. This is only an example: the Committee can consider mediation in any case, mindful that the process is meant to be strictly voluntary and no party can be pressured to participate. If the Committee suggests mediation, it should:
 
