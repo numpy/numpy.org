@@ -1,16 +1,16 @@
 ---
 title: ニュース
 sidebar: false
-newsHeader: "NumPy 1.25.0 released"
+newsHeader: "NumPy 1.25.0 リリース"
 date: 2023-06-17
 ---
 
-### NumPy 1.25.0 released
+### NumPy 1.25.0 リリース
 
-_Jun 17, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) is now available. Some highlights are:
+_2023年1月17日_ -- [Numpy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) がリリースされました。 このリリースの目玉機能は下記の通りです。
 
-* Support for MUSL, there are now MUSL wheels.
-* Support the Fujitsu C/C++ compiler.
+* MUSLのサポート。MUSLのWheelが準備されました。
+* 富士通のC/C++コンパイラサポート
 * Object arrays are now supported in einsum
 * Support for inplace matrix multiplication (`@=`).
 
