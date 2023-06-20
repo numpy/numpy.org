@@ -79,6 +79,7 @@ The second difference is that pip installs from the Python Packaging Index (PyPI
 
 The third difference is that conda is an integrated solution for managing packages, dependencies and environments, while with pip you may need another tool (there are many!) for dealing with environments or complex dependencies.
 
+<a name="reproducible-installs"></a>
 
 ### Reproducible installs
 
