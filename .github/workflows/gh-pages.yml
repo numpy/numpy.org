@@ -25,4 +25,4 @@ jobs:
           branch: main
           cname: numpy.org
           repo: numpy/numpy.github.com
-          hugoVersion: extended_0.104.3
+          hugoVersion: extended_0.114.1
