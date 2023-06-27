@@ -63,13 +63,13 @@ params:
       text: The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
     - title: Easy to use
       text: NumPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
-    
+
   tabs:
     title: ECOSYSTEM
+
   section5: false
 
-
-navbar:
+  navbar:
   - title: Install
     url: /install
   - title: Documentation
@@ -84,50 +84,50 @@ navbar:
     url: /news
   - title: Contribute
     url: /contribute
-footer:
-  logo: logo.svg
-  socialmediatitle: ""
-  socialmedia:
-  - link: https://github.com/numpy/numpy
-    icon: github
-  - link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
-    icon: youtube
-  - link: https://twitter.com/numpy_team
-    icon: twitter
-  quicklinks:
-    column1:
-      title: ""
-      links:
-        - text: Install
-          link: /install
-        - text: Documentation
-          link: https://numpy.org/doc/stable
-        - text: Learn
-          link: /learn
-        - text: Citing Numpy
-          link: /citing-numpy
-        - text: Roadmap
-          link: https://numpy.org/neps/roadmap.html
-    column2:
-      links:
-        - text: About us
-          link: /about
-        - text: Community
-          link: /community
-        - text: User surveys
-          link: /user-surveys
-        - text: Contribute
-          link: /contribute
-        - text: Code of conduct
-          link: /code-of-conduct
-    column3:
-      links:
-        - text: Get help
-          link: /gethelp
-        - text: Terms of use
-          link: /terms
-        - text: Privacy
-          link: /privacy
-        - text: Press kit
-          link: /press-kit
 
+  footer:
+    logo: logo.svg
+    socialmediatitle: ""
+    socialmedia:
+    - link: https://github.com/numpy/numpy
+      icon: github
+    - link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
+      icon: youtube
+    - link: https://twitter.com/numpy_team
+      icon: twitter
+    quicklinks:
+      column1:
+        title: ""
+        links:
+          - text: Install
+            link: /install
+          - text: Documentation
+            link: https://numpy.org/doc/stable
+          - text: Learn
+            link: /learn
+          - text: Citing Numpy
+            link: /citing-numpy
+          - text: Roadmap
+            link: https://numpy.org/neps/roadmap.html
+      column2:
+        links:
+          - text: About us
+            link: /about
+          - text: Community
+            link: /community
+          - text: User surveys
+            link: /user-surveys
+          - text: Contribute
+            link: /contribute
+          - text: Code of conduct
+            link: /code-of-conduct
+      column3:
+        links:
+          - text: Get help
+            link: /gethelp
+          - text: Terms of use
+            link: /terms
+          - text: Privacy
+            link: /privacy
+          - text: Press kit
+            link: /press-kit

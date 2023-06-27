@@ -77,64 +77,64 @@ params:
     title: ECOSSISTEMA
   section5: false
 
-navbar:
-  - title: Instalação
-    url: /pt/install
-  - title: Documentação
-    url: https://numpy.org/doc/stable
-  - title: Aprenda
-    url: /pt/learn
-  - title: Comunidade
-    url: /pt/community
-  - title: Sobre
-    url: /pt/about
-  - title: Contribuir
-    url: /pt/contribute
+  navbar:
+    - title: Instalação
+      url: /pt/install
+    - title: Documentação
+      url: https://numpy.org/doc/stable
+    - title: Aprenda
+      url: /pt/learn
+    - title: Comunidade
+      url: /pt/community
+    - title: Sobre
+      url: /pt/about
+    - title: Contribuir
+      url: /pt/contribute
 
-footer:
-  logo: logo.svg
-  socialmediatitle: ""
-  socialmedia:
-  - link: https://github.com/numpy/numpy
-    icon: github
-  - link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
-    icon: youtube
-  - link: https://twitter.com/numpy_team
-    icon: twitter
-  quicklinks:
-    column1:
-      title: ""
-      links:
-        - text: Instalação
-          link: /pt/install
-        - text: Documentação
-          link: https://numpy.org/doc/stable
-        - text: Aprenda
-          link: /pt/learn
-        - text: Citando o Numpy
-          link: /pt/citing-numpy
-        - text: Roadmap
-          link: https://numpy.org/neps/roadmap.html
-    column2:
-      links:
-        - text: Sobre
-          link: /pt/about
-        - text: Comunidade
-          link: /pt/community
-        - text: User surveys
-          link: /pt/user-surveys
-        - text: Contribuir
-          link: /pt/contribute
-        - text: Código de Conduta
-          link: /pt/code-of-conduct
-    column3:
-      links:
-        - text: Ajuda
-          link: /pt/gethelp
-        - text: Termos de uso (EN)
-          link: /pt/terms
-        - text: Privacidade
-          link: /pt/privacy
-        - text: Kit de imprensa
-          link: /pt/press-kit
+  footer:
+    logo: logo.svg
+    socialmediatitle: ""
+    socialmedia:
+    - link: https://github.com/numpy/numpy
+      icon: github
+    - link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
+      icon: youtube
+    - link: https://twitter.com/numpy_team
+      icon: twitter
+    quicklinks:
+      column1:
+        title: ""
+        links:
+          - text: Instalação
+            link: /pt/install
+          - text: Documentação
+            link: https://numpy.org/doc/stable
+          - text: Aprenda
+            link: /pt/learn
+          - text: Citando o Numpy
+            link: /pt/citing-numpy
+          - text: Roadmap
+            link: https://numpy.org/neps/roadmap.html
+      column2:
+        links:
+          - text: Sobre
+            link: /pt/about
+          - text: Comunidade
+            link: /pt/community
+          - text: User surveys
+            link: /pt/user-surveys
+          - text: Contribuir
+            link: /pt/contribute
+          - text: Código de Conduta
+            link: /pt/code-of-conduct
+      column3:
+        links:
+          - text: Ajuda
+            link: /pt/gethelp
+          - text: Termos de uso (EN)
+            link: /pt/terms
+          - text: Privacidade
+            link: /pt/privacy
+          - text: Kit de imprensa
+            link: /pt/press-kit
 

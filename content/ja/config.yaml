@@ -77,63 +77,63 @@ params:
     title: エコシステム
   section5: false
 
-navbar:
-  - title: インストール
-    url: /ja/install
-  - title: ドキュメント
-    url: https://numpy.org/doc/stable
-  - title: 学び方
-    url: /ja/learn
-  - title: コミュニティ
-    url: /ja/community
-  - title: 私達について
-    url: /ja/about
-  - title: NumPyに貢献する
-    url: /ja/contribute
+  navbar:
+    - title: インストール
+      url: /ja/install
+    - title: ドキュメント
+      url: https://numpy.org/doc/stable
+    - title: 学び方
+      url: /ja/learn
+    - title: コミュニティ
+      url: /ja/community
+    - title: 私達について
+      url: /ja/about
+    - title: NumPyに貢献する
+      url: /ja/contribute
 
-footer:
-  logo: logo.svg
-  socialmediatitle: ""
-  socialmedia:
-  - link: https://github.com/numpy/numpy
-    icon: github
-  - link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
-    icon: youtube
-  - link: https://twitter.com/numpy_team
-    icon: twitter
-  quicklinks:
-    column1:
-      title: ""
-      links:
-        - text: インストール
-          link: /ja/install
-        - text: ドキュメント
-          link: https://numpy.org/doc/stable
-        - text: 学び方
-          link: /ja/learn
-        - text: 引用する
-          link: /ja/citing-numpy
-        - text: ロードマップ
-          link: https://numpy.org/neps/roadmap.html
-    column2:
-      links:
-        - text: 私達について
-          link: /ja/about
-        - text: コミュニティ
-          link: /ja/community
-        - text: User surveys
-          link: /ja/user-surveys
-        - text: NumPyに貢献する
-          link: /ja/contribute
-        - text: 行動規範
-          link: /ja/code-of-conduct
-    column3:
-      links:
-        - text: サポートを得る方法
-          link: /ja/gethelp
-        - text: 利用規約
-          link: /ja/terms
-        - text: プライバシーポリシー
-          link: /ja/privacy
-        - text: プレス用資料
-          link: /ja/press-kit
+  footer:
+    logo: logo.svg
+    socialmediatitle: ""
+    socialmedia:
+    - link: https://github.com/numpy/numpy
+      icon: github
+    - link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
+      icon: youtube
+    - link: https://twitter.com/numpy_team
+      icon: twitter
+    quicklinks:
+      column1:
+        title: ""
+        links:
+          - text: インストール
+            link: /ja/install
+          - text: ドキュメント
+            link: https://numpy.org/doc/stable
+          - text: 学び方
+            link: /ja/learn
+          - text: 引用する
+            link: /ja/citing-numpy
+          - text: ロードマップ
+            link: https://numpy.org/neps/roadmap.html
+      column2:
+        links:
+          - text: 私達について
+            link: /ja/about
+          - text: コミュニティ
+            link: /ja/community
+          - text: User surveys
+            link: /ja/user-surveys
+          - text: NumPyに貢献する
+            link: /ja/contribute
+          - text: 行動規範
+            link: /ja/code-of-conduct
+      column3:
+        links:
+          - text: サポートを得る方法
+            link: /ja/gethelp
+          - text: 利用規約
+            link: /ja/terms
+          - text: プライバシーポリシー
+            link: /ja/privacy
+          - text: プレス用資料
+            link: /ja/press-kit
