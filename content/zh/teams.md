@@ -3,7 +3,7 @@ title: NumPy Teams
 sidebar: false
 ---
 
-We are an international team on a mission to support scientific and research communities worldwide by building quality, open-source software. [Join us]({{< relref "/contribute" >}})!
+我们是一个国际团队，通过建造优质开放源码软件，支持世界各地的科学和研究 个社区。 [加入我们]({{< relref "/contribute" >}})！
 
 {{< include-html "static/gallery/maintainers.html" >}}
 
