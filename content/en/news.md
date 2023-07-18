@@ -312,6 +312,7 @@ This grant will be used to ramp up the efforts in improving NumPy documentation,
 More details on our proposed initiatives and deliverables can be found in the [full grant proposal](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167). The work is scheduled to start on Dec 1st, 2019 and continue for the next 12 months.
 
 
+<a name="releases"></a>
 ## Releases
 
 Here is a list of NumPy releases, with links to release notes. Bugfix
