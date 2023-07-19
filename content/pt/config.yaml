@@ -12,7 +12,7 @@ params:
     #Button text
     buttontext: "Latest release: NumPy 1.25. View all releases"
     #Where the main hero button links to
-    buttonlink: "/pt/install"
+    buttonlink: "/pt/news/#releases"
     #Hero image (from static/images/___)
     image: logo.svg
   shell:
@@ -89,8 +89,8 @@ navbar:
     title: Sobre
     url: /pt/about
   - 
-    title: Contribuir
-    url: /pt/contribute
+    title: Notícias
+    url: /pt/news
   - 
     title: Contribuir
     url: /contribute
