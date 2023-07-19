@@ -12,7 +12,7 @@ params:
     #Button text
     buttontext: "最新リリース: Numpy 1.25. すべてのリリースを表示する"
     #Where the main hero button links to
-    buttonlink: "/ja/install"
+    buttonlink: "/ja/news/#releases"
     #Hero image (from static/images/___)
     image: logo.svg
   shell:
