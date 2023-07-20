@@ -89,8 +89,8 @@ navbar:
     title: 私達について
     url: /ja/about
   - 
-    title: NumPyに貢献する
-    url: /ja/contribute
+    title: ニュース
+    url: /ja/news
   - 
     title: NumPyに貢献する
     url: /ja/contribute
