@@ -1,0 +1,3 @@
+{{ $lang := .Page.Lang }}
+{{ $path := printf "generated/releases/%s/releases.md" $lang }}
+{{ readFile $path | markdownify }}

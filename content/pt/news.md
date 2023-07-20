@@ -76,14 +76,4 @@ Mais detalhes sobre nossas propostas e resultados esperados podem ser encontrado
 
 Aqui está uma lista de versões do NumPy, com links para notas de lançamento. Todos os lançamentos de bugfix (apenas o `z` muda no formato `x.y.z` do número da versão) não tem novos recursos; versões menores (o `y` aumenta) contém novos recursos.
 
-- NumPy 1.18.4 ([notas de lançamento](https://github.com/numpy/numpy/releases/tag/v1.18.4)) -- _3 de maio de 2020_.
-- NumPy 1.18.3 ([notas de lançamento](https://github.com/numpy/numpy/releases/tag/v1.18.3)) -- _19 de abril de 2020_.
-- NumPy 1.18.2 ([notas de lançamento](https://github.com/numpy/numpy/releases/tag/v1.18.2)) -- _17 de março de 2020_.
-- NumPy 1.18.1 ([notas de lançamento](https://github.com/numpy/numpy/releases/tag/v1.18.1)) -- _6 de janeiro de 2020_.
-- NumPy 1.17.5 ([notas de lançamento](https://github.com/numpy/numpy/releases/tag/v1.17.5)) -- _1 de janeiro de 2020_.
-- NumPy 1.18.0 ([notas de lançamento](https://github.com/numpy/numpy/releases/tag/v1.18.0)) -- _22 de dezembro de 2019_.
-- NumPy 1.17.4 ([notas de lançamento](https://github.com/numpy/numpy/releases/tag/v1.17.4)) -- _11 de novembro de 2019_.
-- NumPy 1.17.0 ([notas de lançamento](https://github.com/numpy/numpy/releases/tag/v1.17.0)) -- _26 de julho de 2019_.
-- NumPy 1.16.0 ([notas de lançamento](https://github.com/numpy/numpy/releases/tag/v1.16.0)) -- _14 de janeiro de 2019_.
-- NumPy 1.15.0 ([notas de lançamento](https://github.com/numpy/numpy/releases/tag/v1.15.0)) -- _23 de julho de 2018_.
-- NumPy 1.14.0 ([notas de lançamento](https://github.com/numpy/numpy/releases/tag/v1.14.0)) -- _7 de janeiro de 2018_.
+{{< releases >}}

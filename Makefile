@@ -17,6 +17,7 @@ help:   ## show this help
 prepare:
 	git submodule update --init
 	python gen_config.py
+	python scripts/autotranslate/releases.py
 
 TEAMS_DIR = static/gallery
 TEAMS = emeritus-maintainers maintainers docs-team triage-team survey-team web-team
