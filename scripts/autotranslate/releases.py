@@ -1,3 +1,28 @@
+"""Automatic translation of list of releases.
+
+To add a new language:
+
+First add a function that translates an English datestring of the form "%d %b
+%Y" to the corresponding string in the target language to the dictionary
+``translate_date_funcs``, keyed by the associated two letter language code.
+
+Second, add a translation for the English phrase "release notes" to the
+``release_notes`` dictionary, keyed by the associated two letter language
+code.
+
+At build time, the releases.md file at
+
+    ``"scripts/autotranslate/data/releases.md"``
+
+will be translated and translations will be added to
+
+    ``"generated/releases/xx/releases.md"``
+
+for language codes xx corresponding to languages for which translations will
+be published.
+"""
+
+
 import functools
 import os
 import re
@@ -80,4 +105,3 @@ if __name__ == "__main__":
             _translate_release_line, language_code=language_code
         )
         translate_file(releases_path, outpath, translate_func)
-        
