@@ -44,4 +44,5 @@ html: prepare ## build the website in ./public
 
 clean: ## remove the build artifacts, mainly the "public" directory
 	rm -rf public
+	rm -rf generated/*
 
