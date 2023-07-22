@@ -1,5 +1,5 @@
 ---
-title: NumPyに関するトーク
+title: NumPyを引用する
 sidebar: false
 ---
 
