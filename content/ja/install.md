@@ -3,7 +3,7 @@ title: NumPyのインストール
 sidebar: false
 ---
 
-NumPyは`conda`、`pip` 、macOSやLinuxのパッケージマネージャー、または [ソースコード](https://numpy.org/devdocs/user/building.html)からインストールすることが出来ます。 詳細な手順について、以下の [Python と NumPyの インストールガイド](#python-numpy-install-guide) を参照してください。
+NumPyをインストールするための唯一必要なものは、Pythonそのものだけです。 もしまだPythonをイントールしておらず、最もシンプルなインストール方法をお探しなら、[Anaconda Distribution](https://www.anaconda.com/distribution)の使用をおすすめします。これにはPython、NumPy、および科学計算やデータサイエンスでよく使われる様々な多くのパッケージが含まれています。
 
 NumPyは`conda`、`pip` 、macOSやLinuxのパッケージマネージャー、または [ソースコード](https://numpy.org/devdocs/user/building.html)からインストールすることが出来ます。 詳細な手順については、以下の [Python と Numpyの インストールガイド](#python-numpy-install-guide) を参照してください。
 
