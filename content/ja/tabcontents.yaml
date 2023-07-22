@@ -27,7 +27,7 @@ arraylibraries:
       url: https://cupy.chainer.org
     - 
       title: JAX
-      text: "Composable transformations of NumPy programs differentiate: vectorize, just-in-time compilation to GPU/TPU."
+      text: "NumPyコードの合成可能な変換ライブラリ:  微分、ベクトル化、GPU/TPUへのジャストインタイムコンパイル"
       img: /images/content_images/arlib/jax_logo_250px.png
       alttext: JAX
       url: https://github.com/google/jax
@@ -75,7 +75,7 @@ arraylibraries:
       url: https://github.com/xtensor-stack/xtensor-python
     - 
       title: XND
-      text: Develop libraries for array computing, recreating NumPy's foundational concepts.
+      text: Numpy のような イディオムを使って JSON のようなデータを操作するライブラリ
       img: /images/content_images/arlib/xnd.png
       alttext: xnd
       url: https://xnd.io
@@ -87,7 +87,7 @@ arraylibraries:
       url: https://uarray.org/en/latest/
     - 
       title: tensorly
-      text: Numpy、MXNet、PyTorch、TensorFlowまたはCupyをシームレスに使用するための、テンソル学習、テンソル代数、およびバックエンド
+      text: Numpy、MXNet、PyTorch、TensorFlowまたはCupyをシームレスに使用するための、テンソル学習、テンソル代数、およびそれらのテンソル計算のためのバックエンド
       img: /images/content_images/arlib/tensorly.png
       alttext: tensorly
       url: http://tensorly.org/stable/home.html
