@@ -33,7 +33,7 @@ _ちなみに、セキュリティの脆弱性を報告するには、GitHubの�
 
 ### [Slack](https://numpy-team.slack.com)
 
-SlackはNumpyに_ 貢献するための質問をする_、リアルタイムのチャットルームです。 具体的には、 公開のメーリングリストやGitHubで質問やアイデアを持ち出すことを躊躇している人々のためのものです。 Slackに招待してもらいたい場合は[こちら](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy)を確認下さい。
+SlackはNumpyに_ 貢献するための質問をするための_、リアルタイムのチャットルームです。 具体的には、 公開のメーリングリストやGitHubで質問やアイデアを持ち出すことを躊躇している人々のためのものです。 Slackに招待してもらいたい場合は[こちら](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy)を確認下さい。
 
 
 ## 勉強会とミートアップ
