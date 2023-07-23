@@ -3,32 +3,20 @@ title: NumPy に貢献する
 sidebar: false
 ---
 
-NumPyプロジェクトを成功させるには、あなたの専門知識とプロジェクトに関する熱意が必要です。 NumPyに貢献する方法はコーディングだけではありません。
+NumPyプロジェクトを成功させるには、あなたの専門知識とプロジェクトに関する熱意が必要です。 貢献方法はプログラミングに限定されません。 このページには**あなたができる** 様々な種類の貢献方法が示されています。
 
-- [コードを書く]({{< relref "contribute.md#writing-code" >}})
+もしどこから始めればいいか、あなたのスキルをどう生かせばいいかがわからない場合は、 _是非ご連絡下さい。 _ 連絡の方法としては、 [メーリングリスト](https://mail.python.org/mailman/listinfo/numpy-discussion) 、 [GitHub](http://github.com/numpy/numpy)、 [イシューの作成](https://github.com/numpy/numpy/issues) 、関連するイシューへのコメントがあります。
 
-以外にも、下記の貢献の方法があります:
+連絡先としては、 <numpy-team@googlegroups.com> または、[Slack](https://numpy-team.slack.com) (グループに招待するためにこちらに連絡お願いします: <numpy-team@googlegroups.com>)があります。
 
-- [プルリクエストをレビューする]({{< relref "contribute.md#reviewing-pull-requests" >}})
-- [チュートリアル・プレゼンテーションなど教育的資料を作成する]({{< relref "contribute.md#developing-educational-materials" >}})
-- [イシューをトリアージする]({{< relref "contribute.md#issue-triaging" >}})
-- [ウェブサイトをメンテナンスをする]({{< relref "contribute.md#website-development" >}})
-- [グラフィックデザインに貢献する]({{< relref "contribute.md#graphic-design" >}})
-- [ウェブサイトを翻訳する]({{< relref "contribute.md#translating-website-content" >}})
-- [コミュニティのコーディネーターをつとめる]({{< relref "contribute.md#community-coordination-and-outreach" >}})
-- [助成金のプロポーザルを書くなど、資金調達をサポートする]({{< relref "contribute.md#fundraising" >}})
-
-もしどこから始めればいいか、あなたのスキルをどう生かせばいいかがわからない場合は、 _是非ご連絡下さい。_ 連絡の方法としては、 [メーリングリスト](https://mail.python.org/mailman/listinfo/numpy-discussion) 、 [GitHub](http://github.com/numpy/numpy)、 [イシューの作成](https://github.com/numpy/numpy/issues) 、関連するイシューへのコメントがあります。
-
-これらが私たちにとって好ましい連絡手段ですが(元来、オープンソースプロジェクトはオープンな方法を好みます)、もしどうしても非公開の方法で連絡を取りたい場合は、コミュニティコーディネーターに連絡して下さい。連絡先としては、 <numpy-team@googlegroups.com> または、[Slack](https://numpy-team.slack.com) (グループに招待するためにこちらに連絡お願いします: <numpy-team@googlegroups.com>)があります。
-
-また、隔週の _コミュニティミーティング_もあり、詳細は [メーリングリスト](https://mail.python.org/mailman/listinfo/numpy-discussion) で発表されています。あなたの参加を大いに歓迎します。オープンソースプロジェクトに貢献するのが初めての方は、是非、 [このガイド](https://opensource.guide/how-to-contribute/) を読んでみて下さい。
+また、隔週の _コミュニティミーティング_もあり、詳細は [メーリングリスト](https://mail.python.org/mailman/listinfo/numpy-discussion) で発表されています。 あなたの参加を大いに歓迎します。 オープンソースプロジェクトに貢献するのが初めての方は、是非、 [このガイド](https://opensource.guide/how-to-contribute/) を読んでみて下さい。
 
 私たちのコミュニティは、誰もが平等に扱われ、すべての貢献を平等に評価することを目指しています。 私たちはオープンで居心地の良いコミュニティを作るために [行動基準](/ja/code-of-conduct) を制定しています。
 
 ### コードを書く
 
-プログラマーの方には、こちらの [ガイド](https://numpy.org/devdocs/dev/index.html#development-process-summary)でNumPyのコードに貢献する方法を説明しています。
+プログラマーの方には、こちらの [ガイド](https://numpy.org/devdocs/dev/index.html#development-process-summary)でNumPyのコードに貢献する方法を説明しています。 <br>追加情報に関しては、 こちらの[YouTube チャンネル](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) もご覧ください。
+
 
 ### プルリクエストのレビュー
 NumPyプロジェクトには現時点で250以上のオープンなプルリクエストがあり、多くの 改善要求と多くのレビュワーからのフィードバックを待っています。 もしあなたがNumPy を使ったことがある場合、 たとえNumPyコードベースに慣れていない場合でも貢献する方法はあります。 例えば、
@@ -44,7 +32,7 @@ NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模�
 
 ### イシューのトリアージ
 
-[NumPyのイシュートラッカー](https://github.com/numpy/numpy/issues) には、 _沢山の_Open状態のイシューがあります。すでに解決されたもの、優先順位付けされるべきもの、 初心者が取り組むのに適したものがあります。あなたができることは、いくつもあります:
+[NumPyのイシュートラッカー](https://github.com/numpy/numpy/issues) には、 _沢山の_Open状態のイシューがあります。 すでに解決されたもの、優先順位付けされるべきもの、 初心者が取り組むのに適したものがあります。  あなたができることは、いくつもあります:
 
 * 古いバグがまだ残っているか確認する
 * 重複したイシューを見つけ、お互いに関連づける
@@ -56,12 +44,12 @@ NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模�
 
 ### ウェブサイトの開発
 
-私たちはちょうどウェブサイトを作り直し始めたところですが、それらはまだ完了していません。Web開発が好きなら、この[イシュー](https://github.com/numpy/numpy.org/issues?q=is%3Aissue+is%3Aopen+label%3Adesign) に未完成な要求が列挙されています。ぜひ、あなたのアイデアを共有してください。
+私たちはちょうどウェブサイトを作り直し始めたところですが、それらはまだ完了していません。 Web開発が好きなら、この[イシュー](https://github.com/numpy/numpy.org/issues?q=is%3Aissue+is%3Aopen+label%3Adesign) に未完成な要求が列挙されています。 ぜひ、あなたのアイデアを共有してください。
 
 
 ### グラフィックデザイン
 
-グラフィックデザイナーの方が可能な貢献は、枚挙にいとまがありません。私たちのドキュメントには可視化が必要で、私たちの拡大しているウェブサイトには良い画像が必要です。貢献する機会は沢山あります。
+グラフィックデザイナーの方が可能な貢献は、枚挙にいとまがありません。 しかし、私たちのドキュメントは説明のために可視化が重要であり、私たちの拡大しているウェブサイトは良い画像を求めていることから、 貢献する機会が沢山あると言えます。
 
 
 ### ウェブサイトの翻訳
@@ -75,5 +63,4 @@ NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模�
 
 ### 資金調達
 
-NumPyは何年にも渡ってボランティアだけ活動していましたが、その重要性が高まるにつれ、安定性と成長のためには資金面での支援が必要であることがわかってきました。 こちらの[SciPy'19のプレゼン](https://www.youtube.com/watch?v=dBTJD_FDVjU) では、資金的なサポートを受けたことで、どれだけ違いが出たかを説明しています。 他の非営利団体のように、私たちは助成金や、スポンサーシップ、その他の資金支援を常に探しています。 私たちはすでにいくつかの資金調達のアイデアを持っていますが、他にもより多くを資金調達を受けたいと思っています。 資金調達に関する知識は、我々には不足しているスキルです。是非、あなたのサポートをお待ちしています。
-
+NumPyは何年にも渡ってボランティアだけ活動していましたが、その重要性が高まるにつれ、安定性と成長のためには資金面での支援が必要であることがわかってきました。 こちらの[SciPy'19のプレゼン](https://www.youtube.com/watch?v=dBTJD_FDVjU) では、資金的なサポートを受けたことで、どれだけ違いが出たかを説明しています。 他の非営利団体のように、私たちは助成金や、スポンサーシップ、その他の資金支援を常に探しています。 私たちはすでにいくつかの資金調達のアイデアを持っていますが、他にもより多くを資金調達を受けたいと思っています。 資金調達に関する知識は、我々には不足しているスキルです。 是非、あなたのサポートをお待ちしています。

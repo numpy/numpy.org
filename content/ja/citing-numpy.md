@@ -1,5 +1,5 @@
 ---
-title: NumPy を引用する場合
+title: NumPyを引用する
 sidebar: false
 ---
 
@@ -12,8 +12,7 @@ _BibTeX形式:_
  ``` 
 @Article{ harris2020array,
   title = {Array programming with {NumPy}},
-  author = {Charles R. Harris and K. Jarrod Millman and St{'{e}}fan J.
-                  van der Walt and Ralf Gommers and Pauli Virtanen and David
+  author = {Charles R. Harris and K. Jarrod Millman and St{'{e}}fan J. van der Walt and Ralf Gommers and Pauli Virtanen and David
                   Cournapeau and Eric Wieser and Julian Taylor and Sebastian
                   Berg and Nathaniel J. Smith and Robert Kern and Matti Picus
                   and Stephan Hoyer and Marten H. van Kerkwijk and Matthew
