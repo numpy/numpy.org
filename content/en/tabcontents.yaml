@@ -97,7 +97,7 @@ params:
     - title: Image Processing
       alttext: An photograph of the mountains.
       img: /images/content_images/sc_dom_img/image_processing.svg
-    - title: Graphs and Networks 
+    - title: Graphs and Networks
       alttext: A simple graph.
       img: /images/content_images/sc_dom_img/sd6.svg
     - title: Astronomy Processes
@@ -179,12 +179,12 @@ params:
       alttext:  A Voronoi diagram made in vispy.
 
     content:
-    - text: NumPy is an essential component in the burgeoning 
-            [Python visualization landscape](https://pyviz.org/overviews/index.html), 
-            which includes [Matplotlib](https://matplotlib.org), 
-            [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), 
-            [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), 
-            [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), 
+    - text: NumPy is an essential component in the burgeoning
+            [Python visualization landscape](https://pyviz.org/overviews/index.html),
+            which includes [Matplotlib](https://matplotlib.org),
+            [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly),
+            [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/),
+            [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari),
             and [PyVista](https://github.com/pyvista/pyvista), to name a few.
     - text: NumPy's accelerated processing of large arrays allows researchers to visualize
             datasets far larger than native Python could handle.
