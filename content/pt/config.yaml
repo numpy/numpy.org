@@ -1,140 +1,160 @@
-# FOR TRANSLATORS: this is a YAML file, with lines being of the form:
-#
-#   key: value
-#
-# Please translate the `value`s, not the `key`s!
-# Comments (starting with `#`) and `url:` or `link:` lines also do not
-# need to be translated. `title:` and `text:` lines do need translation.
-#
 languageName: Português
 params:
   description: Por que NumPy? Arrays n-dimensionais poderosas. Ferramentas para computação numérica. Interoperabilidade. Alto desempenho. Código aberto.
   navbarlogo:
     image: logo.svg
     link: /pt/
-
   hero:
+    #Main hero title
     title: NumPy
+    #Hero subtitle (optional)
     subtitle: A biblioteca fundamental para computação científica com Python
-    buttontext: Comece aqui
-    buttonlink: "/pt/install"
+    #Button text
+    buttontext: "Última versão: NumPy 1.25. Veja todas as versões"
+    #Where the main hero button links to
+    buttonlink: "/pt/news/#releases"
+    #Hero image (from static/images/___)
     image: logo.svg
-
-  news:
-    title: NumPy v1.20.0
-    content: Suporte a anotações de tipos - Melhorias no desempenho através de SIMD multi-plataformas
-    url: /pt/news
-
   shell:
-    title: placeholder # do not translate
-
+    title: placeholder
     intro:
-    - title: Try NumPy
-      text: Use the interactive shell to try NumPy in the browser
-
-    docslink: Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a>.
-
+      - 
+        title: Experimentar o NumPy
+        text: Use o shell interativo para testar o NumPy no navegador
+    docslink: Não se esqueça de conferir a <a href="https://numpy.org/doc/stable" target="_blank">documentação</a>.
   casestudies:
     title: ESTUDOS DE CASO
     features:
-    - title: A Primeira Imagem de um Buraco Negro
-      text: Como o NumPy, junto com outras bibliotecas como SciPy e Matplotlib que dependem do NumPy, permitiram ao Event Horizon Telescope gerar a primeira imagem de um buraco negro da história.
-      img: /images/content_images/case_studies/blackhole.png
-      alttext: Primeira imagem de um buraco negro. É um círculo laranja em um fundo preto.
-      url: /pt/case-studies/blackhole-image
-    - title: Descoberta de Ondas Gravitacionais
-      text: Em 1916, Albert Einstein previu ondas gravitacionais; 100 anos depois, sua existência foi confirmada pelos cientistas do LIGO usando NumPy.
-      img: /images/content_images/case_studies/gravitional.png
-      alttext: Duas esferas orbitando a si mesmas. Elas deslocam a gravidade em seu entorno.
-      url: /pt/case-studies/gw-discov
-    - title: Análise Esportiva
-      text: A análise de críquete está mudando o jogo ao melhorar o desempenho de jogadores e times através de modelagem estatística e análise preditiva. O NumPy possibilita muitas dessas análises.
-      img: /images/content_images/case_studies/sports.jpg
-      alttext: Bola de críquete em um campo verde
-      url: /pt/case-studies/cricket-analytics
-    - title: Estimação de poses usando deep learning
-      text: DeepLabCut usa o NumPy para acelerar estudos científicos que envolvem comportamento animal para entender melhor o controle motor em várias espécies e escalas de tempo.
-      img: /images/content_images/case_studies/deeplabcut.png
-      alttext: Análise de pose de um guepardo
-      url: /pt/case-studies/deeplabcut-dnn
-
+      - 
+        title: A Primeira Imagem de um Buraco Negro
+        text: Como o NumPy, junto com outras bibliotecas como SciPy e Matplotlib que dependem do NumPy, permitiram ao Event Horizon Telescope gerar a primeira imagem de um buraco negro da história.
+        img: /images/content_images/case_studies/blackhole.png
+        alttext: Primeira imagem de um buraco negro. É um círculo laranja em um fundo preto.
+        url: /pt/case-studies/blackhole-image
+      - 
+        title: Descoberta de Ondas Gravitacionais
+        text: Em 1916, Albert Einstein previu ondas gravitacionais; 100 anos depois, sua existência foi confirmada pelos cientistas do LIGO usando NumPy.
+        img: /images/content_images/case_studies/gravitional.png
+        alttext: Duas esferas orbitando a si mesmas. Elas deslocam a gravidade em seu entorno.
+        url: /pt/case-studies/gw-discov
+      - 
+        title: Análise Esportiva
+        text: A análise de críquete está mudando o jogo ao melhorar o desempenho de jogadores e times através de modelagem estatística e análise preditiva. O NumPy possibilita muitas dessas análises.
+        img: /images/content_images/case_studies/sports.jpg
+        alttext: Bola de críquete em um campo verde
+        url: /pt/case-studies/cricket-analytics
+      - 
+        title: Estimação de poses usando deep learning
+        text: DeepLabCut usa o NumPy para acelerar estudos científicos que envolvem comportamento animal para entender melhor o controle motor em várias espécies e escalas de tempo.
+        img: /images/content_images/case_studies/deeplabcut.png
+        alttext: Análise de pose de um guepardo
+        url: /pt/case-studies/deeplabcut-dnn
   keyfeatures:
     features:
-    - title: Arrays n-dimensionais poderosas
-      text:  Rápidos e versáteis, os conceitos de vetorização, indexação e broadcasting do NumPy são, na prática, o padrão em computação com arrays.
-    - title: Ferramentas de computação numérica
-      text: O NumPy oferece um conjunto completo de funções matemáticas, geradores de números aleatórios, rotinas de álgebra linear, transformadas de Fourier, e mais.
-    - title: Interoperabilidade
-      text: O NumPy suporta um grande número de plataformas de hardware e computação, e pode ser combinada com bibliotecas de computação com arrays esparsas, distribuidas ou em GPUs.
-    - title: Alto desempenho
-      text: O núcleo do NumPy é feito de código otimizado em C. Experimente a flexibilidade do Python com a velocidade de código compilado.
-    - title: Fácil de usar
-      text: A sintaxe de alto nível do NumPy torna-o acessível e produtivo para programadores de qualquer nível de experiência e formação.
-    - title: Código aberto
-      text: Distribuido com uma [licença BSD](https://github.com/numpy/numpy/blob/main/LICENSE.txt) liberal, o NumPy é desenvolvido e mantido [publicamente no GitHub](https://github.com/numpy/numpy) por uma [comunidade](/pt/community) vibrante, responsiva, e diversa.
-
+      - 
+        title: Arrays n-dimensionais poderosas
+        text: Rápidos e versáteis, os conceitos de vetorização, indexação e broadcasting do NumPy são, na prática, o padrão em computação com arrays.
+      - 
+        title: Ferramentas de computação numérica
+        text: O NumPy oferece um conjunto completo de funções matemáticas, geradores de números aleatórios, rotinas de álgebra linear, transformadas de Fourier, e mais.
+      - 
+        title: Interoperabilidade
+        text: O NumPy suporta um grande número de plataformas de hardware e computação, e pode ser combinada com bibliotecas de computação com arrays esparsas, distribuidas ou em GPUs.
+      - 
+        title: Alto desempenho
+        text: O núcleo do NumPy é feito de código otimizado em C. Experimente a flexibilidade do Python com a velocidade de código compilado.
+      - 
+        title: Fácil de usar
+        text: A sintaxe de alto nível do NumPy torna-o acessível e produtivo para programadores de qualquer nível de experiência e formação.
+      - 
+        title: Código aberto
+        text: Distribuido com uma [licença BSD](https://github.com/numpy/numpy/blob/main/LICENSE.txt) liberal, o NumPy é desenvolvido e mantido [publicamente no GitHub](https://github.com/numpy/numpy) por uma [comunidade](/pt/community) vibrante, responsiva, e diversa.
   tabs:
     title: ECOSSISTEMA
   section5: false
-
-  navbar:
-    - title: Instalação
-      url: /pt/install
-    - title: Documentação
-      url: https://numpy.org/doc/stable
-    - title: Aprenda
-      url: /pt/learn
-    - title: Comunidade
-      url: /pt/community
-    - title: Sobre
-      url: /pt/about
-    - title: Contribuir
-      url: /pt/contribute
-
-  footer:
-    logo: logo.svg
-    socialmediatitle: ""
-    socialmedia:
-    - link: https://github.com/numpy/numpy
+navbar:
+  - 
+    title: Instalação
+    url: /pt/install
+  - 
+    title: Documentação
+    url: https://numpy.org/doc/stable
+  - 
+    title: Aprenda
+    url: /pt/learn
+  - 
+    title: Comunidade
+    url: /pt/community
+  - 
+    title: Sobre
+    url: /pt/about
+  - 
+    title: Notícias
+    url: /pt/news
+  - 
+    title: Contribuir
+    url: /contribute
+footer:
+  logo: logo.svg
+  socialmediatitle: ""
+  socialmedia:
+    - 
+      link: https://github.com/numpy/numpy
       icon: github
-    - link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
+    - 
+      link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
       icon: youtube
-    - link: https://twitter.com/numpy_team
+    - 
+      link: https://twitter.com/numpy_team
       icon: twitter
-    quicklinks:
-      column1:
-        title: ""
-        links:
-          - text: Instalação
-            link: /pt/install
-          - text: Documentação
-            link: https://numpy.org/doc/stable
-          - text: Aprenda
-            link: /pt/learn
-          - text: Citando o Numpy
-            link: /pt/citing-numpy
-          - text: Roadmap
-            link: https://numpy.org/neps/roadmap.html
-      column2:
-        links:
-          - text: Sobre
-            link: /pt/about
-          - text: Comunidade
-            link: /pt/community
-          - text: User surveys
-            link: /pt/user-surveys
-          - text: Contribuir
-            link: /pt/contribute
-          - text: Código de Conduta
-            link: /pt/code-of-conduct
-      column3:
-        links:
-          - text: Ajuda
-            link: /pt/gethelp
-          - text: Termos de uso (EN)
-            link: /pt/terms
-          - text: Privacidade
-            link: /pt/privacy
-          - text: Kit de imprensa
-            link: /pt/press-kit
+  quicklinks:
+    column1:
+      title: ""
+      links:
+        - 
+          text: Instalação
+          link: /pt/install
+        - 
+          text: Documentação
+          link: https://numpy.org/doc/stable
+        - 
+          text: Aprenda
+          link: /pt/learn
+        - 
+          text: Citando o Numpy
+          link: /pt/citing-numpy
+        - 
+          text: Roadmap
+          link: https://numpy.org/neps/roadmap.html
+    column2:
+      links:
+        - 
+          text: Sobre
+          link: /pt/about
+        - 
+          text: Comunidade
+          link: /pt/community
+        - 
+          text: Pesquisas de usuário
+          link: /pt/user-surveys
+        - 
+          text: Contribuir
+          link: /pt/contribute
+        - 
+          text: Código de Conduta
+          link: /pt/code-of-conduct
+    column3:
+      links:
+        - 
+          text: Ajuda
+          link: /pt/gethelp
+        - 
+          text: Termos de uso (EN)
+          link: /pt/terms
+        - 
+          text: Privacidade
+          link: /pt/privacy
+        - 
+          text: Kit de imprensa
+          link: /pt/press-kit
 

@@ -43,7 +43,7 @@ Embora sejamos receptivos às pessoas fluentes em todas as línguas, o desenvolv
 
 Padrões de comportamento na comunidade NumPy estão detalhados no Código de Conduta acima. Os participantes da nossa comunidade devem se comportar de acordo com esses padrões em todas as suas interações e ajudar os outros a fazê-lo também (veja a próxima seção).
 
-### Diretrizes de Resposta a Incidentes
+### Diretrizes de resposta a incidentes
 
 Sabemos que é mais comum do que o desejado que a comunicação na Internet comece ou se transforme em abusos óbvios e flagrantes. Reconhecemos também que, por vezes, as pessoas podem ter um dia ruim, ou não conhecer algumas das orientações deste Código de Conduta. Tenha isto em mente ao decidir como responder a uma violação deste Código.
 
@@ -59,7 +59,7 @@ Atualmente, o comitê é formato por:
 
 Se o seu relatório envolve algum membro da comissão, ou se você sentir que existe um conflito de interesses em tratá-lo, então os membros abster-se-ão de considerar o seu relatório. Como alternativa, se por qualquer razão você se sentir desconfortável em fazer um relatório à comissão, então você também pode entrar em contato com a equipe sênior da NumFOCUS em [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
-### Resolução de Incidentes & Execução do Código de Conduta
+### Resolução de Incidentes & Aplicação do Código de Conduta
 
 _Esta seção resume os pontos mais importantes, mais detalhes podem ser encontrados em_ [Código de Conduta do NumPy - Como dar seguimento a um relatório](/report-handling-manual).
 
@@ -80,4 +80,4 @@ O comitê responderá a qualquer relatório o mais rapidamente possível e, no m
 
 Somos gratos aos grupos responsáveis pelos documentos abaixo, dos quais retiramos conteúdo e inspiração:
 
-- [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/reference/dev/conduct/code_of_conduct.html)
+- [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)

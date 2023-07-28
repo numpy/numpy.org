@@ -5,30 +5,18 @@ sidebar: false
 
 O projeto NumPy precisa de sua experiência e entusiasmo! Suas opções de não são limitadas à programação -- além de
 
-- [Escrever código]({{< relref "contribute.md#writing-code" >}})
-
-você pode:
-
-- [Revisar pull requests]({{< relref "contribute.md#reviewing-pull-requests" >}})
-- [Desenvolver tutoriais, apresentações e outros materiais educacionais]({{< relref "contribute.md#developing-educational-materials" >}})
-- [Fazer triagem em issues]({{< relref "contribute.md#issue-triaging" >}})
-- [Trabalhar no nosso site]({{< relref "contribute.md#website-development" >}})
-- [Contribuir com design gráfico]({{< relref "contribute.md#graphic-design" >}})
-- [Traduzir conteúdo do site]({{< relref "contribute.md#translating-website-content" >}})
-- [Trabalhar coordenando a comunidade]({{< relref "contribute.md#community-coordination-and-outreach" >}})
-- [Escrever propostas e ajudar com outras atividades para financiamento]({{< relref "contribute.md#fundraising" >}})
-
 Se você não sabe por onde começar ou como suas habilidades podem ajudar, _fale conosco!_ Você pode perguntar na nossa [lista de emails](https://mail.python.org/mailman/listinfo/numpy-discussion) ou [GitHub](http://github.com/numpy/numpy) (abrindo uma [issue](https://github.com/numpy/numpy/issues) ou comentando em uma issue relevante).
 
 Estes são os nossos canais de comunicação preferidos (projetos de código aberto são abertos por natureza!). No entanto, se você preferir discutir em privado, entre em contato com os coordenadores da comunidade em <numpy-team@googlegroups.com> ou no [Slack](https://numpy-team.slack.com) (envie um e-mail para <numpy-team@googlegroups.com> para obter um convite antes de entrar).
 
-Nós também temos uma _reunião aberta da comunidade_ a cada duas semanas. Os detalhes são anunciados na nossa [lista de emails](https://mail.python.org/mailman/listinfo/numpy-discussion). Convidamos você a participar desta chamada se quiser. Se você nunca contribuiu para projetos de código aberto, recomendamos fortemente que você leita [esse guia](https://opensource.guide/how-to-contribute/).
+Nós também temos uma _reunião aberta da comunidade_ a cada duas semanas. Os detalhes são anunciados na nossa [lista de emails](https://mail.python.org/mailman/listinfo/numpy-discussion). Convidamos você a participar. Se você nunca contribuiu para projetos de código aberto, recomendamos fortemente que você leita [esse guia](https://opensource.guide/how-to-contribute/).
 
 Nossa comunidade deseja tratar todos da mesma forma e valorizar todas as contribuições. Temos um [Código de Conduta](/pt/code-of-conduct) para promover um ambiente aberto e acolhedor.
 
 ### Escrevendo código
 
-Para pessoas programadoras, este [guia](https://numpy.org/devdocs/dev/index.html#development-process-summary) explica como contribuir para a base de código.
+Para pessoas programadoras, este [guia](https://numpy.org/devdocs/dev/index.html#development-process-summary) explica como contribuir para a base de código. <br>Confira também nosso [canal do YouTube](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) para obter informações adicionais.
+
 
 ### Revisar pull requests
 O projeto tem mais de 250 pull requests abertos -- o que significa que muitas potenciais melhorias e muitos contribuidores de código aberto estão aguardando feedback. Se você é uma pessoa programadora que conhece o NumPy, você pode ajudar, mesmo que não tenha familiaridade com o código. Você pode:
@@ -76,4 +64,3 @@ Através do contato com a comunidade podemos compartilhar nosso trabalho para ma
 ### Financiamento
 
 O NumPy foi um projeto totalmente voluntário por muitos anos, mas conforme sua importância cresceu, tornou-se clara a necessidade de apoio financeiro para garantir estabilidade e crescimento. [Esta palestra na SciPy'19](https://www.youtube.com/watch?v=dBTJD_FDVjU) explica quanta diferença esse suporte fez. Como todo o mundo das organizações sem fins lucrativos, nós estamos constantemente procurando bolsas, patrocinadores e outros tipos de apoio. Nós temos uma série de ideias e é claro que nós damos as boas-vindas a mais. Habilidade de buscar financiamento é uma habilidade rara aqui -- apreciaríamos a sua ajuda.
-
