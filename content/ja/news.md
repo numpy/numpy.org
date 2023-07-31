@@ -186,6 +186,7 @@ _2019年11月15日_ -- NumPyと、NumPyの重要な依存ライブラリの1つ�
 
 こちらは、より以前のNumPyリリースのリストで、各リリースノートへのリンクが記載されています。 全てのバグフィックスリリース(バージョン番号`x.y.z` の`z`だけが変更されたもの)は新しい機能追加はされず、マイナーリリース (`y` が増えたもの)は、新しい機能追加されています。
 
+- NumPy 1.25.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.25.2)) -- _31 Jul 2023_.
 - NumPy 1.25.1 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.25.1)) -- _2023年7月8日_.
 - NumPy 1.24.4 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.24.4)) -- _2023年6月26日_.
 - NumPy 1.25.0 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.25.0)) -- _2023年6月17日_.
