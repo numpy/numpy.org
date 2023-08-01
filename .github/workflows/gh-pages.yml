@@ -40,11 +40,7 @@ jobs:
       - name: Generate config
         run: python gen_config.py
       - name: Build with Hugo
-        run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: hugo --gc --minify
       - name: Deploy pages
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
