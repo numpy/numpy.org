@@ -2,51 +2,51 @@ params:
   machinelearning:
     paras:
       - 
-        para1: NumPy forms the basis of powerful machine learning libraries like [scikit-learn](https://scikit-learn.org) and [SciPy](https://www.scipy.org). As machine learning grows, so does the list of libraries built on NumPy. [TensorFlow’s](https://www.tensorflow.org) deep learning capabilities have broad applications &mdash; among them speech and image recognition, text-based applications, time-series analysis, and video detection. [PyTorch](https://pytorch.org), another deep learning library, is popular among researchers in computer vision and natural language processing. [MXNet](https://github.com/apache/incubator-mxnet) is another AI package, providing blueprints and templates for deep learning.
-        para2: Statistical techniques called [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205) methods such as binning, bagging, stacking, and boosting are among the ML algorithms implemented by tools such as [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [CatBoost](https://catboost.ai) &mdash; one of the fastest inference engines. [Yellowbrick](https://www.scikit-yb.org/en/latest/) and [Eli5](https://eli5.readthedocs.io/en/latest/) offer machine learning visualizations.
+        para1: O NumPy forma a base de bibliotecas de aprendizagem de máquina poderosas como [scikit-learn](https://scikit-learn.org) e [SciPy](https://www.scipy.org). À medida que a disciplina de aprendizagem de máquina cresce, a lista de bibliotecas construidas a partir do NumPy também cresce. As funcionalidades de deep learning do [TensorFlow](https://www.tensorflow.org) tem diversas aplicações &mdash; entre elas, reconhecimento de imagem e de fala, aplicações baseadas em texto, análise de séries temporais, e detecção de vídeo. O [PyTorch](https://pytorch.org), outra biblioteca de deep learning, é popular entre pesquisadores em visão computacional e processamento de linguagem natural. O [MXNet](https://github.com/apache/incubator-mxnet) é outro pacote de IA, que fornece templates e protótipos para deep learning.
+        para2: Técnicas estatísticas chamadas métodos de [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205) tais como binning, bagging, stacking, e boosting estão entre os algoritmos de ML implementados por ferramentas tais como [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), e [CatBoost](https://catboost.ai) &mdash; um dos motores de inferência mais rápidos. [Yellowbrick](https://www.scikit-yb.org/en/latest/) e [Eli5](https://eli5.readthedocs.io/en/latest/) oferecem visualizações para aprendizagem de máquina.
   arraylibraries:
     intro:
       - 
-        text: NumPy's API is the starting point when libraries are written to exploit innovative hardware, create specialized array types, or add capabilities beyond what NumPy provides.
+        text: A API do NumPy é o ponto de partida quando bibliotecas são escritas para explorar hardware inovador, criar tipos de arrays especializados, ou adicionar capacidades além do que o NumPy fornece.
     headers:
       - 
-        text: Array Library
+        text: Biblioteca de Arrays
       - 
-        text: Capabilities & Application areas
+        text: Recursos e áreas de aplicação
     libraries:
       - 
         title: Dask
-        text: Distributed arrays and advanced parallelism for analytics, enabling performance at scale.
+        text: Arrays distribuídas e paralelismo avançado para análise, permitindo desempenho em escala.
         img: /images/content_images/arlib/dask.png
         alttext: Dask
         url: https://dask.org/
       - 
         title: CuPy
-        text: NumPy-compatible array library for GPU-accelerated computing with Python.
+        text: Biblioteca de matriz compatível com NumPy para computação acelerada pela GPU com Python.
         img: /images/content_images/arlib/cupy.png
         alttext: CuPy
         url: https://cupy.chainer.org
       - 
         title: JAX
-        text: "Composable transformations of NumPy programs: differentiate, vectorize, just-in-time compilation to GPU/TPU."
+        text: "Composable transformations of NumPy programs differentiate: vectorize, just-in-time compilation to GPU/TPU."
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
         url: https://github.com/google/jax
       - 
         title: Xarray
-        text: Labeled, indexed multi-dimensional arrays for advanced analytics and visualization
+        text: Arrays multidimensionais rotuladas e indexadas para análise e visualização avançadas
         img: /images/content_images/arlib/xarray.png
         alttext: xarray
         url: https://xarray.pydata.org/en/stable/index.html
       - 
         title: Sparse
-        text: NumPy-compatible sparse array library that integrates with Dask and SciPy's sparse linear algebra.
+        text: Biblioteca de arrays compatíveis com o NumPy que pode ser integrada com Dask e álgebra linear esparsa da SciPy.
         img: /images/content_images/arlib/sparse.png
         alttext: sparse
         url: https://sparse.pydata.org/en/latest/
       - 
         title: PyTorch
-        text: Deep learning framework that accelerates the path from research prototyping to production deployment.
+        text: Framework de deep learning que acelera o caminho entre prototipação de pesquisa e colocação em produção.
         img: /images/content_images/arlib/pytorch-logo-dark.svg
         alttext: PyTorch
         url: https://pytorch.org/
