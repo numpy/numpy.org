@@ -1,189 +1,190 @@
-machinelearning:
-  paras:
-  - para1: NumPy forms the basis of powerful machine learning libraries like [scikit-learn](https://scikit-learn.org) and [SciPy](https://www.scipy.org). As machine learning grows, so does the list of libraries built on NumPy. [TensorFlow’s](https://www.tensorflow.org) deep learning capabilities have broad applications &mdash; among them speech and image recognition, text-based applications, time-series analysis, and video detection. [PyTorch](https://pytorch.org), another deep learning library, is popular among researchers in computer vision and natural language processing. [MXNet](https://github.com/apache/incubator-mxnet) is another AI package, providing blueprints and templates for deep learning.
-    para2: Statistical techniques called [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205) methods such as binning, bagging, stacking, and boosting are among the ML algorithms implemented by tools such as [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [CatBoost](https://catboost.ai) &mdash; one of the fastest inference engines. [Yellowbrick](https://www.scikit-yb.org/en/latest/) and [Eli5](https://eli5.readthedocs.io/en/latest/) offer machine learning visualizations.
+params:
+  machinelearning:
+    paras:
+    - para1: NumPy forms the basis of powerful machine learning libraries like [scikit-learn](https://scikit-learn.org) and [SciPy](https://www.scipy.org). As machine learning grows, so does the list of libraries built on NumPy. [TensorFlow’s](https://www.tensorflow.org) deep learning capabilities have broad applications &mdash; among them speech and image recognition, text-based applications, time-series analysis, and video detection. [PyTorch](https://pytorch.org), another deep learning library, is popular among researchers in computer vision and natural language processing. [MXNet](https://github.com/apache/incubator-mxnet) is another AI package, providing blueprints and templates for deep learning.
+      para2: Statistical techniques called [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205) methods such as binning, bagging, stacking, and boosting are among the ML algorithms implemented by tools such as [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [CatBoost](https://catboost.ai) &mdash; one of the fastest inference engines. [Yellowbrick](https://www.scikit-yb.org/en/latest/) and [Eli5](https://eli5.readthedocs.io/en/latest/) offer machine learning visualizations.
 
-arraylibraries:
-  intro:
-  - text: NumPy's API is the starting point when libraries are written to exploit innovative hardware, create specialized array types, or add capabilities beyond what NumPy provides.
-  
-  headers:
-  - text: Array Library
-  - text: Capabilities & Application areas
+  arraylibraries:
+    intro:
+    - text: NumPy's API is the starting point when libraries are written to exploit innovative hardware, create specialized array types, or add capabilities beyond what NumPy provides.
 
-  libraries:
-  - title: Dask
-    text: Distributed arrays and advanced parallelism for analytics, enabling performance at scale.
-    img: /images/content_images/arlib/dask.png
-    alttext: Dask
-    url: https://dask.org/
-  - title: CuPy
-    text: NumPy-compatible array library for GPU-accelerated computing with Python.
-    img: /images/content_images/arlib/cupy.png
-    alttext: CuPy
-    url: https://cupy.chainer.org
-  - title: JAX
-    text: "Composable transformations of NumPy programs: differentiate, vectorize, just-in-time compilation to GPU/TPU."
-    img: /images/content_images/arlib/jax_logo_250px.png
-    alttext: JAX
-    url: https://github.com/google/jax
-  - title: Xarray
-    text: Labeled, indexed multi-dimensional arrays for advanced analytics and visualization
-    img: /images/content_images/arlib/xarray.png
-    alttext: xarray
-    url: https://xarray.pydata.org/en/stable/index.html
-  - title: Sparse
-    text: NumPy-compatible sparse array library that integrates with Dask and SciPy's sparse linear algebra.
-    img: /images/content_images/arlib/sparse.png
-    alttext: sparse
-    url: https://sparse.pydata.org/en/latest/
-  - title: PyTorch
-    text: Deep learning framework that accelerates the path from research prototyping to production deployment.
-    img: /images/content_images/arlib/pytorch-logo-dark.svg
-    alttext: PyTorch
-    url: https://pytorch.org/
-  - title: TensorFlow
-    text: An end-to-end platform for machine learning to easily build and deploy ML powered applications.
-    img: /images/content_images/arlib/tensorflow-logo.svg
-    alttext: TensorFlow
-    url: https://www.tensorflow.org
-  - title: MXNet
-    text: Deep learning framework suited for flexible research prototyping and production.
-    img: /images/content_images/arlib/mxnet_logo.png
-    alttext: MXNet
-    url: https://mxnet.apache.org/
-  - title: Arrow
-    text: A cross-language development platform for columnar in-memory data and analytics.
-    img: /images/content_images/arlib/arrow.png
-    alttext: arrow
-    url: https://github.com/apache/arrow
-  - title: xtensor
-    text: Multi-dimensional arrays with broadcasting and lazy computing for numerical analysis.
-    img: /images/content_images/arlib/xtensor.png
-    alttext: xtensor
-    url: https://github.com/xtensor-stack/xtensor-python
-  - title: Awkward Array
-    text: Manipulate JSON-like data with NumPy-like idioms.
-    img: /images/content_images/arlib/awkward.svg
-    alttext: awkward
-    url: https://awkward-array.org/
-  - title: uarray
-    text: Python backend system that decouples API from implementation; unumpy provides a NumPy API.
-    img: /images/content_images/arlib/uarray.png
-    alttext: uarray
-    url: https://uarray.org/en/latest/
-  - title: tensorly
-    text: Tensor learning, algebra and backends to seamlessly use NumPy, MXNet, PyTorch, TensorFlow or CuPy.
-    img: /images/content_images/arlib/tensorly.png
-    alttext: tensorly
-    url: http://tensorly.org/stable/home.html
-  
-scientificdomains:
-  intro:
-  - text: Nearly every scientist working in Python draws on the power of NumPy.
-  - text: "NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant."
+    headers:
+    - text: Array Library
+    - text: Capabilities & Application areas
 
-  librariesrow1:
-  - title: Quantum Computing
-    alttext: A computer chip.
-    img: /images/content_images/sc_dom_img/quantum_computing.svg
-  - title: Statistical Computing
-    alttext: A line graph with the line moving up.
-    img: /images/content_images/sc_dom_img/statistical_computing.svg
-  - title: Signal Processing
-    alttext: A bar chart with positive and negative values.
-    img: /images/content_images/sc_dom_img/signal_processing.svg
-  - title: Image Processing
-    alttext: An photograph of the mountains.
-    img: /images/content_images/sc_dom_img/image_processing.svg
-  - title: Graphs and Networks 
-    alttext: A simple graph.
-    img: /images/content_images/sc_dom_img/sd6.svg
-  - title: Astronomy Processes
-    alttext: A telescope.
-    img: /images/content_images/sc_dom_img/astronomy_processes.svg
-  - title: Cognitive Psychology
-    alttext: A human head with gears.
-    img: /images/content_images/sc_dom_img/cognitive_psychology.svg
+    libraries:
+    - title: Dask
+      text: Distributed arrays and advanced parallelism for analytics, enabling performance at scale.
+      img: /images/content_images/arlib/dask.png
+      alttext: Dask
+      url: https://dask.org/
+    - title: CuPy
+      text: NumPy-compatible array library for GPU-accelerated computing with Python.
+      img: /images/content_images/arlib/cupy.png
+      alttext: CuPy
+      url: https://cupy.chainer.org
+    - title: JAX
+      text: "Composable transformations of NumPy programs: differentiate, vectorize, just-in-time compilation to GPU/TPU."
+      img: /images/content_images/arlib/jax_logo_250px.png
+      alttext: JAX
+      url: https://github.com/google/jax
+    - title: Xarray
+      text: Labeled, indexed multi-dimensional arrays for advanced analytics and visualization
+      img: /images/content_images/arlib/xarray.png
+      alttext: xarray
+      url: https://xarray.pydata.org/en/stable/index.html
+    - title: Sparse
+      text: NumPy-compatible sparse array library that integrates with Dask and SciPy's sparse linear algebra.
+      img: /images/content_images/arlib/sparse.png
+      alttext: sparse
+      url: https://sparse.pydata.org/en/latest/
+    - title: PyTorch
+      text: Deep learning framework that accelerates the path from research prototyping to production deployment.
+      img: /images/content_images/arlib/pytorch-logo-dark.svg
+      alttext: PyTorch
+      url: https://pytorch.org/
+    - title: TensorFlow
+      text: An end-to-end platform for machine learning to easily build and deploy ML powered applications.
+      img: /images/content_images/arlib/tensorflow-logo.svg
+      alttext: TensorFlow
+      url: https://www.tensorflow.org
+    - title: MXNet
+      text: Deep learning framework suited for flexible research prototyping and production.
+      img: /images/content_images/arlib/mxnet_logo.png
+      alttext: MXNet
+      url: https://mxnet.apache.org/
+    - title: Arrow
+      text: A cross-language development platform for columnar in-memory data and analytics.
+      img: /images/content_images/arlib/arrow.png
+      alttext: arrow
+      url: https://github.com/apache/arrow
+    - title: xtensor
+      text: Multi-dimensional arrays with broadcasting and lazy computing for numerical analysis.
+      img: /images/content_images/arlib/xtensor.png
+      alttext: xtensor
+      url: https://github.com/xtensor-stack/xtensor-python
+    - title: Awkward Array
+      text: Manipulate JSON-like data with NumPy-like idioms.
+      img: /images/content_images/arlib/awkward.svg
+      alttext: awkward
+      url: https://awkward-array.org/
+    - title: uarray
+      text: Python backend system that decouples API from implementation; unumpy provides a NumPy API.
+      img: /images/content_images/arlib/uarray.png
+      alttext: uarray
+      url: https://uarray.org/en/latest/
+    - title: tensorly
+      text: Tensor learning, algebra and backends to seamlessly use NumPy, MXNet, PyTorch, TensorFlow or CuPy.
+      img: /images/content_images/arlib/tensorly.png
+      alttext: tensorly
+      url: http://tensorly.org/stable/home.html
 
-  librariesrow2:
-  - title: Bioinformatics
-    alttext: A strand of DNA.
-    img: /images/content_images/sc_dom_img/bioinformatics.svg
-  - title: Bayesian Inference
-    alttext: A graph with a bell-shaped curve.
-    img: /images/content_images/sc_dom_img/bayesian_inference.svg
-  - title: Mathematical Analysis
-    alttext: Four mathematical symbols.
-    img: /images/content_images/sc_dom_img/mathematical_analysis.svg
-  - title: Chemistry
-    alttext: A test tube.
-    img: /images/content_images/sc_dom_img/chemistry.svg
-  - title: Geoscience
-    alttext: The Earth.
-    img: /images/content_images/sc_dom_img/geoscience.svg
-  - title: Geographic Processing
-    alttext: A map.
-    img: /images/content_images/sc_dom_img/GIS.svg
-  - title: Architecture & Engineering
-    alttext: A microprocessor development board.
-    img: /images/content_images/sc_dom_img/robotics.svg
-  
-datascience:
+  scientificdomains:
+    intro:
+    - text: Nearly every scientist working in Python draws on the power of NumPy.
+    - text: "NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant."
 
-  intro: "NumPy lies at the core of a rich ecosystem of data science libraries. A typical exploratory data science workflow might look like:"
+    librariesrow1:
+    - title: Quantum Computing
+      alttext: A computer chip.
+      img: /images/content_images/sc_dom_img/quantum_computing.svg
+    - title: Statistical Computing
+      alttext: A line graph with the line moving up.
+      img: /images/content_images/sc_dom_img/statistical_computing.svg
+    - title: Signal Processing
+      alttext: A bar chart with positive and negative values.
+      img: /images/content_images/sc_dom_img/signal_processing.svg
+    - title: Image Processing
+      alttext: An photograph of the mountains.
+      img: /images/content_images/sc_dom_img/image_processing.svg
+    - title: Graphs and Networks
+      alttext: A simple graph.
+      img: /images/content_images/sc_dom_img/sd6.svg
+    - title: Astronomy Processes
+      alttext: A telescope.
+      img: /images/content_images/sc_dom_img/astronomy_processes.svg
+    - title: Cognitive Psychology
+      alttext: A human head with gears.
+      img: /images/content_images/sc_dom_img/cognitive_psychology.svg
 
-  image1:
-  - img: /images/content_images/ds-landscape.png
-    alttext: Diagram of Python Libraries. The five catagories are 'Extract, Transform, Load', 'Data Exploration', 'Data Modeling', 'Data Evaluation' and 'Data Presentation'.
-  
-  image2:
-  - img: /images/content_images/data-science.png
-    alttext: Diagram of three overlapping circles. The circles are labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'.
+    librariesrow2:
+    - title: Bioinformatics
+      alttext: A strand of DNA.
+      img: /images/content_images/sc_dom_img/bioinformatics.svg
+    - title: Bayesian Inference
+      alttext: A graph with a bell-shaped curve.
+      img: /images/content_images/sc_dom_img/bayesian_inference.svg
+    - title: Mathematical Analysis
+      alttext: Four mathematical symbols.
+      img: /images/content_images/sc_dom_img/mathematical_analysis.svg
+    - title: Chemistry
+      alttext: A test tube.
+      img: /images/content_images/sc_dom_img/chemistry.svg
+    - title: Geoscience
+      alttext: The Earth.
+      img: /images/content_images/sc_dom_img/geoscience.svg
+    - title: Geographic Processing
+      alttext: A map.
+      img: /images/content_images/sc_dom_img/GIS.svg
+    - title: Architecture & Engineering
+      alttext: A microprocessor development board.
+      img: /images/content_images/sc_dom_img/robotics.svg
 
-  examples:
-  - text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
-  - text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
-  - text: "<b>Model and evaluate: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
-  - text: "<b>Report in a dashboard: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
+  datascience:
 
-  content:
-  - text: For high data volumes, [Dask](https://dask.org) and [Ray](https://ray.io/) are designed to scale. Stable deployments rely on data versioning ([DVC](https://dvc.org)), experiment tracking ([MLFlow](https://mlflow.org)), and workflow automation ([Airflow](https://airflow.apache.org), [Dagster](https://dagster.io) and [Prefect](https://www.prefect.io)).
+    intro: "NumPy lies at the core of a rich ecosystem of data science libraries. A typical exploratory data science workflow might look like:"
 
-visualization:
-  images:
-  - url: https://www.fusioncharts.com/blog/best-python-data-visualization-libraries
-    img: /images/content_images/v_matplotlib.png
-    alttext: A streamplot made in matplotlib
-  - url: https://github.com/yhat/ggpy
-    img: /images/content_images/v_ggpy.png
-    alttext: A scatter-plot graph made in ggpy
-  - url: https://www.journaldev.com/19692/python-plotly-tutorial
-    img: /images/content_images/v_plotly.png
-    alttext:  A box-plot made in plotly
-  - url: https://altair-viz.github.io/gallery/streamgraph.html
-    img: /images/content_images/v_altair.png
-    alttext:  A streamgraph made in altair
-  - url: https://seaborn.pydata.org
-    img: /images/content_images/v_seaborn.png
-    alttext:  A pairplot of two types of graph, a plot-graph and a frequency graph made in seaborn"
-  - url: https://docs.pyvista.org/examples/index.html
-    img: /images/content_images/v_pyvista.png
-    alttext:  A 3D volume rendering made in PyVista.
-  - url: https://napari.org
-    img: /images/content_images/v_napari.png
-    alttext:  A multi-dimensionan image made in napari.
-  - url: https://vispy.org/gallery/index.html
-    img: /images/content_images/v_vispy.png
-    alttext:  A Voronoi diagram made in vispy.
-  
-  content:
-  - text: NumPy is an essential component in the burgeoning 
-          [Python visualization landscape](https://pyviz.org/overviews/index.html), 
-          which includes [Matplotlib](https://matplotlib.org), 
-          [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), 
-          [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), 
-          [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), 
-          and [PyVista](https://github.com/pyvista/pyvista), to name a few.
-  - text: NumPy's accelerated processing of large arrays allows researchers to visualize
-          datasets far larger than native Python could handle.
+    image1:
+    - img: /images/content_images/ds-landscape.png
+      alttext: Diagram of Python Libraries. The five catagories are 'Extract, Transform, Load', 'Data Exploration', 'Data Modeling', 'Data Evaluation' and 'Data Presentation'.
+
+    image2:
+    - img: /images/content_images/data-science.png
+      alttext: Diagram of three overlapping circles. The circles are labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'.
+
+    examples:
+    - text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
+    - text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
+    - text: "<b>Model and evaluate: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
+    - text: "<b>Report in a dashboard: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
+
+    content:
+    - text: For high data volumes, [Dask](https://dask.org) and [Ray](https://ray.io/) are designed to scale. Stable deployments rely on data versioning ([DVC](https://dvc.org)), experiment tracking ([MLFlow](https://mlflow.org)), and workflow automation ([Airflow](https://airflow.apache.org), [Dagster](https://dagster.io) and [Prefect](https://www.prefect.io)).
+
+  visualization:
+    images:
+    - url: https://www.fusioncharts.com/blog/best-python-data-visualization-libraries
+      img: /images/content_images/v_matplotlib.png
+      alttext: A streamplot made in matplotlib
+    - url: https://github.com/yhat/ggpy
+      img: /images/content_images/v_ggpy.png
+      alttext: A scatter-plot graph made in ggpy
+    - url: https://www.journaldev.com/19692/python-plotly-tutorial
+      img: /images/content_images/v_plotly.png
+      alttext:  A box-plot made in plotly
+    - url: https://altair-viz.github.io/gallery/streamgraph.html
+      img: /images/content_images/v_altair.png
+      alttext:  A streamgraph made in altair
+    - url: https://seaborn.pydata.org
+      img: /images/content_images/v_seaborn.png
+      alttext:  A pairplot of two types of graph, a plot-graph and a frequency graph made in seaborn"
+    - url: https://docs.pyvista.org/examples/index.html
+      img: /images/content_images/v_pyvista.png
+      alttext:  A 3D volume rendering made in PyVista.
+    - url: https://napari.org
+      img: /images/content_images/v_napari.png
+      alttext:  A multi-dimensionan image made in napari.
+    - url: https://vispy.org/gallery/index.html
+      img: /images/content_images/v_vispy.png
+      alttext:  A Voronoi diagram made in vispy.
+
+    content:
+    - text: NumPy is an essential component in the burgeoning
+            [Python visualization landscape](https://pyviz.org/overviews/index.html),
+            which includes [Matplotlib](https://matplotlib.org),
+            [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly),
+            [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/),
+            [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari),
+            and [PyVista](https://github.com/pyvista/pyvista), to name a few.
+    - text: NumPy's accelerated processing of large arrays allows researchers to visualize
+            datasets far larger than native Python could handle.
