@@ -74,26 +74,26 @@ params:
   section5: false
   navbar:
     - 
-      title: Install
-      url: /install
+      title: Instalação
+      url: /pt/install
     - 
-      title: Documentation
+      title: Documentação
       url: https://numpy.org/doc/stable
     - 
-      title: Learn
-      url: /learn
+      title: Aprenda
+      url: /pt/learn
     - 
-      title: Community
-      url: /community
+      title: Comunidade
+      url: /pt/community
     - 
-      title: About Us
-      url: /about
+      title: Sobre
+      url: /pt/about
     - 
-      title: News
-      url: /news
+      title: Notícias
+      url: /pt/news
     - 
-      title: Contribute
-      url: /contribute
+      title: Contribuir
+      url: /pt/contribute
   footer:
     logo: logo.svg
     socialmediatitle: ""
@@ -112,48 +112,48 @@ params:
         title: ""
         links:
           - 
-            text: Install
-            link: /install
+            text: Instalação
+            link: /pt/install
           - 
-            text: Documentation
+            text: Documentação
             link: https://numpy.org/doc/stable
           - 
-            text: Learn
-            link: /learn
+            text: Aprenda
+            link: /pt/learn
           - 
-            text: Citing Numpy
-            link: /citing-numpy
+            text: Citando o Numpy
+            link: /pt/citing-numpy
           - 
             text: Roadmap
             link: https://numpy.org/neps/roadmap.html
       column2:
         links:
           - 
-            text: About us
-            link: /about
+            text: Sobre
+            link: /pt/about
           - 
-            text: Community
-            link: /community
+            text: Comunidade
+            link: /pt/community
           - 
-            text: User surveys
-            link: /user-surveys
+            text: Pesquisas de usuário
+            link: /pt/user-surveys
           - 
-            text: Contribute
-            link: /contribute
+            text: Contribuir
+            link: /pt/contribute
           - 
-            text: Code of conduct
-            link: /code-of-conduct
+            text: Código de Conduta
+            link: /pt/code-of-conduct
       column3:
         links:
           - 
-            text: Get help
-            link: /gethelp
+            text: Ajuda
+            link: /pt/gethelp
           - 
-            text: Terms of use
-            link: /terms
+            text: Termos de uso (EN)
+            link: /pt/terms
           - 
-            text: Privacy
-            link: /privacy
+            text: Privacidade
+            link: /pt/privacy
           - 
-            text: Press kit
-            link: /press-kit
+            text: Kit de imprensa
+            link: /pt/press-kit
