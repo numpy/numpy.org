@@ -2,9 +2,6 @@
 
 name: github pages
 
-env:
-  HUGO_VERSION: 0.116.1
-
 on:
   push:
     branches:
@@ -23,24 +20,36 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-      - name: Install Dart Sass
-        run: sudo snap install dart-sass
       - name: Checkout
         uses: actions/checkout@v3
         with:
           submodules: recursive
           fetch-depth: 0
+
+      - name: Read Hugo version
+        id: hugo-version
+        run: cat netlify.toml | grep HUGO_VERSION | tr -d ' "' >> "$GITHUB_OUTPUT"
+
+      - name: Install Hugo CLI
+        env:
+          HUGO_VERSION: ${{ steps.hugo-version.outputs.HUGO_VERSION }}
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
+
       - name: Generate config
         run: python gen_config.py
+
       - name: Build with Hugo
         run: hugo --gc --minify
+
       - name: Deploy pages
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
