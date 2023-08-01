@@ -64,7 +64,7 @@ if you don't have the Hugo extended version.
 ## Deployment
 
 Submit pull requests first, those get run on [Netlify](https://quansight-labs.netlify.app/) and you can see a build preview by clicking on the `details` link at the bottom.
- 
+
 ![Build previews](images/readme-build-previews.png)
 
 ## Team lists
@@ -79,6 +79,10 @@ To update the teams gallery in numpy.org site, you need to run `make teams` Make
 export GH_TOKEN=xxxxxxxxxx
 make teams
 ```
+
+## Upgrade Hugo
+
+Change the version in `netlify.toml`.
 
 ## Analytics
 
