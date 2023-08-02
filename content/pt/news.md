@@ -1,7 +1,7 @@
 ---
 title: Notícias
 sidebar: false
-newsHeader: "Lançado o NumPy 1.25.0"
+newsHeader: "numpy.org agora está disponível em Japonês e Português"
 date: 2023-06-17
 ---
 
