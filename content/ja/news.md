@@ -11,19 +11,19 @@ _2023年4月1日_ -- numpy.orgが2つの言語で利用可能になりました�
 日本語とポルトガル語。 私たちの熱心なボランティアがいなければ、これは不可能です：
 
 _ポルトガル語:_
-Melissa Weber Mendonça (melissawm)
-Ricardo Prins (ricardoprins)
-Getúlio Silva (getuliosilva)
-Julio Batista Silva (jbsilva)
-Alexandre de Siqueira (alexdesiqueira)
-Alexandre B A Villares (villares)
-Vini Salazar (vinisalazar)
+* Melissa Weber Mendonça (melissawm)
+* Ricardo Prins (ricardoprins)
+* Getúlio Silva (getuliosilva)
+* Julio Batista Silva (jbsilva)
+* Alexandre de Siqueira (alexdesiqueira)
+* Alexandre B A Villares (villares)
+* Vini Salazar (vinisalazar)
 
 _日本語:_
-Atsushi Sakai (AtsushiSakai)
-KKunai
-Tom Kelly (TomKellyGenetics)
-Yuji Kanagawa (kngwyu)
+* Atsushi Sakai (AtsushiSakai)
+* KKunai
+* Tom Kelly (TomKellyGenetics)
+* Yuji Kanagawa (kngwyu)
 
 翻訳インフラストラクチャに関する作業は、CZIからの資金援助でサポートされています。
 

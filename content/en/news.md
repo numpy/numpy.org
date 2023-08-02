@@ -11,19 +11,19 @@ _Aug 1, 2023_ -- numpy.org is now available in 2 additional languages:
 Japanese and Portuguese. This wouldn’t be possible without our dedicated volunteers:
 
 _Portuguese:_
-Melissa Weber Mendonça (melissawm)
-Ricardo Prins (ricardoprins)
-Getúlio Silva (getuliosilva)
-Julio Batista Silva (jbsilva)
-Alexandre de Siqueira (alexdesiqueira)
-Alexandre B A Villares (villares)
-Vini Salazar (vinisalazar)
+* Melissa Weber Mendonça (melissawm)
+* Ricardo Prins (ricardoprins)
+* Getúlio Silva (getuliosilva)
+* Julio Batista Silva (jbsilva)
+* Alexandre de Siqueira (alexdesiqueira)
+* Alexandre B A Villares (villares)
+* Vini Salazar (vinisalazar)
 
 _Japanese:_
-Atsushi Sakai (AtsushiSakai)
-KKunai
-Tom Kelly (TomKellyGenetics)
-Yuji Kanagawa (kngwyu)
+* Atsushi Sakai (AtsushiSakai)
+* KKunai
+* Tom Kelly (TomKellyGenetics)
+* Yuji Kanagawa (kngwyu)
 
 The work on the translation infrastructure is supported with funding from CZI.
 
