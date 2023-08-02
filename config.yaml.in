@@ -15,7 +15,7 @@ disableLanguages: []
 
 params:
   images:
-  - /images/twitter-image.jpg
+  - /images/numpy-image.jpg
   navColor: blue
   font:
     name: "Lato"
