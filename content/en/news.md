@@ -2,7 +2,7 @@
 title: News
 sidebar: false
 newsHeader: "numpy.org is now available in Japanese and Portuguese"
-date: 2023-08-01
+date: 2023-08-02
 ---
 
 ### numpy.org is now available in Japanese and Portuguese

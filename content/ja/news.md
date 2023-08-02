@@ -2,7 +2,7 @@
 title: ニュース
 sidebar: false
 newsHeader: "numpy.orgが日本語とポルトガル語に対応しました。"
-date: 2023-08-01
+date: 2023-08-02
 ---
 
 ### numpy.orgが日本語とポルトガル語に対応しました。
