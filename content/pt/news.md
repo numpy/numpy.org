@@ -9,7 +9,7 @@ date: 2023-06-17
 
 Estamos felizes em anunciar que o site numpy.org agora está disponível em duas línguas adicionais além do Inglês: Japonês e Português Brasileiro. Isso não teria sido possível sem nosso grupo de voluntários: 
 
-Portuguese:
+Português:
 * Melissa Weber Mendonça (melissawm)
 * Ricardo Prins (ricardoprins)
 * Getúlio Silva (getuliosilva)
@@ -18,7 +18,7 @@ Portuguese:
 * Alexandre B A Villares (villares)
 * Vini Salazar (vinisalazar)
 
-Japanese:
+Japonês:
 * Atsushi Sakai (AtsushiSakai)
 * KKunai
 * Tom Kelly (TomKellyGenetics)
