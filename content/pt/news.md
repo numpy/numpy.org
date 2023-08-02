@@ -11,7 +11,7 @@ Estamos felizes em anunciar que o site numpy.org agora está disponível em duas
 
 Portuguese:
 * Melissa Weber Mendonça (melissawm)
-* nRicardo Prins (ricardoprins)
+* Ricardo Prins (ricardoprins)
 * Getúlio Silva (getuliosilva)
 * Julio Batista Silva (jbsilva)
 * Alexandre de Siqueira (alexdesiqueira)
