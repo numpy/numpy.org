@@ -23,6 +23,7 @@ Japanese:
 * KKunai
 * Tom Kelly (TomKellyGenetics)
 * Yuji Kanagawa (kngwyu)
+* Tetsuo Koyama (tkoyama010)
 
 O trabalho na infraestrutura de traduções é financiado pela CZI.
 

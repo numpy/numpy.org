@@ -24,6 +24,7 @@ _Japanese:_
 * KKunai
 * Tom Kelly (TomKellyGenetics)
 * Yuji Kanagawa (kngwyu)
+* Tetsuo Koyama (tkoyama010)
 
 The work on the translation infrastructure is supported with funding from CZI.
 
