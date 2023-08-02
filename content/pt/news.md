@@ -7,7 +7,7 @@ date: 2023-08-02
 
 ### numpy.org agora está disponível em Japonês e Português
 
-Estamos felizes em anunciar que o site numpy.org agora está disponível em duas línguas adicionais além do Inglês: Japonês e Português Brasileiro. Isso não teria sido possível sem nosso grupo de voluntários: 
+_02 de agosto, 2023_ -- Estamos felizes em anunciar que o site numpy.org agora está disponível em duas línguas adicionais além do Inglês: Japonês e Português Brasileiro. Isso não teria sido possível sem nosso grupo de voluntários: 
 
 Português:
 * Melissa Weber Mendonça (melissawm)
