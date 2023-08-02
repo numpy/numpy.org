@@ -1,9 +1,34 @@
 ---
 title: ニュース
 sidebar: false
-newsHeader: "NumPy 1.25.0 リリース"
-date: 2023-06-17
+newsHeader: "numpy.orgが日本語とポルトガル語に対応しました。"
+date: 2023-08-01
 ---
+
+### numpy.orgが日本語とポルトガル語に対応しました。
+
+_2023年4月1日_ -- numpy.orgが2つの言語で利用可能になりました：
+日本語とポルトガル語。 私たちの熱心なボランティアがいなければ、これは不可能です：
+
+_ポルトガル語:_
+* Melissa Weber Mendonça (melissawm)
+* Ricardo Prins (ricardoprins)
+* Getúlio Silva (getuliosilva)
+* Julio Batista Silva (jbsilva)
+* Alexandre de Siqueira (alexdesiqueira)
+* Alexandre B A Villares (villares)
+* Vini Salazar (vinisalazar)
+
+_日本語:_
+* Atsushi Sakai (AtsushiSakai)
+* KKunai
+* Tom Kelly (TomKellyGenetics)
+* Yuji Kanagawa (kngwyu)
+* Tetsuo Koyama (tkoyama010)
+
+翻訳インフラストラクチャに関する作業は、CZIからの資金援助でサポートされています。
+
+今後は、ウェブサイトをより多くの言語に翻訳したいと思います。 手伝いたい場合は、Slack上のNumPy翻訳チームと繋がってください: https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w. (#translations チャンネルを探してください) また、Scientific Pythonエコシステム全体のドキュメントや教育コンテンツのローカライズに取り組む 翻訳チームも 立ち上げています。 これが興味を引いた場合は、Scientific Python Discordに参加してください: https://discord.gg/khWtqY6RKr (#translation チャンネルを探してください)
 
 ### NumPy 1.25.0 リリース
 

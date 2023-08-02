@@ -1,9 +1,35 @@
 ---
 title: Notícias
 sidebar: false
-newsHeader: "Lançado o NumPy 1.25.0"
+newsHeader: "numpy.org agora está disponível em Japonês e Português"
 date: 2023-06-17
 ---
+
+### numpy.org agora está disponível em Japonês e Português
+
+Estamos felizes em anunciar que o site numpy.org agora está disponível em duas línguas adicionais além do Inglês: Japonês e Português Brasileiro. Isso não teria sido possível sem nosso grupo de voluntários: 
+
+Português:
+* Melissa Weber Mendonça (melissawm)
+* Ricardo Prins (ricardoprins)
+* Getúlio Silva (getuliosilva)
+* Julio Batista Silva (jbsilva)
+* Alexandre de Siqueira (alexdesiqueira)
+* Alexandre B A Villares (villares)
+* Vini Salazar (vinisalazar)
+
+Japonês:
+* Atsushi Sakai (AtsushiSakai)
+* KKunai
+* Tom Kelly (TomKellyGenetics)
+* Yuji Kanagawa (kngwyu)
+* Tetsuo Koyama (tkoyama010)
+
+O trabalho na infraestrutura de traduções é financiado pela CZI.
+
+No futuro, adoraríamos traduzir o site para mais línguas. Se você quiser ajudar, por favor entre em contato com o time de traduções do NumPy no Slack:
+https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w. (Procure pelo canal #translations)
+Também estamos organizando um time de tradutores que serão responsáveis por trabalhar na localização da documentação e conteúdo educacional para o ecossistema Scientific Python. Se esse trabalho te interessa, junte-se a nós no Discord do projeto Scientific Python: https://discord.gg/khWtqY6RKr. (Procure pelo canal #translation)
 
 ### Lançado o NumPy 1.25.0
 
