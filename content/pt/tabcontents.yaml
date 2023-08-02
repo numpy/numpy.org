@@ -28,7 +28,7 @@ params:
         url: https://cupy.chainer.org
       - 
         title: JAX
-        text: "Composable transformations of NumPy programs differentiate: vectorize, just-in-time compilation to GPU/TPU."
+        text: "Transformações combináveis de programas NumPy: vetorização, compilação just-in-time para GPU/TPU."
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
         url: https://github.com/google/jax
@@ -76,7 +76,7 @@ params:
         url: https://github.com/xtensor-stack/xtensor-python
       - 
         title: XND
-        text: Develop libraries for array computing, recreating NumPy's foundational concepts.
+        text: Desenvolva bibliotecas para computação com arrays, recriando conceitos fundamentais do NumPy.
         img: /images/content_images/arlib/xnd.png
         alttext: xnd
         url: https://xnd.io
