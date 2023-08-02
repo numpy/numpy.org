@@ -93,7 +93,7 @@ params:
       url: /pt/news
     - 
       title: Contribuir
-      url: /contribute
+      url: /pt/contribute
   footer:
     logo: logo.svg
     socialmediatitle: ""
