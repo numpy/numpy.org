@@ -1,9 +1,9 @@
 ---
-title: History of NumPy
+title: Historia de NumPy
 sidebar: false
 ---
 
-NumPy is a foundational Python library that provides array data structures and related fast numerical routines. When started, the library had little funding, and was written mainly by graduate students—many of them without computer science education, and often without a blessing of their advisors. To even imagine that a small group of “rogue” student programmers could upend the already well-established ecosystem of research software—backed by millions in funding and many hundreds of highly qualified engineers — was preposterous. Yet, the philosophical motivations behind a fully open tool stack, in combination with the excited, friendly community with a singular focus, have proven auspicious in the long run.  Nowadays, NumPy is relied upon by scientists, engineers, and many other professionals around the world. For example, the published scripts used in the analysis of gravitational waves import NumPy, and the M87 black hole imaging project directly cites NumPy.
+NumPy es una biblioteca fundamental de Python que proporciona estructuras de datos de matrices y rutinas numéricas rápidas relacionadas. When started, the library had little funding, and was written mainly by graduate students—many of them without computer science education, and often without a blessing of their advisors. To even imagine that a small group of “rogue” student programmers could upend the already well-established ecosystem of research software—backed by millions in funding and many hundreds of highly qualified engineers — was preposterous. Yet, the philosophical motivations behind a fully open tool stack, in combination with the excited, friendly community with a singular focus, have proven auspicious in the long run.  Nowadays, NumPy is relied upon by scientists, engineers, and many other professionals around the world. For example, the published scripts used in the analysis of gravitational waves import NumPy, and the M87 black hole imaging project directly cites NumPy.
 
 For the in-depth account on milestones in the development of NumPy and related libraries please see [arxiv.org](https://arxiv.org/abs/1907.10121).
 
