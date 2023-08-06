@@ -3,19 +3,19 @@ title: Historia de NumPy
 sidebar: false
 ---
 
-NumPy es una biblioteca fundamental de Python que proporciona estructuras de datos de matrices y rutinas numéricas rápidas relacionadas. When started, the library had little funding, and was written mainly by graduate students—many of them without computer science education, and often without a blessing of their advisors. To even imagine that a small group of “rogue” student programmers could upend the already well-established ecosystem of research software—backed by millions in funding and many hundreds of highly qualified engineers — was preposterous. Yet, the philosophical motivations behind a fully open tool stack, in combination with the excited, friendly community with a singular focus, have proven auspicious in the long run.  Nowadays, NumPy is relied upon by scientists, engineers, and many other professionals around the world. For example, the published scripts used in the analysis of gravitational waves import NumPy, and the M87 black hole imaging project directly cites NumPy.
+NumPy es una biblioteca fundamental de Python que proporciona estructuras de datos de matrices y rutinas numéricas rápidas relacionadas. Cuando se puso en marcha, la biblioteca contaba con escasos fondos y la escribían principalmente estudiantes de posgrado, muchos de ellos sin formación en informática y, a menudo, sin la bendición de sus asesores. Imaginar siquiera que un pequeño grupo de estudiantes programadores "rebeldes" pudiera derribar el ecosistema de software de investigación, ya establecido y respaldado por millones en financiación y cientos de ingenieros altamente cualificados, era absurdo. Sin embargo, las motivaciones filosóficas detrás de la pila de herramientas totalmente abierta, en combinación con una comunidad entusiasta y amistosa con un enfoque singular, han demostrado ser favorable a largo plazo.  Hoy en día, científicos, ingenieros y muchos otros profesionales en todo el mundo confían en NumPy. Por ejemplo, los scripts publicados en el análisis de ondas gravitacionales utilizan NumPy, y el proyecto de imagen del agujero negro M87 cita directamente a NumPy.
 
-For the in-depth account on milestones in the development of NumPy and related libraries please see [arxiv.org](https://arxiv.org/abs/1907.10121).
+Para conocer en profundidad los hitos en el desarrollo de NumPy y las bibliotecas relacionadas, consulta [arxiv.org](arxiv.org/abs/1907.10121).
 
-If you’d like to obtain a copy of the original Numeric and Numarray libraries, follow the links below:
+Si deseas obtener una copia de las bibliotecas originales Numeric y Numarray, sigue los siguientes enlaces:
 
-[Download Page for *Numeric*](https://sourceforge.net/projects/numpy/files/Old%20Numeric/)*
+[Página de Descarga de *Numeric*](https://sourceforge.net/projects/numpy/files/Old%20Numeric/)*
 
-[Download Page for *Numarray*](https://sourceforge.net/projects/numpy/files/Old%20Numarray/)*
+[Página de Descarga de *Numarray*](https://sourceforge.net/projects/numpy/files/Old%20Numarray/)*
 
-*<sub>Please note that these older array packages are no longer maintained, and users are strongly advised to use NumPy for any array-related purposes or refactor any pre-existing code to utilize the NumPy library.</sub>
+*<sub>Ten en cuenta que estos paquetes antiguos ya no se mantienen, y se recomienda encarecidamente a los usuarios que utilicen NumPy para cualquier propósito relacionado con matrices o que refactoricen cualquier código preexistente para utilizar la biblioteca NumPy.</sub>
 
-### Historic Documentation
+### Documentación Histórica
 
-[Download *`Numeric'* Manual](static/numeric-manual.pdf)
+[Descarga el Manual de *`Numeric'*](static/numeric-manual.pdf)
 
