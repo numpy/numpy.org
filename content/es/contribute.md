@@ -1,9 +1,9 @@
 ---
-title: Contribute to NumPy
+title: Contribuye a NumPy
 sidebar: false
 ---
 
-The NumPy project welcomes your expertise and enthusiasm! Your choices aren't limited to programming, as you can see below there are many areas where we need **your** help.
+¡El proyecto NumPy agradece tu experiencia y entusiasmo! Your choices aren't limited to programming, as you can see below there are many areas where we need **your** help.
 
 If you're unsure where to start or how your skills fit in, _reach out!_ You can ask on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) or [GitHub](http://github.com/numpy/numpy) (open an [issue](https://github.com/numpy/numpy/issues) or comment on a relevant issue).
 
