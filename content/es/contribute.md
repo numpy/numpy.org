@@ -3,26 +3,26 @@ title: Contribuye a NumPy
 sidebar: false
 ---
 
-¡El proyecto NumPy agradece tu experiencia y entusiasmo! Your choices aren't limited to programming, as you can see below there are many areas where we need **your** help.
+¡El proyecto NumPy agradece tu experiencia y entusiasmo! Tus opciones no se limitan a la programación. Como puedes ver más abajo, existen muchas áreas en las que necesitamos **tu** ayuda.
 
-If you're unsure where to start or how your skills fit in, _reach out!_ You can ask on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) or [GitHub](http://github.com/numpy/numpy) (open an [issue](https://github.com/numpy/numpy/issues) or comment on a relevant issue).
+Si no estás seguro por dónde empezar o cómo encajan tus habilidades, _¡acércate!_ Puedes preguntar en la [lista de correos](https://mail.python.org/mailman/listinfo/numpy-discussion) o [GitHub](http://github.com/numpy/numpy) (abre una [incidencia](https://github.com/numpy/numpy/issues) o comenta en una relevante).
 
-Those are our preferred channels (open source is open by nature), but if you prefer to talk privately, contact our community coordinators at <numpy-team@googlegroups.com> or on [Slack](https://numpy-team.slack.com) (write  <numpy-team@googlegroups.com> for an invite).
+Estos son nuestros canales preferidos (el código abierto es abierto por naturaleza), pero si prefieres hablar de manera privada, contacta a nuestros coordinadores de la communidad en <numpy-team@googlegroups.com> o en [Slack](https://numpy-team.slack.com) (escribe a  <numpy-team@googlegroups.com> para recibir una invitación).
 
-We also have a biweekly _community call_, details of which are announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion). You are very welcome to join. If you are new to contributing to open source, we also highly recommend reading [this guide](https://opensource.guide/how-to-contribute/).
+También hacemos _llamadas a la comunidad_ de manera quincenal, cuyos detalles se anuncian en la [lista de correo](https://mail.python.org/mailman/listinfo/numpy-discussion). Te invitamos a unirte. Si es la primera vez que contribuyes al código abierto, también te recomendamos encarecidamente que leas [esta guía](https://opensource.guide/how-to-contribute/).
 
-Our community aspires to treat everyone equally and to value all contributions. We have a [Code of Conduct](/code-of-conduct) to foster an open and welcoming environment.
+Nuestra comunidad aspira a tratar a todos por igual y a valorar todas las contribuciones. Tenemos un [Código de Conducta](/code-of-conduct) para fomentar un entorno abierto y acogedor.
 
-### Writing code
+### Escribiendo código
 
-Programmers, this [guide](https://numpy.org/devdocs/dev/index.html#development-process-summary) explains how to contribute to the NumPy codebase. <br>Check out also our [YouTube channel](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) for additional advice.
+Programadores, esta [guía](https://numpy.org/devdocs/dev/index.html#development-process-summary) explica cómo contribuir al código base. <br>También revisa nuestro [canal de YouTube](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) por consejos adicionales.
 
 
-### Reviewing pull requests
-The project has more than 250 open pull requests -- meaning many potential improvements and many open-source contributors waiting for feedback. If you're a developer who knows NumPy, you can help even if you're not familiar with the codebase. You can:
-* summarize a long-running discussion
-* triage documentation PRs
-* test proposed changes
+### Revisando pull requests
+El proyecto tiene más de 250 pull requests abiertos, lo que significa muchas mejoras potenciales y muchos colaboradores de código abierto esperando retroalimentación. Si eres un desarrollador que conoce NumPy, puedes ayudar aunque no estés familiarizado con el código base. Puedes:
+* resumir un debate extenso
+* categorizar PRs de documentación
+* probar los cambios propuestos
 
 
 ### Developing educational materials
