@@ -25,12 +25,12 @@ El proyecto tiene más de 250 pull requests abiertos, lo que significa muchas me
 * probar los cambios propuestos
 
 
-### Developing educational materials
+### Creando material educativo
 
-NumPy's [User Guide](https://numpy.org/devdocs) is undergoing rehabilitation. We're in need of new tutorials, how-to's, and deep-dive explanations, and the site needs restructuring. Opportunities aren't limited to writers. We'd also welcome worked examples, notebooks, and videos. [NEP 44 — Restructuring the NumPyDocumentation](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html) lays out our ideas -- and you may have others.
+La [Guía de usuario](https://numpy.org/devdocs) de NumPy está en proceso de rehabilitación. Necesitamos nuevos tutoriales, instrucciones y explicaciones detalladas, y la página necesita una reestructuración. Las oportunidades no se limitan a escritores. También ejemplos prácticos, notebooks y vídeos. La propuesta [NEP 44 - Reestructuración de la Documentación NumPy](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html) expone nuestras ideas -- y tal vez tú puedas tener otras.
 
 
-### Issue triaging
+### Clasificación de incidencias
 
 The [NumPy issue tracker](https://github.com/numpy/numpy/issues) has a _lot_ of open issues. Some are no longer valid, some should be prioritized, and some would make good issues for new contributors.  You can:
 
