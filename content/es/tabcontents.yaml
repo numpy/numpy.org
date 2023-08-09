@@ -3,68 +3,68 @@ params:
     paras:
       - 
         para1: NumPy constituye la base de potentes bibliotecas de aprendizaje automático como [scikit-learn](https://scikit-learn.org) y [SciPy](https://www.scipy.org). A medida que crece el aprendizaje automático, también lo hace la lista de bibliotecas basadas en NumPy. Las capacidades de aprendizaje profundo de [TensorFlow](https://www.tensorflow.org) tienen amplias aplicaciones&mdash; entre ellas el reconocimiento de voz e imágenes, las aplicaciones basadas en texto, el análisis de series temporales y la detección de vídeo. [PyTorch](https://pytorch.org), otra biblioteca de aprendizaje profundo, es popular entre los investigadores de visión por ordenador y procesamiento del lenguaje natural. [MXNet](https://github.com/apache/incubator-mxnet) es otro paquete de IA que proporciona modelos y plantillas para el aprendizaje profundo.
-        para2: Statistical techniques called [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205) methods such as binning, bagging, stacking, and boosting are among the ML algorithms implemented by tools such as [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [CatBoost](https://catboost.ai) &mdash; one of the fastest inference engines. [Yellowbrick](https://www.scikit-yb.org/en/latest/) and [Eli5](https://eli5.readthedocs.io/en/latest/) offer machine learning visualizations.
+        para2: Las técnicas estadísticas denominadas métodos [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205), como binning, bagging, stacking y boosting, se encuentran entre los algoritmos de ML implementados por herramientas como [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://lightgbm.readthedocs.io/en/latest/) y [CatBoost](https://catboost.ai) &mdash; uno de los motores de inferencia más rápidos. [Yellowbrick](https://www.scikit-yb.org/en/latest/) y [Eli5](https://eli5.readthedocs.io/en/latest/) ofrecen visualizaciones de aprendizaje automático.
   arraylibraries:
     intro:
       - 
-        text: NumPy's API is the starting point when libraries are written to exploit innovative hardware, create specialized array types, or add capabilities beyond what NumPy provides.
+        text: La API de NumPy es el punto de partida cuando se escriben bibliotecas para explotar hardware innovador, crear tipos de matrices especializadas o añadir capacidades más allá de lo que NumPy proporciona.
     headers:
       - 
-        text: Array Library
+        text: Biblioteca de matrices
       - 
-        text: Capabilities & Application areas
+        text: Capacidades y áreas de aplicación
     libraries:
       - 
         title: Dask
-        text: Distributed arrays and advanced parallelism for analytics, enabling performance at scale.
+        text: Matrices distribuidas y paralelismo avanzado para análisis, que permiten un rendimiento a escala.
         img: /images/content_images/arlib/dask.png
         alttext: Dask
         url: https://dask.org/
       - 
         title: CuPy
-        text: NumPy-compatible array library for GPU-accelerated computing with Python.
+        text: Biblioteca de matrices compatible con NumPy para cálculo acelerado en la GPU con Python.
         img: /images/content_images/arlib/cupy.png
         alttext: CuPy
         url: https://cupy.chainer.org
       - 
         title: JAX
-        text: "Composable transformations of NumPy programs: differentiate, vectorize, just-in-time compilation to GPU/TPU."
+        text: "Transformaciones componibles de programas NumPy: diferenciar, vectorizar, compilación justo-a-tiempo a GPU/TPU."
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
         url: https://github.com/google/jax
       - 
         title: Xarray
-        text: Labeled, indexed multi-dimensional arrays for advanced analytics and visualization
+        text: Matrices multidimensionales indexadas y etiquetadas para análisis y visualización avanzados
         img: /images/content_images/arlib/xarray.png
         alttext: xarray
         url: https://xarray.pydata.org/en/stable/index.html
       - 
         title: Sparse
-        text: NumPy-compatible sparse array library that integrates with Dask and SciPy's sparse linear algebra.
+        text: Biblioteca de matrices dispersas compatible con NumPy que se integra con el álgebra lineal dispersa de Dask y SciPy.
         img: /images/content_images/arlib/sparse.png
         alttext: sparse
         url: https://sparse.pydata.org/en/latest/
       - 
         title: PyTorch
-        text: Deep learning framework that accelerates the path from research prototyping to production deployment.
+        text: Marco de aprendizaje profundo que acelera el camino desde la creación de prototipos de investigación hasta la implantación en producción.
         img: /images/content_images/arlib/pytorch-logo-dark.svg
         alttext: PyTorch
         url: https://pytorch.org/
       - 
         title: TensorFlow
-        text: An end-to-end platform for machine learning to easily build and deploy ML powered applications.
+        text: Una plataforma integral de aprendizaje automático para crear y desplegar fácilmente aplicaciones basadas en ML.
         img: /images/content_images/arlib/tensorflow-logo.svg
         alttext: TensorFlow
         url: https://www.tensorflow.org
       - 
         title: MXNet
-        text: Deep learning framework suited for flexible research prototyping and production.
+        text: Marco de aprendizaje profundo adecuado para la creación flexible de prototipos de investigación y la producción.
         img: /images/content_images/arlib/mxnet_logo.png
         alttext: MXNet
         url: https://mxnet.apache.org/
       - 
         title: Arrow
-        text: A cross-language development platform for columnar in-memory data and analytics.
+        text: Plataforma de desarrollo multilenguaje para datos y análisis columnares en memoria.
         img: /images/content_images/arlib/arrow.png
         alttext: arrow
         url: https://github.com/apache/arrow
