@@ -5,7 +5,7 @@ sidebar: false
 
 ¡El proyecto NumPy agradece tu experiencia y entusiasmo! Tus opciones no se limitan a la programación. Como puedes ver más abajo, existen muchas áreas en las que necesitamos **tu** ayuda.
 
-Si no estás seguro por dónde empezar o cómo encajan tus habilidades, _¡acércate!_ Puedes preguntar en la [lista de correos](https://mail.python.org/mailman/listinfo/numpy-discussion) o [GitHub](http://github.com/numpy/numpy) (abre una [incidencia](https://github.com/numpy/numpy/issues) o comenta en una relevante).
+Si no estás seguro por dónde empezar o cómo encajan tus habilidades, _¡acércate!_ Puedes preguntar en la [lista de correos](https://mail.python.org/mailman/listinfo/numpy-discussion) o [GitHub](http://github.com/numpy/numpy) (abre una [propuesta](https://github.com/numpy/numpy/issues) o comenta en una relevante).
 
 Estos son nuestros canales preferidos (el código abierto es abierto por naturaleza), pero si prefieres hablar de manera privada, contacta a nuestros coordinadores de la communidad en <numpy-team@googlegroups.com> o en [Slack](https://numpy-team.slack.com) (escribe a  <numpy-team@googlegroups.com> para recibir una invitación).
 
@@ -18,8 +18,8 @@ Nuestra comunidad aspira a tratar a todos por igual y a valorar todas las contri
 Programadores, esta [guía](https://numpy.org/devdocs/dev/index.html#development-process-summary) explica cómo contribuir al código base. <br>También revisa nuestro [canal de YouTube](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) por consejos adicionales.
 
 
-### Revisando pull requests
-El proyecto tiene más de 250 pull requests abiertos, lo que significa muchas mejoras potenciales y muchos colaboradores de código abierto esperando retroalimentación. Si eres un desarrollador que conoce NumPy, puedes ayudar aunque no estés familiarizado con el código base. Puedes:
+### Revisando solicitudes de cambios
+El proyecto tiene más de 250 solicitudes de cambios abiertos, lo que significa muchas mejoras potenciales y muchos colaboradores de código abierto esperando retroalimentación. Si eres un desarrollador que conoce NumPy, puedes ayudar aunque no estés familiarizado con el código base. Puedes:
 * resumir un debate extenso
 * categorizar PRs de documentación
 * probar los cambios propuestos
@@ -30,14 +30,14 @@ El proyecto tiene más de 250 pull requests abiertos, lo que significa muchas me
 La [Guía de usuario](https://numpy.org/devdocs) de NumPy está en proceso de rehabilitación. Necesitamos nuevos tutoriales, instrucciones y explicaciones detalladas, y la página necesita una reestructuración. Las oportunidades no se limitan a escritores. También ejemplos prácticos, notebooks y vídeos. La propuesta [NEP 44 - Reestructuración de la Documentación NumPy](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html) expone nuestras ideas -- y tal vez tú puedas tener otras.
 
 
-### Clasificación de incidencias
+### Clasificación de propuestas
 
-El [rastreador de incidencias de NumPy](https://github.com/numpy/numpy/issues) tiene _muchos_ temas abiertos. Algunos ya no son válidos, otros deberían priorizarse y otros serían buenos temas para nuevos colaboradores.  Puedes:
+El [rastreador de propuestas de NumPy](https://github.com/numpy/numpy/issues) tiene _muchos_ temas abiertos. Algunos ya no son válidos, otros deberían priorizarse y otros serían buenos temas para nuevos colaboradores.  Puedes:
 
 * revisar si errores antiguos siguen presentes
-* encontrar incidencias duplicadas, y enlazar las relacionadas
+* encontrar propuestas duplicadas, y enlazar las relacionadas
 * añadir buenos reproductores autónomos de las incidencias
-* etiquetar correctamente las incidencias (para ello es necesario tener derechos de categorización, solo necesitas preguntar)
+* etiquetar correctamente las propuestas (para ello es necesario tener derechos de categorización, solo necesitas preguntar)
 
 Por favor, solo sumérgete.
 
