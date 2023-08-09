@@ -1,9 +1,9 @@
 ---
-title: NumPy Teams
+title: Equipos de NumPy
 sidebar: false
 ---
 
-We are an international team on a mission to support scientific and research communities worldwide by building quality, open-source software. [Join us]({{< relref "/contribute" >}})!
+Somos un equipo internacional en una misión para apoyar a las comunidades científicas y de investigaciones alrededor del mundo, mediante la construcción de software de código abierto de calidad. ¡[Únete a nosotros]({{< relref "/contribute" >}})!
 
 {{< include-html "static/gallery/maintainers.html" >}}
 
@@ -17,6 +17,6 @@ We are an international team on a mission to support scientific and research com
 
 {{< include-html "static/gallery/emeritus-maintainers.html" >}}
 
-# Governance
+# Gobernanza
 
-For the list of the Steering Council members, please see [here](https://numpy.org/about/).
+Para la lista de personas del Consejo Directivo, por favor ve [aquí](https://numpy.org/about/).
