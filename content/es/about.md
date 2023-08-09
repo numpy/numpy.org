@@ -1,16 +1,16 @@
 ---
-title: About Us
+title: Quiénes Somos
 sidebar: false
 ---
 
-NumPy is an open source project that enables numerical computing with Python. It was created in 2005 building on the early work of the Numeric and Numarray libraries. NumPy will always be 100% open source software and free for all to use. It is released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
+NumPy es un proyecto de código abierto cuyo objetivo es permitir la computación numérica en Python. Se creó en el 2005, a partir de los primeros trabajos de las bibliotecas Numeric y Numarray. NumPy siempre será software 100% código abierto, de uso libre para todos. Fue liberado bajo los términos liberales de la [licencia BSD modificada](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
 
-NumPy is developed in the open on GitHub, through the consensus of the NumPy and wider scientific Python community. For more information on our governance approach, please see our [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
+NumPy se desarrolla de forma abierta en GitHub, mediante el consenso de las comunidades NumPy y científica de Python en general. Para más información sobre nuestro enfoque de gobernanza, consulte nuestro [Documento de Gobernanza](https://www.numpy.org/devdocs/dev/governance/index.html).
 
 
-## Steering Council
+## Consejo Directivo
 
-The NumPy Steering Council is the project's governing body. Its role is to ensure, through working with and serving the broader NumPy community, the long-term sustainability of the project, both as a software package and community. The NumPy Steering Council currently consists of the following members (in alphabetical order, by last name):
+El Consejo de Dirección de NumPy es el órgano de gobernanza del proyecto. Su papel es el garantizar, a través del trabajo con la comunidad NumPy en general y al servicio de la misma, el bienestar a largo plazo del proyecto, tanto desde el punto de vista técnico como de la comunidad. El Consejo Directivo de NumPy está formado actualmente por los siguientes miembros (en orden alfabético):
 
 - Sebastian Berg
 - Ralf Gommers
@@ -22,7 +22,7 @@ The NumPy Steering Council is the project's governing body. Its role is to ensur
 - Melissa Weber Mendonça
 - Eric Wieser
 
-Emeritus:
+Eméritos:
 
 - Alex Griffing (2015-2017)
 - Allan Haldane (2015-2021)
@@ -33,7 +33,7 @@ Emeritus:
 - Jaime Fernández del Río (2014-2021)
 - Pauli Virtanen (2008-2021)
 
-To contact the NumPy Steering Council, please email numpy-team@googlegroups.com.
+Para contactar con el Consejo Directivo de NumPy, por favor envía un correo electrónico a numpy-team@googlegroups.com.
 
 ## Teams
 
