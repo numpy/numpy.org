@@ -82,138 +82,138 @@ params:
         url: https://awkward-array.org/
       - 
         title: uarray
-        text: Python backend system that decouples API from implementation; unumpy provides a NumPy API.
+        text: Sistema de backend de Python que desvincula la API de la implementación; unumpy proporciona una API de NumPy.
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
       - 
         title: tensorly
-        text: Tensor learning, algebra and backends to seamlessly use NumPy, MXNet, PyTorch, TensorFlow or CuPy.
+        text: Aprendizaje tensorial, álgebra y backends para utilizar NumPy, MXNet, PyTorch, TensorFlow o CuPy.
         img: /images/content_images/arlib/tensorly.png
         alttext: tensorly
         url: http://tensorly.org/stable/home.html
   scientificdomains:
     intro:
       - 
-        text: Nearly every scientist working in Python draws on the power of NumPy.
+        text: Casi todos los científicos que trabajan en Python recurren a la potencia de NumPy.
       - 
-        text: "NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant."
+        text: "NumPy lleva la potencia de cálculo de lenguajes como C y Fortran a Python, un lenguaje mucho más fácil de aprender y utilizar. Con esta potencia viene la sencillez: una solución en NumPy suele ser clara y elegante."
     librariesrow1:
       - 
         title: Quantum Computing
-        alttext: A computer chip.
+        alttext: Un chip de ordenador.
         img: /images/content_images/sc_dom_img/quantum_computing.svg
       - 
-        title: Statistical Computing
-        alttext: A line graph with the line moving up.
+        title: Computación Estadística
+        alttext: Un gráfico lineal con la línea moviéndose hacia arriba.
         img: /images/content_images/sc_dom_img/statistical_computing.svg
       - 
-        title: Signal Processing
-        alttext: A bar chart with positive and negative values.
+        title: Procesamiento de Señales
+        alttext: Un gráfico de barras con valores positivos y negativos.
         img: /images/content_images/sc_dom_img/signal_processing.svg
       - 
-        title: Image Processing
-        alttext: An photograph of the mountains.
+        title: Procesamiento de Imágenes
+        alttext: Una fotografía de unas montañas.
         img: /images/content_images/sc_dom_img/image_processing.svg
       - 
-        title: Graphs and Networks
-        alttext: A simple graph.
+        title: Grafos y Redes
+        alttext: Un simple grafo.
         img: /images/content_images/sc_dom_img/sd6.svg
       - 
-        title: Astronomy
-        alttext: A telescope.
+        title: Astronomía
+        alttext: Un telescopio.
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
       - 
-        title: Cognitive Psychology
-        alttext: A human head with gears.
+        title: Psicología Cognitiva
+        alttext: Una cabeza humana con engranajes.
         img: /images/content_images/sc_dom_img/cognitive_psychology.svg
     librariesrow2:
       - 
-        title: Bioinformatics
-        alttext: A strand of DNA.
+        title: Bioinformática
+        alttext: Una cadena de ADN.
         img: /images/content_images/sc_dom_img/bioinformatics.svg
       - 
-        title: Bayesian Inference
-        alttext: A graph with a bell-shaped curve.
+        title: Inferencia Bayesiana
+        alttext: El gráfico de una curva en forma de campana.
         img: /images/content_images/sc_dom_img/bayesian_inference.svg
       - 
-        title: Mathematical Analysis
-        alttext: Four mathematical symbols.
+        title: Análisis Matemático
+        alttext: Cuatro símbolos matemáticos.
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
       - 
-        title: Chemistry
-        alttext: A test tube.
+        title: Química
+        alttext: Un tubo de ensayo.
         img: /images/content_images/sc_dom_img/chemistry.svg
       - 
-        title: Geoscience
-        alttext: The Earth.
+        title: Geociencia
+        alttext: La Tierra.
         img: /images/content_images/sc_dom_img/geoscience.svg
       - 
-        title: Geographic Processing
-        alttext: A map.
+        title: Procesamiento Geográfico
+        alttext: Un mapa.
         img: /images/content_images/sc_dom_img/GIS.svg
       - 
-        title: Architecture & Engineering
-        alttext: A microprocessor development board.
+        title: Arquitectura e Ingeniería
+        alttext: Una placa de desarrollo de microprocesadores.
         img: /images/content_images/sc_dom_img/robotics.svg
   datascience:
-    intro: "NumPy lies at the core of a rich ecosystem of data science libraries. A typical exploratory data science workflow might look like:"
+    intro: "NumPy es el núcleo de un rico ecosistema de librerías de ciencia de datos. Un flujo de trabajo exploratorio típico de ciencia de datos podría verse así:"
     image1:
       - 
         img: /images/content_images/ds-landscape.png
-        alttext: Diagram of Python Libraries. The five catagories are 'Extract, Transform, Load', 'Data Exploration', 'Data Modeling', 'Data Evaluation' and 'Data Presentation'.
+        alttext: Diagrama de las librerías de Python. Las cinco categorías son "Extraer, Transformar, Cargar", "Exploración de Datos", "Modelado de Datos", "Evaluación de Datos" y "Presentación de Datos".
     image2:
       - 
         img: /images/content_images/data-science.png
-        alttext: Diagram of three overlapping circles. The circles are labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'.
+        alttext: Diagrama de tres círculos superpuestos. Los círculos se denominan "Matemáticas", "Informática" y "Conocimientos Especializados". En el centro del diagrama, con los tres círculos superpuestos, hay un área denominada "Ciencia de datos".
     examples:
       - 
-        text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
+        text: "<b>Extraer, Transformar, Cargar: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
       - 
-        text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
+        text: "<b>Análisis Exploratorio: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
       - 
-        text: "<b>Model and evaluate: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
+        text: "<b>Modelado y evaluación: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
       - 
-        text: "<b>Report in a dashboard: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
+        text: "<b>Informes en paneles: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
     content:
       - 
-        text: For high data volumes, [Dask](https://dask.org) and [Ray](https://ray.io/) are designed to scale. Stable deployments rely on data versioning ([DVC](https://dvc.org)), experiment tracking ([MLFlow](https://mlflow.org)), and workflow automation ([Airflow](https://airflow.apache.org), [Dagster](https://dagster.io) and [Prefect](https://www.prefect.io)).
+        text: Para grandes volúmenes de datos, [Dask](https://dask.org) y [Ray](https://ray.io/) están diseñados para escalarse. Las implementaciones estables se basan en el versionado de datos ([DVC](https://dvc.org)), rastreo de experimentos ([MLFlow](https://mlflow.org)), y automatización del flujo de trabajo ([Airflow](https://airflow.apache.org), [Dagster](https://dagster.io) y [Prefect](https://www.prefect.io)).
   visualization:
     images:
       - 
         url: https://www.fusioncharts.com/blog/best-python-data-visualization-libraries
         img: /images/content_images/v_matplotlib.png
-        alttext: A streamplot made in matplotlib
+        alttext: Un diagrama de flujo hecho en matplotlib
       - 
         url: https://github.com/yhat/ggpy
         img: /images/content_images/v_ggpy.png
-        alttext: A scatter-plot graph made in ggpy
+        alttext: Un diagrama de dispersión hecho en ggpy
       - 
         url: https://www.journaldev.com/19692/python-plotly-tutorial
         img: /images/content_images/v_plotly.png
-        alttext: A box-plot made in plotly
+        alttext: Un diagrama de caja hecho en plotly
       - 
         url: https://altair-viz.github.io/gallery/streamgraph.html
         img: /images/content_images/v_altair.png
-        alttext: A streamgraph made in altair
+        alttext: Un diagrama de flujo hecho en altair
       - 
         url: https://seaborn.pydata.org
         img: /images/content_images/v_seaborn.png
-        alttext: A pairplot of two types of graph, a plot-graph and a frequency graph made in seaborn"
+        alttext: Un gráfico de pares de dos tipos de gráficos, un gráfico de trazado y un gráfico de frecuencias hecho en seaborn
       - 
         url: https://docs.pyvista.org/examples/index.html
         img: /images/content_images/v_pyvista.png
-        alttext: A 3D volume rendering made in PyVista.
+        alttext: Un renderizado de volumen 3D realizado en PyVista.
       - 
         url: https://napari.org
         img: /images/content_images/v_napari.png
-        alttext: A multi-dimensionan image made in napari.
+        alttext: Una imagen multidimensional hecha en napari.
       - 
         url: https://vispy.org/gallery/index.html
         img: /images/content_images/v_vispy.png
-        alttext: A Voronoi diagram made in vispy.
+        alttext: Un diagrama de Voronoi hecho en vispy.
     content:
       - 
-        text: NumPy is an essential component in the burgeoning [Python visualization landscape](https://pyviz.org/overviews/index.html), which includes [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), and [PyVista](https://github.com/pyvista/pyvista), to name a few.
+        text: NumPy es un componente esencial en el floreciente [panorama de visualización de Python](https://pyviz.org/overviews/index.html), que incluye [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), y [PyVista](https://github.com/pyvista/pyvista), por nombrar algunos.
       - 
-        text: NumPy's accelerated processing of large arrays allows researchers to visualize datasets far larger than native Python could handle.
+        text: El procesamiento acelerado de matrices de gran tamaño de NumPy permite a los investigadores visualizar conjuntos de datos mucho mayores a los que el Python nativo podría manejar.
