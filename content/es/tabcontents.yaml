@@ -70,13 +70,13 @@ params:
         url: https://github.com/apache/arrow
       - 
         title: xtensor
-        text: Multi-dimensional arrays with broadcasting and lazy computing for numerical analysis.
+        text: Matrices multidimensionales con emisión y computación de llamada-bajo-demanda para el análisis numérico.
         img: /images/content_images/arlib/xtensor.png
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
       - 
         title: Awkward Array
-        text: Manipulate JSON-like data with NumPy-like idioms.
+        text: Manipula datos tipo JSON con modismos similares a los de NumPy.
         img: /images/content_images/arlib/awkward.svg
         alttext: awkward
         url: https://awkward-array.org/
