@@ -35,17 +35,17 @@ Eméritos:
 
 Para contactar con el Consejo Directivo de NumPy, por favor envía un correo electrónico a numpy-team@googlegroups.com.
 
-## Teams
+## Equipos
 
-The NumPy project leadership is actively working on diversifying contribution pathways to the project.<br> NumPy currently has the following teams:
+La dirección del proyecto NumPy trabaja activamente para diversificar las vías de contribución al proyecto.<br> NumPy cuenta actualmente con los siguientes equipos:
 
-- development
-- documentation
-- triage
-- website
-- survey
-- translations
-- sprint mentors
+- desarrollo
+- documentación
+- clasificación
+- página web
+- encuesta
+- traducción
+- mentores de sprints
 - funding and grants
 
 See the [Team]({{< relref "/teams" >}}) page for more info.
