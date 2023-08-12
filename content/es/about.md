@@ -46,27 +46,27 @@ La dirección del proyecto NumPy trabaja activamente para diversificar las vías
 - encuesta
 - traducción
 - mentores de sprints
-- funding and grants
+- financiación y subvenciones
 
-See the [Team]({{< relref "/teams" >}}) page for more info.
+Visita la página de [Equipos]({{< relref "/teams" >}}) para más información.
 
-## NumFOCUS Subcommittee
+## Subcomité NumFOCUS
 
 - Charles Harris
 - Ralf Gommers
 - Melissa Weber Mendonça
 - Sebastian Berg
-- External member: Thomas Caswell
+- Miembro externo: Thomas Caswell
 
-## Sponsors
+## Patrocinadores
 
-NumPy receives direct funding from the following sources:
+NumPy recibe financiación directa de las siguientes fuentes:
 {{< sponsors >}}
 
 
-## Institutional Partners
+## Socios institucionales
 
-Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include:
+Los socios institucionales son organizaciones que apoyan al proyecto empleando a personas que contribuyen a NumPy como parte de su trabajo. Entre los actuales socios institucionales se encuentran:
 
 - UC Berkeley (Stéfan van der Walt)
 - Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça)
@@ -75,15 +75,15 @@ Institutional Partners are organizations that support the project by employing p
 {{< partners >}}
 
 
-## Donate
+## Donar
 
-If you have found NumPy useful in your work, research, or company, please consider a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation, and community.
+Si has encontrado NumPy útil en tu trabajo, investigación o empresa, por favor considera una donación al proyecto proporcional a tus recursos. ¡Cualquier cantidad ayuda! Todas las donaciones se utilizarán estrictamente para financiar el desarrollo del software de código abierto, la documentación y la comunidad de NumPy.
 
-NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit [numfocus.org](https://numfocus.org) for more information.
+NumPy es un proyecto patrocinado por NumFOCUS, una organización benéfica sin fines de lucro 501(c)(3) de Estados Unidos. NumFOCUS proporciona a NumPy apoyo fiscal, legal y administrativo para ayudar a garantizar el bienestar y la sostenibilidad del proyecto. Visita [numfocus.org](https://numfocus.org) para más información.
 
-Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax advisor about your particular tax situation.
+Las donaciones a NumPy son gestionadas por [NumFOCUS](https://numfocus.org). Para los donantes de Estados Unidos, su donación es deducible de impuestos en la medida prevista por la ley. Al igual que con cualquier donación, debes consultar a tu asesor de impuestos sobre tu situación fiscal particular.
 
-NumPy's Steering Council will make the decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
+El Consejo Directivo de NumPy tomará las decisiones sobre el mejor uso de los fondos recibidos. Las prioridades técnicas y de infraestructura están documentadas en la [Hoja de Ruta de NumPy](https://www.numpy.org/neps/index.html#roadmap).
 
 {{<opencollective>}}
 
