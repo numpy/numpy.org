@@ -1,9 +1,9 @@
 ---
-title: Learn
+title: Aprende
 sidebar: false
 ---
 
-For the **official NumPy documentation** visit [numpy.org/doc/stable](https://numpy.org/doc/stable).
+Para la **documentación oficial de NumPy** visita [numpy.org/doc/stable](https://numpy.org/doc/stable).
 
 ***
 
