@@ -1,15 +1,15 @@
 ---
-title: Array Computing
+title: Cómputo Matricial
 sidebar: false
 ---
 
-*Array computing is the foundation of statistical, mathematical, scientific computing in various contemporary data science and analytics applications such as data visualization, digital signal processing, image processing, bioinformatics, machine learning, AI, and several others.*
+*El cómputo matricial es la base del cómputo estadístico, matemático y científico en varias aplicaciones contemporáneas de ciencia de datos y aplicaciones de analíticas, como la visualización de datos, el procesamiento digital de señales, el procesamiento de imágenes, la bioinformática, el aprendizaje automático, la IA y entre otras.*
 
-Large scale data manipulation and transformation depends on efficient, high-performance array computing. The language of choice for data analytics, machine learning, and productive numerical computing is **Python.**
+La manipulación y transformación de datos a gran escala depende de una computación matricial eficiente y de alto rendimiento. El lenguaje de elección para la analítica de datos, el aprendizaje automático y el cómputo numérico productivo es **Python.**
 
-**Num**erical **Py**thon or NumPy is its de-facto standard Python programming language library that supports large, multi-dimensional arrays and matrices, and comes with a vast collection of high-level mathematical functions to operate on these arrays.
+**Num**erical **Py**thon o NumPy es la biblioteca estándar de-facto del lenguaje de programación Python que soporta conjuntos y matrices multidimensionales de gran tamaño, y viene con una amplia colección de funciones matemáticas de alto nivel para operar sobre estos conjuntos.
 
-Since the launch of NumPy in 2006, Pandas appeared on the landscape in 2008, and it was not until a couple of years ago that several array computing libraries showed up in succession, crowding the array computing landscape. Many of these newer libraries mimic NumPy-like features and capabilities, and pack newer algorithms and features geared towards machine learning and artificial intelligence applications.
+Tras el lanzamiento de NumPy en 2006, Pandas apareció en el panorama en 2008, y no fue hasta hace un par de años que aparecieron sucesivamente varias bibliotecas de cómputo matricial, poblando este escenario. Many of these newer libraries mimic NumPy-like features and capabilities, and pack newer algorithms and features geared towards machine learning and artificial intelligence applications.
 
 <img
   src="/images/content_images/array_c_landscape.png"
