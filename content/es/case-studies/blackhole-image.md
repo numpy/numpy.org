@@ -10,11 +10,11 @@ sidebar: false
     <footer align="right">Katie Bouman, <cite>Profesor asistente, Ciencias Matemáticas y de Computación, Caltech</cite></footer>
 </blockquote>
 
-## A telescope the size of the earth
+## Un telescopio del tamaño de la Tierra
 
-The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org) is an array of eight ground-based radio telescopes forming a computational telescope the size of the earth, studing the universe with unprecedented sensitivity and resolution.  The huge virtual telescope,  which uses a technique called very-long-baseline interferometry (VLBI), has an angular resolution of [20 micro-arcseconds][resolution] — enough to read a newspaper in New York from a sidewalk café in Paris!
+El [ telescopio de Horizonte de Sucesos (EHT) ](https://eventhorizontelescope.org), es un conjunto de ocho radiotelescopios terrestres que forman un telescopio computacional del tamaño de la tierra, estudiando al universo con una sensibilidad y resolución sin precedente.  El enorme telescopio virtual, que utiliza una técnica llamada Interferometría de línea de base muy larga (VLBI), tiene una resolución angular de [20 microsegundos de arco][resolution] — ¡suficiente para leer un periódico en Nueva York desde un café en la acera en París!
 
-### Key Goals and Results
+### Objetivos clave y resultados
 
 * **A New View of the Universe:** The groundwork for the EHT's groundbreaking image had been laid 100 years earlier when [Sir Arthur Eddington][eddington] yielded the first observational support of Einstein's theory of general relativity.
 
