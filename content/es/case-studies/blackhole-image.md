@@ -1,13 +1,13 @@
 ---
-title: "Case Study: First Image of a Black Hole"
+title: "Caso de estudio: La primera imagen de un Agujero Negro"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Black Hole M87**" alt="black hole image" attr="*(Image Credits: Event Horizon Telescope Collaboration)*" attrlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
+{{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Agujero Negro M87**" alt="black hole image" attr="*(Créditos de la imagen: Colaboración del Telescopio de Horizonte de Sucesos)*" attrlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
-    <p>Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.</p>
-    <footer align="right">Katie Bouman, <cite>Assistant Professor, Computing & Mathematical Sciences, Caltech</cite></footer>
+    <p>Fotografiar el agujero negro M87 es como tratar de ver algo que por definición es imposible de ver.</p>
+    <footer align="right">Katie Bouman, <cite>Profesor asistente, Ciencias Matemáticas y de Computación, Caltech</cite></footer>
 </blockquote>
 
 ## A telescope the size of the earth
