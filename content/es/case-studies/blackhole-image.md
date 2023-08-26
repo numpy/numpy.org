@@ -3,7 +3,7 @@ title: "Caso de estudio: La primera imagen de un Agujero Negro"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Agujero Negro M87**" alt="black hole image" attr="*(Créditos de la imagen: Colaboración del Telescopio de Horizonte de Sucesos)*" attrlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
+{{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Agujero Negro M87**" alt="imagen de un agujero negro" attr="*(Créditos de la imagen: Colaboración del Telescopio de Horizonte de Sucesos)*" attrlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
     <p>Fotografiar el agujero negro M87 es como tratar de ver algo que por definición es imposible de ver.</p>
@@ -16,25 +16,25 @@ El [ telescopio de Horizonte de Sucesos (EHT) ](https://eventhorizontelescope.or
 
 ### Objetivos clave y resultados
 
-* **A New View of the Universe:** The groundwork for the EHT's groundbreaking image had been laid 100 years earlier when [Sir Arthur Eddington][eddington] yielded the first observational support of Einstein's theory of general relativity.
+* **Una nueva vista del universo:** El trabajo preliminar de la innovadora imagen de EHT se había establecido 100 años antes, cuando [Sir Arthur Eddington][eddington] dio el primer apoyo observacional a la teoría de la relatividad general de Einstein.
 
-* **The Black Hole:** EHT was trained on a supermassive black hole approximately 55 million light-years from Earth, lying at the center of the galaxy Messier 87 (M87) in the Virgo galaxy cluster. Its mass is 6.5 billion times the Sun's. It had been studied for [over 100 years](https://www.jpl.nasa.gov/news/news.php?feature=7385), but never before had a black hole been visually observed.
+* **El agujero negro:** EHT se entrenó en un enorme agujero negro aproximadamente a 55 millones de años luz de la tierra, situada en el centro de la galaxia Messier 87 (M87) en el cúmulo de Virgo. Su masa es 6.5 mil millones de veces la del sol. Se había estudiado por [más de 100 años](https://www.jpl.nasa.gov/news/news.php?feature=7385), pero nunca antes se había observado un agujero negro.
 
-* **Comparing Observations to Theory:** From Einstein’s general theory of relativity, scientists expected to find a shadow-like region caused by gravitational bending and capture of light. Scientists could use it to measure the black hole's enormous mass.
+* **Comparando las observaciones con la teoría:** A partir de la teoría de la relatividad general de Einstein, los científicos esperaban encontrar una región similar a las sombras causadas por la flexión gravitacional y la captura de la luz. Los científicos pudieron utilizarla para medir la enorme masa del agujero negro.
 
-### The Challenges
+### Los desafíos
 
-* **Computational scale**
+* **Escala computacional**
 
-    EHT poses massive data-processing challenges, including rapid atmospheric phase fluctuations, large recording bandwidth, and telescopes that are widely dissimilar and geographically dispersed.
+    EHT plantea desafíos de procesamiento de datos masivos, incluyendo rápidas fluctuaciones de fase atmosféricas, amplio ancho de banda de grabación, y telescopios que son ampliamente disímiles y geográficamente dispersos.
 
-* **Too much information**
+* **Demasiada información**
 
-    Each day EHT generates over 350 terabytes of observations, stored on helium-filled hard drives. Reducing the volume and complexity of this much data is enormously difficult.
+    Cada día el EHT genera más de 350 terabytes de observaciones, almacenados en discos duros llenos de helio. Reducir el volumen y complejidad de estos datos es enormemente difícil.
 
-* **Into the unknown**
+* **Hacia lo desconocido**
 
-    When the goal is to see something never before seen, how can scientists be confident the image is correct?
+    Cuando el objetivo es ver algo nunca antes visto, ¿cómo pueden los científicos estar seguros de que la imagen es correcta?
 
 {{< figure src="/images/content_images/cs/dataprocessbh.png" class="csfigcaption" caption="**EHT Data Processing Pipeline**" alt="data pipeline" align="middle" attr="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)" attrlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
 
