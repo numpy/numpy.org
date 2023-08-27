@@ -9,13 +9,13 @@ La manipulación y transformación de datos a gran escala depende de una computa
 
 **Num**erical **Py**thon o NumPy es la biblioteca estándar de-facto del lenguaje de programación Python que soporta conjuntos y matrices multidimensionales de gran tamaño, y viene con una amplia colección de funciones matemáticas de alto nivel para operar sobre estos conjuntos.
 
-Tras el lanzamiento de NumPy en 2006, Pandas apareció en el panorama en 2008, y no fue hasta hace un par de años que aparecieron sucesivamente varias bibliotecas de cómputo matricial, poblando este escenario. Many of these newer libraries mimic NumPy-like features and capabilities, and pack newer algorithms and features geared towards machine learning and artificial intelligence applications.
+Tras el lanzamiento de NumPy en 2006, Pandas apareció en el panorama en 2008, y no fue hasta hace un par de años que aparecieron sucesivamente varias bibliotecas de cómputo matricial, poblando este escenario. Muchas de estas nuevas bibliotecas imitan las características y capacidades de NumPy, y contienen nuevos algoritmos y características orientadas a las aplicaciones de aprendizaje automático e inteligencia artificial.
 
 <img
   src="/images/content_images/array_c_landscape.png"
   alt="arraycl"
-  title="Array Computing Landscape" />
+  title="Panorama del Cómputo Matricial" />
 
-**Array computing** is based on **arrays** data structures. *Arrays* are used to organize vast amounts of data such that a related set of values can be easily sorted, searched, mathematically manipulated, and transformed easily and quickly.
+El **cómputo matricial** está basado en los **conjuntos** como estructura de datos. *Los conjuntos* se utilizan para organizar grandes cantidades de datos de manera que un conjunto de valores relacionados pueda ordenarse, buscarse, manipularse matemáticamente y transformarse con facilidad y rapidez.
 
-Array computing is *unique* as it involves operating on the data array *at once*. What this means is that any array operation applies to an entire set of values in one shot. This vectorized approach provides speed and simplicity by enabling programmers to code and operate on aggregates of data, without having to use loops of individual scalar operations.
+La computación matricial es *única* ya que implica operar sobre todo el conjunto de datos *al mismo tiempo*. Esto significa que cualquier operación de conjuntos se aplica a un conjunto completo de valores de una sola vez. Este enfoque vectorial proporciona velocidad y simplicidad, al permitir a los programadores codificar y trabajar sobre los datos agregados, sin tener que utilizar bucles de instrucciones escalares individuales.
