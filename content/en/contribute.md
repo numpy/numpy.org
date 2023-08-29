@@ -95,6 +95,17 @@ of this effort.  See
 for background; comment on [this GitHub
 issue](https://github.com/numpy/numpy.org/issues/55) to sign up.
 
+The recommended way for new contributors to translate NumPy's documentation is to join the translation team on Crowdin.
+There is a NumPy's translation page for NumPy (main) documentation.
+
+1. Login to [Crowdin](https://crowdin.com/) service.
+1. Go to [NumPy.Org project page](https://crowdin.com/project/numpyorg).
+1. Translate on Crowdin.
+
+We can host the translated document in numpy.org after translation is completed.
+Translation is backed up in [numpy.org GitHub repository](https://github.com/numpy/numpy.org).
+
+Details can be found here: https://support.crowdin.com/joining-translation-project/
 
 ### Community coordination and outreach
 
