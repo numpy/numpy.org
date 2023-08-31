@@ -74,22 +74,22 @@ params:
   section5: false
   navbar:
     - 
-      title: Install
+      title: インストール
       url: /install
     - 
-      title: Documentation
+      title: ドキュメント
       url: https://numpy.org/doc/stable
     - 
       title: Learn
       url: /learn
     - 
-      title: Community
+      title: コミュニティ
       url: /community
     - 
       title: About Us
       url: /about
     - 
-      title: News
+      title: ニュース
       url: /news
     - 
       title: Contribute
@@ -112,7 +112,7 @@ params:
         title: ""
         links:
           - 
-            text: Install
+            text: インストール
             link: /install
           - 
             text: Documentation
