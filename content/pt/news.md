@@ -1,9 +1,24 @@
 ---
 title: Notícias
 sidebar: false
-newsHeader: "numpy.org agora está disponível em japonês e português"
-date: 2023-08-02
+newsHeader: "NumPy 1.26.0 released"
+date: 2023-09-16
 ---
+
+### numpy.org agora está disponível em japonês e português
+
+_Sep 16, 2023_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html) is now available. Os destaques desta versão são:
+
+* Python 3.12.0 support.
+* Cython 3.0.0 compatibility.
+* Use of the Meson build system
+* Updated SIMD support
+* f2py fixes, meson and bind(x) support
+* Support for the updated Accelerate BLAS/LAPACK library
+
+The NumPy 1.26.0 release is a continuation of the 1.25.x series that marks the transition to the Meson build system and provision of support for Cython 3.0.0. A total of 20 people contributed to this release and 59 pull requests were merged.
+
+The Python versions supported by this release are 3.9-3.12.
 
 ### numpy.org agora está disponível em japonês e português
 
@@ -118,7 +133,7 @@ Siga o link para começar: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBX
 
 ### NumPy versão 1.19.0
 
-_23 de junho de 2021_ -- O [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) está disponível. Os destaques desta versão são:
+_23 de junho de 2021_ -- O [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) está disponível. The highlights of the release are:
 
 - a continuação do trabalho com SIMD para suportar mais funções e plataformas,
 - trabalho inicial na infraestrutura e conversão de novos dtypes,
@@ -210,6 +225,7 @@ Mais detalhes sobre nossas propostas e resultados esperados podem ser encontrado
 
 Aqui está uma lista de versões do NumPy, com links para notas de lançamento. Bugfix lança (apenas o `z` muda no `x.y.` número da versão) não tem novos recursos; versões menores (o `y` aumenta) sim.
 
+- NumPy 1.26.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.26.0)) -- _16 Sep 2023_.
 - NumPy 1.25.2 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.25.2)) -- _31 de julho de 2023_.
 - NumPy 1.25.1 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.25.1)) -- _8 de julho de 2023_.
 - NumPy 1.24.4 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.24.4)) -- _26 de junho de 2023_.
