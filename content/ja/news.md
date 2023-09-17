@@ -1,9 +1,24 @@
 ---
 title: ニュース
 sidebar: false
-newsHeader: "numpy.org is now available in Japanese and Portuguese"
-date: 2023-08-02
+newsHeader: "NumPy 1.26.0 released"
+date: 2023-09-16
 ---
+
+### NumPy 1.26.0 released
+
+_Sep 16, 2023_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html) is now available. 今回のリリースの目玉機能は次のとおりです。
+
+* Python 3.12.0 support.
+* Cython 3.0.0 compatibility.
+* Use of the Meson build system
+* Updated SIMD support
+* f2py fixes, meson and bind(x) support
+* Support for the updated Accelerate BLAS/LAPACK library
+
+The NumPy 1.26.0 release is a continuation of the 1.25.x series that marks the transition to the Meson build system and provision of support for Cython 3.0.0. A total of 20 people contributed to this release and 59 pull requests were merged.
+
+The Python versions supported by this release are 3.9-3.12.
 
 ### numpy.org is now available in Japanese and Portuguese
 
@@ -56,7 +71,7 @@ _2023年1月6日_ –- Mukulika PahariとRoss Barnowskiは、Melissa MendoncAudi
 
 ### NumPy 1.24.0 リリース
 
-_2022年12月18日_ -- [Numpy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) がリリースされました。 今回のリリースの目玉機能は次のとおりです。
+_2022年12月18日_ -- [Numpy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) がリリースされました。 今回のリリースのハイライトは次のとおりです。
 
 * スタッキング関数のための新しい"dtype"と"casting"キーワードの追加
 * F2PYの新機能追加とバグ修正
@@ -67,7 +82,7 @@ Numpy 1.25. リリースは引き続きdtypeの取り扱いと dtypeのプロモ
 
 ### Numpy 1.23.0 リリース
 
-_2022年1月22日_ -- [Numpy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) がリリースされました。 今回のリリースのハイライトは次のとおりです。
+_2022年1月22日_ -- [Numpy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) がリリースされました。 今回のリリースの目玉機能は次のとおりです。
 
 * `loadtxt` がCで実装されたことによる、大幅なパフォーマンス向上
 * より簡単なデータ交換のためのPythonレベルでのDLPackの公開
@@ -118,7 +133,7 @@ _2021年7月12日_ -- NumPy ではコミュニティの力を信じています�
 
 ### NumPy 1.19.0 リリース
 
-_2021年1月23日_ -- [Numpy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) がリリースされました。 今回のリリースの目玉機能は次のとおりです。
+_2021年1月23日_ -- [Numpy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) がリリースされました。 The highlights of the release are:
 
 - より多くの機能やプラットフォームをカバーするためのSIMD関連の改善が実施されました。
 - dtypeのための新しいインフラとキャストの準備
@@ -210,6 +225,7 @@ _2019年11月15日_ -- NumPyと、NumPyの重要な依存ライブラリの1つ�
 
 こちらは、より以前のNumPyリリースのリストで、各リリースノートへのリンクが記載されています。 全てのバグフィックスリリース(バージョン番号`x.y.z` の`z`だけが変更されたもの)は新しい機能追加はされず、マイナーリリース (`y` が増えたもの)は、新しい機能追加されています。
 
+- NumPy 1.26.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.26.0)) -- _16 Sep 2023_.
 - NumPy 1.25.2 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.25.2)) -- _2023年7月31日_.
 - NumPy 1.25.1 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.25.1)) -- _2023年7月8日_.
 - NumPy 1.24.4 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.24.4)) -- _2023年6月26日_.
