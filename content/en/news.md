@@ -1,7 +1,7 @@
 ---
 title: News
 sidebar: false
-newsHeader: "NumPY 1.26.0 released"
+newsHeader: "NumPy 1.26.0 released"
 date: 2023-09-16
 ---
 
