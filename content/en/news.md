@@ -1,9 +1,28 @@
 ---
 title: News
 sidebar: false
-newsHeader: "numpy.org is now available in Japanese and Portuguese"
-date: 2023-08-02
+newsHeader: "NumPy 1.26.0 released"
+date: 2023-09-16
 ---
+
+### NumPy 1.26.0 released
+
+_Sep 16, 2023_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html)
+is now available. The highlights of the release are:
+
+* Python 3.12.0 support.
+* Cython 3.0.0 compatibility.
+* Use of the Meson build system
+* Updated SIMD support
+* f2py fixes, meson and bind(x) support
+* Support for the updated Accelerate BLAS/LAPACK library
+
+The NumPy 1.26.0 release is a continuation of the 1.25.x series that marks the
+transition to the Meson build system and provision of support for Cython 3.0.0.
+A total of 20 people contributed to this release and 59 pull requests were
+merged.
+
+The Python versions supported by this release are 3.9-3.12.
 
 ### numpy.org is now available in Japanese and Portuguese
 
@@ -52,7 +71,7 @@ documentation. There has also been preparatory work for the future NumPy 2.0.0,
 resulting in a large number of new and expired deprecations.
 
 A total of 148 people contributed to this release and 530 pull requests were
-merged. 
+merged.
 
 The Python versions supported by this release are 3.9-3.11.
 
@@ -350,6 +369,7 @@ Here is a list of NumPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- NumPy 1.26.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.26.0)) -- _16 Sep 2023_.
 - NumPy 1.25.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.25.2)) -- _31 Jul 2023_.
 - NumPy 1.25.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.25.1)) -- _8 Jul 2023_.
 - NumPy 1.24.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.24.4)) -- _26 Jun 2023_.
