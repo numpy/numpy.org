@@ -2,7 +2,7 @@
 # unless otherwise overridden by more specific contexts.
 [build.environment]
   PYTHON_VERSION = "3.8" # netlify currently only support 2.7 and 3.8
-  HUGO_VERSION = "0.116.1"
+  HUGO_VERSION = "0.118.2"
 
 # Here is another way to define context specific environment variables.
 [context.deploy-preview.environment]
@@ -13,25 +13,3 @@
 
   [plugins.inputs]
     todoPatterns = [" public/pt/user-surveys", " public/ja/user-surveys"]
-
-####
-## FIX: Removed so we can use new version of lighthouse
-##  ❯ Outdated plugins
-##    - @netlify/plugin-lighthouse@2.1.3: latest version is 3.2.0
-##      To upgrade this plugin, please remove it from "netlify.toml" and
-##      install it from the Netlify plugins directory instead (https://app.netlify.com/plugins)
-
-#[[plugins]]
-#  package = "@netlify/plugin-lighthouse"
-#
-#  # optional, fails build when a category is below a threshold
-#  [plugins.inputs.thresholds]
-#    performance = 0.4
-#    accessibility = 0.9
-#    best-practices = 0.9
-#    seo = 0.7
-#    pwa = 0.2
-#
-#  # optional, deploy the lighthouse report to a path under your site
-#  [plugins.inputs]
-#    output_path = "reports/lighthouse.html"
