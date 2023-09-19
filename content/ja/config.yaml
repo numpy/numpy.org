@@ -10,7 +10,7 @@ params:
     #Hero subtitle (optional)
     subtitle: Pythonによる科学技術計算の基礎パッケージ
     #Button text
-    buttontext: "最新リリース: Numpy 1.25. すべてのリリースを表示する"
+    buttontext: "最新リリース: Numpy 1.26. すべてのリリースを表示する"
     #Where the main hero button links to
     buttonlink: "/ja/news/#releases"
     #Hero image (from static/images/___)
