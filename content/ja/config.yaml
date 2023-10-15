@@ -80,19 +80,19 @@ params:
       title: ドキュメント
       url: https://numpy.org/doc/stable
     - 
-      title: Learn
+      title: 学習方法
       url: /learn
     - 
       title: コミュニティ
       url: /community
     - 
-      title: About Us
+      title: 私たちについて
       url: /about
     - 
       title: ニュース
       url: /news
     - 
-      title: Contribute
+      title: 貢献
       url: /contribute
   footer:
     logo: logo.svg
@@ -115,45 +115,45 @@ params:
             text: インストール
             link: /install
           - 
-            text: Documentation
+            text: ドキュメント
             link: https://numpy.org/doc/stable
           - 
-            text: Learn
+            text: 学習方法
             link: /learn
           - 
-            text: Citing Numpy
+            text: NumPy を引用する
             link: /citing-numpy
           - 
-            text: Roadmap
+            text: ロードマップ
             link: https://numpy.org/neps/roadmap.html
       column2:
         links:
           - 
-            text: About us
+            text: 私達について
             link: /about
           - 
-            text: Community
+            text: コミュニティ
             link: /community
           - 
-            text: User surveys
+            text: ユーザ調査
             link: /user-surveys
           - 
-            text: Contribute
+            text: 貢献
             link: /contribute
           - 
-            text: Code of conduct
+            text: 行動規範
             link: /code-of-conduct
       column3:
         links:
           - 
-            text: Get help
+            text: サポートを得る方法
             link: /gethelp
           - 
-            text: Terms of use
+            text: 利用規約
             link: /terms
           - 
-            text: Privacy
+            text: プライバシーポリシー
             link: /privacy
           - 
-            text: Press kit
+            text: プレス用資料
             link: /press-kit
