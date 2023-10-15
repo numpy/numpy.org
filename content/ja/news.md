@@ -20,29 +20,29 @@ Numpy 1.26.0 は 1.25 からの互換性を保持しています。Mesonビル�
 
 このリリースでサポートされている Python のバージョンは3.9から 3.12 です。
 
-### numpy.org is now available in Japanese and Portuguese
+### numpy.orgが日本語とポルトガル語で利用可能になりました
 
-_2023年4月2日_ -- numpy.orgが2つの言語で利用可能になりました： 日本語とポルトガル語。 This wouldn’t be possible without our dedicated volunteers:
+_2023年4月2日_ -- numpy.orgが2つの言語で利用可能になりました： 日本語とポルトガル語。 熱心なボランティアがいなければ、このプロジェクトは不可能でした：
 
-_Portuguese:_
-* Melissa Weber Mendonça (melissawm)
+_ポルトガル語_
+* Melissa Weber Mendonça (melissawm)
 * Ricardo Prins (ricardoprins)
-* Getúlio Silva (getuliosilva)
+* Getúlio Silva (getuliosilva)
 * Julio Batista Silva (jbsilva)
 * Alexandre de Siqueira (alexdesiqueira)
 * Alexandre B A Villares (villares)
 * Vini Salazar (vinisalazar)
 
-_Japanese:_
+_日本語：_
 * Atsushi Sakai (AtsushiSakai)
 * KKunai
 * Tom Kelly (TomKellyGenetics)
 * Yuji Kanagawa (kngwyu)
 * Tetsuo Koyama (tkoyama010)
 
-The work on the translation infrastructure is supported with funding from CZI.
+翻訳インフラストラクチャに関するプロジェクトは、CZIからの資金援助でサポートされています。
 
-Looking ahead, we’d love to translate the website into more languages. If you’d like to help, please connect with the NumPy Translations Team on Slack: https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w. (Look for the #translations channel.) We are also building a Translations Team who will be working on localizing documentation and educational content across the Scientific Python ecosystem. If this piqued your interest, join us on the Scientific Python Discord: https://discord.gg/khWtqY6RKr. (Look for the #translation channel.)
+今後も、NumPyのウェブサイトをより多くの言語に翻訳したいと思っています。 もし手伝える場合は、Slack上のNumPy翻訳チームに連絡をお願います: https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w. (#translation チャンネルを探してください) また、Scientific Pythonエコシステム全体のドキュメントや教育コンテンツのローカライズに取り組む翻訳チームも 立ち上げています。 このプロジェクトにも興味がある場合は、是非Scientific Python Discordに参加してください: https://discord.gg/khWtqY6RKr. (#translation チャンネルを探してください)
 
 ### NumPy 1.25.0 リリース
 
