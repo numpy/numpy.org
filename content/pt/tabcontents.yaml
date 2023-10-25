@@ -201,7 +201,7 @@ params:
         img: /images/content_images/v_seaborn.png
         alttext: A plot duplo com dois tipos de gráficos, um plot-graph e um gráfico de frequência feitos no seaborn
       - 
-        url: https://docs.pyvista.org/examples/index.html
+        url: https://docs.pyvista.org/
         img: /images/content_images/v_pyvista.png
         alttext: Uma renderização de volume 3D feita no PyVista.
       - 

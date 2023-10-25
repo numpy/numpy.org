@@ -168,7 +168,7 @@ params:
     - url: https://seaborn.pydata.org
       img: /images/content_images/v_seaborn.png
       alttext:  A pairplot of two types of graph, a plot-graph and a frequency graph made in seaborn"
-    - url: https://docs.pyvista.org/examples/index.html
+    - url: https://docs.pyvista.org/
       img: /images/content_images/v_pyvista.png
       alttext:  A 3D volume rendering made in PyVista.
     - url: https://napari.org
