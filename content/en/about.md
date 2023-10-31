@@ -47,6 +47,7 @@ NumPy currently has the following teams:
 - survey
 - translations
 - sprint mentors
+- optimization
 - funding and grants
 
 See the [Team]({{< relref "/teams" >}}) page for more info.
