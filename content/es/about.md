@@ -46,6 +46,7 @@ La dirección del proyecto NumPy trabaja activamente para diversificar las vías
 - encuesta
 - traducción
 - mentores de sprints
+- optimization
 - financiación y subvenciones
 
 Visita la página de [Equipos]({{< relref "/teams" >}}) para más información.
