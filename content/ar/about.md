@@ -46,6 +46,7 @@ The NumPy project leadership is actively working on diversifying contribution pa
 - survey
 - translations
 - sprint mentors
+- optimization
 - funding and grants
 
 See the [Team]({{< relref "/teams" >}}) page for more info.
