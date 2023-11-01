@@ -2,7 +2,7 @@
 # unless otherwise overridden by more specific contexts.
 [build.environment]
   PYTHON_VERSION = "3.8" # netlify currently only support 2.7 and 3.8
-  HUGO_VERSION = "0.119.0"
+  HUGO_VERSION = "0.120.3"
 
 # Here is another way to define context specific environment variables.
 [context.deploy-preview.environment]
