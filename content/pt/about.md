@@ -45,6 +45,7 @@ A liderança do projeto NumPy trabalha ativamente na diversificação dos caminh
 - website
 - pesquisa
 - traduções
+- otimização
 - mentores para sprints de desenvolvimento
 - financiamento e bolsas
 
