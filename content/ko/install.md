@@ -12,68 +12,68 @@ NumPy 는 `conda` 나 `pip` 를 통해서 사용하여 설치할 수 있고, 또
 `conda`를 사용한다면, NumPy를 `defaults` 또는 `conda-forge` 채널에서 설치할 수 있습니다:
 
 ```bash
-# Best practice, use an environment rather than install in the base env
+# 가장 좋은 방법은 기본 환경 대신에 새로운 환경을 이용하는 것입니다
 conda create -n my-env
 conda activate my-env
-# If you want to install from conda-forge
+# my-env 에 conda-forge 채널을 더해줍니다
 conda config --env --add channels conda-forge
-# The actual install command
+# my-env 에 NumPy 를 설치합니다
 conda install numpy
 ```
 
 **PIP**
 
-If you use `pip`, you can install NumPy with:
+`pip`를 사용한다면, NumPy를 다음과 같이 설치할 수 있습니다:
 
 ```bash
 pip install numpy
 ```
-Also when using pip, it's good practice to use a virtual environment - see  [Reproducible Installs](#reproducible-installs) below for why, and [this guide](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto) for details on using virtual environments.
+또한 `pip`를 사용할 때, 가상 환경을 사용하는 것을 추천합니다. 가상 환경을 사용하는 이유는 [재현 가능한 설치방법들](#reproducible-installs)을 참조해주세요. 가상 환경 사용에 대한 자세한 내용은 [이 가이드](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto)에서 확인하실 수 있습니다.
 
 
 <a name="python-numpy-install-guide"></a>
 
-# Python and NumPy installation guide
+# Python 및 NumPy 설치 가이드
 
-Installing and managing packages in Python is complicated, there are a number of alternative solutions for most tasks. This guide tries to give the reader a sense of the best (or most popular) solutions, and give clear recommendations. It focuses on users of Python, NumPy, and the PyData (or numerical computing) stack on common operating systems and hardware.
+Python에서 패키지를 설치하고 관리하는 것은 복잡한 작업이기에, 대부분의 작업에 대해 다양한 대안적인 해결책이 있습니다. 이 가이드는 독자분들에게 가장 좋은 (또는 가장 인기 있는) 해결책을 이해시키고 명확한 권장 사항을 제공하려고 노력합니다. 이 가이드는 일반적인 운영 체제와 하드웨어에서 Python, NumPy 및 PyData (또는 숫자 계산) 사용자에 중점을 둡니다.
 
-## Recommendations
+## 권장 사항
 
-We'll start with recommendations based on the user's experience level and operating system of interest. If you're in between "beginning" and "advanced", please go with "beginning" if you want to keep things simple, and with "advanced" if you want to work according to best practices that go a longer way in the future.
+사용자의 경험과 사용하는 운영체제를 기준으로 추천하는 방식을 먼저 이야기 하겠습니다. 만약 당신이 초심자 또는 숙련자범위에 속해있다면, 간단하게 설치하고 싶다면 초심자로, 추후에 작업을 위해서 보다 구체적인 연습을 하고 싶다면 숙련자 자료를 참고하십시오.
 
-### Beginning users
+### 초심자 유저
 
-On all of Windows, macOS, and Linux:
+Windows, macOS, Linux 등 일반적인 운영체제:
 
-- Install [Anaconda](https://www.anaconda.com/distribution/) (it installs all packages you need and all other tools mentioned below).
-- For writing and executing code, use notebooks in [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) for exploratory and interactive computing, and [Spyder](https://www.spyder-ide.org/) or [Visual Studio Code](https://code.visualstudio.com/) for writing scripts and packages.
-- Use [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) to manage your packages and start JupyterLab, Spyder, or Visual Studio Code.
+- [Anaconda](https://www.anaconda.com/distribution/) 를 설치하십시오.(당신이 필요로 하는 패키지를 설치하고, 아래에 언급될 다양한 도구들을 제공합니다.)
+- 코드를 작성하거나 실행할 때, 데이터를 분석하거나 대화형으로 코드를 작업하는 경우에는 [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) 의 notebooks를 사용하십시오. 그리고 코드를 작성하거나 패키지를 작성할 때는 [Spyder](https://www.spyder-ide.org/)나 [Visual Studio Code](https://code.visualstudio.com/)를 사용하십시오.
+- 패키지를 관리하거나 JupyterLab, Spyder, Visual Studio Code 를 사용하는 경우 [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/)를 사용하십시오.
 
 
-### Advanced users
+### 숙련자 유저
 
 #### Conda
 
-- Install [Miniforge](https://github.com/conda-forge/miniforge).
-- Keep the `base` conda environment minimal, and use one or more [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) to install the package you need for the task or project you're working on.
+- [Miniforge](https://github.com/conda-forge/miniforge)를 설치하십시오.
+- `base` 라는 이름의 콘다 가상환경은 최소 상태를 유지하고, [콘다 가상환경](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)을 만들어서, 해당 가상환경에 필요한 패키지를 설치하십시오.
 
-#### Alternative if you prefer pip/PyPI
+#### Pip/PyPI를 활용하는 경우:
 
-For users who know, from personal preference or reading about the main differences between conda and pip below, they prefer a pip/PyPI-based solution, we recommend:
-- Install Python from [python.org](https://www.python.org/downloads/), [Homebrew](https://brew.sh/), or your Linux package manager.
-- Use [Poetry](https://python-poetry.org/) as the most well-maintained tool that provides a dependency resolver and environment management capabilities in a similar fashion as conda does.
+개인적인 선호나 아래의 conda 와 pip의 차이점을 설명하는 글을 읽은 유저나 또는 pip/PyPI기반의 설치 방법을 선호하는 경우 참고하십시오.
+- [python.org](https://www.python.org/downloads/), [Homebrew](https://brew.sh/), or Linux package manager를 활용해서 Python을 설치하십시오.
+- Conda와 동일한 수준의 가상환경 관리와 패키지 의존성을 해결을 도와주는 [Poetry](https://python-poetry.org/)를 유지관리 도구로 사용하십시오.
 
 
-## Python package management
+## Python 패키지 관리
 
-Managing packages is a challenging problem, and, as a result, there are lots of tools. For web and general purpose Python development there's a whole [host of tools](https://packaging.python.org/guides/tool-recommendations/) complementary with pip. For high-performance computing (HPC), [Spack](https://github.com/spack/spack) is worth considering. For most NumPy users though, [conda](https://conda.io/en/latest/) and [pip](https://pip.pypa.io/en/stable/) are the two most popular tools.
+패키지 관리는 아주 중요하기 때문에, 사용할 수 있는 도구들이 많습니다. 웹 및 범용 Python 개발을 위해 Pip뿐만 아니라 [다양한 도구](https://packaging.python.org/guides/tool-recommendations/)들이 있습니다. 고성능 컴퓨터 (HPC) 를 사용하는 경우 [Spack](https://github.com/spack/spack)를 사용하는 것을 추천합니다. 대부분 Numpy를 사용하는 유저는, [conda](https://conda.io/en/latest/) 와 [pip](https://pip.pypa.io/en/stable/)를 가장 많이 사용합니다.
 
 
 ### Pip & conda
 
-The two main tools that install Python packages are `pip` and `conda`. Their functionality partially overlaps (e.g. both can install `numpy`), however, they can also work together. We'll discuss the major differences between pip and conda here - this is important to understand if you want to manage packages effectively.
+Python 패키지를 설치하고 관리하는 주요 툴은 `pip` 과 `conda` 입니다. 그 도구들의 기능은 부분적으로 겹칩지만 (e.g. both can install `numpy`), 같이 쓰일 수도 있습니다. 곧 pip와 conda의 차이점에 대해서 논의해볼 것입니다. - 패키지 관리를 효율적으로 하기 위해서는 차이를 이해하는게 중요합니다.
 
-The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. This also means conda can install non-Python libraries and tools you may need (e.g. compilers, CUDA, HDF5), while pip can't.
+첫번째 차이점은, conda는 cross-language 를 지원하고, Python을 설치할 수 도 있지만, pip는 특정 Python에만 패키지를 설치하고 관리할 수 있다는 것 입니다. 또한 conda는 non-Python 라이브러리나 도구들을 설치할 수 있지만 (e.g. compilers, CUDA, HDF5), pip는 Python이 필요하기 때문에 설치할 수 없습니다.
 
 The second difference is that pip installs from the Python Packaging Index (PyPI), while conda installs from its own channels (typically "defaults" or "conda-forge"). PyPI is the largest collection of packages by far, however, all popular packages are available for conda as well.
 
