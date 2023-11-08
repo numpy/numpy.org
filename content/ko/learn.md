@@ -3,13 +3,13 @@ title: Learn
 sidebar: false
 ---
 
-For the **official NumPy documentation** visit [numpy.org/doc/stable](https://numpy.org/doc/stable).
+**공식 NumPy 문서**는 [numpy.org/doc/stable](https://numpy.org/doc/stable)에 있습니다.
 
 ***
 
 Below is a curated collection of educational resources, both for self-learning and teaching others, developed by NumPy contributors and vetted by the community.
 
-## Beginners
+## 초심자
 
 There's a ton of information about NumPy out there. If you are just starting, we'd strongly recommend the following:
 
