@@ -75,47 +75,47 @@ Python 패키지를 설치하고 관리하는 주요 툴은 `pip` 과 `conda` �
 
 첫번째 차이점은, conda는 cross-language 를 지원하고, Python을 설치할 수 도 있지만, pip는 특정 Python에만 패키지를 설치하고 관리할 수 있다는 것 입니다. 또한 conda는 non-Python 라이브러리나 도구들을 설치할 수 있지만 (e.g. compilers, CUDA, HDF5), pip는 Python이 필요하기 때문에 설치할 수 없습니다.
 
-The second difference is that pip installs from the Python Packaging Index (PyPI), while conda installs from its own channels (typically "defaults" or "conda-forge"). PyPI is the largest collection of packages by far, however, all popular packages are available for conda as well.
+두번째 차이점은 pip는 Python Packaging Index(PyPI) 로 부터 패키지를 다운받아 설치하지만, conda는 conda 만의 채널로 설치합니다 (일반적으로 "defaults" or "conda-forge" 채널을 사용합니다). PyPI 가 가장 큰 패키지 저장소입니다만, 많은 사람들이 사용하는 패키지는 conda에서도 설치할 수 있습니다.
 
-The third difference is that conda is an integrated solution for managing packages, dependencies and environments, while with pip you may need another tool (there are many!) for dealing with environments or complex dependencies.
+세번째 차이점은 conda는 환경이나 패키지간 의존성을 해결하기 위한 해키지 관리 도구를 제공하지만, pip는 그를 위해서 (아주 많은) 추가적인 도구들이 필요하다는 것 입니다.
 
 <a name="reproducible-installs"></a>
 
-### Reproducible installs
+### 재현 가능한 설치방법들
 
-As libraries get updated, results from running your code can change, or your code can break completely. It's important to be able to reconstruct the set of packages and versions you're using. Best practice is to:
+라이브러리가 업데이트되면, 코드의 실행 결과가 바뀌거나, 코드가 완전히 손상될 수 있습니다. 그러므로 사용중인 패키지 및 버전을 재구성할 수 있도록 하는 것이 중요합니다. 권장되는 방법으로는
 
-1. use a different environment per project you're working on,
-2. record package names and versions using your package installer; each has its own metadata format for this:
-   - Conda: [conda environments and environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
-   - Pip: [virtual environments](https://docs.python.org/3/tutorial/venv.html) and [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
-   - Poetry: [virtual environments and pyproject.toml](https://python-poetry.org/docs/basic-usage/)
-
-
-
-## NumPy packages & accelerated linear algebra libraries
-
-NumPy doesn't depend on any other Python packages, however, it does depend on an accelerated linear algebra library - typically [Intel MKL](https://software.intel.com/en-us/mkl) or [OpenBLAS](https://www.openblas.net/). Users don't have to worry about installing those (they're automatically included in all NumPy install methods). Power users may still want to know the details, because the used BLAS can affect performance, behavior and size on disk:
-
-- The NumPy wheels on PyPI, which is what pip installs, are built with OpenBLAS. The OpenBLAS libraries are included in the wheel. This makes the wheel larger, and if a user installs (for example) SciPy as well, they will now have two copies of OpenBLAS on disk.
-
-- In the conda defaults channel, NumPy is built against Intel MKL. MKL is a separate package that will be installed in the users' environment when they install NumPy.
-
-- In the conda-forge channel, NumPy is built against a dummy "BLAS" package. When a user installs NumPy from conda-forge, that BLAS package then gets installed together with the actual library - this defaults to OpenBLAS, but it can also be MKL (from the defaults channel), or even [BLIS](https://github.com/flame/blis) or reference BLAS.
-
-- The MKL package is a lot larger than OpenBLAS, it's about 700 MB on disk while OpenBLAS is about 30 MB.
-
-- MKL is typically a little faster and more robust than OpenBLAS.
-
-Besides install sizes, performance and robustness, there are two more things to consider:
-
-- Intel MKL is not open source. For normal use this is not a problem, but if a user needs to redistribute an application built with NumPy, this could be an issue.
-- Both MKL and OpenBLAS will use multi-threading for function calls like `np.dot`, with the number of threads being determined by both a build-time option and an environment variable. Often all CPU cores will be used. This is sometimes unexpected for users; NumPy itself doesn't auto-parallelize any function calls. It typically yields better performance, but can also be harmful - for example when using another level of parallelization with Dask, scikit-learn or multiprocessing.
+1. 작업 중인 프로젝트마다 다른 환경을 이용하고,
+2. 각각 자체 메타 데이터 형식이 있는 패키지 설치 프로그램을 통해 패키지 이름과 버전을 기록해둡니다.
+   - Conda: [conda 환경들 과 environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+   - Pip: [가상 환경들](https://docs.python.org/3/tutorial/venv.html) 과 [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
+   - Poetry: [가상 환경들 과 pyproject.toml](https://python-poetry.org/docs/basic-usage/)
 
 
-## Troubleshooting
 
-If your installation fails with the message below, see [Troubleshooting ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
+## NumPy 패키지 & 고속 선형 대수 라이브러리
+
+NumPy는 다른 Python 패키지에 의존하지 않습니다. 그러나 고속 선형 대수 라이브러리, 일반적으로 [Inter MKL](https://software.intel.com/en-us/mkl) 또는 [OpenBLAS](https://www.openblas.net/)에 의존하고 있습니다. 사용자는 이를 설치하지 않아도 됩니다 (NumPy 설치 중 설치됩니다). 고급 사용자의 경우 사용한 BLAS가 디스크의 성능, 동작 및 크기에 영향을 끼칠 수 있기 때문에 세부 정보가 필요할 수도 있습니다.
+
+- Pip가 설치하는 PyPI의 휠 파일에 있는 NumPy의 경우는 OpenBLAS로 빌드되었습니다. OpenBLAS 라이브러리는 휠 파일에 포함되어 있습니다. 이는 휠 파일의 크기를 더 크게 만들고, 사용자가 (예를 들어) SciPy도 설치하게 되면 디스크에 2개의 OpenBLAS 사본을 가지게 됩니다.
+
+- Conda의 기본 채널 내 NumPy는 Interl MKL로 빌드되었습니다. MKL은 NumPy를 설치할 때 사용자의 환경에 같이 설치되는 분할 패키지입니다.
+
+- Conda-forge 채널 내 NumPy는 더미 "BLAS" 패키지로 빌드되었습니다. 사용자가 conda-forge에서 NumPy를 설치할 때 해당 BLAS 패키지가 실제 라이브러리와 함께 설치됩니다. 기본값은 OpenBLAS이나, (기본 채널에서는) MKL이 될 수도 있고, 심지어 [BLIS](https://github.com/flame/blis)나 Reference BLAS가 될 수도 있습니다.
+
+- MKL 패키지가 OpenBLAS에 비해 더욱 큽니다. OpenBLAS가 30MB를 차지하는 반면, MKL 쪽은 700MB에 달하는 디스크 공간을 차지합니다.
+
+- 보통 MKL이 OpenBLAS보다 더 빠르고 안정적입니다.
+
+설치 크기, 성능 및 안정성을 제쳐 두더라도, 고려할 사항이 2가지 더 있습니다.
+
+- Intel MKL은 오픈소스가 아닙니다. 일반적으로 사용할 때는 문제가 되지 않지만, 사용자가 NumPy로 빌드한 애플리케이션을 재배포하는 경우 문제가 될 수 있습니다.
+- MKL과 OpenBLAS 모두 `np.dot`과 같이 함수를 호출하는 데 다중 스레드를 사용하며, 스레드의 수는 빌드 시간 설정과 환경 변수에 의해 결정됩니다. 보통은 모든 CPU 코어가 사용됩니다. 이로 인하여 예기치 않은 일이 발생할 수 있습니다. NumPy 자체적으로는 어떤 함수 호출도 병렬화하지 않습니다. 일반적으로 더 나은 성능을 제공해주지만, 예를 들어 Dask, scikit-learn 또는 멀티프로세싱과 함께 다른 수준의 병렬화를 사용하는 경우 좋지 않은 결과를 초래할 수 있습니다.
+
+
+## 트러블슈팅
+
+아래와 같은 응답과 함께 설치에 실패한다면, [Troubleshooting ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html)를 참고하시기 바랍니다.
 
 ```
 IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
