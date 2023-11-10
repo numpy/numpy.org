@@ -1,5 +1,5 @@
 ---
-title: Installing NumPy
+title: NumPy 설치
 sidebar: false
 ---
 
