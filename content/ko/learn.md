@@ -7,11 +7,11 @@ sidebar: false
 
 ***
 
-Below is a curated collection of educational resources, both for self-learning and teaching others, developed by NumPy contributors and vetted by the community.
+아래는 NumPy 기여자들이 개발하고 커뮤니티에서 승인한 자기 학습 및 교육 자원들을 선별한 컬렉션입니다.
 
 ## 초심자
 
-There's a ton of information about NumPy out there. If you are just starting, we'd strongly recommend the following:
+내외적으로 NumPy에 대한 정보가 많이 있습니다. If you are just starting, we'd strongly recommend the following:
 
 <i class="fas fa-chalkboard"></i> **Tutorials**
 
