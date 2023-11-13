@@ -3,6 +3,7 @@ params:
   description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
   navbarlogo:
     image: logo.svg
+    text: NumPy
     link: /
   hero:
     # Main hero title
