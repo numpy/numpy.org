@@ -4,21 +4,39 @@
     <div class="container">
         <h1 class="tabs-title">{{ $title }}</h1>
 
-        <div class="uikit-tab-wrapper">
-            <ul class="uk-flex-center uk-nav" uk-tab>
-                <li class="uk-active"><a href="#">Scientific Domains</a></li>
-                <li><a href="#">Array libraries</a></li>
-                <li><a href="#">Data Science</a></li>
-                <li><a href="#">Machine Learning</a></li>
-                <li><a href="#">Visualization</a></li>
-            </ul>
-            <ul id="tabs-content" class="uk-switcher uk-margin">
-                {{ partial "scientific-domains.html" . }}
-                {{ partial "array-libraries.html" . }}
-                {{ partial "data-science.html" . }}
-                {{ partial "machine-learning.html" . }}
-                {{ partial "visualization.html" . }}
-            </ul>
+        <div class="tabs">
+          <div role="tablist" class="automatic">
+            <button id="0-tab-0" type="button" role="tab" aria-selected="true" aria-controls="0-tabpanel-0">
+              Scientific Domains
+	    </button>
+	    <button id="0-tab-1" type="button" role="tab" aria-selected="false" aria-controls="0-tabpanel-1">
+	      Array libraries
+	    </button>
+	    <button id="0-tab-2" type="button" role="tab" aria-selected="false" aria-controls="0-tabpanel-2">
+	      Data Science
+	    </button>
+	    <button id="0-tab-3" type="button" role="tab" aria-selected="false" aria-controls="0-tabpanel-3">
+	      Machine Learning
+	    </button>
+	    <button id="0-tab-4" type="button" role="tab" aria-selected="false" aria-controls="0-tabpanel-4">
+	      Visualization
+	    </button>
+          </div>
+	  <div id="0-tabpanel-0" role="tabpanel" tabindex="0" aria-labelledby="$0-tab-0">
+	    {{ partial "scientific-domains.html" . }}
+          </div>
+          <div id="0-tabpanel-1" role="tabpanel" tabindex="0" aria-labelledby="$0-tab-1">
+            {{ partial "array-libraries.html" . }}
+          </div>
+          <div id="0-tabpanel-2" role="tabpanel" tabindex="0" aria-labelledby="$0-tab-2">
+            {{ partial "data-science.html" . }}
+          </div>
+          <div id="0-tabpanel-3" role="tabpanel" tabindex="0" aria-labelledby="$0-tab-3">
+            {{ partial "machine-learning.html" . }}
+          </div>
+          <div id="0-tabpanel-4" role="tabpanel" tabindex="0" aria-labelledby="$0-tab-4">
+            {{ partial "visualization.html" . }}
+          </div>
         </div>
     </div>
 </section>
