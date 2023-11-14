@@ -3,6 +3,7 @@ params:
   description: NumPyが広く利用される理由 強力な多次元配列、数値計算ツール群、相互運用性、高いパフォーマンス、オープンソース
   navbarlogo:
     image: logo.svg
+    text: NumPy
     link: /ja/
   hero:
     #Main hero title
