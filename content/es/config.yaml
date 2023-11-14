@@ -3,6 +3,7 @@ params:
   description: '¿Por qué NumPy? Potentes matrices n-dimensionales. Herramientas de cálculo numérico. Interoperable. Rendimiento. Código abierto.'
   navbarlogo:
     image: logo.svg
+    text: NumPy
     link: /
   hero:
     #Main hero title
