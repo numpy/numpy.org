@@ -28,3 +28,4 @@
 
   [plugins.inputs]
     todoPatterns = [" public/pt/user-surveys", " public/ja/user-surveys"]
+    skipPatterns = ["https://fonts.gstatic.com", "https://fonts.googleapis.com"]
