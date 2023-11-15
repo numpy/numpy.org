@@ -38,6 +38,11 @@ teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS)) ## generates numpy
 serve: prepare ## serve the website
 	hugo $(BASEURLARG) --printI18nWarnings server -D
 
+# Serve the site for development purposes (leaving submodules as-is, etc).
+serve-dev:
+	python gen_config.py
+	hugo $(BASEURLARG) --printI18nWarnings server --buildDrafts --disableFastRender --poll 1000ms
+
 html: prepare ## build the website in ./public
 	hugo $(BASEURLARG)
 
