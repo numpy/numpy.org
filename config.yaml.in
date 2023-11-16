@@ -14,6 +14,8 @@ markup:
 disableLanguages: []
 
 params:
+  author:
+    name: "NumPy team"
   images:
   - /images/numpy-image.jpg
   navColor: blue
