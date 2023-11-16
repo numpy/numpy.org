@@ -14,6 +14,7 @@ markup:
 disableLanguages: []
 
 params:
+  colorScheme: light
   author:
     name: "NumPy team"
   images:
