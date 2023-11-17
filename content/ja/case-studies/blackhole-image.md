@@ -7,7 +7,7 @@ sidebar: false
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
     <p>M87ブラックホールを画像化することは、見ることのできないものを、あえて見ようとするようなものです。</p>
-    <footer align="right"><cite>カリフォルニア工科大学 計算・数理学部</cite>のKatie Bouman助教授</footer>
+    <footer align="right">---<cite>カリフォルニア工科大学 計算・数理学部</cite>のKatie Bouman助教授</footer>
 </blockquote>
 
 ## 地球大の望遠鏡

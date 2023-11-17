@@ -7,7 +7,7 @@ sidebar: false
 
 <blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/">
     <p>Software de código aberto está acelerando a Biomedicina. DeepLabCut permite a análise automática de vídeos de comportamento animal usando Deep Learning.</p>
-    <footer align="right">—Alexander Mathis, <cite>Professor Assistente, École polytechnique fédérale de Lausanne <a href="https://www.epfl.ch/en/">(EPFL)</a></cite></footer>
+    <footer align="right">---Alexander Mathis, <cite>Professor Assistente, École polytechnique fédérale de Lausanne <a href="https://www.epfl.ch/en/">(EPFL)</a></cite></footer>
 </blockquote>
 
 ## Sobre o DeepLabCut

@@ -7,7 +7,7 @@ sidebar: false
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
     <p>Criar uma imagem do Buraco Negro M87 é como tentar ver algo que, por definição, é impossível de se ver.</p>
-    <footer align="right">Katie Bouman, <cite>Professora Assistente, Ciências da Computação e Matemática, Caltech</cite></footer>
+    <footer align="right">---Katie Bouman, <cite>Professora Assistente, Ciências da Computação e Matemática, Caltech</cite></footer>
 </blockquote>
 
 ## Um telescópio do tamanho da Terra

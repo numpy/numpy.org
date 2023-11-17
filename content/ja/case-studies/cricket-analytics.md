@@ -7,7 +7,7 @@ sidebar: false
 
 <blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
     <p>観客のために競技をするのではなく、国のために競技するのです。</p>
-    <footer align="right">—M S Dhoni、 <cite>インディアンチームの元キャプテン、インターナショナル・クリケットプレイヤー、チェンナイ・スーパー・キングスのためにIPLでプレイ</cite></footer>
+    <footer align="right">---M S Dhoni、 <cite>インディアンチームの元キャプテン、インターナショナル・クリケットプレイヤー、チェンナイ・スーパー・キングスのためにIPLでプレイ</cite></footer>
 </blockquote>
 
 ## クリケットについて

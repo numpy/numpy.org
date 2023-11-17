@@ -7,7 +7,7 @@ sidebar: false
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
     <p>科学計算のためのPythonエコシステムはLIGOで行われている研究のための重要なインフラです。</p>
-    <footer align="right">David Shoemaker, <cite>LIGOサイエンティフィック・コラボレーション</cite></footer>
+    <footer align="right">---David Shoemaker, <cite>LIGOサイエンティフィック・コラボレーション</cite></footer>
 </blockquote>
 
 ## [重力波](https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/) と [LIGO](https://www.ligo.caltech.edu) について

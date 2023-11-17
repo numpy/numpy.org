@@ -7,7 +7,7 @@ sidebar: false
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
     <p>The scientific Python ecosystem is critical infrastructure for the research done at LIGO.</p>
-    <footer align="right">David Shoemaker, <cite>LIGO Scientific Collaboration</cite></footer>
+    <footer align="right">---David Shoemaker, <cite>LIGO Scientific Collaboration</cite></footer>
 </blockquote>
 
 ## About [Gravitational Waves](https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/) and [LIGO](https://www.ligo.caltech.edu)

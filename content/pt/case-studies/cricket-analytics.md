@@ -7,7 +7,7 @@ sidebar: false
 
 <blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
     <p>Você não joga para a torcida, joga para o país.</p>
-    <footer align="right">—M S Dhoni, <cite>Jogador Internacional de Críquete, ex-capitão, Time Indiano, joga pelo Chennai Super Kings na IPL</cite></footer>
+    <footer align="right">---M S Dhoni, <cite>Jogador Internacional de Críquete, ex-capitão, Time Indiano, joga pelo Chennai Super Kings na IPL</cite></footer>
 </blockquote>
 
 ## Sobre Críquete

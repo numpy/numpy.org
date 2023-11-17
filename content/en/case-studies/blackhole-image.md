@@ -7,7 +7,7 @@ sidebar: false
 
 <blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
     <p>Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.</p>
-    <footer align="right">Katie Bouman, <cite>Assistant Professor, Computing & Mathematical Sciences, Caltech</cite></footer>
+    <footer align="right">---Katie Bouman, <cite>Assistant Professor, Computing & Mathematical Sciences, Caltech</cite></footer>
 </blockquote>
 
 ## A telescope the size of the earth
