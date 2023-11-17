@@ -83,7 +83,6 @@ params:
       - 
         title: uarray
         text: Sistema de backend Python que dissocia a API da implementação; unumpy fornece uma API NumPy.
->>>>>>> 74181d4 (New translations tabcontents.yaml (Portuguese, Brazilian))
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
