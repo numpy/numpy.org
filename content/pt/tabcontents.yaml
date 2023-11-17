@@ -52,25 +52,25 @@ params:
         url: https://pytorch.org/
       - 
         title: TensorFlow
-        text: An end-to-end platform for machine learning to easily build and deploy ML powered applications.
+        text: Uma plataforma completa para aprendizagem de máquina que permite construir e colocar em produção aplicações usando ML facilmente.
         img: /images/content_images/arlib/tensorflow-logo.svg
         alttext: TensorFlow
         url: https://www.tensorflow.org
       - 
         title: MXNet
-        text: Deep learning framework suited for flexible research prototyping and production.
+        text: Framework de deep learning voltado para flexibilizar prototipação em pesquisa e produção.
         img: /images/content_images/arlib/mxnet_logo.png
         alttext: MXNet
         url: https://mxnet.apache.org/
       - 
         title: Arrow
-        text: A cross-language development platform for columnar in-memory data and analytics.
+        text: Uma plataforma de desenvolvimento multi-linguagens para dados e análise para dados armazenados em colunas na memória.
         img: /images/content_images/arlib/arrow.png
         alttext: arrow
         url: https://github.com/apache/arrow
       - 
         title: xtensor
-        text: Multi-dimensional arrays with broadcasting and lazy computing for numerical analysis.
+        text: Arrays multidimensionais com broadcasting e avaliação preguiçosa (lazy computing) para análise numérica.
         img: /images/content_images/arlib/xtensor.png
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
@@ -82,138 +82,138 @@ params:
         url: https://awkward-array.org/
       - 
         title: uarray
-        text: Python backend system that decouples API from implementation; unumpy provides a NumPy API.
+        text: Sistema de backend Python que dissocia a API da implementação; unumpy fornece uma API NumPy.
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
       - 
         title: tensorly
-        text: Tensor learning, algebra and backends to seamlessly use NumPy, MXNet, PyTorch, TensorFlow or CuPy.
+        text: Ferramentas para aprendizagem com tensores, algebra e backends para usar NumPy, MXNet, PyTorch, TensorFlow ou CuPy sem esforço.
         img: /images/content_images/arlib/tensorly.png
         alttext: tensorly
         url: http://tensorly.org/stable/home.html
   scientificdomains:
     intro:
       - 
-        text: Nearly every scientist working in Python draws on the power of NumPy.
+        text: Quase todos os cientistas que trabalham em Python se baseiam na potência do NumPy.
       - 
-        text: "NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant."
+        text: "NumPy traz o poder computacional de linguagens como C e Fortran para Python, uma linguagem muito mais fácil de aprender e usar. Com esse poder vem a simplicidade: uma solução no NumPy é frequentemente clara e elegante."
     librariesrow1:
       - 
-        title: Quantum Computing
-        alttext: A computer chip.
+        title: Computação quântica
+        alttext: Um chip de computador.
         img: /images/content_images/sc_dom_img/quantum_computing.svg
       - 
-        title: Statistical Computing
-        alttext: A line graph with the line moving up.
+        title: Computação estatística
+        alttext: Um gráfico com uma linha em movimento para cima.
         img: /images/content_images/sc_dom_img/statistical_computing.svg
       - 
-        title: Signal Processing
-        alttext: A bar chart with positive and negative values.
+        title: Processamento de sinais
+        alttext: Um gráfico de barras com valores positivos e negativos.
         img: /images/content_images/sc_dom_img/signal_processing.svg
       - 
-        title: Image Processing
-        alttext: An photograph of the mountains.
+        title: Processamento de imagens
+        alttext: Uma fotografia das montanhas.
         img: /images/content_images/sc_dom_img/image_processing.svg
       - 
-        title: Graphs and Networks
-        alttext: A simple graph.
+        title: Gráficos e Redes
+        alttext: Um grafo simples.
         img: /images/content_images/sc_dom_img/sd6.svg
       - 
         title: Astronomia
-        alttext: A telescope.
+        alttext: Um telescópio.
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
       - 
-        title: Cognitive Psychology
-        alttext: A human head with gears.
+        title: Psicologia Cognitiva
+        alttext: Uma cabeça humana com engrenagens.
         img: /images/content_images/sc_dom_img/cognitive_psychology.svg
     librariesrow2:
       - 
-        title: Bioinformatics
-        alttext: A strand of DNA.
+        title: Bioinformática
+        alttext: Um pedaço de DNA.
         img: /images/content_images/sc_dom_img/bioinformatics.svg
       - 
-        title: Bayesian Inference
-        alttext: A graph with a bell-shaped curve.
+        title: Inferência Bayesiana
+        alttext: Um gráfico com uma curva em forma de sino.
         img: /images/content_images/sc_dom_img/bayesian_inference.svg
       - 
-        title: Mathematical Analysis
-        alttext: Four mathematical symbols.
+        title: Análise Matemática
+        alttext: Quatro símbolos matemáticos.
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
       - 
-        title: Chemistry
-        alttext: A test tube.
+        title: Química
+        alttext: Um tubo de ensaio.
         img: /images/content_images/sc_dom_img/chemistry.svg
       - 
-        title: Geoscience
-        alttext: The Earth.
+        title: Geociências
+        alttext: A Terra.
         img: /images/content_images/sc_dom_img/geoscience.svg
       - 
-        title: Geographic Processing
-        alttext: A map.
+        title: Processamento Geográfico
+        alttext: Um mapa.
         img: /images/content_images/sc_dom_img/GIS.svg
       - 
-        title: Architecture & Engineering
-        alttext: A microprocessor development board.
+        title: Arquitetura e Engenharia
+        alttext: Uma placa de desenvolvimento de microprocessador.
         img: /images/content_images/sc_dom_img/robotics.svg
   datascience:
-    intro: "NumPy lies at the core of a rich ecosystem of data science libraries. A typical exploratory data science workflow might look like:"
+    intro: "NumPy está no centro de um rico ecossistema de bibliotecas de ciência de dados. Um fluxo de trabalho típico de ciência de dados exploratório pode parecer assim:"
     image1:
       - 
         img: /images/content_images/ds-landscape.png
-        alttext: Diagram of Python Libraries. The five catagories are 'Extract, Transform, Load', 'Data Exploration', 'Data Modeling', 'Data Evaluation' and 'Data Presentation'.
+        alttext: Diagrama de bibliotecas Python. As cinco categorias são 'Extrair, Transformar, Carregar', 'Exploração de Dados', 'Modelo de Dados', 'Avaliação de Dados' e 'Apresentação de Dados'.
     image2:
       - 
         img: /images/content_images/data-science.png
-        alttext: Diagram of three overlapping circles. The circles are labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'.
+        alttext: Diagram of three overlapping circle. The circles labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'.
     examples:
       - 
-        text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
+        text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org),[ Intake](https://intake.readthedocs.io),[PyJanitor](https://pyjanitor.readthedocs.io/)"
       - 
-        text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
+        text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org),[Seaborn](https://seaborn.pydata.org),[ Matplotlib](https://matplotlib.org),[ Altair](https://altair-viz.github.io)"
       - 
-        text: "<b>Model and evaluate: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
+        text: "<b>Model and evaluate: </b>[scikit-learn](https://scikit-learn.org),[ statsmodels](https://www.statsmodels.org/stable/index.html),[ PyMC3](https://docs.pymc.io),[ spaCy](https://spacy.io)"
       - 
-        text: "<b>Report in a dashboard: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
+        text: "<b>Report in a dashboard: </b>[Dash](https://plotly.com/dash),[ Panel](https://panel.holoviz.org),[ Voila](https://github.com/voila-dashboards/voila)"
     content:
       - 
-        text: For high data volumes, [Dask](https://dask.org) and [Ray](https://ray.io/) are designed to scale. Stable deployments rely on data versioning ([DVC](https://dvc.org)), experiment tracking ([MLFlow](https://mlflow.org)), and workflow automation ([Airflow](https://airflow.apache.org), [Dagster](https://dagster.io) and [Prefect](https://www.prefect.io)).
+        text: For high data volumes, [Dask](https://dask.org) and[Ray](https://ray.io/) are designed to scale. Stabledeployments rely on data versioning ([DVC](https://dvc.org)),experiment tracking ([MLFlow](https://mlflow.org)), andworkflow automation ([Airflow](https://airflow.apache.org) and[Prefect](https://www.prefect.io)).
   visualization:
     images:
       - 
         url: https://www.fusioncharts.com/blog/best-python-data-visualization-libraries
         img: /images/content_images/v_matplotlib.png
-        alttext: A streamplot made in matplotlib
+        alttext: Um streamplot feito em matplotlib
       - 
         url: https://github.com/yhat/ggpy
         img: /images/content_images/v_ggpy.png
-        alttext: A scatter-plot graph made in ggpy
+        alttext: Um gráfico scatter-plot feito em ggpy
       - 
         url: https://www.journaldev.com/19692/python-plotly-tutorial
         img: /images/content_images/v_plotly.png
-        alttext: A box-plot made in plotly
+        alttext: Um box-plot feito no plotly
       - 
         url: https://altair-viz.github.io/gallery/streamgraph.html
         img: /images/content_images/v_altair.png
-        alttext: A streamgraph made in altair
+        alttext: Um gráfico streamgraph feito em altair
       - 
         url: https://seaborn.pydata.org
         img: /images/content_images/v_seaborn.png
-        alttext: A pairplot of two types of graph, a plot-graph and a frequency graph made in seaborn"
+        alttext: A plot duplo com dois tipos de gráficos, um plot-graph e um gráfico de frequência feitos no seaborn
       - 
         url: https://docs.pyvista.org/
         img: /images/content_images/v_pyvista.png
-        alttext: A 3D volume rendering made in PyVista.
+        alttext: Uma renderização de volume 3D feita no PyVista.
       - 
         url: https://napari.org
         img: /images/content_images/v_napari.png
-        alttext: A multi-dimensionan image made in napari.
+        alttext: Uma imagem multidimensional, feita em napari.
       - 
         url: https://vispy.org/gallery/index.html
         img: /images/content_images/v_vispy.png
-        alttext: A Voronoi diagram made in vispy.
+        alttext: Diagrama de Voronoi feito com vispy.
     content:
       - 
-        text: NumPy is an essential component in the burgeoning [Python visualization landscape](https://pyviz.org/overviews/index.html), which includes [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), and [PyVista](https://github.com/pyvista/pyvista), to name a few.
+        text: NumPy é um componente essencial no crescente [campo de visualização em Python](https://pyviz.org/overviews/index.html), que inclui [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), e [PyVista](https://github.com/pyvista/pyvista), para citar alguns.
       - 
-        text: NumPy's accelerated processing of large arrays allows researchers to visualize datasets far larger than native Python could handle.
+        text: O processamento de grandes arrays acelerado pela NumPy permite que os pesquisadores visualizem conjuntos de dados muito maiores do que o Python nativo poderia permitir.
