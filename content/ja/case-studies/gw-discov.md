@@ -5,10 +5,11 @@ sidebar: false
 
 {{< figure src="/images/content_images/cs/gw_sxs_image.png" class="fig-center" caption="**重力波**" alt="binary coalesce black hole generating gravitational waves" attr="*(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)*" attrlink="https://youtu.be/Zt8Z_uzG71o" >}}
 
-<blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
-    <p>科学計算のためのPythonエコシステムはLIGOで行われている研究のための重要なインフラです。</p>
-    <footer align="right">---David Shoemaker, <cite>LIGOサイエンティフィック・コラボレーション</cite></footer>
-</blockquote>
+{{< blockquote
+    cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
+    by="David Shoemaker, *LIGOサイエンティフィック・コラボレーション*" >}}
+科学計算のためのPythonエコシステムはLIGOで行われている研究のための重要なインフラです。
+{{< /blockquote >}}
 
 ## [重力波](https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/) と [LIGO](https://www.ligo.caltech.edu) について
 

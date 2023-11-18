@@ -5,10 +5,11 @@ sidebar: false
 
 {{< figure src="/images/content_images/cs/gw_sxs_image.png" class="fig-center" caption="**Ondas gravitacionais**" alt="binary coalesce black hole generating gravitational waves" attr="*(Créditos de imagem: O projeto Simulating eXtreme Spacetimes (SXS) no LIGO)*" attrlink="https://youtu.be/Zt8Z_uzG71o" >}}
 
-<blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
-    <p>O ecossistema científico Python é uma infraestrutura crítica para a pesquisa feita no LIGO.</p>
-    <footer align="right">---David Shoemaker, <cite>Colaborador Científico no LIGO</cite></footer>
-</blockquote>
+{{< blockquote
+    cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
+    by="David Shoemaker, *Colaborador Científico no LIGO*" >}}
+O ecossistema científico Python é uma infraestrutura crítica para a pesquisa feita no LIGO.
+{{< /blockquote >}}
 
 ## Sobre [Ondas Gravitacionais](https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/) e o [LIGO](https://www.ligo.caltech.edu)
 

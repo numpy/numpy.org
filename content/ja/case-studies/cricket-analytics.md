@@ -5,10 +5,12 @@ sidebar: false
 
 {{< figure src="/images/content_images/cs/ipl-stadium.png" caption="** IPLT20、インド最大のクリケットフェスティバル**" alt="Indian Premier League Cricket cup and stadium" attr="*(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
 
-<blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
-    <p>観客のために競技をするのではなく、国のために競技するのです。</p>
-    <footer align="right">---M S Dhoni、 <cite>インディアンチームの元キャプテン、インターナショナル・クリケットプレイヤー、チェンナイ・スーパー・キングスのためにIPLでプレイ</cite></footer>
-</blockquote>
+{{< blockquote
+    cite="https://www.scoopwhoop.com/sports/ms-dhoni/"
+    by="M S Dhoni、 *インディアンチームの元キャプテン、インターナショナル・クリケットプレイヤー、チェンナイ・スーパー・キングスのためにIPLでプレイ*"
+>}}
+観客のために競技をするのではなく、国のために競技するのです。
+{{< /blockquote >}}
 
 ## クリケットについて
 
