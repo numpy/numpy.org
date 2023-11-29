@@ -1,21 +1,21 @@
 ---
-title: Array Computing
+title: 배열 연산
 sidebar: false
 ---
 
-*Array computing is the foundation of statistical, mathematical, scientific computing in various contemporary data science and analytics applications such as data visualization, digital signal processing, image processing, bioinformatics, machine learning, AI, and several others.*
+*배열 연산은 통계와 수학 뿐만 아니라 현대의 다양한 분야에 적용되는 데이터 사이언스, 데이터 시각화나 디지털 신호 처리, 영상 처리, 의생명 정보 공학, 기계학습, AI 등 다양한 분야에서 적용되는 데이터 분석 어플리케이션의 기반입니다.*
 
-Large scale data manipulation and transformation depends on efficient, high-performance array computing. The language of choice for data analytics, machine learning, and productive numerical computing is **Python.**
+대규모 데이터의 조작과 연산은 고효율, 고성능의 배열 연산에 달려있습니다. **Python**은 데이터 과학자, 머신 러닝 개발자, 그리고 효율적인 수치 계산을 필요로 하는 분야에서 선택되는 프로그래밍 언어입니다.
 
-**Num**erical **Py**thon or NumPy is its de-facto standard Python programming language library that supports large, multi-dimensional arrays and matrices, and comes with a vast collection of high-level mathematical functions to operate on these arrays.
+**Num**erical **Py**thon 또는 NumPy 는 파이썬의 표준라이브러리에는 포함되지 않지만, 대규모, 다차원 행렬을 표현할 수 있고, 배열 연산을 위한 고수준의 수학 함수들을 포함한 라이브러리입니다.
 
-Since the launch of NumPy in 2006, Pandas appeared on the landscape in 2008, and it was not until a couple of years ago that several array computing libraries showed up in succession, crowding the array computing landscape. Many of these newer libraries mimic NumPy-like features and capabilities, and pack newer algorithms and features geared towards machine learning and artificial intelligence applications.
+2006년에 NumPy가 출시된 이후로, 2008년에 이를 기반으로 Pandas가 나타났습니다. 그리고 몇년전까지도, 다양한 배열 연산 라이브러리가 잇따라 나오며 배열 연산 분야가 더욱 활발해 졌습니다. 최신의 라이브러리들중 대부분은 NumPy 같은 특징과 성능을 모방하고, 새로운 알고리즘이나 머신러닝이나 인공지능 어플리케이션을 위한 특화된 기능을 포함하고 있습니다.
 
 <img
   src="/images/content_images/array_c_landscape.png"
   alt="arraycl"
   title="Array Computing Landscape" />
 
-**Array computing** is based on **arrays** data structures. *Arrays* are used to organize vast amounts of data such that a related set of values can be easily sorted, searched, mathematically manipulated, and transformed easily and quickly.
+**배열 연산**의 기반은 **array ** 자료구조 입니다. *배열*은 대규모의 데이터를 정렬, 검색, 수학 계산, 그리고 변형을 쉽고 빠르게 처리하는데 사용됩니다.
 
-Array computing is *unique* as it involves operating on the data array *at once*. What this means is that any array operation applies to an entire set of values in one shot. This vectorized approach provides speed and simplicity by enabling programmers to code and operate on aggregates of data, without having to use loops of individual scalar operations.
+배열 연산은 *한번에 * 데이터 배열에 *모든 연산이* 계산 됩니다. 다시 말해서, 모든 배열 연산은 전체 데이터에 한번에 적용됩니다. 이 벡터화 접근법은 배열 연산을 위해 루프를 활용하여 개별적인 데이터에 접근하여 연산하는 코드를 작성하지 않고, 배열에 바로 연산하는 코드를 작성하여, 개발자가 보다 개발 빠르고 간단하게 할수 있게 해줍니다.
