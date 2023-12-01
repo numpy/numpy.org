@@ -5,10 +5,10 @@ sidebar: false
 
 {{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Agujero Negro M87**" alt="imagen de un agujero negro" attr="*(Créditos de la imagen: Colaboración del Telescopio de Horizonte de Sucesos)*" attrlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
 
-<blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
-    <p>Fotografiar el agujero negro M87 es como tratar de ver algo que por definición es imposible de ver.</p>
-    <footer align="right">Katie Bouman, <cite>Profesor asistente, Ciencias Matemáticas y de Computación, Caltech</cite></footer>
-</blockquote>
+{{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="Katie Bouman, *Assistant Professor, Computing & Mathematical Sciences, Caltech*"
+> }} Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see. 
+> 
+> {{< /blockquote >}}
 
 ## Un telescopio del tamaño de la Tierra
 
