@@ -5,10 +5,10 @@ sidebar: false
 
 {{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**IPLT20, o maior festival de Críquete da Índia**" alt="Copa e estádio da Indian Premier League Cricket" attr="*(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
 
-<blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
-    <p>Você não joga para a torcida, joga para o país.</p>
-    <footer align="right">—M S Dhoni, <cite>Jogador Internacional de Críquete, ex-capitão, Time Indiano, joga pelo Chennai Super Kings na IPL</cite></footer>
-</blockquote>
+{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, *International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL*"
+> }} You don't play for the crowd, you play for the country. 
+> 
+> {{< /blockquote >}}
 
 ## Sobre Críquete
 
