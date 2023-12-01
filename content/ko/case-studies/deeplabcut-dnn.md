@@ -5,10 +5,10 @@ sidebar: false
 
 {{< figure src="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**DeepLapCut을 활용한 쥐의 손 움직임 분석**" alt="쥐 손 애니메이션" attr="*(출처: www.deeplabcut.org )*" attrlink="http://www.mousemotorlab.org/deeplabcut">}}
 
-<blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/">
-    <p>오픈 소스 소프트웨어는 생물 의학을 가속화하고 있습니다. DeepLabCut은 딥 러닝을 사용하여 동물 행동에 대한 자동화된 비디오 분석을 가능하게 합니다.</p>
-    <footer align="right">—알렉산더 마티스, <cite>조교수, 로잔 연방 공과대학교 <a href="https://www.epfl.ch/en/">(EPFL)</a></cite></footer>
-</blockquote>
+{{< blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/" by="Alexander Mathis, *Assistant Professor, École polytechnique fédérale de Lausanne* ([EPFL](https://www.epfl.ch/en/))"
+> }} Open Source Software is accelerating Biomedicine. DeepLabCut은 딥 러닝을 사용하여 동물 행동에 대한 자동화된 비디오 분석을 가능하게 합니다. 
+> 
+> {{< /blockquote >}}
 
 ## DeepLabCut 소개
 
