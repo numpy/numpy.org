@@ -5,10 +5,10 @@ sidebar: false
 
 {{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**인도 최대의 크리켓 축제인 IPLT20**" alt="인도 프리미어 리그 크리켓 컵 및 경기장" attr="*(사진 출처: IPLT20 (컵 및 로고) & Akash Yadav (경기장))*" attrlink="https://unsplash.com/@aksh1802" >}}
 
-<blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/">
-    <p>군중을 위해서가 아니라, 국가를 위해 뛰는 겁니다.</p>
-    <footer align="right">—M S Dhoni, <cite>국제 크리켓 선수, 전 팀장, 인도 팀, IPL의 Chennai Super Kings에서 활약</cite></footer>
-</blockquote>
+{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, *International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL*"
+> }} You don't play for the crowd, you play for the country. 
+> 
+> {{< /blockquote >}}
 
 ## 크리켓이란
 
