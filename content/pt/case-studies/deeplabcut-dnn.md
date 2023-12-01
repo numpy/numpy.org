@@ -5,10 +5,10 @@ sidebar: false
 
 {{< figure src="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**Análise de movimentos de mãos de camundongos usando DeepLapCut**" alt="micehandanim" attr="*(Fonte: www.deeplabcut.org )*" attrlink="http://www.mousemotorlab.org/deeplabcut">}}
 
-<blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/">
-    <p>Software de código aberto está acelerando a Biomedicina. DeepLabCut permite a análise automática de vídeos de comportamento animal usando Deep Learning.</p>
-    <footer align="right">—Alexander Mathis, <cite>Professor Assistente, École polytechnique fédérale de Lausanne <a href="https://www.epfl.ch/en/">(EPFL)</a></cite></footer>
-</blockquote>
+{{< blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/" by="Alexander Mathis, *Assistant Professor, École polytechnique fédérale de Lausanne* ([EPFL](https://www.epfl.ch/en/))"
+> }} Open Source Software is accelerating Biomedicine. DeepLabCut permite a análise automática de vídeos de comportamento animal usando Deep Learning. 
+> 
+> {{< /blockquote >}}
 
 ## Sobre o DeepLabCut
 
