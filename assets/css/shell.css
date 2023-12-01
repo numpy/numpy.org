@@ -1,10 +1,8 @@
 .hero-right {
     display: flex;
     flex-direction: column;
-    /* Black, with 10% opacity */
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    background: rgb(238, 238, 238);
     padding: 15px;
+    background: var(--pst-color-surface);
 }
 
 .numpy-shell-canvas {
@@ -24,7 +22,7 @@
 
 .numpy-shell {
     flex: 2;
-    padding: 0 15px;
+    border: 1px solid var(--pst-color-border);
 }
 
 .shell-title-container {
@@ -48,7 +46,12 @@
 }
 
 .shell-lesson .highlight pre {
+    background-color: var(--pst-gray-800);
     height: 100%;
+}
+
+.shell-lesson .highlight pre code{
+    color: #f3c7ee;
 }
 
 .shell-lesson > p {

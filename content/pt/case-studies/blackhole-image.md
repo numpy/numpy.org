@@ -5,10 +5,12 @@ sidebar: false
 
 {{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Black Hole M87**" alt="black hole image" attr="*(Créditos: Event Horizon Telescope Collaboration)*" attrlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
 
-<blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
-    <p>Criar uma imagem do Buraco Negro M87 é como tentar ver algo que, por definição, é impossível de se ver.</p>
-    <footer align="right">Katie Bouman, <cite>Professora Assistente, Ciências da Computação e Matemática, Caltech</cite></footer>
-</blockquote>
+{{< blockquote
+    cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
+    by="Katie Bouman, *Professora Assistente, Ciências da Computação e Matemática, Caltech*"
+>}}
+Criar uma imagem do Buraco Negro M87 é como tentar ver algo que, por definição, é impossível de se ver.
+{{< /blockquote >}}
 
 ## Um telescópio do tamanho da Terra
 

@@ -11,8 +11,9 @@
 }
 
 .sign-up-image {
+  height: 35px;
   padding: 5px 10px 6px 10px;
-  border-right: 1px solid var(--colorSecondary);
+  border-right: 1px solid var(--colorPrimaryDark);
   background-color: var(--colorSecondary);
   border-radius: 5px 0 0 5px;
 }

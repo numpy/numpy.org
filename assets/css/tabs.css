@@ -1,6 +1,13 @@
-.uikit-tab-wrapper-mobile {
-    display: flex;
-    flex-direction: row;
+[role="tablist"] {
+  justify-content: center;
+}
+
+table td:not([align]), table th:not([align]) {
+  text-align: inherit;
+}
+
+table td, table th {
+  vertical-align: top;
 }
 
 .tabs-section {
@@ -24,25 +31,6 @@
 .visualization, .data-science, .scientific-domains, .machine-learning, .array-libraries {
     max-width: 900px;
     margin: 15px auto;
-}
-
-.uk-tab > li {
-    padding: 0 10px;
-}
-
-.uk-nav > li > a {
-    height: 35px;
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-weight: 500;
-    color: rgb(108, 122, 137);
-}
-
-#tabs-content > li {
-    width: 90vw;
-    max-width: 900px;
-    margin: 50px auto;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -112,10 +100,6 @@ td.bold-text {
     min-width: 120px;
 }
 
-.scientific-domains td.bold-text {
-    color: var(--colorPrimaryDark);
-}
-
 img.cell-layout {
     border-radius: 10px;
     width: 50px;
@@ -139,7 +123,6 @@ td.full-center-text {
 td.lastrow-center-text {
     text-align: center;
     line-height: 35%;
-    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 /* Array Libraries */

@@ -5,10 +5,12 @@ sidebar: false
 
 {{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Black Hole M87**" alt="black hole image" attr="*(Image Credits: Event Horizon Telescope Collaboration)*" attrk="https://www.jpl.nasa.gov/images/universe/90410/blackhole20190410.jpg" >}}
 
-<blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
-    <p>M87ブラックホールを画像化することは、見ることのできないものを、あえて見ようとするようなものです。</p>
-    <footer align="right"><cite>カリフォルニア工科大学 計算・数理学部</cite>のKatie Bouman助教授</footer>
-</blockquote>
+{{< blockquote
+    cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
+    by="*カリフォルニア工科大学 計算・数理学部*のKatie Bouman助教授"
+>}}
+M87ブラックホールを画像化することは、見ることのできないものを、あえて見ようとするようなものです。
+{{< /blockquote >}}
 
 ## 地球大の望遠鏡
 

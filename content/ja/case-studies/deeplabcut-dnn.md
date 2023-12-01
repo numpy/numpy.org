@@ -3,12 +3,14 @@ title: "ケーススタディ: DeepLabCut 三次元姿勢推定"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**DeepLapCutを用いたマウスの手の動きの解析 **" alt="micehandanim" attr="*(Source: www.deeplabcut.org )*" attrlink="http://www.mousemotorlab.org/deeplabcut">}}
+{{< figure src="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**DeepLapCutを用いたマウスの手の動きの解析**" alt="micehandanim" attr="*(Source: www.deeplabcut.org )*" attrlink="http://www.mousemotorlab.org/deeplabcut">}}
 
-<blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/">
-    <p>オープンソースソフトウェアは生体臨床医学を加速させています。 DeepLabCut を使用すると、深層学習を使用して動物の行動を自動的にビデオ解析することができます。</p>
-    <footer align="right">—Alexander Mathis、 <cite>准教授、École polytechnology fe’rale de Lausanne <a href="https://www.epfl.ch/en/">(EPFL)</a></cite></footer>
-</blockquote>
+{{< blockquote
+    cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/"
+    by="Alexander Mathis、 *准教授、École polytechnology fe’rale de Lausanne* ([EPFL](https://www.epfl.ch/en/))"
+>}}
+オープンソースソフトウェアは生体臨床医学を加速させています。 DeepLabCut を使用すると、深層学習を使用して動物の行動を自動的にビデオ解析することができます。
+{{< /blockquote >}}
 
 ## DeepLabCut について
 
