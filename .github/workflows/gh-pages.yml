@@ -30,12 +30,27 @@ jobs:
         id: hugo-version
         run: cat netlify.toml | grep HUGO_VERSION | tr -d ' "' >> "$GITHUB_OUTPUT"
 
+      - name: Read DART SASS version
+        id: dart-sass-version
+        run: cat netlify.toml | grep --max-count=1 DART_SASS_VERSION | tr -d ' "' >> "$GITHUB_OUTPUT"
+
       - name: Install Hugo CLI
         env:
           HUGO_VERSION: ${{ steps.hugo-version.outputs.HUGO_VERSION }}
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Install Dart Sass
+        env:
+          DART_SASS_VERSION: ${{ steps.dart-sass-version.outputs.DART_SASS_VERSION }}
+          DART_SASS_URL: "https://github.com/sass/dart-sass/releases/download/"
+        run: |
+          export DART_SASS_TARBALL="dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+          curl -LJO ${env.DART_SASS_URL}/${DART_SASS_VERSION}/${DART_SASS_TARBALL} && \
+          tar -xf ${DART_SASS_TARBALL} && \
+          rm ${DART_SASS_TARBALL}
+          export PATH=$(pwd)/dart-sass:$PATH
 
       - name: Generate config
         run: python gen_config.py
