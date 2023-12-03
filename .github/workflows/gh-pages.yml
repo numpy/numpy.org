@@ -50,13 +50,14 @@ jobs:
           curl -LJO ${DART_SASS_URL}/${DART_SASS_VERSION}/${DART_SASS_TARBALL} && \
           tar -xf ${DART_SASS_TARBALL} && \
           rm ${DART_SASS_TARBALL}
-          export PATH=$(pwd)/dart-sass:$PATH
 
       - name: Generate config
         run: python gen_config.py
 
       - name: Build with Hugo
-        run: hugo --gc --minify
+        run: |
+          export PATH=$(pwd)/dart-sass:$PATH
+          hugo --gc --minify
 
       - name: Deploy pages
         uses: JamesIves/github-pages-deploy-action@releases/v4
