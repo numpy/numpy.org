@@ -1,66 +1,66 @@
 ---
-title: Community
+title: 커뮤니티
 sidebar: false
 ---
 
-NumPy is a community-driven open source project developed by a diverse group of [contributors](/teams/). The NumPy leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the [NumPy Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
+NumPy는 다양한 [기여자](/teams/) 집단이 개발하며 커뮤니티에 의해 유지되는 오픈소스 프로젝트입니다. NumPy 운영진들은 개방적이며 포용적이고 긍정적인 커뮤니티를 만들기 위해 상당한 노력을 기울여오고 있습니다. 커뮤니티를 발전시키기 위한 다른 이용자들과의 상호작용에 대한 가이드라인은 [NumPy 이용약관](/code-of-conduct)을 통해 확인하실 수 있습니다.
 
-We offer several communication channels to learn, share your knowledge and connect with others within the NumPy community.
-
-
-## Participate online
-
-The following are ways to engage directly with the NumPy project and community. _Please note that we encourage users and community members to support each other for usage questions - see [Get Help](/gethelp)._
+NumPy 커뮤니티에서는 배우고, 지식을 공유하고, 다른 사람들과 협력할 수 있는 여러 커뮤니케이션 채널을 제공합니다.
 
 
-### [NumPy mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion)
+## 온라인으로 참여하기
 
-This list is the main forum for longer-form discussions, like adding new features to NumPy, making changes to the NumPy Roadmap, and all kinds of project-wide decision making. Announcements about NumPy, such as for releases, developer meetings, sprints or conference talks are also made on this list.
+NumPy 프로젝트 및 커뮤니티에 곧장 참여할 수 있는 방법들입니다. _사용자와 커뮤니티 회원이 사용 중 질문에 대하여 서로 도움을 주고받기를 권장한다는 것을 명심하십시오. [도움말](/gethelp)을 참고하세요._
 
-On this list please use bottom posting, reply to the list (rather than to another sender), and don't reply to digests. A searchable archive of this list is available [here](https://mail.python.org/archives/list/numpy-discussion@python.org/).
+
+### [NumPy 메일링 리스트](https://mail.python.org/mailman/listinfo/numpy-discussion)
+
+이 리스트는 NumPy 신기능 추가, NumPy 로드맵 변경 등 모든 종류의 프로젝트 전체 의사 결정과 같은 장기적인 토론을 이끄는 주요 포럼이라 할 수 있습니다. 출시, 개발자 모임, 일반 모임, 컨퍼런스 강연과 같은 NumPy에 대한 공지도 이 리스트를 통해 받아볼 수 있습니다.
+
+리스트에 회신하려면 (다른 발신자에게 회신하기보다는) 하단의 게시물을 이용하십시오. 또, 자동 발신 메일에 회신하지 마십시오. 검색 가능한 아카이브는 [여기](https://mail.python.org/archives/list/numpy-discussion@python.org/)에서 이용할 수 있습니다.
 
 ***
 
 ### [GitHub issue tracker](https://github.com/numpy/numpy/issues)
 
-- For bug reports (e.g. "`np.arange(3).shape` returns `(5,)`, when it should return `(3,)`");
-- documentation issues (e.g. "I found this section unclear");
-- and feature requests (e.g. "I would like to have a new interpolation method in `np.percentile`").
+- 버그 제보 (예: "`np.arange(3).shape` returns `(5,)`, when it should return `(3,)`");
+- 문서 관련 문제점 (예: "I found this section unclear");
+- 기능 요청 (예: "I would like to have a new interpolation method in `np.percentile`").
 
-_Please note that GitHub is not the right place to report a security vulnerability. If you think you have found a security vulnerability in NumPy, please report it [here](https://tidelift.com/docs/security)._
+_GitHub은 보안 취약점을 제보하는 곳이 아님을 명심하십시오. NumPy의 보안 취약점을 발견한 것 같으시다면, [여기](https://tidelift.com/docs/security)에서 제보하십시오._
 
 ***
 
 ### [Slack](https://numpy-team.slack.com)
 
-A real-time chat room to ask questions about _contributing_ to NumPy. This is a private space, specifically meant for people who are hesitant to bring up their questions or ideas on a large public mailing list or GitHub. Please see [here](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) for more details and how to get an invite.
+NumPy에 _기여하는_ 방법에 대하여 질문하는 실시간 채팅방입니다. 여기는 비공개 공간으로, 공용 메일링 리스트나 GitHub에 질문 또는 아이디어를 올리는 것을 주저하는 사람들을 위한 곳입니다. [여기](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy)에서 자세한 내용과 초대를 받는 방법을 알아보세요.
 
 
-## Study Groups and Meetups
+## 학술 그룹 및 모임
 
-If you would like to find a local meetup or study group to learn more about NumPy and the wider ecosystem of Python packages for data science and scientific computing, we recommend exploring the [PyData meetups](https://www.meetup.com/pro/pydata/) (150+ meetups, 100,000+ members).
+NumPy와 데이터 과학 및 과학적 컴퓨팅을 위한 Python 패키지의 생태계에 대해 자세히 알아보기 위하여, 지역 모임이나 학술 그룹을 찾고 싶다면 [PyData 모임](https://www.meetup.com/pro/pydata/) (150개 이상의 모임, 10만 명 이상의 회원) 사이트를 돌아보시는 것을 추천해 드립니다.
 
-NumPy also organizes in-person sprints for its team and interested contributors occasionally. These are typically planned several months in advance and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and [Twitter](https://twitter.com/numpy_team).
+NumPy에서도 가끔 자체 팀이나 관심 있는 기여자들을 위하여 직접 모임을 조직하기도 합니다. 보통 몇 달 전부터 미리 계획되며 [메일링 리스트](https://mail.python.org/mailman/listinfo/numpy-discussion) 및 [트위터](https://twitter.com/numpy_team)로 해당 사실을 알립니다.
 
 
-## Conferences
+## 컨퍼런스
 
-The NumPy project doesn't organize its own conferences. The conferences that have traditionally been most popular with NumPy maintainers, contributors and users are the SciPy and PyData conference series:
+NumPy 프로젝트에서는 자체 컨퍼런스를 추진하지 않습니다. 보통 NumPy 관리자나 기여자, 사용자들에게 가장 인기 있는 컨퍼런스는 SciPy나 PyData 쪽 컨퍼런스입니다.
 
 - [SciPy US](https://conference.scipy.org)
 - [EuroSciPy](https://www.euroscipy.org)
 - [SciPy Latin America](https://www.scipyla.org)
 - [SciPy India](https://scipy.in)
 - [SciPy Japan](https://conference.scipy.org)
-- [PyData conferences](https://pydata.org/event-schedule/) (15-20 events a year spread over many countries)
+- [PyData 컨퍼런스](https://pydata.org/event-schedule/) (세계 곳곳의 여러 나라에서 1년에 15~20개의 이벤트를 개최합니다)
 
-Many of these conferences include tutorial days that cover NumPy and/or sprints where you can learn how to contribute to NumPy or related open source projects.
+이런 컨퍼런스 대부분에는 NumPy를 배우는 튜토리얼의 날이나 NumPy 혹은 관련 오픈소스 프로젝트에 기여하는 방법을 배울 수 있는 장이 마련되어 있습니다.
 
 
-## Join the NumPy community
+## NumPy 커뮤니티에 가입하기
 
-To thrive, the NumPy project needs your expertise and enthusiasm. Not a coder? Not a problem! There are many ways to contribute to NumPy.
+더욱 성장하기 위해, NumPy 프로젝트에서는 당신의 경험과 의욕을 필요로 합니다. 프로그래머가 아니라고요? 걱정하지 마세요! NumPy에 기여하는 방법에는 여러 가지가 있습니다.
 
-If you are interested in becoming a NumPy contributor (yay!) we recommend checking out our [Contribute](/contribute) page.
+NumPy 기여자가 되는 데 관심이 있으시다면 [기여](/contribute) 페이지를 방문하시는 것을 추천해 드립니다.
 
 Also, feel free to stop by and say hi at one of our community meetings. To keep track of them, check out our events calendar [here](https://scientific-python.org/calendars/).
