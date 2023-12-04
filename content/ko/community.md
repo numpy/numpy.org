@@ -63,4 +63,4 @@ NumPy 프로젝트에서는 자체 컨퍼런스를 추진하지 않습니다. �
 
 NumPy 기여자가 되는 데 관심이 있으시다면 [기여](/contribute) 페이지를 방문하시는 것을 추천해 드립니다.
 
-Also, feel free to stop by and say hi at one of our community meetings. To keep track of them, check out our events calendar [here](https://scientific-python.org/calendars/).
+또한, 부담없이 커뮤니티 미팅에 참석 해주시길 바랍니다. 정확한 날짜들은 [행사달력](https://scientific-python.org/calendars/)을 확인해주세요.
