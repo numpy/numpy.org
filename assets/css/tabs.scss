@@ -28,7 +28,7 @@ table td, table th {
     margin: 30px 0;
 }
 
-.visualization, .data-science, .scientific-domains, .machine-learning, .array-libraries {
+.visualization, .data-science, .machine-learning, .array-libraries {
     max-width: 900px;
     margin: 15px auto;
 }
@@ -80,49 +80,49 @@ table td, table th {
 }
 
 /* Scientific Domains */
-td, th {
-    font-size: 0.8rem;
-    padding: 8px;
-}
+section.scientific-domains {
+    max-width: 900px !important;
 
-td > a {
-    font-size: 0.8rem;
-}
+    & ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 15px auto;
+        padding-inline-start: 0;
 
-tr.highlight-th {
-    border-top: 1px solid rgb(238, 238, 238);
-    font-size: 0.8rem;
-}
+        & li {
+            align-content: center;
+            font-size: 0.8rem;
+            line-height: 130%;
+            margin: 0.2em 0.4em;
+            flex-basis: 13%;
 
-td.bold-text {
-    font-weight: bold;
-    text-align: center;
-    min-width: 120px;
-}
+            & header {
+                // FIXME: Use appropriate PST color for this header text.
+                color: var(--colorPrimaryDark);
+                font-weight: 700;
+                // Ensure headers are the same minimum height (some wrap
+                // to two lines).
+                min-height: 3.3em;
+                text-align: left;
+            }
+            & img {
+                width: 50px;
+                height: 50px;
+                margin-bottom: 0.5em;
+            }
+            & ul {
+                align-content: left;
+                display: flex;
+                flex-direction: column;
+                padding-inline-start: 0;
 
-img.cell-layout {
-    border-radius: 10px;
-    width: 50px;
-    height: 50px;
-    display: block;
-    margin-left: 0px;
-    margin-right: auto;
-}
-
-td.center-text {
-    text-align: center;
-    line-height: 35%;
-}
-
-td.full-center-text {
-    text-align: center;
-    vertical-align: middle;
-    line-height: 45%;
-}
-
-td.lastrow-center-text {
-    text-align: center;
-    line-height: 35%;
+                & li {
+                    margin-left: 0em;
+                }
+            }
+        }
+    }
 }
 
 /* Array Libraries */

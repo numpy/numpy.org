@@ -84,51 +84,159 @@ params:
     - text: Nearly every scientist working in Python draws on the power of NumPy.
     - text: "NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant."
 
-    librariesrow1:
+    libraries:
     - title: Quantum Computing
       alttext: A computer chip.
       img: /images/content_images/sc_dom_img/quantum_computing.svg
+      links:
+        - url: http://qutip.org
+          label: QuTiP
+        - url: https://pyquil-docs.rigetti.com/en/stable
+          label: PyQuil
+        - url: https://qiskit.org
+          label: Qiskit
+        - url: https://pennylane.ai
+          label: PennyLane
     - title: Statistical Computing
       alttext: A line graph with the line moving up.
       img: /images/content_images/sc_dom_img/statistical_computing.svg
+      links:
+        - url: https://pandas.pydata.org/
+          label: Pandas
+        - url: https://github.com/statsmodels/statsmodels
+          label: statsmodels
+        - url: https://xarray.pydata.org/en/stable/
+          label: Xarray
+        - url: https://github.com/mwaskom/seaborn
+          label: Seaborn
     - title: Signal Processing
       alttext: A bar chart with positive and negative values.
       img: /images/content_images/sc_dom_img/signal_processing.svg
+      links:
+        - url: https://www.scipy.org/
+          label: SciPy
+        - url: https://pywavelets.readthedocs.io/
+          label: PyWavelets
+        - url: https://python-control.org/
+          label: python-control
     - title: Image Processing
       alttext: An photograph of the mountains.
       img: /images/content_images/sc_dom_img/image_processing.svg
+      links:
+        - url: https://scikit-image.org/
+          label: Scikit-image
+        - url: https://opencv.org/
+          label: OpenCV
+        - url: https://mahotas.rtfd.io/
+          label: Mahotas
     - title: Graphs and Networks
       alttext: A simple graph.
       img: /images/content_images/sc_dom_img/sd6.svg
+      links:
+        - url: https://networkx.org/
+          label: NetworkX
+        - url: https://graph-tool.skewed.de/
+          label: graph-tool
+        - url: https://igraph.org/python/
+          label: igraph
+        - url: https://pygsp.rtfd.io/
+          label: PyGSP
     - title: Astronomy
       alttext: A telescope.
       img: /images/content_images/sc_dom_img/astronomy_processes.svg
+      links:
+        - url: https://www.astropy.org/
+          label: AstroPy
+        - url: https://github.com/sunpy/sunpy
+          label: SunPy
+        - url: https://github.com/spacepy/spacepy
+          label: SpacePy
     - title: Cognitive Psychology
       alttext: A human head with gears.
       img: /images/content_images/sc_dom_img/cognitive_psychology.svg
-
-    librariesrow2:
+      links:
+        - url: https://www.psychopy.org/
+          label: PsychoPy
     - title: Bioinformatics
       alttext: A strand of DNA.
       img: /images/content_images/sc_dom_img/bioinformatics.svg
+      links:
+        - url: https://biopython.org/
+          label: BioPython
+        - url: http://scikit-bio.org/
+          label: Scikit-Bio
+        - url: https://github.com/openvax/pyensembl
+          label: PyEnsembl
+        - url: http://etetoolkit.org/
+          label: ETE
     - title: Bayesian Inference
       alttext: A graph with a bell-shaped curve.
       img: /images/content_images/sc_dom_img/bayesian_inference.svg
+      links:
+        - url: https://pystan.readthedocs.io/en/latest/
+          label: PyStan
+        - url: https://docs.pymc.io/
+          label: PyMC3
+        - url: https://arviz-devs.github.io/arviz/
+          label: ArviZ
+        - url: https://emcee.readthedocs.io/
+          label: emcee
     - title: Mathematical Analysis
       alttext: Four mathematical symbols.
       img: /images/content_images/sc_dom_img/mathematical_analysis.svg
+      links:
+        - url: https://www.scipy.org/
+          label: SciPy
+        - url: https://www.sympy.org/
+          label: SymPy
+        - url: https://github.com/cvxgrp/cvxpy
+          label: cvxpy
+        - url: https://fenicsproject.org/
+          label: FEniCS
     - title: Chemistry
       alttext: A test tube.
       img: /images/content_images/sc_dom_img/chemistry.svg
+      links:
+        - url: https://cantera.org/
+          label: Cantera
+        - url: https://www.mdanalysis.org/
+          label: MDAnalysis
+        - url: https://github.com/rdkit/rdkit
+          label: RDKit
+        - url: https://www.pybamm.org/
+          label: PyBaMM
     - title: Geoscience
       alttext: The Earth.
       img: /images/content_images/sc_dom_img/geoscience.svg
+      links:
+        - url: https://pangeo.io/
+          label: Pangeo
+        - url: https://simpeg.xyz/
+          label: Simpeg
+        - url: https://github.com/obspy/obspy/wiki
+          label: ObsPy
+        - url: https://www.fatiando.org/
+          label: Fatiando a Terra
     - title: Geographic Processing
       alttext: A map.
       img: /images/content_images/sc_dom_img/GIS.svg
+      links:
+        - url: https://shapely.readthedocs.io/
+          label: Shapely
+        - url: https://geopandas.org/
+          label: GeoPandas
+        - url: https://python-visualization.github.io/folium
+          label: Folium
     - title: Architecture & Engineering
       alttext: A microprocessor development board.
       img: /images/content_images/sc_dom_img/robotics.svg
+      links:
+        - url: https://compas.dev/
+          label: COMPAS
+        - url: https://cityenergyanalyst.com/
+          label: City Energy Analyst
+        - url: https://nortikin.github.io/sverchok/
+          label: Sverchok
 
   datascience:
 
