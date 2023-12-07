@@ -100,8 +100,8 @@ params:
         text: "NumPy traz o poder computacional de linguagens como C e Fortran para Python, uma linguagem muito mais fácil de aprender e usar. Com esse poder vem a simplicidade: uma solução no NumPy é frequentemente clara e elegante."
     libraries:
       - 
-        title: Quantum Computing
-        alttext: A computer chip.
+        title: Computação quântica
+        alttext: Um chip de computador.
         img: /images/content_images/sc_dom_img/quantum_computing.svg
         links:
           - 
@@ -117,8 +117,8 @@ params:
             url: https://pennylane.ai
             label: PennyLane
       - 
-        title: Statistical Computing
-        alttext: A line graph with the line moving up.
+        title: Computação estatística
+        alttext: Um gráfico com uma linha em movimento para cima.
         img: /images/content_images/sc_dom_img/statistical_computing.svg
         links:
           - 
@@ -134,8 +134,8 @@ params:
             url: https://github.com/mwaskom/seaborn
             label: Seaborn
       - 
-        title: Signal Processing
-        alttext: A bar chart with positive and negative values.
+        title: Processamento de sinais
+        alttext: Um gráfico de barras com valores positivos e negativos.
         img: /images/content_images/sc_dom_img/signal_processing.svg
         links:
           - 
@@ -148,8 +148,8 @@ params:
             url: https://python-control.org/
             label: python-control
       - 
-        title: Image Processing
-        alttext: An photograph of the mountains.
+        title: Processamento de imagens
+        alttext: Uma fotografia das montanhas.
         img: /images/content_images/sc_dom_img/image_processing.svg
         links:
           - 
@@ -193,16 +193,16 @@ params:
             url: https://github.com/spacepy/spacepy
             label: SpacePy
       - 
-        title: Cognitive Psychology
-        alttext: A human head with gears.
+        title: Psicologia Cognitiva
+        alttext: Uma cabeça humana com engrenagens.
         img: /images/content_images/sc_dom_img/cognitive_psychology.svg
         links:
           - 
             url: https://www.psychopy.org/
             label: PsychoPy
       - 
-        title: Bioinformatics
-        alttext: A strand of DNA.
+        title: Bioinformática
+        alttext: Uma fita de DNA.
         img: /images/content_images/sc_dom_img/bioinformatics.svg
         links:
           - 
@@ -218,8 +218,8 @@ params:
             url: http://etetoolkit.org/
             label: ETE
       - 
-        title: Bayesian Inference
-        alttext: A graph with a bell-shaped curve.
+        title: Inferência Bayesiana
+        alttext: Um gráfico com uma curva em forma de sino.
         img: /images/content_images/sc_dom_img/bayesian_inference.svg
         links:
           - 
@@ -235,8 +235,8 @@ params:
             url: https://emcee.readthedocs.io/
             label: emcee
       - 
-        title: Mathematical Analysis
-        alttext: Four mathematical symbols.
+        title: Análise Matemática
+        alttext: Quatro símbolos matemáticos.
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
         links:
           - 
@@ -253,7 +253,7 @@ params:
             label: FEniCS
       - 
         title: Chemistry
-        alttext: A test tube.
+        alttext: Um tubo de ensaio.
         img: /images/content_images/sc_dom_img/chemistry.svg
         links:
           - 
@@ -270,7 +270,7 @@ params:
             label: PyBaMM
       - 
         title: Geoscience
-        alttext: The Earth.
+        alttext: A Terra.
         img: /images/content_images/sc_dom_img/geoscience.svg
         links:
           - 
@@ -286,8 +286,8 @@ params:
             url: https://www.fatiando.org/
             label: Fatiando a Terra
       - 
-        title: Geographic Processing
-        alttext: A map.
+        title: Processamento Geográfico
+        alttext: Um mapa.
         img: /images/content_images/sc_dom_img/GIS.svg
         links:
           - 
@@ -300,8 +300,8 @@ params:
             url: https://python-visualization.github.io/folium
             label: Folium
       - 
-        title: Architecture & Engineering
-        alttext: A microprocessor development board.
+        title: Arquitetura e Engenharia
+        alttext: Uma placa de desenvolvimento de microprocessador.
         img: /images/content_images/sc_dom_img/robotics.svg
         links:
           - 
