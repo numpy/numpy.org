@@ -17,6 +17,10 @@ table td, table th {
     html[data-theme=dark] & img {
         filter: invert(1) !important;
     }
+
+    & .tabs div li {
+        display: inline;
+    }
 }
 
 .tabs-section .container {
