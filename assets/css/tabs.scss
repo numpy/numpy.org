@@ -13,6 +13,10 @@ table td, table th {
 .tabs-section {
     display: flex;
     flex-direction: column;
+
+    html[data-theme=dark] & img {
+        filter: invert(1) !important;
+    }
 }
 
 .tabs-section .container {
@@ -133,10 +137,6 @@ img.first-column-layout {
     max-width: 100px;
     max-height: 30px;
     margin: 0px 20px 0px 10px;
-
-    html[data-theme=dark] & {
-        filter: invert(1) !important;
-    }
 }
 
 td.left-text {
