@@ -80,37 +80,48 @@ table td, table th {
 }
 
 /* Scientific Domains */
-section.scientific-domains ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 15px auto;
+section.scientific-domains {
+    max-width: 900px !important;
 
-    & li {
-        align-content: center;
-        font-size: 0.8rem;
-        line-height: 130%;
-        margin: 0.1em 0.5em;
-        flex-basis: 13%;
+    & ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 15px auto;
+        padding-inline-start: 0;
 
-        & header {
-            // FIXME: Use appropriate PST color for this header text.
-            color: var(--colorPrimaryDark);
-            font-weight: 700;
-            // Ensure headers are the same minimum height (some wrap
-            // to two lines).
-            min-height: 3.3em;
-            text-align: left;
-        }
-        & img {
-            width: 50px;
-            height: 50px;
+        & li {
+            align-content: center;
+            font-size: 0.8rem;
+            line-height: 130%;
+            margin: 0.2em 0.4em;
+            flex-basis: 13%;
+            // width: 124px !important;
+
+            & header {
+                // FIXME: Use appropriate PST color for this header text.
+                color: var(--colorPrimaryDark);
+                font-weight: 700;
+                // Ensure headers are the same minimum height (some wrap
+                // to two lines).
+                min-height: 3.3em;
+                text-align: left;
             }
-        & ul {
-            align-content: left;
-            display: flex;
-            flex-direction: column;
-            padding-inline-start: 0;
+            & img {
+                width: 50px;
+                height: 50px;
+                margin-bottom: 0.5em;
+            }
+            & ul {
+                align-content: left;
+                display: flex;
+                flex-direction: column;
+                padding-inline-start: 0;
+
+                & li {
+                    margin-left: 0em;
+                }
+            }
         }
     }
 }
