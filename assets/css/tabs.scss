@@ -99,7 +99,7 @@ section.scientific-domains {
 
             & header {
                 // FIXME: Use appropriate PST color for this header text.
-                color: var(--colorPrimaryDark);
+                color: var(--pst-color-text-base);
                 font-weight: 700;
                 // Ensure headers are the same minimum height (some wrap
                 // to two lines).
