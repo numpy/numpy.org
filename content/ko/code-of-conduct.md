@@ -57,27 +57,27 @@ numpy-conduct@googlegroups.com 으로 NumPy 윤리 강령 위원회에 문제를
 * Melissa Weber Mendonça
 * Rohit Goswami
 
-If your report involves any members of the Committee, or if they feel they have a conflict of interest in handling it, then they will recuse themselves from considering your report. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
+귀하의 보고서가 위원회 구성원과 관련이 있거나 보고서를 처리하는 데 이해 상충이 있다고 생각하는 경우 귀하의 보고서를 고려하지 않을 것입니다. 또는 어떤 이유로든 위원회에 보고하는 것이 불편하다고 느끼면 NumFOCUS 고위 직원에게 연락하셔도 됩니다. [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
-### Incident reporting resolution & Code of Conduct enforcement
+### 신고 해결 & 이용약관 강령
 
-_This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](/report-handling-manual).
+_이 섹션은 가장 중요한 사항을 요약하고 자세한 내용_은 [NumPy 행동 강령 - 보고에 대한 후속 조치 방법](/report-handling-manual)에서 찾을 수 있습니다.
 
-We will investigate and respond to all complaints. The NumPy Code of Conduct Committee and the NumPy Steering Committee (if involved) will protect the identity of the reporter, and treat the content of complaints as confidential (unless the reporter agrees otherwise).
+우리는 모든 불만을 조사하고 대응할 것입니다. NumPy 행동 강령 위원회와 NumPy 운영 위원회(관련된 경우) 는 신고자의 신원을 보호하고 신고 내용을 기밀로 취급합니다(신고자가 달리 동의하지 않는 한).
 
-In case of severe and obvious breaches, e.g. personal threat or violent, sexist or racist language, we will immediately disconnect the originator from NumPy communication channels; please see the manual for details.
+심각하고 명백한 위반의 경우, 예: 개인적인 위협이나 폭력적, 성차별적 또는 인종차별적 언어를 사용하는 경우 NumPy 통신 채널에서 발신자를 즉시 연결 해제합니다. 자세한 내용은 설명서를 참조하십시오.
 
-In cases not involving clear severe and obvious breaches of this Code of Conduct the process for acting on any received Code of Conduct violation report will be:
+본 행동 강령의 명백하고 명백한 위반과 관련되지 않은 경우 접수된 행동 강령 위반 보고서에 따라 조치를 취하는 절차는 다음과 같습니다.
 
-1. acknowledge report is received,
-2. reasonable discussion/feedback,
-3. mediation (if feedback didn’t help, and only if both reporter and reportee agree to this),
-4. enforcement via transparent decision (see [Resolutions](/report-handling-manual/#resolutions)) by the Code of Conduct Committee.
+1. 보고서를 수신 확인,
+2. 합리적인 토론/피드백,
+3. 중재(피드백이 도움이 되지 않은 경우, 신고자와 피신고자 모두 동의하는 경우에만),
+4. 행동 강령 위원회의 투명한 결정([해결책](/report-handling-manual/#resolutions) 참조) 을 통한 집행.
 
-The Committee will respond to any report as soon as possible, and at most within 72 hours.
+위원회는 가능한 한 빨리, 최대 72시간 이내에 보고에 응답할 것입니다.
 
-### Endnotes
+### 끝내며
 
-We are thankful to the groups behind the following documents, from which we drew content and inspiration:
+내용과 영감을 얻은 다음 문서의 배후에 있는 그룹에 감사드립니다.
 
-- [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
+- [SciPy 이용 약관](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
