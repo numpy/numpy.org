@@ -55,7 +55,7 @@ Numpy プロジェクトのコアメンバーは、プロジェクトへの貢�
 
 - Charles Harris
 - Ralf Gommers
-- Melissa Weber Mendonça
+- Inessa Pawson
 - Sebastian Berg
 - 外部メンバー: Thomas Caswell
 
