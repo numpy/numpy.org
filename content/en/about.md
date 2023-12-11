@@ -56,7 +56,7 @@ See the [Team]({{< relref "/teams" >}}) page for more info.
 
 - Charles Harris
 - Ralf Gommers
-- Melissa Weber Mendonça
+- Inessa Pawson
 - Sebastian Berg
 - External member: Thomas Caswell
 
