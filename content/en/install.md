@@ -10,7 +10,7 @@ Python, NumPy, and many other commonly used packages for scientific computing
 and data science.
 
 NumPy can be installed with `conda`, with `pip`, with a package manager on
-macOS and Linux, or [from source](https://numpy.org/devdocs/user/building.html).
+macOS and Linux, or [from source](https://numpy.org/devdocs/building).
 For more detailed instructions, consult our [Python and NumPy
 installation guide](#python-numpy-install-guide) below.
 
