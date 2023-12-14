@@ -28,7 +28,6 @@ _ポルトガル語_
 * Melissa Weber Mendonça (melissawm)
 * Ricardo Prins (ricardoprins)
 * Getúlio Silva (getuliosilva)
->>>>>>> 4528610 (New translations news.md (Japanese))
 * Julio Batista Silva (jbsilva)
 * Alexandre de Siqueira (alexdesiqueira)
 * Alexandre B A Villares (villares)
@@ -226,7 +225,7 @@ _2019年11月15日_ -- NumPyと、NumPyの重要な依存ライブラリの1つ�
 
 こちらは、より以前のNumPyリリースのリストで、各リリースノートへのリンクが記載されています。 全てのバグフィックスリリース(バージョン番号`x.y.z` の`z`だけが変更されたもの)は新しい機能追加はされず、マイナーリリース (`y` が増えたもの)は、新しい機能追加されています。
 
-<<<<<<< HEAD
+
 - NumPy 1.26.2 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.26.2)) -- _2023年11月12日_.
 - NumPy 1.26.1 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.26.1)) -- _2023年10月14日_.
 - NumPy 1.26.0 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.26.0)) -- _2023年9月16日_.
