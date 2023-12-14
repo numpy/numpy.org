@@ -76,7 +76,7 @@ params:
         url: https://github.com/xtensor-stack/xtensor-python
       - 
         title: Awkward Array
-        text: Manipulate JSON-like data with NumPy-like idioms.
+        text: Manipulação de dados JSON-like com sintaxe NumPy-like.
         img: /images/content_images/arlib/awkward.svg
         alttext: awkward
         url: https://awkward-array.org/
