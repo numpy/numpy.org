@@ -26,7 +26,6 @@ _2 de agosto de 2023_ -- numpy.org agora está disponível em 2 idiomas adiciona
 
 _Português:_
 * Melissa Weber Mendonça (melissawm)
->>>>>>> 2ea4033 (New translations news.md (Portuguese, Brazilian))
 * Ricardo Prins (ricardoprins)
 * Getúlio Silva (getuliosilva)
 * Julio Batista Silva (jbsilva)
