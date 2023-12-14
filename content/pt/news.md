@@ -9,7 +9,7 @@ date: 2023-09-16
 
 _16 de setembro de 2023_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html) está disponível. Os destaques desta versão são:
 
-* Suport ao Python 3.12.0.
+* Suporte ao Python 3.12.0.
 * Compatibilidade com Cython 3.0.0.
 * Utilização do sistema Meson para compilação
 * Suport a SIMD atualizado
