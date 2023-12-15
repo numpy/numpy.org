@@ -1,35 +1,48 @@
 ---
 title: ニュース
 sidebar: false
-newsHeader: "numpy.orgが日本語とポルトガル語に対応しました。"
-date: 2023-08-02
-newsLink: /ja/news
+newsHeader: "NumPy 1.26.0 がリリースされました。"
+date: 2023-09-16
 ---
 
-### numpy.orgが日本語とポルトガル語に対応しました。
+### NumPy 1.26.0 がリリースされました。
 
-_2023年8月2日_ -- numpy.orgが2つの言語で利用可能になりました：
-日本語とポルトガル語。 私たちの熱心なボランティアがいなければ、これは不可能です：
+_2023年9月16日_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html)がリリースされました。 今回のリリースの目玉機能は次のとおりです。
 
-_ポルトガル語:_
-* Melissa Weber Mendonça (melissawm)
+* Python 3.12.0 のサポート
+* Cython 3.0.0 との互換性
+* Mesonビルドシステムの利用
+* SIMD サポートの改善
+* f2py のバグ修正, meson と bind(x) のサポート
+* 更新された BLAS/LAPACK の高速化ライブラリのサポート
+
+Numpy 1.26.0 は 1.25 からの互換性を保持しています。Mesonビルドシステムへの移行とCython 3.0.0のサポートが目的のリリースです。 合計20人がこのリリースに貢献し、59個のプルリクエストがマージされました。
+
+このリリースでサポートされている Python のバージョンは3.9から 3.12 です。
+
+### numpy.orgが日本語とポルトガル語で利用可能になりました
+
+_2023年4月2日_ -- numpy.orgが2つの言語で利用可能になりました： 日本語とポルトガル語。 熱心なボランティアがいなければ、このプロジェクトは不可能でした：
+
+_ポルトガル語_
+* Melissa Weber Mendonça (melissawm)
 * Ricardo Prins (ricardoprins)
-* Getúlio Silva (getuliosilva)
+* Getúlio Silva (getuliosilva)
 * Julio Batista Silva (jbsilva)
 * Alexandre de Siqueira (alexdesiqueira)
 * Alexandre B A Villares (villares)
 * Vini Salazar (vinisalazar)
 
-_日本語:_
+_日本語：_
 * Atsushi Sakai (AtsushiSakai)
 * KKunai
 * Tom Kelly (TomKellyGenetics)
 * Yuji Kanagawa (kngwyu)
 * Tetsuo Koyama (tkoyama010)
 
-翻訳インフラストラクチャに関する作業は、CZIからの資金援助でサポートされています。
+翻訳インフラストラクチャに関するプロジェクトは、CZIからの資金援助でサポートされています。
 
-今後は、ウェブサイトをより多くの言語に翻訳したいと思います。 手伝いたい場合は、Slack上のNumPy翻訳チームと繋がってください: https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w. (#translations チャンネルを探してください) また、Scientific Pythonエコシステム全体のドキュメントや教育コンテンツのローカライズに取り組む 翻訳チームも 立ち上げています。 これが興味を引いた場合は、Scientific Python Discordに参加してください: https://discord.gg/khWtqY6RKr (#translation チャンネルを探してください)
+今後も、NumPyのウェブサイトをより多くの言語に翻訳したいと思っています。 もし手伝える場合は、Slack上のNumPy翻訳チームに連絡をお願います: https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w. (#translation チャンネルを探してください) また、Scientific Pythonエコシステム全体のドキュメントや教育コンテンツのローカライズに取り組む翻訳チームも 立ち上げています。 このプロジェクトにも興味がある場合は、是非Scientific Python Discordに参加してください: https://discord.gg/khWtqY6RKr. (#translation チャンネルを探してください)
 
 ### NumPy 1.25.0 リリース
 
@@ -58,7 +71,7 @@ _2023年1月6日_ –- Mukulika PahariとRoss Barnowskiは、Melissa MendoncAudi
 
 ### NumPy 1.24.0 リリース
 
-_2022年12月18日_ -- [Numpy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) がリリースされました。 今回のリリースの目玉機能は次のとおりです。
+_2022年12月18日_ -- [Numpy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) がリリースされました。 今回のリリースのハイライトは次のとおりです。
 
 * スタッキング関数のための新しい"dtype"と"casting"キーワードの追加
 * F2PYの新機能追加とバグ修正
@@ -120,7 +133,7 @@ _2021年7月12日_ -- NumPy ではコミュニティの力を信じています�
 
 ### NumPy 1.19.0 リリース
 
-_2021年1月23日_ -- [Numpy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) がリリースされました。 今回のリリースの目玉機能は次のとおりです。
+_2021年1月23日_ -- [Numpy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) がリリースされました。 今回のリリースのハイライトは下記の通りです。
 
 - より多くの機能やプラットフォームをカバーするためのSIMD関連の改善が実施されました。
 - dtypeのための新しいインフラとキャストの準備
@@ -212,6 +225,10 @@ _2019年11月15日_ -- NumPyと、NumPyの重要な依存ライブラリの1つ�
 
 こちらは、より以前のNumPyリリースのリストで、各リリースノートへのリンクが記載されています。 全てのバグフィックスリリース(バージョン番号`x.y.z` の`z`だけが変更されたもの)は新しい機能追加はされず、マイナーリリース (`y` が増えたもの)は、新しい機能追加されています。
 
+
+- NumPy 1.26.2 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.26.2)) -- _2023年11月12日_.
+- NumPy 1.26.1 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.26.1)) -- _2023年10月14日_.
+- NumPy 1.26.0 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.26.0)) -- _2023年9月16日_.
 - NumPy 1.25.2 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.25.2)) -- _2023年7月31日_.
 - NumPy 1.25.1 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.25.1)) -- _2023年7月8日_.
 - NumPy 1.24.4 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.24.4)) -- _2023年6月26日_.

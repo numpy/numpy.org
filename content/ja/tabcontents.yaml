@@ -28,7 +28,7 @@ params:
         url: https://cupy.chainer.org
       - 
         title: JAX
-        text: "NumPyコードの合成可能な変換ライブラリ:  微分、ベクトル化、GPU/TPUへのジャストインタイムコンパイル"
+        text: "NumPyコードの合成可能な変換ライブラリ: 微分、ベクトル化、GPU/TPUへのジャストインタイムコンパイル"
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
         url: https://github.com/google/jax
@@ -75,11 +75,11 @@ params:
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
       - 
-        title: XND
+        title: Awkward
         text: Numpy のような イディオムを使って JSON のようなデータを操作するライブラリ
         img: /images/content_images/arlib/xnd.png
-        alttext: xnd
-        url: https://xnd.io
+        alttext: awkward
+        url: https://awkward-array.org/
       - 
         title: uarray
         text: APIを実装から切り離すPythonバックエンドシステム (unumpyはNumPy APIを提供しています)
@@ -120,7 +120,7 @@ params:
         alttext: シンプルなグラフ
         img: /images/content_images/sc_dom_img/sd6.svg
       - 
-        title: 天文学における計算
+        title: 天文学
         alttext: 望遠鏡
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
       - 
@@ -207,7 +207,7 @@ params:
       - 
         url: https://napari.org
         img: /images/content_images/v_napari.png
-        alttext: ナパリで作られた多次元画像
+        alttext: napariで作られた多次元画像
       - 
         url: https://vispy.org/gallery/index.html
         img: /images/content_images/v_vispy.png
@@ -216,4 +216,4 @@ params:
       - 
         text: NumPyは、[Matplotlib](https://matplotlib.org)、[Seaborn](https://seaborn.pydata.org)、[Plotly](https://plot.ly)、[Altair](https://altair-viz.github.io)、[Bokeh](https://docs.bokeh.org/en/latest/)、[Holoviz](https://holoviz.org)、[Vispy](http://vispy.org)、[Napari](https://github.com/napari/napari)、[PyVista](https://github.com/pyvista/pyvista)などの、急成長している[Python visualization landscape](https://pyviz.org/overviews/index.html)に欠かせないコンポーネントです。
       - 
-        text: NumPy の大規模配列の高速処理により、研究者はネイティブの Python が扱うことができるよりも、はるかに大きなデータセットを可視化することができます。
+        text: NumPy の大規模配列の高速処理により、研究者は、ネイティブの Python が扱うことができるよりもはるかに大きなデータセットを可視化することができます。
