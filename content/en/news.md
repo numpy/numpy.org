@@ -2,7 +2,7 @@
 title: News
 sidebar: false
 newsHeader: "NumFOCUS + PyCharm end of the year fundraiser"
-date: 2023-09-16
+date: 2023-12-19
 ---
 
 ### NumFOCUS end of the year fundraiser
