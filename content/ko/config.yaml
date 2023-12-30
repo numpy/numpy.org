@@ -21,7 +21,7 @@ params:
     intro:
       - 
         title: NumPy 써 보기
-        text: Use the interactive shell to try NumPy in the browser
+        text: 대화형 셸을 이용해 브라우저에서 NumPy를 사용해보세요
     docslink: <a href="https://numpy.org/doc/stable" target="_blank">문서</a>도 한 번 열람해보세요.
   casestudies:
     title: 사례 연구
