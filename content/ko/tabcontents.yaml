@@ -2,7 +2,7 @@ params:
   machinelearning:
     paras:
       - 
-        para1: NumPy forms the basis of powerful machine learning libraries like [scikit-learn](https://scikit-learn.org) and [SciPy](https://www.scipy.org). As machine learning grows, so does the list of libraries built on NumPy. [TensorFlow’s](https://www.tensorflow.org) deep learning capabilities have broad applications &mdash; among them speech and image recognition, text-based applications, time-series analysis, and video detection. [PyTorch](https://pytorch.org), another deep learning library, is popular among researchers in computer vision and natural language processing. [MXNet](https://github.com/apache/incubator-mxnet) is another AI package, providing blueprints and templates for deep learning.
+        para1: NumPy는 [scikit-learn](https://scikit-learn.org) 및 [SciPy](https://www.scipy.org)와 같은 강력한 기계 학습 라이브러리의 기반을 형성합니다. 기계 학습이 성장함에 따라 NumPy에 구축된 라이브러리 목록도 늘어납니다. [TensorFlow의](https://www.tensorflow.org) 딥 러닝 기능은 폭넓게 응용할 수 있습니다. &mdash; 그 중에는 음성 및 이미지 인식, 텍스트 기반 애플리케이션, 시계열 분석 및 비디오 감지가 있습니다. 또 다른 딥 러닝 라이브러리인 [PyTorch](https://pytorch.org)는 컴퓨터 비전 및 자연어 처리 연구자들 사이에서 인기가 있습니다. [MXNet](https://github.com/apache/incubator-mxnet)은 딥 러닝을 위한 청사진과 템플릿을 제공하는 또 다른 AI 패키지입니다.
         para2: Statistical techniques called [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205) methods such as binning, bagging, stacking, and boosting are among the ML algorithms implemented by tools such as [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [CatBoost](https://catboost.ai) &mdash; one of the fastest inference engines. [Yellowbrick](https://www.scikit-yb.org/en/latest/) and [Eli5](https://eli5.readthedocs.io/en/latest/) offer machine learning visualizations.
   arraylibraries:
     intro:
@@ -10,61 +10,61 @@ params:
         text: NumPy's API is the starting point when libraries are written to exploit innovative hardware, create specialized array types, or add capabilities beyond what NumPy provides.
     headers:
       - 
-        text: Array Library
+        text: 배열 라이브러리
       - 
-        text: Capabilities & Application areas
+        text: 기능 및 응용 분야
     libraries:
       - 
         title: Dask
-        text: Distributed arrays and advanced parallelism for analytics, enabling performance at scale.
+        text: 분석을 위한 분산 배열 및 고급 병렬 처리를 통해 규모에 맞는 성능을 구현합니다.
         img: /images/content_images/arlib/dask.png
         alttext: Dask
         url: https://dask.org/
       - 
         title: CuPy
-        text: NumPy-compatible array library for GPU-accelerated computing with Python.
+        text: Python에서 GPU 가속 컴퓨팅을 구현해주며 NumPy와 호환되는 배열 라이브러리.
         img: /images/content_images/arlib/cupy.png
         alttext: CuPy
         url: https://cupy.chainer.org
       - 
         title: JAX
-        text: "Composable transformations of NumPy programs: differentiate, vectorize, just-in-time compilation to GPU/TPU."
+        text: "NumPy 프로그램을 부분적으로 변환하여 벡터화, GPU/TPU의 적시 컴파일을 제공하는 라이브러리."
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
         url: https://github.com/google/jax
       - 
         title: Xarray
-        text: Labeled, indexed multi-dimensional arrays for advanced analytics and visualization
+        text: 고급 통계 및 시각화를 구동하기 위하여 라벨링 및 인덱싱이 이뤄진 다차원 배열을 제공
         img: /images/content_images/arlib/xarray.png
         alttext: xarray
         url: https://xarray.pydata.org/en/stable/index.html
       - 
         title: Sparse
-        text: NumPy-compatible sparse array library that integrates with Dask and SciPy's sparse linear algebra.
+        text: Dask 및 SciPy의 희소 선형 대수와 통합되는 NumPy 호환 희소 배열 라이브러리입니다.
         img: /images/content_images/arlib/sparse.png
         alttext: sparse
         url: https://sparse.pydata.org/en/latest/
       - 
         title: PyTorch
-        text: Deep learning framework that accelerates the path from research prototyping to production deployment.
+        text: 연구 프로토타이핑에서 프로덕션 배포로의 경로를 가속화하는 딥 러닝 프레임워크입니다.
         img: /images/content_images/arlib/pytorch-logo-dark.svg
         alttext: PyTorch
         url: https://pytorch.org/
       - 
         title: TensorFlow
-        text: An end-to-end platform for machine learning to easily build and deploy ML powered applications.
+        text: 기계 학습을 위한 엔드 투 엔드 플랫폼으로 ML 기반 애플리케이션을 쉽게 구축하고 배포할 수 있습니다.
         img: /images/content_images/arlib/tensorflow-logo.svg
         alttext: TensorFlow
         url: https://www.tensorflow.org
       - 
         title: MXNet
-        text: Deep learning framework suited for flexible research prototyping and production.
+        text: 유연한 연구 프로토타이핑 및 생산에 적합한 딥 러닝 프레임워크입니다.
         img: /images/content_images/arlib/mxnet_logo.png
         alttext: MXNet
         url: https://mxnet.apache.org/
       - 
         title: Arrow
-        text: A cross-language development platform for columnar in-memory data and analytics.
+        text: 열 기반 메모리 내 데이터 및 분석을 위한 교차 언어 개발 플랫폼입니다.
         img: /images/content_images/arlib/arrow.png
         alttext: arrow
         url: https://github.com/apache/arrow
