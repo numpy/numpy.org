@@ -43,7 +43,7 @@ sidebar: false
 
 병합에서 방출되는 중력파는 슈퍼컴퓨터를 사용하는 무차별 대입 수치 상대성 이론을 제외하고는 어떤 기술로도 계산할 수 없습니다. LIGO가 수집하는 데이터의 양은 중력파 신호가 작은 만큼 이해할 수 없을 정도로 많습니다.
 
-Python용 표준 수치 분석 패키지인 NumPy는 LIGO의 GW 탐지 프로젝트 동안 수행되는 다양한 작업에 사용되는 소프트웨어에서 활용되었습니다. NumPy는 복잡한 수학 및 데이터 조작을 고속으로 해결하는 데 도움이 되었습니다.  Here are some examples:
+Python용 표준 수치 분석 패키지인 NumPy는 LIGO의 GW 탐지 프로젝트 동안 수행되는 다양한 작업에 사용되는 소프트웨어에서 활용되었습니다. NumPy는 복잡한 수학 및 데이터 조작을 고속으로 해결하는 데 도움이 되었습니다.  몇 가지 예시를 들자면:
 
 * [신호 처리](https://www.uv.es/virgogroup/Denoising_ROF.html): 글리치 검출,  [잡음 식별 및 데이터 결정](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf) (NumPy, scikit-learn, scipy, matplotlib, pandas, pyCharm)
 * 데이터 수집: 어떤 데이터를 분석할 수 있을지 결정하고, 모래 속 바늘과 같이 미미한 신호가 있는지 파악
