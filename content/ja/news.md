@@ -1,14 +1,14 @@
 ---
 title: ニュース
 sidebar: false
-newsHeader: "NumPy 1.26.0 released"
+newsHeader: "NumPy 1.26.0 がリリースされました。"
 date: 2023-09-16
 ---
 
-### NumPy 1.26.0 がリリースされました。
-_Dec 19, 2023_ -- NumFOCUS has teamed up with PyCharm during their EOY campaign to offer a 30% discount on first-time PyCharm licenses. All year-one revenue from PyCharm purchases from now until December 23rd, 2023 will go directly to the NumFOCUS programs.
+### NumFOCUSの年末の資金調達
+_2023年12月19日_ -- NumFOCUSは、年末キャンペーンでPyCharmチームと協力し、PyCharmライセンスの初回購入に30%の割引を提供しています。 2023年12月23日までのPyCharm購入による1年目の収益は全てNumFOCUSのプログラムに直接寄付されます。
 
-Use unique URL that will allow to track purchases https://lp.jetbrains.com/support-data-science/ or a coupon code ISUPPORTDATASCIENCE 
+購入される方はこちらのURLか:  https://lp.jetbrains.com/support-data-science/ こちらのクーポンコードを利用してください: ISUPPORTDATASCIENCE 
 
 ### NumPy 1.26.0 がリリースされました。
 
