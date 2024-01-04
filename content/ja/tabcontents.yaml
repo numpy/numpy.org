@@ -100,8 +100,8 @@ params:
         text: "Numpy は、 C や Fortran のような言語の計算パフォーマンスを、Pythonにもたらします。 このパワーはNumPyのシンプルさから来ており、NumPyによるソリューションの多くは明確でエレガントになります。"
     libraries:
       - 
-        title: Quantum Computing
-        alttext: A computer chip.
+        title: 量子コンピューティング
+        alttext: コンピューターチップ
         img: /images/content_images/sc_dom_img/quantum_computing.svg
         links:
           - 
@@ -117,8 +117,8 @@ params:
             url: https://pennylane.ai
             label: PennyLane
       - 
-        title: Statistical Computing
-        alttext: A line graph with the line moving up.
+        title: 統計コンピューティング
+        alttext: 線グラフが上に移動します。
         img: /images/content_images/sc_dom_img/statistical_computing.svg
         links:
           - 
@@ -134,8 +134,8 @@ params:
             url: https://github.com/mwaskom/seaborn
             label: Seaborn
       - 
-        title: Signal Processing
-        alttext: A bar chart with positive and negative values.
+        title: 信号処理
+        alttext: 正と負の値を持つ棒グラフ。
         img: /images/content_images/sc_dom_img/signal_processing.svg
         links:
           - 
@@ -148,8 +148,8 @@ params:
             url: https://python-control.org/
             label: python-control
       - 
-        title: Image Processing
-        alttext: An photograph of the mountains.
+        title: 画像処理
+        alttext: 山々の写真
         img: /images/content_images/sc_dom_img/image_processing.svg
         links:
           - 
@@ -162,8 +162,8 @@ params:
             url: https://mahotas.rtfd.io/
             label: Mahotas
       - 
-        title: Graphs and Networks
-        alttext: A simple graph.
+        title: グラフとネットワーク
+        alttext: シンプルなグラフ
         img: /images/content_images/sc_dom_img/sd6.svg
         links:
           - 
@@ -179,8 +179,8 @@ params:
             url: https://pygsp.rtfd.io/
             label: PyGSP
       - 
-        title: Astronomy
-        alttext: A telescope.
+        title: 天文学
+        alttext: 望遠鏡
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
         links:
           - 
@@ -193,16 +193,16 @@ params:
             url: https://github.com/spacepy/spacepy
             label: SpacePy
       - 
-        title: Cognitive Psychology
-        alttext: A human head with gears.
+        title: 認知心理学
+        alttext: ギアをつけた人間の頭部
         img: /images/content_images/sc_dom_img/cognitive_psychology.svg
         links:
           - 
             url: https://www.psychopy.org/
             label: PsychoPy
       - 
-        title: Bioinformatics
-        alttext: A strand of DNA.
+        title: 生命情報科学
+        alttext: DNAの鎖
         img: /images/content_images/sc_dom_img/bioinformatics.svg
         links:
           - 
@@ -218,8 +218,8 @@ params:
             url: http://etetoolkit.org/
             label: ETE
       - 
-        title: Bayesian Inference
-        alttext: A graph with a bell-shaped curve.
+        title: ベイズ推論
+        alttext: 鐘形の曲線のグラフ
         img: /images/content_images/sc_dom_img/bayesian_inference.svg
         links:
           - 
@@ -235,8 +235,8 @@ params:
             url: https://emcee.readthedocs.io/
             label: emcee
       - 
-        title: Mathematical Analysis
-        alttext: Four mathematical symbols.
+        title: 数学的分析
+        alttext: ４つの数学記号
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
         links:
           - 
@@ -252,8 +252,8 @@ params:
             url: https://fenicsproject.org/
             label: FEniCS
       - 
-        title: Chemistry
-        alttext: A test tube.
+        title: 化学
+        alttext: 試験管
         img: /images/content_images/sc_dom_img/chemistry.svg
         links:
           - 
@@ -269,8 +269,8 @@ params:
             url: https://www.pybamm.org/
             label: PyBaMM
       - 
-        title: Geoscience
-        alttext: The Earth.
+        title: 地球科学
+        alttext: 地球
         img: /images/content_images/sc_dom_img/geoscience.svg
         links:
           - 
@@ -286,8 +286,8 @@ params:
             url: https://www.fatiando.org/
             label: Fatiando a Terra
       - 
-        title: Geographic Processing
-        alttext: A map.
+        title: 地理情報処理
+        alttext: 地図
         img: /images/content_images/sc_dom_img/GIS.svg
         links:
           - 
@@ -300,8 +300,8 @@ params:
             url: https://python-visualization.github.io/folium
             label: Folium
       - 
-        title: Architecture & Engineering
-        alttext: A microprocessor development board.
+        title: アーキテクチャとエンジニアリング
+        alttext: マイクロプロセッサ開発ボード
         img: /images/content_images/sc_dom_img/robotics.svg
         links:
           - 
@@ -309,7 +309,7 @@ params:
             label: COMPAS
           - 
             url: https://cityenergyanalyst.com/
-            label: City Energy Analyst
+            label: 都市エネルギー分析
           - 
             url: https://nortikin.github.io/sverchok/
             label: Sverchok
