@@ -3,11 +3,9 @@ title: Obter ajuda
 sidebar: false
 ---
 
-**Perguntas de usuários:** A melhor maneira de obter ajuda é postar sua pergunta em um site como [StackOverflow](http://stackoverflow.com/questions/tagged/numpy), com milhares de usuários disponíveis para responder.  Outras alternativas incluem [IRC](https://webchat.freenode.net/?channels=%23numpy), [Gitter](https://gitter.im/numpy/numpy)e [Reddit](https://www.reddit.com/r/Numpy/). Gostaríamos de poder ficar de olho nestes sites, ou responder perguntas diretamente, mas o volume é imenso!
+**Development issues:** For NumPy development-related matters (e.g., bug reports), please see [Community](/community).
 
-**Issues sobre desenvolvimento:** Para assuntos relacionados ao desenvolvimento do NumPy (por exemplo, relatórios de bugs), veja a [Comunidade](/community).
-
-
+**User questions:** The best way to get help is to post your question to a site like [StackOverflow](http://stackoverflow.com/questions/tagged/numpy) or [Reddit](https://www.reddit.com/r/Numpy/). We wish we could keep an eye on these sites, or answer questions directly, but the volume is a little overwhelming!
 
 ### [StackOverflow](http://stackoverflow.com/questions/tagged/numpy)
 
@@ -18,17 +16,5 @@ Um fórum para fazer perguntas sobre a utilização da biblioteca, por exemplo: 
 ### [Reddit](https://www.reddit.com/r/Numpy/)
 
 Outro fórum para perguntas de utilização.
-
-***
-
-### [Gitter](https://gitter.im/numpy/numpy)
-
-Uma sala de bate-papo em tempo real onde usuários e membros da comunidade se ajudam uns aos outros.
-
-***
-
-### [IRC](https://webchat.freenode.net/?channels=%23numpy)
-
-Outra sala de bate-papo em tempo real onde usuários e membros da comunidade se ajudam uns aos outros.
 
 ***
