@@ -5,8 +5,8 @@ sidebar: false
 
 {{< figure src="/images/content_images/cs/ipl-stadium.png" caption="** IPLT20、インド最大のクリケットフェスティバル**" alt="Indian Premier League Cricket cup and stadium" attr="*(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
 
-{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, *International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL*"
-> }} You don't play for the crowd, you play for the country. 
+{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, *世界的なクリケットプレイヤーであり、前世界王者、インドチームで活躍し、IPLにおけるチェンナイスーパー王者となった*"
+> }} 観客のために競技しているのではなく、国のために競技しているのです。 
 > 
 > {{< /blockquote >}}
 
