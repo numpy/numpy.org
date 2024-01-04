@@ -5,8 +5,8 @@ sidebar: false
 
 {{< figure src="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**DeepLapCutを用いたマウスの手の動きの解析 **" alt="micehandanim" attr="*(Source: www.deeplabcut.org )*" attrlink="http://www.mousemotorlab.org/deeplabcut">}}
 
-{{< blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/" by="Alexander Mathis, *Assistant Professor, École polytechnique fédérale de Lausanne* ([EPFL](https://www.epfl.ch/en/))"
-> }} Open Source Software is accelerating Biomedicine. DeepLabCut を使用すると、深層学習を使用して動物の行動を自動的にビデオ解析することができます。 
+{{< blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/" by="Alexander Mathis, * ローザンヌ連邦工科大学([EPFL](https://www.epfl.ch/en/))の助教授 *"
+> }} オープンソースソフトウェアは生体臨床医学を加速させています。 DeepLabCut を使用すると、深層学習を使用して動物の行動を自動的にビデオ解析することができます。 
 > 
 > {{< /blockquote >}}
 
