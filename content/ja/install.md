@@ -3,9 +3,11 @@ title: NumPyのインストール
 sidebar: false
 ---
 
-NumPyをインストールするための唯一必要なものは、Pythonそのものだけです。 もしまだPythonをイントールしておらず、最もシンプルなインストール方法をお探しなら、[Anaconda Distribution](https://www.anaconda.com/distribution)の使用をおすすめします。これにはPython、NumPy、および科学計算やデータサイエンスでよく使われる様々な多くのパッケージが含まれています。
+NumPyをインストールするための唯一必要なものは、Pythonそのものだけです。 もしまだPythonをイントールしておらず、最もシンプルなインストール方法をお探しなら、[Anaconda Distribution](https://www.anaconda.com/distribution)の使用をおすすめします。これにはPython、NumPy、および科学計算やデータサイエンスでよく使われる様々な多くのパッケージが含まれています。 まずはユーザの経験レベルと、関心のあるOSに基づいた推奨方法から説明していきたいと思います。 PythonやNumPyの経験が「初級」と「上級」の間の方は、シンプルにインストールしたい場合は「初級」を、より長い視点にたったベストプラクティスに沿ってインストールしたい方は「上級」を参照ください。
 
 NumPyは`conda`、`pip` 、macOSやLinuxのパッケージマネージャー、または [ソースコード](https://numpy.org/devdocs/building)からインストールすることが出来ます。 詳細な手順については、以下の [Python と Numpyの インストールガイド](#python-numpy-install-guide) を参照してください。
+For more detailed instructions, consult our Python and NumPy
+installation guide below.
 
 **CONDA**
 
@@ -28,18 +30,25 @@ conda install numpy
 ```bash
 pip install numpy
 ```
-またpipを使う場合、仮想環境を使うことをおすすめします。 [再現可能なインストール](#reproducible-installs)を参照ください。 [こちらの記事](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto)では仮想環境を使う詳細について説明されています。
 
+またpipを使う場合、仮想環境を使うことをおすすめします。 [再現可能なインストール](#reproducible-installs)を参照ください。 [こちらの記事](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto)では仮想環境を使う詳細について説明されています。
 
 <a name="python-numpy-install-guide"></a>
 
 # PythonとNumPyの インストールガイド
 
-Pythonパッケージのインストールと管理は複雑なので、ほとんどのタスクには数多くの代替ツールがあります。 このガイドでは、読者に最適な(または最も人気のある) 方法と明確な指針を提供したいと思います。 このガイドでは、一般的なオペレーティングシステムとハードウェア上での、 Python、NumPy、PyData (または数値計算) スタックのユーザに焦点を当てています。
+Pythonパッケージのインストールと管理は複雑なので、ほとんどのタスクには数多くの代替ツールがあります。 このガイドでは、読者に最適な(または最も人気のある) 方法と明確な指針を提供したいと思います。 このガイドでは、一般的なオペレーティングシステムとハードウェア上での、 Python、NumPy、PyData (または数値計算) スタックのユーザに焦点を当てています。 This guide tries to give the
+reader a sense of the best (or most popular) solutions, and give clear
+recommendations. It focuses on users of Python, NumPy, and the PyData (or
+numerical computing) stack on common operating systems and hardware.
 
 ## 推奨方法
 
-まずはユーザの経験レベルと、関心のあるOSに基づいた推奨方法から説明していきたいと思います。 PythonやNumPyの経験が「初級」と「上級」の間の方は、シンプルにインストールしたい場合は「初級」を、より長い視点にたったベストプラクティスに沿ってインストールしたい方は「上級」を参照ください。
+We'll start with recommendations based on the user's experience level and
+operating system of interest. If you're in between "beginning" and "advanced",
+please go with "beginning" if you want to keep things simple, and with
+"advanced" if you want to work according to best practices that go a longer way
+in the future.
 
 ### 初級ユーザ
 
@@ -48,7 +57,6 @@ Windows、macOS、Linuxのすべてのユーザー向けには:
 - [Anaconda](https://www.anaconda.com/distribution/) をインストールします（必要な パッケージと以下に挙げるすべてのツールがインストールされます）。
 - コードを書いたり、実行してみましょう。 探索的・対話的コンピューティングには[JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html)のノートブックが便利です。 スクリプトやパッケージの作成には[Spyder](https://www.spyder-ide.org/)や[Visual Studio Code](https://code.visualstudio.com/)を利用できます。
 - [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) を使ってパッケージを管理し、JupyterLab、Spyder、Visual Studio Codeを使い始められます。
-
 
 ### 上級ユーザー
 
@@ -60,30 +68,41 @@ Windows、macOS、Linuxのすべてのユーザー向けには:
 #### pip/PyPI を利用したい場合
 
 個人的な好みや、下記のcondaとpipの違いを理解した上で、pip/PyPIベースの方法を使いたいユーザーには、下記をお勧めします:
+
 - [python.org](https://www.python.org/downloads/)からや、Macを使っている場合は[Homebrew](https://brew.sh/)、 Linuxを使っている場合は、Linuxのパッケージマネージャーを使ってPythonをインストールします。
 - 依存関係の解決と環境の管理を提供する最もよくメンテナンスされているツールとして、[Poetry](https://python-poetry.org/) をconda と同様な方法で使用することができます。
 
-
 ## Pythonにおけるパッケージ管理
 
-パッケージの管理は難しいため、たくさんのツールが存在しています。 ウェブ開発と汎用的なPython開発には、こちらのようなpipを補完する [ツール](https://packaging.python.org/guides/tool-recommendations/) があります。 ハイパフォーマンスコンピューティング(HPC)では、 [Spack](https://github.com/spack/spack) を使うことを検討して下さい。 NumPyのほとんどのユーザーにとっては、 [conda](https://conda.io/en/latest/) と [pip](https://pip.pypa.io/en/stable/) が最も広く利用されているツールです。
-
+Managing packages is a challenging problem, and, as a result, there are lots of
+tools. パッケージの管理は難しいため、たくさんのツールが存在しています。 ウェブ開発と汎用的なPython開発には、こちらのようなpipを補完する [ツール](https://packaging.python.org/guides/tool-recommendations/) があります。 ハイパフォーマンスコンピューティング(HPC)では、 [Spack](https://github.com/spack/spack) を使うことを検討して下さい。 NumPyのほとんどのユーザーにとっては、 [conda](https://conda.io/en/latest/) と [pip](https://pip.pypa.io/en/stable/) が最も広く利用されているツールです。 For high-performance computing (HPC),
+[Spack](https://github.com/spack/spack) is worth considering. For most NumPy
+users though, [conda](https://conda.io/en/latest/) and
+[pip](https://pip.pypa.io/en/stable/) are the two most popular tools.
 
 ### Pipとconda
 
-`pip` と `conda` がPythonパッケージをインストールするための2つの主要なツールです。 これら二つのツールの機能は部分的に重複しますが(例えば、両方とも `numpy`をインストールできます)、一緒に動作することもできます。 ここでは、pip とcond の主要な違いについて説明します。 これは、パッケージをどのように効果的に管理するかを理解したい場合、重要な知識です。
+`pip` と `conda` がPythonパッケージをインストールするための2つの主要なツールです。 これら二つのツールの機能は部分的に重複しますが(例えば、両方とも `numpy`をインストールできます)、一緒に動作することもできます。 ここでは、pip とcond の主要な違いについて説明します。 これは、パッケージをどのように効果的に管理するかを理解したい場合、重要な知識です。 Their
+functionality partially overlaps (e.g. both can install `numpy`), however, they
+can also work together. We'll discuss the major differences between pip and
+conda here - this is important to understand if you want to manage packages
+effectively.
 
-2つ目の違いは、pipはPython Packaging Index(PyPI) からパッケージをインストールするのに対し、condaは独自のチャンネル(一般的には "defaults "や "conda-forge "など) からインストールすることです。 PyPIは最大のパッケージ管理システムですが、人気のある全てのパッケージがcondaでも利用可能です。
+最初の違いは、condaは複数言語に対応可能で、Python自体をインストールできることです。 pip はシステム上の特定の Python にインストールされ、パッケージはそのPython用にのみインストールします。 PyPIは、最大のパッケージ管理システムですが、すべての代表的なパッケージは、condaにも利用可能です。 This also means conda can install
+non-Python libraries and tools you may need (e.g. compilers, CUDA, HDF5), while
+pip can't.
 
-最初の違いは、condaは複数言語に対応可能で、Python自体をインストールできることです。 pip はシステム上の特定の Python にインストールされ、パッケージはそのPython用にのみインストールします。 PyPIは、最大のパッケージ管理システムですが、すべての代表的なパッケージは、condaにも利用可能です。
+2つ目の違いは、pipはPython Packaging Index(PyPI) からパッケージをインストールするのに対し、condaは独自のチャンネル(一般的には "defaults "や "conda-forge "など) からインストールすることです。 PyPIは最大のパッケージ管理システムですが、人気のある全てのパッケージがcondaでも利用可能です。 PyPI is the largest collection of packages by far, however, all
+popular packages are available for conda as well.
 
-3つ目の違いは、condaはパッケージ、依存関係、環境を管理するための統合されたソリューションであるのに対し、pipでは環境や複雑な依存関係を扱うために別のツール(たくさん存在しています！
+3つ目の違いは、condaはパッケージ、依存関係、環境を管理するための統合されたソリューションであるのに対し、pipでは環境や複雑な依存関係を扱うために別のツール(たくさん存在しています！ for dealing with environments or complex dependencies.
 
 <a name="reproducible-installs"></a>
 
 ### 再現可能なインストール
 
-ライブラリが更新されると、コードの実行結果が変わったり、コードが完全に 壊れたりする可能性があります。 なので重要なことは、使用しているパッケージの組み合わせと各バージョンのセットを再構築できるようにしておくことです。 ベストプラクティスは次の通りです:
+ライブラリが更新されると、コードの実行結果が変わったり、コードが完全に 壊れたりする可能性があります。 なので重要なことは、使用しているパッケージの組み合わせと各バージョンのセットを再構築できるようにしておくことです。 ベストプラクティスは次の通りです: It's important to be able to reconstruct the set
+of packages and versions you're using. Best practice is to:
 
 1. プロジェクトごとに異なる仮想環境を使用して下さい。
 2. パッケージインストーラを使用してパッケージ名とバージョンを記録するようにして下さい。 それぞれ、独自のメタデータフォーマットがあります:
@@ -91,17 +110,23 @@ Windows、macOS、Linuxのすべてのユーザー向けには:
    - pipの場合: [仮想環境](https://docs.python.org/3/tutorial/venv.html) と [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
    - poetryの場合: [仮想環境とpyproject.toml](https://python-poetry.org/docs/basic-usage/)
 
-
-
 ## NumPyパッケージと高速線形代数ライブラリ
 
-NumPy は他の Python パッケージに依存していませんが、高速な線形代数ライブラリに依存しています。 典型的には、[インテル® MKL](https://software.intel.com/en-us/mkl)や[OpenBLAS](https://www.openblas.net/)がこれにあたります。 ユーザーは、これらの線形代数ライブラリのインストールを心配する必要はありません (NumPyのインストール方法に、あらかじめ含まれているためです)。 高度なユーザーは、使用されているBLASがパフォーマンスや、動作、ディスク上のサイズに影響を与えるため、より詳細を知りたがるかもしれません。
+NumPy は他の Python パッケージに依存していませんが、高速な線形代数ライブラリに依存しています。 典型的には、[インテル® MKL](https://software.intel.com/en-us/mkl)や[OpenBLAS](https://www.openblas.net/)がこれにあたります。 ユーザーは、これらの線形代数ライブラリのインストールを心配する必要はありません (NumPyのインストール方法に、あらかじめ含まれているためです)。 高度なユーザーは、使用されているBLASがパフォーマンスや、動作、ディスク上のサイズに影響を与えるため、より詳細を知りたがるかもしれません。 Users don't have to worry about
+installing those (they're automatically included in all NumPy install methods).
+Power users may still want to know the details, because the used BLAS can
+affect performance, behavior and size on disk:
 
 - pipでインストールされるPyPI上の NumPy wheelは、OpenBLASを使ってビルドされます。 つまりwheelにはOpenBLASライブラリが含まれています。 そのため、ユーザが（例えば）SciPyも同じようにインストールした場合、ディスク上にOpenBLASのコピーをNumPyのものと2つ持つことになります
+  The OpenBLAS libraries are included in the wheel. This makes the wheel
+  larger, and if a user installs (for example) SciPy as well, they will now
+  have two copies of OpenBLAS on disk.
 
-- condaのデフォルトチャンネルでは、NumPy はインテル® MKLを使ってビルドされます。 MKLはNumPyのインストール時に、独立したパッケージとしてユーザー環境にインストールされます。
+- condaのデフォルトチャンネルでは、NumPy はインテル® MKLを使ってビルドされます。 MKLはNumPyのインストール時に、独立したパッケージとしてユーザー環境にインストールされます。 MKL is a
+  separate package that will be installed in the users' environment when they
+  install NumPy.
 
-- conda-forgeのチャンネルでは、NumPyはダミーの「BLAS」パッケージを使ってビルドされています。 ユーザーがconda-forgeからNumPyをインストールすると、BLASパッケージが実際のライブラリと一緒にインストールされます。 デフォルトはOpenBLASですが、MKL(default チャンネルの場合)や [BLIS](https://github.com/flame/blis)、またはBLASを利用することもできます。
+- In the conda-forge channel, NumPy is built against a dummy "BLAS" package. conda-forgeのチャンネルでは、NumPyはダミーの「BLAS」パッケージを使ってビルドされています。 ユーザーがconda-forgeからNumPyをインストールすると、BLASパッケージが実際のライブラリと一緒にインストールされます。 デフォルトはOpenBLASですが、MKL(default チャンネルの場合)や [BLIS](https://github.com/flame/blis)、またはBLASを利用することもできます。
 
 - OpenBLASは約30MBですが、MKLパッケージはOpenBLASよりもはるかに大きく、ディスク上の約700MBです。
 
@@ -109,9 +134,14 @@ NumPy は他の Python パッケージに依存していませんが、高速な
 
 インストールサイズ、パフォーマンスとロバスト性に加えて、考慮すべき2つの点があります:
 
-- インテル® MKL はオープンソースではありません。 通常の使用では問題ではありませんが、 ユーザーが NumPy で構築されたアプリケーションを再配布する必要がある場合、これは 問題が発生する可能性があります。
-- MKLとOpenBLASの両方とも、 <code>np.dot</code>のような関数呼び出しにマルチスレッドを使用し、スレッド数はビルド時オプションと環境変数の両方で決定されます。 多くの場合、すべての CPU コアが使用されます。 これにユーザーにとっては予想外のことかもしれません。 NumPy 自体は、関数呼び出しを自動的に並列化しないからです。 自動並列化により、一般にはパフォーマンスが向上しますが、逆にパフォーマンスが悪化する場合もあります。 例えば、Daskやscikit-learn、multiprocessingなど別のレベルの並列化を使用している場合です。
-
+- インテル® MKL はオープンソースではありません。 通常の使用では問題ではありませんが、 ユーザーが NumPy で構築されたアプリケーションを再配布する必要がある場合、これは 問題が発生する可能性があります。 For normal use this is not a problem, but if
+  a user needs to redistribute an application built with NumPy, this could be
+  an issue.
+- MKLとOpenBLASの両方とも、 <code>np.dot</code>のような関数呼び出しにマルチスレッドを使用し、スレッド数はビルド時オプションと環境変数の両方で決定されます。 多くの場合、すべての CPU コアが使用されます。 これにユーザーにとっては予想外のことかもしれません。 NumPy 自体は、関数呼び出しを自動的に並列化しないからです。 自動並列化により、一般にはパフォーマンスが向上しますが、逆にパフォーマンスが悪化する場合もあります。 例えば、Daskやscikit-learn、multiprocessingなど別のレベルの並列化を使用している場合です。 Often all CPU cores will be used. This is
+  sometimes unexpected for users; NumPy itself doesn't auto-parallelize any
+  function calls. It typically yields better performance, but can also be
+  harmful - for example when using another level of parallelization with Dask,
+  scikit-learn or multiprocessing.
 
 ## トラブルシューティング
 
@@ -122,4 +152,3 @@ IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
 
 Importing the numpy c-extensions failed. This error can happen for different reasons, often due to issues with your setup.
 ```
-
