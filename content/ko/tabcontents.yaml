@@ -148,8 +148,8 @@ params:
             url: https://python-control.org/
             label: python-control
       - 
-        title: Image Processing
-        alttext: An photograph of the mountains.
+        title: 이미지 처리
+        alttext: 산이 찍힌 사진
         img: /images/content_images/sc_dom_img/image_processing.svg
         links:
           - 
@@ -162,8 +162,8 @@ params:
             url: https://mahotas.rtfd.io/
             label: Mahotas
       - 
-        title: Graphs and Networks
-        alttext: A simple graph.
+        title: 그래프 및 네트워크
+        alttext: 간단한 그래프.
         img: /images/content_images/sc_dom_img/sd6.svg
         links:
           - 
@@ -179,8 +179,8 @@ params:
             url: https://pygsp.rtfd.io/
             label: PyGSP
       - 
-        title: Astronomy
-        alttext: A telescope.
+        title: 천문학
+        alttext: 망원경
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
         links:
           - 
