@@ -18,32 +18,32 @@ NumPy 행동 강령 위원회는 본 설명을 따릅니다. 문제를 해결할
 
 ## 중재
 
-Voluntary informal mediation is a tool at our disposal. In contexts such as when two or more parties have all escalated to the point of inappropriate behavior (something sadly common in human conflict), it may be useful to facilitate a mediation process. This is only an example: the Committee can consider mediation in any case, mindful that the process is meant to be strictly voluntary and no party can be pressured to participate. If the Committee suggests mediation, it should:
+자발적인 비공식 중재는 우리가 사용할 수 있는 도구입니다. 두 명 이상의 당사자가 모두 부적절한 행동 (인간 갈등에서 슬프게도 흔한 일) 의 지점까지 확대된 경우와 같은 맥락에서 중재 프로세스를 촉진하는 것이 유용할 수 있습니다. 이것은 단지 예일 뿐입니다. 위원회는 어떤 경우에도 중재를 고려할 수 있으며, 그 과정은 엄격하게 자발적으로 이루어지며 어느 당사자도 참여하도록 압력을 받을 수 없다는 점을 염두에 두어야 합니다. 위원회가 중재를 제안하는 경우 위원회는 다음을 수행해야 합니다.
 
-* Find a candidate who can serve as a mediator.
-* Obtain the agreement of the reporter(s). The reporter(s) have complete freedom to decline the mediation idea or to propose an alternate mediator.
-* Obtain the agreement of the reported person(s).
-* Settle on the mediator: while parties can propose a different mediator than the suggested candidate, only if a common agreement is reached on all terms can the process move forward.
-* Establish a timeline for mediation to complete, ideally within two weeks.
+* 중재자 역할을 할 수 있는 후보를 찾으십시오.
+* 신고자(들) 의 동의를 얻습니다. 신고자는 중재 아이디어를 거부하거나 대체 중재자를 제안할 수 있는 완전한 자유가 있습니다.
+* 피신고자의 동의를 얻습니다.
+* 중재자 결정: 당사자는 제안된 후보와 다른 중재자를 제안할 수 있지만 모든 조건에 대해 공통된 합의에 도달한 경우에만 프로세스를 진행할 수 있습니다.
+* 중재가 완료되기 위한 일정을 설정합니다 (이상적으로는 2주 이내).
 
-The mediator will engage with all the parties and seek a resolution that is satisfactory to all. Upon completion, the mediator will provide a report (vetted by all parties to the process) to the Committee, with recommendations on further steps. The Committee will then evaluate these results (whether a satisfactory resolution was achieved or not) and decide on any additional action deemed necessary.
-
-
-## How the Committee will respond to reports
-
-When the Committee (or a Committee member) receives a report, they will first determine whether the report is about a clear and severe breach (as defined below). If so, immediate action needs to be taken in addition to the regular report handling process.
+중재자는 모든 당사자와 관계를 맺고 모두가 만족할 만한 해결책을 모색합니다. 완료되면 조정자는 추가 단계에 대한 권장 사항과 함께 보고서(프로세스의 모든 당사자가 심사한) 를 위원회에 제공합니다. 그런 다음 위원회는 이러한 결과를 평가하고(만족스러운 해결 여부에 관계없이) 필요하다고 판단되는 추가 조치를 결정합니다.
 
 
-## Clear and severe breach actions
+## 위원회가 신고에 응답하는 방법
 
-We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We will deal quickly with clear and severe breaches like personal threats, violent, sexist or racist language.
+위원회(또는 위원회 위원) 는 보고서를 받으면 먼저 보고서가 명확하고 심각한 위반에 관한 것인지 여부를 결정합니다(아래에 정의됨). 만약 그렇다면, 정기적인 신고 처리 프로세스와 더불어 즉각적인 조치가 취해져야 합니다.
 
-When a member of the Code of Conduct Committee becomes aware of a clear and severe breach, they will do the following:
 
-* Immediately disconnect the originator from all NumPy communication channels.
-* Reply to the reporter that their report has been received and that the originator has been disconnected.
-* In every case, the moderator should make a reasonable effort to contact the originator, and tell them specifically how their language or actions qualify as a “clear and severe breach”. The moderator should also say that, if the originator believes this is unfair or they want to be reconnected to NumPy, they have the right to ask for a review, as below, by the Code of Conduct Committee. The moderator should copy this explanation to the Code of Conduct Committee.
-* The Code of Conduct Committee will formally review and sign off on all cases where this mechanism has been applied to make sure it is not being used to control ordinary heated disagreement.
+## 명확하고 심각한 권리침해 행위
+
+우리는 인터넷 통신이 명백하고 노골적인 남용에서 시작되거나 악화되는 것이 매우 흔한 일이라는 것을 알고 있습니다. 우리는 개인적인 위협, 폭력적, 성차별적 또는 인종차별적 언어와 같은 명확하고 심각한 위반을 신속하게 처리할 것입니다.
+
+행동 강령 위원회 위원이 명백하고 심각한 위반 사실을 알게 되면 다음과 같은 조치를 취합니다.
+
+* 모든 NumPy 통신 채널에서 발신자를 즉시 연결 해제합니다.
+* 보고자에게 보고가 접수되었으며 발신자의 연결이 끊어졌다고 회신합니다.
+* 모든 경우에 중재자는 작성자에게 연락하기 위해 합당한 노력을 기울여야 하며, 그들의 언어나 행동이 어떻게 "명백하고 심각한 위반"에 해당하는지 구체적으로 알려야 합니다. 중재자는 또한 작성자가 이것이 불공평하다고 생각하거나 NumPy에 다시 연결되기를 원하는 경우 아래와 같이 행동 강령 위원회에 검토를 요청할 권리가 있다고 말해야 합니다. The moderator should copy this explanation to the Code of Conduct Committee.
+* 행동 강령 위원회는 이 메커니즘이 일반적인 열띤 의견 불일치를 통제하는 데 사용되지 않도록 하기 위해 이 메커니즘이 적용된 모든 사례를 공식적으로 검토하고 승인할 것입니다.
 
 
 ## Report handling
