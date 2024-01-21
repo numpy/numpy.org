@@ -3,11 +3,11 @@ params:
     paras:
       - 
         para1: NumPy는 [scikit-learn](https://scikit-learn.org) 및 [SciPy](https://www.scipy.org)와 같은 강력한 기계 학습 라이브러리의 기반을 형성합니다. 기계 학습이 성장함에 따라 NumPy에 구축된 라이브러리 목록도 늘어납니다. [TensorFlow의](https://www.tensorflow.org) 딥 러닝 기능은 폭넓게 응용할 수 있습니다. &mdash; 그 중에는 음성 및 이미지 인식, 텍스트 기반 애플리케이션, 시계열 분석 및 비디오 감지가 있습니다. 또 다른 딥 러닝 라이브러리인 [PyTorch](https://pytorch.org)는 컴퓨터 비전 및 자연어 처리 연구자들 사이에서 인기가 있습니다. [MXNet](https://github.com/apache/incubator-mxnet)은 딥 러닝을 위한 청사진과 템플릿을 제공하는 또 다른 AI 패키지입니다.
-        para2: Statistical techniques called [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205) methods such as binning, bagging, stacking, and boosting are among the ML algorithms implemented by tools such as [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [CatBoost](https://catboost.ai) &mdash; one of the fastest inference engines. [Yellowbrick](https://www.scikit-yb.org/en/latest/) and [Eli5](https://eli5.readthedocs.io/en/latest/) offer machine learning visualizations.
+        para2: '[ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205) 메서드라고 하는 비닝(binning), 배깅(bagging), 스태킹(stacking), 부스팅(boosting)과 같은 통계 기법은 다음과 같은 도구로 구현되는 ML 알고리즘에 속합니다. [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://lightgbm.readthedocs.io/en/latest/) 및 [CatBoost](https://catboost.ai) &mdash; – 가장 빠른 추론 엔진 중 하나입니다. [Yellowbrick](https://www.scikit-yb.org/en/latest/) 및 [Eli5](https://eli5.readthedocs.io/en/latest/)는 기계 학습 시각화를 제공합니다.'
   arraylibraries:
     intro:
       - 
-        text: NumPy's API is the starting point when libraries are written to exploit innovative hardware, create specialized array types, or add capabilities beyond what NumPy provides.
+        text: NumPy의 API는 라이브러리가 혁신적인 하드웨어를 활용하거나, 특수 배열 유형을 생성하거나, NumPy가 제공하는 것 이상의 기능을 추가하도록 작성되는 출발점입니다.
     headers:
       - 
         text: 배열 라이브러리
@@ -70,19 +70,19 @@ params:
         url: https://github.com/apache/arrow
       - 
         title: xtensor
-        text: Multi-dimensional arrays with broadcasting and lazy computing for numerical analysis.
+        text: 수치 분석을 위한 브로드캐스팅 및 지연 컴퓨팅이 포함된 다차원 배열.
         img: /images/content_images/arlib/xtensor.png
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
       - 
         title: Awkward Array
-        text: Manipulate JSON-like data with NumPy-like idioms.
+        text: NumPy와 유사한 관용어로 JSON과 유사한 데이터를 조작합니다.
         img: /images/content_images/arlib/awkward.svg
         alttext: awkward
         url: https://awkward-array.org/
       - 
         title: uarray
-        text: Python backend system that decouples API from implementation; unumpy provides a NumPy API.
+        text: 구현에서 API를 분리하는 Python 백엔드 시스템; unumpy는 NumPy API를 제공합니다.
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
@@ -95,13 +95,13 @@ params:
   scientificdomains:
     intro:
       - 
-        text: Nearly every scientist working in Python draws on the power of NumPy.
+        text: Python으로 작업하는 거의 모든 과학자는 NumPy의 힘을 이용합니다.
       - 
-        text: "NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant."
+        text: "NumPy는 C 및 Fortran과 같은 언어의 계산 능력을 배우고 사용하기 훨씬 쉬운 언어인 Python으로 가져옵니다. 이 힘에는 단순함이 있습니다. NumPy의 솔루션은 종종 명확하고 우아합니다."
     libraries:
       - 
-        title: Quantum Computing
-        alttext: A computer chip.
+        title: 양자 컴퓨팅
+        alttext: 컴퓨터 칩
         img: /images/content_images/sc_dom_img/quantum_computing.svg
         links:
           - 
@@ -117,8 +117,8 @@ params:
             url: https://pennylane.ai
             label: PennyLane
       - 
-        title: Statistical Computing
-        alttext: A line graph with the line moving up.
+        title: 통계적 컴퓨팅
+        alttext: 선이 위로 이동하는 선그래프
         img: /images/content_images/sc_dom_img/statistical_computing.svg
         links:
           - 
@@ -134,8 +134,8 @@ params:
             url: https://github.com/mwaskom/seaborn
             label: Seaborn
       - 
-        title: Signal Processing
-        alttext: A bar chart with positive and negative values.
+        title: 신호 처리
+        alttext: 양의 값과 음의 값을 가지는 막대 차트
         img: /images/content_images/sc_dom_img/signal_processing.svg
         links:
           - 
@@ -193,16 +193,16 @@ params:
             url: https://github.com/spacepy/spacepy
             label: SpacePy
       - 
-        title: Cognitive Psychology
-        alttext: A human head with gears.
+        title: 인지심리학
+        alttext: 톱니바퀴가 안에서 돌아가는 사람의 머리
         img: /images/content_images/sc_dom_img/cognitive_psychology.svg
         links:
           - 
             url: https://www.psychopy.org/
             label: PsychoPy
       - 
-        title: Bioinformatics
-        alttext: A strand of DNA.
+        title: 생물정보학
+        alttext: DNA 가닥
         img: /images/content_images/sc_dom_img/bioinformatics.svg
         links:
           - 
@@ -218,8 +218,8 @@ params:
             url: http://etetoolkit.org/
             label: ETE
       - 
-        title: Bayesian Inference
-        alttext: A graph with a bell-shaped curve.
+        title: 베이지안 추론
+        alttext: 종 모양 곡선이 그려진 그래프
         img: /images/content_images/sc_dom_img/bayesian_inference.svg
         links:
           - 
@@ -235,8 +235,8 @@ params:
             url: https://emcee.readthedocs.io/
             label: emcee
       - 
-        title: Mathematical Analysis
-        alttext: Four mathematical symbols.
+        title: 수학적 분석
+        alttext: 수학 기호 4개
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
         links:
           - 
@@ -252,8 +252,8 @@ params:
             url: https://fenicsproject.org/
             label: FEniCS
       - 
-        title: Chemistry
-        alttext: A test tube.
+        title: 화학
+        alttext: 시험관
         img: /images/content_images/sc_dom_img/chemistry.svg
         links:
           - 
@@ -269,8 +269,8 @@ params:
             url: https://www.pybamm.org/
             label: PyBaMM
       - 
-        title: Geoscience
-        alttext: The Earth.
+        title: 지구과학
+        alttext: 지구
         img: /images/content_images/sc_dom_img/geoscience.svg
         links:
           - 
@@ -286,8 +286,8 @@ params:
             url: https://www.fatiando.org/
             label: Fatiando a Terra
       - 
-        title: Geographic Processing
-        alttext: A map.
+        title: 지리학적 처리
+        alttext: 지도
         img: /images/content_images/sc_dom_img/GIS.svg
         links:
           - 
@@ -300,8 +300,8 @@ params:
             url: https://python-visualization.github.io/folium
             label: Folium
       - 
-        title: Architecture & Engineering
-        alttext: A microprocessor development board.
+        title: 아키텍처 및 엔지니어링
+        alttext: 마이크로프로세서 개발 보드
         img: /images/content_images/sc_dom_img/robotics.svg
         links:
           - 
@@ -309,68 +309,68 @@ params:
             label: COMPAS
           - 
             url: https://cityenergyanalyst.com/
-            label: City Energy Analyst
+            label: 도시 에너지 분석가
           - 
             url: https://nortikin.github.io/sverchok/
             label: Sverchok
   datascience:
-    intro: "NumPy lies at the core of a rich ecosystem of data science libraries. A typical exploratory data science workflow might look like:"
+    intro: "NumPy는 풍부한 데이터 과학 라이브러리 생태계의 핵심에 있습니다. 일반적인 탐색적 데이터 과학 워크플로는 다음과 같습니다."
     image1:
       - 
         img: /images/content_images/ds-landscape.png
-        alttext: Diagram of Python Libraries. The five catagories are 'Extract, Transform, Load', 'Data Exploration', 'Data Modeling', 'Data Evaluation' and 'Data Presentation'.
+        alttext: Python 라이브러리 다이어그램. 다섯 가지 범주는 '추출, 변환, 로드', '데이터 탐색', '데이터 모델링', '데이터 평가' 및 '데이터 프레젠테이션'입니다.
     image2:
       - 
         img: /images/content_images/data-science.png
-        alttext: Diagram of three overlapping circles. The circles are labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'.
+        alttext: 세 개의 겹치는 원의 다이어그램입니다. 원에는 '수학', '컴퓨터 과학' 및 '영역 전문성'이라는 레이블이 지정되어 있습니다. 세 개의 원이 겹치는 다이어그램의 중간에는 'Data Science'라는 레이블이 붙은 영역이 있습니다.
     examples:
       - 
-        text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
+        text: "<b>추출, 변환, 로드: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https:/ /pyjanitor.readthedocs.io/)"
       - 
-        text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
+        text: "<b>탐색적 분석: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
       - 
-        text: "<b>Model and evaluate: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
+        text: "<b>모델링 및 평가: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
       - 
-        text: "<b>Report in a dashboard: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
+        text: "<b>대시보드에서 보고: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
     content:
       - 
-        text: For high data volumes, [Dask](https://dask.org) and [Ray](https://ray.io/) are designed to scale. Stable deployments rely on data versioning ([DVC](https://dvc.org)), experiment tracking ([MLFlow](https://mlflow.org)), and workflow automation ([Airflow](https://airflow.apache.org), [Dagster](https://dagster.io) and [Prefect](https://www.prefect.io)).
+        text: 대용량 데이터의 경우 [Dask](https://dask.org) 및 [Ray](https://ray.io/)가 확장되도록 설계되었습니다. 안정적인 배포는 데이터 버전 관리([DVC](https://dvc.org)), 실험 추적([MLFlow](https://mlflow.org)) 및 워크플로 자동화([Airflow](https:// airflow.apache.org), Dagster](https://dagster.io) 와 [Prefect](https://www.prefect.io)).
   visualization:
     images:
       - 
         url: https://www.fusioncharts.com/blog/best-python-data-visualization-libraries
         img: /images/content_images/v_matplotlib.png
-        alttext: A streamplot made in matplotlib
+        alttext: Matplotlib으로 만든 streamplot
       - 
         url: https://github.com/yhat/ggpy
         img: /images/content_images/v_ggpy.png
-        alttext: A scatter-plot graph made in ggpy
+        alttext: ggpy로 만든 산점도
       - 
         url: https://www.journaldev.com/19692/python-plotly-tutorial
         img: /images/content_images/v_plotly.png
-        alttext: A box-plot made in plotly
+        alttext: plotly로 만든 상자 그림
       - 
         url: https://altair-viz.github.io/gallery/streamgraph.html
         img: /images/content_images/v_altair.png
-        alttext: A streamgraph made in altair
+        alttext: altair로 만든 스트림 그래프
       - 
         url: https://seaborn.pydata.org
         img: /images/content_images/v_seaborn.png
-        alttext: A pairplot of two types of graph, a plot-graph and a frequency graph made in seaborn"
+        alttext: Seaborn에서 만든 두 가지 유형의 그래프, 플롯 그래프와 빈도 그래프의 pairplot
       - 
         url: https://docs.pyvista.org/
         img: /images/content_images/v_pyvista.png
-        alttext: A 3D volume rendering made in PyVista.
+        alttext: PyVista로 만든 3D 볼륨 렌더링.
       - 
         url: https://napari.org
         img: /images/content_images/v_napari.png
-        alttext: A multi-dimensionan image made in napari.
+        alttext: napari로 만든 다차원 이미지.
       - 
         url: https://vispy.org/gallery/index.html
         img: /images/content_images/v_vispy.png
-        alttext: A Voronoi diagram made in vispy.
+        alttext: vispy로 만든 보로노이 다이어그램.
     content:
       - 
-        text: NumPy is an essential component in the burgeoning [Python visualization landscape](https://pyviz.org/overviews/index.html), which includes [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), and [PyVista](https://github.com/pyvista/pyvista), to name a few.
+        text: 몇 가지만 예를 들자면 NumPy는 [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), [PyVista](https://github.com/pyvista/pyvista) 등이 포함되어 있으며 급격히 성장해나가고 있는 [Python visualization landscape](https://pyviz.org/overviews/index.html)의 핵심 구성 요소 중 하나입니다.
       - 
-        text: NumPy's accelerated processing of large arrays allows researchers to visualize datasets far larger than native Python could handle.
+        text: NumPy는 큰 배열을 고속으로 처리할 수 있어 연구자가 기존 Python이 처리할 수 있는 데이터셋보다 훨씬 큰 것도 시각화할 수 있도록 합니다.
