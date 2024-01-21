@@ -42,54 +42,54 @@ NumPy 행동 강령 위원회는 본 설명을 따릅니다. 문제를 해결할
 
 * 모든 NumPy 통신 채널에서 발신자를 즉시 연결 해제합니다.
 * 보고자에게 보고가 접수되었으며 발신자의 연결이 끊어졌다고 회신합니다.
-* 모든 경우에 중재자는 작성자에게 연락하기 위해 합당한 노력을 기울여야 하며, 그들의 언어나 행동이 어떻게 "명백하고 심각한 위반"에 해당하는지 구체적으로 알려야 합니다. 중재자는 또한 작성자가 이것이 불공평하다고 생각하거나 NumPy에 다시 연결되기를 원하는 경우 아래와 같이 행동 강령 위원회에 검토를 요청할 권리가 있다고 말해야 합니다. The moderator should copy this explanation to the Code of Conduct Committee.
+* 모든 경우에 중재자는 작성자에게 연락하기 위해 합당한 노력을 기울여야 하며, 그들의 언어나 행동이 어떻게 "명백하고 심각한 위반"에 해당하는지 구체적으로 알려야 합니다. 중재자는 또한 작성자가 이것이 불공평하다고 생각하거나 NumPy에 다시 연결되기를 원하는 경우 아래와 같이 행동 강령 위원회에 검토를 요청할 권리가 있다고 말해야 합니다. 중재자는 이 설명을 행동 강령 위원회에 발송해야 합니다.
 * 행동 강령 위원회는 이 메커니즘이 일반적인 열띤 의견 불일치를 통제하는 데 사용되지 않도록 하기 위해 이 메커니즘이 적용된 모든 사례를 공식적으로 검토하고 승인할 것입니다.
 
 
-## Report handling
+## 신고 대응
 
-When a report is sent to the Committee they will immediately reply to the reporter to confirm receipt. This reply must be sent within 72 hours, and the group should strive to respond much quicker than that.
+보고서가 위원회에 보내지면 위원회는 접수 확인을 위해 즉시 보고자에게 회신할 것입니다. 이 회신은 72시간 이내에 보내야 하며 그룹은 그보다 훨씬 빨리 회신하기 위해 노력해야 합니다.
 
-If a report doesn’t contain enough information, the Committee will obtain all relevant data before acting. The Committee is empowered to act on the Steering Council’s behalf in contacting any individuals involved to get a more complete account of events.
+보고서에 충분한 정보가 포함되어 있지 않은 경우 위원회는 조치를 취하기 전에 모든 관련 데이터를 수집합니다. 위원회는 사건에 대한 보다 완전한 설명을 얻기 위해 관련된 모든 개인에게 연락할 때 운영 위원회를 대신하여 행동할 권한이 있습니다.
 
-The Committee will then review the incident and determine, to the best of their ability:
+그런 다음 위원회는 사건을 검토하고 최선을 다해 다음을 결정할 것입니다.
 
-* What happened.
-* Whether this event constitutes a Code of Conduct violation.
-* Who are the responsible party(ies).
-* Whether this is an ongoing situation, and there is a threat to anyone’s physical safety.
+* 무슨 일이 일어났는지
+* 이 이벤트가 행동 강령 위반에 해당하는지 여부
+* 책임자는 누구인지
+* 이것이 현재 진행 중인 상황인지, 누군가의 신체적 안전에 대한 위협이 있는지 여부
 
-This information will be collected in writing, and whenever possible the group’s deliberations will be recorded and retained (i.e. chat transcripts, email discussions, recorded conference calls, summaries of voice conversations, etc).
+이 정보는 서면으로 수집되며 가능할 때마다 그룹의 심의가 녹음 및 보관됩니다(예: 채팅 내용, 이메일 토론, 녹음된 회의 통화, 음성 대화 요약 등).
 
-It is important to retain an archive of all activities of this Committee to ensure consistency in behavior and provide institutional memory for the project. To assist in this, the default channel of discussion for this Committee will be a private mailing list accessible to current and future members of the Committee as well as members of the Steering Council upon justified request. If the Committee finds the need to use off-list communications (e.g. phone calls for early/rapid response), it should in all cases summarize these back to the list so there’s a good record of the process.
+행동의 일관성을 보장하고 프로젝트에 대한 제도적 기억을 제공하기 위해 이 위원회의 모든 활동 기록을 보관하는 것이 중요합니다. 이를 지원하기 위해 이 위원회의 기본 토론 채널은 정당한 요청이 있는 경우 현재 및 미래의 위원회 구성원과 운영 위원회 구성원이 액세스할 수 있는 개인 메일링 리스트가 될 것입니다. 위원회가 목록 외 커뮤니케이션(예: 조기/신속한 응답을 위한 전화 통화)을 사용해야 할 필요성을 발견하는 경우 모든 경우에 이를 목록에 다시 요약하여 프로세스에 대한 좋은 기록이 남도록 해야 합니다.
 
-The Code of Conduct Committee should aim to have a resolution agreed upon within two weeks. In the event that a resolution can’t be determined in that time, the Committee will respond to the reporter(s) with an update and projected timeline for resolution.
-
-
-## Resolutions
-
-The Committee must agree on a resolution by consensus. If the group cannot reach consensus and deadlocks for over a week, the group will turn the matter over to the Steering Council for resolution.
-
-Possible responses may include:
-
-* Taking no further action:
-  -   if we determine no violations have occurred;
-  -   if the matter has been resolved publicly while the Committee was considering responses.
-* Coordinating voluntary mediation: if all involved parties agree, the Committee may facilitate a mediation process as detailed above.
-* Remind publicly, and point out that some behavior/actions/language have been judged inappropriate and why in the current context, or can but hurtful to some people, requesting the community to self-adjust.
-* A private reprimand from the Committee to the individual(s) involved. In this case, the group chair will deliver that reprimand to the individual(s) over email, cc’ing the group.
-* A public reprimand. In this case, the Committee chair will deliver that reprimand in the same venue that the violation occurred, within the limits of practicality. E.g., the original mailing list for an email violation, but for a chat room discussion where the person/context may be gone, they can be reached by other means. The group may choose to publish this message elsewhere for documentation purposes.
-* A request for a public or private apology, assuming the reporter agrees to this idea: they may at their discretion refuse further contact with the violator. The chair will deliver this request. The Committee may, if it chooses, attach “strings” to this request: for example, the group may ask a violator to apologize in order to retain one’s membership on a mailing list.
-* A “mutually agreed upon hiatus” where the Committee asks the individual to temporarily refrain from community participation. If the individual chooses not to take a temporary break voluntarily, the Committee may issue a “mandatory cooling off period”.
-* A permanent or temporary ban from some or all NumPy spaces (mailing lists, gitter.im, etc.). The group will maintain records of all such bans so that they may be reviewed in the future or otherwise maintained.
-
-Once a resolution is agreed upon, but before it is enacted, the Committee will contact the original reporter and any other affected parties and explain the proposed resolution. The Committee will ask if this resolution is acceptable, and must note feedback for the record.
-
-Finally, the Committee will make a report to the NumPy Steering Council (as well as the NumPy core team in the event of an ongoing resolution, such as a ban).
-
-The Committee will never publicly discuss the issue; all public statements will be made by the chair of the Code of Conduct Committee or the NumPy Steering Council.
+행동 강령 위원회는 2주 이내에 결의안에 동의하는 것을 목표로 해야 합니다. 그 시간 내에 해결 방법을 결정할 수 없는 경우 위원회는 보고자에게 해결을 위한 업데이트 및 예상 일정에 대해 응답합니다.
 
 
-## Conflicts of Interest
+## 해결
 
-In the event of any conflict of interest, a Committee member must immediately notify the other members, and recuse themselves if necessary.
+위원회는 반드시 합의를 바탕으로 결의를 내야 합니다. 그룹에서 합의가 이루어지지 못하고 1주 넘게 교착 상태에 빠진 경우, 결의를 내기 위해 해당 의제는 조정위원회로 이양됩니다.
+
+가능한 응답은 다음과 같습니다.
+
+* 추가 조치 없음:
+  -   위반이 발생하지 않았다고 판단되는 경우
+  -   위원회가 응답을 고려하는 동안 문제가 공개적으로 해결된 경우.
+* 자발적 중재 조정: 모든 관련 당사자가 동의하는 경우 위원회는 위에서 설명한 대로 중재 절차를 촉진할 수 있습니다.
+* 공개적으로 상기시키고 일부 행동/행동/언어가 부적절하다고 판단되었으며 그 이유를 현재 상황에서 지적하거나 일부 사람들에게 상처를 줄 수 있으며 커뮤니티가 자체 조정하도록 요청합니다.
+* 관련된 개인에 대한 위원회의 사적인 견책. 이 경우 그룹 의장은 그룹을 참조하여 이메일을 통해 개인(들) 에게 질책을 전달합니다.
+* 공개 질책. 이 경우 위원회 위원장은 위반이 발생한 동일한 장소에서 실행 가능한 범위 내에서 질책합니다. 예를 들어 이메일 위반에 대한 원래 메일링 리스트이지만 사람/컨텍스트가 없을 수 있는 채팅방 토론의 경우 다른 방법으로 도달할 수 있습니다. 그룹은 문서화 목적으로 이 메시지를 다른 곳에 게시하도록 선택할 수 있습니다.
+* 신고자가 이 생각에 동의한다고 가정하고 공개 또는 비공개 사과 요청: 신고자는 재량에 따라 위반자와의 추가 연락을 거부할 수 있습니다. 의장이 이 요청을 전달할 것입니다. 위원회는 선택하는 경우 이 요청에 "문자열"을 첨부할 수 있습니다. 예를 들어 그룹은 위반자에게 메일링 리스트의 회원 자격을 유지하기 위해 사과를 요청할 수 있습니다.
+* 위원회가 개인에게 일시적으로 커뮤니티 참여를 자제하도록 요청하는 "상호 합의 중단". 개인이 자발적으로 일시적인 휴식을 취하지 않기로 선택한 경우 위원회는 "필수 냉각 기간"을 발행할 수 있습니다.
+* 일부 또는 모든 NumPy 공간(메일링 리스트, gitter.im 등)에서 영구적 또는 일시적 금지. 그룹은 이러한 모든 금지에 대한 기록을 유지하여 나중에 검토하거나 다른 방법으로 유지할 수 있습니다.
+
+일단 결의안이 합의되면, 그러나 그것이 시행되기 전에 위원회는 원래 신고자와 영향을 받는 다른 당사자들에게 연락하여 제안된 결의안을 설명합니다. 위원회는 이 결의안이 수용 가능한지 묻고 기록을 위해 피드백을 기록해야 합니다.
+
+최종적으로 위원회는 NumPy 조정위원회에 보고서를 만들어 제출하게 됩니다 (추방 등 효력이 지속되는 결의가 발생하는 경우 NumPy 핵심 팀에게도 보고합니다).
+
+위원회는 문제를 반드시 비공개 상태로 다룰 것입니다. 모든 공개 성명은 행동강령 위원회 혹은 NumPy 조정위원회에서 담당합니다.
+
+
+## 이해관계 충돌
+
+이해관계 충돌이 일어난 경우, 위원회 회원은 즉시 이 사실을 다른 회원에게 고지하고 필요한 경우 자진 사퇴해야 합니다.
