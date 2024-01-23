@@ -1,5 +1,5 @@
 ---
-title: 2020 NUMPY COMMUNITY SURVEY
+title: ENCUESTA DE LA COMUNIDAD NUMPY 2020
 sidebar: false
 ---
 
