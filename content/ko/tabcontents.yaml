@@ -88,7 +88,7 @@ params:
         url: https://uarray.org/en/latest/
       - 
         title: tensorly
-        text: Tensor learning, algebra and backends to seamlessly use NumPy, MXNet, PyTorch, TensorFlow or CuPy.
+        text: NumPy, MXNet, PyTorch, TensorFlow 또는 CuPy를 원활하게 사용하기 위한 Tensor 학습, 대수 및 백엔드.
         img: /images/content_images/arlib/tensorly.png
         alttext: tensorly
         url: http://tensorly.org/stable/home.html
