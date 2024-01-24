@@ -58,11 +58,11 @@ _2023년 6월 17일_ -- 이제 [NumPy 1.25.0](https://numpy.org/doc/stable/relea
 * Einsum에서 객체 배열 지원
 * Inplace 행렬 곱셈 (`@=`) 지원
 
-The NumPy 1.25.0 release continues the ongoing work to improve the handling and promotion of dtypes, increase the execution speed, and clarify the documentation. There has also been preparatory work for the future NumPy 2.0.0, resulting in a large number of new and expired deprecations.
+NumPy 1.25.0 릴리스에서는 자료형의 처리 및 형변환을 개선하고 실행 속도를 높이는 작업, 문서를 보다 명료하게 다듬는 작업을 계속하고 있습니다. There has also been preparatory work for the future NumPy 2.0.0, resulting in a large number of new and expired deprecations.
 
-A total of 148 people contributed to this release and 530 pull requests were merged.
+총 148명의 사람들이 이 릴리스에 기여하였으며 530개의 풀 리퀘스트가 병합되었습니다.
 
-The Python versions supported by this release are 3.9-3.11.
+본 릴리즈에서 지원하는 Python 버전은 3.9-3.11입니다.
 
 ### Fostering an Inclusive Culture: Call for Participation
 
