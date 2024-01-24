@@ -8,7 +8,7 @@ date: 2023-09-16
 ### NumPy 1.26.0 출시
 _2023년 12월 19_ -- NumFOCUS에서 연말 캠페인 기간 동안 PyCharm과 협력해 최초 PyCharm 이용자의 라이선스를 30% 할인된 가격에 제공했습니다. 지금부터 2023년 12월 23일까지 PyCharm 구매로 발생한 모든 수익은 NumFOCUS 프로그램으로 직접 전달됩니다.
 
-Use unique URL that will allow to track purchases https://lp.jetbrains.com/support-data-science/ or a coupon code ISUPPORTDATASCIENCE 
+구매를 추적할 수 있는 고유 URL을 이용하거나: https://lp.jetbrains.com/support-data-science/ 쿠폰 코드를 사용하세요: ISUPPORTDATASCIENCE 
 
 ### NumPy 1.26.0 출시
 
@@ -106,26 +106,26 @@ Please complete this brief [“Participant Interest” form](https://numfocus.ty
 
 ### Numpy 1.22.0 출시
 
-_Dec 31, 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) is now available. The highlights of the release are:
+_2021년 12월 31일_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html)이 출시되었습니다. 주요 기능들은 다음과 같습니다:
 
-* Type annotations of the main namespace are essentially complete. Upstream is a moving target, so there will likely be further improvements, but the major work is done. This is probably the most user visible enhancement in this release.
+* 기본 네임스페이스에 대해 유형 주석의 지원을 거의 완료했습니다. 업스트림 코드는 항상 변하므로 추가 개선이 있을 수 있지만 주요 작업은 완료되었습니다. 아마도 이 릴리스에서 가장 체감되는 개선 사항일 것입니다.
 * A preliminary version of the proposed [array API Standard](https://data-apis.org/array-api/latest/) is provided (see [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)). This is a step in creating a standard collection of functions that can be used across libraries such as CuPy and JAX.
 * NumPy now has a DLPack backend. DLPack provides a common interchange format for array (tensor) data.
 * New methods for `quantile`, `percentile`, and related functions. The new methods provide a complete set of the methods commonly found in the literature.
 * The universal functions have been refactored to implement most of [NEP 43](https://numpy.org/neps/nep-0043-extensible-ufuncs.html). This also unlocks the ability to experiment with the future DType API.
-* A new configurable memory allocator for use by downstream projects.
+* 새 구성 가능한 메모리 할당자를 다운스트림 프로젝트에서 사용할 수 있습니다.
 
-NumPy 1.22.0 is a big release featuring the work of 153 contributors spread over 609 pull requests. The Python versions supported by this release are 3.8-3.10.
+NumPy 1.22.0은 153명의 기여자가 생성한 609개의 풀 요청을 바탕으로 만들어진 대형 릴리즈입니다. 본 릴리즈에서 지원하는 Python 버전은 3.8-3.10입니다.
 
-### Advancing an inclusive culture in the scientific Python ecosystem
+### 과학 Python 생태계에서 포용적 문화 발전
 
-_August 31, 2021_ -- We are happy to announce the Chan Zuckerberg Initiative has [awarded a grant](https://chanzuckerberg.com/newsroom/czi-awards-16-million-for-foundational-open-source-software-tools-essential-to-biomedicine/) to support the onboarding, inclusion, and retention of people from historically marginalized groups on scientific Python projects, and to structurally improve the community dynamics for NumPy, SciPy, Matplotlib, and Pandas.
+_2021년 8월 31일_ -- Chan Zuckerberg Initiative가 과학적 Python 프로젝트에서 역사적으로 소외된 그룹의 사람들을 온보딩, 포함 및 유지하고 NumPy, SciPy, Matplotlib 그리고 Pandas 의 커뮤니티 역학을 구조적으로 개선하기 위한 [보조금을 수여](https://chanzuckerberg.com/newsroom/czi-awards-16-million-for-foundational-open-source-software-tools-essential-to-biomedicine/)했음을 발표하게 되어 기쁩니다.
 
-As a part of [CZI's Essential Open Source Software for Science program](https://chanzuckerberg.com/eoss/), this [Diversity & Inclusion supplemental grant](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b) will support the creation of dedicated Contributor Experience Lead positions to identify, document, and implement practices to foster inclusive open-source communities. This project will be led by Melissa Mendonça (NumPy), with additional mentorship and guidance provided by Ralf Gommers (NumPy, SciPy), Hannah Aizenman and Thomas Caswell (Matplotlib), Matt Haberland (SciPy), and Joris Van den Bossche (Pandas).
+[CZI의 Essential Open Source Software for Science 프로그램](https://chanzuckerberg.com/eoss/)의 일환으로 이 [Diversity & 포함 추가 보조금](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b)은 포괄적인 오픈 소스 커뮤니티를 육성하기 위한 관행을 식별, 문서화 및 구현하기 위한 전담 기여자 경험 리드 직책 생성을 지원합니다. 이 프로젝트는 Melissa Mendonça(NumPy) 님이 이끌고 Ralf Gommers(NumPy, SciPy), Hannah Aizenman, Thomas Caswell(Matplotlib), Matt Haberland(SciPy), Joris Van den Bossche(Pandas) 님이 추가 멘토링 및 지침을 제공합니다.
 
-This is an ambitious project aiming to discover and implement activities that should structurally improve the community dynamics of our projects. By establishing these new cross-project roles, we hope to introduce a new collaboration model to the Scientific Python communities, allowing community-building work within the ecosystem to be done more efficiently and with greater outcomes. We also expect to develop a clearer picture of what works and what doesn't in our projects to engage and retain new contributors, especially from historically underrepresented groups. Finally, we plan on producing detailed reports on the actions executed, explaining how they have impacted our projects in terms of representation and interaction with our communities.
+이것은 프로젝트의 커뮤니티 역학을 구조적으로 개선해야 하는 활동을 발견하고 구현하는 것을 목표로 하는 야심 찬 프로젝트입니다. 새로운 교차 프로젝트 역할을 설정함으로써 과학적 Python 커뮤니티에 새로운 협업 모델을 도입하여 생태계 내에서 커뮤니티 구축 작업을 보다 효율적으로 수행하고 더 큰 결과를 얻을 수 있을 것으로 기대됩니다. 또한 특히 역사적으로 과소대표된 집단의 새로운 기여자를 참여시키고 유지하기 위해, 프로젝트에서 효과적인 것과 그렇지 않은 것에 대한 명확한 그림을 구축할 것으로 기대합니다. 마지막으로, 시행된 조치에 대해 자세한 보고서를 작성하여 커뮤니티와의 대표 및 상호 작용 측면에서 프로젝트에 어떤 영향을 미쳤는지 설명할 계획입니다.
 
-The two-year project is expected to start by November 2021, and we are excited to see the results from this work! [You can read the full proposal here](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063).
+2개년 프로젝트가 2021년 11월부터 시작될 예정입니다. 프로젝트의 결과를 볼 날이 기대되네요! [여기에서 전체 제안서를 열람할 수 있습니다](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063).
 
 ### 2021년도 NumPy 설문조사
 
