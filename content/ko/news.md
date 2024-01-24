@@ -58,61 +58,61 @@ _2023년 6월 17일_ -- 이제 [NumPy 1.25.0](https://numpy.org/doc/stable/relea
 * Einsum에서 객체 배열 지원
 * Inplace 행렬 곱셈 (`@=`) 지원
 
-NumPy 1.25.0 릴리스에서는 자료형의 처리 및 형변환을 개선하고 실행 속도를 높이는 작업, 문서를 보다 명료하게 다듬는 작업을 계속하고 있습니다. There has also been preparatory work for the future NumPy 2.0.0, resulting in a large number of new and expired deprecations.
+NumPy 1.25.0 릴리스에서는 dtype의 처리 및 형변환을 개선하고 실행 속도를 높이는 작업, 문서를 보다 명료하게 다듬는 작업을 계속하고 있습니다. 미래의 NumPy 2.0.0을 위한 준비 작업도 있었는데, 이로 인해 수많은 기능들이 지원 종료 예정에 새로 포함되거나 완전히 만료되었습니다.
 
 총 148명의 사람들이 이 릴리스에 기여하였으며 530개의 풀 리퀘스트가 병합되었습니다.
 
 본 릴리즈에서 지원하는 Python 버전은 3.9-3.11입니다.
 
-### Fostering an Inclusive Culture: Call for Participation
+### 포용적인 문화 조성: 참여 요청
 
-_May 10, 2023_ -- Fostering an Inclusive Culture: Call for Participation
+_2023년 5월 10일_ -- 포용적인 문화 조성: 참여 요청
 
-How can we be better when it comes to diversity and inclusion? Read the report and find out how to get involved [here](https://contributor-experience.org/docs/posts/dei-report/).
+다양성과 포용성의 측면에서 우리는 어떻게 더 나아질 수 있을까요? [여기](https://contributor-experience.org/docs/posts/dei-report/)에서 보고서를 읽고 함께 참여하는 방법을 알아보세요.
 
-### NumPy documentation team leadership transition
+### NumPy 문서 팀 리더 변경
 
-_Jan 6, 2023_ –- Mukulika Pahari and Ross Barnowski are appointed as the new NumPy documentation team leads replacing Melissa Mendonça. We thank Melissa for all her contributions to the NumPy official documentation and educational materials, and Mukulika and Ross for stepping up.
+_2023년 1월 6일_ –- Mukulika Pahari, Ross Barnowski가 Melissa Mendonça를 대신해 새 NumPy 문서 팀 리더로 임명되었습니다. NumPy 공식 문서와 교육 자료에 기여한 Melissa와 한 걸음 더 나아간 Mukulika, Ross에게 감사를 표합니다.
 
 ### NumPy 1.24.0 출시
 
-_Dec 18, 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) is now available. The highlights of the release are:
+_2022년 12월 18일_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html)이 출시되었습니다. 주요 기능들은 다음과 같습니다:
 
-* New "dtype" and "casting" keywords for stacking functions.
-* New F2PY features and fixes.
-* Many new deprecations, check them out.
-* Many expired deprecations,
+* 스태킹 함수를 위한 새 "dtype" 및 "casting" 키워드.
+* 새 F2PY 기능 및 수정.
+* 수많은 지원 종료 예정 기능, 확인하세요.
+* 수많은 만료된 기능,
 
-The NumPy 1.24.0 release continues the ongoing work to improve the handling and promotion of dtypes, increase execution speed, and clarify the documentation. There are a large number of new and expired deprecations due to changes in dtype promotion and cleanups. It is the work of 177 contributors spread over 444 pull requests. The supported Python versions are 3.8-3.11.
+NumPy 1.24.0 릴리스에서는 dtype의 처리 및 형변환을 개선하고 실행 속도를 높이는 작업, 문서를 보다 명료하게 다듬는 작업을 계속하고 있습니다. dtype의 형변환 및 정리를 변경하는 과정에서 수많은 기능들이 지원 종료 예정에 새로 포함되거나 완전히 만료되었습니다. 177명의 기여자가 생성한 444개의 풀 요청을 바탕으로 한 성과입니다. 지원하는 Python 버전은 3.8-3.11입니다.
 
 ### NumPy 1.23.0 출시
 
-_Jun 22, 2022_ -- [NumPy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) is now available. The highlights of the release are:
+_2022년 6월 22일_ -- [NumPy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html)이 출시되었습니다. 주요 기능들은 다음과 같습니다:
 
-* Implementation of `loadtxt` in C, greatly improving its performance.
-* Exposure of DLPack at the Python level for easy data exchange.
-* Changes to the promotion and comparisons of structured dtypes.
-* Improvements to f2py.
+* `loadtxt`를 C로 구현하여 성능이 크게 향상되었습니다.
+* 데이터 교환을 쉽게 하기 위해 Python 수준에서 DLPack을 개방합니다.
+* 구조화된 dtype의 형변환 및 비교 방법을 변경했습니다.
+* f2py를 개선했습니다.
 
-The NumPy 1.23.0 release continues the ongoing work to improve the handling and promotion of dtypes, increase the execution speed, clarify the documentation, and expire old deprecations. It is the work of 151 contributors spread over 494 pull requests. The Python versions supported by this release 3.8-3.10. Python 3.11 will be supported when it reaches the rc stage.
+NumPy 1.23.0 릴리스에서는 dtype의 처리 및 형변환을 개선하고 실행 속도를 높이는 작업, 문서를 보다 명료하게 다듬는 작업, 오래된 지원 종료 예정 기능을 완전히 만료시키는 작업을 계속하고 있습니다. 151명의 기여자가 생성한 494개의 풀 요청을 바탕으로 한 성과입니다. 본 릴리즈에서 지원하는 Python 버전은 3.8-3.10입니다. Python 3.11은 rc 단계에 다다르면 지원할 예정입니다.
 
-### NumFOCUS DEI research study: call for participation
+### NumFOCUS DEI 연구: 참여 요청
 
-_Apr 13, 2022_ -- NumPy is working with [NumFOCUS](http://numfocus.org/) on a [research project](https://numfocus.org/diversity-inclusion-disc/a-pivotal-time-in-numfocuss-project-aimed-dei-efforts?eType=EmailBlastContent&eId=f41a86c3-60d4-4cf9-86cf-58eb49dc968c) funded by the [Gordon & Betty Moore Foundation](https://www.moore.org/) to understand the barriers to participation that contributors, particularly those from historically underrepresented groups, face in the open-source software community. The research team would like to talk to new contributors, project developers and maintainers, and those who have contributed in the past about their experiences joining and contributing to NumPy.
+_2022년 4월 13일_ -- NumPy는 [NumFOCUS](http://numfocus.org/)와 협력하여 [Gordon & Betty Moore 재단](https://www.moore.org/)에서 기금을 제공하는 [연구 프로젝트](https://numfocus.org/diversity-inclusion-disc/a-pivotal-time-in-numfocuss-project-aimed-dei-efforts?eType=EmailBlastContent&eId=f41a86c3-60d4-4cf9-86cf-58eb49dc968c)를 진행합니다. 본 연구는 오픈 소스 소프트웨어 커뮤니티에 기여자, 특히 역사적으로 과소평가된 집단의 기여자가 참여할 때 직면하는 장벽을 이해하는 것을 목표로 합니다. 연구팀은 새 기여자, 프로젝트 개발자 및 유지관리자, 과거에 기여한 사람들과 NumPy에 참여하고 기여한 경험에 대해 이야기하고자 합니다.
 
-**Interested in sharing your experiences?**
+**경험을 공유하고 싶으신가요?**
 
-Please complete this brief [“Participant Interest” form](https://numfocus.typeform.com/to/WBWVJSqe) which contains additional information on the research goals, privacy, and confidentiality considerations. Your participation will be valuable to the growth and sustainability of diverse and inclusive open-source software communities. Accepted participants will participate in a 30-minute interview with a research team member.
+간단한 ["참여 희망" 양식](https://numfocus.typeform.com/to/WBWVJSqe)을 작성해주세요. 양식에서 연구 목표, 개인정보 보호, 기밀 유지 사항에 대한 추가 정보를 확인할 수 있습니다. 당신의 참여가 다양성과 포용성을 갖춘 오픈 소스 소프트웨어 커뮤니티의 성장과 지속 가능성에 도움이 될 것입니다. 승인된 참가자는 연구팀과 30분 면담을 진행하게 됩니다.
 
 ### Numpy 1.22.0 출시
 
 _2021년 12월 31일_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html)이 출시되었습니다. 주요 기능들은 다음과 같습니다:
 
 * 기본 네임스페이스에 대해 유형 주석의 지원을 거의 완료했습니다. 업스트림 코드는 항상 변하므로 추가 개선이 있을 수 있지만 주요 작업은 완료되었습니다. 아마도 이 릴리스에서 가장 체감되는 개선 사항일 것입니다.
-* A preliminary version of the proposed [array API Standard](https://data-apis.org/array-api/latest/) is provided (see [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)). This is a step in creating a standard collection of functions that can be used across libraries such as CuPy and JAX.
-* NumPy now has a DLPack backend. DLPack provides a common interchange format for array (tensor) data.
-* New methods for `quantile`, `percentile`, and related functions. The new methods provide a complete set of the methods commonly found in the literature.
-* The universal functions have been refactored to implement most of [NEP 43](https://numpy.org/neps/nep-0043-extensible-ufuncs.html). This also unlocks the ability to experiment with the future DType API.
+* 제안된 [배열 API 표준의 예비 버전](https://data-apis.org/array-api/latest/)이 제공됩니다([NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html) 참조). 이는 CuPy 및 JAX와 같은 라이브러리에서 사용할 수 있는 표준 함수 모음을 만드는 단계입니다.
+* NumPy가 DLPack 백엔드로 구동됩니다. DLPack은 배열(텐서) 데이터에 대한 공통 교환 형식을 제공합니다.
+* `quantile`, `percentile` 관련 함수를 위한 새 메서드를 추가했습니다. 새 메서드를 이용해 문헌에서 일반적으로 쓰이는 처리를 진행할 수 있습니다.
+* 범용 함수가 대부분의 [NEP 43](https://numpy.org/neps/nep-0043-extensible-ufuncs.html)을 구현하도록 리팩터링되었습니다. 이를 통해 미래의 DType API를 실험할 수 있는 능력도 갖췄습니다.
 * 새 구성 가능한 메모리 할당자를 다운스트림 프로젝트에서 사용할 수 있습니다.
 
 NumPy 1.22.0은 153명의 기여자가 생성한 609개의 풀 요청을 바탕으로 만들어진 대형 릴리즈입니다. 본 릴리즈에서 지원하는 Python 버전은 3.8-3.10입니다.
