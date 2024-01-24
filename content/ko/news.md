@@ -6,7 +6,7 @@ date: 2023-09-16
 ---
 
 ### NumPy 1.26.0 출시
-_Dec 19, 2023_ -- NumFOCUS has teamed up with PyCharm during their EOY campaign to offer a 30% discount on first-time PyCharm licenses. All year-one revenue from PyCharm purchases from now until December 23rd, 2023 will go directly to the NumFOCUS programs.
+_2023년 12월 19_ -- NumFOCUS에서 연말 캠페인 기간 동안 PyCharm과 협력해 최초 PyCharm 이용자의 라이선스를 30% 할인된 가격에 제공했습니다. 지금부터 2023년 12월 23일까지 PyCharm 구매로 발생한 모든 수익은 NumFOCUS 프로그램으로 직접 전달됩니다.
 
 Use unique URL that will allow to track purchases https://lp.jetbrains.com/support-data-science/ or a coupon code ISUPPORTDATASCIENCE 
 
