@@ -2,7 +2,7 @@
 title: NumPy 이용 약관
 sidebar: false
 aliases:
-  - /conduct.html
+  - /ko/conduct/
 ---
 
 ### 소개
