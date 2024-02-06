@@ -231,7 +231,6 @@ _2019년 11월 15일_ -- NumPy의 주요 종속 패키지 중 하나인 NumPy와
 NumPy 릴리즈의 목록입니다. 릴리즈 노트로 링크도 걸려 있습니다. 버그 수정 릴리즈(`x.y.z`에서 `z`만 바뀐 경우)에는 새로운 기능이 없습니다. 마이너 릴리즈(`y`가 증가한 경우)에는 새로운 기능이 있습니다.
 
 - NumPy 1.26.3 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.26.2)) -- _2024년 1월 2일_.
-- NumPy 1.26.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.26.3)) -- _2 Jan 2024_.
 - NumPy 1.126.2 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.26.2)) -- _2023년 1월 2일_.
 - NumPy 1.26.1 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.26.1)) -- _2023년 10월 14일_.
 - NumPy 1.26.0 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.26.0)) -- _2023년 16월 9일_.
