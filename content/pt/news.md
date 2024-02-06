@@ -249,7 +249,7 @@ Mais detalhes sobre nossas propostas e resultados esperados podem ser encontrado
 Aqui está uma lista de versões do NumPy, com links para notas de lançamento. Bugfix lança (apenas o `z` muda no `x.y.` número da versão) não tem novos recursos; versões menores (o `y` aumenta) sim.
 
 - Ainda há trabalho a se fazer no upstream, mas a maior parte do trabalho está feita.
-- NumPy 1.26.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.26.3)) -- _2 Jan 2024_.
+- NumPy 1.26.3 ([notas de lançamento](https://github.com/numpy/numpy/releases/tag/v1.26.3)) -- _2 Jan 2024_.
 - NumPy 1.26.2 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.26.2)) -- _12 de novembro de 2023_.
 - NumPy 1.26.1 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.26.1)) -- _14 de outubro de 2023_.
 - NumPy 1.26.0 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.26.0)) -- _16 de setembro de 2023_.
