@@ -6,9 +6,9 @@ sidebar: false
 {{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**인도 최대의 크리켓 축제인 IPLT20**" alt="인도 프리미어 리그 크리켓 컵 및 경기장" attr="*(사진 출처: IPLT20 (컵 및 로고) & Akash Yadav (경기장))*" attrlink="https://unsplash.com/@aksh1802" >}}
 
 {{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, *International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL*"
-> }} You don't play for the crowd, you play for the country. 
-> 
-> {{< /blockquote >}}
+>}}
+You don't play for the crowd, you play for the country.
+{{< /blockquote >}}
 
 ## 크리켓이란
 

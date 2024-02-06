@@ -6,9 +6,9 @@ sidebar: false
 {{< figure src="/images/content_images/cs/blackhole.jpg" caption="**블랙홀 M87**" alt="블랙홀 사진" attr="*(사진 크레딧: Event Horizon Telescope Collaboration)*" attrlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
 
 {{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="Katie Bouman, *Assistant Professor, Computing & Mathematical Sciences, Caltech*"
-> }} Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see. 
-> 
-> {{< /blockquote >}}
+>}}
+Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see. 
+{{< /blockquote >}}
 
 ## 지구 크기의 망원경
 
