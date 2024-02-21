@@ -50,26 +50,6 @@ params:
         img: /images/content_images/case_studies/deeplabcut.png
         alttext: Análisis de la pose de un Guepardo
         url: /case-studies/deeplabcut-dnn
-  keyfeatures:
-    features:
-      - 
-        title: Matrices N-dimensionales Poderosas
-        text: Rápidos y versátiles, los conceptos de vectorización, indexación y retransmisión de NumPy son los estándares de facto de la computación de matrices en la actualidad.
-      - 
-        title: Herramientas de Cómputo Numérico
-        text: NumPy ofrece funciones matemáticas integrales, generadores de números aleatorios, rutinas de álgebra lineal, transformadas de Fourier y mucho más.
-      - 
-        title: Código abierto
-        text: Distribuida bajo la licencia liberal [BSD](https://github.com/numpy/numpy/blob/main/LICENSE.txt), NumPy es desarrollado y mantenido [públicamente en GitHub](https://github.com/numpy/numpy) por una [comunidad](/community) vibrante, responsable y diversa.
-      - 
-        title: Interoperable
-        text: NumPy es compatible con una amplia gama de plataformas informáticas y de hardware, y funciona bien con bibliotecas distribuidas, de GPU y de matrices dispersas.
-      - 
-        title: Rendimiento
-        text: El núcleo de NumPy es código C bien optimizado. Disfrute de la flexibilidad de Python con la velocidad del código compilado.
-      - 
-        title: Fácil de usar
-        text: La sintaxis de alto nivel de NumPy lo hace accesible y productivo para programadores de cualquier formación o nivel de experiencia.
   tabs:
     title: ECOSISTEMA
   section5: false
