@@ -50,26 +50,6 @@ params:
         img: /images/content_images/case_studies/deeplabcut.png
         alttext: チータの姿勢推定
         url: /ja/case-studies/deeplabcut-dnn
-  keyfeatures:
-    features:
-      - 
-        title: 強力な多次元配列
-        text: NumPyの高速で多機能なベクトル化計算、インデックス処理、ブロードキャストの考え方は、現在の配列計算におけるデファクト・スタンダードです。
-      - 
-        title: 数値計算ツール群
-        text: NumPyは、様々な数学関数、乱数生成器、線形代数ルーチン、フーリエ変換などを提供しています。
-      - 
-        title: 相互運用性
-        text: NumPyは、幅広いハードウェアとコンピューティング・プラットフォームをサポートしており、分散処理、GPU、疎行列ライブラリにも対応しています。
-      - 
-        title: 高パフォーマンス
-        text: NumPyの大部分は最適化されたC言語のコードで構成されています。これによりPythonの柔軟性とコンパイルされたコードの高速性の両方を享受できます。
-      - 
-        title: 使いやすさ
-        text: NumPyの高水準なシンタックスは、どんなバックグラウンドや経験を持つのプログラマーでも簡単に利用することができ、生産性を高めることができます。
-      - 
-        title: オープンソース
-        text: NumPyは、寛容な[BSDライセンス](https://github.com/numpy/numpy/blob/main/LICENSE.txt)で公開されています。NumPyは活発で、互いを尊重し、多様性を認め合う[コミュニティ](/ja/community)によって、 [GitHub](https://github.com/numpy/numpy)上でオープンに開発されています.
   tabs:
     title: NumPyのエコシステム
   section5: false
