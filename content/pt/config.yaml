@@ -50,26 +50,6 @@ params:
         img: /images/content_images/case_studies/deeplabcut.png
         alttext: Análise de pose de um guepardo
         url: /pt/case-studies/deeplabcut-dnn
-  keyfeatures:
-    features:
-      - 
-        title: Arrays n-dimensionais poderosas
-        text: Rápidos e versáteis, os conceitos de vetorização, indexação e broadcasting do NumPy são, na prática, o padrão em computação com arrays.
-      - 
-        title: Ferramentas de computação numérica
-        text: O NumPy oferece um conjunto completo de funções matemáticas, geradores de números aleatórios, rotinas de álgebra linear, transformadas de Fourier, e mais.
-      - 
-        title: Interoperabilidade
-        text: O NumPy suporta um grande número de plataformas de hardware e computação, e pode ser combinado com bibliotecas de computação com arrays esparsas, distribuidas ou em GPUs.
-      - 
-        title: Alto desempenho
-        text: O núcleo do NumPy é feito de código otimizado em C. Experimente a flexibilidade do Python com a velocidade de código compilado.
-      - 
-        title: Fácil de usar
-        text: A sintaxe de alto nível do NumPy torna-o acessível e produtivo para programadores de qualquer nível de experiência e formação.
-      - 
-        title: Código aberto
-        text: Distribuido com uma [licença BSD](https://github.com/numpy/numpy/blob/main/LICENSE.txt) liberal, o NumPy é desenvolvido e mantido [publicamente no GitHub](https://github.com/numpy/numpy) por uma [comunidade](/pt/community) vibrante, responsiva, e diversa.
   tabs:
     title: ECOSSISTEMA
   section5: false
