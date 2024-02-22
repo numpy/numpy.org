@@ -5,23 +5,23 @@ title: null
 {{< grid columns="1 2 2 3" >}}
 
 {{< card >}}
-title = 'Powerful N-dimensional arrays'
+title = 'Potentes arrays N-dimensionais.'
 body = '''
-Fast and versatile, the NumPy vectorization, indexing, and broadcasting concepts are the de-facto standards of array computing today.
+Rápido e versátil, os conceitos de vetorização, indexação e broadcasting do NumPy são os padrões de fato da computação de arrays hoje em dia.
 '''
 {{< /card >}}
 
 {{< card >}}
-title = 'Numerical computing tools'
+title = 'Ferramentas numéricas de computação'
 body = '''
-NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
+O NumPy oferece funções matemáticas abrangentes, geradores de números aleatórios, rotinas de álgebra linear, transformações de Fourier e muito mais.
 '''
 {{< /card >}}
 
 {{< card >}}
-title = 'Open source'
+title = 'Código aberto'
 body = '''
-Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/community).
+Distribuído sob uma licença liberal [BSD](https://github.com/numpy/numpy/blob/main/LICENSE.txt), o NumPy é desenvolvido e mantido [publicamente no GitHub](https://github.com/numpy/numpy) por uma [comunidade](/community) vibrante, responsiva e diversa.
 '''
 {{< /card >}}
 
@@ -35,7 +35,7 @@ NumPy supports a wide range of hardware and computing platforms, and plays well 
 {{< card >}}
 title = 'Performant'
 body = '''
-The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
+The core of NumPy is well-optimized C code. Aproveite a flexibilidade do Python com a velocidade de código compilado.
 '''
 {{< /card >}}
 
