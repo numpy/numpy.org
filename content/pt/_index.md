@@ -26,23 +26,23 @@ Distribuído sob uma licença liberal [BSD](https://github.com/numpy/numpy/blob/
 {{< /card >}}
 
 {{< card >}}
-title = 'Interoperable'
+title = 'Interoperável'
 body = '''
-NumPy supports a wide range of hardware and computing platforms, and plays well with distributed, GPU, and sparse array libraries.
+O NumPy suporta uma ampla gama de plataformas de hardware e computação, e se integra bem com bibliotecas distribuídas, de GPU e de arrays esparsos.
 '''
 {{< /card >}}
 
 {{< card >}}
-title = 'Performant'
+title = 'Eficiente'
 body = '''
-The core of NumPy is well-optimized C code. Aproveite a flexibilidade do Python com a velocidade de código compilado.
+O núcleo do NumPy é composto por código C bem otimizado. Aproveite a flexibilidade do Python com a velocidade de código compilado.
 '''
 {{< /card >}}
 
 {{< card >}}
-title = 'Easy to use'
+title = 'Fácil de usar'
 body = '''
-NumPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
+A sintaxe de alto nível do NumPy o torna acessível e produtivo para programadores de qualquer formação ou nível de experiência.
 '''
 {{< /card >}}
 
