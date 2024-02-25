@@ -5,9 +5,9 @@ title: null
 {{< grid columns="1 2 2 3" >}}
 
 {{< card >}}
-title = 'Powerful N-dimensional arrays'
+title = '강력한 N차원 배열'
 body = '''
-Fast and versatile, the NumPy vectorization, indexing, and broadcasting concepts are the de-facto standards of array computing today.
+빠르고 다재다능한 NumPy의 벡터화, 인덱싱, 전송 구성은 오늘날 배열 컴퓨팅의 사실상 표준입니다.
 '''
 {{< /card >}}
 
