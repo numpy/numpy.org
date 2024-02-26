@@ -61,7 +61,7 @@ Se o seu relatório envolve algum membro da comissão, ou se você sentir que ex
 
 ### Resolução de Incidentes & Aplicação do Código de Conduta
 
-_Esta seção resume os pontos mais importantes, mais detalhes podem ser encontrados em_ [Código de Conduta do NumPy - Como dar seguimento a um relatório](/report-handling-manual).
+_Esta seção resume os pontos mais importantes, mais detalhes podem ser encontrados em_ [Código de Conduta do NumPy - Como dar seguimento a um relatório](report-handling-manual).
 
 Vamos investigar e responder a todas as queixas. O Comitê do Código de Conduta do NumPy e o Comitê Diretor do NumPy (se envolvido) protegerão a identidade do relatante, e tratarão o conteúdo das reclamações como confidencial (a menos que o relatante aceite o contrário).
 
@@ -72,7 +72,7 @@ Em casos que não envolvam claras violações graves e óbvias deste Código de 
 1. acusar o recebimento do relato,
 2. discussão/feedback razoável,
 3. mediação (se o feedback não ajudar e somente se ambos o relatante e relatado concordarem com isso),
-4. aplicação de solução via decisão transparente (veja as [Resoluções](/report-handling-manual/#resolutions)) do Comitê do Código de Conduta.
+4. aplicação de solução via decisão transparente (veja as [Resoluções](report-handling-manual/#resoluções)) do Comitê do Código de Conduta.
 
 O comitê responderá a qualquer relatório o mais rapidamente possível e, no máximo, no prazo de 72 horas.
 
