@@ -2,7 +2,7 @@
 # unless otherwise overridden by more specific contexts.
 [build.environment]
   PYTHON_VERSION = "3.8" # netlify currently only support 2.7 and 3.8
-  HUGO_VERSION = "0.123.2"
+  HUGO_VERSION = "0.123.7"
   DART_SASS_VERSION = "1.70.0"
   DART_SASS_URL = "https://github.com/sass/dart-sass/releases/download/"
 
