@@ -5,17 +5,29 @@ sidebar: false
 
 私たちは、高品質のオープンソースソフトウェアを構築することで、世界中の科学・研究コミュニティをサポートすることを使命とする国際的なチームです。 是非[参加してください]({{< relref "/contribute" >}})!
 
-{{< include-html "static/gallery/maintainers.html" >}}
+### Maintainers
 
-{{< include-html "static/gallery/docs-team.html" >}}
+{{< grid1 file="maintainers.toml" columns="2 3 4 5" />}}
 
-{{< include-html "static/gallery/web-team.html" >}}
+### Docs team
 
-{{< include-html "static/gallery/triage-team.html" >}}
+{{< grid1 file="docs-team.toml" columns="2 3 4 5" />}}
 
-{{< include-html "static/gallery/survey-team.html" >}}
+### Web team
 
-{{< include-html "static/gallery/emeritus-maintainers.html" >}}
+{{< grid1 file="web-team.toml" columns="2 3 4 5" />}}
+
+### Triage team
+
+{{< grid1 file="triage-team.toml" columns="2 3 4 5" />}}
+
+### Survey team
+
+{{< grid1 file="survey-team.toml" columns="2 3 4 5" />}}
+
+### Emeritus maintainers
+
+{{< grid1 file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
 
 # ガバナンス
 
