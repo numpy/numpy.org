@@ -18,22 +18,20 @@ prepare:
 	git submodule update --init
 	python gen_config.py
 
-TEAMS_DIR = static/gallery
+# All translations share the <team>.toml files in the en translation
+TEAMS_DIR = content/en/teams
 TEAMS = emeritus-maintainers maintainers docs-team triage-team survey-team web-team
 TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
 
-$(TEAMS_DIR):
-	mkdir -p $(TEAMS_DIR)
-
-$(TEAMS_DIR)/%.md: $(TEAMS_DIR)
-	$(TEAMS_QUERY) --org numpy --team "$*"  >  $(TEAMS_DIR)/$*.html
+$(TEAMS_DIR)/%.toml:
+	$(TEAMS_QUERY) --org numpy --team "$*"  >  $(TEAMS_DIR)/$*.toml
 
 teams-clean: prepare
 	for team in $(TEAMS); do \
-	  rm -f $(TEAMS_DIR)/$${team}.html ;\
+	  rm -f $(TEAMS_DIR)/$${team}.toml ;\
 	done
 
-teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS)) ## generates numpy.org team gallery pages
+teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.toml,$(TEAMS)) ## generates numpy.org team gallery pages
 
 serve: prepare ## serve the website
 	hugo $(BASEURLARG) --printI18nWarnings server -D
