@@ -3,7 +3,7 @@ title: "Estudo de Caso: Estimativa de Pose 3D com DeepLabCut"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**Análise de movimentos de mãos de camundongos usando DeepLapCut**" alt="micehandanim" attr="*(Fonte: www.deeplabcut.org )*" attrlink="http://www.mousemotorlab.org/deeplabcut">}}
+{{< figure src="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**Análise de movimentos de mãos de camundongos usando DeepLapCut**" alt="micehandanim" attr="*(Fonte: www.deeplabcut.org )*" attrlink="http://www.mousemotorlab.org/deeplabcut" >}}
 
 {{< blockquote
     cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/"
