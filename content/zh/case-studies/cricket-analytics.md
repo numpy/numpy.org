@@ -3,11 +3,7 @@ title: "Case Study: Cricket Analytics, the game changer!"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/ipl-stadium.png"
-caption="**IPLT20, the biggest Cricket Festival in India**"
-alt="Indian Premier League Cricket cup and stadium"
-attr="_(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))_"
-attrlink="https\://unsplash.com/@aksh1802" >}}
+{{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**IPLT20, the biggest Cricket Festival in India**" alt="Indian Premier League Cricket cup and stadium" attr="_(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))_" attrlink="https\://unsplash.com/@aksh1802" >}}
 
 {{< blockquote
 cite="https\://www\.scoopwhoop.com/sports/ms-dhoni/"
@@ -58,13 +54,7 @@ metrics for improving match winning chances:
 - gaining insights into fitness and performance of a player against different opposition,
 - player contribution to wins and losses for making strategic decisions on team composition
 
-{{< figure src="/images/content_images/cs/cricket-pitch.png"
-class="csfigcaption"
-caption="**Cricket Pitch, the focal point in the field**"
-alt="A cricket pitch with bowler and batsmen"
-align="middle"
-attr="_(Image credit: Debarghya Das)_"
-attrlink="http\://debarghyadas.com/files/IPLpaper.pdf" >}}
+{{< figure src="/images/content_images/cs/cricket-pitch.png" class="csfigcaption" caption="**Cricket Pitch, the focal point in the field**" alt="A cricket pitch with bowler and batsmen" align="middle" attr="_(Image credit: Debarghya Das)_" attrlink="http\://debarghyadas.com/files/IPLpaper.pdf" >}}
 
 ### Key Data Analytics Objectives
 
@@ -79,12 +69,7 @@ attrlink="http\://debarghyadas.com/files/IPLpaper.pdf" >}}
   number crunching and data science know-how, visualization tools and capability
   to include newer observations in the analysis.
 
-{{< figure src="/images/content_images/cs/player-pose-estimator.png"
-class="fig-center"
-alt="pose estimator"
-caption="**Cricket Pose Estimator**"
-attr="_(Image credit: connect.vin)_"
-attrlink="https\://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/" >}}
+{{< figure src="/images/content_images/cs/player-pose-estimator.png" class="fig-center" alt="pose estimator" caption="**Cricket Pose Estimator**" attr="_(Image credit: connect.vin)_" attrlink="https\://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/" >}}
 
 ### The Challenges
 
@@ -154,7 +139,4 @@ hidden parameters, patterns, and attributes that lead to the outcome of a
 cricket match helps the stakeholders to take notice of game insights that are
 otherwise hidden in numbers and statistics.
 
-{{< figure src="/images/content_images/cs/numpy_ca_benefits.png"
-class="fig-center"
-alt="Diagram showing benefits of using NumPy for cricket analytics"
-caption="**Key NumPy Capabilities utilized**" >}}
+{{< figure src="/images/content_images/cs/numpy_ca_benefits.png" class="fig-center" alt="Diagram showing benefits of using NumPy for cricket analytics" caption="**Key NumPy Capabilities utilized**" >}}
