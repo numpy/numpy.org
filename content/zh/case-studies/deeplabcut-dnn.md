@@ -3,7 +3,7 @@ title: "Case Study: DeepLabCut 3D Pose Estimation"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**Analyzing mice hand-movement using DeepLapCut**" alt="micehandanim" attr="*(Source: www.deeplabcut.org )*" attrlink="http://www.mousemotorlab.org/deeplabcut">}}
+{{< figure src="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**Analyzing mice hand-movement using DeepLapCut**" alt="micehandanim" attr="*(Source: www.deeplabcut.org )*" attrlink="http://www.mousemotorlab.org/deeplabcut" >}}
 
 {{< blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/" by="Alexander Mathis, *Assistant Professor, École polytechnique fédérale de Lausanne* ([EPFL](https://www.epfl.ch/en/))"
 > }} Open Source Software is accelerating Biomedicine. DeepLabCut enables automated video analysis of animal behavior using Deep Learning. 
