@@ -34,7 +34,7 @@ params:
         url: https://github.com/google/jax
       - 
         title: Xarray
-        text: Labeled, indexed multi-dimensional arrays for advanced analytics and visualization
+        text: Labeled, indexed multi-dimensional arrays for advanced analytics and visualization.
         img: /images/content_images/arlib/xarray.png
         alttext: xarray
         url: https://xarray.pydata.org/en/stable/index.html
@@ -147,6 +147,9 @@ params:
           - 
             url: https://python-control.org/
             label: python-control
+          - 
+            url: https://hyperspy.org/
+            label: HyperSpy
       - 
         title: Image Processing
         alttext: An photograph of the mountains.
