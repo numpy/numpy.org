@@ -147,6 +147,9 @@ params:
           - 
             url: https://python-control.org/
             label: python-control
+          - 
+            url: https://hyperspy.org/
+            label: HyperSpy
       - 
         title: Processamento de imagens
         alttext: Uma fotografia das montanhas.
