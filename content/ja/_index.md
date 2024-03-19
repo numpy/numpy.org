@@ -2,7 +2,7 @@
 title:
 ---
 
-{{< grid1 columns="1 2 2 3" >}}
+{{< grid columns="1 2 2 3" >}}
 
 [[item]]
 type = 'card'
@@ -49,4 +49,4 @@ NumPyは、寛容な[BSDライセンス](https://github.com/numpy/numpy/blob/mai
 す.
 '''
 
-{{< /grid1 >}}
+{{< /grid >}}
