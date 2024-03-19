@@ -147,6 +147,9 @@ params:
           - 
             url: https://python-control.org/
             label: python-control
+          - 
+            url: https://hyperspy.org/
+            label: HyperSpy
       - 
         title: 画像処理
         alttext: 山々の写真
