@@ -147,6 +147,9 @@ params:
           - 
             url: https://python-control.org/
             label: python-control
+          - 
+            url: https://hyperspy.org/
+            label: HyperSpy
       - 
         title: 이미지 처리
         alttext: 산이 찍힌 사진
