@@ -1,8 +1,9 @@
 {{- $casestudies := .Site.Params.casestudies }}
 {{- $title    := index $casestudies "title" }}
 {{- $features := index $casestudies "features" }}
-<section class="casestudies">
-    <div class="container">
+<section class="article content-padding">
+  <div class=content-container>
+    <div class=article-content>
         <h1 class="casestudies-title">{{ $title }}</h1>
         <div class="casestudies-box-container">
             {{- range $features }}
@@ -14,4 +15,5 @@
             {{- end }}
         </div>
     </div>
+  </div>
 </section>

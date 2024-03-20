@@ -1,29 +1,30 @@
 {{- $tabs := .Site.Params.tabs }}
 {{- $title    := index $tabs "title" }}
-<section class="tabs-section">
-    <div class="container">
+<section class="article content-padding">
+  <div class=content-container>
+    <div class=article-content>
         <h1 class="tabs-title">{{ $title }}</h1>
 
         <div class="tabs">
           <div role="tablist" class="automatic">
             <button id="0-tab-0" type="button" role="tab" aria-selected="true" aria-controls="0-tabpanel-0">
               Scientific Domains
-	    </button>
-	    <button id="0-tab-1" type="button" role="tab" aria-selected="false" aria-controls="0-tabpanel-1">
-	      Array Libraries
-	    </button>
-	    <button id="0-tab-2" type="button" role="tab" aria-selected="false" aria-controls="0-tabpanel-2">
-	      Data Science
-	    </button>
-	    <button id="0-tab-3" type="button" role="tab" aria-selected="false" aria-controls="0-tabpanel-3">
-	      Machine Learning
-	    </button>
-	    <button id="0-tab-4" type="button" role="tab" aria-selected="false" aria-controls="0-tabpanel-4">
-	      Visualization
-	    </button>
+            </button>
+            <button id="0-tab-1" type="button" role="tab" aria-selected="false" aria-controls="0-tabpanel-1">
+              Array Libraries
+            </button>
+            <button id="0-tab-2" type="button" role="tab" aria-selected="false" aria-controls="0-tabpanel-2">
+              Data Science
+            </button>
+            <button id="0-tab-3" type="button" role="tab" aria-selected="false" aria-controls="0-tabpanel-3">
+              Machine Learning
+            </button>
+            <button id="0-tab-4" type="button" role="tab" aria-selected="false" aria-controls="0-tabpanel-4">
+              Visualization
+            </button>
           </div>
-	  <div id="0-tabpanel-0" role="tabpanel" tabindex="0" aria-labelledby="$0-tab-0">
-	    {{ partial "scientific-domains.html" . }}
+          <div id="0-tabpanel-0" role="tabpanel" tabindex="0" aria-labelledby="$0-tab-0">
+            {{ partial "scientific-domains.html" . }}
           </div>
           <div id="0-tabpanel-1" role="tabpanel" tabindex="0" aria-labelledby="$0-tab-1">
             {{ partial "array-libraries.html" . }}
@@ -39,4 +40,5 @@
           </div>
         </div>
     </div>
+  </div>
 </section>

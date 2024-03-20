@@ -2,7 +2,6 @@
 {{- $machinelearning := .Site.Params.machinelearning }}
 {{- $paras := index $machinelearning "paras" }}
 {{- range $paras }}
-<li class="machine-learning">
     <div class="grid-container">
         <div class="animation-holder">
             <a href="https://ai.googleblog.com/2016/12/open-sourcing-embedding-projector-tool.html">
@@ -27,5 +26,4 @@
             </p>
         </div>
     </div>
-</li>
 {{- end }}

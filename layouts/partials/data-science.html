@@ -5,7 +5,6 @@
 {{- $examples := index $datascience "examples" }}
 {{- $image1 := index $datascience "image1" }}
 {{- $image2 := index $datascience "image2" }}
-<li class="data-science">
     <div class="grid-container">
         <div>
             {{- range $image1 }}
@@ -17,7 +16,7 @@
         <div>
             <p>
                 {{ $intro }}
-
+    
                 <ul class="content-tab">
                     {{- range $examples }}
                         <li>{{ .text | markdownify }}</li>
@@ -43,4 +42,3 @@
         {{- end }}
         </div>
     </div>
-</li>

@@ -1,6 +1,8 @@
 {{- $shell := .Site.Params.shell }}
 {{- $intro := index $shell "intro" }}
-<div class="hero-right">
+<section class="article content-padding">
+  <div class=content-container>
+    <div class=article-content>
     <div class="flex-column shell-title-container">
         {{- range $intro }}
             <div class="shell-title">{{ .title }}</div>
@@ -22,4 +24,6 @@
             </iframe>
         </div>
     </div>
-</div>
+    </div>
+  </div>
+</section>

@@ -10,15 +10,6 @@ table td, table th {
   vertical-align: top;
 }
 
-.tabs-section {
-    display: flex;
-    flex-direction: column;
-}
-
-.tabs-section .container {
-    display: flex;
-    flex-direction: column;
-}
 
 .tabs-title {
     display: flex;
@@ -28,16 +19,7 @@ table td, table th {
     margin: 30px 0;
 }
 
-.visualization, .data-science, .machine-learning, .array-libraries {
-    max-width: 900px;
-    margin: 15px auto;
-}
-
 @media only screen and (max-width: 1200px) {
-    .tabs-section {
-        margin: 30px 10px;
-    }
-
     .tabs-title {
         margin: 30px;
     }
@@ -81,7 +63,6 @@ table td, table th {
 
 /* Scientific Domains */
 section.scientific-domains {
-    max-width: 900px !important;
 
     & ul {
         display: flex;
