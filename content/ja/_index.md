@@ -2,7 +2,7 @@
 title: null
 ---
 
-{{< grid1 columns="1 2 2 3" >}}
+{{< grid columns="1 2 2 3" >}}
 
 [[item]]
 type = 'card'
@@ -46,4 +46,4 @@ body = '''
 NumPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
 '''
 
-{{< /grid1>}}
+{{< /grid>}}
