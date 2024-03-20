@@ -3,7 +3,9 @@ title: "Case Study: Cricket Analytics, the game changer!"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**IPLT20, the biggest Cricket Festival in India**" alt="Indian Premier League Cricket cup and stadium" attr="*(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
+{{< figure >}}
+src = '/images/content_images/cs/ipl-stadium.png' title = 'IPLT20, the biggest Cricket Festival in India' alt = 'Indian Premier League Cricket cup and stadium' attribution = '(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))' attributionlink = 'https://unsplash.com/@aksh1802'
+{{< /figure >}}
 
 {{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, *International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL*"
 > }} You don't play for the crowd, you play for the country. 
@@ -25,7 +27,9 @@ Today, there are rich and almost infinite troves of cricket game records and sta
 * gaining insights into fitness and performance of a player against different opposition,
 * player contribution to wins and losses for making strategic decisions on team composition
 
-{{< figure src="/images/content_images/cs/cricket-pitch.png" class="csfigcaption" caption="**Cricket Pitch, the focal point in the field**" alt="A cricket pitch with bowler and batsmen" align="middle" attr="*(Image credit: Debarghya Das)*" attrlink="http://debarghyadas.com/files/IPLpaper.pdf" >}}
+{{< figure >}}
+src = '/images/content_images/cs/cricket-pitch.png' title = 'Cricket Pitch, the focal point in the field' alt = 'A cricket pitch with bowler and batsmen' align = 'center' attribution = '(Image credit: Debarghya Das)' attributionlink = 'http://debarghyadas.com/files/IPLpaper.pdf'
+{{< /figure >}}
 
 ### Key Data Analytics Objectives
 
@@ -33,7 +37,9 @@ Today, there are rich and almost infinite troves of cricket game records and sta
 * Real-time data analytics can help in gaining insights even during the game for changing tactics by the team and by associated businesses for economic benefits and growth.
 * Besides historical analysis, predictive models are harnessed to determine the possible match outcomes that require significant number crunching and data science know-how, visualization tools and capability to include newer observations in the analysis.
 
-{{< figure src="/images/content_images/cs/player-pose-estimator.png" class="fig-center" alt="pose estimator" caption="**Cricket Pose Estimator**" attr="*(Image credit: connect.vin)*" attrlink="https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/" >}}
+{{< figure >}}
+src = '/images/content_images/cs/player-pose-estimator.png' alt = 'pose estimator' title = 'Cricket Pose Estimator' attribution = '(Image credit: connect.vin)' attributionlink = 'https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/'
+{{< /figure >}}
 
 ### The Challenges
 
@@ -61,4 +67,6 @@ Sports Analytics is a thriving field. Many researchers and companies [use NumPy]
 
 Sports Analytics is a game changer when it comes to how professional games are played, especially how strategic decision making happens, which until recently was primarily done based on “gut feeling" or adherence to past traditions. NumPy forms a solid foundation for a large set of Python packages which provide higher level functions related to data analytics, machine learning, and AI algorithms. These packages are widely deployed to gain real-time insights that help in decision making for game-changing outcomes, both on field as well as to draw inferences and drive business around the game of cricket. Finding out the hidden parameters, patterns, and attributes that lead to the outcome of a cricket match helps the stakeholders to take notice of game insights that are otherwise hidden in numbers and statistics.
 
-{{< figure src="/images/content_images/cs/numpy_ca_benefits.png" class="fig-center" alt="Diagram showing benefits of using NumPy for cricket analytics" caption="**Key NumPy Capabilities utilized**" >}}
+{{< figure >}}
+src = '/images/content_images/cs/numpy_ca_benefits.png' alt = 'Diagram showing benefits of using NumPy for cricket analytics' title = 'Key NumPy Capabilities utilized'
+{{< /figure >}}
