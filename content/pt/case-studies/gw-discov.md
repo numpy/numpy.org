@@ -4,7 +4,7 @@ sidebar: false
 ---
 
 {{< figure src="/images/content_images/cs/gw_sxs_image.png" class="fig-center" caption="**Ondas gravitacionais**" alt="binary coalesce black hole generating gravitational waves" attr="*(Créditos de imagem: O projeto Simulating eXtreme Spacetimes (SXS) no LIGO)*" attrlink="https://youtu.be/Zt8Z_uzG71o" >}}
-src = '/images/content_images/cs/gw_sxs_image.png' title = 'Gravitational Waves' alt = 'binary coalesce black hole generating gravitational waves' attribution = '(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)' attributionlink = 'https://youtu.be/Zt8Z_uzG71o'
+src = '/images/content_images/cs/gw_sxs_image.png' title = 'Ondas Gravitacionais' alt = 'buraco negro coalesce binário gerando ondas gravitacionais' attribution = '(Créditos da Imagem: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)' attributionlink = 'https://youtu.be/Zt8Z_uzG71o'
 {{< /figure >}}
 
 {{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="David Shoemaker, *LIGO Scientific Collaboration*" >}} The scientific Python ecosystem is critical infrastructure for the research done at LIGO.
@@ -59,13 +59,13 @@ NumPy, the standard numerical analysis package for Python,  was utilized by the 
 * [Software](https://github.com/lscsoft) fundamental desenvolvido na análise de ondas gravitacionais, como [GwPy](https://gwpy.github.io/docs/stable/overview.html) e [PyCBC](https://pycbc.org) usam NumPy e AstroPy internamente para fornecer interfaces baseadas em objetos para utilidades, ferramentas e métodos para o estudo de dados de detectores de ondas gravitacionais.
 
 {{< figure >}}
-src = '/images/content_images/cs/gwpy-numpy-dep-graph.png' alt = 'gwpy-numpy depgraph' title = 'Dependency graph showing how GwPy package depends on NumPy'
+src = '/images/content_images/cs/gwpy-numpy-dep-graph.png' alt = 'gwpy-numpy depgraph' title = 'Gráfico de dependência mostrando como o pacote GwPy depende do NumPy'
 {{< /figure >}}
 
 ----
 
 {{< figure >}}
-src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png' alt = 'PyCBC-numpy depgraph' title = 'Dependency graph showing how PyCBC package depends on NumPy'
+src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png' alt = 'PyCBC-numpy depgraph' title = 'Gráfico de dependência mostrando como o pacote PyCBC depende do NumPy'
 {{< /figure >}}
 
 ## Resumo
@@ -73,5 +73,5 @@ src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png' alt = 'PyCBC-numpy d
 GW detection has enabled researchers to discover entirely unexpected phenomena while providing new insight into many of the most profound astrophysical phenomena known. Number crunching and data visualization is a crucial step that helps scientists gain insights into data gathered from the scientific observations and understand the results. The computations are complex and cannot be comprehended by humans unless it is visualized using computer simulations that are fed with the real observed data and analysis.  NumPy along with other Python packages such as matplotlib, pandas, and scikit-learn is [enabling researchers](https://www.gw-openscience.org/events/GW150914/) to answer complex questions and discover new horizons in our understanding of the universe.
 
 {{< figure >}}
-src = '/images/content_images/cs/numpy_gw_benefits.png' alt = 'numpy benefits' title = 'Key NumPy Capabilities utilized'
+src = '/images/content_images/cs/numpy_gw_benefits.png' alt = 'benefícios do numpy' title = 'Principais recursos do NumPy utilizados'
 {{< /figure >}}
