@@ -4,6 +4,8 @@ sidebar: false
 ---
 
 {{< figure src="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**DeepLapCut을 활용한 쥐의 손 움직임 분석**" alt="쥐 손 애니메이션" attr="*(출처: www.deeplabcut.org )*" attrlink="http://www.mousemotorlab.org/deeplabcut">}}
+src = '/images/content_images/cs/mice-hand.gif' title = 'Analyzing mice hand-movement using DeepLapCut' alt = 'micehandanim' attribution = '(Source: www.deeplabcut.org )' attributionlink = 'http://www.mousemotorlab.org/deeplabcut'
+{{< /figure >}}
 
 {{< blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/" by="Alexander Mathis, *Assistant Professor, École polytechnique fédérale de Lausanne* ([EPFL](https://www.epfl.ch/en/))"
 > }} 오픈소스 소프트웨어는 생물 의학의 발전을 가속화하고 있습니다. DeepLabCut은 딥 러닝을 사용하여 동물 행동에 대한 자동화된 비디오 분석을 가능하게 합니다. 
@@ -16,7 +18,9 @@ sidebar: false
 
 신경 과학, 의학 및 생체 역학을 포함한 여러 연구 분야에서 동물의 움직임을 추적한 데이터를 사용합니다. DeepLabCut은 필름에 기록된 동작을 구문 분석하여 인간과 다른 동물이 하는 일을 이해하는 데 도움을 줍니다. 심층 신경망 기반 데이터 분석과 함께 태깅 및 모니터링의 힘든 작업에 자동화를 사용하는 DeepLabCut은 영장류, 생쥐, 물고기, 파리 등과 같은 동물 관찰과 관련된 과학적 연구를 훨씬 빠르고 정확하게 만듭니다.
 
-{{< figure src="/images/content_images/cs/race-horse.gif" class="fig-center" caption="**경주마 신체 부위의 위치를 트래킹하는 색 점**" alt="경주마 애니메이션" attr="*(출처: Mackenzie Mathis)*">}}
+{{< figure >}}
+src = '/images/content_images/cs/race-horse.gif' title = 'Colored dots track the positions of a racehorse’s body part' alt = 'horserideranim' attribution = '(Source: Mackenzie Mathis)'
+{{< /figure >}}
 
 DeeDeepLabCut의 동물 자세 추출을 통한 동물의 비침습적 행동 추적은 생체 역학, 유전학, 행동학 & 신경 과학과 같은 영역에서 과학적 추구에 매우 중요합니다. 동적으로 변화하는 배경에서 마커 없이 비디오에서 동물 포즈를 비침습적으로 측정하는 것은 기술적으로 뿐만 아니라 필요한 리소스 요구 사항 및 필요한 훈련 데이터 측면에서 계산적으로 어려운 일입니다.
 
@@ -45,7 +49,9 @@ DeepLabCut은 [전이 학습](https://arxiv.org/pdf/1909.11229), 이라는 원�
   - 동영상에 대한 대규모 추론을 위한 코드
   - 통합 시각화 도구를 사용하여 추론 도출
 
-{{< figure src="/images/content_images/cs/deeplabcut-toolkit-steps.png" class="csfigcaption" caption="**포즈 추정 단계 - DeepLabCut**" alt="DLC 단계" align="middle" attr="(출처: DeepLabCut)" attrlink="https://twitter.com/DeepLabCut/status/1198046918284210176/photo/1" >}}
+{{< figure >}}
+{{< figure src="/images/content_images/cs/deeplabcut-workflow.png" class="fig-center" caption="**DeepLabCut 워크플로우**" alt="워크플로우" attr="*(출처: Mackenzie Mathis)*" attrlink="https://www.researchgate.net/figure/DeepLabCut-work-flow-The-diagram-delineates-the-work-flow-as-well-as-the-directory-and_fig1_329185962">}}
+{{< /figure >}}
 
 ### 도전
 
@@ -61,7 +67,9 @@ DeepLabCut은 [전이 학습](https://arxiv.org/pdf/1909.11229), 이라는 원�
 
     마지막으로 배열 조작 - 다양한 이미지, 대상 텐서 및 키포인트에 해당하는 대규모 배열 스택을 처리하는 것은 상당히 어렵습니다.
 
-{{< figure src="/images/content_images/cs/pose-estimation.png" class="csfigcaption" caption="**포즈 추정 변수 및 복잡도**" alt="난점 설명" align="middle" attr="(출처: Mackenzie Mathis)" attrlink="https://www.biorxiv.org/content/10.1101/476531v1.full.pdf" >}}
+{{< figure src="/images/content_images/cs/numpy_dlc_benefits.png" class="fig-center" alt="numpy를 통한 이익" caption="**활용한 주요 NumPy 기능**" >}}
+src = '/images/content_images/cs/pose-estimation.png' title = 'Pose estimation variety and complexity' alt = 'challengesfig' align = 'center' attribution = '(Source: Mackenzie Mathis)' attributionlink = 'https://www.biorxiv.org/content/10.1101/476531v1.full.pdf'
+{{< /figure >}}
 
 ## 포즈 추정 문제를 해결하는 NumPy의 역할
 
@@ -77,13 +85,17 @@ NumPy의 다음 기능은 이미지 처리, 조합 요구 사항 및 DeepLabCut 
 
 DeepLabCut은 툴킷에서 제공하는 워크플로 전체에서 NumPy의 어레이 기능을 활용합니다. 특히, NumPy는 사람의 주석 레이블 지정을 위한 개별 프레임 샘플링과 주석 데이터 작성, 편집 및 처리에 사용됩니다.  TensorFlow 내에서 신경망은 DeepLabCut 기술로 수천 번의 반복을 통해 훈련되어 프레임에서 실측 주석을 예측합니다. 이를 위해 이미지 대 이미지 변환 문제로 포즈 추정을 캐스팅하기 위해 목표 밀도(점수 지도)가 생성됩니다. 신경망을 강력하게 만들기 위해 다양한 기하 및 이미지 처리 단계에 따라 대상 스코어맵을 계산해야 하는 데이터 확대가 사용됩니다. 학습을 빠르게 하기 위해 NumPy의 벡터화 기능이 활용됩니다. 추론을 위해 대상 스코어맵에서 가장 가능성이 높은 예측을 추출해야 하며 효율적으로 "개별 동물을 조립하기 위해 예측을 연결"해야 합니다.
 
-{{< figure src="/images/content_images/cs/deeplabcut-workflow.png" class="fig-center" caption="**DeepLabCut 워크플로우**" alt="워크플로우" attr="*(출처: Mackenzie Mathis)*" attrlink="https://www.researchgate.net/figure/DeepLabCut-work-flow-The-diagram-delineates-the-work-flow-as-well-as-the-directory-and_fig1_329185962">}}
+{{< figure >}}
+src = '/images/content_images/cs/deeplabcut-workflow.png' title = 'DeepLabCut Workflow' alt = 'workflow' attribution = '(Source: Mackenzie Mathis)' attributionlink = 'https://www.researchgate.net/figure/DeepLabCut-work-flow-The-diagram-delineates-the-work-flow-as-well-as-the-directory-and_fig1_329185962'
+{{< /figure >}}
 
 ## 요약
 
 행동을 관찰하고 효율적으로 설명하는 것은 현대 행동학, 신경과학, 의학 및 기술의 핵심 테넌트입니다. [DeepLabCut](http://orga.cvss.cc/wp-content/uploads/2019/05/NathMathis2019.pdf)을 사용하면 연구자가 피험자의 자세를 추정하여 행동을 정량화할 수 있습니다. DeepLabCut Python 툴킷은 작은 훈련 이미지 세트만으로 인간 수준의 라벨링 정확도 내에서 신경망을 훈련할 수 있습니다. 따라서 실험실에서의 행동 분석뿐만 아니라 잠재적으로 스포츠, 보행 분석, 의학 및 재활 연구에도 응용 분야를 확장합니다. DeepLabCut 알고리즘이 직면한 복잡한 조합, 데이터 처리 문제는 NumPy의 배열 조작 기능을 사용하여 해결됩니다.
 
-{{< figure src="/images/content_images/cs/numpy_dlc_benefits.png" class="fig-center" alt="numpy를 통한 이익" caption="**활용한 주요 NumPy 기능**" >}}
+{{< figure >}}
+src = '/images/content_images/cs/numpy_dlc_benefits.png' alt = 'numpy benefits' title = 'Key NumPy Capabilities utilized'
+{{< /figure >}}
 
 [cheetah-movement]: https://www.technologynetworks.com/neuroscience/articles/interview-a-deeper-cut-into-behavior-with-mackenzie-mathis-327618
 
