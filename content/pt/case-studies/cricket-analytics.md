@@ -4,6 +4,8 @@ sidebar: false
 ---
 
 {{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**IPLT20, o maior festival de Críquete da Índia**" alt="Copa e estádio da Indian Premier League Cricket" attr="*(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
+src = '/images/content_images/cs/ipl-stadium.png' title = 'IPLT20, the biggest Cricket Festival in India' alt = 'Indian Premier League Cricket cup and stadium' attribution = '(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))' attributionlink = 'https://unsplash.com/@aksh1802'
+{{< /figure >}}
 
 {{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, *International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL*"
 > }} You don't play for the crowd, you play for the country. 
@@ -25,7 +27,9 @@ Hoje, existem conjuntos ricos e quase infinitos de estatísticas e informações
 * ganho de informações sobre desempenho e condição física de um determinado jogador contra determinado adversário,
 * contribuições dos jogadores para vitórias e derrotas para a tomada de decisões estratégicas na composição do time
 
-{{< figure src="/images/content_images/cs/cricket-pitch.png" class="csfigcaption" caption="**Pitch de críquete, o ponto focal do campo**" alt="Um pitch de críquete com um boleador e batsmen" align="middle" attr="*(Créditos de imagem: Debarghya Das)*" attrlink="http://debarghyadas.com/files/IPLpaper.pdf" >}}
+{{< figure >}}
+src = '/images/content_images/cs/cricket-pitch.png' title = 'Cricket Pitch, the focal point in the field' alt = 'A cricket pitch with bowler and batsmen' align = 'center' attribution = '(Image credit: Debarghya Das)' attributionlink = 'http://debarghyadas.com/files/IPLpaper.pdf'
+{{< figure src="/images/content_images/cs/numpy_ca_benefits.png" class="fig-center" alt="Diagrama mostrando os benefícios de usar a NumPy para análise de críquete" caption="**Recursos principais da NumPy utilizados**" >}}
 
 ### Objetivos Principais da Análise de Dados
 
@@ -33,7 +37,9 @@ Hoje, existem conjuntos ricos e quase infinitos de estatísticas e informações
 * A análise de dados em tempo real pode ajudar a obtenção de informações mesmo durante o jogo para orientar mudanças nas táticas da equipe e dos negócios associados para benefícios e crescimento econômicos.
 * Além da análise histórica, os modelos preditivos explorados para determinar os possíveis resultados das partidas requerem um conhecimento significativo sobre processamento numérico e ciência de dados, ferramentas de visualização e a possibilidade de incluir observações mais recentes na análise.
 
-{{< figure src="/images/content_images/cs/player-pose-estimator.png" class="fig-center" alt="estimador de postura" caption="**Estimador de Postura de Críquete**" attr="*(Créditos de imagem: connect.vin)*" attrlink="https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/" >}}
+{{< figure >}}
+src = '/images/content_images/cs/player-pose-estimator.png' alt = 'pose estimator' title = 'Cricket Pose Estimator' attribution = '(Image credit: connect.vin)' attributionlink = 'https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/'
+{{< /figure >}}
 
 ### Desafios
 
@@ -61,4 +67,6 @@ A análise de dados esportivos é um campo próspero. Muitos pesquisadores e emp
 
 A análise de dados esportivos é revolucionária quando se trata de como os jogos profissionais são jogados, especialmente se consideramos como acontece a tomada de decisões estratégicas, que até pouco tempo era principalmente feita com base na "intuição" ou adesão a tradições passadas. O NumPy forma uma fundação sólida para um grande conjunto de pacotes Python que fornecem funções de alto nível relacionadas à análise de dados, aprendizagem de máquina e algoritmos de IA. Estes pacotes são amplamente implantados para se obter informações em tempo real que ajudam na tomada de decisão para resultados decisivos, tanto em campo como para se derivar inferências e orientar negócios em torno do jogo de críquete. Encontrar os parâmetros ocultos, padrões, e atributos que levam ao resultado de uma partida de críquete ajuda os envolvidos a tomar nota das percepções do jogo que estariam de outra forma ocultas nos números e estatísticas.
 
-{{< figure src="/images/content_images/cs/numpy_ca_benefits.png" class="fig-center" alt="Diagrama mostrando os benefícios de usar a NumPy para análise de críquete" caption="**Recursos principais da NumPy utilizados**" >}}
+{{< figure >}}
+src = '/images/content_images/cs/numpy_ca_benefits.png' alt = 'Diagram showing benefits of using NumPy for cricket analytics' title = 'Key NumPy Capabilities utilized'
+{{< /figure >}}
