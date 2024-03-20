@@ -4,6 +4,8 @@ sidebar: false
 ---
 
 {{< figure src="/images/content_images/cs/gw_sxs_image.png" class="fig-center" caption="**중력파**" alt="이항 결합하며 중력파를 생성하는 블랙홀" attr="*(사진 크레딧: LIGO의 Simulating eXtreme Spacetimes (SXS) 프로젝트)*" attrlink="https://youtu.be/Zt8Z_uzG71o" >}}
+src = '/images/content_images/cs/gw_sxs_image.png' title = 'Gravitational Waves' alt = 'binary coalesce black hole generating gravitational waves' attribution = '(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)' attributionlink = 'https://youtu.be/Zt8Z_uzG71o'
+{{< /figure >}}
 
 {{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="David Shoemaker, *LIGO Scientific Collaboration*" >}} The scientific Python ecosystem is critical infrastructure for the research done at LIGO.
 {{< /blockquote >}}
@@ -37,7 +39,9 @@ sidebar: false
 
     아인슈타인의 방정식을 슈퍼컴퓨터를 사용하여 풀 수 있을 만큼 충분히 이해하는 것과 관련된 장애물이 처리되면 다음 큰 과제는 데이터를 인간의 두뇌가 이해할 수 있도록 만드는 것입니다. 시뮬레이션 모델링과 신호 감지에는 효과적인 시각화 기술이 필요합니다.  시각화는 또한 이미징 및 시뮬레이션을 통해 더 많은 청중이 결과를 더 쉽게 이해할 수 있게 될 때까지 수치 상대성에 충분한 중요성을 부여하지 않은 순수 과학 애호가의 눈에 수치 상대성에 더 많은 신뢰성을 제공하는 역할을 합니다. 최신 실험 입력 및 통찰력을 사용하여 복잡한 계산 및 렌더링, 이미지 다시 렌더링 및 시뮬레이션의 속도는 이 영역의 연구자에게 도전이 되는 시간 소모적인 활동이 될 수 있습니다.
 
-{{< figure src="/images/content_images/cs/gw_strain_amplitude.png" class="fig-center" alt="gravitational waves strain amplitude" caption="**Estimated gravitational-wave strain amplitude from GW150914**" attr="(**Graph Credits:** Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)" attrlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
+{{< figure >}}
+{{< figure src="/images/content_images/cs/gwpy-numpy-dep-graph.png" class="fig-center" alt="gwpy-numpy depgraph" caption="**Dependency graph showing how GwPy package depends on NumPy**" >}}
+{{< figure src="/images/content_images/cs/numpy_gw_benefits.png" class="fig-center" alt="numpy를 통한 이익" caption="**활용된 주요 NumPy 기능**" >}}
 
 ## 중력파 검출에서 NumPy의 역할
 
@@ -54,14 +58,20 @@ Python용 표준 수치 분석 패키지인 NumPy는 LIGO의 GW 탐지 프로젝
 * 상관 분석 연산
 * [GwPy](https://gwpy.github.io/docs/stable/overview.html) 및 [PyCBC](https://pycbc.org)와 같은 중력파 데이터 분석에서 개발된 주요 [소프트웨어](https://github.com/lscsoft)는 후드 아래에서 NumPy 및 AstroPy를 사용하여 중력파 검출기에서 데이터를 연구하기 위한 유틸리티, 도구 및 방법에 객체 기반 인터페이스를 제공합니다.
 
-{{< figure src="/images/content_images/cs/gwpy-numpy-dep-graph.png" class="fig-center" alt="gwpy-numpy depgraph" caption="**Dependency graph showing how GwPy package depends on NumPy**" >}}
+{{< figure >}}
+src = '/images/content_images/cs/gwpy-numpy-dep-graph.png' alt = 'gwpy-numpy depgraph' title = 'Dependency graph showing how GwPy package depends on NumPy'
+{{< /figure >}}
 
 ----
 
-{{< figure src="/images/content_images/cs/numpy_gw_benefits.png" class="fig-center" alt="numpy를 통한 이익" caption="**활용된 주요 NumPy 기능**" >}}
+{{< figure >}}
+src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png' alt = 'PyCBC-numpy depgraph' title = 'Dependency graph showing how PyCBC package depends on NumPy'
+{{< /figure >}}
 
 ## 요약
 
 중력파 검출을 통하여 연구자들은 완전히 예상치 못한 현상을 발견하게 됨으로써, 알려진 것 중 가장 난해한 천체물리학적 현상에 대하여 많은 사람들에게 새로운 통찰을 주었습니다. 숫자 계산 및 데이터 시각화는 과학자가 과학적 관찰에서 수집한 데이터에 대한 통찰력을 얻고 결과를 이해하는 데 도움이 되는 중요한 단계입니다. 계산은 복잡하며 실제 관찰 데이터 및 분석을 제공하는 컴퓨터 시뮬레이션을 사용하여 시각화하지 않는 한 사람이 이해할 수 없습니다.  NumPy는 matplotlib, pandas 및 scikit-learn과 같은 다른 Python 패키지와 함께 [연구원](https://www.gw-openscience.org/events/GW150914/)이 복잡한 질문에 답하고 우주에 대한 이해의 새로운 지평을 발견할 수 있도록 합니다.
 
-{{< figure src="/images/content_images/cs/numpy_gw_benefits.png" class="fig-center" alt="numpy를 통한 이익" caption="**활용된 주요 NumPy 기능**" >}}
+{{< figure >}}
+src = '/images/content_images/cs/numpy_gw_benefits.png' alt = 'numpy benefits' title = 'Key NumPy Capabilities utilized'
+{{< /figure >}}
