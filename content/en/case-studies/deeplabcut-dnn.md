@@ -3,7 +3,13 @@ title: "Case Study: DeepLabCut 3D Pose Estimation"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**Analyzing mice hand-movement using DeepLapCut**" alt="micehandanim" attr="*(Source: www.deeplabcut.org )*" attrlink="http://www.mousemotorlab.org/deeplabcut" >}}
+{{< figure >}}
+src = '/images/content_images/cs/mice-hand.gif'
+title = 'Analyzing mice hand-movement using DeepLapCut'
+alt = 'micehandanim'
+attribution = '(Source: www.deeplabcut.org )'
+attributionlink = 'http://www.mousemotorlab.org/deeplabcut'
+{{< /figure >}}
 
 {{< blockquote
     cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/"
@@ -18,7 +24,12 @@ Open Source Software is accelerating Biomedicine. DeepLabCut enables automated v
 
 Several areas of research, including neuroscience, medicine, and biomechanics, use data from tracking animal movement. DeepLabCut helps in understanding what humans and other animals are doing by parsing actions that have been recorded on film. Using automation for laborious tasks of tagging and monitoring, along with deep neural network based data analysis, DeepLabCut makes scientific studies involving observing animals, such as primates, mice, fish, flies etc., much faster and more accurate.
 
-{{< figure src="/images/content_images/cs/race-horse.gif" class="fig-center" caption="**Colored dots track the positions of a racehorse’s body part**" alt="horserideranim" attr="*(Source: Mackenzie Mathis)*">}}
+{{< figure >}}
+src = '/images/content_images/cs/race-horse.gif'
+title = 'Colored dots track the positions of a racehorse’s body part'
+alt = 'horserideranim'
+attribution = '(Source: Mackenzie Mathis)'
+{{< /figure >}}
 
 DeepLabCut's non-invasive behavioral tracking of animals by extracting the poses of animals is crucial for scientific pursuits in domains such as biomechanics, genetics, ethology & neuroscience. Measuring animal poses non-invasively from video - without markers - in dynamically changing backgrounds is computationally challenging, both technically as well as in terms of resource needs and training data required.
 
@@ -61,7 +72,14 @@ Recently, the [DeepLabCut model zoo](http://www.mousemotorlab.org/dlc-modelzoo) 
   - code for large-scale inference on videos
   - draw inferences using integrated visualization tools
 
-{{< figure src="/images/content_images/cs/deeplabcut-toolkit-steps.png" class="csfigcaption" caption="**Pose estimation steps with DeepLabCut**" alt="dlcsteps" align="middle" attr="(Source: DeepLabCut)" attrlink="https://twitter.com/DeepLabCut/status/1198046918284210176/photo/1" >}}
+{{< figure >}}
+src = '/images/content_images/cs/deeplabcut-toolkit-steps.png'
+title = 'Pose estimation steps with DeepLabCut'
+alt = 'dlcsteps'
+align = 'center'
+attribution = '(Source: DeepLabCut)'
+attributionlink = 'https://twitter.com/DeepLabCut/status/1198046918284210176/photo/1'
+{{< /figure >}}
 
 [DLCToolkit]:  https://github.com/DeepLabCut/DeepLabCut
 
@@ -92,7 +110,14 @@ Recently, the [DeepLabCut model zoo](http://www.mousemotorlab.org/dlc-modelzoo) 
     arrays corresponding to various images, target tensors and keypoints is
     fairly challenging.
 
-{{< figure src="/images/content_images/cs/pose-estimation.png" class="csfigcaption" caption="**Pose estimation variety and complexity**" alt="challengesfig" align="middle" attr="(Source: Mackenzie Mathis)" attrlink="https://www.biorxiv.org/content/10.1101/476531v1.full.pdf" >}}
+{{< figure >}}
+src = '/images/content_images/cs/pose-estimation.png'
+title = 'Pose estimation variety and complexity'
+alt = 'challengesfig'
+align = 'center'
+attribution = '(Source: Mackenzie Mathis)'
+attributionlink = 'https://www.biorxiv.org/content/10.1101/476531v1.full.pdf'
+{{< /figure >}}
 
 ## NumPy's Role in meeting Pose Estimation Challenges
 
@@ -130,7 +155,13 @@ training fast, NumPy’s vectorization capabilities are leveraged. For inference
 the most likely predictions from target scoremaps need to extracted and one
 needs to efficiently “link predictions to assemble individual animals”.
 
-{{< figure src="/images/content_images/cs/deeplabcut-workflow.png" class="fig-center" caption="**DeepLabCut Workflow**" alt="workflow" attr="*(Source: Mackenzie Mathis)*" attrlink="https://www.researchgate.net/figure/DeepLabCut-work-flow-The-diagram-delineates-the-work-flow-as-well-as-the-directory-and_fig1_329185962">}}
+{{< figure >}}
+src = '/images/content_images/cs/deeplabcut-workflow.png'
+title = 'DeepLabCut Workflow'
+alt = 'workflow'
+attribution = '(Source: Mackenzie Mathis)'
+attributionlink = 'https://www.researchgate.net/figure/DeepLabCut-work-flow-The-diagram-delineates-the-work-flow-as-well-as-the-directory-and_fig1_329185962'
+{{< /figure >}}
 
 ## Summary
 
@@ -146,4 +177,8 @@ medicine and rehabilitation studies. Complex combinatorics, data processing
 challenges faced by DeepLabCut algorithms are addressed through the use of
 NumPy's array manipulation capabilities.
 
-{{< figure src="/images/content_images/cs/numpy_dlc_benefits.png" class="fig-center" alt="numpy benefits" caption="**Key NumPy Capabilities utilized**" >}}
+{{< figure >}}
+src = '/images/content_images/cs/numpy_dlc_benefits.png'
+alt = 'numpy benefits'
+title = 'Key NumPy Capabilities utilized'
+{{< /figure >}}

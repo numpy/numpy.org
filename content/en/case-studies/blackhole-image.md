@@ -3,7 +3,13 @@ title: "Case Study: First Image of a Black Hole"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Black Hole M87**" alt="black hole image" attr="*(Image Credits: Event Horizon Telescope Collaboration)*" attrlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
+{{< figure >}}
+src = '/images/content_images/cs/blackhole.jpg'
+title = 'Black Hole M87'
+alt = 'black hole image'
+attribution = '(Image Credits: Event Horizon Telescope Collaboration)'
+attributionlink = 'https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg'
+{{< /figure >}}
 
 {{< blockquote
     cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
@@ -64,7 +70,14 @@ from a sidewalk café in Paris!
     When the goal is to see something never before seen, how can scientists be
     confident the image is correct?
 
-{{< figure src="/images/content_images/cs/dataprocessbh.png" class="csfigcaption" caption="**EHT Data Processing Pipeline**" alt="data pipeline" align="middle" attr="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)" attrlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
+{{< figure >}}
+src = '/images/content_images/cs/dataprocessbh.png'
+title = 'EHT Data Processing Pipeline'
+alt = 'data pipeline'
+align = 'center'
+attribution = '(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)'
+attributionlink = 'https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57'
+{{< /figure >}}
 
 ## NumPy’s Role
 
@@ -80,7 +93,11 @@ first-of-a-kind image of the black hole.
 Their work illustrates the role the scientific Python ecosystem plays in
 advancing science through collaborative data analysis.
 
-{{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**The role of NumPy in Black Hole imaging**" >}}
+{{< figure >}}
+src = '/images/content_images/cs/bh_numpy_role.png'
+alt = 'role of numpy'
+title = 'The role of NumPy in Black Hole imaging'
+{{< /figure >}}
 
 For example, the [`eht-imaging`][ehtim] Python package provides tools for
 simulating and performing image reconstruction on VLBI data.
@@ -88,7 +105,11 @@ NumPy is at the core of array data processing used
 in this package, as illustrated by the partial software
 dependency chart below.
 
-{{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Software dependency chart of ehtim package highlighting NumPy**" >}}
+{{< figure >}}
+src = '/images/content_images/cs/ehtim_numpy.png'
+alt = 'ehtim dependency map highlighting numpy'
+title = 'Software dependency chart of ehtim package highlighting NumPy'
+{{< /figure >}}
 
 [ehtim]: https://github.com/achael/eht-imaging
 
@@ -115,4 +136,8 @@ best radio observatories.  Innovative algorithms and data processing
 techniques, improving upon existing astronomical models, helped unfold a
 mystery of the universe.
 
-{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**Key NumPy Capabilities utilized**" >}}
+{{< figure >}}
+src = '/images/content_images/cs/numpy_bh_benefits.png'
+alt = 'numpy benefits'
+title = 'Key NumPy Capabilities utilized'
+{{< /figure >}}

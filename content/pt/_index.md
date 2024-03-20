@@ -2,7 +2,7 @@
 title:
 ---
 
-{{< grid1 columns="1 2 2 3" >}}
+{{< grid columns="1 2 2 3" >}}
 
 [[item]]
 type = 'card'
@@ -46,4 +46,4 @@ body = '''
 Distribuido com uma [licença BSD](https://github.com/numpy/numpy/blob/main/LICENSE.txt) liberal, o NumPy é desenvolvido e mantido [publicamente no GitHub](https://github.com/numpy/numpy) por uma [comunidade](/pt/community) vibrante, responsiva, e diversa.
 '''
 
-{{< /grid1 >}}
+{{< /grid >}}
