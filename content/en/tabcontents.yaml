@@ -1,8 +1,8 @@
 params:
   machinelearning:
     paras:
-    - para1: NumPy forms the basis of powerful machine learning libraries like [scikit-learn](https://scikit-learn.org) and [SciPy](https://www.scipy.org). As machine learning grows, so does the list of libraries built on NumPy. [TensorFlow’s](https://www.tensorflow.org) deep learning capabilities have broad applications &mdash; among them speech and image recognition, text-based applications, time-series analysis, and video detection. [PyTorch](https://pytorch.org), another deep learning library, is popular among researchers in computer vision and natural language processing. [MXNet](https://github.com/apache/incubator-mxnet) is another AI package, providing blueprints and templates for deep learning.
-      para2: Statistical techniques called [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205) methods such as binning, bagging, stacking, and boosting are among the ML algorithms implemented by tools such as [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [CatBoost](https://catboost.ai) &mdash; one of the fastest inference engines. [Yellowbrick](https://www.scikit-yb.org/en/latest/) and [Eli5](https://eli5.readthedocs.io/en/latest/) offer machine learning visualizations.
+    - para1: NumPy forms the basis of powerful machine learning libraries like [scikit-learn](https://scikit-learn.org) and [SciPy](https://www.scipy.org). As machine learning grows, so does the list of libraries built on NumPy. [TensorFlow’s](https://www.tensorflow.org) deep learning capabilities have broad applications &mdash; among them speech and image recognition, text-based applications, time-series analysis, and video detection. [PyTorch](https://pytorch.org), another deep learning library, is popular among researchers in computer vision and natural language processing. [MXNet](https://mxnet.apache.org/) is another AI package, providing blueprints and templates for deep learning.
+      para2: Statistical techniques called [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205) methods such as binning, bagging, stacking, and boosting are among the ML algorithms implemented by tools such as [XGBoost](https://xgboost.readthedocs.io/), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [CatBoost](https://catboost.ai) &mdash; one of the fastest inference engines. [Yellowbrick](https://www.scikit-yb.org/en/latest/) and [Eli5](https://eli5.readthedocs.io/en/latest/) offer machine learning visualizations.
 
   arraylibraries:
     intro:
@@ -27,7 +27,7 @@ params:
       text: "Composable transformations of NumPy programs: differentiate, vectorize, just-in-time compilation to GPU/TPU."
       img: /images/content_images/arlib/jax_logo_250px.png
       alttext: JAX
-      url: https://github.com/google/jax
+      url: https://jax.readthedocs.io/
     - title: Xarray
       text: Labeled, indexed multi-dimensional arrays for advanced analytics and visualization.
       img: /images/content_images/arlib/xarray.png
@@ -57,7 +57,7 @@ params:
       text: A cross-language development platform for columnar in-memory data and analytics.
       img: /images/content_images/arlib/arrow.png
       alttext: arrow
-      url: https://github.com/apache/arrow
+      url: https://arrow.apache.org/
     - title: xtensor
       text: Multi-dimensional arrays with broadcasting and lazy computing for numerical analysis.
       img: /images/content_images/arlib/xtensor.png
@@ -103,11 +103,11 @@ params:
       links:
         - url: https://pandas.pydata.org/
           label: Pandas
-        - url: https://github.com/statsmodels/statsmodels
+        - url: https://www.statsmodels.org/
           label: statsmodels
         - url: https://xarray.pydata.org/en/stable/
           label: Xarray
-        - url: https://github.com/mwaskom/seaborn
+        - url: https://seaborn.pydata.org/
           label: Seaborn
     - title: Signal Processing
       alttext: A bar chart with positive and negative values.
@@ -149,9 +149,9 @@ params:
       links:
         - url: https://www.astropy.org/
           label: AstroPy
-        - url: https://github.com/sunpy/sunpy
+        - url: https://sunpy.org/
           label: SunPy
-        - url: https://github.com/spacepy/spacepy
+        - url: https://spacepy.github.io/
           label: SpacePy
     - title: Cognitive Psychology
       alttext: A human head with gears.
@@ -191,7 +191,7 @@ params:
           label: SciPy
         - url: https://www.sympy.org/
           label: SymPy
-        - url: https://github.com/cvxgrp/cvxpy
+        - url: https://www.cvxpy.org/
           label: cvxpy
         - url: https://fenicsproject.org/
           label: FEniCS
@@ -256,7 +256,7 @@ params:
     - text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
     - text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
     - text: "<b>Model and evaluate: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
-    - text: "<b>Report in a dashboard: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
+    - text: "<b>Report in a dashboard: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://voila.readthedocs.io/)"
 
     content:
     - text: For high data volumes, [Dask](https://dask.org) and [Ray](https://ray.io/) are designed to scale. Stable deployments rely on data versioning ([DVC](https://dvc.org)), experiment tracking ([MLFlow](https://mlflow.org)), and workflow automation ([Airflow](https://airflow.apache.org), [Dagster](https://dagster.io) and [Prefect](https://www.prefect.io)).
@@ -294,7 +294,7 @@ params:
             which includes [Matplotlib](https://matplotlib.org),
             [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly),
             [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/),
-            [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari),
-            and [PyVista](https://github.com/pyvista/pyvista), to name a few.
+            [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://napari.org/),
+            and [PyVista](https://docs.pyvista.org/), to name a few.
     - text: NumPy's accelerated processing of large arrays allows researchers to visualize
             datasets far larger than native Python could handle.
