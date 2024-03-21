@@ -31,7 +31,7 @@ params:
         text: "NumPyコードの合成可能な変換ライブラリ: 微分、ベクトル化、GPU/TPUへのジャストインタイムコンパイル"
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
-        url: https://github.com/google/jax
+        url: https://jax.readthedocs.io/
       - 
         title: Xarray
         text: 高度な分析と視覚化のためのラベルとインデックス付き多次元配列
@@ -67,7 +67,7 @@ params:
         text: 列型のインメモリーデータやその分析のための、複数の言語に対応した開発プラットフォーム
         img: /images/content_images/arlib/arrow.png
         alttext: arrow
-        url: https://github.com/apache/arrow
+        url: https://arrow.apache.org/
       - 
         title: xtensor
         text: 数値解析のためのブロードキャスティングと遅延計算を備えた多次元配列
@@ -125,13 +125,13 @@ params:
             url: https://pandas.pydata.org/
             label: Pandas
           - 
-            url: https://github.com/statsmodels/statsmodels
+            url: https://www.statsmodels.org/
             label: statsmodels
           - 
             url: https://xarray.pydata.org/en/stable/
             label: Xarray
           - 
-            url: https://github.com/mwaskom/seaborn
+            url: https://seaborn.pydata.org/
             label: Seaborn
       - 
         title: Signal Processing
@@ -190,10 +190,10 @@ params:
             url: https://www.astropy.org/
             label: AstroPy
           - 
-            url: https://github.com/sunpy/sunpy
+            url: https://sunpy.org/
             label: SunPy
           - 
-            url: https://github.com/spacepy/spacepy
+            url: https://spacepy.github.io/
             label: SpacePy
       - 
         title: Cognitive Psychology
@@ -249,7 +249,7 @@ params:
             url: https://www.sympy.org/
             label: SymPy
           - 
-            url: https://github.com/cvxgrp/cvxpy
+            url: https://www.cvxpy.org/
             label: cvxpy
           - 
             url: https://fenicsproject.org/
