@@ -125,13 +125,13 @@ params:
             url: https://pandas.pydata.org/
             label: Pandas
           - 
-            url: https://github.com/statsmodels/statsmodels
+            url: https://www.statsmodels.org/
             label: statsmodels
           - 
             url: https://xarray.pydata.org/en/stable/
             label: Xarray
           - 
-            url: https://github.com/mwaskom/seaborn
+            url: https://seaborn.pydata.org/
             label: Seaborn
       - 
         title: Signal Processing
@@ -190,10 +190,10 @@ params:
             url: https://www.astropy.org/
             label: AstroPy
           - 
-            url: https://github.com/sunpy/sunpy
+            url: https://sunpy.org/
             label: SunPy
           - 
-            url: https://github.com/spacepy/spacepy
+            url: https://spacepy.github.io/
             label: SpacePy
       - 
         title: Cognitive Psychology
@@ -249,7 +249,7 @@ params:
             url: https://www.sympy.org/
             label: SymPy
           - 
-            url: https://github.com/cvxgrp/cvxpy
+            url: https://www.cvxpy.org/
             label: cvxpy
           - 
             url: https://fenicsproject.org/
