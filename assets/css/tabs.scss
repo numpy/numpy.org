@@ -50,8 +50,7 @@ table td, table th {
 }
 
 .grid-container > div {
-    /* White, with 80% opacity */
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--pst-color-background);
     text-align: middle;
 }
 
@@ -73,8 +72,8 @@ table td, table th {
 }
 
 .image-grid > div {
-    background-color: rgb(238, 238, 238);
-    border: 2px solid rgb(255, 255, 255);
+    background-color: var(--pst-color-surface);
+    border: 2px solid var(--pst-color-surface);
     border-radius: 10px;
     padding: 10px;
 }
@@ -99,7 +98,7 @@ section.scientific-domains {
 
             & header {
                 // FIXME: Use appropriate PST color for this header text.
-                color: var(--colorPrimaryDark);
+                color: var(--pst-color-text-base);
                 font-weight: 700;
                 // Ensure headers are the same minimum height (some wrap
                 // to two lines).
