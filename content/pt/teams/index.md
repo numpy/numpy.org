@@ -3,7 +3,7 @@ title: Times NumPy
 sidebar: false
 ---
 
-Somos uma equipe internacional com a missão de apoiar comunidades científicas e de pesquisa em todo o mundo construindo software de código aberto de qualidade. [Junte-se a nós]({{< relref "/contribute" >}})!
+Somos uma equipe internacional com a missão de apoiar comunidades científicas e de pesquisa em todo o mundo construindo software de código aberto de qualidade. [Junte-se a nós](/contribute)!
 
 ### Maintainers
 

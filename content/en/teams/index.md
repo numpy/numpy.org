@@ -5,7 +5,7 @@ sidebar: false
 
 We are an international team on a mission to support scientific and research
 communities worldwide by building quality, open-source software.
-[Join us]({{< relref "/contribute" >}})!
+[Join us](/contribute)!
 
 ### Maintainers
 
