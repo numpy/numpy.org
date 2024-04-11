@@ -49,7 +49,7 @@ The NumPy project leadership is actively working on diversifying contribution pa
 - optimization
 - funding and grants
 
-See the [Team]({{< relref "/teams" >}}) page for more info.
+See the [Team](/teams) page for more info.
 
 ## NumFOCUS Subcommittee
 
