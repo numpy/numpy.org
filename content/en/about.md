@@ -50,7 +50,7 @@ NumPy currently has the following teams:
 - optimization
 - funding and grants
 
-See the [Team]({{< relref "/teams" >}}) page for more info.
+See the [Team](/teams) page for more info.
 
 ## NumFOCUS Subcommittee
 
