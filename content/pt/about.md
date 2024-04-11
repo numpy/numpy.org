@@ -32,7 +32,7 @@ Emeritus:
 - Jaime Fernández del Río (2014-2021)
 - Pauli Virtanen (2008-2021)
 
-Para entrar em contato com o conselho diretor do NumPy, por favor envie um email para numpy-team\@googlegroups.com.
+Para entrar em contato com o conselho diretor do NumPy, por favor envie um email para numpy-team@googlegroups.com.
 
 ## Teams
 
