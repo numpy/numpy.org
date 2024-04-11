@@ -32,7 +32,7 @@ Emeritus:
 - Jaime Fernández del Río (2014-2021)
 - Pauli Virtanen (2008-2021)
 
-To contact the NumPy Steering Council, please email numpy-team\@googlegroups.com.
+To contact the NumPy Steering Council, please email numpy-team@googlegroups.com.
 
 ## Teams
 
@@ -49,7 +49,7 @@ NumPy currently has the following teams:
 - optimization
 - funding and grants
 
-See the [Team]({{< relref "/teams" >}}) page for more info.
+See the [Team](/teams) page for more info.
 
 ## NumFOCUS Subcommittee
 
