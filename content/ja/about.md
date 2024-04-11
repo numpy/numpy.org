@@ -32,7 +32,7 @@ Emeritus:
 - Jaime Fernández del Río (2014-2021)
 - Pauli Virtanen (2008-2021)
 
-Numpy運営委員会に連絡するには、numpy-team\@googlegroups.comまでメールしてください。
+Numpy運営委員会に連絡するには、numpy-team@googlegroups.comまでメールしてください。
 
 ## チーム
 
@@ -48,7 +48,7 @@ Numpy プロジェクトのコアメンバーは、プロジェクトへの貢�
 - 最適化
 - 資金と助成金
 
-See the [Team]({{< relref "/teams" >}}) page for more info.
+See the [Team](/teams) page for more info.
 
 ## NumFOCUSサブ委員会
 
