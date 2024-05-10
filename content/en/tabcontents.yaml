@@ -1,7 +1,7 @@
 params:
   machinelearning:
     paras:
-    - para1: NumPy forms the basis of powerful machine learning libraries like [scikit-learn](https://scikit-learn.org) and [SciPy](https://www.scipy.org). As machine learning grows, so does the list of libraries built on NumPy. [TensorFlow’s](https://www.tensorflow.org) deep learning capabilities have broad applications &mdash; among them speech and image recognition, text-based applications, time-series analysis, and video detection. [PyTorch](https://pytorch.org), another deep learning library, is popular among researchers in computer vision and natural language processing. [MXNet](https://mxnet.apache.org/) is another AI package, providing blueprints and templates for deep learning.
+    - para1: NumPy forms the basis of powerful machine learning libraries like [scikit-learn](https://scikit-learn.org) and [SciPy](https://www.scipy.org). As machine learning grows, so does the list of libraries built on NumPy. [TensorFlow’s](https://www.tensorflow.org) deep learning capabilities have broad applications &mdash; among them speech and image recognition, text-based applications, time-series analysis, and video detection. [PyTorch](https://pytorch.org), another deep learning library, is popular among researchers in computer vision and natural language processing.
       para2: Statistical techniques called [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205) methods such as binning, bagging, stacking, and boosting are among the ML algorithms implemented by tools such as [XGBoost](https://xgboost.readthedocs.io/), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [CatBoost](https://catboost.ai) &mdash; one of the fastest inference engines. [Yellowbrick](https://www.scikit-yb.org/en/latest/) and [Eli5](https://eli5.readthedocs.io/en/latest/) offer machine learning visualizations.
 
   arraylibraries:
@@ -48,11 +48,6 @@ params:
       img: /images/content_images/arlib/tensorflow-logo.svg
       alttext: TensorFlow
       url: https://www.tensorflow.org
-    - title: MXNet
-      text: Deep learning framework suited for flexible research prototyping and production.
-      img: /images/content_images/arlib/mxnet_logo.png
-      alttext: MXNet
-      url: https://mxnet.apache.org/
     - title: Arrow
       text: A cross-language development platform for columnar in-memory data and analytics.
       img: /images/content_images/arlib/arrow.png
@@ -74,7 +69,7 @@ params:
       alttext: uarray
       url: https://uarray.org/en/latest/
     - title: tensorly
-      text: Tensor learning, algebra and backends to seamlessly use NumPy, MXNet, PyTorch, TensorFlow or CuPy.
+      text: Tensor learning, algebra and backends to seamlessly use NumPy, PyTorch, TensorFlow or CuPy.
       img: /images/content_images/arlib/tensorly.png
       alttext: tensorly
       url: http://tensorly.org/stable/home.html
