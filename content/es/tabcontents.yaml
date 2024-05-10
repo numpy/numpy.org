@@ -86,12 +86,6 @@ params:
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
-      - 
-        title: tensorly
-        text: Aprendizaje tensorial, álgebra y backends para utilizar NumPy, MXNet, PyTorch, TensorFlow o CuPy.
-        img: /images/content_images/arlib/tensorly.png
-        alttext: tensorly
-        url: http://tensorly.org/stable/home.html
   scientificdomains:
     intro:
       - 
