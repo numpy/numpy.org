@@ -76,7 +76,7 @@ params:
         url: https://github.com/xtensor-stack/xtensor-python
       - 
         title: Awkward Array
-        text: Manipulate JSON-like data with NumPy-like idioms.
+        text: Python backend system that decouples API from implementation; unumpy provides a NumPy API.
         img: /images/content_images/arlib/awkward.svg
         alttext: awkward
         url: https://awkward-array.org/
@@ -86,12 +86,6 @@ params:
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
-      - 
-        title: tensorly
-        text: Ferramentas para aprendizagem com tensores, algebra e backends para usar NumPy, MXNet, PyTorch, TensorFlow ou CuPy sem esforço.
-        img: /images/content_images/arlib/tensorly.png
-        alttext: tensorly
-        url: http://tensorly.org/stable/home.html
   scientificdomains:
     intro:
       - 
