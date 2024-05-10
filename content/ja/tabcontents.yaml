@@ -57,38 +57,32 @@ params:
         alttext: TensorFlow
         url: https://www.tensorflow.org
       - 
-        title: MXNet
-        text: 柔軟や研究用のプロトタイピングから、実際の運用まで利用可能な深層学習フレームワーク
-        img: /images/content_images/arlib/mxnet_logo.png
-        alttext: MXNet
-        url: https://mxnet.apache.org/
-      - 
         title: Arrow
-        text: 列型のインメモリーデータやその分析のための、複数の言語に対応した開発プラットフォーム
+        text: 柔軟や研究用のプロトタイピングから、実際の運用まで利用可能な深層学習フレームワーク
         img: /images/content_images/arlib/arrow.png
         alttext: arrow
         url: https://arrow.apache.org/
       - 
         title: xtensor
-        text: 数値解析のためのブロードキャスティングと遅延計算を備えた多次元配列
+        text: 列型のインメモリーデータやその分析のための、複数の言語に対応した開発プラットフォーム
         img: /images/content_images/arlib/xtensor.png
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
       - 
-        title: Awkward
-        text: Numpy のような イディオムを使って JSON のようなデータを操作するライブラリ
-        img: /images/content_images/arlib/xnd.png
+        title: Awkward Array
+        text: 数値解析のためのブロードキャスティングと遅延計算を備えた多次元配列
+        img: /images/content_images/arlib/awkward.svg
         alttext: awkward
         url: https://awkward-array.org/
       - 
-        title: uarray
-        text: APIを実装から切り離すPythonバックエンドシステム (unumpyはNumPy APIを提供しています)
-        img: /images/content_images/arlib/uarray.png
+        title: Awkward
+        text: Numpy のような イディオムを使って JSON のようなデータを操作するライブラリ
+        img: /images/content_images/arlib/xnd.png
         alttext: uarray
         url: https://uarray.org/en/latest/
       - 
         title: tensorly
-        text: Numpy、MXNet、PyTorch、TensorFlowまたはCupyをシームレスに使用するための、テンソル学習、テンソル代数、およびそれらのテンソル計算のためのバックエンド
+        text: APIを実装から切り離すPythonバックエンドシステム (unumpyはNumPy APIを提供しています)
         img: /images/content_images/arlib/tensorly.png
         alttext: tensorly
         url: http://tensorly.org/stable/home.html
