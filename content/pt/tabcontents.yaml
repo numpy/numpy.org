@@ -168,7 +168,7 @@ params:
         alttext: Diagram of three overlapping circle. The circles labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'.
     examples:
       - 
-        text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org),[ Intake](https://intake.readthedocs.io),[PyJanitor](https://pyjanitor.readthedocs.io/)"
+        text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org),[ Intake](https://intake.readthedocs.io),[PyJanitor](https://pyjanitor-devs.github.io/pyjanitor/)"
       - 
         text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org),[Seaborn](https://seaborn.pydata.org),[ Matplotlib](https://matplotlib.org),[ Altair](https://altair-viz.github.io)"
       - 

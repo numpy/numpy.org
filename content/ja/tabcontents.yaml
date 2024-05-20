@@ -168,7 +168,7 @@ params:
         alttext: 三つの円が重なり合う図。円はそれぞれ「数学」、「コンピューターサイエンス」、「専門知識」でラベル付けされています。図の中心部には、三つの円が重なり合って形成されるエリアがあり、「データサイエンス」とラベル付けされています。
     examples:
       - 
-        text: "<b>抽出, 変換, 読み込み: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
+        text: "<b>抽出, 変換, 読み込み: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor-devs.github.io/pyjanitor/)"
       - 
         text: "<b>探索的解析: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
       - 
