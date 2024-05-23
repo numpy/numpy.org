@@ -1,9 +1,23 @@
 ---
 title: ニュース
 sidebar: false
-newsHeader: NumPy 1.26.0 がリリースされました。
-date: 2023-09-16
+newsHeader: "NumPy 2.0 release date: June 16"
+date: 2024-05-23
 ---
+
+### NumPy 2.0 release date: June 16
+
+_23 May, 2024_ -- We are excited to announce that NumPy 2.0 is planned to be
+released on June 16, 2024. This release has been over a year in the making, and
+is the first major release since 2006. Importantly, in addition to many new
+features and performance improvement, it contains **breaking changes** to the
+ABI as well as the Python and C APIs. It is likely that downstream packages and
+end user code needs to be adapted - if you can, please verify whether your code
+works with NumPy `2.0.0rc2`. **Please see the following for more details:**
+
+- The [NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
 ### NumFOCUS end of the year fundraiser
 
@@ -11,7 +25,7 @@ _Dec 19, 2023_ -- NumFOCUS has teamed up with PyCharm during their EOY campaign 
 on first-time PyCharm licenses. All year-one revenue from PyCharm purchases from now
 until December 23rd, 2023 will go directly to the NumFOCUS programs.
 
-Use unique URL that will allow to track purchases https\://lp.jetbrains.com/support-data-science/
+Use unique URL that will allow to track purchases https://lp.jetbrains.com/support-data-science/
 or a coupon code ISUPPORTDATASCIENCE 
 
 ### NumPy 1.26.0 がリリースされました。
@@ -56,8 +70,8 @@ _日本語：_
 翻訳インフラストラクチャに関するプロジェクトは、CZIからの資金援助でサポートされています。
 
 Looking ahead, we’d love to translate the website into more languages.
-今後も、NumPyのウェブサイトをより多くの言語に翻訳したいと思っています。 もし手伝える場合は、Slack上のNumPy翻訳チームに連絡をお願います: https\://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w.
-多くの期限切れの非推奨(Deprecation)の削除 (#translation チャンネルを探してください) また、Scientific Pythonエコシステム全体のドキュメントや教育コンテンツのローカライズに取り組む翻訳チームも 立ち上げています。 このプロジェクトにも興味がある場合は、是非Scientific Python Discordに参加してください: https\://discord.gg/khWtqY6RKr. もし興味がある場合は、研究目標、プライバシー、および 守秘義務に関する追加情報が記載されている、この簡単な[参加者の興味](https://numfocus.typeform.com/to/WBWVJSqe)フォームに記入をお願いします。 多様で包括的なオープンソースソフトウェアコミュニティの 成長と持続可能性のために、このプロジェクトへのあなたの参加は非常に大きな価値があります。 参加を受け入れられた人は、研究チームメンバーと30分間のインタビューに参加することになります。 (#translation チャンネルを探してください)
+今後も、NumPyのウェブサイトをより多くの言語に翻訳したいと思っています。 もし手伝える場合は、Slack上のNumPy翻訳チームに連絡をお願います: https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w.
+多くの期限切れの非推奨(Deprecation)の削除 (#translation チャンネルを探してください) また、Scientific Pythonエコシステム全体のドキュメントや教育コンテンツのローカライズに取り組む翻訳チームも 立ち上げています。 このプロジェクトにも興味がある場合は、是非Scientific Python Discordに参加してください: https://discord.gg/khWtqY6RKr. もし興味がある場合は、研究目標、プライバシー、および 守秘義務に関する追加情報が記載されている、この簡単な[参加者の興味](https://numfocus.typeform.com/to/WBWVJSqe)フォームに記入をお願いします。 多様で包括的なオープンソースソフトウェアコミュニティの 成長と持続可能性のために、このプロジェクトへのあなたの参加は非常に大きな価値があります。 参加を受け入れられた人は、研究チームメンバーと30分間のインタビューに参加することになります。 (#translation チャンネルを探してください)
 
 ### NumPy 1.25.0 リリース
 
@@ -192,7 +206,7 @@ take about 15 minutes of your time. Besides English, the survey questionnaire
 is available in 8 additional languages: Bangla, French, Hindi, Japanese,
 Mandarin, Portuguese, Russian, and Spanish.
 
-こちらのリンク先から、アンケートを始めることができます: https\://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSL4q.
+こちらのリンク先から、アンケートを始めることができます: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSL4q.
 
 ### Numpy 1.18.0 リリース
 
@@ -209,7 +223,7 @@ _2021年7月12日_ -- NumPy ではコミュニティの力を信じています�
 
 ### 2020年度 NumPy アンケート結果
 
-_2021年6月22日_ -- NumPyの調査チームは、2020年に ミシガン大学とメリーランド大学の学生や教員と協力して、最初の公式NumPyコミュニティ調査を実施しました。 アンケートの結果はこちらから確認できます。 https\://numpy.org/user-survey-2020/ 今年もアンケートの時間が来ました。もう一度アンケートへの回答をお願いいたします。 アンケートへの回答は15分ほどで終了します。 アンケートは英語以外にも、ベンガル語、フランス語、ヒンディー語、日本語、マンダリン、ポルトガル語、ロシア語、スペイン語の8ヶ国語に対応しています。
+_2021年6月22日_ -- NumPyの調査チームは、2020年に ミシガン大学とメリーランド大学の学生や教員と協力して、最初の公式NumPyコミュニティ調査を実施しました。 アンケートの結果はこちらから確認できます。 https://numpy.org/user-survey-2020/ 今年もアンケートの時間が来ました。もう一度アンケートへの回答をお願いいたします。 アンケートへの回答は15分ほどで終了します。 アンケートは英語以外にも、ベンガル語、フランス語、ヒンディー語、日本語、マンダリン、ポルトガル語、ロシア語、スペイン語の8ヶ国語に対応しています。
 
 ### NumPy 1.20.0 リリース
 
@@ -255,7 +269,7 @@ decision-making about the development of NumPy as software and as a community.
 The survey is available in 8 additional languages besides English:
 Bangla, Hindi, Japanese, Mandarin, Portuguese, Russian, Spanish and French.
 
-NumPy をより良くするために、こちらの [アンケート](https\://umdsurvey.
+NumPy をより良くするために、こちらの [アンケート](https://umdsurvey.
 
 ### NumPy に新しいロゴができました!
 
