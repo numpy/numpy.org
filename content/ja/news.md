@@ -1,9 +1,18 @@
 ---
 title: ニュース
 sidebar: false
-newsHeader: "NumPy 1.26.0 がリリースされました。"
+newsHeader: "NumPy 2.0 release date: June 16"
 date: 2023-09-16
 ---
+
+### NumPy 2.0 release date: June 16
+
+_23 May, 2024_ -- We are excited to announce that NumPy 2.0 is planned to be released on June 16, 2024. This release has been over a year in the making, and is the first major release since 2006. Importantly, in addition to many new features and performance improvement, it contains **breaking changes** to the ABI as well as the Python and C APIs. It is likely that downstream packages and end user code needs to be adapted - if you can, please verify whether your code works with NumPy `2.0.0rc2`. **Please see the following for more details:**
+
+- The [NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
+
 
 ### NumFOCUSの年末の資金調達
 _2023年12月19日_ -- NumFOCUSは、年末キャンペーンでPyCharmチームと協力し、PyCharmライセンスの初回購入に30%の割引を提供しています。 2023年12月23日までのPyCharm購入による1年目の収益は全てNumFOCUSのプログラムに直接寄付されます。
