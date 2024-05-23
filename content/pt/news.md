@@ -1,9 +1,23 @@
 ---
 title: Notícias
 sidebar: false
-newsHeader: Lançado o NumPy versão 1.26.0
-date: 2023-09-16
+newsHeader: "NumPy 2.0 release date: June 16"
+date: 2024-05-23
 ---
+
+### NumPy 2.0 release date: June 16
+
+_23 May, 2024_ -- We are excited to announce that NumPy 2.0 is planned to be
+released on June 16, 2024. This release has been over a year in the making, and
+is the first major release since 2006. Importantly, in addition to many new
+features and performance improvement, it contains **breaking changes** to the
+ABI as well as the Python and C APIs. It is likely that downstream packages and
+end user code needs to be adapted - if you can, please verify whether your code
+works with NumPy `2.0.0rc2`. **Please see the following for more details:**
+
+- The [NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
 ### NumFOCUS end of the year fundraiser
 
@@ -11,10 +25,10 @@ _Dec 19, 2023_ -- NumFOCUS has teamed up with PyCharm during their EOY campaign 
 on first-time PyCharm licenses. All year-one revenue from PyCharm purchases from now
 until December 23rd, 2023 will go directly to the NumFOCUS programs.
 
-Use unique URL that will allow to track purchases https\://lp.jetbrains.com/support-data-science/
+Use unique URL that will allow to track purchases https://lp.jetbrains.com/support-data-science/
 or a coupon code ISUPPORTDATASCIENCE 
 
-### NumPy versão 1.26.0
+### Lançado o NumPy versão 1.26.0
 
 _16 de setembro de 2023_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html) está disponível. Os destaques desta versão são:
 
@@ -56,9 +70,9 @@ O trabalho na infraestrutura de traduções é financiado pela CZI.
 
 No futuro, adoraríamos traduzir o site para mais línguas.
 Se você quiser ajudar, por favor entre em contato com o time de traduções do NumPy no Slack:
-https\://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w.
+https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w.
 (Look for the #translations channel.) (Procure pelo canal #translations)
-Também estamos organizando um time de tradutores que serão responsáveis por trabalhar na localização da documentação e conteúdo educacional para o ecossistema Scientific Python. Se esse trabalho te interessa, junte-se a nós no Discord do projeto Scientific Python: https\://discord.gg/khWtqY6RKr. (Procure pelo canal #translation)
+Também estamos organizando um time de tradutores que serão responsáveis por trabalhar na localização da documentação e conteúdo educacional para o ecossistema Scientific Python. Se esse trabalho te interessa, junte-se a nós no Discord do projeto Scientific Python: https://discord.gg/khWtqY6RKr. (Procure pelo canal #translation)
 
 ### NumPy versão 1.23.0
 
@@ -153,7 +167,7 @@ Os resultados da pesquisa nos ajudaram a compreender muito bem o que devemos faz
 
 Chegou a hora de fazer outra pesquisa e estamos contando com você novamente. Vai levar cerca de 15 minutos do seu tempo. Além de Inglês, o questionário de pesquisa está disponível em 8 idiomas adicionais: Bangla, Francês, Hindi, Japonês, Mandarim, Português, Russo e Espanhol.
 
-Siga o link para começar: https\://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSl4q.
+Siga o link para começar: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSl4q.
 
 ### NumPy versão 1.19.0
 
@@ -170,7 +184,7 @@ Esta versão do NumPy é o resultado de 581 pull requests aceitos, a partir das 
 
 ### Resultados da pesquisa NumPy 2020
 
-_22 de junho de 2021_ -- Em 2020, o time de pesquisas NumPy, em parceria com estudantes e professores da Universidade de Michigan e da Universidade de Maryland, realizou a primeira pesquisa oficial sobre a comunidade NumPy. Encontre os resultados da pesquisa aqui: https\://numpy.org/user-survey-2020/.
+_22 de junho de 2021_ -- Em 2020, o time de pesquisas NumPy, em parceria com estudantes e professores da Universidade de Michigan e da Universidade de Maryland, realizou a primeira pesquisa oficial sobre a comunidade NumPy. Encontre os resultados da pesquisa aqui: https://numpy.org/user-survey-2020/.
 
 ### NumPy versão 1.20.0
 
