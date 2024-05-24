@@ -7,11 +7,11 @@ date: 2023-09-16
 
 ### NumPy 2.0 リリース日: 6月16日
 
-_ 2024年5月23日_ -- NumPy 2.0が2024年6月16日にリリースされる予定になりました！ このリリースは1年以上かけて我々が準備してきたもので、2006年以来のメジャーリリースとなります。 このリリースで重要なことは、多くの新機能とパフォーマンスの向上に加えて、 このリリースは、 **破壊的な変更** である Python と C API を含む、ABI への変更 が含まれています。 It is likely that downstream packages and end user code needs to be adapted - if you can, please verify whether your code works with NumPy `2.0.0rc2`. **Please see the following for more details:**
+_ 2024年5月23日_ -- NumPy 2.0が2024年6月16日にリリースされる予定になりました！ このリリースは1年以上かけて我々が準備してきたもので、2006年以来のメジャーリリースとなります。 このリリースで重要なことは、多くの新機能とパフォーマンスの向上に加えて、 このリリースは、 **破壊的な変更** である Python と C API を含む、ABI への変更 が含まれています。 NumPyに依存しているパッケージやエンドユーザーのコードがこのは破壊的変更に適応する必要がある可能性があります。可能であれば、あなたのコードがNumPy `2.0.0rc2`で動作するかどうか確認をお願いします。 **詳細は下記をご覧ください:**
 
-- The [NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
-- The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
-- Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
+- [NumPy 2.0移行ガイド](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- [2.0.0 リリース ノート](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- ステータスアップデートお知らせに関する問題: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
 
 ### NumFOCUSの年末の資金調達
