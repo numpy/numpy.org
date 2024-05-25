@@ -3,12 +3,12 @@
 {{- $intro := index $arraylibraries "intro" }}
 {{- $headers := index $arraylibraries "headers" }}
 {{- $libraries := index $arraylibraries "libraries" }}
+{{- range $intro }}
+<p>
+    {{ .text }}
+</p>
+{{- end }}
 <li class="array-libraries">
-    {{- range $intro }}
-    <p>
-        {{ .text }}
-    </p>
-    {{- end }}
     <table>
         <tr class="highlight-th">
             <td class="bold-text"></td>
