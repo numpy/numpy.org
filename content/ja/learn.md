@@ -47,7 +47,7 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 - NumPyの学び方
 - [NumPyとSciPyへのイントロダクション](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) _M. Scott Shell著_
 - [NumPy救急キット](http://mentat.za.net/numpy/numpy_advanced_slides/) _Stéfan van der Walt著_
-- [NumPyチュートリアル](https://numpy.org/numpy-tutorials)で、いくつかのチュートリアルと教育的資料を見ることができます。 このページのゴールは、NumPyプロジェクトによる質のいい資料を提供することです。 自習と講義形式の両方を想定しており、Jupyterノートブック形式で提供されます。 もしあなた自身の資料を追加することに興味がある場合、[Github上のnumpy-tutorialsリポジトリ](https://github.com/numpy/numpy-tutorials)をチェックしてみて下さい。 https\://www\.tutorialspoint.com/numpy/numpy_advanced_indexing.htm
+- [NumPyチュートリアル](https://numpy.org/numpy-tutorials)で、いくつかのチュートリアルと教育的資料を見ることができます。 このページのゴールは、NumPyプロジェクトによる質のいい資料を提供することです。 自習と講義形式の両方を想定しており、Jupyterノートブック形式で提供されます。 もしあなた自身の資料を追加することに興味がある場合、[Github上のnumpy-tutorialsリポジトリ](https://github.com/numpy/numpy-tutorials)をチェックしてみて下さい。 https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm
 
 <i class="fas fa-book"></i> **チュートリアル**
 
