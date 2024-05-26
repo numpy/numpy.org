@@ -25,7 +25,7 @@ params:
         text: Biblioteca de matriz compatível com NumPy para computação acelerada pela GPU com Python.
         img: /images/content_images/arlib/cupy.png
         alttext: CuPy
-        url: https://cupy.chainer.org
+        url: https://cupy.dev
       - 
         title: JAX
         text: "Transformações combináveis de programas NumPy: vetorização, compilação just-in-time para GPU/TPU."
