@@ -3,7 +3,7 @@
 {{- $intro := index $arraylibraries "intro" }}
 {{- $headers := index $arraylibraries "headers" }}
 {{- $libraries := index $arraylibraries "libraries" }}
-<li class="array-libraries">
+<section class="array-libraries">
     {{- range $intro }}
     <p>
         {{ .text }}
@@ -25,4 +25,4 @@
         </tr>
         {{- end }}
     </table>
-</li>
+</section>
