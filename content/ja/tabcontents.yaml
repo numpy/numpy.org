@@ -25,7 +25,7 @@ params:
         text: Python を使用した GPUによる高速計算用のNumPy互換配列ライブラリ
         img: /images/content_images/arlib/cupy.png
         alttext: CuPy
-        url: https://cupy.chainer.org
+        url: https://cupy.dev
       - 
         title: JAX
         text: "NumPyコードの合成可能な変換ライブラリ: 微分、ベクトル化、GPU/TPUへのジャストインタイムコンパイル"
