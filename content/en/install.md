@@ -5,7 +5,7 @@ sidebar: false
 
 The only prerequisite for installing NumPy is Python itself. If you don't have
 Python yet and want the simplest way to get started, we recommend you use the
-[Anaconda Distribution](https://www.anaconda.com/distribution) - it includes
+[Anaconda Distribution](https://www.anaconda.com/download) - it includes
 Python, NumPy, and many other commonly used packages for scientific computing
 and data science.
 
@@ -63,7 +63,7 @@ in the future.
 
 On all of Windows, macOS, and Linux:
 
-- Install [Anaconda](https://www.anaconda.com/distribution/) (it installs all
+- Install [Anaconda](https://www.anaconda.com/download) (it installs all
   packages you need and all other tools mentioned below).
 - For writing and executing code, use notebooks in
   [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) for
