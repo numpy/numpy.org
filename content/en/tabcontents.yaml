@@ -22,7 +22,7 @@ params:
       text: NumPy-compatible array library for GPU-accelerated computing with Python.
       img: /images/content_images/arlib/cupy.png
       alttext: CuPy
-      url: https://cupy.chainer.org
+      url: https://cupy.dev
     - title: JAX
       text: "Composable transformations of NumPy programs: differentiate, vectorize, just-in-time compilation to GPU/TPU."
       img: /images/content_images/arlib/jax_logo_250px.png
