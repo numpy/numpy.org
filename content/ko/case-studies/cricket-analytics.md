@@ -4,7 +4,7 @@ sidebar: false
 ---
 
 {{< figure src="/images/content_images/cs/ipl-stadium.png" caption="**인도 최대의 크리켓 축제인 IPLT20**" alt="인도 프리미어 리그 크리켓 컵 및 경기장" attr="*(사진 출처: IPLT20 (컵 및 로고) & Akash Yadav (경기장))*" attrlink="https://unsplash.com/@aksh1802" >}}
-src = '/images/content_images/cs/ipl-stadium.png' title = 'IPLT20, the biggest Cricket Festival in India' alt = 'Indian Premier League Cricket cup and stadium' attribution = '(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))' attributionlink = 'https://unsplash.com/@aksh1802'
+src = '/images/content_images/cs/ipl-stadium.png' title = '인도 최대의 크리켓 축제인 IPLT20' alt = '인도 프리미어 리그 크리켓 컵 및 경기장' attribution = '(사진 크레딧: IPLT20 (컵 및 로고) & Akash Yadav (경기장))' attributionlink = 'https://unsplash.com/@aksh1802'
 {{< /figure >}}
 
 {{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, *International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL*"
@@ -28,7 +28,7 @@ src = '/images/content_images/cs/ipl-stadium.png' title = 'IPLT20, the biggest C
 * 팀 구성에 대한 전략적 결정을 내리는 플레이어의 승패 기여도
 
 {{< figure >}}
-src = '/images/content_images/cs/cricket-pitch.png' title = 'Cricket Pitch, the focal point in the field' alt = 'A cricket pitch with bowler and batsmen' align = 'center' attribution = '(Image credit: Debarghya Das)' attributionlink = 'http://debarghyadas.com/files/IPLpaper.pdf'
+src = '/images/content_images/cs/cricket-pitch.png' title = '경기장의 중심이 되는 크리켓 피치' alt = '볼러와 배트맨으로 이루어진 크리켓 피치' align = 'center' attribution = '(사진 크레딧: Debarghya Das)' attributionlink = 'http://debarghyadas.com/files/IPLpaper.pdf'
 {{< figure src="/images/content_images/cs/numpy_ca_benefits.png" class="fig-center" alt="NumPy를 크리켓 분석에 사용했을 때의 이익을 보여주는 다이어그램" caption="**활용된 주요 NumPy 기능**" >}}
 
 ### 데이터 분석의 주요 목표
@@ -38,7 +38,7 @@ src = '/images/content_images/cs/cricket-pitch.png' title = 'Cricket Pitch, the 
 * 과거 분석 외에도 예측 모델을 활용하여 상당한 수의 크런칭과 데이터 과학 노하우, 시각화 도구 및 분석에 더 새로운 관찰을 포함시킬 수 있는 기능이 필요한 가능한 일치 결과를 결정합니다.
 
 {{< figure >}}
-src = '/images/content_images/cs/player-pose-estimator.png' alt = 'pose estimator' title = 'Cricket Pose Estimator' attribution = '(Image credit: connect.vin)' attributionlink = 'https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/'
+src = '/images/content_images/cs/player-pose-estimator.png' alt = '자세 예측' title = '크리켓 자세 예측' attribution = '(사진 크레딧: connect.vin)' attributionlink = 'https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/'
 {{< /figure >}}
 
 ### 도전
@@ -68,5 +68,5 @@ src = '/images/content_images/cs/player-pose-estimator.png' alt = 'pose estimato
 스포츠 분석은 프로 게임의 판도를 바꿀 것입니다. 특히 최근까지는 주로 "직감"이나 과거부터 내려오던 것을 답습하는 식으로 이뤄진 전략적 의사 결정에 대해서 말입니다. NumPy는 데이터 분석, 기계 학습 및 AI 알고리즘과 관련하여 더욱 높은 수준의 기능을 제공하는 Python 패키지들의 견고한 기반을 제공합니다. 이들 패키지는 크리켓 경기뿐 아니라 크리켓 관련 추론이나 사업을 추진하면서, 판도를 바꿀만한 결정을 이끌어 내는 영감을 실시간으로 제공하는 데 널리 이용되고 있습니다. 크리켓 경기의 결과로 이어지는 숨겨진 매개변수, 패턴이나 속성을 찾는 것은 관계자가 숫자와 통계에 숨겨진 게임을 분석하는 방법을 파악하는 데 도움이 됩니다.
 
 {{< figure >}}
-src = '/images/content_images/cs/numpy_ca_benefits.png' alt = 'Diagram showing benefits of using NumPy for cricket analytics' title = 'Key NumPy Capabilities utilized'
+src = '/images/content_images/cs/numpy_ca_benefits.png' alt = 'NumPy를 크리켓 분석에 적용했을 때의 이익을 보여주는 다이어그램' title = '활용된 주요 NumPy 기능'
 {{< /figure >}}
