@@ -4,7 +4,7 @@ sidebar: false
 ---
 
 {{< figure src="/images/content_images/cs/blackhole.jpg" caption="**블랙홀 M87**" alt="블랙홀 사진" attr="*(사진 크레딧: Event Horizon Telescope Collaboration)*" attrlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
-src = '/images/content_images/cs/blackhole.jpg' title = 'Black Hole M87' alt = 'black hole image' attribution = '(Image Credits: Event Horizon Telescope Collaboration)' attributionlink = 'https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg'
+src = '/images/content_images/cs/blackhole.jpg' title = '블랙홀 M87' alt = '블랙홀 사진' attribution = '(사진 크레딧: Event Horizon Telescope Collaboration)' attributionlink = 'https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg'
 {{< /figure >}}
 
 {{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="Katie Bouman, *Assistant Professor, Computing & Mathematical Sciences, Caltech*"
@@ -39,7 +39,7 @@ src = '/images/content_images/cs/blackhole.jpg' title = 'Black Hole M87' alt = '
     만약 목표가 이전에 본 적이 없는 것을 보는 것이라면, 과학자들은 어떻게 이 사진이 옳다고 입증할 수 있을까요?
 
 {{< figure >}}
-src = '/images/content_images/cs/dataprocessbh.png' title = 'EHT Data Processing Pipeline' alt = 'data pipeline' align = 'center' attribution = '(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)' attributionlink = 'https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57'
+src = '/images/content_images/cs/dataprocessbh.png' title = 'EHT 데이터 처리 파이프라인' alt = '데이터 파이프라인' align = 'center' attribution = '(다이어그램 크레딧: The Astrophysical Journal, Event Horizon Telescope Collaboration)' attributionlink = 'https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57'
 {{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="numpy의 역할" caption="**블랙홀 시각화에서 NumPy의 역할**" >}}
 
 ## NumPy의 역할
@@ -57,7 +57,7 @@ EHT는 기존 및 최첨된 이미지 재구성 기술을 모두 사용한 뒤, 
 예를 들어, [`eht-imaging`][ehtim] Python 패키지는 VLBI 데이터를 통해 실험이나 이미지 재구성을 수행할 때 필요한 도구를 제공합니다. NumPy는 아래 소프트웨어 종속성 차트에 나와 있는 것처럼 이 패키지에서 사용되는 배열 데이터 처리의 핵심 역할을 합니다.
 
 {{< figure >}}
-src = '/images/content_images/cs/ehtim_numpy.png' alt = 'ehtim dependency map highlighting numpy' title = 'Software dependency chart of ehtim package highlighting NumPy'
+src = '/images/content_images/cs/ehtim_numpy.png' alt = 'numpy를 강조하는 ehtim의 종속성 지도' title = 'NumPy를 강조하는 ehtim 패키지의 소프트웨어 종속성 차트'
 {{< /figure >}}
 
 NumPy 외에도 [SciPy](https://www.scipy.org)와 [Pandas](https://pandas.io) 등의 다른 많은 패키지가 블랙홀을 시각화하는 데이터 처리 파이프라인의 일부입니다. 표준 천문 파일 형식과 시간/좌표 변환에는 [Astropy][astropy]가 쓰였고 [Matplotlib][mpl]는 분석 과정 전체에서 블랙홀의 최종 사진을 생성하는 등 데이터를 시각화하는 데 쓰였습니다.
@@ -67,7 +67,7 @@ NumPy 외에도 [SciPy](https://www.scipy.org)와 [Pandas](https://pandas.io) �
 NumPy의 핵심 기능인 효율적이고 유용한 n차원 배열은 연구자들이 대규모 수치 데이터셋을 다룰 수 있도록 하여 최초의 블랙홀 사진을 만드는 데 토대를 제공했습니다. 이번 관측은 아인슈타인의 이론에 훌륭한 시각적 증거를 준 관측으로, 과학계에 한 획을 그은 순간이었습니다. 기술적 혁신뿐만 아니라 200명 이상의 과학자와 세계 최고의 전파 관측소 간의 국제 협력도 이루어 냈습니다.  기존의 천문학 모델을 개선한 혁신적인 알고리즘과 데이터 처리 기술이 우주의 비밀을 알아내는 데 도움을 주었습니다.
 
 {{< figure >}}
-src = '/images/content_images/cs/numpy_bh_benefits.png' alt = 'numpy benefits' title = 'Key NumPy Capabilities utilized'
+src = '/images/content_images/cs/numpy_bh_benefits.png' alt = 'numpy를 통한 이익' title = '활용된 주요 NumPy 기능'
 {{< /figure >}}
 
 [resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
