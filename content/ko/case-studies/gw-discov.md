@@ -4,7 +4,7 @@ sidebar: false
 ---
 
 {{< figure src="/images/content_images/cs/gw_sxs_image.png" class="fig-center" caption="**중력파**" alt="이항 결합하며 중력파를 생성하는 블랙홀" attr="*(사진 크레딧: LIGO의 Simulating eXtreme Spacetimes (SXS) 프로젝트)*" attrlink="https://youtu.be/Zt8Z_uzG71o" >}}
-src = '/images/content_images/cs/gw_sxs_image.png' title = 'Gravitational Waves' alt = 'binary coalesce black hole generating gravitational waves' attribution = '(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)' attributionlink = 'https://youtu.be/Zt8Z_uzG71o'
+src = '/images/content_images/cs/gw_sxs_image.png' title = '중력파' alt = '이항 결합하며 중력파를 생성하는 블랙홀' attribution = '(사진 크레딧: LIGO의 Simulating eXtreme Spacetimes (SXS) 프로젝트)' attributionlink = 'https://youtu.be/Zt8Z_uzG71o'
 {{< /figure >}}
 
 {{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="David Shoemaker, *LIGO Scientific Collaboration*" >}} The scientific Python ecosystem is critical infrastructure for the research done at LIGO.
@@ -59,13 +59,13 @@ Python용 표준 수치 분석 패키지인 NumPy는 LIGO의 GW 탐지 프로젝
 * [GwPy](https://gwpy.github.io/docs/stable/overview.html) 및 [PyCBC](https://pycbc.org)와 같은 중력파 데이터 분석에서 개발된 주요 [소프트웨어](https://github.com/lscsoft)는 후드 아래에서 NumPy 및 AstroPy를 사용하여 중력파 검출기에서 데이터를 연구하기 위한 유틸리티, 도구 및 방법에 객체 기반 인터페이스를 제공합니다.
 
 {{< figure >}}
-src = '/images/content_images/cs/gwpy-numpy-dep-graph.png' alt = 'gwpy-numpy depgraph' title = 'Dependency graph showing how GwPy package depends on NumPy'
+src = '/images/content_images/cs/gwpy-numpy-dep-graph.png' alt = 'gwpy-numpy 종속성' title = 'GwPy 패키지가 어떻게 NumPy에 종속하는지를 나타내는 종속성 그래프'
 {{< /figure >}}
 
 ----
 
 {{< figure >}}
-src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png' alt = 'PyCBC-numpy depgraph' title = 'Dependency graph showing how PyCBC package depends on NumPy'
+src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png' alt = 'PyCBC-numpy 종속성' title = 'PyCBC 패키지가 NumPy에 종속하는지를 나타내는 종속성 그래프'
 {{< /figure >}}
 
 ## 요약
@@ -73,5 +73,5 @@ src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png' alt = 'PyCBC-numpy d
 중력파 검출을 통하여 연구자들은 완전히 예상치 못한 현상을 발견하게 됨으로써, 알려진 것 중 가장 난해한 천체물리학적 현상에 대하여 많은 사람들에게 새로운 통찰을 주었습니다. 숫자 계산 및 데이터 시각화는 과학자가 과학적 관찰에서 수집한 데이터에 대한 통찰력을 얻고 결과를 이해하는 데 도움이 되는 중요한 단계입니다. 계산은 복잡하며 실제 관찰 데이터 및 분석을 제공하는 컴퓨터 시뮬레이션을 사용하여 시각화하지 않는 한 사람이 이해할 수 없습니다.  NumPy는 matplotlib, pandas 및 scikit-learn과 같은 다른 Python 패키지와 함께 [연구원](https://www.gw-openscience.org/events/GW150914/)이 복잡한 질문에 답하고 우주에 대한 이해의 새로운 지평을 발견할 수 있도록 합니다.
 
 {{< figure >}}
-src = '/images/content_images/cs/numpy_gw_benefits.png' alt = 'numpy benefits' title = 'Key NumPy Capabilities utilized'
+src = '/images/content_images/cs/numpy_gw_benefits.png' alt = 'numpy를 통한 이익' title = '활용된 주요 NumPy 기능'
 {{< /figure >}}
