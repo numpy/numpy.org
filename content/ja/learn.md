@@ -26,7 +26,7 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 
 <i class="fas fa-book"></i> **チュートリアル**
 
-- [NumPガイド _Travelis E. Oliphant著_](http://web.mit.edu/dvp/Public/numpybook.pdf) これは2006年の無料版の初版です 最新版(2015年)については、こちら [を参照ください](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007). For the latest copy (2015) see [here](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007).
+- [NumPガイド _Travelis E. Oliphant著_](http://web.mit.edu/dvp/Public/numpybook.pdf) これは2006年の無料版の初版です 最新版(2015年)については、こちら [を参照ください](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007). For the latest copy (2015) see [here](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1144670472).
 - [PythonにおけるNumPy (発展編)](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 - [エレガントなSciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) _Juan Nunez-Iglesias・Stefan van der Walt・Harriet Dashnow 著_
 
