@@ -12,37 +12,42 @@ attributionlink = 'https://www.jpl.nasa.gov/images/universe/20190410/blackhole20
 {{< /figure >}}
 
 {{< blockquote
-    cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
-    by="Katie Bouman, *Professora Assistente, Ciências da Computação e Matemática, Caltech*"
->}}
-Criar uma imagem do Buraco Negro M87 é como tentar ver algo que, por definição, é impossível de se ver.
-{{< /blockquote >}}
+cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
+by="Katie Bouman, _Professora Assistente, Ciências da Computação e Matemática, Caltech_"
+
+> }}
+> Criar uma imagem do Buraco Negro M87 é como tentar ver algo que, por definição, é impossível de se ver.
+> {{< /blockquote >}}
 
 ## Um telescópio do tamanho da Terra
 
 O [telescópio Event Horizon (EHT)](https://eventhorizontelescope.org), é um conjunto de oito telescópios em solo formando um telescópio computacional do tamanho da Terra, projetado para estudar o universo com sensibilidade e resolução sem precedentes.  O enorme telescópio virtual, que usa uma técnica chamada interferometria de longa linha de base (VLBI), tem uma resolução angular de [20 micro-arcossegundos][resolution] — o suficiente para ler um jornal em Nova Iorque a partir de um café em uma calçada de Paris!
 
+[resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
+
 ### Principais Objetivos e Resultados
 
-* **Uma nova visão do universo:** A imagem inovadora do EHT foi publicada 100 anos após [o experimento de Sir Arthur Eddington][eddington] ter produzido as primeiras evidências observacionais apoiando a teoria da relatividade geral de Einstein.
+- **Uma nova visão do universo:** A imagem inovadora do EHT foi publicada 100 anos após [o experimento de Sir Arthur Eddington][eddington] ter produzido as primeiras evidências observacionais apoiando a teoria da relatividade geral de Einstein.
 
-* **O Buraco Negro:** o EHT foi treinado em um buraco negro supermassivo a aproximadamente 55 milhões de anos-luz da Terra, localizado no centro do galáxia Messier 87 (M87) no aglomerado de Virgem. Sua massa é equivalente a 6,5 bilhões de vezes a do Sol. Ele vem sendo estudado [há mais de 100 anos](https://www.jpl.nasa.gov/news/news.php?feature=7385), mas um buraco negro nunca havia sido observado visualmente antes.
+- **O Buraco Negro:** o EHT foi treinado em um buraco negro supermassivo a aproximadamente 55 milhões de anos-luz da Terra, localizado no centro do galáxia Messier 87 (M87) no aglomerado de Virgem. Sua massa é equivalente a 6,5 bilhões de vezes a do Sol. Ele vem sendo estudado [há mais de 100 anos](https://www.jpl.nasa.gov/news/news.php?feature=7385), mas um buraco negro nunca havia sido observado visualmente antes.
 
-* **Comparando observações com a teoria:** Pela teoria geral da relatividade de Einstein, os cientistas esperavam encontrar uma região de sombra causada pela distorção e captura da luz causada pela influência gravitacional do buraco negro. Os cientistas poderiam usá-la para medir a enorme massa do mesmo.
+- **Comparando observações com a teoria:** Pela teoria geral da relatividade de Einstein, os cientistas esperavam encontrar uma região de sombra causada pela distorção e captura da luz causada pela influência gravitacional do buraco negro. Os cientistas poderiam usá-la para medir a enorme massa do mesmo.
+
+[eddington]: https://en.wikipedia.org/wiki/Eddington_experiment
 
 ### Desafios
 
-* **Escala computacional**
+- **Escala computacional**
 
-    O EHT representa um desafio imenso em processamento de dados, incluindo rápidas flutuações de fase atmosférica, uma largura grande de banda nas gravações e telescópios que são muito diferentes e geograficamente dispersos.
+  O EHT representa um desafio imenso em processamento de dados, incluindo rápidas flutuações de fase atmosférica, uma largura grande de banda nas gravações e telescópios que são muito diferentes e geograficamente dispersos.
 
-* **Muitas informações**
+- **Muitas informações**
 
-    A cada dia, o EHT gera mais de 350 terabytes de observações, armazenadas em discos rígidos cheios de hélio. Reduzir o volume e a complexidade desse volume de dados é extremamente difícil.
+  A cada dia, o EHT gera mais de 350 terabytes de observações, armazenadas em discos rígidos cheios de hélio. Reduzir o volume e a complexidade desse volume de dados é extremamente difícil.
 
-* **Em direção ao desconhecido**
+- **Em direção ao desconhecido**
 
-    Quando o objetivo é algo que nunca foi visto, como os cientistas podem ter confiança de que sua imagem está correta?
+  Quando o objetivo é algo que nunca foi visto, como os cientistas podem ter confiança de que sua imagem está correta?
 
 {{< figure >}}
 src = '/images/content_images/cs/dataprocessbh.png'
@@ -67,7 +72,8 @@ alt = 'role of numpy'
 title = 'O papel do NumPy na criação da primeira imagem de um Buraco Negro'
 {{< /figure >}}
 
-Por exemplo, o pacote Python [`eht-imaging`][ehtim] fornece ferramentas para simular e realizar reconstrução de imagem nos dados do VLBI. O NumPy está no coração do processamento de dados vetoriais usado neste pacote, como ilustrado pelo gráfico parcial de dependências de software abaixo.
+Por exemplo, o pacote Python [`eht-imaging`][ehtim] fornece ferramentas para simular e realizar reconstrução de imagem nos dados do VLBI.
+O NumPy está no coração do processamento de dados vetoriais usado neste pacote, como ilustrado pelo gráfico parcial de dependências de software abaixo.
 
 {{< figure >}}
 src = '/images/content_images/cs/ehtim_numpy.png'
@@ -75,7 +81,13 @@ alt = 'ehtim dependency map highlighting numpy'
 title = 'Diagrama de dependência de software do pacote ehtim evidenciando o NumPy'
 {{< /figure >}}
 
-Além do NumPy, muitos outros pacotes como [SciPy](https://www.scipy.org) e [Pandas](https://pandas.io) foram usados na *pipeline* de processamento de dados para criar a imagem do buraco negro. Os arquivos astronômicos de formato padrão e transformações de tempo/coordenadas foram tratados pelo [Astropy][astropy] enquanto a [Matplotlib][mpl] foi usada na visualização de dados em todas as etapas de análise, incluindo a geração da imagem final do buraco negro.
+[ehtim]: https://github.com/achael/eht-imaging
+
+Além do NumPy, muitos outros pacotes como [SciPy](https://www.scipy.org) e [Pandas](https://pandas.io) foram usados na _pipeline_ de processamento de dados para criar a imagem do buraco negro.
+Os arquivos astronômicos de formato padrão e transformações de tempo/coordenadas foram tratados pelo [Astropy][astropy] enquanto a [Matplotlib][mpl] foi usada na visualização de dados em todas as etapas de análise, incluindo a geração da imagem final do buraco negro.
+
+[astropy]: https://www.astropy.org/
+[mpl]: https://matplotlib.org/
 
 ## Resumo
 
@@ -86,12 +98,3 @@ src = '/images/content_images/cs/numpy_bh_benefits.png'
 alt = 'numpy benefits'
 title = 'Funcionalidades-chave do NumPy utilizadas'
 {{< /figure >}}
-
-[resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
-
-[eddington]: https://en.wikipedia.org/wiki/Eddington_experiment
-
-[ehtim]: https://github.com/achael/eht-imaging
-
-[astropy]: https://www.astropy.org/
-[mpl]: https://matplotlib.org/
