@@ -86,76 +86,230 @@ params:
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
-      - 
-        title: tensorly
-        text: Ferramentas para aprendizagem com tensores, algebra e backends para usar NumPy, MXNet, PyTorch, TensorFlow ou CuPy sem esforço.
-        img: /images/content_images/arlib/tensorly.png
-        alttext: tensorly
-        url: http://tensorly.org/stable/home.html
   scientificdomains:
     intro:
       - 
         text: Quase todos os cientistas que trabalham em Python se baseiam na potência do NumPy.
       - 
         text: "NumPy traz o poder computacional de linguagens como C e Fortran para Python, uma linguagem muito mais fácil de aprender e usar. Com esse poder vem a simplicidade: uma solução no NumPy é frequentemente clara e elegante."
-    librariesrow1:
+    libraries:
       - 
-        title: Computação quântica
-        alttext: Um chip de computador.
+        title: Quantum Computing
+        alttext: A computer chip.
         img: /images/content_images/sc_dom_img/quantum_computing.svg
+        links:
+          - 
+            url: http://qutip.org
+            label: QuTiP
+          - 
+            url: https://pyquil-docs.rigetti.com/en/stable
+            label: PyQuil
+          - 
+            url: https://qiskit.org
+            label: Qiskit
+          - 
+            url: https://pennylane.ai
+            label: PennyLane
       - 
-        title: Computação estatística
-        alttext: Um gráfico com uma linha em movimento para cima.
+        title: Statistical Computing
+        alttext: A line graph with the line moving up.
         img: /images/content_images/sc_dom_img/statistical_computing.svg
+        links:
+          - 
+            url: https://pandas.pydata.org/
+            label: Pandas
+          - 
+            url: https://www.statsmodels.org/
+            label: statsmodels
+          - 
+            url: https://xarray.pydata.org/en/stable/
+            label: Xarray
+          - 
+            url: https://seaborn.pydata.org/
+            label: Seaborn
       - 
-        title: Processamento de sinais
-        alttext: Um gráfico de barras com valores positivos e negativos.
+        title: Signal Processing
+        alttext: A bar chart with positive and negative values.
         img: /images/content_images/sc_dom_img/signal_processing.svg
+        links:
+          - 
+            url: https://www.scipy.org/
+            label: SciPy
+          - 
+            url: https://pywavelets.readthedocs.io/
+            label: PyWavelets
+          - 
+            url: https://python-control.org/
+            label: python-control
+          - 
+            url: https://hyperspy.org/
+            label: HyperSpy
       - 
-        title: Processamento de imagens
-        alttext: Uma fotografia das montanhas.
+        title: Image Processing
+        alttext: An photograph of the mountains.
         img: /images/content_images/sc_dom_img/image_processing.svg
+        links:
+          - 
+            url: https://scikit-image.org/
+            label: Scikit-image
+          - 
+            url: https://opencv.org/
+            label: OpenCV
+          - 
+            url: https://mahotas.rtfd.io/
+            label: Mahotas
       - 
-        title: Gráficos e Redes
-        alttext: Um grafo simples.
+        title: Graphs and Networks
+        alttext: A simple graph.
         img: /images/content_images/sc_dom_img/sd6.svg
+        links:
+          - 
+            url: https://networkx.org/
+            label: NetworkX
+          - 
+            url: https://graph-tool.skewed.de/
+            label: graph-tool
+          - 
+            url: https://igraph.org/python/
+            label: igraph
+          - 
+            url: https://pygsp.rtfd.io/
+            label: PyGSP
       - 
-        title: Processos de Astronomia
-        alttext: Um telescópio.
+        title: Astronomy
+        alttext: A telescope.
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
+        links:
+          - 
+            url: https://www.astropy.org/
+            label: AstroPy
+          - 
+            url: https://sunpy.org/
+            label: SunPy
+          - 
+            url: https://spacepy.github.io/
+            label: SpacePy
       - 
-        title: Psicologia Cognitiva
-        alttext: Uma cabeça humana com engrenagens.
+        title: Cognitive Psychology
+        alttext: A human head with gears.
         img: /images/content_images/sc_dom_img/cognitive_psychology.svg
-    librariesrow2:
+        links:
+          - 
+            url: https://www.psychopy.org/
+            label: PsychoPy
       - 
-        title: Bioinformática
-        alttext: Um pedaço de DNA.
+        title: Bioinformatics
+        alttext: A strand of DNA.
         img: /images/content_images/sc_dom_img/bioinformatics.svg
+        links:
+          - 
+            url: https://biopython.org/
+            label: BioPython
+          - 
+            url: http://scikit-bio.org/
+            label: Scikit-Bio
+          - 
+            url: https://github.com/openvax/pyensembl
+            label: PyEnsembl
+          - 
+            url: http://etetoolkit.org/
+            label: ETE
       - 
-        title: Inferência Bayesiana
-        alttext: Um gráfico com uma curva em forma de sino.
+        title: Bayesian Inference
+        alttext: A graph with a bell-shaped curve.
         img: /images/content_images/sc_dom_img/bayesian_inference.svg
+        links:
+          - 
+            url: https://pystan.readthedocs.io/en/latest/
+            label: PyStan
+          - 
+            url: https://docs.pymc.io/
+            label: PyMC3
+          - 
+            url: https://arviz-devs.github.io/arviz/
+            label: ArviZ
+          - 
+            url: https://emcee.readthedocs.io/
+            label: emcee
       - 
-        title: Análise Matemática
-        alttext: Quatro símbolos matemáticos.
+        title: Mathematical Analysis
+        alttext: Four mathematical symbols.
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
+        links:
+          - 
+            url: https://www.scipy.org/
+            label: SciPy
+          - 
+            url: https://www.sympy.org/
+            label: SymPy
+          - 
+            url: https://www.cvxpy.org/
+            label: cvxpy
+          - 
+            url: https://fenicsproject.org/
+            label: FEniCS
       - 
-        title: Química
-        alttext: Um tubo de ensaio.
+        title: Chemistry
+        alttext: A test tube.
         img: /images/content_images/sc_dom_img/chemistry.svg
+        links:
+          - 
+            url: https://cantera.org/
+            label: Cantera
+          - 
+            url: https://www.mdanalysis.org/
+            label: MDAnalysis
+          - 
+            url: https://github.com/rdkit/rdkit
+            label: RDKit
+          - 
+            url: https://www.pybamm.org/
+            label: PyBaMM
       - 
-        title: Geociências
-        alttext: A Terra.
+        title: Geoscience
+        alttext: The Earth.
         img: /images/content_images/sc_dom_img/geoscience.svg
+        links:
+          - 
+            url: https://pangeo.io/
+            label: Pangeo
+          - 
+            url: https://simpeg.xyz/
+            label: Simpeg
+          - 
+            url: https://github.com/obspy/obspy/wiki
+            label: ObsPy
+          - 
+            url: https://www.fatiando.org/
+            label: Fatiando a Terra
       - 
-        title: Processamento Geográfico
-        alttext: Um mapa.
+        title: Geographic Processing
+        alttext: A map.
         img: /images/content_images/sc_dom_img/GIS.svg
+        links:
+          - 
+            url: https://shapely.readthedocs.io/
+            label: Shapely
+          - 
+            url: https://geopandas.org/
+            label: GeoPandas
+          - 
+            url: https://python-visualization.github.io/folium
+            label: Folium
       - 
-        title: Arquitetura e Engenharia
-        alttext: Uma placa de desenvolvimento de microprocessador.
+        title: Architecture & Engineering
+        alttext: A microprocessor development board.
         img: /images/content_images/sc_dom_img/robotics.svg
+        links:
+          - 
+            url: https://compas.dev/
+            label: COMPAS
+          - 
+            url: https://cityenergyanalyst.com/
+            label: City Energy Analyst
+          - 
+            url: https://nortikin.github.io/sverchok/
+            label: Sverchok
   datascience:
     intro: "NumPy está no centro de um rico ecossistema de bibliotecas de ciência de dados. Um fluxo de trabalho típico de ciência de dados exploratório pode parecer assim:"
     image1:
