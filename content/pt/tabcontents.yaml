@@ -95,7 +95,7 @@ params:
     libraries:
       - 
         title: Quantum Computing
-        alttext: A computer chip.
+        alttext: Um chip de computador.
         img: /images/content_images/sc_dom_img/quantum_computing.svg
         links:
           - 
@@ -143,10 +143,10 @@ params:
             label: python-control
           - 
             url: https://hyperspy.org/
-            label: HyperSpy
+            label: HiperSpy
       - 
-        title: Image Processing
-        alttext: An photograph of the mountains.
+        title: Processamento de imagens
+        alttext: Uma fotografia das montanhas.
         img: /images/content_images/sc_dom_img/image_processing.svg
         links:
           - 
@@ -159,8 +159,8 @@ params:
             url: https://mahotas.rtfd.io/
             label: Mahotas
       - 
-        title: Graphs and Networks
-        alttext: A simple graph.
+        title: Grafos e Redes
+        alttext: Um grafo simples.
         img: /images/content_images/sc_dom_img/sd6.svg
         links:
           - 
@@ -176,8 +176,8 @@ params:
             url: https://pygsp.rtfd.io/
             label: PyGSP
       - 
-        title: Astronomy
-        alttext: A telescope.
+        title: Astronomia
+        alttext: Um telescópio.
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
         links:
           - 
@@ -190,16 +190,16 @@ params:
             url: https://spacepy.github.io/
             label: SpacePy
       - 
-        title: Cognitive Psychology
-        alttext: A human head with gears.
+        title: Psicologia Cognitiva
+        alttext: Uma cabeça humana com engrenagens.
         img: /images/content_images/sc_dom_img/cognitive_psychology.svg
         links:
           - 
             url: https://www.psychopy.org/
             label: PsychoPy
       - 
-        title: Bioinformatics
-        alttext: A strand of DNA.
+        title: Bioinformática
+        alttext: Uma fita de DNA.
         img: /images/content_images/sc_dom_img/bioinformatics.svg
         links:
           - 
@@ -283,8 +283,8 @@ params:
             url: https://www.fatiando.org/
             label: Fatiando a Terra
       - 
-        title: Geographic Processing
-        alttext: A map.
+        title: Processamento Geográfico
+        alttext: Um mapa.
         img: /images/content_images/sc_dom_img/GIS.svg
         links:
           - 
@@ -297,7 +297,7 @@ params:
             url: https://python-visualization.github.io/folium
             label: Folium
       - 
-        title: Architecture & Engineering
+        title: Arquitetura e Engenharia
         alttext: A microprocessor development board.
         img: /images/content_images/sc_dom_img/robotics.svg
         links:
