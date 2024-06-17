@@ -13,8 +13,6 @@ width = '250'
 
 **[Faça o download do relatório](/surveys/NumPy_usersurvey_2020_report.pdf)** para ver os detalhes sobre os resultados encontrados.
 
-
 Para os destaques, confira **[este infográfico](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)**.
 
-Quer saber mais? Visite **https://numpy.org/user-survey-2020-details/**.
-
+Ready for a deep dive? Visite **https://numpy.org/user-survey-2020-details/**.
