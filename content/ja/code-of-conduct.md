@@ -5,69 +5,69 @@ aliases:
   - /ja/conduct/
 ---
 
-### はじめに
+### Introduction
 
-この行動規範は、NumPy プロジェクトによって管理されるすべての場所で適用されます。 この場所とは、すべてのパブリックおよびプライベートのメーリングリスト、イシュートラッカー、Wiki、ブログ、Twitter、コミュニティで使用されているその他の通信チャンネルなどを含みます。 NumPy プロジェクトでは対面でのイベントは開催していません。 しかし、我々のコミュニティに関連するものであれば、対面のイベントでも同様の行動規範を持つ必要があります。
+This Code of Conduct applies to all spaces managed by the NumPy project, including all public and private mailing lists, issue trackers, wikis, blogs, Twitter, and any other communication channel used by our community. The NumPy project does not organise in-person events, however events related to our community should have a code of conduct similar in spirit to this one.
 
 この行動規範は、NumPy コミュニティに正式または非公式に参加するすべての人が順守する必要があります。 その他にも、NumPyとの提携・関連するプロジェクト活動においては、特にそれらのプロジェクトを代表する場合、同様の行動規範に従う必要があります。
 
-この行動規範は完全ではありません。 しかし、行動規範は我々が理解すべき、互いの協力の仕方や、共通の場所のあるべき姿、我々のゴールなどをまとめるのに重要な役目を果たします。 フレンドリーで生産的な環境を生み出し、周囲のコミュニティにより良い影響を与えるため、ぜひこの行動規範に従ってください。
+This code is not exhaustive or complete. It serves to distill our common understanding of a collaborative, shared environment and goals. Please try to follow this code in spirit as much as in letter, to create a friendly and productive environment that enriches the surrounding community.
 
 ### ガイドラインの概要
 
-私たちは下記の内容に真摯に取り組みます。
+We strive to:
 
-1. 開けたコミュニティにしましょう。 私たちは、誰でもコミュニティに参加できるようにします。 私たちは、公にすべきではない内容を議論する場合以外、プロジェクトに関連するメッセージを公の場で告知することを選びます。 これは、NumPyに関するヘルプやプロジェクトサポートにも適用されます。公式なサポートだけでなく、NumPyに関する質問に答える場合もです。 これにより、質問に答えた際の意図しない間違いを、より簡単に検出し、訂正できるようになります。
-2. 共感し、歓迎し、友好的で、そして我慢強くありましょう。 私たちは互いに争いを解決し合い、互いの善意を信じ合います。 私たちは時折り不満を感じるかもしれません。 しかしそのような場合も、不満を個人的な攻撃に変えることは許容されません。 人々が不快や脅威を感じるコミュニティは、生産的ではないからです。
-3. 互いに協力し合おう。 私たちの開発成果は他の人々によって利用され、一方で、たちは他の人々の開発成果に依存しているのです。 私たちがプロジェクトために何かを作るとき、私たちはそれがどのように動作するかを他の人に説明する必要があります。 しかし、この作業により、より良いものを作り上げることができるのです。 私たちが下す全ての決断は、ユーザと開発コミュニティに影響を与えうるし、その決断がもたらす結果を私たちは真摯に受け止めます。
-4. 好奇心を大事にしよう。 全てを知っている人はいないのです！ 早め早めに質問をすることで、後に生じうる多くの問題を回避できます。 そのため私たちは質問を奨励しています。 私たちは、出来るだけ質問に良く対応し、手助けできるよう努力します。
-5. 使う言葉に注意しましょう。 私たちは、コミュニティにおけるコミュニケーションに注意と敬意を払います。 そして、私たちは自分の言葉に責任を持ちます。 他人に優しくしましょう。 他のコミュニティの参加者を侮辱しないでください。 私たちは、以下のようなハラスメントやその他の排斥行為を許しません。 :
-    * 他の人に向けられた暴力的な行為や言葉。
-    * 性差別や人種差別、その他の差別的なジョークや言動。
-    * 性的または暴力的な内容の投稿。
-    * 他のユーザーの個人情報を投稿すること。 (または投稿すると脅すこと)。
-    * 公開目的のない電子メールや、ICRチャットのようなログの残らないフォーラムの履歴など、プライベートなコンテンツを送信者の同意なしに共有すること。
-    * 個人的な侮辱, 特に人種差別や性差別的な用語を使用して侮辱すること。
-    * 不快な思いをさせる性的な言動。
-    * 過度に粗暴に振る舞うこと。 ひどいな言葉を使うのを避けてください。 人々は怒りを覚える感度が、それぞれ大きく異なります。
-    * 他人に対するハラスメントの繰り返し。 一般的に、誰かがあなたにある言動を止めるように要求した場合、その言動をやめて下さい。
-    * 上記のいずれかの行動を擁護すること、または奨励すること。
+1. Be open. We invite anyone to participate in our community. We prefer to use public methods of communication for project-related messages, unless discussing something sensitive. This applies to messages for help or project-related support, too; not only is a public support request much more likely to result in an answer to a question, it also ensures that any inadvertent mistakes in answering are more easily detected and corrected.
+2. Be empathetic, welcoming, friendly, and patient. We work together to resolve conflict, and assume good intentions. We may all experience some frustration from time to time, but we do not allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.
+3. Be collaborative. Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of the project, we are willing to explain to others how it works, so that they can build on the work to make it even better. Any decision we make will affect users and colleagues, and we take those consequences seriously when making decisions.
+4. Be inquisitive. 好奇心を大事にしよう。 全てを知っている人はいないのです！ 早め早めに質問をすることで、後に生じうる多くの問題を回避できます。 そのため私たちは質問を奨励しています。 私たちは、出来るだけ質問に良く対応し、手助けできるよう努力します。 Asking questions early avoids many problems later, so we encourage questions, although we may direct them to the appropriate forum. We will try hard to be responsive and helpful.
+5. Be careful in the words that we choose. We are careful and respectful in our communication, and we take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. We will not accept harassment or other exclusionary behaviour, such as:
+   - 他の人に向けられた暴力的な行為や言葉。
+   - 性差別や人種差別、その他の差別的なジョークや言動。
+   - 性的または暴力的な内容の投稿。
+   - 他のユーザーの個人情報を投稿すること。 (または投稿すると脅すこと)。
+   - 公開目的のない電子メールや、ICRチャットのようなログの残らないフォーラムの履歴など、プライベートなコンテンツを送信者の同意なしに共有すること。
+   - 個人的な侮辱, 特に人種差別や性差別的な用語を使用して侮辱すること。
+   - Unwelcome sexual attention.
+   - Excessive profanity. Please avoid swearwords; people differ greatly in their sensitivity to swearing.
+   - Repeated harassment of others. In general, if someone asks you to stop, then stop.
+   - 上記のいずれかの行動を擁護すること、または奨励すること。
 
 ### 多様性に関する声明
 
-NumPyプロジェクトは、全ての人々の参加を歓迎しています。 私たちは、誰もがコミュニティの一員であることを楽しめるように尽力します。 全ての人の好みを満足はさせられないかもしれませんが、全員に対し出来るだけ親切な対応ができるよう最善を尽くします。
+NumPyプロジェクトは、全ての人々の参加を歓迎しています。 私たちは、誰もがコミュニティの一員であることを楽しめるように尽力します。 全ての人の好みを満足はさせられないかもしれませんが、全員に対し出来るだけ親切な対応ができるよう最善を尽くします。 We are committed to being a community that everyone enjoys being part of. Although we may not always be able to accommodate each individual’s preferences, we try our best to treat everyone kindly.
 
-あなたの自己認識や、他者のあなたへの認識は関係ありません。 私たちはあなたを歓迎します。 民族、遺伝、性同一性あるいは関連する表現、言語、国籍、神経学的な差異、生物学的な差異、 政治的信条、職業、人種、宗教、性的指向、社会経済的地位、文化的な差異、技術的な能力。
+No matter how you identify yourself or how others perceive you: we welcome you. Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct.
 
 私たちはすべての種類の言語言語話者の参加を歓迎しますが、NumPy 開発は英語で行われます。
 
-NumPy コミュニティの標準的なルールは、上記の行動規範で説明されています。 NumPyコミュニティの参加者は、これらの行動基準をすべてのコミュニケーションにおいて順守し、他の人々にも同様な行動をすることを推奨すべきです (次のセクションを参照)。
+Standards for behaviour in the NumPy community are detailed in the Code of Conduct above. Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
 
 ### 報告ガイドライン
 
-私たちは、インターネット上でのやりとりが簡単にひどい誹謗中傷に陥ってしまうことを、痛いほど知っています. 私たちはまた、嫌な日を過ごしてむしゃくしゃしている人や、行動規範ガイドラインの項目を見落としている人がいることも知っています。 行動規範の違反にどのように対処するかを決定する際には、このことを心に留めておく必要があります。
+私たちは、インターネット上でのやりとりが簡単にひどい誹謗中傷に陥ってしまうことを、痛いほど知っています. 私たちはまた、嫌な日を過ごしてむしゃくしゃしている人や、行動規範ガイドラインの項目を見落としている人がいることも知っています。 行動規範の違反にどのように対処するかを決定する際には、このことを心に留めておく必要があります。 Please keep this in mind when deciding on how to respond to a breach of this Code.
 
-意図的な行動規範違反については、行動規範委員会に報告してください (下記参照)。 もし、違反が意図的でない可能性がある場合、その人にこの行動規範の存在を知らせることも可能です (パブリックでもプライベートでも、適切な方法で)。 もし直接指摘したくない場合は、ぜひ、行動規範委員会に直接連絡するか、違反の確度について助言を求めて下さい。
+For clearly intentional breaches, report those to the Code of Conduct Committee (see below). For possibly unintentional breaches, you may reply to the person and point out this code of conduct (either in public or in private, whatever is most appropriate). If you would prefer not to do that, please feel free to report to the Code of Conduct Committee directly, or ask the Committee for advice, in confidence.
 
 NumPy行動規範委員会に問題を報告する場合は、こちらにご連絡下さい: numpy-conduct@googlegroups.com。
 
 現在、行動規範委員会は以下のメンバーで構成されています:
 
-* Stefan van der Walt
-* Melissa Weber Mendonça
-* Rohit Goswami
+- Stefan van der Walt
+- Melissa Weber Mendonça
+- Rohit Goswami
 
-もしあなたの違反報告に委員会のメンバーが含まれている場合, または彼らがそれを処理する上で利益相反をしていると感じる場合、そのメンバーはあなたの報告を評価する立場からは辞退してもらいます。 もしくは、行動規範委員会に報告するのが躊躇われる場合は、こちらからNumFOCUSのシニアスタッフに連絡することも可能です:[conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible) 。
+If your report involves any members of the Committee, or if they feel they have a conflict of interest in handling it, then they will recuse themselves from considering your report. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
 ### インシデント報告の解決 & 行動規範の実施
 
 本節では、_最も重要な点のみをまとめます。 _詳細については、[NumPy Code of Conduct - How to follow up on a report](report-handling-manual) をご覧ください。
 
-私たちはすべての訴えを調査し、対応するようにします。 NumPy行動規範委員会およびNumPy運営委員会(もし関係する場合) は、報告者の身元を保護します。 また(報告者が同意しない限り) 苦情の内容を機密として扱うこととします。
+We will investigate and respond to all complaints. The NumPy Code of Conduct Committee and the NumPy Steering Committee (if involved) will protect the identity of the reporter, and treat the content of complaints as confidential (unless the reporter agrees otherwise).
 
-もし深刻で明らかな違反の場合、例えば、 個人的な脅し、または暴力的、性差別的または人種差別的な発言などの場合、我々は直ちにNumPyのコミュニケーションの場から発言者を退場させます。詳細についてはマニュアルを参照してください。
+In case of severe and obvious breaches, e.g. personal threat or violent, sexist or racist language, we will immediately disconnect the originator from NumPy communication channels; please see the manual for details.
 
-もし、行動規範に対して明白な違反がみられない場合、受領された行動規範違反報告に対するプロセスは以下の通りです。
+In cases not involving clear severe and obvious breaches of this Code of Conduct the process for acting on any received Code of Conduct violation report will be:
 
 1. 報告書の受領を確認
 2. 建設的な議論/フィードバック
@@ -76,7 +76,7 @@ NumPy行動規範委員会に問題を報告する場合は、こちらにご連
 
 行動規範委員会は、可能な限り速やかに対応し、最大で72時間以内に対応する様にします。
 
-### 文末脚注:
+### Endnotes
 
 私たちは下記のドキュメントを作成したグループに感謝します。 内容・発想ともに大いに影響されています。
 
