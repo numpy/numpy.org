@@ -7,10 +7,9 @@ NumPy é um projeto de código aberto que visa possibilitar a computação numé
 
 O NumPy é desenvolvido no GitHub, através do consenso da comunidade NumPy e de uma comunidade mais ampla de Python científico. Para obter mais informações sobre nossa abordagem de governança, por favor, consulte nosso [Documento de Governança](https://www.numpy.org/devdocs/dev/governance/index.html).
 
-
 ## Conselho Diretor (Steering Council)
 
-O papel do Conselho Diretor do NumPy consiste em assegurar o bem-estar a longo prazo do projeto, tanto nos aspectos técnicos quanto na comunidade. Isso é feito através do trabalho com e para a comunidade NumPy em geral. O Conselho Diretor do NumPy atualmente consiste dos seguintes membros (em ordem alfabética, pelo sobrenome):
+The NumPy Steering Council is the project's governing body. O papel do Conselho Diretor do NumPy consiste em assegurar o bem-estar a longo prazo do projeto, tanto nos aspectos técnicos quanto na comunidade. O Conselho Diretor do NumPy atualmente consiste dos seguintes membros (em ordem alfabética, pelo sobrenome):
 
 - Sebastian Berg
 - Ralf Gommers
@@ -22,7 +21,7 @@ O papel do Conselho Diretor do NumPy consiste em assegurar o bem-estar a longo p
 - Melissa Weber Mendonça
 - Eric Wieser
 
-Membros Eméritos:
+Emeritus:
 
 - Alex Griffing (2015-2017)
 - Allan Haldane (2015-2021)
@@ -35,7 +34,7 @@ Membros Eméritos:
 
 Para entrar em contato com o conselho diretor do NumPy, por favor envie um email para numpy-team@googlegroups.com.
 
-## Times
+## Teams
 
 A liderança do projeto NumPy trabalha ativamente na diversificação dos caminhos possíveis para contribuições.<br> Atualmente, o NumPy conta com os seguintes times:
 
@@ -64,7 +63,6 @@ Veja a página sobre os [Times](/teams) para mais informações.
 O NumPy recebe financiamento direto das seguintes fontes:
 {{< sponsors >}}
 
-
 ## Parceiros Institucionais
 
 Os Parceiros Institucionais são organizações que apoiam o projeto, empregando pessoas que contribuem para a NumPy como parte de seu trabalho. Os parceiros institucionais atuais incluem:
@@ -74,7 +72,6 @@ Os Parceiros Institucionais são organizações que apoiam o projeto, empregando
 - NVIDIA (Sebastian Berg)
 
 {{< partners >}}
-
 
 ## Doações
 
@@ -87,4 +84,3 @@ Doações para o NumPy são gerenciadas pela [NumFOCUS](https://numfocus.org). P
 O Conselho Diretor da NumPy tomará as decisões sobre a melhor forma de utilizar os fundos recebidos. Prioridades técnicas e de infraestrutura estão documentadas no [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
 
 {{<opencollective>}}
-
