@@ -86,76 +86,230 @@ params:
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
-      - 
-        title: tensorly
-        text: Numpy、MXNet、PyTorch、TensorFlowまたはCupyをシームレスに使用するための、テンソル学習、テンソル代数、およびそれらのテンソル計算のためのバックエンド
-        img: /images/content_images/arlib/tensorly.png
-        alttext: tensorly
-        url: http://tensorly.org/stable/home.html
   scientificdomains:
     intro:
       - 
         text: Pythonを使って働くほとんどの科学者はNumPyの力を利用しています。
       - 
         text: "Numpy は、 C や Fortran のような言語の計算パフォーマンスを、Pythonにもたらします。 このパワーはNumPyのシンプルさから来ており、NumPyによるソリューションの多くは明確でエレガントになります。"
-    librariesrow1:
+    libraries:
       - 
-        title: 量子コンピューティング
-        alttext: コンピューターチップ
+        title: Quantum Computing
+        alttext: A computer chip.
         img: /images/content_images/sc_dom_img/quantum_computing.svg
+        links:
+          - 
+            url: http://qutip.org
+            label: QuTiP
+          - 
+            url: https://pyquil-docs.rigetti.com/en/stable
+            label: PyQuil
+          - 
+            url: https://qiskit.org
+            label: Qiskit
+          - 
+            url: https://pennylane.ai
+            label: PennyLane
       - 
-        title: 統計コンピューティング
-        alttext: 線グラフで、グラフが上に移動します。
+        title: Statistical Computing
+        alttext: A line graph with the line moving up.
         img: /images/content_images/sc_dom_img/statistical_computing.svg
+        links:
+          - 
+            url: https://pandas.pydata.org/
+            label: Pandas
+          - 
+            url: https://www.statsmodels.org/
+            label: statsmodels
+          - 
+            url: https://xarray.pydata.org/en/stable/
+            label: Xarray
+          - 
+            url: https://seaborn.pydata.org/
+            label: Seaborn
       - 
-        title: 信号処理
-        alttext: 正と負の値を持つ棒グラフ。
+        title: Signal Processing
+        alttext: A bar chart with positive and negative values.
         img: /images/content_images/sc_dom_img/signal_processing.svg
+        links:
+          - 
+            url: https://www.scipy.org/
+            label: SciPy
+          - 
+            url: https://pywavelets.readthedocs.io/
+            label: PyWavelets
+          - 
+            url: https://python-control.org/
+            label: python-control
+          - 
+            url: https://hyperspy.org/
+            label: HyperSpy
       - 
-        title: 画像処理
-        alttext: 山々の写真
+        title: Image Processing
+        alttext: An photograph of the mountains.
         img: /images/content_images/sc_dom_img/image_processing.svg
+        links:
+          - 
+            url: https://scikit-image.org/
+            label: Scikit-image
+          - 
+            url: https://opencv.org/
+            label: OpenCV
+          - 
+            url: https://mahotas.rtfd.io/
+            label: Mahotas
       - 
-        title: グラフとネットワーク
-        alttext: シンプルなグラフ
+        title: Graphs and Networks
+        alttext: A simple graph.
         img: /images/content_images/sc_dom_img/sd6.svg
+        links:
+          - 
+            url: https://networkx.org/
+            label: NetworkX
+          - 
+            url: https://graph-tool.skewed.de/
+            label: graph-tool
+          - 
+            url: https://igraph.org/python/
+            label: igraph
+          - 
+            url: https://pygsp.rtfd.io/
+            label: PyGSP
       - 
-        title: 天文学
-        alttext: 望遠鏡
+        title: Astronomy
+        alttext: A telescope.
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
+        links:
+          - 
+            url: https://www.astropy.org/
+            label: AstroPy
+          - 
+            url: https://sunpy.org/
+            label: SunPy
+          - 
+            url: https://spacepy.github.io/
+            label: SpacePy
       - 
-        title: 認知心理学
-        alttext: ギアをつけた人間の頭部
+        title: Cognitive Psychology
+        alttext: A human head with gears.
         img: /images/content_images/sc_dom_img/cognitive_psychology.svg
-    librariesrow2:
+        links:
+          - 
+            url: https://www.psychopy.org/
+            label: PsychoPy
       - 
-        title: 生命情報科学
-        alttext: DNAの鎖
+        title: Bioinformatics
+        alttext: A strand of DNA.
         img: /images/content_images/sc_dom_img/bioinformatics.svg
+        links:
+          - 
+            url: https://biopython.org/
+            label: BioPython
+          - 
+            url: http://scikit-bio.org/
+            label: Scikit-Bio
+          - 
+            url: https://github.com/openvax/pyensembl
+            label: PyEnsembl
+          - 
+            url: http://etetoolkit.org/
+            label: ETE
       - 
-        title: ベイズ推論
-        alttext: 鐘形の曲線のグラフ
+        title: Bayesian Inference
+        alttext: A graph with a bell-shaped curve.
         img: /images/content_images/sc_dom_img/bayesian_inference.svg
+        links:
+          - 
+            url: https://pystan.readthedocs.io/en/latest/
+            label: PyStan
+          - 
+            url: https://docs.pymc.io/
+            label: PyMC3
+          - 
+            url: https://arviz-devs.github.io/arviz/
+            label: ArviZ
+          - 
+            url: https://emcee.readthedocs.io/
+            label: emcee
       - 
-        title: 数学的分析
-        alttext: ４つの数学記号
+        title: Mathematical Analysis
+        alttext: Four mathematical symbols.
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
+        links:
+          - 
+            url: https://www.scipy.org/
+            label: SciPy
+          - 
+            url: https://www.sympy.org/
+            label: SymPy
+          - 
+            url: https://www.cvxpy.org/
+            label: cvxpy
+          - 
+            url: https://fenicsproject.org/
+            label: FEniCS
       - 
-        title: 化学
-        alttext: 試験管
+        title: Chemistry
+        alttext: A test tube.
         img: /images/content_images/sc_dom_img/chemistry.svg
+        links:
+          - 
+            url: https://cantera.org/
+            label: Cantera
+          - 
+            url: https://www.mdanalysis.org/
+            label: MDAnalysis
+          - 
+            url: https://github.com/rdkit/rdkit
+            label: RDKit
+          - 
+            url: https://www.pybamm.org/
+            label: PyBaMM
       - 
-        title: 地球科学
-        alttext: 地球
+        title: Geoscience
+        alttext: The Earth.
         img: /images/content_images/sc_dom_img/geoscience.svg
+        links:
+          - 
+            url: https://pangeo.io/
+            label: Pangeo
+          - 
+            url: https://simpeg.xyz/
+            label: Simpeg
+          - 
+            url: https://github.com/obspy/obspy/wiki
+            label: ObsPy
+          - 
+            url: https://www.fatiando.org/
+            label: Fatiando a Terra
       - 
-        title: 地理情報処理
-        alttext: 地図
+        title: Geographic Processing
+        alttext: A map.
         img: /images/content_images/sc_dom_img/GIS.svg
+        links:
+          - 
+            url: https://shapely.readthedocs.io/
+            label: Shapely
+          - 
+            url: https://geopandas.org/
+            label: GeoPandas
+          - 
+            url: https://python-visualization.github.io/folium
+            label: Folium
       - 
-        title: アーキテクチャとエンジニアリング
-        alttext: マイクロプロセッサ開発ボード
+        title: Architecture & Engineering
+        alttext: A microprocessor development board.
         img: /images/content_images/sc_dom_img/robotics.svg
+        links:
+          - 
+            url: https://compas.dev/
+            label: COMPAS
+          - 
+            url: https://cityenergyanalyst.com/
+            label: City Energy Analyst
+          - 
+            url: https://nortikin.github.io/sverchok/
+            label: Sverchok
   datascience:
     intro: "Numpy は豊富なデータサイエンスライブラリのエコシステムの中核にあります。一般的なデータサイエンスのワークフローは次のようになります。"
     image1:
