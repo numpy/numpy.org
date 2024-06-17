@@ -3,7 +3,12 @@ title: 2020年 NumPyコミュニティ調査
 sidebar: false
 ---
 
-2020年に、NumPyの調査チームは、ミシガン大学とメリーランド大学が共同で開催した、調査方法学の修士コースの学生と教員と共同で、初めて公式のNumPyコミュニティ調査を実施しました。 75カ国から1,200人以上のNumPyユーザーが参加してくれました。NumPyコミュニティの全体像を描き、プロジェクトの未来像についての意見を述べてもらいました。
+In 2020, the NumPy survey team in partnership with students and faculty from a
+Master’s course in Survey Methodology jointly hosted by the University of
+Michigan and the University of Maryland conducted the first official NumPy
+community survey. Over 1,200 users from 75 countries participated to help us
+map out a landscape of the NumPy community and voiced their thoughts about the
+future of the project.
 
 {{< figure >}}
 src = '/surveys/NumPy_usersurvey_2020_report_cover.png'
@@ -13,8 +18,6 @@ width = '250'
 
 調査結果を詳細を知りたい場合は、**[こちらのレポート](/surveys/NumPy_usersurvey_2020_report.pdf)** をダウンロードしてください。
 
-
 結果の概要については、 **[こちらの図](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)** をチェックしてください。
 
-より詳細が知りたくなりましたか？ **https://numpy.org/user-survey-2020-details/** をご覧ください。
-
+Ready for a deep dive? より詳細が知りたくなりましたか？ **https://numpy.org/user-survey-2020-details/** をご覧ください。
