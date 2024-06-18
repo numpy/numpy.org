@@ -1,7 +1,7 @@
 ---
 title: News
 sidebar: false
-newsHeader: "NumPy 2.0 release date: June 16"
+newsHeader: "NumPy 2.0 released!"
 date: 2024-05-23
 ---
 
