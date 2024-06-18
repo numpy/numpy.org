@@ -1,11 +1,29 @@
 ---
 title: ニュース
 sidebar: false
-newsHeader: NumPy 1.26.0 がリリースされました。
-date: 2024-05-23
+newsHeader: NumPy 2.0 released!
+date: 2024-06-17
 ---
 
 ### NumPy 1.19.2 リリース
+
+_16 Jun, 2024_ -- NumPy 2.0.0 is the first major release since 2006. It is the
+result of 11 months of development since the last feature release and is the
+work of 212 contributors spread over 1078 pull requests. It contains a large
+number of exciting new features as well as changes to both the Python and C
+APIs.  It includes breaking changes that could not happen in a regular minor
+release - including an ABI break, changes to type promotion rules, and API
+changes which may not have been emitting deprecation warnings in 1.26.x. Key
+documents related to how to adapt to changes in NumPy 2.0 include:
+
+- The [NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- Numpy 1.25.
+- 多くの新しい非推奨(Deprecation)の追加
+
+The blog post ["NumPy 2.0: an evolutionary milestone"](https://blog.scientific-python.org/numpy/numpy2/)
+tells a bit of the story about how this release came together.
+
+### NumPy 1.26.0 がリリースされました。
 
 _23 May, 2024_ -- We are excited to announce that NumPy 2.0 is planned to be
 released on June 16, 2024. This release has been over a year in the making, and
@@ -16,8 +34,8 @@ end user code needs to be adapted - if you can, please verify whether your code
 works with NumPy `2.0.0rc2`. **Please see the following for more details:**
 
 - The [NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
-- Numpy 1.25.
-- 多くの新しい非推奨(Deprecation)の追加
+- The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
 ### NumFOCUS end of the year fundraiser
 
@@ -314,6 +332,7 @@ More details on our proposed initiatives and deliverables can be found in the [f
 
 Here is a list of NumPy releases, with links to release notes. こちらは、より以前のNumPyリリースのリストで、各リリースノートへのリンクが記載されています。 全てのバグフィックスリリース(バージョン番号`x.y.z` の`z`だけが変更されたもの)は新しい機能追加はされず、マイナーリリース (`y` が増えたもの)は、新しい機能追加されています。
 
+- NumPy 2.0.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.0.0)) -- _16 Jun 2024_.
 - NumPy 1.21.6 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.21.6)) -- _2022年4月12日_.
 - _2021年7月12日_ -- NumPy ではコミュニティの力を信じています。 昨年の第1回アンケートには、75カ国から1,236名のNumPyユーザーが参加してくれました。 この調査結果により、今後12ヶ月間、私たちがどのようなことに集中すべきかを、非常に良く理解することができました。
 - NumPy 1.26.2 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.26.2)) -- _2023年11月12日_.
