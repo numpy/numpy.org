@@ -51,3 +51,12 @@ languages:
     include-files:
       - content/ja/config.yaml
       - content/ja/tabcontents.yaml
+
+  # Korean
+  ko:
+    title: NumPy
+    weight: 3
+    contentDir: content/ko
+    include-files:
+      - content/ko/config.yaml
+      - content/ko/tabcontents.yaml
