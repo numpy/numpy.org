@@ -1,6 +1,6 @@
-languageName: English
+languageName: Inglés
 params:
-  description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
+  description: '¿Por qué NumPy? Potentes matrices n-dimensionales. Herramientas de cálculo numérico. Interoperable. Rendimiento. Código abierto.'
   navbarlogo:
     image: logo.svg
     text: NumPy
@@ -9,71 +9,71 @@ params:
     #Main hero title
     title: NumPy
     #Hero subtitle (optional)
-    subtitle: The fundamental package for scientific computing with Python
+    subtitle: El paquete fundamental para la computación científica con Python
     #Button text
-    buttontext: "Latest release: NumPy 2.0. View all releases"
+    buttontext: "Última versión: NumPy 1.25. Ver todas las versiones"
     #Where the main hero button links to
     buttonlink: "/news/#releases"
     #Hero image (from static/images/___)
     image: logo.svg
   shell:
-    title: placeholder
+    title: marcador
     intro:
       - 
-        title: Try NumPy
-        text: Use the interactive shell to try NumPy in the browser
-    docslink: Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a>.
+        title: Prueba NumPy
+        text: Utilice el terminal interactivo para probar NumPy en el navegador
+    docslink: No olvides echarle un ojo a la <a href="https://numpy.org/doc/stable" target="_blank">documentación</a>.
   casestudies:
-    title: CASE STUDIES
+    title: CASOS DE ESTUDIO
     features:
       - 
-        title: First Image of a Black Hole
-        text: How NumPy, together with libraries like SciPy and Matplotlib that depend on NumPy, enabled the Event Horizon Telescope to produce the first ever image of a black hole
+        title: Primera imagen de un Agujero Negro
+        text: Cómo NumPy, junto con bibliotecas como SciPy y Matplotlib que dependen de NumPy, permitió al Event Horizon Telescope producir la primera imagen de un agujero negro
         img: /images/content_images/case_studies/blackhole.png
-        alttext: First image of a black hole. It is an orange circle in a black background.
+        alttext: Primera imagen de un agujero negro. Es un círculo anaranjado con fondo negro.
         url: /case-studies/blackhole-image
       - 
-        title: Detection of Gravitational Waves
-        text: In 1916, Albert Einstein predicted gravitational waves; 100 years later their existence was confirmed by LIGO scientists using NumPy.
+        title: Detección de Ondas Gravitacionales
+        text: En 1916 Albert Einstein predijo las ondas gravitacionales; 100 años después se confirmó su existencia por científicos del LIGO, utilizando NumPy.
         img: /images/content_images/case_studies/gravitional.png
-        alttext: Two orbs orbiting each other. They are displacing gravity around them.
+        alttext: Dos cuerpos orbitándose mutuamente. Estos desplazan la gravedad a su alrededor.
         url: /case-studies/gw-discov
       - 
-        title: Sports Analytics
-        text: Cricket Analytics is changing the game by improving player and team performance through statistical modelling and predictive analytics. NumPy enables many of these analyses.
+        title: Analíticas Deportivas
+        text: El uso de Analíticas está cambiando al Cricket, al mejorar el rendimiento de los jugadores y equipos, mediante modelos estadísticos y análisis predictivos. NumPy permite realizar muchos de estos análisis.
         img: /images/content_images/case_studies/sports.jpg
-        alttext: Cricket ball on green field.
+        alttext: Bola de Cricket sobre un campo verde.
         url: /case-studies/cricket-analytics
       - 
-        title: Pose Estimation using deep learning
-        text: DeepLabCut uses NumPy for accelerating scientific studies that involve observing animal behavior for better understanding of motor control, across species and timescales.
+        title: Estimación de la pose mediante aprendizaje profundo
+        text: DeepLabCut utiliza NumPy para acelerar estudios científicos que implican la observación del comportamiento animal para una mejor comprensión del control motriz, a través de especies y escalas de tiempo.
         img: /images/content_images/case_studies/deeplabcut.png
-        alttext: Cheetah pose analysis
+        alttext: Análisis de la pose de un Guepardo
         url: /case-studies/deeplabcut-dnn
   tabs:
-    title: ECOSYSTEM
+    title: ECOSISTEMA
   section5: false
   navbar:
     - 
-      title: Install
+      title: Instalar
       url: /install
     - 
-      title: Documentation
+      title: Documentación
       url: https://numpy.org/doc/stable
     - 
-      title: Learn
+      title: Aprende
       url: /learn
     - 
-      title: Community
+      title: Comunidad
       url: /community
     - 
-      title: About Us
+      title: Acerca de nosotros
       url: /about
     - 
-      title: News
+      title: Noticias
       url: /news
     - 
-      title: Contribute
+      title: Contribuye
       url: /contribute
   footer:
     logo: logo.svg
@@ -93,48 +93,48 @@ params:
         title: ""
         links:
           - 
-            text: Install
+            text: Instalar
             link: /install
           - 
-            text: Documentation
+            text: Documentación
             link: https://numpy.org/doc/stable
           - 
-            text: Learn
+            text: Aprende
             link: /learn
           - 
-            text: Citing Numpy
+            text: Citando a NumPy
             link: /citing-numpy
           - 
-            text: Roadmap
+            text: Mapa de ruta
             link: https://numpy.org/neps/roadmap.html
       column2:
         links:
           - 
-            text: About us
+            text: Acerca de nosotros
             link: /about
           - 
-            text: Community
+            text: Comunidad
             link: /community
           - 
-            text: User surveys
+            text: Encuestas a usuarios
             link: /user-surveys
           - 
-            text: Contribute
+            text: Contribuye
             link: /contribute
           - 
-            text: Code of conduct
+            text: Código de Conducta
             link: /code-of-conduct
       column3:
         links:
           - 
-            text: Get help
+            text: Buscar ayuda
             link: /gethelp
           - 
-            text: Terms of use
+            text: Términos de uso
             link: /terms
           - 
-            text: Privacy
+            text: Confidencialidad
             link: /privacy
           - 
-            text: Press kit
+            text: Kit de prensa
             link: /press-kit
