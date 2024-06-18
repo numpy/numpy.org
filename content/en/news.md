@@ -2,7 +2,7 @@
 title: News
 sidebar: false
 newsHeader: "NumPy 2.0 released!"
-date: 2024-05-23
+date: 2024-06-17
 ---
 
 ### NumPy 2.0.0 released
