@@ -20,6 +20,9 @@ documents related to how to adapt to changes in NumPy 2.0 include:
 - The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
 - Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
+The blog post ["NumPy 2.0: an evolutionary milestone"](https://blog.scientific-python.org/numpy/numpy2/)
+tells a bit of the story about how this release came together.
+
 
 ### NumPy 2.0 release date: June 16
 
