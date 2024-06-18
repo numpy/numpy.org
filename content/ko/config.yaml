@@ -1,80 +1,80 @@
-languageName: English
+languageName: 한국어
 params:
-  description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
+  description: 왜 NumPy인가? 강력한 n차원 배열. 수치 컴퓨팅 도구. 상호운용성. 고성능. 오픈소스.
   navbarlogo:
     image: logo.svg
     text: NumPy
-    link: /
+    link: /ko/
   hero:
     #Main hero title
     title: NumPy
     #Hero subtitle (optional)
-    subtitle: The fundamental package for scientific computing with Python
+    subtitle: Python으로 과학적 컴퓨팅을 하기 위한 기초 패키지
     #Button text
-    buttontext: "Latest release: NumPy 2.0. View all releases"
+    buttontext: "최신 릴리: NumPy 1.26. 모든 릴리즈 보기"
     #Where the main hero button links to
-    buttonlink: "/news/#releases"
+    buttonlink: "/ko/news/#releases"
     #Hero image (from static/images/___)
     image: logo.svg
   shell:
-    title: placeholder
+    title: 자리 표시자
     intro:
       - 
-        title: Try NumPy
-        text: Use the interactive shell to try NumPy in the browser
-    docslink: Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a>.
+        title: NumPy 써 보기
+        text: 대화형 셸을 이용해 브라우저에서 NumPy를 사용해보세요
+    docslink: <a href="https://numpy.org/doc/stable" target="_blank">문서</a>도 한 번 열람해보세요.
   casestudies:
-    title: CASE STUDIES
+    title: 사례 연구
     features:
       - 
-        title: First Image of a Black Hole
-        text: How NumPy, together with libraries like SciPy and Matplotlib that depend on NumPy, enabled the Event Horizon Telescope to produce the first ever image of a black hole
+        title: 최초의 블랙홀 사진
+        text: NumPy 및 NumPy에 의존하는 SciPy, Matplotlib와 같은 라이브러리가 사건의 지평선 망원경으로 최초의 블랙홀 사진을 생성할 수 있었던 방법
         img: /images/content_images/case_studies/blackhole.png
-        alttext: First image of a black hole. It is an orange circle in a black background.
+        alttext: 최초의 블랙홀 사진. 검은 배경의 주황색 원입니다.
         url: /case-studies/blackhole-image
       - 
-        title: Detection of Gravitational Waves
-        text: In 1916, Albert Einstein predicted gravitational waves; 100 years later their existence was confirmed by LIGO scientists using NumPy.
+        title: 중력파 검출
+        text: 1916년, 알베르트 아인슈타인이 중력파를 예측했습니다. LIGO 과학자들이 NumPy를 이용하여 이것이 존재함을 증명하기 100년 전이었습니다.
         img: /images/content_images/case_studies/gravitional.png
-        alttext: Two orbs orbiting each other. They are displacing gravity around them.
+        alttext: 서로의 궤도를 도는 두 구체. 주위의 중력을 변화시키고 있습니다.
         url: /case-studies/gw-discov
       - 
-        title: Sports Analytics
-        text: Cricket Analytics is changing the game by improving player and team performance through statistical modelling and predictive analytics. NumPy enables many of these analyses.
+        title: 스포츠 분석
+        text: 크리켓 분석은 통계적 모델링과 예측 분석을 통해 선수와 팀의 성과를 개선하여 게임을 바꾸고 있습니다. NumPy는 이런 많은 분석을 가능하게 합니다.
         img: /images/content_images/case_studies/sports.jpg
-        alttext: Cricket ball on green field.
-        url: /case-studies/cricket-analytics
+        alttext: 크리켓 공이 녹지 위에 있습니다.
+        url: /ko/case-studies/cricket-analytics
       - 
-        title: Pose Estimation using deep learning
-        text: DeepLabCut uses NumPy for accelerating scientific studies that involve observing animal behavior for better understanding of motor control, across species and timescales.
+        title: 딥러닝을 통한 자세 추정
+        text: DeepLabCut은 동물의 행동을 관찰하는 과학 연구의 속도를 개선하기 위해, NumPy를 사용하여 종이나 시간에 따른 운동 제어 방식을 잘 이해할 수 있도록 하였습니다.
         img: /images/content_images/case_studies/deeplabcut.png
-        alttext: Cheetah pose analysis
-        url: /case-studies/deeplabcut-dnn
+        alttext: 치타 자세 분석
+        url: /ko/case-studies/deeplabcut-dnn
   tabs:
-    title: ECOSYSTEM
+    title: 생태계
   section5: false
   navbar:
     - 
-      title: Install
-      url: /install
+      title: 설치
+      url: /ko/install
     - 
-      title: Documentation
+      title: 문서
       url: https://numpy.org/doc/stable
     - 
-      title: Learn
-      url: /learn
+      title: 배움
+      url: /ko/learn
     - 
-      title: Community
-      url: /community
+      title: 커뮤니티
+      url: /ko/community
     - 
-      title: About Us
-      url: /about
+      title: NumPy 정보
+      url: /ko/about
     - 
-      title: News
-      url: /news
+      title: 소식
+      url: /ko/news
     - 
-      title: Contribute
-      url: /contribute
+      title: 기여
+      url: /ko/contribute
   footer:
     logo: logo.svg
     socialmediatitle: ""
@@ -93,48 +93,48 @@ params:
         title: ""
         links:
           - 
-            text: Install
-            link: /install
+            text: 설치
+            link: /ko/install
           - 
-            text: Documentation
+            text: 문서
             link: https://numpy.org/doc/stable
           - 
-            text: Learn
-            link: /learn
+            text: 배움
+            link: /ko/learn
           - 
-            text: Citing Numpy
-            link: /citing-numpy
+            text: Numpy 인용
+            link: /ko/citing-numpy
           - 
-            text: Roadmap
+            text: 로드맵
             link: https://numpy.org/neps/roadmap.html
       column2:
         links:
           - 
-            text: About us
-            link: /about
+            text: 정보
+            link: /ko/about
           - 
-            text: Community
-            link: /community
+            text: 커뮤니티
+            link: /ko/community
           - 
-            text: User surveys
-            link: /user-surveys
+            text: 사용자 설문조사
+            link: /ko/user-surveys
           - 
-            text: Contribute
-            link: /contribute
+            text: 기여
+            link: /ko/contribute
           - 
-            text: Code of conduct
-            link: /code-of-conduct
+            text: 이용약관
+            link: /ko/code-of-conduct
       column3:
         links:
           - 
-            text: Get help
-            link: /gethelp
+            text: 도움받기
+            link: /ko/gethelp
           - 
-            text: Terms of use
-            link: /terms
+            text: 이용약관
+            link: /ko/terms
           - 
-            text: Privacy
-            link: /privacy
+            text: 개인정보처리방침
+            link: /ko/privacy
           - 
-            text: Press kit
-            link: /press-kit
+            text: 홍보 자료
+            link: /ko/press-kit
