@@ -75,7 +75,7 @@ params:
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
       - 
-        title: Awkward
+        title: XND
         text: Numpy のような イディオムを使って JSON のようなデータを操作するライブラリ
         img: /images/content_images/arlib/xnd.png
         alttext: awkward
@@ -86,76 +86,230 @@ params:
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
-      - 
-        title: tensorly
-        text: Numpy、MXNet、PyTorch、TensorFlowまたはCupyをシームレスに使用するための、テンソル学習、テンソル代数、およびそれらのテンソル計算のためのバックエンド
-        img: /images/content_images/arlib/tensorly.png
-        alttext: tensorly
-        url: http://tensorly.org/stable/home.html
   scientificdomains:
     intro:
       - 
         text: Pythonを使って働くほとんどの科学者はNumPyの力を利用しています。
       - 
         text: "Numpy は、 C や Fortran のような言語の計算パフォーマンスを、Pythonにもたらします。 このパワーはNumPyのシンプルさから来ており、NumPyによるソリューションの多くは明確でエレガントになります。"
-    librariesrow1:
+    libraries:
       - 
         title: 量子コンピューティング
         alttext: コンピューターチップ
         img: /images/content_images/sc_dom_img/quantum_computing.svg
+        links:
+          - 
+            url: http://qutip.org
+            label: QuTiP
+          - 
+            url: https://pyquil-docs.rigetti.com/en/stable
+            label: PyQuil
+          - 
+            url: https://qiskit.org
+            label: Qiskit
+          - 
+            url: https://pennylane.ai
+            label: PennyLane
       - 
         title: 統計コンピューティング
-        alttext: 線グラフで、グラフが上に移動します。
+        alttext: 線グラフが上に移動します。
         img: /images/content_images/sc_dom_img/statistical_computing.svg
+        links:
+          - 
+            url: https://pandas.pydata.org/
+            label: Pandas
+          - 
+            url: https://github.com/statsmodels/statsmodels
+            label: statsmodels
+          - 
+            url: https://xarray.pydata.org/en/stable/
+            label: Xarray
+          - 
+            url: https://github.com/mwaskom/seaborn
+            label: Seaborn
       - 
         title: 信号処理
         alttext: 正と負の値を持つ棒グラフ。
         img: /images/content_images/sc_dom_img/signal_processing.svg
+        links:
+          - 
+            url: https://www.scipy.org/
+            label: SciPy
+          - 
+            url: https://pywavelets.readthedocs.io/
+            label: PyWavelets
+          - 
+            url: https://python-control.org/
+            label: python-control
+          - 
+            url: https://hyperspy.org/
+            label: HyperSpy
       - 
         title: 画像処理
         alttext: 山々の写真
         img: /images/content_images/sc_dom_img/image_processing.svg
+        links:
+          - 
+            url: https://scikit-image.org/
+            label: Scikit-image
+          - 
+            url: https://opencv.org/
+            label: OpenCV
+          - 
+            url: https://mahotas.rtfd.io/
+            label: Mahotas
       - 
         title: グラフとネットワーク
         alttext: シンプルなグラフ
         img: /images/content_images/sc_dom_img/sd6.svg
+        links:
+          - 
+            url: https://networkx.org/
+            label: NetworkX
+          - 
+            url: https://graph-tool.skewed.de/
+            label: graph-tool
+          - 
+            url: https://igraph.org/python/
+            label: igraph
+          - 
+            url: https://pygsp.rtfd.io/
+            label: PyGSP
       - 
         title: 天文学
         alttext: 望遠鏡
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
+        links:
+          - 
+            url: https://www.astropy.org/
+            label: AstroPy
+          - 
+            url: https://github.com/sunpy/sunpy
+            label: SunPy
+          - 
+            url: https://github.com/spacepy/spacepy
+            label: SpacePy
       - 
         title: 認知心理学
         alttext: ギアをつけた人間の頭部
         img: /images/content_images/sc_dom_img/cognitive_psychology.svg
-    librariesrow2:
+        links:
+          - 
+            url: https://www.psychopy.org/
+            label: PsychoPy
       - 
         title: 生命情報科学
         alttext: DNAの鎖
         img: /images/content_images/sc_dom_img/bioinformatics.svg
+        links:
+          - 
+            url: https://biopython.org/
+            label: BioPython
+          - 
+            url: http://scikit-bio.org/
+            label: Scikit-Bio
+          - 
+            url: https://github.com/openvax/pyensembl
+            label: PyEnsembl
+          - 
+            url: http://etetoolkit.org/
+            label: ETE
       - 
         title: ベイズ推論
         alttext: 鐘形の曲線のグラフ
         img: /images/content_images/sc_dom_img/bayesian_inference.svg
+        links:
+          - 
+            url: https://pystan.readthedocs.io/en/latest/
+            label: PyStan
+          - 
+            url: https://docs.pymc.io/
+            label: PyMC3
+          - 
+            url: https://arviz-devs.github.io/arviz/
+            label: ArviZ
+          - 
+            url: https://emcee.readthedocs.io/
+            label: emcee
       - 
         title: 数学的分析
         alttext: ４つの数学記号
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
+        links:
+          - 
+            url: https://www.scipy.org/
+            label: SciPy
+          - 
+            url: https://www.sympy.org/
+            label: SymPy
+          - 
+            url: https://github.com/cvxgrp/cvxpy
+            label: cvxpy
+          - 
+            url: https://fenicsproject.org/
+            label: FEniCS
       - 
         title: 化学
         alttext: 試験管
         img: /images/content_images/sc_dom_img/chemistry.svg
+        links:
+          - 
+            url: https://cantera.org/
+            label: Cantera
+          - 
+            url: https://www.mdanalysis.org/
+            label: MDAnalysis
+          - 
+            url: https://github.com/rdkit/rdkit
+            label: RDKit
+          - 
+            url: https://www.pybamm.org/
+            label: PyBaMM
       - 
         title: 地球科学
         alttext: 地球
         img: /images/content_images/sc_dom_img/geoscience.svg
+        links:
+          - 
+            url: https://pangeo.io/
+            label: Pangeo
+          - 
+            url: https://simpeg.xyz/
+            label: Simpeg
+          - 
+            url: https://github.com/obspy/obspy/wiki
+            label: ObsPy
+          - 
+            url: https://www.fatiando.org/
+            label: Fatiando a Terra
       - 
         title: 地理情報処理
         alttext: 地図
         img: /images/content_images/sc_dom_img/GIS.svg
+        links:
+          - 
+            url: https://shapely.readthedocs.io/
+            label: Shapely
+          - 
+            url: https://geopandas.org/
+            label: GeoPandas
+          - 
+            url: https://python-visualization.github.io/folium
+            label: Folium
       - 
         title: アーキテクチャとエンジニアリング
         alttext: マイクロプロセッサ開発ボード
         img: /images/content_images/sc_dom_img/robotics.svg
+        links:
+          - 
+            url: https://compas.dev/
+            label: COMPAS
+          - 
+            url: https://cityenergyanalyst.com/
+            label: 都市エネルギー分析
+          - 
+            url: https://nortikin.github.io/sverchok/
+            label: Sverchok
   datascience:
     intro: "Numpy は豊富なデータサイエンスライブラリのエコシステムの中核にあります。一般的なデータサイエンスのワークフローは次のようになります。"
     image1:
@@ -168,13 +322,13 @@ params:
         alttext: 三つの円が重なり合う図。円はそれぞれ「数学」、「コンピューターサイエンス」、「専門知識」でラベル付けされています。図の中心部には、三つの円が重なり合って形成されるエリアがあり、「データサイエンス」とラベル付けされています。
     examples:
       - 
-        text: "<b>抽出, 変換, 読み込み: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor-devs.github.io/pyjanitor/)"
+        text: "<b>抽出, 変換, 読み込み: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
       - 
-        text: "<b>探索的解析: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
+        text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org),[Seaborn](https://seaborn.pydata.org),[ Matplotlib](https://matplotlib.org),[ Altair](https://altair-viz.github.io)"
       - 
         text: "<b>モデリングと評価: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
       - 
-        text: "<b>ダッシュボードでのレポート: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
+        text: "<b>ダッシュボードでのレポート: </b>[Dash](https://plotly.com/dash),[ Panel](https://panel.holoviz.org),[ Voila](https://github.com/voila-dashboards/voila)"
     content:
       - 
         text: 大規模データに対して、[Dask](https://dask.org)と[Ray](https://ray.io/)はスケールすることを目指して設計されています。安定したデプロイメントに関しては、データのバージョニング（[DVC](https://dvc.org)）、実験の追跡（[MLFlow](https://mlflow.org)）、ワークフローの自動化（[Airflow](https://airflow.apache.org)および[Prefect](https://www.prefect.io)が重要ですが様々なNumPyベースのツールが提供されています。
@@ -201,7 +355,7 @@ params:
         img: /images/content_images/v_seaborn.png
         alttext: 2種類のグラフによるペアプロット。seabornで作られたプロットと周波数グラフ"
       - 
-        url: https://docs.pyvista.org/
+        url: https://docs.pyvista.org/examples/index.html
         img: /images/content_images/v_pyvista.png
         alttext: PyVista製の3Dボリュームレンダリング
       - 
