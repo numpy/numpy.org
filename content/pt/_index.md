@@ -4,47 +4,46 @@ title: null
 
 {{< grid columns="1 2 2 3" >}}
 
-[[item]]
-type = 'card'
-title = 'Arrays n-dimensionais poderosas'
+{{< card >}}
+title = 'Potentes arrays N-dimensionais.'
 body = '''
-Rápidos e versáteis, os conceitos de vetorização, indexação e broadcasting do NumPy são, na prática, o padrão em computação com arrays.
+Rápido e versátil, os conceitos de vetorização, indexação e broadcasting do NumPy são os padrões de fato da computação de arrays hoje em dia.
 '''
+{{< /card >}}
 
-[[item]]
-type = 'card'
-title = 'Ferramentas de computação numérica'
+{{< card >}}
+title = 'Ferramentas numéricas de computação'
 body = '''
-O NumPy oferece um conjunto completo de funções matemáticas, geradores de números aleatórios, rotinas de álgebra linear, transformadas de Fourier, e mais.
+O NumPy oferece funções matemáticas abrangentes, geradores de números aleatórios, rotinas de álgebra linear, transformações de Fourier e muito mais.
 '''
+{{< /card >}}
 
-[[item]]
-type = 'card'
+{{< card >}}
 title = 'Código aberto'
 body = '''
-Distribuido com uma [licença BSD](https://github.com/numpy/numpy/blob/main/LICENSE.txt) liberal, o NumPy é desenvolvido e mantido [publicamente no GitHub](https://github.com/numpy/numpy) por uma [comunidade](/pt/community) vibrante, responsiva, e diversa.
+Distribuído sob uma licença liberal [BSD](https://github.com/numpy/numpy/blob/main/LICENSE.txt), o NumPy é desenvolvido e mantido [publicamente no GitHub](https://github.com/numpy/numpy) por uma [comunidade](/community) vibrante, responsiva e diversa.
 '''
+{{< /card >}}
 
-[[item]]
-type = 'card'
-title = 'Interoperabilidade'
+{{< card >}}
+title = 'Interoperável'
 body = '''
-O NumPy suporta um grande número de plataformas de hardware e computação, e pode ser combinado com bibliotecas de computação com arrays esparsas, distribuidas ou em GPUs.
+O NumPy suporta uma ampla gama de plataformas de hardware e computação, e se integra bem com bibliotecas distribuídas, de GPU e de arrays esparsos.
 '''
+{{< /card >}}
 
-[[item]]
-type = 'card'
-title = 'Alto desempenho'
+{{< card >}}
+title = 'Eficiente'
 body = '''
-O núcleo do NumPy é feito de código otimizado em C. Experimente a flexibilidade do Python com a velocidade de código compilado. Enjoy the flexibility of Python with the speed of compiled code.
+O núcleo do NumPy é composto por código C bem otimizado. Aproveite a flexibilidade do Python com a velocidade de código compilado.
 '''
+{{< /card >}}
 
-[[item]]
-type = 'card'
+{{< card >}}
 title = 'Fácil de usar'
 body = '''
-A sintaxe de alto nível do NumPy torna-o acessível e produtivo para programadores de qualquer nível de experiência e formação.
+A sintaxe de alto nível do NumPy o torna acessível e produtivo para programadores de qualquer formação ou nível de experiência.
 '''
-'''
+{{< /card >}}
 
 {{< /grid >}}
