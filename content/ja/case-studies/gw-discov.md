@@ -65,7 +65,7 @@ src = '/images/content_images/cs/gwpy-numpy-dep-graph.png' alt = 'gwpy-numpy dep
 ----
 
 {{< figure >}}
-src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png' alt = 'PyCBC-numpy depgraph' title = 'Dependency graph showing how PyCBC package depends on NumPy'
+src = '/images/content_images/cs/gwpy-numpy-dep-graph.png' alt = 'PyCBC-numpy depgraph' title = 'NumPyに依存しているPyCBCの依存グラフ'
 {{< /figure >}}
 
 ## まとめ
@@ -73,5 +73,5 @@ src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png' alt = 'PyCBC-numpy d
 GW検出により、研究者は完全に予期せぬ現象 を発見することができ、同時に知られている最も深遠な天体物理学 現象の多くに新たな洞察を提供しています。 数値処理とデータの可視化は、科学者が科学的な観測から収集したデータについての洞察を得て、その結果を理解するのに役立つ重要なステップです。 しかし、その計算は複雑であり、実際の観測データと分析を用いたコンピュータシミュレーションを用いて可視化されない限り、人間が理解することはできませんでした。  NumPyは、matplotlib・pandas・scikit-learnなどのPythonパッケージとともに、研究者が複雑な現象の疑問に答え、私たちの宇宙に対するの理解において、新しい地平を発見することを[可能にしています](https://www.gw-openscience.org/events/GW150914/)。
 
 {{< figure >}}
-src = '/images/content_images/cs/numpy_gw_benefits.png' alt = 'numpy benefits' title = 'Key NumPy Capabilities utilized'
+src = '/images/content_images/cs/numpy_bh_benefits.png' alt = 'numpy benefits' title = '利用されたNumPyの主要機能'
 {{< /figure >}}
