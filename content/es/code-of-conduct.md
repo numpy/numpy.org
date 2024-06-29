@@ -22,16 +22,16 @@ We strive to:
 3. Be collaborative. Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of the project, we are willing to explain to others how it works, so that they can build on the work to make it even better. Any decision we make will affect users and colleagues, and we take those consequences seriously when making decisions.
 4. Be inquisitive. Nobody knows everything! Asking questions early avoids many problems later, so we encourage questions, although we may direct them to the appropriate forum. We will try hard to be responsive and helpful.
 5. Be careful in the words that we choose. We are careful and respectful in our communication, and we take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. We will not accept harassment or other exclusionary behaviour, such as:
-   - Violent threats or language directed against another person.
-   - Sexist, racist, or otherwise discriminatory jokes and language.
-   - Posting sexually explicit or violent material.
-   - Posting (or threatening to post) other people’s personally identifying information (“doxing”).
-   - Sharing private content, such as emails sent privately or non-publicly, or unlogged forums such as IRC channel history, without the sender’s consent.
-   - Personal insults, especially those using racist or sexist terms.
-   - Unwelcome sexual attention.
-   - Excessive profanity. Please avoid swearwords; people differ greatly in their sensitivity to swearing.
-   - Repeated harassment of others. In general, if someone asks you to stop, then stop.
-   - Advocating for, or encouraging, any of the above behaviour.
+    * Violent threats or language directed against another person.
+    * Sexist, racist, or otherwise discriminatory jokes and language.
+    * Posting sexually explicit or violent material.
+    * Posting (or threatening to post) other people’s personally identifying information (“doxing”).
+    * Sharing private content, such as emails sent privately or non-publicly, or unlogged forums such as IRC channel history, without the sender’s consent.
+    * Personal insults, especially those using racist or sexist terms.
+    * Unwelcome sexual attention.
+    * Excessive profanity. Please avoid swearwords; people differ greatly in their sensitivity to swearing.
+    * Repeated harassment of others. In general, if someone asks you to stop, then stop.
+    * Advocating for, or encouraging, any of the above behaviour.
 
 ### Diversity Statement
 
@@ -53,9 +53,9 @@ You can report issues to the NumPy Code of Conduct Committee at numpy-conduct@go
 
 Currently, the Committee consists of:
 
-- Stefan van der Walt
-- Melissa Weber Mendonça
-- Rohit Goswami
+* Stefan van der Walt
+* Melissa Weber Mendonça
+* Rohit Goswami
 
 If your report involves any members of the Committee, or if they feel they have a conflict of interest in handling it, then they will recuse themselves from considering your report. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
