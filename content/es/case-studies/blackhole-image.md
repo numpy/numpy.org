@@ -1,144 +1,80 @@
 ---
-title: "Case Study: First Image of a Black Hole"
+title: "Caso de estudio: La primera imagen de un Agujero Negro"
 sidebar: false
 ---
 
-{{< figure >}}
-src = '/images/content_images/cs/blackhole.jpg'
-title = 'Black Hole M87'
-alt = 'black hole image'
-attribution = '(Image Credits: Event Horizon Telescope Collaboration)'
-attributionlink = 'https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg'
+{{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Agujero Negro M87**" alt="imagen de un agujero negro" attr="*(Créditos de la imagen: Colaboración del Telescopio de Horizonte de Sucesos)*" attrlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
+src = '/images/content_images/cs/blackhole.jpg' title = 'Black Hole M87' alt = 'black hole image' attribution = '(Image Credits: Event Horizon Telescope Collaboration)' attributionlink = 'https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg'
 {{< /figure >}}
 
-{{< blockquote
-cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
-by="Katie Bouman, _Assistant Professor, Computing & Mathematical Sciences, Caltech_"
-
-> }}
-> Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.
+{{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="Katie Bouman, *Assistant Professor, Computing & Mathematical Sciences, Caltech*"
+> }} Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see. 
+> 
 > {{< /blockquote >}}
 
-## A telescope the size of the earth
+## Un telescopio del tamaño de la Tierra
 
-The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org) is an
-array of eight ground-based radio telescopes forming a computational telescope
-the size of the earth, studing the universe with unprecedented
-sensitivity and resolution.  The huge virtual telescope,  which uses a technique
-called very-long-baseline interferometry (VLBI), has an angular resolution of
-[20 micro-arcseconds][resolution] — enough to read a newspaper in New York
-from a sidewalk café in Paris!
+El [ telescopio de Horizonte de Sucesos (EHT) ](https://eventhorizontelescope.org), es un conjunto de ocho radiotelescopios terrestres que forman un telescopio computacional del tamaño de la tierra, estudiando al universo con una sensibilidad y resolución sin precedente.  El enorme telescopio virtual, que utiliza una técnica llamada Interferometría de línea de base muy larga (VLBI), tiene una resolución angular de [20 microsegundos de arco][resolution] — ¡suficiente para leer un periódico en Nueva York desde un café en la acera en París!
+
+### Objetivos clave y resultados
+
+* **Una nueva vista del universo:** El trabajo preliminar de la innovadora imagen de EHT se había establecido 100 años antes, cuando [Sir Arthur Eddington][eddington] dio el primer apoyo observacional a la teoría de la relatividad general de Einstein.
+
+* **El agujero negro:** EHT se entrenó en un enorme agujero negro aproximadamente a 55 millones de años luz de la tierra, situada en el centro de la galaxia Messier 87 (M87) en el cúmulo de Virgo. Su masa es 6.5 mil millones de veces la del sol. Se había estudiado por [más de 100 años](https://www.jpl.nasa.gov/news/news.php?feature=7385), pero nunca antes se había observado un agujero negro.
+
+* **Comparando las observaciones con la teoría:** A partir de la teoría de la relatividad general de Einstein, los científicos esperaban encontrar una región similar a las sombras causadas por la flexión gravitacional y la captura de la luz. Los científicos pudieron utilizarla para medir la enorme masa del agujero negro.
+
+### Los desafíos
+
+* **Escala computacional**
+
+    EHT plantea desafíos de procesamiento de datos masivos, incluyendo rápidas fluctuaciones de fase atmosféricas, amplio ancho de banda de grabación, y telescopios que son ampliamente disímiles y geográficamente dispersos.
+
+* **Demasiada información**
+
+    Cada día el EHT genera más de 350 terabytes de observaciones, almacenados en discos duros llenos de helio. Reducir el volumen y complejidad de estos datos es enormemente difícil.
+
+* **Hacia lo desconocido**
+
+    Cuando el objetivo es ver algo nunca antes visto, ¿cómo pueden los científicos estar seguros de que la imagen es correcta?
+
+{{< figure >}}
+src = '/images/content_images/cs/dataprocessbh.png' title = 'EHT Data Processing Pipeline' alt = 'data pipeline' align = 'center' attribution = '(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)' attributionlink = 'https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57'
+{{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="el rol de numpy" caption="**El rol de NumPy en la fotografía del Agujero Negro**" >}}
+
+## El Rol de NumPy
+
+¿Qué pasa si hay un problema con los datos? O tal vez un algoritmo depende demasiado de una suposición en particular. ¿Cambiará drásticamente la imagen si se cambia un solo parámetro?
+
+La colaboración del EHT respondió a estos desafíos haciendo que los equipos independientes evaluaran los datos, utilizando técnicas de reconstrucción de imágenes ya establecidas y de vanguardia. Cuando los resultados se mostraron consistentes, se combinaron para producir la primera imagen de su tipo de un agujero negro.
+
+Su trabajo ilustra el rol que desempeña el ecosistema científico de Python en el avance de la ciencia a través del análisis de datos colaborativos.
+
+{{< figure >}}
+{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="ventajas de numpy" caption="**Capacidades Clave utilizadas de NumPy**" >}}
+{{< /figure >}}
+
+Por ejemplo, el paquete de Python [`eht-imaging`][ehtim] proporciona herramientas para simular y realizar reconstrucción de imágenes en datos VLBI. NumPy está en el núcleo del procesamiento de datos de matrices utilizados en este paquete, como se muestra a continuación en el gráfico parcial de dependencias de software.
+
+{{< figure >}}
+src = '/images/content_images/cs/ehtim_numpy.png' alt = 'ehtim dependency map highlighting numpy' title = 'Software dependency chart of ehtim package highlighting NumPy'
+{{< /figure >}}
+
+Además de NumPy, muchos otros paquetes, como [SciPy](https://www.scipy.org) y [Pandas](https://pandas.io), son parte del flujo de procesamiento de datos para fotografiar el agujero negro. Los formatos estándar de archivos astronómicos y transformaciones de tiempo/coordenadas fueron manejados por [Astropy][astropy], mientras que [Matplotlib][mpl] fue utilizado en la visualización de datos a través del flujo de análisis, incluyendo la generación de la imagen final del agujero negro.
+
+## Resumen
+
+La matriz n-dimensional eficiente y adaptable que es la característica central de NumPy permitió a los investigadores manipular grandes conjuntos de datos numéricos, proporcionando una base para la primera imagen de un agujero negro. Un momento histórico en la ciencia ofrece una impresionante evidencia visual de la teoría de Einstein. Este logro abarca no solo los avances tecnológicos sino también la colaboración internacional de más de 200 científicos y algunos de los mejores radio observatorios del mundo.  Algoritmos innovadores y técnicas de procesamiento de datos, mejorando los modelos astronómicos existentes, ayudaron a desvelar un misterio del universo.
+
+{{< figure >}}
+src = '/images/content_images/cs/numpy_bh_benefits.png' alt = 'numpy benefits' title = 'Key NumPy Capabilities utilized'
+{{< /figure >}}
 
 [resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
 
-### Key Goals and Results
-
-- **A New View of the Universe:**
-  The groundwork for the EHT's groundbreaking image had been laid 100 years
-  earlier when [Sir Arthur Eddington][eddington] yielded the first
-  observational support of Einstein's theory of general relativity.
-
-- **The Black Hole:** EHT was trained on a supermassive black hole
-  approximately 55 million light-years from Earth, lying at the center
-  of the galaxy Messier 87 (M87) in the Virgo galaxy cluster. Its mass is
-  6.5 billion times the Sun's. It had been studied for
-  [over 100 years](https://www.jpl.nasa.gov/news/news.php?feature=7385), but never before
-  had a black hole been visually observed.
-
-- **Comparing Observations to Theory:** From Einstein’s general theory of
-  relativity, scientists expected to find a shadow-like region caused by
-  gravitational bending and capture of light. Scientists could
-  use it to measure the black hole's enormous mass.
-
 [eddington]: https://en.wikipedia.org/wiki/Eddington_experiment
-
-### The Challenges
-
-- **Computational scale**
-
-  EHT poses massive data-processing challenges, including rapid atmospheric
-  phase fluctuations, large recording bandwidth, and telescopes that are
-  widely dissimilar and geographically dispersed.
-
-- **Too much information**
-
-  Each day EHT generates over 350 terabytes of observations, stored on
-  helium-filled hard drives. Reducing the volume and complexity of this much
-  data is enormously difficult.
-
-- **Into the unknown**
-
-  When the goal is to see something never before seen, how can scientists be
-  confident the image is correct?
-
-{{< figure >}}
-src = '/images/content_images/cs/dataprocessbh.png'
-title = 'EHT Data Processing Pipeline'
-alt = 'data pipeline'
-align = 'center'
-attribution = '(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)'
-attributionlink = 'https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57'
-{{< /figure >}}
-
-## NumPy’s Role
-
-What if there's a problem with the data? Or perhaps an algorithm relies too
-heavily on a particular assumption. Will the image change drastically if a
-single parameter is changed?
-
-The EHT collaboration met these challenges by having independent teams
-evaluate the data, using both established and cutting-edge image reconstruction
-techniques. When results proved consistent, they were combined to yield the
-first-of-a-kind image of the black hole.
-
-Their work illustrates the role the scientific Python ecosystem plays in
-advancing science through collaborative data analysis.
-
-{{< figure >}}
-src = '/images/content_images/cs/bh_numpy_role.png'
-alt = 'role of numpy'
-title = 'The role of NumPy in Black Hole imaging'
-{{< /figure >}}
-
-For example, the [`eht-imaging`][ehtim] Python package provides tools for
-simulating and performing image reconstruction on VLBI data.
-NumPy is at the core of array data processing used
-in this package, as illustrated by the partial software
-dependency chart below.
-
-{{< figure >}}
-src = '/images/content_images/cs/ehtim_numpy.png'
-alt = 'ehtim dependency map highlighting numpy'
-title = 'Software dependency chart of ehtim package highlighting NumPy'
-{{< /figure >}}
 
 [ehtim]: https://github.com/achael/eht-imaging
 
-Besides NumPy, many other packages, such as
-[SciPy](https://www.scipy.org) and [Pandas](https://pandas.io), are part of the
-data processing pipeline for imaging the black hole.
-The standard astronomical file formats and time/coordinate transformations
-were handled by [Astropy][astropy], while [Matplotlib][mpl] was used
-in visualizing data throughout the analysis pipeline, including the generation
-of the final image of the black hole.
-
 [astropy]: https://www.astropy.org/
 [mpl]: https://matplotlib.org/
-
-## Summary
-
-The efficient and adaptable n-dimensional array that is NumPy's central feature
-enabled researchers to manipulate large numerical datasets, providing a
-foundation for the first-ever image of a black hole. A landmark moment in
-science, it gives stunning visual evidence of Einstein’s theory. The
-achievement encompasses not only technological breakthroughs but also
-international collaboration among over 200 scientists and some of the world's
-best radio observatories.  Innovative algorithms and data processing
-techniques, improving upon existing astronomical models, helped unfold a
-mystery of the universe.
-
-{{< figure >}}
-src = '/images/content_images/cs/numpy_bh_benefits.png'
-alt = 'numpy benefits'
-title = 'Key NumPy Capabilities utilized'
-{{< /figure >}}
