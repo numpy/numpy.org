@@ -3,9 +3,9 @@ title: サポートを得る方法
 sidebar: false
 ---
 
-**Development issues:** For NumPy development-related matters (e.g., bug reports), please see [Community](/community).
+**開発関連の問題:** NumPyの開発関連の問題 (例: バグレポート) については、[コミュニティ](/community) のページを参照してください。
 
-**User questions:** The best way to get help is to post your question to a site like [StackOverflow](http://stackoverflow.com/questions/tagged/numpy) or [Reddit](https://www.reddit.com/r/Numpy/). We wish we could keep an eye on these sites, or answer questions directly, but the volume is a little overwhelming!
+**ユーザーからの質問:** ユーザー視点での質問に対して回答を得る最も良い方法は、[StackOverflow](http://stackoverflow.com/questions/tagged/numpy) または[Reddit](https://www.reddit.com/r/Numpy/) のようなサイトに質問を投稿することです。 私たちはこれらのサイトを定期的に確認して、直接質問に答えるようにしていますが、質問の数は膨大なのが現実です。
 
 ### [StackOverflow](http://stackoverflow.com/questions/tagged/numpy)
 
