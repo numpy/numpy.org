@@ -9,12 +9,13 @@ For the in-depth account on milestones in the development of NumPy and related l
 
 If you’d like to obtain a copy of the original Numeric and Numarray libraries, follow the links below:
 
-[Download Page for _Numeric_](https://sourceforge.net/projects/numpy/files/Old%20Numeric/)\*
+[Download Page for *Numeric*](https://sourceforge.net/projects/numpy/files/Old%20Numeric/)*
 
-[Download Page for _Numarray_](https://sourceforge.net/projects/numpy/files/Old%20Numarray/)\*
+[Download Page for *Numarray*](https://sourceforge.net/projects/numpy/files/Old%20Numarray/)*
 
-\*<sub>Please note that these older array packages are no longer maintained, and users are strongly advised to use NumPy for any array-related purposes or refactor any pre-existing code to utilize the NumPy library.</sub>
+*<sub>Please note that these older array packages are no longer maintained, and users are strongly advised to use NumPy for any array-related purposes or refactor any pre-existing code to utilize the NumPy library.</sub>
 
 ### Historic Documentation
 
-[Download _\`Numeric'_ Manual](static/numeric-manual.pdf)
+[Download *`Numeric'* Manual](static/numeric-manual.pdf)
+
