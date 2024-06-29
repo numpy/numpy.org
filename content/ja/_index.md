@@ -6,44 +6,44 @@ title: null
 
 [[item]]
 type = 'card'
-title = 'Powerful N-dimensional arrays'
+title = '強力な多次元配列'
 body = '''
-Fast and versatile, the NumPy vectorization, indexing, and broadcasting concepts are the de-facto standards of array computing today.
+NumPyの高速で多機能なベクトル化計算、インデックス処理、ブロードキャストの考え方は、現在の配列計算におけるデファクト・スタンダードとなっています。
+
+[[item]]
+type = 'card'
+title = '数値計算ツール群'
+body = '''
+NumPyは、様々な数学関数、乱数生成器、線形代数ルーチン、フーリエ変換機能などを提供しています。
 '''
 
 [[item]]
 type = 'card'
-title = 'Numerical computing tools'
+title = 'オープンソース'
 body = '''
-NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
+NumPyは、寛容な[BSDライセンス](https://github.com/numpy/numpy/blob/main/LICENSE.txt)の元で公開されています。NumPyは活発で、互いを尊重し、多様性を認め合う[コミュニティ](/ja/community)によって、 [GitHub](https://github.com/numpy/numpy)上でオープンに開発されています.
 '''
 
 [[item]]
 type = 'card'
-title = 'Open source'
+title = '相互運用性'
 body = '''
-Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/community).
+NumPyは、幅広いハードウェアとコンピューティング・プラットフォームをサポートしており、分散処理、GPU、疎行列ライブラリにも対
+応しています。
 '''
 
 [[item]]
 type = 'card'
-title = 'Interoperable'
+title = '高いパフォーマンス'
 body = '''
-NumPy supports a wide range of hardware and computing platforms, and plays well with distributed, GPU, and sparse array libraries.
+NumPyの大部分は最適化されたC言語のコードで構成されています。これによりPythonの柔軟性とコンパイルされたコードの高速性の両方を享受できます。 コンパイルされたコードのスピードでの Python の柔軟性をお楽しみください。
 '''
 
 [[item]]
 type = 'card'
-title = 'Performant'
+title = '使いやすさ'
 body = '''
-The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
+NumPyの抽象化されたシンタックスは、どんなバックグラウンドや経験を持つのプログラマーでも簡単に利用することができ、生産性を高めることができます。
 '''
 
-[[item]]
-type = 'card'
-title = 'Easy to use'
-body = '''
-NumPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
-'''
-
-{{< /grid>}}
+{{< /grid >}}
