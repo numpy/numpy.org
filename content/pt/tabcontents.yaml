@@ -28,7 +28,7 @@ params:
         url: https://cupy.chainer.org
       - 
         title: JAX
-        text: "Transformações combináveis de programas NumPy: vetorização, compilação just-in-time para GPU/TPU."
+        text: "Composable transformations of NumPy programs differentiate: vectorize, just-in-time compilation to GPU/TPU."
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
         url: https://github.com/google/jax
@@ -76,7 +76,7 @@ params:
         url: https://github.com/xtensor-stack/xtensor-python
       - 
         title: Awkward Array
-        text: Manipulação de dados JSON-like com sintaxe NumPy-like.
+        text: Python backend system that decouples API from implementation; unumpy provides a NumPy API.
         img: /images/content_images/arlib/awkward.svg
         alttext: awkward
         url: https://awkward-array.org/
@@ -94,7 +94,7 @@ params:
         text: "NumPy traz o poder computacional de linguagens como C e Fortran para Python, uma linguagem muito mais fácil de aprender e usar. Com esse poder vem a simplicidade: uma solução no NumPy é frequentemente clara e elegante."
     libraries:
       - 
-        title: Quantum Computing
+        title: Computação quântica
         alttext: Um chip de computador.
         img: /images/content_images/sc_dom_img/quantum_computing.svg
         links:
@@ -111,25 +111,25 @@ params:
             url: https://pennylane.ai
             label: PennyLane
       - 
-        title: Statistical Computing
-        alttext: A line graph with the line moving up.
+        title: Computação estatística
+        alttext: Um gráfico com uma linha em movimento para cima.
         img: /images/content_images/sc_dom_img/statistical_computing.svg
         links:
           - 
             url: https://pandas.pydata.org/
             label: Pandas
           - 
-            url: https://www.statsmodels.org/
+            url: https://github.com/statsmodels/statsmodels
             label: statsmodels
           - 
             url: https://xarray.pydata.org/en/stable/
             label: Xarray
           - 
-            url: https://seaborn.pydata.org/
+            url: https://github.com/mwaskom/seaborn
             label: Seaborn
       - 
-        title: Signal Processing
-        alttext: A bar chart with positive and negative values.
+        title: Processamento de sinais
+        alttext: Um gráfico de barras com valores positivos e negativos.
         img: /images/content_images/sc_dom_img/signal_processing.svg
         links:
           - 
@@ -143,7 +143,7 @@ params:
             label: python-control
           - 
             url: https://hyperspy.org/
-            label: HiperSpy
+            label: HyperSpy
       - 
         title: Processamento de imagens
         alttext: Uma fotografia das montanhas.
@@ -159,8 +159,8 @@ params:
             url: https://mahotas.rtfd.io/
             label: Mahotas
       - 
-        title: Grafos e Redes
-        alttext: Um grafo simples.
+        title: Graphs and Networks
+        alttext: A simple graph.
         img: /images/content_images/sc_dom_img/sd6.svg
         links:
           - 
@@ -176,18 +176,18 @@ params:
             url: https://pygsp.rtfd.io/
             label: PyGSP
       - 
-        title: Astronomia
-        alttext: Um telescópio.
+        title: Astronomy
+        alttext: A telescope.
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
         links:
           - 
             url: https://www.astropy.org/
             label: AstroPy
           - 
-            url: https://sunpy.org/
+            url: https://github.com/sunpy/sunpy
             label: SunPy
           - 
-            url: https://spacepy.github.io/
+            url: https://github.com/spacepy/spacepy
             label: SpacePy
       - 
         title: Psicologia Cognitiva
@@ -215,8 +215,8 @@ params:
             url: http://etetoolkit.org/
             label: ETE
       - 
-        title: Bayesian Inference
-        alttext: A graph with a bell-shaped curve.
+        title: Inferência Bayesiana
+        alttext: Um gráfico com uma curva em forma de sino.
         img: /images/content_images/sc_dom_img/bayesian_inference.svg
         links:
           - 
@@ -232,8 +232,8 @@ params:
             url: https://emcee.readthedocs.io/
             label: emcee
       - 
-        title: Mathematical Analysis
-        alttext: Four mathematical symbols.
+        title: Análise Matemática
+        alttext: Quatro símbolos matemáticos.
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
         links:
           - 
@@ -243,14 +243,14 @@ params:
             url: https://www.sympy.org/
             label: SymPy
           - 
-            url: https://www.cvxpy.org/
+            url: https://github.com/cvxgrp/cvxpy
             label: cvxpy
           - 
             url: https://fenicsproject.org/
             label: FEniCS
       - 
         title: Chemistry
-        alttext: A test tube.
+        alttext: Um tubo de ensaio.
         img: /images/content_images/sc_dom_img/chemistry.svg
         links:
           - 
@@ -267,7 +267,7 @@ params:
             label: PyBaMM
       - 
         title: Geoscience
-        alttext: The Earth.
+        alttext: A Terra.
         img: /images/content_images/sc_dom_img/geoscience.svg
         links:
           - 
@@ -298,7 +298,7 @@ params:
             label: Folium
       - 
         title: Arquitetura e Engenharia
-        alttext: A microprocessor development board.
+        alttext: Uma placa de desenvolvimento de microprocessador.
         img: /images/content_images/sc_dom_img/robotics.svg
         links:
           - 
@@ -322,7 +322,7 @@ params:
         alttext: Diagram of three overlapping circle. The circles labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'.
     examples:
       - 
-        text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org),[ Intake](https://intake.readthedocs.io),[PyJanitor](https://pyjanitor-devs.github.io/pyjanitor/)"
+        text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org),[ Intake](https://intake.readthedocs.io),[PyJanitor](https://pyjanitor.readthedocs.io/)"
       - 
         text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org),[Seaborn](https://seaborn.pydata.org),[ Matplotlib](https://matplotlib.org),[ Altair](https://altair-viz.github.io)"
       - 
