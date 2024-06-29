@@ -112,7 +112,7 @@ params:
             label: PennyLane
       - 
         title: Statistical Computing
-        alttext: A line graph with the line moving up.
+        alttext: Un gráfico lineal con la línea moviéndose hacia arriba.
         img: /images/content_images/sc_dom_img/statistical_computing.svg
         links:
           - 
