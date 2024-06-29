@@ -4,7 +4,7 @@ sidebar: false
 ---
 
 {{< figure src="/images/content_images/cs/mice-hand.gif" class="fig-center" caption="**DeepLapCutを用いたマウスの手の動きの解析 **" alt="micehandanim" attr="*(Source: www.deeplabcut.org )*" attrlink="http://www.mousemotorlab.org/deeplabcut">}}
-src = '/images/content_images/cs/mice-hand.gif' title = 'Analyzing mice hand-movement using DeepLapCut' alt = 'micehandanim' attribution = '(Source: www.deeplabcut.org )' attributionlink = 'http://www.mousemotorlab.org/deeplabcut'
+src = '/images/content_images/cs/mice-hand.gif' title = 'DeepLapCutを用いたマウスの手の動きの解析' alt = 'micehandanim' attribution = '(Source: www.deeplabcut.org )' attributionlink = 'http://www.mousemotorlab.org/deeplabcut'
 {{< /figure >}}
 
 {{< blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/" by="Alexander Mathis, * ローザンヌ連邦工科大学([EPFL](https://www.epfl.ch/en/))の助教授 *"
@@ -19,7 +19,7 @@ src = '/images/content_images/cs/mice-hand.gif' title = 'Analyzing mice hand-mov
 神経科学、医学、生体力学などのいくつかの研究分野では、動物の動きを追跡したデータを使用しています。 DeepLabCutは、動画に記録された動きを解析することで、人間やその他の動物が何をしているのかを理解することができます。 タグ付けや監視などの、手間のかかる作業を自動化し、深層学習ベースのデータ解析を実施します。 DeepLabCutは、霊長類、マウス、魚、ハエなどの動物を観察する科学研究をより速く正確にしています。
 
 {{< figure >}}
-src = '/images/content_images/cs/race-horse.gif' title = 'Colored dots track the positions of a racehorse’s body part' alt = 'horserideranim' attribution = '(Source: Mackenzie Mathis)'
+src = '/images/content_images/cs/race-horse.gif' title = '色のついた点は競走馬の体の位置を追跡している' alt = 'horserideranim' attribution = '(Source: Mackenzie Mathis)'
 {{< /figure >}}
 
 DeepLabCutは、動物の姿勢を抽出することで非侵襲的な行動追跡を行います。 これは、生体力学、遺伝学、倫理学、神経科学などの分野での研究に必要不可欠です。 動的に変化する背景の中で、動物の姿勢をビデオデータから非侵襲的に測定することは、技術的にも、必要な計算リソースやトレーニングデータの点でも、非常に困難な計算処理です。
