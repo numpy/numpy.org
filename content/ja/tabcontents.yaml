@@ -75,7 +75,7 @@ params:
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
       - 
-        title: Awkward
+        title: XND
         text: Numpy のような イディオムを使って JSON のようなデータを操作するライブラリ
         img: /images/content_images/arlib/xnd.png
         alttext: awkward
@@ -94,8 +94,8 @@ params:
         text: "Numpy は、 C や Fortran のような言語の計算パフォーマンスを、Pythonにもたらします。 このパワーはNumPyのシンプルさから来ており、NumPyによるソリューションの多くは明確でエレガントになります。"
     libraries:
       - 
-        title: Quantum Computing
-        alttext: A computer chip.
+        title: 量子コンピューティング
+        alttext: コンピューターチップ
         img: /images/content_images/sc_dom_img/quantum_computing.svg
         links:
           - 
@@ -111,25 +111,25 @@ params:
             url: https://pennylane.ai
             label: PennyLane
       - 
-        title: Statistical Computing
-        alttext: A line graph with the line moving up.
+        title: 統計コンピューティング
+        alttext: 線グラフが上に移動します。
         img: /images/content_images/sc_dom_img/statistical_computing.svg
         links:
           - 
             url: https://pandas.pydata.org/
             label: Pandas
           - 
-            url: https://www.statsmodels.org/
+            url: https://github.com/statsmodels/statsmodels
             label: statsmodels
           - 
             url: https://xarray.pydata.org/en/stable/
             label: Xarray
           - 
-            url: https://seaborn.pydata.org/
+            url: https://github.com/mwaskom/seaborn
             label: Seaborn
       - 
-        title: Signal Processing
-        alttext: A bar chart with positive and negative values.
+        title: 信号処理
+        alttext: 正と負の値を持つ棒グラフ。
         img: /images/content_images/sc_dom_img/signal_processing.svg
         links:
           - 
@@ -145,8 +145,8 @@ params:
             url: https://hyperspy.org/
             label: HyperSpy
       - 
-        title: Image Processing
-        alttext: An photograph of the mountains.
+        title: 画像処理
+        alttext: 山々の写真
         img: /images/content_images/sc_dom_img/image_processing.svg
         links:
           - 
@@ -159,8 +159,8 @@ params:
             url: https://mahotas.rtfd.io/
             label: Mahotas
       - 
-        title: Graphs and Networks
-        alttext: A simple graph.
+        title: グラフとネットワーク
+        alttext: シンプルなグラフ
         img: /images/content_images/sc_dom_img/sd6.svg
         links:
           - 
@@ -176,30 +176,30 @@ params:
             url: https://pygsp.rtfd.io/
             label: PyGSP
       - 
-        title: Astronomy
-        alttext: A telescope.
+        title: 天文学
+        alttext: 望遠鏡
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
         links:
           - 
             url: https://www.astropy.org/
             label: AstroPy
           - 
-            url: https://sunpy.org/
+            url: https://github.com/sunpy/sunpy
             label: SunPy
           - 
-            url: https://spacepy.github.io/
+            url: https://github.com/spacepy/spacepy
             label: SpacePy
       - 
-        title: Cognitive Psychology
-        alttext: A human head with gears.
+        title: 認知心理学
+        alttext: ギアをつけた人間の頭部
         img: /images/content_images/sc_dom_img/cognitive_psychology.svg
         links:
           - 
             url: https://www.psychopy.org/
             label: PsychoPy
       - 
-        title: Bioinformatics
-        alttext: A strand of DNA.
+        title: 生命情報科学
+        alttext: DNAの鎖
         img: /images/content_images/sc_dom_img/bioinformatics.svg
         links:
           - 
@@ -215,8 +215,8 @@ params:
             url: http://etetoolkit.org/
             label: ETE
       - 
-        title: Bayesian Inference
-        alttext: A graph with a bell-shaped curve.
+        title: ベイズ推論
+        alttext: 鐘形の曲線のグラフ
         img: /images/content_images/sc_dom_img/bayesian_inference.svg
         links:
           - 
@@ -232,8 +232,8 @@ params:
             url: https://emcee.readthedocs.io/
             label: emcee
       - 
-        title: Mathematical Analysis
-        alttext: Four mathematical symbols.
+        title: 数学的分析
+        alttext: ４つの数学記号
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
         links:
           - 
@@ -243,14 +243,14 @@ params:
             url: https://www.sympy.org/
             label: SymPy
           - 
-            url: https://www.cvxpy.org/
+            url: https://github.com/cvxgrp/cvxpy
             label: cvxpy
           - 
             url: https://fenicsproject.org/
             label: FEniCS
       - 
-        title: Chemistry
-        alttext: A test tube.
+        title: 化学
+        alttext: 試験管
         img: /images/content_images/sc_dom_img/chemistry.svg
         links:
           - 
@@ -266,8 +266,8 @@ params:
             url: https://www.pybamm.org/
             label: PyBaMM
       - 
-        title: Geoscience
-        alttext: The Earth.
+        title: 地球科学
+        alttext: 地球
         img: /images/content_images/sc_dom_img/geoscience.svg
         links:
           - 
@@ -283,8 +283,8 @@ params:
             url: https://www.fatiando.org/
             label: Fatiando a Terra
       - 
-        title: Geographic Processing
-        alttext: A map.
+        title: 地理情報処理
+        alttext: 地図
         img: /images/content_images/sc_dom_img/GIS.svg
         links:
           - 
@@ -297,8 +297,8 @@ params:
             url: https://python-visualization.github.io/folium
             label: Folium
       - 
-        title: Architecture & Engineering
-        alttext: A microprocessor development board.
+        title: アーキテクチャとエンジニアリング
+        alttext: マイクロプロセッサ開発ボード
         img: /images/content_images/sc_dom_img/robotics.svg
         links:
           - 
@@ -306,7 +306,7 @@ params:
             label: COMPAS
           - 
             url: https://cityenergyanalyst.com/
-            label: City Energy Analyst
+            label: 都市エネルギー分析
           - 
             url: https://nortikin.github.io/sverchok/
             label: Sverchok
@@ -322,13 +322,13 @@ params:
         alttext: 三つの円が重なり合う図。円はそれぞれ「数学」、「コンピューターサイエンス」、「専門知識」でラベル付けされています。図の中心部には、三つの円が重なり合って形成されるエリアがあり、「データサイエンス」とラベル付けされています。
     examples:
       - 
-        text: "<b>抽出, 変換, 読み込み: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor-devs.github.io/pyjanitor/)"
+        text: "<b>抽出, 変換, 読み込み: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
       - 
-        text: "<b>探索的解析: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
+        text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org),[Seaborn](https://seaborn.pydata.org),[ Matplotlib](https://matplotlib.org),[ Altair](https://altair-viz.github.io)"
       - 
         text: "<b>モデリングと評価: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
       - 
-        text: "<b>ダッシュボードでのレポート: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
+        text: "<b>ダッシュボードでのレポート: </b>[Dash](https://plotly.com/dash),[ Panel](https://panel.holoviz.org),[ Voila](https://github.com/voila-dashboards/voila)"
     content:
       - 
         text: 大規模データに対して、[Dask](https://dask.org)と[Ray](https://ray.io/)はスケールすることを目指して設計されています。安定したデプロイメントに関しては、データのバージョニング（[DVC](https://dvc.org)）、実験の追跡（[MLFlow](https://mlflow.org)）、ワークフローの自動化（[Airflow](https://airflow.apache.org)および[Prefect](https://www.prefect.io)が重要ですが様々なNumPyベースのツールが提供されています。
@@ -355,7 +355,7 @@ params:
         img: /images/content_images/v_seaborn.png
         alttext: 2種類のグラフによるペアプロット。seabornで作られたプロットと周波数グラフ"
       - 
-        url: https://docs.pyvista.org/
+        url: https://docs.pyvista.org/examples/index.html
         img: /images/content_images/v_pyvista.png
         alttext: PyVista製の3Dボリュームレンダリング
       - 
