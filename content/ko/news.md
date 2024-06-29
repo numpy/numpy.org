@@ -1,17 +1,28 @@
 ---
 title: 소식
 sidebar: false
-newsHeader: "NumPy 2.0 출시일: 6월 16일"
+newsHeader: "NumPy 2.0 released!"
 date: 2023-09-16
 ---
 
 ### NumPy 2.0 출시일: 6월 16일
 
-_2024년 5월 23일_ -- NumPy 2.0이 2024년 6월 16일에 출시할 예정이라는 소식을 발표하게 되어 기쁩니다. 이 릴리즈를 제작하는 데 1년이 넘게 걸렸고, 2006년 이후 첫 번째 메인 릴리즈입니다. 중요한 건 많은 기능과 성능 개선 외에도, ABI와 Python, C API에 대한 **획기적인 변화**를 이뤄냈다는 것입니다. 아마 의존하는 패키지와 최종 사용자의 코드를 수정해야 할 겁니다. 가능하다면 코드가 `2.0.0rc2`에서 잘 작동하는지 검증해 주세요. **자세한 내용은 아래 항목들을 확인해 주세요.**
+_16 Jun, 2024_ -- NumPy 2.0.0 is the first major release since 2006. It is the result of 11 months of development since the last feature release and is the work of 212 contributors spread over 1078 pull requests. It contains a large number of exciting new features as well as changes to both the Python and C APIs.  It includes breaking changes that could not happen in a regular minor release - including an ABI break, changes to type promotion rules, and API changes which may not have been emitting deprecation warnings in 1.26.x. Key documents related to how to adapt to changes in NumPy 2.0 include:
 
 - [NumPy 2.0 이주 가이드](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
 - [2.0.0 릴리즈 노트](https://numpy.org/devdocs/release/2.0.0-notes.html)
 - 상태 업데이트 공지용 이슈: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
+
+The blog post ["NumPy 2.0: an evolutionary milestone"](https://blog.scientific-python.org/numpy/numpy2/) tells a bit of the story about how this release came together.
+
+
+### NumPy 2.0 출시일: 6월 16일
+
+_2024년 5월 23일_ -- NumPy 2.0이 2024년 6월 16일에 출시할 예정이라는 소식을 발표하게 되어 기쁩니다. 이 릴리즈를 제작하는 데 1년이 넘게 걸렸고, 2006년 이후 첫 번째 메인 릴리즈입니다. 중요한 건 많은 기능과 성능 개선 외에도, ABI와 Python, C API에 대한 **획기적인 변화**를 이뤄냈다는 것입니다. 아마 의존하는 패키지와 최종 사용자의 코드를 수정해야 할 겁니다. 가능하다면 코드가 `2.0.0rc2`에서 잘 작동하는지 검증해 주세요. **자세한 내용은 아래 항목들을 확인해 주세요.**
+
+- The [NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
 
 ### NumPy 1.26.0 출시
@@ -239,6 +250,7 @@ _2019년 11월 15일_ -- NumPy의 주요 종속 패키지 중 하나인 NumPy와
 
 NumPy 릴리즈의 목록입니다. 릴리즈 노트로 링크도 걸려 있습니다. 버그 수정 릴리즈(`x.y.z`에서 `z`만 바뀐 경우)에는 새로운 기능이 없습니다. 마이너 릴리즈(`y`가 증가한 경우)에는 새로운 기능이 있습니다.
 
+- NumPy 2.0.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.0.0)) -- _16 Jun 2024_.
 - NumPy 1.26.4 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.26.4)) -- _ 2024년 2월 5일_.
 - NumPy 1.26.3 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.26.3)) -- _2024년 1월 2일_.
 - NumPy 1.26.2 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.26.2)) -- _2023년 1월 2일_.
