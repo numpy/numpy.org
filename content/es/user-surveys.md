@@ -1,11 +1,10 @@
 ---
-title: NUMPY USER SURVEYS
+title: ENCUESTAS DE USUARIOS DE NUMPY
 sidebar: false
 ---
 
-**2020**
-The NumPy survey team in partnership with students and faculty from the University of Michigan and the University of Maryland conducted the first official NumPy community survey. Find the survey results [here](https://numpy.org/user-survey-2020/).
+**2020** El equipo de encuestas de NumPy, en asociación con estudiantes y profesores de la Universidad de Michigan y de la Universidad de Maryland, realizó la primera encuesta oficial de la comunidad de NumPy. Encuentra los resultados de la encuesta [aquí](https://numpy.org/user-survey-2020/).
 
-**2021** The collected data is currently being analyzed.
+**2021** Los datos recolectados están siendo analizados actualmente.
 
-If you have any questions or suggestions for the past or future surveys, please open an issue [here](https://github.com/numpy/numpy-surveys/issues).
+Si tienes alguna pregunta o sugerencia sobre las encuestas pasadas o futuras, por favor abre una propuesta [aquí](https://github.com/numpy/numpy-surveys/issues). 
