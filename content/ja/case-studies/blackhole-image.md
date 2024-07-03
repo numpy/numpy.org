@@ -8,7 +8,7 @@ src = '/images/content_images/cs/blackhole.jpg' title = 'Black Hole M87' alt = '
 {{< /figure >}}
 
 {{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="Katie Bouman, * カリフォルニア工科大学の計算数理科学の助教授 *"
-> }} M87ブラックホールを画像化することは、見ることのできないものを、あえて見ようとするようなものです。 
+> M87ブラックホールを画像化することは、見ることのできないものを、あえて見ようとするようなものです。 
 > 
 > {{< /blockquote >}}
 
