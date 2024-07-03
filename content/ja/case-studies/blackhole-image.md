@@ -40,7 +40,7 @@ src = '/images/content_images/cs/blackhole.jpg' title = 'Black Hole M87' alt = '
 
 {{< figure >}}
 src = '/images/content_images/cs/dataprocessbh.png' title = 'EHTのデータ処理パイプライン' alt = 'data pipeline' align = 'center' attribution = '(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)' attributionlink = 'https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57'
-{{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**ブラックホール画像化でNumPyが果たした役割**" >}}
+{{< /figure >}}
 
 ## NumPyが果たした役割
 
@@ -51,7 +51,7 @@ EHTの共同研究では、最先端の画像再構成技術を使用して、�
 彼らの研究は、共同のデータ解析を通じて科学を進歩させる、科学的なPythonエコシステムが果たす役割を如実に表しています。
 
 {{< figure >}}
-{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**利用されたNumPyの主要機能**" >}}
+src = '/images/content_images/cs/bh_numpy_role.png' alt = 'role of numpy' title = 'ブラックホール画像化でNumPyが果たした役割'
 {{< /figure >}}
 
 例えば、 [`eht-imaging`][ehtim] というPython パッケージは VLBI データで画像の再構築をシミュレートし、実行するためのツールです。 NumPyは、以下のソフトウェア依存関係チャートで示されているように、このパッケージで使用される配列データ処理の中核を担っています。
