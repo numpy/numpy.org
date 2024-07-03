@@ -3,7 +3,7 @@ title: "ケーススタディ：世界初のブラックホール画像"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Black Hole M87**" alt="black hole image" attr="*(Image Credits: Event Horizon Telescope Collaboration)*" attrk="https://www.jpl.nasa.gov/images/universe/90410/blackhole20190410.jpg" >}}
+{{< figure >}}
 src = '/images/content_images/cs/blackhole.jpg' title = 'Black Hole M87' alt = 'black hole image' attribution = '(Image Credits: Event Horizon Telescope Collaboration)' attributionlink = 'https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg'
 {{< /figure >}}
 
