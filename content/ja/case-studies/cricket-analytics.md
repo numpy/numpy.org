@@ -29,7 +29,7 @@ src = '/images/content_images/cs/ipl-stadium.png' title = ' IPLT20:インド最�
 
 {{< figure >}}
 src = '/images/content_images/cs/cricket-pitch.png' title = ' フィールドのフォーカルポイントとなるクリケットピッチ' alt = 'A cricket pitch with bowler and batsmen' align = 'center' attribution = '(Image credit: Debarghya Das)' attributionlink = 'http://debarghyadas.com/files/IPLpaper.pdf'
-{{< figure src="/images/content_images/cs/numpy_ca_benefits.png" class="fig-center" alt="クリケット分析にNumPyを使用するメリットを示す図" caption="** 利用されている主なNumPy機能 **" >}}
+{{< /figure >}}
 
 ### データ分析の主要な目標
 
