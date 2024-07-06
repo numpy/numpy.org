@@ -40,7 +40,7 @@ src = '/images/content_images/cs/gw_sxs_image.png' title = '重力波' alt = 'bi
     アインシュタイン方程式を元にスーパーコンピュータでデータを解析できるようになったら、次はデータを人間の脳で理解できるようにしなければなりません。 シミュレーションのモデリングや信号の検出には、わかりやすい可視化技術が必要です。  画像処理やシミュレーションによって、解析結果をより多くの人に理解してもらえる状態になる前の段階において、可視化は、数値相対性を十分に重要視していなかった純粋な科学愛好家の目に、数値相対性が、より信頼性の高いものとして映るようにするという役割も果たしています。 複雑な計算と描画を行い、また最新の実験結果と洞察に基づいてシミュレーションと再描画を行う作業は時間のかかるもので、この分野の研究者にとっての課題です。
 
 {{< figure >}}
-{{< figure src="/images/content_images/cs/gwpy-numpy-dep-graph.png" class="fig-center" alt="gwpy-numpy depgraph" caption="**GwPyのNumPy依存グラフ**" >}}
+src = '/images/content_images/cs/gw_strain_amplitude.png' alt = 'gravitational waves strain amplitude' title = 'GW150914から推定される重力波の歪みの振幅' attribution = '(Graph Credits: Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)' attributionlink = 'https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger'
 {{< /figure >}}
 
 ## 重力波の検出におけるNumPyの役割
