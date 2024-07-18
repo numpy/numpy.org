@@ -65,6 +65,46 @@ See the [Team](/teams) page for more info.
 NumPy receives direct funding from the following sources:
 {{< sponsors >}}
 
+{{< grid columns="1 2 3 4" >}}
+
+[[item]]
+type = ''
+link = 'https://www.moore.org'
+body = '''{{< image >}}
+src = '/images/logos/moore.svg'
+alt = 'Logo of the Gordon and Betty Moore Foundation'
+{{< /image >}}
+'''
+
+[[item]]
+type = ''
+link = 'https://www.sloan.org'
+body = '''{{< image >}}
+src = '/images/logos/sloan.svg'
+alt = 'Logo of the Alfred P. Sloan Foundation'
+{{< /image >}}
+'''
+
+[[item]]
+type = ''
+link = 'https://www.chanzuckerberg.com'
+body = '''{{< image >}}
+src = '/images/logos/CZI.svg'
+alt = 'Logo of the Chan Zuckerberg Initiative'
+{{< /image >}}
+'''
+
+[[item]]
+type = ''
+link = 'https://www.tidelift.com'
+body = '''{{< image >}}
+src = '/images/logos/tidelift.png'
+alt = 'Logo of Tidelift'
+width = '200'
+{{< /image >}}
+'''
+
+{{< /grid >}}
 
 ## Institutional Partners
 
@@ -75,6 +115,40 @@ Institutional Partners are organizations that support the project by employing p
 - NVIDIA (Sebastian Berg)
 
 {{< partners >}}
+
+{{< grid columns="1 2 3 4" >}}
+
+[[item]]
+type = ''
+link = 'https://www.berkeley.edu'
+body = '''{{< image >}}
+src = '/images/logos/berkeley-color.svg'
+alt = 'Logo of UC Berkeley'
+width = '200'
+{{< /image >}}
+'''
+
+[[item]]
+type = ''
+link = 'https://www.quansight.com'
+body = '''{{< image >}}
+src = '/images/logos/quansight.svg'
+alt = 'Logo of Quansight'
+width = '200'
+{{< /image >}}
+'''
+
+[[item]]
+type = ''
+link = 'https://www.nvidia.com'
+body = '''{{< image >}}
+src = '/images/logos/nvidia.png'
+alt = 'Logo of NVIDIA'
+width = '200'
+{{< /image >}}
+'''
+
+{{< /grid >}}
 
 
 ## Donate
