@@ -80,16 +80,16 @@ Las posibles respuestas pueden incluir:
 * Una reprimenda privada por parte del Comité al individuo(s) involucrado. En este caso, el presidente del grupo entregará esa reprimenda al individuo(s) por correo electrónico, con copia al grupo.
 * Una reprimenda pública. En este caso, el presidente del Comité entregará esa reprimenda por el mismo medio por el que se produjo la violación, dentro de los límites de la viabilidad. Por ejemplo, la lista de correo original para una violación de correo electrónico, pero para una discusión en una sala de chat, en la que la persona o el contexto pueden haber desaparecido, puede buscarse el contacto por otros medios. El grupo puede elegir publicar este mensaje en otro lugar con fines de documentación.
 * Una solicitud de disculpa pública o privada, asumiendo que el informante esté de acuerdo con esta idea: puede negarse, a su discreción, a continuar contacto con el violador. El presidente entregará esta solicitud. El Comité puede, si así lo desea, adjuntar “cadenas” a esta petición: por ejemplo, el grupo puede solicitar a un violador pedir disculpas para preservar su membresía en una lista de correo.
-* A “mutually agreed upon hiatus” where the Committee asks the individual to temporarily refrain from community participation. If the individual chooses not to take a temporary break voluntarily, the Committee may issue a “mandatory cooling off period”.
-* A permanent or temporary ban from some or all NumPy spaces (mailing lists, gitter.im, etc.). The group will maintain records of all such bans so that they may be reviewed in the future or otherwise maintained.
+* Un “acuerdo mutuo de suspensión” en el que el Comité solicita al individuo la abstención temporal de participación en la comunidad. Si el individuo decide no aceptar una suspensión temporal voluntariamente, el Comité puede emitir un “período obligatorio de calma”.
+* Una prohibición permanente o temporal de algunos o de todos los espacios de NumPy (listas de correo, gitter.im, etc.). El grupo mantendrá los registros de todas esas prohibiciones, para que puedan ser revisadas en el futuro o ser mantenidas en caso contrario.
 
-Once a resolution is agreed upon, but before it is enacted, the Committee will contact the original reporter and any other affected parties and explain the proposed resolution. The Committee will ask if this resolution is acceptable, and must note feedback for the record.
+Una vez que se acuerda una resolución, pero antes de que se promulgue, el Comité se pondrá en contacto con el informante original y con cualquier otra parte afectada y explicará la resolución propuesta. El Comité preguntará si esta resolución es aceptable y deberá tomar nota de los comentarios para su registro.
 
-Finally, the Committee will make a report to the NumPy Steering Council (as well as the NumPy core team in the event of an ongoing resolution, such as a ban).
+Finalmente, el Comité presentará un informe al Consejo Directivo de NumPy (así como al equipo central de NumPy en caso de una decisión en curso, tal como una prohibición).
 
-The Committee will never publicly discuss the issue; all public statements will be made by the chair of the Code of Conduct Committee or the NumPy Steering Council.
+El Comité nunca debatirá públicamente el asunto; todas las declaraciones públicas serán realizadas por el presidente del Comité de Código de Conducta o el Consejo Directivo de NumPy.
 
 
-## Conflicts of Interest
+## Conflictos de intereses
 
-In the event of any conflict of interest, a Committee member must immediately notify the other members, and recuse themselves if necessary.
+En caso de cualquier conflicto de intereses, un miembro del Comité deberá notificar inmediatamente a los demás miembros y recusarse en caso de ser necesario.
