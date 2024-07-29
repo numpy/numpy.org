@@ -55,67 +55,67 @@ On all of Windows, macOS, and Linux:
 #### Conda
 
 - Install [Miniforge](https://github.com/conda-forge/miniforge).
-- Keep the `base` conda environment minimal, and use one or more [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) to install the package you need for the task or project you're working on.
+- Mantenga el entorno conda `base` mínimo, y utilice uno o más [entornos conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) para instalar el paquete que necesite para la tarea o proyecto en que está trabajando.
 
-#### Alternative if you prefer pip/PyPI
+#### Alternativa si prefiere pip/PyPI
 
-For users who know, from personal preference or reading about the main differences between conda and pip below, they prefer a pip/PyPI-based solution, we recommend:
-- Install Python from [python.org](https://www.python.org/downloads/), [Homebrew](https://brew.sh/), or your Linux package manager.
-- Use [Poetry](https://python-poetry.org/) as the most well-maintained tool that provides a dependency resolver and environment management capabilities in a similar fashion as conda does.
+Para usuarios que conocen, por preferencia personal o leyendo acerca de las diferencias principales entre conda y pip a continuación, y prefieren una solución basada en pip/PyPI, recomendamos:
+- Instalar Python desde [python.org](https://www.python.org/downloads/), [Homebrew](https://brew.sh/) o su administrador de paquetes Linux.
+- Utilice [Poetry](https://python-poetry.org/) como la herramienta mejor mantenida que proporciona una resolución de dependencias y capacidades de administración de entornos de forma similar a la que lo hace conda.
 
 
-## Python package management
+## Gestión de paquetes de Python
 
-Managing packages is a challenging problem, and, as a result, there are lots of tools. For web and general purpose Python development there's a whole [host of tools](https://packaging.python.org/guides/tool-recommendations/) complementary with pip. For high-performance computing (HPC), [Spack](https://github.com/spack/spack) is worth considering. For most NumPy users though, [conda](https://conda.io/en/latest/) and [pip](https://pip.pypa.io/en/stable/) are the two most popular tools.
+La gestión de los paquetes es un problema desafiante y, como resultado, hay muchas herramientas. Para desarrollo web y de propósito general en Python existe un completo [conjunto de herramientas ](https://packaging.python.org/guides/tool-recommendations/)complementario a pip. Para computación de alto rendimiento (HPC), [Spack](https://github.com/spack/spack) amerita ser considerado. Sin embargo, para la mayoría de usuarios de NumPy, [conda](https://conda.io/en/latest/) y [pip](https://pip.pypa.io/en/stable/) son las dos herramientas más populares.
 
 
 ### Pip & conda
 
-The two main tools that install Python packages are `pip` and `conda`. Their functionality partially overlaps (e.g. both can install `numpy`), however, they can also work together. We'll discuss the major differences between pip and conda here - this is important to understand if you want to manage packages effectively.
+Las dos herramientas principales que instalan paquetes de Python son `pip` y `conda`. Sus funcionalidades se traslapan parcialmente (por ejemplo, ambas pueden instalar `numpy`); no obstante, también pueden trabajar conjuntamente. Discutiremos las principales diferencias entre pip y conda aquí - esto es importante comprenderlo si usted desea gestionar paquetes de manera efectiva.
 
-The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. This also means conda can install non-Python libraries and tools you may need (e.g. compilers, CUDA, HDF5), while pip can't.
+La primera diferencia radica en que conda es multi-lenguaje y puede instalar Python, mientras que pip es instalado para una versión particular de Python en su sistema e instala paquetes para esa misma versión de Python solamente. Esto también significa que conda puede instalar librerías que no sean de Python y herramientas que usted pueda necesitar (por ejemplo, compiladores, CUDA, HDF5), mientras que pip no.
 
-The second difference is that pip installs from the Python Packaging Index (PyPI), while conda installs from its own channels (typically "defaults" or "conda-forge"). PyPI is the largest collection of packages by far, however, all popular packages are available for conda as well.
+La segunda diferencia es que pip instala desde el Índice de Empaquetado de Python (PyPI - Python Packaging Index), mientras que conda instala desde sus propios canales (típicamente "defaults" o "conda-forge"). PyPI es, de lejos, la colección de paquetes más grande; sin embargo, todos los paquetes populares están también disponibles para conda.
 
-The third difference is that conda is an integrated solution for managing packages, dependencies and environments, while with pip you may need another tool (there are many!) for dealing with environments or complex dependencies.
+La tercera diferencia consiste en que conda es una solución integrada para gestionar paquetes, dependencias y entornos; mientras que con pip, usted podría necesitar otra herramienta (hay muchas!) para manejar entornos o dependencias complejas.
 
 <a name="reproducible-installs"></a>
 
-### Reproducible installs
+### Instalaciones reproducibles
 
-As libraries get updated, results from running your code can change, or your code can break completely. It's important to be able to reconstruct the set of packages and versions you're using. Best practice is to:
+En la medida en que las librerías son actualizadas, los resultados al correr su código pueden cambiar, o su código puede fallar por completo. Es importante que sea capaz de reconstruir el conjunto de paquetes y versiones que usted está utilizando. La mejor práctica es:
 
-1. use a different environment per project you're working on,
-2. record package names and versions using your package installer; each has its own metadata format for this:
-   - Conda: [conda environments and environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
-   - Pip: [virtual environments](https://docs.python.org/3/tutorial/venv.html) and [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
-   - Poetry: [virtual environments and pyproject.toml](https://python-poetry.org/docs/basic-usage/)
-
-
-
-## NumPy packages & accelerated linear algebra libraries
-
-NumPy doesn't depend on any other Python packages, however, it does depend on an accelerated linear algebra library - typically [Intel MKL](https://software.intel.com/en-us/mkl) or [OpenBLAS](https://www.openblas.net/). Users don't have to worry about installing those (they're automatically included in all NumPy install methods). Power users may still want to know the details, because the used BLAS can affect performance, behavior and size on disk:
-
-- The NumPy wheels on PyPI, which is what pip installs, are built with OpenBLAS. The OpenBLAS libraries are included in the wheel. This makes the wheel larger, and if a user installs (for example) SciPy as well, they will now have two copies of OpenBLAS on disk.
-
-- In the conda defaults channel, NumPy is built against Intel MKL. MKL is a separate package that will be installed in the users' environment when they install NumPy.
-
-- In the conda-forge channel, NumPy is built against a dummy "BLAS" package. When a user installs NumPy from conda-forge, that BLAS package then gets installed together with the actual library - this defaults to OpenBLAS, but it can also be MKL (from the defaults channel), or even [BLIS](https://github.com/flame/blis) or reference BLAS.
-
-- The MKL package is a lot larger than OpenBLAS, it's about 700 MB on disk while OpenBLAS is about 30 MB.
-
-- MKL is typically a little faster and more robust than OpenBLAS.
-
-Besides install sizes, performance and robustness, there are two more things to consider:
-
-- Intel MKL is not open source. For normal use this is not a problem, but if a user needs to redistribute an application built with NumPy, this could be an issue.
-- Both MKL and OpenBLAS will use multi-threading for function calls like `np.dot`, with the number of threads being determined by both a build-time option and an environment variable. Often all CPU cores will be used. This is sometimes unexpected for users; NumPy itself doesn't auto-parallelize any function calls. It typically yields better performance, but can also be harmful - for example when using another level of parallelization with Dask, scikit-learn or multiprocessing.
+1. usar un entorno diferente por cada proyecto en el cual usted esté trabajando,
+2. almacenar los nombres de paquetes y versiones utilizando su instalador de paquetes, cada uno de los cuales tiene su propio formato de metadata para esto:
+   - Conda: [entornos conda y environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+   - Pip: [entornos virtuales](https://docs.python.org/3/tutorial/venv.html) y [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
+   - Poetry: [entornos virtuales y pyproject.toml](https://python-poetry.org/docs/basic-usage/)
 
 
-## Troubleshooting
 
-If your installation fails with the message below, see [Troubleshooting ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
+## Paquetes NumPy & librerías de álgebra lineal aceleradas
+
+NumPy no depende de ningún otro paquete de Python; sin embargo, sí depende de una librería de álgebra lineal acelerada - típicamente [Intel MKL](https://software.intel.com/en-us/mkl) u [OpenBLAS](https://www.openblas.net/). Los usuarios no tienen que preocuparse por instalar éstas (se incluyen automáticamente en todos los métodos de instalación de NumPy). Los usuarios avanzados podrían querer, de todas maneras, conocer los detalles, ya que la utilización BLAS puede afectar el desempeño, comportamiento y tamaño en disco:
+
+- Las ruedas NumPy en PyPI, que son las que pip instala, están construidas con OpenBLAS. Las librerías de OpenBLAS están incluidas en la rueda. Esto vuelve a la rueda más grande, y si un usuario instala (por ejemplo) SciPy también, tendrá dos copias de OpenBLAS en disco.
+
+- En el canal defaults o predeterminado de conda, NumPy está basado en Intel MKL. MKL es un paquete separado que se instalará en el entorno de usuario al instalar NumPy.
+
+- En el canal conda-forge, Numpy está basado en un paquete "BLAS" ficticio o dummy. Cuando un usuario instala NumPy desde conda-forge, ese paquete BLAS es instalado junto con la librería - éste por defecto es OpenBLAS, pero también puede ser MKL (desde el canal defaults o predeterminado), o incluso [BLIS](https://github.com/flame/blis) o referencia BLAS.
+
+- El paquete MKL es mucho más grande que OpenBLAS, de alrededor de 700 MB en disco, mientras que OpenBLAS es aproximadamente de 30MB.
+
+- MKL es normalmente un poco más rápido y más robusto que OpenBLAS.
+
+Además del tamaño de instalación, desempeño y robustez, hay dos aspectos más a considerar:
+
+- Intel MKL no es de código abierto. Para uso normal esto no es un problema, pero si un usuario necesita redistribuir una aplicación construida con NumPy, esto podría ser un inconveniente.
+- MKL y OpenBLAS utilizan funciones multihilo como `np.dot`, siendo el número de hilos determinado tanto por una opción de tiempo de compilación como por una variable de entorno. Todos los núcleos de la CPU usualmente serán utilizados. Esto es en ocasiones inesperado para los usuarios. NumPy en sí mismo no paraleliza automáticamente ninguna llamada a función. Normalmente produce un mejor rendimiento, pero también puede ser perjudicial - por ejemplo cuando se utiliza otro nivel de paralelización con Dask, el aprendizaje de la ciencia o multiprocesamiento.
+
+
+## Resolución de problemas
+
+Si su instalación falla con el siguiente mensaje, revise el siguiente enlace [Resolución de problemas ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
 
 ```
 IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
