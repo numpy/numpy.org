@@ -137,42 +137,42 @@ _31 de diciembre de 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release
 
 NumPy 1.22.0 es un gran lanzamiento que contó con el trabajo de 153 colaboradores distribuidos sobre 609 solicitudes de incorporación de cambios. Las versiones de Python soportadas por este lanzamiento son 3.8-3.10.
 
-### Advancing an inclusive culture in the scientific Python ecosystem
+### Promoviendo una cultura inclusiva en el ecosistema científico de Python
 
-_August 31, 2021_ -- We are happy to announce the Chan Zuckerberg Initiative has [awarded a grant](https://chanzuckerberg.com/newsroom/czi-awards-16-million-for-foundational-open-source-software-tools-essential-to-biomedicine/) to support the onboarding, inclusion, and retention of people from historically marginalized groups on scientific Python projects, and to structurally improve the community dynamics for NumPy, SciPy, Matplotlib, and Pandas.
+_31 de agosto de 2021_ -- Nos complace anunciar que la Iniciativa Chan Zuckerberg ha [otorgado una subvención](https://chanzuckerberg.com/newsroom/czi-awards-16-million-for-foundational-open-source-software-tools-essential-to-biomedicine/) para apoyar la incorporación, inclusión, y retención de personas de grupos históricamente marginados en proyectos científicos de Python y para mejorar estructuralmente la dinámica de la comunidad para NumPy, SciPy, Matplotlib y Pandas.
 
-As a part of [CZI's Essential Open Source Software for Science program](https://chanzuckerberg.com/eoss/), this [Diversity & Inclusion supplemental grant](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b) will support the creation of dedicated Contributor Experience Lead positions to identify, document, and implement practices to foster inclusive open-source communities. This project will be led by Melissa Mendonça (NumPy), with additional mentorship and guidance provided by Ralf Gommers (NumPy, SciPy), Hannah Aizenman and Thomas Caswell (Matplotlib), Matt Haberland (SciPy), and Joris Van den Bossche (Pandas).
+Como parte del [Programa de Software Esencial de Código Abierto para la Ciencia de CZI](https://chanzuckerberg.com/eoss/), esta subvención suplementaria de [Diversidad &e Inclusión](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b) apoyará la creación de posiciones dedicadas de Líder de Experiencia del Colaborador para identificar, documentar e implementar prácticas para fomentar comunidades inclusivas de código abierto. Este proyecto será liderado por Melissa Mendonça (NumPy), con mentoría y orientación adicionales por parte de Ralf Gommers (NumPy, SciPy), Hannah Aizenman y Thomas Caswell (Matplotlib), Matt Haberland (SciPy), y Joris Van den Bossche (Pandas).
 
-This is an ambitious project aiming to discover and implement activities that should structurally improve the community dynamics of our projects. By establishing these new cross-project roles, we hope to introduce a new collaboration model to the Scientific Python communities, allowing community-building work within the ecosystem to be done more efficiently and with greater outcomes. We also expect to develop a clearer picture of what works and what doesn't in our projects to engage and retain new contributors, especially from historically underrepresented groups. Finally, we plan on producing detailed reports on the actions executed, explaining how they have impacted our projects in terms of representation and interaction with our communities.
+Este es un proyecto ambicioso destinado a descubrir e implementar actividades que deberían mejorar estructuralmente la dinámica comunitaria de nuestros proyectos. Al establecer estos nuevos roles entre proyectos, esperamos introducir un nuevo modelo de colaboración para las comunidades de Python Científico, permitiendo que el trabajo de construcción de comunidades dentro del ecosistema se realice de manera más eficiente y con mejores resultados. También esperamos desarrollar una imagen más clara tanto de lo que sí y como de lo que no funciona en nuestros proyectos, para atraer y retener nuevos colaboradores, especialmente de grupos históricamente subrepresentados. Finalmente, planeamos producir informes detallados sobre las acciones ejecutadas, explicando cómo éstas han impactado nuestros proyectos en términos de representación e interacción con nuestras comunidades.
 
-The two-year project is expected to start by November 2021, and we are excited to see the results from this work! [You can read the full proposal here](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063).
+Se espera que este proyecto, de dos años de duración, comience en noviembre de 2021, y estamos emocionados por ver los resultados de este trabajo! [Puede leer la propuesta completa aquí](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063).
 
-### 2021 NumPy survey
+### Encuesta de NumPy de 2021
 
-_July 12, 2021_ -- At NumPy, we believe in the power of our community. 1,236 NumPy users from 75 countries participated in our inaugural survey last year. The survey findings gave us a very good understanding of what we should focus on for the next 12 months.
+_12 de julio de 2021_ -- En NumPy creemos en el poder de nuestra comunidad. 1,236 usuarios de NumPy de 75 países participaron en nuestra encuesta inaugural el año pasado. Los resultados de la encuesta nos dieron una muy buena comprensión acerca de lo que debería ser nuestro enfoque durante los próximos 12 meses.
 
-It’s time for another survey, and we are counting on you once again. It will take about 15 minutes of your time. Besides English, the survey questionnaire is available in 8 additional languages: Bangla, French, Hindi, Japanese, Mandarin, Portuguese, Russian, and Spanish.
+Es hora de otra encuesta, y contamos contigo una vez más. Te tomará alrededor de 15 minutos de tu tiempo. Además de inglés, el cuestionario de la encuesta está disponible en 8 idiomas adicionales: Bangla, Francés, Hindi, Japonés, Mandarín, Portugués, Ruso y Español.
 
-Follow the link to get started: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSl4q.
-
-
-### Numpy 1.21.0 release
-
-_Jun 23, 2021_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) is now available. Los aspectos más destacados de esta versión son:
-
-- continued SIMD work covering more functions and platforms,
-- initial work on the new dtype infrastructure and casting,
-- universal2 wheels for Python 3.8 and Python 3.9 on Mac,
-- improved documentation,
-- improved annotations,
-- new `PCG64DXSM` bitgenerator for random numbers.
-
-This NumPy release is the result of 581 merged pull requests contributed by 175 people.  The Python versions supported for this release are 3.7-3.9, support for Python 3.10 will be added after Python 3.10 is released.
+Sigue el enlace para comenzar: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSl4q.
 
 
-### 2020 NumPy survey results
+### Lanzamiento de NumPy 1.21.0
 
-_Jun 22, 2021_ -- In 2020, the NumPy survey team in partnership with students and faculty from the University of Michigan and the University of Maryland conducted the first official NumPy community survey. Find the survey results here: https://numpy.org/user-survey-2020/.
+_23 de junio de 2021_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) ya está disponible. Los aspectos más destacados de esta versión son:
+
+- trabajo SIMD continuo que cubre más funciones y plataformas,
+- trabajo inicial sobre la nueva infraestructura dtype y conversiones de tipo,
+- ruedas universal2 para Python 3.8 y Python 3.9 en Mac,
+- documentación mejorada,
+- anotaciones mejoradas,
+- nuevo `PCG64DXSM` generador de bits para números aleatorios.
+
+Esta versión de NumPy es el resultado de 581 solicitudes de incorporación de cambios contribuidas por 175 personas.  Las versiones de Python soportadas por este lanzamiento son las 3.7-3.9, se añadirá soporte para Python 3.10 después del lanzamiento de Python 3.10.
+
+
+### Resultados de la encuesta de NumPy de 2020
+
+_22 de junio de 2021_ -- En 2020, el equipo de encuestas de NumPy, en asociación con los estudiantes y profesores de la Universidad de Michigan y la Universidad de Maryland, realizó la primera encuesta oficial de la comunidad NumPy. Encuentra los resultados de la encuesta aquí: https://numpy.org/user-survey-2020/.
 
 
 ### Numpy 1.20.0 release
@@ -235,58 +235,58 @@ _Dec 22, 2019_ -- NumPy 1.18.0 is now available. After the major changes in 1.17
 Please see the [release notes](https://github.com/numpy/numpy/releases/tag/v1.18.0) for more details.
 
 
-### NumPy receives a grant from the Chan Zuckerberg Initiative
+### NumPy recibe una subvención de la Iniciativa Chan Zuckerberg
 
-_Nov 15, 2019_ -- We are pleased to announce that NumPy and OpenBLAS, one of NumPy's key dependencies, have received a joint grant for $195,000 from the Chan Zuckerberg Initiative through their [Essential Open Source Software for Science program](https://chanzuckerberg.com/eoss/) that supports software maintenance, growth, development, and community engagement for open source tools critical to science.
+_15 de noviembre de 2019_ -- Nos complace anunciar que NumPy y OpenBLAS, una de las dependencias clave de NumPy, han recibido una subvención conjunta por $195,000 de la Iniciativa Chan Zuckerberg a través de su [programa Esencial de Software Abierto para la Ciencia](https://chanzuckerberg.com/eoss/) que apoya el mantenimiento de software, crecimiento, desarrollo y compromiso comunitario para herramientas de código abierto críticas para la ciencia.
 
-This grant will be used to ramp up the efforts in improving NumPy documentation, website redesign, and community development to better serve our large and rapidly growing user base, and ensure the long-term sustainability of the project. While the OpenBLAS team will focus on addressing sets of key technical issues, in particular thread-safety, AVX-512, and thread-local storage (TLS) issues, as well as algorithmic improvements in ReLAPACK (Recursive LAPACK) on which OpenBLAS depends.
+Esta subvención se utilizará para acelerar los esfuerzos en la mejora de la documentación de NumPy, rediseño del sitio web y desarrollo de la comunidad para servir mejor a nuestra amplia y creciente base de usuarios, y asegurar la sostenibilidad a largo plazo del proyecto. Mientras que el equipo de OpenBLAS se enfocará en abordar conjuntos de problemas técnicos clave, en particular la seguridad de los hilos, AVX-512, y problemas de almacenamiento local de hilos (TLS), así como mejoras algorítmicas en ReLAPACK (Recursive LAPACK) de las que depende OpenBLAS.
 
-More details on our proposed initiatives and deliverables can be found in the [full grant proposal](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167). The work is scheduled to start on Dec 1st, 2019 and continue for the next 12 months.
+Puede encontrar más detalles sobre nuestras iniciativas y entregables propuestos en la [propuesta completa de subvención](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167). Está previsto que el trabajo comience el 1 de diciembre de 2019 y continúe durante los siguientes 12 meses.
 
 
 <a name="releases"></a>
 
-## Releases
+## Lanzamientos
 
-Here is a list of NumPy releases, with links to release notes. Bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
+Esta es una lista de lanzamientos NumPy, con enlaces a notas de lanzamiento. Los lanzamientos de corrección de errores (solo cambia la `z` en el número de versión `x.y.z`) no tienen nuevas características; las versiones menores (aumenta la `y`) sí las tienen.
 
-- NumPy 2.0.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.0.1)) -- _21 Jul 2024_.
-- NumPy 2.0.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.0.0)) -- _16 Jun 2024_.
-- NumPy 1.26.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.26.4)) -- _5 Feb 2024_.
-- NumPy 1.26.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.26.3)) -- _2 Jan 2024_.
-- NumPy 1.26.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.26.2)) -- _12 Nov 2023_.
+- NumPy 2.0.1 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.0.1)) -- _21 de julio de 2024_.
+- NumPy 2.0.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.0.0)) -- _16 de junio de 2024_.
+- NumPy 1.26.4 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.26.4)) -- _5 de febrero de 2024_.
+- NumPy 1.26.3 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.26.3)) -- _2 de enero de 2024_.
+- NumPy 1.26.2 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.26.0)) -- _12 de noviembre de 2023_.
 - NumPy 1.26.1 ([notas de publicación](https://github.com/numpy/numpy/releases/tag/v1.26.1)) -- _14 Oct 2023_.
 - NumPy 1.26.0 ([notas de publicación](https://github.com/numpy/numpy/releases/tag/v1.26.0)) -- _16 Sep 2023_.
-- NumPy 1.25.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.25.2)) -- _31 Jul 2023_.
-- NumPy 1.25.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.25.1)) -- _8 Jul 2023_.
-- NumPy 1.24.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.24.4)) -- _26 Jun 2023_.
-- NumPy 1.25.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.25.0)) -- _17 Jun 2023_.
-- NumPy 1.24.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.24.3)) -- _22 Apr 2023_.
-- NumPy 1.24.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.24.2)) -- _5 Feb 2023_.
-- NumPy 1.24.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.24.1)) -- _26 Dec 2022_.
-- NumPy 1.24.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.24.0)) -- _18 Dec 2022_.
-- NumPy 1.23.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.23.5)) -- _19 Nov 2022_.
-- NumPy 1.23.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.23.4)) -- _12 Oct 2022_.
-- NumPy 1.23.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.23.3)) -- _9 Sep 2022_.
-- NumPy 1.23.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.23.2)) -- _14 Aug 2022_.
-- NumPy 1.23.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.23.1)) -- _8 Jul 2022_.
-- NumPy 1.23.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.23.0)) -- _22 Jun 2022_.
-- NumPy 1.22.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.22.4)) -- _20 May 2022_.
-- NumPy 1.21.6 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.6)) -- _12 Apr 2022_.
-- NumPy 1.22.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.22.3)) -- _7 Mar 2022_.
-- NumPy 1.22.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.22.2)) -- _3 Feb 2022_.
-- NumPy 1.22.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.22.1)) -- _14 Jan 2022_.
-- NumPy 1.22.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.22.0)) -- _31 Dec 2021_.
-- NumPy 1.21.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.5)) -- _19 Dec 2021_.
-- NumPy 1.21.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.21.0)) -- _22 Jun 2021_.
-- NumPy 1.20.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.20.3)) -- _10 May 2021_.
-- NumPy 1.20.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.20.0)) -- _30 Jan 2021_.
-- NumPy 1.19.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.19.5)) -- _5 Jan 2021_.
-- NumPy 1.19.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.19.0)) -- _20 Jun 2020_.
-- NumPy 1.18.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.18.4)) -- _3 May 2020_.
-- NumPy 1.17.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.17.5)) -- _1 Jan 2020_.
-- NumPy 1.18.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.18.0)) -- _22 Dec 2019_.
-- NumPy 1.17.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.17.0)) -- _26 Jul 2019_.
-- NumPy 1.16.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.16.0)) -- _14 Jan 2019_.
-- NumPy 1.15.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.15.0)) -- _23 Jul 2018_.
-- NumPy 1.14.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.14.0)) -- _7 Jan 2018_.
+- NumPy 1.25.2 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.25.2)) -- _31 de julio de 2023_.
+- NumPy 1.25.1 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.25.1)) -- _8 de julio de 2023_.
+- NumPy 1.24.4 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.24.4)) -- _26 de junio de 2023_.
+- NumPy 1.25.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.25.0)) -- _17 de junio de 2023_.
+- NumPy 1.24.3 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.24.3)) -- _22 de abril de 2023_.
+- NumPy 1.24.2 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.24.2)) -- _5 de febrero de 2023_.
+- NumPy 1.24.1 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.24.1)) -- _26 de diciembre de 2022_.
+- NumPy 1.24.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.24.0)) -- _18 de diciembre de 2022_.
+- NumPy 1.23.5 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.26.0)) -- _19 de noviembre de 2022_.
+- NumPy 1.23.4 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.23.4)) -- _12 de octubre de 2022_.
+- NumPy 1.23.3 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.23.3)) -- _9 de septiembre de 2022_.
+- NumPy 1.23.2 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.23.2)) -- _14 de agosto de 2022_.
+- NumPy 1.23.1 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.23.1)) -- _8 de julio de 2022_.
+- NumPy 1.23.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.23.0)) -- _22 de junio de 2022_.
+- NumPy 1.22.4 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.22.4)) -- _20 de mayo de 2022_.
+- NumPy 1.21.6 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.21.6)) -- _12 de abril de 2022_.
+- NumPy 1.22.3 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.22.3)) -- _7 de marzo de 2022_.
+- NumPy 1.22.2 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.22.2)) -- _3 de febrero de 2022_.
+- NumPy 1.22.1 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.22.1)) -- _14 de enero de 2022_.
+- NumPy 1.22.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.22.0)) -- _31 de diciembre de 2021_.
+- NumPy 1.21.5 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.21.5)) -- _19 de diciembre de 2021_.
+- NumPy 1.21.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.21.0)) -- _22 de junio de 2021_.
+- NumPy 1.20.3 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.20.3)) -- _10 de mayo de 2021_.
+- NumPy 1.20.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.20.0)) -- _30 de enero de 2021_.
+- NumPy 1.19.5 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.19.5)) -- _5 de enero de 2021_.
+- NumPy 1.19.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.19.0)) -- _20 de junio de 2020_.
+- NumPy 1.18.4 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.18.4)) -- _3 de mayo de 2020_.
+- NumPy 1.17.5 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.17.5)) -- _1 de enero de 2020_.
+- NumPy 1.18.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.18.0)) -- _22 de diciembre de 2019_.
+- NumPy 1.17.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.17.0)) -- _26 de julio de 2019_.
+- .
+- NumPy 1.15.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.15.0)) -- _23 de julio de 2018_.
+- NumPy 1.14.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.14.0)) -- _7 de enero de 2018_.
