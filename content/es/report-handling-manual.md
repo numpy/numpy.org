@@ -1,16 +1,16 @@
 ---
-title: NumPy Code of Conduct - How to follow up on a report
-sidebar: false
+title: Código de Conducta de NumPy - Cómo hacer el seguimiento de un informe
+sidebar: falso
 ---
 
-This is the manual followed by NumPy’s Code of Conduct Committee. It’s used when we respond to an issue to make sure we’re consistent and fair.
+Este es el manual seguido por el Comité de Código de Conducta de NumPy. Se utiliza cuando respondemos a un problema, para asegurarnos de que seamos consistentes y justos.
 
-Enforcing the [Code of Conduct](/code-of-conduct) impacts our community today and for the future. It’s an action that we do not take lightly. When reviewing enforcement measures, the Code of Conduct Committee will keep the following values and guidelines in mind:
+Hacer cumplir el [Código de Conducta](/code-of-conduct) impacta a nuestra comunidad hoy y en el futuro. Es una acción que no tomamos a la ligera. Al revisar las medidas de cumplimiento, el Comité de Código de Conducta tendrá en cuenta los siguientes valores y directrices:
 
-* Act in a personal manner rather than impersonal. The Committee can engage the parties to understand the situation while respecting the privacy and any necessary confidentiality of reporters. However, sometimes it is necessary to communicate with one or more individuals directly: the Committee’s goal is to improve the health of our community rather than only produce a formal decision.
-* Emphasize empathy for individuals rather than judging behavior, avoiding binary labels of “good” and “bad/evil”. Overt, clear-cut aggression and harassment exist, and we will address them firmly. But many scenarios that can prove challenging to resolve are those where normal disagreements devolve into unhelpful or harmful behavior from multiple parties. Understanding the full context and finding a path that re-engages all is hard, but ultimately the most productive for our community.
-* We understand that email is a difficult medium and can be isolating. Receiving criticism over email, without personal contact, can be particularly painful. This makes it especially important to keep an atmosphere of open-minded respect for the views of others. It also means that we must be transparent in our actions, and that we will do everything in our power to make sure that all our members are treated fairly and with sympathy.
-* Discrimination can be subtle and it can be unconscious. It can show itself as unfairness and hostility in otherwise ordinary interactions. We know that this does occur, and we will take care to look out for it. We would very much like to hear from you if you feel you have been treated unfairly, and we will use these procedures to make sure that your complaint is heard and addressed.
+* Actuar de manera personal en lugar de impersonal. El Comité puede involucrar a las partes para que comprendan la situación, respetando la privacidad y cualquier confidencialidad necesaria de los informantes. Sin embargo, a veces es necesario comunicarse directamente con uno o más individuos: el objetivo del Comité es mejorar la salud de nuestra comunidad en lugar de solo producir una decisión formal.
+* Enfatizar la empatía hacia los individuos en lugar de juzgar el comportamiento, evitando etiquetas binarias de “bueno” y “malo/malvado”. El acoso directo y claro existe, y lo afrontaremos con firmeza. Pero en muchas circunstancias puede ser complejo resolver estas situaciones, sobre todo aquellas en las que desacuerdos normales conllevan a comportamientos inútiles o perjudiciales para las partes. Comprender el contexto completo y encontrar un camino que vuelva involucrar a todos es difícil, pero es en última instancia lo más productivo para nuestra comunidad.
+* Comprendemos que el correo electrónico es un medio difícil y puede generar aislamiento. Recibir críticas por medio de correo electrónico, sin ningún contacto personal, puede ser particularmente doloroso. Esto hace que sea especialmente importante mantener una ambiente de apertura y respeto hacia las opiniones de los demás. También significa que debemos ser transparentes en nuestro actuar, y que debemos hacer todo lo que esté a nuestro alcance para asegurarnos de que todos nuestros miembros sean tratados de manera justa y con compasión.
+* La discriminación puede ser sutil e inconsciente. It can show itself as unfairness and hostility in otherwise ordinary interactions. We know that this does occur, and we will take care to look out for it. We would very much like to hear from you if you feel you have been treated unfairly, and we will use these procedures to make sure that your complaint is heard and addressed.
 * Help increase engagement in good discussion practice: try to identify where discussion may have broken down, and provide actionable information, pointers, and resources that can lead to positive change on these points.
 * Be mindful of the needs of new members: provide them with explicit support and consideration, with the aim of increasing participation from underrepresented groups in particular.
 * Individuals come from different cultural backgrounds and native languages. Try to identify any honest misunderstandings caused by a non-native speaker and help them understand the issue and what they can change to avoid causing offence. Complex discussion in a foreign language can be very intimidating, and we want to grow our diversity also across nationalities and cultures.
@@ -63,23 +63,23 @@ This information will be collected in writing, and whenever possible the group�
 
 It is important to retain an archive of all activities of this Committee to ensure consistency in behavior and provide institutional memory for the project. To assist in this, the default channel of discussion for this Committee will be a private mailing list accessible to current and future members of the Committee as well as members of the Steering Council upon justified request. If the Committee finds the need to use off-list communications (e.g. phone calls for early/rapid response), it should in all cases summarize these back to the list so there’s a good record of the process.
 
-The Code of Conduct Committee should aim to have a resolution agreed upon within two weeks. In the event that a resolution can’t be determined in that time, the Committee will respond to the reporter(s) with an update and projected timeline for resolution.
+The Code of Conduct Committee should aim to have a resolution agreed upon within two weeks. Dado el caso de que no se pueda establecer una decisión dentro de dicho plazo, el Comité responderá a los informantes con una actualización y duración estimada para la decisión.
 
 
-## Resolutions
+## Resoluciones
 
-The Committee must agree on a resolution by consensus. If the group cannot reach consensus and deadlocks for over a week, the group will turn the matter over to the Steering Council for resolution.
+El comité debe llegar a un acuerdo sobre una resolución por consenso. Si el grupo no puede alcanzar un consenso y permanece en un punto muerto durante más de una semana, le trasladará el asunto al Consejo Directivo para que lo resuelva.
 
-Possible responses may include:
+Las posibles respuestas pueden incluir:
 
-* Taking no further action:
-  -   if we determine no violations have occurred;
-  -   if the matter has been resolved publicly while the Committee was considering responses.
-* Coordinating voluntary mediation: if all involved parties agree, the Committee may facilitate a mediation process as detailed above.
-* Remind publicly, and point out that some behavior/actions/language have been judged inappropriate and why in the current context, or can but hurtful to some people, requesting the community to self-adjust.
-* A private reprimand from the Committee to the individual(s) involved. In this case, the group chair will deliver that reprimand to the individual(s) over email, cc’ing the group.
-* A public reprimand. In this case, the Committee chair will deliver that reprimand in the same venue that the violation occurred, within the limits of practicality. E.g., the original mailing list for an email violation, but for a chat room discussion where the person/context may be gone, they can be reached by other means. The group may choose to publish this message elsewhere for documentation purposes.
-* A request for a public or private apology, assuming the reporter agrees to this idea: they may at their discretion refuse further contact with the violator. The chair will deliver this request. The Committee may, if it chooses, attach “strings” to this request: for example, the group may ask a violator to apologize in order to retain one’s membership on a mailing list.
+* No tomar más medidas:
+  -   si determinamos que no se han producido violaciones;
+  -   si el asunto se ha resuelto públicamente mientras que el Comité estaba estudiando las respuestas.
+* Coordinación de mediación voluntaria: si todas las partes implicadas están de acuerdo, el Comité podrá facilitar un proceso de mediación como se detalla arriba.
+* Recordar públicamente y señalar que algunos comportamientos/acciones/usos de lenguaje, han sido juzgados como inapropiados y por qué, bajo el contexto actual, pueden ser hirientes para algunas personas, solicitando a la comunidad que se autorregule.
+* Una reprimenda privada por parte del Comité al individuo(s) involucrado. En este caso, el presidente del grupo entregará esa reprimenda al individuo(s) por correo electrónico, con copia al grupo.
+* Una reprimenda pública. En este caso, el presidente del Comité entregará esa reprimenda por el mismo medio por el que se produjo la violación, dentro de los límites de la viabilidad. Por ejemplo, la lista de correo original para una violación de correo electrónico, pero para una discusión en una sala de chat, en la que la persona o el contexto pueden haber desaparecido, puede buscarse el contacto por otros medios. El grupo puede elegir publicar este mensaje en otro lugar con fines de documentación.
+* Una solicitud de disculpa pública o privada, asumiendo que el informante esté de acuerdo con esta idea: puede negarse, a su discreción, a continuar contacto con el violador. El presidente entregará esta solicitud. El Comité puede, si así lo desea, adjuntar “cadenas” a esta petición: por ejemplo, el grupo puede solicitar a un violador pedir disculpas para preservar su membresía en una lista de correo.
 * A “mutually agreed upon hiatus” where the Committee asks the individual to temporarily refrain from community participation. If the individual chooses not to take a temporary break voluntarily, the Committee may issue a “mandatory cooling off period”.
 * A permanent or temporary ban from some or all NumPy spaces (mailing lists, gitter.im, etc.). The group will maintain records of all such bans so that they may be reviewed in the future or otherwise maintained.
 
