@@ -15,39 +15,39 @@ This code is not exhaustive or complete. It serves to distill our common underst
 
 ### Specific Guidelines
 
-We strive to:
+Cantera
 
-1. Be open. We invite anyone to participate in our community. We prefer to use public methods of communication for project-related messages, unless discussing something sensitive. This applies to messages for help or project-related support, too; not only is a public support request much more likely to result in an answer to a question, it also ensures that any inadvertent mistakes in answering are more easily detected and corrected.
-2. Be empathetic, welcoming, friendly, and patient. We work together to resolve conflict, and assume good intentions. We may all experience some frustration from time to time, but we do not allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.
-3. Be collaborative. Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of the project, we are willing to explain to others how it works, so that they can build on the work to make it even better. Any decision we make will affect users and colleagues, and we take those consequences seriously when making decisions.
-4. Be inquisitive. Nobody knows everything! Asking questions early avoids many problems later, so we encourage questions, although we may direct them to the appropriate forum. We will try hard to be responsive and helpful.
-5. Be careful in the words that we choose. We are careful and respectful in our communication, and we take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. We will not accept harassment or other exclusionary behaviour, such as:
-    * Violent threats or language directed against another person.
-    * Sexist, racist, or otherwise discriminatory jokes and language.
-    * Posting sexually explicit or violent material.
-    * Posting (or threatening to post) other people’s personally identifying information (“doxing”).
-    * Sharing private content, such as emails sent privately or non-publicly, or unlogged forums such as IRC channel history, without the sender’s consent.
-    * Personal insults, especially those using racist or sexist terms.
-    * Unwelcome sexual attention.
-    * Excessive profanity. Please avoid swearwords; people differ greatly in their sensitivity to swearing.
-    * Repeated harassment of others. In general, if someone asks you to stop, then stop.
-    * Advocating for, or encouraging, any of the above behaviour.
+1. Ser abiertos. Invitamos a todas las personas a participar en nuestra comunidad. Preferimos utilizar métodos de comunicación públicos para los mensajes relacionados con el proyecto, a menos que se trate de algo delicado. Esto se aplica también a los mensajes de ayuda o soporte relacionados con el proyecto; no sólo es mucho más probable que una solicitud de soporte pública dé lugar a una respuesta a una pregunta, sino que también garantiza que cualquier error involuntario en la respuesta se detecte y corrija más fácilmente.
+2. Be empathetic, welcoming, friendly, and patient. Trabajamos juntos para resolver los conflictos y asumimos que hay buenas intenciones. Todos podemos experimentar cierta frustración de vez en cuando, pero no permitimos que la frustración se convierta en un ataque personal. Una comunidad en la que la gente se siente incómoda o amenazada no es productiva.
+3. Ser colaborativos. Nuestro trabajo será utilizado por otras personas, y a su vez dependeremos del trabajo de otros. Cuando hacemos algo en beneficio del proyecto, estamos dispuestos a explicar a otros cómo funciona, de manera que puedan construir sobre este trabajo para hacerlo aún mejor. Cualquier decisión que tomemos afectará a usuarios y colegas, y nos tomamos en serio esas consecuencias a la hora de tomar decisiones.
+4. Ser curiosos. ¡Nadie lo sabe todo! Hacer preguntas tempranas evita muchos problemas posteriores, por lo que fomentamos las preguntas, aunque las podamos redirigir al foro adecuado. Nos esforzaremos por ser receptivos y útiles.
+5. Ser cuidadosos con las palabras que elegimos. Somos cuidadosos y respetuosos en nuestra comunicación, y asumimos la responsabilidad del lenguaje que utilizamos. Ser amables con los demás. No insultes ni menosprecies a los demás participantes. No aceptaremos el acoso ni otros comportamientos excluyentes, tales como:
+    * Amenazas o expresiones violentas dirigidas a otra persona.
+    * Bromas y lenguaje sexista, racista o discriminatorio.
+    * Publicar material sexualmente explícito o violento.
+    * Publicar (o amenazar con publicar) información de identificación personal de otras personas ("doxing").
+    * Compartir contenido privado, como correos electrónicos enviados de forma privada o no pública, o foros no registrados como el historial de canales IRC, sin el consentimiento del remitente.
+    * Insultos personales, especialmente aquellos que utilizan términos racistas o sexistas.
+    * Atención sexual no deseada.
+    * Uso excesivo de lenguaje inapropiado. Por favor, evite las palabras soeces; las personas difieren mucho en su sensibilidad a las malas palabras.
+    * Acoso reiterado a los demás. En general, si alguien le pide que se detenga, entonces deténgase.
+    * Abogar o alentar cualquiera de las conductas anteriormente mencionadas.
 
-### Diversity Statement
+### Declaración de Diversidad
 
-The NumPy project welcomes and encourages participation by everyone. We are committed to being a community that everyone enjoys being part of. Although we may not always be able to accommodate each individual’s preferences, we try our best to treat everyone kindly.
+El proyecto NumPy acoge y fomenta la participación de todos. Estamos comprometidos a ser una comunidad de la que todo el mundo disfrute ser parte. Aunque puede que no siempre seamos capaces de satisfacer las preferencias de cada individuo, intentamos al máximo tratar a todos con amabilidad.
 
-No matter how you identify yourself or how others perceive you: we welcome you. Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct.
+No importa cómo te identifiques o cómo te perciban los demás: te damos la bienvenida. Aunque ninguna lista puede esperar ser exhaustiva, honramos explícitamente la diversidad en: edad, cultura, etnia, genotipo, identidad o expresión de género, lengua, origen nacional, neurotipo, fenotipo, creencias políticas, profesión, raza, religión, orientación sexual, estatus socioeconómico, subcultura y capacidad técnica, en la medida en que éstas no entren en conflicto con este código de conducta.
 
-Though we welcome people fluent in all languages, NumPy development is conducted in English.
+Aunque aceptamos a personas con dominio de cualquier idioma, el desarrollo de NumPy se lleva a cabo en inglés.
 
-Standards for behaviour in the NumPy community are detailed in the Code of Conduct above. Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
+Los estándares de comportamiento en la comunidad NumPy se detallan en el Código de Conducta anterior. Los participantes de nuestra comunidad deben respetar estos estándares en todas sus interacciones y ayudar a los demás a hacer lo mismo (véase la siguiente sección).
 
-### Reporting Guidelines
+### Directrices Para La Presentación De Informes
 
-We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We also recognize that sometimes people may have a bad day, or be unaware of some of the guidelines in this Code of Conduct. Please keep this in mind when deciding on how to respond to a breach of this Code.
+Sabemos que es dolorosamente común que la comunicación en Internet comience o se convierta en un abuso evidente y manifiesto. También reconocemos que a veces la gente puede tener un mal día, o no ser consciente de algunas de las directrices de este Código de Conducta. Por favor, tenga esto en cuenta a la hora de decidir cómo responder a una violación de este Código.
 
-For clearly intentional breaches, report those to the Code of Conduct Committee (see below). For possibly unintentional breaches, you may reply to the person and point out this code of conduct (either in public or in private, whatever is most appropriate). If you would prefer not to do that, please feel free to report to the Code of Conduct Committee directly, or ask the Committee for advice, in confidence.
+En caso de infracciones claramente intencionadas, informe de éstas al Comité de Código de Conducta (ver más abajo). En caso de infracciones posiblemente involuntarias, puede responder a la persona y señalar este código de conducta (tanto en público como en privado, lo que sea más apropiado). Si prefiere no hacerlo, puede informar directamente al Comité de Código de Conducta o pedirle consejo a éste de forma confidencial.
 
 You can report issues to the NumPy Code of Conduct Committee at numpy-conduct@googlegroups.com.
 
