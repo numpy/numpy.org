@@ -1,26 +1,26 @@
 ---
-title: News
-sidebar: false
-newsHeader: "NumPy 2.0 released!"
+title: Noticias
+sidebar: falso
+newsHeader: "Lanzamiento de NumPy 2.0!"
 date: 2024-06-17
 ---
 
-### NumPy 2.0.0 released
+### Lanzamiento de NumPy 2.0.0
 
-_16 Jun, 2024_ -- NumPy 2.0.0 is the first major release since 2006. It is the result of 11 months of development since the last feature release and is the work of 212 contributors spread over 1078 pull requests. It contains a large number of exciting new features as well as changes to both the Python and C APIs.  It includes breaking changes that could not happen in a regular minor release - including an ABI break, changes to type promotion rules, and API changes which may not have been emitting deprecation warnings in 1.26.x. Key documents related to how to adapt to changes in NumPy 2.0 include:
+_16 de junio de 2024_ -- NumPy 2.0.0 es el primer lanzamiento importante desde 2006. Es el resultado de 11 meses de desarrollo desde el último lanzamiento de características y es el trabajo de 212 colaboradores distribuidos entre 1078 solicitudes de incorporación de cambios. Contiene un gran número de nuevas características emocionantes, así como cambios en las APIs de Python y C.  Incluye cambios importantes que no podrían ocurrir en un lanzamiento menor regular, incluyendo una ruptura de ABI, cambios en las reglas de promoción de tipos y cambios en la API que pueden no haber estado emitiendo advertencias de obsolescencia en la versión 1.26.x. Los documentos clave relacionados con cómo adaptarse a los cambios en NumPy 2.0 incluyen:
 
-- The [NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
-- The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
-- Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
+- La [guía de migración a NumPy 2.0](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- Las [ notas del lanzamiento 2.0.0](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- Problema de anuncio para actualizaciones de estado: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
-The blog post ["NumPy 2.0: an evolutionary milestone"](https://blog.scientific-python.org/numpy/numpy2/) tells a bit of the story about how this release came together.
+La publicación ["NumPy 2.0: un hito evolutivo"](https://blog.scientific-python.org/numpy/numpy2/) cuenta un poco de la historia sobre cómo se llegó a este lanzamiento.
 
 
-### NumPy 2.0 release date: June 16
+### Fecha de lanzamiento de NumPy 2.0: 16 de junio
 
-_23 May, 2024_ -- We are excited to announce that NumPy 2.0 is planned to be released on June 16, 2024. This release has been over a year in the making, and is the first major release since 2006. Importantly, in addition to many new features and performance improvement, it contains **breaking changes** to the ABI as well as the Python and C APIs. It is likely that downstream packages and end user code needs to be adapted - if you can, please verify whether your code works with NumPy `2.0.0rc2`. **Please see the following for more details:**
+_23 de mayo de 2024_ -- Estamos encantados de anunciar que NumPy 2.0 está previsto que sea lanzado el 16 de junio de 2024. Esta publicación lleva más de un año en proceso y es el primer lanzamiento importante desde 2006. Es importante destacar que, además de muchas nuevas características y mejoras en el rendimiento, contiene **cambios disruptivos** frente al ABI, como también a las APIs de Python y C. Es probable que los paquetes dependientes o downstream y código de usuario final necesiten ser adaptados - si puede, por favor verifique si su código funciona con NumPy `2.0.0rc2`. **Por favor, vea lo siguiente para más detalles:**
 
-- The [NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- La [guía de migración a NumPy 2.0](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
 - The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
 - Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
@@ -94,48 +94,48 @@ How can we be better when it comes to diversity and inclusion? Read the report a
 
 _Jan 6, 2023_ –- Mukulika Pahari and Ross Barnowski are appointed as the new NumPy documentation team leads replacing Melissa Mendonça. We thank Melissa for all her contributions to the NumPy official documentation and educational materials, and Mukulika and Ross for stepping up.
 
-### NumPy 1.24.0 released
+### Lanzamiento de NumPy 1.24.0
 
-_Dec 18, 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) is now available. The highlights of the release are:
+_18 de diciembre de 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) ya está disponible. Los aspectos más destacados del lanzamiento son:
 
-* New "dtype" and "casting" keywords for stacking functions.
-* New F2PY features and fixes.
-* Many new deprecations, check them out.
-* Many expired deprecations,
+* Nuevas palabras clave "dtype" y "casting" para las funciones de apilamiento o stacking.
+* Nuevas características y correcciones de F2PY.
+* Muchas nuevas obsolescencias, revísalas.
+* Muchas obsolescencias caducadas,
 
-The NumPy 1.24.0 release continues the ongoing work to improve the handling and promotion of dtypes, increase execution speed, and clarify the documentation. There are a large number of new and expired deprecations due to changes in dtype promotion and cleanups. It is the work of 177 contributors spread over 444 pull requests. The supported Python versions are 3.8-3.11.
+El lanzamiento de NumPy 1.24.0 continúa el trabajo en curso para mejorar el manejo y promoción de dtypes, aumentar la velocidad de ejecución y clarificar la documentación. Hay un gran número de obsolescencias nuevas y caducadas debido a los cambios en la limpieza y promoción de tipo dtype. Es el trabajo de 177 colaboradores distribuidos sobre 444 solicitudes de incorporación de cambios. Las versiones Python soportadas son 3.8-3.11.
 
-### Numpy 1.23.0 released
+### NumPy 1.23.0 ha sido lanzado
 
-_Jun 22, 2022_ -- [NumPy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) is now available. The highlights of the release are:
+_22 de junio de 2022_ -- [NumPy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) ya está disponible. Los aspectos más destacados del lanzamiento son:
 
-* Implementation of `loadtxt` in C, greatly improving its performance.
-* Exposure of DLPack at the Python level for easy data exchange.
-* Changes to the promotion and comparisons of structured dtypes.
-* Improvements to f2py.
+* Implementación de `loadtxt` en C, mejorando enormemente su rendimiento.
+* Exposición de DLPack a nivel Python para facilitar el intercambio de datos.
+* Cambios a la promoción y comparación de dtypes estructurados.
+* Mejoras a f2py.
 
-The NumPy 1.23.0 release continues the ongoing work to improve the handling and promotion of dtypes, increase the execution speed, clarify the documentation, and expire old deprecations. It is the work of 151 contributors spread over 494 pull requests. The Python versions supported by this release 3.8-3.10. Python 3.11 will be supported when it reaches the rc stage.
+El lanzamiento de NumPy 1.23.0 continúa el trabajo en curso para mejorar el manejo y promoción de dtypes, aumentar la velocidad de ejecución y clarificar la documentación, caducar viejas obsolescencias. Es el trabajo de 151 colaboradores distribuidos sobre 494 solicitudes de incorporación de cambios. Las versiones de Python soportadas por este lanzamiento son 3.8-3.10. Python 3.11 será soportado cuando alcance la etapa rc.
 
-### NumFOCUS DEI research study: call for participation
+### Estudio de investigación NumFOCUS DEI: llamado a participar
 
-_Apr 13, 2022_ -- NumPy is working with [NumFOCUS](http://numfocus.org/) on a [research project](https://numfocus.org/diversity-inclusion-disc/a-pivotal-time-in-numfocuss-project-aimed-dei-efforts?eType=EmailBlastContent&eId=f41a86c3-60d4-4cf9-86cf-58eb49dc968c) funded by the [Gordon & Betty Moore Foundation](https://www.moore.org/) to understand the barriers to participation that contributors, particularly those from historically underrepresented groups, face in the open-source software community. The research team would like to talk to new contributors, project developers and maintainers, and those who have contributed in the past about their experiences joining and contributing to NumPy.
+_13 de abril de 2022_ -- NumPy está trabajando con [NumFOCUS](http://numfocus.org/) en un [proyecto de investigación](https://numfocus.org/diversity-inclusion-disc/a-pivotal-time-in-numfocuss-project-aimed-dei-efforts?eType=EmailBlastContent&eId=f41a86c3-60d4-4cf9-86cf-58eb49dc968c) financiado por la [Fundación Gordon & Betty Moore](https://www.moore.org/) para entender las barreras de participación que enfrentan los colaboradores, especialmente aquellos de grupos históricamente subrepresentados, en la comunidad de software de código abierto. El equipo de investigación quisiera hablar con nuevos colaboradores, desarrolladores y mantenedores del proyecto, y con aquellos que han contribuido en el pasado acerca de sus experiencias uniéndose y contribuyendo a NumPy.
 
-**Interested in sharing your experiences?**
+**¿Estás interesado en compartir tus experiencias?**
 
-Please complete this brief [“Participant Interest” form](https://numfocus.typeform.com/to/WBWVJSqe) which contains additional information on the research goals, privacy, and confidentiality considerations. Your participation will be valuable to the growth and sustainability of diverse and inclusive open-source software communities. Accepted participants will participate in a 30-minute interview with a research team member.
+Por favor, complete este breve [formulari o de "Interés del Participante"](https://numfocus.typeform.com/to/WBWVJSqe), que contiene información adicional sobre los objetivos de la investigación, la privacidad y las consideraciones de confidencialidad. Su participación será valiosa para el crecimiento y la sostenibilidad de comunidades de software de código abierto diversas e inclusivas. Los participantes aceptados participarán en una entrevista de 30 minutos con un miembro del equipo de investigación.
 
-### Numpy 1.22.0 release
+### Lanzamiento de NumPy 1.22.0
 
-_Dec 31, 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) is now available. The highlights of the release are:
+_31 de diciembre de 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) ya está disponible. Los aspectos más destacados del lanzamiento son:
 
-* Type annotations of the main namespace are essentially complete. Upstream is a moving target, so there will likely be further improvements, but the major work is done. This is probably the most user visible enhancement in this release.
-* A preliminary version of the proposed [array API Standard](https://data-apis.org/array-api/latest/) is provided (see [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)). This is a step in creating a standard collection of functions that can be used across libraries such as CuPy and JAX.
-* NumPy now has a DLPack backend. DLPack provides a common interchange format for array (tensor) data.
-* New methods for `quantile`, `percentile`, and related functions. The new methods provide a complete set of the methods commonly found in the literature.
-* The universal functions have been refactored to implement most of [NEP 43](https://numpy.org/neps/nep-0043-extensible-ufuncs.html). This also unlocks the ability to experiment with the future DType API.
-* A new configurable memory allocator for use by downstream projects.
+* Las anotaciones de tipo del espacio de nombres principal están esencialmente completas. Upstream is a moving target, so there will likely be further improvements, but the major work is done. El repositorio principal (upstream) es un objetivo en movimiento, así que probablemente habrán más mejoras, pero el trabajo principal ya está hecho.
+* Una versión preliminar del propuesto [Estándar API de Arreglos](https://data-apis.org/array-api/latest/) es suministrada (véase [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)). Este es un paso en la creación de una colección estándar de funciones que pueden ser usadas a través de librerías como CuPy y JAX.
+* NumPy ahora tiene un backend de DLPack. DLPack proporciona un formato de intercambio común para datos de arreglos (tensor).
+* Nuevos métodos para `cuantil`, `percentil` y funciones relacionadas. Los nuevos métodos proporcionan un conjunto completo de los métodos comúnmente encontrados en la literatura.
+* Las funciones universales se han refactorizado para implementar la mayor parte de [NEP 43](https://numpy.org/neps/nep-0043-extensible-ufuncs.html). Esto también desbloquea la capacidad de experimentar con la futura API DType.
+* Un nuevo asignador de memoria configurable para el uso de proyectos dependientes o downstream.
 
-NumPy 1.22.0 is a big release featuring the work of 153 contributors spread over 609 pull requests. The Python versions supported by this release are 3.8-3.10.
+NumPy 1.22.0 es un gran lanzamiento que contó con el trabajo de 153 colaboradores distribuidos sobre 609 solicitudes de incorporación de cambios. Las versiones de Python soportadas por este lanzamiento son 3.8-3.10.
 
 ### Advancing an inclusive culture in the scientific Python ecosystem
 
