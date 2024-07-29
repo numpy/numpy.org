@@ -4,7 +4,7 @@ sidebar: falso
 ---
 
 {{< figure >}}
-src = '/images/content_images/cs/mice-hand.gif' title = 'Analyzing mice hand-movement using DeepLapCut' alt = 'micehandanim' attribution = '(Source: www.deeplabcut.org )' attributionlink = 'http://www.mousemotorlab.org/deeplabcut'
+src = '/images/content_images/cs/mice-hand.gif' title = 'Analizar movimiento del ratón usando DeepLapCut' alt = 'micehandanim' attribution = '(Fuente: www.deeplabcut.org )' attributionlink = 'http://www.mousemASElab.org/deeplabcut'
 {{< /figure >}}
 
 {{< blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/" by="Alexander Mathis, *Assistant Professor, École polytechnique fédérale de Lausanne* ([EPFL](https://www.epfl.ch/en/))"
