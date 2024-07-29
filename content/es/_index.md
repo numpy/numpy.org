@@ -5,45 +5,45 @@ title: null
 {{< grid columns="1 2 2 3" >}}
 
 [[item]]
-type = 'card'
-title = 'Powerful N-dimensional arrays'
+type = 'tarjeta'
+title = 'Matrices N-dimensionales potentes'
 body = '''
-Fast and versatile, the NumPy vectorization, indexing, and broadcasting concepts are the de-facto standards of array computing today.
+Rápida y versátil, la vectorización, indexación y conceptos de broadcasting de NumPy son los estándares de facto en el cálculo de matrices hoy en día.
 '''
 
 [[item]]
 type = 'card'
-title = 'Numerical computing tools'
+title = 'Herramientas de cálculo numérico'
 body = '''
-NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
+NumPy ofrece funciones matemáticas completas, generadores de números aleatorios, rutinas de álgebra lineal, transformadas de Fourier, y más.
 '''
 
 [[item]]
 type = 'card'
-title = 'Open source'
+title = 'Código abierto'
 body = '''
-Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/community).
+Distribuido bajo una [licencia BSD] liberal (https://github.com/numpy/numpy/blob/main/LICENSE.txt), NumPy es desarrollado y mantenido [públicamente en GitHub](https://github.com/numpy/numpy) por una vibrante, receptiva y diversa [comunidad](/comunidad).
 '''
 
 [[item]]
 type = 'card'
 title = 'Interoperable'
 body = '''
-NumPy supports a wide range of hardware and computing platforms, and plays well with distributed, GPU, and sparse array libraries.
+NumPy soporta una amplia gama de hardware y plataformas de computación, y funciona bien con librerías distribuidas, de GPU y de matrices dispersas.
 '''
 
 [[item]]
 type = 'card'
-title = 'Performant'
+title = 'Óptimo'
 body = '''
-The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
+El núcleo de NumPy está optimizado adecuadamente con código en C. Disfrute de la flexibilidad de Python con la velocidad del código compilado.
 '''
 
 [[item]]
 type = 'card'
-title = 'Easy to use'
+title = 'Fácil de usar'
 body = '''
-NumPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
+La sintaxis de alto nivel de NumPy lo hace accesible y productivo para programadores de cualquier formación o nivel de experiencia.
 '''
 
 {{< /grid>}}
