@@ -1,6 +1,6 @@
 ---
-title: "Case Study: DeepLabCut 3D Pose Estimation"
-sidebar: false
+title: "Caso de estudio: Estimación de Postura 3D DeepLabCut"
+sidebar: falso
 ---
 
 {{< figure >}}
