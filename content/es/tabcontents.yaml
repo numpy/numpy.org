@@ -128,8 +128,8 @@ params:
             url: https://seaborn.pydata.org/
             label: Seaborn
       - 
-        title: Signal Processing
-        alttext: A bar chart with positive and negative values.
+        title: Procesamiento de Señales
+        alttext: Un gráfico de barras con valores positivos y negativos.
         img: /images/content_images/sc_dom_img/signal_processing.svg
         links:
           - 
@@ -143,10 +143,10 @@ params:
             label: python-control
           - 
             url: https://hyperspy.org/
-            label: HyperSpy
+            label: HiperSpy
       - 
-        title: Image Processing
-        alttext: An photograph of the mountains.
+        title: Procesamiento de Imágenes
+        alttext: Una fotografía de las montañas.
         img: /images/content_images/sc_dom_img/image_processing.svg
         links:
           - 
@@ -176,8 +176,8 @@ params:
             url: https://pygsp.rtfd.io/
             label: PyGSP
       - 
-        title: Astronomy
-        alttext: A telescope.
+        title: Astronomía
+        alttext: Un telescopio.
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
         links:
           - 
@@ -266,8 +266,8 @@ params:
             url: https://www.pybamm.org/
             label: PyBaMM
       - 
-        title: Geoscience
-        alttext: The Earth.
+        title: Geociencia
+        alttext: La Tierra.
         img: /images/content_images/sc_dom_img/geoscience.svg
         links:
           - 
@@ -297,8 +297,8 @@ params:
             url: https://python-visualization.github.io/folium
             label: Folium
       - 
-        title: Architecture & Engineering
-        alttext: A microprocessor development board.
+        title: Arquitectura e Ingeniería
+        alttext: Una placa de desarrollo de microprocesadores.
         img: /images/content_images/sc_dom_img/robotics.svg
         links:
           - 
@@ -306,7 +306,7 @@ params:
             label: COMPAS
           - 
             url: https://cityenergyanalyst.com/
-            label: City Energy Analyst
+            label: City Energy Analyst - Analista de Energía de Ciudad
           - 
             url: https://nortikin.github.io/sverchok/
             label: Sverchok
