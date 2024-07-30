@@ -32,17 +32,17 @@ Recientemente, se presentó el [modelo zoo de DeepLabCut](http://www.mousemotorl
 
 ### Objetivos y Resultados Clave
 
-* **Automation of animal pose analysis for scientific studies:**
+* **Automatización del análisis de la postura animal para estudios científicos:**
 
-  The primary objective of DeepLabCut technology is to measure and track posture of animals in a diverse settings. This data can be used, for example, in neuroscience studies to understand how the brain controls movement, or to elucidate how animals socially interact. Researchers have observed a [tenfold performance boost](https://www.biorxiv.org/content/10.1101/457242v1) with DeepLabCut. Poses can be inferred offline at up to 1200 frames per second (FPS).
+  El objetivo principal de la tecnología DeepLabCut es medir y rastrear la postura de los animales en diversos entornos. Estos datos se pueden utilizar, por ejemplo, en estudios de neurociencia para entender cómo el cerebro controla el movimiento, o para dilucidar como interactúan socialmente los animales. Los investigadores han observado un [aumento de rendimiento diez veces mayor](https://www.biorxiv.org/content/10.1101/457242v1) con DeepLabCut. Las posturas se pueden inferir sin conexión hasta a 1200 fotogramas por segundo (FPS).
 
-* **Creation of an easy-to-use Python toolkit for pose estimation:**
+* **Creación de un conjunto de herramientas de Python de fácil uso para la estimación de postura:**
 
-  DeepLabCut wanted to share their animal pose-estimation technology in the form of an easy to use tool that can be adopted by researchers easily. So they have created a complete, easy-to-use Python toolbox with project management features as well. These enable not only automation of pose-estimation but also managing the project end-to-end by helping the DeepLabCut Toolkit user right from the dataset collection stage to creating shareable and reusable analysis pipelines.
+  DeepLabCut quería compartir su tecnología de estimación de postura animal en la forma de una herramienta de fácil uso que pueda ser adoptada fácilmente por los investigadores. Así que han creado un conjunto de herramientas de Python completo y de fácil uso, también con características de administración de proyectos. Estas permiten no solo la automatización de la estimación de postura, sino también administrar el proyecto de punta a punta ayudando al usuario del conjunto de herramientas de DeepLabCut desde la etapa de recolección del conjunto de datos para crear flujos de trabajo de análisis compartibles y reutilizables.
 
-  Their [toolkit][DLCToolkit] is now available as open source.
+  Su [conjunto de herramientas][DLCToolkit] ahora está disponible como código abierto.
 
-  A typical DeepLabCut Workflow includes:
+  En flujo de trabajo típico de DeepLabCut incluye:
 
   - creation and refining of training sets via active learning
   - creation of tailored neural networks for specific animals and scenarios
@@ -61,11 +61,11 @@ src = '/images/content_images/cs/deeplabcut-toolkit-steps.png' title = 'Pose est
 
 * **Combinatorics**
 
-    Combinatorics involves assembly and integration of movement of multiple limbs into individual animal behavior. Assembling keypoints and their connections into individual animal movements and linking them across time is a complex process that requires heavy-duty numerical analysis, especially in case of multi-animal movement tracking in experiment videos.
+    Combinatorics involves assembly and integration of movement of multiple limbs into individual animal behavior. Ensamblar puntos clave y sus conexiones en movimientos individuales de animales y vincularlos a lo largo del tiempo es un proceso complejo que requiere un análisis numérico intensivo, especialmente en el caso del seguimiento de movimientos de múltiples animales en videos de experimentos.
 
-* **Data Processing**
+* **Procesamiento de Datos**
 
-    Last but not the least, array manipulation - processing large stacks of arrays corresponding to various images, target tensors and keypoints is fairly challenging.
+    Por último, pero no menos importante, la manipulación de arreglos - procesamiento de grandes pilas de arreglos correspondientes a varias imágenes, tensores objetivo y puntos clave es bastante desafiante.
 
 {{< figure >}}
 src = '/images/content_images/cs/pose-estimation.png' title = 'Pose estimation variety and complexity' alt = 'challengesfig' align = 'center' attribution = '(Source: Mackenzie Mathis)' attributionlink = 'https://www.biorxiv.org/content/10.1101/476531v1.full.pdf'
