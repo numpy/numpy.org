@@ -68,10 +68,10 @@ src = '/images/content_images/cs/deeplabcut-toolkit-steps.png' title = 'Pose est
     Por último, pero no menos importante, la manipulación de arreglos - procesamiento de grandes pilas de arreglos correspondientes a varias imágenes, tensores objetivo y puntos clave es bastante desafiante.
 
 {{< figure >}}
-src = '/images/content_images/cs/pose-estimation.png' title = 'Pose estimation variety and complexity' alt = 'challengesfig' align = 'center' attribution = '(Source: Mackenzie Mathis)' attributionlink = 'https://www.biorxiv.org/content/10.1101/476531v1.full.pdf'
+src = '/images/content_images/cs/pose-estimation.png' title = 'Estimación de variedad y complejidad de postura' alt = 'challengesfig' align = 'centro' atribución = '(Fuente: Mackenzie Mathis)' attributionlink = 'https://www. iorxiv.org/content/10.1101/476531v1.full.pdf'
 {{< /figure >}}
 
-## NumPy's Role in meeting Pose Estimation Challenges
+## El Papel de NumPy para afrontar los desafíos de la estimación de postura
 
 NumPy addresses DeepLabCut technology's core need of numerical computations at high speed for behavioural analytics.  Besides NumPy, DeepLabCut employs various Python software that utilize NumPy at their core, such as [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug), [scikit-learn](https://scikit-learn.org/stable/), [scikit-image](https://scikit-image.org) and [Tensorflow](https://www.tensorflow.org).
 
