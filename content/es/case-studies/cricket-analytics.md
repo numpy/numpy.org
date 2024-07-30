@@ -14,18 +14,18 @@ src = '/images/content_images/cs/ipl-stadium.png' title = 'IPLT20, the biggest C
 
 ## About Cricket
 
-It would be an understatement to state that Indians love cricket. The game is played in just about every nook and cranny of India, rural or urban, popular with the young and the old alike, connecting billions in India unlike any other sport. Cricket enjoys lots of media attention. There is a significant amount of [money](https://www.statista.com/topics/4543/indian-premier-league-ipl/) and fame at stake. Over the last several years, technology has literally been a game changer. Audiences are spoilt for choice with streaming media, tournaments, affordable access to mobile based live cricket watching, and more.
+It would be an understatement to state that Indians love cricket. The game is played in just about every nook and cranny of India, rural or urban, popular with the young and the old alike, connecting billions in India unlike any other sport. Cricket enjoys lots of media attention. Hay una cantidad importante de [dinero](https://www.statista.com/topics/4543/indian-premier-league-ipl/) y fama en juego. En los últimos años, la tecnología ha cambiado literalmente las reglas del juego. El público tiene muchas opciones para elegir entre streaming de medios, torneos, acceso asequible a la visualización de críquet en vivo desde dispositivos móviles y más.
 
-The Indian Premier League (IPL) is a professional Twenty20 cricket league, founded in 2008. It is one of the most attended cricketing events in the world, valued at [$6.7 billion](https://en.wikipedia.org/wiki/Indian_Premier_League) in 2019.
+La Premier League de India (IPL) es una liga profesional de críquet Twenty20, fundada en 2008. Es uno de los eventos de críquet más concurridos en el mundo, valorado en [$6.7 mil millones de dólares](https://en.wikipedia.org/wiki/Indian_Premier_League) en 2019.
 
-Cricket is a game of numbers - the runs scored by a batsman, the wickets taken by a bowler, the matches won by a cricket team, the number of times a batsman responds in a certain way to a kind of bowling attack, etc. The capability to dig into cricketing numbers for both improving performance and studying the business opportunities, overall market, and economics of cricket via powerful analytics tools, powered by numerical computing software such as NumPy, is a big deal. Cricket analytics provides interesting insights into the game and predictive intelligence regarding game outcomes.
+El críquet es un juego de números - las carreras anotadas por un bateador, los wickets tomados por un lanzador, los partidos ganados por un equipo de críquet, el número de veces que un bateador responde de cierta manera a un tipo de ataque de lanzamiento, etc. La capacidad de profundizar en los números del críquet tanto para mejorar el rendimiento como para estudiar las oportunidades de negocio, el mercado en general y la economía del cricket mediante potentes herramientas de análisis, impulsadas por software de computación numérica como NumPy, es algo muy importante. El análisis del críquet proporciona ideas interesantes sobre el juego e inteligencia predictiva respecto a los resultados del juego.
 
-Today, there are rich and almost infinite troves of cricket game records and statistics available, e.g., [ESPN cricinfo](https://stats.espncricinfo.com/ci/engine/stats/index.html) and [cricsheet](https://cricsheet.org). These and several such cricket databases have been used for [cricket analysis](https://www.researchgate.net/publication/336886516_Data_visualization_and_toss_related_analysis_of_IPL_teams_and_batsmen_performances) using the latest machine learning and predictive modelling algorithms. Media and entertainment platforms along with professional sports bodies associated with the game use technology and analytics for determining key metrics for improving match winning chances:
+Hoy en día, hay abundantes y casi infinitos tesoros de registros y estadísticas de juegos de críquet disponibles, por ejemplo, en [ESPN cricinfo](https://stats.espncricinfo.com/ci/engine/stats/index.html) y [cricsheet](https://cricsheet.org). Estas y muchas otras bases de datos de cricket se han utilizado para el [análisis de cricket](https://www.researchgate.net/publication/336886516_Data_visualization_and_toss_related_analysis_of_IPL_teams_and_batsmen_performances) utilizando los últimos algoritmos de aprendizaje automático y modelación predictiva. Las plataformas de medios y entretenimiento, junto con los organismos deportivos profesionales asociados con el juego, utilizan la tecnología y el análisis para determinar métricas clave que mejoren las posibilidades de ganar los partidos:
 
-* batting performance moving average,
-* score forecasting,
-* gaining insights into fitness and performance of a player against different opposition,
-* player contribution to wins and losses for making strategic decisions on team composition
+* promedio móvil del rendimiento de bateo,
+* pronóstico del marcador,
+* obtener información sobre la condición física y el rendimiento de un jugador contra diferentes oponentes,
+* contribución del jugador a las victorias y derrotas para tomar decisiones estratégicas sobre la composición del equipo
 
 {{< figure >}}
 src = '/images/content_images/cs/cricket-pitch.png' title = 'Cricket Pitch, the focal point in the field' alt = 'A cricket pitch with bowler and batsmen' align = 'center' attribution = '(Image credit: Debarghya Das)' attributionlink = 'http://debarghyadas.com/files/IPLpaper.pdf'
@@ -45,11 +45,11 @@ src = '/images/content_images/cs/player-pose-estimator.png' alt = 'pose estimato
 
 * **Data Cleaning and preprocessing**
 
-  IPL has expanded cricket beyond the classic test match format to a much larger scale. The number of matches played every season across various formats has increased and so has the data, the algorithms, newer sports data analysis technologies and simulation models. Cricket data analysis requires field mapping, player tracking, ball tracking, player shot analysis, and several other aspects involved in how the ball is delivered, its angle, spin, velocity, and trajectory. All these factors together have increased the complexity of data cleaning and preprocessing.
+  IPL has expanded cricket beyond the classic test match format to a much larger scale. The number of matches played every season across various formats has increased and so has the data, the algorithms, newer sports data analysis technologies and simulation models. Cricket data analysis requires field mapping, player tracking, ball tracking, player shot analysis, and several other aspects involved in how the ball is delivered, its angle, spin, velocity, and trajectory. Todos estos factores juntos han incrementado la complejidad de la limpieza de datos y el preprocesamiento.
 
-* **Dynamic Modeling**
+* **Modelación Dinámica**
 
-  In cricket, just like any other sport, there can be a large number of variables related to tracking various numbers of players on the field, their attributes, the ball, and several possibilities of potential actions. The complexity of data analytics and modeling is directly proportional to the kind of predictive questions that are put forth during analysis and are highly dependent on data representation and the model. Las cosas se vuelven aún más desafiantes en términos de cálculo y comparación de datos cuando se buscan predicciones dinámicas del juego de críquet, tal como habría sucedido si el bateador hubiera golpeado la bola a un ángulo o velocidad diferente.
+  En el cricket, al igual que en cualquier otro deporte, puede haber una gran cantidad de variables relacionadas con el seguimiento de varios jugadores en el campo, sus atributos, la pelota y varias posibilidades de acciones potenciales. The complexity of data analytics and modeling is directly proportional to the kind of predictive questions that are put forth during analysis and are highly dependent on data representation and the model. Las cosas se vuelven aún más desafiantes en términos de cálculo y comparación de datos cuando se buscan predicciones dinámicas del juego de críquet, tal como habría sucedido si el bateador hubiera golpeado la bola a un ángulo o velocidad diferente.
 
 * **Complejidad de Análisis Predictivo**
 
