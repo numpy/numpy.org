@@ -10,7 +10,7 @@ Hacer cumplir el [Código de Conducta](/code-of-conduct) impacta a nuestra comun
 * Actuar de manera personal en lugar de impersonal. El Comité puede involucrar a las partes para que comprendan la situación, respetando la privacidad y cualquier confidencialidad necesaria de los informantes. Sin embargo, a veces es necesario comunicarse directamente con uno o más individuos: el objetivo del Comité es mejorar la salud de nuestra comunidad en lugar de solo producir una decisión formal.
 * Enfatizar la empatía hacia los individuos en lugar de juzgar el comportamiento, evitando etiquetas binarias de “bueno” y “malo/malvado”. El acoso directo y claro existe, y lo afrontaremos con firmeza. Pero en muchas circunstancias puede ser complejo resolver estas situaciones, sobre todo aquellas en las que desacuerdos normales conllevan a comportamientos inútiles o perjudiciales para las partes. Comprender el contexto completo y encontrar un camino que vuelva involucrar a todos es difícil, pero es en última instancia lo más productivo para nuestra comunidad.
 * Comprendemos que el correo electrónico es un medio difícil y puede generar aislamiento. Recibir críticas por medio de correo electrónico, sin ningún contacto personal, puede ser particularmente doloroso. Esto hace que sea especialmente importante mantener una ambiente de apertura y respeto hacia las opiniones de los demás. También significa que debemos ser transparentes en nuestro actuar, y que debemos hacer todo lo que esté a nuestro alcance para asegurarnos de que todos nuestros miembros sean tratados de manera justa y con compasión.
-* La discriminación puede ser sutil e inconsciente. It can show itself as unfairness and hostility in otherwise ordinary interactions. We know that this does occur, and we will take care to look out for it. We would very much like to hear from you if you feel you have been treated unfairly, and we will use these procedures to make sure that your complaint is heard and addressed.
+* La discriminación puede ser sutil e inconsciente. Ésta puede manifestarse como injusticia y hostilidad en interacciones que, por todo lo demás, serían normales. We know that this does occur, and we will take care to look out for it. We would very much like to hear from you if you feel you have been treated unfairly, and we will use these procedures to make sure that your complaint is heard and addressed.
 * Help increase engagement in good discussion practice: try to identify where discussion may have broken down, and provide actionable information, pointers, and resources that can lead to positive change on these points.
 * Be mindful of the needs of new members: provide them with explicit support and consideration, with the aim of increasing participation from underrepresented groups in particular.
 * Individuals come from different cultural backgrounds and native languages. Try to identify any honest misunderstandings caused by a non-native speaker and help them understand the issue and what they can change to avoid causing offence. Complex discussion in a foreign language can be very intimidating, and we want to grow our diversity also across nationalities and cultures.
@@ -22,26 +22,26 @@ Voluntary informal mediation is a tool at our disposal. In contexts such as when
 
 * Find a candidate who can serve as a mediator.
 * Obtain the agreement of the reporter(s). The reporter(s) have complete freedom to decline the mediation idea or to propose an alternate mediator.
-* Obtain the agreement of the reported person(s).
-* Settle on the mediator: while parties can propose a different mediator than the suggested candidate, only if a common agreement is reached on all terms can the process move forward.
-* Establish a timeline for mediation to complete, ideally within two weeks.
+* Obtener el acuerdo de la persona informante(s).
+* Acuerden el mediador: aunque las partes pueden proponer un mediador diferente al candidato sugerido, solo si se llega a un acuerdo común en todos los términos se puede avanzar en el proceso.
+* Establezca un marco de tiempo para completar la mediación, idealmente dentro de dos semanas.
 
-The mediator will engage with all the parties and seek a resolution that is satisfactory to all. Upon completion, the mediator will provide a report (vetted by all parties to the process) to the Committee, with recommendations on further steps. The Committee will then evaluate these results (whether a satisfactory resolution was achieved or not) and decide on any additional action deemed necessary.
-
-
-## How the Committee will respond to reports
-
-When the Committee (or a Committee member) receives a report, they will first determine whether the report is about a clear and severe breach (as defined below). If so, immediate action needs to be taken in addition to the regular report handling process.
+El mediador dialogará con todas las partes y buscará una decisión que sea satisfactoria para todos. Una vez concluido el proceso, el mediador proporcionará un informe (revisado por todas las partes del proceso) al Comité, con recomendaciones sobre pasos a seguir. El comité a su vez evaluará estos resultados (bien se haya logrado una decisión satisfactoria o no) y decidirá sobre cualquier acción que considere necesaria.
 
 
-## Clear and severe breach actions
+## Cómo responderá el Comité a los informes
 
-We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We will deal quickly with clear and severe breaches like personal threats, violent, sexist or racist language.
+Cuando el Comité (o uno de sus miembros) recibe un informe, primero determinará si el éste se refiere a una violación clara y grave (como se define a continuación). En caso afirmativo, será necesario tomar medidas inmediatas adicionales al proceso de gestión de informe habitual.
 
-When a member of the Code of Conduct Committee becomes aware of a clear and severe breach, they will do the following:
 
-* Immediately disconnect the originator from all NumPy communication channels.
-* Reply to the reporter that their report has been received and that the originator has been disconnected.
+## Acciones violatorias claras y severas
+
+Sabemos que es dolorosamente común que la comunicación en Internet comience o se convierta en un abuso evidente y manifiesto. Nos ocuparemos rápidamente de violaciones claras y graves, tales como amenazas personales, lenguaje violento, sexista o racista.
+
+Cuando un miembro del Comité de Código de Conducta tenga conocimiento de una violación clara y grave, hará lo siguiente:
+
+* Desconectará inmediatamente al originador de todos los canales de comunicación de NumPy.
+* Responderá al informante que su informe ha sido recibido y que el autor ha sido desconectado.
 * In every case, the moderator should make a reasonable effort to contact the originator, and tell them specifically how their language or actions qualify as a “clear and severe breach”. The moderator should also say that, if the originator believes this is unfair or they want to be reconnected to NumPy, they have the right to ask for a review, as below, by the Code of Conduct Committee. The moderator should copy this explanation to the Code of Conduct Committee.
 * The Code of Conduct Committee will formally review and sign off on all cases where this mechanism has been applied to make sure it is not being used to control ordinary heated disagreement.
 
@@ -61,9 +61,9 @@ The Committee will then review the incident and determine, to the best of their 
 
 This information will be collected in writing, and whenever possible the group’s deliberations will be recorded and retained (i.e. chat transcripts, email discussions, recorded conference calls, summaries of voice conversations, etc).
 
-It is important to retain an archive of all activities of this Committee to ensure consistency in behavior and provide institutional memory for the project. To assist in this, the default channel of discussion for this Committee will be a private mailing list accessible to current and future members of the Committee as well as members of the Steering Council upon justified request. If the Committee finds the need to use off-list communications (e.g. phone calls for early/rapid response), it should in all cases summarize these back to the list so there’s a good record of the process.
+Es importante conservar un archivo de todas las actividades de este Comité para asegurar consistencia en el comportamiento y proporcionar memoria institucional para el proyecto. Para ayudar en esto, el canal de discusión por defecto para este Comité será una lista de correo privada accesible a los miembros actuales y futuros del Comité, así como a los miembros del Consejo Directivo con previa solicitud justificada. Si el Comité considera necesario utilizar comunicaciones fuera de la lista (por ejemplo, para una respuesta temprana/rápida), deberá, en todos los casos, resumirlos y documentarlos de vuelta a la lista, de manera que se mantenga un buen registro del proceso.
 
-The Code of Conduct Committee should aim to have a resolution agreed upon within two weeks. Dado el caso de que no se pueda establecer una decisión dentro de dicho plazo, el Comité responderá a los informantes con una actualización y duración estimada para la decisión.
+El Comité de Código de Conducta debería aspirar a que se acuerde una resolución en el plazo de dos semanas. Dado el caso de que no se pueda establecer una decisión dentro de dicho plazo, el Comité responderá a los informantes con una actualización y duración estimada para la decisión.
 
 
 ## Resoluciones
