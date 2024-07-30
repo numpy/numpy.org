@@ -1,6 +1,6 @@
 ---
-title: NumPy Code of Conduct
-sidebar: false
+title: Código de conducta de NumPy
+sidebar: falso
 aliases:
   - /conduct.html
 ---
@@ -57,27 +57,27 @@ Currently, the Committee consists of:
 * Melissa Weber Mendonça
 * Rohit Goswami
 
-If your report involves any members of the Committee, or if they feel they have a conflict of interest in handling it, then they will recuse themselves from considering your report. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
+Si tu informe implica a algún miembro del Comité, o si éste considera que tiene un conflicto de intereses en su tramitación, se abstendrán de examinar tu denuncia. Alternativamente, si por cualquier razón usted se siente incómodo haciendo un informe al Comité, también puede ponerse en contacto con el personal de NumFOCUS senior en [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
-### Incident reporting resolution & Code of Conduct enforcement
+### Resolución de reporte de informes & aplicación del Código de Conducta
 
-_This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](report-handling-manual).
+_Esta sección resume los puntos más importantes, puede encontrar más detalles en el_ [Código de Conducta de NumPy - Cómo hacer seguimiento a un informe](report-handling-manual).
 
-We will investigate and respond to all complaints. The NumPy Code of Conduct Committee and the NumPy Steering Committee (if involved) will protect the identity of the reporter, and treat the content of complaints as confidential (unless the reporter agrees otherwise).
+Investigaremos y responderemos a todas las quejas. El Comité de Código de Conducta de NumPy y el Consejo Directivo de NumPy (en caso de estar involucrado) protegerán la identidad del denunciante y tratarán el contenido de las denuncias con carácter confidencial (a menos que el denunciante acuerde lo contrario).
 
-In case of severe and obvious breaches, e.g. personal threat or violent, sexist or racist language, we will immediately disconnect the originator from NumPy communication channels; please see the manual for details.
+En caso de infracciones graves y evidentes, por ejemplo, amenaza personal o lenguaje violento, sexista o racista, desconectaremos inmediatamente al originador de los canales de comunicación de NumPy; por favor consulte el manual para obtener más detalles.
 
-In cases not involving clear severe and obvious breaches of this Code of Conduct the process for acting on any received Code of Conduct violation report will be:
+En casos que no impliquen violaciones claras y graves u obvias de este Código de Conducta, el proceso de actuación sobre cualquier informe de violación del Código de Conducta recibido será:
 
-1. acknowledge report is received,
-2. reasonable discussion/feedback,
-3. mediation (if feedback didn’t help, and only if both reporter and reportee agree to this),
-4. enforcement via transparent decision (see [Resolutions](report-handling-manual/#resolutions)) by the Code of Conduct Committee.
+1. acusar recibo del informe,
+2. una discusión/retroalimentación razonable,
+3. mediación (si la retroalimentación no fue útil, y únicamente si tanto el denunciante como el denunciado están de acuerdo con ello),
+4. aplicación a través de una decisión transparente (ver [Resoluciones](report-handling-manual/#resolutions)) por parte del Comité de Código de conducta.
 
-The Committee will respond to any report as soon as possible, and at most within 72 hours.
+El Comité responderá a cualquier informe lo antes posible y dentro de un plazo máximo de 72 horas.
 
-### Endnotes
+### Notas finales
 
-We are thankful to the groups behind the following documents, from which we drew content and inspiration:
+Damos las gracias a los grupos que están detrás de los siguientes documentos, de los que hemos sacado contenido e inspiración:
 
 - [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
