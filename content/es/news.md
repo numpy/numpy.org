@@ -220,19 +220,19 @@ The logo is a modern take on the old one, with a cleaner design. Thanks to Isabe
 
 ### NumPy 1.19.0 release
 
-_Jun 20, 2020_ -- NumPy 1.19.0 is now available. This is the first release without Python 2 support, hence it was a "clean-up release". The minimum supported Python version is now Python 3.6. An important new feature is that the random number generation infrastructure that was introduced in NumPy 1.17.0 is now accessible from Cython.
+_20 de junio de 2020_ -- NumPy 1.19.0 ya está disponible. Esta es el primer lanzamiento sin soporte para Python 2, por lo que fue una "versión de limpieza". La versión mínima soportada de Python es ahora Python 3.6. Una nueva característica importante es que la infraestructura de generación de números aleatorios que fue introducida en NumPy 1.17.0 es ahora accesible desde Cython.
 
 
-### Season of Docs acceptance
+### Aceptación a Season of Docs
 
-_May 11, 2020_ -- NumPy has been accepted as one of the mentor organizations for the Google Season of Docs program. We are excited about the opportunity to work with a technical writer to improve NumPy's documentation once again! For more details, please see [the official Season of Docs site](https://developers.google.com/season-of-docs/) and our [ideas page](https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas).
+_11 de mayo de 2020_ -- NumPy ha sido aceptado como una de las organizaciones mentoras para el programa Google Season of Docs. ¡Estamos entusiasmados de tener la oportunidad de trabajar con un redactor técnico para mejorar la documentación de NumPy una vez más! Para más detalles, por favor consulte [el sitio oficial de Season of Docs](https://developers.google.com/season-of-docs/) y nuestra [página de ideas](https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas).
 
 
-### NumPy 1.18.0 release
+### Lanzamiento de NumPy 1.18.0
 
-_Dec 22, 2019_ -- NumPy 1.18.0 is now available. After the major changes in 1.17.0, this is a consolidation release. It is the last minor release that will support Python 3.5. Highlights of the release includes the addition of basic infrastructure for linking with 64-bit BLAS and LAPACK libraries, and a new C-API for `numpy.random`.
+_22 de diciembre de 2019_ -- NumPy 1.18.0 ya está disponible. Después de los grandes cambios en 1.17.0, este es un lanzamiento de consolidación. Es el último lanzamiento menor que soportará Python 3.5. Los aspectos más destacados de la publicación incluyen la adición de la infraestructura básica para enlazar con las librerías BLAS de 64 bits y LAPACK, y un nuevo C-API para `numpy.random`.
 
-Please see the [release notes](https://github.com/numpy/numpy/releases/tag/v1.18.0) for more details.
+Por favor revise las [notas del lanzamiento](https://github.com/npm/npm/releases/tag/v2.11.0) para conocer más detalles.
 
 
 ### NumPy recibe una subvención de la Iniciativa Chan Zuckerberg
