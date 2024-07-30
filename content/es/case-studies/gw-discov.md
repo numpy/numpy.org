@@ -1,10 +1,10 @@
 ---
-title: "Case Study: Discovery of Gravitational Waves"
-sidebar: false
+title: "Estudio de Caso: Descubrimiento de Ondas Gravitacionales"
+sidebar: falso
 ---
 
 {{< figure >}}
-src = '/images/content_images/cs/gw_sxs_image.png' title = 'Gravitational Waves' alt = 'binary coalesce black hole generating gravitational waves' attribution = '(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)' attributionlink = 'https://youtu.be/Zt8Z_uzG71o'
+src = '/images/content_images/cs/gw_sxs_image. ng' title = 'Ondas Gravitacionales' alt = 'coalescencia de un agujero negro binario generando ondas gravitacionales' atribución = '(Créditos de imagen: El proyecto Simulación de Espacio-tiempos eXtreme (SXS) en LIGO)' attributionlink = 'https://youtu. e/Zt8Z_uzG71o'
 {{< /figure >}}
 
 {{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="David Shoemaker, *LIGO Scientific Collaboration*" >}} The scientific Python ecosystem is critical infrastructure for the research done at LIGO.
