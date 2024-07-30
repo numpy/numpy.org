@@ -21,18 +21,18 @@ La publicación ["NumPy 2.0: un hito evolutivo"](https://blog.scientific-python.
 _23 de mayo de 2024_ -- Estamos encantados de anunciar que NumPy 2.0 está previsto que sea lanzado el 16 de junio de 2024. Esta publicación lleva más de un año en proceso y es el primer lanzamiento importante desde 2006. Es importante destacar que, además de muchas nuevas características y mejoras en el rendimiento, contiene **cambios disruptivos** frente al ABI, como también a las APIs de Python y C. Es probable que los paquetes dependientes o downstream y código de usuario final necesiten ser adaptados - si puede, por favor verifique si su código funciona con NumPy `2.0.0rc2`. **Por favor, vea lo siguiente para más detalles:**
 
 - La [guía de migración a NumPy 2.0](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
-- The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
-- Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
+- Las [ notas del lanzamiento 2.0.0](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- Anuncio de actualización de estado: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
 
-### NumFOCUS end of the year fundraiser
-_Dec 19, 2023_ -- NumFOCUS has teamed up with PyCharm during their EOY campaign to offer a 30% discount on first-time PyCharm licenses. All year-one revenue from PyCharm purchases from now until December 23rd, 2023 will go directly to the NumFOCUS programs.
+### Recaudación de fondos de fin de año de NumFOCUS
+_19 de diciembre de 2023_ -- NumFOCUS se ha asociado con PyCharm durante su campaña de fin de año para ofrecer un 30% de descuento en licencias de primera vez de PyCharm. Todos los ingresos del primer año de las compras de PyCharm desde ahora hasta el 23 de diciembre de 2023 se destinarán directamente a los programas de NumFOCUS.
 
-Use unique URL that will allow to track purchases https://lp.jetbrains.com/support-data-science/ or a coupon code ISUPPORTDATASCIENCE 
+Utilice una URL única que permita rastrear las compras https://lp.jetbrains.com/support-data-science/ o un código de cupón ISUPPORTDATASCIENCE 
 
-### NumPy 1.26.0 released
+### NumPy 1.26.0 ha sido lanzado
 
-_Sep 16, 2023_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html) ahora está disponible. The highlights of the release are:
+_Sep 16, 2023_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html) ahora está disponible. Los aspectos más destacados del lanzamiento son:
 
 * Soporte de Python 3.12.0.
 * Compatibilidad con Cython 3.0.0.
@@ -45,9 +45,9 @@ La versión 1.26.0 de NumPy es la continuación de la serie 1.25.x que marca la 
 
 Las versiones de Python compatibles con esta versión son 3.9-3.12.
 
-### numpy.org is now available in Japanese and Portuguese
+### numpy.org ya está disponible en japonés y portugués
 
-_Aug 2, 2023_ -- numpy.org is now available in 2 additional languages: Japanese and Portuguese. This wouldn’t be possible without our dedicated volunteers:
+_ 2 de Agosto de 2023_ -- numpy.org ya está disponible en 2 idiomas adicionales: japonés y portugués. Esto no sería posible sin nuestros dedicados voluntarios:
 
 _Portuguese:_
 * Melissa Weber Mendonça (melissawm)
@@ -67,18 +67,18 @@ _Japanese:_
 
 The work on the translation infrastructure is supported with funding from CZI.
 
-Looking ahead, we’d love to translate the website into more languages. If you’d like to help, please connect with the NumPy Translations Team on Slack: https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w. (Look for the #translations channel.) We are also building a Translations Team who will be working on localizing documentation and educational content across the Scientific Python ecosystem. If this piqued your interest, join us on the Scientific Python Discord: https://discord.gg/khWtqY6RKr. (Look for the #translation channel.)
+De cara al futuro, nos encantaría traducir el sitio web a más idiomas. Si quieres ayudar, por favor pone en contacto con el equipo de traducciones de NumPy en Slack: https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w. (Busca el canal #translations) También estamos formando un equipo de traducciones que estará trabajando en la localización de la documentación y el contenido educativo a través de todo el ecosistema de Python científico. Si esto ha despertado tu interés, únete a nosotros en el Discord de Python científico: https://discord.gg/khWtqY6RKr. (Busca el canal #translations)
 
-### NumPy 1.25.0 released
+### NumPy 1.25.0 ha sido lanzado
 
-_Jun 17, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) is now available. The highlights of the release are:
+_17 de junio de 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) ya está disponible. Los aspectos más destacados del lanzamiento son:
 
-* Support for MUSL, there are now MUSL wheels.
-* Support for the Fujitsu C/C++ compiler.
-* Object arrays are now supported in einsum.
-* Support for the inplace matrix multiplication (`@=`).
+* Soporte para MUSL, ahora hay ruedas MUSL.
+* Soporte para el compilador de Fujitsu C/C++.
+* Las matrices de objetos ahora están soportadas en einsum.
+* Soporte para la multiplicación de matrices in situ (`@=`).
 
-The NumPy 1.25.0 release continues the ongoing work to improve the handling and promotion of dtypes, increase the execution speed, and clarify the documentation. There has also been preparatory work for the future NumPy 2.0.0, resulting in a large number of new and expired deprecations.
+NumPy 1.25. continúa el trabajo en curso para mejorar el manejo y promoción de dtypes, aumentar la velocidad de ejecución y clarificar la documentación. También se ha realizado trabajo preparatorio para el futuro NumPy 2.0.0, resultando en un gran número de nuevas y eliminadas obsolescencias.
 
 A total of 148 people contributed to this release and 530 pull requests were merged.
 
@@ -179,23 +179,23 @@ _22 de junio de 2021_ -- En 2020, el equipo de encuestas de NumPy, en asociació
 
 _Jan 30, 2021_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) is now available. This is the largest NumPy release to date, thanks to 180+ contributors. The two most exciting new features are:
 - Type annotations for large parts of NumPy, and a new `numpy.typing` submodule containing `ArrayLike` and `DtypeLike` aliases that users and downstream libraries can use when adding type annotations in their own code.
-- Multi-platform SIMD compiler optimizations, with support for x86 (SSE, AVX), ARM64 (Neon), and PowerPC (VSX) instructions. This yielded significant performance improvements for many functions (examples: [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
+- Optimizaciones de compilador SIMD multiplataforma, con soporte para instrucciones x86 (SSE, AVX), ARM64 (Neon) y PowerPC (VSX). Esto produjo mejoras significativas de rendimiento para muchas funciones (ejemplos: [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
 
-### Diversity in the NumPy project
+### Diversidad en el proyecto NumPy
 
-_Sep 20, 2020_ -- We wrote a [statement on the state of, and discussion on social media around, diversity and inclusion in the NumPy project](/diversity_sep2020).
-
-
-### First official NumPy paper published in Nature!
-
-_Sep 16, 2020_ -- We are pleased to announce the publication of [the first official paper on NumPy](https://www.nature.com/articles/s41586-020-2649-2) as a review article in Nature. This comes 14 years after the release of NumPy 1.0. The paper covers applications and fundamental concepts of array programming, the rich scientific Python ecosystem built on top of NumPy, and the recently added array protocols to facilitate interoperability with external array and tensor libraries like CuPy, Dask, and JAX.
+_20 de septiembre de 2020_ -- Escribimos una [declaración sobre el estado de, y discusión en redes sociales, alrededor de la diversidad e inclusión en el proyecto NumPy](/diversity_sep2020).
 
 
-### Python 3.9 is coming, when will NumPy release binary wheels?
+### Primer artículo oficial de NumPy publicado en Nature!
 
-_Sept 14, 2020_ -- Python 3.9 will be released in a few weeks. If you are an early adopter of Python versions, you may be dissapointed to find that NumPy (and other binary packages like SciPy) will not have binary wheels ready on the day of the release. It is a major effort to adapt the build infrastructure to a new Python version and it typically takes a few weeks for the packages to appear on PyPI and conda-forge. In preparation for this event, please make sure to
-- update your `pip` to version 20.1 at least to support `manylinux2010` and `manylinux2014`
-- use [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) or `--only-binary=:all:` to prevent `pip` from trying to build from source.
+_16 de Septiembre de 2020_ -- Nos complace anunciar la publicación del [primer artículo oficial sobre NumPy](https://www.nature.com/articles/s41586-020-2649-2) como artículo de revisión en Nature. Esto llega 14 años después de la publicación de NumPy 1.0. El documento cubre aplicaciones y conceptos fundamentales de programación de arreglos, el rico ecosistema científico de Python construido sobre NumPy, y los recientemente añadidos protocolos de arreglos que facilitan la interoperabilidad con librerías de arreglos y tensores externas, tales como CuPy, Dask y JAX.
+
+
+### Python 3.9 está por llegar, ¿cuándo lanzará NumPy ruedas binarias?
+
+_14 de septiembre de 2020_ -- Python 3.9 será lanzado dentro de unas pocas semanas. Si eres uno de los primeros en adoptar las más recientes versiones de Python, es posible que te sientas decepcionado al descubrir que NumPy (y otros paquetes binarios como SciPy) no tendrán ruedas binarias listas para el día del lanzamiento. Es un esfuerzo importante el adaptar la infraestructura de compilación a una versión nueva de Python y normalmente tarda unas cuantas semanas para que los paquetes aparezcan en PyPI y conda-forge. En preparación para este evento, por favor asegúrese de
+- actualizar su versión de `pip` al menos a la 20.1 para soportar `manylinux2010` y `manylinux2014`
+- utiliza [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) o `--only-binary=:all:` para evitar que `pip` intente compilar desde la fuente.
 
 
 ### Numpy 1.19.2 release
