@@ -35,26 +35,26 @@ Also when using pip, it's good practice to use a virtual environment - see  [Rep
 
 # Python and NumPy installation guide
 
-Installing and managing packages in Python is complicated, there are a number of alternative solutions for most tasks. This guide tries to give the reader a sense of the best (or most popular) solutions, and give clear recommendations. It focuses on users of Python, NumPy, and the PyData (or numerical computing) stack on common operating systems and hardware.
+Instalar y administrar paquetes en Python es complicado, hay un número de soluciones alternativas para la mayoría de tareas. Esta guía intenta dar al lector una idea de las mejores (o más populares) soluciones y dar recomendaciones claras. Se enfoca en los usuarios de Python, NumPy y del stack de PyData (o computación numérica) en sistemas operativos y hardware comunes.
 
-## Recommendations
+## Recomendaciones
 
-We'll start with recommendations based on the user's experience level and operating system of interest. If you're in between "beginning" and "advanced", please go with "beginning" if you want to keep things simple, and with "advanced" if you want to work according to best practices that go a longer way in the future.
+Empezaremos con recomendaciones basadas en el nivel de experiencia del usuario y el sistema operativo de interés. Si se encuentra entre "principiante" y "avanzado", por favor diríjase a "principiante" si quiere mantener las cosas simples, y a "avanzado" si quiere trabajar de acuerdo a las mejores prácticas que le servirán de mucho en el futuro.
 
-### Beginning users
+### Usuarios principiantes
 
-On all of Windows, macOS, and Linux:
+Tanto en Windows, macOS y Linux:
 
-- Install [Anaconda](https://www.anaconda.com/download) (it installs all packages you need and all other tools mentioned below).
-- For writing and executing code, use notebooks in [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) for exploratory and interactive computing, and [Spyder](https://www.spyder-ide.org/) or [Visual Studio Code](https://code.visualstudio.com/) for writing scripts and packages.
-- Use [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) to manage your packages and start JupyterLab, Spyder, or Visual Studio Code.
+- Instale [Anaconda](https://www.anaconda.com/download) (esto instala todos los paquetes que necesita y todas las demás herramientas mencionadas a continuación).
+- Para escribir y ejecutar código, utilice notebooks en [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) para computación exploratoria e interactiva, y [Spyder](https://www.spyder-ide.org/) o [Visual Studio Code](https://code.visualstudio.com/) para escribir scripts y paquetes.
+- Utilice [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) para administrar sus paquetes e iniciar JupyterLab, Spyder o Visual Studio Code.
 
 
-### Advanced users
+### Usuarios avanzados
 
 #### Conda
 
-- Install [Miniforge](https://github.com/conda-forge/miniforge).
+- Instale [Miniforge](https://github.com/conda-forge/miniforge).
 - Mantenga el entorno conda `base` mínimo, y utilice uno o más [entornos conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) para instalar el paquete que necesite para la tarea o proyecto en que está trabajando.
 
 #### Alternativa si prefiere pip/PyPI
@@ -118,7 +118,7 @@ Además del tamaño de instalación, desempeño y robustez, hay dos aspectos má
 Si su instalación falla con el siguiente mensaje, revise el siguiente enlace [Resolución de problemas ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
 
 ```
-IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+¡IMPORTANTE: POR FAVOR LEA ESTO COMO SUGERENCIA PARA RESOLVER ESTE PROBLEMA!
 
 Importing the numpy c-extensions failed. This error can happen for
 different reasons, often due to issues with your setup.
