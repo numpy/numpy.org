@@ -45,13 +45,13 @@ src = '/images/content_images/cs/gw_strain_amplitude. ng' alt = 'amplitud de def
 
 ## El Papel de NumPy en la Detección de Ondas Gravitacionales
 
-Gravitational waves emitted from the merger cannot be computed using any technique except brute force numerical relativity using supercomputers. The amount of data LIGO collects is as incomprehensibly large as gravitational wave signals are small.
+Las ondas gravitacionales emitidas por la fusión no pueden ser calculadas utilizando ninguna técnica excepto la relatividad numérica por fuerza bruta usando supercomputadoras. La cantidad de datos que LIGO recopila es tan incomprensiblemente grande como pequeñas son las señales de onda gravitacionales.
 
-NumPy, the standard numerical analysis package for Python,  was utilized by the software used for various tasks performed during the GW detection project at LIGO. NumPy helped in solving complex maths and data manipulation at high speed.  Here are some examples:
+NumPy, el paquete de análisis numérico estándar para Python, fue utilizado por el software empleado en varias tareas realizadas durante el proyecto de detección de Ondas Gravitacionales en LIGO. NumPy ayudó a resolver las matemáticas complejas y la manipulación de datos a alta velocidad.  Aquí hay algunos ejemplos:
 
-* [Signal Processing](https://www.uv.es/virgogroup/Denoising_ROF.html): Glitch detection,  [Noise identification and Data Characterization](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf) (NumPy, scikit-learn, scipy, matplotlib, pandas, pyCharm)
-* Data retrieval: Deciding which data can be analyzed, figuring out whether it contains a signal - needle in a haystack
-* Statistical analysis: estimate the statistical significance of observational data, estimating the signal parameters (e.g. masses of stars, spin velocity, and distance) by comparison with a model.
+* [Procesamiento de Señales](https://www.uv.es/virgogroup/Denoising_ROF.html): Detección de fallos, [Identificación de ruido y caracterización de datos](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf) (NumPy, scikit-learn, scipy, matplotlib, pandas, pyCharm)
+* Recuperación de datos: Decidir qué datos pueden ser analizados, y determinar si estos contienen una señal - aguja en un pajar
+* Análisis estadístico: estimar la significancia estadística de los datos observados, estimación de los parámetros de señal (por ejemplo, masas de estrellas, velocidad de giro y distancia) en comparación con un modelo.
 * Visualization of data
   - Time series
   - Spectrograms
@@ -70,8 +70,8 @@ src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png' alt = 'PyCBC-numpy d
 
 ## Summary
 
-GW detection has enabled researchers to discover entirely unexpected phenomena while providing new insight into many of the most profound astrophysical phenomena known. Number crunching and data visualization is a crucial step that helps scientists gain insights into data gathered from the scientific observations and understand the results. The computations are complex and cannot be comprehended by humans unless it is visualized using computer simulations that are fed with the real observed data and analysis.  NumPy along with other Python packages such as matplotlib, pandas, and scikit-learn is [enabling researchers](https://www.gw-openscience.org/events/GW150914/) to answer complex questions and discover new horizons in our understanding of the universe.
+GW detection has enabled researchers to discover entirely unexpected phenomena while providing new insight into many of the most profound astrophysical phenomena known. Number crunching and data visualization is a crucial step that helps scientists gain insights into data gathered from the scientific observations and understand the results. Los cálculos son complejos y no pueden ser comprendidos por humanos, a menos que sean visualizados utilizando simulaciones por computador que se alimenten con datos y análisis reales observados.  NumPy, junto con otros paquetes de Python como matplotlib, pandas y scikit-learn, está [permitiendo a los investigadores](https://www.gw-openscience.org/events/GW150914/) responder preguntas complejas y descubrir nuevos horizontes en nuestra comprensión del universo.
 
 {{< figure >}}
-src = '/images/content_images/cs/numpy_gw_benefits.png' alt = 'numpy benefits' title = 'Key NumPy Capabilities utilized'
+src = '/images/content_images/cs/numpy_gw_benefits.png' alt = 'beneficios de NumPy' title = 'Capacidades clave de NumPy utilizadas'
 {{< /figure >}}
