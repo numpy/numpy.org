@@ -40,10 +40,10 @@ El [Observatorio de Ondas Gravitacionales por Interferometría Láser (LIGO)](ht
     Once the obstacles related to understanding Einstein’s equations well enough to solve them using supercomputers are taken care of, the next big challenge was making data comprehensible to the human brain. La modelación de simulación, así como la detección de señales, requieren técnicas de visualización efectivas.  La visualización también desempeña un papel en otorgar más credibilidad a la relatividad numérica a los ojos de los aficionados a la ciencia pura, los cuales no le daban suficiente importancia a la relatividad numérica hasta que las imágenes y simulaciones facilitaron la comprensión de los resultados para un público más amplio. Speed of complex computations and rendering, re-rendering images and simulations using latest experimental inputs and insights can be a time consuming activity that challenges researchers in this domain.
 
 {{< figure >}}
-src = '/images/content_images/cs/gw_strain_amplitude.png' alt = 'gravitational waves strain amplitude' title = 'Estimated gravitational-wave strain amplitude from GW150914' attribution = '(Graph Credits: Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)' attributionlink = 'https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger'
+src = '/images/content_images/cs/gw_strain_amplitude. ng' alt = 'amplitud de deformación de ondas gravitacionales' title = 'Amplitud de deformación de ondas gravitacionales estimada de GW150914' atribución = '(Créditos del gráfico: Observación de Ondas Gravitacionales de la Fusión de un Agujero Negro Binario, Publicación de ResearchGate)' attributionlink = 'https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger'
 {{< /figure >}}
 
-## NumPy’s Role in the Detection of Gravitational Waves
+## El Papel de NumPy en la Detección de Ondas Gravitacionales
 
 Gravitational waves emitted from the merger cannot be computed using any technique except brute force numerical relativity using supercomputers. The amount of data LIGO collects is as incomprehensibly large as gravitational wave signals are small.
 
