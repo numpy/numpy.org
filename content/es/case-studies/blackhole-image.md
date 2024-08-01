@@ -3,11 +3,11 @@ title: "Caso de estudio: La primera imagen de un Agujero Negro"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Agujero Negro M87**" alt="imagen de un agujero negro" attr="*(Créditos de la imagen: Colaboración del Telescopio de Horizonte de Sucesos)*" attrlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
+{{< figura >}}
 src = '/images/content_images/cs/blackhole. pg' title = 'Agujero Negro M87' alt = 'Imagen de agujero negro' attribution = '(Créditos de la imagen: Colaboración del telescopio del Horizonte de Sucesos)' attributionlink = 'https://www. pl.nasa.gov/images/universe/20190410/blackhole20190410.jpg'
 {{< /figure >}}
 
-{{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="Katie Bouman, *Assistant Professor, Computing & Mathematical Sciences, Caltech*"
+{{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="Katie Bouman, *Profesora Asistente, Ciencias de la Computación & Matemáticas, Caltech*"
 > }} Capturar imágenes del Agujero Negro M87 es como intentar ver algo que por definición es imposible de ver. 
 > 
 > {{< /blockquote >}}
@@ -50,8 +50,8 @@ La colaboración del EHT respondió a estos desafíos haciendo que los equipos i
 
 Su trabajo ilustra el rol que desempeña el ecosistema científico de Python en el avance de la ciencia a través del análisis de datos colaborativos.
 
-src = '/images/content_images/cs/dataprocessbh.png' title = 'Flujo de Trabajo de Procesamiento de Datos EHT' alt = 'flujo de datos' align = 'centrar' attribution = '(Créditos del diagrama: The Astrophysical Journal, Colaboración del Telescopio del Horizonte de Sucesos)' attributionlink = 'https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57'
-{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="ventajas de numpy" caption="**Capacidades Clave utilizadas de NumPy**" >}}
+{{< figure >}}
+src = '/images/content_images/cs/bh_numpy_role.png' alt = 'rol de numpy' title = 'El rol de NumPy en la imagen del agujero negro'
 {{< /figure >}}
 
 Por ejemplo, el paquete de Python [`eht-imaging`][ehtim] proporciona herramientas para simular y realizar reconstrucción de imágenes en datos VLBI. NumPy está en el núcleo del procesamiento de datos de matrices utilizados en este paquete, como se muestra a continuación en el gráfico parcial de dependencias de software.
