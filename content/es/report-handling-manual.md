@@ -31,7 +31,7 @@ El mediador dialogará con todas las partes y buscará una decisión que sea sat
 
 ## Cómo responderá el Comité a los informes
 
-Cuando el Comité (o uno de sus miembros) recibe un informe, primero determinará si el éste se refiere a una violación clara y grave (como se define a continuación). En caso afirmativo, será necesario tomar medidas inmediatas adicionales al proceso de gestión de informe habitual.
+Cuando el Comité (o uno de sus miembros) recibe un informe, primero determinará si éste se refiere a una violación clara y grave (como se define a continuación). En caso afirmativo, será necesario tomar medidas inmediatas adicionales al proceso de gestión de informe habitual.
 
 
 ## Acciones violatorias claras y severas
