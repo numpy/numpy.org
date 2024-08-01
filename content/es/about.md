@@ -62,7 +62,7 @@ Visita la página de [Equipos]({{< relref "/teams" >}}) para más información.
 ## Patrocinadores
 
 NumPy recibe financiación directa de las siguientes fuentes:
-{{< sponsors >}}
+{{< patrocinadores >}}
 
 
 ## Socios institucionales
