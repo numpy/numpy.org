@@ -57,7 +57,7 @@ El proyecto NumPy no organiza sus propias conferencias. Las conferencias que tra
 Muchas de estas conferencias incluyen tutoriales y/o sprints que cubren NumPy, en donde puedes aprender cómo contribuir a Numpy o proyectos de código abierto relacionados.
 
 
-## Únete a la comunidad Numpy
+## Únete a la comunidad NumPy
 
 Para prosperar, el proyecto NumPy necesita tu experiencia y entusiasmo. ¿No sabes programar? ¡No es un problema! Hay muchas maneras de contribuir a NumPy.
 
