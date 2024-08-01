@@ -1,7 +1,7 @@
 ---
 title: Noticias
 sidebar: falso
-newsHeader: "Lanzamiento de NumPy 2.0!"
+newsHeader: "¡NumPy 2.0 ha sido lanzado!"
 date: 2024-06-17
 ---
 
@@ -98,7 +98,7 @@ _Jan 6, 2023_ –- Mukulika Pahari and Ross Barnowski are appointed as the new N
 
 _18 de diciembre de 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) ya está disponible. Los aspectos más destacados del lanzamiento son:
 
-* Nuevas palabras clave "dtype" y "casting" para las funciones de apilamiento o stacking.
+* Nuevas palabras clave "dtype" y "casting" para las funciones de apilamiento.
 * Nuevas características y correcciones de F2PY.
 * Muchas nuevas obsolescencias, revísalas.
 * Muchas obsolescencias caducadas,
@@ -128,7 +128,7 @@ Por favor, complete este breve [formulari o de "Interés del Participante"](http
 
 _31 de diciembre de 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) ya está disponible. Los aspectos más destacados del lanzamiento son:
 
-* Las anotaciones de tipo del espacio de nombres principal están esencialmente completas. Upstream is a moving target, so there will likely be further improvements, but the major work is done. El repositorio principal (upstream) es un objetivo en movimiento, así que probablemente habrán más mejoras, pero el trabajo principal ya está hecho.
+* Las anotaciones de tipo del espacio de nombres principal están esencialmente completas. Upstream is a moving target, so there will likely be further improvements, but the major work is done. El repositorio principal o upstream es un objetivo en movimiento, así que probablemente habrán más mejoras, pero el trabajo principal ya está hecho.
 * Una versión preliminar del propuesto [Estándar API de Arreglos](https://data-apis.org/array-api/latest/) es suministrada (véase [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)). Este es un paso en la creación de una colección estándar de funciones que pueden ser usadas a través de librerías como CuPy y JAX.
 * NumPy ahora tiene un backend de DLPack. DLPack proporciona un formato de intercambio común para datos de arreglos (tensor).
 * Nuevos métodos para `cuantil`, `percentil` y funciones relacionadas. Los nuevos métodos proporcionan un conjunto completo de los métodos comúnmente encontrados en la literatura.
