@@ -1,39 +1,39 @@
 ---
-title: Installing NumPy
+title: Instalando NumPy
 sidebar: false
 ---
 
-The only prerequisite for installing NumPy is Python itself. If you don't have Python yet and want the simplest way to get started, we recommend you use the [Anaconda Distribution](https://www.anaconda.com/download) - it includes Python, NumPy, and many other commonly used packages for scientific computing and data science.
+El único prerrequisito para instalar NumPy es Python. Si aún no tienes Python y quieres la forma más sencilla de comenzar, te recomendamos que uses la [Distribución Anaconda](https://www.anaconda.com/download) - incluye Python, NumPy y muchos otros paquetes comúnmente utilizados para la computación científica y la ciencia de datos.
 
-NumPy can be installed with `conda`, with `pip`, with a package manager on macOS and Linux, or [from source](https://numpy.org/devdocs/building). For more detailed instructions, consult our [Python and NumPy installation guide](#python-numpy-install-guide) below.
+NumPy se puede instalar con `conda`, con `pip`, con un gestor de paquetes en macOS y Linux, o [a partir del código fuente](https://numpy.org/devdocs/building). Para instrucciones más detalladas, consulte nuestra [guía de instalación de Python y NumPy](#python-numpy-install-guide) a continuación.
 
 **CONDA**
 
-If you use `conda`, you can install NumPy from the `defaults` or `conda-forge` channels:
+Si utiliza `conda`, puede instalar NumPy desde los canales `defaults` o `conda-forge`:
 
 ```bash
-# Best practice, use an environment rather than install in the base env
+# La mejor práctica, utilizar un entorno en lugar de instalar en el entorno base
 conda create -n my-env
 conda activate my-env
-# If you want to install from conda-forge
+# Si desea instalar desde conda-forge
 conda config --env --add channels conda-forge
-# The actual install command
+# El comando de instalación
 conda install numpy
 ```
 
 **PIP**
 
-If you use `pip`, you can install NumPy with:
+Si utiliza `pip`, puede instalar NumPy con:
 
 ```bash
 pip install numpy
 ```
-Also when using pip, it's good practice to use a virtual environment - see  [Reproducible Installs](#reproducible-installs) below for why, and [this guide](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto) for details on using virtual environments.
+También al utilizar pip, es buena práctica utilizar un entorno virtual - vea  [Instalaciones Reproducibles](#reproducible-installs) a continuación para saber por qué, y [esta guía](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto) para más detalles sobre el uso de entornos virtuales.
 
 
 <a name="python-numpy-install-guide"></a>
 
-# Python and NumPy installation guide
+# Guía de instalación de Python y NumPy
 
 Instalar y administrar paquetes en Python es complicado, hay un número de soluciones alternativas para la mayoría de tareas. Esta guía intenta dar al lector una idea de las mejores (o más populares) soluciones y dar recomendaciones claras. Se enfoca en los usuarios de Python, NumPy y del stack de PyData (o computación numérica) en sistemas operativos y hardware comunes.
 
