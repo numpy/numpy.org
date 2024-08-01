@@ -120,6 +120,6 @@ Si su instalación falla con el siguiente mensaje, revise el siguiente enlace [R
 ```
 ¡IMPORTANTE: POR FAVOR LEA ESTO COMO SUGERENCIA PARA RESOLVER ESTE PROBLEMA!
 
-La importación de las extensiones c de numpy falló. Este error puede ocurrir por varias razones, siendo frecuente debido a problemas con su configuración.
+La importación de las extensiones-c de numpy falló. Este error puede ocurrir por varias razones, siendo frecuente debido a problemas con su configuración.
 ```
 
