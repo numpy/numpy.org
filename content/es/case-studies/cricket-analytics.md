@@ -28,24 +28,24 @@ Hoy en día, hay abundantes y casi infinitos tesoros de registros y estadística
 * contribución del jugador a las victorias y derrotas para tomar decisiones estratégicas sobre la composición del equipo
 
 {{< figure >}}
-src = '/images/content_images/cs/cricket-pitch.png' title = 'Cricket Pitch, the focal point in the field' alt = 'A cricket pitch with bowler and batsmen' align = 'center' attribution = '(Image credit: Debarghya Das)' attributionlink = 'http://debarghyadas.com/files/IPLpaper.pdf'
+src = '/images/content_images/cs/cricket-pitch.png' title = 'El campo de críquet, el punto focal en el terreno de juego' alt = 'Un campo de cricket con lanzador y bateadores' align = 'center' attribution = '(Image credit: Debarghya Das)' attributionlink = 'http://debarghyadas.com/files/IPLpaper.pdf'
 {{< /figure >}}
 
-### Key Data Analytics Objectives
+### Objetivos Clave de Análisis de Datos
 
-* Sports data analytics are used not only in cricket but many [other sports](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) for improving the overall team performance and maximizing winning chances.
-* Real-time data analytics can help in gaining insights even during the game for changing tactics by the team and by associated businesses for economic benefits and growth.
-* Besides historical analysis, predictive models are harnessed to determine the possible match outcomes that require significant number crunching and data science know-how, visualization tools and capability to include newer observations in the analysis.
+* El análisis de datos deportivos se utiliza no solo en el críquet, sino en muchos [otros deportes](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) para mejorar el rendimiento general del equipo y maximizar las posibilidades de ganar.
+* El análisis de datos en tiempo real puede ayudar a obtener información incluso durante el juego para cambiar tácticas por parte del equipo y de las empresas asociadas para beneficios económicos y crecimiento.
+* Además del análisis histórico, se aprovechan los modelos predictivos para determinar los posibles resultados de los partidos, lo cual requiere una cantidad significativa de procesamiento de datos y conocimientos de ciencia de datos, herramientas de visualización y la capacidad de incluir nuevas observaciones en el análisis.
 
 {{< figure >}}
-src = '/images/content_images/cs/player-pose-estimator.png' alt = 'pose estimator' title = 'Cricket Pose Estimator' attribution = '(Image credit: connect.vin)' attributionlink = 'https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/'
+src = '/images/content_images/cs/player-pose-estimator.png' alt = 'estimador de postura' title = 'Estimador de postura en críquet' attribution = '(Crédito de imagen: connect.vin)' attributionlink = 'https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/'
 {{< /figure >}}
 
-### The Challenges
+### Los Desafíos
 
-* **Data Cleaning and preprocessing**
+* **Limpieza de datos y preprocesamiento**
 
-  IPL has expanded cricket beyond the classic test match format to a much larger scale. The number of matches played every season across various formats has increased and so has the data, the algorithms, newer sports data analysis technologies and simulation models. Cricket data analysis requires field mapping, player tracking, ball tracking, player shot analysis, and several other aspects involved in how the ball is delivered, its angle, spin, velocity, and trajectory. Todos estos factores juntos han incrementado la complejidad de la limpieza de datos y el preprocesamiento.
+  La IPL ha expandido el críquet más allá del clásico formato de partido de prueba a una escala mucho más grande. El número de partidos jugados cada temporada a través de varios formatos ha incrementado y así también los datos, los algoritmos, las nuevas tecnologías de análisis de datos deportivos y modelos de simulación. El análisis de datos de críquet requiere mapeo del campo, seguimiento de jugadores, seguimiento de la pelota, análisis de tiros de los jugadores y varios otros aspectos relacionados con cómo se lanza la pelota, su ángulo, giro, velocidad y trayectoria. Todos estos factores juntos han incrementado la complejidad de la limpieza de datos y el preprocesamiento.
 
 * **Modelación Dinámica**
 
