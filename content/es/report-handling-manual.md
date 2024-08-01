@@ -42,24 +42,24 @@ Cuando un miembro del Comité de Código de Conducta tenga conocimiento de una v
 
 * Desconectará inmediatamente al originador de todos los canales de comunicación de NumPy.
 * Responderá al informante que su informe ha sido recibido y que el autor ha sido desconectado.
-* In every case, the moderator should make a reasonable effort to contact the originator, and tell them specifically how their language or actions qualify as a “clear and severe breach”. The moderator should also say that, if the originator believes this is unfair or they want to be reconnected to NumPy, they have the right to ask for a review, as below, by the Code of Conduct Committee. The moderator should copy this explanation to the Code of Conduct Committee.
-* The Code of Conduct Committee will formally review and sign off on all cases where this mechanism has been applied to make sure it is not being used to control ordinary heated disagreement.
+* En todo caso, el moderador deberá hacer un esfuerzo razonable por contactar al originador, y comunicarle específicamente cómo su lenguaje o sus acciones se constituyeron como "violación clara y grave". El moderador también debe decir que, si el originador cree que esto es injusto o desea reconectarse con NumPy, tiene el derecho a solicitar una revisión, como se indica a continuación, por el Comité de Código de Conducta. El moderador debería copiar esta explicación al Comité de Código de conducta.
+* El Comité de Código de conducta revisará y aprobará formalmente todos los casos en los que se haya aplicado este mecanismo, para asegurarse de que no se esté utilizando para controlar desacuerdos ordinarios acalorados.
 
 
-## Report handling
+## Gestión de informes
 
-When a report is sent to the Committee they will immediately reply to the reporter to confirm receipt. This reply must be sent within 72 hours, and the group should strive to respond much quicker than that.
+Cuando se envíe un informe al Comité, éste responderá inmediatamente al informante confirmando su recepción. Esta respuesta deberá enviarse dentro de un plazo de 72 horas, y el grupo deberá esforzarse por responder en un tiempo inferior.
 
-If a report doesn’t contain enough information, the Committee will obtain all relevant data before acting. The Committee is empowered to act on the Steering Council’s behalf in contacting any individuals involved to get a more complete account of events.
+Si un informe no contiene suficiente información, el Comité obtendrá todos los datos relevantes antes de actuar. El Comité tiene la facultad de actuar en nombre del Consejo Directivo al contactar cualquier individuo implicado para obtener una descripción más completa de los hechos.
 
-The Committee will then review the incident and determine, to the best of their ability:
+El Comité procederá a revisar el incidente y determinará, en la medida de su capacidad:
 
-* What happened.
-* Whether this event constitutes a Code of Conduct violation.
-* Who are the responsible party(ies).
-* Whether this is an ongoing situation, and there is a threat to anyone’s physical safety.
+* Qué sucedió.
+* Si este evento constituye una violación del Código de Conducta.
+* Quiénes son las parte(s) responsables.
+* Si se trata de una situación en progreso y existe una amenaza para la seguridad física de cualquiera.
 
-This information will be collected in writing, and whenever possible the group’s deliberations will be recorded and retained (i.e. chat transcripts, email discussions, recorded conference calls, summaries of voice conversations, etc).
+Esta información se recopilará por escrito, y siempre que sea posible se registrarán y conservarán las deliberaciones del grupo (por ejemplo, transcripciones de chat, discusiones por correo electrónico, conferencias grabadas, resúmenes de conversaciones de voz, etc.).
 
 Es importante conservar un archivo de todas las actividades de este Comité para asegurar consistencia en el comportamiento y proporcionar memoria institucional para el proyecto. Para ayudar en esto, el canal de discusión por defecto para este Comité será una lista de correo privada accesible a los miembros actuales y futuros del Comité, así como a los miembros del Consejo Directivo con previa solicitud justificada. Si el Comité considera necesario utilizar comunicaciones fuera de la lista (por ejemplo, para una respuesta temprana/rápida), deberá, en todos los casos, resumirlos y documentarlos de vuelta a la lista, de manera que se mantenga un buen registro del proceso.
 
