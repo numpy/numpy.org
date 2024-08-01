@@ -80,19 +80,19 @@ _17 de junio de 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.2
 
 NumPy 1.25. continúa el trabajo en curso para mejorar el manejo y promoción de dtypes, aumentar la velocidad de ejecución y clarificar la documentación. También se ha realizado trabajo preparatorio para el futuro NumPy 2.0.0, resultando en un gran número de nuevas y eliminadas obsolescencias.
 
-A total of 148 people contributed to this release and 530 pull requests were merged.
+Un total de 148 personas contribuyeron a esta versión y 530 solicitudes de incorporación de cambios fueron aceptadas.
 
-The Python versions supported by this release are 3.9-3.11.
+Las versiones de Python soportadas por este lanzamiento son 3.9-3.11.
 
-### Fostering an Inclusive Culture: Call for Participation
+### Fomentar una Cultura Inclusiva: Convocatoria de Participación
 
-_May 10, 2023_ -- Fostering an Inclusive Culture: Call for Participation
+_10 de mayo de 2023_ -- Fomentar una Cultura Inclusiva: Convocatoria de Participación
 
-How can we be better when it comes to diversity and inclusion? Read the report and find out how to get involved [here](https://contributor-experience.org/docs/posts/dei-report/).
+¿Cómo podemos ser mejores cuando se trata de diversidad e inclusión? Lee el informe y averigua cómo involucrarte [aquí](https://contributor-experience.org/docs/posts/dei-report/).
 
-### NumPy documentation team leadership transition
+### Transición en el liderazgo del equipo de documentación de NumPy
 
-_Jan 6, 2023_ –- Mukulika Pahari and Ross Barnowski are appointed as the new NumPy documentation team leads replacing Melissa Mendonça. We thank Melissa for all her contributions to the NumPy official documentation and educational materials, and Mukulika and Ross for stepping up.
+_6 de enero de 2023_ –- Mukulika Pahari y Ross Barnowski son nombrados como los nuevos líderes del equipo de documentación de NumPy, reemplazando a Melissa Mendonça. Damos las gracias a Melissa por todas sus contribuciones a la documentación oficial de NumPy y materiales educativos, y a Mukulika y Ross por asumir este rol.
 
 ### Lanzamiento de NumPy 1.24.0
 
@@ -128,7 +128,7 @@ Por favor, complete este breve [formulari o de "Interés del Participante"](http
 
 _31 de diciembre de 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) ya está disponible. Los aspectos más destacados del lanzamiento son:
 
-* Las anotaciones de tipo del espacio de nombres principal están esencialmente completas. Upstream is a moving target, so there will likely be further improvements, but the major work is done. El repositorio principal o upstream es un objetivo en movimiento, así que probablemente habrán más mejoras, pero el trabajo principal ya está hecho.
+* Las anotaciones de tipo del espacio de nombres principal están esencialmente completas. El repositorio principal (upstream) es un objetivo en movimiento, así que probablemente habrán más mejoras, pero el mayor trabajo ya está hecho. El repositorio principal o upstream es un objetivo en movimiento, así que probablemente habrán más mejoras, pero el trabajo principal ya está hecho.
 * Una versión preliminar del propuesto [Estándar API de Arreglos](https://data-apis.org/array-api/latest/) es suministrada (véase [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)). Este es un paso en la creación de una colección estándar de funciones que pueden ser usadas a través de librerías como CuPy y JAX.
 * NumPy ahora tiene un backend de DLPack. DLPack proporciona un formato de intercambio común para datos de arreglos (tensor).
 * Nuevos métodos para `cuantil`, `percentil` y funciones relacionadas. Los nuevos métodos proporcionan un conjunto completo de los métodos comúnmente encontrados en la literatura.
@@ -175,10 +175,10 @@ Esta versión de NumPy es el resultado de 581 solicitudes de incorporación de c
 _22 de junio de 2021_ -- En 2020, el equipo de encuestas de NumPy, en asociación con los estudiantes y profesores de la Universidad de Michigan y la Universidad de Maryland, realizó la primera encuesta oficial de la comunidad NumPy. Encuentra los resultados de la encuesta aquí: https://numpy.org/user-survey-2020/.
 
 
-### Numpy 1.20.0 release
+### Lanzamiento de NumPy 1.20.0
 
-_Jan 30, 2021_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) is now available. This is the largest NumPy release to date, thanks to 180+ contributors. The two most exciting new features are:
-- Type annotations for large parts of NumPy, and a new `numpy.typing` submodule containing `ArrayLike` and `DtypeLike` aliases that users and downstream libraries can use when adding type annotations in their own code.
+_30 de enero de 2021_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) ya está disponible. Este es el lanzamiento de NumPy más grande hasta la fecha, gracias a los más de 180 colaboradores. Las dos nuevas características más emocionantes son:
+- Anotaciones de tipo para grandes partes de NumPy, y un nuevo submódulo `numpy.typing` que contiene los alias `ArralyLike` y `DtypeLike` que los usuarios y las librerías dependientes o downstream pueden usar al agregar anotaciones de tipo en su propio código.
 - Optimizaciones de compilador SIMD multiplataforma, con soporte para instrucciones x86 (SSE, AVX), ARM64 (Neon) y PowerPC (VSX). Esto produjo mejoras significativas de rendimiento para muchas funciones (ejemplos: [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
 
 ### Diversidad en el proyecto NumPy
