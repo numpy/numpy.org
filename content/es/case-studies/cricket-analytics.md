@@ -1,20 +1,20 @@
 ---
-title: "Case Study: Cricket Analytics, the game changer!"
-sidebar: false
+title: "Estudio de caso: Análisis de críquet, ¡el cambio radical!"
+sidebar: falso
 ---
 
-{{< figure >}}
-src = '/images/content_images/cs/ipl-stadium.png' title = 'IPLT20, the biggest Cricket Festival in India' alt = 'Indian Premier League Cricket cup and stadium' attribution = '(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))' attributionlink = 'https://unsplash.com/@aksh1802'
-{{< /figure >}}
+{{< figura >}}
+figure src="/images/content_images/cs/ipl-stadium.png'title" caption="IPLT20, el festival de críquet más grande en India" alt="Copa y estadio de la Premier League de Críquet de India" attr="(Créditos de imagen: IPLT20 (copa y logo) & Akash Yadav (estadio))" attrlink="https://unsplash.com/@aksh1802'
+{{< /figura >}}
 
-{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, *International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL*"
-> }} You don't play for the crowd, you play for the country. 
+{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, *Jugador Internacional de críquet, ex-capitán del equipo de India, juega para Chennai Super Kings en IPL*"
+> }} No juegas para el público, juegas para el país. 
 > 
 > {{< /blockquote >}}
 
-## About Cricket
+## Acerca del críquet
 
-It would be an understatement to state that Indians love cricket. The game is played in just about every nook and cranny of India, rural or urban, popular with the young and the old alike, connecting billions in India unlike any other sport. Cricket enjoys lots of media attention. Hay una cantidad importante de [dinero](https://www.statista.com/topics/4543/indian-premier-league-ipl/) y fama en juego. En los últimos años, la tecnología ha cambiado literalmente las reglas del juego. El público tiene muchas opciones para elegir entre streaming de medios, torneos, acceso asequible a la visualización de críquet en vivo desde dispositivos móviles y más.
+Sería una subestimación decir que a los indios les encanta el críquet. El juego se juega en casi cada rincón de India, rural o urbano, es popular entre los jóvenes y ancianos por igual, conectando miles de millones en India a diferencia de cualquier otro deporte. El críquet disfruta de una gran atención mediática. Hay una cantidad importante de [dinero](https://www.statista.com/topics/4543/indian-premier-league-ipl/) y fama en juego. En los últimos años, la tecnología ha cambiado literalmente las reglas del juego. El público tiene muchas opciones para elegir entre streaming de medios, torneos, acceso asequible a la visualización de críquet en vivo desde dispositivos móviles y más.
 
 La Premier League de India (IPL) es una liga profesional de críquet Twenty20, fundada en 2008. Es uno de los eventos de críquet más concurridos en el mundo, valorado en [$6.7 mil millones de dólares](https://en.wikipedia.org/wiki/Indian_Premier_League) en 2019.
 
@@ -49,7 +49,7 @@ src = '/images/content_images/cs/player-pose-estimator.png' alt = 'pose estimato
 
 * **Modelación Dinámica**
 
-  En el cricket, al igual que en cualquier otro deporte, puede haber una gran cantidad de variables relacionadas con el seguimiento de varios jugadores en el campo, sus atributos, la pelota y varias posibilidades de acciones potenciales. The complexity of data analytics and modeling is directly proportional to the kind of predictive questions that are put forth during analysis and are highly dependent on data representation and the model. Las cosas se vuelven aún más desafiantes en términos de cálculo y comparación de datos cuando se buscan predicciones dinámicas del juego de críquet, tal como habría sucedido si el bateador hubiera golpeado la bola a un ángulo o velocidad diferente.
+  En el cricket, al igual que en cualquier otro deporte, puede haber una gran cantidad de variables relacionadas con el seguimiento de varios jugadores en el campo, sus atributos, la pelota y varias posibilidades de acciones potenciales. La complejidad del análisis de datos y la modelación es directamente proporcional al tipo de preguntas predictivas que se plantean durante el análisis y depende en gran medida de la representación de los datos y del modelo. Las cosas se vuelven aún más desafiantes en términos de cálculo y comparación de datos cuando se buscan predicciones dinámicas del juego de críquet, tal como habría sucedido si el bateador hubiera golpeado la bola a un ángulo o velocidad diferente.
 
 * **Complejidad de Análisis Predictivo**
 
