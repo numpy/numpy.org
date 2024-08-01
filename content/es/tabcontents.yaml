@@ -34,7 +34,7 @@ params:
         url: https://github.com/google/jax
       - 
         title: Xarray
-        text: Matrices multidimensionales indexadas y etiquetadas para análisis y visualización avanzados
+        text: Matrices multidimensionales indexadas y etiquetadas para análisis y visualización avanzados.
         img: /images/content_images/arlib/xarray.png
         alttext: xarray
         url: https://xarray.pydata.org/en/stable/index.html
@@ -57,35 +57,35 @@ params:
         alttext: TensorFlow
         url: https://www.tensorflow.org
       - 
-        title: MXNet
+        title: Arrow
         text: Marco de aprendizaje profundo adecuado para la creación flexible de prototipos de investigación y la producción.
         img: /images/content_images/arlib/mxnet_logo.png
-        alttext: MXNet
+        alttext: arrow
         url: https://mxnet.apache.org/
       - 
-        title: Arrow
-        text: Plataforma de desarrollo multilenguaje para datos y análisis columnares en memoria.
-        img: /images/content_images/arlib/arrow.png
-        alttext: arrow
-        url: https://github.com/apache/arrow
-      - 
         title: xtensor
-        text: Matrices multidimensionales con emisión y computación de llamada-bajo-demanda para el análisis numérico.
+        text: Plataforma de desarrollo multilenguaje para datos y análisis columnares en memoria.
         img: /images/content_images/arlib/xtensor.png
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
       - 
         title: Awkward Array
-        text: Manipula datos tipo JSON con modismos similares a los de NumPy.
+        text: Manipular datos similares a JSON con expresiones similares a NumPy.
         img: /images/content_images/arlib/awkward.svg
         alttext: awkward
         url: https://awkward-array.org/
       - 
         title: uarray
-        text: Sistema de backend de Python que desvincula la API de la implementación; unumpy proporciona una API de NumPy.
+        text: Sistema de backend de Python que desacopla la API de la implementación; unumpy proporciona una API de NumPy.
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
+      - 
+        title: tensorly
+        text: Aprendizaje tensorial, álgebra y backends para usar de manera fluida NumPy, PyTorch, TensorFlow o CuPy.
+        img: /images/content_images/arlib/tensorly.png
+        alttext: tensorly
+        url: http://tensorly.org/stable/home.html
   scientificdomains:
     intro:
       - 
@@ -159,8 +159,8 @@ params:
             url: https://mahotas.rtfd.io/
             label: Mahotas
       - 
-        title: Graphs and Networks
-        alttext: A simple graph.
+        title: Grafos y Redes
+        alttext: Un simple grafo.
         img: /images/content_images/sc_dom_img/sd6.svg
         links:
           - 
