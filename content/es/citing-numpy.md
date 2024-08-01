@@ -1,6 +1,6 @@
 ---
 title: Citando a NumPy
-sidebar: false
+sidebar: falso
 ---
 
 Si NumPy ha sido importante en tu investigación y deseas reconocer el proyecto en tu publicación académica, te sugerimos que cites el siguiente documento:
