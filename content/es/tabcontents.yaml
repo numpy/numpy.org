@@ -111,7 +111,7 @@ params:
             url: https://pennylane.ai
             label: PennyLane
       - 
-        title: Statistical Computing
+        title: Computación Estadística
         alttext: Un gráfico lineal con la línea moviéndose hacia arriba.
         img: /images/content_images/sc_dom_img/statistical_computing.svg
         links:
@@ -283,8 +283,8 @@ params:
             url: https://www.fatiando.org/
             label: Fatiando a Terra
       - 
-        title: Geographic Processing
-        alttext: A map.
+        title: Procesamiento Geográfico
+        alttext: Un mapa.
         img: /images/content_images/sc_dom_img/GIS.svg
         links:
           - 
