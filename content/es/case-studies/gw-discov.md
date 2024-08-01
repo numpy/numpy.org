@@ -12,7 +12,7 @@ src = '/images/content_images/cs/gw_sxs_image. ng' title = 'Ondas Gravitacionale
 
 ## Acerca de [Ondas Gravitacionales](https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/) y [LIGO](https://www.ligo.caltech.edu)
 
-Las ondas gravitacionales son ondulaciones en el tejido del espacio y el tiempo, generadas por eventos cataclísmicos en el universo, tales como la colisión y fusión de dos agujeros negros o la coalescencia de estrellas binarias o supernovas. La observación de Ondas Gravitacionales no solo puede ayudar en el estudio de la gravedad, sino también en la comprensión de algunos de fenómenos más oscuros en el universo distante y su impacto.
+Las ondas gravitacionales son ondulaciones en el tejido del espacio y el tiempo, generadas por eventos cataclísmicos en el universo, tales como la colisión y fusión de dos agujeros negros o la coalescencia de estrellas binarias o supernovas. La observación de Ondas Gravitacionales no solo puede ayudar en el estudio de la gravedad, sino también en la comprensión de algunos de los fenómenos oscuros en el universo distante y su impacto.
 
 El [Observatorio de Ondas Gravitacionales por Interferometría Láser (LIGO)](https://www.ligo.caltech.edu) fue diseñado para abrir el campo de la astrofísica de ondas gravitacionales mediante la detección directa de las ondas gravitacionales predichas por la Teoría General de la Relatividad de Einstein. Comprende dos interferómetros ampliamente separados dentro de los Estados Unidos: uno en Hanford, Washington, y el otro en Livingston, Louisiana, operando al unísono para detectar ondas gravitacionales. Cada uno de ellos tiene detectores de ondas gravitacionales de escala de múltiples kilómetros que utilizan interferometría de láser.  La Colaboración Científica de LIGO (LSC) es un grupo de más de 1000 científicos de universidades de los Estados Unidos y de otros 14 países, respaldados por más de 90 universidades e institutos de investigación; aproximadamente 250 estudiantes contribuyen activamente a la colaboración. El nuevo descubrimiento de LIGO es la primera observación de ondas gravitacionales, realizada midiendo las diminutas perturbaciones que las ondas generan en el espacio y el tiempo a medida que pasan a través de la Tierra.  Ha abierto nuevas fronteras astrofísicas que exploran el lado distorsionado del universo: objetos y fenómenos que se forman a partir del espacio-tiempo deformado.
 
@@ -58,15 +58,15 @@ NumPy, el paquete de análisis numérico estándar para Python, fue utilizado po
 * Cálculo de Correlaciones
 * [Software clave](https://github.com/lscsoft) desarrollado en análisis de datos de Ondas Gravitacionales como, tales como [GwPy](https://gwpy.github.io/docs/stable/overview.html) y [PyCBC](https://pycbc.org) utiliza NumPy y AstroPy bajo su cubierta para proporcionar interfaces basadas en objetos a utilidades, herramientas y métodos para el estudio de datos provenientes de detectores de ondas gravitacionales.
 
-{{< figura >}}
+{{< figure >}}
 src = '/images/content_images/cs/gwpy-numpy-dep-graph.png' alt = 'gwpy-numpy depgraph' title = 'Gráfico de dependencias que muestra cómo depende el paquete GwPy de NumPy'
-{{< /figura >}}
+{{< /figure >}}
 
 ----
 
 {{< figure >}}
 src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png' alt = 'PyCBC-numpy depgraph' title = 'Gráfico de dependencias que muestra cómo el paquete PyCBC depende de NumPy'
-{{< /figura >}}
+{{< /figure >}}
 
 ## Resumen
 
