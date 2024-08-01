@@ -80,4 +80,4 @@ El Comité responderá a cualquier informe lo antes posible y dentro de un plazo
 
 Damos las gracias a los grupos que están detrás de los siguientes documentos, de los que hemos sacado contenido e inspiración:
 
-- [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
+- [El Código de Conducta de SciPy](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
