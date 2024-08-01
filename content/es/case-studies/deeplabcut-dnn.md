@@ -44,24 +44,24 @@ Recientemente, se presentó el [modelo zoo de DeepLabCut](http://www.mousemotorl
 
   En flujo de trabajo típico de DeepLabCut incluye:
 
-  - creation and refining of training sets via active learning
-  - creation of tailored neural networks for specific animals and scenarios
-  - code for large-scale inference on videos
-  - draw inferences using integrated visualization tools
+  - creación y refinamiento de los conjuntos de entrenamiento a través del aprendizaje activo
+  - creación de redes neuronales a la medida para animales y escenarios específicos
+  - código para inferencia a gran escala en videos
+  - graficar las inferencias utilizando herramientas de visualización integradas
 
-{{< figure >}}
-src = '/images/content_images/cs/deeplabcut-toolkit-steps.png' title = 'Pose estimation steps with DeepLabCut' alt = 'dlcsteps' align = 'center' attribution = '(Source: DeepLabCut)' attributionlink = 'https://twitter.com/DeepLabCut/status/1198046918284210176/photo/1'
-{{< /figure >}}
+{{< figura >}}
+src = '/images/content_images/cs/deeplabcut-toolkit-steps.png' title = 'Postura de estimación de pasos con DeepLabCut' alt = 'dlcsteps' align = 'center' atribución = '(Source: DeepLabCut)' attributionlink = 'https://twitter. om/DeepLabCut/status/1198046918284210176/foto/1'
+{{< /figura >}}
 
-### The Challenges
+### Los Desafíos
 
-* **Speed**
+* **Velocidad**
 
-    Fast processing of animal behavior videos in order to measure their behavior and at the same time make scientific experiments more efficient, accurate. Extracting detailed animal poses for laboratory experiments, without markers, in dynamically changing backgrounds, can be challenging, both technically as well as in terms of resource needs and training data required. Coming up with a tool that is easy to use without the need for skills such as computer vision expertise that enables scientists to do research in more real-world contexts, is a non-trivial problem to solve.
+    Procesamiento rápido de videos de comportamiento animal para medir su comportamiento y al mismo tiempo hacer experimentos científicos más eficientes y precisos. La extracción detallada de posturas del animal para experimentos de laboratorio, sin marcadores, en entornos dinámicamente cambiantes, puede ser un desafío tanto técnico como en términos de recursos necesarios y datos de entrenamiento requeridos. Proponer una herramienta que sea fácil de usar sin necesidad de habilidades como experiencia en visión por computador que permita a los científicos hacer investigaciones en más contextos del mundo real, es un problema que no es trivial de resolver.
 
-* **Combinatorics**
+* **Combinatoria**
 
-    Combinatorics involves assembly and integration of movement of multiple limbs into individual animal behavior. Ensamblar puntos clave y sus conexiones en movimientos individuales de animales y vincularlos a lo largo del tiempo es un proceso complejo que requiere un análisis numérico intensivo, especialmente en el caso del seguimiento de movimientos de múltiples animales en videos de experimentos.
+    La combinatoria involucra el armado e integración del movimiento de múltiples extremidades en el comportamiento animal individual. Ensamblar puntos clave y sus conexiones en movimientos individuales de animales y vincularlos a lo largo del tiempo es un proceso complejo que requiere un análisis numérico intensivo, especialmente en el caso del seguimiento de movimientos de múltiples animales en videos de experimentos.
 
 * **Procesamiento de Datos**
 
