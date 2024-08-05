@@ -85,9 +85,6 @@ params:
       - 
         link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
         icon: youtube
-      - 
-        link: https://twitter.com/numpy_team
-        icon: twitter
     quicklinks:
       column1:
         title: ""
