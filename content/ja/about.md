@@ -49,13 +49,13 @@ Numpy プロジェクトのコアメンバーは、プロジェクトへの貢�
 - 最適化
 - 資金と助成金
 
-個々のチームメンバーについては、 [チーム](teams/) のページを参照してください。
+個々のチームメンバーについては、 [チーム](/teams/) のページを参照してください。
 
 ## NumFOCUSサブ委員会
 
 - Charles Harris
 - Ralf Gommers
-- Inessa Pawson
+- Melissa Weber Mendonça
 - Sebastian Berg
 - 外部メンバー: Thomas Caswell
 

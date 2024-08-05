@@ -18,7 +18,7 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 * [NumPy Quickstart チュートリアル](https://numpy.org/devdocs/user/quickstart.html)
 * [NumPyチュートリアル](https://numpy.org/numpy-tutorials)で、いくつかのチュートリアルと教育的資料を見ることができます。 このページのゴールは、NumPyプロジェクトによる質のいい資料を提供することです。 自習と講義形式の両方を想定しており、Jupyterノートブック形式で提供されます。 もしあなた自身の資料を追加することに興味がある場合、[Github上のnumpy-tutorialsリポジトリ](https://github.com/numpy/numpy-tutorials)をチェックしてみて下さい。
 * [イラストで学ぶNumPy *by Lev Maximov*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
-* [Scientific Pythonレクチャー](https://lectures.scientific-python.org/) NumPyだけでなく、科学的なPythonソフトウェアエコシステムを広く紹介しています。
+* [SciPyレクチャー](https://scipy-lectures.org/) NumPyだけでなく、科学的なPythonソフトウェアエコシステムを広く紹介しています。
 * [NumPy: 初心者のための基本](https://numpy.org/devdocs/user/absolute_beginners.html)
 * [NumPy チュートリアル *by Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
 * [スタンフォード大学 CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)

@@ -49,13 +49,13 @@ A liderança do projeto NumPy trabalha ativamente na diversificação dos caminh
 - otimização
 - financiamento e bolsas
 
-Veja a página sobre os [Times](/teams) para mais informações.
+Veja a página sobre os [Times]({{< relref "/teams" >}}) para mais informações.
 
 ## Subcomitê NumFOCUS
 
 - Charles Harris
 - Ralf Gommers
-- Inessa Pawson
+- Melissa Weber Mendonça
 - Sebastian Berg
 - Membro externo: Thomas Caswell
 
