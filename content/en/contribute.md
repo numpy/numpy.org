@@ -107,18 +107,6 @@ Fundraising is a scarce skill here -- we'd appreciate your help.
 
 ### Donate
 
-If you'd like to contribute to NumPy by making a donation, you are welcome to do so. 
-Any amount helps! NumPy Steering Council will make the decisions on how to best use any funds received. 
-Technical and infrastructure priorities are documented on 
-the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
+If you'd like to contribute to NumPy by making a donation, visit [https://numpy.org/about/#donate](https://numpy.org/about/#donate).
 
-NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United 
-States. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help 
-ensure the health and sustainability of the project. 
-Visit [numfocus.org](https://numfocus.org) for more information.
 
-Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). For donors in 
-the United States, your gift is tax-deductible to the extent provided by law. As 
-with any donation, you should consult with your tax advisor about your particular tax situation.
-
-{{<opencollective>}}
