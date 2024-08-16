@@ -58,8 +58,8 @@ Através do contato com a comunidade podemos compartilhar nosso trabalho para ma
 
 O NumPy foi um projeto totalmente voluntário por muitos anos, mas conforme sua importância cresceu, tornou-se clara a necessidade de apoio financeiro para garantir estabilidade e crescimento. [Esta palestra na SciPy'19](https://www.youtube.com/watch?v=dBTJD_FDVjU) explica quanta diferença esse suporte fez. Como todo o mundo das organizações sem fins lucrativos, nós estamos constantemente procurando bolsas, patrocinadores e outros tipos de apoio. Nós temos uma série de ideias e é claro que nós damos as boas-vindas a mais. Habilidade de buscar financiamento é uma habilidade rara aqui -- apreciaríamos a sua ajuda.
 
-### Donate
+### Doar
 
-If you'd like to contribute to NumPy by making a donation, visit [https://numpy.org/about/#donate](https://numpy.org/about/#donate).
+Se você gostaria de contribuir com o NumPy fazendo uma doação, visite [https://numpy.org/pt/about/#doações](https://numpy.org/pt/about/#doa%C3%A7%C3%B5es).
 
 
