@@ -17,18 +17,15 @@ NumPy 프로젝트에서는 당신의 경험과 의욕을 환영합니다! 당�
 
 프로그래머 여러분, 이 [도움말](https://numpy.org/devdocs/dev/index.html#development-process-summary)에 어떻게 코드베이스에 기여하는지 설명되어 있습니다. <br>저희의 [유투브 채널](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS)을 통해서 추가적인 정보를 확인 해주세요.
 
-
 ### Pull Request 리뷰
 프로젝트의 열린 풀 요청만 250개가 넘습니다. 즉 많은 잠재적 개선점과 오픈소스 기여자들이 피드백을 기다리고 있다는 것입니다. NumPy를 알고 있는 개발자라면, 코드베이스에 대해 잘 알지 못해도 기여할 수 있습니다. 아래와 같은 기여를 해 보십시오.
 * 늘어지는 토론 요약
 * 문서의 풀 요청 심사
 * 제안된 변경 사항 테스트
 
-
 ### 교육 자료 개발
 
 NumPy의 [사용자 도움말](https://numpy.org/devdocs)은 현재 대규모로 재구성되고 있습니다. 현재 새로운 튜토리얼, 방법, 심층적 설명이 필요하고, 사이트의 구조를 다시 짜야 합니다. 글을 쓰는 사람에게만 기회가 주어지는 것은 아닙니다. 코드 예제와 노트북, 동영상 등을 통한 기여도 환영합니다. [NEP 44 — NumPy 문서의 재구성](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html)에 사이트 재구성에 대하여 자세한 내용이 설명되어 있습니다.
-
 
 ### 이슈 확인
 
@@ -41,21 +38,17 @@ NumPy의 [사용자 도움말](https://numpy.org/devdocs)은 현재 대규모로
 
 한 번 참여해 보시길 바랍니다.
 
-
 ### 웹사이트 개발
 
 사이트를 막 뜯어 고친 상태이지만, 아직 끝이라기엔 멀었습니다. 웹 개발을 좋아하신다면, [여기](https://github.com/numpy/numpy.org/issues?q=is%3Aissue+is%3Aopen+label%3Adesign)에서 저희가 이루지 못했던 사항의 목록을 볼 수 있습니다. 자신만의 아이디어를 마음껏 공유해 주십시오.
-
 
 ### 그래픽 디자인
 
 그래픽 디자이너분들이 할 수 있는 기여의 목록을 여기에 열거하는 건 어렵습니다. 저희 문서에는 일러스트가 많이 부족합니다. 성장하는 사이트에는 이미지가 필요하기 때문에, 기여할 수 있는 기회가 많을 것입니다.
 
-
 ### 웹사이트 번역
 
 사용자가 모국어로 NumPy를 이용할 수 있도록 [numpy.org](https://numpy.org)의 여러 번역을 계획하고 있습니다. 이를 위해서는 자원봉사자분들의 통역이 필요합니다.  자세한 내용은 [여기](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n)를 참고하십시오. [이 GitHub 이슈](https://github.com/numpy/numpy.org/issues/55)에 댓글을 달아 번역에 참여하십시오.
-
 
 ### 커뮤니티 조직 및 확산
 
@@ -64,3 +57,9 @@ NumPy의 [사용자 도움말](https://numpy.org/devdocs)은 현재 대규모로
 ### 모금
 
 NumPy는 오랜 기간 동안 자원봉사의 형태로 유지되었으나, 그 중요성이 커짐에 따라 안정성 및 성장을 보장하려면 경제적 지원이 필요함이 분명해졌습니다. 이런 지원이 얼마나 큰 차이를 만들어 냈는지 [SciPy'19 강연](https://www.youtube.com/watch?v=dBTJD_FDVjU)에서 확인하실 수 있습니다. 모든 비영리 조직과 마찬가지로 저희는 지속적으로 보조금, 후원 및 기타 종류의 지원을 끊임없이 찾고 있습니다. 모금을 받을 아이디어가 몇 개 있지만 당연히 더 많은 자금을 받게 된다면 좋을 것입니다. 모금도 정말 희귀한 능력 중 하나입니다 - 도움을 주신다면 감사드리겠습니다.
+
+### Donate
+
+If you'd like to contribute to NumPy by making a donation, visit [https://numpy.org/about/#donate](https://numpy.org/about/#donate).
+
+
