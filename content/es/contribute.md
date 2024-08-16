@@ -17,18 +17,15 @@ Nuestra comunidad aspira a tratar a todos por igual y a valorar todas las contri
 
 Programadores, esta [guía](https://numpy.org/devdocs/dev/index.html#development-process-summary) explica cómo contribuir al código base. <br>También revisa nuestro [canal de YouTube](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) por consejos adicionales.
 
-
 ### Revisando solicitudes de cambios
 El proyecto tiene más de 250 solicitudes de cambios abiertos, lo que significa muchas mejoras potenciales y muchos colaboradores de código abierto esperando retroalimentación. Si eres un desarrollador que conoce NumPy, puedes ayudar aunque no estés familiarizado con el código base. Puedes:
 * resumir un debate extenso
 * categorizar documentación de solicitudes de incorporación de cambios
 * probar los cambios propuestos
 
-
 ### Creando material educativo
 
 La [Guía de usuario](https://numpy.org/devdocs) de NumPy está en proceso de rehabilitación. Necesitamos nuevos tutoriales, instrucciones y explicaciones detalladas, y la página necesita una reestructuración. Las oportunidades no se limitan a escritores. También ejemplos prácticos, notebooks y vídeos. La propuesta [NEP 44 - Reestructuración de la Documentación NumPy](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html) expone nuestras ideas -- y tal vez tú puedas tener otras.
-
 
 ### Clasificación de propuestas
 
@@ -41,21 +38,17 @@ El [rastreador de propuestas de NumPy](https://github.com/numpy/numpy/issues) ti
 
 Por favor, solo sumérgete.
 
-
 ### Desarrollo de la Página Web
 
 Acabamos de renovar nuestro sitio web, pero aún no hemos terminado. Si te gusta el desarrollo web, estas [incidencias](https://github.com/numpy/numpy.org/issues?q=is%3Aissue+is%3Aopen+label%3Adesign) enumeran algunas de nuestras necesidades insatisfechas -- y no dudes en compartir tus propias ideas.
-
 
 ### Diseño gráfico
 
 Apenas podemos empezar a enumerar las aportaciones que puede hacer un diseñador gráfico. Nuestra documentación está sedienta de ilustraciones; nuestro sitio web, en pleno crecimiento, ansía imágenes... las oportunidades abundan.
 
-
 ### Traduciendo el contenido de la página web
 
 Planeamos múltiples traducciones de [numpy.org](https://numpy.org) para hacer a NumPy accesible a los usuarios en su lengua materna. Los traductores voluntarios son el núcleo de este esfuerzo.  Consulta [aquí](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n) para más información; comenta en [este tema de GitHub](https://github.com/numpy/numpy.org/issues/55) para inscribirte.
-
 
 ### Coordinación y divulgación de la comunidad
 
@@ -64,3 +57,9 @@ A través del contacto con la comunidad compartimos nuestro trabajo más ampliam
 ### Recaudación de fondos
 
 NumPy fue durante muchos años un proyecto voluntario, pero a medida que crecía su importancia se hizo evidente que necesitaríamos apoyo financiero para garantizar su estabilidad y crecimiento. [Esta charla en SciPy'19](https://www.youtube.com/watch?v=dBTJD_FDVjU) explica cuánta diferencia ha supuesto este apoyo. Como todo en el mundo sin ánimo de lucro, estamos constantemente en busca de subvenciones, patrocinios y otros tipos de ayuda. Tenemos varias ideas y, por supuesto, aceptamos más. La recaudación de fondos es una habilidad escasa aquí -- apreciaríamos tu ayuda.
+
+### Donate
+
+If you'd like to contribute to NumPy by making a donation, visit [https://numpy.org/about/#donate](https://numpy.org/about/#donate).
+
+
