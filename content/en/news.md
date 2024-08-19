@@ -1,9 +1,24 @@
 ---
 title: News
 sidebar: false
-newsHeader: "NumPy 2.0 released!"
-date: 2024-06-17
+newsHeader: "NumPy 2.1 released!"
+date: 2024-08-18
 ---
+
+### NumPy 2.1.0 released
+
+_18 Aug, 2024_ -- NumPy 2.1.0 provides support for Python 3.13 and
+drops support for Python 3.9. In addition to the usual bug fixes and
+updated Python support, it helps get NumPy back to its usual release
+cycle after the extended development of 2.0. The highlights for this
+release are:
+
+-   Support for Python 3.13.
+-   Preliminary support for free threaded Python 3.13.
+-   Support for the array-api 2023.12 standard.
+
+Python versions 3.10-3.13 are supported by this release.
+
 
 ### NumPy 2.0.0 released
 
@@ -411,6 +426,7 @@ Here is a list of NumPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- NumPy 2.1.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.1.0)) -- _18 Aug 2024_.
 - NumPy 2.0.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.0.1)) -- _21 Jul 2024_.
 - NumPy 2.0.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.0.0)) -- _16 Jun 2024_.
 - NumPy 1.26.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.26.4)) -- _5 Feb 2024_.
