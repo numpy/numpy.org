@@ -1,9 +1,20 @@
 ---
 title: 소식
 sidebar: false
-newsHeader: "NumPy 2.0 released!"
+newsHeader: "NumPy 2.1 released!"
 date: 2023-09-16
 ---
+
+### NumPy 2.1.0 released
+
+_18 Aug, 2024_ -- NumPy 2.1.0 provides support for Python 3.13 and drops support for Python 3.9. In addition to the usual bug fixes and updated Python support, it helps get NumPy back to its usual release cycle after the extended development of 2.0. The highlights for this release are:
+
+-   Support for Python 3.13.
+-   Preliminary support for free threaded Python 3.13.
+-   Support for the array-api 2023.12 standard.
+
+Python versions 3.10-3.13 are supported by this release.
+
 
 ### NumPy 2.0 출시일: 6월 16일
 
@@ -250,6 +261,7 @@ _2019년 11월 15일_ -- NumPy의 주요 종속 패키지 중 하나인 NumPy와
 
 NumPy 릴리즈의 목록입니다. 릴리즈 노트로 링크도 걸려 있습니다. 버그 수정 릴리즈(`x.y.z`에서 `z`만 바뀐 경우)에는 새로운 기능이 없습니다. 마이너 릴리즈(`y`가 증가한 경우)에는 새로운 기능이 있습니다.
 
+- NumPy 2.1.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.1.0)) -- _18 Aug 2024_.
 - NumPy 2.0.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.0.1)) -- _21 Jul 2024_.
 - NumPy 2.0.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.0.0)) -- _16 Jun 2024_.
 - NumPy 1.26.4 ([릴리즈 노트](https://github.com/numpy/numpy/releases/tag/v1.26.4)) -- _ 2024년 2월 5일_.
