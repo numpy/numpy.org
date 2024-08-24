@@ -7,13 +7,13 @@ date: 2023-09-16
 
 ### NumPy 2.1.0 がリリースされました。
 
-_18 Aug, 2024_ -- NumPy 2.1.0 provides support for Python 3.13 and drops support for Python 3.9. In addition to the usual bug fixes and updated Python support, it helps get NumPy back to its usual release cycle after the extended development of 2.0. The highlights for this release are:
+_2024 Aug, 2024_ -- Numpy 2.1.0 は Python 3.13 をサポートし、Python 3.9をサポート外としました。 今回のリリースは通常のバグ修正やPythonサポートの更新に加えて、NumPyが2.0の長期開発を経て、通常のリリースサイクルに戻るためのリリースでもあります。 今回のリリースのハイライトは下記の通りです。
 
--   Support for Python 3.13.
--   Preliminary support for free threaded Python 3.13.
--   Support for the array-api 2023.12 standard.
+-   Python 3.13 のサポート
+-   Python 3.13のフリースレッドサポートの事前準備
+-   Array-api 2023.12 標準のサポート
 
-Python versions 3.10-3.13 are supported by this release.
+Python バージョン 3.10-3.13 か、このリリースでサポートされています。
 
 
 ### NumPy 2.0 リリース日: 6月16日
@@ -261,7 +261,7 @@ _2019年11月15日_ -- NumPyと、NumPyの重要な依存ライブラリの1つ�
 
 こちらは、より以前のNumPyリリースのリストで、各リリースノートへのリンクが記載されています。 全てのバグフィックスリリース(バージョン番号`x.y.z` の`z`だけが変更されたもの)は新しい機能追加はされず、マイナーリリース (`y` が増えたもの)は、新しい機能追加されています。
 
-- NumPy 2.1.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.1.0)) -- _18 Aug 2024_.
+- NumPy 2.1.0 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v2.1.0)) -- _2024年8月18日_.
 - NumPy 2.0.1 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v2.0.1)) -- _2024年7月21日_.
 - NumPy 2.0.0 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v2.0.0)) -- _2024年6月16日_.
 - NumPy 1.26.3 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.26.2)) -- _ 2024年1月2日_.
