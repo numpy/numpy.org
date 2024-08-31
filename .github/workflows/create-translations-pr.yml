@@ -8,7 +8,7 @@ on:
         required: true
 
 jobs:
-  auto-translation-pr:
+  create-translations-pr:
     runs-on: ubuntu-latest
     # Run only on main branch in upstream repo.
     if: ${{ github.repository == 'numpy/numpy.org' && github.ref == 'refs/heads/main' }}
