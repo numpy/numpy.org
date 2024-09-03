@@ -261,6 +261,7 @@ Puede encontrar más detalles sobre nuestras iniciativas y entregables propuesto
 
 Esta es una lista de lanzamientos NumPy, con enlaces a notas de lanzamiento. Los lanzamientos de corrección de errores (solo cambia la `z` en el número de versión `x.y.z`) no tienen nuevas características; las versiones menores (aumenta la `y`) sí las tienen.
 
+- NumPy 2.1.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.1.1)) -- _3 Sep 2024_.
 - NumPy 2.0.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.0.2)) -- _26 Aug 2024_.
 - NumPy 2.1.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.1.0)) -- _18 de agosto de 2024_.
 - NumPy 2.0.1 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.0.1)) -- _21 de julio de 2024_.
