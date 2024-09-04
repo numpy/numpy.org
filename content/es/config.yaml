@@ -1,6 +1,6 @@
 languageName: Inglés
 params:
-  description: '¿Por qué NumPy? Potentes matrices n-dimensionales. Herramientas de cálculo numérico. Interoperable. Rendimiento. Código abierto.'
+  description: '¿Por qué NumPy? Potentes arreglos n-dimensionales. Herramientas de cálculo numérico. Interoperabilidad. Rendimiento. Código abierto.'
   navbarlogo:
     image: logo.svg
     text: NumPy
@@ -11,7 +11,7 @@ params:
     #Hero subtitle (optional)
     subtitle: El paquete fundamental para la computación científica con Python
     #Button text
-    buttontext: "Última versión: NumPy 1.25. Ver todas las versiones"
+    buttontext: "Última versión: NumPy 2.0. Ver todas las versiones"
     #Where the main hero button links to
     buttonlink: "/news/#releases"
     #Hero image (from static/images/___)
@@ -67,7 +67,7 @@ params:
       title: Comunidad
       url: /community
     - 
-      title: Acerca de nosotros
+      title: Quiénes somos
       url: /about
     - 
       title: Noticias
