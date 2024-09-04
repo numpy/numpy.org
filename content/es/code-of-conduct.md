@@ -47,7 +47,7 @@ Los estándares de comportamiento en la comunidad NumPy se detallan en el Códig
 
 Sabemos que es dolorosamente común que la comunicación en Internet comience o se convierta en un abuso evidente y manifiesto. También reconocemos que a veces la gente puede tener un mal día, o no ser consciente de algunas de las directrices de este Código de Conducta. Por favor, tenga esto en cuenta a la hora de decidir cómo responder a una violación de este Código.
 
-En caso de infracciones claramente intencionadas, informe de éstas al Comité de Código de Conducta (ver más abajo). En caso de infracciones posiblemente involuntarias, puede responder a la persona y señalar este código de conducta (tanto en público como en privado, lo que sea más apropiado). Si prefiere no hacerlo, puede informar directamente al Comité de Código de Conducta o pedirle consejo a éste de forma confidencial.
+En caso de infracciones claramente intencionadas, informe de éstas al Comité de Código de Conducta (ver más abajo). En caso de infracciones posiblemente involuntarias, puede responder a la persona y señalar este código de conducta (tanto en público como en privado, lo que sea más apropiado). Si prefiere no hacerlo, por favor siéntase libre de informar directamente al Comité de Código de Conducta o de pedirle consejo a éste de forma confidencial.
 
 Puede informar de los problemas al Comité de Código de Conducta de NumPy en numpy-conduct@googlegroups.com.
 
@@ -57,7 +57,7 @@ Actualmente, el Comité está compuesto por:
 * Melissa Weber Mendonça
 * Rohit Goswami
 
-Si tu informe implica a algún miembro del Comité, o si éste considera que tiene un conflicto de intereses en su tramitación, se abstendrán de examinar tu denuncia. Alternativamente, si por cualquier razón usted se siente incómodo haciendo un informe al Comité, también puede ponerse en contacto con el personal de NumFOCUS senior en [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
+Si tu informe implica a algún miembro del Comité, o si éste considera que tiene un conflicto de intereses en su tramitación, se abstendrán de examinar tu denuncia. Alternativamente, si por cualquier razón usted se siente incómodo haciendo un informe al Comité, también puede ponerse en contacto con el personal senior de NumFOCUS en [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
 ### Resolución de reporte de informes & aplicación del Código de Conducta
 
