@@ -1,13 +1,13 @@
 ---
 title: Código de conducta de NumPy
-sidebar: falso
+sidebar: false
 aliases:
   - /conduct.html
 ---
 
 ### Introducción
 
-Este Código de Conducta aplica en todos los espacios gestionados por el proyecto NumPy, incluyendo todas las listas de correo públicas y privadas, gestores de incidencias, wikis, blogs, Twitter y cualquier otro canal de comunicación utilizado por nuestra comunidad. El proyecto NumPy no organiza eventos en persona; sin embargo, los eventos relacionados con nuestra comunidad deben tener un código de conducta similar a este.
+Este Código de Conducta aplica en todos los espacios gestionados por el proyecto NumPy, incluyendo todas las listas de correo públicas y privadas, gestores de incidencias, wikis, blogs, X (antes llamado Twitter) y cualquier otro canal de comunicación utilizado por nuestra comunidad. El proyecto NumPy no organiza eventos en persona; sin embargo, los eventos relacionados con nuestra comunidad deben tener un código de conducta similar a este.
 
 Este Código de Conducta debe ser respetado por todos los que participan en la comunidad NumPy formalmente o informalmente, o reclaman cualquier afiliación con el proyecto, en cualquier actividad relacionada con el proyecto y especialmente cuando representan el proyecto de cualquier manera.
 
@@ -15,10 +15,10 @@ Este código no es exhaustivo ni completo. Sirve para sintetizar nuestro entendi
 
 ### Directrices Específicas
 
-Cantera
+Nos esforzamos por:
 
 1. Ser abiertos. Invitamos a todas las personas a participar en nuestra comunidad. Preferimos utilizar métodos de comunicación públicos para los mensajes relacionados con el proyecto, a menos que se trate de algo delicado. Esto se aplica también a los mensajes de ayuda o soporte relacionados con el proyecto; no sólo es mucho más probable que una solicitud de soporte pública dé lugar a una respuesta a una pregunta, sino que también garantiza que cualquier error involuntario en la respuesta se detecte y corrija más fácilmente.
-2. Ser empáticos, receptivos, amables y pacientes. Trabajamos juntos para resolver los conflictos y asumimos que hay buenas intenciones. Todos podemos experimentar cierta frustración de vez en cuando, pero no permitimos que la frustración se convierta en un ataque personal. Una comunidad en la que la gente se siente incómoda o amenazada no es productiva.
+2. Ser empáticos, cordiales, amables y pacientes. Trabajamos juntos para resolver los conflictos y asumimos que hay buenas intenciones. Todos podemos experimentar cierta frustración de vez en cuando, pero no permitimos que la frustración se convierta en un ataque personal. Una comunidad en la que la gente se siente incómoda o amenazada no es productiva.
 3. Ser colaborativos. Nuestro trabajo será utilizado por otras personas, y a su vez dependeremos del trabajo de otros. Cuando hacemos algo en beneficio del proyecto, estamos dispuestos a explicar a otros cómo funciona, de manera que puedan construir sobre este trabajo para hacerlo aún mejor. Cualquier decisión que tomemos afectará a usuarios y colegas, y nos tomamos en serio esas consecuencias a la hora de tomar decisiones.
 4. Ser curiosos. ¡Nadie lo sabe todo! Hacer preguntas tempranas evita muchos problemas posteriores, por lo que fomentamos las preguntas, aunque las podamos redirigir al foro adecuado. Nos esforzaremos por ser receptivos y útiles.
 5. Ser cuidadosos con las palabras que elegimos. Somos cuidadosos y respetuosos en nuestra comunicación, y asumimos la responsabilidad del lenguaje que utilizamos. Ser amables con los demás. No insultes ni menosprecies a los demás participantes. No aceptaremos el acoso ni otros comportamientos excluyentes, tales como:
