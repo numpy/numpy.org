@@ -18,7 +18,7 @@ Hay un montón de información sobre NumPy allá afuera. Si eres nuevo, te recom
 * [Tutorial NumPy de inicio rápido](https://numpy.org/devdocs/user/quickstart.html)
 * [Tutoriales de NumPy](https://numpy.org/numpy-tutorials) Una colección de tutoriales y materiales educativos en formato de cuadernos Jupyter desarrollados y mantenidos por el equipo de documentación de NumPy. Para enviar tu propio contenido, visita el repositorio [numpy-tutorials en GitHub](https://github.com/numpy/numpy-tutorials).
 * [NumPy Illustrated: La Guía Visual de NumPy *por Lev Maximov*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
-* [Lecturas de SciPy](https://scipy-lectures.org/) Además de cubrir NumPy, estas conferencias ofrecen una introducción más amplia al ecosistema científico de Python.
+* [Lecturas de Python Científico](https://scipy-lectures.org/) Además de cubrir NumPy, estas conferencias ofrecen una introducción más amplia al ecosistema científico de Python.
 * [NumPy: lo absolutamente básico para principiantes](https://numpy.org/devdocs/user/absolute_beginners.html)
 * [Tutorial de NumPy *por Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
 * [Stanford CS231 *por Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
