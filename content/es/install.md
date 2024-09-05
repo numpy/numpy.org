@@ -97,7 +97,7 @@ En la medida en que las librerías son actualizadas, los resultados al correr su
 
 NumPy no depende de ningún otro paquete de Python; sin embargo, sí depende de una librería de álgebra lineal acelerada - típicamente [Intel MKL](https://software.intel.com/en-us/mkl) u [OpenBLAS](https://www.openblas.net/). Los usuarios no tienen que preocuparse por instalar éstas (se incluyen automáticamente en todos los métodos de instalación de NumPy). Los usuarios avanzados podrían querer, de todas maneras, conocer los detalles, ya que la utilización BLAS puede afectar el desempeño, comportamiento y tamaño en disco:
 
-- Las ruedas NumPy en PyPI, que son las que pip instala, están construidas con OpenBLAS. Las librerías de OpenBLAS están incluidas en la rueda. Esto vuelve a la rueda más grande, y si un usuario instala (por ejemplo) SciPy también, tendrá dos copias de OpenBLAS en disco.
+- Las ruedas NumPy en PyPI, que son los que pip instala, están construidas con OpenBLAS. Las librerías de OpenBLAS están incluidas en la rueda. Esto vuelve a la rueda más grande, y si un usuario instala (por ejemplo) SciPy también, tendrá dos copias de OpenBLAS en disco.
 
 - En el canal defaults o predeterminado de conda, NumPy está basado en Intel MKL. MKL es un paquete separado que se instalará en el entorno de usuario al instalar NumPy.
 
