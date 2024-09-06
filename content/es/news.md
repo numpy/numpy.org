@@ -5,15 +5,15 @@ newsHeader: "¡NumPy 2.0 ha sido lanzado!"
 date: 2024-06-17
 ---
 
-### NumPy 2.1.0 released
+### Lanzamiento de NumPy 2.1.0
 
-_18 Aug, 2024_ -- NumPy 2.1.0 provides support for Python 3.13 and drops support for Python 3.9. In addition to the usual bug fixes and updated Python support, it helps get NumPy back to its usual release cycle after the extended development of 2.0. The highlights for this release are:
+_18 de agosto 2024_ -- NumPy 2.1.0 proporciona soporte para Python 3.13 y abandona el soporte para Python 3.9. Además de las habituales correcciones de errores y soporte actualizado de Python, ayuda a que NumPy vuelva a su ciclo de publicación habitual después del extenso desarrollo de 2.0. Los aspectos más destacados son:
 
--   Support for Python 3.13.
--   Preliminary support for free threaded Python 3.13.
--   Support for the array-api 2023.12 standard.
+-   Soporte para Python 3.13.
+-   Soporte preliminar para Python 3.13 de hilos libres.
+-   Compatibilidad con la norma array-api 2023.12.
 
-Python versions 3.10-3.13 are supported by this release.
+Esta versión es compatible con las versiones 3.10-3.13 de Python.
 
 
 ### Lanzamiento de NumPy 2.0.0
@@ -173,7 +173,7 @@ _23 de junio de 2021_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.2
 
 - trabajo SIMD continuo que cubre más funciones y plataformas,
 - trabajo inicial sobre la nueva infraestructura dtype y conversiones de tipo,
-- ruedas universal2 para Python 3.8 y Python 3.9 en Mac,
+- universal2 wheels para Python 3.8 y Python 3.9 en Mac,
 - documentación mejorada,
 - anotaciones mejoradas,
 - nuevo `PCG64DXSM` generador de bits para números aleatorios.
@@ -188,7 +188,7 @@ _22 de junio de 2021_ -- En 2020, el equipo de encuestas de NumPy, en asociació
 
 ### Lanzamiento de NumPy 1.20.0
 
-_30 de enero de 2021_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) ya está disponible. Este es el lanzamiento de NumPy más grande hasta la fecha, gracias a los más de 180 colaboradores. Las dos nuevas características más emocionantes son:
+_30 de enero de 2021_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) ya está disponible. Este es el lanzamiento de NumPy más grande hasta la fecha, gracias a los más de 180 colaboradores. Las dos nuevas características más importantes son:
 - Anotaciones de tipo para grandes partes de NumPy, y un nuevo submódulo `numpy.typing` que contiene los alias `ArralyLike` y `DtypeLike` que los usuarios y las librerías dependientes o downstream pueden usar al agregar anotaciones de tipo en su propio código.
 - Optimizaciones de compilador SIMD multiplataforma, con soporte para instrucciones x86 (SSE, AVX), ARM64 (Neon) y PowerPC (VSX). Esto produjo mejoras significativas de rendimiento para muchas funciones (ejemplos: [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)).
 
@@ -261,8 +261,8 @@ Puede encontrar más detalles sobre nuestras iniciativas y entregables propuesto
 
 Esta es una lista de lanzamientos NumPy, con enlaces a notas de lanzamiento. Los lanzamientos de corrección de errores (solo cambia la `z` en el número de versión `x.y.z`) no tienen nuevas características; las versiones menores (aumenta la `y`) sí las tienen.
 
-- NumPy 2.1.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.1.1)) -- _3 Sep 2024_.
-- NumPy 2.0.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.0.2)) -- _26 Aug 2024_.
+- NumPy 2.1.1 ([notas de lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.1.1)) -- _3 de septiembre 2024_.
+- NumPy 2.0.2 ([notas de lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.0.2)) -- _26 de agosto 2024_.
 - NumPy 2.1.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.1.0)) -- _18 de agosto de 2024_.
 - NumPy 2.0.1 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.0.1)) -- _21 de julio de 2024_.
 - NumPy 2.0.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.0.0)) -- _16 de junio de 2024_.
@@ -301,6 +301,6 @@ Esta es una lista de lanzamientos NumPy, con enlaces a notas de lanzamiento. Los
 - NumPy 1.17.5 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.17.5)) -- _1 de enero de 2020_.
 - NumPy 1.18.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.18.0)) -- _22 de diciembre de 2019_.
 - NumPy 1.17.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.17.0)) -- _26 de julio de 2019_.
-- .
+- NumPy 1.16.0 ([notas de lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.16.0)) -- _14 Jan 2019_.
 - NumPy 1.15.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.15.0)) -- _23 de julio de 2018_.
 - NumPy 1.14.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v1.14.0)) -- _7 de enero de 2018_.
