@@ -18,28 +18,28 @@ Python versions 3.10-3.13 are supported by this release.
 
 ### Lanzamiento de NumPy 2.0.0
 
-_16 de junio de 2024_ -- NumPy 2.0.0 es el primer lanzamiento importante desde 2006. Es el resultado de 11 meses de desarrollo desde el último lanzamiento de características y es el trabajo de 212 colaboradores distribuidos entre 1078 solicitudes de incorporación de cambios. Contiene un gran número de nuevas características emocionantes, así como cambios en las APIs de Python y C.  Incluye cambios importantes que no podrían ocurrir en un lanzamiento menor regular, incluyendo una ruptura de ABI, cambios en las reglas de promoción de tipos y cambios en la API que pueden no haber estado emitiendo advertencias de obsolescencia en la versión 1.26.x. Los documentos clave relacionados con cómo adaptarse a los cambios en NumPy 2.0 incluyen:
+_16 de junio de 2024_ -- NumPy 2.0.0 es el primer lanzamiento importante desde 2006. Es el resultado de 11 meses de desarrollo desde el último lanzamiento de características y es el trabajo de 212 colaboradores distribuidos entre 1078 solicitudes de incorporación de cambios. Contiene un gran número de nuevas características interesantes, así como cambios en las APIs de Python y C.  Incluye cambios importantes que no podrían producirse en un lanzamiento menor regular, como una ruptura de ABI, cambios en las reglas de promoción de tipos y cambios en la API que podrían no haber estado emitiendo advertencias de obsolescencia en la versión 1.26.x. Los documentos clave relacionados con cómo adaptarse a los cambios en NumPy 2.0 incluyen:
 
 - La [guía de migración a NumPy 2.0](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
 - Las [ notas del lanzamiento 2.0.0](https://numpy.org/devdocs/release/2.0.0-notes.html)
-- Problema de anuncio para actualizaciones de estado: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
+- Emisión de anuncios para actualizaciones de estado: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
 La publicación ["NumPy 2.0: un hito evolutivo"](https://blog.scientific-python.org/numpy/numpy2/) cuenta un poco de la historia sobre cómo se llegó a este lanzamiento.
 
 
 ### Fecha de lanzamiento de NumPy 2.0: 16 de junio
 
-_23 de mayo de 2024_ -- Estamos encantados de anunciar que NumPy 2.0 está previsto que sea lanzado el 16 de junio de 2024. Esta publicación lleva más de un año en proceso y es el primer lanzamiento importante desde 2006. Es importante destacar que, además de muchas nuevas características y mejoras en el rendimiento, contiene **cambios disruptivos** frente al ABI, como también a las APIs de Python y C. Es probable que los paquetes dependientes o downstream y código de usuario final necesiten ser adaptados - si puede, por favor verifique si su código funciona con NumPy `2.0.0rc2`. **Por favor, vea lo siguiente para más detalles:**
+_23 de mayo de 2024_ -- Estamos encantados de anunciar que NumPy 2.0 está previsto que sea lanzado el 16 de junio de 2024. Esta publicación lleva más de un año en proceso y es el primer lanzamiento importante desde 2006. Es importante destacar que, además de muchas nuevas características y mejoras en el rendimiento, contiene **cambios disruptivos** frente al ABI, como también a las APIs de Python y C. Es probable que los paquetes dependientes o downstream y código de usuario final necesiten ser adaptados - si puedes, por favor verifica que tu código funciona con NumPy `2.0.0rc2`. **Por favor, revisa lo siguiente para más detalles:**
 
 - La [guía de migración a NumPy 2.0](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
 - Las [ notas del lanzamiento 2.0.0](https://numpy.org/devdocs/release/2.0.0-notes.html)
-- Anuncio de actualización de estado: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
+- Emisión de anuncios para actualizaciones de estado: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
 
 ### Recaudación de fondos de fin de año de NumFOCUS
 _19 de diciembre de 2023_ -- NumFOCUS se ha asociado con PyCharm durante su campaña de fin de año para ofrecer un 30% de descuento en licencias de primera vez de PyCharm. Todos los ingresos del primer año de las compras de PyCharm desde ahora hasta el 23 de diciembre de 2023 se destinarán directamente a los programas de NumFOCUS.
 
-Utilice una URL única que permita rastrear las compras https://lp.jetbrains.com/support-data-science/ o un código de cupón ISUPPORTDATASCIENCE 
+Utiliza una URL única que te permitirá rastrear las compras https://lp.jetbrains.com/support-data-science/ o un código de cupón ISUPPORTDATASCIENCE 
 
 ### NumPy 1.26.0 ha sido lanzado
 
@@ -86,7 +86,7 @@ _17 de junio de 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.2
 
 * Soporte para MUSL, ahora hay ruedas MUSL.
 * Soporte para el compilador de Fujitsu C/C++.
-* Las matrices de objetos ahora están soportadas en einsum.
+* Los arreglos de objetos ahora están soportadas en einsum.
 * Soporte para la multiplicación de matrices in situ (`@=`).
 
 NumPy 1.25. continúa el trabajo en curso para mejorar el manejo y promoción de dtypes, aumentar la velocidad de ejecución y clarificar la documentación. También se ha realizado trabajo preparatorio para el futuro NumPy 2.0.0, resultando en un gran número de nuevas y eliminadas obsolescencias.
@@ -133,13 +133,13 @@ _13 de abril de 2022_ -- NumPy está trabajando con [NumFOCUS](http://numfocus.o
 
 **¿Estás interesado en compartir tus experiencias?**
 
-Por favor, complete este breve [formulari o de "Interés del Participante"](https://numfocus.typeform.com/to/WBWVJSqe), que contiene información adicional sobre los objetivos de la investigación, la privacidad y las consideraciones de confidencialidad. Su participación será valiosa para el crecimiento y la sostenibilidad de comunidades de software de código abierto diversas e inclusivas. Los participantes aceptados participarán en una entrevista de 30 minutos con un miembro del equipo de investigación.
+Por favor, completa este breve [formulario de "Interés del Participante"](https://numfocus.typeform.com/to/WBWVJSqe), que contiene información adicional sobre los objetivos de la investigación, la privacidad y las consideraciones de confidencialidad. Tu participación será valiosa para el crecimiento y la sostenibilidad de comunidades de software de código abierto diversas e inclusivas. Los participantes aceptados participarán en una entrevista de 30 minutos con un miembro del equipo de investigación.
 
 ### Lanzamiento de NumPy 1.22.0
 
 _31 de diciembre de 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) ya está disponible. Los aspectos más destacados del lanzamiento son:
 
-* Las anotaciones de tipo del espacio de nombres principal están esencialmente completas. El repositorio principal (upstream) es un objetivo en movimiento, así que probablemente habrán más mejoras, pero el mayor trabajo ya está hecho. El repositorio principal o upstream es un objetivo en movimiento, así que probablemente habrán más mejoras, pero el trabajo principal ya está hecho.
+* Las anotaciones de tipo del espacio de nombres principal están esencialmente completas. El repositorio principal (upstream) es un objetivo en movimiento, así que probablemente habrán más mejoras, pero el mayor trabajo ya está hecho. Esta es probablemente la mejora más visible para el usuario en esta versión.
 * Una versión preliminar del propuesto [Estándar API de Arreglos](https://data-apis.org/array-api/latest/) es suministrada (véase [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)). Este es un paso en la creación de una colección estándar de funciones que pueden ser usadas a través de librerías como CuPy y JAX.
 * NumPy ahora tiene un backend de DLPack. DLPack proporciona un formato de intercambio común para datos de arreglos (tensor).
 * Nuevos métodos para `cuantil`, `percentil` y funciones relacionadas. Los nuevos métodos proporcionan un conjunto completo de los métodos comúnmente encontrados en la literatura.
@@ -154,9 +154,9 @@ _31 de agosto de 2021_ -- Nos complace anunciar que la Iniciativa Chan Zuckerber
 
 Como parte del [Programa de Software Esencial de Código Abierto para la Ciencia de CZI](https://chanzuckerberg.com/eoss/), esta subvención suplementaria de [Diversidad &e Inclusión](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b) apoyará la creación de posiciones dedicadas de Líder de Experiencia del Colaborador para identificar, documentar e implementar prácticas para fomentar comunidades inclusivas de código abierto. Este proyecto será liderado por Melissa Mendonça (NumPy), con mentoría y orientación adicionales por parte de Ralf Gommers (NumPy, SciPy), Hannah Aizenman y Thomas Caswell (Matplotlib), Matt Haberland (SciPy), y Joris Van den Bossche (Pandas).
 
-Este es un proyecto ambicioso destinado a descubrir e implementar actividades que deberían mejorar estructuralmente la dinámica comunitaria de nuestros proyectos. Al establecer estos nuevos roles entre proyectos, esperamos introducir un nuevo modelo de colaboración para las comunidades de Python Científico, permitiendo que el trabajo de construcción de comunidades dentro del ecosistema se realice de manera más eficiente y con mejores resultados. También esperamos desarrollar una imagen más clara tanto de lo que sí y como de lo que no funciona en nuestros proyectos, para atraer y retener nuevos colaboradores, especialmente de grupos históricamente subrepresentados. Finalmente, planeamos producir informes detallados sobre las acciones ejecutadas, explicando cómo éstas han impactado nuestros proyectos en términos de representación e interacción con nuestras comunidades.
+Este es un proyecto ambicioso destinado a descubrir e implementar actividades que deberían mejorar estructuralmente la dinámica comunitaria de nuestros proyectos. Al establecer estos nuevos roles entre proyectos, esperamos introducir un nuevo modelo de colaboración para las comunidades de Python Científico, permitiendo que el trabajo de construcción de comunidades dentro del ecosistema se realice de manera más eficiente y con mejores resultados. También esperamos desarrollar una idea más clara tanto de lo que funciona y lo que no en nuestros proyectos, para atraer y retener nuevos colaboradores, especialmente de grupos históricamente subrepresentados. Finalmente, planeamos producir informes detallados sobre las acciones ejecutadas, explicando cómo éstas han impactado nuestros proyectos en términos de representación e interacción con nuestras comunidades.
 
-Se espera que este proyecto, de dos años de duración, comience en noviembre de 2021, y estamos emocionados por ver los resultados de este trabajo! [Puede leer la propuesta completa aquí](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063).
+Se espera que este proyecto, de dos años de duración, comience en noviembre de 2021, y estamos emocionados por ver los resultados de este trabajo! [Puedes leer la propuesta completa aquí](https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063).
 
 ### Encuesta de NumPy de 2021
 
