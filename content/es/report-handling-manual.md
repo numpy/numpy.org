@@ -92,4 +92,4 @@ El Comité nunca debatirá públicamente el asunto; todas las declaraciones púb
 
 ## Conflictos de intereses
 
-En caso de cualquier conflicto de intereses, un miembro del Comité deberá notificar inmediatamente a los demás miembros y recusarse en caso de ser necesario.
+En caso de cualquier conflicto de intereses, el miembro del Comité deberá notificarlo inmediatamente a los demás miembros y excusarse en caso de ser necesario.
