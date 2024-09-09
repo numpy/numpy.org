@@ -160,7 +160,7 @@ params:
             label: Mahotas
       - 
         title: Grafos y Redes
-        alttext: Un simple grafo.
+        alttext: Un grafo simple.
         img: /images/content_images/sc_dom_img/sd6.svg
         links:
           - 
@@ -319,7 +319,7 @@ params:
     image2:
       - 
         img: /images/content_images/data-science.png
-        alttext: Diagrama de tres círculos superpuestos. Los círculos se denominan "Matemáticas", "Informática" y "Conocimientos Especializados". En el centro del diagrama, con los tres círculos superpuestos, hay un área denominada "Ciencia de datos".
+        alttext: Diagrama de tres círculos superpuestos. Los círculos se denominan "Matemáticas", "Ciencias de la Computación" y "Conocimientos Especializados". En el centro del diagrama, con los tres círculos superpuestos, hay un área denominada "Ciencia de datos".
     examples:
       - 
         text: "<b>Extraer, Transformar, Cargar: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
@@ -328,7 +328,7 @@ params:
       - 
         text: "<b>Modelado y evaluación: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
       - 
-        text: "<b>Informes en paneles: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
+        text: "<b>Informes en un panel de control: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
     content:
       - 
         text: Para grandes volúmenes de datos, [Dask](https://dask.org) y [Ray](https://ray.io/) están diseñados para escalarse. Las implementaciones estables se basan en el versionado de datos ([DVC](https://dvc.org)), rastreo de experimentos ([MLFlow](https://mlflow.org)), y automatización del flujo de trabajo ([Airflow](https://airflow.apache.org), [Dagster](https://dagster.io) y [Prefect](https://www.prefect.io)).
@@ -370,4 +370,4 @@ params:
       - 
         text: NumPy es un componente esencial en el floreciente [panorama de visualización de Python](https://pyviz.org/overviews/index.html), que incluye [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), y [PyVista](https://github.com/pyvista/pyvista), por nombrar algunos.
       - 
-        text: El procesamiento acelerado de matrices de gran tamaño de NumPy permite a los investigadores visualizar conjuntos de datos mucho mayores a los que el Python nativo podría manejar.
+        text: El procesamiento acelerado de arreglos de gran tamaño de NumPy permite a los investigadores visualizar conjuntos de datos mucho mayores a los que el Python nativo podría manejar.
