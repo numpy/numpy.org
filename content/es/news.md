@@ -211,7 +211,7 @@ _14 de septiembre de 2020_ -- Python 3.9 será lanzado dentro de unas pocas sema
 
 ### Lanzamiento de NumPy 1.19.2
 
-_10 de septiembre de 2020_ -- [NumPy 1.19.2](https://numpy.org/devdocs/release/1.19.2-notes.html) ya está disponible. Este último lanzamiento de la serie 1.19 corrige varios errores, se prepara para el [lanzamiento próximo de Cython 3.x](http://docs.cython.org/en/latest/src/changes.html) y fija las versiones de setuptools para mantener distutils funcionando mientras las modificaciones hacia el repositorio principal continúan. Las ruedas aarch64 están construidas con el último lanzamiento de manylinux2014 que corrige el problema de diferentes tamaños de página utilizados por diferentes distribuciones de linux.
+_10 de septiembre de 2020_ -- [NumPy 1.19.2](https://numpy.org/devdocs/release/1.19.2-notes.html) ya está disponible. Este último lanzamiento de la serie 1.19 corrige varios errores, se prepara para el [lanzamiento próximo de Cython 3.x](http://docs.cython.org/en/latest/src/changes.html) y fija las versiones de setuptools para mantener distutils funcionando mientras las modificaciones hacia el repositorio principal continúan. Las wheels para aarch64 están construidas con la última versión de manylinux2014 que corrige el problema de diferentes tamaños de página utilizados por diferentes distribuciones de linux.
 
 ### La encuesta inaugural de NumPy ya está disponible!
 
