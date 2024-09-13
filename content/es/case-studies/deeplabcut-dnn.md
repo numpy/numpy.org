@@ -1,10 +1,10 @@
 ---
-title: "Caso de estudio: Estimación de Postura 3D DeepLabCut"
-sidebar: falso
+title: "Caso de estudio: DeepLabCut Estimación de Postura 3D"
+sidebar: false
 ---
 
 {{< figure >}}
-src = '/images/content_images/cs/mice-hand.gif' title = 'Analizar movimiento del ratón usando DeepLapCut' alt = 'micehandanim' attribution = '(Fuente: www.deeplabcut.org )' attributionlink = 'http://www.mousemASElab.org/deeplabcut'
+src = '/images/content_images/cs/mice-hand.gif' title = 'Analizar movimiento de las manos de los ratones usando DeepLapCut' alt = 'micehandanim' attribution = '(Fuente: www.deeplabcut.org )' attributionlink = 'http://www.mousemASElab.org/deeplabcut'
 {{< /figure >}}
 
 {{< blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/" by="Alexander Mathis, *Profesor Asistente, Escuela Politécnica Federal de Lausana* ([EPFL](https://www.epfl.ch/en/))"
@@ -14,11 +14,11 @@ src = '/images/content_images/cs/mice-hand.gif' title = 'Analizar movimiento del
 
 ## Acerca de DeepLabCut
 
-[DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) es una caja de herramientas de código abierto que permite a los investigadores de cientos de instituciones de todo el mundo rastrear el comportamiento de animales de laboratorio, con muy pocos datos de entrenamiento, con una precisión de nivel humana. Con la tecnología DeepLabCut, los científicos pueden profundizar en la comprensión científica del control motriz y el comportamiento a través de especies animales y escalas de tiempo.
+[DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) es una caja de herramientas de código abierto que permite a los investigadores de cientos de instituciones de todo el mundo rastrear el comportamiento de animales de laboratorio, con muy pocos datos de entrenamiento, con una precisión de nivel humana. Con la tecnología DeepLabCut, los científicos pueden profundizar en la comprensión científica del control motriz y el comportamiento a través de especies animales y escalas temporales.
 
 Muchas áreas de investigación, incluyendo la neurociencia, la medicina y la biomecánica, utilizan datos para rastrear el movimiento animal. DeepLabCut ayuda a entender lo que los humanos y otros animales están haciendo, analizando las acciones que han sido grabadas en la filmación. Utilizando la automatización para tareas laboriosas de etiquetado y monitoreo, junto con el análisis de datos basado en redes neuronales profundas, DeepLabCut realiza estudios científicos que involucran la observación de animales, tales como primates, ratones, peces, moscas, etc. de manera mucho más rápida y precisa.
 
-{{< figura >}}
+{{< figure >}}
 src = '/images/content_images/cs/race-horse.gif' title = 'Puntos de colores rastrean las posiciones de una parte del cuerpo de un caballo de carreras' alt = 'horserideranim' attribution = '(Fuente: Mackenzie Mathis)'
 {{< /figure >}}
 
@@ -34,7 +34,7 @@ Recientemente, se presentó el [modelo zoo de DeepLabCut](http://www.mousemotorl
 
 * **Automatización del análisis de la postura animal para estudios científicos:**
 
-  El objetivo principal de la tecnología DeepLabCut es medir y rastrear la postura de los animales en diversos entornos. Estos datos se pueden utilizar, por ejemplo, en estudios de neurociencia para entender cómo el cerebro controla el movimiento, o para dilucidar como interactúan socialmente los animales. Los investigadores han observado un [aumento de rendimiento diez veces mayor](https://www.biorxiv.org/content/10.1101/457242v1) con DeepLabCut. Las posturas se pueden inferir sin conexión hasta a 1200 fotogramas por segundo (FPS).
+  El objetivo principal de la tecnología DeepLabCut es medir y rastrear la postura de los animales en diversos entornos. Estos datos se pueden utilizar, por ejemplo, en estudios de neurociencia para entender cómo el cerebro controla el movimiento, o para aclarar como interactúan socialmente los animales. Los investigadores han observado un [aumento de rendimiento diez veces mayor](https://www.biorxiv.org/content/10.1101/457242v1) con DeepLabCut. Las posturas se pueden inferir sin conexión hasta a 1200 fotogramas por segundo (FPS).
 
 * **Creación de un conjunto de herramientas de Python de fácil uso para la estimación de postura:**
 
@@ -49,9 +49,9 @@ Recientemente, se presentó el [modelo zoo de DeepLabCut](http://www.mousemotorl
   - código para inferencia a gran escala en videos
   - graficar las inferencias utilizando herramientas de visualización integradas
 
-{{< figura >}}
-src = '/images/content_images/cs/deeplabcut-toolkit-steps.png' title = 'Postura de estimación de pasos con DeepLabCut' alt = 'dlcsteps' align = 'center' atribución = '(Source: DeepLabCut)' attributionlink = 'https://twitter. om/DeepLabCut/status/1198046918284210176/foto/1'
-{{< /figura >}}
+{{< figure >}}
+src = '/images/content_images/cs/deeplabcut-toolkit-steps.png' title = 'Pasos de estimación de la postura con DeepLabCut' alt = 'dlcsteps' align = 'center' atribución = '(Source: DeepLabCut)' attributionlink = 'https://twitter. om/DeepLabCut/status/1198046918284210176/foto/1'
+{{< /figure >}}
 
 ### Los Desafíos
 
@@ -68,7 +68,7 @@ src = '/images/content_images/cs/deeplabcut-toolkit-steps.png' title = 'Postura 
     Por último, pero no menos importante, la manipulación de arreglos - procesamiento de grandes pilas de arreglos correspondientes a varias imágenes, tensores objetivo y puntos clave es bastante desafiante.
 
 {{< figure >}}
-src = '/images/content_images/cs/pose-estimation.png' title = 'Estimación de variedad y complejidad de postura' alt = 'challengesfig' align = 'centro' atribución = '(Fuente: Mackenzie Mathis)' attributionlink = 'https://www. iorxiv.org/content/10.1101/476531v1.full.pdf'
+src = '/images/content_images/cs/pose-estimation.png' title = 'Estimación de variedad y complejidad de postura' alt = 'challengesfig' align = 'center' atribución = '(Fuente: Mackenzie Mathis)' attributionlink = 'https://www. iorxiv.org/content/10.1101/476531v1.full.pdf'
 {{< /figure >}}
 
 ## El Papel de NumPy para afrontar los desafíos de la estimación de postura
@@ -94,7 +94,7 @@ src = '/images/content_images/cs/deeplabcut-workflow.png' title = 'Flujo de Trab
 Observar y describir eficientemente el comportamiento es un punto central de la etología moderna, neurociencia, medicina y tecnología. [DeepLabCut](http://orga.cvss.cc/wp-content/uploads/2019/05/NathMathis2019.pdf) permite a los investigadores estimar la postura del sujeto, permitiéndoles de manera eficiente cuantificar el comportamiento. Con solo un pequeño conjunto de imágenes de entrenamiento, el conjunto de herramientas de Python de DeepLabCut permite entrenar una red neuronal con una precisión de etiquetado a nivel humano, expandiendo así su aplicación no solo al análisis del comportamiento en el laboratorio, sino también potencialmente en deportes, análisis de marcha, medicina y estudios de rehabilitación. Los desafíos de la combinatoria compleja y procesamiento de datos enfrentados por los algoritmos de DeepLabCut se abordan mediante el uso de las capacidades de manipulación de arreglos de NumPy.
 
 {{< figure >}}
-src = '/images/content_images/cs/numpy_dlc_benefits.png' alt = 'beneficios de NumPy' title = 'Capacidades claves de NumPy utilizadas'
+src = '/images/content_images/cs/numpy_dlc_benefits.png' alt = 'beneficios de NumPy' title = 'Capacidades claves utilizadas de NumPy'
 {{< /figure >}}
 
 [cheetah-movement]: https://www.technologynetworks.com/neuroscience/articles/interview-a-deeper-cut-into-behavior-with-mackenzie-mathis-327618
