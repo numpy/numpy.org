@@ -1,11 +1,11 @@
 ---
 title: "Estudio de caso: Análisis de críquet, ¡el cambio radical!"
-sidebar: falso
+sidebar: false
 ---
 
-{{< figura >}}
+{{< figure >}}
 figure src="/images/content_images/cs/ipl-stadium.png'title" caption="IPLT20, el festival de críquet más grande en India" alt="Copa y estadio de la Premier League de Críquet de India" attr="(Créditos de imagen: IPLT20 (copa y logo) & Akash Yadav (estadio))" attrlink="https://unsplash.com/@aksh1802'
-{{< /figura >}}
+{{< /figure >}}
 
 {{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, *Jugador Internacional de críquet, ex-capitán del equipo de India, juega para Chennai Super Kings en IPL*"
 > }} No juegas para el público, juegas para el país. 
@@ -14,16 +14,16 @@ figure src="/images/content_images/cs/ipl-stadium.png'title" caption="IPLT20, el
 
 ## Acerca del críquet
 
-Sería una subestimación decir que a los indios les encanta el críquet. El juego se juega en casi cada rincón de India, rural o urbano, es popular entre los jóvenes y ancianos por igual, conectando miles de millones en India a diferencia de cualquier otro deporte. El críquet disfruta de una gran atención mediática. Hay una cantidad importante de [dinero](https://www.statista.com/topics/4543/indian-premier-league-ipl/) y fama en juego. En los últimos años, la tecnología ha cambiado literalmente las reglas del juego. El público tiene muchas opciones para elegir entre streaming de medios, torneos, acceso asequible a la visualización de críquet en vivo desde dispositivos móviles y más.
+Sería una subestimación decir que a los indios les encanta el críquet. El juego se juega en casi todos los rincones de la India, rurales o urbanos, es popular entre los jóvenes y ancianos por igual, conectando miles de millones de personas en India como ningún otro deporte. El críquet disfruta de una gran atención mediática. Hay una cantidad importante de [dinero](https://www.statista.com/topics/4543/indian-premier-league-ipl/) y fama en juego. En los últimos años, la tecnología ha cambiado literalmente las reglas del juego. El público tiene muchas opciones para elegir entre streaming de medios, torneos, acceso asequible a la visualización de críquet en vivo desde dispositivos móviles y más.
 
-La Premier League de India (IPL) es una liga profesional de críquet Twenty20, fundada en 2008. Es uno de los eventos de críquet más concurridos en el mundo, valorado en [$6.7 mil millones de dólares](https://en.wikipedia.org/wiki/Indian_Premier_League) en 2019.
+La Indian Premier League (IPL) es una liga profesional de críquet Twenty20, fundada en 2008. Es uno de los eventos de críquet más concurridos en el mundo, valorado en [$6.7 mil millones de dólares](https://en.wikipedia.org/wiki/Indian_Premier_League) en 2019.
 
 El críquet es un juego de números - las carreras anotadas por un bateador, los wickets tomados por un lanzador, los partidos ganados por un equipo de críquet, el número de veces que un bateador responde de cierta manera a un tipo de ataque de lanzamiento, etc. La capacidad de profundizar en los números del críquet tanto para mejorar el rendimiento como para estudiar las oportunidades de negocio, el mercado en general y la economía del cricket mediante potentes herramientas de análisis, impulsadas por software de computación numérica como NumPy, es algo muy importante. El análisis del críquet proporciona ideas interesantes sobre el juego e inteligencia predictiva respecto a los resultados del juego.
 
 Hoy en día, hay abundantes y casi infinitos tesoros de registros y estadísticas de juegos de críquet disponibles, por ejemplo, en [ESPN cricinfo](https://stats.espncricinfo.com/ci/engine/stats/index.html) y [cricsheet](https://cricsheet.org). Estas y muchas otras bases de datos de cricket se han utilizado para el [análisis de cricket](https://www.researchgate.net/publication/336886516_Data_visualization_and_toss_related_analysis_of_IPL_teams_and_batsmen_performances) utilizando los últimos algoritmos de aprendizaje automático y modelación predictiva. Las plataformas de medios y entretenimiento, junto con los organismos deportivos profesionales asociados con el juego, utilizan la tecnología y el análisis para determinar métricas clave que mejoren las posibilidades de ganar los partidos:
 
 * promedio móvil del rendimiento de bateo,
-* pronóstico del marcador,
+* previsión del marcador,
 * obtener información sobre la condición física y el rendimiento de un jugador contra diferentes oponentes,
 * contribución del jugador a las victorias y derrotas para tomar decisiones estratégicas sobre la composición del equipo
 
