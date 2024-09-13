@@ -2,15 +2,15 @@ params:
   machinelearning:
     paras:
       - 
-        para1: NumPy constituye la base de potentes bibliotecas de aprendizaje automático como [scikit-learn](https://scikit-learn.org) y [SciPy](https://www.scipy.org). A medida que crece el aprendizaje automático, también lo hace la lista de bibliotecas basadas en NumPy. Las capacidades de aprendizaje profundo de [TensorFlow](https://www.tensorflow.org) tienen amplias aplicaciones&mdash; entre ellas el reconocimiento de voz e imágenes, las aplicaciones basadas en texto, el análisis de series de tiempo y la detección de vídeo. [PyTorch](https://pytorch.org), otra biblioteca de aprendizaje profundo, es popular entre los investigadores de visión artificial y procesamiento del lenguaje natural.
+        para1: NumPy constituye la base de potentes librerías de aprendizaje automático como [scikit-learn](https://scikit-learn.org) y [SciPy](https://www.scipy.org). A medida que crece el aprendizaje automático, también lo hace la lista de librerías basadas en NumPy. Las capacidades de aprendizaje profundo de [TensorFlow](https://www.tensorflow.org) tienen amplias aplicaciones&mdash; entre ellas el reconocimiento de voz e imágenes, las aplicaciones basadas en texto, el análisis de series de tiempo y la detección de vídeo. [PyTorch](https://pytorch.org), otra librería de aprendizaje profundo, es popular entre los investigadores de visión artificial y procesamiento del lenguaje natural.
         para2: Las técnicas estadísticas denominadas métodos [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205), como binning, bagging, stacking y boosting, se encuentran entre los algoritmos de ML implementados por herramientas como [XGBoost](https://xgboost.readthedocs.io/), [LightGBM](https://lightgbm.readthedocs.io/en/latest/) y [CatBoost](https://catboost.ai) &mdash; uno de los motores de inferencia más rápidos. [Yellowbrick](https://www.scikit-yb.org/en/latest/) y [Eli5](https://eli5.readthedocs.io/en/latest/) ofrecen visualizaciones de aprendizaje automático.
   arraylibraries:
     intro:
       - 
-        text: La API de NumPy es el punto de partida cuando se escriben bibliotecas para explotar hardware innovador, crear tipos de arreglos especializadas o añadir capacidades más allá de lo que NumPy proporciona.
+        text: La API de NumPy es el punto de partida cuando se escriben librerías para explotar hardware innovador, crear tipos de arreglos especializadas o añadir capacidades más allá de lo que NumPy proporciona.
     headers:
       - 
-        text: Biblioteca de arreglos
+        text: Librería de arreglos
       - 
         text: Capacidades y áreas de aplicación
     libraries:
@@ -22,16 +22,16 @@ params:
         url: https://dask.org/
       - 
         title: CuPy
-        text: Biblioteca de arreglos compatible con NumPy para cálculo acelerado en la GPU con Python.
+        text: Librería de arreglos compatible con NumPy para cálculo acelerado en la GPU con Python.
         img: /images/content_images/arlib/cupy.png
         alttext: CuPy
-        url: https://cupy.chainer.org
+        url: https://cupy.dev
       - 
         title: JAX
         text: "Transformaciones componibles de programas NumPy: diferenciar, vectorizar, compilación justo-a-tiempo a GPU/TPU."
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
-        url: https://github.com/google/jax
+        url: https://jax.readthedocs.io/
       - 
         title: Xarray
         text: Arreglos multidimensionales indexados y etiquetados para análisis y visualización avanzados.
@@ -40,7 +40,7 @@ params:
         url: https://xarray.pydata.org/en/stable/index.html
       - 
         title: Sparse
-        text: Biblioteca de arreglos dispersos compatible con NumPy que se integra con el álgebra lineal dispersa de Dask y SciPy.
+        text: Librería de arreglos dispersos compatible con NumPy que se integra con el álgebra lineal dispersa de Dask y SciPy.
         img: /images/content_images/arlib/sparse.png
         alttext: sparse
         url: https://sparse.pydata.org/en/latest/
@@ -58,13 +58,13 @@ params:
         url: https://www.tensorflow.org
       - 
         title: Arrow
-        text: Marco de aprendizaje profundo adecuado para la creación flexible de prototipos de investigación y la producción.
-        img: /images/content_images/arlib/mxnet_logo.png
+        text: Plataforma de desarrollo multilingüe para datos y análisis columnares en memoria.
+        img: /images/content_images/arlib/arrow.png
         alttext: arrow
-        url: https://mxnet.apache.org/
+        url: https://arrow.apache.org/
       - 
         title: xtensor
-        text: Matrices multidimensionales con difusión y computación perezosa para análisis numérico.
+        text: Arreglos multidimensionales con difusión y computación perezosa para análisis numérico.
         img: /images/content_images/arlib/xtensor.png
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
