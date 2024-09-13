@@ -3,7 +3,7 @@ title: "Caso de estudio: La primera imagen de un Agujero Negro"
 sidebar: false
 ---
 
-{{< figura >}}
+{{< figure >}}
 src = '/images/content_images/cs/blackhole. pg' title = 'Agujero Negro M87' alt = 'Imagen de agujero negro' attribution = '(Créditos de la imagen: Colaboración del telescopio del Horizonte de Sucesos)' attributionlink = 'https://www. pl.nasa.gov/images/universe/20190410/blackhole20190410.jpg'
 {{< /figure >}}
 
