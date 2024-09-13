@@ -32,9 +32,9 @@ La [Guía de usuario](https://numpy.org/devdocs) de NumPy está en proceso de re
 El [rastreador de propuestas de NumPy](https://github.com/numpy/numpy/issues) tiene _muchos_ temas abiertos. Algunos ya no son válidos, otros deberían priorizarse y otros serían buenos temas para nuevos colaboradores.  Puedes:
 
 * revisar si errores antiguos siguen presentes
-* encontrar propuestas duplicadas, y enlazar las relacionadas
-* añadir buenos reproductores autónomos de las incidencias
-* etiquetar correctamente las propuestas (para ello es necesario tener derechos de categorización, solo necesitas preguntar)
+* encontrar problemas duplicados, y enlazar las relacionadas
+* añadir la forma de reproducir siempre el mismo problema
+* etiquetar correctamente los problemas  (para ello es necesario tener derechos de categorización, solo necesitas preguntar)
 
 Por favor, solo sumérgete.
 
@@ -58,8 +58,8 @@ A través del contacto con la comunidad compartimos nuestro trabajo más ampliam
 
 NumPy fue durante muchos años un proyecto voluntario, pero a medida que crecía su importancia se hizo evidente que necesitaríamos apoyo financiero para garantizar su estabilidad y crecimiento. [Esta charla en SciPy'19](https://www.youtube.com/watch?v=dBTJD_FDVjU) explica cuánta diferencia ha supuesto este apoyo. Como todo en el mundo sin ánimo de lucro, estamos constantemente en busca de subvenciones, patrocinios y otros tipos de ayuda. Tenemos varias ideas y, por supuesto, aceptamos más. La recaudación de fondos es una habilidad escasa aquí -- apreciaríamos tu ayuda.
 
-### Donate
+### Donar
 
-If you'd like to contribute to NumPy by making a donation, visit [https://numpy.org/about/#donate](https://numpy.org/about/#donate).
+Si deseas contribuir a NumPy haciendo una donación, visita <a href=«https://numpy.org/about/#donate»>https://numpy.org/about/#donate</a>.
 
 
