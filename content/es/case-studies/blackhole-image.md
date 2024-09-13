@@ -14,33 +14,33 @@ src = '/images/content_images/cs/blackhole. pg' title = 'Agujero Negro M87' alt 
 
 ## Un telescopio del tamaño de la Tierra
 
-El [ telescopio de Horizonte de Sucesos (EHT) ](https://eventhorizontelescope.org), es un conjunto de ocho radiotelescopios terrestres que forman un telescopio computacional del tamaño de la tierra, estudiando al universo con una sensibilidad y resolución sin precedente.  El enorme telescopio virtual, que utiliza una técnica llamada Interferometría de línea de base muy larga (VLBI), tiene una resolución angular de [20 microsegundos de arco][resolution] — ¡suficiente para leer un periódico en Nueva York desde un café en la acera en París!
+El [ Telescopio Event Horizon (EHT) ](https://eventhorizontelescope.org), es un conjunto de ocho radiotelescopios terrestres que forman un telescopio computacional del tamaño de la Tierra, estudiando al universo con una sensibilidad y resolución sin precedente.  El enorme telescopio virtual, que utiliza una técnica llamada Interferometría de línea de base muy larga (VLBI), tiene una resolución angular de [20 microsegundos de arco][resolution] — ¡suficiente para leer un periódico en Nueva York desde un café en la acera en París!
 
 ### Objetivos clave y resultados
 
 * **Una nueva vista del universo:** El trabajo preliminar de la innovadora imagen de EHT se había establecido 100 años antes, cuando [Sir Arthur Eddington][eddington] dio el primer apoyo observacional a la teoría de la relatividad general de Einstein.
 
-* **El agujero negro:** EHT se entrenó en un enorme agujero negro aproximadamente a 55 millones de años luz de la tierra, situada en el centro de la galaxia Messier 87 (M87) en el cúmulo de Virgo. Su masa es 6.5 mil millones de veces la del sol. Se había estudiado por [más de 100 años](https://www.jpl.nasa.gov/news/news.php?feature=7385), pero nunca antes se había observado un agujero negro.
+* **El agujero negro:** EHT se entrenó en un enorme agujero negro supermasivo aproximadamente a 55 millones de años luz de la Tierra, situado en el centro de la galaxia Messier 87 (M87) en el cúmulo de galaxias Virgo. Su masa es 6.5 mil millones de veces la del sol. Se había estudiado por [más de 100 años](https://www.jpl.nasa.gov/news/news.php?feature=7385), pero nunca antes se había observado un agujero negro.
 
-* **Comparando las observaciones con la teoría:** A partir de la teoría de la relatividad general de Einstein, los científicos esperaban encontrar una región similar a las sombras causadas por la flexión gravitacional y la captura de la luz. Los científicos pudieron utilizarla para medir la enorme masa del agujero negro.
+* **Comparando las observaciones con la teoría:** A partir de la teoría general de la relatividad de Einstein, los científicos esperaban encontrar una región similar a una sombra causada por la flexión gravitacional y la captura de la luz. Los científicos pudieron utilizarla para medir la enorme masa del agujero negro.
 
 ### Los desafíos
 
 * **Escala computacional**
 
-    EHT plantea desafíos de procesamiento de datos masivos, incluyendo rápidas fluctuaciones de fase atmosféricas, amplio ancho de banda de grabación, y telescopios que son ampliamente disímiles y geográficamente dispersos.
+    EHT plantea enormes desafíos de procesamiento de datos, incluyendo las rápidas fluctuaciones de fase atmosféricas, amplio ancho de banda de grabación, y telescopios que son ampliamente disímiles y geográficamente dispersos.
 
 * **Demasiada información**
 
-    Cada día el EHT genera más de 350 terabytes de observaciones, almacenados en discos duros llenos de helio. Reducir el volumen y complejidad de estos datos es enormemente difícil.
+    Cada día, el EHT genera más de 350 terabytes de observaciones, almacenados en discos duros llenos de helio. Reducir el volumen y complejidad de estos datos es enormemente difícil.
 
 * **Hacia lo desconocido**
 
     Cuando el objetivo es ver algo nunca antes visto, ¿cómo pueden los científicos estar seguros de que la imagen es correcta?
 
 {{< figure >}}
-src = '/images/content_images/cs/dataprocessbh.png' title = 'Flujo de Trabajo de Procesamiento de Datos EHT' alt = 'flujo de datos' align = 'centrar' attribution = '(Créditos del diagrama: The Astrophysical Journal, Colaboración del Telescopio del Horizonte de Sucesos)' attributionlink = 'https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57'
-{{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="el rol de numpy" caption="**El rol de NumPy en la fotografía del Agujero Negro**" >}}
+src = '/images/content_images/cs/dataprocessbh.png' title = 'Flujo de Trabajo de Procesamiento de Datos EHT' alt = 'flujo de datos' align = 'center' attribution = '(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)' attributionlink = 'https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57'
+{{< /figure >}}
 
 ## El Rol de NumPy
 
