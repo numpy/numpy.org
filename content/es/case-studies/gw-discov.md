@@ -1,10 +1,10 @@
 ---
 title: "Estudio de Caso: Descubrimiento de Ondas Gravitacionales"
-sidebar: falso
+sidebar: false
 ---
 
 {{< figure >}}
-src = '/images/content_images/cs/gw_sxs_image. ng' title = 'Ondas Gravitacionales' alt = 'coalescencia de un agujero negro binario generando ondas gravitacionales' atribución = '(Créditos de imagen: El proyecto Simulación de Espacio-tiempos eXtreme (SXS) en LIGO)' attributionlink = 'https://youtu. e/Zt8Z_uzG71o'
+src = '/images/content_images/cs/gw_sxs_image. ng' title = 'Ondas Gravitacionales' alt = 'coalescencia de un agujero negro binario generando ondas gravitacionales' attribution= '(Créditos de imagen: El proyecto Simulación de Espacio-tiempos eXtreme (SXS) en LIGO)' attributionlink = 'https://youtu. e/Zt8Z_uzG71o'
 {{< /figure >}}
 
 {{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="David Shoemaker, *Colaboración científica LIGO*" >}} El ecosistema científico de Python es una infraestructura crítica para la investigación realizada en LIGO.
