@@ -8,9 +8,8 @@ src = '/images/content_images/cs/mice-hand.gif' title = 'Analizar movimiento de 
 {{< /figure >}}
 
 {{< blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/" by="Alexander Mathis, *Profesor Asistente, Escuela Politécnica Federal de Lausana* ([EPFL](https://www.epfl.ch/en/))"
-> }} El software de código abierto está acelerando la biomedicina. DeepLabCut permite el análisis automatizado de video del comportamiento animal utilizando Aprendizaje Profundo. 
-> 
-> {{< /blockquote >}}
+>}} El software de código abierto está acelerando la biomedicina. DeepLabCut permite el análisis automatizado de video del comportamiento animal utilizando Aprendizaje Profundo. 
+{{< /blockquote >}}
 
 ## Acerca de DeepLabCut
 

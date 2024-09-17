@@ -8,9 +8,9 @@ src = '/images/content_images/cs/blackhole. pg' title = 'Agujero Negro M87' alt 
 {{< /figure >}}
 
 {{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="Katie Bouman, *Profesora Asistente, Ciencias de la Computación & Matemáticas, Caltech*"
-> }} Capturar imágenes del Agujero Negro M87 es como intentar ver algo que por definición es imposible de ver. 
-> 
-> {{< /blockquote >}}
+>}}
+Capturar imágenes del Agujero Negro M87 es como intentar ver algo que por definición es imposible de ver. 
+{{< /blockquote >}}
 
 ## Un telescopio del tamaño de la Tierra
 

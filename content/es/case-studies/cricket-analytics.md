@@ -8,9 +8,8 @@ figure src="/images/content_images/cs/ipl-stadium.png'title" caption="IPLT20, el
 {{< /figure >}}
 
 {{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, *Jugador Internacional de críquet, ex-capitán del equipo de India, juega para Chennai Super Kings en IPL*"
-> }} No juegas para el público, juegas para el país. 
-> 
-> {{< /blockquote >}}
+>}} No juegas para el público, juegas para el país. 
+{{< /blockquote >}}
 
 ## Acerca del críquet
 
