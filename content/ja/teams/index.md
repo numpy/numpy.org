@@ -4,6 +4,7 @@ sidebar: false
 ---
 
 私たちは、高品質のオープンソースソフトウェアを構築することで、世界中の科学・研究コミュニティをサポートすることを使命とする国際的なチームです。 是非[参加してください](/contribute)!
+[Join us](/contribute)!
 
 ### Maintainers
 
@@ -29,6 +30,6 @@ sidebar: false
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
 
-# ガバナンス
+# Governance
 
 For the list of people on the Steering Council, please see [here](https://numpy.org/devdocs/dev/governance/people.html).
