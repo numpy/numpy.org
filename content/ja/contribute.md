@@ -58,8 +58,8 @@ NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模�
 
 NumPyは何年にも渡ってボランティアだけ活動していましたが、その重要性が高まるにつれ、安定性と成長のためには資金面での支援が必要であることがわかってきました。 こちらの[SciPy'19のプレゼン](https://www.youtube.com/watch?v=dBTJD_FDVjU) では、資金的なサポートを受けたことで、どれだけ違いが出たかを説明しています。 他の非営利団体のように、私たちは助成金や、スポンサーシップ、その他の資金支援を常に探しています。 私たちはすでにいくつかの資金調達のアイデアを持っていますが、他にもより多くを資金調達を受けたいと思っています。 資金調達に関する知識は、我々には不足しているスキルです。 是非、あなたのサポートをお待ちしています。
 
-### Donate
+### 寄付
 
-If you'd like to contribute to NumPy by making a donation, visit [https://numpy.org/about/#donate](https://numpy.org/about/#donate).
+寄付をすることでNumpy に貢献したい場合は、 [https://numpy.org/about/#donate](https://numpy.org/about/#donate) をご覧ください。
 
 
