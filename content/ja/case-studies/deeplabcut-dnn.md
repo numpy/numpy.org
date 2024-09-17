@@ -7,7 +7,7 @@ sidebar: false
 src = '/images/content_images/cs/mice-hand.gif' title = 'DeepLapCutを用いたマウスの手の動きの解析' alt = 'micehandanim' attribution = '(Source: www.deeplabcut.org )' attributionlink = 'http://www.mousemotorlab.org/deeplabcut'
 {{< /figure >}}
 
-{{< blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/" by="Alexander Mathis, * ローザンヌ連邦工科大学([EPFL](https://www.epfl.ch/en/))の助教授 *"
+{{< blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/" by="Alexander Mathis、 *准教授、École polytechnology fe’rale de Lausanne* ([EPFL](https://www.epfl.ch/en/))"
 > }} オープンソースソフトウェアは生体臨床医学を加速させています。 DeepLabCut を使用すると、深層学習を使用して動物の行動を自動的にビデオ解析することができます。 
 > 
 > {{< /blockquote >}}
@@ -19,7 +19,7 @@ src = '/images/content_images/cs/mice-hand.gif' title = 'DeepLapCutを用いた�
 神経科学、医学、生体力学などのいくつかの研究分野では、動物の動きを追跡したデータを使用しています。 DeepLabCutは、動画に記録された動きを解析することで、人間やその他の動物が何をしているのかを理解することができます。 タグ付けや監視などの、手間のかかる作業を自動化し、深層学習ベースのデータ解析を実施します。 DeepLabCutは、霊長類、マウス、魚、ハエなどの動物を観察する科学研究をより速く正確にしています。
 
 {{< figure >}}
-src = '/images/content_images/cs/race-horse.gif' title = '色のついた点は競走馬の体の位置を追跡している' alt = 'horserideranim' attribution = '(Source: Mackenzie Mathis)'
+src = '/images/content_images/cs/race-horse.gif' title = '色のついた点は競走馬の体の位置を追跡' alt = 'horserideranim' attribution = '(Source: Mackenzie Mathis)'
 {{< /figure >}}
 
 DeepLabCutは、動物の姿勢を抽出することで非侵襲的な行動追跡を行います。 これは、生体力学、遺伝学、倫理学、神経科学などの分野での研究に必要不可欠です。 動的に変化する背景の中で、動物の姿勢をビデオデータから非侵襲的に測定することは、技術的にも、必要な計算リソースやトレーニングデータの点でも、非常に困難な計算処理です。
@@ -50,7 +50,7 @@ DeepLabCutでは[転移学習](https://arxiv.org/pdf/1909.11229)という技術�
   - 統合された可視化ツールを使用した推論の描画
 
 {{< figure >}}
-{{< figure src="/images/content_images/cs/deeplabcut-workflow.png" class="fig-center" caption="**DeepLabCutのワークフロー**" alt="workflow" attr="*(Source: Mackenzie Mathis)*" attrlink="https://www.researchgate.net/figure/DeepLabCut-work-flow-The-diagram-delineates-the-work-flow-as-well-as-the-directory-and_fig1_329185962">}}
+src = '/images/content_images/cs/deeplabcut-toolkit-steps.png' title = 'DeepLabCutによる姿勢推定のステップ' alt = 'dlcsteps' align = 'center' attribution = '(Source: DeepLabCut)' attributionlink = 'https://twitter.com/DeepLabCut/status/1198046918284210176/photo/1'
 {{< /figure >}}
 
 ### 課題
@@ -68,7 +68,7 @@ DeepLabCutでは[転移学習](https://arxiv.org/pdf/1909.11229)という技術�
     最後に、配列の操作もかなり難しい問題です。 様々な画像や、目標のテンソル、キーポイントに対応する大きな配列のスタックを処理しなければならないからです。
 
 {{< figure src="/images/content_images/cs/numpy_dlc_benefits.png" class="fig-center" alt="numpy benefits" caption="**NumPyの主要機能**" >}}
-src = '/images/content_images/cs/pose-estimation.png' title = '姿勢推定の多様性と複雑性' alt = 'challengesfig' align = 'center' attribution = '(Source: Mackenzie Mathis)' attributionlink = 'https://www.biorxiv.org/content/10.1101/476531v1.full.pdf'
+src = '/images/content_images/cs/pose-estimation.png' title = '姿勢推定の多様性と難しさ' alt = 'challengesfig' align = 'center' attribution = '(Source: Mackenzie Mathis)' attributionlink = 'https://www.biorxiv.org/content/10.1101/476531v1.full.pdf'
 {{< /figure >}}
 
 ## 姿勢推定の課題に対応するためのNumPyの役割
@@ -94,7 +94,7 @@ src = '/images/content_images/cs/deeplabcut-workflow.png' title = 'DeepLabCutの
 行動を観察し、効率的に表現することは、現代倫理学、神経科学、医学、工学の根幹です。 [DeepLabCut](http://orga.cvss.cc/wp-content/uploads/2019/05/NathMathis2019.pdf) により、研究者は対象の姿勢を推定し、行動を効率的に定量化できるようになりました。 DeepLabCutというPythonツールボックスを使えば、わずかな学習画像のセットでニューラルネットワークを人間レベルのラベリング精度で学習することができ、実験室での行動分析だけでなく、スポーツ、歩行分析、医学、リハビリテーション研究などへの応用が可能になります。 DeepLabCutアルゴリズムに必要な複雑な組み合わせ処理やデータ処理の問題を、NumPyの配列操作機能が解決しています。
 
 {{< figure >}}
-src = '/images/content_images/cs/numpy_bh_benefits.png' alt = 'numpy benefits' title = '利用されたNumPyの主要機能'
+src = '/images/content_images/cs/numpy_dlc_benefits.png' alt = 'numpy benefits' title = 'NumPyの主要機能'
 {{< /figure >}}
 
 [cheetah-movement]: https://www.technologynetworks.com/neuroscience/articles/interview-a-deeper-cut-into-behavior-with-mackenzie-mathis-327618
