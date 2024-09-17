@@ -3,9 +3,9 @@ title: Obter ajuda
 sidebar: false
 ---
 
-**Development issues:** For NumPy development-related matters (e.g., bug reports), please see [Community](/community).
+**Issues sobre desenvolvimento:** Para assuntos relacionados ao desenvolvimento do NumPy (por exemplo, relatórios de bugs), veja a [Comunidade](/community).
 
-**Perguntas de usuários:** A melhor maneira de obter ajuda é postar sua pergunta em um site como [StackOverflow](http://stackoverflow.com/questions/tagged/numpy) ou [Reddit](https://www.reddit.com/r/Numpy/). Gostaríamos de poder ficar de olho nestes sites, ou responder perguntas diretamente, mas o volume é imenso!
+**Perguntas de usuários:** A melhor maneira de obter ajuda é postar sua pergunta em um site como [StackOverflow](http://stackoverflow.com/questions/tagged/numpy), com milhares de usuários disponíveis para responder. Gostaríamos de poder ficar de olho nestes sites, ou responder perguntas diretamente, mas o volume é imenso!
 
 ### [StackOverflow](http://stackoverflow.com/questions/tagged/numpy)
 
