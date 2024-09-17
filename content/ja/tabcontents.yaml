@@ -75,7 +75,7 @@ params:
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
       - 
-        title: XND
+        title: Awkward
         text: Numpy のような イディオムを使って JSON のようなデータを操作するライブラリ
         img: /images/content_images/arlib/xnd.png
         alttext: awkward
@@ -322,13 +322,13 @@ params:
         alttext: 三つの円が重なり合う図。円はそれぞれ「数学」、「コンピューターサイエンス」、「専門知識」でラベル付けされています。図の中心部には、三つの円が重なり合って形成されるエリアがあり、「データサイエンス」とラベル付けされています。
     examples:
       - 
-        text: "<b>抽出, 変換, 読み込み: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
+        text: "<b>抽出, 変換, 読み込み: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor-devs.github.io/pyjanitor/)"
       - 
-        text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org),[Seaborn](https://seaborn.pydata.org),[ Matplotlib](https://matplotlib.org),[ Altair](https://altair-viz.github.io)"
+        text: "<b>探索的解析: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
       - 
         text: "<b>モデリングと評価: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
       - 
-        text: "<b>ダッシュボードでのレポート: </b>[Dash](https://plotly.com/dash),[ Panel](https://panel.holoviz.org),[ Voila](https://github.com/voila-dashboards/voila)"
+        text: "<b>ダッシュボードでのレポート: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
     content:
       - 
         text: 大規模データに対して、[Dask](https://dask.org)と[Ray](https://ray.io/)はスケールすることを目指して設計されています。安定したデプロイメントに関しては、データのバージョニング（[DVC](https://dvc.org)）、実験の追跡（[MLFlow](https://mlflow.org)）、ワークフローの自動化（[Airflow](https://airflow.apache.org)および[Prefect](https://www.prefect.io)が重要ですが様々なNumPyベースのツールが提供されています。
