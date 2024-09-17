@@ -41,7 +41,7 @@ src = '/images/content_images/cs/gw_sxs_image.png' title = '重力波' alt = 'bi
 
 {{< figure >}}
 src = '/images/content_images/cs/gw_strain_amplitude.png' alt = 'gravitational waves strain amplitude' title = 'GW150914から推定される重力波の歪みの振幅' attribution = '(Graph Credits: Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)' attributionlink = 'https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger'
-{{< /figure >}}
+{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**利用されたNumPyの主要機能**" >}}
 
 ## 重力波の検出におけるNumPyの役割
 
@@ -73,5 +73,5 @@ src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png' alt = 'PyCBC-numpy d
 一方で、これまで知られてきた深遠な天体物理学の現象に、多くに新たな洞察を提供しました。 数値処理とデータの可視化は、科学者が科学的な観測から収集したデータについての洞察を得て、その結果を理解するのに役立つ重要なステップです。 しかし、その計算は複雑であり、実際の観測データと分析を用いたコンピュータシミュレーションを用いて可視化されない限り、人間が理解することはできませんでした。  NumPyは、matplotlib・pandas・scikit-learnなどのPythonパッケージとともに、研究者が複雑な質問に答え、私たちの宇宙に対するの理解において、新しい地平を発見することを[可能にしています](https://www.gw-openscience.org/events/GW150914/)。
 
 {{< figure >}}
-src = '/images/content_images/cs/numpy_gw_benefits.png' alt = 'numpy benefits' title = '利用されたNumPyの主要機能'
+src = '/images/content_images/cs/numpy_bh_benefits.png' alt = 'numpy benefits' title = '利用されたNumPyの主要機能'
 {{< /figure >}}
