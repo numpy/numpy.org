@@ -11,7 +11,7 @@ params:
     #Hero subtitle (optional)
     subtitle: Pythonによる科学技術計算の基礎パッケージ
     #Button text
-    buttontext: "最新リリース: Numpy 1.25. すべてのリリースを表示する"
+    buttontext: "最新リリース: Numpy 1.26. すべてのリリースを表示する"
     #Where the main hero button links to
     buttonlink: "/ja/news/#releases"
     #Hero image (from static/images/___)
@@ -56,25 +56,25 @@ params:
   navbar:
     - 
       title: インストール
-      url: /install
+      url: /ja/install
     - 
       title: ドキュメント
       url: https://numpy.org/doc/stable
     - 
-      title: 学習方法
-      url: /learn
+      title: 学び方
+      url: /ja/learn
     - 
       title: コミュニティ
-      url: /community
+      url: /ja/community
     - 
-      title: 私たちについて
-      url: /about
+      title: 私達について
+      url: /ja/about
     - 
       title: ニュース
-      url: /news
+      url: /ja/news
     - 
-      title: 貢献
-      url: /contribute
+      title: NumPyに貢献する
+      url: /ja/contribute
   footer:
     logo: logo.svg
     socialmediatitle: ""
@@ -91,16 +91,16 @@ params:
         links:
           - 
             text: インストール
-            link: /install
+            link: /ja/install
           - 
             text: ドキュメント
             link: https://numpy.org/doc/stable
           - 
-            text: 学習方法
-            link: /learn
+            text: 学び方
+            link: /ja/learn
           - 
-            text: NumPy を引用する
-            link: /citing-numpy
+            text: 引用する
+            link: /ja/citing-numpy
           - 
             text: ロードマップ
             link: https://numpy.org/neps/roadmap.html
@@ -108,30 +108,30 @@ params:
         links:
           - 
             text: 私達について
-            link: /about
+            link: /ja/about
           - 
             text: コミュニティ
-            link: /community
+            link: /ja/community
           - 
-            text: ユーザ調査
-            link: /user-surveys
+            text: ユーザーの調査
+            link: /ja/user-surveys
           - 
-            text: 貢献
-            link: /contribute
+            text: NumPyに貢献する
+            link: /ja/contribute
           - 
             text: 行動規範
-            link: /code-of-conduct
+            link: /ja/code-of-conduct
       column3:
         links:
           - 
             text: サポートを得る方法
-            link: /gethelp
+            link: /ja/gethelp
           - 
             text: 利用規約
-            link: /terms
+            link: /ja/terms
           - 
             text: プライバシーポリシー
-            link: /privacy
+            link: /ja/privacy
           - 
             text: プレス用資料
-            link: /press-kit
+            link: /ja/press-kit
