@@ -1,15 +1,15 @@
 ---
 title: Notícias
 sidebar: false
-newsHeader: "NumPy 2.1 released!"
+newsHeader: "NumPy versão 1.26.0"
 date: 2023-09-16
 ---
 
-### NumPy 2.1.0 released
+### Lançado o NumPy versão 1.26.0
 
 _18 Aug, 2024_ -- NumPy 2.1.0 provides support for Python 3.13 and drops support for Python 3.9. In addition to the usual bug fixes and updated Python support, it helps get NumPy back to its usual release cycle after the extended development of 2.0. The highlights for this release are:
 
--   Support for Python 3.13.
+-   Suporte ao Python 3.12.0.
 -   Preliminary support for free threaded Python 3.13.
 -   Support for the array-api 2023.12 standard.
 
@@ -41,9 +41,9 @@ _19 de dez, 2023_ -- O NumFOCUS se juntou ao PyCharm durante sua campanha de fin
 
 Use a URL única que permitirá rastrear as compras https://lp.jetbrains.com/support-data-science/ ou um código de cupom ISUPPORTDATASCIENCE 
 
-### Lançado o NumPy versão 1.26.0
+### NumPy versão 1.24.0
 
-_16 de setembro de 2023_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html) está disponível. Os destaques desta versão são:
+_17 de junho, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) está disponível agora. Os destaques desta versão são:
 
 * Suport ao Python 3.12.0.
 * Compatibilidade com Cython 3.0.0.
@@ -76,13 +76,13 @@ _Japonês:_
 * Yuji Kanagawa (kngwyu)
 * Tetsuo Koyama (tkoyama010)
 
-O trabalho na infraestrutura de tradução é apoiado com financiamento da CZI.
+O trabalho na infraestrutura de traduções é financiado pela CZI.
 
-Futuramente, nós adoraríamos traduzir o site para mais idiomas. Se você quiser ajudar, conecte-se com a Equipe de Traduções NumPy no Slack: https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w. (Procure pelo canal de #translations.) Também estamos construindo uma Equipe de Traduções que vai trabalhar na localização da documentação e conteúdo educacional por todo o ecossistema de Python científico. Se isto despertou o seu interesse, junte-se a nós no servidor Discord Scientific Python: https://discord.gg/khWtqY6RKr. (Procure pelo canal #translation.)
+No futuro, adoraríamos traduzir o site para mais línguas. Se você quiser ajudar, por favor entre em contato com o time de traduções do NumPy no Slack: https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w. (Procure pelo canal de #translations.) (Procure pelo canal #translations) Também estamos organizando um time de tradutores que serão responsáveis por trabalhar na localização da documentação e conteúdo educacional para o ecossistema Scientific Python. Se esse trabalho te interessa, junte-se a nós no Discord do projeto Scientific Python: https://discord.gg/khWtqY6RKr. (Procure pelo canal #translation)
 
-### Lançado o NumPy 1.25.0
+### NumPy versão 1.22.0
 
-_17 de junho, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) está disponível agora. Os destaques desta versão são:
+_18 de dezembro de 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) está agora disponível. Os destaques desta versão são:
 
 * Suporte para MUSL, agora existem rodas MUSL.
 * Suporte para o compilador Fujitsu C/C++.
@@ -105,9 +105,9 @@ Como podemos ser melhores quando se trata de diversidade e de inclusão? Leia o 
 
 _6 de janeiro de 2023_ –- Mukulika Pahari e Ross Barnowski são nomeados como lideres do time de documentação do NumPy, substituindo Melissa Mendonça. Agradecemos a Melissa por todas suas contribuições para a documentação oficial do NumPy e materiais educacionais, e Mukulika e Ross por aceitarem o desafio.
 
-### NumPy versão 1.24.0
+### NumPy versão 1.23.0
 
-_18 de dezembro de 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) está agora disponível. Os destaques desta versão são:
+_31 de dezembro de 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) está agora disponível. Os destaques desta versão são:
 
 * Novas palavras-chave "dtype" e "casting" para funções que atuam com stacking.
 * Novas funcionalidades e correções do F2PY.
@@ -116,7 +116,7 @@ _18 de dezembro de 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/
 
 A versão 1.24.0 do NumPy continua o trabalho de melhorias no suporte e promoção de dtypes, na velocidade e execução, e na documentação. Há um grande número de depreciações novas e expiradas devido a mudanças na promoção de dtypes e limpezas no código. É o trabalho de 177 contribuidores espalhados em 444 pull requests. As versões suportadas do Python são 3.8-3.11.
 
-### NumPy versão 1.23.0
+### NumPy versão 1.19.0
 
 _22 de junho de 2022_ -- O [NumPy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) está disponível. Os destaques desta versão são:
 
@@ -135,9 +135,9 @@ _13 de abril de 2022_ -- O NumPy está trabalhando com a [NumFOCUS](http://numfo
 
 Por favor, preencha este breve formulário: ["Participant Interest form"](https://numfocus.typeform.com/to/WBWVJSqe) que contém informações adicionais sobre os objetivos da pesquisa, privacidade e considerações de confidencialidade. Sua participação será valiosa para o crescimento e sustentabilidade de comunidades de software open source diversas e inclusivas. Os participantes aceitos participarão de uma entrevista de 30 minutos com um membro da equipe de pesquisa.
 
-### NumPy versão 1.22.0
+### NumPy versão 1.20.0
 
-_31 de dezembro de 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) está agora disponível. Os destaques desta versão são:
+_23 de junho de 2021_ -- O [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) está disponível. Os destaques desta versão são:
 
 * Anotações de tipo do namespace principal estão praticamente completas. Ainda há trabalho a se fazer no upstream, mas a maior parte do trabalho está feita. Esta é provavelmente a melhoria mais visível para os usuários nesta versão.
 * Uma versão preliminar da proposta do [array API Standard](https://data-apis.org/array-api/latest/) está disponível (veja [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)). Este é um passo na criação de uma coleção padrão de funções que podem ser compartilhadas entre bibliotecas como CuPy e JAX.
@@ -169,7 +169,7 @@ Siga o link para começar: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBX
 
 ### NumPy versão 1.19.0
 
-_23 de junho de 2021_ -- O [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) está disponível. Os destaques desta versão são:
+_16 de setembro de 2023_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html) está disponível. Os destaques desta versão são:
 
 - a continuação do trabalho com SIMD para suportar mais funções e plataformas,
 - trabalho inicial na infraestrutura e conversão de novos dtypes,
@@ -209,7 +209,7 @@ _14 de setembro de 2020_ -- Python 3.9 será lançado em algumas semanas. Se voc
 - usar [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) ou `--only-binary=:all:` para impedir `pip` de tentar compilar a partir do código fonte.
 
 
-### NumPy versão 1.19.2
+### NumPy versão 1.18.0
 
 _10 de setembro de 2020_ -- O [NumPy 1.19.2](https://numpy.org/devdocs/release/1.19.2-notes.html) está disponível. Essa última versão da série 1.19 corrige vários bugs, inclui preparações para o lançamento [do Cython 3](http://docs.cython.org/en/latest/src/changes.html) e fixa o setuptools para que o distutils continue funcionando enquanto modificações upstream estão sendo feitas. As wheels para aarch64 são compiladas com manylinux2014 mais recente que conserta um problema com distribuições linux diferentes.
 
@@ -239,7 +239,7 @@ _20 de junho de 2020_ -- O NumPy 1.19.0 está disponível. Esta é a primeira ve
 _11 de maio de 2020_ -- O NumPy foi aceito como uma das organizações mentoras do programa Google Season of Docs. Estamos animados com a oportunidade de trabalhar com um *technical writer* para melhorar a documentação do NumPy mais uma vez! Para mais detalhes, consulte [o site oficial do programa Season of Docs](https://developers.google.com/season-of-docs/) e nossa [página de ideias](https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas).
 
 
-### NumPy versão 1.18.0
+### NumPy versão 1.19.2
 
 _22 de dezembro de 2019_ -- O NumPy 1.18.0 está disponível. Após as principais mudanças em 1.17.0, esta é uma versão de consolidação. É a última versão menor que suportará Python 3.5. Destaques dessa versão incluem a adição de uma infraestrutura básica para permitir o link com as bibliotecas BLAS e LAPACK em 64 bits durante a compilação, e uma nova C-API para `numpy.random`.
 
