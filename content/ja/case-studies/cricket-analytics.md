@@ -4,11 +4,11 @@ sidebar: false
 ---
 
 {{< figure src="/images/content_images/cs/ipl-stadium.png" caption="** IPLT20、インド最大のクリケットフェスティバル**" alt="Indian Premier League Cricket cup and stadium" attr="*(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))*" attrlink="https://unsplash.com/@aksh1802" >}}
-src = '/images/content_images/cs/ipl-stadium.png' title = ' IPLT20:インド最大のクリケットフェスティバル' alt = 'Indian Premier League Cricket cup and stadium' attribution = '(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))' attributionlink = 'https://unsplash.com/@aksh1802'
+src = '/images/content_images/cs/ipl-stadium.png' title = ' IPLT20、インド最大のクリケットフェスティバル' alt = 'Indian Premier League Cricket cup and stadium' attribution = '(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))' attributionlink = 'https://unsplash.com/@aksh1802'
 {{< /figure >}}
 
-{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, *世界的なクリケットプレイヤーであり、前世界王者、インドチームで活躍し、IPLにおけるチェンナイスーパー王者となった*"
-> }} 観客のために競技しているのではなく、国のために競技しているのです。 
+{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni、 *インディアンチームの元キャプテン、インターナショナル・クリケットプレイヤー、チェンナイ・スーパー・キングスのためにIPLでプレイ*"
+> }} 観客のために競技をするのではなく、国のために競技するのです。 
 > 
 > {{< /blockquote >}}
 
@@ -68,5 +68,5 @@ src = '/images/content_images/cs/player-pose-estimator.png' alt = 'pose estimato
 スポーツアナリティクスは、プロの試合についてはまさにゲームチェンジャーです。 特に戦略的な意思決定については、最近まで主に「直感」や過去の伝統的な考え方に基づいて行われていたため、大きな影響があります。 NumPyは、データ分析・機械学習・人工知能のアルゴリズムに関連する高レベル関数を提供する沢山のPythonパッケージ群の、堅固な基盤となっています。 これらのパッケージは、ゲームの結果を変えるような意思決定を支援するリアルタイムのインサイトを得るため、クリケットの試合だけでなく関連する推論やビジネスの推進にも広く使用されています。 クリケットの試合結果につながる隠れたパラメータや、パターン、属性を見つけることは、ステークホルダーが数字や統計に隠されているゲームの洞察方法を見つけるのにも役に立つのです。
 
 {{< figure >}}
-src = '/images/content_images/cs/numpy_ca_benefits.png' alt = 'クリケット分析にNumPyを使用するメリットを示す図' title = ' 利用されている主なNumPyの機能 '
+src = '/images/content_images/cs/numpy_ca_benefits.png' alt = 'クリケット分析にNumPyを使用するメリットを示す図' title = ' 利用されている主なNumPy機能 '
 {{< /figure >}}
