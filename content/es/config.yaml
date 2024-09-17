@@ -31,50 +31,50 @@ params:
         text: Cómo NumPy, junto con bibliotecas como SciPy y Matplotlib que dependen de NumPy, permitió al Telescopio del Horizonte de Sucesos producir la primera imagen de un agujero negro
         img: /images/content_images/case_studies/blackhole.png
         alttext: Primera imagen de un agujero negro. Es un círculo anaranjado con fondo negro.
-        url: /case-studies/blackhole-image
+        url: /es/case-studies/blackhole-image
       - 
         title: Detección de Ondas Gravitacionales
         text: En 1916 Albert Einstein predijo las ondas gravitacionales; 100 años después se confirmó su existencia por científicos del LIGO, utilizando NumPy.
         img: /images/content_images/case_studies/gravitional.png
         alttext: Dos cuerpos orbitándose mutuamente. Estos desplazan la gravedad a su alrededor.
-        url: /case-studies/gw-discov
+        url: /es/case-studies/gw-discov
       - 
         title: Analíticas Deportivas
         text: El Análisis de Críquet está cambiando el juego, mejorando el rendimiento de los jugadores y equipos mediante modelos estadísticos y análisis predictivos. NumPy permite realizar muchos de estos análisis.
         img: /images/content_images/case_studies/sports.jpg
         alttext: Bola de Cricket sobre un campo verde.
-        url: /case-studies/cricket-analytics
+        url: /es/case-studies/cricket-analytics
       - 
         title: Estimación de la pose mediante aprendizaje profundo
         text: DeepLabCut utiliza NumPy para acelerar estudios científicos que implican la observación del comportamiento animal para una mejor comprensión del control motriz, a través de especies y escalas de tiempo.
         img: /images/content_images/case_studies/deeplabcut.png
         alttext: Análisis de la pose de un Guepardo
-        url: /case-studies/deeplabcut-dnn
+        url: /es/case-studies/deeplabcut-dnn
   tabs:
     title: ECOSISTEMA
   section5: false
   navbar:
     - 
       title: Instalar
-      url: /install
+      url: /es/install
     - 
       title: Documentación
       url: https://numpy.org/doc/stable
     - 
       title: Aprende
-      url: /learn
+      url: /es/learn
     - 
       title: Comunidad
-      url: /community
+      url: /es/community
     - 
       title: Quiénes somos
-      url: /about
+      url: /es/about
     - 
       title: Noticias
-      url: /news
+      url: /es/news
     - 
       title: Contribuye
-      url: /contribute
+      url: /es/contribute
   footer:
     logo: logo.svg
     socialmediatitle: ""
@@ -91,16 +91,16 @@ params:
         links:
           - 
             text: Instalar
-            link: /install
+            link: /es/install
           - 
             text: Documentación
             link: https://numpy.org/doc/stable
           - 
             text: Aprende
-            link: /learn
+            link: /es/learn
           - 
             text: Citando a NumPy
-            link: /citing-numpy
+            link: /es/citing-numpy
           - 
             text: Mapa de ruta
             link: https://numpy.org/neps/roadmap.html
@@ -108,30 +108,30 @@ params:
         links:
           - 
             text: Acerca de nosotros
-            link: /about
+            link: /es/about
           - 
             text: Comunidad
-            link: /community
+            link: /es/community
           - 
             text: Encuestas a usuarios
-            link: /user-surveys
+            link: /es/user-surveys
           - 
             text: Contribuye
-            link: /contribute
+            link: /es/contribute
           - 
             text: Código de Conducta
-            link: /code-of-conduct
+            link: /es/code-of-conduct
       column3:
         links:
           - 
             text: Buscar ayuda
-            link: /gethelp
+            link: /es/gethelp
           - 
             text: Términos de uso
-            link: /terms
+            link: /es/terms
           - 
             text: Confidencialidad
-            link: /privacy
+            link: /es/privacy
           - 
             text: Kit de prensa
-            link: /press-kit
+            link: /es/press-kit
