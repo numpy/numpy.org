@@ -4,7 +4,11 @@ sidebar: false
 ---
 
 {{< figure >}}
-src = '/images/content_images/cs/gw_sxs_image. ng' title = 'Ondas Gravitacionales' alt = 'coalescencia de un agujero negro binario generando ondas gravitacionales' attribution= '(Créditos de imagen: El proyecto Simulación de Espacio-tiempos eXtreme (SXS) en LIGO)' attributionlink = 'https://youtu. e/Zt8Z_uzG71o'
+src = '/images/content_images/cs/gw_sxs_image. ng'
+title = 'Ondas Gravitacionales'
+alt = 'coalescencia de un agujero negro binario generando ondas gravitacionales'
+attribution= '(Créditos de imagen: El proyecto Simulación de Espacio-tiempos eXtreme (SXS) en LIGO)'
+attributionlink = 'https://youtu. e/Zt8Z_uzG71o'
 {{< /figure >}}
 
 {{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="David Shoemaker, *Colaboración científica LIGO*" >}} El ecosistema científico de Python es una infraestructura crítica para la investigación realizada en LIGO.
@@ -40,7 +44,11 @@ El [Observatorio de Ondas Gravitacionales por Interferometría Láser (LIGO)](ht
     Una vez superados los obstáculos relacionados con comprender suficientemente bien las ecuaciones de Einstein para resolverlas utilizando supercomputadoras, el siguiente gran desafío fue hacer que los datos fueran comprensibles para el cerebro humano. La modelación de simulación, así como la detección de señales, requieren técnicas de visualización efectivas.  La visualización también desempeña un papel en otorgar más credibilidad a la relatividad numérica a los ojos de los aficionados a la ciencia pura, los cuales no le daban suficiente importancia a la relatividad numérica hasta que las imágenes y simulaciones facilitaron la comprensión de los resultados para un público más amplio. La velocidad de los cálculos complejos y la renderización, así como la re-renderización de imágenes y simulaciones utilizando los últimos datos experimentales y conocimientos, puede ser una actividad que consume mucho tiempo y que representa un desafío para los investigadores en este campo.
 
 {{< figure >}}
-src = '/images/content_images/cs/gw_strain_amplitude. ng' alt = 'amplitud de deformación de ondas gravitacionales' title = 'Amplitud de deformación de ondas gravitacionales estimada de GW150914' atribución = '(Créditos del gráfico: Observación de Ondas Gravitacionales de la Fusión de un Agujero Negro Binario, Publicación de ResearchGate)' attributionlink = 'https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger'
+src = '/images/content_images/cs/gw_strain_amplitude. ng'
+alt = 'amplitud de deformación de ondas gravitacionales'
+title = 'Amplitud de deformación de ondas gravitacionales estimada de GW150914'
+attribution = '(Créditos del gráfico: Observación de Ondas Gravitacionales de la Fusión de un Agujero Negro Binario, Publicación de ResearchGate)'
+attributionlink = 'https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger'
 {{< /figure >}}
 
 ## El Papel de NumPy en la Detección de Ondas Gravitacionales
@@ -59,13 +67,17 @@ NumPy, el paquete de análisis numérico estándar para Python, fue utilizado po
 * [Software clave](https://github.com/lscsoft) desarrollado en análisis de datos de Ondas Gravitacionales como, tales como [GwPy](https://gwpy.github.io/docs/stable/overview.html) y [PyCBC](https://pycbc.org) utiliza NumPy y AstroPy bajo su cubierta para proporcionar interfaces basadas en objetos a utilidades, herramientas y métodos para el estudio de datos provenientes de detectores de ondas gravitacionales.
 
 {{< figure >}}
-src = '/images/content_images/cs/gwpy-numpy-dep-graph.png' alt = 'gwpy-numpy depgraph' title = 'Gráfico de dependencias que muestra cómo depende el paquete GwPy de NumPy'
+src = '/images/content_images/cs/gwpy-numpy-dep-graph.png'
+alt = 'gwpy-numpy depgraph'
+title = 'Gráfico de dependencias que muestra cómo depende el paquete GwPy de NumPy'
 {{< /figure >}}
 
 ----
 
 {{< figure >}}
-src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png' alt = 'PyCBC-numpy depgraph' title = 'Gráfico de dependencias que muestra cómo el paquete PyCBC depende de NumPy'
+src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png'
+alt = 'PyCBC-numpy depgraph'
+title = 'Gráfico de dependencias que muestra cómo el paquete PyCBC depende de NumPy'
 {{< /figure >}}
 
 ## Resumen
@@ -73,5 +85,7 @@ src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png' alt = 'PyCBC-numpy d
 La detección de ondas gravitacionales ha permitido a los investigadores descubrir fenómenos completamente inesperados, al tiempo que proporciona nuevos conocimientos sobre muchos de los fenómenos astrofísicos más profundos conocidos. El procesamiento de datos y la visualización de datos son pasos cruciales que ayudan a los científicos a obtener información a partir de los datos recopilados en las observaciones científicas y a comprender los resultados. Los cálculos son complejos y no pueden ser comprendidos por humanos, a menos que sean visualizados utilizando simulaciones por computador que se alimenten con datos y análisis reales observados.  NumPy, junto con otros paquetes de Python como matplotlib, pandas y scikit-learn, está [permitiendo a los investigadores](https://www.gw-openscience.org/events/GW150914/) responder preguntas complejas y descubrir nuevos horizontes en nuestra comprensión del universo.
 
 {{< figure >}}
-src = '/images/content_images/cs/numpy_gw_benefits.png' alt = 'beneficios de NumPy' title = 'Capacidades clave de NumPy utilizadas'
+src = '/images/content_images/cs/numpy_gw_benefits.png'
+alt = 'beneficios de NumPy'
+title = 'Capacidades clave de NumPy utilizadas'
 {{< /figure >}}

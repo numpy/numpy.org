@@ -6,8 +6,11 @@ sidebar: false
 En 2020, el equipo de encuestas de NumPy, en asociación con estudiantes y profesores de un curso de Maestría en Metodología de Encuestas organizado conjuntamente por la Universidad de Michigan y la Universidad de Maryland, llevaron a cabo la primera encuesta oficial de la comunidad NumPy. Más de 1,200 usuarios de 75 países participaron para ayudarnos a proyectar un panorama de la comunidad NumPy y expresaron sus pensamientos sobre el futuro del proyecto.
 
 {{< figure >}}
-src = '/surveys/NumPy_usersurvey_2020_report_cover.png' alt = 'Página de portada del informe de la encuesta de usuarios de NumPy de 2020, titulado "Encuesta de la Comunidad de NumPy 2020 - resultados"' width = '250'
-{{< /figura >}}
+src = '/surveys/NumPy_usersurvey_2020_report_cover.png'
+alt = 'Página de portada del informe de la encuesta de usuarios de NumPy de 2020'
+title = 'Encuesta de la Comunidad de NumPy 2020 - resultados'
+width = '250'
+{{< /figure >}}
 
 **[Descarga el informe](/surveys/NumPy_usersurvey_2020_report.pdf)** para ver a detalle los resultados de la encuesta.
 
