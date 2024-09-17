@@ -5,7 +5,7 @@ sidebar: false
 
 **開発関連の問題:** NumPyの開発関連の問題 (例: バグレポート) については、[コミュニティ](/community) のページを参照してください。
 
-**ユーザーからの質問:** ユーザーからの質問に対して回答を得る最も良い方法は、[StackOverflow](http://stackoverflow.com/questions/tagged/numpy)に質問を投稿することです。 私たちはこれらのサイトを定期的に確認して、直接質問に答えるようにしていますが、質問の数は膨大なのが現実です。
+**ユーザーからの質問:** ユーザーからの質問に対して回答を得る最も良い方法は、[StackOverflow](http://stackoverflow.com/questions/tagged/numpy)に質問を投稿することです。 We wish we could keep an eye on these sites, or answer questions directly, but the volume is a little overwhelming!
 
 ### [StackOverflow](http://stackoverflow.com/questions/tagged/numpy)
 
