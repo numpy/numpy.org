@@ -15,3 +15,6 @@ files:
   - source: /content/en/case-studies/*.md
     translation: /content/%two_letters_code%/case-studies/%original_file_name%
     update_option: "update_as_unapproved"
+  - source: /content/en/teams/index.md
+    translation: /content/%two_letters_code%/teams/%original_file_name%
+    update_option: "update_as_unapproved"
