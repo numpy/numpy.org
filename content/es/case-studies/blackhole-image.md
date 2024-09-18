@@ -4,7 +4,7 @@ sidebar: false
 ---
 
 {{< figure >}}
-src = '/images/content_images/cs/blackhole. pg'
+src = '/images/content_images/cs/blackhole.jpg'
 title = 'Agujero Negro M87'
 alt = 'Imagen de agujero negro'
 attribution = '(Créditos de la imagen: Colaboración del telescopio del Horizonte de Sucesos)'
