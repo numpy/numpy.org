@@ -5,7 +5,7 @@ title: null
 {{< grid columns="1 2 2 3" >}}
 
 [[item]]
-type = 'tarjeta'
+type = 'card'
 title = 'Matrices N-dimensionales potentes'
 body = '''
 Rápida y versátil, la vectorización, indexación y conceptos de broadcasting de NumPy son los estándares de facto en el cálculo de matrices hoy en día.
