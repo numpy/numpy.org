@@ -95,6 +95,7 @@ section.scientific-domains {
             line-height: 130%;
             margin: 0.2em 0.4em;
             flex-basis: 13%;
+            align-self: baseline;
 
             & header {
                 // FIXME: Use appropriate PST color for this header text.
