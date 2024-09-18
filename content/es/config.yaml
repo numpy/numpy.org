@@ -4,7 +4,7 @@ params:
   navbarlogo:
     image: logo.svg
     text: NumPy
-    link: /
+    link: /es/
   hero:
     #Main hero title
     title: NumPy
