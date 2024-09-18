@@ -8,7 +8,7 @@ src = '/images/content_images/cs/blackhole.jpg'
 title = 'Agujero Negro M87'
 alt = 'Imagen de agujero negro'
 attribution = '(Créditos de la imagen: Colaboración del telescopio del Horizonte de Sucesos)'
-attributionlink = 'https://www. pl.nasa.gov/images/universe/20190410/blackhole20190410.jpg'
+attributionlink = 'https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg'
 {{< /figure >}}
 
 {{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="Katie Bouman, *Profesora Asistente, Ciencias de la Computación & Matemáticas, Caltech*"
