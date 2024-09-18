@@ -1,373 +1,275 @@
 params:
   machinelearning:
     paras:
-      - 
-        para1: NumPy constituye la base de potentes librerías de aprendizaje automático como [scikit-learn](https://scikit-learn.org) y [SciPy](https://www.scipy.org). A medida que crece el aprendizaje automático, también lo hace la lista de librerías basadas en NumPy. Las capacidades de aprendizaje profundo de [TensorFlow](https://www.tensorflow.org) tienen amplias aplicaciones&mdash; entre ellas el reconocimiento de voz e imágenes, las aplicaciones basadas en texto, el análisis de series de tiempo y la detección de vídeo. [PyTorch](https://pytorch.org), otra librería de aprendizaje profundo, es popular entre los investigadores de visión artificial y procesamiento del lenguaje natural.
+      - para1: NumPy constituye la base de potentes librerías de aprendizaje automático como [scikit-learn](https://scikit-learn.org) y [SciPy](https://www.scipy.org). A medida que crece el aprendizaje automático, también lo hace la lista de librerías basadas en NumPy. Las capacidades de aprendizaje profundo de [TensorFlow](https://www.tensorflow.org) tienen amplias aplicaciones&mdash; entre ellas el reconocimiento de voz e imágenes, las aplicaciones basadas en texto, el análisis de series de tiempo y la detección de vídeo. [PyTorch](https://pytorch.org), otra librería de aprendizaje profundo, es popular entre los investigadores de visión artificial y procesamiento del lenguaje natural.
         para2: Las técnicas estadísticas denominadas métodos [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205), como binning, bagging, stacking y boosting, se encuentran entre los algoritmos de ML implementados por herramientas como [XGBoost](https://xgboost.readthedocs.io/), [LightGBM](https://lightgbm.readthedocs.io/en/latest/) y [CatBoost](https://catboost.ai) &mdash; uno de los motores de inferencia más rápidos. [Yellowbrick](https://www.scikit-yb.org/en/latest/) y [Eli5](https://eli5.readthedocs.io/en/latest/) ofrecen visualizaciones de aprendizaje automático.
   arraylibraries:
     intro:
-      - 
-        text: La API de NumPy es el punto de partida cuando se escriben librerías para explotar hardware innovador, crear tipos de arreglos especializadas o añadir capacidades más allá de lo que NumPy proporciona.
+      - text: La API de NumPy es el punto de partida cuando se escriben librerías para explotar hardware innovador, crear tipos de arreglos especializadas o añadir capacidades más allá de lo que NumPy proporciona.
     headers:
-      - 
-        text: Librería de arreglos
-      - 
-        text: Capacidades y áreas de aplicación
+      - text: Librería de arreglos
+      - text: Capacidades y áreas de aplicación
     libraries:
-      - 
-        title: Dask
+      - title: Dask
         text: Arreglos distribuidos y paralelismo avanzado para análisis, que permiten un rendimiento a escala.
         img: /images/content_images/arlib/dask.png
         alttext: Dask
         url: https://dask.org/
-      - 
-        title: CuPy
+      - title: CuPy
         text: Librería de arreglos compatible con NumPy para cálculo acelerado en la GPU con Python.
         img: /images/content_images/arlib/cupy.png
         alttext: CuPy
         url: https://cupy.dev
-      - 
-        title: JAX
+      - title: JAX
         text: "Transformaciones componibles de programas NumPy: diferenciar, vectorizar, compilación justo-a-tiempo a GPU/TPU."
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
         url: https://jax.readthedocs.io/
-      - 
-        title: Xarray
+      - title: Xarray
         text: Arreglos multidimensionales indexados y etiquetados para análisis y visualización avanzados.
         img: /images/content_images/arlib/xarray.png
         alttext: xarray
         url: https://xarray.pydata.org/en/stable/index.html
-      - 
-        title: Sparse
+      - title: Sparse
         text: Librería de arreglos dispersos compatible con NumPy que se integra con el álgebra lineal dispersa de Dask y SciPy.
         img: /images/content_images/arlib/sparse.png
         alttext: sparse
         url: https://sparse.pydata.org/en/latest/
-      - 
-        title: PyTorch
+      - title: PyTorch
         text: Marco de aprendizaje profundo que acelera el camino desde la creación de prototipos de investigación hasta la implantación en producción.
         img: /images/content_images/arlib/pytorch-logo-dark.svg
         alttext: PyTorch
         url: https://pytorch.org/
-      - 
-        title: TensorFlow
+      - title: TensorFlow
         text: Una plataforma integral de aprendizaje automático para crear y desplegar fácilmente aplicaciones basadas en ML.
         img: /images/content_images/arlib/tensorflow-logo.svg
         alttext: TensorFlow
         url: https://www.tensorflow.org
-      - 
-        title: Arrow
+      - title: Arrow
         text: Plataforma de desarrollo multilingüe para datos y análisis columnares en memoria.
         img: /images/content_images/arlib/arrow.png
         alttext: arrow
         url: https://arrow.apache.org/
-      - 
-        title: xtensor
+      - title: xtensor
         text: Arreglos multidimensionales con difusión y computación perezosa para análisis numérico.
         img: /images/content_images/arlib/xtensor.png
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
-      - 
-        title: Awkward Array
+      - title: Awkward Array
         text: Manipular datos similares a JSON con expresiones similares a NumPy.
         img: /images/content_images/arlib/awkward.svg
         alttext: awkward
         url: https://awkward-array.org/
-      - 
-        title: uarray
+      - title: uarray
         text: Sistema de backend de Python que desacopla la API de la implementación; unumpy proporciona una API de NumPy.
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
-      - 
-        title: tensorly
+      - title: tensorly
         text: Aprendizaje tensorial, álgebra y backends para usar de manera fluida NumPy, PyTorch, TensorFlow o CuPy.
         img: /images/content_images/arlib/tensorly.png
         alttext: tensorly
         url: http://tensorly.org/stable/home.html
   scientificdomains:
     intro:
-      - 
-        text: Casi todos los científicos que trabajan en Python recurren a la potencia de NumPy.
-      - 
-        text: "NumPy aporta la potencia de cálculo de lenguajes como C y Fortran a Python, un lenguaje mucho más fácil de aprender y utilizar. Con esta potencia viene la sencillez: una solución en NumPy suele ser clara y elegante."
+      - text: Casi todos los científicos que trabajan en Python recurren a la potencia de NumPy.
+      - text: "NumPy aporta la potencia de cálculo de lenguajes como C y Fortran a Python, un lenguaje mucho más fácil de aprender y utilizar. Con esta potencia viene la sencillez: una solución en NumPy suele ser clara y elegante."
     libraries:
-      - 
-        title: Computación Cuántica
+      - title: Computación Cuántica
         alttext: Un chip para computador.
         img: /images/content_images/sc_dom_img/quantum_computing.svg
         links:
-          - 
-            url: http://qutip.org
+          - url: http://qutip.org
             label: QuTiP
-          - 
-            url: https://pyquil-docs.rigetti.com/en/stable
+          - url: https://pyquil-docs.rigetti.com/en/stable
             label: PyQuil
-          - 
-            url: https://qiskit.org
+          - url: https://qiskit.org
             label: Qiskit
-          - 
-            url: https://pennylane.ai
+          - url: https://pennylane.ai
             label: PennyLane
-      - 
-        title: Computación Estadística
+      - title: Computación Estadística
         alttext: Un gráfico lineal con la línea moviéndose hacia arriba.
         img: /images/content_images/sc_dom_img/statistical_computing.svg
         links:
-          - 
-            url: https://pandas.pydata.org/
+          - url: https://pandas.pydata.org/
             label: Pandas
-          - 
-            url: https://www.statsmodels.org/
+          - url: https://www.statsmodels.org/
             label: statsmodels
-          - 
-            url: https://xarray.pydata.org/en/stable/
+          - url: https://xarray.pydata.org/en/stable/
             label: Xarray
-          - 
-            url: https://seaborn.pydata.org/
+          - url: https://seaborn.pydata.org/
             label: Seaborn
-      - 
-        title: Procesamiento de Señales
+      - title: Procesamiento de Señales
         alttext: Un gráfico de barras con valores positivos y negativos.
         img: /images/content_images/sc_dom_img/signal_processing.svg
         links:
-          - 
-            url: https://www.scipy.org/
+          - url: https://www.scipy.org/
             label: SciPy
-          - 
-            url: https://pywavelets.readthedocs.io/
+          - url: https://pywavelets.readthedocs.io/
             label: PyWavelets
-          - 
-            url: https://python-control.org/
+          - url: https://python-control.org/
             label: python-control
-          - 
-            url: https://hyperspy.org/
+          - url: https://hyperspy.org/
             label: HiperSpy
-      - 
-        title: Procesamiento de Imágenes
+      - title: Procesamiento de Imágenes
         alttext: Una fotografía de las montañas.
         img: /images/content_images/sc_dom_img/image_processing.svg
         links:
-          - 
-            url: https://scikit-image.org/
+          - url: https://scikit-image.org/
             label: Scikit-image
-          - 
-            url: https://opencv.org/
+          - url: https://opencv.org/
             label: OpenCV
-          - 
-            url: https://mahotas.rtfd.io/
+          - url: https://mahotas.rtfd.io/
             label: Mahotas
-      - 
-        title: Grafos y Redes
+      - title: Grafos y Redes
         alttext: Un grafo simple.
         img: /images/content_images/sc_dom_img/sd6.svg
         links:
-          - 
-            url: https://networkx.org/
+          - url: https://networkx.org/
             label: NetworkX
-          - 
-            url: https://graph-tool.skewed.de/
+          - url: https://graph-tool.skewed.de/
             label: graph-tool
-          - 
-            url: https://igraph.org/python/
+          - url: https://igraph.org/python/
             label: igraph
-          - 
-            url: https://pygsp.rtfd.io/
+          - url: https://pygsp.rtfd.io/
             label: PyGSP
-      - 
-        title: Astronomía
+      - title: Astronomía
         alttext: Un telescopio.
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
         links:
-          - 
-            url: https://www.astropy.org/
+          - url: https://www.astropy.org/
             label: AstroPy
-          - 
-            url: https://sunpy.org/
+          - url: https://sunpy.org/
             label: SunPy
-          - 
-            url: https://spacepy.github.io/
+          - url: https://spacepy.github.io/
             label: SpacePy
-      - 
-        title: Psicología Cognitiva
+      - title: Psicología Cognitiva
         alttext: Una cabeza humana con engranajes.
         img: /images/content_images/sc_dom_img/cognitive_psychology.svg
         links:
-          - 
-            url: https://www.psychopy.org/
+          - url: https://www.psychopy.org/
             label: PsychoPy
-      - 
-        title: Bioinformática
+      - title: Bioinformática
         alttext: Una hebra de ADN.
         img: /images/content_images/sc_dom_img/bioinformatics.svg
         links:
-          - 
-            url: https://biopython.org/
+          - url: https://biopython.org/
             label: BioPython
-          - 
-            url: http://scikit-bio.org/
+          - url: http://scikit-bio.org/
             label: Scikit-Bio
-          - 
-            url: https://github.com/openvax/pyensembl
+          - url: https://github.com/openvax/pyensembl
             label: PyEnsembl
-          - 
-            url: http://etetoolkit.org/
+          - url: http://etetoolkit.org/
             label: ETE
-      - 
-        title: Inferencia Bayesiana
+      - title: Inferencia Bayesiana
         alttext: Un gráfico con una curva en forma de campanas.
         img: /images/content_images/sc_dom_img/bayesian_inference.svg
         links:
-          - 
-            url: https://pystan.readthedocs.io/en/latest/
+          - url: https://pystan.readthedocs.io/en/latest/
             label: PyStan
-          - 
-            url: https://docs.pymc.io/
+          - url: https://docs.pymc.io/
             label: PyMC3
-          - 
-            url: https://arviz-devs.github.io/arviz/
+          - url: https://arviz-devs.github.io/arviz/
             label: ArviZ
-          - 
-            url: https://emcee.readthedocs.io/
+          - url: https://emcee.readthedocs.io/
             label: emcee
-      - 
-        title: Análisis Matemático
+      - title: Análisis Matemático
         alttext: Cuatro símbolos matemáticos.
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
         links:
-          - 
-            url: https://www.scipy.org/
+          - url: https://www.scipy.org/
             label: SciPy
-          - 
-            url: https://www.sympy.org/
+          - url: https://www.sympy.org/
             label: SymPy
-          - 
-            url: https://www.cvxpy.org/
+          - url: https://www.cvxpy.org/
             label: cvxpy
-          - 
-            url: https://fenicsproject.org/
+          - url: https://fenicsproject.org/
             label: FEniCS
-      - 
-        title: Química
+      - title: Química
         alttext: Un tubo de ensayo.
         img: /images/content_images/sc_dom_img/chemistry.svg
         links:
-          - 
-            url: https://cantera.org/
+          - url: https://cantera.org/
             label: Cantera
-          - 
-            url: https://www.mdanalysis.org/
+          - url: https://www.mdanalysis.org/
             label: MDAnalysis
-          - 
-            url: https://github.com/rdkit/rdkit
+          - url: https://github.com/rdkit/rdkit
             label: RDKit
-          - 
-            url: https://www.pybamm.org/
+          - url: https://www.pybamm.org/
             label: PyBaMM
-      - 
-        title: Geociencia
+      - title: Geociencia
         alttext: La Tierra.
         img: /images/content_images/sc_dom_img/geoscience.svg
         links:
-          - 
-            url: https://pangeo.io/
+          - url: https://pangeo.io/
             label: Pangeo
-          - 
-            url: https://simpeg.xyz/
+          - url: https://simpeg.xyz/
             label: Simpeg
-          - 
-            url: https://github.com/obspy/obspy/wiki
+          - url: https://github.com/obspy/obspy/wiki
             label: ObsPy
-          - 
-            url: https://www.fatiando.org/
+          - url: https://www.fatiando.org/
             label: Fatiando a Terra
-      - 
-        title: Procesamiento Geográfico
+      - title: Procesamiento Geográfico
         alttext: Un mapa.
         img: /images/content_images/sc_dom_img/GIS.svg
         links:
-          - 
-            url: https://shapely.readthedocs.io/
+          - url: https://shapely.readthedocs.io/
             label: Shapely
-          - 
-            url: https://geopandas.org/
+          - url: https://geopandas.org/
             label: GeoPandas
-          - 
-            url: https://python-visualization.github.io/folium
+          - url: https://python-visualization.github.io/folium
             label: Folium
-      - 
-        title: Arquitectura e Ingeniería
+      - title: Arquitectura e Ingeniería
         alttext: Una placa de desarrollo de microprocesadores.
         img: /images/content_images/sc_dom_img/robotics.svg
         links:
-          - 
-            url: https://compas.dev/
+          - url: https://compas.dev/
             label: COMPAS
-          - 
-            url: https://cityenergyanalyst.com/
+          - url: https://cityenergyanalyst.com/
             label: City Energy Analyst - Analista de Energía de Ciudad
-          - 
-            url: https://nortikin.github.io/sverchok/
+          - url: https://nortikin.github.io/sverchok/
             label: Sverchok
   datascience:
     intro: "NumPy es el núcleo de un rico ecosistema de librerías de ciencia de datos. Un flujo de trabajo exploratorio típico de ciencia de datos podría verse así:"
     image1:
-      - 
-        img: /images/content_images/ds-landscape.png
+      - img: /images/content_images/ds-landscape.png
         alttext: Diagrama de las librerías de Python. Las cinco categorías son "Extraer, Transformar, Cargar", "Exploración de Datos", "Modelado de Datos", "Evaluación de Datos" y "Presentación de Datos".
     image2:
-      - 
-        img: /images/content_images/data-science.png
+      - img: /images/content_images/data-science.png
         alttext: Diagrama de tres círculos superpuestos. Los círculos se denominan "Matemáticas", "Ciencias de la Computación" y "Conocimientos Especializados". En el centro del diagrama, con los tres círculos superpuestos, hay un área denominada "Ciencia de datos".
     examples:
-      - 
-        text: "<b>Extraer, Transformar, Cargar: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
-      - 
-        text: "<b>Análisis Exploratorio: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
-      - 
-        text: "<b>Modelado y evaluación: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
-      - 
-        text: "<b>Informes en un panel de control: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
+      - text: "<b>Extraer, Transformar, Cargar: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
+      - text: "<b>Análisis Exploratorio: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
+      - text: "<b>Modelado y evaluación: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
+      - text: "<b>Informes en un panel de control: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
     content:
-      - 
-        text: Para grandes volúmenes de datos, [Dask](https://dask.org) y [Ray](https://ray.io/) están diseñados para escalarse. Las implementaciones estables se basan en el versionado de datos ([DVC](https://dvc.org)), rastreo de experimentos ([MLFlow](https://mlflow.org)), y automatización del flujo de trabajo ([Airflow](https://airflow.apache.org), [Dagster](https://dagster.io) y [Prefect](https://www.prefect.io)).
+      - text: Para grandes volúmenes de datos, [Dask](https://dask.org) y [Ray](https://ray.io/) están diseñados para escalarse. Las implementaciones estables se basan en el versionado de datos ([DVC](https://dvc.org)), rastreo de experimentos ([MLFlow](https://mlflow.org)), y automatización del flujo de trabajo ([Airflow](https://airflow.apache.org), [Dagster](https://dagster.io) y [Prefect](https://www.prefect.io)).
   visualization:
     images:
-      - 
-        url: https://www.fusioncharts.com/blog/best-python-data-visualization-libraries
+      - url: https://www.fusioncharts.com/blog/best-python-data-visualization-libraries
         img: /images/content_images/v_matplotlib.png
         alttext: Un diagrama de flujo hecho en matplotlib
-      - 
-        url: https://github.com/yhat/ggpy
+      - url: https://github.com/yhat/ggpy
         img: /images/content_images/v_ggpy.png
         alttext: Un diagrama de dispersión hecho en ggpy
-      - 
-        url: https://www.journaldev.com/19692/python-plotly-tutorial
+      - url: https://www.journaldev.com/19692/python-plotly-tutorial
         img: /images/content_images/v_plotly.png
         alttext: Un diagrama de caja hecho en plotly
-      - 
-        url: https://altair-viz.github.io/gallery/streamgraph.html
+      - url: https://altair-viz.github.io/gallery/streamgraph.html
         img: /images/content_images/v_altair.png
         alttext: Un diagrama de flujo hecho en altair
-      - 
-        url: https://seaborn.pydata.org
+      - url: https://seaborn.pydata.org
         img: /images/content_images/v_seaborn.png
         alttext: Un gráfico de pares de dos tipos de gráficos, un gráfico de trazado y un gráfico de frecuencias hecho en seaborn
-      - 
-        url: https://docs.pyvista.org/examples/index.html
+      - url: https://docs.pyvista.org/examples/index.html
         img: /images/content_images/v_pyvista.png
         alttext: Un renderizado de volumen 3D realizado en PyVista.
-      - 
-        url: https://napari.org
+      - url: https://napari.org
         img: /images/content_images/v_napari.png
         alttext: Una imagen multidimensional hecha en napari.
-      - 
-        url: https://vispy.org/gallery/index.html
+      - url: https://vispy.org/gallery/index.html
         img: /images/content_images/v_vispy.png
         alttext: Un diagrama de Voronoi hecho en vispy.
     content:
-      - 
-        text: NumPy es un componente esencial en el floreciente [panorama de visualización de Python](https://pyviz.org/overviews/index.html), que incluye [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), y [PyVista](https://github.com/pyvista/pyvista), por nombrar algunos.
-      - 
-        text: El procesamiento acelerado de arreglos de gran tamaño de NumPy permite a los investigadores visualizar conjuntos de datos mucho mayores a los que el Python nativo podría manejar.
+      - text: NumPy es un componente esencial en el floreciente [panorama de visualización de Python](https://pyviz.org/overviews/index.html), que incluye [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), y [PyVista](https://github.com/pyvista/pyvista), por nombrar algunos.
+      - text: El procesamiento acelerado de arreglos de gran tamaño de NumPy permite a los investigadores visualizar conjuntos de datos mucho mayores a los que el Python nativo podría manejar.

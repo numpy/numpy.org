@@ -1,161 +1,239 @@
 params:
   machinelearning:
     paras:
-      - 
-        para1: NumPyは、[scikit-learn](https://scikit-learn.org)や[SciPy](https://www.scipy.org)のような強力な機械学習ライブラリの基礎を形成しています。機械学習の技術分野が成長するにつれ、NumPyをベースにしたライブラリの数も増えています。[TensorFlow](https://www.tensorflow.org)の深層学習機能は、音声認識や画像認識、テキストベースのアプリケーション、時系列分析、動画検出など、幅広い応用用途があります。[PyTorch](https://pytorch.org)も、コンピュータビジョンや自然言語処理の研究者に人気のある深層学習ライブラリです。[MXNet](https://github.com/apache/incubator-mxnet)もAIパッケージの一つで、深層学習の設計図やテンプレート機能を提供しています。
+      - para1: NumPyは、[scikit-learn](https://scikit-learn.org)や[SciPy](https://www.scipy.org)のような強力な機械学習ライブラリの基礎を形成しています。機械学習の技術分野が成長するにつれ、NumPyをベースにしたライブラリの数も増えています。[TensorFlow](https://www.tensorflow.org)の深層学習機能は、音声認識や画像認識、テキストベースのアプリケーション、時系列分析、動画検出など、幅広い応用用途があります。[PyTorch](https://pytorch.org)も、コンピュータビジョンや自然言語処理の研究者に人気のある深層学習ライブラリです。[MXNet](https://github.com/apache/incubator-mxnet)もAIパッケージの一つで、深層学習の設計図やテンプレート機能を提供しています。
         para2: '[ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205)法と呼ばれる統計的手法であるビンニング、バギング、スタッキングや、[XGBoost](https://github.com/dmlc/xgboost)、[LightGBM](https://lightgbm.readthedocs.io/en/latest/)、[CatBoost](https://catboost.ai)などのツールで実装されているブースティングなどは、機械学習アルゴリズムの一つであり、最速の推論エンジンの一つです。[Yellowbrick](https://www.scikit-yb.org/en/latest/)や[Eli5](https://eli5.readthedocs.io/en/latest/)は機械学習の可視化機能を提供しています。'
   arraylibraries:
     intro:
-      - 
-        text: NumPyのAPIは、革新的なハードウェアを利用したり、特殊な配列タイプを作成したり、NumPyが提供する以上の機能を追加するためにライブラリを作成する際の基礎となります。
+      - text: NumPyのAPIは、革新的なハードウェアを利用したり、特殊な配列タイプを作成したり、NumPyが提供する以上の機能を追加するためにライブラリを作成する際の基礎となります。
     headers:
-      - 
-        text: 配列ライブラリ
-      - 
-        text: 機能と応用分野
+      - text: 配列ライブラリ
+      - text: 機能と応用分野
     libraries:
-      - 
-        title: Dask
+      - title: Dask
         text: 分析用の分散配列と高度な並列処理により、大規模な処理を可能にします。
         img: /images/content_images/arlib/dask.png
         alttext: Dask
         url: https://dask.org/
-      - 
-        title: CuPy
+      - title: CuPy
         text: Python を使用した GPUによる高速計算用のNumPy互換配列ライブラリ
         img: /images/content_images/arlib/cupy.png
         alttext: CuPy
         url: https://cupy.chainer.org
-      - 
-        title: JAX
+      - title: JAX
         text: "NumPyコードの合成可能な変換ライブラリ: 微分、ベクトル化、GPU/TPUへのジャストインタイムコンパイル"
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
         url: https://github.com/google/jax
-      - 
-        title: Xarray
+      - title: Xarray
         text: 高度な分析と視覚化のためのラベルとインデックス付き多次元配列
         img: /images/content_images/arlib/xarray.png
         alttext: xarray
         url: https://xarray.pydata.org/en/stable/index.html
-      - 
-        title: Sparse
+      - title: Sparse
         text: Dask と SciPy の疎行列の線形代数ライブラリを統合した、Numpy 互換の疎行列ライブラリ
         img: /images/content_images/arlib/sparse.png
         alttext: sparse
         url: https://sparse.pydata.org/en/latest/
-      - 
-        title: PyTorch
+      - title: PyTorch
         text: 研究用のプロトタイピングから本番運用への展開を加速させる、深層学習フレームワーク
         img: /images/content_images/arlib/pytorch-logo-dark.svg
         alttext: PyTorch
         url: https://pytorch.org/
-      - 
-        title: TensorFlow
+      - title: TensorFlow
         text: 機械学習を利用したアプリケーションを簡単に構築・展開するための、エンド・ツー・エンドの機械学習プラットフォーム
         img: /images/content_images/arlib/tensorflow-logo.svg
         alttext: TensorFlow
         url: https://www.tensorflow.org
-      - 
-        title: MXNet
+      - title: MXNet
         text: 柔軟や研究用のプロトタイピングから、実際の運用まで利用可能な深層学習フレームワーク
         img: /images/content_images/arlib/mxnet_logo.png
         alttext: MXNet
         url: https://mxnet.apache.org/
-      - 
-        title: Arrow
+      - title: Arrow
         text: 列型のインメモリーデータやその分析のための、複数の言語に対応した開発プラットフォーム
         img: /images/content_images/arlib/arrow.png
         alttext: arrow
         url: https://github.com/apache/arrow
-      - 
-        title: xtensor
+      - title: xtensor
         text: 数値解析のためのブロードキャスティングと遅延計算を備えた多次元配列
         img: /images/content_images/arlib/xtensor.png
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
-      - 
-        title: Awkward
+      - title: Awkward
         text: Numpy のような イディオムを使って JSON のようなデータを操作するライブラリ
         img: /images/content_images/arlib/xnd.png
         alttext: awkward
         url: https://awkward-array.org/
-      - 
-        title: uarray
+      - title: uarray
         text: APIを実装から切り離すPythonバックエンドシステム (unumpyはNumPy APIを提供しています)
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
-      - 
-        title: tensorly
+      - title: tensorly
         text: Numpy、MXNet、PyTorch、TensorFlowまたはCupyをシームレスに使用するための、テンソル学習、テンソル代数、およびそれらのテンソル計算のためのバックエンド
         img: /images/content_images/arlib/tensorly.png
         alttext: tensorly
         url: http://tensorly.org/stable/home.html
   scientificdomains:
     intro:
-      - 
-        text: Pythonを使って働くほとんどの科学者はNumPyの力を利用しています。
-      - 
-        text: "Numpy は、 C や Fortran のような言語の計算パフォーマンスを、Pythonにもたらします。 このパワーはNumPyのシンプルさから来ており、NumPyによるソリューションの多くは明確でエレガントになります。"
-    librariesrow1:
-      - 
-        title: 量子コンピューティング
+      - text: Pythonを使って働くほとんどの科学者はNumPyの力を利用しています。
+      - text: "Numpy は、 C や Fortran のような言語の計算パフォーマンスを、Pythonにもたらします。 このパワーはNumPyのシンプルさから来ており、NumPyによるソリューションの多くは明確でエレガントになります。"
+    libraries:
+      - title: 量子コンピューティング
         alttext: コンピューターチップ
         img: /images/content_images/sc_dom_img/quantum_computing.svg
-      - 
-        title: 統計コンピューティング
+        links:
+          - url: http://qutip.org
+            label: QuTiP
+          - url: https://pyquil-docs.rigetti.com/en/stable
+            label: PyQuil
+          - url: https://qiskit.org
+            label: Qiskit
+          - url: https://pennylane.ai
+            label: PennyLane
+      - title: 統計コンピューティング
         alttext: 線グラフで、グラフが上に移動します。
         img: /images/content_images/sc_dom_img/statistical_computing.svg
-      - 
-        title: 信号処理
+        links:
+          - url: https://pandas.pydata.org/
+            label: Pandas
+          - url: https://www.statsmodels.org/
+            label: statsmodels
+          - url: https://xarray.pydata.org/en/stable/
+            label: Xarray
+          - url: https://seaborn.pydata.org/
+            label: Seaborn
+      - title: 信号処理
         alttext: 正と負の値を持つ棒グラフ。
         img: /images/content_images/sc_dom_img/signal_processing.svg
-      - 
-        title: 画像処理
+        links:
+          - url: https://www.scipy.org/
+            label: SciPy
+          - url: https://pywavelets.readthedocs.io/
+            label: PyWavelets
+          - url: https://python-control.org/
+            label: python-control
+          - url: https://hyperspy.org/
+            label: HiperSpy
+      - title: 画像処理
         alttext: 山々の写真
         img: /images/content_images/sc_dom_img/image_processing.svg
-      - 
-        title: グラフとネットワーク
+        links:
+          - url: https://scikit-image.org/
+            label: Scikit-image
+          - url: https://opencv.org/
+            label: OpenCV
+          - url: https://mahotas.rtfd.io/
+            label: Mahotas
+      - title: グラフとネットワーク
         alttext: シンプルなグラフ
         img: /images/content_images/sc_dom_img/sd6.svg
-      - 
-        title: 天文学
+        links:
+          - url: https://networkx.org/
+            label: NetworkX
+          - url: https://graph-tool.skewed.de/
+            label: graph-tool
+          - url: https://igraph.org/python/
+            label: igraph
+          - url: https://pygsp.rtfd.io/
+            label: PyGSP
+      - title: 天文学
         alttext: 望遠鏡
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
-      - 
-        title: 認知心理学
+        links:
+          - url: https://www.astropy.org/
+            label: AstroPy
+          - url: https://sunpy.org/
+            label: SunPy
+          - url: https://spacepy.github.io/
+            label: SpacePy
+      - title: 認知心理学
         alttext: ギアをつけた人間の頭部
         img: /images/content_images/sc_dom_img/cognitive_psychology.svg
-    librariesrow2:
-      - 
-        title: 生命情報科学
+        links:
+          - url: https://www.psychopy.org/
+            label: PsychoPy
+      - title: 生命情報科学
         alttext: DNAの鎖
         img: /images/content_images/sc_dom_img/bioinformatics.svg
-      - 
-        title: ベイズ推論
+        links:
+          - url: https://biopython.org/
+            label: BioPython
+          - url: http://scikit-bio.org/
+            label: Scikit-Bio
+          - url: https://github.com/openvax/pyensembl
+            label: PyEnsembl
+          - url: http://etetoolkit.org/
+            label: ETE
+      - title: ベイズ推論
         alttext: 鐘形の曲線のグラフ
         img: /images/content_images/sc_dom_img/bayesian_inference.svg
-      - 
-        title: 数学的分析
+        links:
+          - url: https://pystan.readthedocs.io/en/latest/
+            label: PyStan
+          - url: https://docs.pymc.io/
+            label: PyMC3
+          - url: https://arviz-devs.github.io/arviz/
+            label: ArviZ
+          - url: https://emcee.readthedocs.io/
+            label: emcee
+      - title: 数学的分析
         alttext: ４つの数学記号
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
-      - 
-        title: 化学
+        links:
+          - url: https://www.scipy.org/
+            label: SciPy
+          - url: https://www.sympy.org/
+            label: SymPy
+          - url: https://www.cvxpy.org/
+            label: cvxpy
+          - url: https://fenicsproject.org/
+            label: FEniCS
+      - title: 化学
         alttext: 試験管
         img: /images/content_images/sc_dom_img/chemistry.svg
-      - 
-        title: 地球科学
+        links:
+          - url: https://cantera.org/
+            label: Cantera
+          - url: https://www.mdanalysis.org/
+            label: MDAnalysis
+          - url: https://github.com/rdkit/rdkit
+            label: RDKit
+          - url: https://www.pybamm.org/
+            label: PyBaMM
+      - title: 地球科学
         alttext: 地球
         img: /images/content_images/sc_dom_img/geoscience.svg
-      - 
-        title: 地理情報処理
+        links:
+          - url: https://pangeo.io/
+            label: Pangeo
+          - url: https://simpeg.xyz/
+            label: Simpeg
+          - url: https://github.com/obspy/obspy/wiki
+            label: ObsPy
+          - url: https://www.fatiando.org/
+            label: Fatiando a Terra
+      - title: 地理情報処理
         alttext: 地図
         img: /images/content_images/sc_dom_img/GIS.svg
-      - 
-        title: アーキテクチャとエンジニアリング
+        links:
+          - url: https://shapely.readthedocs.io/
+            label: Shapely
+          - url: https://geopandas.org/
+            label: GeoPandas
+          - url: https://python-visualization.github.io/folium
+            label: Folium
+      - title: アーキテクチャとエンジニアリング
         alttext: マイクロプロセッサ開発ボード
         img: /images/content_images/sc_dom_img/robotics.svg
+        links:
+          - url: https://compas.dev/
+            label: COMPAS
+          - url: https://cityenergyanalyst.com/
+            label: City Energy Analyst - Analista de Energía de Ciudad
+          - url: https://nortikin.github.io/sverchok/
+            label: Sverchok
   datascience:
     intro: "Numpy は豊富なデータサイエンスライブラリのエコシステムの中核にあります。一般的なデータサイエンスのワークフローは次のようになります。"
     image1:
