@@ -4,11 +4,11 @@ sidebar: false
 ---
 
 {{< figure >}}
-src = '/images/content_images/cs/gw_sxs_image. ng'
+src = '/images/content_images/cs/gw_sxs_image.png'
 title = 'Ondas Gravitacionales'
 alt = 'coalescencia de un agujero negro binario generando ondas gravitacionales'
 attribution= '(Créditos de imagen: El proyecto Simulación de Espacio-tiempos eXtreme (SXS) en LIGO)'
-attributionlink = 'https://youtu. e/Zt8Z_uzG71o'
+attributionlink = 'https://youtu.be/Zt8Z_uzG71o'
 {{< /figure >}}
 
 {{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="David Shoemaker, *Colaboración científica LIGO*" >}} El ecosistema científico de Python es una infraestructura crítica para la investigación realizada en LIGO.
@@ -16,7 +16,7 @@ attributionlink = 'https://youtu. e/Zt8Z_uzG71o'
 
 ## Acerca de [Ondas Gravitacionales](https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/) y [LIGO](https://www.ligo.caltech.edu)
 
-Las ondas gravitacionales son ondulaciones en el tejido del espacio y el tiempo, generadas por eventos cataclísmicos en el universo, tales como la colisión y fusión de dos agujeros negros o la coalescencia de estrellas binarias o supernovas. La observación de Ondas Gravitacionales no solo puede ayudar en el estudio de la gravedad, sino también en la comprensión de algunos de los fenómenos oscuros en el universo distante y su impacto.
+Las ondas gravitacionales son ondulaciones en el tejido del espacio y el tiempo, generadas por cataclismos en el universo, tales como la colisión y fusión de dos agujeros negros o la coalescencia de estrellas binarias o supernovas. La observación de Ondas Gravitacionales no solo puede ayudar en el estudio de la gravedad, sino también en la comprensión de algunos de los fenómenos oscuros en el universo distante y su impacto.
 
 El [Observatorio de Ondas Gravitacionales por Interferometría Láser (LIGO)](https://www.ligo.caltech.edu) fue diseñado para abrir el campo de la astrofísica de ondas gravitacionales mediante la detección directa de las ondas gravitacionales predichas por la Teoría General de la Relatividad de Einstein. Comprende dos interferómetros ampliamente separados dentro de los Estados Unidos: uno en Hanford, Washington, y el otro en Livingston, Louisiana, operando al unísono para detectar ondas gravitacionales. Cada uno de ellos tiene detectores de ondas gravitacionales de escala de múltiples kilómetros que utilizan interferometría de láser.  La Colaboración Científica de LIGO (LSC) es un grupo de más de 1000 científicos de universidades de los Estados Unidos y de otros 14 países, respaldados por más de 90 universidades e institutos de investigación; aproximadamente 250 estudiantes contribuyen activamente a la colaboración. El nuevo descubrimiento de LIGO es la primera observación de ondas gravitacionales, realizada midiendo las diminutas perturbaciones que las ondas generan en el espacio y el tiempo a medida que pasan a través de la Tierra.  Ha abierto nuevas fronteras astrofísicas que exploran el lado deformado del universo: objetos y fenómenos que están hechos de espaciotiempo deformado.
 
@@ -24,7 +24,7 @@ El [Observatorio de Ondas Gravitacionales por Interferometría Láser (LIGO)](ht
 ### Objetivos Clave
 
 * Aunque su [misión](https://www.ligo.caltech.edu/page/what-is-ligo) es detectar ondas gravitacionales de algunos de los procesos más violentos y energéticos del Universo, los datos que LIGO recopila pueden tener efectos de gran alcance en muchas áreas de la física, incluyendo gravitación, relatividad, astrofísica, cosmología, física de partículas y física nuclear.
-* Desmenuzar los datos observados mediante cálculos numéricos de relatividad que implican matemáticas complejas para discernir la señal del ruido, filtrar la señal relevante y estimar estadísticamente la importancia de los datos observados
+* Procesar los datos observados mediante cálculos de relatividad numéricos que implican matemáticas complejas para discernir la señal del ruido, filtrar la señal relevante y estimar estadísticamente la significancia de los datos observados
 * Visualización de datos para que los resultados binarios/numéricos puedan ser comprendidos.
 
 
@@ -33,7 +33,7 @@ El [Observatorio de Ondas Gravitacionales por Interferometría Láser (LIGO)](ht
 
 * **Cálculo**
 
-    Las Olas Gravitacionales son difíciles de detectar, ya que producen un efecto muy pequeño y tienen una diminuta interacción con la materia. Procesar y analizar todos los datos de LIGO requiere una vasta infraestructura informática. Después de ocuparse del ruido, que es miles de millones de veces mayor que la señal, aún quedan ecuaciones de relatividad muy complejas y enormes cantidades de datos que suponen un desafío computacional: [se necesitan aproximadamente O(10^7) horas de CPU para los análisis de fusiones binarias](https://youtu.be/7mcHknWWzNI), distribuidas en 6 clústeres dedicados de LIGO
+    Las Ondas Gravitacionales son difíciles de detectar, ya que producen un efecto muy pequeño y tienen una diminuta interacción con la materia. Procesar y analizar todos los datos de LIGO requiere una vasta infraestructura informática. Después de ocuparse del ruido, que es miles de millones de veces mayor que la señal, aún quedan ecuaciones de relatividad muy complejas y enormes cantidades de datos que suponen un desafío computacional: [se necesitan aproximadamente O(10^7) horas de CPU para los análisis de fusiones binarias](https://youtu.be/7mcHknWWzNI), distribuidas en 6 clústeres dedicados de LIGO
 
 * **Avalancha de Datos**
 
@@ -44,7 +44,7 @@ El [Observatorio de Ondas Gravitacionales por Interferometría Láser (LIGO)](ht
     Una vez superados los obstáculos relacionados con comprender suficientemente bien las ecuaciones de Einstein para resolverlas utilizando supercomputadoras, el siguiente gran desafío fue hacer que los datos fueran comprensibles para el cerebro humano. La modelación de simulación, así como la detección de señales, requieren técnicas de visualización efectivas.  La visualización también desempeña un papel en otorgar más credibilidad a la relatividad numérica a los ojos de los aficionados a la ciencia pura, los cuales no le daban suficiente importancia a la relatividad numérica hasta que las imágenes y simulaciones facilitaron la comprensión de los resultados para un público más amplio. La velocidad de los cálculos complejos y la renderización, así como la re-renderización de imágenes y simulaciones utilizando los últimos datos experimentales y conocimientos, puede ser una actividad que consume mucho tiempo y que representa un desafío para los investigadores en este campo.
 
 {{< figure >}}
-src = '/images/content_images/cs/gw_strain_amplitude. ng'
+src = '/images/content_images/cs/gw_strain_amplitude.png'
 alt = 'amplitud de deformación de ondas gravitacionales'
 title = 'Amplitud de deformación de ondas gravitacionales estimada de GW150914'
 attribution = '(Créditos del gráfico: Observación de Ondas Gravitacionales de la Fusión de un Agujero Negro Binario, Publicación de ResearchGate)'
