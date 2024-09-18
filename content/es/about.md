@@ -3,14 +3,14 @@ title: Quiénes Somos
 sidebar: false
 ---
 
-NumPy es un proyecto de código abierto cuyo objetivo es permitir la computación numérica en Python. Se creó en el 2005, a partir de los primeros trabajos de las bibliotecas Numeric y Numarray. NumPy siempre será software 100% código abierto, de uso libre para todos. Fue liberado bajo los términos liberales de la [licencia BSD modificada](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
+NumPy es un proyecto de código abierto cuyo objetivo es permitir la computación numérica en Python. Fue creado en el 2005, a partir de los primeros trabajos de las bibliotecas Numeric y Numarray. NumPy siempre será un software 100% de código abierto y de uso libre para todos. Fue liberado bajo los términos liberales de la [licencia BSD modificada](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
 
-NumPy se desarrolla de forma abierta en GitHub, mediante el consenso de las comunidades NumPy y científica de Python en general. Para más información sobre nuestro enfoque de gobernanza, consulte nuestro [Documento de Gobernanza](https://www.numpy.org/devdocs/dev/governance/index.html).
+NumPy es desarrollado de forma abierta en GitHub, mediante el consenso de las comunidades NumPy y Python científico en general. Para más información sobre nuestro enfoque de gobernanza, por favor consulta nuestro [Documento de Gobernanza](https://www.numpy.org/devdocs/dev/governance/index.html).
 
 
 ## Consejo Directivo
 
-El Consejo de Dirección de NumPy es el órgano de gobernanza del proyecto. Su papel es el garantizar, a través del trabajo con la comunidad NumPy en general y al servicio de la misma, el bienestar a largo plazo del proyecto, tanto desde el punto de vista técnico como de la comunidad. El Consejo Directivo de NumPy está formado actualmente por los siguientes miembros (en orden alfabético):
+El Consejo de Dirección de NumPy es el órgano de gobernanza del proyecto. Su papel es garantizar, a través del trabajo con la comunidad NumPy en general y al servicio de la misma, el bienestar a largo plazo del proyecto, tanto desde el punto de vista técnico como de la comunidad. El Consejo Directivo de NumPy está formado actualmente por los siguientes miembros (en orden alfabético):
 
 - Sebastian Berg
 - Ralf Gommers
@@ -46,16 +46,16 @@ La dirección del proyecto NumPy trabaja activamente para diversificar las vías
 - encuesta
 - traducción
 - mentores de sprints
-- optimization
+- optimización
 - financiación y subvenciones
 
-Visita la página de [Equipos]({{< relref "/teams" >}}) para más información.
+Visita la página de [Equipos](/teams) para más información.
 
 ## Subcomité NumFOCUS
 
 - Charles Harris
 - Ralf Gommers
-- Melissa Weber Mendonça
+- Inessa Pawson
 - Sebastian Berg
 - Miembro externo: Thomas Caswell
 
