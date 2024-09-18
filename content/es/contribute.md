@@ -60,6 +60,6 @@ NumPy fue durante muchos años un proyecto voluntario, pero a medida que crecía
 
 ### Donar
 
-Si deseas contribuir a NumPy haciendo una donación, visita <a href=«https://numpy.org/about/#donate»>https://numpy.org/about/#donate</a>.
+Si deseas contribuir a NumPy haciendo una donación, visita [https://numpy.org/about/#donate](https://numpy.org/about/#donate)
 
 

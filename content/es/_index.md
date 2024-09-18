@@ -5,7 +5,7 @@ title: null
 {{< grid columns="1 2 2 3" >}}
 
 [[item]]
-type = 'tarjeta'
+type = 'card'
 title = 'Matrices N-dimensionales potentes'
 body = '''
 Rápida y versátil, la vectorización, indexación y conceptos de broadcasting de NumPy son los estándares de facto en el cálculo de matrices hoy en día.
@@ -22,7 +22,7 @@ NumPy ofrece funciones matemáticas completas, generadores de números aleatorio
 type = 'card'
 title = 'Código abierto'
 body = '''
-Distribuido bajo una [licencia BSD] liberal (https://github.com/numpy/numpy/blob/main/LICENSE.txt), NumPy es desarrollado y mantenido [públicamente en GitHub](https://github.com/numpy/numpy) por una vibrante, receptiva y diversa [comunidad](/comunidad).
+Distribuido bajo una [licencia BSD] liberal (https://github.com/numpy/numpy/blob/main/LICENSE.txt), NumPy es desarrollado y mantenido [públicamente en GitHub](https://github.com/numpy/numpy) por una vibrante, receptiva y diversa [comunidad](/es/community).
 '''
 
 [[item]]
