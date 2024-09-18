@@ -9,26 +9,26 @@ sidebar: false
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
-### Docs team
+### ドキュメントチーム
 
 {{< grid file="docs-team.toml" columns="2 3 4 5" />}}
 
-### Web team
+### Webチーム
 
 {{< grid file="web-team.toml" columns="2 3 4 5" />}}
 
-### Triage team
+### トリアージチーム
 
 {{< grid file="triage-team.toml" columns="2 3 4 5" />}}
 
-### Survey team
+### アンケートチーム
 
 {{< grid file="survey-team.toml" columns="2 3 4 5" />}}
 
-### Emeritus maintainers
+### 名誉メンテナー
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
 
-# Governance
+# 管理委員会
 
 For the list of people on the Steering Council, please see [here](https://numpy.org/devdocs/dev/governance/people.html).
