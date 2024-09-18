@@ -1,5 +1,5 @@
 ---
-title: NumPy Teams
+title: Equipos de NumPy
 sidebar: false
 ---
 
