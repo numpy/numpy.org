@@ -1,66 +1,66 @@
 ---
-title: Community
+title: 社区
 sidebar: false
 ---
 
-NumPy is a community-driven open source project developed by a diverse group of [contributors](/teams/). The NumPy leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the [NumPy Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
+Numby是一个社区驱动的开源项目，由一群十分多样化的[贡献者](/teams/)开发。 Numpy的领导层承诺要打造一个开放，包容，积极向上的社区。 请阅读 [ NumPy 行为准则](/code-of-conduct) 以了解如何用促进社区繁荣的方式与他人交流互动。
 
-We offer several communication channels to learn, share your knowledge and connect with others within the NumPy community.
-
-
-## Participate online
-
-The following are ways to engage directly with the NumPy project and community. _Please note that we encourage users and community members to support each other for usage questions - see [Get Help](/gethelp)._
+我们提供多种交流渠道，可以用来学习知识、分享您的专业见解、或是与 NumPy 社区中的其他人联系。
 
 
-### [NumPy mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion)
+## 线上参与
 
-This list is the main forum for longer-form discussions, like adding new features to NumPy, making changes to the NumPy Roadmap, and all kinds of project-wide decision making. Announcements about NumPy, such as for releases, developer meetings, sprints or conference talks are also made on this list.
+以下是直接参与 NumPy 项目和社区的方法。 _注意，我们鼓励用户和社区成员在使用问题上相互帮助——参阅 [获取帮助](/gethelp)。_
 
-On this list please use bottom posting, reply to the list (rather than to another sender), and don't reply to digests. A searchable archive of this list is available [here](https://mail.python.org/archives/list/numpy-discussion@python.org/).
+
+### [NumPy 邮件列表](https://mail.python.org/mailman/listinfo/numpy-discussion)
+
+这个列表是较长形式讨论的主要讨论区，例如将新功能添加到Numpy，更改Numpy 路线图或是各种项目级的决策。 同时也是NumPy的公告区，例如releases，开发者会议，Sprints 或是会议演讲也在这个列表中。
+
+在这个列表上，请用包含引文回复的方式回复邮件列表(而不是另一个发送者)，并且不要回复摘要。 这个列表提供了一个可检索的 [归档](https://mail.python.org/archives/list/numpy-discussion@python.org/)。
 
 ***
 
-### [GitHub issue tracker](https://github.com/numpy/numpy/issues)
+### [Github issue 追踪器](https://github.com/numpy/numpy/issues)
 
-- For bug reports (e.g. "`np.arange(3).shape` returns `(5,)`, when it should return `(3,)`");
-- documentation issues (e.g. "I found this section unclear");
-- and feature requests (e.g. "I would like to have a new interpolation method in `np.percentile`").
+- 报告bug (例如："`np.arange(3).shop`本应该返回 `(3),`，却返回结果 `(5),`");
+- 文档问题 (例如："我发现这一节没写清楚");
+- 特性请求 (例如："我想在 `np.percentile` 中加一个新的插值方法")。
 
-_Please note that GitHub is not the right place to report a security vulnerability. If you think you have found a security vulnerability in NumPy, please report it [here](https://tidelift.com/docs/security)._
+_注意，Github不是报告安全漏洞的正确位置! 如果你认为你在 NumPy 中找到了一个安全漏洞，请在 [这里](https://tidelift.com/docs/security) 报告。_
 
 ***
 
 ### [Slack](https://numpy-team.slack.com)
 
-A real-time chat room to ask questions about _contributing_ to NumPy. This is a private space, specifically meant for people who are hesitant to bring up their questions or ideas on a large public mailing list or GitHub. Please see [here](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) for more details and how to get an invite.
+一个用于询问有关为NumPy做 _贡献_ 的问题的实时聊天室。 这是一个私密空间，特别适用于那些在大型公共邮件列表或GitHub上提出他们的问题或想法时犹豫不决的人。 在 [这里](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) 获取更多详情以及如何才能受邀加入这个空间的方法。
 
 
-## Study Groups and Meetups
+## 学习小组和 Meetups
 
-If you would like to find a local meetup or study group to learn more about NumPy and the wider ecosystem of Python packages for data science and scientific computing, we recommend exploring the [PyData meetups](https://www.meetup.com/pro/pydata/) (150+ meetups, 100,000+ members).
+如果你想找一个用于了解NumPy以及更广泛的数据科学和科学计算python包生态的本地meetup或是学习小组，我们建议你探索一下[PyData meetups](https://www.meetup.com/pro/pydata/)(开展过150+次 meetups, 包含100,000+ 名成员)。
 
-NumPy also organizes in-person sprints for its team and interested contributors occasionally. These are typically planned several months in advance and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and [Twitter](https://twitter.com/numpy_team).
+NumPy还偶尔为其团队和感兴趣的贡献者组织亲身Sprints。 这往往会提前几个月计划，并在[邮件列表](https://mail.python.org/mailman/listinfo/numpy-discussion)和[Twitter](https://twitter.com/numpy_team)上发布通知。
 
 
-## Conferences
+## 会议
 
-The NumPy project doesn't organize its own conferences. The conferences that have traditionally been most popular with NumPy maintainers, contributors and users are the SciPy and PyData conference series:
+NumPy 项目不会组织自己的会议。 历来最受 NumPy 维护者、贡献者和用户欢迎的会议是SciPy 和 PyData 系列会议如下：
 
 - [SciPy US](https://conference.scipy.org)
 - [EuroSciPy](https://www.euroscipy.org)
 - [SciPy Latin America](https://www.scipyla.org)
 - [SciPy India](https://scipy.in)
 - [SciPy Japan](https://conference.scipy.org)
-- [PyData conferences](https://pydata.org/event-schedule/) (15-20 events a year spread over many countries)
+- [PyData conferences](https://pydata.org/event-schedule/) (分布在许多国家，每年有15-20个活动)
 
-Many of these conferences include tutorial days that cover NumPy and/or sprints where you can learn how to contribute to NumPy or related open source projects.
+这些会议大部分都包括一些教程日涵盖 NumPy 和/或 sprints ，您可以从中学习如何为NumPy 或相关的开源项目做贡献。
 
 
-## Join the NumPy community
+## 加入 NumPy 社区
 
-To thrive, the NumPy project needs your expertise and enthusiasm. Not a coder? Not a problem! There are many ways to contribute to NumPy.
+NumPy 项目的繁荣发展需要您的专业知识和热情。 不是coder? 没关系! 有许多方式可以为NumPy做贡献。
 
-If you are interested in becoming a NumPy contributor (yay!) we recommend checking out our [Contribute](/contribute) page.
+如果您有兴趣成为NumPy贡献者 (好耶!) ，建议查看 [贡献](/contribute) 页面。
 
 Also, feel free to stop by and say hi at one of our community meetings. To keep track of them, check out our events calendar [here](https://scientific-python.org/calendars/).
