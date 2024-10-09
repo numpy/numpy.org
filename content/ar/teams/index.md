@@ -1,10 +1,9 @@
 ---
-title: NumPy Teams
+title: هيئات نمباي
 sidebar: false
 ---
 
-We are an international team on a mission to support scientific and research
-communities worldwide by building quality, open-source software.
+نحن فريق دولي نسعى لدعم المجتمعات العلمية والبحثية في جميع دول العالم وذلك من خلال إنشاء برامج عالية الجودة ومفتوحة المصدر.
 [Join us](/contribute)!
 
 ### Maintainers
@@ -31,6 +30,6 @@ communities worldwide by building quality, open-source software.
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
 
-# Governance
+# الحوكمة
 
 For the list of the Steering Council members, please see [here](https://numpy.org/about/).
