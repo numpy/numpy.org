@@ -1,95 +1,95 @@
 ---
-title: NumPy Code of Conduct - How to follow up on a report
+title: Numpy行为准则应知应会
 sidebar: false
 ---
 
-This is the manual followed by NumPy’s Code of Conduct Committee. It’s used when we respond to an issue to make sure we’re consistent and fair.
+这是NumPy行为准则委员会的指导手册。 它保证我们对问题做出一致且公正的回应。
 
-Enforcing the [Code of Conduct](/code-of-conduct) impacts our community today and for the future. It’s an action that we do not take lightly. When reviewing enforcement measures, the Code of Conduct Committee will keep the following values and guidelines in mind:
+[行为守则](/code-of-conduct) 的执行影响到我们的社区现在和未来。 我们很重视它。 在审查执行措施时，行为准则委员会将牢记以下价值观和准则：
 
-* Act in a personal manner rather than impersonal. The Committee can engage the parties to understand the situation while respecting the privacy and any necessary confidentiality of reporters. However, sometimes it is necessary to communicate with one or more individuals directly: the Committee’s goal is to improve the health of our community rather than only produce a formal decision.
-* Emphasize empathy for individuals rather than judging behavior, avoiding binary labels of “good” and “bad/evil”. Overt, clear-cut aggression and harassment exist, and we will address them firmly. But many scenarios that can prove challenging to resolve are those where normal disagreements devolve into unhelpful or harmful behavior from multiple parties. Understanding the full context and finding a path that re-engages all is hard, but ultimately the most productive for our community.
-* We understand that email is a difficult medium and can be isolating. Receiving criticism over email, without personal contact, can be particularly painful. This makes it especially important to keep an atmosphere of open-minded respect for the views of others. It also means that we must be transparent in our actions, and that we will do everything in our power to make sure that all our members are treated fairly and with sympathy.
-* Discrimination can be subtle and it can be unconscious. It can show itself as unfairness and hostility in otherwise ordinary interactions. We know that this does occur, and we will take care to look out for it. We would very much like to hear from you if you feel you have been treated unfairly, and we will use these procedures to make sure that your complaint is heard and addressed.
-* Help increase engagement in good discussion practice: try to identify where discussion may have broken down, and provide actionable information, pointers, and resources that can lead to positive change on these points.
-* Be mindful of the needs of new members: provide them with explicit support and consideration, with the aim of increasing participation from underrepresented groups in particular.
-* Individuals come from different cultural backgrounds and native languages. Try to identify any honest misunderstandings caused by a non-native speaker and help them understand the issue and what they can change to avoid causing offence. Complex discussion in a foreign language can be very intimidating, and we want to grow our diversity also across nationalities and cultures.
-
-
-## Mediation
-
-Voluntary informal mediation is a tool at our disposal. In contexts such as when two or more parties have all escalated to the point of inappropriate behavior (something sadly common in human conflict), it may be useful to facilitate a mediation process. This is only an example: the Committee can consider mediation in any case, mindful that the process is meant to be strictly voluntary and no party can be pressured to participate. If the Committee suggests mediation, it should:
-
-* Find a candidate who can serve as a mediator.
-* Obtain the agreement of the reporter(s). The reporter(s) have complete freedom to decline the mediation idea or to propose an alternate mediator.
-* Obtain the agreement of the reported person(s).
-* Settle on the mediator: while parties can propose a different mediator than the suggested candidate, only if a common agreement is reached on all terms can the process move forward.
-* Establish a timeline for mediation to complete, ideally within two weeks.
-
-The mediator will engage with all the parties and seek a resolution that is satisfactory to all. Upon completion, the mediator will provide a report (vetted by all parties to the process) to the Committee, with recommendations on further steps. The Committee will then evaluate these results (whether a satisfactory resolution was achieved or not) and decide on any additional action deemed necessary.
+* 人性化方式运作而非不近人情。 委员会会让各方了解情况，同时尊重举报者的隐私和任何必要的保密性。 然而，仍然存在着这种情况。 有时有必要与一个或多个人直接沟通：委员会的目标是改善我们社区的健康状况，而不仅仅是作出正式决定。
+* 强调对个人遭遇的同情，而不是一味批评行为，避免出现“好”和“坏/邪恶”的二元对立标签。 我们将坚定地处理公开、明显的挑衅和骚扰问题。 但许多可能被证明具有挑战性的情形是有些正常的分歧会转化为多方无助或有害的行为。 了解整个背景并找到一条使所有人都能重新参与进来的道路是困难的，但最终对我们社区最有成效。
+* 我们都知道，电子邮件是一个孤立的、沟通困难的媒介。 在没有个人联系方式的情况下收到匿名举报邮件，可能特别令人痛苦。 这使得保持一种尊重他人意见的开放气氛变得特别重要。 这还意味着我们的所有行为必须公开透明。 我们将竭尽全力确保我们所有成员得到公平和同情的待遇。
+* 歧视可能是微妙且不负责任的。 它在一定程度上表现出不公平和敌意的态度，而不是正常的互动。 我们知道这种情况确实发生了，我们将仔细寻找并应对这种情况。 如果你觉得受到了不公平的待遇，我们非常希望听到你们的声音， 我们将利用这些流程确保你的申诉得到关注和处理。
+* 帮助增加良性讨论的实践：想方设法识别出讨论可能已经产生歧义和偏斜的地方。 并提供可实施的信息、方向和资源，以便在这些方面产生积极的影响。
+* 重点关注新成员的需求：向他们提供明确的支持和关心， 目的是增加代表人数不足的群体的参与度。
+* 每个人都拥有不同的文化背景和语言习惯。 尽可能识别对非英文为母语的参与者造成的任何不必要的误解，并帮助他们了解这一问题以及作出哪些改变以避免造成冒犯。 用一门外语进行复杂的讨论可能非常具有威胁性，我们希望在不同民族和不同文化之间扩大我们的多样性。
 
 
-## How the Committee will respond to reports
+## 调解
 
-When the Committee (or a Committee member) receives a report, they will first determine whether the report is about a clear and severe breach (as defined below). If so, immediate action needs to be taken in addition to the regular report handling process.
+自愿非正式调解是一种好的调解方式。 在两个或多个当事方都已升级到不适当行为程度的情况下(可悲的是在人类冲突中很常见)， 促进调解进程可能是有益的。 这只是一个例子：委员会在任何情况下都可以考虑调解。 考虑到这一进程完全是自愿的，任何一方都不能被迫参与。 如果委员会建议进行调解，它应当：
 
+* 找到一个可以担任调解员的候选人。
+* 取得举报者的同意。 举报者完全可以自由地拒绝调解或提出一名候补调解人。
+* 取得被举报人的同意。
+* 调解人的问题：各方可以提出不同于推荐候选人的调解人， 只有就所有条件达成共同协议，该进程才能向前推进。
+* 最好在两周内确定完成调解的时间计划表。
 
-## Clear and severe breach actions
-
-We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We will deal quickly with clear and severe breaches like personal threats, violent, sexist or racist language.
-
-When a member of the Code of Conduct Committee becomes aware of a clear and severe breach, they will do the following:
-
-* Immediately disconnect the originator from all NumPy communication channels.
-* Reply to the reporter that their report has been received and that the originator has been disconnected.
-* In every case, the moderator should make a reasonable effort to contact the originator, and tell them specifically how their language or actions qualify as a “clear and severe breach”. The moderator should also say that, if the originator believes this is unfair or they want to be reconnected to NumPy, they have the right to ask for a review, as below, by the Code of Conduct Committee. The moderator should copy this explanation to the Code of Conduct Committee.
-* The Code of Conduct Committee will formally review and sign off on all cases where this mechanism has been applied to make sure it is not being used to control ordinary heated disagreement.
+调解人将与所有参与方接触，寻求各方都满意的解决办法。 在调解完成后，调解方将向委员会提交一份书面报告(经调解过程中所有各方审查通过)，并就今后的实施细则提出建议。 然后委员会将评估调解结果(无论是否达成了令人满意的解决方案)，并对必要的额外的调解动作作出决定。
 
 
-## Report handling
+## 委员会将如何对举报作出回应
 
-When a report is sent to the Committee they will immediately reply to the reporter to confirm receipt. This reply must be sent within 72 hours, and the group should strive to respond much quicker than that.
-
-If a report doesn’t contain enough information, the Committee will obtain all relevant data before acting. The Committee is empowered to act on the Steering Council’s behalf in contacting any individuals involved to get a more complete account of events.
-
-The Committee will then review the incident and determine, to the best of their ability:
-
-* What happened.
-* Whether this event constitutes a Code of Conduct violation.
-* Who are the responsible party(ies).
-* Whether this is an ongoing situation, and there is a threat to anyone’s physical safety.
-
-This information will be collected in writing, and whenever possible the group’s deliberations will be recorded and retained (i.e. chat transcripts, email discussions, recorded conference calls, summaries of voice conversations, etc).
-
-It is important to retain an archive of all activities of this Committee to ensure consistency in behavior and provide institutional memory for the project. To assist in this, the default channel of discussion for this Committee will be a private mailing list accessible to current and future members of the Committee as well as members of the Steering Council upon justified request. If the Committee finds the need to use off-list communications (e.g. phone calls for early/rapid response), it should in all cases summarize these back to the list so there’s a good record of the process.
-
-The Code of Conduct Committee should aim to have a resolution agreed upon within two weeks. In the event that a resolution can’t be determined in that time, the Committee will respond to the reporter(s) with an update and projected timeline for resolution.
+当委员会(或委员会成员) 收到举报时， 他们将首先要确定该报告是否涉及明显和严重的违约行为（定义见下文）。 如果确认属实，需要立即采取行动并启动常规的举报调解流程。
 
 
-## Resolutions
+## 明确和严重的违约行为
 
-The Committee must agree on a resolution by consensus. If the group cannot reach consensus and deadlocks for over a week, the group will turn the matter over to the Steering Council for resolution.
+我们知道，互联网通信平台从诞生开始就演变为非常普遍的辱骂恶意中伤的场所。 我们将迅速处理明显和严重的侵权行为，如人身威胁、暴力、性别歧视或种族主义语言。
 
-Possible responses may include:
+如果行为守则委员会的一名成员发现明显和严重的违反行为，他们将采取下列行动：
 
-* Taking no further action:
-  -   if we determine no violations have occurred;
-  -   if the matter has been resolved publicly while the Committee was considering responses.
-* Coordinating voluntary mediation: if all involved parties agree, the Committee may facilitate a mediation process as detailed above.
-* Remind publicly, and point out that some behavior/actions/language have been judged inappropriate and why in the current context, or can but hurtful to some people, requesting the community to self-adjust.
-* A private reprimand from the Committee to the individual(s) involved. In this case, the group chair will deliver that reprimand to the individual(s) over email, cc’ing the group.
-* A public reprimand. In this case, the Committee chair will deliver that reprimand in the same venue that the violation occurred, within the limits of practicality. E.g., the original mailing list for an email violation, but for a chat room discussion where the person/context may be gone, they can be reached by other means. The group may choose to publish this message elsewhere for documentation purposes.
-* A request for a public or private apology, assuming the reporter agrees to this idea: they may at their discretion refuse further contact with the violator. The chair will deliver this request. The Committee may, if it chooses, attach “strings” to this request: for example, the group may ask a violator to apologize in order to retain one’s membership on a mailing list.
-* A “mutually agreed upon hiatus” where the Committee asks the individual to temporarily refrain from community participation. If the individual chooses not to take a temporary break voluntarily, the Committee may issue a “mandatory cooling off period”.
-* A permanent or temporary ban from some or all NumPy spaces (mailing lists, gitter.im, etc.). The group will maintain records of all such bans so that they may be reviewed in the future or otherwise maintained.
-
-Once a resolution is agreed upon, but before it is enacted, the Committee will contact the original reporter and any other affected parties and explain the proposed resolution. The Committee will ask if this resolution is acceptable, and must note feedback for the record.
-
-Finally, the Committee will make a report to the NumPy Steering Council (as well as the NumPy core team in the event of an ongoing resolution, such as a ban).
-
-The Committee will never publicly discuss the issue; all public statements will be made by the chair of the Code of Conduct Committee or the NumPy Steering Council.
+* 立即断开始作俑者与所有NumPy 通信频道的连接。
+* 告知举报者，他们的报告已经收到，被举报人已经断开和Numpy的联系。
+* 在每种情况下，调解人都应作出努力与被举报人联系。 并明确的告诉他们，他们的语言或行动是如何构成“明显和严重的违反行为”的。 调解人还应指出，如果被举报人认为这是不公平的，或者他们想要重新和NumPy取得联系, 他们有权要求行为守则委员会进行下面描述的审查。 调解人应将这一审查结果报送给行为守则委员会。
+* 行为守则委员会将正式审查和签署所有适用这一行为的案件，以确保其不被用来进行普通程度争执的仲裁。
 
 
-## Conflicts of Interest
+## 举报处理
 
-In the event of any conflict of interest, a Committee member must immediately notify the other members, and recuse themselves if necessary.
+当报告送交委员会时，他们将立即答复报告人以确认收到。 这种答复必须在72小时内完成，委员会会尽最大努力比这更快一些。
+
+如果报告没有提供足够多的资料，委员会将在采取行动之前获得所有相关数据。 委员有权代表指导委员会与任何相关个体联系，以更完整地了解事件的来龙去脉。
+
+委员会随后将审查这一事件，并尽力确定如下事项：
+
+* 发生了什么。
+* 这一事件是否违反《行为守则》。
+* 谁是责任方。
+* 这种情况是否正在发生，而且对个人的人身安全产生了威胁。
+
+这种信息将以书面形式收集，只要有可能，委员会的任何相关动作都将记录并保存(比如聊天记录、电子邮件讨论、会议录音、语音对话总结等)。
+
+必须保留委员会所有活动的档案，以确保行为上的一致性，并为项目提供机构记忆。 为了协助这方面的工作， 本委员会的默认沟通渠道将是一份私人邮件列表，供委员会现有和未来成员以及指导委员会成员在提出正当要求时查阅。 如果委员会认为有必要使用列表外的沟通方式(例如： 早期/快速响应的电话呼叫)，在所有情况下都应该及时将沟通方式收敛到列表中，以便有一个良好的过程记录。
+
+行为守则委员会应争取在两周内商定一项决议。 如果在那个时候无法确定某项决议， 委员会将向报告者提供最新情况和预计的决议时间表。
+
+
+## 解决方案
+
+委员会必须以协商一致方式商定一项决议。 如果该小组在一个多星期内无法达成共识和陷入僵局，该小组将把问题提交给指导委员会解决。
+
+可能的应对措施包括：
+
+* 不采取进一步行动：
+  -   如果确定没有发生侵犯行为；
+  -   如果问题在委员会审议答复时已经公开解决了。
+* 协商自愿调解：如果所有有关各方同意，委员会可促进上面详述的调解进程。
+* 公开提醒并指出某些行为/行动/语言被认为是不恰当的，在目前情况下发生的合理性说明， 或者只能伤害特定人群，要求社区进行自我调整。
+* 委员会对有关个体进行私下训诫。 在这种情况下，小组主席将通过电子邮件向个人发出谴责，并抄送小组成员。
+* 公开谴责。 在这种情况下，委员会主席将在实际可行的限度内在同一地点对侵权行为进行申斥。 例如，在原始邮件列表中进行邮件控诉， 有可能被控诉对象未参与到聊天室的讨论中，虽然可以通过其他方式联系到。 该群组可以选择在别处发布控诉消息作为文档备份。
+* 要求公开或私下道歉， 假定举报者同意这一想法：他们可酌情拒绝与侵权者进一步接触。 委员会主席将传递这一请求。 委员会可按其意愿对这项要求附加“严格”条件：该群组可能要求侵权者道歉，以便在邮件列表中保留一个会员资格。
+* 委员会要求个人暂时停止社区参与的“相互商定的间歇”。 如果个人选择不自愿暂停，委员会可发布“强制性冷却期”。
+* 永远或暂时禁止参与NumPy （如邮件列表、gitter.im等等）。 工作组将保存所有这类禁令的记录，以便今后对其进行审查或备案。
+
+一旦商定了一项决议，在该决议颁布之前， 委员会将与原报告人和任何其他受影响的各方进行联系，并解释拟议的决议。 委员会将询问这项决议是否可以接受，并且必须将反馈意见记录在案。
+
+最后，委员会将向NumPy指导委员会进行汇报（也将向NumPy核心小组以诸如禁令的例行事件形式汇报）。
+
+委员会绝不公开讨论这个问题。 所有公开声明将由行为守则委员会主席或NumPy指导委员会作出。
+
+
+## 利益冲突
+
+如果出现利益冲突，委员会成员必须立即通知其他成员，必要时需要回避。
