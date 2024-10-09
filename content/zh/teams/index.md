@@ -3,8 +3,8 @@ title: NumPy Teams
 sidebar: false
 ---
 
-We are an international team on a mission to support scientific and research
-communities worldwide by building quality, open-source software.
+我们是一个国际团队，通过建造优质开放源码软件，支持世界各地的科学和研究
+个社区。
 [Join us](/contribute)!
 
 ### Maintainers
@@ -31,6 +31,6 @@ communities worldwide by building quality, open-source software.
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
 
-# Governance
+# 管理
 
 For the list of the Steering Council members, please see [here](https://numpy.org/about/).
