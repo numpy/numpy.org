@@ -7,15 +7,15 @@ sidebar: false
 
 大规模数据操作和转换依赖于高效率高性能的数组计算。 数据分析、机器学习和数值计算的主流语言是 **Python**。
 
-**Num**erical **Py**thon or NumPy is its de-facto standard Python programming language library that supports large, multi-dimensional arrays and matrices, and comes with a vast collection of high-level mathematical functions to operate on these arrays.
+**Num**erical **Py**thon 即 NumPy ，是 Python 中支持大型多维数组计算和矩阵计算，并附有大量高级数学函数的默认标准库。
 
-Since the launch of NumPy in 2006, Pandas appeared on the landscape in 2008, and it was not until a couple of years ago that several array computing libraries showed up in succession, crowding the array computing landscape. Many of these newer libraries mimic NumPy-like features and capabilities, and pack newer algorithms and features geared towards machine learning and artificial intelligence applications.
+自2006年 NumPy 推出起，Pandas 库于2008年出现在数组计算领域，直到几年前，多个其他的数组计算库相继出现，才使得数组计算的生态愈加繁荣。 这些较新库中的大部分都具有类似NumPy的功能，包含较新的算法和功能，适合机器学习和人工智能应用。
 
 <img
   src="/images/content_images/array_c_landscape.png"
   alt="arraycl"
-  title="Array Computing Landscape" />
+  title="数组计算空间" />
 
-**Array computing** is based on **arrays** data structures. *Arrays* are used to organize vast amounts of data such that a related set of values can be easily sorted, searched, mathematically manipulated, and transformed easily and quickly.
+**数组计算** 基于 **数组** 这一数据结构。 *数组*用于处理大量数据，使他们便于有效存储、搜索、计算和变换。
 
-Array computing is *unique* as it involves operating on the data array *at once*. What this means is that any array operation applies to an entire set of values in one shot. This vectorized approach provides speed and simplicity by enabling programmers to code and operate on aggregates of data, without having to use loops of individual scalar operations.
+数组计算是 *独特*的 ，因为它需要 *同时*操作整个数据阵列。 这意味着任何数组操作应用于整个数组的每个值。 这种向量化的方法使得程序员能够对数据进行整体操作，而无需使用循环操作标量，从而使代码更高效和简洁。
