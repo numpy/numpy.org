@@ -1,5 +1,5 @@
 ---
-title: 引用 NumPy
+title: 引用 Numpy
 sidebar: false
 ---
 
