@@ -1,5 +1,5 @@
 ---
-title: Quem Somos
+title: About Us
 sidebar: false
 ---
 
