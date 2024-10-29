@@ -1,5 +1,5 @@
 ---
-title: NumPy 정보
+title: 정보
 sidebar: false
 ---
 
