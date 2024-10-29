@@ -1,5 +1,5 @@
 ---
-title: Comunidade
+title: Community
 sidebar: false
 ---
 
