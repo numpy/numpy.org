@@ -7,22 +7,22 @@ params:
   arraylibraries:
     intro:
       - 
-        text: La API de NumPy es el punto de partida cuando se escriben librerías para explotar hardware innovador, crear tipos de arreglos especializadas o añadir capacidades más allá de lo que NumPy proporciona.
+        text: La API de NumPy es el punto de partida cuando se escriben bibliotecas para explotar hardware innovador, crear tipos de matrices especializadas o añadir capacidades más allá de lo que NumPy proporciona.
     headers:
       - 
-        text: Librería de arreglos
+        text: Biblioteca de matrices
       - 
         text: Capacidades y áreas de aplicación
     libraries:
       - 
         title: Dask
-        text: Arreglos distribuidos y paralelismo avanzado para análisis, que permiten un rendimiento a escala.
+        text: Matrices distribuidas y paralelismo avanzado para análisis, que permiten un rendimiento a escala.
         img: /images/content_images/arlib/dask.png
         alttext: Dask
         url: https://dask.org/
       - 
         title: CuPy
-        text: Librería de arreglos compatible con NumPy para cálculo acelerado en la GPU con Python.
+        text: Biblioteca de matrices compatible con NumPy para cálculo acelerado en la GPU con Python.
         img: /images/content_images/arlib/cupy.png
         alttext: CuPy
         url: https://cupy.dev
@@ -40,13 +40,13 @@ params:
         url: https://xarray.pydata.org/en/stable/index.html
       - 
         title: Sparse
-        text: Librería de arreglos dispersos compatible con NumPy que se integra con el álgebra lineal dispersa de Dask y SciPy.
+        text: Librería de matrices dispersas compatible con NumPy que se integra con el álgebra lineal dispersa de Dask y SciPy.
         img: /images/content_images/arlib/sparse.png
         alttext: sparse
         url: https://sparse.pydata.org/en/latest/
       - 
         title: PyTorch
-        text: Marco de aprendizaje profundo que acelera el camino desde la creación de prototipos de investigación hasta la implantación en producción.
+        text: Framework de aprendizaje profundo que acelera el camino desde la creación de prototipos de investigación hasta el despliegue en producción.
         img: /images/content_images/arlib/pytorch-logo-dark.svg
         alttext: PyTorch
         url: https://pytorch.org/
@@ -58,13 +58,13 @@ params:
         url: https://www.tensorflow.org
       - 
         title: Arrow
-        text: Plataforma de desarrollo multilingüe para datos y análisis columnares en memoria.
+        text: Plataforma de desarrollo multilenguaje para datos y análisis columnares en memoria.
         img: /images/content_images/arlib/arrow.png
         alttext: arrow
         url: https://arrow.apache.org/
       - 
         title: xtensor
-        text: Arreglos multidimensionales con difusión y computación perezosa para análisis numérico.
+        text: Matrices multidimensionales con emisión y computación de llamada-bajo-demanda para el análisis numérico.
         img: /images/content_images/arlib/xtensor.png
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
@@ -76,7 +76,7 @@ params:
         url: https://awkward-array.org/
       - 
         title: uarray
-        text: Sistema de backend de Python que desacopla la API de la implementación; unumpy proporciona una API de NumPy.
+        text: Sistema de backend de Python que desvincula la API de la implementación; unumpy proporciona una API de NumPy.
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
@@ -91,11 +91,11 @@ params:
       - 
         text: Casi todos los científicos que trabajan en Python recurren a la potencia de NumPy.
       - 
-        text: "NumPy aporta la potencia de cálculo de lenguajes como C y Fortran a Python, un lenguaje mucho más fácil de aprender y utilizar. Con esta potencia viene la sencillez: una solución en NumPy suele ser clara y elegante."
+        text: "NumPy lleva la potencia de cálculo de lenguajes como C y Fortran a Python, un lenguaje mucho más fácil de aprender y utilizar. Con esta potencia viene la sencillez: una solución en NumPy suele ser clara y elegante."
     libraries:
       - 
         title: Computación Cuántica
-        alttext: Un chip para computador.
+        alttext: Un chip de ordenador.
         img: /images/content_images/sc_dom_img/quantum_computing.svg
         links:
           - 
@@ -146,7 +146,7 @@ params:
             label: HiperSpy
       - 
         title: Procesamiento de Imágenes
-        alttext: Una fotografía de las montañas.
+        alttext: Una fotografía de unas montañas.
         img: /images/content_images/sc_dom_img/image_processing.svg
         links:
           - 
@@ -160,7 +160,7 @@ params:
             label: Mahotas
       - 
         title: Grafos y Redes
-        alttext: Un grafo simple.
+        alttext: Un simple grafo.
         img: /images/content_images/sc_dom_img/sd6.svg
         links:
           - 
@@ -199,7 +199,7 @@ params:
             label: PsychoPy
       - 
         title: Bioinformática
-        alttext: Una hebra de ADN.
+        alttext: Una cadena de ADN.
         img: /images/content_images/sc_dom_img/bioinformatics.svg
         links:
           - 
@@ -216,7 +216,7 @@ params:
             label: ETE
       - 
         title: Inferencia Bayesiana
-        alttext: Un gráfico con una curva en forma de campanas.
+        alttext: El gráfico de una curva en forma de campana.
         img: /images/content_images/sc_dom_img/bayesian_inference.svg
         links:
           - 
@@ -319,7 +319,7 @@ params:
     image2:
       - 
         img: /images/content_images/data-science.png
-        alttext: Diagrama de tres círculos superpuestos. Los círculos se denominan "Matemáticas", "Ciencias de la Computación" y "Conocimientos Especializados". En el centro del diagrama, con los tres círculos superpuestos, hay un área denominada "Ciencia de datos".
+        alttext: Diagrama de tres círculos superpuestos. Los círculos se denominan "Matemáticas", "Informática" y "Conocimientos Especializados". En el centro del diagrama, con los tres círculos superpuestos, hay un área denominada "Ciencia de datos".
     examples:
       - 
         text: "<b>Extraer, Transformar, Cargar: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
@@ -370,4 +370,4 @@ params:
       - 
         text: NumPy es un componente esencial en el floreciente [panorama de visualización de Python](https://pyviz.org/overviews/index.html), que incluye [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), y [PyVista](https://github.com/pyvista/pyvista), por nombrar algunos.
       - 
-        text: El procesamiento acelerado de arreglos de gran tamaño de NumPy permite a los investigadores visualizar conjuntos de datos mucho mayores a los que el Python nativo podría manejar.
+        text: El procesamiento acelerado de matrices de gran tamaño de NumPy permite a los investigadores visualizar conjuntos de datos mucho mayores a los que el Python nativo podría manejar.
