@@ -20,9 +20,9 @@ params:
     title: 占位符
     intro:
       - 
-        title: Try NumPy
+        title: 尝试使用NumPy
         text: Use the interactive shell to try NumPy in the browser
-    docslink: Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a>.
+    docslink: 别忘了查看 <a href="https://numpy.org/doc/stable" target="_blank">用户手册</a>。
   casestudies:
     title: 案例研究
     features:
@@ -55,28 +55,28 @@ params:
   section5: false
   navbar:
     - 
-      title: Install
-      url: /install
+      title: 安装
+      url: /安装
     - 
-      title: Documentation
+      title: 文档
       url: https://numpy.org/doc/stable
     - 
-      title: Learn
+      title: 学习指南
       url: /learn
     - 
-      title: Community
+      title: 社区
       url: /community
     - 
       title: About Us
       url: /about
     - 
-      title: News
-      url: /news
+      title: 社区快讯
+      url: /新闻
     - 
       title: Contribute
       url: /contribute
   footer:
-    logo: logo.svg
+    logo: /logo.svg
     socialmediatitle: ""
     socialmedia:
       - 
@@ -90,13 +90,13 @@ params:
         title: ""
         links:
           - 
-            text: Install
-            link: /install
+            text: 安装
+            link: /安装
           - 
-            text: Documentation
+            text: 文档
             link: https://numpy.org/doc/stable
           - 
-            text: Learn
+            text: 学习指南
             link: /learn
           - 
             text: Citing Numpy
@@ -110,11 +110,11 @@ params:
             text: About us
             link: /about
           - 
-            text: Community
+            text: 社区
             link: /community
           - 
-            text: User surveys
-            link: /user-surveys
+            text: 用户调查
+            link: /用户调查
           - 
             text: Contribute
             link: /contribute
