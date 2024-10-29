@@ -28,7 +28,7 @@ params:
         url: https://cupy.chainer.org
       - 
         title: JAX
-        text: "NumPyコードの合成可能な変換ライブラリ: 微分、ベクトル化、GPU/TPUへのジャストインタイムコンパイル"
+        text: "NumPyコードの部分的な変換により、微分可能化、ベクトル化、GPU/TPUへのジャストインタイム・コンパイルを実現します。"
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
         url: https://github.com/google/jax
@@ -57,17 +57,17 @@ params:
         alttext: TensorFlow
         url: https://www.tensorflow.org
       - 
-        title: MXNet
-        text: 柔軟や研究用のプロトタイピングから、実際の運用まで利用可能な深層学習フレームワーク
-        img: /images/content_images/arlib/mxnet_logo.png
-        alttext: MXNet
-        url: https://mxnet.apache.org/
-      - 
         title: Arrow
         text: 列型のインメモリーデータやその分析のための、複数の言語に対応した開発プラットフォーム
         img: /images/content_images/arlib/arrow.png
-        alttext: arrow
-        url: https://github.com/apache/arrow
+        alttext: 矢
+        url: https://mxnet.apache.org/
+      - 
+        title: xtensor
+        text: 数値解析のためのブロードキャスティングと遅延計算による多次元配列
+        img: /images/content_images/case_studies/xtensor.png
+        alttext: xtensor
+        url: https://github.com/xtensor-stack/xtensor-python
       - 
         title: xtensor
         text: 数値解析のためのブロードキャスティングと遅延計算を備えた多次元配列
@@ -75,23 +75,23 @@ params:
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
       - 
-        title: Awkward
-        text: Numpy のような イディオムを使って JSON のようなデータを操作するライブラリ
-        img: /images/content_images/arlib/xnd.png
-        alttext: awkward
-        url: https://awkward-array.org/
-      - 
         title: uarray
         text: APIを実装から切り離すPythonバックエンドシステム (unumpyはNumPy APIを提供しています)
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
+      - 
+        title: tensorly
+        text: APIを実装から切り離すPythonバックエンドシステム (unumpyはNumPy APIを提供しています)
+        img: /images/content_images/arlib/tensorly.png
+        alttext: tensorly
+        url: http://tensorly.org/stable/home.html
   scientificdomains:
     intro:
       - 
         text: Pythonを使って働くほとんどの科学者はNumPyの力を利用しています。
       - 
-        text: "Numpy は、 C や Fortran のような言語の計算パフォーマンスを、Pythonにもたらします。 このパワーはNumPyのシンプルさから来ており、NumPyによるソリューションの多くは明確でエレガントになります。"
+        text: "Numpy は C や Fortran のような言語の計算パフォーマンスを、Pythonにもたらします。 このパワーはNumPyのシンプルさから来ており、NumPyのソリューションは、多くの場合、明確でエレガントです。"
     libraries:
       - 
         title: 量子コンピューティング
@@ -112,7 +112,7 @@ params:
             label: PennyLane
       - 
         title: 統計コンピューティング
-        alttext: 線グラフが上に移動します。
+        alttext: 上に移動している、線グラフ
         img: /images/content_images/sc_dom_img/statistical_computing.svg
         links:
           - 
@@ -146,7 +146,7 @@ params:
             label: HyperSpy
       - 
         title: 画像処理
-        alttext: 山々の写真
+        alttext: 山々の写真。
         img: /images/content_images/sc_dom_img/image_processing.svg
         links:
           - 
@@ -177,8 +177,8 @@ params:
             label: PyGSP
       - 
         title: 天文学
-        alttext: 望遠鏡
-        img: /images/content_images/sc_dom_img/astronomy_processes.svg
+        alttext: 望遠鏡。
+        img: /images/content_images/sc_dom_img/天文学_processes.svg
         links:
           - 
             url: https://www.astropy.org/
@@ -192,7 +192,7 @@ params:
       - 
         title: 認知心理学
         alttext: ギアをつけた人間の頭部
-        img: /images/content_images/sc_dom_img/cognitive_psychology.svg
+        img: /images/content_images/sc_dom_img/cognitive_personicy.svg
         links:
           - 
             url: https://www.psychopy.org/
@@ -217,7 +217,7 @@ params:
       - 
         title: ベイズ推論
         alttext: 鐘形の曲線のグラフ
-        img: /images/content_images/sc_dom_img/bayesian_inference.svg
+        img: /images/content_images/sc_dom_img/bayesian_conference.svg
         links:
           - 
             url: https://pystan.readthedocs.io/en/latest/
@@ -319,14 +319,14 @@ params:
     image2:
       - 
         img: /images/content_images/data-science.png
-        alttext: 三つの円が重なり合う図。円はそれぞれ「数学」、「コンピューターサイエンス」、「専門知識」でラベル付けされています。図の中心部には、三つの円が重なり合って形成されるエリアがあり、「データサイエンス」とラベル付けされています。
+        alttext: 3つの円が重なっている図. それぞれの円には「数学」、「コンピュータ科学」、「各ドメインの専門知識」というラベルが付けられています. 図の中央には、3つの円が重なっており、「データサイエンス」と表示された領域があります。
     examples:
       - 
         text: "<b>抽出, 変換, 読み込み: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor-devs.github.io/pyjanitor/)"
       - 
         text: "<b>探索的解析: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
       - 
-        text: "<b>モデリングと評価: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
+        text: "<b>モデルと評価: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
       - 
         text: "<b>ダッシュボードでのレポート: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
     content:
@@ -361,7 +361,7 @@ params:
       - 
         url: https://napari.org
         img: /images/content_images/v_napari.png
-        alttext: napariで作られた多次元画像
+        alttext: ナパリで作られた多次元画像
       - 
         url: https://vispy.org/gallery/index.html
         img: /images/content_images/v_vispy.png
@@ -370,4 +370,4 @@ params:
       - 
         text: NumPyは、[Matplotlib](https://matplotlib.org)、[Seaborn](https://seaborn.pydata.org)、[Plotly](https://plot.ly)、[Altair](https://altair-viz.github.io)、[Bokeh](https://docs.bokeh.org/en/latest/)、[Holoviz](https://holoviz.org)、[Vispy](http://vispy.org)、[Napari](https://github.com/napari/napari)、[PyVista](https://github.com/pyvista/pyvista)などの、急成長している[Python visualization landscape](https://pyviz.org/overviews/index.html)に欠かせないコンポーネントです。
       - 
-        text: NumPy の大規模配列の高速処理により、研究者は、ネイティブの Python が扱うことができるよりもはるかに大きなデータセットを可視化することができます。
+        text: NumPy の大規模配列の高速処理により、研究者はネイティブの Python が扱うことができるよりも、はるかに大きなデータセットを可視化することができます。
