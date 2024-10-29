@@ -39,41 +39,41 @@ params:
         alttext: 两个相互环绕的天体。它们改变了周围的引力。
         url: /case-studies/gw-discov
       - 
-        title: Sports Analytics
-        text: Cricket Analytics is changing the game by improving player and team performance through statistical modelling and predictive analytics. NumPy enables many of these analyses.
+        title: 运动分析
+        text: Cricket Analytics 正在通过统计模型和预测分析来改进队员的团队的表现，改变体育界。NumPy 让其中很多的分析成为了可能。
         img: /images/content_images/case_studies/sports.jpg
-        alttext: Cricket ball on green field.
-        url: /case-studies/cricket-analytics
+        alttext: 赛场上的板球。
+        url: /cash studies/cricket-analysitics
       - 
-        title: Pose Estimation using deep learning
-        text: DeepLabCut uses NumPy for accelerating scientific studies that involve observing animal behavior for better understanding of motor control, across species and timescales.
+        title: 使用深度学习进行估计
+        text: DeepLabCut 使用 NumPy 来加速进行涉及观察动物行为的科学研究，以便跨物种和时间尺度推动研究发展。
         img: /images/content_images/case_studies/deeplabcut.png
-        alttext: Cheetah pose analysis
+        alttext: 猎豹姿势分析
         url: /case-studies/deeplabcut-dnn
   tabs:
-    title: ECOSYSTEM
+    title: 生态系统
   section5: false
   navbar:
     - 
-      title: Install
+      title: 安装
       url: /install
     - 
-      title: Documentation
+      title: 文档
       url: https://numpy.org/doc/stable
     - 
-      title: Learn
+      title: 学习Numpy
       url: /learn
     - 
-      title: Community
+      title: 社区
       url: /community
     - 
-      title: About Us
+      title: 关于我们
       url: /about
     - 
-      title: News
+      title: 新闻
       url: /news
     - 
-      title: Contribute
+      title: 贡献
       url: /contribute
   footer:
     logo: logo.svg
@@ -90,48 +90,48 @@ params:
         title: ""
         links:
           - 
-            text: Install
+            text: 安装
             link: /install
           - 
-            text: Documentation
+            text: 文档
             link: https://numpy.org/doc/stable
           - 
-            text: Learn
+            text: 学习NumPy
             link: /learn
           - 
-            text: Citing Numpy
+            text: 引用Numpy
             link: /citing-numpy
           - 
-            text: Roadmap
+            text: 路线图
             link: https://numpy.org/neps/roadmap.html
       column2:
         links:
           - 
-            text: About us
+            text: 关于我们
             link: /about
           - 
-            text: Community
+            text: 社区
             link: /community
           - 
-            text: User surveys
+            text: 用户调查
             link: /user-surveys
           - 
-            text: Contribute
+            text: 贡献
             link: /contribute
           - 
-            text: Code of conduct
+            text: 行为准则
             link: /code-of-conduct
       column3:
         links:
           - 
-            text: Get help
+            text: 获取帮助
             link: /gethelp
           - 
-            text: Terms of use
+            text: 用户条款
             link: /terms
           - 
-            text: Privacy
+            text: 隐私政策
             link: /privacy
           - 
-            text: Press kit
+            text: 宣传材料
             link: /press-kit
