@@ -1,5 +1,5 @@
 ---
-title: 배우기
+title: 배움
 sidebar: false
 ---
 
