@@ -1,5 +1,5 @@
 ---
-title: 宣传材料
+title: Press kit
 sidebar: false
 ---
 
