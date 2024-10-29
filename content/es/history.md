@@ -1,6 +1,6 @@
 ---
 title: Historia de NumPy
-sidebar: falso
+sidebar: false
 ---
 
 NumPy es una librería fundamental de Python que proporciona estructuras de datos de arreglos y rutinas numéricas rápidas relacionadas. Cuando se puso en marcha, la librería contaba con escasos fondos y la escribían principalmente estudiantes de posgrado, muchos de ellos sin formación en ciencias de la computación y, a menudo, sin la bendición de sus asesores. Imaginar siquiera que un pequeño grupo de estudiantes programadores "rebeldes" pudiera derribar el ecosistema de software de investigación, ya establecido y respaldado por millones en financiación y cientos de ingenieros altamente cualificados, era absurdo. Sin embargo, las motivaciones filosóficas detrás de la pila de herramientas totalmente abierta, en combinación con una comunidad entusiasta y amigable con un enfoque singular, han demostrado ser favorable a largo plazo.  Hoy en día, científicos, ingenieros y muchos otros profesionales en todo el mundo confían en NumPy. Por ejemplo, los scripts publicados usados en el análisis de ondas gravitacionales importan NumPy, y el proyecto de imagen del agujero negro M87 cita directamente a NumPy.
