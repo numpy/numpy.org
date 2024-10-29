@@ -1,5 +1,5 @@
 ---
-title: О Нас
+title: About Us
 sidebar: false
 ---
 
