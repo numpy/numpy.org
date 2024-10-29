@@ -3,10 +3,9 @@ title: Quem Somos
 sidebar: false
 ---
 
-NumPy é um projeto de código aberto que visa possibilitar a computação numérica com Python. Foi criado em 2005, com base no trabalho inicial das bibliotecas Numeric e Numarray. O NumPy sempre será 100% software de código aberto, livre para que todos usem. É lançado sob os termos liberais da [licença BSD modificada](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
+NumPy é um projeto de código aberto que visa possibilitar a computação numérica com Python. Foi criado em 2005, com base no trabalho inicial das bibliotecas Numeric e Numarray. O NumPy sempre será 100% software de código aberto, livre para que todos usem. It is released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
 
-O NumPy é desenvolvido no GitHub, através do consenso da comunidade NumPy e de uma comunidade mais ampla de Python científico. Para obter mais informações sobre nossa abordagem de governança, por favor, consulte nosso [Documento de Governança](https://www.numpy.org/devdocs/dev/governance/index.html).
-
+O NumPy é desenvolvido no GitHub, por meio do consenso da comunidade NumPy e de uma comunidade científica em Python mais ampla. For more information on our governance approach, please see our [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
 
 ## Conselho Diretor (Steering Council)
 
@@ -25,13 +24,13 @@ O papel do Conselho Diretor do NumPy consiste em assegurar o bem-estar a longo p
 Membros Eméritos:
 
 - Alex Griffing (2015-2017)
-- Allan Haldane (2015-2021)
+- Allan Haldane
 - Marten van Kerkwijk (2017-2019)
-- Travis Oliphant (project founder, 2005-2012)
-- Nathaniel Smith (2012-2021)
-- Julian Taylor (2013-2021)
-- Jaime Fernández del Río (2014-2021)
-- Pauli Virtanen (2008-2021)
+- Travis Oliphant (fundador do projeto, 2005-2012)
+- Nathaniel Smith
+- Julian Taylor
+- Jaime Fernández del Río
+- Pauli Virtanen
 
 Para entrar em contato com o conselho diretor do NumPy, por favor envie um email para numpy-team@googlegroups.com.
 
@@ -49,7 +48,7 @@ A liderança do projeto NumPy trabalha ativamente na diversificação dos caminh
 - otimização
 - financiamento e bolsas
 
-Veja a página sobre os [Times](/teams) para mais informações.
+See the [Team](/teams) page for more info.
 
 ## Subcomitê NumFOCUS
 
@@ -61,9 +60,8 @@ Veja a página sobre os [Times](/teams) para mais informações.
 
 ## Patrocinadores
 
-O NumPy recebe financiamento direto das seguintes fontes:
+NumPy receives direct funding from the following sources:
 {{< sponsors >}}
-
 
 ## Parceiros Institucionais
 
@@ -75,16 +73,14 @@ Os Parceiros Institucionais são organizações que apoiam o projeto, empregando
 
 {{< partners >}}
 
-
 ## Doações
 
 Se você achou o NumPy útil no seu trabalho, pesquisa ou empresa, por favor considere fazer uma doação para o projeto que seja compatível com seus recursos. Qualquer quantidade ajuda! Todas as doações serão utilizadas estritamente para financiar o desenvolvimento do software de código aberto da NumPy, documentação e comunidade.
 
-NumPy é um Projeto Patrocinado da NumFOCUS, uma instituição de caridade sem fins lucrativos nos Estados Unidos. A NumFOCUS fornece ao NumPy apoio fiscal, legal e administrativo para ajudar a garantir a saúde e a sustentabilidade do projeto. Visite [numfocus.org](https://numfocus.org) para obter mais informações.
+NumPy é um Projeto Patrocinado da NumFOCUS, uma instituição de caridade sem fins lucrativos nos Estados Unidos. A NumFOCUS fornece ao NumPy apoio fiscal, legal e administrativo para ajudar a garantir a saúde e a sustentabilidade do projeto. Visit [numfocus.org](https://numfocus.org) for more information.
 
-Doações para o NumPy são gerenciadas pela [NumFOCUS](https://numfocus.org). Para doadores nos Estados Unidos, sua doação é dedutível para fins fiscais na medida oferecida pela lei. Como em qualquer doação, você deve consultar seu conselheiro fiscal sobre sua situação fiscal em particular.
+Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). Para doadores nos Estados Unidos, sua doação é dedutível para fins fiscais na medida oferecida pela lei. Como em qualquer doação, você deve consultar seu conselheiro fiscal sobre sua situação fiscal em particular.
 
-O Conselho Diretor da NumPy tomará as decisões sobre a melhor forma de utilizar os fundos recebidos. Prioridades técnicas e de infraestrutura estão documentadas no [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
+O Conselho Diretor do NumPy tomará as decisões sobre a melhor forma de utilizar os fundos recebidos. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
 
 {{<opencollective>}}
-
