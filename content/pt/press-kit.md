@@ -1,5 +1,5 @@
 ---
-title: Kit de imprensa
+title: Press kit
 sidebar: false
 ---
 
