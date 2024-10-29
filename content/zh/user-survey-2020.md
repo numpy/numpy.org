@@ -12,7 +12,7 @@ src = '/surveys/NumPy_usersurvey_2020_report_cover.png' alt = 'Cover page of the
 **[下载报告](/surveys/NumPy_usersurvey_2020_report.pdf)** 以更仔细地查看调查结果。
 
 
-关于亮点，请参阅 **[信息图](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)**
+重点部分，请参阅 **[信息图](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)**。
 
 准备仔细研究？ 访问 **https://numpy.org/user-survey-2020-details/**。
 
