@@ -28,7 +28,7 @@ params:
         url: https://cupy.chainer.org
       - 
         title: JAX
-        text: "Transformações combináveis de programas NumPy: vetorização, compilação just-in-time para GPU/TPU."
+        text: "Composable transformations of NumPy programs: differentiate, vectorize, just-in-time compilation to GPU/TPU."
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
         url: https://github.com/google/jax
@@ -57,17 +57,11 @@ params:
         alttext: TensorFlow
         url: https://www.tensorflow.org
       - 
-        title: MXNet
-        text: Framework de deep learning voltado para flexibilizar prototipação em pesquisa e produção.
-        img: /images/content_images/arlib/mxnet_logo.png
-        alttext: MXNet
-        url: https://mxnet.apache.org/
-      - 
         title: Arrow
         text: Uma plataforma de desenvolvimento multi-linguagens para dados e análise para dados armazenados em colunas na memória.
         img: /images/content_images/arlib/arrow.png
         alttext: arrow
-        url: https://github.com/apache/arrow
+        url: https://mxnet.apache.org/
       - 
         title: xtensor
         text: Arrays multidimensionais com broadcasting e avaliação preguiçosa (lazy computing) para análise numérica.
@@ -75,17 +69,23 @@ params:
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
       - 
-        title: Awkward Array
-        text: Manipulação de dados JSON-like com sintaxe NumPy-like.
-        img: /images/content_images/arlib/awkward.svg
-        alttext: awkward
-        url: https://awkward-array.org/
+        title: xtensor
+        text: Arrays multidimensionais com broadcasting e avaliação preguiçosa (lazy computing) para análise numérica.
+        img: /images/content_images/arlib/xtensor.png
+        alttext: xtensor
+        url: https://github.com/xtensor-stack/xtensor-python
       - 
         title: uarray
         text: Sistema de backend Python que dissocia a API da implementação; unumpy fornece uma API NumPy.
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
+      - 
+        title: tensorly
+        text: Sistema de backend Python que dissocia a API da implementação; unumpy fornece uma API NumPy.
+        img: /images/content_images/arlib/tensorly.png
+        alttext: tensorly
+        url: http://tensorly.org/stable/home.html
   scientificdomains:
     intro:
       - 
@@ -159,8 +159,8 @@ params:
             url: https://mahotas.rtfd.io/
             label: Mahotas
       - 
-        title: Graphs and Networks
-        alttext: A simple graph.
+        title: Gráficos e Redes
+        alttext: Um grafo simples.
         img: /images/content_images/sc_dom_img/sd6.svg
         links:
           - 
@@ -177,7 +177,7 @@ params:
             label: PyGSP
       - 
         title: Astronomy
-        alttext: A telescope.
+        alttext: Um telescópio.
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
         links:
           - 
@@ -199,7 +199,7 @@ params:
             label: PsychoPy
       - 
         title: Bioinformática
-        alttext: Uma fita de DNA.
+        alttext: Um pedaço de DNA.
         img: /images/content_images/sc_dom_img/bioinformatics.svg
         links:
           - 
@@ -249,7 +249,7 @@ params:
             url: https://fenicsproject.org/
             label: FEniCS
       - 
-        title: Chemistry
+        title: Química
         alttext: Um tubo de ensaio.
         img: /images/content_images/sc_dom_img/chemistry.svg
         links:
@@ -266,7 +266,7 @@ params:
             url: https://www.pybamm.org/
             label: PyBaMM
       - 
-        title: Geoscience
+        title: Geociências
         alttext: A Terra.
         img: /images/content_images/sc_dom_img/geoscience.svg
         links:
@@ -319,14 +319,14 @@ params:
     image2:
       - 
         img: /images/content_images/data-science.png
-        alttext: Diagram of three overlapping circle. The circles labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'.
+        alttext: Diagram of three overlapping circles. The circles are labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'.
     examples:
       - 
         text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org),[ Intake](https://intake.readthedocs.io),[PyJanitor](https://pyjanitor-devs.github.io/pyjanitor/)"
       - 
-        text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org),[Seaborn](https://seaborn.pydata.org),[ Matplotlib](https://matplotlib.org),[ Altair](https://altair-viz.github.io)"
+        text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
       - 
-        text: "<b>Model and evaluate: </b>[scikit-learn](https://scikit-learn.org),[ statsmodels](https://www.statsmodels.org/stable/index.html),[ PyMC3](https://docs.pymc.io),[ spaCy](https://spacy.io)"
+        text: "<b>Model and evaluate: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
       - 
         text: "<b>Report in a dashboard: </b>[Dash](https://plotly.com/dash),[ Panel](https://panel.holoviz.org),[ Voila](https://github.com/voila-dashboards/voila)"
     content:
