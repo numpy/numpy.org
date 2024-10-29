@@ -1,5 +1,5 @@
 ---
-title: الملف الصحفى
+title: Press kit
 sidebar: false
 ---
 
