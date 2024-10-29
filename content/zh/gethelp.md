@@ -3,9 +3,9 @@ title: 获取帮助
 sidebar: false
 ---
 
-**Development issues:** For NumPy development-related matters (e.g., bug reports), please see [Community](/community).
+**开发问题：** 与 Numpy 开发有关的事项(例如bug报告)，请参考 [社区](/community)。
 
-**User questions:** The best way to get help is to post your question to a site like [StackOverflow](http://stackoverflow.com/questions/tagged/numpy) or [Reddit](https://www.reddit.com/r/Numpy/). We wish we could keep an eye on these sites, or answer questions directly, but the volume is a little overwhelming!
+**用户问题：** 获得帮助的最佳方式是将您的问题发布到网站 类似 [StackOverflow](http://stackoverflow.com/questions/tagged/numpy) 或 [Reddit](https://www.reddit.com/r/Numpy/) 我们也希望我们能够关注这些站点的动向或者直接回答问题，但数量实在是太多了！
 
 ### [StackOverflow](http://stackoverflow.com/questions/tagged/numpy)
 
