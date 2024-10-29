@@ -56,25 +56,25 @@ params:
   navbar:
     - 
       title: 설치
-      url: /ko/install
+      url: /install
     - 
       title: 문서
       url: https://numpy.org/doc/stable
     - 
       title: 배움
-      url: /ko/learn
+      url: /learn
     - 
       title: 커뮤니티
-      url: /ko/community
+      url: /community
     - 
-      title: NumPy 정보
-      url: /ko/about
+      title: 정보
+      url: /about
     - 
       title: 소식
-      url: /ko/news
+      url: /news
     - 
       title: 기여
-      url: /ko/contribute
+      url: /contribute
   footer:
     logo: logo.svg
     socialmediatitle: ""
@@ -91,16 +91,16 @@ params:
         links:
           - 
             text: 설치
-            link: /ko/install
+            link: /install
           - 
             text: 문서
             link: https://numpy.org/doc/stable
           - 
             text: 배움
-            link: /ko/learn
+            link: /learn
           - 
             text: Numpy 인용
-            link: /ko/citing-numpy
+            link: /citing-numpy
           - 
             text: 로드맵
             link: https://numpy.org/neps/roadmap.html
@@ -108,30 +108,30 @@ params:
         links:
           - 
             text: 정보
-            link: /ko/about
+            link: /about
           - 
             text: 커뮤니티
-            link: /ko/community
+            link: /community
           - 
             text: 사용자 설문조사
-            link: /ko/user-surveys
+            link: /user-surveys
           - 
             text: 기여
-            link: /ko/contribute
+            link: /contribute
           - 
             text: 이용약관
-            link: /ko/code-of-conduct
+            link: /code-of-conduct
       column3:
         links:
           - 
             text: 도움받기
-            link: /ko/gethelp
+            link: /gethelp
           - 
             text: 이용약관
-            link: /ko/terms
+            link: /terms
           - 
             text: 개인정보처리방침
-            link: /ko/privacy
+            link: /privacy
           - 
             text: 홍보 자료
-            link: /ko/press-kit
+            link: /press-kit
