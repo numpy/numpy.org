@@ -7,49 +7,76 @@ sidebar: false
 src = '/images/content_images/cs/blackhole.jpg'
 title = 'Black Hole M87'
 alt = 'black hole image'
-attribution = '(Créditos: Event Horizon Telescope Collaboration)'
+attribution = '(Image Credits: Event Horizon Telescope Collaboration)'
 attributionlink = 'https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg'
 {{< /figure >}}
 
 {{< blockquote
-    cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
-    by="Katie Bouman, *Professora Assistente, Ciências da Computação e Matemática, Caltech*"
->}}
-Criar uma imagem do Buraco Negro M87 é como tentar ver algo que, por definição, é impossível de se ver.
-{{< /blockquote >}}
+cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
+by="Katie Bouman, _Assistant Professor, Computing & Mathematical Sciences, Caltech_"
+
+> }}
+> Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.
+> {{< /blockquote >}}
 
 ## Um telescópio do tamanho da Terra
 
-O [telescópio Event Horizon (EHT)](https://eventhorizontelescope.org), é um conjunto de oito telescópios em solo formando um telescópio computacional do tamanho da Terra, projetado para estudar o universo com sensibilidade e resolução sem precedentes.  O enorme telescópio virtual, que usa uma técnica chamada interferometria de longa linha de base (VLBI), tem uma resolução angular de [20 micro-arcossegundos][resolution] — o suficiente para ler um jornal em Nova Iorque a partir de um café em uma calçada de Paris!
+The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org) is an
+array of eight ground-based radio telescopes forming a computational telescope
+the size of the earth, studing the universe with unprecedented
+sensitivity and resolution.  The huge virtual telescope,  which uses a technique
+called very-long-baseline interferometry (VLBI), has an angular resolution of
+[20 micro-arcseconds][resolution] — enough to read a newspaper in New York
+from a sidewalk café in Paris!
+
+[resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
 
 ### Principais Objetivos e Resultados
 
-* **Uma nova visão do universo:** A imagem inovadora do EHT foi publicada 100 anos após [o experimento de Sir Arthur Eddington][eddington] ter produzido as primeiras evidências observacionais apoiando a teoria da relatividade geral de Einstein.
+- **A New View of the Universe:**
+  The groundwork for the EHT's groundbreaking image had been laid 100 years
+  earlier when [Sir Arthur Eddington][eddington] yielded the first
+  observational support of Einstein's theory of general relativity.
 
-* **O Buraco Negro:** o EHT foi treinado em um buraco negro supermassivo a aproximadamente 55 milhões de anos-luz da Terra, localizado no centro do galáxia Messier 87 (M87) no aglomerado de Virgem. Sua massa é equivalente a 6,5 bilhões de vezes a do Sol. Ele vem sendo estudado [há mais de 100 anos](https://www.jpl.nasa.gov/news/news.php?feature=7385), mas um buraco negro nunca havia sido observado visualmente antes.
+- **The Black Hole:** EHT was trained on a supermassive black hole
+  approximately 55 million light-years from Earth, lying at the center
+  of the galaxy Messier 87 (M87) in the Virgo galaxy cluster. Its mass is
+  6.5 billion times the Sun's. It had been studied for
+  [over 100 years](https://www.jpl.nasa.gov/news/news.php?feature=7385), but never before
+  had a black hole been visually observed.
 
-* **Comparando observações com a teoria:** Pela teoria geral da relatividade de Einstein, os cientistas esperavam encontrar uma região de sombra causada pela distorção e captura da luz causada pela influência gravitacional do buraco negro. Os cientistas poderiam usá-la para medir a enorme massa do mesmo.
+- **Comparing Observations to Theory:** From Einstein’s general theory of
+  relativity, scientists expected to find a shadow-like region caused by
+  gravitational bending and capture of light. Scientists could
+  use it to measure the black hole's enormous mass.
+
+[eddington]: https://en.wikipedia.org/wiki/Eddington_experiment
 
 ### Desafios
 
-* **Escala computacional**
+- **Computational scale**
 
-    O EHT representa um desafio imenso em processamento de dados, incluindo rápidas flutuações de fase atmosférica, uma largura grande de banda nas gravações e telescópios que são muito diferentes e geograficamente dispersos.
+  EHT poses massive data-processing challenges, including rapid atmospheric
+  phase fluctuations, large recording bandwidth, and telescopes that are
+  widely dissimilar and geographically dispersed.
 
-* **Muitas informações**
+- **Too much information**
 
-    A cada dia, o EHT gera mais de 350 terabytes de observações, armazenadas em discos rígidos cheios de hélio. Reduzir o volume e a complexidade desse volume de dados é extremamente difícil.
+  Each day EHT generates over 350 terabytes of observations, stored on
+  helium-filled hard drives. Reducing the volume and complexity of this much
+  data is enormously difficult.
 
-* **Em direção ao desconhecido**
+- **Into the unknown**
 
-    Quando o objetivo é algo que nunca foi visto, como os cientistas podem ter confiança de que sua imagem está correta?
+  When the goal is to see something never before seen, how can scientists be
+  confident the image is correct?
 
 {{< figure >}}
 src = '/images/content_images/cs/dataprocessbh.png'
-title = 'Etapas de Processamento de Dados do EHT'
+title = 'EHT Data Processing Pipeline'
 alt = 'data pipeline'
 align = 'center'
-attribution = '(Créditos do diagrama: The Astrophysical Journal, Event Horizon Telescope Collaboration)'
+attribution = '(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)'
 attributionlink = 'https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57'
 {{< /figure >}}
 
@@ -64,18 +91,31 @@ O trabalho desse grupo ilustra o papel do ecossistema científico do Python no a
 {{< figure >}}
 src = '/images/content_images/cs/bh_numpy_role.png'
 alt = 'role of numpy'
-title = 'O papel do NumPy na criação da primeira imagem de um Buraco Negro'
+title = 'The role of NumPy in Black Hole imaging'
 {{< /figure >}}
 
-Por exemplo, o pacote Python [`eht-imaging`][ehtim] fornece ferramentas para simular e realizar reconstrução de imagem nos dados do VLBI. O NumPy está no coração do processamento de dados vetoriais usado neste pacote, como ilustrado pelo gráfico parcial de dependências de software abaixo.
+For example, the [`eht-imaging`][ehtim] Python package provides tools for
+simulating and performing image reconstruction on VLBI data.
+O NumPy está no coração do processamento de dados vetoriais usado neste pacote, como ilustrado pelo gráfico parcial de dependências de software abaixo.
 
 {{< figure >}}
 src = '/images/content_images/cs/ehtim_numpy.png'
 alt = 'ehtim dependency map highlighting numpy'
-title = 'Diagrama de dependência de software do pacote ehtim evidenciando o NumPy'
+title = 'Software dependency chart of ehtim package highlighting NumPy'
 {{< /figure >}}
 
-Além do NumPy, muitos outros pacotes como [SciPy](https://www.scipy.org) e [Pandas](https://pandas.io) foram usados na *pipeline* de processamento de dados para criar a imagem do buraco negro. Os arquivos astronômicos de formato padrão e transformações de tempo/coordenadas foram tratados pelo [Astropy][astropy] enquanto a [Matplotlib][mpl] foi usada na visualização de dados em todas as etapas de análise, incluindo a geração da imagem final do buraco negro.
+[ehtim]: https://github.com/achael/eht-imaging
+
+Besides NumPy, many other packages, such as
+[SciPy](https://www.scipy.org) and [Pandas](https://pandas.io), are part of the
+data processing pipeline for imaging the black hole.
+The standard astronomical file formats and time/coordinate transformations
+were handled by [Astropy][astropy], while [Matplotlib][mpl] was used
+in visualizing data throughout the analysis pipeline, including the generation
+of the final image of the black hole.
+
+[astropy]: https://www.astropy.org/
+[mpl]: https://matplotlib.org/
 
 ## Resumo
 
@@ -84,14 +124,5 @@ A estrutura de dados n-dimensional que é a funcionalidade central do NumPy perm
 {{< figure >}}
 src = '/images/content_images/cs/numpy_bh_benefits.png'
 alt = 'numpy benefits'
-title = 'Funcionalidades-chave do NumPy utilizadas'
+title = 'Key NumPy Capabilities utilized'
 {{< /figure >}}
-
-[resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
-
-[eddington]: https://en.wikipedia.org/wiki/Eddington_experiment
-
-[ehtim]: https://github.com/achael/eht-imaging
-
-[astropy]: https://www.astropy.org/
-[mpl]: https://matplotlib.org/
