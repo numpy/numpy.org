@@ -7,14 +7,14 @@ sidebar: false
 
 {{< figure >}}
 src = '/surveys/NumPy_usersurvey_2020_report_cover.png'
-alt = 'Cover page of the 2020 Numpy User survey report, titled "Numpyコミュニティ調査2020 - 結果"'
+alt = 'Cover page of the 2020 NumPy user survey report, titled "NumPy Community Survey 2020 - results"'
 width = '250'
 {{< /figure >}}
 
-調査結果を詳細を知りたい場合は、**[こちらのレポート](/surveys/NumPy_usersurvey_2020_report.pdf)** をダウンロードしてください。
+**[Download the report](/surveys/NumPy_usersurvey_2020_report.pdf)**
+to take a closer look at the survey findings.
 
+For the highlights, check out
+**[this infographic](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)**.
 
-結果の概要については、 **[こちらの図](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)** をチェックしてください。
-
-より詳細が知りたくなりましたか？ **https://numpy.org/user-survey-2020-details/** をご覧ください。
-
+より詳細が知りたくなりましたか？ Visit **https://numpy.org/user-survey-2020-details/**.
