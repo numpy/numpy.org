@@ -1,5 +1,5 @@
 ---
-title: التعلم
+title: Learn
 sidebar: false
 ---
 
