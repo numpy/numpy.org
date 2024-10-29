@@ -56,25 +56,25 @@ params:
   navbar:
     - 
       title: インストール
-      url: /ja/install
+      url: /install
     - 
       title: ドキュメント
       url: https://numpy.org/doc/stable
     - 
-      title: 学び方
-      url: /ja/learn
+      title: NumPyの学び方
+      url: /learn
     - 
       title: コミュニティ
-      url: /ja/community
+      url: /community
     - 
       title: 私達について
-      url: /ja/about
+      url: /about
     - 
       title: ニュース
-      url: /ja/news
+      url: /news
     - 
       title: NumPyに貢献する
-      url: /ja/contribute
+      url: /contribution
   footer:
     logo: logo.svg
     socialmediatitle: ""
@@ -91,16 +91,16 @@ params:
         links:
           - 
             text: インストール
-            link: /ja/install
+            link: /install
           - 
             text: ドキュメント
             link: https://numpy.org/doc/stable
           - 
-            text: 学び方
-            link: /ja/learn
+            text: NumPyの学び方
+            link: /learn
           - 
-            text: 引用する
-            link: /ja/citing-numpy
+            text: NumPy を引用する
+            link: /citing-numpy
           - 
             text: ロードマップ
             link: https://numpy.org/neps/roadmap.html
@@ -108,30 +108,30 @@ params:
         links:
           - 
             text: 私達について
-            link: /ja/about
+            link: /about
           - 
             text: コミュニティ
-            link: /ja/community
+            link: /community
           - 
             text: ユーザーの調査
-            link: /ja/user-surveys
+            link: /user-surveys
           - 
             text: NumPyに貢献する
-            link: /ja/contribute
+            link: /contribution
           - 
             text: 行動規範
-            link: /ja/code-of-conduct
+            link: /code-of-conduct
       column3:
         links:
           - 
             text: サポートを得る方法
-            link: /ja/gethelp
+            link: /gethelp
           - 
             text: 利用規約
-            link: /ja/terms
+            link: /terms
           - 
             text: プライバシーポリシー
-            link: /ja/privacy
+            link: /privacy
           - 
             text: プレス用資料
-            link: /ja/press-kit
+            link: /press-kit
