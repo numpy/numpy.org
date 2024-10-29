@@ -22,7 +22,7 @@ params:
       - 
         title: Experimentar o NumPy
         text: Use o shell interativo para testar o NumPy no navegador
-    docslink: Não se esqueça de conferir a <a href="https://numpy.org/doc/stable" target="_blank">documentação</a>.
+    docslink: Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a>.
   casestudies:
     title: ESTUDOS DE CASO
     features:
@@ -55,26 +55,26 @@ params:
   section5: false
   navbar:
     - 
-      title: Instalação
-      url: /pt/install
+      title: Install
+      url: /install
     - 
-      title: Documentação
+      title: Documentation
       url: https://numpy.org/doc/stable
     - 
       title: Aprenda
-      url: /pt/learn
+      url: /learn
     - 
-      title: Comunidade
-      url: /pt/community
+      title: Community
+      url: /community
     - 
-      title: Sobre
-      url: /pt/about
+      title: About Us
+      url: /about
     - 
       title: Notícias
-      url: /pt/news
+      url: /news
     - 
-      title: Contribuir
-      url: /pt/contribute
+      title: Contribute
+      url: /contribute
   footer:
     logo: logo.svg
     socialmediatitle: ""
@@ -90,48 +90,48 @@ params:
         title: ""
         links:
           - 
-            text: Instalação
-            link: /pt/install
+            text: Install
+            link: /install
           - 
-            text: Documentação
+            text: Documentation
             link: https://numpy.org/doc/stable
           - 
             text: Aprenda
-            link: /pt/learn
+            link: /learn
           - 
-            text: Citando o Numpy
-            link: /pt/citing-numpy
+            text: Citing Numpy
+            link: /citing-numpy
           - 
             text: Roadmap
             link: https://numpy.org/neps/roadmap.html
       column2:
         links:
           - 
-            text: Sobre
-            link: /pt/about
+            text: About us
+            link: /about
           - 
-            text: Comunidade
-            link: /pt/community
+            text: Community
+            link: /community
           - 
             text: Pesquisas de usuário
             link: /pt/user-surveys
           - 
-            text: Contribuir
-            link: /pt/contribute
+            text: Contribute
+            link: /contribute
           - 
-            text: Código de Conduta
-            link: /pt/code-of-conduct
+            text: Code of conduct
+            link: /code-of-conduct
       column3:
         links:
           - 
-            text: Ajuda
-            link: /pt/gethelp
+            text: Get help
+            link: /gethelp
           - 
-            text: Termos de uso (EN)
-            link: /pt/terms
+            text: Terms of use
+            link: /terms
           - 
-            text: Privacidade
-            link: /pt/privacy
+            text: Privacy
+            link: /privacy
           - 
-            text: Kit de imprensa
-            link: /pt/press-kit
+            text: Press kit
+            link: /press-kit
