@@ -55,7 +55,7 @@ Veja a página sobre os [Times](/teams) para mais informações.
 
 - Charles Harris
 - Ralf Gommers
-- Inessa Pawson
+- Melissa Weber Mendonça
 - Sebastian Berg
 - Membro externo: Thomas Caswell
 
