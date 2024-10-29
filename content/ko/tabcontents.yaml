@@ -16,7 +16,7 @@ params:
     libraries:
       - 
         title: Dask
-        text: 분석을 위한 분산 배열 및 고급 병렬 처리를 통해 규모에 맞는 성능을 구현합니다.
+        text: 분석을 위한 분산 어레이 및 고급 병렬 처리를 통해 규모에 맞는 성능을 구현합니다.
         img: /images/content_images/arlib/dask.png
         alttext: Dask
         url: https://dask.org/
@@ -28,7 +28,7 @@ params:
         url: https://cupy.chainer.org
       - 
         title: JAX
-        text: "NumPy 프로그램을 부분적으로 변환하여 벡터화, GPU/TPU의 적시 컴파일을 제공하는 라이브러리."
+        text: "NumPy 프로그램의 구성 가능한 변환: 차별화, 벡터화, GPU/TPU로의 적시 컴파일."
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
         url: https://github.com/google/jax
@@ -57,17 +57,11 @@ params:
         alttext: TensorFlow
         url: https://www.tensorflow.org
       - 
-        title: MXNet
-        text: 유연한 연구 프로토타이핑 및 생산에 적합한 딥 러닝 프레임워크입니다.
-        img: /images/content_images/arlib/mxnet_logo.png
-        alttext: MXNet
-        url: https://mxnet.apache.org/
-      - 
         title: Arrow
-        text: 열 기반 메모리 내 데이터 및 분석을 위한 교차 언어 개발 플랫폼입니다.
+        text: 열 기반 인메모리 데이터 및 분석을 위한 교차 언어 개발 플랫폼입니다.
         img: /images/content_images/arlib/arrow.png
         alttext: arrow
-        url: https://github.com/apache/arrow
+        url: https://mxnet.apache.org/
       - 
         title: xtensor
         text: 수치 분석을 위한 브로드캐스팅 및 지연 컴퓨팅이 포함된 다차원 배열.
@@ -75,17 +69,23 @@ params:
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
       - 
-        title: Awkward Array
-        text: NumPy와 유사한 관용어로 JSON과 유사한 데이터를 조작합니다.
-        img: /images/content_images/arlib/awkward.svg
-        alttext: awkward
-        url: https://awkward-array.org/
+        title: xtensor
+        text: 수치 분석을 위한 브로드캐스팅 및 지연 컴퓨팅이 포함된 다차원 배열.
+        img: /images/content_images/arlib/xtensor.png
+        alttext: xtensor
+        url: https://github.com/xtensor-stack/xtensor-python
       - 
         title: uarray
         text: 구현에서 API를 분리하는 Python 백엔드 시스템; unumpy는 NumPy API를 제공합니다.
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
+      - 
+        title: tensorly
+        text: 구현에서 API를 분리하는 Python 백엔드 시스템; unumpy는 NumPy API를 제공합니다.
+        img: /images/content_images/arlib/tensorly.png
+        alttext: tensorly
+        url: http://tensorly.org/stable/home.html
   scientificdomains:
     intro:
       - 
@@ -95,7 +95,7 @@ params:
     libraries:
       - 
         title: 양자 컴퓨팅
-        alttext: 컴퓨터 칩
+        alttext: 컴퓨터 칩.
         img: /images/content_images/sc_dom_img/quantum_computing.svg
         links:
           - 
@@ -112,7 +112,7 @@ params:
             label: PennyLane
       - 
         title: 통계적 컴퓨팅
-        alttext: 선이 위로 이동하는 선그래프
+        alttext: 선이 위로 이동하는 선그래프.
         img: /images/content_images/sc_dom_img/statistical_computing.svg
         links:
           - 
@@ -129,7 +129,7 @@ params:
             label: Seaborn
       - 
         title: 신호 처리
-        alttext: 양의 값과 음의 값을 가지는 막대 차트
+        alttext: 양의 값과 음의 값을 가지는 막대 차트.
         img: /images/content_images/sc_dom_img/signal_processing.svg
         links:
           - 
@@ -146,7 +146,7 @@ params:
             label: HyperSpy
       - 
         title: 이미지 처리
-        alttext: 산이 찍힌 사진
+        alttext: 산이 찍힌 사진.
         img: /images/content_images/sc_dom_img/image_processing.svg
         links:
           - 
@@ -177,7 +177,7 @@ params:
             label: PyGSP
       - 
         title: 천문학
-        alttext: 망원경
+        alttext: 망원경.
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
         links:
           - 
@@ -191,7 +191,7 @@ params:
             label: SpacePy
       - 
         title: 인지심리학
-        alttext: 톱니바퀴가 안에서 돌아가는 사람의 머리
+        alttext: 톱니바퀴가 안에서 돌아가는 사람의 머리.
         img: /images/content_images/sc_dom_img/cognitive_psychology.svg
         links:
           - 
@@ -199,7 +199,7 @@ params:
             label: PsychoPy
       - 
         title: 생물정보학
-        alttext: DNA 가닥
+        alttext: DNA 가닥.
         img: /images/content_images/sc_dom_img/bioinformatics.svg
         links:
           - 
@@ -216,7 +216,7 @@ params:
             label: ETE
       - 
         title: 베이지안 추론
-        alttext: 종 모양 곡선이 그려진 그래프
+        alttext: 종 모양 곡선이 그려진 그래프.
         img: /images/content_images/sc_dom_img/bayesian_inference.svg
         links:
           - 
@@ -233,7 +233,7 @@ params:
             label: emcee
       - 
         title: 수학적 분석
-        alttext: 수학 기호 4개
+        alttext: 수학 기호 4개.
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
         links:
           - 
@@ -250,7 +250,7 @@ params:
             label: FEniCS
       - 
         title: 화학
-        alttext: 시험관
+        alttext: 시험관.
         img: /images/content_images/sc_dom_img/chemistry.svg
         links:
           - 
@@ -267,7 +267,7 @@ params:
             label: PyBaMM
       - 
         title: 지구과학
-        alttext: 지구
+        alttext: 지구.
         img: /images/content_images/sc_dom_img/geoscience.svg
         links:
           - 
@@ -284,7 +284,7 @@ params:
             label: Fatiando a Terra
       - 
         title: 지리학적 처리
-        alttext: 지도
+        alttext: 지도.
         img: /images/content_images/sc_dom_img/GIS.svg
         links:
           - 
@@ -298,7 +298,7 @@ params:
             label: Folium
       - 
         title: 아키텍처 및 엔지니어링
-        alttext: 마이크로프로세서 개발 보드
+        alttext: 마이크로프로세서 개발 보드.
         img: /images/content_images/sc_dom_img/robotics.svg
         links:
           - 
@@ -337,7 +337,7 @@ params:
       - 
         url: https://www.fusioncharts.com/blog/best-python-data-visualization-libraries
         img: /images/content_images/v_matplotlib.png
-        alttext: Matplotlib으로 만든 streamplot
+        alttext: matplotlib으로 만든 streamplot
       - 
         url: https://github.com/yhat/ggpy
         img: /images/content_images/v_ggpy.png
