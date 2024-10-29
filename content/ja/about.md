@@ -37,7 +37,7 @@ Numpy運営委員会に連絡するには、numpy-team@googlegroups.comまでメ
 
 ## チーム
 
-Numpy プロジェクトのコアメンバーは、プロジェクトへの貢献の方法の多様化に積極的に取り組んでいます。<br> Numpyには現在以下のチームがあります:
+Numpy プロジェクトのコアメンバーは、プロジェクトへの貢献の方法の多様化に積極的に取り組んでいます。 <br> Numpyには現在以下のチームがあります:
 
 - 開発
 - ドキュメント
@@ -55,7 +55,7 @@ Numpy プロジェクトのコアメンバーは、プロジェクトへの貢�
 
 - Charles Harris
 - Ralf Gommers
-- Inessa Pawson
+- Melissa Weber Mendonça
 - Sebastian Berg
 - 外部メンバー: Thomas Caswell
 
