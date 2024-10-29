@@ -1,5 +1,5 @@
 ---
-title: من نحن
+title: About Us
 sidebar: false
 ---
 
