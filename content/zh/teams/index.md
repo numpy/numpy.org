@@ -1,35 +1,36 @@
 ---
-title: NumPy团队
+title: NumPy Teams
 sidebar: false
 ---
 
-我们是一个国际化团队，致力于通过构建高质量的开源软件，支持全球的科学和研究社区。
-[加入我们](/contribute)!
+我们是一个国际团队，通过建造优质开放源码软件，支持世界各地的科学和研究
+个社区。
+[Join us](/contribute)!
 
-### 维护者
+### Maintainers
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
-### 文档团队
+### Docs team
 
 {{< grid file="docs-team.toml" columns="2 3 4 5" />}}
 
-### 网页团队
+### Web team
 
 {{< grid file="web-team.toml" columns="2 3 4 5" />}}
 
-### 分类团队
+### Triage team
 
 {{< grid file="triage-team.toml" columns="2 3 4 5" />}}
 
-### 调查团队
+### Survey team
 
 {{< grid file="survey-team.toml" columns="2 3 4 5" />}}
 
-### 荣誉维护者
+### Emeritus maintainers
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
 
-# 管理团队
+# 管理
 
-关于Numpy指导委员会成员，请点击[这里](https://numpy.org/about/)查看。
+For the list of the Steering Council members, please see [here](https://numpy.org/about/).
