@@ -31,9 +31,9 @@ The blog post ["NumPy 2.0: an evolutionary milestone"](https://blog.scientific-p
 
 _2024년 5월 23일_ -- NumPy 2.0이 2024년 6월 16일에 출시할 예정이라는 소식을 발표하게 되어 기쁩니다. 이 릴리즈를 제작하는 데 1년이 넘게 걸렸고, 2006년 이후 첫 번째 메인 릴리즈입니다. 중요한 건 많은 기능과 성능 개선 외에도, ABI와 Python, C API에 대한 **획기적인 변화**를 이뤄냈다는 것입니다. 아마 의존하는 패키지와 최종 사용자의 코드를 수정해야 할 겁니다. 가능하다면 코드가 `2.0.0rc2`에서 잘 작동하는지 검증해 주세요. **자세한 내용은 아래 항목들을 확인해 주세요.**
 
-- [NumPy 2.0 이주 가이드](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
-- [2.0.0 릴리즈 노트](https://numpy.org/devdocs/release/2.0.0-notes.html)
-- 상태 업데이트 공지용 이슈: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
+- The [NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
 
 ### NumPy 1.26.0 출시
