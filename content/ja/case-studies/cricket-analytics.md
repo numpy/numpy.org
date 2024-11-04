@@ -13,9 +13,9 @@ attributionlink = 'https://unsplash.com/@aksh1802'
 
 {{< blockquote
     cite="https://www.scoopwhoop.com/sports/ms-dhoni/"
-    by="M S Dhoni、 *インディアンチームの元キャプテン、インターナショナル・クリケットプレイヤー、チェンナイ・スーパー・キングスのためにIPLでプレイ*"
+	by="M S Dhoni、 *インディアンチームの元キャプテン、インターナショナル・クリケットプレイヤー、チェンナイ・スーパー・キングスのためにIPLでプレイ*"
 >}}
-観客のために競技をするのではなく、国のために競技するのです。
+観客のために競技をするのではなく、国のために競技するのです。 
 {{< /blockquote >}}
 
 ## クリケットについて

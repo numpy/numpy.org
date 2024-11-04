@@ -11,10 +11,7 @@ attribution = '(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project a
 attributionlink = 'https://youtu.be/Zt8Z_uzG71o'
 {{< /figure >}}
 
-{{< blockquote
-    cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
-    by="David Shoemaker, *LIGOサイエンティフィック・コラボレーション*" >}}
-科学計算のためのPythonエコシステムはLIGOで行われている研究のための重要なインフラです。
+{{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="David Shoemaker, *LIGOサイエンティフィック・コラボレーション*" >}} 科学計算のためのPythonエコシステムはLIGOで行われている研究のための重要なインフラです。
 {{< /blockquote >}}
 
 ## [重力波](https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/) と [LIGO](https://www.ligo.caltech.edu) について
@@ -56,7 +53,7 @@ attributionlink = 'https://www.researchgate.net/publication/293886905_Observatio
 
 ## 重力波の検出におけるNumPyの役割
 
-合成により放出される重力波は、スーパーコンピュータを用いたブルートフォースの数値相対性処理以外の手法では計算できません。 重力波は非常に小さい効果を生み、物質と微小な相互作用を持つため、検出が困難です。 LIGOのすべてのデータを処理・分析するには、膨大な計算インフラが必要です。 信号の数十億倍のノイズを除去した後も、非常に複雑な相対性理論の方程式と膨大な量のデータがあり、計算上の課題となっています。
+ブラックホール合成により放出される重力波は、スーパーコンピュータを用いたブルートフォースの数値相対性処理以外の手法では計算できません。 重力波は非常に小さい効果を生み、物質と微小な相互作用を持つため、検出が困難です。 LIGOのすべてのデータを処理・分析するには、膨大な計算インフラが必要です。 信号の数十億倍のノイズを除去した後も、非常に複雑な相対性理論の方程式と膨大な量のデータがあり、計算上の課題となっています。
 
 Python用の標準的な数値解析パッケージNumPyは、LIGOの重力波検出プロジェクトで実行される様々なタスクに使用されるソフトウェアで利用されています。 NumPyは、複雑な数学処理や高速なデータ操作に役立ちました。  次にいくつかの例を示します。
 
@@ -88,7 +85,7 @@ title = 'PyCBCのNumPy依存グラフ'
 一方で、これまで知られてきた深遠な天体物理学の現象に、多くに新たな洞察を提供しました。 数値処理とデータの可視化は、科学者が科学的な観測から収集したデータについての洞察を得て、その結果を理解するのに役立つ重要なステップです。 しかし、その計算は複雑であり、実際の観測データと分析を用いたコンピュータシミュレーションを用いて可視化されない限り、人間が理解することはできませんでした。  NumPyは、matplotlib・pandas・scikit-learnなどのPythonパッケージとともに、研究者が複雑な質問に答え、私たちの宇宙に対するの理解において、新しい地平を発見することを[可能にしています](https://www.gw-openscience.org/events/GW150914/)。
 
 {{< figure >}}
-src = '/images/content_images/cs/numpy_bh_benefits.png'
+src = '/images/content_images/cs/numpy_gw_benefits.png'
 alt = 'numpy benefits'
 title = '利用されたNumPyの主要機能'
 {{< /figure >}}

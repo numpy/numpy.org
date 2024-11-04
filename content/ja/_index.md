@@ -1,5 +1,5 @@
 ---
-title:
+title: null
 ---
 
 {{< grid columns="1 2 2 3" >}}
@@ -16,6 +16,14 @@ type = 'card'
 title = '数値計算ツール群'
 body = '''
 NumPyは、様々な数学関数、乱数生成器、線形代数ルーチン、フーリエ変換などを提供しています。
+'''
+
+[[item]]
+type = 'card'
+title = 'オープンソース'
+body = '''
+NumPyは、寛容な[BSDライセンス](https://github.com/numpy/numpy/blob/main/LICENSE.txt)で公開されています。NumPyは活発で、互いを尊重し、多様性を認め合う[コミュニティ](/ja/community)によって、 [GitHub](https://github.com/numpy/numpy)上でオープンに開発されていま
+す.
 '''
 
 [[item]]
@@ -39,14 +47,6 @@ type = 'card'
 title = '使いやすさ'
 body = '''
 NumPyの高水準なシンタックスは、どんなバックグラウンドや経験を持つのプログラマーでも簡単に利用することができ、生産性を高め>ることができます。
-'''
-
-[[item]]
-type = 'card'
-title = 'オープンソース'
-body = '''
-NumPyは、寛容な[BSDライセンス](https://github.com/numpy/numpy/blob/main/LICENSE.txt)で公開されています。NumPyは活発で、互>いを尊重し、多様性を認め合う[コミュニティ](/ja/community)によって、 [GitHub](https://github.com/numpy/numpy)上でオープンに開発されていま
-す.
 '''
 
 {{< /grid >}}

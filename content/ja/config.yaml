@@ -19,28 +19,33 @@ params:
   shell:
     title: placeholder
     intro:
-      - title: NumPy を試す
+      - 
+        title: NumPy を試す
         text: インタラクティブシェルを使用して、ブラウザ上で Numpy を試してみてください。
     docslink: <a href="https://numpy.org/doc/stable" target="_blank">ドキュメント</a> を確認することを忘れないでください。
   casestudies:
     title: ケーススタディ
     features:
-      - title: 世界初のブラックホール画像
+      - 
+        title: 世界初のブラックホール画像
         text: NumPyはどのように、SciPyやMatplotlibなどのNumPyに依存するライブラリとともに、イベントホライズンテレスコープによる世界初のブラックホール画像の作成を可能にしたのでしょうか。
         img: /images/content_images/case_studies/blackhole.png
         alttext: 世界初のブラックホール画像。黒い背景にオレンジ色の円で描かれています。
         url: /ja/case-studies/blackhole-image
-      - title: 重力波の検知
+      - 
+        title: 重力波の検知
         text: 1916年、アルバート・アインシュタインは重力波を予言しました。100年後、LIGOの研究者たちはNumPyを使ってその存在を確認しました。
         img: /images/content_images/case_studies/gravitional.png
         alttext: 2つのオーブがお互いに周回し、周りの重力を変位させています。
         url: /ja/case-studies/gw-discov
-      - title: スポーツ分析
+      - 
+        title: スポーツ分析
         text: クリケット分析は、統計的モデリングと予測分析によって選手やチームのパフォーマンスを向上させることで、クリケットの試合を変えようとしています。多くの分析が、NumPyにより可能になりました。
         img: /images/content_images/case_studies/sports.jpg
         alttext: 緑のフィールド上にあるクリケットボール。
         url: /ja/case-studies/cricket-analytics
-      - title: 深層学習による姿勢推定
+      - 
+        title: 深層学習による姿勢推定
         text: DeepLabCutはNumPyを利用し、動物の種類や時間スケールによらない運動制御の理解へ向け、動物の行動観察を含む科学技術研究を加速させています。
         img: /images/content_images/case_studies/deeplabcut.png
         alttext: チータの姿勢推定
@@ -49,64 +54,84 @@ params:
     title: NumPyのエコシステム
   section5: false
   navbar:
-    - title: インストール
+    - 
+      title: インストール
       url: /ja/install
-    - title: ドキュメント
+    - 
+      title: ドキュメント
       url: https://numpy.org/doc/stable
-    - title: 学び方
+    - 
+      title: 学び方
       url: /ja/learn
-    - title: コミュニティ
+    - 
+      title: コミュニティ
       url: /ja/community
-    - title: 私達について
+    - 
+      title: 私達について
       url: /ja/about
-    - title: ニュース
+    - 
+      title: ニュース
       url: /ja/news
-    - title: NumPyに貢献する
+    - 
+      title: NumPyに貢献する
       url: /ja/contribute
   footer:
     logo: logo.svg
     socialmediatitle: ""
     socialmedia:
-      - link: https://github.com/numpy/numpy
+      - 
+        link: https://github.com/numpy/numpy
         icon: github
-      - link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
+      - 
+        link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
         icon: youtube
-      - link: https://twitter.com/numpy_team
-        icon: twitter
     quicklinks:
       column1:
         title: ""
         links:
-          - text: インストール
+          - 
+            text: インストール
             link: /ja/install
-          - text: ドキュメント
+          - 
+            text: ドキュメント
             link: https://numpy.org/doc/stable
-          - text: 学び方
+          - 
+            text: 学び方
             link: /ja/learn
-          - text: 引用する
+          - 
+            text: 引用する
             link: /ja/citing-numpy
-          - text: ロードマップ
+          - 
+            text: ロードマップ
             link: https://numpy.org/neps/roadmap.html
       column2:
         links:
-          - text: 私達について
+          - 
+            text: 私達について
             link: /ja/about
-          - text: コミュニティ
+          - 
+            text: コミュニティ
             link: /ja/community
-          - text: ユーザーの調査
+          - 
+            text: ユーザーの調査
             link: /ja/user-surveys
-          - text: NumPyに貢献する
+          - 
+            text: NumPyに貢献する
             link: /ja/contribute
-          - text: 行動規範
+          - 
+            text: 行動規範
             link: /ja/code-of-conduct
       column3:
         links:
-          - text: サポートを得る方法
+          - 
+            text: サポートを得る方法
             link: /ja/gethelp
-          - text: 利用規約
+          - 
+            text: 利用規約
             link: /ja/terms
-          - text: プライバシーポリシー
+          - 
+            text: プライバシーポリシー
             link: /ja/privacy
-          - text: プレス用資料
+          - 
+            text: プレス用資料
             link: /ja/press-kit
-

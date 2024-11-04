@@ -13,9 +13,9 @@ attributionlink = 'http://www.mousemotorlab.org/deeplabcut'
 
 {{< blockquote
     cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/"
-    by="Alexander Mathis、 *准教授、École polytechnology fe’rale de Lausanne* ([EPFL](https://www.epfl.ch/en/))"
+	by="Alexander Mathis、 *准教授、École polytechnology fe’rale de Lausanne* ([EPFL](https://www.epfl.ch/en/))"
 >}}
-オープンソースソフトウェアは生体臨床医学を加速させています。 DeepLabCut を使用すると、深層学習を使用して動物の行動を自動的にビデオ解析することができます。
+オープンソースソフトウェアは生体臨床医学を加速させています。 DeepLabCut を使用すると、深層学習を使用して動物の行動を自動的にビデオ解析することができます。 
 {{< /blockquote >}}
 
 ## DeepLabCut について
