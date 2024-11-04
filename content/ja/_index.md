@@ -22,7 +22,7 @@ NumPyは、様々な数学関数、乱数生成器、線形代数ルーチン、
 type = 'card'
 title = 'オープンソース'
 body = '''
-NumPyは、寛容な[BSDライセンス](https://github.com/numpy/numpy/blob/main/LICENSE.txt)で公開されています。NumPyは活発で、互>いを尊重し、多様性を認め合う[コミュニティ](/ja/community)によって、 [GitHub](https://github.com/numpy/numpy)上でオープンに開発されていま
+NumPyは、寛容な[BSDライセンス](https://github.com/numpy/numpy/blob/main/LICENSE.txt)で公開されています。NumPyは活発で、互いを尊重し、多様性を認め合う[コミュニティ](/ja/community)によって、 [GitHub](https://github.com/numpy/numpy)上でオープンに開発されていま
 す.
 '''
 
