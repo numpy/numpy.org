@@ -16,7 +16,7 @@ help:   ## show this help
 
 prepare:
 	git submodule update --init
-	python gen_config.py
+	python3 gen_config.py
 
 # All translations share the <team>.toml files in the en translation
 TEAMS_DIR = content/en/teams
