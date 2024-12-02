@@ -33,7 +33,7 @@ and welcoming environment.
 For a visual guide, check out this [comic](https://heyzine.com/flip-book/3e66a13901.html).
 
 <a href="https://heyzine.com/flip-book/3e66a13901.html">
-  <img src="/images/content_images/numpy-comic.png" alt="NumPy Contributor comic book cover">
+  <img src="/images/content_images/numpy-comic.png" alt="NumPy Contributor comic book cover" width="300" height="464">
 </a>
 
 ### Writing code
