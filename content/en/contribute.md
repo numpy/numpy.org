@@ -32,9 +32,7 @@ and welcoming environment.
 ### 'How to Contribute to NumPy' comic
 For a visual guide, check out this [comic](https://heyzine.com/flip-book/3e66a13901.html).
 
-<a href="https://heyzine.com/flip-book/3e66a13901.html">
-  <img src="static/images/content_images/numpy-comic.png" alt="NumPy Contributor comic book cover">
-</a>
+{{< comic >}}
 
 ### Writing code
 
