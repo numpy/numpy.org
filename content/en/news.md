@@ -1,9 +1,25 @@
 ---
 title: News
 sidebar: false
-newsHeader: "NumPy 2.1 released!"
-date: 2024-08-18
+newsHeader: "NumPy 2.2.0 released!"
+date: 2024-12-8
 ---
+
+### NumPy 2.2.0 released
+
+_8 Dec, 2024_ -- The NumPy 2.2.0 release is a quick release that brings us back
+into sync with the usual twice yearly release cycle. There have been a number
+of small cleanups, improvements to the StringDType, and better support for free
+threaded Python. Highlights are: 
+
+* New functions ``matvec`` and ``vecmat``,
+* Many improved annotations,
+* Improved support for the new StringDType,
+* Improved support for free threaded Python,
+* Fixes for f2py.
+
+This release supports Python versions 3.10-3.13.
+
 
 ### NumPy 2.1.0 released
 
@@ -426,6 +442,7 @@ Here is a list of NumPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- NumPy 2.2.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.0)) -- _8 Dec 2024_.
 - NumPy 2.1.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.1.3)) -- _2 Nov 2024_.
 - NumPy 2.1.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.1.2)) -- _5 Oct 2024_.
 - NumPy 2.1.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.1.1)) -- _3 Sep 2024_.
