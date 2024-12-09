@@ -19,28 +19,33 @@ params:
   shell:
     title: placeholder
     intro:
-      - title: Experimentar o NumPy
+      - 
+        title: Experimentar o NumPy
         text: Use o shell interativo para testar o NumPy no navegador
     docslink: Não se esqueça de conferir a <a href="https://numpy.org/doc/stable" target="_blank">documentação</a>.
   casestudies:
     title: ESTUDOS DE CASO
     features:
-      - title: A Primeira Imagem de um Buraco Negro
+      - 
+        title: A Primeira Imagem de um Buraco Negro
         text: Como o NumPy, junto com outras bibliotecas como SciPy e Matplotlib que dependem do NumPy, permitiram ao Event Horizon Telescope gerar a primeira imagem de um buraco negro da história.
         img: /images/content_images/case_studies/blackhole.png
         alttext: Primeira imagem de um buraco negro. É um círculo laranja em um fundo preto.
         url: /pt/case-studies/blackhole-image
-      - title: Descoberta de Ondas Gravitacionais
+      - 
+        title: Descoberta de Ondas Gravitacionais
         text: Em 1916, Albert Einstein previu ondas gravitacionais; 100 anos depois, sua existência foi confirmada pelos cientistas do LIGO usando NumPy.
         img: /images/content_images/case_studies/gravitional.png
         alttext: Duas esferas orbitando a si mesmas. Elas deslocam a gravidade em seu entorno.
         url: /pt/case-studies/gw-discov
-      - title: Análise Esportiva
+      - 
+        title: Análise Esportiva
         text: A análise de críquete está mudando o jogo ao melhorar o desempenho de jogadores e times através de modelagem estatística e análise preditiva. O NumPy possibilita muitas dessas análises.
         img: /images/content_images/case_studies/sports.jpg
         alttext: Bola de críquete em um campo verde
         url: /pt/case-studies/cricket-analytics
-      - title: Estimação de poses usando deep learning
+      - 
+        title: Estimação de poses usando deep learning
         text: DeepLabCut usa o NumPy para acelerar estudos científicos que envolvem comportamento animal para entender melhor o controle motor em várias espécies e escalas de tempo.
         img: /images/content_images/case_studies/deeplabcut.png
         alttext: Análise de pose de um guepardo
@@ -49,63 +54,84 @@ params:
     title: ECOSSISTEMA
   section5: false
   navbar:
-    - title: Instalação
+    - 
+      title: Instalação
       url: /pt/install
-    - title: Documentação
+    - 
+      title: Documentação
       url: https://numpy.org/doc/stable
-    - title: Aprenda
+    - 
+      title: Aprenda
       url: /pt/learn
-    - title: Comunidade
+    - 
+      title: Comunidade
       url: /pt/community
-    - title: Sobre
+    - 
+      title: Sobre
       url: /pt/about
-    - title: Notícias
+    - 
+      title: Notícias
       url: /pt/news
-    - title: Contribuir
+    - 
+      title: Contribuir
       url: /pt/contribute
   footer:
     logo: logo.svg
     socialmediatitle: ""
     socialmedia:
-      - link: https://github.com/numpy/numpy
+      - 
+        link: https://github.com/numpy/numpy
         icon: github
-      - link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
+      - 
+        link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
         icon: youtube
-      - link: https://twitter.com/numpy_team
-        icon: twitter
     quicklinks:
       column1:
         title: ""
         links:
-          - text: Instalação
+          - 
+            text: Instalação
             link: /pt/install
-          - text: Documentação
+          - 
+            text: Documentação
             link: https://numpy.org/doc/stable
-          - text: Aprenda
+          - 
+            text: Aprenda
             link: /pt/learn
-          - text: Citando o Numpy
+          - 
+            text: Citando o Numpy
             link: /pt/citing-numpy
-          - text: Roadmap
+          - 
+            text: Roadmap
             link: https://numpy.org/neps/roadmap.html
       column2:
         links:
-          - text: Sobre
+          - 
+            text: Sobre
             link: /pt/about
-          - text: Comunidade
+          - 
+            text: Comunidade
             link: /pt/community
-          - text: Pesquisas de usuário
+          - 
+            text: Pesquisas de usuário
             link: /pt/user-surveys
-          - text: Contribuir
+          - 
+            text: Contribuir
             link: /pt/contribute
-          - text: Código de Conduta
+          - 
+            text: Código de Conduta
             link: /pt/code-of-conduct
       column3:
         links:
-          - text: Ajuda
+          - 
+            text: Ajuda
             link: /pt/gethelp
-          - text: Termos de uso (EN)
+          - 
+            text: Termos de uso (EN)
             link: /pt/terms
-          - text: Privacidade
+          - 
+            text: Privacidade
             link: /pt/privacy
-          - text: Kit de imprensa
+          - 
+            text: Kit de imprensa
             link: /pt/press-kit
