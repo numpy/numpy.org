@@ -7,15 +7,15 @@ date: 2023-09-16
 
 ### NumPy 2.2.0 がリリースされました。
 
-_2024年12月8日_ -- NumPy 2.2.0のリリースは通常の一年に二回のリリースのためのリリースです。 今回のリリースでは、いくつかの小さなコードクリーンアップや、StringDTypeの改善、そしてスレッドフリーのPythonに対するサポートの向上を実施しています。 このリリースの目玉機能は下記の通りです。
+_2024年12月8日_ -- NumPy 2.2.0のリリースは通常の一年に二回のリリースのためのリリースです。 今回のリリースでは、いくつかの小さなコードクリーンアップや、StringDTypeの改善、そしてPythonのフリースレッドに対するサポートの向上を実施しています。 このリリースの目玉機能は下記の通りです。
 
 * 新しい関数である`matvec`と`vecmat`の追加
 * 多数のアノテーションの改善
 * 新しいStringDTypeのサポートの改善
-* Improved support for free threaded Python,
-* Fixes for f2py.
+* Pythonのフリースレッドサポートの改善
+* f2pyの修正
 
-This release supports Python versions 3.10-3.13.
+今回のリリースでは Python のバージョン 3.10から3.13 がサポートされています。
 
 
 ### NumPy 1.26.0 がリリースされました。
@@ -274,8 +274,8 @@ _2019年11月15日_ -- NumPyと、NumPyの重要な依存ライブラリの1つ�
 
 こちらは、より以前のNumPyリリースのリストで、各リリースノートへのリンクが記載されています。 全てのバグフィックスリリース(バージョン番号`x.y.z` の`z`だけが変更されたもの)は新しい機能追加はされず、マイナーリリース (`y` が増えたもの)は、新しい機能追加されています。
 
-- NumPy 2.2.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.0)) -- _8 Dec 2024_.
-- NumPy 2.1.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.1.3)) -- _2 Nov 2024_.
+- NumPy 2.2.0 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v2.2.0)) -- _2024年12月8日_.
+- NumPy 2.1.3 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v2.1.3)) -- _2024年11月2日_.
 - NumPy 2.1.2 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v2.1.2)) -- _2024年10月5日_.
 - NumPy 2.1.1 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v2.1.1)) -- _2024年9月3日_.
 - NumPy 2.0.2 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v2.0.2)) -- _2024年8月26日_.
