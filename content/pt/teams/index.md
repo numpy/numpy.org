@@ -1,9 +1,10 @@
 ---
-title: Times NumPy
+title: NumPy Teams
 sidebar: false
 ---
 
-Somos uma equipe internacional com a missão de apoiar comunidades científicas e de pesquisa em todo o mundo construindo software de código aberto de qualidade. [Junte-se a nós](/contribute)!
+Somos uma equipe internacional com a missão de apoiar comunidades científicas e de pesquisa em todo o mundo construindo software de código aberto de qualidade.
+[Junte-se a nós](/contribute)!
 
 ### Maintainers
 
@@ -24,6 +25,10 @@ Somos uma equipe internacional com a missão de apoiar comunidades científicas 
 ### Survey team
 
 {{< grid file="survey-team.toml" columns="2 3 4 5" />}}
+
+### Translations team
+
+{{< grid file="translations-team.toml" columns="2 3 4 5" />}}
 
 ### Emeritus maintainers
 
