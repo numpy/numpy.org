@@ -3,26 +3,25 @@ title: NumPy開発チーム
 sidebar: false
 ---
 
-私たちは、高品質のオープンソースソフトウェアを構築することで、世界中の科学・研究コミュニティをサポートすることを使命とする国際的なチームです。 是非[参加してください](/contribute)!
-[Join us](/contribute)!
+私たちは、高品質のオープンソースソフトウェアを構築することで、世界中の科学・研究コミュニティをサポートすることを使命とする国際的なチームです。 是非[参加してください](/ja/contribute)!
 
 ### Maintainers
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
-### Docs team
+### ドキュメントチーム
 
 {{< grid file="docs-team.toml" columns="2 3 4 5" />}}
 
-### Web team
+### Webチーム
 
 {{< grid file="web-team.toml" columns="2 3 4 5" />}}
 
-### Triage team
+### トリアージチーム
 
 {{< grid file="triage-team.toml" columns="2 3 4 5" />}}
 
-### Survey team
+### アンケートチーム
 
 {{< grid file="survey-team.toml" columns="2 3 4 5" />}}
 
@@ -30,10 +29,10 @@ sidebar: false
 
 {{< grid file="translations-team.toml" columns="2 3 4 5" />}}
 
-### Emeritus maintainers
+### 名誉メンテナー
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
 
-# Governance
+# 管理委員会
 
 For the list of people on the Steering Council, please see [here](https://numpy.org/devdocs/dev/governance/people.html).
