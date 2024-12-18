@@ -1,5 +1,5 @@
 ---
-title: NumPy Teams
+title: Times NumPy
 sidebar: false
 ---
 
