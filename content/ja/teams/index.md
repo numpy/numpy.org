@@ -25,7 +25,7 @@ sidebar: false
 
 {{< grid file="survey-team.toml" columns="2 3 4 5" />}}
 
-### Translations team
+### 翻訳チーム
 
 {{< grid file="translations-team.toml" columns="2 3 4 5" />}}
 
