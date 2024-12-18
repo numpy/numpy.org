@@ -27,6 +27,10 @@ communities worldwide by building quality, open-source software.
 
 {{< grid file="survey-team.toml" columns="2 3 4 5" />}}
 
+### Translations team
+
+{{< grid file="translations-team.toml" columns="2 3 4 5" />}}
+
 ### Emeritus maintainers
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}

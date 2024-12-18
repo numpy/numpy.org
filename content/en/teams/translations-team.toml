@@ -1,0 +1,99 @@
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/3949932?u=aacac68df60d2cf64c17c7e5aa17adf8b738aa7b&v=4"'
+alt = 'Avatar of Melissa Weber Mendonça'
+{{< /image >}}
+Melissa Weber Mendonça'''
+link = 'https://github.com/melissawm'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg'
+alt = 'Avatar of Juan Pablo Duque'
+{{< /image >}}
+Juan Pablo Duque (@juanpabloduqueo)'''
+link = 'https://scientific-python.crowdin.com'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg'
+alt = 'Avatar of Yeimi'
+{{< /image >}}
+Yeimi (@yeimiyaz)'''
+link = 'https://scientific-python.crowdin.com'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg'
+alt = 'Avatar of Atsushi Sakai'
+{{< /image >}}
+Atsushi Sakai (@AtsushiSakai)'''
+link = 'https://scientific-python.crowdin.com'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg'
+alt = 'Avatar of Getúlio Silva'
+{{< /image >}}
+Getúlio Silva (@getuliosilva)'''
+link = 'https://scientific-python.crowdin.com'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg'
+alt = 'Oriol Abril-Pla'
+{{< /image >}}
+Oriol Abril-Pla (@OriolAbril)'''
+link = 'https://scientific-python.crowdin.com'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg'
+alt = 'Avatar of @julio'
+{{< /image >}}
+@julio'''
+link = 'https://scientific-python.crowdin.com'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg'
+alt = 'Avatar of Ali Faraji'
+{{< /image >}}
+Ali Faraji (@ali)'''
+link = 'https://scientific-python.crowdin.com'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg'
+alt = 'Avatar of Saeed Foroutan'
+{{< /image >}}
+Saeed Foroutan (@SaeedForoutan)'''
+link = 'https://scientific-python.crowdin.com'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg'
+alt = 'Avatar of @pyjavo'
+{{< /image >}}
+@pyjavo'''
+link = 'https://scientific-python.crowdin.com'
