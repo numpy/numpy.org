@@ -1,35 +1,40 @@
 ---
-title: Equipos de NumPy
+title: NumPy Teams
 sidebar: false
 ---
 
-Somos un equipo internacional en una misión para apoyar a las comunidades científicas y de investigaciones alrededor del mundo, mediante la construcción de software de código abierto de calidad.
-¡[Únete](/contribute)!
+We are an international team on a mission to support scientific and research
+communities worldwide by building quality, open-source software.
+[Join us](/contribute)!
 
-### Mantenedores
+### Maintainers
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
-### Equipo de documentación
+### Docs team
 
 {{< grid file="docs-team.toml" columns="2 3 4 5" />}}
 
-### Equipo de la página web
+### Web team
 
 {{< grid file="web-team.toml" columns="2 3 4 5" />}}
 
-### Equipo de clasificación
+### Triage team
 
 {{< grid file="triage-team.toml" columns="2 3 4 5" />}}
 
-### Equipo de encuestas
+### Survey team
 
 {{< grid file="survey-team.toml" columns="2 3 4 5" />}}
 
-### Mantenedores eméritos
+### Translations team
+
+{{< grid file="translations-team.toml" columns="2 3 4 5" />}}
+
+### Emeritus maintainers
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
 
-# Gobernanza
+# Governance
 
-Para la lista de personas del Consejo Directivo, por favor ve [aquí](https://numpy.org/about/).
+For the list of the Steering Council members, please see [here](https://numpy.org/about/).
