@@ -59,7 +59,7 @@ Planejamos várias traduções do [numpy.org](https://numpy.org) para tornar o N
 
 ### Coordenação e promoção na comunidade
 
-Através do contato com a comunidade podemos compartilhar nosso trabalho para mais pessoas e descobrir onde precisamos trabalhar mais. Estamos ansiosos para que mais pessoas se envolvam em esforços como nossa conta no [Twitter](https://twitter.com/numpy_team), na organização de [sprints](https://scisprints.github.io/) sobre o NumPy, uma newsletter, e talvez um blog.
+Através do contato com a comunidade podemos compartilhar nosso trabalho para mais pessoas e descobrir onde precisamos trabalhar mais. Estamos ansiosos para que mais pessoas se envolvam em esforços como nossa conta no [X](https://x.com/numpy_team), na organização de [sprints](https://scisprints.github.io/) sobre o NumPy, uma newsletter, e talvez um blog.
 
 ### Financiamento
 
