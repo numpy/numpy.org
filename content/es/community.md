@@ -40,7 +40,7 @@ Una sala de chat en tiempo real para hacer preguntas sobre las _contribuciones_ 
 
 Si desea encontrar un grupo de estudio o reunión local para aprender más sobre NumPy y el ecosistema más amplio de paquetes de Python para ciencia de datos y computación científica, te recomendamos que explores los [PyData meetups](https://www.meetup.com/pro/pydata/) (más de 150 reuniones, más de 100,000 miembros).
 
-NumPy también organiza ocasionalmente sprints presenciales para su equipo y colaboradores interesados. Estos normalmente se planifican con varios meses de anticipación y se anunciarán en la [lista de correo](https://mail.python.org/mailman/listinfo/numpy-discussion) y en [X (antes conocido como Twitter)](https://x.com/numpy_team).
+NumPy también organiza ocasionalmente sprints presenciales para su equipo y colaboradores interesados. Estos normalmente se planifican con varios meses de anticipación y se anunciarán en la [lista de correo](https://mail.python.org/mailman/listinfo/numpy-discussion) y en [X (antes conocido como Twitter)](https://twitter.com/numpy_team).
 
 
 ## Conferencias
