@@ -32,11 +32,11 @@ link = 'https://scientific-python.crowdin.com'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
-src = 'https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg'
+src = 'https://avatars.githubusercontent.com/u/3813847?v=4'
 alt = 'Avatar of Atsushi Sakai'
 {{< /image >}}
 Atsushi Sakai (@AtsushiSakai)'''
-link = 'https://scientific-python.crowdin.com'
+link = 'https://github.com/AtsushiSakai'
 
 [[item]]
 type = 'card'
