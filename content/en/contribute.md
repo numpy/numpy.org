@@ -92,8 +92,7 @@ issue](https://github.com/numpy/numpy.org/issues/55) to sign up.
 ### Community coordination and outreach
 
 Through community contact we share our work more widely and learn where we're
-falling short. We're eager to get more people involved in efforts like our
-[X](https://x.com/numpy_team) account, organizing NumPy [code
+falling short. We're eager to get more people involved in efforts like organizing NumPy [code
 sprints](https://scisprints.github.io/), a newsletter, and perhaps a blog.
 
 ### Fundraising
