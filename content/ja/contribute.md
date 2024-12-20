@@ -60,6 +60,6 @@ NumPyは何年にも渡ってボランティアだけ活動していましたが
 
 ### 寄付
 
-寄付をすることでNumpyに貢献したい場合は、 [https://numpy.org/about/#donate](https://numpy.org/about/#donate) をご覧ください。
+寄付をすることでNumpy に貢献したい場合は、 [https://numpy.org/about/#donate](https://numpy.org/about/#donate) をご覧ください。
 
 
