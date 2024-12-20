@@ -58,7 +58,7 @@ Through community contact we share our work more widely and learn where we're fa
 
 For many years, NumPy was maintained by dedicated volunteers, but as its importance grew it became clear that to ensure stability and growth we would need financial support. [This SciPy'19 talk](https://www.youtube.com/watch?v=dBTJD_FDVjU) explains how much difference that support has made. Like most nonprofits, we are constantly seeking grants, sponsorships, and other kinds of funding. We have a number of ideas and of course we welcome more. Fundraising is a scarce skill here -- we'd appreciate your help.
 
-### التبرع
+### Donate
 
 If you'd like to contribute to NumPy by making a donation, visit [https://numpy.org/about/#donate](https://numpy.org/about/#donate).
 
