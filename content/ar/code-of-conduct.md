@@ -1,83 +1,83 @@
 ---
-title: القواعد السلوكية لنمباي
+title: NumPy Code of Conduct
 sidebar: false
 aliases:
   - /conduct.html
 ---
 
-### المقدمة
+### Introduction
 
-هذه القواعد السلوكية تنطبق علي جميع المجالات التي تدار من قبل مشروع نمباي, بما في ذلك كل قوائم البريد سواء كانت خاصة أم عامة ومتعقبات القضايا والويكي والمدونات وتويتر وأي قناة اتصال تستخدم من قبل مجتمعنا. مشروع نمباي لا يقوم بتنظيم أي فعاليات شخصية ومع ذلك أي فعاليات متعلقة لمجتمعنا ينبغي أن تكون لها قواعد سلوكية مشابهة لروح هذا المستند.
+This Code of Conduct applies to all spaces managed by the NumPy project, including all public and private mailing lists, issue trackers, wikis, blogs, X, and any other communication channel used by our community. The NumPy project does not organise in-person events, however events related to our community should have a code of conduct similar in spirit to this one.
 
-ينبغي علي كل شخص مشارك في مجتمع نمباي أن يحتذي بهذه القواعد سواء كان مشترك بصورة رسمية أو غير رسمية، أو يدعي انتمائه للمشروع في أي انشطه متعلقة للمشروع وخاصة عندما يمثل المشروع تحت أي دور.
+This Code of Conduct should be honored by everyone who participates in the NumPy community formally or informally, or claims any affiliation with the project, in any project-related activities and especially when representing the project, in any role.
 
-هذه القواعد ليست شاملة أو كاملة. لكنها تساعد علي استخلاص فهمنا المشترك للتعاون في ظل بيئة وأهداف مشتركة. من فضلك حاول أن تتبع هذه القواعد روحا ونصا من أجل إنشاء بيئة ودودة ومنتجة نثري بها المجتمع المحيط.
+This code is not exhaustive or complete. It serves to distill our common understanding of a collaborative, shared environment and goals. Please try to follow this code in spirit as much as in letter, to create a friendly and productive environment that enriches the surrounding community.
 
-### القواعد الارشادية المحددة
+### Specific Guidelines
 
-نحن نسعى إلي:
+We strive to:
 
-1. أن نكون منفتحين. نحن ندعو الجميع للمشاركة في مجتمعنا. نحن نفضل استخدام وسائل الاتصال العامة للرسائل المتعلقة بالمشروع، ما لم نناقش شيئا حساسا. ينطبق هذا علي الرسائل الخاصة بطلب المساعدة أوالمتعلقة بدعم المشروع ، ليس فقط ﻷن طلبات الدعم العام محببة لاحتمالية الوصول للإجابة عن الاستفسارات بشكل اكبر، ولكن أيضا لضمان سهولة الكشف والتصحيح عن أي أخطاء غير مقصودة في الإجابات.
-2. أن نكون عطوفين ومرحبين واكثر ودا وصبرا. نحن نعمل معا لحل الخلافات ونفترض حسن النوايا. قد نواجه بعض الإحباط من حين ألي أخر لكننا لا نسمح للإحباط أن يتحول إلي هجوم شخصي. فالمجتمع الذي يشعر فيه الناس بعدم الارتياح أو بالتهديد ليس مجتمعا منتجا.
-3. أن نكون متعاونين. كما سيستفيد بعملنا الآخرين سنستفيد نحن أيضا بعملهم. عندما نقوم بصنع شيئاً لمنفعة المشروع ، سوف نكون علي الاستعداد لشرح للآخرين كيفية عمله ، حتي يكونوا قادرين علي البناء عليه لجعله أفضل. أي قرار سنتخذه سيؤثر علي المستخدمين وعلي زملائنا في العمل لذا يجب أن تأخذ العواقب علي محمل الجد عندما نتخذ القرارات.
-4. أن نكون اكثر استطلاعاً. لا أحد علي دراية بكل شئ! طرح الأسئلة في وقت مبكر قد يجنب العديد من المشاكل اللاحقة ، لذا نحن نشجع الأسئلة علي الرغم من أننا قد نعيد توجهها إلي المنتدي المناسب. وسنحاول جاهدين أن نكون متجاوبين ومفيدين.
-5. أن نكون حذريين في اختيار الكلمات. وأن نتوخى الحذر والاحترام في اتصالاتنا، ونتحمل المسؤولية عن خطابنا. وأن نكون عطوفين مع الأخريين. لا تهين أو تحط من قدر المشاركين الآخرين. نحن لن نتقبل المضايقات أو أي سلوك استبعادي أخر ، مثل:
-    * التهديدات العنيفة أو الخطاب الموجه ضد الأخر.
-    * النكات والتلميحات القائمة علي الجنس أو العرق أو اي أشكال التمييز الأخري.
-    * نشر مواد جنسية صريحة أو مواد تشجع علي العنف.
-    * نشر (أو التهديد بنشر) المعلومات التعريفية الشخصية لأناس آخرين ("doxing").
-    * مشاركة المحتوى الخاص، مثل رسائل البريد الإلكتروني المرسلة بشكل خاص أو غير علني، أو المنتديات غير المسجلة مثل تاريخ قناة IRC، بدون موافقة المرسل.
-    * الإهانات الشخصية، خاصةً التي تستخدم مصطلحات عنصرية أو متحيزة جنسياً.
-    * الاهتمام الجنسي الغير مرحب به.
-    * البذائه المفرطه. يرجى تجنب الكلمات البذيئة، يختلف الناس اختلافا كبيرا في حساسيتهم للبذائه.
-    * • المضايقة المتكررة للآخرين. بشكل عام، إذا طلب منك شخص ما التوقف فيجب عليك التوقف.
-    * الدعوة إلى أي من السلوكيات المذكور أعلاه أو التشجيع إليها.
+1. Be open. We invite anyone to participate in our community. We prefer to use public methods of communication for project-related messages, unless discussing something sensitive. This applies to messages for help or project-related support, too; not only is a public support request much more likely to result in an answer to a question, it also ensures that any inadvertent mistakes in answering are more easily detected and corrected.
+2. Be empathetic, welcoming, friendly, and patient. We work together to resolve conflict, and assume good intentions. We may all experience some frustration from time to time, but we do not allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.
+3. Be collaborative. Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of the project, we are willing to explain to others how it works, so that they can build on the work to make it even better. Any decision we make will affect users and colleagues, and we take those consequences seriously when making decisions.
+4. Be inquisitive. Nobody knows everything! Asking questions early avoids many problems later, so we encourage questions, although we may direct them to the appropriate forum. We will try hard to be responsive and helpful.
+5. Be careful in the words that we choose. We are careful and respectful in our communication, and we take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. We will not accept harassment or other exclusionary behaviour, such as:
+    * Violent threats or language directed against another person.
+    * Sexist, racist, or otherwise discriminatory jokes and language.
+    * Posting sexually explicit or violent material.
+    * Posting (or threatening to post) other people’s personally identifying information (“doxing”).
+    * Sharing private content, such as emails sent privately or non-publicly, or unlogged forums such as IRC channel history, without the sender’s consent.
+    * Personal insults, especially those using racist or sexist terms.
+    * Unwelcome sexual attention.
+    * Excessive profanity. Please avoid swearwords; people differ greatly in their sensitivity to swearing.
+    * Repeated harassment of others. In general, if someone asks you to stop, then stop.
+    * Advocating for, or encouraging, any of the above behaviour.
 
-### بيان التنوع
+### Diversity Statement
 
-يرحب ويشجع مشروع نمباي بمشاركات الجميع. نحن ملتزمون بأن نكون مجتمعا يتمتع كل فرد فيه بكونه جزء منه. وبالرغم أننا قد لا نكون قادرين دوماً على استيعاب تفضيلات كل فرد، إلا إننا حريصين علي بذل قصارى جهدنا لمعاملة الجميع معاملة كريمة.
+The NumPy project welcomes and encourages participation by everyone. We are committed to being a community that everyone enjoys being part of. Although we may not always be able to accommodate each individual’s preferences, we try our best to treat everyone kindly.
 
-بغض النظر عن كيفية تعريفك لنفسك أو كيف يتصورك الآخرون:  نحن نرحب بك. وعلى الرغم من أنه لا يمكن لأي قائمة أن تكون شاملة، فإننا نكرم بوضوح التنوع في: السن والثقافة والأصل العرقي والوراثي والهوية الجنسية واللغة والأصل القومي وتنوع العصبي والتكوين الظاهري والمعتقد السياسي والمهنة والعرق والديانة والتوجه الجنسي والحالة الاجتماعية الاقتصادية وثقافات الفرعية والقدرات التقنية بما لا يتعارض مع هذه القواعد السلوكية.
+No matter how you identify yourself or how others perceive you: we welcome you. Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct.
 
-على الرغم من أننا نتقبل الناس بجميع اللغات التي يتقنوها، إلا أن تطوير نمباي يجري باستخدام اللغة الإنجليزية.
+Though we welcome people fluent in all languages, NumPy development is conducted in English.
 
-ترد في قواعد السلوكية المذكورة أعلاه تفاصيل معايير السلوك في مجتمع نمباي. وينبغي علي المشاركين في مجتمعنا أن يتمسكوا بهذه المعايير في جميع فعاليتهم وأن يساعدوا الآخرين على القيام بالمثل (انظر الفرع التالي).
+Standards for behaviour in the NumPy community are detailed in the Code of Conduct above. Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
 
-### القواعد الارشادية للإبلاغ
+### Reporting Guidelines
 
-We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. وندرك أيضاً أن الناس قد يمرون أحيانا بيوم سيئ أو قد لا يكونون علي دراية ببعض إرشادات القواعد السلوكية. لذا ضع هذا في عين الاعتبار عند اتخاذ القرار بشأن كيفية الرد علي انتهاك هذه القواعد.
+We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We also recognize that sometimes people may have a bad day, or be unaware of some of the guidelines in this Code of Conduct. Please keep this in mind when deciding on how to respond to a breach of this Code.
 
-أما بالنسبة للانتهاكات المتعمدة بشكل واضح فيجب إبلاغ لجنة قواعد السلوك عليها (انظر أدناه). في حالة حدوث خروفات غير متعمدة فيمكنك الرد على الشخص المعني والإشارة إلى قواعد السلوك هذه (سواء علناً أو سراً، أينما كان ذلك مناسباً). وإذا كنت تفضل عدم القيام بذلك، فلا تتردد في إبلاغ اللجنة المعنية بقواعد السلوك مباشرة ويمكنك أيضاً طلب المشورة من اللجنة بكل ثقة.
+For clearly intentional breaches, report those to the Code of Conduct Committee (see below). For possibly unintentional breaches, you may reply to the person and point out this code of conduct (either in public or in private, whatever is most appropriate). If you would prefer not to do that, please feel free to report to the Code of Conduct Committee directly, or ask the Committee for advice, in confidence.
 
-يمكنك إبلاغ لجنة القواعد السلوكية لنمباي عبر numpy-conduct@googlegroups.com.
+You can report issues to the NumPy Code of Conduct Committee at numpy-conduct@googlegroups.com.
 
-وتتألف اللجنة حاليا مما يلي:
+Currently, the Committee consists of:
 
-* ستيفان فان دير والت (Stefan van der Walt)
-* ميليسا فيبر ميندونسا (Melissa Weber Mendonça)
+* Stefan van der Walt
+* Melissa Weber Mendonça
 * Rohit Goswami
 
-لو كان بلاغك متورط به أحد أعضاء اللجنة أو إذا كانوا يشعرون بأن لديهم تضارب في المصالح يحدهم عن التعامل معه. أو إذا شعرت بعدم الارتياح لأي سبب من الأسباب لإبلاغ اللجنة ، فبمكانك الاتصال عوضا عن ذلك بفريق NumFOCUS الأعلى على [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
+If your report involves any members of the Committee, or if they feel they have a conflict of interest in handling it, then they will recuse themselves from considering your report. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
-### تسوية بلاغات الحوادث & نفاذ القواعد السلوكية
+### Incident reporting resolution & Code of Conduct enforcement
 
 _This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](report-handling-manual).
 
-سوف نقوم بالتحقيق في جميع الشكاوى والرد عليها. وستقوم لجنة القواعد السلوكية واللجنة التوجيهية لنمباي (إذا اشتركت) بحماية هوية المبلِّغ وسوف يتم التعامل مع مضمون الشكاوى على أنها سرية (ما لم يوافق المبلغ على غير ذلك).
+We will investigate and respond to all complaints. The NumPy Code of Conduct Committee and the NumPy Steering Committee (if involved) will protect the identity of the reporter, and treat the content of complaints as confidential (unless the reporter agrees otherwise).
 
-في حالة حدوث إخلالات خطيرة وواضحة، مثل التهديد أو العنف الشخصي أو التحيز جنسياً أو عنصرياً، سنقوم على الفور بفصل المقدم عن قنوات الاتصال الخاصة بنمباي؛ يرجى الاطلاع على الدليل للحصول على التفاصيل.
+In case of severe and obvious breaches, e.g. personal threat or violent, sexist or racist language, we will immediately disconnect the originator from NumPy communication channels; please see the manual for details.
 
-وفي الحالات التي لا تنطوي على انتهاكات خطيرة وواضحة لقواعد السلوك هذه، تكون عملية التصرف بشأن أي تقرير يرد عن انتهاك القواعد السلوكية علي ما يلي:
+In cases not involving clear severe and obvious breaches of this Code of Conduct the process for acting on any received Code of Conduct violation report will be:
 
-1. الإقرار بتلقي التقرير،
-2. مناقشات/ملاحظات معقولة،
-3. الوساطة (إذا لم تساعد ردود الفعل، وفقط إذا وافق كل من المبلّغ والمبلّغ على ذلك)،
+1. acknowledge report is received,
+2. reasonable discussion/feedback,
+3. mediation (if feedback didn’t help, and only if both reporter and reportee agree to this),
 4. enforcement via transparent decision (see [Resolutions](report-handling-manual/#resolutions)) by the Code of Conduct Committee.
 
-واللجنة سترد على أي تقرير في أقرب وقت ممكن، وفي الأغلب 72 ساعة على الأكثر.
+The Committee will respond to any report as soon as possible, and at most within 72 hours.
 
-### تعليق ختامي
+### Endnotes
 
-نحن ممتنون للمجموعات التي تقف وراء الوثائق التالية التي استخلصنا منها المضمون والإلهام:
+We are thankful to the groups behind the following documents, from which we drew content and inspiration:
 
-- [القواعد السلوكية لسكابي](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
+- [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
