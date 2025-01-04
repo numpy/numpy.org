@@ -1,8 +1,8 @@
 ---
-title: News
+title: "News Title"
 sidebar: false
 newsHeader: "NumPy 2.2.0 released!"
-date: 2024-12-8
+date: 2024-12-30
 ---
 
 ### NumPy 2.2.0 released
@@ -10,16 +10,15 @@ date: 2024-12-8
 _8 Dec, 2024_ -- The NumPy 2.2.0 release is a quick release that brings us back
 into sync with the usual twice yearly release cycle. There have been a number
 of small cleanups, improvements to the StringDType, and better support for free
-threaded Python. Highlights are: 
+threaded Python. Highlights are:
 
-* New functions ``matvec`` and ``vecmat``,
-* Many improved annotations,
-* Improved support for the new StringDType,
-* Improved support for free threaded Python,
-* Fixes for f2py.
+- New functions `matvec` and `vecmat`,
+- Many improved annotations,
+- Improved support for the new StringDType,
+- Improved support for free threaded Python,
+- Fixes for f2py.
 
 This release supports Python versions 3.10-3.13.
-
 
 ### NumPy 2.1.0 released
 
@@ -29,12 +28,11 @@ updated Python support, it helps get NumPy back to its usual release
 cycle after the extended development of 2.0. The highlights for this
 release are:
 
--   Support for Python 3.13.
--   Preliminary support for free threaded Python 3.13.
--   Support for the array-api 2023.12 standard.
+- Support for Python 3.13.
+- Preliminary support for free threaded Python 3.13.
+- Support for the array-api 2023.12 standard.
 
 Python versions 3.10-3.13 are supported by this release.
-
 
 ### NumPy 2.0.0 released
 
@@ -42,7 +40,7 @@ _16 Jun, 2024_ -- NumPy 2.0.0 is the first major release since 2006. It is the
 result of 11 months of development since the last feature release and is the
 work of 212 contributors spread over 1078 pull requests. It contains a large
 number of exciting new features as well as changes to both the Python and C
-APIs.  It includes breaking changes that could not happen in a regular minor
+APIs. It includes breaking changes that could not happen in a regular minor
 release - including an ABI break, changes to type promotion rules, and API
 changes which may not have been emitting deprecation warnings in 1.26.x. Key
 documents related to how to adapt to changes in NumPy 2.0 include:
@@ -53,7 +51,6 @@ documents related to how to adapt to changes in NumPy 2.0 include:
 
 The blog post ["NumPy 2.0: an evolutionary milestone"](https://blog.scientific-python.org/numpy/numpy2/)
 tells a bit of the story about how this release came together.
-
 
 ### NumPy 2.0 release date: June 16
 
@@ -69,26 +66,26 @@ works with NumPy `2.0.0rc2`. **Please see the following for more details:**
 - The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
 - Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
-
 ### NumFOCUS end of the year fundraiser
-_Dec 19, 2023_ -- NumFOCUS has teamed up with PyCharm during their EOY campaign to offer a 30% discount 
-on first-time PyCharm licenses. All year-one revenue from PyCharm purchases from now 
-until December 23rd, 2023 will go directly to the NumFOCUS programs. 
 
-Use unique URL that will allow to track purchases https://lp.jetbrains.com/support-data-science/ 
-or a coupon code ISUPPORTDATASCIENCE 
+_Dec 19, 2023_ -- NumFOCUS has teamed up with PyCharm during their EOY campaign to offer a 30% discount
+on first-time PyCharm licenses. All year-one revenue from PyCharm purchases from now
+until December 23rd, 2023 will go directly to the NumFOCUS programs.
+
+Use unique URL that will allow to track purchases https://lp.jetbrains.com/support-data-science/
+or a coupon code ISUPPORTDATASCIENCE
 
 ### NumPy 1.26.0 released
 
 _Sep 16, 2023_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html)
 is now available. The highlights of the release are:
 
-* Python 3.12.0 support.
-* Cython 3.0.0 compatibility.
-* Use of the Meson build system
-* Updated SIMD support
-* f2py fixes, meson and bind(x) support
-* Support for the updated Accelerate BLAS/LAPACK library
+- Python 3.12.0 support.
+- Cython 3.0.0 compatibility.
+- Use of the Meson build system
+- Updated SIMD support
+- f2py fixes, meson and bind(x) support
+- Support for the updated Accelerate BLAS/LAPACK library
 
 The NumPy 1.26.0 release is a continuation of the 1.25.x series that marks the
 transition to the Meson build system and provision of support for Cython 3.0.0.
@@ -99,33 +96,35 @@ The Python versions supported by this release are 3.9-3.12.
 
 ### numpy.org is now available in Japanese and Portuguese
 
-_Aug 2, 2023_ -- numpy.org is now available in 2 additional languages: 
+_Aug 2, 2023_ -- numpy.org is now available in 2 additional languages:
 Japanese and Portuguese. This wouldn’t be possible without our dedicated volunteers:
 
 _Portuguese:_
-* Melissa Weber Mendonça (melissawm)
-* Ricardo Prins (ricardoprins)
-* Getúlio Silva (getuliosilva)
-* Julio Batista Silva (jbsilva)
-* Alexandre de Siqueira (alexdesiqueira)
-* Alexandre B A Villares (villares)
-* Vini Salazar (vinisalazar)
+
+- Melissa Weber Mendonça (melissawm)
+- Ricardo Prins (ricardoprins)
+- Getúlio Silva (getuliosilva)
+- Julio Batista Silva (jbsilva)
+- Alexandre de Siqueira (alexdesiqueira)
+- Alexandre B A Villares (villares)
+- Vini Salazar (vinisalazar)
 
 _Japanese:_
-* Atsushi Sakai (AtsushiSakai)
-* KKunai
-* Tom Kelly (TomKellyGenetics)
-* Yuji Kanagawa (kngwyu)
-* Tetsuo Koyama (tkoyama010)
+
+- Atsushi Sakai (AtsushiSakai)
+- KKunai
+- Tom Kelly (TomKellyGenetics)
+- Yuji Kanagawa (kngwyu)
+- Tetsuo Koyama (tkoyama010)
 
 The work on the translation infrastructure is supported with funding from CZI.
 
 Looking ahead, we’d love to translate the website into more languages.
 If you’d like to help, please connect with the NumPy Translations Team on Slack:
-https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w. 
-(Look for the #translations channel.) We are also building a Translations Team who will be 
-working on localizing documentation and educational content across the Scientific Python 
-ecosystem. If this piqued your interest, join us on the Scientific Python 
+https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w.
+(Look for the #translations channel.) We are also building a Translations Team who will be
+working on localizing documentation and educational content across the Scientific Python
+ecosystem. If this piqued your interest, join us on the Scientific Python
 Discord: https://discord.gg/khWtqY6RKr. (Look for the #translation channel.)
 
 ### NumPy 1.25.0 released
@@ -133,10 +132,10 @@ Discord: https://discord.gg/khWtqY6RKr. (Look for the #translation channel.)
 _Jun 17, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html)
 is now available. The highlights of the release are:
 
-* Support for MUSL, there are now MUSL wheels.
-* Support for the Fujitsu C/C++ compiler.
-* Object arrays are now supported in einsum.
-* Support for the inplace matrix multiplication (``@=``).
+- Support for MUSL, there are now MUSL wheels.
+- Support for the Fujitsu C/C++ compiler.
+- Object arrays are now supported in einsum.
+- Support for the inplace matrix multiplication (`@=`).
 
 The NumPy 1.25.0 release continues the ongoing work to improve the handling and
 promotion of dtypes, increase the execution speed, and clarify the
@@ -168,10 +167,10 @@ and Mukulika and Ross for stepping up.
 _Dec 18, 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html)
 is now available. The highlights of the release are:
 
-* New "dtype" and "casting" keywords for stacking functions.
-* New F2PY features and fixes.
-* Many new deprecations, check them out.
-* Many expired deprecations,
+- New "dtype" and "casting" keywords for stacking functions.
+- New F2PY features and fixes.
+- Many new deprecations, check them out.
+- Many expired deprecations,
 
 The NumPy 1.24.0 release continues the ongoing work to improve the handling and
 promotion of dtypes, increase execution speed, and clarify the documentation.
@@ -184,10 +183,10 @@ dtype promotion and cleanups. It is the work of 177 contributors spread over
 _Jun 22, 2022_ -- [NumPy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html)
 is now available. The highlights of the release are:
 
-* Implementation of ``loadtxt`` in C, greatly improving its performance.
-* Exposure of DLPack at the Python level for easy data exchange.
-* Changes to the promotion and comparisons of structured dtypes.
-* Improvements to f2py.
+- Implementation of `loadtxt` in C, greatly improving its performance.
+- Exposure of DLPack at the Python level for easy data exchange.
+- Changes to the promotion and comparisons of structured dtypes.
+- Improvements to f2py.
 
 The NumPy 1.23.0 release continues the ongoing work to improve the handling and
 promotion of dtypes, increase the execution speed, clarify the documentation,
@@ -220,24 +219,24 @@ with a research team member.
 _Dec 31, 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html)
 is now available. The highlights of the release are:
 
-* Type annotations of the main namespace are essentially complete. Upstream is
+- Type annotations of the main namespace are essentially complete. Upstream is
   a moving target, so there will likely be further improvements, but the major
   work is done. This is probably the most user visible enhancement in this
   release.
-* A preliminary version of the proposed
+- A preliminary version of the proposed
   [array API Standard](https://data-apis.org/array-api/latest/) is provided
   (see [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)).
   This is a step in creating a standard collection of functions that can be
   used across libraries such as CuPy and JAX.
-* NumPy now has a DLPack backend. DLPack provides a common interchange format
+- NumPy now has a DLPack backend. DLPack provides a common interchange format
   for array (tensor) data.
-* New methods for ``quantile``, ``percentile``, and related functions. The new
+- New methods for `quantile`, `percentile`, and related functions. The new
   methods provide a complete set of the methods commonly found in the
   literature.
-* The universal functions have been refactored to implement most of
+- The universal functions have been refactored to implement most of
   [NEP 43](https://numpy.org/neps/nep-0043-extensible-ufuncs.html).
   This also unlocks the ability to experiment with the future DType API.
-* A new configurable memory allocator for use by downstream projects.
+- A new configurable memory allocator for use by downstream projects.
 
 NumPy 1.22.0 is a big release featuring the work of 153 contributors spread
 over 609 pull requests. The Python versions supported by this release are
@@ -290,7 +289,6 @@ Mandarin, Portuguese, Russian, and Spanish.
 
 Follow the link to get started: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSl4q.
 
-
 ### Numpy 1.21.0 release
 
 _Jun 23, 2021_ -- [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html)
@@ -301,12 +299,11 @@ is now available. The highlights of the release are:
 - universal2 wheels for Python 3.8 and Python 3.9 on Mac,
 - improved documentation,
 - improved annotations,
-- new ``PCG64DXSM`` bitgenerator for random numbers.
+- new `PCG64DXSM` bitgenerator for random numbers.
 
 This NumPy release is the result of 581 merged pull requests contributed by 175
-people.  The Python versions supported for this release are 3.7-3.9, support
+people. The Python versions supported for this release are 3.7-3.9, support
 for Python 3.10 will be added after Python 3.10 is released.
-
 
 ### 2020 NumPy survey results
 
@@ -315,12 +312,12 @@ and faculty from the University of Michigan and the University of Maryland
 conducted the first official NumPy community survey. Find the survey results
 here: https://numpy.org/user-survey-2020/.
 
-
 ### Numpy 1.20.0 release
 
 _Jan 30, 2021_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html)
 is now available. This is the largest NumPy release to date, thanks to 180+
 contributors. The two most exciting new features are:
+
 - Type annotations for large parts of NumPy, and a new `numpy.typing` submodule
   containing `ArrayLike` and `DtypeLike` aliases that users and downstream
   libraries can use when adding type annotations in their own code.
@@ -334,7 +331,6 @@ contributors. The two most exciting new features are:
 
 _Sep 20, 2020_ -- We wrote a [statement on the state of, and discussion on social media around, diversity and inclusion in the NumPy project](/diversity_sep2020).
 
-
 ### First official NumPy paper published in Nature!
 
 _Sep 16, 2020_ -- We are pleased to announce the publication of
@@ -345,7 +341,6 @@ the rich scientific Python ecosystem built on top of NumPy, and the recently add
 array protocols to facilitate interoperability with external array and tensor
 libraries like CuPy, Dask, and JAX.
 
-
 ### Python 3.9 is coming, when will NumPy release binary wheels?
 
 _Sept 14, 2020_ -- Python 3.9 will be released in a few weeks. If you are an
@@ -354,11 +349,11 @@ early adopter of Python versions, you may be dissapointed to find that NumPy
 day of the release. It is a major effort to adapt the build infrastructure to a
 new Python version and it typically takes a few weeks for the packages to appear
 on PyPI and conda-forge. In preparation for this event, please make sure to
+
 - update your `pip` to version 20.1 at least to support `manylinux2010` and
   `manylinux2014`
 - use [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) or `--only-binary=:all:` to prevent `pip` from
   trying to build from source.
-
 
 ### Numpy 1.19.2 release
 
@@ -381,7 +376,6 @@ Bangla, Hindi, Japanese, Mandarin, Portuguese, Russian, Spanish and French.
 Please help us make NumPy better and take the survey
 [here](https://umdsurvey.umd.edu/jfe/form/SV_8bJrXjbhXf7saAl).
 
-
 ### NumPy has a new logo!
 
 _Jun 24, 2020_ -- NumPy now has a new logo:
@@ -396,7 +390,6 @@ The logo is a modern take on the old one, with a cleaner design. Thanks to
 Isabela Presedo-Floyd for designing the new logo, as well as to Travis Vaught
 for the old logo that served us well for 15+ years.
 
-
 ### NumPy 1.19.0 release
 
 _Jun 20, 2020_ -- NumPy 1.19.0 is now available. This is the first release
@@ -404,7 +397,6 @@ without Python 2 support, hence it was a "clean-up release". The minimum
 supported Python version is now Python 3.6. An important new feature is that
 the random number generation infrastructure that was introduced in NumPy 1.17.0
 is now accessible from Cython.
-
 
 ### Season of Docs acceptance
 
@@ -415,16 +407,14 @@ details, please see
 [the official Season of Docs site](https://developers.google.com/season-of-docs/) and our
 [ideas page](https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas).
 
-
 ### NumPy 1.18.0 release
 
 _Dec 22, 2019_ -- NumPy 1.18.0 is now available. After the major changes in
 1.17.0, this is a consolidation release. It is the last minor release that will
 support Python 3.5. Highlights of the release includes the addition of basic
-infrastructure for linking with 64-bit BLAS and LAPACK libraries, and a new C-API for ``numpy.random``.
+infrastructure for linking with 64-bit BLAS and LAPACK libraries, and a new C-API for `numpy.random`.
 
 Please see the [release notes](https://github.com/numpy/numpy/releases/tag/v1.18.0) for more details.
-
 
 ### NumPy receives a grant from the Chan Zuckerberg Initiative
 
@@ -434,8 +424,8 @@ This grant will be used to ramp up the efforts in improving NumPy documentation,
 
 More details on our proposed initiatives and deliverables can be found in the [full grant proposal](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167). The work is scheduled to start on Dec 1st, 2019 and continue for the next 12 months.
 
-
 <a name="releases"></a>
+
 ## Releases
 
 Here is a list of NumPy releases, with links to release notes. Bugfix
