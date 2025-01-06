@@ -1,5 +1,5 @@
 ---
-title: ニュース
+title: "ニュース"
 sidebar: false
 newsHeader: "NumPy 1.26.0 がリリースされました。"
 date: 2023-09-16
