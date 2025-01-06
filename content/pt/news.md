@@ -1,5 +1,5 @@
 ---
-title: Notícias
+title: "Notícias"
 sidebar: false
 newsHeader: "NumPy versão 1.26.0"
 date: 2023-09-16
