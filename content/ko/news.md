@@ -1,5 +1,5 @@
 ---
-title: 소식
+title: "소식"
 sidebar: false
 newsHeader: "NumPy 2.2.0 released!"
 date: 2023-09-16
@@ -33,9 +33,9 @@ Python versions 3.10-3.13 are supported by this release.
 
 _16 Jun, 2024_ -- NumPy 2.0.0 is the first major release since 2006. It is the result of 11 months of development since the last feature release and is the work of 212 contributors spread over 1078 pull requests. It contains a large number of exciting new features as well as changes to both the Python and C APIs.  It includes breaking changes that could not happen in a regular minor release - including an ABI break, changes to type promotion rules, and API changes which may not have been emitting deprecation warnings in 1.26.x. Key documents related to how to adapt to changes in NumPy 2.0 include:
 
-- The [NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
-- The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
-- Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
+- [NumPy 2.0 이주 가이드](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- [2.0.0 릴리즈 노트](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- 상태 업데이트 공지용 이슈: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
 The blog post ["NumPy 2.0: an evolutionary milestone"](https://blog.scientific-python.org/numpy/numpy2/) tells a bit of the story about how this release came together.
 
