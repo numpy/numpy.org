@@ -1,10 +1,11 @@
 ---
-title: Times NumPy
+title: NumPy Teams
 sidebar: false
 ---
 
-Somos uma equipe internacional com a missão de apoiar comunidades científicas e de pesquisa em todo o mundo construindo software de código aberto de qualidade.
-[Junte-se a nós](/contribute)!
+我们是一个国际团队，通过建造优质开放源码软件，支持世界各地的科学和研究
+个社区。
+[Join us](/contribute)!
 
 ### Maintainers
 
@@ -34,6 +35,6 @@ Somos uma equipe internacional com a missão de apoiar comunidades científicas 
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
 
-# Governança
+# 管理
 
-Para a lista de pessoas no Conselho Diretor, veja [aqui](https://numpy.org/devdocs/dev/governance/people.html).
+For the list of the Steering Council members, please see [here](https://numpy.org/about/).
