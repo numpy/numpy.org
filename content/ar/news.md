@@ -1,8 +1,8 @@
 ---
-title: News
+title: "الأخبار"
 sidebar: false
 newsHeader: "NumPy 2.2.0 released!"
-date: 2024-12-8
+date: 2024-12-08
 ---
 
 ### NumPy 2.2.0 released
@@ -270,7 +270,7 @@ More details on our proposed initiatives and deliverables can be found in the [f
 
 <a name="releases"></a>
 
-## Releases
+## الإصدارات
 
 Here is a list of NumPy releases, with links to release notes. Bugfix releases (only the `z` changes in the `x.y.z` version number) have no new features; minor releases (the `y` increases) do.
 
