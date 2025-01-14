@@ -23,10 +23,10 @@ type = 'card'
 classcard = 'text-center'
 body = '''{{< image >}}
 src = 'https://raw.githubusercontent.com/numpy/numpy.org/refs/heads/main/static/images/logo.svg'
-alt = 'Avatar of Yeimi'
+alt = 'Avatar of Yeimi Pena'
 {{< /image >}}
-Yeimi (@yeimiyaz)'''
-link = 'https://scientific-python.crowdin.com'
+Yeimi Pena (@yeimiyaz)'''
+link = 'https://www.linkedin.com/in/yeimipena/'
 
 [[item]]
 type = 'card'
