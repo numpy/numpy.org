@@ -6,31 +6,31 @@ sidebar: false
 Somos uma equipe internacional com a missão de apoiar comunidades científicas e de pesquisa em todo o mundo construindo software de código aberto de qualidade.
 [Junte-se a nós](/contribute)!
 
-### Maintainers
+### Pessoas Mantenedoras
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
-### Docs team
+### Time de documentacão
 
 {{< grid file="docs-team.toml" columns="2 3 4 5" />}}
 
-### Web team
+### Time Web
 
 {{< grid file="web-team.toml" columns="2 3 4 5" />}}
 
-### Triage team
+### Time de Triagem
 
 {{< grid file="triage-team.toml" columns="2 3 4 5" />}}
 
-### Survey team
+### Time de Pesquisa
 
 {{< grid file="survey-team.toml" columns="2 3 4 5" />}}
 
-### Translations team
+### Time de traduções
 
 {{< grid file="translations-team.toml" columns="2 3 4 5" />}}
 
-### Emeritus maintainers
+### Mantenedores Eméritos
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
 
