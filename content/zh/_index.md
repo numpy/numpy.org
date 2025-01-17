@@ -5,45 +5,45 @@ title: NumPy
 {{< grid columns="1 2 2 3" >}}
 
 [[item]]
-type = 'card'
-title = 'Powerful N-dimensional arrays'
+类型 = “card”
+title = '强大的N维数组'
 body = '''
-Fast and versatile, the NumPy vectorization, indexing, and broadcasting concepts are the de-facto standards of array computing today.
+快速和多功能， 数字向量化、索引和广播概念是当今数组计算的实际标准。
 '''
 
 [[item]]
 type = 'card'
-title = 'Numerical computing tools'
+title = '数字计算工具'
 body = '''
-NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
+NumPy 提供全面的数学函数、随机数生成器、线性代数、傅里叶变换等等。
+'''
+
+[[item]]
+type = “card”
+title = “开源”
+body = “''
+遵循一个自由的 [BSD许可证](https://github.com/numpy/numpy/blob/main/LICENSE.txt), NumPy 开发和保持[在GitHub上公开](https://github.com/numpy/numpy) 由一个有活力、响应性强且丰富的 [社区](/community)维护。
 '''
 
 [[item]]
 type = 'card'
-title = 'Open source'
+title = '与其他组件交互'
 body = '''
-Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/community).
+NumPy 支持范围广泛的硬件和计算平台， 并与分布式的 GPU 和稀疏阵列库兼容得很好。
 '''
 
 [[item]]
-type = 'card'
-title = 'Interoperable'
+type = “card”
+title = '表现'
 body = '''
-NumPy supports a wide range of hardware and computing platforms, and plays well with distributed, GPU, and sparse array libraries.
+NumPy 的核心是优化的 C 代码。 以编译语言的速度享受Python的灵活性。
 '''
 
 [[item]]
-type = 'card'
-title = 'Performant'
+type = “card”
+title = '便于使用'
 body = '''
-The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
-'''
-
-[[item]]
-type = 'card'
-title = 'Easy to use'
-body = '''
-NumPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
+Numpy 的高水平语法使任何背景或经验水平的程序员都可以使用。
 '''
 
 {{< /grid>}}
