@@ -4,46 +4,44 @@ title: NumPy
 
 {{< grid columns="1 2 2 3" >}}
 
-{{< card >}}
-title = '강력한 N차원 배열'
+[[item]]
+type = 'card'
+title = '강력한 N 차원 배열'
 body = '''
-빠르고 다재다능한 NumPy의 벡터화, 인덱싱, 전송 구성은 오늘날 배열 컴퓨팅의 사실상 표준입니다.
+빠르고 다재다능한 NumPy의 벡터화, 인덱싱, 브로드캐스팅 개념은 오늘날 배열 연산의 사실상 표준입니다.
 '''
-{{< /card >}}
 
-{{< card >}}
-title = '수치적 컴퓨팅 도구'
+[[item]]
+type = 'card'
+title = '수치 계산 도구'
 body = '''
-NumPy는 포괄적인 수학 함수, 난수 생성기, 선형 대수 루틴, 푸리에 변환 등을 제공합니다.
+NumPy는 다양한 수학 함수, 난수 생성기, 선형 대수 연산, 푸리에 변환 등을 제공합니다.
 '''
-{{< /card >}}
 
-{{< card >}}
+[[item]]
+type = 'card'
 title = '오픈 소스'
-body = '''
-자유 [BSD 라이선스](https://github.com/numpy/numpy/blob/main/LICENSE.txt)에 따라, NumPy는 흥미에 찼으며, 반응이 빠르고, 다양성이 넘치는 [커뮤니티](/community)에 의하여 [GitHub](https://github.com/numpy/numpy)에서 공개적으로 개발되고 유지됩니다.
+body = '''NumPy는 자유로운 [BSD 라이선스](https://github.com/numpy/numpy/blob/main/LICENSE.txt)로 배포되며, 활발하고 다양한 [커뮤니티](/community)가 [GitHub](https://github.com/numpy/numpy)에서 공개적으로 개발 및 유지 관리하고 있습니다.
 '''
-{{< /card >}}
 
-{{< card >}}
-title = '상호운용성'
+[[item]]
+type = 'card'
+title = '상호 운용성'
 body = '''
-NumPy는 광범위한 하드웨어 및 컴퓨팅 플랫폼을 지원합니다. 또 분산형, GPU, 희소 배열 라이브러리와도 잘 작동합니다.
+NumPy는 다양한 하드웨어와 컴퓨팅 플랫폼을 지원하며, 분산 컴퓨팅, GPU, 희소 배열 라이브러리와도 잘 호환됩니다.
 '''
-{{< /card >}}
 
-{{< card >}}
-title = '효율성'
-body = '''
-NumPy의 핵심은 최적화된 C 코드로 구성되어 있습니다. 컴파일된 코드의 속도와 함께 Python의 유연함을 즐기세요.
+[[item]]
+type = 'card'
+title = '성능'
+body = '''NumPy의 핵심 모듈은 최적화된 C 코드로 구성되어 있습니다. 파이썬의 유연성과 컴파일된 코드의 속도, 두 강점을 함께 누려보세요.
 '''
-{{< /card >}}
 
-{{< card >}}
-title = '쉬운 사용법'
+[[item]]
+type = 'card'
+title = '쉬운 사용'
 body = '''
-NumPy의 고수준 문법은 어떤 배경이나 수준을 가지고 있는 프로그래머든 쉽게 접근하여 생산적인 일을 할 수 있도록 만들어줍니다.
+NumPy의 고수준 문법은 배경이나 경험에 관계없이 모든 프로그래머가 쉽게 활용하고 생산성을 높일 수 있게 합니다.
 '''
-{{< /card >}}
 
 {{< /grid >}}
