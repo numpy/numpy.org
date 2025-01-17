@@ -10,6 +10,7 @@ title = '強力な多次元配列'
 body = '''
 NumPyの高速で多機能なベクトル化計算、インデックス処理、ブロードキャストの考え方は、現在の配列計算におけるデファクト・スタ>ンダードです。
 '''
+'''
 
 [[item]]
 type = 'card'
@@ -42,7 +43,7 @@ title = '高パフォーマンス'
 body = '''
 NumPyの大部分は最適化されたC言語のコードで構成されています。これによりPythonの柔軟性とコンパイルされたコードの高速性の両方
 を享受できます。
-''' コンパイルされたコードのスピードでの Python の柔軟性をお楽しみください。
+''' Enjoy the flexibility of Python with the speed of compiled code.
 '''
 
 [[item]]
