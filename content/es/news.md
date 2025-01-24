@@ -5,17 +5,17 @@ newsHeader: "¡NumPy 2.0 ha sido lanzado!"
 date: 2024-06-17
 ---
 
-### NumPy 2.2.0 released
+### Lanzamiento de NumPy 2.2.0
 
-_8 de diciembre de 2024_ -- NumPy 2.2.0 es una versión rápida que nos sincroniza con el ciclo usual de publicación dos veces al año. There have been a number of small cleanups, improvements to the StringDType, and better support for free threaded Python. Highlights are:
+_8 de diciembre de 2024_ -- NumPy 2.2.0 es una versión rápida que nos sincroniza con el ciclo usual de publicación dos veces al año. Ha habido varias pequeñas limpiezas, mejoras en el tipo StringDType y un mejor soporte para Python de hilos libres. Los puntos destacados son:
 
-* New functions `matvec` and `vecmat`,
-* Many improved annotations,
-* Improved support for the new StringDType,
-* Improved support for free threaded Python,
-* Fixes for f2py.
+* Nuevas funciones `matvec` y `vecmat`,
+* Muchas anotaciones mejoradas,
+* Mejor soporte para el nuevo StringDType,
+* Mejor soporte para Python libre de hilos
+* Correcciones para f2py.
 
-This release supports Python versions 3.10-3.13.
+Esta versión es compatible con versiones de Python 3.10-3.13.
 
 
 ### Lanzamiento de NumPy 2.1.0
@@ -274,11 +274,11 @@ Puede encontrar más detalles sobre nuestras iniciativas y entregables propuesto
 
 Esta es una lista de lanzamientos NumPy, con enlaces a notas de lanzamiento. Los lanzamientos de corrección de errores (solo cambia la `z` en el número de versión `x.y.z`) no tienen nuevas características; las versiones menores (aumenta la `y`) sí las tienen.
 
-- NumPy 2.2.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.2)) -- _18 Jan 2024_.
-- NumPy 2.2.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.1)) -- _21 Dec 2024_.
-- NumPy 2.2.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.0)) -- _8 Dec 2024_.
-- NumPy 2.1.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.1.3)) -- _2 Nov 2024_.
-- NumPy 2.1.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.1.2)) -- _5 Oct 2024_.
+- NumPy 2.2.2 ([notas de lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.2.2)) -- _18 Jan 2024_.
+- NumPy 2.2.1 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.2.1)) -- _21 de diciembre de 2024_.
+- NumPy 2.2.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.2.0)) -- _8 de diciembre de 2024_.
+- NumPy 2.1.3 ([notas de lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.1.3)) -- _2 de Nov 2024_.
+- NumPy 2.1.2 ([notas de lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.1.2)) -- _5 de octubre 2024_.
 - NumPy 2.1.1 ([notas de lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.1.1)) -- _3 de septiembre 2024_.
 - NumPy 2.0.2 ([notas de lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.0.2)) -- _26 de agosto 2024_.
 - NumPy 2.1.0 ([notas del lanzamiento](https://github.com/numpy/numpy/releases/tag/v2.1.0)) -- _18 de agosto de 2024_.
