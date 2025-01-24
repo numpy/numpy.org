@@ -72,7 +72,7 @@ En casos que no impliquen violaciones claras y graves u obvias de este Código d
 1. acusar recibo del informe,
 2. una discusión/retroalimentación razonable,
 3. mediación (si la retroalimentación no fue útil, y únicamente si tanto el denunciante como el denunciado están de acuerdo con ello),
-4. aplicación a través de una decisión transparente (ver [Resoluciones](report-handling-manual/#resoluciones)) por parte del Comité de Código de conducta.
+4. aplicación a través de una decisión transparente (ver [Resoluciones](report-handling-manual/#resolutions)) por parte del Comité de Código de conducta.
 
 El Comité responderá a cualquier informe lo antes posible y dentro de un plazo máximo de 72 horas.
 
