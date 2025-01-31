@@ -40,7 +40,7 @@ O NumPy suporta um grande número de plataformas de equipamento físico e comput
 type = 'card'
 title = 'Alto desempenho'
 body = '''
-O núcleo do NumPy é feito de código otimizado em C. Experimente a flexibilidade do Python com a velocidade de código compilado. Aproveite a flexibilidade do Python com a velocidade de código compilado.
+O núcleo do NumPy é feito de código otimizado em C. Aproveite a flexibilidade do Python com a velocidade de código compilado.
 '''
 {{< /card >}}
 
@@ -49,7 +49,6 @@ type = 'card'
 title = 'Fácil de usar'
 body = '''
 A sintaxe de alto nível do NumPy torna-o acessível e produtivo para programadores de qualquer nível de experiência e formação.
-'''
 '''
 {{< /card >}}
 
