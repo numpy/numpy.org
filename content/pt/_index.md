@@ -32,7 +32,7 @@ Distribuído sob uma [licença BSD](https://github.com/numpy/numpy/blob/main/LIC
 type = 'card'
 title = 'Interoperabilidade'
 body = '''
-O NumPy suporta um grande número de plataformas de hardware e computação, e pode ser combinado com bibliotecas de computação com arrays esparsas, distribuidas ou em GPUs.
+O NumPy suporta um grande número de plataformas de equipamento físico e computação, e pode ser combinado com bibliotecas de computação com arrays esparsas, distribuídas ou em GPUs.
 '''
 {{< /card >}}
 
