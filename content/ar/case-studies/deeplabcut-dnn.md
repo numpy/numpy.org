@@ -1,5 +1,5 @@
 ---
-title: "Case Study: DeepLabCut 3D Pose Estimation"
+title: "دراسة حالة: تقدير DeepLabCut 3D Pose"
 sidebar: false
 ---
 
