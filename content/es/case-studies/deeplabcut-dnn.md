@@ -1,122 +1,100 @@
 ---
-title: "Caso de estudio: DeepLabCut Estimación de Postura 3D"
+title: "Case Study: DeepLabCut 3D Pose Estimation"
 sidebar: false
 ---
 
 {{< figure >}}
-src = '/images/content_images/cs/mice-hand.gif'
-title = 'Analizar movimiento de las manos de los ratones usando DeepLapCut'
-alt = 'micehandanim'
-attribution = '(Fuente: www.deeplabcut.org )'
-attributionlink = 'http://www.mousemASElab.org/deeplabcut'
+src = '/images/content_images/cs/mice-hand.gif' title = 'Analyzing mice hand-movement using DeepLapCut' alt = 'micehandanim' attribution = '(Source: www.deeplabcut.org )' attributionlink = 'http://www.mousemotorlab.org/deeplabcut'
 {{< /figure >}}
 
-{{< blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/" by="Alexander Mathis, *Profesor Asistente, Escuela Politécnica Federal de Lausana* ([EPFL](https://www.epfl.ch/en/))"
->}} El software de código abierto está acelerando la biomedicina. DeepLabCut permite el análisis automatizado de video del comportamiento animal utilizando Aprendizaje Profundo. 
-{{< /blockquote >}}
+{{< blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/" by="Alexander Mathis, *Assistant Professor, École polytechnique fédérale de Lausanne* ([EPFL](https://www.epfl.ch/en/))"
+> }} Open Source Software is accelerating Biomedicine. DeepLabCut enables automated video analysis of animal behavior using Deep Learning. 
+> 
+> {{< /blockquote >}}
 
-## Acerca de DeepLabCut
+## About DeepLabCut
 
-[DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) es una caja de herramientas de código abierto que permite a los investigadores de cientos de instituciones de todo el mundo rastrear el comportamiento de animales de laboratorio, con muy pocos datos de entrenamiento, con una precisión de nivel humana. Con la tecnología DeepLabCut, los científicos pueden profundizar en la comprensión científica del control motriz y el comportamiento a través de especies animales y escalas temporales.
+[DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) is an open source toolbox that empowers researchers at hundreds of institutions worldwide to track behaviour of laboratory animals, with very little training data, at human-level accuracy. With DeepLabCut  technology, scientists can delve deeper into the scientific understanding of motor control and behavior across animal species and timescales.
 
-Muchas áreas de investigación, incluyendo la neurociencia, la medicina y la biomecánica, utilizan datos para rastrear el movimiento animal. DeepLabCut ayuda a entender lo que los humanos y otros animales están haciendo, analizando las acciones que han sido grabadas en la filmación. Utilizando la automatización para tareas laboriosas de etiquetado y monitoreo, junto con el análisis de datos basado en redes neuronales profundas, DeepLabCut realiza estudios científicos que involucran la observación de animales, tales como primates, ratones, peces, moscas, etc. de manera mucho más rápida y precisa.
+Several areas of research, including neuroscience, medicine, and biomechanics, use data from tracking animal movement. DeepLabCut helps in understanding what humans and other animals are doing by parsing actions that have been recorded on film. Using automation for laborious tasks of tagging and monitoring, along with deep neural network based data analysis, DeepLabCut makes scientific studies involving observing animals, such as primates, mice, fish, flies etc., much faster and more accurate.
 
 {{< figure >}}
-src = '/images/content_images/cs/race-horse.gif'
-title = 'Puntos de colores rastrean las posiciones de una parte del cuerpo de un caballo de carreras'
-alt = 'horserideranim'
-attribution = '(Fuente: Mackenzie Mathis)'
+src = '/images/content_images/cs/race-horse.gif' title = 'Colored dots track the positions of a racehorse’s body part' alt = 'horserideranim' attribution = '(Source: Mackenzie Mathis)'
 {{< /figure >}}
 
-El rastreo del comportamiento no invasivo de animales de DeepLabCut por medio de la extracción de posturas de animales es crucial para propósitos científicos en dominios tales como la biomecánica, genética, etología y & neurociencia. Medir las poses de animales de manera no invasiva a partir de video - sin marcadores - en fondos que cambian dinámicamente es un desafío computacional, tanto técnicamente como en términos de necesidades de recursos y datos de entrenamiento requeridos.
+DeepLabCut's non-invasive behavioral tracking of animals by extracting the poses of animals is crucial for scientific pursuits in domains such as biomechanics, genetics, ethology & neuroscience. Measuring animal poses non-invasively from video - without markers - in dynamically changing backgrounds is computationally challenging, both technically as well as in terms of resource needs and training data required.
 
-DeepLabCut permite a los investigadores estimar la postura del sujeto, permitiéndoles eficientemente cuantificar el comportamiento a través de una caja de herramientas de software basada en Python.  Con DeepLabCut, los investigadores pueden identificar fotogramas distintos de videos, etiquetar digitalmente partes específicas del cuerpo en unas pocas docenas de fotogramas con una GUI personalizada, y luego las arquitecturas de estimación de posturas basadas en aprendizaje profundo en DeepLabCut aprenden a identificar esas mismas características en el resto del video y en otros videos similares de animales. Funciona en diferentes especies de animales, desde los animales de laboratorio comunes como moscas y ratones hasta animales más inusuales como los [guepardos][cheetah-movement].
+DeepLabCut allows researchers to estimate the pose of the subject, efficiently enabling them to quantify the behavior through a Python based software toolkit.  With DeepLabCut, researchers can identify distinct frames from videos, digitally label specific body parts in a few dozen frames with a tailored GUI, and then the deep learning based pose estimation architectures in DeepLabCut learn how to pick out those same features in the rest of the video and in other similar videos of animals. It works across species of animals, from common laboratory animals such as flies and mice to more unusual animals like [cheetahs][cheetah-movement].
 
-DeepLabCut utiliza un principio llamado [aprendizaje por transferencia](https://arxiv.org/pdf/1909.11229), que reduce considerablemente la cantidad de datos de entrenamiento requeridos y acelera la convergencia del período de entrenamiento.  Dependiendo de las necesidades, los usuarios pueden seleccionar diferentes arquitecturas de red que proporcionan una inferencia más rápida (por ejemplo MobileNetV2), que también pueden combinarse con retroalimentación experimental en tiempo real. DeepLabCut utilizó originalmente los detectores de características de una arquitectura de estimación de postura humana de alto rendimiento, llamada [DeeperCut](https://arxiv.org/abs/1605.03170), que inspiró el nombre. El paquete ahora ha sido significativamente modificado para incluir arquitecturas adicionales, métodos de aumento y una experiencia de usuario completa en el front-end. Además, para apoyar los experimentos biológicos a gran escala, DeepLabCut proporciona capacidades de aprendizaje activo para que los usuarios puedan aumentar el conjunto de entrenamiento a lo largo del tiempo para cubrir casos límite y hacer que su algoritmo de estimación de postura sea robusto dentro de un contexto específico.
+DeepLabCut uses a principle called [transfer learning](https://arxiv.org/pdf/1909.11229), which greatly reduces the amount of training data required and speeds up the convergence of the training period.  Depending on the needs, users can pick different network architectures that provide faster inference (e.g. MobileNetV2), which can also be combined with real-time experimental feedback. DeepLabCut originally used the feature detectors from a top-performing human pose estimation architecture, called [DeeperCut](https://arxiv.org/abs/1605.03170), which inspired the name. The package now has been significantly changed to include additional architectures, augmentation methods, and a full front-end user experience. Furthermore, to support large-scale biological experiments DeepLabCut provides active learning capabilities so that users can increase the training set over time to cover edge cases and make their pose estimation algorithm robust within the specific context.
 
-Recientemente, se presentó el [modelo zoo de DeepLabCut](http://www.mousemotorlab.org/dlc-modelzoo), que proporciona modelos pre-entrenados para varias especies y condiciones experimentales, desde el análisis facial en primates hasta la postura de perro. Esto se puede ejecutar, por ejemplo, en la nube sin ningún etiquetado de datos nuevos o entrenamiento de redes neuronales, y no es necesaria ninguna experiencia de programación.
+Recently, the [DeepLabCut model zoo](https://deeplabcut.github.io/DeepLabCut/docs/ModelZoo.html) was introduced, which provides pre-trained models for various species and experimental conditions from facial analysis in primates to dog posture. This can be run for instance in the cloud without any labeling of new data, or neural network training, and no programming experience is necessary.
 
-### Objetivos y Resultados Clave
+### Key Goals and Results
 
-* **Automatización del análisis de la postura animal para estudios científicos:**
+* **Automation of animal pose analysis for scientific studies:**
 
-  El objetivo principal de la tecnología DeepLabCut es medir y rastrear la postura de los animales en diversos entornos. Estos datos se pueden utilizar, por ejemplo, en estudios de neurociencia para entender cómo el cerebro controla el movimiento, o para aclarar como interactúan socialmente los animales. Los investigadores han observado un [aumento de rendimiento diez veces mayor](https://www.biorxiv.org/content/10.1101/457242v1) con DeepLabCut. Las posturas se pueden inferir sin conexión hasta a 1200 fotogramas por segundo (FPS).
+  The primary objective of DeepLabCut technology is to measure and track posture of animals in a diverse settings. This data can be used, for example, in neuroscience studies to understand how the brain controls movement, or to elucidate how animals socially interact. Researchers have observed a [tenfold performance boost](https://www.biorxiv.org/content/10.1101/457242v1) with DeepLabCut. Poses can be inferred offline at up to 1200 frames per second (FPS).
 
-* **Creación de un conjunto de herramientas de Python de fácil uso para la estimación de postura:**
+* **Creation of an easy-to-use Python toolkit for pose estimation:**
 
-  DeepLabCut quería compartir su tecnología de estimación de postura animal en la forma de una herramienta de fácil uso que pueda ser adoptada fácilmente por los investigadores. Así que han creado un conjunto de herramientas de Python completo y de fácil uso, también con características de administración de proyectos. Estas permiten no solo la automatización de la estimación de postura, sino también administrar el proyecto de punta a punta ayudando al usuario del conjunto de herramientas de DeepLabCut desde la etapa de recolección del conjunto de datos para crear flujos de trabajo de análisis compartibles y reutilizables.
+  DeepLabCut wanted to share their animal pose-estimation technology in the form of an easy to use tool that can be adopted by researchers easily. So they have created a complete, easy-to-use Python toolbox with project management features as well. These enable not only automation of pose-estimation but also managing the project end-to-end by helping the DeepLabCut Toolkit user right from the dataset collection stage to creating shareable and reusable analysis pipelines.
 
-  Su [conjunto de herramientas][DLCToolkit] ahora está disponible como código abierto.
+  Their [toolkit][DLCToolkit] is now available as open source.
 
-  En flujo de trabajo típico de DeepLabCut incluye:
+  A typical DeepLabCut Workflow includes:
 
-  - creación y refinamiento de los conjuntos de entrenamiento a través del aprendizaje activo
-  - creación de redes neuronales a la medida para animales y escenarios específicos
-  - código para inferencia a gran escala en videos
-  - graficar las inferencias utilizando herramientas de visualización integradas
+  - creation and refining of training sets via active learning
+  - creation of tailored neural networks for specific animals and scenarios
+  - code for large-scale inference on videos
+  - draw inferences using integrated visualization tools
 
 {{< figure >}}
-src = '/images/content_images/cs/deeplabcut-toolkit-steps.png'
-title = 'Pasos de estimación de la postura con DeepLabCut'
-alt = 'dlcsteps'
-align = 'center'
-attribution = '(Source: DeepLabCut)'
-attributionlink = 'https://twitter.com/DeepLabCut/status/1198046918284210176/photo/1'
+src = '/images/content_images/cs/deeplabcut-toolkit-steps.png' title = 'Pose estimation steps with DeepLabCut' alt = 'dlcsteps' align = 'center' attribution = '(Source: DeepLabCut)' attributionlink = 'https://twitter.com/DeepLabCut/status/1198046918284210176/photo/1'
 {{< /figure >}}
 
-### Los Desafíos
+### The Challenges
 
-* **Velocidad**
+* **Speed**
 
-    Procesamiento rápido de videos de comportamiento animal para medir su comportamiento y al mismo tiempo hacer experimentos científicos más eficientes y precisos. La extracción detallada de posturas del animal para experimentos de laboratorio, sin marcadores, en entornos dinámicamente cambiantes, puede ser un desafío tanto técnico como en términos de recursos necesarios y datos de entrenamiento requeridos. Proponer una herramienta que sea fácil de usar sin necesidad de habilidades como experiencia en visión por computador que permita a los científicos hacer investigaciones en más contextos del mundo real, es un problema que no es trivial de resolver.
+    Fast processing of animal behavior videos in order to measure their behavior and at the same time make scientific experiments more efficient, accurate. Extracting detailed animal poses for laboratory experiments, without markers, in dynamically changing backgrounds, can be challenging, both technically as well as in terms of resource needs and training data required. Coming up with a tool that is easy to use without the need for skills such as computer vision expertise that enables scientists to do research in more real-world contexts, is a non-trivial problem to solve.
 
-* **Combinatoria**
+* **Combinatorics**
 
-    La combinatoria involucra el armado e integración del movimiento de múltiples extremidades en el comportamiento animal individual. Ensamblar puntos clave y sus conexiones en movimientos individuales de animales y vincularlos a lo largo del tiempo es un proceso complejo que requiere un análisis numérico intensivo, especialmente en el caso del seguimiento de movimientos de múltiples animales en videos de experimentos.
+    Combinatorics involves assembly and integration of movement of multiple limbs into individual animal behavior. Assembling keypoints and their connections into individual animal movements and linking them across time is a complex process that requires heavy-duty numerical analysis, especially in case of multi-animal movement tracking in experiment videos.
 
-* **Procesamiento de Datos**
+* **Data Processing**
 
-    Por último, pero no menos importante, la manipulación de arreglos - procesamiento de grandes pilas de arreglos correspondientes a varias imágenes, tensores objetivo y puntos clave es bastante desafiante.
+    Last but not the least, array manipulation - processing large stacks of arrays corresponding to various images, target tensors and keypoints is fairly challenging.
 
 {{< figure >}}
-src = '/images/content_images/cs/pose-estimation.png'
-title = 'Estimación de variedad y complejidad de postura'
-alt = 'challengesfig'
-align = 'center'
-attribution = '(Fuente: Mackenzie Mathis)'
-attributionlink = 'https://www.iorxiv.org/content/10.1101/476531v1.full.pdf'
+src = '/images/content_images/cs/pose-estimation.png' title = 'Pose estimation variety and complexity' alt = 'challengesfig' align = 'center' attribution = '(Source: Mackenzie Mathis)' attributionlink = 'https://www.biorxiv.org/content/10.1101/476531v1.full.pdf'
 {{< /figure >}}
 
-## El Papel de NumPy para afrontar los desafíos de la estimación de postura
+## NumPy's Role in meeting Pose Estimation Challenges
 
-NumPy aborda la necesidad central de la tecnología de DeepLabCut de realizar cálculos numéricos a alta velocidad para el análisis del comportamiento.  Además de NumPy, DeepLabCut emplea varios softwares de Python que utilizan NumPy en su núcleo, como [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug), [scikit-learn](https://scikit-learn.org/stable/), [scikit-image](https://scikit-image.org) y [Tensorflow](https://www.tensorflow.org).
+NumPy addresses DeepLabCut technology's core need of numerical computations at high speed for behavioural analytics.  Besides NumPy, DeepLabCut employs various Python software that utilize NumPy at their core, such as [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug), [scikit-learn](https://scikit-learn.org/stable/), [scikit-image](https://scikit-image.org) and [Tensorflow](https://www.tensorflow.org).
 
-Las siguientes características de NumPy jugaron un papel clave en abordar el procesamiento de imágenes, los requisitos de combinatoria y la necesidad de cálculos rápidos en los algoritmos de estimación de posturas de DeepLabCut:
+The following features of NumPy played a key role in addressing the image processing, combinatorics requirements and need for fast computation in DeepLabCut pose estimation algorithms:
 
-* Vectorización
-* Operaciones con Arreglos Enmascarados
-* Álgebra lineal
-* Muestreo Aleatorio
-* Redimensionamiento de arreglos grandes
+* Vectorization
+* Masked Array Operations
+* Linear Algebra
+* Random Sampling
+* Reshaping of large arrays
 
-DeepLabCut utiliza las capacidades de arreglos de NumPy a lo largo del flujo de trabajo ofrecido por el conjunto de herramientas. En particular, NumPy se utiliza para muestrear diferentes fotogramas para etiquetado de anotaciones humanas, y para escribir, editar y procesar datos de anotación.  Dentro de TensorFlow, la red neuronal es entrenada por la tecnología DeepLabCut durante miles de iteraciones para predecir las anotaciones de referencia a partir de fotogramas. Para este propósito, se crean densidades objetivo (mapas de puntuación) para plantear la estimación de poses como un problema de traducción de imagen a imagen. Para hacer que las redes neuronales sean robustas, se emplea el aumento de datos, lo que requiere el cálculo de mapas de puntuación objetivo sujetos a varios pasos geométricos y de procesamiento de imágenes. Para hacer que el entrenamiento sea rápido, se aprovechan las capacidades de vectorización de NumPy. Para la inferencia, es necesario extraer las predicciones más probables de los mapas de puntuación objetivo y "vincular eficientemente las predicciones para ensamblar animales individuales".
+DeepLabCut utilizes NumPy’s array capabilities throughout the workflow offered by the toolkit. In particular, NumPy is used for sampling distinct frames for human annotation labeling, and for writing, editing and processing annotation data.  Within TensorFlow the neural network is trained by DeepLabCut technology over thousands of iterations to predict the ground truth annotations from frames. For this purpose, target densities (scoremaps) are created to cast pose estimation as a image-to-image translation problem. To make the neural networks robust, data augmentation is employed, which requires the calculation of target scoremaps subject to various geometric and image processing steps. To make training fast, NumPy’s vectorization capabilities are leveraged. For inference, the most likely predictions from target scoremaps need to extracted and one needs to efficiently “link predictions to assemble individual animals”.
 
 {{< figure >}}
-src = '/images/content_images/cs/deeplabcut-workflow.png'
-title = 'Flujo de Trabajo de DeepLabCut'
-alt = 'flujo de trabajo'
-attribution = '(Fuente: Mackenzie Mathis)'
-attributionlink = 'https://www.researchgate.net/figure/DeepLabCut-work-flow-The-diagram-delineates-the-work-flow-as-well-as-the-directory-and_fig1_329185962'
+src = '/images/content_images/cs/deeplabcut-workflow.png' title = 'DeepLabCut Workflow' alt = 'workflow' attribution = '(Source: Mackenzie Mathis)' attributionlink = 'https://www.researchgate.net/figure/DeepLabCut-work-flow-The-diagram-delineates-the-work-flow-as-well-as-the-directory-and_fig1_329185962'
 {{< /figure >}}
 
-## Resumen
+## Summary
 
-Observar y describir eficientemente el comportamiento es un punto central de la etología moderna, neurociencia, medicina y tecnología. [DeepLabCut](http://orga.cvss.cc/wp-content/uploads/2019/05/NathMathis2019.pdf) permite a los investigadores estimar la postura del sujeto, permitiéndoles de manera eficiente cuantificar el comportamiento. Con solo un pequeño conjunto de imágenes de entrenamiento, el conjunto de herramientas de Python de DeepLabCut permite entrenar una red neuronal con una precisión de etiquetado a nivel humano, expandiendo así su aplicación no solo al análisis del comportamiento en el laboratorio, sino también potencialmente en deportes, análisis de marcha, medicina y estudios de rehabilitación. Los desafíos de la combinatoria compleja y procesamiento de datos enfrentados por los algoritmos de DeepLabCut se abordan mediante el uso de las capacidades de manipulación de arreglos de NumPy.
+Observing and efficiently describing behavior is a core tenant of modern ethology, neuroscience, medicine, and technology. [DeepLabCut](https://static1.squarespace.com/static/57f6d51c9f74566f55ecf271/t/5eab5ff7999bf94756b27481/1588289532243/NathMathis2019.pdf) allows researchers to estimate the pose of the subject, efficiently enabling them to quantify the behavior. With only a small set of training images, the DeepLabCut Python toolbox allows training a neural network to within human level labeling accuracy, thus expanding its application to not only behavior analysis in the laboratory, but to potentially also in sports, gait analysis, medicine and rehabilitation studies. Complex combinatorics, data processing challenges faced by DeepLabCut algorithms are addressed through the use of NumPy's array manipulation capabilities.
 
 {{< figure >}}
-src = '/images/content_images/cs/numpy_dlc_benefits.png'
-alt = 'beneficios de NumPy'
-title = 'Capacidades claves utilizadas de NumPy'
+src = '/images/content_images/cs/numpy_dlc_benefits.png' alt = 'numpy benefits' title = 'Key NumPy Capabilities utilized'
 {{< /figure >}}
 
 [cheetah-movement]: https://www.technologynetworks.com/neuroscience/articles/interview-a-deeper-cut-into-behavior-with-mackenzie-mathis-327618
