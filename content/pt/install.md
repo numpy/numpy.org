@@ -59,14 +59,14 @@ Em Windows, macOS e Linux:
 
 #### Alternativa se você preferir pip/PyPI
 
-Para usuários que preferem uma solução baseada em pip/PyPI, por preferência pessoal ou leitura sobre as principais diferenças entre o conda e o pip, nós recomendamos:
-- Instale o Python a partir de, por exemplo, [python.org](https://www.python.org/downloads/), [Homebrew](https://brew.sh/), ou seu gerenciador de pacotes Linux.
+Para usuários que preferem uma solução baseada em pip/PyPI, por preferência pessoal ou leitura sobre as principais diferenças entre o conda e o pip explicadas adiante, nós recomendamos:
+- Instale o Python a partir do [python.org](https://www.python.org/downloads/), do [Homebrew](https://brew.sh/), ou de seu gerenciador de pacotes Linux.
 - Use [Poetry](https://python-poetry.org/) como a ferramenta mais bem mantida que fornece um resolvedor de dependências e recursos de gerenciamento de ambiente de forma semelhante ao que o conda faz.
 
 
 ## Gerenciamento de pacotes Python
 
-Gerenciar pacotes é um problema desafiador e, como resultado, há muitas ferramentas. Para o desenvolvimento web e de propósito geral em Python, há uma [série de ferramentas](https://packaging.python.org/guides/tool-recommendations/) complementares com pip. Para computação de alto desempenho (HPC), vale a pena considerar o [Spack](https://github.com/spack/spack). Para computação de alto desempenho (HPC), vale a pena considerar o [Spack](https://github.com/spack/spack). Para a maioria dos usuários NumPy, porém, o [conda](https://conda.io/en/latest/) e o [pip](https://pip.pypa.io/en/stable/) são as duas ferramentas mais populares.
+Gerenciar pacotes é um problema desafiador e, como resultado, há muitas ferramentas. Para o desenvolvimento web e de propósito geral em Python, há uma [série de ferramentas](https://packaging.python.org/guides/tool-recommendations/) complementares ao pip. Para computação de alto desempenho (HPC), vale a pena considerar o [Spack](https://github.com/spack/spack). Para a maioria dos usuários NumPy, porém, o [conda](https://conda.io/en/latest/) e o [pip](https://pip.pypa.io/en/stable/) são as duas ferramentas mais populares.
 
 
 ### Pip & conda
