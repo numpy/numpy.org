@@ -39,13 +39,13 @@ Instalar e gerenciar pacotes no Python pode ser complicado. Há várias soluçõ
 
 ## Recomendações
 
-Vamos começar com recomendações baseadas no nível de experiência do usuário e no sistema operacional de interesse. Se você estiver entre "iniciante" e "avançado", por favor, escolha "iniciante" se você quiser manter as coisas simples, e "avançado" se você quiser trabalhar de acordo com as melhores práticas que te ajudarão a ir mais longe no futuro.
+Vamos começar com recomendações baseadas no nível de experiência do usuário e no sistema operacional de interesse. Se você estiver entre "iniciante" e "avançado", por favor, escolha "iniciante" se você quiser manter as coisas simples, e "avançado" se você quiser trabalhar conforme as melhores práticas que te ajudarão a ir mais longe no futuro.
 
 ### Usuários iniciantes
 
 Em Windows, macOS e Linux:
 
-- Instale o [Anaconda](https://www.anaconda.com/distribution/) (instala todos os pacotes que você precisa e todas as outras ferramentas mencionadas abaixo).
+- Instale o [Anaconda](https://www.anaconda.com/download) (instala todos os pacotes que você precisa e todas as outras ferramentas mencionadas abaixo).
 - Para escrever e executar código, use notebooks no [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) para a computação exploratória e interativa, e o [Spyder](https://www.spyder-ide.org/) ou [Visual Studio Code](https://code.visualstudio.com/) para escrever scripts e pacotes.
 - Use o [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) para gerenciar seus pacotes e iniciar o JupyterLab, Spyder ou o Visual Studio Code.
 
