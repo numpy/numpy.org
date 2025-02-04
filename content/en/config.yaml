@@ -77,7 +77,7 @@ params:
     socialmedia:
     - link: https://github.com/numpy/numpy
       icon: github
-    - link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
+    - link: https://www.youtube.com/@NumPy_team
       icon: youtube
     quicklinks:
       column1:
