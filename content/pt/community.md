@@ -49,9 +49,9 @@ O projeto NumPy não organiza suas próprias conferências. As conferências que
 
 - [SciPy US](https://conference.scipy.org)
 - [EuroSciPy](https://www.euroscipy.org)
-- [SciPy Latin America](https://pythoncientifico.ar/)
+- [SciPy Latin America](https://www.scipyla.org)
 - [SciPy India](https://scipy.in)
-- [SciPy Japan](https://www.scipyjapan.scipy.org/)
+- [SciPy Japan](https://conference.scipy.org)
 - [conferências PyData](https://pydata.org/event-schedule/) (15-20 eventos por ano espalhados por muitos países)
 
 Muitas dessas conferências incluem dias de tutorial sobre o NumPy e/ou sprints onde você pode aprender como contribuir com o NumPy ou projetos de código aberto relacionados.
