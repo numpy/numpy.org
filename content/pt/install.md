@@ -97,11 +97,11 @@ A terceira diferença é que o conda é uma solução integrada para gerenciar p
 
 O NumPy não depende de quaisquer outros pacotes Python. No entanto, depende de uma biblioteca de álgebra linear acelerada - tipicamente [Intel MKL](https://software.intel.com/en-us/mkl) ou [OpenBLAS](https://www.openblas.net/). Os usuários não precisam se preocupar com a instalação desses pacotes (eles são incluídos automaticamente em todos os métodos de instalação do NumPy). No entanto, usuários experientes podem querer saber os detalhes, porque o BLAS usado pode afetar o desempenho, o comportamento e o tamanho em disco:
 
-- As wheels da NumPy no PyPI, que é o que o pip instala, são compiladas com OpenBLAS. As bibliotecas da OpenBLAS são empacotadas dentro da wheel. Isso faz com que a wheel fique maior, e se um usário também instalar (por exemplo) a SciPy, terá agora duas cópias da OpenBLAS no disco.
+- As wheels da NumPy no PyPI, que são o que o pip instala, são compiladas com OpenBLAS. As bibliotecas da OpenBLAS são empacotadas dentro da wheel. Isso faz com que a wheel fique maior, e se um usuário também instalar (por exemplo) a SciPy, terá agora duas cópias da OpenBLAS no disco.
 
 - No canal defaults do conda, a NumPy é compilada com a Intel MKL. MKL é um pacote separado que será instalado no ambiente do usuário quando instalar a NumPy.
 
-- No canal do conda-Forge, a NumPy é compilada com um pacote "BLAS" fictício. Quando um usuário instala o NumPy do conda-forge, esse pacote BLAS então é instalado juntamente com a biblioteca real - o padrão é OpenBLAS, mas também pode ser MKL (do canal defaults), ou até mesmo [BLIS](https://github.com/flame/blis) ou *reference BLAS*.
+- No canal do conda-forge, a NumPy é compilada com um pacote "BLAS" fictício. Quando um usuário instala o NumPy do conda-forge, esse pacote BLAS então é instalado juntamente com a biblioteca real - o padrão é OpenBLAS, mas também pode ser MKL (do canal defaults), ou até mesmo [BLIS](https://github.com/flame/blis) ou reference BLAS.
 
 - O pacote MKL é muito maior que o OpenBLAS, ocupa cerca de 700 MB no disco enquanto OpenBLAS ocupa cerca de 30 MB.
 
