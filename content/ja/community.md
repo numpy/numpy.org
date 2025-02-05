@@ -49,9 +49,9 @@ NumPy プロジェクトは独自のカンファレンスは開催していま�
 
 - [SciPy US](https://conference.scipy.org)
 - [EuroSciPy](https://www.euroscipy.org)
-- [SciPy Latin America](https://www.scipyla.org)
+- [SciPy Latin America](https://pythoncientifico.ar/)
 - [SciPy India](https://scipy.in)
-- [SciPy Japan](https://conference.scipy.org)
+- [SciPy Japan](https://www.scipyjapan.scipy.org/)
 - [PyData conference](https://pydata.org/event-schedule/) (年に15~20のイベントが様々な国で開催されています。 )
 
 これらのカンファレンスの多くは、NumPyの使い方や関連するオープンソースプロジェクトに貢献する方法を学ぶことができるチュートリアルを開催しています。
