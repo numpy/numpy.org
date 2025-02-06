@@ -3,74 +3,74 @@ title: About Us
 sidebar: false
 ---
 
-NumPy என்பது பைத்தானுடன் எண் கணிதத்தை செயல்படுத்தும் ஒரு திறந்த மூல திட்டமாகும். இது 2005 ஆம் ஆண்டு நியூமெரிக் மற்றும் நாமரே நூலகங்களின் ஆரம்பகாலப் பணிகளை அடிப்படையாகக் கொண்டு உருவாக்கப்பட்டது. NumPy எப்போதும் 100% திறந்த மூல மென்பொருளாகவும் அனைவரும் பயன்படுத்த இலவசமாகவும் இருக்கும். It is released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
+NumPy என்பது பைத்தானுடன் எண் கணிதத்தை செயல்படுத்தும் ஒரு திறந்த மூல திட்டமாகும். இது 2005 ஆம் ஆண்டு நியூமெரிக் மற்றும் நாமரே நூலகங்களின் ஆரம்பகாலப் பணிகளை அடிப்படையாகக் கொண்டு உருவாக்கப்பட்டது. NumPy எப்போதும் 100% திறந்த மூல மென்பொருளாகவும் அனைவரும் பயன்படுத்த இலவசமாகவும் இருக்கும். இது [மாற்றியமைக்கப்பட்ட BSD உரிமத்தின்](https://github.com/numpy/numpy/blob/main/LICENSE.txt) தாராளவாத விதிமுறைகளின் கீழ் வெளியிடப்படுகிறது.
 
-NumPy is developed in the open on GitHub, through the consensus of the NumPy and wider scientific Python community. For more information on our governance approach, please see our [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
+NumPy மற்றும் பரந்த அறிவியல் பைதான் சமூகத்தின் ஒருமித்த கருத்துமூலம், GitHub இல் திறந்தவெளியில் NumPy உருவாக்கப்பட்டது. எங்கள் நிர்வாக அணுகுமுறைபற்றிய கூடுதல் தகவலுக்கு, எங்கள் [ஆளுமை ஆவணத்தைப்](https://www.numpy.org/devdocs/dev/governance/index.html) பார்க்கவும்.
 
 
-## Steering Council
+## வழிகாட்டுதல் குழு
 
-The NumPy Steering Council is the project's governing body. Its role is to ensure, through working with and serving the broader NumPy community, the long-term sustainability of the project, both as a software package and community. The NumPy Steering Council currently consists of the following members (in alphabetical order, by last name):
+NumPy வழிகாட்டுதல் கவுன்சில் தான் இந்தத் திட்டத்தின் நிர்வாகக் குழுவாகும். பரந்த NumPy சமூகத்துடன் இணைந்து பணியாற்றுவதன் மூலமும், சேவை செய்வதன் மூலமும், ஒரு மென்பொருள் தொகுப்பு மற்றும் சமூகம் ஆகிய இரண்டிலும் திட்டத்தின் நீண்டகால நிலைத்தன்மையை உறுதி செய்வதே இதன் பங்கு. NumPy வழிகாட்டுதல் கவுன்சில் தற்போது பின்வரும் உறுப்பினர்களைக் கொண்டுள்ளது (அகர வரிசைப்படி, கடைசி பெயரில்):
 
-- Sebastian Berg
-- Ralf Gommers
-- Charles Harris
-- Stephan Hoyer
-- Inessa Pawson
-- Matti Picus
-- Stéfan van der Walt
+- செபாஸ்டியன் பெர்க்
+- ரால்ஃப் கோமர்ஸ்
+- சார்லஸ் ஹாரிஸ்
+- ஸ்டீபன் ஹோயர்
+- இனெஸ்ஸா பாவ்சன்
+- மேட்டி பிகஸ்
+- ஸ்டீபன் வான் டெர் வால்ட்
 - Melissa Weber Mendonça
-- Eric Wieser
+- எரிக் வீசர்
 
-Emeritus:
+ஓய்வு பெற்றவர்கள்:
 
-- Alex Griffing (2015-2017)
-- Allan Haldane (2015-2021)
-- Marten van Kerkwijk (2017-2019)
-- Travis Oliphant (project founder, 2005-2012)
-- Nathaniel Smith (2012-2021)
-- Julian Taylor (2013-2021)
-- Jaime Fernández del Río (2014-2021)
-- Pauli Virtanen (2008-2021)
+- அலெக்ஸ் கிரிஃபிங் (2015-2017)
+- ஆலன் ஹால்டேன் (2015-2021)
+- மார்டன் வான் கெர்க்விஜ்க் (2017-2019)
+- டிராவிஸ் ஆலிஃபண்ட் (திட்ட நிறுவனர், 2005-2012)
+- நதானியேல் ஸ்மித் (2012-2021)
+- நதானியேல் ஸ்மித் (2012-2021)
+- ஜெய்ம் பெர்னாண்டஸ் டெல் ரியோ (2014-2021)
+- பாலி விர்டனென் (2008-2021)
 
-To contact the NumPy Steering Council, please email numpy-team@googlegroups.com.
+NumPy வழிகாட்டுதல் கவுன்சிலைத் தொடர்பு கொள்ள, தயவுசெய்து numpy-team@googlegroups.com என்ற முகவரிக்கு மின்னஞ்சல் அனுப்புங்கள்.
 
-## Teams
+## அணிகள்
 
-The NumPy project leadership is actively working on diversifying contribution pathways to the project.<br> NumPy currently has the following teams:
+NumPy திட்டத் தலைமை, திட்டத்திற்கான பங்களிப்பு பாதைகளைப் பல்வகைப்படுத்துவதில் தீவிரமாகச் செயல்பட்டு வருகிறது.<br> NumPy தற்போது பின்வரும் அணிகளைக் கொண்டுள்ளது:
 
-- development
-- documentation
-- triage
-- website
-- survey
-- translations
-- sprint mentors
-- optimization
-- funding and grants
+- வளர்ச்சி
+- ஆவணமாக்கம்
+- வகைப்படுத்தல்
+- வலைத்தளம்
+- கணக்கெடுப்பு
+- மொழிபெயர்ப்புகள்
+- ஸ்பிரிண்ட் வழிகாட்டிகள்
+- மேம்படுத்தல்
+- நிதி மற்றும் மானியங்கள்
 
-See the [Team](/teams) page for more info.
+மேலும் தகவலுக்கு [குழு](/teams) பக்கத்தைப் பார்க்கவும்.
 
-## NumFOCUS Subcommittee
+## NumFOCUS துணைக்குழு
 
-- Charles Harris
-- Ralf Gommers
-- Inessa Pawson
-- Sebastian Berg
-- External member: Thomas Caswell
+- சார்லஸ் ஹாரிஸ்
+- ரால்ஃப் கோமர்ஸ்
+- இனெஸ்ஸா பாவ்சன்
+- செபாஸ்டியன் பெர்க்
+- வெளிப்புற உறுப்பினர்: தாமஸ் காஸ்வெல்
 
-## Sponsors
+## ஸ்பான்சர்கள்
 
-NumPy receives direct funding from the following sources:
+NumPy பின்வரும் மூலங்களிலிருந்து நேரடி நிதியைப் பெறுகிறது:
 {{< sponsors >}}
 
 
-## Institutional Partners
+## நிறுவன கூட்டாளர்கள்
 
-Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include:
+நிறுவன கூட்டாளர்கள் என்பது NumPy-க்கு பங்களிக்கும் நபர்களைத் தங்கள் வேலையின் ஒரு பகுதியாகப் பணியமர்த்துவதன் மூலம் திட்டத்தை ஆதரிக்கும் நிறுவனங்களாகும். தற்போதைய நிறுவன கூட்டாளிகள்:
 
-- UC Berkeley (Stéfan van der Walt)
-- Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça)
+- யூசி பெர்க்லி (ஸ்டீஃபான் வான் டெர் வால்ட்)
+- குவான்சைட் (நாதன் கோல்ட்பாம், ரால்ஃப் கோமர்ஸ், மாட்டிப் பிகஸ், மெலிசா வெபர் மென்டோன்சா)
 - NVIDIA (Sebastian Berg)
 
 {{< partners >}}
