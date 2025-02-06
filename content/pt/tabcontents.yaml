@@ -84,7 +84,7 @@ params:
         alttext: Um chip de computador.
         img: /images/content_images/sc_dom_img/quantum_computing.svg
         links:
-          - url: http://qutip.org
+          - url: https://qutip.org
             label: QuTiP
           - url: https://pyquil-docs.rigetti.com/en/stable
             label: PyQuil
