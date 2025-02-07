@@ -18,7 +18,7 @@ Há uma tonelada de informações sobre o NumPy lá fora. Se você está começa
 * [NumPy Quickstart Tutorial (Tutorial de Início Rápido)](https://numpy.org/devdocs/user/quickstart.html)
 * [NumPy Tutorials](https://numpy.org/numpy-tutorials) Uma coleção de tutoriais e materiais educacionais no formato de Notebooks Jupyter desenvolvidos e mantidos pelo time de documentação do NumPy. Se você tiver interesse em adicionar o seu próprio conteúdo, verifique o repositório [numpy-tutorials no GitHub](https://github.com/numpy/numpy-tutorials).
 * [NumPy Illustrated: The Visual Guide to NumPy *por Lev Maximov*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
-* [Scientific Python Lectures](https://lectures.scientific-python.org/) Além de incluir conteúdo sobre a NumPy, estas aulas oferecem uma introdução mais ampla ao ecossistema científico do Python.
+* [Scientific Python Lectures](https://lectures.scientific-python.org/) Além de incluir conteúdo sobre o NumPy, estas aulas oferecem uma introdução mais ampla ao ecossistema científico do Python.
 * [NumPy: the absolute basics for beginners ("o básico absoluto para inciantes")](https://numpy.org/devdocs/user/absolute_beginners.html)
 * [NumPy tutorial *por Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
 * [Stanford CS231 *por Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
@@ -26,11 +26,11 @@ Há uma tonelada de informações sobre o NumPy lá fora. Se você está começa
 
 <i class="fas fa-book"></i> **Livros**
 
-* [Guide to NumPy *de Travis E. Oliphant*](http://web.mit.edu/dvp/Public/numpybook.pdf) Essa é uma versão free de 2006. Para a última versão (2015) veja [aqui](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007).
+* [Guide to NumPy *de Travis E. Oliphant*](http://web.mit.edu/dvp/Public/numpybook.pdf) Essa é uma versão 1 livre de 2006. Para a última versão (2015) veja <a href="[">aqui](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1144670472).
 * [From Python to NumPy *por Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 * [Elegant SciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) *por Juan Nunez-Iglesias, Stefan van der Walt, e Harriet Dashnow*
 
-Você também pode querer conferir a [lista Goodreads](https://www.goodreads.com/shelf/show/python-scipy) sobre o tema "Python+SciPy. A maioria dos livros lá serão sobre o "ecossistema SciPy", que tem o NumPy em sua essência.
+Você também pode querer conferir a [lista Goodreads](https://www.goodreads.com/shelf/show/python-scipy) sobre o tema "Python+SciPy". A maioria dos livros lá será sobre o "ecossistema SciPy", que tem o NumPy em sua essência.
 
 <i class="far fa-file-video"></i> **Vídeos**
 
