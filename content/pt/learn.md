@@ -51,7 +51,7 @@ Experimente esses recursos avançados para uma melhor compreensão dos conceitos
 
 <i class="fas fa-book"></i> **Livros**
 
-* [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057) *por Jake Vanderplas*
+* [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1098121228) *por Jake Vanderplas*
 * [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662) *por Wes McKinney*
 * [Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy, and Matplotlib](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459) *por Robert Johansson*
 
