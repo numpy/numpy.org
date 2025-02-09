@@ -51,7 +51,11 @@ reader a sense of the best (or most popular) solutions, and give clear
 recommendations. It focuses on users of Python, NumPy, and the PyData (or
 numerical computing) stack on common operating systems and hardware.
 
-## Recommendations
+{{< tabs >}}
+
+[[tab]]
+name = 'Recommended Method'
+content = '''
 
 We'll start with recommendations based on the user's experience level and
 operating system of interest. If you're in between "beginning" and "advanced",
@@ -94,8 +98,11 @@ we recommend:
   that provides a dependency resolver and environment management capabilities
   in a similar fashion as conda does.
 
+'''
 
-## Python package management
+[[tab]]
+name = 'Python Package Management'
+content = '''
 
 Managing packages is a challenging problem, and, as a result, there are lots of
 tools. For web and general purpose Python development there's a whole
@@ -146,8 +153,11 @@ of packages and versions you're using. Best practice is to:
    - Poetry: [virtual environments and pyproject.toml](https://python-poetry.org/docs/basic-usage/)
 
 
+'''
 
-## NumPy packages & accelerated linear algebra libraries
+[[tab]]
+name = 'NumPy packages & Libraries'
+content = '''
 
 NumPy doesn't depend on any other Python packages, however, it does depend on an
 accelerated linear algebra library - typically
@@ -190,7 +200,8 @@ consider:
   function calls. It typically yields better performance, but can also be
   harmful - for example when using another level of parallelization with Dask,
   scikit-learn or multiprocessing.
-
+'''
+{{< /tabs >}}
 
 ## Troubleshooting
 
