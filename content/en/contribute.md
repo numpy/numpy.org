@@ -29,7 +29,6 @@ Our community aspires to treat everyone equally and to value all
 contributions. We have a [Code of Conduct](/code-of-conduct) to foster an open
 and welcoming environment.
 
-### 'How to Contribute to NumPy' comic
 For a visual guide on how to contribute to NumPy, check out this [comic](https://heyzine.com/flip-book/3e66a13901.html).
 
 <a href="https://heyzine.com/flip-book/3e66a13901.html">
