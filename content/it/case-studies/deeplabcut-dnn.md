@@ -57,44 +57,44 @@ src = '/images/content_images/cs/deeplabcut-toolkit-steps.png' title = 'Fasi di 
 
 * **Velocità**
 
-    L'elaborazione rapida dei video del comportamento animale permette di misurarlo con precisione, rendendo al contempo gli esperimenti scientifici più efficienti e accurati. Extracting detailed animal poses for laboratory experiments, without markers, in dynamically changing backgrounds, can be challenging, both technically as well as in terms of resource needs and training data required. Coming up with a tool that is easy to use without the need for skills such as computer vision expertise that enables scientists to do research in more real-world contexts, is a non-trivial problem to solve.
+    L'elaborazione rapida dei video del comportamento animale permette di misurarlo con precisione, rendendo al contempo gli esperimenti scientifici più efficienti e accurati. Misurare le pose degli animali in modo non invasivo da un video - senza marcatori - su sfondi che cambiano dinamicamente è una sfida computazionale, sia dal punto di vista tecnico che da quello delle risorse necessarie e dei dati di addestramento richiesti. Fornire uno strumento facile da usare, senza richiedere competenze specifiche come esperienza in visualizzazione computazionale, e che permetta agli scienziati di condurre ricerche in diversi contesti reali, è un problema non banale da risolvere.
 
-* **Combinatorics**
+* **Combinatoria**
 
-    Combinatorics involves assembly and integration of movement of multiple limbs into individual animal behavior. Assembling keypoints and their connections into individual animal movements and linking them across time is a complex process that requires heavy-duty numerical analysis, especially in case of multi-animal movement tracking in experiment videos.
+    Il calcolo combinatorio prevede l'assemblaggio e l'integrazione del movimento di più arti in un comportamento individuale dell'animale. Assemblare i punti chiave, le loro connessioni nei singoli movimenti degli animali e collegarli nel tempo è un processo complesso che richiede un'analisi numerica impegnativa, soprattutto nel caso di tracciamento dei movimenti di più animali in video di esperimenti.
 
-* **Data Processing**
+* **Trattamento dei Dati**
 
-    Last but not the least, array manipulation - processing large stacks of arrays corresponding to various images, target tensors and keypoints is fairly challenging.
+    Ultimo, ma non meno importante, la manipolazione degli arrays - l'elaborazione di grandi pile di vettori corrispondenti a varie immagini, tensori di destinazione e punti chiave, è piuttosto impegnativo.
 
 {{< figure >}}
-src = '/images/content_images/cs/pose-estimation.png' title = 'Pose estimation variety and complexity' alt = 'challengesfig' align = 'center' attribution = '(Source: Mackenzie Mathis)' attributionlink = 'https://www.biorxiv.org/content/10.1101/476531v1.full.pdf'
+src = '/images/content_images/cs/pose-estimation.png' title = 'Varietà e complessità della stima della posa' alt = 'challengesfig' align = 'center' attribution = '(Sorgente: Mackenzie Mathis)' attributionlink = 'https://www.biorxiv.org/content/10.1101/476531v1.full.pdf'
 {{< /figure >}}
 
-## NumPy's Role in meeting Pose Estimation Challenges
+## Il Ruolo di NumPy verso le Sfide di Stima della Posa
 
-NumPy addresses DeepLabCut technology's core need of numerical computations at high speed for behavioural analytics.  Besides NumPy, DeepLabCut employs various Python software that utilize NumPy at their core, such as [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug), [scikit-learn](https://scikit-learn.org/stable/), [scikit-image](https://scikit-image.org) and [Tensorflow](https://www.tensorflow.org).
+NumPy affronta la necessità principale della tecnologia DeepLabCut di calcoli numerici ad alta velocità per l'analisi comportamentale.  Oltre a NumPy, DeepLabCut impiega vari software Python che utilizzano NumPy al loro centro, come [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug), [scikit-learn](https://scikit-learn.org/stable/) [scikit-image](https://scikit-image.org) e [Tensorflow](https://www.tensorflow.org).
 
-The following features of NumPy played a key role in addressing the image processing, combinatorics requirements and need for fast computation in DeepLabCut pose estimation algorithms:
+Le seguenti caratteristiche di NumPy hanno svolto un ruolo fondamentale nel risolvere i requisiti di elaborazione delle immagini, di combinatoria e di velocità di calcolo degli algoritmi di stima della posa di DeepLabCut:
 
-* Vectorization
-* Masked Array Operations
-* Linear Algebra
-* Random Sampling
-* Reshaping of large arrays
+* Vettorizzazione
+* Operazioni con Arrays Mascherati
+* Algebra Lineare
+* Campionamento Casuale
+* Riarrangiamento di arrays di grandi dimensioni
 
-DeepLabCut utilizes NumPy’s array capabilities throughout the workflow offered by the toolkit. In particular, NumPy is used for sampling distinct frames for human annotation labeling, and for writing, editing and processing annotation data.  Within TensorFlow the neural network is trained by DeepLabCut technology over thousands of iterations to predict the ground truth annotations from frames. For this purpose, target densities (scoremaps) are created to cast pose estimation as a image-to-image translation problem. To make the neural networks robust, data augmentation is employed, which requires the calculation of target scoremaps subject to various geometric and image processing steps. To make training fast, NumPy’s vectorization capabilities are leveraged. For inference, the most likely predictions from target scoremaps need to extracted and one needs to efficiently “link predictions to assemble individual animals”.
+DeepLabCut utilizza le capacità di array di NumPy durante il flusso di lavoro offerto dal toolkit. In particolare, NumPy viene utilizzato per il campionamento di frame distinti per l'etichettatura dell'annotazione umana e per scrivere, modificare ed elaborare i dati di annotazione.  All'interno di TensorFlow, la rete neurale è addestrata dalla tecnologia DeepLabCut sopra migliaia di iterazioni per prevedere le annotazioni di verità fondamentali dai frames. A questo scopo, le densità obiettivo (scoremap) sono create per lanciare la stima di posa come un problema di traduzione da immagine ad immagine. Per rendere le reti neurali robuste, si ricorre all'aumento dei dati, che richiede il calcolo di scoremap del bersaglio soggetto in varie fasi di elaborazione geometrica e dell'immagine. Per rendere veloce l'addestramento, le capacità di vettorializzazione di NumPy vengono sfruttate. Per l'inferenza, le previsioni più probabili dalle scoremap di destinazione devono essere estratte e bisogna “collegare in modo efficiente le predizioni per assemblare i singoli animali”.
 
 {{< figure >}}
-src = '/images/content_images/cs/deeplabcut-workflow.png' title = 'DeepLabCut Workflow' alt = 'workflow' attribution = '(Source: Mackenzie Mathis)' attributionlink = 'https://www.researchgate.net/figure/DeepLabCut-work-flow-The-diagram-delineates-the-work-flow-as-well-as-the-directory-and_fig1_329185962'
+src = '/images/content_images/cs/deeplabcut-workflow.png' title = 'Flusso di lavoro in DeepLabCut' alt = 'workflow' attribution = '(Sorgente: Mackenzie Mathis)' attributionlink = 'https://www.researchgate.net/figure/DeepLabCut-work-flow-The-diagram-delineates-the-work-flow-as-well-as-the-directory-and_fig1_329185962'
 {{< /figure >}}
 
 ## Sommario
 
-Observing and efficiently describing behavior is a core tenant of modern ethology, neuroscience, medicine, and technology. [DeepLabCut](https://static1.squarespace.com/static/57f6d51c9f74566f55ecf271/t/5eab5ff7999bf94756b27481/1588289532243/NathMathis2019.pdf) allows researchers to estimate the pose of the subject, efficiently enabling them to quantify the behavior. With only a small set of training images, the DeepLabCut Python toolbox allows training a neural network to within human level labeling accuracy, thus expanding its application to not only behavior analysis in the laboratory, but to potentially also in sports, gait analysis, medicine and rehabilitation studies. Complex combinatorics, data processing challenges faced by DeepLabCut algorithms are addressed through the use of NumPy's array manipulation capabilities.
+Osservare e descrivere in modo efficiente il comportamento è un principio fondamentale dell'etologia moderna, delle neuroscienze, della medicina e della tecnologia. [DeepLabCut](https://static1.squarespace.com/static/57f6d51c9f74566f55ecf271/t/5eab5ff7999bf94756b27481/1588289532243/NathMathis2019.pdf) permette ai ricercatori di stimare la posa del soggetto, consentendo in modo efficiente di di quantificare il comportamento. Con solo un piccolo insieme di immagini di addestramento, l'insieme di strumenti Python di DeepLabCut permette di addestrare una rete neurale con un'accuratezza di etichettatura al pari del livello umano, espandendo così la sua applicazione non solo all'analisi del comportamento in laboratorio, ma potenzialmente anche nello sport, nell'analisi dell'andatura e negli studi di medicina e riabilitazione. Le complesse sfide di calcolo combinatorio e di elaborazione dei dati riscontrate dagli algoritmi di DeepLabCut vengono affrontate attraverso l'uso delle capacità di NumPy di manipolazione degli array.
 
 {{< figure >}}
-src = '/images/content_images/cs/numpy_dlc_benefits.png' alt = 'numpy benefits' title = 'Key NumPy Capabilities utilized'
+src = '/images/content_images/cs/numpy_dlc_benefits.png' alt = 'numpy benefits' title = 'Capacità Chiave di NumPy utilizzate'
 {{< /figure >}}
 
 [cheetah-movement]: https://www.technologynetworks.com/neuroscience/articles/interview-a-deeper-cut-into-behavior-with-mackenzie-mathis-327618
