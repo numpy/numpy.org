@@ -62,7 +62,7 @@ The NumPy project doesn't organize its own conferences. The conferences that hav
 - [EuroSciPy](https://www.euroscipy.org)
 - [SciPy Latin America](https://github.com/scipy-latinamerica)
 - [SciPy India](https://scipy.in)
-- [SciPy Japan](https://scipydata.connpass.com/)
+- [SciPyData Japan](https://scipydata.connpass.com/)
 - [PyData conferences](https://pydata.org/event-schedule/) (15-20 events a year spread over many countries)
 
 Many of these conferences include tutorial days that cover NumPy and/or sprints where you can learn how to contribute to NumPy or related open source projects.
