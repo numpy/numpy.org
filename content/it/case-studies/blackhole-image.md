@@ -16,7 +16,7 @@ src = '/images/content_images/cs/blackhole.jpg' title = 'Buco Nero M87' alt = 'i
 
 Il telescopio [Event Horizon (EHT)](https://eventhorizontelescope.org) è un complesso di otto radiotelescopi terrestri che formano un telescopio computazionale della dimensione della Terra, studiando l'universo con sensibilità e risoluzione senza precedenti.  L'enorme telescopio virtuale, che utilizza una tecnica chiamata interferometria a lunghissima base (VLBI), ha una risoluzione angolare di [20 micro-secondi d'arco][resolution] — abbastanza definito per leggere un giornale a New York da un bar sul marciapiede a Parigi!
 
-### Key Goals and Results
+### Obiettivi Principali e Risultati
 
 * **Una Nuova Visione dell'Universo:** Le basi per l'immagine innovativa dell'EHT sono state gettate 100 anni prima, quando [Sir Arthur Eddington][eddington] ha dato il primo supporto d'osservazione della teoria della relatività generale di Einstein.
 
@@ -62,7 +62,7 @@ src = '/images/content_images/cs/ehtim_numpy.png' alt = 'ehtim dependency map hi
 
 Oltre a NumPy, molti altri pacchetti, come [SciPy](https://www.scipy.org) e [Panda](https://pandas.io), fanno parte della pipeline di elaborazione dati per l’immagine del buco nero. I formati di file astronomici standard e le trasformazioni di tempo/coordinate sono stati gestiti da [Astropy][astropy], mentre [Matplotlib][mpl] è stato utilizzato per visualizzare i dati in tutta la pipeline di analisi, compresa la generazione dell'immagine finale del buco nero.
 
-## Summary
+## Sommario
 
 La gestione efficiente ed adattabile di matrici n-dimensionali, che è la caratteristica centrale di NumPy, ha permesso ai ricercatori di manipolare grandi insiemi di dati numerici, fornendo una base per la prima immagine mai osservata di un buco nero. Pietra miliare della scienza, si tratta di una splendida testimonianza visiva della teoria di Einstein.   Algoritmi innovativi e tecniche di elaborazione dati, migliorando i modelli astronomici esistenti, hanno contribuito a spiegare un mistero dell'universo.
 
