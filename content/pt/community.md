@@ -5,17 +5,17 @@ sidebar: false
 
 NumPy é um projeto de código aberto impulsionado pela comunidade desenvolvido por um grupo muito diversificado de [contribuidores](/pt/teams/). A liderança do NumPy assumiu um forte compromisso de criar uma comunidade aberta, inclusiva e positiva. Por favor, leia [o Código de Conduta NumPy](/pt/code-of-conduct) para orientações sobre como interagir com os outros de uma forma que faça a comunidade prosperar.
 
-Oferecemos vários canais de comunicação para aprender, compartilhar seu conhecimento e se conectar com outros dentro da comunidade NumPy.
+Oferecemos vários canais de comunicação para aprender, compartilhar seu conhecimento e se conectar com outros na comunidade NumPy.
 
 
 ## Participar online
 
-Abaixo, listamos algumas formas de se envolver diretamente com o projeto e a comunidade do NumPy. _Por favor, note que encorajamos os usuários e membros da comunidade a apoiarem-se uns aos outros para perguntas sobre utilização - veja [Obter Ajuda](/gethelp)._
+Abaixo, listamos algumas formas de se envolver diretamente com o projeto e a comunidade NumPy. _Por favor, note que encorajamos os usuários e membros da comunidade a apoiarem-se uns aos outros para perguntas sobre utilização - veja [Obter Ajuda](/pt/gethelp)._
 
 
 ### [Lista de discussões NumPy](https://mail.python.org/mailman/listinfo/numpy-discussion)
 
-Esta lista é o principal fórum para discussões mais longas, como adicionar novos recursos ao NumPy, fazer alterações no roadmap do NumPy e em todos os tipos de tomada de decisão para todo o projeto. Anúncios sobre o NumPy, como novas versões, reuniões de desenvolvedores, sprints ou palestras de conferência também são feitas nesta lista.
+Esta lista é o principal fórum para discussões mais longas, como adicionar novos recursos ao NumPy, fazer alterações no roadmap do NumPy e em todos os tipos de tomada de decisão para todo o projeto. Anúncios sobre o NumPy, como novas versões, reuniões de desenvolvedores, sprints ou palestras de conferência também são feitos nesta lista.
 
 Nesta lista, por favor, use *bottom posting*, responda à lista (em vez de a outro remetente), e não responda aos *digests*. Um arquivo pesquisável desta lista está disponível [aqui](https://mail.python.org/archives/list/numpy-discussion@python.org/).
 
