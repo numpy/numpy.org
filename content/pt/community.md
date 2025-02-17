@@ -40,7 +40,7 @@ Uma sala de bate-papo em tempo real para fazer perguntas sobre _contribuir_ para
 
 Se você gostaria de encontrar um encontro ou grupo de estudo local para aprender mais sobre o NumPy e o ecossistema mais amplo de pacotes Python para ciência de dados e computação científica, recomendamos explorar os [meetups PyData](https://www.meetup.com/pro/pydata/) (mais de 150 encontros, mais de 100.000 membros).
 
-O NumPy também organiza sprints presenciais para sua equipe e colaboradores interessados ocasionalmente. Estes eventos são normalmente planejados com vários meses de antecedência e serão anunciados na [lista de discussão](https://mail.python.org/mailman/listinfo/numpy-discussion) e no [Twitter](https://twitter.com/numpy_team).
+O NumPy também organiza sprints presenciais para sua equipe e colaboradores interessados ocasionalmente. Estes eventos são normalmente planejados com vários meses de antecedência e serão anunciados na [lista de discussão](https://mail.python.org/mailman/listinfo/numpy-discussion).
 
 
 ## Conferências
@@ -52,7 +52,7 @@ O projeto NumPy não organiza suas próprias conferências. As conferências que
 - [SciPy Latin America](https://www.scipyla.org)
 - [SciPy India](https://scipy.in)
 - [SciPy Japan](https://conference.scipy.org)
-- [conferências PyData](https://pydata.org/event-schedule/) (15-20 eventos por ano espalhados por muitos países)
+- [conferências PyData](https://pydata.org/event-schedule/) (de 15 a 20 eventos por ano espalhados por muitos países)
 
 Muitas dessas conferências incluem dias de tutorial sobre o NumPy e/ou sprints onde você pode aprender como contribuir com o NumPy ou projetos de código aberto relacionados.
 
