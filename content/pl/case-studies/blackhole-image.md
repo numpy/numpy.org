@@ -60,7 +60,7 @@ For example, the [`eht-imaging`][ehtim] Python package provides tools for simula
 src = '/images/content_images/cs/ehtim_numpy.png' alt = 'ehtim dependency map highlighting numpy' title = 'Software dependency chart of ehtim package highlighting NumPy'
 {{< /figure >}}
 
-Besides NumPy, many other packages, such as [SciPy](https://www.scipy.org) and [Pandas](https://pandas.io), are part of the data processing pipeline for imaging the black hole. The standard astronomical file formats and time/coordinate transformations were handled by [Astropy][astropy], while [Matplotlib][mpl] was used in visualizing data throughout the analysis pipeline, including the generation of the final image of the black hole.
+Besides NumPy, many other packages, such as [SciPy](https://scipy.org) and [Pandas](https://pandas.pydata.org), are part of the data processing pipeline for imaging the black hole. The standard astronomical file formats and time/coordinate transformations were handled by [Astropy][astropy], while [Matplotlib][mpl] was used in visualizing data throughout the analysis pipeline, including the generation of the final image of the black hole.
 
 ## Summary
 
