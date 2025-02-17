@@ -75,7 +75,7 @@ alt = 'ehtim dependency map highlighting numpy'
 title = 'NumPyの中心としたehtimのソフトウェア依存図'
 {{< /figure >}}
 
-NumPyだけでなく、[SciPy](https://www.scipy.org)や[Pandas](https://pandas.io)などのパッケージもブラックホール画像化におけるデータ処理パイプラインに利用されています。 天文学の標準的なファイル形式や時間/座標変換 は[Astropy][astropy]で実装され、ブラックホールの最終画像の生成を含め、解析パイプライン全体でのデータ可視化には [Matplotlib][mpl]が利用されました。
+NumPyだけでなく、[SciPy](https://scipy.org)や[Pandas](https://pandas.pydata.org)などのパッケージもブラックホール画像化におけるデータ処理パイプラインに利用されています。 天文学の標準的なファイル形式や時間/座標変換 は[Astropy][astropy]で実装され、ブラックホールの最終画像の生成を含め、解析パイプライン全体でのデータ可視化には [Matplotlib][mpl]が利用されました。
 
 ## まとめ
 
