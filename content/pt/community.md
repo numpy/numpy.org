@@ -27,13 +27,13 @@ Nesta lista, por favor, use *bottom posting*, responda à lista (em vez de a out
 - problemas de documentação (ex. "Eu achei esta seção confusa");
 - e pedidos de recursos (por exemplo, "Eu gostaria de ter um novo método de interpolação em `np.percentile`").
 
-_Por favor, note que o GitHub não é o lugar certo para relatar uma vulnerabilidade de segurança. Se você acha que encontrou uma vulnerabilidade de segurança no NumPy, relate-a [aqui](https://tidelift.com/docs/security)._
+_Por favor, note que o GitHub não é o lugar certo para relatar uma vulnerabilidade de segurança. Se você acredita ter encontrado uma vulnerabilidade de segurança no NumPy, relate-a [aqui](https://tidelift.com/docs/security)._
 
 ***
 
 ### [Slack](https://numpy-team.slack.com)
 
-Uma sala de bate-papo em tempo real para fazer perguntas sobre _contribuir_ para o NumPy. Este é um fórum privado, especificamente para pessoas hesitantes em levantar suas perguntas ou idéias em uma grande lista de e-mails públicos ou no GitHub. Por favor, clique [aqui](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) para mais detalhes e como obter um convite.
+Uma sala de bate-papo em tempo real para fazer perguntas sobre _contribuir_ para o NumPy. Este é um fórum privado, especificamente para pessoas hesitantes em levantar suas perguntas ou ideias em uma grande lista de e-mails públicos ou no GitHub. Por favor, clique [aqui](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) para mais detalhes e como obter um convite.
 
 
 ## Grupos de Estudo e Meetups
