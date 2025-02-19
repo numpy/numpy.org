@@ -20,12 +20,6 @@ The recommended method of installing NumPy depends on your preferred workflow. B
 
 Choose the method that best suits your needs. If you're unsure, start with the **Environment-based** method using `conda` or `pip`.
 
-
-NumPy can be installed with a `package manager` on
-macOS and Linux, or [from source](https://numpy.org/devdocs/building).
-For more detailed instructions, consult our **Python and NumPy
-installation** guide below.
-
 Below are the different methods for **installing NumPy**. Click on the tabs to explore each method:
 {{< tabs >}}
 
