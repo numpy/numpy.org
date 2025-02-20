@@ -7,12 +7,12 @@ sidebar: false
 NumPyは`conda`、`pip` 、macOSやLinuxのパッケージマネージャー、または [ソースコード](https://numpy.org/devdocs/user/building.html)からインストールすることが出来ます。 NumPyは`conda`、`pip` 、macOSやLinuxのパッケージマネージャー、または [ソースコード](https://numpy.org/devdocs/building)からインストールすることが出来ます。 詳細な手順については、以下の [Python と Numpyの インストールガイド](#python-numpy-install-guide) を参照してください。
 {{< /admonition >}}
 
-The recommended method of installing NumPy depends on your preferred workflow. Below, we break down the installation methods into the following categories:
+NumPy のインストールする推奨の方法は、希望するワークフローによって異なります。 そこで、インストール方法を以下のカテゴリに分類しました。
 
-- **Project-based** (e.g., uv, pixi) *(recommended for new users)*
-- **Environment-based** (e.g., pip, conda) *(the traditional workflow)*
-- **System package managers** *(not recommended for most users)*
-- **Building from source** *(for advanced users and development purposes)*
+- **プロジェクトベースの方法** (例: uv, pixi) *(新規ユーザーに推奨)*
+- **環境ベースの方法** (例: pip, conda) *(従来のワークフロー)*
+- **システムパッケージマネージャーを使う方法** *(ほとんどのユーザーには非推奨)*
+- **ソース** *からのビルド (経験豊富なユーザーおよび開発者向け)*
 
 Choose the method that best suits your needs. If you're unsure, start with the **Environment-based** method using `conda` or `pip`.
 
