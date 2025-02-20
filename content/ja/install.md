@@ -3,7 +3,7 @@ title: NumPyのインストール
 sidebar: false
 ---
 
-{{< admonition tip >}}
+3つ目の違いは、condaはパッケージ、依存関係、環境を管理するための統合されたソリューションであるのに対し、pipでは環境や複雑な依存関係を扱うために別のツール(たくさん存在しています！
 NumPyは`conda`、`pip` 、macOSやLinuxのパッケージマネージャー、または [ソースコード](https://numpy.org/devdocs/user/building.html)からインストールすることが出来ます。 NumPyは`conda`、`pip` 、macOSやLinuxのパッケージマネージャー、または [ソースコード](https://numpy.org/devdocs/building)からインストールすることが出来ます。 詳細な手順については、以下の [Python と Numpyの インストールガイド](#python-numpy-install-guide) を参照してください。
 {{< /admonition >}}
 
@@ -65,7 +65,6 @@ The third difference is that conda is an integrated solution for managing packag
   my-env\Scripts\activate     # Windows
   pip install numpy
   ```
-'''
 
 [[tab]] name = 'System Package Managers' content = ''' Not recommended for most users, but available for convenience.
 
@@ -88,13 +87,9 @@ sudo apt install python3-numpy
 choco install numpy
 ```
 
-'''
-
 [[tab]] name = 'Building from Source' content = ''' For advanced users and developers who want to customize or debug **NumPy**.
 
 A word of warning: building Numpy from source can be a nontrivial exercise. We recommend using binaries instead if those are available for your platform via one of the above methods. For details on how to build from source, see [the building from source guide in the Numpy docs](https://numpy.org/devdocs/building/).
-
-'''
 {{< /tabs >}}
 
 ## 推奨方法
