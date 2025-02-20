@@ -3,7 +3,7 @@ title: Instalando o NumPy
 sidebar: false
 ---
 
-{{< admonition tip >}}
+A terceira diferença é que o conda é uma solução integrada para gerenciar pacotes, dependências e ambientes, enquanto com o pip você pode precisar de outra ferramenta (há muitas!) para lidar com ambientes ou dependências complexas.
 O NumPy pode ser instalado com `conda`, com `pip`, com um gerenciador de pacotes no macOS e Linux, ou [da fonte](https://numpy.org/devdocs/building). O único pré-requisito para instalar o NumPy é o próprio Python. Se você ainda não tem o Python e quer começar do jeito mais simples, nós recomendamos que você use a [Distribuição Anaconda](https://www.anaconda.com/distribution) - inclui Python, NumPy e outros pacotes comumente usados para computação científica e ciência de dados.
 {{< /admonition >}}
 
@@ -35,11 +35,11 @@ Recommended for new users who want a streamlined workflow.
 
 Em Windows, macOS e Linux:
 
-Para usuários que preferem uma solução baseada em pip/PyPI, por preferência pessoal ou leitura sobre as principais diferenças entre o conda e o pip, nós recomendamos:
+Para usuários que preferem uma solução baseada em pip/PyPI, por preferência pessoal ou leitura sobre as principais diferenças entre o conda e o pip explicadas adiante, nós recomendamos:
 
-As duas principais ferramentas que instalam pacotes do Python são `pip` e `conda`. Para o desenvolvimento web e de propósito geral em Python, há uma [série de ferramentas](https://packaging.python.org/guides/tool-recommendations/) complementares com pip. Para computação de alto desempenho (HPC), vale a pena considerar o [Spack](https://github.com/spack/spack). Para computação de alto desempenho (HPC), vale a pena considerar o [Spack](https://github.com/spack/spack).
+As duas principais ferramentas que instalam pacotes do Python são `pip` e `conda`. Para o desenvolvimento web e de propósito geral em Python, há uma [série de ferramentas](https://packaging.python.org/guides/tool-recommendations/) complementares ao pip. Para computação de alto desempenho (HPC), vale a pena considerar o [Spack](https://github.com/spack/spack).
 
-The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. Algumas de suas funcionalidades são redundantes (por exemplo, ambos podem instalar o `numpy`). No entanto, elas também podem trabalhar juntas.
+The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. Elas têm algumas funcionalidades em comum (por exemplo, ambas podem instalar o `numpy`). No entanto, elas também podem trabalhar juntas.
 
 A primeira diferença é que "conda" é multilinguagens e pode instalar o Python, enquanto o pip é instalado em um determinado Python em seu sistema e instala outros pacotes apenas para essa mesma instalação de Python. Isto também significa que o conda pode instalar bibliotecas e ferramentas não-Python das quais você pode precisar (por exemplo, compiladores, CUDA, HDF5), enquanto pip não pode.
 
@@ -66,6 +66,7 @@ A terceira diferença é que o conda é uma solução integrada para gerenciar p
   pip install numpy
   ```
 '''
+{{< /card >}}
 
 [[tab]] name = 'System Package Managers' content = ''' Not recommended for most users, but available for convenience.
 
@@ -89,12 +90,14 @@ choco install numpy
 ```
 
 '''
+{{< /card >}}
 
 [[tab]] name = 'Building from Source' content = ''' For advanced users and developers who want to customize or debug **NumPy**.
 
 A word of warning: building Numpy from source can be a nontrivial exercise. We recommend using binaries instead if those are available for your platform via one of the above methods. For details on how to build from source, see [the building from source guide in the Numpy docs](https://numpy.org/devdocs/building/).
 
 '''
+{{< /card >}}
 {{< /tabs >}}
 
 ## Recomendações
