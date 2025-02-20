@@ -3,7 +3,7 @@ title: NumPy 설치
 sidebar: false
 ---
 
-{{< admonition tip >}}
+세번째 차이점은 conda는 환경이나 패키지간 의존성을 해결하기 위한 해키지 관리 도구를 제공하지만, pip는 그를 위해서 (아주 많은) 추가적인 도구들이 필요하다는 것 입니다.
 NumPy 는 `conda` 나 `pip` 를 통해서 사용하여 설치할 수 있고, 또한 macOS 및 Linux의 패키지 관리자나 [원본 코드](https://numpy.org/devdocs/user/building.html) 를 이용하여 설치할 수 있습니다. NumPy를 설치하는 유일한 선행 조건은 Python 자체입니다. 만약 아직 Python을 설치하지 않았고 가장 간단한 방법으로 시작하려면, [Anaconda 배포판](https://www.anaconda.com/distribution) 을 사용하길 권장합니다. 이 배포판에는 Python 와 NumPy 및 과학 계산 및 데이터 사이언스에 자주 사용되는 다른 패키지들이 포함되어 있습니다.
 {{< /admonition >}}
 
@@ -66,6 +66,7 @@ The third difference is that conda is an integrated solution for managing packag
   pip install numpy
   ```
 '''
+{{< /card >}}
 
 [[tab]] name = 'System Package Managers' content = ''' Not recommended for most users, but available for convenience.
 
@@ -89,12 +90,14 @@ choco install numpy
 ```
 
 '''
+{{< /card >}}
 
 [[tab]] name = 'Building from Source' content = ''' For advanced users and developers who want to customize or debug **NumPy**.
 
 A word of warning: building Numpy from source can be a nontrivial exercise. We recommend using binaries instead if those are available for your platform via one of the above methods. For details on how to build from source, see [the building from source guide in the Numpy docs](https://numpy.org/devdocs/building/).
 
 '''
+{{< /card >}}
 {{< /tabs >}}
 
 ## 권장 사항
