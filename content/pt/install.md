@@ -7,19 +7,19 @@ A terceira diferença é que o conda é uma solução integrada para gerenciar p
 O NumPy pode ser instalado com `conda`, com `pip`, com um gerenciador de pacotes no macOS e Linux, ou [da fonte](https://numpy.org/devdocs/building). O único pré-requisito para instalar o NumPy é o próprio Python. Se você ainda não tem o Python e quer começar do jeito mais simples, nós recomendamos que você use a [Distribuição Anaconda](https://www.anaconda.com/distribution) - inclui Python, NumPy e outros pacotes comumente usados para computação científica e ciência de dados.
 {{< /admonition >}}
 
-The recommended method of installing NumPy depends on your preferred workflow. Below, we break down the installation methods into the following categories:
+The recommended method of installing NumPy depends on your preferred workflow. A seguir, dividimos os métodos de instalação entre as seguintes categorias:
 
-- **Project-based** (e.g., uv, pixi) *(recommended for new users)*
-- **Environment-based** (e.g., pip, conda) *(the traditional workflow)*
-- **System package managers** *(not recommended for most users)*
-- **Building from source** *(for advanced users and development purposes)*
+- **Baseados em projeto** (por exemplo, uv, pixi) *(recomendados para novos usuários)*
+- **Baseados em ambientes** (por exemplo, pip, conda) *(o fluxo de trabalho tradicional)*
+- **Gerenciadores de pacotes de sistema** *(não recomendados para a maioria dos usuários)*
+- **A partir do código-fonte** *(para usuários avançados e para fins de desenvolvimento)*
 
-Choose the method that best suits your needs. If you're unsure, start with the **Environment-based** method using `conda` or `pip`.
+Escolha o método mais adequado às suas necessidades. Se não tiver certeza, comece com um método **baseado em ambientes** usando `conda` ou `pip`.
 
-Below are the different methods for **installing NumPy**. Click on the tabs to explore each method:
+Os diferentes métodos para **instalar o NumPy** são os seguintes. Clique nas abas para explorar cada método:
 Também ao usar o pip, é uma boa prática usar um ambiente virtual - veja em [Instalações Reprodutíveis](#reproducible-installs) abaixo por quê, e [esse guia](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto) para detalhes sobre o uso de ambientes virtuais.
 
-[[tab]] name = 'Project Based' content = '''
+[[tab]] name = 'Baseados em projetos' conteúdo = '''
 
 Recommended for new users who want a streamlined workflow.
 
