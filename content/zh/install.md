@@ -1,10 +1,10 @@
 ---
 title: 安装NumPy
-sidebar: 假
+sidebar: false
 ---
 
-{{< admonition tip >}}
-NumPy 可以使用 `conda` 安装，用 `pip` 安装， 在macOS 和Linux用软件包管理器安装或用[源码安装](https://numpy.org/devdocs/building)。 安装 NumPy 的唯一前提条件是安装了 Python 。 如果您还没有Python，并且想以最简单的方式开始， 我们建议您使用[Anaconda Distribution](https://www.anaconda.com/download) - 它包括 Python, NumPy，以及许多其他常用的科学计算和数据科学软件包。
+第三个不同点，conda是依赖关系、环境和软件包管理的集成解决方案。而 pip 可能需要其他工具 (很多!) 用于处理环境或复杂的依赖关系。
+This page assumes you are comfortable using a terminal and are familiar with package managers. 安装 NumPy 的唯一前提条件是安装了 Python 。 If you don't have Python yet and want the simplest way to get started, we recommend you use the [Anaconda Distribution](https://www.anaconda.com/download) - it includes Python, NumPy, and many other commonly used packages for scientific computing and data science.
 {{< /admonition >}}
 
 The recommended method of installing NumPy depends on your preferred workflow. Below, we break down the installation methods into the following categories:
@@ -37,11 +37,11 @@ Recommended for new users who want a streamlined workflow.
 
 对出于个人喜好或看完下面 conda 和 pip之间的主要差异后更喜欢基于 pip/PyPI 的解决方案的用户，我们建议：
 
-安装 Python 软件包的两个主流工具是 `pip` and `conda`。 对于Web和一般Python开发有一整套能与pip互补的[工具](https://packaging.python.org/guides/tool-recommendations/)。 对于高性能计算 (HPC),[Spack](https://github.com/spack/spack) 值得考虑。
+安装 Python 软件包的两个主要工具是 `pip` and `conda`。 对于Web和一般Python开发有一整套能与pip互补的[工具](https://packaging.python.org/guides/tool-recommendations/)。 对于高性能计算 (HPC),[Spack](https://github.com/spack/spack) 值得考虑。
 
 The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. 他们的功能部分重叠(例如两者都可以安装 `numpy`)，但他们也可以一起工作。
 
-第一个不同点是conda是跨语言的，它可以安装 Python，然而 pip 安装在您的系统的特定的Python环境之上， 并只为那一个特定的Python环境安装的软件包。 这也意味着conda 可以安装非Python 库和其他您可能需要的工具(例如编译器、CUDA、HDF5)，pip则不行。
+第一点不同是conda是跨语言的，它可以安装 Python，然而 pip 安装在您的系统的特定的 Python 之上， 并只为那一个特定的Python安装其他的软件包。 这也意味着conda 可以安装非Python 库和其他您可能需要的工具(例如编译器、CUDA、HDF5)，pip则不行。
 
 The third difference is that conda is an integrated solution for managing packages, dependencies and environments, while with pip you may need another tool (there are many!) for dealing with environments or complex dependencies.
 
@@ -55,7 +55,7 @@ The third difference is that conda is an integrated solution for managing packag
   ```bash
   pip install numpy
   ```
-第三个不同点，conda是依赖关系、环境和软件包管理的集成工具。而 pip 可能需要其他工具 (很多!) 用于处理环境或复杂的依赖关系。
+第三个不同点，conda是依赖关系、环境和软件包管理的集成解决方案。而 pip 可能需要其他工具 (很多!) 用于处理环境或复杂的依赖关系。
 **Tip:** Use a virtual environment for better dependency management
 {{< /admonition >}}
 
@@ -109,14 +109,13 @@ print(np.__version__)
 
 This should print the installed version of NumPy without errors.
 
-## 疑难解答
+## 故障排查
 
-如果你安装失败并返回下述提示消息，请参考 [导入错误](https://numpy.org/doc/stable/user/troubleshooting-importerror.html)。
+如果您的安装失败并显示如下信息，请参阅 [故障排查 ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html)。
 
 ```
 IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
 
-Importing the numpy c-extensions failed. This error can happen for
-different reasons, often due to issues with your setup.
+Importing the numpy c-extensions failed. This error can happen for different reasons, often due to issues with your setup.
 ```
 
