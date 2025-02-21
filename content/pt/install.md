@@ -21,14 +21,14 @@ Também ao usar o pip, é uma boa prática usar um ambiente virtual - veja em [I
 
 [[tab]] name = 'Baseados em projetos' conteúdo = '''
 
-Recommended for new users who want a streamlined workflow.
+Recomendado para novos usuários que queiram um fluxo de trabalho simplificado.
 
-- **uv:** A modern Python package manager designed for speed and simplicity.
+- **uv:** Um gerenciador de pacotes Python moderno projetado para velocidade e simplicidade.
   ```bash
   uv pip install numpy
   ```
 
-- **pixi:** A cross-platform package manager for Python and other languages.
+- **pixi:** Um gerenciador de pacotes multiplataforma para Python e outras linguagens.
   ```bash
   pixi add numpy
   ```
@@ -39,13 +39,13 @@ Para usuários que preferem uma solução baseada em pip/PyPI, por preferência 
 
 As duas principais ferramentas que instalam pacotes do Python são `pip` e `conda`. Para o desenvolvimento web e de propósito geral em Python, há uma [série de ferramentas](https://packaging.python.org/guides/tool-recommendations/) complementares ao pip. Para computação de alto desempenho (HPC), vale a pena considerar o [Spack](https://github.com/spack/spack).
 
-The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. Elas têm algumas funcionalidades em comum (por exemplo, ambas podem instalar o `numpy`). No entanto, elas também podem trabalhar juntas.
+A primeira diferença é que conda é multilinguagens e pode instalar o Python, enquanto o pip é instalado em um determinado Python em seu sistema e instala outros pacotes apenas para essa mesma instalação de Python. Elas têm algumas funcionalidades em comum (por exemplo, ambas podem instalar o `numpy`). No entanto, elas também podem trabalhar juntas.
 
 A primeira diferença é que "conda" é multilinguagens e pode instalar o Python, enquanto o pip é instalado em um determinado Python em seu sistema e instala outros pacotes apenas para essa mesma instalação de Python. Isto também significa que o conda pode instalar bibliotecas e ferramentas não-Python das quais você pode precisar (por exemplo, compiladores, CUDA, HDF5), enquanto pip não pode.
 
-The third difference is that conda is an integrated solution for managing packages, dependencies and environments, while with pip you may need another tool (there are many!) for dealing with environments or complex dependencies.
+A terceira diferença é que conda é uma solução integrada para gerenciar pacotes, dependências e ambientes, enquanto com pip você pode precisar de outra ferramenta (há muitas!) para lidar com ambientes ou dependências complexas.
 
-- **Conda:** If you use conda, you can install NumPy from the defaults or conda-forge channels:
+- **Conda:** se você usar o conda, você pode instalar o NumPy do canal default ou do conda-forge:
   ```bash
   conda create -n my-env
   conda activate my-env
