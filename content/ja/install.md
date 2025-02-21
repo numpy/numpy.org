@@ -45,7 +45,7 @@ pipとcondaの最初の違いは、Conda は複数の言語に対応しており
 
 3つ目の違いは、Conda はパッケージ、依存関係、環境を管理するための統合的なソリューションであるのに対し、pip を使用する場合は、環境管理や複雑な依存関係を処理するために別のツール（様々なツールがあります！）が必要になることがある点です。
 
-- **Conda:** If you use conda, you can install NumPy from the defaults or conda-forge channels:
+- **Conda:** conda を使用している場合、デフォルトの設定先、または conda-forge チャンネルから NumPyをインストールできます。
   ```bash
   conda create -n my-env
   conda activate my-env
@@ -56,17 +56,17 @@ pipとcondaの最初の違いは、Conda は複数の言語に対応しており
   pip install numpy
   ```
 3つ目の違いは、condaはパッケージ、依存関係、環境を管理するための統合されたソリューションであるのに対し、pipでは環境や複雑な依存関係を扱うために別のツール(たくさん存在しています！
-**Tip:** Use a virtual environment for better dependency management
+**ヒント:** より良い依存関係管理のためには仮想環境を使用しましょう。
 {{< /admonition >}}
 
   ```bash
   python -m venv my-env
-  source my-env/bin/activate  # macOS/Linux
-  my-env\Scripts\activate     # Windows
+  source my-env/bin/activate # macOS/Linux
+  my-env\Scripts\activate # Windows
   pip install numpy
   ```
 
-[[tab]] name = 'System Package Managers' content = ''' Not recommended for most users, but available for convenience.
+[[tab]] name = 'システムパッケージマネージャを利用' content = ''' ほとんどのユーザーには推奨されませんが、こちらの方が便利な人向けに利用可能です。
 
 **macOS (Homebrew):**
 ```bash
@@ -87,20 +87,20 @@ sudo apt install python3-numpy
 choco install numpy
 ```
 
-[[tab]] name = 'Building from Source' content = ''' For advanced users and developers who want to customize or debug **NumPy**.
+[[tab]] name = 'ソースコードからビルドする' content = ''' **NumPy**をカスタマイズやデバッグしたい、経験豊富なユーザーや開発者向け
 
-A word of warning: building Numpy from source can be a nontrivial exercise. We recommend using binaries instead if those are available for your platform via one of the above methods. For details on how to build from source, see [the building from source guide in the Numpy docs](https://numpy.org/devdocs/building/).
+警告:ソースコードからNumPyをビルドすることは簡単では無い場合があります。 前述のいずれかの方法であなたの環境NumPyを使用できる場合は、バイナリを使用することをお勧めします. ソースからビルドする方法の詳細については、[ NumPy のドキュメントにあるソースコードからのビルドガイド](https://numpy.org/devdocs/building/)を参照してください。
 {{< /tabs >}}
 
 ## 推奨方法
 
-After installing NumPy, verify the installation by running the following in a Python shell or script:
+NumPy をインストールした後、以下のコードをPython シェルまたはスクリプトで実行して、インストールが正しく実施されているか確認してください。
 ```python
 import numpy as np
 print(np.__version__)
 ```
 
-This should print the installed version of NumPy without errors.
+インストールに問題が無い場合は、インストールされているNumPyのバージョンが表示されるはずです。
 
 ## トラブルシューティング
 
