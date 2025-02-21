@@ -14,21 +14,21 @@ NumPy のインストールする推奨の方法は、希望するワークフ�
 - **システムパッケージマネージャーを使う方法** *(ほとんどのユーザーには非推奨)*
 - **ソース** *からのビルド (経験豊富なユーザーおよび開発者向け)*
 
-Choose the method that best suits your needs. If you're unsure, start with the **Environment-based** method using `conda` or `pip`.
+あなたの目的に応じて最適な方法を選択してください。 どの方法を使うべきか分からない場合は、 **環境ベースの方法** を元に、`conda` または `pip` を使って開始しましょう。
 
-Below are the different methods for **installing NumPy**. Click on the tabs to explore each method:
+以下は、**NumPyをインストールする**様々な方法です。 タブをクリックして、各種方法を確認してください。
 またpipを使う場合、仮想環境を使うことをおすすめします。 [再現可能なインストール](#reproducible-installs)を参照ください。 [こちらの記事](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto)では仮想環境を使う詳細について説明されています。
 
-[[tab]] name = 'Project Based' content = '''
+[[tab]] name = 'プロジェクトベースの方法' content = '''
 
-Recommended for new users who want a streamlined workflow.
+合理的なワークフローを求める、新規ユーザーにお勧めです。
 
-- **uv:** A modern Python package manager designed for speed and simplicity.
+- **uv:** スピードとシンプルさを兼ね備えたモダンなPythonパッケージマネージャ。
   ```bash
   uv pip install numpy
   ```
 
-- **pixi:** A cross-platform package manager for Python and other languages.
+- **pixi:** Pythonやその他の言語のためのクロスプラットフォームパッケージマネージャ
   ```bash
   pixi add numpy
   ```
@@ -39,11 +39,11 @@ Windows、macOS、Linuxのすべてのユーザー向けには:
 
 `pip` と `conda` がPythonパッケージをインストールするための2つの主要なツールです。 ウェブ開発と汎用的なPython開発には、こちらのようなpipを補完する [ツール](https://packaging.python.org/guides/tool-recommendations/) があります。 ハイパフォーマンスコンピューティング(HPC)では、 [Spack](https://github.com/spack/spack) を使うことを検討して下さい。
 
-The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. これら二つのツールの機能は部分的に重複しますが(例えば、両方とも `numpy`をインストールできます)、一緒に動作することもできます。
+pipとcondaの最初の違いは、Conda は複数の言語に対応しており Python 自体をインストールできるのに対し、pip は特定の Python 環境にインストールされ、その Python に対してのみパッケージをインストールすることができることです。 これら二つのツールの機能は部分的に重複しますが(例えば、両方とも `numpy`をインストールできます)、一緒に動作することもできます。
 
 2つ目の違いは、pipはPython Packaging Index(PyPI) からパッケージをインストールするのに対し、condaは独自のチャンネル(一般的には "defaults "や "conda-forge "など) からインストールすることです。 PyPIは最大のパッケージ管理システムですが、人気のある全てのパッケージがcondaでも利用可能です。
 
-The third difference is that conda is an integrated solution for managing packages, dependencies and environments, while with pip you may need another tool (there are many!) for dealing with environments or complex dependencies.
+3つ目の違いは、Conda はパッケージ、依存関係、環境を管理するための統合的なソリューションであるのに対し、pip を使用する場合は、環境管理や複雑な依存関係を処理するために別のツール（様々なツールがあります！）が必要になることがある点です。
 
 - **Conda:** If you use conda, you can install NumPy from the defaults or conda-forge channels:
   ```bash
