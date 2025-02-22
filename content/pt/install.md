@@ -56,7 +56,7 @@ A terceira diferença é que conda é uma solução integrada para gerenciar pac
   pip install numpy
   ```
 A terceira diferença é que o conda é uma solução integrada para gerenciar pacotes, dependências e ambientes, enquanto com o pip você pode precisar de outra ferramenta (há muitas!) para lidar com ambientes ou dependências complexas.
-**Tip:** Use a virtual environment for better dependency management
+**Dica:** Use um ambiente virtual para melhorar o gerenciamento de dependências
 {{< /admonition >}}
 
   ```bash
@@ -68,7 +68,7 @@ A terceira diferença é que o conda é uma solução integrada para gerenciar p
 '''
 {{< /card >}}
 
-[[tab]] name = 'System Package Managers' content = ''' Not recommended for most users, but available for convenience.
+[[tab]] name = 'Gerenciadores de Pacotes do Sistema' conteúdo = ''' Não recomendado para a maioria dos usuários, mas disponível por conveniência.
 
 **macOS (Homebrew):**
 ```bash
@@ -92,9 +92,9 @@ choco install numpy
 '''
 {{< /card >}}
 
-[[tab]] name = 'Building from Source' content = ''' For advanced users and developers who want to customize or debug **NumPy**.
+[[tab]] name = 'A partir do código-fonte' conteúdo = ''' Para usuários avançados e desenvolvedores que querem personalizar ou depurar o **NumPy**.
 
-A word of warning: building Numpy from source can be a nontrivial exercise. We recommend using binaries instead if those are available for your platform via one of the above methods. For details on how to build from source, see [the building from source guide in the Numpy docs](https://numpy.org/devdocs/building/).
+Um pequeno aviso: construir o Numpy a partir do código-fonte pode ser um exercício não-trivial. Recomendamos o uso de binários se eles estiverem disponíveis para a sua plataforma através de um dos métodos anteriores. Para obter detalhes sobre como construir a partir do código-fonte, consulte [o guia de construção a partir do código-fonte na documentação do Numpy](https://numpy.org/devdocs/building/).
 
 '''
 {{< /card >}}
@@ -102,13 +102,13 @@ A word of warning: building Numpy from source can be a nontrivial exercise. We r
 
 ## Recomendações
 
-After installing NumPy, verify the installation by running the following in a Python shell or script:
+Depois de instalar o NumPy, verifique a instalação, executando o seguinte em um shell ou script Python:
 ```python
 import numpy as np
 print(np.__version__)
 ```
 
-This should print the installed version of NumPy without errors.
+Isto deve imprimir a versão instalada do NumPy sem erros.
 
 ## Solução de problemas
 
