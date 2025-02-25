@@ -10,7 +10,7 @@ O NumPy é desenvolvido abertamente no GitHub, através do consenso da comunidad
 
 ## Conselho Diretor (Steering Council)
 
-O papel do Conselho Diretor do NumPy consiste em assegurar o bem-estar a longo prazo do projeto, tanto nos aspectos técnicos quanto na comunidade. Isso é feito através do trabalho com e para a comunidade NumPy em geral. O Conselho Diretor do NumPy atualmente consiste dos seguintes membros (em ordem alfabética, pelo sobrenome):
+O Conselho Diretor do NumPy é a entidade que governa o projeto. Seu papel é garantir, através do trabalho com e para a comunidade NumPy em geral, a sustentabilidade do projeto a longo prazo, tanto como pacote de software quanto como comunidade. O Conselho Diretor do NumPy atualmente consiste dos seguintes membros (em ordem alfabética, pelo sobrenome):
 
 - Sebastian Berg
 - Ralf Gommers
@@ -27,7 +27,7 @@ Membros Eméritos:
 - Alex Griffing (2015-2017)
 - Allan Haldane (2015-2021)
 - Marten van Kerkwijk (2017-2019)
-- Travis Oliphant (project founder, 2005-2012)
+- Travis Oliphant (fundador do projeto, 2005-2012)
 - Nathaniel Smith (2012-2021)
 - Julian Taylor (2013-2021)
 - Jaime Fernández del Río (2014-2021)
