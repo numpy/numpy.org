@@ -78,9 +78,9 @@ Os Parceiros Institucionais são organizações que apoiam o projeto, empregando
 
 ## Doações
 
-Se você achou o NumPy útil no seu trabalho, pesquisa ou empresa, por favor considere fazer uma doação para o projeto que seja compatível com seus recursos. Qualquer quantidade ajuda! Todas as doações serão utilizadas estritamente para financiar o desenvolvimento do software de código aberto da NumPy, documentação e comunidade.
+Se você achou o NumPy útil no seu trabalho, pesquisa ou empresa, por favor considere fazer uma doação para o projeto que seja compatível com seus recursos. Qualquer quantidade ajuda! Todas as doações serão utilizadas estritamente para financiar o desenvolvimento do software de código aberto, documentação e comunidade da NumPy.
 
-NumPy é um Projeto Patrocinado da NumFOCUS, uma instituição de caridade sem fins lucrativos nos Estados Unidos. A NumFOCUS fornece ao NumPy apoio fiscal, legal e administrativo para ajudar a garantir a saúde e a sustentabilidade do projeto. Visite [numfocus.org](https://numfocus.org) para obter mais informações.
+NumPy é um Projeto Patrocinado da NumFOCUS, uma instituição de caridade sem fins lucrativos 501(c)(3) nos Estados Unidos. A NumFOCUS fornece ao NumPy apoio fiscal, legal e administrativo para ajudar a garantir a saúde e a sustentabilidade do projeto. Visite [numfocus.org](https://numfocus.org) para obter mais informações.
 
 Doações para o NumPy são gerenciadas pela [NumFOCUS](https://numfocus.org). Para doadores nos Estados Unidos, sua doação é dedutível para fins fiscais na medida oferecida pela lei. Como em qualquer doação, você deve consultar seu conselheiro fiscal sobre sua situação fiscal em particular.
 
