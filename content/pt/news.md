@@ -2,15 +2,15 @@
 title: "Notícias"
 sidebar: false
 newsHeader: "Lançado o NumPy versão 2.2.0!"
-date: 2023-09-16
+date: 2024-12-08
 ---
 
 ### Lançado o NumPy versão 2.2.0
 
-_8 de dezembro, 2024_ -- A NumPy 2.2 é uma versão que nos traz de volta para o calendário habitual de lançamento duas vezes por ano. Ela inclui um número de pequenas limpezas, melhorias para o StringDType, e melhor suporte para o free-threaded Python. Alguns dos destaques são:
+_8 de dezembro de 2024_ -- A NumPy 2.2.0 é uma versão que nos traz de volta para o calendário habitual de lançamento duas vezes por ano. Ela inclui um número de pequenas limpezas, melhorias para o StringDType, e melhor suporte para o free-threaded Python. Alguns dos destaques são:
 
 * Novas funções `matvec` e `vecmat`,
-* Melhorias nas anotações de tipos,
+* Várias melhorias nas anotações de tipos,
 * Suporte melhorado para o novo StringDType,
 * Suporte aprimorado para Python free-threaded,
 * Correções para o f2py.
@@ -20,18 +20,18 @@ Esta versão suporta as versões 3.10-3.13 do Python.
 
 ### Lançado o NumPy versão 2.1.0
 
-_18 de agosto, 2024_ -- NumPy 2.1.0 fornece suporte para Python 3.13 e remove suporte para Python 3.9. Além das habituais correções de erros e suporte a Python atualizado, esta versão ajuda a trazer o NumPy de volta ao ciclo habitual de lançamento após o longo desenvolvimento da versão 2.0. Os destaques desta versão são:
+_18 de agosto de 2024_ -- NumPy 2.1.0 fornece suporte para Python 3.13 e remove suporte para Python 3.9. Além das habituais correções de erros e suporte a Python atualizado, esta versão ajuda a trazer o NumPy de volta ao ciclo habitual de lançamento após o longo desenvolvimento da versão 2.0. Os destaques desta versão são:
 
--   Suporte ao Python 3.12.0.
+-   Suporte ao Python 3.13.
 -   Suporte preliminar para Python 3.13 free threaded.
--   Suporte para array-api 2023.12 standard.
+-   Suporte para o padrão array-api 2023.12.
 
 As versões 3.10-3.13 do Python são suportadas por esta versão.
 
 
 ### NumPy 2.0.0 lançada
 
-_16 de junho, 2024_ -- NumPy 2.0.0 é a primeira grande versão desde 2006. É o resultado de 11 meses de desenvolvimento desde a última feature release e é o trabalho de 212 contribuidores espalhado por 1078 pull requests. Esta versão contém um grande número de novas funcionalidades interessantes, bem como mudanças nas APIs Python e C.  As mudanças incluem quebras de compatibilidade que não puderam acontecer em uma versão regular menor - incluindo uma quebra na ABI, mudanças nas regras de promoção de tipo e mudanças na API que poderiam não estar emitindo alertas de fim de suporte nas versões 1.26.x. Documentos-chave, relacionados a como se adaptar às mudanças em NumPy 2.0, incluem:
+_16 de junho de 2024_ -- NumPy 2.0.0 é a primeira grande versão desde 2006. É o resultado de 11 meses de desenvolvimento desde a última feature release e é o trabalho de 212 contribuidores espalhado por 1078 pull requests. Esta versão contém um grande número de novas funcionalidades interessantes, bem como mudanças nas APIs Python e C.  As mudanças incluem quebras de compatibilidade que não puderam acontecer em uma versão regular menor - incluindo uma quebra na ABI, mudanças nas regras de promoção de tipo e mudanças na API que poderiam não estar emitindo alertas de fim de suporte nas versões 1.26.x. Documentos-chave, relacionados a como se adaptar às mudanças em NumPy 2.0, incluem:
 
 - O [guia de migração NumPy 2.0](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
 - As [notas de lançamento da versão 2.0.0](https://numpy.org/devdocs/release/2.0.0-notes.html)
