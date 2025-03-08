@@ -50,18 +50,18 @@ _23 de maio de 2024_ -- Estamos animados em anunciar que planejamos lançar a Nu
 
 
 ### Arrecadação de fundos de fim de ano da NumFOCUS
-_19 de dezembro de 2023_ -- A NumFOCUS se juntou ao PyCharm durante sua campanha de final de ano para oferecer 30% de desconto em licenças de PyCharm para novos usuários. Todas as receitas do primeiro ano das compras do PyCharm a partir de agora até 23 de dezembro, 2023 irão diretamente para os programas NumFOCUS.
+_19 de dezembro de 2023_ -- A NumFOCUS se juntou ao PyCharm durante sua campanha de final de ano para oferecer 30% de desconto em licenças de PyCharm para novos usuários. Todas as receitas do primeiro ano das compras do PyCharm a partir de agora até 23 de dezembro de 2023 irão diretamente para os programas NumFOCUS.
 
 Use a URL única que permitirá rastrear as compras https://lp.jetbrains.com/support-data-science/ ou um código de cupom ISUPPORTDATASCIENCE 
 
-### NumPy versão 1.24.0
+### Lançada versão 1.26.0 do NumPy
 
-_17 de junho, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) está disponível agora. Os destaques desta versão são:
+_16 de setembro de 2023_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html) está disponível. Os destaques desta versão são:
 
-* Suport ao Python 3.12.0.
+* Suporte ao Python 3.12.0.
 * Compatibilidade com Cython 3.0.0.
 * Utilização do sistema Meson para compilação
-* Suport a SIMD atualizado
+* Suporte a SIMD atualizado
 * Melhorias para f2py, suporte a meson e bind(x)
 * Suporte à versão mais recente da biblioteca Accelerate BLAS/LAPACK
 
