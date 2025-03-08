@@ -31,7 +31,7 @@ As versões 3.10-3.13 do Python são suportadas por esta versão.
 
 ### NumPy 2.0.0 lançada
 
-_16 de junho de 2024_ -- NumPy 2.0.0 é a primeira grande versão desde 2006. É o resultado de 11 meses de desenvolvimento desde a última feature release e é o trabalho de 212 contribuidores espalhado por 1078 pull requests. Esta versão contém um grande número de novas funcionalidades interessantes, bem como mudanças nas APIs Python e C.  As mudanças incluem quebras de compatibilidade que não puderam acontecer em uma versão regular menor - incluindo uma quebra na ABI, mudanças nas regras de promoção de tipo e mudanças na API que poderiam não estar emitindo alertas de fim de suporte nas versões 1.26.x. Documentos-chave, relacionados a como se adaptar às mudanças em NumPy 2.0, incluem:
+_16 de junho de 2024_ -- NumPy 2.0.0 é a primeira grande versão desde 2006. É o resultado de 11 meses de desenvolvimento desde a última feature release e é o trabalho de 212 contribuidores espalhado por 1078 pull requests. Esta versão contém um grande número de novas funcionalidades interessantes, bem como mudanças nas APIs Python e C.  As mudanças incluem quebras de compatibilidade que não puderam acontecer em uma versão regular menor - incluindo uma quebra na ABI, mudanças nas regras de promoção de tipo e mudanças na API que poderiam não estar emitindo alertas de fim de suporte nas versões 1.26.x. Documentos-chave, relacionados a como se adaptar às mudanças no NumPy 2.0, incluem:
 
 - O [guia de migração NumPy 2.0](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
 - As [notas de lançamento da versão 2.0.0](https://numpy.org/devdocs/release/2.0.0-notes.html)
@@ -42,15 +42,15 @@ A postagem de blog ["NumPy 2.0: an evolutionary milestone"](https://blog.scienti
 
 ### Data de lançamento da NumPy 2.0: 16 de junho
 
-_23 de maio, 2024_ -- Estamos animados em anunciar que planejamos lançar a NumPy 2.0 em 16 de junho de 2024. Este lançamento está em desenvolvimento há mais de um ano, e é o primeiro grande lançamento desde 2006. Importante, além de muitas funcionalidades novas e melhoria de desempenho, esta versão contém **quebras de compatibilidade** com a ABI e com as APIs Python e C. É provável que os pacotes downstream e o código de usuário final precisem ser adaptados - se você puder, por favor, verifique se o seu código funciona com NumPy `2.0.0rc2`. **Por favor, veja o seguinte para mais detalhes:**
+_23 de maio de 2024_ -- Estamos animados em anunciar que planejamos lançar a NumPy 2.0 em 16 de junho de 2024. Este lançamento está em desenvolvimento há mais de um ano, e é o primeiro grande lançamento desde 2006. Importante, além de muitas funcionalidades novas e melhoria de desempenho, esta versão contém **quebras de compatibilidade** com a ABI e com as APIs Python e C. É provável que os pacotes downstream e o código de usuário final precisem ser adaptados - se você puder, por favor, verifique se o seu código funciona com NumPy `2.0.0rc2`. **Por favor, veja o seguinte para mais detalhes:**
 
 - O [guia de migração NumPy 2.0](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
 - As [notas de lançamento da versão 2.0.0](https://numpy.org/devdocs/release/2.0.0-notes.html)
 - Issue de anúncio para atualizações de estado: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
 
-### Lançado o NumPy versão 1.26.0
-_19 de dez, 2023_ -- O NumFOCUS se juntou ao PyCharm durante sua campanha de final de ano para oferecer 30% de desconto em licenças de PyCharm para novos usuários. Todas as receitas do primeiro ano das compras do PyCharm a partir de agora até 23 de dezembro, 2023 irão diretamente para os programas NumFOCUS.
+### Arrecadação de fundos de fim de ano da NumFOCUS
+_19 de dezembro de 2023_ -- A NumFOCUS se juntou ao PyCharm durante sua campanha de final de ano para oferecer 30% de desconto em licenças de PyCharm para novos usuários. Todas as receitas do primeiro ano das compras do PyCharm a partir de agora até 23 de dezembro, 2023 irão diretamente para os programas NumFOCUS.
 
 Use a URL única que permitirá rastrear as compras https://lp.jetbrains.com/support-data-science/ ou um código de cupom ISUPPORTDATASCIENCE 
 
