@@ -65,7 +65,7 @@ _16 de setembro de 2023_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/
 * Melhorias para f2py, suporte a meson e bind(x)
 * Suporte à versão mais recente da biblioteca Accelerate BLAS/LAPACK
 
-A versão 1.26.0 é uma continuação da série de versões 1.25.x que marcam a transição para o sistema de compilação Meson e oferecem suporte preliminar para o Cython 3.0.0. Um total de 20 pessoas contribuíram para este lançamento e 59 pull requests foram incorporadas.
+A versão 1.26.0 é uma continuação da série de versões 1.25.x que marcam a transição para o sistema de compilação Meson e o fornecimento de suporte para o Cython 3.0.0. Um total de 20 pessoas contribuíram para este lançamento e 59 pull requests foram incorporadas.
 
 As versões do Python suportadas por esta versão são 3.9-3.12.
 
