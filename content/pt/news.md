@@ -89,13 +89,13 @@ _Japonês:_
 * Yuji Kanagawa (kngwyu)
 * Tetsuo Koyama (tkoyama010)
 
-O trabalho na infraestrutura de traduções é financiado pela CZI.
+O trabalho na infraestrutura de tradução é apoiado com financiamento da CZI.
 
-No futuro, adoraríamos traduzir o site para mais línguas. Se você quiser ajudar, por favor entre em contato com o time de traduções do NumPy no Slack: https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w. (Procure pelo canal de #translations.) (Procure pelo canal #translations) Também estamos organizando um time de tradutores que serão responsáveis por trabalhar na localização da documentação e conteúdo educacional para o ecossistema Scientific Python. Se esse trabalho te interessa, junte-se a nós no Discord do projeto Scientific Python: https://discord.gg/khWtqY6RKr. (Procure pelo canal #translation)
+No futuro, adoraríamos traduzir o site para mais línguas. Se você quiser ajudar, por favor entre em contato com o time de traduções do NumPy no Slack: https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w. (Procure pelo canal de #translations.) Também estamos construindo uma Equipe de Traduções que vai trabalhar na localização da documentação e conteúdo educacional por todo o ecossistema de Python científico. Se esse trabalho te interessa, junte-se a nós no Discord do projeto Scientific Python: https://discord.gg/khWtqY6RKr. (Procure pelo canal #translation)
 
-### NumPy versão 1.22.0
+### Lançado o NumPy 1.25.0
 
-_18 de dezembro de 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) está agora disponível. Os destaques desta versão são:
+_17 de junho de 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) está disponível agora. Os destaques desta versão são:
 
 * Suporte para MUSL, agora existem rodas MUSL.
 * Suporte para o compilador Fujitsu C/C++.
