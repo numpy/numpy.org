@@ -129,7 +129,7 @@ _31 de dezembro de 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/
 
 A versão 1.24.0 do NumPy continua o trabalho de melhorias no suporte e promoção de dtypes, na velocidade e execução, e na documentação. Há um grande número de depreciações novas e expiradas devido a mudanças na promoção de dtypes e limpezas no código. É o trabalho de 177 contribuidores espalhados em 444 pull requests. As versões suportadas do Python são 3.8-3.11.
 
-### NumPy versão 1.19.0
+### NumPy versão 1.23.0
 
 _22 de junho de 2022_ -- O [NumPy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) está disponível. Os destaques desta versão são:
 
@@ -138,7 +138,7 @@ _22 de junho de 2022_ -- O [NumPy 1.23.0](https://numpy.org/doc/stable/release/1
 * Mudanças na promoção e comparações de dtypes estruturados.
 * Melhorias no f2py.
 
-A versão 1.23.0 do NumPy continua o trabalho de melhorias no suporte e promoção de dtypes, na velocidade de execução, na documentação e na expiração de depreciações. É o trabalho de 151 contribuidores espalhados em 494 pull requests. As versões do Python suportadas por esta versão 3.8-3.10. Python 3.11 será suportado quando chegar na etapa rc.
+A versão 1.23.0 do NumPy continua o trabalho de melhorias no suporte e promoção de dtypes, na velocidade de execução, na documentação e na expiração de depreciações. É o trabalho de 151 contribuidores espalhados em 494 pull requests. As versões do Python suportadas por esta versão são 3.8-3.10. Python 3.11 será suportado quando chegar na etapa rc.
 
 ### Pesquisa NumFOCUS DEI: chamada para participação
 
@@ -146,9 +146,9 @@ _13 de abril de 2022_ -- O NumPy está trabalhando com a [NumFOCUS](http://numfo
 
 **Quer compartilhar suas experiências?**
 
-Por favor, preencha este breve formulário: ["Participant Interest form"](https://numfocus.typeform.com/to/WBWVJSqe) que contém informações adicionais sobre os objetivos da pesquisa, privacidade e considerações de confidencialidade. Sua participação será valiosa para o crescimento e sustentabilidade de comunidades de software open source diversas e inclusivas. Os participantes aceitos participarão de uma entrevista de 30 minutos com um membro da equipe de pesquisa.
+Por favor, preencha este breve formulário: ["Participant Interest form"](https://numfocus.typeform.com/to/WBWVJSqe) que contém informações adicionais sobre os objetivos da pesquisa, privacidade e considerações de confidencialidade. Sua participação será valiosa para o crescimento e sustentabilidade de comunidades de software de código aberto diversas e inclusivas. Os participantes aceitos participarão de uma entrevista de 30 minutos com um membro da equipe de pesquisa.
 
-### NumPy versão 1.20.0
+### NumPy versão 1.22.0
 
 _23 de junho de 2021_ -- O [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) está disponível. Os destaques desta versão são:
 
