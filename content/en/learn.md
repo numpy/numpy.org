@@ -26,7 +26,7 @@ There's a ton of information about NumPy out there. If you are just starting, we
 
 <i class="fas fa-book"></i> **Books**
 
-* [Guide to NumPy *by Travis E. Oliphant*](https://web.mit.edu/dvp/Public/numpybook.pdf) This is a free version 1 from 2006. For the latest copy (2015) see [here](https://dl.acm.org/doi/10.5555/2886196).
+* [Guide to NumPy *by Travis E. Oliphant*](https://web.mit.edu/dvp/Public/numpybook.pdf) This is the first edition of the book published in 2006. For the latest edition released in 2015, [click here](https://dl.acm.org/doi/10.5555/2886196).
 * [From Python to NumPy *by Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 * [Elegant SciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) *by Juan Nunez-Iglesias, Stefan van der Walt, and Harriet Dashnow*
 
