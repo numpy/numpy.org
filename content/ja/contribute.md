@@ -13,6 +13,10 @@ NumPyプロジェクトを成功させるには、あなたの専門知識とプ
 
 私たちのコミュニティは、誰もが平等に扱われ、すべての貢献を平等に評価することを目指しています。 私たちはオープンで居心地の良いコミュニティを作るために [行動基準](/ja/code-of-conduct) を制定しています。
 
+For a visual guide on how to contribute to NumPy, check out this [comic](https://heyzine.com/flip-book/3e66a13901.html).
+
+{{< comic >}}
+
 ### コードを書く
 
 プログラマーの方には、こちらの [ガイド](https://numpy.org/devdocs/dev/index.html#development-process-summary)でNumPyのコードに貢献する方法を説明しています。 <br>追加情報に関しては、 こちらの[YouTube チャンネル](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) もご覧ください。
@@ -58,8 +62,8 @@ NumPy の [ユーザガイド](https://numpy.org/devdocs) は現在、大規模�
 
 NumPyは何年にも渡ってボランティアだけ活動していましたが、その重要性が高まるにつれ、安定性と成長のためには資金面での支援が必要であることがわかってきました。 こちらの[SciPy'19のプレゼン](https://www.youtube.com/watch?v=dBTJD_FDVjU) では、資金的なサポートを受けたことで、どれだけ違いが出たかを説明しています。 他の非営利団体のように、私たちは助成金や、スポンサーシップ、その他の資金支援を常に探しています。 私たちはすでにいくつかの資金調達のアイデアを持っていますが、他にもより多くを資金調達を受けたいと思っています。 資金調達に関する知識は、我々には不足しているスキルです。 是非、あなたのサポートをお待ちしています。
 
-### 寄付
+### Donate
 
-寄付をすることでNumpyに貢献したい場合は、 [https://numpy.org/about/#donate](https://numpy.org/about/#donate) をご覧ください。
+If you'd like to contribute to NumPy by making a donation, visit [https://numpy.org/about/#donate](https://numpy.org/about/#donate).
 
 
