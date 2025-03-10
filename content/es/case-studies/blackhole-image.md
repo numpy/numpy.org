@@ -73,7 +73,7 @@ alt = 'mapa de dependencias de ehtim resaltando a numpy'
 title = 'Gráfico de dependencias de software del paquete ehtim resaltando a NumPy'
 {{< /figure >}}
 
-Además de NumPy, muchos otros paquetes, como [SciPy](https://www.scipy.org) y [Pandas](https://pandas.io), son parte del flujo de procesamiento de datos para fotografiar el agujero negro. Los formatos estándar de archivos astronómicos y transformaciones de tiempo/coordenadas fueron manejados por [Astropy][astropy], mientras que [Matplotlib][mpl] fue utilizado en la visualización de datos a través del flujo de análisis, incluyendo la generación de la imagen final del agujero negro.
+Además de NumPy, muchos otros paquetes, como [SciPy](https://scipy.org) y [Pandas](https://pandas.pydata.org), son parte del flujo de procesamiento de datos para fotografiar el agujero negro. Los formatos estándar de archivos astronómicos y transformaciones de tiempo/coordenadas fueron manejados por [Astropy][astropy], mientras que [Matplotlib][mpl] fue utilizado en la visualización de datos a través del flujo de análisis, incluyendo la generación de la imagen final del agujero negro.
 
 ## Resumen
 
