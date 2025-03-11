@@ -152,7 +152,7 @@ Por favor, preencha este breve formulário: ["Participant Interest form"](https:
 
 _23 de junho de 2021_ -- O [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) está disponível. Os destaques desta versão são:
 
-* Anotações de tipo do namespace principal estão praticamente completas. Ainda há trabalho a se fazer no upstream, mas a maior parte do trabalho está feita. Esta é provavelmente a melhoria mais visível para os usuários nesta versão.
+* Anotações de tipo do namespace principal estão praticamente completas. Upstream é um alvo em movimento, então provavelmente haverá mais melhorias, mas a maior parte do trabalho está feita. Esta é provavelmente a melhoria mais visível para os usuários nesta versão.
 * Uma versão preliminar da proposta do [array API Standard](https://data-apis.org/array-api/latest/) está disponível (veja [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)). Este é um passo na criação de uma coleção padrão de funções que podem ser compartilhadas entre bibliotecas como CuPy e JAX.
 * NumPy agora tem um backend de DLPack. DLPack fornece um formato comum de compartilhamento para dados de arrays (tensores).
 * Novos métodos para `quantile`, `percentile`, e funções relacionadas. Os novos métodos fornecem um conjunto completo dos métodos comumente encontrados na literatura.
