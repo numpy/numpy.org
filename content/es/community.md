@@ -47,11 +47,11 @@ NumPy también organiza ocasionalmente sprints presenciales para su equipo y col
 
 El proyecto NumPy no organiza sus propias conferencias. Las conferencias que tradicionalmente han sido más populares entre los responsables, colaboradores y usuarios de NumPy son la serie de conferencias de SciPy y PyData:
 
-- [SciPy US](https://conference.scipy.org)
-- [EuroSciPy](https://www.euroscipy.org)
-- [SciPy Latinoamérica](https://pythoncientifico.ar/)
-- [SciPy India](https://scipy.in)
-- [SciPy Japan](https://www.scipyjapan.scipy.org/)
+- SciPy US
+- EuroSciPy
+- SciPy Latinoamérica
+- SciPy India
+- SciPyData Japan
 - [Conferencias PyData](https://pydata.org/event-schedule/) (de 15 a 20 eventos al año, repartidos entre muchos países)
 
 Muchas de estas conferencias incluyen tutoriales y/o sprints que cubren NumPy, en donde puedes aprender cómo contribuir a Numpy o proyectos de código abierto relacionados.
