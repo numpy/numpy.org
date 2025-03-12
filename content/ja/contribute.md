@@ -13,7 +13,7 @@ NumPyプロジェクトを成功させるには、あなたの専門知識とプ
 
 私たちのコミュニティは、誰もが平等に扱われ、すべての貢献を平等に評価することを目指しています。 私たちはオープンで居心地の良いコミュニティを作るために [行動基準](/ja/code-of-conduct) を制定しています。
 
-For a visual guide on how to contribute to NumPy, check out this [comic](https://heyzine.com/flip-book/3e66a13901.html).
+NumPyに貢献する方法を漫画で説明した方法については、こちらの [コミック](https://heyzine.com/flip-book/3e66a13901.html) をご覧ください。
 
 {{< comic >}}
 
