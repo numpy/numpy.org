@@ -173,7 +173,7 @@ O projeto de dois anos deverá começar em novembro de 2021 e estamos animados p
 
 ### Pesquisa NumPy 2021
 
-_12 de julho de 2021_ -- Nós do NumPy acreditamos no poder da nossa comunidade. 1,236 usuários do NumPy de 75 países participaram da nossa primeira pesquisa ano passado. Os resultados da pesquisa nos ajudaram a compreender muito bem o que devemos fazer pelos 12 meses seguintes.
+_12 de julho de 2021_ -- Nós do NumPy acreditamos no poder da nossa comunidade. 1.236 usuários do NumPy de 75 países participaram da nossa primeira pesquisa ano passado. Os resultados da pesquisa nos ajudaram a compreender muito bem o que devemos fazer pelos 12 meses seguintes.
 
 Chegou a hora de fazer outra pesquisa e estamos contando com você novamente. Vai levar cerca de 15 minutos do seu tempo. Além de Inglês, o questionário de pesquisa está disponível em 8 idiomas adicionais: Bangla, Francês, Hindi, Japonês, Mandarim, Português, Russo e Espanhol.
 
@@ -182,9 +182,9 @@ Siga o link para começar: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBX
 
 ### NumPy versão 1.19.0
 
-_16 de setembro de 2023_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html) está disponível. Os destaques desta versão são:
+_23 de junho de 2021_ -- O [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) está disponível. Os destaques desta versão são:
 
-- a continuação do trabalho com SIMD para suportar mais funções e plataformas,
+- continuamos o trabalho com SIMD para suportar mais funções e plataformas,
 - trabalho inicial na infraestrutura e conversão de novos dtypes,
 - wheels universal2 para Python 3.8 e Python 3.9 no Mac,
 - melhorias na documentação,
