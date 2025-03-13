@@ -196,7 +196,7 @@ Esta versão do NumPy é o resultado de 581 pull requests aceitos, a partir das 
 
 ### Resultados da pesquisa NumPy 2020
 
-_22 de junho de 2021_ -- Em 2020, o time de pesquisas NumPy, em parceria com estudantes e professores da Universidade de Michigan e da Universidade de Maryland, realizou a primeira pesquisa oficial sobre a comunidade NumPy. Encontre os resultados da pesquisa aqui: https://numpy.org/user-survey-2020/.
+_22 de junho de 2021_ -- Em 2020, o time de pesquisas NumPy, em parceria com estudantes e professores da Universidade de Michigan e da Universidade de Maryland, realizou a primeira pesquisa oficial sobre a comunidade NumPy. Confira os resultados da pesquisa aqui: https://numpy.org/user-survey-2020/.
 
 
 ### NumPy versão 1.20.0
