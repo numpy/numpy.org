@@ -41,9 +41,9 @@ The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with
 
 [[item]]
 type = 'card'
-title = 'Easy to use'
-body = '''
-NumPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
+title = 'Facile à utiliser'
+corps = '''
+La syntaxe de haut niveau de NumPy la rend accessible et productive pour les programmeurs de tous niveaux ou d'expériences.
 '''
 
 {{< /grid>}}
