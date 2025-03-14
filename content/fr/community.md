@@ -1,9 +1,9 @@
 ---
-title: Community
+title: Communauté
 sidebar: false
 ---
 
-NumPy is a community-driven open source project developed by a diverse group of [contributors](/teams/). The NumPy leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the [NumPy Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
+NumPy est un projet open source communautaire développé par un groupe diversifié de [contributeurs](/teams/). The NumPy leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the [NumPy Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
 
 We offer several communication channels to learn, share your knowledge and connect with others within the NumPy community.
 
@@ -17,7 +17,7 @@ The following are ways to engage directly with the NumPy project and community. 
 
 This list is the main forum for longer-form discussions, like adding new features to NumPy, making changes to the NumPy Roadmap, and all kinds of project-wide decision making. Announcements about NumPy, such as for releases, developer meetings, sprints or conference talks are also made on this list.
 
-On this list please use bottom posting, reply to the list (rather than to another sender), and don't reply to digests. A searchable archive of this list is available [here](https://mail.python.org/archives/list/numpy-discussion@python.org/).
+On this list please use bottom posting, reply to the list (rather than to another sender), and don't reply to digests. Une archive consultable de cette liste est disponible [ici](https://mail.python.org/archives/list/numpy-discussion@python.org/).
 
 ***
 
