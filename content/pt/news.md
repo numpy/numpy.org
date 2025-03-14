@@ -217,7 +217,7 @@ _16 de setembro de 2020_ -- Temos o prazer de anunciar a publicação do [primei
 
 ### O Python 3.9 está chegando, quando o NumPy vai liberar wheels binárias?
 
-_14 de setembro de 2020_ -- Python 3.9 será lançado em algumas semanas. Se você for quiser usar imediatamente a nova versão do Python, você pode ficar desapontado ao descobrir que o NumPy (e outros pacotes binários como SciPy) não terão wheels no dia do lançamento. É um grande esforço adaptar a infraestrutura de compilação a uma nova versão de Python e normalmente leva algumas semanas para que os pacotes apareçam no PyPI e no conda-forge. Em preparação para este evento, por favor, certifique-se de
+_14 de setembro de 2020_ -- Python 3.9 será lançado em algumas semanas. Se você for querer usar imediatamente a nova versão do Python, você pode ficar desapontado ao descobrir que o NumPy (e outros pacotes binários como SciPy) não terão wheels no dia do lançamento. É um grande esforço adaptar a infraestrutura de compilação a uma nova versão de Python e normalmente leva algumas semanas para que os pacotes apareçam no PyPI e no conda-forge. Em preparação para este evento, por favor, certifique-se de
 - atualizar seu `pip` para a versão 20.1 pelo menos para suportar `manylinux2010` e `manylinux2014`
 - usar [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) ou `--only-binary=:all:` para impedir `pip` de tentar compilar a partir do código fonte.
 
@@ -237,7 +237,7 @@ Ajude-nos a melhorar o NumPy respondendo à pesquisa [aqui](https://umdsurvey.um
 
 _24 de junho de 2020_ -- NumPy agora tem um novo logo:
 
-<img src="/images/logos/numpy_logo.svg" alt="NumPy logo" title="The new NumPy logo" width=300>
+<img src="/images/logos/numpy_logo.svg" alt="Logotipo do NumPy" title="O novo logotipo do NumPy" width=300>
 
 O logotipo é uma versão moderna do antigo, com um design mais limpo. Obrigado à Isabela Presedo-Floyd por projetar o novo logotipo, bem como ao Travis Vaught pelo o logotipo antigo que nos serviu bem durante mais de 15 anos.
 
@@ -252,7 +252,7 @@ _20 de junho de 2020_ -- O NumPy 1.19.0 está disponível. Esta é a primeira ve
 _11 de maio de 2020_ -- O NumPy foi aceito como uma das organizações mentoras do programa Google Season of Docs. Estamos animados com a oportunidade de trabalhar com um *technical writer* para melhorar a documentação do NumPy mais uma vez! Para mais detalhes, consulte [o site oficial do programa Season of Docs](https://developers.google.com/season-of-docs/) e nossa [página de ideias](https://github.com/numpy/numpy/wiki/Google-Season-of-Docs-2020-Project-Ideas).
 
 
-### NumPy versão 1.19.2
+### NumPy versão 1.18.0
 
 _22 de dezembro de 2019_ -- O NumPy 1.18.0 está disponível. Após as principais mudanças em 1.17.0, esta é uma versão de consolidação. É a última versão menor que suportará Python 3.5. Destaques dessa versão incluem a adição de uma infraestrutura básica para permitir o link com as bibliotecas BLAS e LAPACK em 64 bits durante a compilação, e uma nova C-API para `numpy.random`.
 
@@ -274,8 +274,8 @@ Mais detalhes sobre nossas propostas e resultados esperados podem ser encontrado
 
 Aqui está uma lista de versões do NumPy, com links para notas de lançamento. Bugfix lança (apenas o `z` muda no `x.y.` número da versão) não tem novos recursos; versões menores (o `y` aumenta) sim.
 
-- NumPy 2.2.2 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v2.2.2)) -- _18 de janeiro de 2024_.
-- NumPy 2.2.2 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v2.2.2)) -- _18 Jan 2025_.
+- NumPy 2.2.3 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v2.2.3)) -- _13 de fevereiro de 2025_.
+- NumPy 2.2.2 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v2.2.2)) -- _18 de janeiro de 2025_.
 - NumPy 2.2.1 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v2.2.1)) -- _21 de dezembro de 2024_.
 - NumPy 2.2.0 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v2.2.0)) -- _8 de dezembro de 2024_.
 - NumPy 2.1.3 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v2.1.3)) -- _2 de novembro de 2024_.
