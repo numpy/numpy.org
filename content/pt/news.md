@@ -224,7 +224,7 @@ _14 de setembro de 2020_ -- Python 3.9 será lançado em algumas semanas. Se voc
 
 ### NumPy versão 1.18.0
 
-_10 de setembro de 2020_ -- O [NumPy 1.19.2](https://numpy.org/devdocs/release/1.19.2-notes.html) está disponível. Essa última versão da série 1.19 corrige vários bugs, inclui preparações para o lançamento [do Cython 3](http://docs.cython.org/en/latest/src/changes.html) e fixa o setuptools para que o distutils continue funcionando enquanto modificações upstream estão sendo feitas. As wheels para aarch64 são compiladas com manylinux2014 mais recente que conserta um problema com distribuições linux diferentes.
+_10 de setembro de 2020_ -- O [NumPy 1.19.2](https://numpy.org/devdocs/release/1.19.2-notes.html) está disponível. Essa última versão da série 1.19 corrige vários bugs, inclui preparações para o lançamento [do Cython 3](http://docs.cython.org/en/latest/src/changes.html) e fixa o setuptools para que o distutils continue funcionando enquanto modificações upstream estão sendo feitas. As wheels para aarch64 são compiladas com a manylinux2014 mais recente que conserta o problema da diferença no tamanho das páginas usadas por distribuições linux diferentes.
 
 ### A primeira pesquisa NumPy está aqui!
 
