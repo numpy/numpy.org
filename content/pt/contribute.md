@@ -3,7 +3,7 @@ title: Contribua com o NumPy
 sidebar: false
 ---
 
-O projeto NumPy precisa de sua experiência e entusiasmo! Suas opções de não são limitadas à programação -- além de
+O projeto NumPy precisa de sua experiência e entusiasmo! Suas opções não são limitadas à programação. Como pode ver a seguir, há várias áreas em que precisamos da **sua** ajuda.
 
 Se você não sabe por onde começar ou como suas habilidades podem ajudar, _fale conosco!_ Você pode perguntar na nossa [lista de emails](https://mail.python.org/mailman/listinfo/numpy-discussion) ou [GitHub](http://github.com/numpy/numpy) (abrindo uma [issue](https://github.com/numpy/numpy/issues) ou comentando em uma issue relevante).
 
@@ -21,15 +21,15 @@ For a visual guide on how to contribute to NumPy, check out this [comic](https:/
 
 Para pessoas programadoras, este [guia](https://numpy.org/devdocs/dev/index.html#development-process-summary) explica como contribuir para a base de código. <br>Confira também nosso [canal do YouTube](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) para obter informações adicionais.
 
-### Revisar pull requests
+### Revisando pull requests
 O projeto tem mais de 250 pull requests abertos -- o que significa que muitas potenciais melhorias e muitos contribuidores de código aberto estão aguardando feedback. Se você é uma pessoa programadora que conhece o NumPy, você pode ajudar, mesmo que não tenha familiaridade com o código. Você pode:
 * resumir uma discussão longa
 * fazer triagem de PRs de documentação
 * testar alterações propostas
 
-### Desenvolvimento de materiais educacionais
+### Desenvolvendo materiais educacionais
 
-O [Guia do Usuário](https://numpy.org/devdocs) do Numpy está sendo reformado. Precisamos de novos tutoriais, how-to's e de explicações de conceitos, e o site precisa de reestruturação. Oportunidades não se limitam a pessoas com experiência em escrita técnica. Também procuramos exemplos práticos, notebooks e vídeos. A [NEP 44](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html) explica nossas ideias para reestruturar a documentação do NumPy — talvez você também tenha outras ideias.
+O [Guia do Usuário](https://numpy.org/devdocs) do Numpy está sendo reformado. Precisamos de novos tutoriais, how-to's e de explicações de conceitos, e o site precisa de reestruturação. As oportunidades não se limitam a pessoas com experiência em escrita técnica. Também procuramos exemplos práticos, notebooks e vídeos. A [NEP 44](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html) explica nossas ideias para reestruturar a documentação do NumPy — talvez você também tenha outras ideias.
 
 ### Triagem de Issues
 
