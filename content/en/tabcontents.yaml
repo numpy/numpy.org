@@ -173,7 +173,7 @@ params:
         - url: https://pystan.readthedocs.io/en/latest/
           label: PyStan
         - url: https://docs.pymc.io/
-          label: PyMC3
+          label: PyMC
         - url: https://arviz-devs.github.io/arviz/
           label: ArviZ
         - url: https://emcee.readthedocs.io/
@@ -250,7 +250,7 @@ params:
     examples:
     - text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor-devs.github.io/pyjanitor/)"
     - text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
-    - text: "<b>Model and evaluate: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
+    - text: "<b>Model and evaluate: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC](https://docs.pymc.io), [spaCy](https://spacy.io)"
     - text: "<b>Report in a dashboard: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://voila.readthedocs.io/)"
 
     content:
