@@ -13,7 +13,7 @@ Nós também temos uma _reunião aberta da comunidade_ a cada duas semanas. Os d
 
 Nossa comunidade deseja tratar todos da mesma forma e valorizar todas as contribuições. Temos um [Código de Conduta](/pt/code-of-conduct) para promover um ambiente aberto e acolhedor.
 
-For a visual guide on how to contribute to NumPy, check out this [comic](https://heyzine.com/flip-book/3e66a13901.html).
+Para um guia visual sobre como contribuir com o NumPy, confira este [quadrinho](https://heyzine.com/flip-book/3e66a13901.html).
 
 {{< comic >}}
 
