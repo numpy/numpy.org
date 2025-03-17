@@ -7,28 +7,28 @@ La tercera diferencia consiste en que conda es una solución integrada para gest
 NumPy se puede instalar con `conda`, con `pip`, con un gestor de paquetes en macOS y Linux, o [a partir del código fuente](https://numpy.org/devdocs/building). El único prerrequisito para instalar NumPy es Python. Si aún no tienes Python y quieres la forma más sencilla de comenzar, te recomendamos que uses la [Distribución Anaconda](https://www.anaconda.com/download) - incluye Python, NumPy y muchos otros paquetes comúnmente utilizados para la computación científica y la ciencia de datos.
 {{< /admonition >}}
 
-The recommended method of installing NumPy depends on your preferred workflow. Below, we break down the installation methods into the following categories:
+El método recomendado para instalar NumPy depende de tu flujo de trabajo preferido. A continuación, desglosamos los métodos de instalación en las siguientes categorías:
 
-- **Project-based** (e.g., uv, pixi) *(recommended for new users)*
-- **Environment-based** (e.g., pip, conda) *(the traditional workflow)*
-- **System package managers** *(not recommended for most users)*
-- **Building from source** *(for advanced users and development purposes)*
+- **Basado en proyectos** (por ejemplo, uv, pixi) *(recomendado para nuevos usuarios)*
+- **Basado en entornos** (por ejemplo, pip, conda) *(el flujo de trabajo tradicional)*
+- **Administradores de paquetes de sistema** *(no recomendado para la mayoría de usuarios)*
+- **Construir a partir del código fuente** *(para usuarios avanzados y para fines de desarrollo)*
 
-Choose the method that best suits your needs. If you're unsure, start with the **Environment-based** method using `conda` or `pip`.
+Elija el método que mejor se adapte a sus necesidades. Si tienes dudas, comienza con el método **basado en el entorno** usando `conda` o `pip`.
 
-Below are the different methods for **installing NumPy**. Click on the tabs to explore each method:
+A continuación se muestran los diferentes métodos para **instalar NumPy**. Haz clic en las pestañas para explorar cada método:
 También al utilizar pip, es buena práctica utilizar un entorno virtual - vea  [Instalaciones Reproducibles](#reproducible-installs) a continuación para saber por qué, y [esta guía](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto) para más detalles sobre el uso de entornos virtuales.
 
-[[tab]] name = 'Project Based' content = '''
+[[tab]] name = 'Basado en proyectos' contenido = '''
 
-Recommended for new users who want a streamlined workflow.
+Recomendado para usuarios que quieran un flujo de trabajo simplificado.
 
-- **uv:** A modern Python package manager designed for speed and simplicity.
+- **uv:** Un gestor de paquetes de Python moderno diseñado para velocidad y simplicidad.
   ```bash
   uv pip install numpy
   ```
 
-- **pixi:** A cross-platform package manager for Python and other languages.
+- **pixi:** Un administrador de paquetes multiplataforma para Python y otros lenguajes.
   ```bash
   pixi add numpy
   ```
