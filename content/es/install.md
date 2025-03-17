@@ -39,24 +39,22 @@ Para usuarios que conocen, por preferencia personal o leyendo acerca de las dife
 
 Las dos herramientas principales que instalan paquetes de Python son `pip` y `conda`. Para desarrollo web y de propósito general en Python existe un completo [conjunto de herramientas ](https://packaging.python.org/guides/tool-recommendations/)complementario a pip. Para computación de alto rendimiento (HPC), [Spack](https://github.com/spack/spack) amerita ser considerado.
 
-The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. Sus funcionalidades se traslapan parcialmente (por ejemplo, ambas pueden instalar `numpy`); no obstante, también pueden trabajar conjuntamente.
+La primera diferencia radica en que conda es multi-lenguaje y puede instalar Python, mientras que pip es instalado para una versión particular de Python en su sistema y solamente instala paquetes para esa misma versión de Python. Sus funcionalidades se traslapan parcialmente (por ejemplo, ambas pueden instalar `numpy`); no obstante, también pueden trabajar conjuntamente.
 
 La primera diferencia radica en que conda es multi-lenguaje y puede instalar Python, mientras que pip es instalado para una versión particular de Python en su sistema e instala paquetes para esa misma versión de Python solamente. Esto también significa que conda puede instalar librerías que no sean de Python y herramientas que usted pueda necesitar (por ejemplo, compiladores, CUDA, HDF5), mientras que pip no.
 
-The third difference is that conda is an integrated solution for managing packages, dependencies and environments, while with pip you may need another tool (there are many!) for dealing with environments or complex dependencies.
+La tercera diferencia consiste en que conda es una solución integrada para gestionar paquetes, dependencias y entornos; mientras que con pip, podrías necesitar otra herramienta (¡hay muchas!) para manejar entornos o dependencias complejas.
 
-- **Conda:** If you use conda, you can install NumPy from the defaults or conda-forge channels:
+- **Conda:** Si utilizas conda, puedes instalar NumPy desde los canales predeterminados o los de conda-forge:
   ```bash
-  conda create -n my-env
-  conda activate my-env
-  conda install numpy
+  
   ```
 - **Pip:**
   ```bash
   pip install numpy
   ```
 La tercera diferencia consiste en que conda es una solución integrada para gestionar paquetes, dependencias y entornos; mientras que con pip, usted podría necesitar otra herramienta (hay muchas!) para manejar entornos o dependencias complejas.
-**Tip:** Use a virtual environment for better dependency management
+**Tip:** Use un entorno virtual para un mejor manejo de dependencias
 {{< /admonition >}}
 
   ```bash
@@ -67,7 +65,7 @@ La tercera diferencia consiste en que conda es una solución integrada para gest
   ```
 '''
 
-[[tab]] name = 'System Package Managers' content = ''' Not recommended for most users, but available for convenience.
+[[tab]] name = 'Administradores de paquetes de sistema' content = ''' No recomendado para la mayoría de los usuarios, pero disponible por conveniencia.
 
 **macOS (Homebrew):**
 ```bash
@@ -81,7 +79,7 @@ conda install numpy
 ```
 **Linux (APT):**
 ```bash
-sudo apt install python3-numpy
+
 ```
 **Windows (Chocolatey):**
 ```bash
@@ -90,22 +88,22 @@ choco install numpy
 
 '''
 
-[[tab]] name = 'Building from Source' content = ''' For advanced users and developers who want to customize or debug **NumPy**.
+[[tab]] name = 'Construir a partir del código fuente' content = ''' Para usuarios avanzados y desarrolladores que quieren personalizar o depurar **NumPy**.
 
-A word of warning: building Numpy from source can be a nontrivial exercise. We recommend using binaries instead if those are available for your platform via one of the above methods. For details on how to build from source, see [the building from source guide in the Numpy docs](https://numpy.org/devdocs/building/).
+Una palabra de advertencia: construir Numpy a partir del código fuente puede ser un ejercicio no trivial. En su lugar, recomendamos usar binarios si estos están disponibles para su plataforma, a través de uno de los métodos anteriores. Para obtener más información sobre cómo construir desde el código fuente, revisa [la guía disponible en la documentación Numpy](https://numpy.org/devdocs/building/).
 
 '''
 {{< /tabs >}}
 
 ## Recomendaciones
 
-After installing NumPy, verify the installation by running the following in a Python shell or script:
+Después de instalar NumPy, verifica la instalación ejecutando lo siguiente en una terminal o en un script de Python:
 ```python
 import numpy as np
 print(np.__version__)
 ```
 
-This should print the installed version of NumPy without errors.
+Esto debería imprimir la versión instalada de NumPy sin errores.
 
 ## Resolución de problemas
 
