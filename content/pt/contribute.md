@@ -38,7 +38,7 @@ O [*issue tracker* do NumPy](https://github.com/numpy/numpy/issues) tem _um mont
 * verificar se erros mais antigos ainda estão presentes
 * encontrar issues duplicadas e criar links entre issues relacionadas
 * adicionar bons exemplos autocontidos que reproduzam issues
-* rotular issues corretamente (isso requer direitos de triagem -- basta perguntar)
+* rotular issues corretamente (isso requer direitos de triagem -- basta pedir)
 
 Sinta-se à vontade!
 
@@ -56,7 +56,7 @@ Planejamos várias traduções do [numpy.org](https://numpy.org) para tornar o N
 
 ### Coordenação e promoção na comunidade
 
-Através do contato com a comunidade podemos compartilhar nosso trabalho para mais pessoas e descobrir onde precisamos trabalhar mais. Estamos ansiosos para que mais pessoas se envolvam em esforços como nossa conta no [Twitter](https://twitter.com/numpy_team), na organização de [sprints](https://scisprints.github.io/) sobre o NumPy, uma newsletter, e talvez um blog.
+Através do contato com a comunidade podemos compartilhar nosso trabalho para mais pessoas e descobrir onde precisamos trabalhar mais. Estamos ansiosos para que mais pessoas se envolvam em esforços como a organização de [sprints de código](https://scisprints.github.io/) sobre o NumPy, uma newsletter, e talvez um blog.
 
 ### Financiamento
 
