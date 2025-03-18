@@ -168,7 +168,7 @@ params:
           - url: https://pystan.readthedocs.io/en/latest/
             label: PyStan
           - url: https://docs.pymc.io/
-            label: PyMC3
+            label: PyMC
           - url: https://arviz-devs.github.io/arviz/
             label: ArviZ
           - url: https://emcee.readthedocs.io/
@@ -240,7 +240,7 @@ params:
     examples:
       - text: "<b>Extraer, Transformar, Cargar: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
       - text: "<b>Análisis Exploratorio: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
-      - text: "<b>Modelado y evaluación: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
+      - text: "<b>Modelado y evaluación: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC](https://docs.pymc.io), [spaCy](https://spacy.io)"
       - text: "<b>Informes en un panel de control: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
     content:
       - text: Para grandes volúmenes de datos, [Dask](https://dask.org) y [Ray](https://ray.io/) están diseñados para escalarse. Las implementaciones estables se basan en el versionado de datos ([DVC](https://dvc.org)), rastreo de experimentos ([MLFlow](https://mlflow.org)), y automatización del flujo de trabajo ([Airflow](https://airflow.apache.org), [Dagster](https://dagster.io) y [Prefect](https://www.prefect.io)).
