@@ -13,6 +13,10 @@ También hacemos _llamadas a la comunidad_ de manera quincenal, cuyos detalles s
 
 Nuestra comunidad aspira a tratar a todos por igual y a valorar todas las contribuciones. Tenemos un [Código de Conducta](/code-of-conduct) para fomentar un entorno abierto y acogedor.
 
+For a visual guide on how to contribute to NumPy, check out this [comic](https://heyzine.com/flip-book/3e66a13901.html).
+
+{{< comic >}}
+
 ### Escribiendo código
 
 Programadores, esta [guía](https://numpy.org/devdocs/dev/index.html#development-process-summary) explica cómo contribuir al código base. <br>También revisa nuestro [canal de YouTube](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) por consejos adicionales.
@@ -60,6 +64,6 @@ NumPy fue durante muchos años un proyecto voluntario, pero a medida que crecía
 
 ### Donar
 
-Si deseas contribuir a NumPy haciendo una donación, visita [https://numpy.org/about/#donate](https://numpy.org/about/#donate)
+Si deseas contribuir a NumPy haciendo una donación, visita <a href=«https://numpy.org/about/#donate»>https://numpy.org/about/#donate</a>.
 
 

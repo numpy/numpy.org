@@ -13,6 +13,10 @@ NumPyプロジェクトを成功させるには、あなたの専門知識とプ
 
 私たちのコミュニティは、誰もが平等に扱われ、すべての貢献を平等に評価することを目指しています。 私たちはオープンで居心地の良いコミュニティを作るために [行動基準](/ja/code-of-conduct) を制定しています。
 
+NumPyに貢献する方法を漫画で説明した方法については、こちらの [コミック](https://heyzine.com/flip-book/3e66a13901.html) をご覧ください。
+
+{{< comic >}}
+
 ### コードを書く
 
 プログラマーの方には、こちらの [ガイド](https://numpy.org/devdocs/dev/index.html#development-process-summary)でNumPyのコードに貢献する方法を説明しています。 <br>追加情報に関しては、 こちらの[YouTube チャンネル](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) もご覧ください。
@@ -60,6 +64,6 @@ NumPyは何年にも渡ってボランティアだけ活動していましたが
 
 ### 寄付
 
-寄付をすることでNumpyに貢献したい場合は、 [https://numpy.org/about/#donate](https://numpy.org/about/#donate) をご覧ください。
+寄付をすることでNumpy に貢献したい場合は、 [https://numpy.org/about/#donate](https://numpy.org/about/#donate) をご覧ください。
 
 
