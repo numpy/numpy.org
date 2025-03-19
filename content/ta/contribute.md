@@ -13,7 +13,7 @@ Those are our preferred channels (open source is open by nature), but if you pre
 
 எங்கள் சமூகம் அனைவரையும் சமமாக நடத்தவும், அனைத்து பங்களிப்புகளையும் மதிக்கவும் விரும்புகிறது. திறந்த மற்றும் வரவேற்கத் தக்க சூழலை வளர்ப்பதற்காக எங்களிடம் [நடத்தை விதி](/code-of-conduct) உள்ளது.
 
-For a visual guide on how to contribute to NumPy, check out this [comic](https://heyzine.com/flip-book/3e66a13901.html).
+NumPy-க்கு எவ்வாறு பங்களிப்பது என்பது குறித்த காட்சி வழிகாட்டிக்கு, இந்த [காமிக்](https://heyzine.com/flip-book/3e66a13901.html)-ஐப் பாருங்கள்.
 
 {{< comic >}}
 
