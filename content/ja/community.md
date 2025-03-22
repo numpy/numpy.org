@@ -47,11 +47,11 @@ NumPyや、データサイエンス、科学技術計算などのより広いエ
 
 NumPy プロジェクトは独自のカンファレンスは開催していません。 NumPy の管理者や、コントリビュータ、ユーザーに最も人気があったカンファレンスは、SciPy および PyDataのカンファレンスです。
 
-- [SciPy US](https://conference.scipy.org)
-- [EuroSciPy](https://www.euroscipy.org)
-- [SciPy Latin America](https://www.scipyla.org)
-- [SciPy India](https://scipy.in)
-- [SciPy Japan](https://conference.scipy.org)
+- SciPy US
+- EuroSciPy
+- SciPy Latin America
+- SciPy India
+- SciPyData Japan
 - [PyData conference](https://pydata.org/event-schedule/) (年に15~20のイベントが様々な国で開催されています。 )
 
 これらのカンファレンスの多くは、NumPyの使い方や関連するオープンソースプロジェクトに貢献する方法を学ぶことができるチュートリアルを開催しています。
