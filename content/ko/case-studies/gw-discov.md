@@ -40,7 +40,7 @@ src = '/images/content_images/cs/gw_sxs_image.png' title = '중력파' alt = '�
     아인슈타인의 방정식을 슈퍼컴퓨터를 사용하여 풀 수 있을 만큼 충분히 이해하는 것과 관련된 장애물이 처리되면 다음 큰 과제는 데이터를 인간의 두뇌가 이해할 수 있도록 만드는 것입니다. 시뮬레이션 모델링과 신호 감지에는 효과적인 시각화 기술이 필요합니다.  시각화는 또한 이미징 및 시뮬레이션을 통해 더 많은 청중이 결과를 더 쉽게 이해할 수 있게 될 때까지 수치 상대성에 충분한 중요성을 부여하지 않은 순수 과학 애호가의 눈에 수치 상대성에 더 많은 신뢰성을 제공하는 역할을 합니다. 최신 실험 입력 및 통찰력을 사용하여 복잡한 계산 및 렌더링, 이미지 다시 렌더링 및 시뮬레이션의 속도는 이 영역의 연구자에게 도전이 되는 시간 소모적인 활동이 될 수 있습니다.
 
 {{< figure >}}
-src = '/images/content_images/cs/gw_strain_amplitude.png' alt = 'gravitational waves strain amplitude' title = 'GW150914 신호로부터 추정된 중력파 변형률 진폭' attribution = '(그래프 출처: Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)' attributionlink = 'https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger'
+{{< figure src="/images/content_images/cs/gwpy-numpy-dep-graph.png" class="fig-center" alt="gwpy-numpy depgraph" caption="**Dependency graph showing how GwPy package depends on NumPy**" >}}
 {{< figure src="/images/content_images/cs/numpy_gw_benefits.png" class="fig-center" alt="numpy를 통한 이익" caption="**활용된 주요 NumPy 기능**" >}}
 
 ## 중력파 검출에서 NumPy의 역할
