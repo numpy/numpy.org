@@ -224,7 +224,7 @@ params:
             label: PyStan
           - 
             url: https://docs.pymc.io/
-            label: PyMC3
+            label: PyMC
           - 
             url: https://arviz-devs.github.io/arviz/
             label: ArviZ
@@ -326,7 +326,7 @@ params:
       - 
         text: "<b>探索的解析: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
       - 
-        text: "<b>モデリングと評価: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
+        text: "<b>モデリングと評価: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC](https://docs.pymc.io), [spaCy](https://spacy.io)"
       - 
         text: "<b>ダッシュボードでのレポート: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
     content:
