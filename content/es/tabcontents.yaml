@@ -2,45 +2,45 @@ params:
   machinelearning:
     paras:
       - 
-        para1: NumPy constituye la base de potentes librerías de aprendizaje automático como [scikit-learn](https://scikit-learn.org) y [SciPy](https://www.scipy.org). A medida que crece el aprendizaje automático, también lo hace la lista de librerías basadas en NumPy. Las capacidades de aprendizaje profundo de [TensorFlow](https://www.tensorflow.org) tienen amplias aplicaciones&mdash; entre ellas el reconocimiento de voz e imágenes, las aplicaciones basadas en texto, el análisis de series de tiempo y la detección de vídeo. [PyTorch](https://pytorch.org), otra librería de aprendizaje profundo, es popular entre los investigadores de visión artificial y procesamiento del lenguaje natural.
-        para2: Las técnicas estadísticas denominadas métodos [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205), como binning, bagging, stacking y boosting, se encuentran entre los algoritmos de ML implementados por herramientas como [XGBoost](https://xgboost.readthedocs.io/), [LightGBM](https://lightgbm.readthedocs.io/en/latest/) y [CatBoost](https://catboost.ai) &mdash; uno de los motores de inferencia más rápidos. [Yellowbrick](https://www.scikit-yb.org/en/latest/) y [Eli5](https://eli5.readthedocs.io/en/latest/) ofrecen visualizaciones de aprendizaje automático.
+        para1: NumPy constituye la base de potentes bibliotecas de aprendizaje automático como [scikit-learn](https://scikit-learn.org) y [SciPy](https://www.scipy.org). A medida que crece el aprendizaje automático, también lo hace la lista de bibliotecas basadas en NumPy. Las capacidades de aprendizaje profundo de [TensorFlow](https://www.tensorflow.org) tienen amplias aplicaciones&mdash; entre ellas el reconocimiento de voz e imágenes, las aplicaciones basadas en texto, el análisis de series temporales y la detección de vídeo. [PyTorch](https://pytorch.org), otra biblioteca de aprendizaje profundo, es popular entre los investigadores de visión por ordenador y procesamiento del lenguaje natural. [MXNet](https://github.com/apache/incubator-mxnet) es otro paquete de IA que proporciona modelos y plantillas para el aprendizaje profundo.
+        para2: Las técnicas estadísticas denominadas métodos [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205), como binning, bagging, stacking y boosting, se encuentran entre los algoritmos de ML implementados por herramientas como [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://lightgbm.readthedocs.io/en/latest/) y [CatBoost](https://catboost.ai) &mdash; uno de los motores de inferencia más rápidos. [Yellowbrick](https://www.scikit-yb.org/en/latest/) y [Eli5](https://eli5.readthedocs.io/en/latest/) ofrecen visualizaciones de aprendizaje automático.
   arraylibraries:
     intro:
       - 
-        text: La API de NumPy es el punto de partida cuando se escriben librerías para explotar hardware innovador, crear tipos de arreglos especializadas o añadir capacidades más allá de lo que NumPy proporciona.
+        text: La API de NumPy es el punto de partida cuando se escriben bibliotecas para explotar hardware innovador, crear tipos de matrices especializadas o añadir capacidades más allá de lo que NumPy proporciona.
     headers:
       - 
-        text: Librería de arreglos
+        text: Biblioteca de matrices
       - 
         text: Capacidades y áreas de aplicación
     libraries:
       - 
         title: Dask
-        text: Arreglos distribuidos y paralelismo avanzado para análisis, que permiten un rendimiento a escala.
+        text: Matrices distribuidas y paralelismo avanzado para análisis, que permiten un rendimiento a escala.
         img: /images/content_images/arlib/dask.png
         alttext: Dask
         url: https://dask.org/
       - 
         title: CuPy
-        text: Librería de arreglos compatible con NumPy para cálculo acelerado en la GPU con Python.
+        text: Biblioteca de matrices compatible con NumPy para cálculo acelerado en la GPU con Python.
         img: /images/content_images/arlib/cupy.png
         alttext: CuPy
-        url: https://cupy.dev
+        url: https://cupy.chainer.org
       - 
         title: JAX
         text: "Transformaciones componibles de programas NumPy: diferenciar, vectorizar, compilación justo-a-tiempo a GPU/TPU."
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
-        url: https://jax.readthedocs.io/
+        url: https://github.com/google/jax
       - 
         title: Xarray
-        text: Arreglos multidimensionales indexados y etiquetados para análisis y visualización avanzados.
+        text: Matrices multidimensionales indexadas y etiquetadas para análisis y visualización avanzados
         img: /images/content_images/arlib/xarray.png
         alttext: xarray
         url: https://xarray.pydata.org/en/stable/index.html
       - 
         title: Sparse
-        text: Librería de arreglos dispersos compatible con NumPy que se integra con el álgebra lineal dispersa de Dask y SciPy.
+        text: Biblioteca de matrices dispersas compatible con NumPy que se integra con el álgebra lineal dispersa de Dask y SciPy.
         img: /images/content_images/arlib/sparse.png
         alttext: sparse
         url: https://sparse.pydata.org/en/latest/
@@ -57,45 +57,45 @@ params:
         alttext: TensorFlow
         url: https://www.tensorflow.org
       - 
+        title: MXNet
+        text: Marco de aprendizaje profundo adecuado para la creación flexible de prototipos de investigación y la producción.
+        img: /images/content_images/arlib/mxnet_logo.png
+        alttext: MXNet
+        url: https://mxnet.apache.org/
+      - 
         title: Arrow
-        text: Plataforma de desarrollo multilingüe para datos y análisis columnares en memoria.
+        text: Plataforma de desarrollo multilenguaje para datos y análisis columnares en memoria.
         img: /images/content_images/arlib/arrow.png
         alttext: arrow
-        url: https://arrow.apache.org/
+        url: https://github.com/apache/arrow
       - 
         title: xtensor
-        text: Arreglos multidimensionales con difusión y computación perezosa para análisis numérico.
+        text: Matrices multidimensionales con emisión y computación de llamada-bajo-demanda para el análisis numérico.
         img: /images/content_images/arlib/xtensor.png
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
       - 
         title: Awkward Array
-        text: Manipular datos similares a JSON con expresiones similares a NumPy.
+        text: Manipula datos tipo JSON con modismos similares a los de NumPy.
         img: /images/content_images/arlib/awkward.svg
         alttext: awkward
         url: https://awkward-array.org/
       - 
         title: uarray
-        text: Sistema de backend de Python que desacopla la API de la implementación; unumpy proporciona una API de NumPy.
+        text: Sistema de backend de Python que desvincula la API de la implementación; unumpy proporciona una API de NumPy.
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
-      - 
-        title: tensorly
-        text: Aprendizaje tensorial, álgebra y backends para usar de manera fluida NumPy, PyTorch, TensorFlow o CuPy.
-        img: /images/content_images/arlib/tensorly.png
-        alttext: tensorly
-        url: http://tensorly.org/stable/home.html
   scientificdomains:
     intro:
       - 
         text: Casi todos los científicos que trabajan en Python recurren a la potencia de NumPy.
       - 
-        text: "NumPy aporta la potencia de cálculo de lenguajes como C y Fortran a Python, un lenguaje mucho más fácil de aprender y utilizar. Con esta potencia viene la sencillez: una solución en NumPy suele ser clara y elegante."
+        text: "NumPy lleva la potencia de cálculo de lenguajes como C y Fortran a Python, un lenguaje mucho más fácil de aprender y utilizar. Con esta potencia viene la sencillez: una solución en NumPy suele ser clara y elegante."
     libraries:
       - 
-        title: Computación Cuántica
-        alttext: Un chip para computador.
+        title: Quantum Computing
+        alttext: A computer chip.
         img: /images/content_images/sc_dom_img/quantum_computing.svg
         links:
           - 
@@ -111,8 +111,8 @@ params:
             url: https://pennylane.ai
             label: PennyLane
       - 
-        title: Computación Estadística
-        alttext: Un gráfico lineal con la línea moviéndose hacia arriba.
+        title: Statistical Computing
+        alttext: A line graph with the line moving up.
         img: /images/content_images/sc_dom_img/statistical_computing.svg
         links:
           - 
@@ -128,8 +128,8 @@ params:
             url: https://seaborn.pydata.org/
             label: Seaborn
       - 
-        title: Procesamiento de Señales
-        alttext: Un gráfico de barras con valores positivos y negativos.
+        title: Signal Processing
+        alttext: A bar chart with positive and negative values.
         img: /images/content_images/sc_dom_img/signal_processing.svg
         links:
           - 
@@ -143,10 +143,10 @@ params:
             label: python-control
           - 
             url: https://hyperspy.org/
-            label: HiperSpy
+            label: HyperSpy
       - 
-        title: Procesamiento de Imágenes
-        alttext: Una fotografía de las montañas.
+        title: Image Processing
+        alttext: An photograph of the mountains.
         img: /images/content_images/sc_dom_img/image_processing.svg
         links:
           - 
@@ -159,8 +159,8 @@ params:
             url: https://mahotas.rtfd.io/
             label: Mahotas
       - 
-        title: Grafos y Redes
-        alttext: Un grafo simple.
+        title: Graphs and Networks
+        alttext: A simple graph.
         img: /images/content_images/sc_dom_img/sd6.svg
         links:
           - 
@@ -176,8 +176,8 @@ params:
             url: https://pygsp.rtfd.io/
             label: PyGSP
       - 
-        title: Astronomía
-        alttext: Un telescopio.
+        title: Astronomy
+        alttext: A telescope.
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
         links:
           - 
@@ -190,16 +190,16 @@ params:
             url: https://spacepy.github.io/
             label: SpacePy
       - 
-        title: Psicología Cognitiva
-        alttext: Una cabeza humana con engranajes.
+        title: Cognitive Psychology
+        alttext: A human head with gears.
         img: /images/content_images/sc_dom_img/cognitive_psychology.svg
         links:
           - 
             url: https://www.psychopy.org/
             label: PsychoPy
       - 
-        title: Bioinformática
-        alttext: Una hebra de ADN.
+        title: Bioinformatics
+        alttext: A strand of DNA.
         img: /images/content_images/sc_dom_img/bioinformatics.svg
         links:
           - 
@@ -215,8 +215,8 @@ params:
             url: http://etetoolkit.org/
             label: ETE
       - 
-        title: Inferencia Bayesiana
-        alttext: Un gráfico con una curva en forma de campanas.
+        title: Bayesian Inference
+        alttext: A graph with a bell-shaped curve.
         img: /images/content_images/sc_dom_img/bayesian_inference.svg
         links:
           - 
@@ -224,7 +224,7 @@ params:
             label: PyStan
           - 
             url: https://docs.pymc.io/
-            label: PyMC3
+            label: PyMC
           - 
             url: https://arviz-devs.github.io/arviz/
             label: ArviZ
@@ -232,8 +232,8 @@ params:
             url: https://emcee.readthedocs.io/
             label: emcee
       - 
-        title: Análisis Matemático
-        alttext: Cuatro símbolos matemáticos.
+        title: Mathematical Analysis
+        alttext: Four mathematical symbols.
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
         links:
           - 
@@ -249,8 +249,8 @@ params:
             url: https://fenicsproject.org/
             label: FEniCS
       - 
-        title: Química
-        alttext: Un tubo de ensayo.
+        title: Chemistry
+        alttext: A test tube.
         img: /images/content_images/sc_dom_img/chemistry.svg
         links:
           - 
@@ -266,8 +266,8 @@ params:
             url: https://www.pybamm.org/
             label: PyBaMM
       - 
-        title: Geociencia
-        alttext: La Tierra.
+        title: Geoscience
+        alttext: The Earth.
         img: /images/content_images/sc_dom_img/geoscience.svg
         links:
           - 
@@ -283,8 +283,8 @@ params:
             url: https://www.fatiando.org/
             label: Fatiando a Terra
       - 
-        title: Procesamiento Geográfico
-        alttext: Un mapa.
+        title: Geographic Processing
+        alttext: A map.
         img: /images/content_images/sc_dom_img/GIS.svg
         links:
           - 
@@ -297,8 +297,8 @@ params:
             url: https://python-visualization.github.io/folium
             label: Folium
       - 
-        title: Arquitectura e Ingeniería
-        alttext: Una placa de desarrollo de microprocesadores.
+        title: Architecture & Engineering
+        alttext: A microprocessor development board.
         img: /images/content_images/sc_dom_img/robotics.svg
         links:
           - 
@@ -306,7 +306,7 @@ params:
             label: COMPAS
           - 
             url: https://cityenergyanalyst.com/
-            label: City Energy Analyst - Analista de Energía de Ciudad
+            label: City Energy Analyst
           - 
             url: https://nortikin.github.io/sverchok/
             label: Sverchok
@@ -319,7 +319,7 @@ params:
     image2:
       - 
         img: /images/content_images/data-science.png
-        alttext: Diagrama de tres círculos superpuestos. Los círculos se denominan "Matemáticas", "Ciencias de la Computación" y "Conocimientos Especializados". En el centro del diagrama, con los tres círculos superpuestos, hay un área denominada "Ciencia de datos".
+        alttext: Diagrama de tres círculos superpuestos. Los círculos se denominan "Matemáticas", "Informática" y "Conocimientos Especializados". En el centro del diagrama, con los tres círculos superpuestos, hay un área denominada "Ciencia de datos".
     examples:
       - 
         text: "<b>Extraer, Transformar, Cargar: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor.readthedocs.io/)"
@@ -328,7 +328,7 @@ params:
       - 
         text: "<b>Modelado y evaluación: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
       - 
-        text: "<b>Informes en un panel de control: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
+        text: "<b>Informes en paneles: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://github.com/voila-dashboards/voila)"
     content:
       - 
         text: Para grandes volúmenes de datos, [Dask](https://dask.org) y [Ray](https://ray.io/) están diseñados para escalarse. Las implementaciones estables se basan en el versionado de datos ([DVC](https://dvc.org)), rastreo de experimentos ([MLFlow](https://mlflow.org)), y automatización del flujo de trabajo ([Airflow](https://airflow.apache.org), [Dagster](https://dagster.io) y [Prefect](https://www.prefect.io)).
@@ -370,4 +370,4 @@ params:
       - 
         text: NumPy es un componente esencial en el floreciente [panorama de visualización de Python](https://pyviz.org/overviews/index.html), que incluye [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), y [PyVista](https://github.com/pyvista/pyvista), por nombrar algunos.
       - 
-        text: El procesamiento acelerado de arreglos de gran tamaño de NumPy permite a los investigadores visualizar conjuntos de datos mucho mayores a los que el Python nativo podría manejar.
+        text: El procesamiento acelerado de matrices de gran tamaño de NumPy permite a los investigadores visualizar conjuntos de datos mucho mayores a los que el Python nativo podría manejar.
