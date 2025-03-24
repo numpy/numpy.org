@@ -1,5 +1,5 @@
 ---
-title: Get Help
+title: الحصول على مساعدة
 sidebar: false
 ---
 
@@ -9,12 +9,12 @@ sidebar: false
 
 ### [StackOverflow](http://stackoverflow.com/questions/tagged/numpy)
 
-A forum for asking usage questions, e.g. "How do I do X in NumPy?”. Please [use the `#numpy` tag](https://stackoverflow.com/help/tagging)
+منتدى لطرح أسئلة الاستخدام مثل" كيف أستطيع أن أفعل x في نمباي؟". برجاء [استخدم `#numpy` tag](https://stackoverflow.com/help/tagging)
 
 ***
 
 ### [Reddit](https://www.reddit.com/r/Numpy/)
 
-Another forum for usage questions.
+منتدى آخر لأسئلة الاستخدام.
 
 ***
