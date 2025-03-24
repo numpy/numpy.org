@@ -66,7 +66,7 @@ Estas informações serão recolhidas por escrito e, sempre que possível, as de
 O Comitê do Código de Conduta deve ter por objetivo chegar a um acordo sobre uma resolução no prazo de duas semanas. Caso uma resolução não possa ser determinada nesse período, o Comitê responderá à(s) pessoa(s) relatante(s) com uma atualização e cronograma previsto para a resolução.
 
 
-## Resoluções {#resolutions}
+## Resoluções
 
 O Comitê tem de chegar a um acordo sobre uma resolução por consenso. Se o grupo não conseguir chegar a um consenso e permanece bloqueado durante mais de uma semana, o grupo encaminhará o assunto para o Conselho Diretor para resolução.
 
