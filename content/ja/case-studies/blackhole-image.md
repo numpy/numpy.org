@@ -3,7 +3,7 @@ title: "ケーススタディ：世界初のブラックホール画像"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/blackhole.jpg" caption="**Black Hole M87**" alt="black hole image" attr="*(Image Credits: Event Horizon Telescope Collaboration)*" attrk="https://www.jpl.nasa.gov/images/universe/90410/blackhole20190410.jpg" >}}
+{{< figure >}}
 src = '/images/content_images/cs/blackhole.jpg' title = 'Black Hole M87' alt = 'black hole image' attribution = '(Image Credits: Event Horizon Telescope Collaboration)' attrk = 'https://www.jpl.nasa.gov/images/universe/90410/blackhole20190410.jpg'
 {{< /figure >}}
 
@@ -40,7 +40,7 @@ src = '/images/content_images/cs/blackhole.jpg' title = 'Black Hole M87' alt = '
 
 {{< figure >}}
 src = '/images/content_images/cs/dataprocessbh.png' title = 'EHTのデータ処理パイプライン' alt = 'data pipeline' align = 'center' attribution = '(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)' attributionlink = 'https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57'
-{{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**ブラックホール画像化でNumPyが果たした役割**" >}}
+{{< /figure >}}
 
 ## NumPyが果たした役割
 
