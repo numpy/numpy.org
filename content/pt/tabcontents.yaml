@@ -159,8 +159,8 @@ params:
             url: https://mahotas.rtfd.io/
             label: Mahotas
       - 
-        title: Graphs and Networks
-        alttext: A simple graph.
+        title: Gráficos e Redes
+        alttext: Um grafo simples.
         img: /images/content_images/sc_dom_img/sd6.svg
         links:
           - 
@@ -177,7 +177,7 @@ params:
             label: PyGSP
       - 
         title: Astronomy
-        alttext: A telescope.
+        alttext: Um telescópio.
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
         links:
           - 
@@ -249,7 +249,7 @@ params:
             url: https://fenicsproject.org/
             label: FEniCS
       - 
-        title: Chemistry
+        title: Química
         alttext: Um tubo de ensaio.
         img: /images/content_images/sc_dom_img/chemistry.svg
         links:
@@ -266,7 +266,7 @@ params:
             url: https://www.pybamm.org/
             label: PyBaMM
       - 
-        title: Geoscience
+        title: Geociências
         alttext: A Terra.
         img: /images/content_images/sc_dom_img/geoscience.svg
         links:
