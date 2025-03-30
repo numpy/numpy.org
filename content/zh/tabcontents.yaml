@@ -3,32 +3,32 @@ params:
     paras:
       - 
         para1: NumPy forms the basis of powerful machine learning libraries like [scikit-learn](https://scikit-learn.org) and [SciPy](https://www.scipy.org). As machine learning grows, so does the list of libraries built on NumPy. [TensorFlow’s](https://www.tensorflow.org) deep learning capabilities have broad applications &mdash; among them speech and image recognition, text-based applications, time-series analysis, and video detection. [PyTorch](https://pytorch.org), another deep learning library, is popular among researchers in computer vision and natural language processing.
-        para2: Statistical techniques called [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205) methods such as binning, bagging, stacking, and boosting are among the ML algorithms implemented by tools such as [XGBoost](https://xgboost.readthedocs.io/), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [CatBoost](https://catboost.ai) &mdash; one of the fastest inference engines. [Yellowbrick](https://www.scikit-yb.org/en/latest/) and [Eli5](https://eli5.readthedocs.io/en/latest/) offer machine learning visualizations.
+        para2: Statistical techniques called [ensemble methods](https://scikit-learn.org/stable/modules/ensemble.html) such as binning, bagging, stacking, and boosting are among the ML algorithms implemented by tools such as [XGBoost](https://xgboost.readthedocs.io/), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [CatBoost](https://catboost.ai) &mdash; one of the fastest inference engines. [Yellowbrick](https://www.scikit-yb.org/en/latest/) and [Eli5](https://eli5.readthedocs.io/en/latest/) offer machine learning visualizations.
   arraylibraries:
     intro:
       - 
-        text: 当编写库以利用创新硬件、创建专门的数组类型或添加超出NumPy提供的功能时，NumPy的API是起点。
+        text: NumPy's API is the starting point when libraries are written to exploit innovative hardware, create specialized array types, or add capabilities beyond what NumPy provides.
     headers:
       - 
-        text: 数组库
+        text: Array Library
       - 
-        text: 能力和应用区域
+        text: Capabilities & Application areas
     libraries:
       - 
         title: Dask
-        text: 分布式阵列和高级平行用于分析，从而能够实现规模性能。
+        text: Distributed arrays and advanced parallelism for analytics, enabling performance at scale.
         img: /images/content_images/arlib/dask.png
         alttext: Dask
         url: https://dask.org/
       - 
-        title: 立方体
-        text: 使用 Python 加速计算 GPU 兼容的数组库。
+        title: CuPy
+        text: NumPy-compatible array library for GPU-accelerated computing with Python.
         img: /images/content_images/arlib/cupy.png
-        alttext: 立方体
+        alttext: CuPy
         url: https://cupy.dev
       - 
         title: JAX
-        text: "NumPy程序的可组合变换：求导、矢量化、即时编译到GPU/TPU。"
+        text: "Composable transformations of NumPy programs: differentiate, vectorize, just-in-time compilation to GPU/TPU."
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
         url: https://jax.readthedocs.io/
@@ -39,32 +39,32 @@ params:
         alttext: xarray
         url: https://xarray.pydata.org/en/stable/index.html
       - 
-        title: 稀疏
-        text: NumP兼容的稀疏阵列库，集成与 Dask 和 SciPy 的稀疏线性代数组。
+        title: Sparse
+        text: NumPy-compatible sparse array library that integrates with Dask and SciPy's sparse linear algebra.
         img: /images/content_images/arlib/sparse.png
-        alttext: 稀疏
+        alttext: sparse
         url: https://sparse.pydata.org/en/latest/
       - 
         title: PyTorch
-        text: 深度学习框架加快了从研究原型到生产部署的道路。
+        text: Deep learning framework that accelerates the path from research prototyping to production deployment.
         img: /images/content_images/arlib/pytorch-logo-dark.svg
         alttext: PyTorch
         url: https://pytorch.org/
       - 
         title: TensorFlow
-        text: 用于机器学习的端到端平台，便于构建和部署 ML 驱动应用。
+        text: An end-to-end platform for machine learning to easily build and deploy ML powered applications.
         img: /images/content_images/arlib/tensorflow-logo.svg
         alttext: TensorFlow
         url: https://www.tensorflow.org
       - 
         title: Arrow
-        text: 一个用于列内存数据和分析的跨语言开发平台。
+        text: A cross-language development platform for columnar in-memory data and analytics.
         img: /images/content_images/arlib/arrow.png
-        alttext: 方向键
+        alttext: arrow
         url: https://arrow.apache.org/
       - 
         title: xtensor
-        text: 多维数组与广播和延迟计算以进行数值分析。
+        text: Multi-dimensional arrays with broadcasting and lazy computing for numerical analysis.
         img: /images/content_images/arlib/xtensor.png
         alttext: xtensor
         url: https://github.com/xtensor-stack/xtensor-python
@@ -76,7 +76,7 @@ params:
         url: https://awkward-array.org/
       - 
         title: uarray
-        text: 能够将 API 与实现分离的 Python 后端系统；解压提供一个 NumPy API。
+        text: Python backend system that decouples API from implementation; unumpy provides a NumPy API.
         img: /images/content_images/arlib/uarray.png
         alttext: uarray
         url: https://uarray.org/en/latest/
@@ -89,13 +89,13 @@ params:
   scientificdomains:
     intro:
       - 
-        text: 使用Python工作的几乎每个科学家都利用NumPy的力量。
+        text: Nearly every scientist working in Python draws on the power of NumPy.
       - 
-        text: "NumPy将C和Fortran等语言的计算能力引入Python，使得Python这门语言更易于学习和使用。这种能力带来了简单性：在NumPy中的解决方案通常是清晰而优雅的。"
+        text: "NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant."
     libraries:
       - 
-        title: 量子计算
-        alttext: 计算机芯片
+        title: Quantum Computing
+        alttext: A computer chip.
         img: /images/content_images/sc_dom_img/quantum_computing.svg
         links:
           - 
@@ -111,8 +111,8 @@ params:
             url: https://pennylane.ai
             label: PennyLane
       - 
-        title: 统计计算
-        alttext: 向上移动的线形图。
+        title: Statistical Computing
+        alttext: A line graph with the line moving up.
         img: /images/content_images/sc_dom_img/statistical_computing.svg
         links:
           - 
@@ -146,7 +146,7 @@ params:
             label: HyperSpy
       - 
         title: Image Processing
-        alttext: 山区照片。
+        alttext: An photograph of the mountains.
         img: /images/content_images/sc_dom_img/image_processing.svg
         links:
           - 
@@ -177,7 +177,7 @@ params:
             label: PyGSP
       - 
         title: Astronomy
-        alttext: 望远镜。
+        alttext: A telescope.
         img: /images/content_images/sc_dom_img/astronomy_processes.svg
         links:
           - 
@@ -190,16 +190,16 @@ params:
             url: https://spacepy.github.io/
             label: SpacePy
       - 
-        title: 认知心理学
-        alttext: 一个带有渔具的人头部。
+        title: Cognitive Psychology
+        alttext: A human head with gears.
         img: /images/content_images/sc_dom_img/cognitive_psychology.svg
         links:
           - 
             url: https://www.psychopy.org/
             label: PsychoPy
       - 
-        title: 生物信息学
-        alttext: 一组DNA。
+        title: Bioinformatics
+        alttext: A strand of DNA.
         img: /images/content_images/sc_dom_img/bioinformatics.svg
         links:
           - 
@@ -215,8 +215,8 @@ params:
             url: http://etetoolkit.org/
             label: ETE
       - 
-        title: 贝叶斯推断
-        alttext: 带有钟形曲线的图形。
+        title: Bayesian Inference
+        alttext: A graph with a bell-shaped curve.
         img: /images/content_images/sc_dom_img/bayesian_inference.svg
         links:
           - 
@@ -232,8 +232,8 @@ params:
             url: https://emcee.readthedocs.io/
             label: emcee
       - 
-        title: 数学分析
-        alttext: 四个数学符号。
+        title: Mathematical Analysis
+        alttext: Four mathematical symbols.
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
         links:
           - 
@@ -249,8 +249,8 @@ params:
             url: https://fenicsproject.org/
             label: FEniCS
       - 
-        title: "化学\n"
-        alttext: 测试管。
+        title: Chemistry
+        alttext: A test tube.
         img: /images/content_images/sc_dom_img/chemistry.svg
         links:
           - 
@@ -266,8 +266,8 @@ params:
             url: https://www.pybamm.org/
             label: PyBaMM
       - 
-        title: 地球科学
-        alttext: 地球
+        title: Geoscience
+        alttext: The Earth.
         img: /images/content_images/sc_dom_img/geoscience.svg
         links:
           - 
@@ -283,8 +283,8 @@ params:
             url: https://www.fatiando.org/
             label: Fatiando a Terra
       - 
-        title: 地域处理
-        alttext: 一个地图。
+        title: Geographic Processing
+        alttext: A map.
         img: /images/content_images/sc_dom_img/GIS.svg
         links:
           - 
@@ -297,8 +297,8 @@ params:
             url: https://python-visualization.github.io/folium
             label: Folium
       - 
-        title: 建筑与工程
-        alttext: 微处理器开发委员会。
+        title: Architecture & Engineering
+        alttext: A microprocessor development board.
         img: /images/content_images/sc_dom_img/robotics.svg
         links:
           - 
@@ -311,22 +311,22 @@ params:
             url: https://nortikin.github.io/sverchok/
             label: Sverchok
   datascience:
-    intro: "NumPy 是丰富的数据科学库生态系统的核心。典型的探索性数据科学工作流程可能类似于："
+    intro: "NumPy lies at the core of a rich ecosystem of data science libraries. A typical exploratory data science workflow might look like:"
     image1:
       - 
         img: /images/content_images/ds-landscape.png
-        alttext: Python 库图表。五个图表是“提取、转换、加载”、“数据探索”、“数据模型”、“数据评估”和“数据列示”。
+        alttext: Diagram of Python Libraries. The five catagories are 'Extract, Transform, Load', 'Data Exploration', 'Data Modeling', 'Data Evaluation' and 'Data Presentation'.
     image2:
       - 
         img: /images/content_images/data-science.png
-        alttext: 三个重叠圈的图表。圆形的标签是“数学”、“计算机科学”和“域专门知识”。 图表中间有三个圆圈重叠，是一个标题为“数据科学”的区域。
+        alttext: Diagram of three overlapping circles. The circles are labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'.
     examples:
       - 
         text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org), [Intake](https://intake.readthedocs.io), [PyJanitor](https://pyjanitor-devs.github.io/pyjanitor/)"
       - 
-        text: "<b>探索分析： </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
+        text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org), [Seaborn](https://seaborn.pydata.org), [Matplotlib](https://matplotlib.org), [Altair](https://altair-viz.github.io)"
       - 
-        text: "<b>模型与评估： </b>[scikit-learn](https://sikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC3](https://docs.pymc.io), [spaCy](https://spacy.io)"
+        text: "<b>Model and evaluate: </b>[scikit-learn](https://scikit-learn.org), [statsmodels](https://www.statsmodels.org/stable/index.html), [PyMC](https://docs.pymc.io), [spaCy](https://spacy.io)"
       - 
         text: "<b>Report in a dashboard: </b>[Dash](https://plotly.com/dash), [Panel](https://panel.holoviz.org), [Voila](https://voila.readthedocs.io/)"
     content:
@@ -337,15 +337,15 @@ params:
       - 
         url: https://www.fusioncharts.com/blog/best-python-data-visualization-libraries
         img: /images/content_images/v_matplotlib.png
-        alttext: 在 matplotlib 中制作的流图
+        alttext: A streamplot made in matplotlib
       - 
         url: https://github.com/yhat/ggpy
         img: /images/content_images/v_ggpy.png
-        alttext: 一个以ggpt做成的散射图形
+        alttext: A scatter-plot graph made in ggpy
       - 
         url: https://www.journaldev.com/19692/python-plotly-tutorial
         img: /images/content_images/v_plotly.png
-        alttext: 用plotly制作的盒状图
+        alttext: A box-plot made in plotly
       - 
         url: https://altair-viz.github.io/gallery/streamgraph.html
         img: /images/content_images/v_altair.png
