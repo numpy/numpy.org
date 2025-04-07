@@ -14,14 +14,14 @@ body = '''
 {{< card >}}
 title = '수치적 컴퓨팅 도구'
 body = '''
-NumPy는 포괄적인 수학 함수, 난수 생성기, 선형 대수 루틴, 푸리에 변환 등을 제공합니다.
+NumPy는 너른 범위의 수학 함수, 난수 생성기, 선형 대수 루틴, 푸리에 변환 등을 제공합니다.
 '''
 {{< /card >}}
 
 {{< card >}}
 title = '오픈 소스'
 body = '''
-자유 [BSD 라이선스](https://github.com/numpy/numpy/blob/main/LICENSE.txt)에 따라, NumPy는 흥미에 찼으며, 반응이 빠르고, 다양성이 넘치는 [커뮤니티](/community)에 의하여 [GitHub](https://github.com/numpy/numpy)에서 공개적으로 개발되고 유지됩니다.
+자유 [BSD 라이선스](https://github.com/numpy/numpy/blob/main/LICENSE.txt)에 따라, NumPy는 활기있고, 민첩하며, 다양성이 넘치는 [커뮤니티](/community)에 의하여 [GitHub에 공개되어](https://github.com/numpy/numpy) 개발 유지되고 있습니다.
 '''
 {{< /card >}}
 
