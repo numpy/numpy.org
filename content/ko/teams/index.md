@@ -36,4 +36,4 @@ sidebar: false
 
 # 운영
 
-For the list of the Steering Council members, please see [here](https://numpy.org/about/).
+운영 위원회 구성원 목록은 [여기](https://numpy.org/about)를 참고하십시오.
