@@ -1,8 +1,8 @@
-languageName: 英文
+languageName: 英语
 params:
-  description: 为什么使用 Numpy？它有强大的高维数组、有数字计算工具、可操作性强、性能高且开源。
+  description: 为什么使用 Numpy？它有强大的高维数组、有数字计算工具、互可操作、高性能、开源。
   navbarlogo:
-    image: logo.svg
+    image: /logo.svg
     text: NumPy
     link: /
   hero:
@@ -11,18 +11,18 @@ params:
     #Hero subtitle (optional)
     subtitle: 使用 Python 进行科学计算的基本包
     #Button text
-    buttontext: "Latest release: NumPy 2.0. View all releases"
+    buttontext: "Latest release: NumPy 2.2. View all releases"
     #Where the main hero button links to
-    buttonlink: "/news/#release"
+    buttonlink: "/news/#releases"
     #Hero image (from static/images/___)
-    image: logo.svg
+    image: /logo.svg
   shell:
     title: 占位符
     intro:
       - 
         title: 尝试使用NumPy
-        text: 使用交互式结构在浏览器中尝试使用NumPy
-    docslink: 不要忘记查看<a href="https://numpy.org/doc/stable" target="_blank">文档</a>。
+        text: Use the interactive shell to try NumPy in the browser
+    docslink: 别忘了查看 <a href="https://numpy.org/doc/stable" target="_blank">用户手册</a>。
   casestudies:
     title: 案例研究
     features:
@@ -34,56 +34,56 @@ params:
         url: /case-studies/blackhole-image
       - 
         title: 引力波探测
-        text: 在1916年，阿尔伯特·爱因斯坦预测了引力波的存在。100年后，激光干涉引力波天文台（LIGO）的科学家利证明了引力波的存在，在实验中就用到了 NumPy。
+        text: 在1916年，阿尔伯特·爱因斯坦预测了引力波的存在。100年后，激光干涉引力波天文台（LIGO）的科学家利用 NumPy 证明了引力波的存在。
         img: /images/content_images/case_studies/gravitional.png
         alttext: 两个相互环绕的天体。它们改变了周围的引力。
-        url: /case-studies/gw-discov
+        url: /cash studies/gw-discov
       - 
         title: 运动分析
         text: Cricket Analytics 正在通过统计模型和预测分析来改进队员的团队的表现，改变体育界。NumPy 让其中很多的分析成为了可能。
         img: /images/content_images/case_studies/sports.jpg
-        alttext: 赛场上的板球。
+        alttext: 绿色的赛场上的板球。
         url: /cash studies/cricket-analysitics
       - 
         title: 使用深度学习进行估计
         text: DeepLabCut 使用 NumPy 来加速进行涉及观察动物行为的科学研究，以便跨物种和时间尺度推动研究发展。
         img: /images/content_images/case_studies/deeplabcut.png
         alttext: 猎豹姿势分析
-        url: /case-studies/deeplabcut-dnn
+        url: /cash studies/deeplabcut-dnn
   tabs:
     title: 生态系统
   section5: false
   navbar:
     - 
       title: 安装
-      url: /install
+      url: /安装
     - 
       title: 文档
       url: https://numpy.org/doc/stable
     - 
-      title: 学习Numpy
+      title: 学习指南
       url: /learn
     - 
       title: 社区
       url: /community
     - 
-      title: 关于我们
+      title: About Us
       url: /about
     - 
-      title: 新闻
-      url: /news
+      title: 社区快讯
+      url: /新闻
     - 
-      title: 贡献
+      title: Contribute
       url: /contribute
   footer:
-    logo: logo.svg
+    logo: /logo.svg
     socialmediatitle: ""
     socialmedia:
       - 
         link: https://github.com/numpy/numpy
         icon: github
       - 
-        link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
+        link: https://www.youtube.com/@NumPy_team
         icon: youtube
     quicklinks:
       column1:
@@ -91,47 +91,47 @@ params:
         links:
           - 
             text: 安装
-            link: /install
+            link: /安装
           - 
             text: 文档
             link: https://numpy.org/doc/stable
           - 
-            text: 学习NumPy
+            text: 学习指南
             link: /learn
           - 
-            text: 引用Numpy
+            text: 引用 NumPy
             link: /citing-numpy
           - 
-            text: 路线图
+            text: Roadmap
             link: https://numpy.org/neps/roadmap.html
       column2:
         links:
           - 
-            text: 关于我们
+            text: About us
             link: /about
           - 
             text: 社区
             link: /community
           - 
             text: 用户调查
-            link: /user-surveys
+            link: /用户调查
           - 
-            text: 贡献
+            text: Contribute
             link: /contribute
           - 
-            text: 行为准则
+            text: Code of conduct
             link: /code-of-conduct
       column3:
         links:
           - 
-            text: 获取帮助
+            text: Get help
             link: /gethelp
           - 
-            text: 用户条款
+            text: Terms of use
             link: /terms
           - 
-            text: 隐私政策
+            text: Privacy
             link: /privacy
           - 
-            text: 宣传材料
+            text: Press kit
             link: /press-kit
