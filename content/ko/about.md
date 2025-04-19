@@ -15,23 +15,24 @@ NumPy 운영 위원회는 프로젝트를 관리하는 기관입니다. 그 역�
 - Sebastian Berg
 - Ralf Gommers
 - Charles Harris
-- Stephan Hoyer
 - Inessa Pawson
 - Matti Picus
 - Stéfan van der Walt
 - Melissa Weber Mendonça
+- Marten van Kerkwijk
 - Eric Wieser
 
 명예 회원
 
 - Alex Griffing (2015-2017)
 - Allan Haldane (2015-2021)
-- Marten van Kerkwijk (2017-2019)
 - Travis Oliphant (프로젝트 설립자, 2005-2012)
 - Nathaniel Smith (2012-2021)
 - Julian Taylor (2013-2021)
 - Jaime Fernández del Río (2014-2021)
 - Pauli Virtanen (2008-2021)
+- Eric Wieser (2017-2025)
+- Stephan Hoyer (2017-2025)
 
 NumPy 운영 위원회에 문의하려면, numpy-team@googlegroups.com 주소로 이메일을 보내세요.
 
