@@ -99,7 +99,7 @@ params:
             text: Learn
             link: /learn
           - 
-            text: Citing Numpy
+            text: Citing NumPy
             link: /citing-numpy
           - 
             text: Roadmap
