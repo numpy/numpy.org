@@ -15,23 +15,24 @@ Numpy運営委員会はこのプロジェクトの管理組織です。 その�
 - Sebastian Berg
 - Ralf Gommers
 - Charles Harris
-- Stephan Hoyer
 - Inessa Pawson
 - Matti Picus
 - Stéfan van der Walt
 - Melissa Weber Mendonça
+- Marten van Kerkwijk
 - Eric Wieser
 
 過去のメンバー
 
 - Alex Griffing (2015-2017)
 - Allan Haldane (2015-2021)
-- Marten van Kerkwijk (2017-2019)
 - Travis Oliphant (プロジェクト創設者, 2005-2012)
 - Nathaniel Smith (2012-2021)
 - Julian Taylor (2013-2021)
 - Jaime Fernández del Río (2014-2021)
 - Pauli Virtanen (2008-2021)
+- Eric Wieser (2017-2025)
+- Stephan Hoyer (2017-2025)
 
 Numpy運営委員会に連絡するには、numpy-team@googlegroups.comまでメールしてください。
 
