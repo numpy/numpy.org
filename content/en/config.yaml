@@ -89,7 +89,7 @@ params:
             link: https://numpy.org/doc/stable
           - text: Learn
             link: /learn
-          - text: Citing Numpy
+          - text: Citing NumPy
             link: /citing-numpy
           - text: Roadmap
             link: https://numpy.org/neps/roadmap.html
