@@ -70,7 +70,7 @@ params:
       title: About Us
       url: /about
     - 
-      title: الأخبار
+      title: News
       url: /news
     - 
       title: Contribute
@@ -99,7 +99,7 @@ params:
             text: Learn
             link: /learn
           - 
-            text: Citing Numpy
+            text: Citing NumPy
             link: /citing-numpy
           - 
             text: Roadmap
