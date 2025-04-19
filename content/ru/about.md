@@ -5,38 +5,38 @@ sidebar: false
 
 NumPy is an open source project that enables numerical computing with Python. It was created in 2005 building on the early work of the Numeric and Numarray libraries. NumPy will always be 100% open source software and free for all to use. It is released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
 
-NumPy открыто разрабатывается на GitHub, на основе консенсуса сообщества NumPy и более широкого научного сообщества Python. Дополнительную информацию о нашем подходе к управлению см. в нашем [Документе Управления](https://www.numpy.org/devdocs/dev/governance/index.html).
+NumPy is developed in the open on GitHub, through the consensus of the NumPy and wider scientific Python community. For more information on our governance approach, please see our [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
 
 
-## Руководящий Совет
+## Steering Council
 
 The NumPy Steering Council is the project's governing body. Its role is to ensure, through working with and serving the broader NumPy community, the long-term sustainability of the project, both as a software package and community. The NumPy Steering Council currently consists of the following members (in alphabetical order, by last name):
 
-- Себастьян Берг
-- Ральф Гоммерс
-- Чарльз Харрис
-- Инесса Поусон
-- Матти Пикус
-- Стефан ван дер Волт
+- Sebastian Berg
+- Ralf Gommers
+- Charles Harris
+- Inessa Pawson
+- Matti Picus
+- Stéfan van der Walt
 - Melissa Weber Mendonça
 - Marten van Kerkwijk
-- Эрик Визер
+- Nathan Goldbaum
 
-Почётные члены:
+Emeritus:
 
-- Алекс Гриффинг (2015-2017)
-- Аллан Халдейн (2015-2021)
-- Трэвис Олифант (основатель проекта, 2005-2012)
-- Натаниэль Смит (2012-2021)
-- Джулиан Тейлор (2013-2021)
-- Джейми Фернандез дель Рио (2014-2021)
-- Паули Виртанен (2008-2021)
+- Alex Griffing (2015-2017)
+- Allan Haldane (2015-2021)
+- Travis Oliphant (project founder, 2005-2012)
+- Nathaniel Smith (2012-2021)
+- Julian Taylor (2013-2021)
+- Jaime Fernández del Río (2014-2021)
+- Pauli Virtanen (2008-2021)
 - Eric Wieser (2017-2025)
 - Stephan Hoyer (2017-2025)
 
 To contact the NumPy Steering Council, please email numpy-team@googlegroups.com.
 
-## Команды
+## Teams
 
 The NumPy project leadership is actively working on diversifying contribution pathways to the project.<br> NumPy currently has the following teams:
 
@@ -52,40 +52,40 @@ The NumPy project leadership is actively working on diversifying contribution pa
 
 See the [Team](/teams) page for more info.
 
-## Подкомитет NumFOCUS
+## NumFOCUS Subcommittee
 
-- Чарльз Харрис
-- Ральф Гоммерс
-- Инесса Поусон
-- Себастьян Берг
-- Внешний член: Томас Касвелл
+- Charles Harris
+- Ralf Gommers
+- Inessa Pawson
+- Sebastian Berg
+- External member: Thomas Caswell
 
-## Спонсоры
+## Sponsors
 
-NumPy получает прямое финансирование из следующих источников:
-{{< спонсоры >}}
+NumPy receives direct funding from the following sources:
+{{< sponsors >}}
 
 
-## Институциональные партнёры
+## Institutional Partners
 
-Институциональные партнеры – это организации, оказывающие поддержку проекту, нанимая на работу людей, которые вносят свой вклад в развитие NumPy в рамках своей работы. На данный момент институциональными партнёрами являются:
+Institutional Partners are organizations that support the project by employing people that contribute to NumPy as part of their job. Current Institutional Partners include:
 
 - UC Berkeley (Stéfan van der Walt)
 - Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça, Mateusz Sokol, Rohit Goswami)
 - NVIDIA (Sebastian Berg)
 
-{{< партнёры >}}
+{{< partners >}}
 
 
-## Поддержать нас
+## Donate
 
-Если вы сочли NumPy полезным в своей работе, исследованиях или компании, пожалуйста, подумайте о пожертвовании проекту соразмерно вашим ресурсам. Любая сумма поможет! Все пожертвования будут использоваться строго для финансирования разработки открытого программного обеспечения, документации и сообщества NumPy.
+If you have found NumPy useful in your work, research, or company, please consider a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation, and community.
 
-NumPy является спонсируемым проектом NumFOCUS, 501(c)(3) некоммерческой благотворительной организации в Соединенных Штатах. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Посетите [numfocus.org](https://numfocus.org) чтобы получить больше информации.
+NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit [numfocus.org](https://numfocus.org) for more information.
 
-Пожертвования NumPy управляются [NumFOCUS](https://numfocus.org). Для доноров в Соединенных Штатах ваш подарок не облагается налогом в соответствии с законом. Как и при любом пожертвовании, вы должны проконсультироваться с налоговым консультантом о лично вашей налоговой ситуации.
+Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax advisor about your particular tax situation.
 
-Руководящий Совет NumPy примет решения о том, как наилучшим образом использовать полученные средства. Технические и инфраструктурные приоритеты можно найти в [Дорожной Карте NumPy](https://www.numpy.org/neps/index.html#roadmap).
+NumPy's Steering Council will make the decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
 
 {{<opencollective>}}
 
