@@ -15,23 +15,24 @@ The NumPy Steering Council is the project's governing body. Its role is to ensur
 - Sebastian Berg
 - Ralf Gommers
 - Charles Harris
-- Stephan Hoyer
 - Inessa Pawson
 - Matti Picus
 - Stéfan van der Walt
 - Melissa Weber Mendonça
+- Marten van Kerkwijk
 - Eric Wieser
 
 荣誉会员：
 
 - Alex Griffing（2015-2017年）
 - Allan Haldane (2015-2021)
-- Marten van Kerkwijk （2017-2019年）
 - Travis Oliphant（项目创始人，2005-2012年）
 - Nathaniel Smith (2012-2021)
 - Julian Taylor (2013-2021)
 - Jaime Fernández del Río (2014-2021)
 - Pauli Virtanen (2008-2021)
+- Eric Wieser (2017-2025)
+- Stephan Hoyer (2017-2025)
 
 To contact the NumPy Steering Council, please email numpy-team@googlegroups.com.
 
@@ -70,7 +71,7 @@ NumPy 直接从下列来源获得资金：
 机构合作伙伴指那些通过雇用为 NumPy 做贡献的人来支持该项目的组织。 目前的机构伙伴包括：
 
 - UC Berkeley (Stéfan van der Walt)
-- Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça)
+- Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça, Mateusz Sokol, Rohit Goswami)
 - NVIDIA (Sebastian Berg)
 
 {{< partners >}}
