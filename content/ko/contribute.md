@@ -13,7 +13,7 @@ NumPy 프로젝트에서는 당신의 경험과 의욕을 환영합니다! 당�
 
 저희 커뮤니티는 모두를 평등하게 대하고 모든 기여의 가치를 인정하려는 뜻을 품고 있습니다. 개방적이고 참여를 환영하는 분위기를 조성하기 위해 [이용약관](/code-of-conduct)을 만들었습니다.
 
-For a visual guide on how to contribute to NumPy, check out this [comic](https://heyzine.com/flip-book/3e66a13901.html).
+NumPy에 공헌하는 법에 대해 알고 싶다면 이 [만화](https://heyzine.com/flip-book/3e66a13901.html)를 보세요.
 
 {{< comic >}}
 
@@ -64,6 +64,6 @@ NumPy는 오랜 기간 동안 자원봉사의 형태로 유지되었으나, 그 
 
 ### 후원
 
-If you'd like to contribute to NumPy by making a donation, visit [https://numpy.org/about/#donate](https://numpy.org/about/#donate).
+NumPy에 기부하시려면 [https://numpy.org/about/#donate](https://numpy.org/about/#donate) 를 방문하시기 바랍니다.
 
 
