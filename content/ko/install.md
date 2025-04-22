@@ -7,16 +7,16 @@ sidebar: false
 NumPy 는 `conda` 나 `pip` 를 통해서 사용하여 설치할 수 있고, 또한 macOS 및 Linux의 패키지 관리자나 [원본 코드](https://numpy.org/devdocs/user/building.html) 를 이용하여 설치할 수 있습니다. NumPy를 설치하는 유일한 선행 조건은 Python 자체입니다. 만약 아직 Python을 설치하지 않았고 가장 간단한 방법으로 시작하려면, [Anaconda 배포판](https://www.anaconda.com/distribution) 을 사용하길 권장합니다. 이 배포판에는 Python 와 NumPy 및 과학 계산 및 데이터 사이언스에 자주 사용되는 다른 패키지들이 포함되어 있습니다.
 {{< /admonition >}}
 
-The recommended method of installing NumPy depends on your preferred workflow. Below, we break down the installation methods into the following categories:
+The recommended method of installing NumPy depends on your preferred workflow. 아래에 설치 방법을 다음과 같이 분류하였습니다:
 
-- **Project-based** (e.g., uv, pixi) *(recommended for new users)*
+- **프로젝트 기반** (예를 들어, uv, pixi) *(새로운 사용자에게 추천)*
 - **Environment-based** (e.g., pip, conda) *(the traditional workflow)*
 - **System package managers** *(not recommended for most users)*
 - **Building from source** *(for advanced users and development purposes)*
 
 Choose the method that best suits your needs. If you're unsure, start with the **Environment-based** method using `conda` or `pip`.
 
-Below are the different methods for **installing NumPy**. Click on the tabs to explore each method:
+Below are the different methods for **installing NumPy**. 탭을 선택해서 각 방식을 알아보시기 바랍니다:
 또한 `pip`를 사용할 때, 가상 환경을 사용하는 것을 추천합니다. 가상 환경을 사용하는 이유는 [재현 가능한 설치방법들](#reproducible-installs)을 참조해주세요. 가상 환경 사용에 대한 자세한 내용은 [이 가이드](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto)에서 확인하실 수 있습니다.
 
 [[tab]] name = 'Project Based' content = '''
