@@ -1,9 +1,9 @@
 ---
-title: NumPy 설치
+title: NumPy 설치하기
 sidebar: false
 ---
 
-세번째 차이점은 conda는 환경이나 패키지간 의존성을 해결하기 위한 해키지 관리 도구를 제공하지만, pip는 그를 위해서 (아주 많은) 추가적인 도구들이 필요하다는 것 입니다.
+{{< admonition tip >}}
 NumPy 는 `conda` 나 `pip` 를 통해서 사용하여 설치할 수 있고, 또한 macOS 및 Linux의 패키지 관리자나 [원본 코드](https://numpy.org/devdocs/user/building.html) 를 이용하여 설치할 수 있습니다. NumPy를 설치하는 유일한 선행 조건은 Python 자체입니다. 만약 아직 Python을 설치하지 않았고 가장 간단한 방법으로 시작하려면, [Anaconda 배포판](https://www.anaconda.com/distribution) 을 사용하길 권장합니다. 이 배포판에는 Python 와 NumPy 및 과학 계산 및 데이터 사이언스에 자주 사용되는 다른 패키지들이 포함되어 있습니다.
 {{< /admonition >}}
 
@@ -37,11 +37,11 @@ Windows, macOS, Linux 등 일반적인 운영체제:
 
 개인적인 선호나 아래의 conda 와 pip의 차이점을 설명하는 글을 읽은 유저나 또는 pip/PyPI기반의 설치 방법을 선호하는 경우 참고하십시오.
 
-Python 패키지를 설치하고 관리하는 주요 툴은 `pip` 과 `conda` 입니다. 웹 및 범용 Python 개발을 위해 Pip뿐만 아니라 [다양한 도구](https://packaging.python.org/guides/tool-recommendations/)들이 있습니다. 고성능 컴퓨터 (HPC) 를 사용하는 경우 [Spack](https://github.com/spack/spack)를 사용하는 것을 추천합니다.
+Python 패키지를 설치하고 관리하는 주요 소프트웨어 도구는 `pip` 과 `conda` 입니다. 둘의 기능은 부분적으로 서로 겹치지만 (예를 들어 둘 다 `numpy` 설치할 수 있습니다.) 같이 사용할 수 있습니다. 주요한 pip와 conda 사이의 차이점에 대해 여기서 이야기 할 것입니다. 이것은 효과적으로 패키지를 관리하려면 중요합니다.
 
-The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. 그 도구들의 기능은 부분적으로 겹칩지만 (e.g. both can install `numpy`), 같이 쓰일 수도 있습니다.
+The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. 이것이 또한 뜻하는 바는 conda 는 파이썬이 아닌 다른 언어 라이브러리와 소프트웨어 도구도 여러분이 필요하다면 설치할 수 있지만 (예를 들어 컴파일러, CUDA, HDF5), pip 는 할 수 없다는 것입니다.
 
-첫번째 차이점은, conda는 cross-language 를 지원하고, Python을 설치할 수 도 있지만, pip는 특정 Python에만 패키지를 설치하고 관리할 수 있다는 것 입니다. 또한 conda는 non-Python 라이브러리나 도구들을 설치할 수 있지만 (e.g. compilers, CUDA, HDF5), pip는 Python이 필요하기 때문에 설치할 수 없습니다.
+첫번째 차이점은, conda는 cross-language 를 지원하고, Python을 설치할 수 도 있지만, pip는 특정 Python에만 패키지를 설치하고 관리할 수 있다는 것 입니다. PyPI 에 가장 많이 모여 있으며, 2등과는 상당한 차이가 있는 정도지만, 가장 인기 있는 패키지들은 conda 에도 있습니다.
 
 The third difference is that conda is an integrated solution for managing packages, dependencies and environments, while with pip you may need another tool (there are many!) for dealing with environments or complex dependencies.
 
@@ -55,7 +55,7 @@ The third difference is that conda is an integrated solution for managing packag
   ```bash
   pip install numpy
   ```
-세번째 차이점은 conda는 환경이나 패키지간 의존성을 해결하기 위한 해키지 관리 도구를 제공하지만, pip는 그를 위해서 (아주 많은) 추가적인 도구들이 필요하다는 것 입니다.
+{{< admonition tip >}}
 **Tip:** Use a virtual environment for better dependency management
 {{< /admonition >}}
 
@@ -94,7 +94,7 @@ choco install numpy
 
 [[tab]] name = 'Building from Source' content = ''' For advanced users and developers who want to customize or debug **NumPy**.
 
-A word of warning: building Numpy from source can be a nontrivial exercise. We recommend using binaries instead if those are available for your platform via one of the above methods. For details on how to build from source, see [the building from source guide in the Numpy docs](https://numpy.org/devdocs/building/).
+A word of warning: building Numpy from source can be a nontrivial exercise. 추천하는 방식은 대신 이진 코드를 사용하는 것입니다. 여러분의 플랫폼을 위한 이진 코드가 위 방법들 중 하나로 제공된다면. 자세한 내용은 [ Numpy 문서의 소스 코드로 부터 빌드하는 법 안내](https://numpy.org/devdocs/building/)를 참고 바랍니다.
 
 '''
 {{< /card >}}
@@ -117,7 +117,6 @@ This should print the installed version of NumPy without errors.
 ```
 IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
 
-Importing the numpy c-extensions failed. This error can happen for
-different reasons, often due to issues with your setup.
+Importing the numpy c-extensions failed. 이 오류를 발생시킬 수 있는 원인은 여러가지 있을 수 있고, 때로는 여러분의 설정과 관련된 문제일 수 있습니다.
 ```
 
