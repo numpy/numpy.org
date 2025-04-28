@@ -13,7 +13,6 @@ sidebar: false
 
 調査結果を詳細を知りたい場合は、**[こちらのレポート](/surveys/NumPy_usersurvey_2020_report.pdf)** をダウンロードしてください。
 
-
 結果の概要については、 **[こちらの図](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)** をチェックしてください。
 
 より詳細が知りたくなりましたか？ **https://numpy.org/user-survey-2020-details/** をご覧ください。
