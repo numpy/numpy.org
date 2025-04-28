@@ -3,19 +3,30 @@ title: Computación con Arreglos
 sidebar: false
 ---
 
-*La computación con arreglos es la base del cómputo estadístico, matemático y científico en varias aplicaciones contemporáneas de ciencia de datos y aplicaciones de analíticas, tales como la visualización de datos, el procesamiento digital de señales, el procesamiento de imágenes, la bioinformática, el aprendizaje automático, la inteligencia artificial, entre muchas otras.*
+_Array computing is the foundation of statistical, mathematical, scientific computing
+in various contemporary data science and analytics applications such as data
+visualization, digital signal processing, image processing, bioinformatics,
+machine learning, AI, and several others._
 
-La manipulación y transformación de datos a gran escala depende de una computación con arreglos eficiente y de alto rendimiento. El lenguaje de elección para la analítica de datos, el aprendizaje automático y el cómputo numérico productivo es **Python.**
+La manipulación y transformación de datos a gran escala depende de una computación con arreglos eficiente y de alto rendimiento. The language of choice for data analytics,
+machine learning, and productive numerical computing is **Python.**
 
-**Num**erical **Py**thon o NumPy es la biblioteca estándar de-facto del lenguaje de programación Python que soporta arreglos y matrices multidimensionales de gran tamaño, y viene con una amplia colección de funciones matemáticas de alto nivel para operar sobre estos arreglos.
+**Num**erical **Py**thon or NumPy is its de-facto standard Python programming
+language library that supports large, multi-dimensional arrays and matrices,
+and comes with a vast collection of high-level mathematical functions to
+operate on these arrays.
 
-Tras el lanzamiento de NumPy en 2006, Pandas apareció en el panorama en 2008, y no fue hasta hace un par de años que aparecieron sucesivamente varias bibliotecas de computación con arreglos, poblando este escenario. Muchas de estas nuevas bibliotecas imitan las características y capacidades de NumPy, y contienen nuevos algoritmos y características orientadas a las aplicaciones de aprendizaje automático e inteligencia artificial.
+Tras el lanzamiento de NumPy en 2006, Pandas apareció en el panorama en 2008, y no fue hasta hace un par de años que aparecieron sucesivamente varias bibliotecas de computación con arreglos, poblando este escenario.
+Muchas de estas nuevas bibliotecas imitan las características y capacidades de NumPy, y contienen nuevos algoritmos y características orientadas a las aplicaciones de aprendizaje automático e inteligencia artificial.
 
 <img
-  src="/images/content_images/array_c_landscape.png"
-  alt="arraycl"
-  title="Panorama de la Computación con Arreglos" />
+src="/images/content_images/array_c_landscape.png"
+alt="arraycl"
+title="Array Computing Landscape">
 
-La **computación con arreglos** está basada en los **arreglos** como estructura de datos. *Los arreglos* son utilizados para organizar grandes cantidades de datos de manera que un conjunto de valores relacionados pueda ordenarse, buscarse, manipularse matemáticamente y transformarse con facilidad y rapidez.
+**Array computing** is based on **arrays** data structures. _Arrays_ are used
+to organize vast amounts of data such that a related set of values can be easily
+sorted, searched, mathematically manipulated, and transformed easily and quickly.
 
-La computación con arreglos es *única* ya que implica operar sobre todos los datos del arreglo *al mismo tiempo*. Esto significa que cualquier operación de arreglos se aplica a un conjunto completo de valores de una sola vez. Este enfoque vectorial proporciona velocidad y simplicidad, al permitir a los programadores codificar y operar sobre los datos agregados, sin tener que utilizar bucles de instrucciones escalares individuales.
+Array computing is _unique_ as it involves operating on the data array _at
+once_. Esto significa que cualquier operación de arreglos se aplica a un conjunto completo de valores de una sola vez. Este enfoque vectorial proporciona velocidad y simplicidad, al permitir a los programadores codificar y operar sobre los datos agregados, sin tener que utilizar bucles de instrucciones escalares individuales.

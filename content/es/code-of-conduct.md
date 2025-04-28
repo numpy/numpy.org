@@ -22,16 +22,16 @@ Nos esforzamos por:
 3. Ser colaborativos. Nuestro trabajo será utilizado por otras personas, y a su vez dependeremos del trabajo de otros. Cuando hacemos algo en beneficio del proyecto, estamos dispuestos a explicar a otros cómo funciona, de manera que puedan construir sobre este trabajo para hacerlo aún mejor. Cualquier decisión que tomemos afectará a usuarios y colegas, y nos tomamos en serio esas consecuencias a la hora de tomar decisiones.
 4. Ser curiosos. ¡Nadie lo sabe todo! Hacer preguntas tempranas evita muchos problemas posteriores, por lo que fomentamos las preguntas, aunque las podamos redirigir al foro adecuado. Nos esforzaremos por ser receptivos y útiles.
 5. Ser cuidadosos con las palabras que elegimos. Somos cuidadosos y respetuosos en nuestra comunicación, y asumimos la responsabilidad del lenguaje que utilizamos. Ser amables con los demás. No insultes ni menosprecies a los demás participantes. No aceptaremos el acoso ni otros comportamientos excluyentes, tales como:
-    * Amenazas o expresiones violentas dirigidas a otra persona.
-    * Bromas y lenguaje sexista, racista o discriminatorio.
-    * Publicar material sexualmente explícito o violento.
-    * Publicar (o amenazar con publicar) información de identificación personal de otras personas ("doxing").
-    * Compartir contenido privado, como correos electrónicos enviados de forma privada o no pública, o foros no registrados como el historial de canales IRC, sin el consentimiento del remitente.
-    * Insultos personales, especialmente aquellos que utilizan términos racistas o sexistas.
-    * Atención sexual no deseada.
-    * Uso excesivo de lenguaje inapropiado. Por favor, evite las palabras soeces; las personas difieren mucho en su sensibilidad a las malas palabras.
-    * Acoso reiterado a los demás. En general, si alguien le pide que se detenga, entonces deténgase.
-    * Abogar o alentar cualquiera de las conductas anteriormente mencionadas.
+    - Amenazas o expresiones violentas dirigidas a otra persona.
+    - Bromas y lenguaje sexista, racista o discriminatorio.
+    - Publicar material sexualmente explícito o violento.
+    - Publicar (o amenazar con publicar) información de identificación personal de otras personas ("doxing").
+    - Compartir contenido privado, como correos electrónicos enviados de forma privada o no pública, o foros no registrados como el historial de canales IRC, sin el consentimiento del remitente.
+    - Insultos personales, especialmente aquellos que utilizan términos racistas o sexistas.
+    - Atención sexual no deseada.
+    - Uso excesivo de lenguaje inapropiado. Por favor, evite las palabras soeces; las personas difieren mucho en su sensibilidad a las malas palabras.
+    - Acoso reiterado a los demás. En general, si alguien le pide que se detenga, entonces deténgase.
+    - Abogar o alentar cualquiera de las conductas anteriormente mencionadas.
 
 ### Declaración de Diversidad
 
@@ -53,15 +53,15 @@ Puede informar de los problemas al Comité de Código de Conducta de NumPy en nu
 
 Actualmente, el Comité está compuesto por:
 
-* Stefan van der Walt
-* Melissa Weber Mendonça
-* Rohit Goswami
+- Stefan van der Walt
+- Melissa Weber Mendonça
+- Rohit Goswami
 
-Si tu informe implica a algún miembro del Comité, o si éste considera que tiene un conflicto de intereses en su tramitación, se abstendrán de examinar tu denuncia. Alternativamente, si por cualquier razón usted se siente incómodo haciendo un informe al Comité, también puede ponerse en contacto con el personal senior de NumFOCUS en [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
+Si tu informe implica a algún miembro del Comité, o si éste considera que tiene un conflicto de intereses en su tramitación, se abstendrán de examinar tu denuncia. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
-### Resolución de reporte de informes & aplicación del Código de Conducta
+### Incident reporting resolution & Code of Conduct enforcement
 
-_Esta sección resume los puntos más importantes, puede encontrar más detalles en el_ [Código de Conducta de NumPy - Cómo hacer seguimiento a un informe](report-handling-manual).
+_This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](report-handling-manual).
 
 Investigaremos y responderemos a todas las quejas. El Comité de Código de Conducta de NumPy y el Consejo Directivo de NumPy (en caso de estar involucrado) protegerán la identidad del denunciante y tratarán el contenido de las denuncias con carácter confidencial (a menos que el denunciante acuerde lo contrario).
 
@@ -72,7 +72,7 @@ En casos que no impliquen violaciones claras y graves u obvias de este Código d
 1. acusar recibo del informe,
 2. una discusión/retroalimentación razonable,
 3. mediación (si la retroalimentación no fue útil, y únicamente si tanto el denunciante como el denunciado están de acuerdo con ello),
-4. aplicación a través de una decisión transparente (ver [Resoluciones](report-handling-manual/#resoluciones)) por parte del Comité de Código de conducta.
+4. enforcement via transparent decision (see [Resolutions](report-handling-manual/#resolutions)) by the Code of Conduct Committee.
 
 El Comité responderá a cualquier informe lo antes posible y dentro de un plazo máximo de 72 horas.
 
@@ -80,4 +80,4 @@ El Comité responderá a cualquier informe lo antes posible y dentro de un plazo
 
 Damos las gracias a los grupos que están detrás de los siguientes documentos, de los que hemos sacado contenido e inspiración:
 
-- [El Código de Conducta de SciPy](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
+- [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
