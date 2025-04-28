@@ -1,6 +1,6 @@
 ---
 title: Buscar Ayuda
-sidebar: falso
+sidebar: false
 ---
 
 **Problemas de desarrollo:** Para asuntos relacionados con el desarrollo de NumPy (por ejemplo, informes de errores), por favor consulte la sección de [Comunidad](/community).
