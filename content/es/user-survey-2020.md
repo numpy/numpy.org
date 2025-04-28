@@ -14,7 +14,6 @@ En 2020, el equipo de encuestas de NumPy, en asociación con estudiantes y profe
 
 **[Descarga el informe](/surveys/NumPy_usersurvey_2020_report.pdf)** para ver a detalle los resultados de la encuesta.
 
-
 Para los puntos destacados, echa un vistazo a **[esta infografía](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)**.
 
 ¿Listo para una inmersión profunda? Visita **https://numpy.org/user-survey-2020-details/**.
