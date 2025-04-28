@@ -1,29 +1,29 @@
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/43481325?u=8c0c0adbf3f2efd2cce72951d3554064c7bbfce3&v=4"'
-alt = 'Avatar of Inessa Pawson'
-{{< /image >}}
+body = '''{{< image
+    src="https://avatars.githubusercontent.com/u/43481325?u=8c0c0adbf3f2efd2cce72951d3554064c7bbfce3&v=4\""
+    alt="Avatar of Inessa Pawson"
+>}}
 Inessa Pawson'''
 link = 'https://github.com/InessaPawson'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&v=4"'
-alt = 'Avatar of Ralf Gommers'
-{{< /image >}}
+body = '''{{< image
+    src="https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&v=4\""
+    alt="Avatar of Ralf Gommers"
+>}}
 Ralf Gommers'''
 link = 'https://github.com/rgommers'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/1268991?u=974707b96081a9705f3a239c0773320f353ee02f&v=4"'
-alt = 'Avatar of Ross Barnowski'
-{{< /image >}}
+body = '''{{< image
+    src="https://avatars.githubusercontent.com/u/1268991?u=974707b96081a9705f3a239c0773320f353ee02f&v=4\""
+    alt="Avatar of Ross Barnowski"
+>}}
 Ross Barnowski'''
 link = 'https://github.com/rossbar'

@@ -3,13 +3,13 @@ title: "Caso de estudio: La primera imagen de un Agujero Negro"
 sidebar: false
 ---
 
-{{< figure >}}
-src = '/images/content_images/cs/blackhole.jpg'
-title = 'Agujero Negro M87'
-alt = 'Imagen de agujero negro'
-attribution = '(Créditos de la imagen: Colaboración del telescopio del Horizonte de Sucesos)'
-attributionlink = 'https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg'
-{{< /figure >}}
+{{< figure
+    src="/images/content_images/cs/blackhole.jpg"
+    title="Agujero Negro M87"
+    alt="Imagen de agujero negro"
+    attribution="(Créditos de la imagen: Colaboración del telescopio del Horizonte de Sucesos)"
+    attributionlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg"
+>}}
 
 {{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="Katie Bouman, *Profesora Asistente, Ciencias de la Computación & Matemáticas, Caltech*"
 >}}
@@ -42,14 +42,14 @@ El [ Telescopio Event Horizon (EHT) ](https://eventhorizontelescope.org), es un 
 
     Cuando el objetivo es ver algo nunca antes visto, ¿cómo pueden los científicos estar seguros de que la imagen es correcta?
 
-{{< figure >}}
-src = '/images/content_images/cs/dataprocessbh.png'
-title = 'Flujo de Trabajo de Procesamiento de Datos EHT'
-alt = 'flujo de datos'
-align = 'center'
-attribution = '(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)'
-attributionlink = 'https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57'
-{{< /figure >}}
+{{< figure
+    src="/images/content_images/cs/dataprocessbh.png"
+    title="Flujo de Trabajo de Procesamiento de Datos EHT"
+    alt="flujo de datos"
+    align="center"
+    attribution="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)"
+    attributionlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57"
+>}}
 
 ## El Rol de NumPy
 
@@ -59,19 +59,19 @@ La colaboración del EHT respondió a estos desafíos haciendo que los equipos i
 
 Su trabajo ilustra el rol que desempeña el ecosistema científico de Python en el avance de la ciencia a través del análisis de datos colaborativos.
 
-{{< figure >}}
-src = '/images/content_images/cs/bh_numpy_role.png'
-alt = 'rol de numpy'
-title = 'El rol de NumPy en la imagen del agujero negro'
-{{< /figure >}}
+{{< figure
+    src="/images/content_images/cs/bh_numpy_role.png"
+    alt="rol de numpy"
+    title="El rol de NumPy en la imagen del agujero negro"
+>}}
 
 Por ejemplo, el paquete de Python [`eht-imaging`][ehtim] proporciona herramientas para simular y realizar reconstrucción de imágenes en datos VLBI. NumPy está en el núcleo del procesamiento de datos de matrices utilizados en este paquete, como se muestra a continuación en el gráfico parcial de dependencias de software.
 
-{{< figure >}}
-src = '/images/content_images/cs/ehtim_numpy.png'
-alt = 'mapa de dependencias de ehtim resaltando a numpy'
-title = 'Gráfico de dependencias de software del paquete ehtim resaltando a NumPy'
-{{< /figure >}}
+{{< figure
+    src="/images/content_images/cs/ehtim_numpy.png"
+    alt="mapa de dependencias de ehtim resaltando a numpy"
+    title="Gráfico de dependencias de software del paquete ehtim resaltando a NumPy"
+>}}
 
 Además de NumPy, muchos otros paquetes, como [SciPy](https://scipy.org) y [Pandas](https://pandas.pydata.org), son parte del flujo de procesamiento de datos para fotografiar el agujero negro. Los formatos estándar de archivos astronómicos y transformaciones de tiempo/coordenadas fueron manejados por [Astropy][astropy], mientras que [Matplotlib][mpl] fue utilizado en la visualización de datos a través del flujo de análisis, incluyendo la generación de la imagen final del agujero negro.
 
@@ -79,11 +79,11 @@ Además de NumPy, muchos otros paquetes, como [SciPy](https://scipy.org) y [Pand
 
 El eficiente y adaptable arreglo n-dimensional que es la característica central de NumPy, permitió a los investigadores manipular grandes conjuntos de datos numéricos, proporcionando una base para la primera imagen de un agujero negro. Un momento histórico en la ciencia ofrece una impresionante evidencia visual de la teoría de Einstein. Este logro abarca no solo los avances tecnológicos sino también la colaboración internacional de más de 200 científicos y algunos de los mejores radio observatorios del mundo.  Algoritmos innovadores y técnicas de procesamiento de datos, mejorando los modelos astronómicos existentes, ayudaron a desvelar un misterio del universo.
 
-{{< figure >}}
-src = '/images/content_images/cs/numpy_dlc_benefits.png'
-alt = 'beneficios de numpy'
-title = 'Capacidades clave de NumPy utilizadas'
-{{< /figure >}}
+{{< figure
+    src="/images/content_images/cs/numpy_dlc_benefits.png"
+    alt="beneficios de numpy"
+    title="Capacidades clave de NumPy utilizadas"
+>}}
 
 [resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
 
