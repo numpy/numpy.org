@@ -3,12 +3,12 @@ title: "Case Study: Discovery of Gravitational Waves"
 sidebar: false
 ---
 
-{{< figure >}}
-src = '/images/content_images/cs/gw_sxs_image.png'
-title = 'Gravitational Waves'
-alt = 'binary coalesce black hole generating gravitational waves'
-attribution = '(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)'
-attributionlink = 'https://youtu.be/Zt8Z_uzG71o'
+{{< figure
+    src="/images/content_images/cs/gw_sxs_image.png"
+    title="Gravitational Waves"
+    alt="binary coalesce black hole generating gravitational waves"
+    attribution="(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)"
+    attributionlink="https://youtu.be/Zt8Z_uzG71o" >}}
 {{< /figure >}}
 
 {{< blockquote
@@ -94,12 +94,12 @@ made from warped spacetime.
     simulations using latest experimental inputs and insights can be a time
     consuming activity that challenges researchers in this domain.
 
-{{< figure >}}
-src = '/images/content_images/cs/gw_strain_amplitude.png'
-alt = 'gravitational waves strain amplitude'
-title = 'Estimated gravitational-wave strain amplitude from GW150914'
-attribution = '(Graph Credits: Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)'
-attributionlink = 'https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger'
+{{< figure
+    src="/images/content_images/cs/gw_strain_amplitude.png"
+    alt="gravitational waves strain amplitude"
+    title="Estimated gravitational-wave strain amplitude from GW150914"
+    attribution="(Graph Credits: Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)"
+    attributionlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
 {{< /figure >}}
 
 ## NumPy’s Role in the Detection of Gravitational Waves
@@ -132,18 +132,18 @@ speed.  Here are some examples:
   providing object based interfaces to utilities, tools, and methods for
   studying data from gravitational-wave detectors.
 
-{{< figure >}}
-src = '/images/content_images/cs/gwpy-numpy-dep-graph.png'
-alt = 'gwpy-numpy depgraph'
-title = 'Dependency graph showing how GwPy package depends on NumPy'
+{{< figure
+    src="/images/content_images/cs/gwpy-numpy-dep-graph.png"
+    alt="gwpy-numpy depgraph"
+    title="Dependency graph showing how GwPy package depends on NumPy" >}}
 {{< /figure >}}
 
 ----
 
-{{< figure >}}
-src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png'
-alt = 'PyCBC-numpy depgraph'
-title = 'Dependency graph showing how PyCBC package depends on NumPy'
+{{< figure
+    src="/images/content_images/cs/PyCBC-numpy-dep-graph.png"
+    alt="PyCBC-numpy depgraph"
+    title="Dependency graph showing how PyCBC package depends on NumPy" >}}
 {{< /figure >}}
 
 ## Summary
@@ -160,8 +160,8 @@ is [enabling researchers](https://www.gw-openscience.org/events/GW150914/) to
 answer complex questions and discover new horizons in our understanding of the
 universe.
 
-{{< figure >}}
-src = '/images/content_images/cs/numpy_gw_benefits.png'
-alt = 'numpy benefits'
-title = 'Key NumPy Capabilities utilized'
+{{< figure
+    src="/images/content_images/cs/numpy_gw_benefits.png"
+    alt="numpy benefits"
+    title="Key NumPy Capabilities utilized" >}}
 {{< /figure >}}
