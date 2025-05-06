@@ -7,4 +7,4 @@ sidebar: false
 
 **2021** Os dados coletados estão em análise.
 
-Se você tem dúvidas ou sugestões sobre as pesquisas já realizadas ou futuras, por favor crie uma issue [aqui](https://github.com/numpy/numpy-surveys/issues). 
+Se você tem dúvidas ou sugestões sobre as pesquisas já realizadas ou futuras, por favor crie uma issue [aqui](https://github.com/numpy/numpy-surveys/issues).
