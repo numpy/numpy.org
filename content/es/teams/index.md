@@ -26,6 +26,10 @@ Somos un equipo internacional en una misión para apoyar a las comunidades cient
 
 {{< grid file="survey-team.toml" columns="2 3 4 5" />}}
 
+### Equipo de traducciones
+
+{{< grid file="translations-team.toml" columns="2 3 4 5" />}}
+
 ### Mantenedores eméritos
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
