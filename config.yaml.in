@@ -14,8 +14,11 @@ markup:
 disableLanguages: []
 
 params:
+  colorScheme: light
+  author:
+    name: "NumPy team"
   images:
-  - /images/twitter-image.jpg
+  - /images/numpy-image.jpg
   navColor: blue
   font:
     name: "Lato"
@@ -48,3 +51,12 @@ languages:
     include-files:
       - content/ja/config.yaml
       - content/ja/tabcontents.yaml
+
+    # Spanish
+  es:
+    title: NumPy
+    weight: 4
+    contentDir: content/es
+    include-files:
+      - content/es/config.yaml
+      - content/es/tabcontents.yaml

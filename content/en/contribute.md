@@ -29,13 +29,16 @@ Our community aspires to treat everyone equally and to value all
 contributions. We have a [Code of Conduct](/code-of-conduct) to foster an open
 and welcoming environment.
 
+For a visual guide on how to contribute to NumPy, check out this [comic](https://heyzine.com/flip-book/3e66a13901.html).
+
+{{< comic >}}
+
 ### Writing code
 
 Programmers, this
 [guide](https://numpy.org/devdocs/dev/index.html#development-process-summary)
 explains how to contribute to the NumPy codebase.
 <br>Check out also our [YouTube channel](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) for additional advice.
-
 
 ### Reviewing pull requests
 The project has more than 250 open pull requests -- meaning many potential
@@ -46,7 +49,6 @@ codebase. You can:
 * triage documentation PRs
 * test proposed changes
 
-
 ### Developing educational materials
 
 NumPy's [User Guide](https://numpy.org/devdocs) is undergoing rehabilitation.
@@ -55,7 +57,6 @@ site needs restructuring. Opportunities aren't limited to writers. We'd also
 welcome worked examples, notebooks, and videos. [NEP 44 — Restructuring the
 NumPyDocumentation](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html)
 lays out our ideas -- and you may have others.
-
 
 ### Issue triaging
 
@@ -70,7 +71,6 @@ would make good issues for new contributors.  You can:
 
 Please just dive in.
 
-
 ### Website development
 
 We've just revamped our website, but we're far from done. If you love web
@@ -78,13 +78,11 @@ development, these
 [issues](https://github.com/numpy/numpy.org/issues?q=is%3Aissue+is%3Aopen+label%3Adesign)
 list some of our unmet needs -- and feel free to share your own ideas.
 
-
 ### Graphic design
 
 We can barely begin to list the contributions a graphic designer can make here.
 Our docs are parched for illustration; our growing website craves images --
 opportunities abound.
-
 
 ### Translating website content
 
@@ -110,16 +108,20 @@ Details can be found here: https://support.crowdin.com/joining-translation-proje
 ### Community coordination and outreach
 
 Through community contact we share our work more widely and learn where we're
-falling short. We're eager to get more people involved in efforts like our
-[Twitter](https://twitter.com/numpy_team) account, organizing NumPy [code
+falling short. We're eager to get more people involved in efforts like organizing NumPy [code
 sprints](https://scisprints.github.io/), a newsletter, and perhaps a blog.
 
 ### Fundraising
 
-NumPy was all-volunteer for many years, but as its importance grew it became
-clear that to ensure stability and growth we'd need financial support. [This
-SciPy'19 talk](https://www.youtube.com/watch?v=dBTJD_FDVjU) explains how much
-difference that support has made. Like all the nonprofit world, we're
-constantly searching for grants, sponsorships, and other kinds of support. We
-have a number of ideas and of course we welcome more. Fundraising is a scarce
-skill here -- we'd appreciate your help.
+For many years, NumPy was maintained by dedicated volunteers, but as its importance grew it 
+became clear that to ensure stability and growth we would need financial support.
+[This SciPy'19 talk](https://www.youtube.com/watch?v=dBTJD_FDVjU) explains how much difference 
+that support has made. Like most nonprofits, we are constantly seeking grants, sponsorships, 
+and other kinds of funding. We have a number of ideas and of course we welcome more. 
+Fundraising is a scarce skill here -- we'd appreciate your help.
+
+### Donate
+
+If you'd like to contribute to NumPy by making a donation, visit [https://numpy.org/about/#donate](https://numpy.org/about/#donate).
+
+

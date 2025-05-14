@@ -1,17 +1,31 @@
 ---
 title: Notícias
 sidebar: false
-newsHeader: "numpy.org agora está disponível em Japonês e Português"
-date: 2023-08-02
-newsLink: /pt/news
+newsHeader: "NumPy versão 1.26.0"
+date: 2023-09-16
 ---
 
-### numpy.org agora está disponível em Japonês e Português
+### Lançado o NumPy versão 1.26.0
 
-_02 de agosto, 2023_ -- Estamos felizes em anunciar que o site numpy.org agora está disponível em duas línguas adicionais além do Inglês: Japonês e Português Brasileiro. Isso não teria sido possível sem nosso grupo de voluntários: 
+_16 de setembro de 2023_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html) está disponível. Os destaques desta versão são:
 
-Português:
-* Melissa Weber Mendonça (melissawm)
+* Suporte ao Python 3.12.0.
+* Compatibilidade com Cython 3.0.0.
+* Utilização do sistema Meson para compilação
+* Suport a SIMD atualizado
+* Melhorias para f2py, suporte a meson e bind(x)
+* Suporte à versão mais recente da biblioteca Accelerate BLAS/LAPACK
+
+A versão 1.26.0 é uma continuação da série de versões 1.25.x que marcam a transição para o sistema de compilação Meson e oferecem suporte preliminar para o Cython 3.0.0. Um total de 20 pessoas contribuíram para este lançamento e 59 pull requests foram incorporadas.
+
+As versões do Python suportadas por esta versão são 3.9-3.12.
+
+### numpy.org agora está disponível em japonês e português
+
+_2 de agosto de 2023_ -- numpy.org agora está disponível em 2 idiomas adicionais: japonês e português. Isto não seria possível sem nossos voluntários dedicados:
+
+_Português:_
+* Melissa Weber Mendonça (melissawm)
 * Ricardo Prins (ricardoprins)
 * Getúlio Silva (getuliosilva)
 * Julio Batista Silva (jbsilva)
@@ -31,8 +45,6 @@ O trabalho na infraestrutura de traduções é financiado pela CZI.
 No futuro, adoraríamos traduzir o site para mais línguas. Se você quiser ajudar, por favor entre em contato com o time de traduções do NumPy no Slack:
 https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w. (Procure pelo canal #translations)
 Também estamos organizando um time de tradutores que serão responsáveis por trabalhar na localização da documentação e conteúdo educacional para o ecossistema Scientific Python. Se esse trabalho te interessa, junte-se a nós no Discord do projeto Scientific Python: https://discord.gg/khWtqY6RKr. (Procure pelo canal #translation)
-
-### Lançado o NumPy 1.25.0
 
 _17 de junho, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) está disponível agora. Os destaques desta versão são:
 
@@ -213,6 +225,9 @@ Mais detalhes sobre nossas propostas e resultados esperados podem ser encontrado
 
 Aqui está uma lista de versões do NumPy, com links para notas de lançamento. Bugfix lança (apenas o `z` muda no `x.y.` número da versão) não tem novos recursos; versões menores (o `y` aumenta) sim.
 
+- NumPy 1.26.2 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.26.2)) -- _12 de novembro de 2023_.
+- NumPy 1.26.1 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.26.1)) -- _14 de outubro de 2023_.
+- NumPy 1.26.0 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.26.0)) -- _16 de setembro de 2023_.
 - NumPy 1.25.2 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.25.2)) -- _31 de julho de 2023_.
 - NumPy 1.25.1 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.25.1)) -- _8 de julho de 2023_.
 - NumPy 1.24.4 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.24.4)) -- _26 de junho de 2023_.

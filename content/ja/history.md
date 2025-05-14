@@ -9,9 +9,9 @@ NumPy および関連ライブラリの開発におけるマイルストーン�
 
 NumPyのベースとなったNumericとNumarrayライブラリのコピーを入手したい場合は、以下のリンクを参照してください。
 
-[ *Numeric*](https://sourceforge.net/projects/numpy/files/Old%20Numeric/) のダウンロード**
+[ *Numeric*](https://sourceforge.net/projects/numpy/files/Old%20Numeric/) のダウンロード***
 
-[*Numarray *](https://sourceforge.net/projects/numpy/files/Old%20Numarray/) のダウンロード**
+[*Numarray *](https://sourceforge.net/projects/numpy/files/Old%20Numarray/) のダウンロード***
 
 *<sub>これらの古いパッケージはもはや保守されていないことに注意してください。 配列関連の処理をしたい場合は、NumPyを使用するか、NumPyライブラリを利用するために既存のコードをリファクタリングすることを強くお勧めします。</p>
 
