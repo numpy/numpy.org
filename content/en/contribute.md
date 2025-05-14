@@ -93,6 +93,9 @@ of this effort.  See
 for background; comment on [this GitHub
 issue](https://github.com/numpy/numpy.org/issues/55) to sign up.
 
+The recommended way for new contributors to translate NumPy's documentation is to join the translation team on crowdin.
+See [How to translate content using Crowdin](https://scientific-python-translations.github.io/translate/).
+
 ### Community coordination and outreach
 
 Through community contact we share our work more widely and learn where we're
