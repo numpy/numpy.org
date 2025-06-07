@@ -26,8 +26,8 @@ There's a ton of information about NumPy out there. If you are just starting, we
 
 <i class="fas fa-book"></i> **Books**
 
-* [Guide to NumPy *by Travis E. Oliphant*](https://web.mit.edu/dvp/Public/numpybook.pdf) This is the first edition of the book published in 2006. For the latest edition released in 2015, [click here](https://dl.acm.org/doi/10.5555/2886196).
-* [From Python to NumPy *by Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
+* [Guide to NumPy *by Travis E. Oliphant*](https://web.mit.edu/dvp/Public/numpybook.pdf) This is the first and *free* edition of the book. To purchase the latest edition, [click here](https://www.amazon.com/exec/obidos/ASIN/151730007X/acmorg-20).
+* [From Python to NumPy *by Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/) *(free)*
 * [Elegant SciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) *by Juan Nunez-Iglesias, Stefan van der Walt, and Harriet Dashnow*
 
 You may also want to check out the [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) on the subject of "Python+SciPy." Most books there are about the "SciPy ecosystem," which has NumPy at its core.
