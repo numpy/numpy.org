@@ -11,7 +11,7 @@ params:
     # Hero subtitle (optional)
     subtitle: The fundamental package for scientific computing with Python
     # Button text
-    buttontext: "Latest release: NumPy 2.2. View all releases"
+    buttontext: "Latest release: NumPy 2.3. View all releases"
     # Where the main hero button links to
     buttonlink: "/news/#releases"
     # Hero image (from static/images/___)
@@ -89,7 +89,7 @@ params:
             link: https://numpy.org/doc/stable
           - text: Learn
             link: /learn
-          - text: Citing Numpy
+          - text: Citing NumPy
             link: /citing-numpy
           - text: Roadmap
             link: https://numpy.org/neps/roadmap.html
