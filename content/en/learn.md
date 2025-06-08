@@ -22,17 +22,18 @@ strongly recommend the following:
 educational materials in the format of Jupyter Notebooks developed and maintained by
 the NumPy Documentation team. To submit your own content, visit the
 [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
-* [NumPy Illustrated: The Visual Guide to NumPy *by Lev Maximov*](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
+* [NumPy Illustrated: The Visual Guide to NumPy](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
+*by Lev Maximov*
 * [Scientific Python Lectures](https://lectures.scientific-python.org/) Besides covering
 NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.
 * [NumPy: the absolute basics for beginners](https://numpy.org/devdocs/user/absolute_beginners.html)
-* [NumPy tutorial *by Nicolas Rougier*](https://github.com/rougier/numpy-tutorial)
-* [Stanford CS231 *by Justin Johnson*](http://cs231n.github.io/python-numpy-tutorial/)
+* [NumPy tutorial](https://github.com/rougier/numpy-tutorial) *by Nicolas Rougier*
+* [Stanford CS231](http://cs231n.github.io/python-numpy-tutorial/) *by Justin Johnson*
 * [NumPy User Guide](https://numpy.org/devdocs)
 
 <i class="fas fa-book"></i> **Books**
 
-* [Guide to NumPy *by Travis E. Oliphant*](https://web.mit.edu/dvp/Public/numpybook.pdf)
+* [Guide to NumPy](https://web.mit.edu/dvp/Public/numpybook.pdf) *by Travis E. Oliphant*
 This is the first and *free* edition of the book. To purchase the latest edition,
 [click here](https://www.amazon.com/exec/obidos/ASIN/151730007X/acmorg-20).
 * [From Python to NumPy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
