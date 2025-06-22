@@ -7,15 +7,15 @@ NumPy es un proyecto de código abierto impulsado por la comunidad y desarrollad
 
 Ofrecemos varios canales de comunicación para aprender, compartir conocimientos y conectarse con otros dentro de la comunidad de NumPy.
 
-
 ## Participa en línea
 
-Las siguientes son formas de relacionarse directamente con el proyecto y la comunidad de NumPy. _Ten en cuenta que animamos a los usuarios y a los miembros de la comunidad a apoyarse mutuamente por preguntas de uso - ver [Obtener ayuda](/gethelp)._
-
+Las siguientes son formas de relacionarse directamente con el proyecto y la comunidad de NumPy.
+_Ten en cuenta que animamos a los usuarios y a los miembros de la comunidad a apoyarse mutuamente por preguntas de uso - ver [Obtener ayuda](/gethelp)._
 
 ### [Lista de correo de NumPy](https://mail.python.org/mailman/listinfo/numpy-discussion)
 
-Este es el foro principal para discusiones más extensas, como añadir nuevas características a NumPy, hacer cambios en el mapa de ruta de NumPy, y todo tipo de proceso de toma de decisiones sobre el proyecto. Aquí también se realizan los anuncios sobre NumPy, tales como lanzamientos, reuniones de desarrolladores, sprints o charlas en conferencias.
+Este es el foro principal para discusiones más extensas, como añadir nuevas características a NumPy, hacer cambios en el mapa de ruta de NumPy, y todo tipo de proceso de toma de decisiones sobre el proyecto.
+Aquí también se realizan los anuncios sobre NumPy, tales como lanzamientos, reuniones de desarrolladores, sprints o charlas en conferencias.
 
 En esta lista, por favor, utiliza el botón de envío inferior, responde a la lista (en lugar de a otro remitente) y no respondas a los resúmenes. El archivo de consulta de esta lista está disponible [aquí](https://mail.python.org/archives/list/numpy-discussion@python.org/).
 
@@ -33,8 +33,9 @@ _Ten en cuenta que GitHub no es el lugar adecuado para reportar una vulnerabilid
 
 ### [Slack](https://numpy-team.slack.com)
 
-Una sala de chat en tiempo real para hacer preguntas sobre las _contribuciones_ a NumPy. Este es un espacio privado, destinado específicamente a las personas que no se atreven a plantear sus preguntas o ideas en la lista de correo pública o en GitHub. Por favor, visita [aquí](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) para más detalles, y sobre cómo obtener una invitación.
-
+Una sala de chat en tiempo real para hacer preguntas sobre las _contribuciones_ a NumPy.
+Este es un espacio privado, destinado específicamente a las personas que no se atreven a plantear sus preguntas o ideas en la lista de correo pública o en GitHub.
+Por favor, visita [aquí](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) para más detalles, y sobre cómo obtener una invitación.
 
 ## Grupos de Estudio y Reuniones
 
@@ -42,20 +43,18 @@ Si desea encontrar un grupo de estudio o reunión local para aprender más sobre
 
 NumPy también organiza ocasionalmente sprints presenciales para su equipo y colaboradores interesados. Estos normalmente se planifican con varios meses de anticipación y se anunciarán en la [lista de correo](https://mail.python.org/mailman/listinfo/numpy-discussion) y en [X (antes conocido como Twitter)](https://twitter.com/numpy_team).
 
-
 ## Conferencias
 
 El proyecto NumPy no organiza sus propias conferencias. Las conferencias que tradicionalmente han sido más populares entre los responsables, colaboradores y usuarios de NumPy son la serie de conferencias de SciPy y PyData:
 
-- [SciPy US](https://conference.scipy.org)
-- [EuroSciPy](https://www.euroscipy.org)
-- [SciPy Latinoamérica](https://www.scipyla.org)
-- [SciPy India](https://scipy.in)
-- [SciPy Japan](https://conference.scipy.org)
-- [Conferencias PyData](https://pydata.org/event-schedule/) (de 15 a 20 eventos al año, repartidos entre muchos países)
+- SciPy US
+- EuroSciPy
+- SciPy Latinoamérica
+- SciPy India
+- SciPyData Japan
+- <a href="https://pydata.org/event-schedule/">Conferencias PyData</a> (de 15 a 20 eventos al año, repartidos entre muchos países)
 
 Muchas de estas conferencias incluyen tutoriales y/o sprints que cubren NumPy, en donde puedes aprender cómo contribuir a Numpy o proyectos de código abierto relacionados.
-
 
 ## Únete a la comunidad NumPy
 
