@@ -1,7 +1,7 @@
 params:
   machinelearning:
     paras:
-      - para1: NumPy constituye la base de potentes librerías de aprendizaje automático como [scikit-learn](https://scikit-learn.org) y [SciPy](https://www.scipy.org). A medida que crece el aprendizaje automático, también lo hace la lista de librerías basadas en NumPy. Las capacidades de aprendizaje profundo de [TensorFlow](https://www.tensorflow.org) tienen amplias aplicaciones&mdash; entre ellas el reconocimiento de voz e imágenes, las aplicaciones basadas en texto, el análisis de series de tiempo y la detección de vídeo. [PyTorch](https://pytorch.org), otra librería de aprendizaje profundo, es popular entre los investigadores de visión artificial y procesamiento del lenguaje natural.
+      - para1: NumPy constituye la base de potentes librerías de aprendizaje automático como [scikit-learn](https://scikit-learn.org) y [SciPy](https://scipy.org). A medida que crece el aprendizaje automático, también lo hace la lista de librerías basadas en NumPy. Las capacidades de aprendizaje profundo de [TensorFlow](https://www.tensorflow.org) tienen amplias aplicaciones&mdash; entre ellas el reconocimiento de voz e imágenes, las aplicaciones basadas en texto, el análisis de series de tiempo y la detección de vídeo. [PyTorch](https://pytorch.org), otra librería de aprendizaje profundo, es popular entre los investigadores de visión artificial y procesamiento del lenguaje natural.
         para2: Las técnicas estadísticas denominadas [métodos ensemble](https://scikit-learn.org/stable/modules/ensemble.html), como binning, bagging, stacking y boosting, se encuentran entre los algoritmos de ML implementados por herramientas como [XGBoost](https://xgboost.readthedocs.io/), [LightGBM](https://lightgbm.readthedocs.io/en/latest/) y [CatBoost](https://catboost.ai) &mdash; uno de los motores de inferencia más rápidos. [Yellowbrick](https://www.scikit-yb.org/en/latest/) y [Eli5](https://eli5.readthedocs.io/en/latest/) ofrecen visualizaciones de aprendizaje automático.
   arraylibraries:
     intro:
@@ -103,7 +103,7 @@ params:
         alttext: Un gráfico de barras con valores positivos y negativos.
         img: /images/content_images/sc_dom_img/signal_processing.svg
         links:
-          - url: https://www.scipy.org/
+          - url: https://scipy.org
             label: SciPy
           - url: https://pywavelets.readthedocs.io/
             label: PyWavelets
@@ -177,7 +177,7 @@ params:
         alttext: Cuatro símbolos matemáticos.
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
         links:
-          - url: https://www.scipy.org/
+          - url: https://scipy.org
             label: SciPy
           - url: https://www.sympy.org/
             label: SymPy

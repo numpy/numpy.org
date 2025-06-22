@@ -1,7 +1,7 @@
 params:
   machinelearning:
     paras:
-    - para1: NumPy forms the basis of powerful machine learning libraries like [scikit-learn](https://scikit-learn.org) and [SciPy](https://www.scipy.org). As machine learning grows, so does the list of libraries built on NumPy. [TensorFlow’s](https://www.tensorflow.org) deep learning capabilities have broad applications &mdash; among them speech and image recognition, text-based applications, time-series analysis, and video detection. [PyTorch](https://pytorch.org), another deep learning library, is popular among researchers in computer vision and natural language processing.
+    - para1: NumPy forms the basis of powerful machine learning libraries like [scikit-learn](https://scikit-learn.org) and [SciPy](https://scipy.org). As machine learning grows, so does the list of libraries built on NumPy. [TensorFlow’s](https://www.tensorflow.org) deep learning capabilities have broad applications &mdash; among them speech and image recognition, text-based applications, time-series analysis, and video detection. [PyTorch](https://pytorch.org), another deep learning library, is popular among researchers in computer vision and natural language processing.
       para2: Statistical techniques called [ensemble methods](https://scikit-learn.org/stable/modules/ensemble.html) such as binning, bagging, stacking, and boosting are among the ML algorithms implemented by tools such as [XGBoost](https://xgboost.readthedocs.io/), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [CatBoost](https://catboost.ai) &mdash; one of the fastest inference engines. [Yellowbrick](https://www.scikit-yb.org/en/latest/) and [Eli5](https://eli5.readthedocs.io/en/latest/) offer machine learning visualizations.
 
   arraylibraries:
@@ -108,7 +108,7 @@ params:
       alttext: A bar chart with positive and negative values.
       img: /images/content_images/sc_dom_img/signal_processing.svg
       links:
-        - url: https://www.scipy.org/
+        - url: https://scipy.org
           label: SciPy
         - url: https://pywavelets.readthedocs.io/
           label: PyWavelets
@@ -182,7 +182,7 @@ params:
       alttext: Four mathematical symbols.
       img: /images/content_images/sc_dom_img/mathematical_analysis.svg
       links:
-        - url: https://www.scipy.org/
+        - url: https://scipy.org
           label: SciPy
         - url: https://www.sympy.org/
           label: SymPy

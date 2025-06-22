@@ -2,7 +2,7 @@ params:
   machinelearning:
     paras:
       - 
-        para1: NumPyは、[scikit-learn](https://scikit-learn.org)や[SciPy](https://www.scipy.org)のような強力な機械学習ライブラリの基礎を形成しています。機械学習の技術分野が成長するにつれ、NumPyをベースにしたライブラリの数も増えています。[TensorFlow](https://www.tensorflow.org)の深層学習機能は、音声認識や画像認識、テキストベースのアプリケーション、時系列分析、動画検出など、幅広い応用用途があります。[PyTorch](https://pytorch.org)も、コンピュータビジョンや自然言語処理の研究者に人気のある深層学習ライブラリです。[MXNet](https://github.com/apache/incubator-mxnet)もAIパッケージの一つで、深層学習の設計図やテンプレート機能を提供しています。
+        para1: NumPyは、[scikit-learn](https://scikit-learn.org)や[SciPy](https://scipy.org)のような強力な機械学習ライブラリの基礎を形成しています。機械学習の技術分野が成長するにつれ、NumPyをベースにしたライブラリの数も増えています。[TensorFlow](https://www.tensorflow.org)の深層学習機能は、音声認識や画像認識、テキストベースのアプリケーション、時系列分析、動画検出など、幅広い応用用途があります。[PyTorch](https://pytorch.org)も、コンピュータビジョンや自然言語処理の研究者に人気のある深層学習ライブラリです。[MXNet](https://github.com/apache/incubator-mxnet)もAIパッケージの一つで、深層学習の設計図やテンプレート機能を提供しています。
         para2: '[ensemble](https://scikit-learn.org/stable/modules/ensemble.html)法と呼ばれる統計的手法であるビンニング、バギング、スタッキングや、[XGBoost](https://github.com/dmlc/xgboost)、[LightGBM](https://lightgbm.readthedocs.io/en/latest/)、[CatBoost](https://catboost.ai)などのツールで実装されているブースティングなどは、機械学習アルゴリズムの一つであり、最速の推論エンジンの一つです。[Yellowbrick](https://www.scikit-yb.org/en/latest/)や[Eli5](https://eli5.readthedocs.io/en/latest/)は機械学習の可視化機能を提供しています。'
   arraylibraries:
     intro:
@@ -133,7 +133,7 @@ params:
         img: /images/content_images/sc_dom_img/signal_processing.svg
         links:
           - 
-            url: https://www.scipy.org/
+            url: https://scipy.org
             label: SciPy
           - 
             url: https://pywavelets.readthedocs.io/
@@ -237,7 +237,7 @@ params:
         img: /images/content_images/sc_dom_img/mathematical_analysis.svg
         links:
           - 
-            url: https://www.scipy.org/
+            url: https://scipy.org
             label: SciPy
           - 
             url: https://www.sympy.org/
