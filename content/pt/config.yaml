@@ -6,73 +6,71 @@ params:
     text: NumPy
     link: /pt/
   hero:
-    #Main hero title
+    # Main hero title
     title: NumPy
-    #Hero subtitle (optional)
+    # Hero subtitle (optional)
     subtitle: A biblioteca fundamental para computação científica com Python
-    #Button text
-    buttontext: "Última versão: NumPy 1.26. Veja todas as versões"
-    #Where the main hero button links to
+    # Button text
+    buttontext: "Última versão: NumPy 2.2. Veja todas as versões"
+    # Where the main hero button links to
     buttonlink: "/pt/news/#releases"
-    #Hero image (from static/images/___)
+    # Hero image (from static/images/___)
     image: logo.svg
   shell:
     title: placeholder
     intro:
-      - title: Experimentar o NumPy
-        text: Use o shell interativo para testar o NumPy no navegador
+    - title: Experimentar o NumPy
+      text: Use o shell interativo para testar o NumPy no navegador
     docslink: Não se esqueça de conferir a <a href="https://numpy.org/doc/stable" target="_blank">documentação</a>.
   casestudies:
     title: ESTUDOS DE CASO
     features:
-      - title: A Primeira Imagem de um Buraco Negro
-        text: Como o NumPy, junto com outras bibliotecas como SciPy e Matplotlib que dependem do NumPy, permitiram ao Event Horizon Telescope gerar a primeira imagem de um buraco negro da história.
-        img: /images/content_images/case_studies/blackhole.png
-        alttext: Primeira imagem de um buraco negro. É um círculo laranja em um fundo preto.
-        url: /pt/case-studies/blackhole-image
-      - title: Descoberta de Ondas Gravitacionais
-        text: Em 1916, Albert Einstein previu ondas gravitacionais; 100 anos depois, sua existência foi confirmada pelos cientistas do LIGO usando NumPy.
-        img: /images/content_images/case_studies/gravitional.png
-        alttext: Duas esferas orbitando a si mesmas. Elas deslocam a gravidade em seu entorno.
-        url: /pt/case-studies/gw-discov
-      - title: Análise Esportiva
-        text: A análise de críquete está mudando o jogo ao melhorar o desempenho de jogadores e times através de modelagem estatística e análise preditiva. O NumPy possibilita muitas dessas análises.
-        img: /images/content_images/case_studies/sports.jpg
-        alttext: Bola de críquete em um campo verde
-        url: /pt/case-studies/cricket-analytics
-      - title: Estimação de poses usando deep learning
-        text: DeepLabCut usa o NumPy para acelerar estudos científicos que envolvem comportamento animal para entender melhor o controle motor em várias espécies e escalas de tempo.
-        img: /images/content_images/case_studies/deeplabcut.png
-        alttext: Análise de pose de um guepardo
-        url: /pt/case-studies/deeplabcut-dnn
+    - title: A Primeira Imagem de um Buraco Negro
+      text: Como o NumPy, junto com outras bibliotecas como SciPy e Matplotlib que dependem do NumPy, permitiram ao Event Horizon Telescope gerar a primeira imagem de um buraco negro da história.
+      img: /images/content_images/case_studies/blackhole.png
+      alttext: Primeira imagem de um buraco negro. É um círculo laranja em um fundo preto.
+      url: /pt/case-studies/blackhole-image
+    - title: Descoberta de Ondas Gravitacionais
+      text: Em 1916, Albert Einstein previu ondas gravitacionais; 100 anos depois, sua existência foi confirmada pelos cientistas do LIGO usando NumPy.
+      img: /images/content_images/case_studies/gravitional.png
+      alttext: Duas esferas orbitando a si mesmas. Elas deslocam a gravidade em seu entorno.
+      url: /pt/case-studies/gw-discov
+    - title: Análise Esportiva
+      text: A análise de críquete está mudando o jogo ao melhorar o desempenho de jogadores e times através de modelagem estatística e análise preditiva. O NumPy possibilita muitas dessas análises.
+      img: /images/content_images/case_studies/sports.jpg
+      alttext: Bola de críquete em um campo verde
+      url: /pt/case-studies/cricket-analytics
+    - title: Estimação de poses usando deep learning
+      text: DeepLabCut usa o NumPy para acelerar estudos científicos que envolvem comportamento animal para entender melhor o controle motor em várias espécies e escalas de tempo.
+      img: /images/content_images/case_studies/deeplabcut.png
+      alttext: Análise de pose de um guepardo
+      url: /pt/case-studies/deeplabcut-dnn
   tabs:
     title: ECOSSISTEMA
   section5: false
   navbar:
-    - title: Instalação
-      url: /pt/install
-    - title: Documentação
-      url: https://numpy.org/doc/stable
-    - title: Aprenda
-      url: /pt/learn
-    - title: Comunidade
-      url: /pt/community
-    - title: Sobre
-      url: /pt/about
-    - title: Notícias
-      url: /pt/news
-    - title: Contribuir
-      url: /pt/contribute
+  - title: Instalação
+    url: /pt/install
+  - title: Documentação
+    url: https://numpy.org/doc/stable
+  - title: Aprenda
+    url: /pt/learn
+  - title: Comunidade
+    url: /pt/community
+  - title: Sobre
+    url: /pt/about
+  - title: Notícias
+    url: /pt/news
+  - title: Contribuir
+    url: /pt/contribute
   footer:
     logo: logo.svg
     socialmediatitle: ""
     socialmedia:
-      - link: https://github.com/numpy/numpy
-        icon: github
-      - link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
-        icon: youtube
-      - link: https://twitter.com/numpy_team
-        icon: twitter
+    - link: https://github.com/numpy/numpy
+      icon: github
+    - link: https://www.youtube.com/channel/UCguIL9NZ7ybWK5WQ53qbHng
+      icon: youtube
     quicklinks:
       column1:
         title: ""
