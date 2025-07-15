@@ -22,7 +22,7 @@ Imaging the M87 Black Hole is like trying to see something that is by definition
 
 The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org) is an
 array of eight ground-based radio telescopes forming a computational telescope
-the size of the earth, studing the universe with unprecedented
+the size of the earth, studying the universe with unprecedented
 sensitivity and resolution.  The huge virtual telescope,  which uses a technique
 called very-long-baseline interferometry (VLBI), has an angular resolution of
 [20 micro-arcseconds][resolution] — enough to read a newspaper in New York
