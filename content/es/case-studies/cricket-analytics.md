@@ -3,13 +3,13 @@ title: "Estudio de caso: Análisis de críquet, ¡el cambio radical!"
 sidebar: false
 ---
 
-{{< figure >}}
-src = '/images/content_images/cs/ipl-stadium.png'
-title = 'IPLT20, el festival de críquet más grande en India'
-alt = 'Copa y estadio de la Premier League de Críquet de India'
-attribution = '(Créditos de imagen: IPLT20 (copa y logo) & Akash Yadav (estadio))'
-attributionlink = 'https://unsplash.com/@aksh1802'
-{{< /figure >}}
+{{< figure
+  src="/images/content_images/cs/ipl-stadium.png"
+  title="IPLT20, el festival de críquet más grande en India"
+  alt="Copa y estadio de la Premier League de Críquet de India"
+  attribution="(Créditos de imagen: IPLT20 (copa y logo) & Akash Yadav (estadio))"
+  attributionlink="https://unsplash.com/@aksh1802"
+>}}
 
 {{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, *Jugador Internacional de críquet, ex-capitán del equipo de India, juega para Chennai Super Kings en IPL*"
 >}} No juegas para el público, juegas para el país. 
@@ -30,14 +30,14 @@ Hoy en día, hay abundantes y casi infinitos tesoros de registros y estadística
 * obtener información sobre la condición física y el rendimiento de un jugador contra diferentes oponentes,
 * contribución del jugador a las victorias y derrotas para tomar decisiones estratégicas sobre la composición del equipo
 
-{{< figure >}}
-src = '/images/content_images/cs/cricket-pitch.png'
-title = 'El campo de críquet, el punto focal en el terreno de juego'
-alt = 'Un campo de cricket con lanzador y bateadores'
-align = 'center'
-attribution = '(Image credit: Debarghya Das)'
-attributionlink = 'http://debarghyadas.com/files/IPLpaper.pdf'
-{{< /figure >}}
+{{< figure
+    src="/images/content_images/cs/cricket-pitch.png"
+    title="El campo de críquet, el punto focal en el terreno de juego"
+    alt="Un campo de cricket con lanzador y bateadores"
+    align="center"
+    attribution="(Image credit: Debarghya Das)"
+    attributionlink="http://debarghyadas.com/files/IPLpaper.pdf"
+>}}
 
 ### Objetivos Clave de Análisis de Datos
 
@@ -45,13 +45,13 @@ attributionlink = 'http://debarghyadas.com/files/IPLpaper.pdf'
 * El análisis de datos en tiempo real puede ayudar a obtener información incluso durante el juego para cambiar tácticas por parte del equipo y de las empresas asociadas para beneficios económicos y crecimiento.
 * Además del análisis histórico, se aprovechan los modelos predictivos para determinar los posibles resultados de los partidos, lo cual requiere una cantidad significativa de procesamiento de datos y conocimientos de ciencia de datos, herramientas de visualización y la capacidad de incluir nuevas observaciones en el análisis.
 
-{{< figure >}}
-src = '/images/content_images/cs/player-pose-estimator.png'
-alt = 'estimador de postura'
-title = 'Estimador de postura en críquet'
-attribution = '(Crédito de imagen: connect.vin)'
-attributionlink = 'https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/'
-{{< /figure >}}
+{{< figure
+    src="/images/content_images/cs/player-pose-estimator.png"
+    alt="estimador de postura"
+    title="Estimador de postura en críquet"
+    attribution="(Crédito de imagen: connect.vin)"
+    attributionlink="https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/"
+>}}
 
 ### Los Desafíos
 
@@ -79,8 +79,8 @@ El análisis deportivo es un campo en desarrollo. Muchos investigadores y compa�
 
 El análisis deportivo ha revolucionado la forma en que se juegan los partidos profesionales, especialmente en cuanto a la toma de decisiones estratégicas, que hasta hace poco se basaba principalmente en la "intuición" o en la adherencia a tradiciones pasadas. NumPy constituye una base sólida para un gran conjunto de paquetes de Python que brindan funciones de nivel superior relacionadas con análisis de datos, el aprendizaje automático y los algoritmos de IA. Estos paquetes están ampliamente desplegados para obtener información en tiempo real que ayudan en la toma de decisiones para resultados revolucionarios, tanto en el campo como para sacar conclusiones y hacer negocios alrededor del juego del críquet. Encontrar los parámetros ocultos, patrones y atributos que conducen al resultado de un partido de críquet ayuda a los interesados a tomar nota de la información del juego que de otra forma estarían ocultos en números y estadísticas.
 
-{{< figure >}}
-src = '/images/content_images/cs/numpy_ca_benefits.png'
-alt = 'Diagrama que muestra los beneficios de usar NumPy para análisis de críquet'
-title = 'Capacidades claves de NumPy utilizadas'
-{{< /figure >}}
+{{< figure
+    src="/images/content_images/cs/numpy_ca_benefits.png"
+    alt="Diagrama que muestra los beneficios de usar NumPy para análisis de críquet"
+    title="Capacidades claves de NumPy utilizadas"
+>}}
