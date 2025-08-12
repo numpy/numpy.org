@@ -70,7 +70,7 @@ Try these advanced resources for a better understanding of NumPy concepts like a
 <i class="fas fa-book"></i> **Books**
 
 * [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1098121228)
-  *by Jake Vanderplas*
+  *by Jake VanderPlas*
 * [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-Jupyter/dp/109810403X)
   *by Wes McKinney*
 * [Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy,
