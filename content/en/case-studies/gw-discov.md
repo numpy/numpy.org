@@ -52,7 +52,7 @@ made from warped spacetime.
   astrophysics, cosmology, particle physics, and nuclear physics.
 * Crunch observed data via numerical relativity computations that involves
   complex maths in order to discern signal from noise, filter out relevant
-  signal and statistically estimate significance of observed data
+  signal and statistically estimate significance of observed data.
 * Data visualization so that the binary / numerical results can be
   comprehended.
 
@@ -69,7 +69,7 @@ made from warped spacetime.
     complex relativity equations and huge amounts of data which present a
     computational challenge:
     [O(10^7) CPU hrs needed for binary merger analyses](https://youtu.be/7mcHknWWzNI)
-    spread on 6 dedicated LIGO clusters
+    spread on 6 dedicated LIGO clusters.
 
 * **Data Deluge**
 
@@ -127,7 +127,7 @@ speed.  Here are some examples:
   - Spectrograms
 * Compute Correlations
 * Key [Software](https://github.com/lscsoft) developed in GW data analysis
-  such as [GwPy](https://gwpy.github.io/docs/stable/overview.html) and
+  such as [GwPy](https://gwpy.github.io/docs/stable/overview/) and
   [PyCBC](https://pycbc.org) uses NumPy and AstroPy under the hood for
   providing object based interfaces to utilities, tools, and methods for
   studying data from gravitational-wave detectors.
