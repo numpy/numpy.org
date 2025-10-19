@@ -31,7 +31,7 @@ params:
         text: "NumPyコードの合成可能な変換ライブラリ: 微分、ベクトル化、GPU/TPUへのジャストインタイムコンパイル"
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
-        url: https://github.com/google/jax
+        url: https://docs.jax.dev
       - 
         title: Xarray
         text: 高度な分析と視覚化のためのラベルとインデックス付き多次元配列
