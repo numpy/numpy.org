@@ -24,7 +24,7 @@ params:
         text: "Transformações combináveis de programas NumPy: vetorização, compilação just-in-time para GPU/TPU."
         img: /images/content_images/arlib/jax_logo_250px.png
         alttext: JAX
-        url: https://github.com/google/jax
+        url: https://docs.jax.dev
       - title: Xarray
         text: Arrays multidimensionais rotuladas e indexadas para análise e visualização avançadas
         img: /images/content_images/arlib/xarray.png

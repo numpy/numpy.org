@@ -27,7 +27,7 @@ params:
       text: "Composable transformations of NumPy programs: differentiate, vectorize, just-in-time compilation to GPU/TPU."
       img: /images/content_images/arlib/jax_logo_250px.png
       alttext: JAX
-      url: https://jax.readthedocs.io/
+      url: https://docs.jax.dev
     - title: Xarray
       text: Labeled, indexed multi-dimensional arrays for advanced analytics and visualization.
       img: /images/content_images/arlib/xarray.png
