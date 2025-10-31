@@ -73,6 +73,11 @@ params:
       img: /images/content_images/arlib/tensorly.png
       alttext: tensorly
       url: http://tensorly.org/stable/home.html
+    - title: Blosc2
+      text: Accelerated computation for in-memory, on-disk, or remote compressed arrays.
+      img: /images/content_images/arlib/blosc-logo.svg
+      alttext: blosc2
+      url: https://www.blosc.org/python-blosc2/
 
   scientificdomains:
     intro:

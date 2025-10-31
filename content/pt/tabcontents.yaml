@@ -75,6 +75,12 @@ params:
         img: /images/content_images/arlib/tensorly.png
         alttext: tensorly
         url: http://tensorly.org/stable/home.html
+      - title: Blosc2
+        text: Cálculo acelerado com arrays comprimidos na memória, no disco ou remotos.
+        img: /images/content_images/arlib/blosc-logo.svg
+        alttext: blosc2
+        url: https://www.blosc.org/python-blosc2/
+
   scientificdomains:
     intro:
       - text: Quase todos os cientistas que trabalham em Python se baseiam na potência do NumPy.
