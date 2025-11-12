@@ -89,9 +89,9 @@ opportunities abound.
 We are working on translating [numpy.org](https://numpy.org) into multiple languages to make 
 its content more accessible to NumPy users all over the globe. (See
 [NEP 28](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n)
-for background.) Volunteer translators are at the heart of this effort. If you'd like to help, join the 
-*translation* channel on the 
-[Scientific Python Discord server](https://discord.com/channels/786703927705862175/1131695137370669158).
+for background.) Volunteer translators are at the heart of this effort. If you'd like to help, 
+join the *translation* channel on the 
+[Scientific Python Discord server](https://discord.com/invite/vur45CbwMz).
 
 To get familiar with our translation process, read the guide 
 [How to translate content using Crowdin](https://scientific-python-translations.github.io/translate/).
