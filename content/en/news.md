@@ -461,6 +461,7 @@ Here is a list of NumPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- NumPy 2.3.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.3.5)) -- _16 Nov 2025_.
 - NumPy 2.3.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.3.4)) -- _15 Oct 2025_.
 - NumPy 2.3.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.3.3)) -- _9 Sep 2025_.
 - NumPy 2.3.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.3.2)) -- _24 Jul 2025_.
