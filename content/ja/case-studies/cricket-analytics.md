@@ -3,13 +3,13 @@ title: "ケーススタディ: クリケット分析、ゲームチェンジャ�
 sidebar: false
 ---
 
-{{< figure >}}
-src = '/images/content_images/cs/ipl-stadium.png'
-title = ' IPLT20、インド最大のクリケットフェスティバル'
-alt = 'Indian Premier League Cricket cup and stadium'
-attribution = '(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))'
-attributionlink = 'https://unsplash.com/@aksh1802'
-{{< /figure >}}
+{{< figure
+  src="/images/content_images/cs/ipl-stadium.png"
+  title="IPLT20、インド最大のクリケットフェスティバル"
+  alt="Indian Premier League Cricket cup and stadium"
+  attribution="(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))"
+  attributionlink="https://unsplash.com/@aksh1802"
+>}}
 
 {{< blockquote
     cite="https://www.scoopwhoop.com/sports/ms-dhoni/"
@@ -33,14 +33,14 @@ attributionlink = 'https://unsplash.com/@aksh1802'
 * プレイヤーの体力や、異なる相手に対するパフォーマンスについての洞察
 * チーム構成に戦略的な決定を下すための、各勝敗へのプレイヤーの貢献
 
-{{< figure >}}
-src = '/images/content_images/cs/cricket-pitch.png'
-title = ' フィールドのフォーカルポイントとなるクリケットピッチ'
-alt = 'A cricket pitch with bowler and batsmen'
-align = 'center'
-attribution = '(Image credit: Debarghya Das)'
-attributionlink = 'http://debarghyadas.com/files/IPLpaper.pdf'
-{{< /figure >}}
+{{< figure
+    src="/images/content_images/cs/cricket-pitch.png"
+    title="フィールドのフォーカルポイントとなるクリケットピッチ"
+    alt="A cricket pitch with bowler and batsmen"
+    align="center"
+    attribution="(Image credit: Debarghya Das)"
+    attributionlink="http://debarghyadas.com/files/IPLpaper.pdf"
+>}}
 
 ### データ分析の主要な目標
 
@@ -48,13 +48,13 @@ attributionlink = 'http://debarghyadas.com/files/IPLpaper.pdf'
 * リアルタイムデータ分析は、ゲーム中の洞察を得ることができ、チームや関連ビジネスが経済的利益と成長のために戦術を変更するためも役立ちます。
 * 履歴分析に加えて、予測モデルは可能性のある結果を求めることができますが、かなりの数のナンバークランチングとデータサイエンスのノウハウ、可視化ツール、および分析に新しい観測データを含める機能などが必要になります。
 
-{{< figure >}}
-src = '/images/content_images/cs/player-pose-estimator.png'
-alt = 'pose estimator'
-title = 'クリケットの姿勢推定'
-attribution = '(Image credit: connect.vin)'
-attributionlink = 'https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/'
-{{< /figure >}}
+{{< figure
+  src="/images/content_images/cs/player-pose-estimator.png"
+  alt="pose estimator"
+  title="クリケットの姿勢推定"
+  attribution="(Image credit: connect.vin)"
+  attributionlink="https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/"
+>}}
 
 ### 課題
 
@@ -82,8 +82,8 @@ attributionlink = 'https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analy
 
 スポーツアナリティクスは、プロの試合についてはまさにゲームチェンジャーです。 特に戦略的な意思決定については、最近まで主に「直感」や過去の伝統的な考え方に基づいて行われていたため、大きな影響があります。 NumPyは、データ分析・機械学習・人工知能のアルゴリズムに関連する高レベル関数を提供する沢山のPythonパッケージ群の、堅固な基盤となっています。 これらのパッケージは、ゲームの結果を変えるような意思決定を支援するリアルタイムのインサイトを得るため、クリケットの試合だけでなく関連する推論やビジネスの推進にも広く使用されています。 クリケットの試合結果につながる隠れたパラメータや、パターン、属性を見つけることは、ステークホルダーが数字や統計に隠されているゲームの洞察方法を見つけるのにも役に立つのです。
 
-{{< figure >}}
-src = '/images/content_images/cs/numpy_ca_benefits.png'
-alt = 'クリケット分析にNumPyを使用するメリットを示す図'
-title = ' 利用されている主なNumPy機能 '
-{{< /figure >}}
+{{< figure
+  src="/images/content_images/cs/numpy_ca_benefits.png"
+  alt="クリケット分析にNumPyを使用するメリットを示す図"
+  title=" 利用されている主なNumPy機能 "
+>}}
