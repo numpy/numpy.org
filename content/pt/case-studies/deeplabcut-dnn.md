@@ -13,7 +13,7 @@ attributionlink = 'http://www.mousemotorlab.org/deeplabcut'
 
 {{< blockquote
   cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/"
-  by="Alexander Mathis, _Professor Assistente, École polytechnique fédérale de Lausanne_ ([EPFL](https://www.epfl.ch/en/))""
+  by="Alexander Mathis, _Professor Assistente, École polytechnique fédérale de Lausanne_ ([EPFL](https://www.epfl.ch/en/))"
 >}}
 Open Source Software is accelerating Biomedicine. DeepLabCut enables automated video analysis of animal behavior using Deep Learning.
 {{< /blockquote >}}
