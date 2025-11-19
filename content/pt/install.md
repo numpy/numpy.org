@@ -25,7 +25,7 @@ Escolha o método mais adequado às suas necessidades. Se não tiver certeza, co
 
 [[tab]]
 name = 'Baseados em projetos'
-conteúdo = '''
+content = '''
 
 Recomendado para novos usuários que queiram um fluxo de trabalho simplificado.
 
@@ -79,7 +79,7 @@ A terceira diferença é que conda é uma solução integrada para gerenciar pac
 
 [[tab]]
 name = 'Gerenciadores de Pacotes do Sistema'
-conteúdo = '''
+content = '''
 Não recomendado para a maioria dos usuários, mas disponível por conveniência.
 
 **macOS (Homebrew):**
