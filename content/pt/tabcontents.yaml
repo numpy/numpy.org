@@ -5,10 +5,10 @@ params:
         para2: Técnicas estatísticas chamadas [métodos de ensemble](https://scikit-learn.org/stable/modules/ensemble.html) tais como binning, bagging, stacking, e boosting estão entre os algoritmos de ML implementados por ferramentas tais como [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), e [CatBoost](https://catboost.ai) &mdash; um dos motores de inferência mais rápidos. [Yellowbrick](https://www.scikit-yb.org/en/latest/) e [Eli5](https://eli5.readthedocs.io/en/latest/) oferecem visualizações para aprendizagem de máquina.
   arraylibraries:
     intro:
-      - text: A API do NumPy é o ponto de partida quando bibliotecas são escritas para explorar hardware inovador, criar tipos de arrays especializados, ou adicionar capacidades além do que o NumPy fornece.
+    - text: A API do NumPy é o ponto de partida quando bibliotecas são escritas para explorar hardware inovador, criar tipos de arrays especializados, ou adicionar capacidades além do que o NumPy fornece.
     headers:
-      - text: Biblioteca de Arrays
-      - text: Recursos e áreas de aplicação
+    - text: Biblioteca de Arrays
+    - text: Recursos e áreas de aplicação
     libraries:
       - title: Dask
         text: Arrays distribuídas e paralelismo avançado para análise, permitindo desempenho em escala.
@@ -83,8 +83,8 @@ params:
 
   scientificdomains:
     intro:
-      - text: Quase todos os cientistas que trabalham em Python se baseiam na potência do NumPy.
-      - text: "NumPy traz o poder computacional de linguagens como C e Fortran para Python, uma linguagem muito mais fácil de aprender e usar. Com esse poder vem a simplicidade: uma solução no NumPy é frequentemente clara e elegante."
+    - text: Quase todos os cientistas que trabalham em Python se baseiam na potência do NumPy.
+    - text: "NumPy traz o poder computacional de linguagens como C e Fortran para Python, uma linguagem muito mais fácil de aprender e usar. Com esse poder vem a simplicidade: uma solução no NumPy é frequentemente clara e elegante."
     libraries:
       - title: Computação quântica
         alttext: Um chip de computador.
@@ -121,9 +121,10 @@ params:
           - url: https://python-control.org/
             label: python-control
           - url: https://hyperspy.org/
-            label: HiperSpy
+            label: HyperSpy
       - title: Processamento de imagens
         alttext: Uma fotografia das montanhas.
+        img: /images/content_images/sc_dom_img/image_processing.svg
         links:
           - url: https://scikit-image.org/
             label: Scikit-image
@@ -131,7 +132,6 @@ params:
             label: OpenCV
           - url: https://mahotas.rtfd.io/
             label: Mahotas
-        img: /images/content_images/sc_dom_img/image_processing.svg
       - title: Gráficos e Redes
         alttext: Um grafo simples.
         img: /images/content_images/sc_dom_img/sd6.svg
@@ -243,44 +243,44 @@ params:
   datascience:
     intro: "NumPy está no centro de um rico ecossistema de bibliotecas de ciência de dados. Um fluxo de trabalho típico de ciência de dados exploratório pode parecer assim:"
     image1:
-      - img: /images/content_images/ds-landscape.png
-        alttext: Diagrama de bibliotecas Python. As cinco categorias são 'Extrair, Transformar, Carregar', 'Exploração de Dados', 'Modelo de Dados', 'Avaliação de Dados' e 'Apresentação de Dados'.
+    - img: /images/content_images/ds-landscape.png
+      alttext: Diagrama de bibliotecas Python. As cinco categorias são 'Extrair, Transformar, Carregar', 'Exploração de Dados', 'Modelo de Dados', 'Avaliação de Dados' e 'Apresentação de Dados'.
     image2:
-      - img: /images/content_images/data-science.png
-        alttext: Diagram of three overlapping circle. The circles labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'.
+    - img: /images/content_images/data-science.png
+      alttext: Diagram of three overlapping circle. The circles labeled 'Mathematics', 'Computer Science' and 'Domain Expertise'. In the middle of the diagram, which has the three circles overlapping it, is an area labeled 'Data Science'.
     examples:
-      - text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org),[ Intake](https://intake.readthedocs.io),[PyJanitor](https://pyjanitor-devs.github.io/pyjanitor/)"
-      - text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org),[Seaborn](https://seaborn.pydata.org),[ Matplotlib](https://matplotlib.org),[ Altair](https://altair-viz.github.io)"
-      - text: "<b>Model and evaluate: </b>[scikit-learn](https://scikit-learn.org),[ statsmodels](https://www.statsmodels.org/stable/index.html),[ PyMC](https://docs.pymc.io),[ spaCy](https://spacy.io)"
-      - text: "<b>Report in a dashboard: </b>[Dash](https://plotly.com/dash),[ Panel](https://panel.holoviz.org),[ Voila](https://github.com/voila-dashboards/voila)"
+    - text: "<b>Extract, Transform, Load: </b>[Pandas](https://pandas.pydata.org),[ Intake](https://intake.readthedocs.io),[PyJanitor](https://pyjanitor-devs.github.io/pyjanitor/)"
+    - text: "<b>Exploratory analysis: </b>[Jupyter](https://jupyter.org),[Seaborn](https://seaborn.pydata.org),[ Matplotlib](https://matplotlib.org),[ Altair](https://altair-viz.github.io)"
+    - text: "<b>Model and evaluate: </b>[scikit-learn](https://scikit-learn.org),[ statsmodels](https://www.statsmodels.org/stable/index.html),[ PyMC3](https://docs.pymc.io),[ spaCy](https://spacy.io)"
+    - text: "<b>Report in a dashboard: </b>[Dash](https://plotly.com/dash),[ Panel](https://panel.holoviz.org),[ Voila](https://github.com/voila-dashboards/voila)"
     content:
-      - text: For high data volumes, [Dask](https://dask.org) and[Ray](https://ray.io/) are designed to scale. Stabledeployments rely on data versioning ([DVC](https://dvc.org)),experiment tracking ([MLFlow](https://mlflow.org)), andworkflow automation ([Airflow](https://airflow.apache.org) and[Prefect](https://www.prefect.io)).
+    - text: For high data volumes, [Dask](https://dask.org) and[Ray](https://ray.io/) are designed to scale. Stabledeployments rely on data versioning ([DVC](https://dvc.org)),experiment tracking ([MLFlow](https://mlflow.org)), andworkflow automation ([Airflow](https://airflow.apache.org) and[Prefect](https://www.prefect.io)).
   visualization:
     images:
-      - url: https://www.fusioncharts.com/blog/best-python-data-visualization-libraries
-        img: /images/content_images/v_matplotlib.png
-        alttext: Um streamplot feito em matplotlib
-      - url: https://github.com/yhat/ggpy
-        img: /images/content_images/v_ggpy.png
-        alttext: Um gráfico scatter-plot feito em ggpy
-      - url: https://www.journaldev.com/19692/python-plotly-tutorial
-        img: /images/content_images/v_plotly.png
-        alttext: Um box-plot feito no plotly
-      - url: https://altair-viz.github.io/gallery/streamgraph.html
-        img: /images/content_images/v_altair.png
-        alttext: Um gráfico streamgraph feito em altair
-      - url: https://seaborn.pydata.org
-        img: /images/content_images/v_seaborn.png
-        alttext: A plot duplo com dois tipos de gráficos, um plot-graph e um gráfico de frequência feitos no seaborn
-      - url: https://docs.pyvista.org/
-        img: /images/content_images/v_pyvista.png
-        alttext: Uma renderização de volume 3D feita no PyVista.
-      - url: https://napari.org
-        img: /images/content_images/v_napari.png
-        alttext: Uma imagem multidimensional, feita em napari.
-      - url: https://vispy.org/gallery/index.html
-        img: /images/content_images/v_vispy.png
-        alttext: Diagrama de Voronoi feito com vispy.
+    - url: https://www.fusioncharts.com/blog/best-python-data-visualization-libraries
+      img: /images/content_images/v_matplotlib.png
+      alttext: Um streamplot feito em matplotlib
+    - url: https://github.com/yhat/ggpy
+      img: /images/content_images/v_ggpy.png
+      alttext: Um gráfico scatter-plot feito em ggpy
+    - url: https://www.journaldev.com/19692/python-plotly-tutorial
+      img: /images/content_images/v_plotly.png
+      alttext: Um box-plot feito no plotly
+    - url: https://altair-viz.github.io/gallery/streamgraph.html
+      img: /images/content_images/v_altair.png
+      alttext: Um gráfico streamgraph feito em altair
+    - url: https://seaborn.pydata.org
+      img: /images/content_images/v_seaborn.png
+      alttext: A plot duplo com dois tipos de gráficos, um plot-graph e um gráfico de frequência feitos no seaborn
+    - url: https://docs.pyvista.org/
+      img: /images/content_images/v_pyvista.png
+      alttext: Uma renderização de volume 3D feita no PyVista.
+    - url: https://napari.org
+      img: /images/content_images/v_napari.png
+      alttext: Uma imagem multidimensional, feita em napari.
+    - url: https://vispy.org/gallery/index.html
+      img: /images/content_images/v_vispy.png
+      alttext: Diagrama de Voronoi feito com vispy.
     content:
-      - text: NumPy é um componente essencial no crescente [campo de visualização em Python](https://pyviz.org/overviews/index.html), que inclui [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), e [PyVista](https://github.com/pyvista/pyvista), para citar alguns.
-      - text: O processamento de grandes arrays acelerado pela NumPy permite que os pesquisadores visualizem conjuntos de dados muito maiores do que o Python nativo poderia permitir.
+    - text: NumPy é um componente essencial no crescente [campo de visualização em Python](https://pyviz.org/overviews/index.html), que inclui [Matplotlib](https://matplotlib.org), [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), e [PyVista](https://github.com/pyvista/pyvista), para citar alguns.
+    - text: O processamento de grandes arrays acelerado pela NumPy permite que os pesquisadores visualizem conjuntos de dados muito maiores do que o Python nativo poderia permitir.

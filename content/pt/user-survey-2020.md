@@ -7,12 +7,11 @@ Em 2020, o time de pesquisas do NumPy realizou a primeira pesquisa oficial sobre
 
 {{< figure >}}
 src = '/surveys/NumPy_usersurvey_2020_report_cover.png'
-alt = 'Página de capa do relatório da pesquisa de usuários do NumPy 2020, chamado "NumPy Community Survey 2020 - results"'
+alt = 'Cover page of the 2020 NumPy user survey report, titled "NumPy Community Survey 2020 - results"'
 width = '250'
 {{< /figure >}}
 
 **[Faça o download do relatório](/surveys/NumPy_usersurvey_2020_report.pdf)** para ver os detalhes sobre os resultados encontrados.
-
 
 Para os destaques, confira **[este infográfico](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)**.
 
