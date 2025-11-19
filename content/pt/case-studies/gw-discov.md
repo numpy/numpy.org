@@ -4,11 +4,17 @@ sidebar: false
 ---
 
 {{< figure >}}
+src = '/images/content_images/cs/gw_sxs_image.png'
+title = 'Gravitational Waves'
+alt = 'binary coalesce black hole generating gravitational waves'
+attribution = '(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)'
+attributionlink = 'https://youtu.be/Zt8Z_uzG71o'
 {{< /figure >}}
 
 {{< blockquote
   cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
   by="David Shoemaker, _Colaborador Científico no LIGO_" >}}
+The scientific Python ecosystem is critical infrastructure for the research done at LIGO.
 {{< /blockquote >}}
 
 ## Sobre [Ondas Gravitacionais](https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/) e o [LIGO](https://www.ligo.caltech.edu)
@@ -40,6 +46,11 @@ O [Observatório Interferômetro Laser de Ondas Gravitacionais (LIGO)](https://w
   A velocidade da computação complexa, e da renderização, re-renderização de imagens e simulações usando as últimas entradas e informações experimentais pode ser uma atividade demorada que desafia pesquisadores neste domínio.
 
 {{< figure >}}
+src = '/images/content_images/cs/gw_strain_amplitude.png'
+alt = 'gravitational waves strain amplitude'
+title = 'Estimated gravitational-wave strain amplitude from GW150914'
+attribution = '(Graph Credits: Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)'
+attributionlink = 'https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger'
 {{< /figure >}}
 
 ## O papel da NumPy na detecção de ondas gravitacionais
@@ -59,11 +70,17 @@ NumPy, o pacote padrão de análise numérica para Python, foi parte do software
 - [Software](https://github.com/lscsoft) fundamental desenvolvido na análise de ondas gravitacionais, como [GwPy](https://gwpy.github.io/docs/stable/overview.html) e [PyCBC](https://pycbc.org) usam NumPy e AstroPy internamente para fornecer interfaces baseadas em objetos para utilidades, ferramentas e métodos para o estudo de dados de detectores de ondas gravitacionais.
 
 {{< figure >}}
+src = '/images/content_images/cs/gwpy-numpy-dep-graph.png'
+alt = 'gwpy-numpy depgraph'
+title = 'Dependency graph showing how GwPy package depends on NumPy'
 {{< /figure >}}
 
 ----
 
 {{< figure >}}
+src = '/images/content_images/cs/PyCBC-numpy-dep-graph.png'
+alt = 'PyCBC-numpy depgraph'
+title = 'Dependency graph showing how PyCBC package depends on NumPy'
 {{< /figure >}}
 
 ## Resumo
@@ -71,4 +88,7 @@ NumPy, o pacote padrão de análise numérica para Python, foi parte do software
 A detecção de ondas gravitacionais permitiu que pesquisadores descobrissem fenômenos totalmente inesperados ao mesmo tempo em que proporcionaram novas idéias sobre muitos dos fenômenos mais profundos conhecidos na astrofísica. O processamento e a visualização de dados é um passo crucial que ajuda cientistas a obter informações coletadas de observações científicas e a entender os resultados. Os cálculos são complexos e não podem ser compreendidos por humanos a não ser que sejam visualizados usando simulações de computador que são alimentadas com dados e análises reais observados.  A NumPy, junto com outras bibliotecas Python, como matplotlib, pandas, e scikit-learn [permitem que pesquisadores](https://www.gw-openscience.org/events/GW150914/) respondam perguntas complexas e descubram novos horizontes em nossa compreensão do universo.
 
 {{< figure >}}
+src = '/images/content_images/cs/numpy_gw_benefits.png'
+alt = 'numpy benefits'
+title = 'Key NumPy Capabilities utilized'
 {{< /figure >}}
