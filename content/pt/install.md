@@ -40,15 +40,16 @@ Recomendado para novos usuários que queiram um fluxo de trabalho simplificado.
   ```
 
 '''
-{{< /card >}}
 
-Para usuários que preferem uma solução baseada em pip/PyPI, por preferência pessoal ou leitura sobre as principais diferenças entre o conda e o pip explicadas adiante, nós recomendamos:
+[[tab]]
+name = 'Baseados em ambientes'
+content = '''
 
 As duas principais ferramentas que instalam pacotes do Python são `pip` e `conda`. Para o desenvolvimento web e de propósito geral em Python, há uma [série de ferramentas](https://packaging.python.org/guides/tool-recommendations/) complementares ao pip. Para computação de alto desempenho (HPC), vale a pena considerar o <a href="https://github.com/spack/spack">Spack</a>.
 
 A primeira diferença é que conda é multilinguagens e pode instalar o Python, enquanto o pip é instalado em um determinado Python em seu sistema e instala outros pacotes apenas para essa mesma instalação de Python. Elas têm algumas funcionalidades em comum (por exemplo, ambas podem instalar o <code>numpy</code>). No entanto, elas também podem trabalhar juntas.
 
-A primeira diferença é que "conda" é multilinguagens e pode instalar o Python, enquanto o pip é instalado em um determinado Python em seu sistema e instala outros pacotes apenas para essa mesma instalação de Python. Isto também significa que o conda pode instalar bibliotecas e ferramentas não-Python das quais você pode precisar (por exemplo, compiladores, CUDA, HDF5), enquanto pip não pode.
+A segunda diferença é que o pip instala do Python Packaging Index (PyPI), enquanto o conda instala de seus próprios canais (tipicamente "defaults" ou "conda-forge"). O PyPI é a maior coleção de pacotes, no entanto, todos os pacotes populares estão disponíveis para conda também.
 
 A terceira diferença é que conda é uma solução integrada para gerenciar pacotes, dependências e ambientes, enquanto com pip você pode precisar de outra ferramenta (há muitas!) para lidar com ambientes ou dependências complexas.
 
@@ -63,7 +64,8 @@ A terceira diferença é que conda é uma solução integrada para gerenciar pac
   pip install numpy
   ```
 
-{{< admonition >}}
+{{< admonition tip >}}
+**Dica:** Use um ambiente virtual para melhor gerenciamento de dependências
 {{< /admonition >}}
 
   ```bash
@@ -74,7 +76,6 @@ A terceira diferença é que conda é uma solução integrada para gerenciar pac
   ```
 
 '''
-{{< /card >}}
 
 [[tab]]
 name = 'Gerenciadores de Pacotes do Sistema'
@@ -82,38 +83,30 @@ conteúdo = '''
 Não recomendado para a maioria dos usuários, mas disponível por conveniência.
 
 **macOS (Homebrew):**
-
 ```bash
-# Recomenda-se usar um ambiente novo ao invés de instalar no ambiente-base
-conda create -n my-env
-conda activate my-env
-# Se quiser instalar do conda-forge
-conda config --env --add channels conda-forge
-# O comando para instação
-conda install numpy
+brew install numpy
 ```
-
 **Linux (APT):**
-
 ```bash
 sudo apt install python3-numpy
 ```
-
 **Windows (Chocolatey):**
-
 ```bash
 choco install numpy
 ```
 
 '''
-{{< /card >}}
 
-[[tab]] name = 'A partir do código-fonte' conteúdo = ''' Para usuários avançados e desenvolvedores que querem personalizar ou depurar o **NumPy**.
+[[tab]]
+name = 'A partir do código-fonte'
+content = '''
+Para usuários avançados e desenvolvedores que querem personalizar ou depurar o **NumPy**.
 
 Um pequeno aviso: construir o Numpy a partir do código-fonte pode ser um exercício não-trivial.
 Recomendamos o uso de binários se eles estiverem disponíveis para a sua plataforma através de um dos métodos anteriores.
 Para obter detalhes sobre como construir a partir do código-fonte, consulte [o guia de construção a partir do código-fonte na documentação do Numpy](https://numpy.org/devdocs/building/).
 
+'''
 {{< /tabs >}}
 
 ## Recomendações
