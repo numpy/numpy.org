@@ -4,12 +4,18 @@ sidebar: false
 ---
 
 {{< figure >}}
+src = '/images/content_images/cs/ipl-stadium.png'
+title = 'IPLT20, the biggest Cricket Festival in India'
+alt = 'Copa e estádio da Indian Premier League Cricket'
+attribution = '(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))'
+attributionlink = 'https://unsplash.com/@aksh1802'
 {{< /figure >}}
 
 {{< blockquote
-  cite="Copa e estádio da Indian Premier League Cricket"
-  by="{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, _Jogador Internacional de Críquete, ex-capitão, Time Indiano, joga pelo Chennai Super Kings na IPL_""
+    cite="https://www.scoopwhoop.com/sports/ms-dhoni/"
+    by="M S Dhoni, *Jogador Internacional de Críquete, ex-capitão, Time Indiano, joga pelo Chennai Super Kings na IPL*"
 >}}
+    You don't play for the crowd, you play for the country.
 {{< /blockquote >}}
 
 ## Sobre Críquete
@@ -30,6 +36,12 @@ Plataformas de mídia e entretenimento, juntamente com entidades de esporte prof
 - contribuições dos jogadores para vitórias e derrotas para a tomada de decisões estratégicas na composição do time
 
 {{< figure >}}
+src = '/images/content_images/cs/cricket-pitch.png'
+title = 'Cricket Pitch, the focal point in the field'
+alt = 'A cricket pitch with bowler and batsmen'
+align = 'center'
+attribution = '(Image credit: Debarghya Das)'
+attributionlink = 'http://debarghyadas.com/files/IPLpaper.pdf'
 {{< /figure >}}
 
 ### Objetivos Principais da Análise de Dados
@@ -39,6 +51,11 @@ Plataformas de mídia e entretenimento, juntamente com entidades de esporte prof
 - Além da análise histórica, os modelos preditivos explorados para determinar os possíveis resultados das partidas requerem um conhecimento significativo sobre processamento numérico e ciência de dados, ferramentas de visualização e a possibilidade de incluir observações mais recentes na análise.
 
 {{< figure >}}
+src = '/images/content_images/cs/player-pose-estimator.png'
+alt = 'pose estimator'
+title = 'Cricket Pose Estimator'
+attribution = '(Image credit: connect.vin)'
+attributionlink = 'https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/'
 {{< /figure >}}
 
 ### Desafios
@@ -71,4 +88,7 @@ A análise de dados esportivos é revolucionária quando se trata de como os jog
 Estes pacotes são amplamente implantados para se obter informações em tempo real que ajudam na tomada de decisão para resultados decisivos, tanto em campo como para se derivar inferências e orientar negócios em torno do jogo de críquete. Encontrar os parâmetros ocultos, padrões, e atributos que levam ao resultado de uma partida de críquete ajuda os envolvidos a tomar nota das percepções do jogo que estariam de outra forma ocultas nos números e estatísticas.
 
 {{< figure >}}
+src = '/images/content_images/cs/numpy_ca_benefits.png'
+alt = 'Diagram showing benefits of using NumPy for cricket analytics'
+title = 'Key NumPy Capabilities utilized'
 {{< /figure >}}
