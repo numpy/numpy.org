@@ -26,7 +26,7 @@ Há uma tonelada de informações sobre o NumPy lá fora. Se você está começa
 
 <i class="fas fa-book"></i> **Livros**
 
-- [Guide to NumPy _de Travis E. Oliphant_](http://web.mit.edu/dvp/Public/numpybook.pdf) Essa é uma versão 1 livre de 2006. Para a última versão (2015) veja <a href="[">aqui](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1144670472).
+- [Guide to NumPy _de Travis E. Oliphant_](http://web.mit.edu/dvp/Public/numpybook.pdf) Essa é uma versão 1 livre de 2006. Para a última versão (2015) veja [aqui](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1144670472).
 - [From Python to NumPy _por Nicolas P. Rougier_](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 - [Elegant SciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) _por Juan Nunez-Iglesias, Stefan van der Walt, e Harriet Dashnow_
 
