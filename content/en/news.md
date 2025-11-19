@@ -1,9 +1,28 @@
 ---
 title: "News"
 sidebar: false
-newsHeader: "NumPy 2.2.0 released!"
-date: 2024-12-08
+newsHeader: "NumPy 2.3.0 released!"
+date: 2025-06-07
 ---
+
+### NumPy 2.3.0 released
+
+_7 Jun, 2025_ -- The NumPy 2.3.0 release improves free threaded Python support
+and annotations together with the usual set of bug fixes. It is unusual in the
+number of expired deprecations, code modernizations, and style cleanups. The
+latter may not be visible to users, but is important for code maintenance over
+the long term. Note that we have also upgraded from manylinux2014 to
+manylinux_2_28. Highlights are:
+
+- Interactive examples in the NumPy documentation.
+- Building NumPy with OpenMP Parallelization.
+- Preliminary support for Windows on ARM.
+- Improved support for free threaded Python.
+- Improved annotations.
+
+This release supports Python versions 3.11-3.13, Python 3.14 will be
+supported when it is released.
+
 
 ### NumPy 2.2.0 released
 
@@ -442,6 +461,14 @@ Here is a list of NumPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- NumPy 2.3.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.3.5)) -- _16 Nov 2025_.
+- NumPy 2.3.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.3.4)) -- _15 Oct 2025_.
+- NumPy 2.3.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.3.3)) -- _9 Sep 2025_.
+- NumPy 2.3.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.3.2)) -- _24 Jul 2025_.
+- NumPy 2.3.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.3.1)) -- _21 Jun 2025_.
+- NumPy 2.3.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.3.0)) -- _7 Jun 2025_.
+- NumPy 2.2.6 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.6)) -- _17 May 2025_.
+- NumPy 2.2.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.5)) -- _19 Apr 2025_.
 - NumPy 2.2.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.4)) -- _16 Mar 2025_.
 - NumPy 2.2.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.3)) -- _13 Feb 2025_.
 - NumPy 2.2.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.2)) -- _18 Jan 2025_.

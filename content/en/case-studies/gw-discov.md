@@ -50,9 +50,9 @@ made from warped spacetime.
   processes in the Universe, the data LIGO collects may have far-reaching
   effects on many areas of physics including gravitation, relativity,
   astrophysics, cosmology, particle physics, and nuclear physics.
-* Crunch observed data via numerical relativity computations that involves
+* Crunch observed data via numerical relativity computations that involve
   complex maths in order to discern signal from noise, filter out relevant
-  signal and statistically estimate significance of observed data
+  signal and statistically estimate the significance of observed data.
 * Data visualization so that the binary / numerical results can be
   comprehended.
 
@@ -64,12 +64,12 @@ made from warped spacetime.
 
     Gravitational Waves are hard to detect as they produce a very small effect
     and have tiny interaction with matter. Processing and analyzing all of
-    LIGO's data requires a vast computing infrastructure.After taking care of
+    LIGO's data requires a vast computing infrastructure. After taking care of
     noise, which is billions of times of the signal, there is still very
     complex relativity equations and huge amounts of data which present a
     computational challenge:
     [O(10^7) CPU hrs needed for binary merger analyses](https://youtu.be/7mcHknWWzNI)
-    spread on 6 dedicated LIGO clusters
+    spread on 6 dedicated LIGO clusters.
 
 * **Data Deluge**
 
@@ -127,7 +127,7 @@ speed.  Here are some examples:
   - Spectrograms
 * Compute Correlations
 * Key [Software](https://github.com/lscsoft) developed in GW data analysis
-  such as [GwPy](https://gwpy.github.io/docs/stable/overview.html) and
+  such as [GwPy](https://gwpy.github.io/docs/stable/overview/) and
   [PyCBC](https://pycbc.org) uses NumPy and AstroPy under the hood for
   providing object based interfaces to utilities, tools, and methods for
   studying data from gravitational-wave detectors.
@@ -150,8 +150,8 @@ title = 'Dependency graph showing how PyCBC package depends on NumPy'
 
 GW detection has enabled researchers to discover entirely unexpected phenomena
 while providing new insight into many of the most profound astrophysical
-phenomena known. Number crunching and data visualization is a crucial step
-that helps scientists gain insights into data gathered from the scientific
+phenomena known. Number crunching and data visualization are crucial steps
+that help scientists gain insights into data gathered from scientific
 observations and understand the results. The computations are complex and
 cannot be comprehended by humans unless it is visualized using computer
 simulations that are fed with the real observed data and analysis.  NumPy
