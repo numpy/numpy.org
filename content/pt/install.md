@@ -3,7 +3,13 @@ title: Instalando o NumPy
 sidebar: false
 ---
 
-{{< admonition >}}
+{{< admonition tip >}}
+Esta página assume que você está confortável usando um terminal e está familiarizado com gerenciadores de pacotes.
+O único pré-requisito para instalar o NumPy é o próprio Python. Se você ainda não tem
+Python e quer a maneira mais simples de começar, recomendamos que use a
+[Distribuição Anaconda](https://www.anaconda.com/download) - ela inclui
+Python, NumPy e muitos outros pacotes comumente usados para computação científica
+e ciência de dados.
 {{< /admonition >}}
 
 O método recomendado de instalar o NumPy depende do seu fluxo de trabalho preferido. A seguir, dividimos os métodos de instalação entre as seguintes categorias:
