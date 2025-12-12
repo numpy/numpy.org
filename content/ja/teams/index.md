@@ -7,27 +7,27 @@ sidebar: false
 
 ### Maintainers
 
-{{< grid file="maintainers.toml" columns="2 3 4 5" >}}
+{{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
 ### ドキュメントチーム
 
-{{< grid file="docs-team.toml" columns="2 3 4 5" >}}
+{{< grid file="docs-team.toml" columns="2 3 4 5" />}}
 
 ### Webチーム
 
-{{< grid file="web-team.toml" columns="2 3 4 5" >}}
+{{< grid file="web-team.toml" columns="2 3 4 5" />}}
 
 ### トリアージチーム
 
-{{< grid file="triage-team.toml" columns="2 3 4 5" >}}
+{{< grid file="triage-team.toml" columns="2 3 4 5" />}}
 
 ### アンケートチーム
 
-{{< grid file="survey-team.toml" columns="2 3 4 5" >}}
+{{< grid file="survey-team.toml" columns="2 3 4 5" />}}
 
 ### 名誉メンテナー
 
-{{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" >}}
+{{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
 
 # 管理委員会
 

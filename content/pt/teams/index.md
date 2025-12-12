@@ -8,31 +8,31 @@ Somos uma equipe internacional com a missão de apoiar comunidades científicas 
 
 ### Pessoas Mantenedoras
 
-{{< grid file="maintainers.toml" columns="2 3 4 5" >}}
+{{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
 ### Time de documentacão
 
-{{< grid file="docs-team.toml" columns="2 3 4 5" >}}
+{{< grid file="docs-team.toml" columns="2 3 4 5" />}}
 
 ### Time Web
 
-{{< grid file="web-team.toml" columns="2 3 4 5" >}}
+{{< grid file="web-team.toml" columns="2 3 4 5" />}}
 
 ### Time de Triagem
 
-{{< grid file="triage-team.toml" columns="2 3 4 5" >}}
+{{< grid file="triage-team.toml" columns="2 3 4 5" />}}
 
 ### Time de Pesquisa
 
-{{< grid file="survey-team.toml" columns="2 3 4 5" >}}
+{{< grid file="survey-team.toml" columns="2 3 4 5" />}}
 
 ### Time de traduções
 
-{{< grid file="translations-team.toml" columns="2 3 4 5" >}}
+{{< grid file="translations-team.toml" columns="2 3 4 5" />}}
 
 ### Mantenedores Eméritos
 
-{{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" >}}
+{{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
 
 # Governança
 

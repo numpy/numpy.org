@@ -2,7 +2,7 @@
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-    src="https://avatars.githubusercontent.com/u/43481325?u=8c0c0adbf3f2efd2cce72951d3554064c7bbfce3&v=4\""
+    src="https://avatars.githubusercontent.com/u/43481325?u=8c0c0adbf3f2efd2cce72951d3554064c7bbfce3&v=4"
     alt="Avatar of Inessa Pawson"
 >}}
 Inessa Pawson'''
@@ -12,7 +12,7 @@ link = 'https://github.com/InessaPawson'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-    src="https://avatars.githubusercontent.com/u/123428?v=4\""
+    src="https://avatars.githubusercontent.com/u/123428?v=4"
     alt="Avatar of Jarrod Millman"
 >}}
 Jarrod Millman'''
@@ -22,7 +22,7 @@ link = 'https://github.com/jarrodmillman'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-    src="https://avatars.githubusercontent.com/u/3891660?u=5de0ba1f1adad6f041f6dde1affef5d05bbed80a&v=4\""
+    src="https://avatars.githubusercontent.com/u/3891660?u=5de0ba1f1adad6f041f6dde1affef5d05bbed80a&v=4"
     alt="Avatar of Joe LaChance"
 >}}
 Joe LaChance'''
@@ -32,7 +32,7 @@ link = 'https://github.com/joelachance'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-    src="https://avatars.githubusercontent.com/u/46167686?u=b5ca05a767012822d06b8bc16e3cd5ca0d1cafe9&v=4\""
+    src="https://avatars.githubusercontent.com/u/46167686?u=b5ca05a767012822d06b8bc16e3cd5ca0d1cafe9&v=4"
     alt="Avatar of Mars Lee"
 >}}
 Mars Lee'''
@@ -42,7 +42,7 @@ link = 'https://github.com/MarsBarLee'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-    src="https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&v=4\""
+    src="https://avatars.githubusercontent.com/u/98330?u=22a023f8d191ba200ab13d476c83860d015cc9fe&v=4"
     alt="Avatar of Ralf Gommers"
 >}}
 Ralf Gommers'''
@@ -52,7 +52,7 @@ link = 'https://github.com/rgommers'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-    src="https://avatars.githubusercontent.com/u/5890484?u=feb15a24e010a434ded00e41d8bd030a2cc31bdb&v=4\""
+    src="https://avatars.githubusercontent.com/u/5890484?u=feb15a24e010a434ded00e41d8bd030a2cc31bdb&v=4"
     alt="Avatar of shalz"
 >}}
 shalz'''
@@ -62,7 +62,7 @@ link = 'https://github.com/shaloo'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-    src="https://avatars.githubusercontent.com/u/5774448?u=af1d8beea7d3c37d064e0dcb42d96c41e1318934&v=4\""
+    src="https://avatars.githubusercontent.com/u/5774448?u=af1d8beea7d3c37d064e0dcb42d96c41e1318934&v=4"
     alt="Avatar of Shekhar Prasad Rajak"
 >}}
 Shekhar Prasad Rajak'''
@@ -72,7 +72,7 @@ link = 'https://github.com/Shekharrajak'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-    src="https://avatars.githubusercontent.com/u/45071?u=c779b5e06448fbc638bc987cdfe305c7f9a7175e&v=4\""
+    src="https://avatars.githubusercontent.com/u/45071?u=c779b5e06448fbc638bc987cdfe305c7f9a7175e&v=4"
     alt="Avatar of Stefan van der Walt"
 >}}
 Stefan van der Walt'''
@@ -82,7 +82,7 @@ link = 'https://github.com/stefanv'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-    src="https://avatars.githubusercontent.com/u/1953382?u=5df9d41ad2a6d526e7daeec06225274905e7e660&v=4\""
+    src="https://avatars.githubusercontent.com/u/1953382?u=5df9d41ad2a6d526e7daeec06225274905e7e660&v=4"
     alt="Avatar of Albert Steppi"
 >}}
 Albert Steppi'''
