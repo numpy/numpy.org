@@ -1,9 +1,24 @@
 ---
 title: "News"
 sidebar: false
-newsHeader: "NumPy 2.3.0 released!"
-date: 2025-06-07
+newsHeader: "NumPy 2.4.0 released!"
+date: 2025-12-20
 ---
+
+### NumPy 2.4.0 released
+
+_20 Dec, 2025_ -- The NumPy 2.4.0 release continues the work to improve free
+threaded Python support, user dtypes implementation, and annotations. There are
+many expired deprecations and bug fixes as well. Highlights are:
+
+- Many annotation improvements. In particular, runtime signature introspection.
+- New `casting` kwarg `'same_value'` for casting by value.
+- New `PyUFunc_AddLoopsFromSpec` function that can be used to add user sort
+  loops using the `ArrayMethod` API.
+- New `__numpy_dtype__` protocol.
+
+This release supports Python versions 3.11-3.14
+
 
 ### NumPy 2.3.0 released
 
@@ -461,6 +476,7 @@ Here is a list of NumPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- NumPy 2.4.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.4.0)) -- _20 Dec 2025_.
 - NumPy 2.3.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.3.5)) -- _16 Nov 2025_.
 - NumPy 2.3.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.3.4)) -- _15 Oct 2025_.
 - NumPy 2.3.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.3.3)) -- _9 Sep 2025_.
