@@ -122,7 +122,7 @@ params:
         - url: https://hyperspy.org/
           label: HyperSpy
     - title: Image Processing
-      alttext: An photograph of the mountains.
+      alttext: A photograph of the mountains.
       img: /images/content_images/sc_dom_img/image_processing.svg
       links:
         - url: https://scikit-image.org/
