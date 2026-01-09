@@ -5,6 +5,14 @@ newsHeader: "NumPy 2.4.0 released!"
 date: 2025-12-20
 ---
 
+### NumPy Fellowship Program 2025 Retrospective
+
+_8 Jan, 2026_ -- Joren Hammudoglu ([@jorenham](https://github.com/jorenham)) has published a
+retrospective on his year as a NumPy Fellow. Read the full post on the Scientific Python blog:
+
+[A Year of Typing: My NumPy Fellowship Retrospective](https://blog.scientific-python.org/numpy/fellowship-program-2025-retrospective/).
+
+
 ### NumPy 2.4.0 released
 
 _20 Dec, 2025_ -- The NumPy 2.4.0 release continues the work to improve free
@@ -44,7 +52,7 @@ supported when it is released.
 _8 Dec, 2024_ -- The NumPy 2.2.0 release is a quick release that brings us back
 into sync with the usual twice yearly release cycle. There have been a number
 of small cleanups, improvements to the StringDType, and better support for free
-threaded Python. Highlights are: 
+threaded Python. Highlights are:
 
 * New functions ``matvec`` and ``vecmat``,
 * Many improved annotations,
@@ -105,11 +113,11 @@ works with NumPy `2.0.0rc2`. **Please see the following for more details:**
 
 
 ### NumFOCUS end of the year fundraiser
-_Dec 19, 2023_ -- NumFOCUS has teamed up with PyCharm during their EOY campaign to offer a 30% discount 
-on first-time PyCharm licenses. All year-one revenue from PyCharm purchases from now 
-until December 23rd, 2023 will go directly to the NumFOCUS programs. 
+_Dec 19, 2023_ -- NumFOCUS has teamed up with PyCharm during their EOY campaign to offer a 30% discount
+on first-time PyCharm licenses. All year-one revenue from PyCharm purchases from now
+until December 23rd, 2023 will go directly to the NumFOCUS programs.
 
-Use unique URL that will allow to track purchases https://lp.jetbrains.com/support-data-science/ 
+Use unique URL that will allow to track purchases https://lp.jetbrains.com/support-data-science/
 or a coupon code ISUPPORTDATASCIENCE 
 
 ### NumPy 1.26.0 released
@@ -133,7 +141,7 @@ The Python versions supported by this release are 3.9-3.12.
 
 ### numpy.org is now available in Japanese and Portuguese
 
-_Aug 2, 2023_ -- numpy.org is now available in 2 additional languages: 
+_Aug 2, 2023_ -- numpy.org is now available in 2 additional languages:
 Japanese and Portuguese. This wouldn’t be possible without our dedicated volunteers:
 
 _Portuguese:_
@@ -156,10 +164,10 @@ The work on the translation infrastructure is supported with funding from CZI.
 
 Looking ahead, we’d love to translate the website into more languages.
 If you’d like to help, please connect with the NumPy Translations Team on Slack:
-https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w. 
-(Look for the #translations channel.) We are also building a Translations Team who will be 
-working on localizing documentation and educational content across the Scientific Python 
-ecosystem. If this piqued your interest, join us on the Scientific Python 
+https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w.
+(Look for the #translations channel.) We are also building a Translations Team who will be
+working on localizing documentation and educational content across the Scientific Python
+ecosystem. If this piqued your interest, join us on the Scientific Python
 Discord: https://discord.gg/khWtqY6RKr. (Look for the #translation channel.)
 
 ### NumPy 1.25.0 released
