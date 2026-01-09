@@ -2,3 +2,13 @@
 .navbar-logo-text {
   font-family: "Lato";
 }
+
+.content-container h3 {
+  border-top: 1px solid var(--pst-color-border);
+  padding-top: 1.25rem;
+  margin-top: 2rem;
+}
+.content-container h3:first-of-type {
+  border-top: none;
+  margin-top: 0;
+}
