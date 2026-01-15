@@ -17,7 +17,7 @@ issue).
 Those are our preferred channels (open source is open by nature), but
 if you prefer to talk privately, contact our community coordinators at
 <numpy-team@googlegroups.com> or on [Slack](https://numpy-team.slack.com)
-(write  <numpy-team@googlegroups.com> for an invite).
+(write to <numpy-team@googlegroups.com> for an invite).
 
 We also have a biweekly _community call_, details of which are announced on
 the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion).
