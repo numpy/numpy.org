@@ -2,7 +2,8 @@ languageName: English
 params:
   description: Why NumPy? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
   navbarlogo:
-    image: logos/numpy.svg
+    image: logo.svg
+    text: NumPy
     link: /
   hero:
     # Main hero title
@@ -10,35 +11,19 @@ params:
     # Hero subtitle (optional)
     subtitle: The fundamental package for scientific computing with Python
     # Button text
-    buttontext: Get started
+    buttontext: "Latest release: NumPy 2.4. View all releases"
     # Where the main hero button links to
-    buttonlink: "/install"
+    buttonlink: "/news/#releases"
     # Hero image (from static/images/___)
-    image: logos/numpy.svg
-  # Customizable navbar. For a dropdown, add a "sublinks" list.
-  news:
-    title: 2021 NumPy survey
-    content: Your voice matters
-    url: /news
+    image: logo.svg
 
   shell:
     title: placeholder
 
-    promptlabel: interactive shell prompt
-
-    button:
-    - label: Enables the interactive tutorial shell
-      text: Enable
-
-  shellcontent:
     intro:
     - title: Try NumPy
-      text: Enable the interactive shell
+      text: Use the interactive shell to try NumPy in the browser
 
-    loading:
-    - title: While we wait...
-      text: Launching container on mybinder.org...
-    
     docslink: Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a>.
 
   casestudies:
@@ -65,26 +50,12 @@ params:
       alttext:  Cheetah pose analysis
       url: /case-studies/deeplabcut-dnn
 
-  keyfeatures:
-    features:
-    - title: Powerful N-dimensional arrays
-      text:  Fast and versatile, the NumPy vectorization, indexing, and broadcasting concepts are the de-facto standards of array computing today.
-    - title: Numerical computing tools
-      text: NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
-    - title: Interoperable
-      text: NumPy supports a wide range of hardware and computing platforms, and plays well with distributed, GPU, and sparse array libraries.
-    - title: Performant
-      text: The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
-    - title: Easy to use
-      text: NumPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
-    - title: Open source
-      text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/community).
   tabs:
     title: ECOSYSTEM
+
   section5: false
 
-
-navbar:
+  navbar:
   - title: Install
     url: /install
   - title: Documentation
@@ -95,48 +66,52 @@ navbar:
     url: /community
   - title: About Us
     url: /about
+  - title: News
+    url: /news
   - title: Contribute
     url: /contribute
-footer:
-  logo: numpy.svg
-  socialmediatitle: ""
-  socialmedia:
-  - link: https://github.com/numpy/numpy
-    icon: github
-  - link: https://twitter.com/numpy_team
-    icon: twitter
-  quicklinks:
-    column1:
-      title: ""
-      links:
-        - text: Install
-          link: /install
-        - text: Documentation
-          link: https://numpy.org/doc/stable
-        - text: Learn
-          link: /learn
-        - text: Citing Numpy
-          link: /citing-numpy
-        - text: Roadmap
-          link: https://numpy.org/neps/roadmap.html
-    column2:
-      links:
-        - text: About us
-          link: /about
-        - text: Community
-          link: /community
-        - text: Contribute
-          link: /contribute
-        - text: Code of conduct
-          link: /code-of-conduct
-    column3:
-      links:
-        - text: Get help
-          link: /gethelp
-        - text: Terms of use
-          link: /terms
-        - text: Privacy
-          link: /privacy
-        - text: Press kit
-          link: /press-kit
 
+  footer:
+    logo: logo.svg
+    socialmediatitle: ""
+    socialmedia:
+    - link: https://github.com/numpy/numpy
+      icon: github
+    - link: https://www.youtube.com/@NumPy_team
+      icon: youtube
+    quicklinks:
+      column1:
+        title: ""
+        links:
+          - text: Install
+            link: /install
+          - text: Documentation
+            link: https://numpy.org/doc/stable
+          - text: Learn
+            link: /learn
+          - text: Citing NumPy
+            link: /citing-numpy
+          - text: Roadmap
+            link: https://numpy.org/neps/roadmap.html
+      column2:
+        links:
+          - text: About us
+            link: /about
+          - text: Community
+            link: /community
+          - text: User surveys
+            link: /user-surveys
+          - text: Contribute
+            link: /contribute
+          - text: Code of conduct
+            link: /code-of-conduct
+      column3:
+        links:
+          - text: Get help
+            link: /gethelp
+          - text: Terms of use
+            link: /terms
+          - text: Privacy
+            link: /privacy
+          - text: Press kit
+            link: /press-kit

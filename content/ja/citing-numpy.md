@@ -1,19 +1,18 @@
 ---
-title: NumPy を引用する場合
+title: NumPyを引用する
 sidebar: false
 ---
 
 もしあなたの研究においてNumPyが重要な役割を果たし、論文でこのプロジェクトについて言及したい場合は、こちらの論文を引用して下さい。
 
-*  Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _Array programming with NumPy_. Nature 585, 357–362 (2020). DOI: [0.1038/s41586-020-2649-2](https://doi. org/10.1038/s41586-020-2649-2). ([リンク](https://www.nature.com/articles/s41586-020-2649-2)).
+*  Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _Array programming with NumPy_. Nature 585, 357–362 (2020). DOI: [10.1038/s41586-020-2649-2](https://doi.org/10.1038/s41586-020-2649-2). ([リンク](https://www.nature.com/articles/s41586-020-2649-2)).
 
 _BibTeX形式:_
 
  ``` 
 @Article{ harris2020array,
   title = {Array programming with {NumPy}},
-  author = {Charles R. Harris and K. Jarrod Millman and St{'{e}}fan J.
-                  van der Walt and Ralf Gommers and Pauli Virtanen and David
+  author = {Charles R. Harris and K. Jarrod Millman and St{'{e}}fan J. van der Walt and Ralf Gommers and Pauli Virtanen and David
                   Cournapeau and Eric Wieser and Julian Taylor and Sebastian
                   Berg and Nathaniel J. Smith and Robert Kern and Matti Picus
                   and Stephan Hoyer and Marten H. van Kerkwijk and Matthew

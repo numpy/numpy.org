@@ -3,7 +3,7 @@ title: Community
 sidebar: false
 ---
 
-NumPy is a community-driven open source project developed by a very diverse group of [contributors](/gallery/team.html). The NumPy leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the [NumPy Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
+NumPy is a community-driven open source project developed by a diverse group of [contributors](/teams/). The NumPy leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the [NumPy Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
 
 We offer several communication channels to learn, share your knowledge and connect with others within the NumPy community.
 
@@ -23,7 +23,7 @@ conference talks are also made on this list.
 
 On this list please use bottom posting, reply to the list (rather than to
 another sender), and don't reply to digests. A searchable archive of this list
-is available [here](http://numpy-discussion.10968.n7.nabble.com/).
+is available [here](https://mail.python.org/archives/list/numpy-discussion@python.org/).
 
 ***
 
@@ -51,19 +51,19 @@ details and how to get an invite.
 
 If you would like to find a local meetup or study group to learn more about NumPy and the wider ecosystem of Python packages for data science and scientific computing, we recommend exploring the [PyData meetups](https://www.meetup.com/pro/pydata/) (150+ meetups, 100,000+ members).
 
-NumPy also organizes in-person sprints for its team and interested contributors occasionally. These are typically planned several months in advance and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) and [Twitter](https://twitter.com/numpy_team).
+NumPy also organizes in-person sprints for its team and interested contributors occasionally. These are typically planned several months in advance and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion).
 
 
 ## Conferences
 
 The NumPy project doesn't organize its own conferences. The conferences that have traditionally been most popular with NumPy maintainers, contributors and users are the SciPy and PyData conference series:
 
-- [SciPy US](https://conference.scipy.org)
-- [EuroSciPy](https://www.euroscipy.org)
-- [SciPy Latin America](https://www.scipyla.org)
-- [SciPy India](https://scipy.in)
-- [SciPy Japan](https://conference.scipy.org)
-- [PyData conferences](https://pydata.org/event-schedule/) (15-20 events a year spread over many countries)
+- SciPy US
+- EuroSciPy
+- SciPy Latin America
+- SciPy India
+- SciPyData Japan
+- PyData conferences (15-20 events a year spread over many countries)
 
 Many of these conferences include tutorial days that cover NumPy and/or sprints where you can learn how to contribute to NumPy or related open source projects.
 
@@ -74,3 +74,4 @@ To thrive, the NumPy project needs your expertise and enthusiasm. Not a coder? N
 
 If you are interested in becoming a NumPy contributor (yay!) we recommend checking out our [Contribute](/contribute) page.
 
+Also, feel free to stop by and say hi at one of our community meetings. To keep track of them, check out our events calendar [here](https://scientific-python.org/calendars/).

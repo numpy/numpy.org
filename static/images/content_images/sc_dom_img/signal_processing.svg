@@ -1,10 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="150.34 189.546 96 110" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-  <line x1="182.34" x2="182.34" y2="253.546" stroke="rgb(0,0,0)" stroke-miterlimit="10" y1="189.546" style="stroke-width: 7px;" bx:origin="0 1.461"/>
-  <line x1="198.84" y1="205.546" x2="198.84" y2="269.546" stroke="rgb(0,0,0)" stroke-miterlimit="10" style="stroke-width: 7px;" bx:origin="0 1.211"/>
-  <line x1="214.34" y1="221.546" x2="214.34" y2="285.546" stroke="rgb(0,0,0)" stroke-miterlimit="10" style="stroke-width: 7px;" bx:origin="0 0.961"/>
-  <line x1="230.84" y1="237.546" x2="230.84" y2="281.046" stroke="rgb(0,0,0)" stroke-miterlimit="10" style="stroke-width: 7px;" bx:origin="0 1.046"/>
-  <line x1="165.84" y1="217.546" x2="165.84" y2="261.046" stroke="rgb(0,0,0)" stroke-miterlimit="10" style="stroke-width: 7px;" bx:origin="0 1.506"/>
-  <line x1="246.34" y1="233.546" x2="246.34" y2="253.546" stroke="rgb(0,0,0)" stroke-miterlimit="10" style="stroke-width: 7px;" bx:origin="0 2.476"/>
-  <line x1="150.34" y1="245.546" x2="150.34" y2="265.546" stroke="rgb(0,0,0)" stroke-miterlimit="10" style="stroke-width: 7px;" bx:origin="0 1.876"/>
+<svg width="96" height="110" viewBox="0 0 96 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_60)">
+<path d="M32 0V64" stroke="#013243" stroke-width="7" stroke-miterlimit="10"/>
+<path d="M48.5 16V80" stroke="#013243" stroke-width="7" stroke-miterlimit="10"/>
+<path d="M64 32V96" stroke="#013243" stroke-width="7" stroke-miterlimit="10"/>
+<path d="M80.5 48V91.5" stroke="#013243" stroke-width="7" stroke-miterlimit="10"/>
+<path d="M15.5 28V71.5" stroke="#013243" stroke-width="7" stroke-miterlimit="10"/>
+<path d="M96 44V64" stroke="#013243" stroke-width="7" stroke-miterlimit="10"/>
+<path d="M0 56V76" stroke="#013243" stroke-width="7" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_1_60">
+<rect width="96" height="110" fill="white"/>
+</clipPath>
+</defs>
 </svg>

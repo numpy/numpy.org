@@ -1,27 +1,25 @@
 {{- $shell := .Site.Params.shell }}
-{{- $promptlabel := index $shell "promptlabel" }}
-{{- $button := index $shell "button" }}
+{{- $intro := index $shell "intro" }}
 <div class="hero-right">
+    <div class="flex-column shell-title-container">
+        {{- range $intro }}
+            <div class="shell-title">{{ .title }}</div>
+            <div class="shell-content-message">
+                <p>{{ .text }}</p>
+            </div>
+        {{- end }}
+    </div>
     <div class="numpy-shell-canvas">
         <div class="numpy-shell-container">
-            <div class="flex-column shell-title-container">
-                {{ partial "shell-content.html" . }}
+            <div class="shell-lesson shell-content">
+                {{partial "shell-lesson.html" | print | markdownify}}
             </div>
             <!-- Interactive Shell -->
-            <div class="fake-shell" id="demo-code">
-                <div class="demo-caret" aria-label="{{ $promptlabel }}">&gt;</div>
-                {{- range $button }}
-                <button class="shell-enable-button shell-button" onclick="loadShell();" aria-label="{{ .label }}">
-                    {{ .text }}
-                    <div class="loader-container">
-                        <div id="shell-loader" class="loader"></div>
-                    </div>
-                </button>
-                {{- end }}
-            </div>
-            <div class="real-shell" id="numpy-shell" style="display: none;">
-                <pre id="demo-code" data-executable="true" data-language="python" style="white-space: pre-line;">import numpy as np</pre>
-            </div>
+            <iframe
+                class="numpy-shell"
+                src="https://jupyterlite.github.io/demo/repl/?toolbar=1&kernel=python&execute=0&code=import%20numpy%20as%20np"
+            >
+            </iframe>
         </div>
     </div>
 </div>

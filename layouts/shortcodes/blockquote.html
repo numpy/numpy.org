@@ -1,0 +1,4 @@
+<blockquote {{ with .Get "cite" }} cite="{{ . }}"{{ end }}>
+  <p>{{- .Inner -}}</p>
+  {{ with .Get "by" }}<p class="attribution">—{{ . | markdownify }}</p>{{ end }}
+</blockquote>

@@ -1,0 +1,91 @@
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background: var(--pst-color-surface);
+}
+
+.numpy-shell-canvas {
+    min-height: 455px;
+}
+
+.numpy-shell-container {
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.numpy-shell {
+    flex: 2;
+    border: 1px solid var(--pst-color-border);
+}
+
+.shell-title-container {
+    text-align: center;
+    align-items: center;
+}
+
+.shell-title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.shell-lesson {
+    text-align: left;
+    flex: 1;
+    padding: 0 15px;
+}
+
+.shell-lesson .highlight {
+    height: 100%;
+}
+
+.shell-lesson .highlight pre {
+    background-color: var(--pst-gray-800);
+    height: 100%;
+}
+
+.shell-lesson .highlight pre code{
+    color: #f3c7ee;
+}
+
+.shell-lesson > p {
+    margin: 2px 0 2px 0;
+}
+
+.highlight:not(:last-child) {
+    margin-bottom: 1px !important;
+}
+
+.CodeMirror {
+    max-height: 124px;
+}
+
+.CodeMirror-lines {
+    min-height: 30px!important;
+}
+
+.CodeMirror pre {
+    color: rgb(255, 255, 255) !important;
+}
+
+.CodeMirror-cursor {
+    color: rgb(255, 255, 255) !important;
+    border-left: 1px solid white !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .numpy-shell-container {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .numpy-shell {
+        min-height: 500px;
+    }
+}

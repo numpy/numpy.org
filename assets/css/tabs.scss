@@ -1,0 +1,137 @@
+[role="tablist"] {
+  justify-content: center;
+}
+
+table td:not([align]), table th:not([align]) {
+  text-align: inherit;
+}
+
+table td, table th {
+  vertical-align: top;
+}
+
+.tabs-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs-section .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs-title {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1.5px;
+    font-size: 27px;
+    margin: 30px 0;
+}
+
+.visualization, .data-science, .machine-learning, .array-libraries {
+    max-width: 900px;
+    margin: 15px auto;
+}
+
+@media only screen and (max-width: 1200px) {
+    .tabs-section {
+        margin: 30px 10px;
+    }
+
+    .tabs-title {
+        margin: 30px;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+.grid-container > div {
+    background-color: var(--pst-color-background);
+    text-align: middle;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        display: block;
+    }
+}
+
+/* Visualization */
+.visualization-images > img {
+    border-radius: 10px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.image-grid > div {
+    background-color: var(--pst-color-surface);
+    border: 2px solid var(--pst-color-surface);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Scientific Domains */
+section.scientific-domains {
+    max-width: 900px !important;
+
+    & ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 15px auto;
+        padding-inline-start: 0;
+
+        & li {
+            align-content: center;
+            font-size: 0.8rem;
+            line-height: 130%;
+            margin: 0.2em 0.4em;
+            flex-basis: 13%;
+            align-self: baseline;
+
+            & header {
+                // FIXME: Use appropriate PST color for this header text.
+                color: var(--pst-color-text-base);
+                font-weight: 700;
+                // Ensure headers are the same minimum height (some wrap
+                // to two lines).
+                min-height: 3.3em;
+                text-align: left;
+            }
+            & img {
+                width: 50px;
+                height: 50px;
+                margin-bottom: 0.5em;
+            }
+            & ul {
+                align-content: left;
+                display: flex;
+                flex-direction: column;
+                padding-inline-start: 0;
+
+                & li {
+                    margin-left: 0em;
+                }
+            }
+        }
+    }
+}
+
+/* Array Libraries */
+img.first-column-layout {
+    max-width: 100px;
+    max-height: 30px;
+    margin: 0px 20px 0px 10px;
+}
+
+td.left-text {
+    vertical-align: middle;
+}

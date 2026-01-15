@@ -1,28 +1,69 @@
-# https://github.com/chabad360/hugo-gh-pages
+# https://gohugo.io/hosting-and-deployment/hosting-on-github/
+
 name: github pages
 
 on:
   push:
     branches:
-      - master
+      - main
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  build-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          submodules: true
-      - name: Setup Python
-        uses: actions/setup-python@v2
-      - name: Generate config.yaml
+          persist-credentials: false
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Read Hugo version
+        id: hugo-version
+        run: cat netlify.toml | grep HUGO_VERSION | tr -d ' "' >> "$GITHUB_OUTPUT"
+
+      - name: Read DART SASS version
+        id: dart-sass-version
+        run: cat netlify.toml | grep --max-count=1 DART_SASS_VERSION | tr -d ' "' >> "$GITHUB_OUTPUT"
+
+      - name: Install Hugo CLI
+        env:
+          HUGO_VERSION: ${{ steps.hugo-version.outputs.HUGO_VERSION }}
+        run: |
+          wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i /tmp/hugo.deb
+
+      - name: Install Dart Sass
+        env:
+          DART_SASS_VERSION: ${{ steps.dart-sass-version.outputs.DART_SASS_VERSION }}
+          DART_SASS_URL: "https://github.com/sass/dart-sass/releases/download/"
+        run: |
+          export DART_SASS_TARBALL="dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+          curl -LJO ${DART_SASS_URL}/${DART_SASS_VERSION}/${DART_SASS_TARBALL} && \
+          tar -xf ${DART_SASS_TARBALL} && \
+          rm ${DART_SASS_TARBALL}
+
+      - name: Generate config
         run: python gen_config.py
-      - name: Publish Site
-        uses: chabad360/hugo-gh-pages@master
+
+      - name: Build with Hugo
+        run: |
+          export PATH=$(pwd)/dart-sass:$PATH
+          hugo --gc --minify
+
+      - name: Deploy pages
+        uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
-          githubToken: ${{ secrets.PERSONAL_TOKEN }}
-          branch: master
-          cname: numpy.org
-          repo: numpy/numpy.github.com
-          hugoVersion: extended_0.82.0 # Locked version, see issue #363
+          folder: ./public
+          repository-name: numpy/numpy.github.com
+          branch: main
+          token: ${{ secrets.PERSONAL_TOKEN }}

@@ -3,12 +3,19 @@ title: "Case Study: Discovery of Gravitational Waves"
 sidebar: false
 ---
 
-{{< figure src="/images/content_images/cs/gw_sxs_image.png" class="fig-center" caption="**Gravitational Waves**" alt="binary coalesce black hole generating gravitational waves" attr="*(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)*" attrlink="https://youtu.be/Zt8Z_uzG71o" >}}
+{{< figure
+    src="/images/content_images/cs/gw_sxs_image.png"
+    title="Gravitational Waves"
+    alt="binary coalesce black hole generating gravitational waves"
+    attribution="(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)"
+    attributionlink="https://youtu.be/Zt8Z_uzG71o"
+>}}
 
-<blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs">
-    <p>The scientific Python ecosystem is critical infrastructure for the research done at LIGO.</p>
-    <footer align="right">David Shoemaker, <cite>LIGO Scientific Collaboration</cite></footer>
-</blockquote>
+{{< blockquote
+    cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
+    by="David Shoemaker, *LIGO Scientific Collaboration*" >}}
+The scientific Python ecosystem is critical infrastructure for the research done at LIGO.
+{{< /blockquote >}}
 
 ## About [Gravitational Waves](https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/) and [LIGO](https://www.ligo.caltech.edu)
 
@@ -21,7 +28,7 @@ the distant universe and its impact.
 The [Laser Interferometer Gravitational-Wave Observatory (LIGO)](https://www.ligo.caltech.edu)
 was designed to open the field of gravitational-wave astrophysics through the
 direct detection of gravitational waves predicted by Einstein’s General Theory
-of Relativity. It comprises two widely-separated interferometers within the
+of Relativity. It comprises two widely separated interferometers within the
 United States — one in Hanford, Washington and the other in Livingston,
 Louisiana — operated in unison to detect gravitational waves. Each of them has
 multi-kilometer-scale gravitational wave detectors that use laser
@@ -43,9 +50,9 @@ made from warped spacetime.
   processes in the Universe, the data LIGO collects may have far-reaching
   effects on many areas of physics including gravitation, relativity,
   astrophysics, cosmology, particle physics, and nuclear physics.
-* Crunch observed data via numerical relativity computations that involves
+* Crunch observed data via numerical relativity computations that involve
   complex maths in order to discern signal from noise, filter out relevant
-  signal and statistically estimate significance of observed data
+  signal and statistically estimate the significance of observed data.
 * Data visualization so that the binary / numerical results can be
   comprehended.
 
@@ -57,12 +64,12 @@ made from warped spacetime.
 
     Gravitational Waves are hard to detect as they produce a very small effect
     and have tiny interaction with matter. Processing and analyzing all of
-    LIGO's data requires a vast computing infrastructure.After taking care of
+    LIGO's data requires a vast computing infrastructure. After taking care of
     noise, which is billions of times of the signal, there is still very
     complex relativity equations and huge amounts of data which present a
     computational challenge:
     [O(10^7) CPU hrs needed for binary merger analyses](https://youtu.be/7mcHknWWzNI)
-    spread on 6 dedicated LIGO clusters
+    spread on 6 dedicated LIGO clusters.
 
 * **Data Deluge**
 
@@ -87,7 +94,13 @@ made from warped spacetime.
     simulations using latest experimental inputs and insights can be a time
     consuming activity that challenges researchers in this domain.
 
-{{< figure src="/images/content_images/cs/gw_strain_amplitude.png" class="fig-center" alt="gravitational waves strain amplitude" caption="**Estimated gravitational-wave strain amplitude from GW150914**" attr="(**Graph Credits:** Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)" attrlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
+{{< figure
+    src="/images/content_images/cs/gw_strain_amplitude.png"
+    alt="gravitational waves strain amplitude"
+    title="Estimated gravitational-wave strain amplitude from GW150914"
+    attribution="(Graph Credits: Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)"
+    attributionlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger"
+>}}
 
 ## NumPy’s Role in the Detection of Gravitational Waves
 
@@ -114,23 +127,31 @@ speed.  Here are some examples:
   - Spectrograms
 * Compute Correlations
 * Key [Software](https://github.com/lscsoft) developed in GW data analysis
-  such as [GwPy](https://gwpy.github.io/docs/stable/overview.html) and
+  such as [GwPy](https://gwpy.github.io/docs/stable/overview/) and
   [PyCBC](https://pycbc.org) uses NumPy and AstroPy under the hood for
   providing object based interfaces to utilities, tools, and methods for
   studying data from gravitational-wave detectors.
 
-{{< figure src="/images/content_images/cs/gwpy-numpy-dep-graph.png" class="fig-center" alt="gwpy-numpy depgraph" caption="**Dependency graph showing how GwPy package depends on NumPy**" >}}
+{{< figure
+    src="/images/content_images/cs/gwpy-numpy-dep-graph.png"
+    alt="gwpy-numpy depgraph"
+    title="Dependency graph showing how GwPy package depends on NumPy"
+>}}
 
 ----
 
-{{< figure src="/images/content_images/cs/PyCBC-numpy-dep-graph.png" class="fig-center" alt="PyCBC-numpy depgraph" caption="**Dependency graph showing how PyCBC package depends on NumPy**" >}}
+{{< figure
+    src="/images/content_images/cs/PyCBC-numpy-dep-graph.png"
+    alt="PyCBC-numpy depgraph"
+    title="Dependency graph showing how PyCBC package depends on NumPy"
+>}}
 
 ## Summary
 
 GW detection has enabled researchers to discover entirely unexpected phenomena
 while providing new insight into many of the most profound astrophysical
-phenomena known. Number crunching and data visualization is a crucial step
-that helps scientists gain insights into data gathered from the scientific
+phenomena known. Number crunching and data visualization are crucial steps
+that help scientists gain insights into data gathered from scientific
 observations and understand the results. The computations are complex and
 cannot be comprehended by humans unless it is visualized using computer
 simulations that are fed with the real observed data and analysis.  NumPy
@@ -139,4 +160,8 @@ is [enabling researchers](https://www.gw-openscience.org/events/GW150914/) to
 answer complex questions and discover new horizons in our understanding of the
 universe.
 
-{{< figure src="/images/content_images/cs/numpy_gw_benefits.png" class="fig-center" alt="numpy benefits" caption="**Key NumPy Capabilities utilized**" >}}
+{{< figure
+    src="/images/content_images/cs/numpy_gw_benefits.png"
+    alt="numpy benefits"
+    title="Key NumPy Capabilities utilized"
+>}}

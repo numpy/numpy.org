@@ -1,54 +1,71 @@
 baseURL: https://numpy.org/
 languageCode: en-us
-theme: hugo-fresh
-disableKinds: ["taxonomyTerm"]
-googleAnalytics: UA-162151853-1
+theme: scientific-python-hugo-theme
+disableKinds: ["taxonomy", "term"]
 DefaultContentLanguage: en
 markup:
   goldmark:
     renderer:
       unsafe: true
 
-# Uncomment this to disable the translations for the specified languages.
-# This may be useful to be able to merge partial translations without deploying
-# them to numpy.org immediately.
-disableLanguages: ["pt", "ja", "zh"]
+# Add two character language codes to disable translations for the specified
+# languages. This may be useful to be able to merge partial translations
+# without deploying them to numpy.org immediately.
+disableLanguages: []
 
 params:
+  colorScheme: light
+  author:
+    name: "NumPy team"
   images:
-  - /images/logos/numpy.svg
+  - /images/numpy-image.jpg
   navColor: blue
   font:
     name: "Lato"
     sizes: [400,900]
+  plausible:
+    dataDomain: numpy.org
 languages:
   en:
     title: NumPy
     weight: 1
     contentDir: content/en
-    < content/en/config.yaml >
-    < content/en/tabcontents.yaml >
-  
+    include-files:
+      - content/en/config.yaml
+      - content/en/tabcontents.yaml
+
   # Portuguese
   pt:
     title: NumPy
     weight: 2
     contentDir: content/pt
-    < content/pt/config.yaml >
-    < content/pt/tabcontents.yaml >
+    include-files:
+      - content/pt/config.yaml
+      - content/pt/tabcontents.yaml
 
   # Japanese
   ja:
     title: NumPy
     weight: 3
     contentDir: content/ja
-    < content/ja/config.yaml >
-    < content/ja/tabcontents.yaml >
+    include-files:
+      - content/ja/config.yaml
+      - content/ja/tabcontents.yaml
+
+  # Spanish
+  es:
+    title: NumPy
+    weight: 4
+    contentDir: content/es
+    include-files:
+      - content/es/config.yaml
+      - content/es/tabcontents.yaml
 
   # Chinese
   zh:
     title: NumPy
     weight: 3
     contentDir: content/zh
-    < content/zh/config.yaml >
-    < content/zh/tabcontents.yaml >
+    include-files:
+      - content/zh/config.yaml
+      - content/zh/tabcontents.yaml
