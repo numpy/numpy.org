@@ -2,7 +2,7 @@
 title: Código de conducta de NumPy
 sidebar: false
 aliases:
-  - /conduct.html
+  - /es/conduct/
 ---
 
 ### Introducción

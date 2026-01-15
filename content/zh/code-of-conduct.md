@@ -2,7 +2,7 @@
 title: NumPy 行为守则
 sidebar: false
 aliases:
-  - /conduct.html
+  - /zh/conduct/
 ---
 
 ### 引言
