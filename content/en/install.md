@@ -2,6 +2,7 @@
 title: Installing NumPy
 sidebar: false
 ---
+
 {{< admonition tip >}}
 This page assumes you are comfortable using a terminal and are familiar with package managers. 
 The only prerequisite for installing NumPy is Python itself. If you don't have
@@ -128,4 +129,3 @@ IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
 Importing the numpy c-extensions failed. This error can happen for
 different reasons, often due to issues with your setup.
 ```
-
