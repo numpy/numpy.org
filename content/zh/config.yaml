@@ -55,7 +55,7 @@ params:
 
   section5: false
 
-navbar:
+  navbar:
   - title: Install
     url: /zh/install
   - title: Documentation
@@ -66,51 +66,53 @@ navbar:
     url: /zh/community
   - title: About Us
     url: /zh/about
+  - title: News
+    url: /zh/news
   - title: Contribute
     url: /zh/contribute
 
-footer:
-  logo: logo.svg
-  socialmediatitle: ""
-  socialmedia:
-    - link: https://github.com/numpy/numpy
-      icon: github
-    - link: https://www.youtube.com/@NumPy_team
-      icon: youtube
-  quicklinks:
-    column1:
-      title: ""
-      links:
-        - text: Install
-          link: /zh/install
-        - text: Documentation
-          link: https://numpy.org/doc/stable
-        - text: Learn
-          link: /zh/learn
-        - text: Citing NumPy
-          link: /zh/citing-numpy
-        - text: Roadmap
-          link: https://numpy.org/neps/roadmap.html
-    column2:
-      links:
-        - text: About us
-          link: /zh/about
-        - text: Community
-          link: /zh/community
-        - text: User surveys
-          link: /zh/user-surveys
-        - text: Contribute
-          link: /zh/contribute
-        - text: Code of conduct
-          link: /zh/code-of-conduct
-    column3:
-      links:
-        - text: Get help
-          link: /zh/gethelp
-        - text: Terms of use
-          link: /zh/terms
-        - text: Privacy
-          link: /zh/privacy
-        - text: Press kit
-          link: /press-kit
+  footer:
+    logo: logo.svg
+    socialmediatitle: ""
+    socialmedia:
+      - link: https://github.com/numpy/numpy
+        icon: github
+      - link: https://www.youtube.com/@NumPy_team
+        icon: youtube
+    quicklinks:
+      column1:
+        title: ""
+        links:
+          - text: Install
+            link: /zh/install
+          - text: Documentation
+            link: https://numpy.org/doc/stable
+          - text: Learn
+            link: /zh/learn
+          - text: Citing NumPy
+            link: /zh/citing-numpy
+          - text: Roadmap
+            link: https://numpy.org/neps/roadmap.html
+      column2:
+        links:
+          - text: About us
+            link: /zh/about
+          - text: Community
+            link: /zh/community
+          - text: User surveys
+            link: /zh/user-surveys
+          - text: Contribute
+            link: /zh/contribute
+          - text: Code of conduct
+            link: /zh/code-of-conduct
+      column3:
+        links:
+          - text: Get help
+            link: /zh/gethelp
+          - text: Terms of use
+            link: /zh/terms
+          - text: Privacy
+            link: /zh/privacy
+          - text: Press kit
+            link: /press-kit
 
