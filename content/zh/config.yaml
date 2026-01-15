@@ -2,165 +2,115 @@ languageName: 英语 (Chinese)
 params:
   description: 为什么使用 NumPy？它有强大的高维数组、有数字计算工具、互可操作、高性能、开源。
   navbarlogo:
-    image: logos/numpy.svg
+    image: logo.svg
+    text: NumPy
     link: /zh/
   hero:
-    #Main hero title
+    # Main hero title
     title: NumPy
-    #Hero subtitle (optional)
+    # Hero subtitle (optional)
     subtitle: 使用 Python 进行科学计算的基本包
-    #Button text
+    # Button text
     buttontext: 入门
-    #Where the main hero button links to
+    # Where the main hero button links to
     buttonlink: "/zh/install"
-    #Hero image (from static/images/___)
-    image: logos/numpy.svg
-  #Customizable navbar. For a dropdown, add a "sublinks" list.
-  news:
-    title: 2021 NumPy survey
-    content: Your voice matters
-    url: /zh/news
+    # Hero image (from static/images/___)
+    image: logo.svg
+
   shell:
     title: 占位符
-    promptlabel: interactive shell prompt
-    button:
-      - 
-        label: Enables the interactive tutorial shell
-        text: Enable
-  shellcontent:
+
     intro:
-      - 
-        title: Try NumPy
-        text: Enable the interactive shell
-    loading:
-      - 
-        title: While we wait...
-        text: Launching container on mybinder.org...
+    - title: Try NumPy
+      text: Use the interactive shell to try NumPy in the browser
+
     docslink: Don't forget to check out the <a href="https://numpy.org/doc/stable" target="_blank">docs</a>.
+
   casestudies:
     title: CASE STUDIES
     features:
-      - 
-        title: 第一张黑洞图像
+      - title: 第一张黑洞图像
         text: NumPy 是怎么配合 SciPy 和 Matplotlib 等库来让事件视界望远镜（Eht）生成第一张黑洞图像的
         img: /images/content_images/case_studies/blackhole.png
         alttext: 这是黑洞的第一张图像。它是黑色背景上衬着的一个橙色圆环。
         url: /zh/case-studies/blackhole-image
-      - 
-        title: 引力波探测
+      - title: 引力波探测
         text: 在1916年，阿尔伯特·爱因斯坦预测了引力波的存在。100年后，激光干涉引力波天文台（LIGO）的科学家利用 NumPy 证明了引力波的存在。
         img: /images/content_images/case_studies/gravitional.png
         alttext: 两个相互环绕的天体。它们改变了周围的引力。
         url: /zh/case-studies/gw-discov
-      - 
-        title: 运动分析
+      - title: 运动分析
         text: Cricket Analytics 正在通过统计模型和预测分析来改进队员的团队的表现，改变体育界。NumPy 让其中很多的分析成为了可能。
         img: /images/content_images/case_studies/sports.jpg
         alttext: 绿色的赛场上的板球。
         url: /zh/case-studies/cricket-analytics
-      - 
-        title: 使用深度学习进行估计
+      - title: 使用深度学习进行估计
         text: DeepLabCut 使用 NumPy 来加速进行涉及观察动物行为的科学研究，以便跨物种和时间尺度推动研究发展。
         img: /images/content_images/case_studies/deeplabcut.png
         alttext: Cheetah pose analysis
         url: /zh/case-studies/deeplabcut-dnn
-  keyfeatures:
-    features:
-      - 
-        title: 强大的高维数组
-        text: Fast and versatile, the NumPy vectorization, indexing, and broadcasting concepts are the de-facto standards of array computing today.
-      - 
-        title: 数字计算工具
-        text: NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
-      - 
-        title: Interoperable
-        text: NumPy supports a wide range of hardware and computing platforms, and plays well with distributed, GPU, and sparse array libraries.
-      - 
-        title: Performant
-        text: The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
-      - 
-        title: Easy to use
-        text: NumPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
-      - 
-        title: Open source
-        text: Distributed under a liberal [BSD license](https://github.com/numpy/numpy/blob/master/LICENSE.txt), NumPy is developed and maintained [publicly on GitHub](https://github.com/numpy/numpy) by a vibrant, responsive, and diverse [community](/community).
+
   tabs:
     title: ECOSYSTEM
+
   section5: false
+
 navbar:
-  - 
-    title: Install
+  - title: Install
     url: /zh/install
-  - 
-    title: Documentation
+  - title: Documentation
     url: https://numpy.org/doc/stable
-  - 
-    title: Learn
+  - title: Learn
     url: /zh/learn
-  - 
-    title: Community
+  - title: Community
     url: /zh/community
-  - 
-    title: About Us
+  - title: About Us
     url: /zh/about
-  - 
-    title: Contribute
+  - title: Contribute
     url: /zh/contribute
+
 footer:
-  logo: numpy.svg
+  logo: logo.svg
   socialmediatitle: ""
   socialmedia:
-    - 
-      link: https://github.com/numpy/numpy
+    - link: https://github.com/numpy/numpy
       icon: github
-    - 
-      link: https://twitter.com/numpy_team
-      icon: twitter
+    - link: https://www.youtube.com/@NumPy_team
+      icon: youtube
   quicklinks:
     column1:
       title: ""
       links:
-        - 
-          text: Install
+        - text: Install
           link: /zh/install
-        - 
-          text: Documentation
+        - text: Documentation
           link: https://numpy.org/doc/stable
-        - 
-          text: Learn
+        - text: Learn
           link: /zh/learn
-        - 
-          text: Citing NumPy
+        - text: Citing NumPy
           link: /zh/citing-numpy
-        - 
-          text: Roadmap
+        - text: Roadmap
           link: https://numpy.org/neps/roadmap.html
     column2:
       links:
-        - 
-          text: About us
+        - text: About us
           link: /zh/about
-        - 
-          text: Community
+        - text: Community
           link: /zh/community
-        - 
-          text: Contribute
+        - text: User surveys
+          link: /zh/user-surveys
+        - text: Contribute
           link: /zh/contribute
-        - 
-          text: Code of conduct
+        - text: Code of conduct
           link: /zh/code-of-conduct
     column3:
       links:
-        - 
-          text: Get help
+        - text: Get help
           link: /zh/gethelp
-        - 
-          text: Terms of use
+        - text: Terms of use
           link: /zh/terms
-        - 
-          text: Privacy
+        - text: Privacy
           link: /zh/privacy
-        - 
-          text: Press kit
+        - text: Press kit
           link: /press-kit
 
