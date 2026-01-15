@@ -13,7 +13,7 @@ future of the project.
 {{< figure
     src="/surveys/NumPy_usersurvey_2020_report_cover.png"
     alt="Cover page of the 2020 NumPy user survey report"
-    title="NumPy Community Survey 2020 - results"
+    title="NumPy Community Survey 2020 results"
     width=250
 >}}
 
