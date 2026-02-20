@@ -7,7 +7,8 @@ sidebar: false
 
 {{< figure
     src="/surveys/NumPy_usersurvey_2020_report_cover.png"
-    alt="Cover page of the 2020 Numpy User survey report, titled \"Numpyコミュニティ調査2020 - 結果\""
+    alt="Cover page of the 2020 Numpy User survey report"
+    title="Numpyコミュニティ調査2020 - 結果"
     width=250
 >}}
 

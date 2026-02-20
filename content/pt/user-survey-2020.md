@@ -7,7 +7,8 @@ Em 2020, o time de pesquisas do NumPy realizou a primeira pesquisa oficial sobre
 
 {{< figure
     src="/surveys/NumPy_usersurvey_2020_report_cover.png"
-    alt="Página de capa do relatório da pesquisa de usuários do NumPy 2020, chamado \"NumPy Community Survey 2020 - results\""
+    alt="Página de capa do relatório da pesquisa de usuários do NumPy 2020"
+    title="Pesquisa da Comunidade NumPy 2020 - resultados"
     width=250
 >}}
 

@@ -52,7 +52,7 @@ languages:
       - content/ja/config.yaml
       - content/ja/tabcontents.yaml
 
-    # Spanish
+  # Spanish
   es:
     title: NumPy
     weight: 4
@@ -60,3 +60,12 @@ languages:
     include-files:
       - content/es/config.yaml
       - content/es/tabcontents.yaml
+
+  # Chinese
+  zh:
+    title: NumPy
+    weight: 3
+    contentDir: content/zh
+    include-files:
+      - content/zh/config.yaml
+      - content/zh/tabcontents.yaml

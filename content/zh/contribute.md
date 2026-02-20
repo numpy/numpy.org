@@ -1,5 +1,5 @@
 ---
-title: Contribute to NumPy
+title: NumPy贡献者指南
 sidebar: false
 ---
 
@@ -114,5 +114,3 @@ Fundraising is a scarce skill here -- we'd appreciate your help.
 ### Donate
 
 If you'd like to contribute to NumPy by making a donation, visit [https://numpy.org/about/#donate](https://numpy.org/about/#donate).
-
-
