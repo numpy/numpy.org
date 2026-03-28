@@ -9,9 +9,9 @@ The Hugo [install page](https://gohugo.io/getting-started/installing/) has
 instructions for different platforms and installers; make sure you end up with
 the extended version.
 
-On Linux it may be easiest to pick up a tarball of the latest extended version
+On Linux, it may be easiest to pick up a tarball of the latest extended version
 from the [release page](https://github.com/gohugoio/hugo/releases/) and
-install it per https://gohugo.io/getting-started/installing/#install-hugo-from-tarball.
+install it as described in https://gohugo.io/getting-started/installing/#install-hugo-from-tarball.
 
 Next, clone this repository, and install the theme:
 
@@ -31,7 +31,7 @@ python gen_config.py
 hugo server
 ```
 
-after which the site should be served at http://localhost:1313.
+After that, the site should be available at http://localhost:1313.
 
 You'll see
 
@@ -63,7 +63,7 @@ if you don't have the Hugo extended version.
 
 ## Deployment
 
-Submit pull requests first, those get run on [Netlify](https://quansight-labs.netlify.app/) and you can see a build preview by clicking on the `details` link at the bottom.
+Submit pull requests first; they are run on [Netlify](https://quansight-labs.netlify.app/), and you can see a build preview by clicking the `details` link at the bottom.
 
 ![Build previews](images/readme-build-previews.png)
 
