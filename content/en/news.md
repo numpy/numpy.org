@@ -484,6 +484,7 @@ Here is a list of NumPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- NumPy 2.4.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.4.4)) -- _29 Mar 2026_.
 - NumPy 2.4.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.4.3)) -- _9 Mar 2026_.
 - NumPy 2.4.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.4.2)) -- _1 Feb 2026_.
 - NumPy 2.4.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.4.1)) -- _10 Jan 2026_.
