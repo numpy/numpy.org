@@ -46,6 +46,25 @@ Please see
 [here](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) for more
 details and how to get an invite.
 
+## Community Communication Guidelines
+
+- Engage in good faith, and be mindful of how your contributions impact the overall
+progress of the discussion.
+- Critique ideas, not individuals. Avoid personal attributions or speculation about
+motives.
+- Stay evidence-based. Include references from reliable sources. Limit hypotheticals
+to a minimum.
+- Limit repetition and escalation. Do not restate points without adding references
+from new reliable sources.
+- Avoid dominating the discussion. This may include limiting posts to no more than
+1-2 per day or refraining from replying separately to every post in a thread.
+- [NumPy Code of Conduct](https://numpy.org/code-of-conduct) applies at all times.
+This includes tone, language, and behavior.
+
+If the NumPy community moderators determine that a participant is not adhering to
+the principles above, they will reach out to the participant with a polite request
+for the behavior to be adjusted. If the behavior continues, moderators may consider
+additional steps as appropriate.
 
 ## Study Groups and Meetups
 
