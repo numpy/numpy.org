@@ -58,6 +58,7 @@ to a minimum.
 from new reliable sources.
 - Avoid dominating the discussion. This may include limiting posts to no more than
 1-2 per day or refraining from replying separately to every post in a thread.
+- Minimize figurative and region-specific language that may be unclear to a global audience.
 - [NumPy Code of Conduct](https://numpy.org/code-of-conduct) applies at all times.
 This includes tone, language, and behavior.
 
