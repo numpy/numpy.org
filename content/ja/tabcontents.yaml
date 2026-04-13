@@ -355,7 +355,7 @@ params:
         img: /images/content_images/v_seaborn.png
         alttext: 2種類のグラフによるペアプロット。seabornで作られたプロットと周波数グラフ"
       - 
-        url: https://docs.pyvista.org/examples/index.html
+        url: https://pyvista.org
         img: /images/content_images/v_pyvista.png
         alttext: PyVista製の3Dボリュームレンダリング
       - 
