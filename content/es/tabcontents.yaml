@@ -267,7 +267,7 @@ params:
       - url: https://seaborn.pydata.org
         img: /images/content_images/v_seaborn.png
         alttext: Un gráfico de pares de dos tipos de gráficos, un gráfico de trazado y un gráfico de frecuencias hecho en seaborn
-      - url: https://docs.pyvista.org/examples/index.html
+      - url: https://pyvista.org
         img: /images/content_images/v_pyvista.png
         alttext: Un renderizado de volumen 3D realizado en PyVista.
       - url: https://napari.org
