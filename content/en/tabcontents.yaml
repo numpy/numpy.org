@@ -278,7 +278,7 @@ params:
     - url: https://seaborn.pydata.org
       img: /images/content_images/v_seaborn.png
       alttext:  A pairplot of two types of graph, a plot-graph and a frequency graph made in seaborn"
-    - url: https://docs.pyvista.org/
+    - url: https://pyvista.org
       img: /images/content_images/v_pyvista.png
       alttext:  A 3D volume rendering made in PyVista.
     - url: https://napari.org
@@ -295,6 +295,6 @@ params:
             [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly),
             [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/),
             [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://napari.org/),
-            and [PyVista](https://docs.pyvista.org/), to name a few.
+            and [PyVista](https://pyvista.org), to name a few.
     - text: NumPy's accelerated processing of large arrays allows researchers to visualize
             datasets far larger than native Python could handle.

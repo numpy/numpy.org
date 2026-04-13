@@ -272,7 +272,7 @@ params:
     - url: https://seaborn.pydata.org
       img: /images/content_images/v_seaborn.png
       alttext: A plot duplo com dois tipos de gráficos, um plot-graph e um gráfico de frequência feitos no seaborn
-    - url: https://docs.pyvista.org/
+    - url: https://pyvista.org
       img: /images/content_images/v_pyvista.png
       alttext: Uma renderização de volume 3D feita no PyVista.
     - url: https://napari.org
