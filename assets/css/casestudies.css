@@ -24,9 +24,17 @@
 }
 
 .casestudies-box-title {
+    line-height: 1.5em;
+    height: 3.0em;
     margin: 15px;
     font-size: 16px;
     text-transform: uppercase;
+}
+
+.casestudies-box-content img {
+    object-fit: cover;
+    width: 350px;
+    height: 218.5px;
 }
 
 .casestudies-box-text {
