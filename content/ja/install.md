@@ -2,8 +2,13 @@
 title: NumPyのインストール
 sidebar: false
 ---
-
-{{< admonition >}}
+{{< admonition tip >}}
+This page assumes you are comfortable using a terminal and are familiar with package managers. 
+The only prerequisite for installing NumPy is Python itself. If you don't have
+Python yet and want the simplest way to get started, we recommend you use the
+[Anaconda Distribution](https://www.anaconda.com/download) - it includes
+Python, NumPy, and many other commonly used packages for scientific computing
+and data science.
 {{< /admonition >}}
 
 NumPy のインストールする推奨の方法は、希望するワークフローによって異なります。 そこで、インストール方法を以下のカテゴリに分類しました。
@@ -33,11 +38,13 @@ content = '''
   pixi add numpy
   ```
 
+'''
 
+[[tab]]
+name = 'Environment Based'
+content = '''
 
-個人的な好みや、下記のcondaとpipの違いを理解した上で、pip/PyPIベースの方法を使いたいユーザーには、下記をお勧めします:
-
-`pip` と `conda` がPythonパッケージをインストールするための2つの主要なツールです。 これら二つのツールの機能は部分的に重複しますが(例えば、両方とも `numpy`をインストールできます)、一緒に動作することもできます。 ハイパフォーマンスコンピューティング(HPC)では、 <a href="https://github.com/spack/spack">Spack</a> を使うことを検討して下さい。
+`pip` と `conda` がPythonパッケージをインストールするための2つの主要なツールです。 これら二つのツールの機能は部分的に重複しますが(例えば、両方とも `numpy`をインストールできます)、一緒に動作することもできます。
 
 pipとcondaの最初の違いは、Conda は複数の言語に対応しており Python 自体をインストールできるのに対し、pip は特定の Python 環境にインストールされ、その Python に対してのみパッケージをインストールすることができることです。 これら二つのツールの機能は部分的に重複しますが(例えば、両方とも <code>numpy</code>をインストールできます)、一緒に動作することもできます。
 
@@ -49,14 +56,15 @@ pipとcondaの最初の違いは、Conda は複数の言語に対応しており
   ```bash
   conda create -n my-env
   conda activate my-env
-  conda conda install numpy
+  conda install numpy
   ```
 - **Pip:**
   ```bash
   pip install numpy
   ```
 
-{{< admonition >}}
+{{< admonition tip >}}
+**Tip:** Use a virtual environment for better dependency management
 {{< /admonition >}}
 
   ```bash
@@ -65,8 +73,7 @@ pipとcondaの最初の違いは、Conda は複数の言語に対応しており
   my-env\Scripts\activate # Windows
   pip install numpy
   ```
-
-
+'''
 
 [[tab]]
 name = 'システムパッケージマネージャを利用'
@@ -74,30 +81,18 @@ content = '''
 ほとんどのユーザーには推奨されませんが、こちらの方が便利な人向けに利用可能です。
 
 **macOS (Homebrew):**
-
 ```bash
-# base envにインストールするのでなく、environmentを作成するのがベストプラクティスです
-conda create -n my-env
-conda activate my-env
-# conda-forgeからインストールする場合
-conda config --env --add channels conda-forge
-# インストールコマンド
-conda install numpy
+brew install numpy
 ```
-
 **Linux (APT):**
-
 ```bash
 sudo apt install python3-numpy
 ```
-
 **Windows (Chocolatey):**
-
 ```bash
 choco install numpy
 ```
-
-
+'''
 
 [[tab]]
 name = 'ソースコードからビルドする'
@@ -108,6 +103,7 @@ content = '''
 前述のいずれかの方法であなたの環境NumPyを使用できる場合は、バイナリを使用することをお勧めします.
 ソースからのビルドの詳細な方法については、[Numpy docsのソースガイドからのビルド](https://numpy.org/devdocs/building/)を参照してください。
 
+'''
 {{< /tabs >}}
 
 ## 推奨方法
@@ -127,8 +123,9 @@ print(np.__version__)
 ImportErrorを参照してください。
 
 ```
-重要：この問題を解決する方法についてのアドバイスを読む前に、こちらを必ずお読みください！
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
 
-NumPy の C 拡張モジュールのインポートに失敗しました。このエラーは、さまざまな理由で発生する可能性があり、多くの場合は環境セットアップの問題が原因です。
+Importing the numpy c-extensions failed. This error can happen for
+different reasons, often due to issues with your setup.
 ```
 
