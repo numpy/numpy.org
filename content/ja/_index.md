@@ -24,6 +24,7 @@ title = 'オープンソース'
 body = '''
 NumPyは、寛容な[BSDライセンス](https://github.com/numpy/numpy/blob/main/LICENSE.txt)で公開されています。NumPyは活発で、互>いを尊重し、多様性を認め合う[コミュニティ](/ja/community)によって、 [GitHub](https://github.com/numpy/numpy)上でオープンに開発されていま
 す.
+'''
 
 [[item]]
 type = 'card'
@@ -39,7 +40,7 @@ title = '高パフォーマンス'
 body = '''
 NumPyの大部分は最適化されたC言語のコードで構成されています。これによりPythonの柔軟性とコンパイルされたコードの高速性の両方
 を享受できます。
-''' コンパイルされたコードのスピードでの Python の柔軟性をお楽しみください。
+'''
 
 [[item]]
 type = 'card'
