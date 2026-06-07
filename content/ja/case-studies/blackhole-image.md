@@ -13,7 +13,7 @@ sidebar: false
 
 {{< blockquote
   cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
-  by="{{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="_カリフォルニア工科大学 計算・数理学部_のKatie Bouman助教授""
+  by="_カリフォルニア工科大学 計算・数理学部_のKatie Bouman助教授"
 >}}
 {{< /blockquote >}}
 

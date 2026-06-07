@@ -12,9 +12,10 @@ sidebar: false
 >}}
 
 {{< blockquote
-  cite="{{< blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/" by="Alexander Mathis、 _准教授、École polytechnology fe’rale de Lausanne_ ([EPFL](https://www.epfl.ch/en/))""
-  by="Alexander Mathis, _Assistant Professor, École polytechnique fédérale de Lausanne_ ([EPFL](https://www.epfl.ch/en/))"
+  cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/"
+  by="Alexander Mathis、 _准教授、École polytechnology fe’rale de Lausanne_ ([EPFL](https://www.epfl.ch/en/))"
 >}}
+オープンソースソフトウェアは生体臨床医学を加速させています。 DeepLabCut を使用すると、深層学習を使用して動物の行動を自動的にビデオ解析することができます。
 {{< /blockquote >}}
 
 ## DeepLabCut について

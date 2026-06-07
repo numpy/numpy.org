@@ -11,10 +11,11 @@ sidebar: false
   attributionlink="https://unsplash.com/@aksh1802"
 >}}
 
-{{< blockquote
-  cite="{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni、 _インディアンチームの元キャプテン、インターナショナル・クリケットプレイヤー、チェンナイ・スーパー・キングスのためにIPLでプレイ_""
-  by="\*\* IPLT20、インド最大のクリケットフェスティバル\*\*"
+{{< blockquote 
+  cite="https://www.scoopwhoop.com/sports/ms-dhoni/"
+  by="M S Dhoni、 _インディアンチームの元キャプテン、インターナショナル・クリケットプレイヤー、チェンナイ・スーパー・キングスのためにIPLでプレイ_"
 >}}
+  You don't play for the crowd, you play for the country.
 {{< /blockquote >}}
 
 ## クリケットについて
