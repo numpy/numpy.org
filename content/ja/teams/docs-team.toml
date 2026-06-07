@@ -1,69 +1,69 @@
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/4336207?u=564d623a8c9d710c3520841b83458b0bf1eae010&v=4"'
-alt = 'Avatar of Rohit Goswami'
-{{< /image >}}
+body = '''{{< image
+    src="https://avatars.githubusercontent.com/u/4336207?u=564d623a8c9d710c3520841b83458b0bf1eae010&v=4\""
+    alt="Avatar of Rohit Goswami"
+>}}
 Rohit Goswami'''
 link = 'https://github.com/HaoZeke'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/43481325?u=8c0c0adbf3f2efd2cce72951d3554064c7bbfce3&v=4"'
-alt = 'Avatar of Inessa Pawson'
-{{< /image >}}
+body = '''{{< image
+    src="https://avatars.githubusercontent.com/u/43481325?u=8c0c0adbf3f2efd2cce72951d3554064c7bbfce3&v=4\""
+    alt="Avatar of Inessa Pawson"
+>}}
 Inessa Pawson'''
 link = 'https://github.com/InessaPawson'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/46167686?u=b5ca05a767012822d06b8bc16e3cd5ca0d1cafe9&v=4"'
-alt = 'Avatar of Mars Lee'
-{{< /image >}}
+body = '''{{< image
+    src="https://avatars.githubusercontent.com/u/46167686?u=b5ca05a767012822d06b8bc16e3cd5ca0d1cafe9&v=4\""
+    alt="Avatar of Mars Lee"
+>}}
 Mars Lee'''
 link = 'https://github.com/MarsBarLee'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/823911?u=1dd52e6dcca6a7a35b6644935cdd33a6e166a596&v=4"'
-alt = 'Avatar of Matti Picus'
-{{< /image >}}
+body = '''{{< image
+    src="https://avatars.githubusercontent.com/u/823911?u=1dd52e6dcca6a7a35b6644935cdd33a6e166a596&v=4\""
+    alt="Avatar of Matti Picus"
+>}}
 Matti Picus'''
 link = 'https://github.com/mattip'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/3949932?u=aacac68df60d2cf64c17c7e5aa17adf8b738aa7b&v=4"'
-alt = 'Avatar of Melissa Weber Mendonça'
-{{< /image >}}
+body = '''{{< image
+    src="https://avatars.githubusercontent.com/u/3949932?u=aacac68df60d2cf64c17c7e5aa17adf8b738aa7b&v=4\""
+    alt="Avatar of Melissa Weber Mendonça"
+>}}
 Melissa Weber Mendonça'''
 link = 'https://github.com/melissawm'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/60316606?u=229ba03253068b0a4f206b0be08f7a9e76c832f1&v=4"'
-alt = 'Avatar of Mukulika'
-{{< /image >}}
+body = '''{{< image
+    src="https://avatars.githubusercontent.com/u/60316606?u=229ba03253068b0a4f206b0be08f7a9e76c832f1&v=4\""
+    alt="Avatar of Mukulika"
+>}}
 Mukulika'''
 link = 'https://github.com/Mukulikaa'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/1268991?u=974707b96081a9705f3a239c0773320f353ee02f&v=4"'
-alt = 'Avatar of Ross Barnowski'
-{{< /image >}}
+body = '''{{< image
+    src="https://avatars.githubusercontent.com/u/1268991?u=974707b96081a9705f3a239c0773320f353ee02f&v=4\""
+    alt="Avatar of Ross Barnowski"
+>}}
 Ross Barnowski'''
 link = 'https://github.com/rossbar'
