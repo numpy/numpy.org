@@ -33,11 +33,11 @@ sidebar: false
 
 DeepLabCutは、動物の姿勢を抽出することで非侵襲的な行動追跡を行います。 これは、生体力学、遺伝学、倫理学、神経科学などの分野での研究に必要不可欠です。 動的に変化する背景の中で、動物の姿勢をビデオデータから非侵襲的に測定することは、技術的にも、必要な計算リソースやトレーニングデータの点でも、非常に困難な計算処理です。 動的に変化する背景の中で、動物の姿勢をビデオデータから非侵襲的に測定することは、技術的にも、必要な計算リソースやトレーニングデータの点でも、非常に困難な計算処理です。
 
-DeepLabCutは、研究者が対象の姿勢を推定し、Pythonベースのソフトウェアを使って効率的に対象の行動を定量化することを可能にします。  DeepLabCutを使用すると、研究者は動画から異なるフレームを識別し、数十個のフレームの特定の身体部位を、よくできたGUIによってラベルづけできます。 すると、DeepLabCutの深層学習ベースのポーズ推定アーキテクチャにより、動画の残りの部分や動物の他の類似した動画から同じ特徴を抽出する方法を学習できます。 It works across species of animals, from common laboratory animals such as flies and mice to more unusual animals like [cheetahs][cheetah-movement].
+DeepLabCutは、研究者が対象の姿勢を推定し、Pythonベースのソフトウェアを使って効率的に対象の行動を定量化することを可能にします。  DeepLabCutを使用すると、研究者は動画から異なるフレームを識別し、数十個のフレームの特定の身体部位を、よくできたGUIによってラベルづけできます。 すると、DeepLabCutの深層学習ベースのポーズ推定アーキテクチャにより、動画の残りの部分や動物の他の類似した動画から同じ特徴を抽出する方法を学習できます。 ハエやマウスなどの一般的な実験動物から [チーター][cheetah-movement]のようなより珍しい動物まで、動物の種類を問わず利用できます。
 
 [cheetah-movement]: https://www.technologynetworks.com/neuroscience/articles/interview-a-deeper-cut-into-behavior-with-mackenzie-mathis-327618
 
-DeepLabCut uses a principle called [transfer learning](https://arxiv.org/pdf/1909.11229), which greatly reduces the amount of training data required and speeds up the convergence of the training period.  必要に応じて、より高速な推論を提供するさまざまなネットワークアーキテクチャ(MobileNetV2など)を選択することができ、リアルタイムの実験データフィードバックと組み合わせることもできます。 DeepLabCut originally used the feature detectors from a top-performing human pose estimation architecture, called [DeeperCut](https://arxiv.org/abs/1605.03170), which inspired the name. 今ではこのパッケージは大幅に変更され、追加のアーキテクチャ・データの水増し・一通りのユーザー用フロントエンドを含んでいます。 さらに、 大規模な生物学的実験をサポートするため、DeepLabCutはオンライン学習の機能を提供しています。 これにより、動画の時間をこえて学習データを増やすことができ、エッジケースをカバーしたり、特定のコンテキスト内でポーズ推定アルゴリズムを堅牢にしたりできます。
+DeepLabCutでは[転移学習](https://arxiv.org/pdf/1909.11229)という技術を使用しています。 これにより必要な学習データの量を大幅に削減し、学習の収束を加速させることができます。  必要に応じて、より高速な推論を提供するさまざまなネットワークアーキテクチャ(MobileNetV2など)を選択することができ、リアルタイムの実験データフィードバックと組み合わせることもできます。 DeepLabCutはもともと[DeeperCut](https://arxiv.org/abs/1605.03170)と呼ばれるパフォーマンスのよい人用のポーズ推定アーキテクチャの特徴検出器を使用しており、これが名前の由来になりました。 今ではこのパッケージは大幅に変更され、追加のアーキテクチャ・データの水増し・一通りのユーザー用フロントエンドを含んでいます。 さらに、 大規模な生物学的実験をサポートするため、DeepLabCutはオンライン学習の機能を提供しています。 これにより、動画の時間をこえて学習データを増やすことができ、エッジケースをカバーしたり、特定のコンテキスト内でポーズ推定アルゴリズムを堅牢にしたりできます。
 
 最近、[DeepLabCut model zoo](http://www.mousemotorlab.org/dlc-modelzoo)が発表されました。 これは、霊長類の顔分析から犬の姿勢まで、様々な種や実験条件に対応した事前訓練済みモデルを提供しています。 これにより、例えば、新しいデータのラベルを付けることなくクラウドで予測を実行することができたり、ニューラルネットワークの学習を実行することができます。 プログラミング経験は必要ありません。 これにより、例えば、新しいデータのラベルを付けることなくクラウドで予測を実行することができたり、ニューラルネットワークの学習を実行することができます。 プログラミング経験は必要ありません。
 
@@ -45,22 +45,11 @@ DeepLabCut uses a principle called [transfer learning](https://arxiv.org/pdf/190
 
 - **科学研究のための動物姿勢解析の自動化:**
 
-  DeepLabCutという技術の主な目的は、多様な環境で動物の姿勢を測定し追跡することです。 このデータは例えば神経科学の研究において、脳がどのように運動を制御しているかを理解するためのや、動物がどのように社会的に交流しているかを明らかにするために利用することができます。 研究者はDeepLabCutで [10倍のパフォーマンス向上](https://www.biorxiv.org/content/10.1101/457242v1) が可能であると発表しています。 オフラインでは最大1200フレーム/秒(FPS) で姿勢を推定することができます。 This data can be used, for example, in
-  neuroscience studies to understand how the brain controls movement, or to
-  elucidate how animals socially interact. Researchers have observed a
-  [tenfold performance boost](https://www.biorxiv.org/content/10.1101/457242v1)
-  with DeepLabCut. Poses can be inferred offline at up to 1200 frames per second
-  (FPS).
+  DeepLabCutという技術の主な目的は、多様な環境で動物の姿勢を測定し追跡することです。 このデータは例えば神経科学の研究において、脳がどのように運動を制御しているかを理解するためのや、動物がどのように社会的に交流しているかを明らかにするために利用することができます。 研究者はDeepLabCutで [10倍のパフォーマンス向上](https://www.biorxiv.org/content/10.1101/457242v1) が可能であると発表しています。 オフラインでは最大1200フレーム/秒(FPS) で姿勢を推定することができます。
 
 - **姿勢推定のための使いやすいPythonツールキットの作成:**
 
-  DeepLabCut wanted to share their animal pose-estimation technology in the form
-  of an easy to use tool that can be adopted by researchers easily. So they have
-  created a complete, easy-to-use Python toolbox with project management features
-  as well. These enable not only automation of pose-estimation but also
-  managing the project end-to-end by helping the DeepLabCut Toolkit user right
-  from the dataset collection stage to creating shareable and reusable analysis
-  pipelines.
+  DeepLabCutは、動物の姿勢推定技術を研究者が簡単に利用できるツールとして共有したいという考えから開発されています。 そこで開発者らはプロジェクト管理機能を備えた、単独で機能し、使いやすいPythonツールボックスとしてこのツールを作成しました。 これにより、姿勢推定を自動化するだけでなく、DeepLabCutツールキットユーザーをデータセット収集段階から共有可能・再利用可能な分析パイプラインを作成する段階まで補助し、プロジェクトをエンドツーエンドで管理することも可能になりました。
 
   この[ツールキット][DLCToolkit] はオープンソースとして利用できます。
 
@@ -87,17 +76,10 @@ DeepLabCut uses a principle called [transfer learning](https://arxiv.org/pdf/190
 - **速度**
 
   動物行動動画の高速な処理は、動物の行動を測定し、科学実験をより効率的で正確にするために重要です。 動的に変化する背景の中で、マーカーを使用せずに、実験室での実験のために動物の詳細な姿勢を抽出することは、技術的にも、必要なリソース的にも、必要なトレーニングデータの面でも、困難な場合があります。 科学者が、より現実的な状況で研究を行うために、コンピュータビジョンなどの専門知識のスキルを必要とせずに使うことができるツールを開発することは、解決すべき重要な問題です。
-  Extracting detailed animal poses for laboratory experiments, without
-  markers, in dynamically changing backgrounds, can be challenging, both
-  technically as well as in terms of resource needs and training data required.
-  Coming up with a tool that is easy to use without the need for skills such
-  as computer vision expertise that enables scientists to do research in more
-  real-world contexts, is a non-trivial problem to solve.
 
 - **組み合わせ問題**
 
-  Combinatorics involves assembly and integration of movement of multiple
-  limbs into individual animal behavior. 組合せ問題とは、複数の四肢の動きを個々の動物行動に統合することを指します。 キーポイントと、その個々の動物行動との関連性を組み合わせ、時間的に結びつけることは、複雑なプロセスであり、非常に膨大な数値解析が必要となります。 特に、実験映像の中で複数の動物の動きを追跡する場合は大変です。
+  組合せ問題とは、複数の四肢の動きを個々の動物行動に統合することを指します。 キーポイントと、その個々の動物行動との関連性を組み合わせ、時間的に結びつけることは、複雑なプロセスであり、非常に膨大な数値解析が必要となります。 特に、実験映像の中で複数の動物の動きを追跡する場合は大変です。
 
 - **データ処理**
 

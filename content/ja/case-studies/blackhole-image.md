@@ -15,14 +15,12 @@ sidebar: false
   cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
   by="_カリフォルニア工科大学 計算・数理学部_のKatie Bouman助教授"
 >}}
+M87ブラックホールを画像化することは、見ることのできないものを、あえて見ようとするようなものです。
 {{< /blockquote >}}
 
 ## 地球大の望遠鏡
 
-[Event Horizon telescope(EHT)](https:/eventhorizontelescope.org)は、地球サイズの解析望遠鏡を形成する8台の地上型電波望遠鏡から成るシステムで、これまでに前例のない感度と解像度で宇宙を研究することができます。  超長基線干渉法(VLBI) と呼ばれる手法を用いた巨大な仮想望遠鏡の角度分解能は、[20マイクロ秒][resolution]で、ニューヨークにある新聞をパリの歩道のカフェから読むのに十分な解像度です!  The huge virtual telescope,  which uses a technique
-called very-long-baseline interferometry (VLBI), has an angular resolution of
-[20 micro-arcseconds][resolution] — enough to read a newspaper in New York
-from a sidewalk café in Paris!
+[Event Horizon telescope(EHT)](https:/eventhorizontelescope.org)は、地球サイズの解析望遠鏡を形成する8台の地上型電波望遠鏡から成るシステムで、これまでに前例のない感度と解像度で宇宙を研究することができます。  超長基線干渉法(VLBI) と呼ばれる手法を用いた巨大な仮想望遠鏡の角度分解能は、[20マイクロ秒][resolution]で、ニューヨークにある新聞をパリの歩道のカフェから読むのに十分な解像度です!
 
 [resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
 
@@ -30,14 +28,9 @@ from a sidewalk café in Paris!
 
 - **宇宙の新しい見方:** EHTの画期的な考え方の基礎が築かれたのは、100年前に [Sir Arthur Eddington][eddington]がアインシュタインの一般相対性理論に沿った最初の観測を実施したことが始まりでした。
 
-- **ブラックホール:** EHTは、おとめ座銀河団のメシエ87銀河 (M87) の中心にある、地球から約5500万光年の距離にある超巨大ブラックホールを観測しました。 その質量は、太陽の65億倍です。 [100年以上](https://www.jpl.nasa.gov/news/news.php?feature=7385)に渡る研究が行われてもなお、これまでに視覚的にブラックホールを観測できたことはありませんでした。 Its mass is
-  6.5 billion times the Sun's. It had been studied for
-  [over 100 years](https://www.jpl.nasa.gov/news/news.php?feature=7385), but never before
-  had a black hole been visually observed.
+- **ブラックホール:** EHTは、おとめ座銀河団のメシエ87銀河 (M87) の中心にある、地球から約5500万光年の距離にある超巨大ブラックホールを観測しました。 その質量は、太陽の65億倍です。 [100年以上](https://www.jpl.nasa.gov/news/news.php?feature=7385)に渡る研究が行われてもなお、これまでに視覚的にブラックホールを観測できたことはありませんでした。
 
-- **Comparing Observations to Theory:** From Einstein’s general theory of
-  relativity, scientists expected to find a shadow-like region caused by
-  gravitational bending and capture of light. **観測と理論の比較:** 科学者たちの間で、アインシュタインの一般相対性理論から、重力による光の曲げや光の捕獲による影のような領域が観測できるのではないかと期待されていました。 これはブラックホールの巨大な質量を測定するために利用することができます。
+- **観測と理論の比較:** 科学者たちの間で、アインシュタインの一般相対性理論から、重力による光の曲げや光の捕獲による影のような領域が観測できるのではないかと期待されていました。 これはブラックホールの巨大な質量を測定するために利用することができます。
 
 [eddington]: https://en.wikipedia.org/wiki/Eddington_experiment
 
@@ -49,8 +42,7 @@ from a sidewalk café in Paris!
 
 - **大量のデータ**
 
-  EHTは一日で350テラバイトを超える観測データを生成し、ヘリウムで満たされたハードドライブに保存しています。 この大量のデータとデータの複雑さを軽減することは非常に難しいことです。 Reducing the volume and complexity of this much
-  data is enormously difficult.
+  EHTは一日で350テラバイトを超える観測データを生成し、ヘリウムで満たされたハードドライブに保存しています。 この大量のデータとデータの複雑さを軽減することは非常に難しいことです。
 
 - **よくわからないものを観測する**
 
@@ -90,9 +82,6 @@ NumPyは、以下のソフトウェア依存関係チャートで示されてい
 
 [ehtim]: https://github.com/achael/eht-imaging
 
-Besides NumPy, many other packages, such as
-[SciPy](https://scipy.org) and [Pandas](https://pandas.pydata.org), are part of the
-data processing pipeline for imaging the black hole.
 NumPyだけでなく、[SciPy](https://www.scipy.org)や[Pandas](https://pandas.io)などのパッケージもブラックホール画像化におけるデータ処理パイプラインに利用されています。 天文学の標準的なファイル形式や時間/座標変換 は[Astropy][astropy]で実装され、ブラックホールの最終画像の生成を含め、解析パイプライン全体でのデータ可視化には [Matplotlib][mpl]が利用されました。
 
 [astropy]: https://www.astropy.org/

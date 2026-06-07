@@ -1,9 +1,51 @@
 ---
 title: ニュース
 sidebar: false
-newsHeader: NumPy 1.26.0 がリリースされました。
-date: 2023-09-16
+newsHeader: "NumPy 2.4.0 released!"
+date: 2025-12-20
 ---
+
+### NumPy Fellowship Program 2025 Retrospective
+
+_8 Jan, 2026_ -- Joren Hammudoglu ([@jorenham](https://github.com/jorenham)) has published a
+retrospective on his year as a NumPy Fellow. Read the full post on the Scientific Python blog:
+
+[A Year of Typing: My NumPy Fellowship Retrospective](https://blog.scientific-python.org/numpy/fellowship-program-2025-retrospective/).
+
+
+### NumPy 2.4.0 released
+
+_20 Dec, 2025_ -- The NumPy 2.4.0 release continues the work to improve free
+threaded Python support, user dtypes implementation, and annotations. There are
+many expired deprecations and bug fixes as well. Highlights are:
+
+- Many annotation improvements. In particular, runtime signature introspection.
+- New `casting` kwarg `'same_value'` for casting by value.
+- New `PyUFunc_AddLoopsFromSpec` function that can be used to add user sort
+  loops using the `ArrayMethod` API.
+- New `__numpy_dtype__` protocol.
+
+This release supports Python versions 3.11-3.14
+
+
+### NumPy 2.3.0 released
+
+_7 Jun, 2025_ -- The NumPy 2.3.0 release improves free threaded Python support
+and annotations together with the usual set of bug fixes. It is unusual in the
+number of expired deprecations, code modernizations, and style cleanups. The
+latter may not be visible to users, but is important for code maintenance over
+the long term. Note that we have also upgraded from manylinux2014 to
+manylinux_2_28. Highlights are:
+
+- Interactive examples in the NumPy documentation.
+- Building NumPy with OpenMP Parallelization.
+- Preliminary support for Windows on ARM.
+- Improved support for free threaded Python.
+- Improved annotations.
+
+This release supports Python versions 3.11-3.13, Python 3.14 will be
+supported when it is released.
+
 
 ### NumPy 2.2.0 がリリースされました。
 
