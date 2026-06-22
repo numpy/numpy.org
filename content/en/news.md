@@ -1,9 +1,27 @@
 ---
 title: "News"
 sidebar: false
-newsHeader: "NumPy 2.4.0 released!"
-date: 2025-12-20
+newsHeader: "NumPy 2.5.0 released!"
+date: 2026-06-21
 ---
+
+### NumPy 2.5.0 released
+
+_21 Jun, 2026_ -- Numpy 2.5.0 is a transitional release. It drops support for
+Python 3.11, marking the end of distutils, and expires a large number of
+deprecations made in the 2.0.x release. It also improves free threading and
+brings sorting into compliance with the array-api standard with the addition of
+descending sorts. Highlights are:
+
+- Distutils has been removed,
+- Many expired deprecations, see below,
+- Many new deprecations, see below,
+- Many static typing improvements,
+- Improved support for free threading,
+- Support for descending sorts.
+
+This release supports Python versions 3.12-3.14
+
 
 ### NumPy Fellowship Program 2025 Retrospective
 
@@ -484,6 +502,7 @@ Here is a list of NumPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- NumPy 2.5.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.5.0)) -- _21 Jun 2026_.
 - NumPy 2.4.6 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.4.6)) -- _18 May 2026_.
 - NumPy 2.4.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.4.5)) -- _15 May 2026_.
 - NumPy 2.4.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.4.4)) -- _29 Mar 2026_.
