@@ -73,6 +73,6 @@ La recaudación de fondos es una habilidad escasa aquí -- apreciaríamos tu ayu
 
 ### Donar
 
-Si deseas contribuir a NumPy haciendo una donación, visita <a href=«https://numpy.org/about/#donate»>https://numpy.org/about/#donate</a>.
+Si deseas contribuir a NumPy haciendo una donación, visita <a href="https://numpy.org/about/#donate">https://numpy.org/about/#donate</a>.
 
 
