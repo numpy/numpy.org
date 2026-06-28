@@ -8,7 +8,6 @@ En 2020, el equipo de encuestas de NumPy, en asociación con estudiantes y profe
 {{< figure
     src="/surveys/NumPy_usersurvey_2020_report_cover.png"
     alt="Página de portada del informe de la encuesta de usuarios de NumPy de 2020"
-    title="Encuesta de la Comunidad de NumPy 2020 - resultados"
     width=250
 >}}
 
