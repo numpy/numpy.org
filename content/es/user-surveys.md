@@ -7,4 +7,4 @@ sidebar: false
 
 **2021** Los datos recolectados están siendo analizados actualmente.
 
-Si tienes alguna pregunta o sugerencia sobre las encuestas pasadas o futuras, por favor abre una propuesta [aquí](https://github.com/numpy/numpy-surveys/issues). 
+Si tienes alguna pregunta o sugerencia sobre las encuestas pasadas o futuras, por favor abre una propuesta [aquí](https://github.com/numpy/numpy-surveys/issues).
