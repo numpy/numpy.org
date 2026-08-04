@@ -20,10 +20,15 @@ if you prefer to talk privately, contact our community coordinators at
 (write  <numpy-team@googlegroups.com> for an invite).
 
 We also have _community_ and _triage_ meetings, alternating weekly on
-Wednesdays; see the [community calendar](https://scientific-python.org/calendars/)
-for times. You are very welcome to join.
-If you are new to contributing to open source, we also highly recommend reading
-[this guide](https://opensource.guide/how-to-contribute/).
+Wednesdays; see the [community
+calendar](https://scientific-python.org/calendars/) for times.  We also announce
+the meetings on the [mailing
+list](https://mail.python.org/mailman/listinfo/numpy-discussion).  You are very
+welcome to join.
+
+If you are new to contributing to open source, we
+also highly recommend reading [this
+guide](https://opensource.guide/how-to-contribute/).
 
 Our community aspires to treat everyone equally and to value all
 contributions. We have a [Code of Conduct](/code-of-conduct) to foster an open
@@ -38,9 +43,9 @@ For a visual guide on how to contribute to NumPy, check out this [comic](https:/
 Programmers, this
 [guide](https://numpy.org/devdocs/dev/index.html#development-process-summary)
 explains how to contribute to the NumPy codebase.
-Note that non-maintainers may only have one non-draft pull request open for
+Note that non-maintainers may only have two non-draft pull request open for
 review at a time. Come introduce yourself at a community or triage meeting
-to be added to the exception list for the one-PR-at-a-time policy.
+to be added to the exception list for the two-PRs-at-a-time policy.
 <br>Check out also our [YouTube channel](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) for additional advice.
 
 ### Reviewing pull requests
