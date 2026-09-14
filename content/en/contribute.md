@@ -14,21 +14,23 @@ list](https://mail.python.org/mailman/listinfo/numpy-discussion) or
 [issue](https://github.com/numpy/numpy/issues) or comment on a relevant
 issue).
 
-Those are our preferred channels (open source is open by nature), but
-if you prefer to talk privately, contact our community coordinators at
-<numpy-team@googlegroups.com> or on [Slack](https://numpy-team.slack.com)
-(write  <numpy-team@googlegroups.com> for an invite).
+Those are our preferred channels (open source is open by nature). We also
+recognize that reaching out in public can feel a little daunting,
+if you are new to the project or to open source. If you’d feel more comfortable
+starting with a private conversation, you are welcome to reach out to our
+active maintainers via <numpy-team@googlegroups.com> or on
+[Slack](https://numpy-team.slack.com)
+(ask for an invite via <numpy-team@googlegroups.com>).
 
 We also have _community_ and _triage_ meetings, alternating weekly on
 Wednesdays; see the [community
-calendar](https://scientific-python.org/calendars/) for times.  We also announce
+calendar](https://scientific-python.org/calendars/) for times.  We announce
 the meetings on the [mailing
-list](https://mail.python.org/mailman/listinfo/numpy-discussion).  You are very
-welcome to join.
+list](https://mail.python.org/mailman/listinfo/numpy-discussion) as well.
+You are welcome and encouraged to join.
 
-If you are new to contributing to open source, we
-also highly recommend reading [this
-guide](https://opensource.guide/how-to-contribute/).
+If you are new to contributing to open source, we highly recommend reading
+[this guide](https://opensource.guide/how-to-contribute/).
 
 Our community aspires to treat everyone equally and to value all
 contributions. We have a [Code of Conduct](/code-of-conduct) to foster an open
@@ -43,7 +45,7 @@ For a visual guide on how to contribute to NumPy, check out this [comic](https:/
 Programmers, this
 [guide](https://numpy.org/devdocs/dev/index.html#development-process-summary)
 explains how to contribute to the NumPy codebase.
-Note that non-maintainers may only have two non-draft pull request open for
+Note that non-maintainers may only have two non-draft pull requests open for
 review at a time. Come introduce yourself at a community or triage meeting
 to be added to the exception list for the two-PRs-at-a-time policy.
 <br>Check out also our [YouTube channel](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) for additional advice.
@@ -94,14 +96,14 @@ opportunities abound.
 
 ### Translating website content
 
-We are working on translating [numpy.org](https://numpy.org) into multiple languages to make 
+We are working on translating [numpy.org](https://numpy.org) into multiple languages to make
 its content more accessible to NumPy users all over the globe. (See
 [NEP 28](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n)
-for background.) Volunteer translators are at the heart of this effort. If you'd like to help, 
-join the *translation* channel on the 
+for background.) Volunteer translators are at the heart of this effort. If you'd like to help,
+join the *translation* channel on the
 [Scientific Python Discord server](https://discord.com/invite/vur45CbwMz).
 
-To get familiar with our translation process, read the guide 
+To get familiar with our translation process, read the guide
 [How to translate content using Crowdin](https://scientific-python-translations.github.io/translate/).
 
 ### Community coordination and outreach
@@ -112,11 +114,11 @@ sprints](https://scisprints.github.io/), a newsletter, and perhaps a blog.
 
 ### Fundraising
 
-For many years, NumPy was maintained by dedicated volunteers, but as its importance grew it 
+For many years, NumPy was maintained by dedicated volunteers, but as its importance grew it
 became clear that to ensure stability and growth we would need financial support.
-[This SciPy'19 talk](https://www.youtube.com/watch?v=dBTJD_FDVjU) explains how much difference 
-that support has made. Like most nonprofits, we are constantly seeking grants, sponsorships, 
-and other kinds of funding. We have a number of ideas and of course we welcome more. 
+[This SciPy'19 talk](https://www.youtube.com/watch?v=dBTJD_FDVjU) explains how much difference
+that support has made. Like most nonprofits, we are constantly seeking grants, sponsorships,
+and other kinds of funding. We have a number of ideas and of course we welcome more.
 Fundraising is a scarce skill here -- we'd appreciate your help.
 
 ### Donate
