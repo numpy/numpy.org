@@ -3,7 +3,7 @@
 {{- $features := index $casestudies "features" }}
 <section class="casestudies">
     <div class="container">
-        <h1 class="casestudies-title">{{ $title }}</h1>
+        <h1 id="case-studies" class="casestudies-title">{{ $title }}</h1>
         <div class="casestudies-box-container">
             {{- range $features }}
             <a class="casestudies-box-content casestudies-underline" href="{{ .url }}">
