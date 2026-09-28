@@ -13,6 +13,22 @@ table td, table th {
 .tabs-section {
     display: flex;
     flex-direction: column;
+
+    html[data-theme=dark] & img {
+        filter: invert(1) !important;
+    }
+
+    & .tabs div li {
+        display: inline;
+
+        & .grid-container {
+            margin-top: 1em;
+
+            & p {
+                margin-top: 0em;
+            }
+        }
+    }
 }
 
 .tabs-section .container {
@@ -110,6 +126,10 @@ section.scientific-domains {
                 width: 50px;
                 height: 50px;
                 margin-bottom: 0.5em;
+
+                html[data-theme=dark] & {
+                    filter: invert(1) grayscale(1) !important;
+                }
             }
             & ul {
                 align-content: left;
