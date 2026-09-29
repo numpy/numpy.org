@@ -1,10 +1,10 @@
-# type `make help` to see all options 
+# type `make help` to see all options
 
-BASEURL ?= 
+BASEURL ?=
 
 ifdef BASEURL
 	BASEURLARG=-b $(BASEURL)
-endif 
+endif
 
 .PHONY: help prepare teams-clean teams serve clean
 
@@ -41,8 +41,10 @@ serve-dev:
 	python gen_config.py
 	hugo $(BASEURLARG) --printI18nWarnings server --buildDrafts --disableFastRender --poll 1000ms
 
+PAGEFIND = npx --yes pagefind@1.5.2 --site public
 html: prepare ## build the website in ./public
 	hugo $(BASEURLARG)
+	$(PAGEFIND)
 
 clean: ## remove the build artifacts, mainly the "public" directory
 	rm -rf public
