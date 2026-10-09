@@ -60,6 +60,9 @@ jobs:
           export PATH=$(pwd)/dart-sass:$PATH
           hugo --gc --minify
 
+      - name: Build search index
+        run: npx --yes pagefind@1.5.2 --site public
+
       - name: Deploy pages
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
