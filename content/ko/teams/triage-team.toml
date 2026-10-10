@@ -1,0 +1,279 @@
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/702934?u=a026c1b1117981cea46e56ba562f3e80dfa71329&v=4"'
+alt = 'Avatar of Andrew Nelson'
+{{< /image >}}
+Andrew Nelson'''
+link = 'https://github.com/andyfaff'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/1522319?v=4"'
+alt = 'Avatar of Anirudh Subramanian'
+{{< /image >}}
+Anirudh Subramanian'''
+link = 'https://github.com/anirudh2290'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/71486?u=cc88e2a4e4c6c496dcb9dd88cead5c0dab496c89&v=4"'
+alt = 'Avatar of Aaron Meurer'
+{{< /image >}}
+Aaron Meurer'''
+link = 'https://github.com/asmeurer'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/3813847?v=4"'
+alt = 'Avatar of Atsushi Sakai'
+{{< /image >}}
+Atsushi Sakai'''
+link = 'https://github.com/AtsushiSakai'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/6691888?v=4"'
+alt = 'Avatar of Ben Nathanson'
+{{< /image >}}
+Ben Nathanson'''
+link = 'https://github.com/bjnath'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/35413198?u=e67bd9ebc361fb207f914979d935fd1956eb626c&v=4"'
+alt = 'Avatar of Anne Bonner'
+{{< /image >}}
+Anne Bonner'''
+link = 'https://github.com/bonn0062'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/6788290?u=d9a388224b87d55106cb3e6199d02ebc1d8e0553&v=4"'
+alt = 'Avatar of Brigitta Sipőcz'
+{{< /image >}}
+Brigitta Sipőcz'''
+link = 'https://github.com/bsipocz'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/5476002?u=5352f057ef8cb5de29e4d2a9fa8b0d0f49580dc8&v=4"'
+alt = 'Avatar of carlkl'
+{{< /image >}}
+carlkl'''
+link = 'https://github.com/carlkl'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/11371428?u=9b425a337d076ec86b75ebc759724283f0970d9a&v=4"'
+alt = 'Avatar of Ryan C Cooper'
+{{< /image >}}
+Ryan C Cooper'''
+link = 'https://github.com/cooperrc'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/36567889?u=cbc76d558d375ebafd4a05a505f500eb94e00611&v=4"'
+alt = 'Avatar of ਗਗਨਦੀਪ ਸਿੰਘ (Gagandeep Singh)'
+{{< /image >}}
+ਗਗਨਦੀਪ ਸਿੰਘ (Gagandeep Singh)'''
+link = 'https://github.com/czgdp1807'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/2190658?u=b85e13f985d0bf87eeb3a7a146b61dcc9586019b&v=4"'
+alt = 'Avatar of Hameer Abbasi'
+{{< /image >}}
+Hameer Abbasi'''
+link = 'https://github.com/hameerabbasi'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/43481325?u=8c0c0adbf3f2efd2cce72951d3554064c7bbfce3&v=4"'
+alt = 'Avatar of Inessa Pawson'
+{{< /image >}}
+Inessa Pawson'''
+link = 'https://github.com/InessaPawson'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/8078968?v=4"'
+alt = 'Avatar of jbrockmendel'
+{{< /image >}}
+jbrockmendel'''
+link = 'https://github.com/jbrockmendel'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/30074037?u=c2549c85c82266302c71aef5c20446871323d91b&v=4"'
+alt = 'Avatar of Kai'
+{{< /image >}}
+Kai'''
+link = 'https://github.com/Kai-Striega'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/16046705?u=1bf01e87adb556503c1fe07789c194cc04d38490&v=4"'
+alt = 'Avatar of Yuji Kanagawa'
+{{< /image >}}
+Yuji Kanagawa'''
+link = 'https://github.com/kngwyu'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/22004158?u=2ebb3919ebaa3d7e0865ea5583032bc08bd0f526&v=4"'
+alt = 'Avatar of Kriti Singh'
+{{< /image >}}
+Kriti Singh'''
+link = 'https://github.com/kritisingh1'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/149655?u=249f7995c486de232c34e7970fbea505f518a1be&v=4"'
+alt = 'Avatar of Christopher Albert'
+{{< /image >}}
+Christopher Albert'''
+link = 'https://github.com/krystophny'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/20306270?u=235cdf82e88f76ba2f5f4c2d33fa392319c60ad1&v=4"'
+alt = 'Avatar of Lysandros Nikolaou'
+{{< /image >}}
+Lysandros Nikolaou'''
+link = 'https://github.com/lysnikolaou'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/34613774?u=61535ebfff07c68ea672cd8cd68c46187a38d3c1&v=4"'
+alt = 'Avatar of Meekail Zain'
+{{< /image >}}
+Meekail Zain'''
+link = 'https://github.com/Micky774'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/4933431?u=933e774277f53e83ebb3d58dab9851c801fbfacd&v=4"'
+alt = 'Avatar of Christopher Sidebottom'
+{{< /image >}}
+Christopher Sidebottom'''
+link = 'https://github.com/Mousius'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/8431159?u=179d05b307b027da3360c213fcf4f585e1c6d7b9&v=4"'
+alt = 'Avatar of Mateusz Sokół'
+{{< /image >}}
+Mateusz Sokół'''
+link = 'https://github.com/mtsokol'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/60316606?u=229ba03253068b0a4f206b0be08f7a9e76c832f1&v=4"'
+alt = 'Avatar of Mukulika'
+{{< /image >}}
+Mukulika'''
+link = 'https://github.com/Mukulikaa'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/6564007?u=e5fb962de792bbce925c0c94fb7a748803c8bfa0&v=4"'
+alt = 'Avatar of Noa Tamir'
+{{< /image >}}
+Noa Tamir'''
+link = 'https://github.com/noatamir'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/44766858?u=fcb771cdeac5320fa0c8f40db39c5afb071fdfb0&v=4"'
+alt = 'Avatar of Raghuveer Devulapalli'
+{{< /image >}}
+Raghuveer Devulapalli'''
+link = 'https://github.com/r-devulap'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/5890484?u=feb15a24e010a434ded00e41d8bd030a2cc31bdb&v=4"'
+alt = 'Avatar of shalz'
+{{< /image >}}
+shalz'''
+link = 'https://github.com/shaloo'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/55803680?u=bb727a0da1f33ed5f2feb58dc0333943430d2318&v=4"'
+alt = 'Avatar of Tina Oberoi'
+{{< /image >}}
+Tina Oberoi'''
+link = 'https://github.com/tinaoberoi'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/13260794?u=5421923c831b67c4ef290bbdeb31ebfbdd906abc&v=4"'
+alt = 'Avatar of Rakesh Vasudevan'
+{{< /image >}}
+Rakesh Vasudevan'''
+link = 'https://github.com/vrakesh'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/8103276?v=4"'
+alt = 'Avatar of Zijie (ZJ) Poh'
+{{< /image >}}
+Zijie (ZJ) Poh'''
+link = 'https://github.com/zjpoh'
