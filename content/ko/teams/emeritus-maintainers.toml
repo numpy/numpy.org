@@ -1,0 +1,89 @@
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/9040124?v=4"'
+alt = 'Avatar of Allan Haldane'
+{{< /image >}}
+Allan Haldane'''
+link = 'https://github.com/ahaldane'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/20568?v=4"'
+alt = 'Avatar of Ondřej Čertík'
+{{< /image >}}
+Ondřej Čertík'''
+link = 'https://github.com/certik'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/25111?v=4"'
+alt = 'Avatar of David Cournapeau'
+{{< /image >}}
+David Cournapeau'''
+link = 'https://github.com/cournape'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/3343990?v=4"'
+alt = 'Avatar of Jaime'
+{{< /image >}}
+Jaime'''
+link = 'https://github.com/jaimefrio'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/123428?v=4"'
+alt = 'Avatar of Jarrod Millman'
+{{< /image >}}
+Jarrod Millman'''
+link = 'https://github.com/jarrodmillman'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/542663?v=4"'
+alt = 'Avatar of Julian Taylor'
+{{< /image >}}
+Julian Taylor'''
+link = 'https://github.com/juliantaylor'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/399551?u=d4a592a0763568448a8eaa06b680ee9584a8c6e0&v=4"'
+alt = 'Avatar of Mark Wiebe'
+{{< /image >}}
+Mark Wiebe'''
+link = 'https://github.com/mwiebe'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/609896?u=935a2bf5f98be8c08d87eaac095f1f3bc3332490&v=4"'
+alt = 'Avatar of Nathaniel J. Smith'
+{{< /image >}}
+Nathaniel J. Smith'''
+link = 'https://github.com/njsmith'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars.githubusercontent.com/u/254880?v=4"'
+alt = 'Avatar of Travis E. Oliphant'
+{{< /image >}}
+Travis E. Oliphant'''
+link = 'https://github.com/teoliphant'
